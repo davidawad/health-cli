@@ -1,0 +1,8 @@
+# fsqlite 0.4.x enables unstable features on x86_64 and Windows targets, so
+# nightly is the default everywhere (same as biomarker-cli / genome-cli).
+# Apple Silicon macOS and aarch64 Linux also build on stable
+# (`cargo +stable build`); see docs/platforms.md in biomarker-cli.
+[toolchain]
+channel = "nightly"
+components = ["clippy", "rustfmt"]
+profile = "minimal"

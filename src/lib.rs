@@ -30,6 +30,7 @@ pub mod sshkey;
 pub mod store;
 pub mod util;
 pub mod vault;
+pub mod workbook;
 
 use clap::{CommandFactory, FromArgMatches};
 

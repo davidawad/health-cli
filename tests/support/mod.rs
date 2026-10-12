@@ -427,6 +427,33 @@ impl Env {
         self.path("test.db")
     }
 
+    /// Install stand-ins for `biomarker` and `genome` that print synthetic
+    /// `biomarker/v1` / `genome/v1` JSON.
+    #[cfg(unix)]
+    pub fn write_stubs(&self) {
+        use std::os::unix::fs::PermissionsExt;
+        let dir = self.path("bin");
+        std::fs::create_dir_all(&dir).unwrap();
+        for f in ["query.json", "markers.json", "kits.json", "summary.json"] {
+            std::fs::write(dir.join(f), stub_json(f)).unwrap();
+        }
+        let script = |first: &str, second: &str, a: &str, b: &str| {
+            format!(
+                "#!/bin/sh\ncase \"$1\" in\n  {first}) cat '{}' ;;\n  {second}) cat '{}' ;;\n  *) echo \"unexpected: $*\" >&2; exit 2 ;;\nesac\n",
+                dir.join(a).display(),
+                dir.join(b).display()
+            )
+        };
+        for (name, body) in [
+            ("biomarker", script("query", "marker", "query.json", "markers.json")),
+            ("genome", script("kits", "summary", "kits.json", "summary.json")),
+        ] {
+            let p = dir.join(name);
+            std::fs::write(&p, body).unwrap();
+            std::fs::set_permissions(&p, std::fs::Permissions::from_mode(0o755)).unwrap();
+        }
+    }
+
     pub fn workbook(&self) -> PathBuf {
         let p = self.path("Health Dashboard.xlsx");
         if !p.exists() {
@@ -447,6 +474,9 @@ impl Env {
             .env("HEALTH_TZ", "UTC")
             .env("HEALTH_KEY", TEST_KEY)
             .env("HEALTH_KEY_SOURCE", "env")
+            // Never reach the real sibling tools (and so real labs) from a test.
+            .env("HEALTH_BIOMARKER_CMD", self.path("bin/biomarker"))
+            .env("HEALTH_GENOME_CMD", self.path("bin/genome"))
             .env("NO_COLOR", "1");
         c
     }
@@ -474,4 +504,40 @@ impl Env {
         let wb = self.workbook();
         self.json(&["import", "xlsx", wb.to_str().unwrap()])
     }
+}
+
+/// Synthetic tool output per file name.
+#[cfg(unix)]
+fn stub_json(file: &str) -> String {
+    use serde_json::json;
+    let m = |marker: &str, name: &str, cat: &str, at: &str, v: f64, unit: &str, lo: Option<f64>, hi: Option<f64>| {
+        json!({"marker": marker, "marker_name": name, "category": cat, "taken_at": at, "qualifier": null, "value": v,
+               "unit": unit, "ref_low": lo, "ref_high": hi, "flag": "normal"})
+    };
+    let v = match file {
+        "query.json" => json!({"schema": "biomarker/v1", "kind": "measurements", "data": [
+            m("weight", "Weight", "body", "2024-01-01", 190.0, "lb", None, None),
+            m("weight", "Weight", "body", "2024-02-01", 186.5, "lb", None, None),
+            m("biological-age", "Biological Age", "body", "2024-02-01", 28.5, "years", None, None),
+            m("ldl-c", "LDL Cholesterol", "lipid", "2023-05-01", 131.0, "mg/dL", Some(0.0), Some(99.0)),
+            m("ldl-c", "LDL Cholesterol", "lipid", "2024-05-01", 96.0, "mg/dL", Some(0.0), Some(99.0)),
+            m("hdl-c", "HDL Cholesterol", "lipid", "2024-05-01", 55.0, "mg/dL", Some(39.0), None),
+            m("glucose", "Glucose", "metabolic", "2024-05-01", 88.0, "mg/dL", Some(70.0), Some(99.0)),
+            m("hba1c", "Hemoglobin A1c", "metabolic", "2023-05-01", 5.7, "%", Some(4.8), Some(5.6)),
+            m("wbc", "White Blood Cells", "cbc", "2023-05-01", 5.6, "10^3/uL", Some(3.4), Some(10.8)),
+        ]}),
+        "markers.json" => json!({"schema": "biomarker/v1", "kind": "markers", "data": [
+            {"slug": "wbc", "name": "White Blood Cells", "category": "cbc", "unit": "10^3/uL", "description": "synthetic note"},
+            {"slug": "ldl-c", "name": "LDL Cholesterol", "category": "lipid", "unit": "mg/dL", "description": null},
+            {"slug": "hdl-c", "name": "HDL Cholesterol", "category": "lipid", "unit": "mg/dL", "description": null},
+            {"slug": "glucose", "name": "Glucose", "category": "metabolic", "unit": "mg/dL", "description": null},
+            {"slug": "hba1c", "name": "Hemoglobin A1c", "category": "metabolic", "unit": "%", "description": null},
+        ]}),
+        "kits.json" => json!({"schema": "genome/v1", "kind": "kits", "data": [
+            {"id": "k1", "name": "synthetic-kit", "source_format": "23andme", "assay": "array", "build": "GRCh37", "records": 1000}]}),
+        _ => json!({"schema": "genome/v1", "kind": "summary", "data": [
+            {"kit": "k1", "records": 1000, "no_calls": 5, "het": 300, "hom_alt": 0, "hemizygous": 20,
+             "by_chrom": {"1": 80, "2": 70, "X": 20}, "sex": {"call": "male"}}]}),
+    };
+    v.to_string()
 }

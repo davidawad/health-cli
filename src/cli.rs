@@ -171,6 +171,9 @@ pub struct SheetArgs {
     /// Output workbook (default: the sheet_out setting, outside the repo). Never the original workbook.
     #[arg(long, value_name = "FILE")]
     pub out: Option<PathBuf>,
+    /// Overwrite an existing file whose name does not contain "(generated)"
+    #[arg(long)]
+    pub force: bool,
     /// Skip the lab sheets (do not run `biomarker`)
     #[arg(long)]
     pub no_labs: bool,

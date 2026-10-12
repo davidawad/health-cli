@@ -96,6 +96,33 @@ output is the `health/v1` envelope ([`docs/json-schema.md`](docs/json-schema.md)
 Exit codes: 0 ok, 1 error, 2 usage, 3 not found, 4 invalid data, 5 database,
 6 io, 7 config, 8 key.
 
+## The generated workbook
+
+`health sheet [--out FILE]` rebuilds every sheet of the original workbook from the
+store, plus the lab sheets from `biomarker query -p <person> --units us --format json`
+and the Genetics sheet from `genome kits|summary --format json` (both optional: a
+missing tool only drops its sheets, with a warning). The default output is
+`~/desk/Personal/Medical/Health Dashboard (generated).xlsx` (setting `sheet_out`),
+never the original; an existing file is only replaced when its name contains
+`(generated)` (or with `--force`). The file is plaintext by nature, written mode 0600.
+
+* Excel-native formulas only: `$/yr`, weekly dose per weekday (a lookup over a hidden
+  frequency map), ages, BMI, totals, "qualifying meal", cost shares. No `FILTER` or
+  `__xludf.DUMMYFUNCTION`.
+* Real Excel tables, drop-downs for YES/NO, type, frequency, time, stance, step type,
+  conditional formats (out-of-range labs against each row's reference low/high, BMI
+  readout, time of day, evidence stance), and charts (weight, BMI, ages, cholesterol,
+  glucose, A1c, weekly supplement breakdown, cost breakdown, protocols, genome).
+* Section headings of the old sheets are a `Category` column in real tables.
+* New views beyond the original: `Evidence`, `Protocols`, `Costs`, and a hidden `Lists`.
+  `health sheet --list` names every sheet; `--only a,b` builds a subset.
+  Add your own in one module and one registry line: [`docs/adding-a-view.md`](docs/adding-a-view.md).
+
+Differences from the legacy workbook (documented, deliberate): `Vitals (Whoop)` (empty) and
+`Bryans Biomarkers` (hidden) are not generated; the Biomarkers `Control` column and the
+Weight & Age calories/protein-intake columns have no source in biomarker-cli; Genetics shows
+kit counts instead of 23,000 SNPedia annotation rows (genome-cli stores genotypes only).
+
 ## Security
 
 Same design as biomarker-cli: [`docs/security.md`](docs/security.md).

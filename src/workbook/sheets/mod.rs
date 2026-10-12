@@ -32,7 +32,7 @@ pub mod workout;
 
 /// Every sheet module, in tab order.
 pub fn registry() -> Vec<Box<dyn SheetModule>> {
-    vec![
+    let mut reg: Vec<Box<dyn SheetModule>> = vec![
         Box::new(dashboard::Dashboard),
         Box::new(biomarkers::Biomarkers),
         Box::new(weight_age::WeightAge),
@@ -54,7 +54,12 @@ pub fn registry() -> Vec<Box<dyn SheetModule>> {
         // Infrastructure sheets, written last (phase 1) so they list what every module registered.
         Box::new(crate::infra::params::ParamsSheet),
         Box::new(crate::infra::kpi::KpiSheet),
-    ]
+    ];
+    // The shared data layer: Ref_* lookups, Data_* tables, Calc_* formulas.
+    reg.extend(crate::infra::refs::modules());
+    reg.extend(crate::infra::data::modules());
+    reg.extend(crate::infra::calc::modules());
+    reg
 }
 
 // ---------------------------------------------------------- write helpers

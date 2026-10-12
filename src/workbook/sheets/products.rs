@@ -58,7 +58,7 @@ impl SheetModule for Products {
     }
     fn build(&self, ws: &mut Worksheet, cx: &Cx) -> Result<()> {
         let (d, f) = (cx.d, cx.f);
-        add_table(ws, "tblProducts", 0, 0, &HEADERS, d.products.len(), TableStyle::Medium9)?;
+        add_table(ws, "tblViewProducts", 0, 0, &HEADERS, d.products.len(), TableStyle::Medium9)?;
         for (i, p) in d.products.iter().enumerate() {
             let r = 1 + i as u32;
             let x = r + 1;

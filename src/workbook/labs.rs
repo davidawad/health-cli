@@ -23,6 +23,12 @@ pub struct Measurement {
     pub ref_low: Option<f64>,
     pub ref_high: Option<f64>,
     pub flag: Option<String>,
+    pub value_raw: Option<f64>,
+    pub unit_raw: String,
+    pub lab: Option<String>,
+    pub fasting: Option<bool>,
+    pub opt_low: Option<f64>,
+    pub opt_high: Option<f64>,
 }
 
 #[derive(Debug, Clone)]
@@ -36,7 +42,10 @@ pub struct MarkerInfo {
 
 #[derive(Debug, Clone, Default)]
 pub struct Labs {
+    /// In US units (`--units us`): what the legacy sheets show (weight in lb).
     pub measurements: Vec<Measurement>,
+    /// In canonical units (biomarker's default): what the `Data_*` tables carry.
+    pub canonical: Vec<Measurement>,
     pub markers: Vec<MarkerInfo>,
 }
 
@@ -124,6 +133,12 @@ pub fn parse_measurements(json: &str) -> Result<Vec<Measurement>> {
                 ref_low: r["ref_low"].as_f64(),
                 ref_high: r["ref_high"].as_f64(),
                 flag: text(r, "flag"),
+                value_raw: r["value_raw"].as_f64(),
+                unit_raw: text(r, "unit_raw").unwrap_or_default(),
+                lab: text(r, "lab"),
+                fasting: r["fasting"].as_bool(),
+                opt_low: r["opt_low"].as_f64(),
+                opt_high: r["opt_high"].as_f64(),
             })
         })
         .map(Ok)
@@ -198,8 +213,9 @@ fn run(cmd: &str, args: &[&str]) -> Result<String> {
 /// catalog (names, descriptions). Weights come back in lb, labs in US units.
 pub fn fetch_labs(cmd: &str, person: &str) -> Result<Labs> {
     let q = run(cmd, &["query", "-p", person, "--units", "us", "--format", "json"])?;
+    let c = run(cmd, &["query", "-p", person, "--format", "json"])?;
     let m = run(cmd, &["marker", "list", "--format", "json"])?;
-    Ok(Labs { measurements: parse_measurements(&q)?, markers: parse_markers(&m)? })
+    Ok(Labs { measurements: parse_measurements(&q)?, canonical: parse_measurements(&c)?, markers: parse_markers(&m)? })
 }
 
 /// `genome kits` + `genome summary` (counts only; genotypes stay in genome-cli).
@@ -218,7 +234,7 @@ mod tests {
 
     #[test]
     fn parses_measurements_and_series() {
-        let labs = Labs { measurements: parse_measurements(Q).unwrap(), markers: vec![] };
+        let labs = Labs { measurements: parse_measurements(Q).unwrap(), ..Labs::default() };
         assert_eq!(labs.measurements.len(), 3);
         let s = labs.series("ldl-c");
         assert_eq!(s.iter().map(|m| m.value).collect::<Vec<_>>(), [100.0, 124.0], "oldest first");

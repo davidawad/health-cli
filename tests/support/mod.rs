@@ -543,15 +543,18 @@ fn stub_json(file: &str) -> String {
     use serde_json::json;
     let m = |marker: &str, name: &str, cat: &str, at: &str, v: f64, unit: &str, lo: Option<f64>, hi: Option<f64>| {
         json!({"marker": marker, "marker_name": name, "category": cat, "taken_at": at, "qualifier": null, "value": v,
-               "unit": unit, "ref_low": lo, "ref_high": hi, "flag": "normal"})
+               "unit": unit, "ref_low": lo, "ref_high": hi, "flag": "normal", "value_raw": v, "unit_raw": unit,
+               "opt_low": null, "opt_high": null, "lab": null, "fasting": null})
     };
+    let mut ldl_latest = m("ldl-c", "LDL Cholesterol", "lipid", "2024-05-01", 96.0, "mg/dL", Some(0.0), Some(99.0));
+    ldl_latest["opt_high"] = json!(70.0);
     let v = match file {
         "query.json" => json!({"schema": "biomarker/v1", "kind": "measurements", "data": [
             m("weight", "Weight", "body", "2024-01-01", 190.0, "lb", None, None),
             m("weight", "Weight", "body", "2024-02-01", 186.5, "lb", None, None),
             m("biological-age", "Biological Age", "body", "2024-02-01", 28.5, "years", None, None),
             m("ldl-c", "LDL Cholesterol", "lipid", "2023-05-01", 131.0, "mg/dL", Some(0.0), Some(99.0)),
-            m("ldl-c", "LDL Cholesterol", "lipid", "2024-05-01", 96.0, "mg/dL", Some(0.0), Some(99.0)),
+            ldl_latest,
             m("hdl-c", "HDL Cholesterol", "lipid", "2024-05-01", 55.0, "mg/dL", Some(39.0), None),
             m("glucose", "Glucose", "metabolic", "2024-05-01", 88.0, "mg/dL", Some(70.0), Some(99.0)),
             m("hba1c", "Hemoglobin A1c", "metabolic", "2023-05-01", 5.7, "%", Some(4.8), Some(5.6)),

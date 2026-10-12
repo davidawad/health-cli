@@ -37,7 +37,7 @@ impl SheetModule for Vaccines {
     }
     fn build(&self, ws: &mut Worksheet, cx: &Cx) -> Result<()> {
         let (d, f) = (cx.d, cx.f);
-        add_table(ws, "tblVaccines", 0, 0, &HEADERS, d.vaccines.len(), TableStyle::Medium9)?;
+        add_table(ws, "tblViewVaccines", 0, 0, &HEADERS, d.vaccines.len(), TableStyle::Medium9)?;
         for (i, v) in d.vaccines.iter().enumerate() {
             let r = 1 + i as u32;
             let x = r + 1;

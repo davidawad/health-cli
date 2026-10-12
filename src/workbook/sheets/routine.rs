@@ -24,7 +24,7 @@ impl SheetModule for Routine {
         let n = d.routine.len();
         add_table(
             ws,
-            "tblRoutine",
+            "tblViewRoutine",
             0,
             0,
             &["Routine", "Step", "Time for effect", "Execution Time (s)", "Type", "Notes"],

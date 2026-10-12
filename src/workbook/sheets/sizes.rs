@@ -22,7 +22,7 @@ impl SheetModule for Sizes {
         let (d, f) = (cx.d, cx.f);
         add_table(
             ws,
-            "tblSizes",
+            "tblViewSizes",
             0,
             0,
             &["Category", "Name", "Imperial (in)", "Unit", "Metric (cm)", "Note"],

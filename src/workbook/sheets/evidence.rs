@@ -23,7 +23,7 @@ impl SheetModule for Evidence {
     fn build(&self, ws: &mut Worksheet, cx: &Cx) -> Result<()> {
         let (d, f) = (cx.d, cx.f);
         let headers = ["Supplement", "Stance", "URL", "kd Work", "Title", "Note", "Added"];
-        add_table(ws, "tblEvidence", 0, 0, &headers, d.evidence.len(), TableStyle::Medium2)?;
+        add_table(ws, "tblViewEvidence", 0, 0, &headers, d.evidence.len(), TableStyle::Medium2)?;
         for (i, e) in d.evidence.iter().enumerate() {
             let r = 1 + i as u32;
             let name = e

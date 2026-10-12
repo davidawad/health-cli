@@ -18,9 +18,12 @@
 //! * KPIs: a workstream publishes at most [`kpi::MAX_PER_WORKSTREAM`] cells named
 //!   `K_<ws>_<name>`; the global dashboard reads only those names.
 
+pub mod calc;
+pub mod data;
 pub mod kpi;
 pub mod names;
 pub mod params;
+pub mod refs;
 pub mod theme;
 
 use std::cell::RefCell;

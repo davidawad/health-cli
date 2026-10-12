@@ -27,7 +27,7 @@ impl SheetModule for Workout {
         let names: Vec<String> = (1..=width).map(|i| format!("Alternative {i}")).collect();
         let mut headers = vec!["Exercise (30 reps each)", "Muscle(s)"];
         headers.extend(names.iter().map(String::as_str));
-        add_table(ws, "tblWorkout", 0, 0, &headers, d.exercises.len(), TableStyle::Medium9)?;
+        add_table(ws, "tblViewWorkout", 0, 0, &headers, d.exercises.len(), TableStyle::Medium9)?;
         for (i, e) in d.exercises.iter().enumerate() {
             let r = 1 + i as u32;
             put_str(ws, r, 0, e.s("name"))?;

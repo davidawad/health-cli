@@ -34,6 +34,38 @@ const SHEETS: &[&str] = &[
     "Lists",
     "Params",
     "Ref_KPI",
+    "Ref_Systems",
+    "Ref_Units",
+    "Ref_Stance",
+    "Ref_TimeSlots",
+    "Ref_Hallmarks",
+    "Ref_SENS",
+    "Ref_Mechanisms",
+    "Ref_Direction",
+    "Data_Labs",
+    "Data_Markers",
+    "Data_Panels",
+    "Data_Daily",
+    "Data_Wearable",
+    "Data_Supp",
+    "Data_Products",
+    "Data_Nutrition",
+    "Data_Routine",
+    "Data_Workout",
+    "Data_Vax",
+    "Data_Phys",
+    "Data_Providers",
+    "Data_Sizes",
+    "Data_Resources",
+    "Data_Evidence",
+    "Data_Genome",
+    "Data_Profile",
+    "Data_SuppTags",
+    "Data_Regimes",
+    "Data_SuppIngredients",
+    "Calc_Labs",
+    "Calc_Marker",
+    "Calc_Panel",
 ];
 
 fn generate(e: &Env) -> PathBuf {
@@ -259,7 +291,9 @@ fn has_tables_validation_conditional_formats_and_charts() {
     sorted.sort();
     sorted.dedup();
     assert_eq!(sorted.len(), names.len(), "table names are unique: {names:?}");
-    for t in ["tblSupplements", "tblProducts", "tblBiomarkers", "tblWeightAge", "tblNutrition", "tblWeeklyDose"] {
+    for t in
+        ["tblViewSupplements", "tblViewProducts", "tblBiomarkers", "tblWeightAge", "tblViewNutrition", "tblWeeklyDose"]
+    {
         assert!(names.iter().any(|n| n == t), "{t} in {names:?}");
     }
     // Supplements (index 5): YES/NO, type and frequency drop-downs.
@@ -388,8 +422,13 @@ fn infrastructure_sheets_expose_params_names_and_kpis() {
     let sheet = sheet_xml(&p, SHEETS.iter().position(|s| *s == "Params").unwrap());
     assert!(sheet.contains("<dataValidation ") && sheet.contains("decimal") && sheet.contains("UNVERIFIED"));
     let k = wb.worksheet_range("Ref_KPI").unwrap();
-    assert_eq!(text(&k, 1, 0), "K_INFRA_n_params");
-    assert!(wb.worksheet_formula("Ref_KPI").unwrap().get_value((1, 3)).unwrap().starts_with("COUNTA(Params!$A$2:$A$"));
+    let row = (1..k.height() as u32).find(|r| text(&k, *r, 0) == "K_INFRA_n_params").expect("infra KPI listed");
+    assert!(wb
+        .worksheet_formula("Ref_KPI")
+        .unwrap()
+        .get_value((row, 3))
+        .unwrap()
+        .starts_with("COUNTA(Params!$A$2:$A$"));
 }
 
 #[test]

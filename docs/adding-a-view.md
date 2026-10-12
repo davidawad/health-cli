@@ -72,4 +72,65 @@ Nothing here is edited by a view's author.
   module list (see `workbook::tests`). `tests/recalc.rs` recalculates the generated workbook in
   headless LibreOffice and fails on any formula error; run it after adding formulas.
 
-Not built here (planned data/calc layers): `Data_*`/`Calc_*` sheets, `tblLabs`-style long tables.
+## The shared data layer: read it, do not rebuild it
+
+Every build writes three layers (code: `src/infra/data.rs`, `refs.rs`, `calc.rs`). Views read
+them by table / column / defined name; they never re-fetch labs or rebuild lab statistics.
+
+**`Data_*` sheets: one Excel Table each, long format, written by Rust.** Table (sheet) -> columns:
+
+| table | rows | columns |
+|---|---|---|
+| `tblLabs` (`Data_Labs`) | every measurement, by date then marker | `panel_date, panel_id, marker_id, value_raw, unit_raw, value, lab, method, fasting` |
+| `tblMarkers` | every catalog marker, measured-but-uncatalogued ones, plus `uacr` | `marker_id, name, system, unit, ref_lo, ref_hi, opt_lo, opt_hi, blueprint_lo, blueprint_hi, dir, critical_lo, critical_hi, weight, cvi, cva` |
+| `tblPanels` | one per lab-draw date | `panel_id, date, age_at_draw, lab, fasting, weight_at_panel, n_markers` |
+| `tblDaily` | one per date with weight or intake | `date, weight, kcal, protein_g, energy_out_kcal, other` |
+| `tblWearable` | empty (placeholder) | `date, hrv, rhr, recovery, strain, sleep_hours, sleep_efficiency, sleep_deep_h, sleep_rem_h` |
+| `tblSupp`, `tblProducts`, `tblNutrition`, `tblRoutine`, `tblWorkout`, `tblVax`, `tblPhys`, `tblProviders`, `tblSizes`, `tblResources`, `tblEvidence` | the store's tables | see `TableDef.headers` in `data.rs` |
+| `tblGenome` | empty (placeholder) | `rsid, gene, k1_genotype, k2_genotype, concordant` |
+| `tblProfile` | one row of formulas | `DOB, sex, height_cm, ancestry` |
+| `tblSuppTags` | one blank row per supplement, user-owned | `supp_id, name, h_* (9 hallmarks), s_* (7 SENS), m_* (10 mechanism loadings 0-3), indirectness, rung, evidence_grade` |
+| `tblRegimes`, `tblSuppIngredients` | empty (placeholders) | see `data.rs` |
+
+Facts to rely on:
+* `tblLabs.panel_id` is `P<yyyymmdd>` and blank for body / vitals measurements (weight, BMI, biological age);
+  `tblPanels` lists lab draws only.
+* **Units:** `tblLabs.value` and the `tblMarkers` bounds are canonical units (weight in kg). `tblDaily.weight` and
+  `tblPanels.weight_at_panel` are **pounds**, as in the legacy `Weight & Age`. `Ref_Units` has the conversion factor
+  per marker and raw unit.
+* Booleans are the strings `YES` / `NO` (blank = unknown). Dates are real Excel dates.
+* `tblMarkers.dir`: `hi` (an upper bound matters), `lo`, `band`; blank when the marker has no range.
+  `critical_*`, `blueprint_*`, `weight`, `cvi`, `cva` are blank until someone fills them from a source.
+* Lab tables and `Calc_*` exist only when `biomarker` answered; without it they are absent, so guard views with
+  `SheetModule::available` (`d.labs.is_some()`).
+* `tblSupp.start_date` / `stop_date` exist but are empty (the store does not track them yet): GATE-DATES views degrade to
+  placeholders with `theme::awaiting`.
+
+**Reading a table.** In Rust, get ranges from the table definition so a moved column cannot break you:
+
+```rust
+use crate::infra::data::{LABS, MARKERS};
+let n = LABS.nrows(cx.d);                          // data rows (at least 1)
+let marker = LABS.range_n(n, "marker_id");         // Data_Labs!$C$2:$C$749
+let value  = LABS.range_n(n, "value");
+ws.write_formula(r, c, Formula::new(format!("=AVERAGEIFS({value},{marker},$A2)")))?;
+```
+Structured references (`=SUM(tblLabs[value])`) also work in Excel and in the LibreOffice recalculation test.
+
+**`Calc_*` sheets: formulas only, read these instead of recomputing.**
+* `Calc_Labs` (row-aligned with `tblLabs`): `panel_id, marker_id, value, mrow, ref_lo, ref_hi, opt_lo, opt_hi, in_ref, in_opt, status`.
+* `Calc_Marker` (row-aligned with `tblMarkers`): `marker_id, n, first_date, last_date, last, previous, mean, sd, median, min, max,
+  slope_per_year, dir_sign, status, z_latest, distance, pct_in_opt, pct_in_ref, days_since_last`.
+* `Calc_Panel` (row-aligned with `tblPanels`): `panel_id, date, age, n_measured, pct_in_ref, pct_in_opt`.
+* Status code: 0 optimal, 1 reference-ok but not optimal, 2 out of reference, 3 beyond critical. A marker with no optimal range
+  is optimal when inside its reference. Calc assumes at most one value per marker and day.
+* Names: `N_Panels`, `Latest_Panel`, `Prev_Panel`, plus KPIs `K_DATA_n_panels`, `K_DATA_latest_panel`, `K_DATA_n_measurements`.
+  Row-aligned means: to read marker `m`, `INDEX(Calc_Marker!$E$2:$E$n, MATCH(m, Calc_Marker!$A$2:$A$n, 0))`.
+
+**`Ref_*` lookups (tables, `tblRef*`):** `Ref_Systems` (marker -> organ system), `Ref_Units`, `Ref_Stance` (supporting 1 / neutral 0 / warning -1,
+heuristic), `Ref_TimeSlots`, `Ref_Hallmarks` (9), `Ref_SENS` (7), `Ref_Mechanisms` (10), `Ref_Direction`. The hallmark and SENS lists are
+**UNVERIFIED** (typed from memory; the source column says what to check them against). Rule tables you own (vaccine, screening,
+interaction, GRADE, UL/DRI, PGx allele) must use the columns in `refs::RULE_HEADERS`: `id, rule, value, unit, source, source_state, note`.
+
+**Adding a table or column.** Add a `TableDef` (and a row builder) in `data.rs` and list it in `data::all()`; do not create a second
+copy of an entity in your own module. Table names must be unique across the workbook (the display sheets use `tblView*`).

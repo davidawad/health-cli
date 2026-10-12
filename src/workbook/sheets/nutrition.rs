@@ -74,7 +74,7 @@ impl SheetModule for Nutrition {
         let (d, f) = (cx.d, cx.f);
         let n = d.nutrition.len();
         let last = FIRST_ROW + n.max(1) as u32 - 1;
-        add_table(ws, "tblNutrition", 5, 0, &HEADERS, n, TableStyle::Medium2)?;
+        add_table(ws, "tblViewNutrition", 5, 0, &HEADERS, n, TableStyle::Medium2)?;
 
         // Targets block (rows 1-4).
         ws.write_string_with_format(0, 0, "Targets", &f.header)?;

@@ -95,7 +95,7 @@ impl SheetModule for Supplements {
     }
     fn build(&self, ws: &mut Worksheet, cx: &Cx) -> Result<()> {
         let (d, f) = (cx.d, cx.f);
-        add_table(ws, "tblSupplements", 0, 0, &HEADERS, d.supplements.len(), TableStyle::Medium9)?;
+        add_table(ws, "tblViewSupplements", 0, 0, &HEADERS, d.supplements.len(), TableStyle::Medium9)?;
         for (i, s) in d.supplements.iter().enumerate() {
             let r = 1 + i as u32;
             let x = r + 1; // Excel row

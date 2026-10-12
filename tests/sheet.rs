@@ -111,7 +111,15 @@ fn sheet_xml(p: &[(String, String)], index: usize) -> &str {
 fn opens_with_every_sheet_in_order() {
     let e = Env::new();
     let wb = open(&generate(&e));
-    assert_eq!(wb.sheet_names(), SHEETS);
+    // Workstream views (`Sup_*`, ...) and the rule tables they own are checked by their
+    // own test files (`tests/sheet_<prefix>.rs`); the shared sheets keep their order.
+    let names = wb.sheet_names();
+    let shared: Vec<&String> = names.iter().filter(|n| SHEETS.contains(&n.as_str())).collect();
+    assert_eq!(shared, SHEETS);
+    let workstream = ["Lab_", "Cln_", "Sup_", "Age_", "Bod_", "Gen_", "Sch_", "Ref_"];
+    for n in names.iter().filter(|n| !SHEETS.contains(&n.as_str())) {
+        assert!(workstream.iter().any(|p| n.starts_with(p)), "{n}: unexpected sheet");
+    }
 }
 
 #[test]

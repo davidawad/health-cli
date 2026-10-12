@@ -25,6 +25,7 @@ pub mod protocols;
 pub mod resources;
 pub mod routine;
 pub mod sizes;
+pub mod sup;
 pub mod supplements;
 pub mod vaccines;
 pub mod weight_age;
@@ -59,6 +60,7 @@ pub fn registry() -> Vec<Box<dyn SheetModule>> {
     reg.extend(crate::infra::refs::modules());
     reg.extend(crate::infra::data::modules());
     reg.extend(crate::infra::calc::modules());
+    reg.extend(sup::modules());
     reg
 }
 

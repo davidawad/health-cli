@@ -32,6 +32,13 @@ const SHEETS: &[&str] = &[
     "Protocols",
     "Costs",
     "Lists",
+    "Lab_Tear",
+    "Lab_Stats",
+    "Lab_Change",
+    "Lab_Quilt",
+    "Lab_Exp",
+    "Lab_Ranges",
+    "Lab_Long",
     "Params",
     "Ref_KPI",
     "Ref_Systems",
@@ -106,6 +113,8 @@ fn part<'a>(parts: &'a [(String, String)], name: &str) -> &'a str {
 fn sheet_xml(p: &[(String, String)], index: usize) -> &str {
     part(p, &format!("xl/worksheets/sheet{}.xml", index + 1))
 }
+
+/// Prefixes of the workstream sheets (tested in `tests/sheet_<prefix>.rs`).
 
 #[test]
 fn opens_with_every_sheet_in_order() {

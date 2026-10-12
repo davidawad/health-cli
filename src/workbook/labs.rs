@@ -11,7 +11,7 @@ use serde_json::Value;
 
 use crate::error::{AppError, Result};
 
-#[derive(Debug, Clone)]
+#[derive(Debug, Clone, Default)]
 pub struct Measurement {
     pub marker: String,
     pub name: String,

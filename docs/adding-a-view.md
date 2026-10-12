@@ -20,6 +20,9 @@ modules except the data and the formats in [`Cx`](../src/workbook/mod.rs).
 2. Declare `pub mod <name>;` and add `Box::new(<name>::MyView)` to
    `registry()` in `src/workbook/sheets/mod.rs` (the registry order is the tab order).
    A unit test there checks ids and titles are unique and valid for Excel.
+   A workstream with several sheets keeps them in `sheets/<prefix>/` with its own
+   `mod.rs` exposing `modules()`, and adds one `reg.extend(<prefix>::modules());` line
+   (see `sheets/lab/`).
 
 3. Rules of the house:
    * **Excel-native formulas only.** No `FILTER`, `QUERY`, `ARRAYFORMULA`,

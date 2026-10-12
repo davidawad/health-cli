@@ -12,11 +12,14 @@ use crate::error::Result;
 use crate::output::Record;
 use crate::store::Rec;
 
+pub mod age;
 pub mod biomarkers;
+pub mod cln;
 pub mod costs;
 pub mod dashboard;
 pub mod evidence;
 pub mod genetics;
+pub mod lab;
 pub mod lists;
 pub mod nutrition;
 pub mod physicals;
@@ -52,15 +55,22 @@ pub fn registry() -> Vec<Box<dyn SheetModule>> {
         Box::new(protocols::Protocols),
         Box::new(costs::Costs),
         Box::new(lists::Lists),
-        // Infrastructure sheets, written last (phase 1) so they list what every module registered.
-        Box::new(crate::infra::params::ParamsSheet),
-        Box::new(crate::infra::kpi::KpiSheet),
     ];
+    // Workstream sheet groups (one line each).
+    reg.extend(lab::modules());
+    // Infrastructure sheets, written last (phase 1) so they list what every module registered.
+    reg.extend([
+        Box::new(crate::infra::params::ParamsSheet) as Box<dyn SheetModule>,
+        Box::new(crate::infra::kpi::KpiSheet),
+    ]);
+    // Workstream W4 (AGE): aging clocks, longevity frameworks, fitness.
+    reg.extend(age::modules());
     // The shared data layer: Ref_* lookups, Data_* tables, Calc_* formulas.
     reg.extend(crate::infra::refs::modules());
     reg.extend(crate::infra::data::modules());
     reg.extend(crate::infra::calc::modules());
     reg.extend(sup::modules());
+    reg.extend(cln::modules());
     reg
 }
 

@@ -32,6 +32,8 @@ const SHEETS: &[&str] = &[
     "Protocols",
     "Costs",
     "Lists",
+    "Params",
+    "Ref_KPI",
 ];
 
 fn generate(e: &Env) -> PathBuf {
@@ -224,9 +226,18 @@ fn labs_come_from_biomarker_json() {
     assert_eq!(text(&r, ldl, 4), "0-99");
     // Weight & Age: weight and biological age, one row per measured date.
     let w = wb.worksheet_range("Weight & Age").unwrap();
-    assert_eq!(w.height(), 3, "header + the two dates with a weight or biological age");
+    assert_eq!(w.height(), 4, "header + dates with a weight, a biological age or an intake entry");
     assert_eq!(text(&w, 1, 1), "190");
-    assert_eq!(text(&w, 2, 3), "28.5");
+    assert_eq!(text(&w, 3, 3), "28.5");
+    // Intake comes from the store (imported from the workbook), not from biomarker.
+    assert_eq!((text(&w, 1, 7), text(&w, 1, 8), text(&w, 1, 9)), ("1500".into(), "2200".into(), "120".into()));
+    assert_eq!(text(&w, 2, 7), "1400");
+    let wf = wb.worksheet_formula("Weight & Age").unwrap();
+    assert_eq!(wf.get_value((1, 10)).unwrap(), "IF(AND(ISNUMBER(J2),ISNUMBER(G2)),J2/G2,\"\")");
+    assert_eq!(
+        wf.get_value((2, 11)).unwrap(),
+        "IF(AND(ISNUMBER(B2),ISNUMBER(H2),ISNUMBER(I2)),B2-((I2-H2)/3500),\"\")"
+    );
     // Genetics: counts per kit, never genotypes.
     let g = wb.worksheet_range("Genetics").unwrap();
     assert_eq!(text(&g, 1, 1), "synthetic-kit");
@@ -305,7 +316,11 @@ fn only_restricts_the_sheets_and_list_names_them() {
     e.import();
     let out = e.path("part (generated).xlsx");
     e.run(&["sheet", "--out", out.to_str().unwrap(), "--only", "supplements,lists"]);
-    assert_eq!(open(&out).sheet_names(), ["Supplements", "Lists"]);
+    assert_eq!(
+        open(&out).sheet_names(),
+        ["Supplements", "Lists", "Params", "Ref_KPI"],
+        "infra sheets always come along"
+    );
     e.cmd().args(["sheet", "--only", "nope", "--out", out.to_str().unwrap()]).assert().failure().code(2);
     let list = e.json(&["sheet", "--list"]);
     let ids: Vec<&str> = list["data"].as_array().unwrap().iter().map(|s| s["id"].as_str().unwrap()).collect();
@@ -337,4 +352,51 @@ fn the_default_output_path_is_a_setting() {
     let res = e.cmd().env("HEALTH_SHEET_OUT", &out).args(["sheet"]).output().unwrap();
     assert!(res.status.success(), "{}", String::from_utf8_lossy(&res.stderr));
     assert!(out.exists());
+}
+
+#[test]
+fn infrastructure_sheets_expose_params_names_and_kpis() {
+    let e = Env::new();
+    let out = generate(&e);
+    let p = parts(&out);
+    let wbx = part(&p, "xl/workbook.xml");
+    for n in [
+        "Today",
+        "DOB",
+        "Height_in",
+        "Height_cm",
+        "Half_Life_days",
+        "RCV_z",
+        "Sel_Marker",
+        "K_INFRA_n_params",
+        "K_INFRA_n_unverified",
+    ] {
+        assert!(wbx.contains(&format!("definedName name=\"{n}\"")), "{n} not defined");
+    }
+    let mut wb = open(&out);
+    let r = wb.worksheet_range("Params").unwrap();
+    assert_eq!(
+        (0..8).map(|c| text(&r, 0, c)).collect::<Vec<_>>(),
+        ["name", "value", "unit", "state", "source", "note", "min", "max"]
+    );
+    let rows: Vec<Vec<String>> = (1..r.height() as u32).map(|i| (0..6).map(|c| text(&r, i, c)).collect()).collect();
+    let pheno = rows.iter().find(|r| r[0] == "PhenoAge_gamma").unwrap();
+    assert_eq!((pheno[3].as_str(), pheno[4].as_str()), ("UNVERIFIED", "pending: Levine 2018 (PhenoAge)"));
+    let rcv = rows.iter().find(|r| r[0] == "RCV_z").unwrap();
+    assert_eq!((rcv[1].as_str(), rcv[3].as_str()), ("1.96", "verified"));
+    // Limits are enforced by validation; UNVERIFIED rows are highlighted.
+    let sheet = sheet_xml(&p, SHEETS.iter().position(|s| *s == "Params").unwrap());
+    assert!(sheet.contains("<dataValidation ") && sheet.contains("decimal") && sheet.contains("UNVERIFIED"));
+    let k = wb.worksheet_range("Ref_KPI").unwrap();
+    assert_eq!(text(&k, 1, 0), "K_INFRA_n_params");
+    assert!(wb.worksheet_formula("Ref_KPI").unwrap().get_value((1, 3)).unwrap().starts_with("COUNTA(Params!$A$2:$A$"));
+}
+
+#[test]
+fn workstream_tabs_use_their_theme_colour_and_infra_tabs_are_grey() {
+    let e = Env::new();
+    let p = parts(&generate(&e));
+    let n = SHEETS.iter().position(|s| *s == "Params").unwrap();
+    assert!(sheet_xml(&p, n).contains("<tabColor"), "Params tab is coloured");
+    assert!(sheet_xml(&p, 0).contains("<tabColor"), "Dashboard tab is coloured");
 }

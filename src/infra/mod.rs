@@ -1,0 +1,44 @@
+//! Shared infrastructure for the workbook's sheet modules: the style theme,
+//! the defined-name registry, the Parameters sheet and the KPI registry.
+//!
+//! Sheet modules never write defined names, parameters or KPI cells directly;
+//! they register them on [`Shared`] (reachable as `cx.shared`) while they
+//! build. Registration is checked: a duplicate name, an invalid name or a
+//! parameter registered twice fails the build, so parallel workstreams cannot
+//! silently collide. The `Params` and `Ref_KPI` sheets are written last
+//! ([`SheetModule::phase`](crate::workbook::SheetModule::phase) 1) so they see
+//! everything the other modules registered.
+//!
+//! Conventions
+//! * Sheet-name prefixes: `Data_`, `Calc_`, `Ref_`, `Params`, plus one prefix per workstream
+//!   (see [`theme::tab_color`]).
+//! * Parameters: `Params` has `name, value, unit, state, source, note, min, max`; every
+//!   row is a defined name pointing at its value cell. `state` is `verified`, `heuristic`,
+//!   `UNVERIFIED` or `input`. Cite sources; leave constants you cannot cite `UNVERIFIED`.
+//! * KPIs: a workstream publishes at most [`kpi::MAX_PER_WORKSTREAM`] cells named
+//!   `K_<ws>_<name>`; the global dashboard reads only those names.
+
+pub mod kpi;
+pub mod names;
+pub mod params;
+pub mod theme;
+
+use std::cell::RefCell;
+
+/// Registries shared by every sheet module of one workbook build.
+#[derive(Default)]
+pub struct Shared {
+    pub names: RefCell<names::Names>,
+    pub params: RefCell<params::ParamSet>,
+    pub kpis: RefCell<kpi::Kpis>,
+}
+
+impl Shared {
+    /// Registries seeded with the standard names and parameters.
+    pub fn new() -> Self {
+        let s = Self::default();
+        names::seed(&mut s.names.borrow_mut());
+        params::seed(&mut s.params.borrow_mut());
+        s
+    }
+}

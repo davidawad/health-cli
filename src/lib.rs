@@ -16,6 +16,7 @@ pub mod db;
 pub mod enc_config;
 pub mod error;
 pub mod import_xlsx;
+pub mod infra;
 pub mod keyfile;
 pub mod keys;
 pub mod keysetup;

@@ -32,6 +32,12 @@ fn d(ws: &mut Worksheet, r: u32, c: u16, y: u16, m: u8, day: u8) {
     ws.write_datetime_with_format(r, c, ExcelDateTime::from_ymd(y, m, day).unwrap(), &fmt).unwrap();
 }
 
+/// A date formula (`=A2+1`) with its cached serial result, date-formatted like the real sheet.
+fn fd(ws: &mut Worksheet, r: u32, c: u16, formula: &str, serial: &str) {
+    let fmt = Format::new().set_num_format("yyyy-mm-dd");
+    ws.write_formula_with_format(r, c, Formula::new(formula).set_result(serial), &fmt).unwrap();
+}
+
 fn row(ws: &mut Worksheet, r: u32, cells: &[&str]) {
     cells.iter().enumerate().for_each(|(c, v)| {
         if !v.is_empty() {
@@ -84,7 +90,32 @@ pub fn write_workbook(path: &Path) {
     s(ws, 1, 0, "Lab only row");
 
     let ws = wb.add_worksheet().set_name("Weight & Age").unwrap();
-    s(ws, 0, 0, "Date");
+    row(
+        ws,
+        0,
+        &[
+            "Date",
+            "Projected Weight",
+            "Weight (lbs.)",
+            "Chronological Age",
+            "Biological Age",
+            "net calories (kcal)",
+            "energy out (kcal)",
+            "protein (g)",
+        ],
+    );
+    d(ws, 1, 0, 2024, 1, 1);
+    n(ws, 1, 2, 190.0);
+    f(ws, 1, 3, "=(A2 - Dashboard!$F$3) / 365.25", "34.0");
+    n(ws, 1, 5, 1500.0);
+    n(ws, 1, 6, 2200.0);
+    n(ws, 1, 7, 120.0);
+    fd(ws, 2, 0, "=A2+1", "45293");
+    n(ws, 2, 2, 189.5);
+    n(ws, 2, 5, 1400.0);
+    n(ws, 2, 6, 2300.0);
+    fd(ws, 3, 0, "=A3+1", "45294");
+    n(ws, 3, 2, 189.0);
 
     let ws = wb.add_worksheet().set_name("Routine").unwrap();
     row(ws, 0, &["MORNING ROUTINE", "Time for effect", "Execution Time", "Type", "Notes"]);

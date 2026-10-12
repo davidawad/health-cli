@@ -71,6 +71,9 @@ fn load(db: &Db, e: Entity) -> Result<(&'static str, Vec<Record>, &'static [&'st
         Entity::Providers => ("providers", store::all(db, "provider")?, &["name", "note", "url"]),
         Entity::Sizes => ("sizes", store::all(db, "size")?, &["category", "name", "value", "unit", "note"]),
         Entity::Resources => ("resources", store::all(db, "resource_link")?, &["section", "label", "url"]),
+        Entity::Intake => {
+            ("intake", store::all(db, "intake_log")?, &["date", "net_kcal", "energy_out_kcal", "protein_g"])
+        }
         Entity::Notes => ("notes", store::all(db, "note")?, &["scope", "position", "text"]),
     })
 }

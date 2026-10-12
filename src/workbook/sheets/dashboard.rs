@@ -58,6 +58,12 @@ impl SheetModule for Dashboard {
     }
     fn build(&self, ws: &mut Worksheet, cx: &Cx) -> Result<()> {
         let (d, f) = (cx.d, cx.f);
+        {
+            let mut n = cx.shared.names.borrow_mut();
+            n.define("DOB", "Dashboard!$F$3", "dashboard")?;
+            n.define("Height_in", "Dashboard!$C$1", "dashboard")?;
+            n.define("Height_cm", "Dashboard!$C$1*2.54", "dashboard")?;
+        }
         ws.write_string_with_format(0, 0, "Base Stats", &f.title)?;
         for (key, c, r) in FACT_CELLS {
             write_fact(ws, cx, key, *c, *r)?;

@@ -10,6 +10,7 @@ use rust_xlsxwriter::{
 
 use super::put_num;
 use crate::error::Result;
+use crate::store::Rec;
 use crate::workbook::{add_table, set_widths, Cx, Data, SheetModule};
 
 pub const TITLE: &str = "Weight & Age";
@@ -24,19 +25,41 @@ pub struct Row {
     pub date: NaiveDate,
     pub weight: Option<f64>,
     pub bio_age: Option<f64>,
+    pub net_kcal: Option<f64>,
+    pub energy_out: Option<f64>,
+    pub protein: Option<f64>,
 }
 
-/// One row per date on which weight or biological age was measured, oldest first.
+/// One row per date with a weight, a biological age or an intake entry, oldest first.
 pub fn rows(d: &Data) -> Vec<Row> {
-    let Some(labs) = &d.labs else { return Vec::new() };
-    let (w, b) = (labs.series("weight"), labs.series("biological-age"));
-    let mut dates: Vec<NaiveDate> = w.iter().chain(b.iter()).map(|m| m.taken_at).collect();
+    let (w, b) = d.labs.as_ref().map_or((Vec::new(), Vec::new()), |l| (l.series("weight"), l.series("biological-age")));
+    let intake: Vec<(NaiveDate, &crate::output::Record)> = d
+        .intake
+        .iter()
+        .filter_map(|r| r.s("date").and_then(|x| NaiveDate::parse_from_str(&x, "%Y-%m-%d").ok()).map(|x| (x, r)))
+        .collect();
+    let mut dates: Vec<NaiveDate> =
+        w.iter().chain(b.iter()).map(|m| m.taken_at).chain(intake.iter().map(|(x, _)| *x)).collect();
     dates.sort();
     dates.dedup();
     let at = |s: &[&crate::workbook::labs::Measurement], day: NaiveDate| {
         s.iter().rev().find(|m| m.taken_at == day).map(|m| m.value)
     };
-    dates.into_iter().map(|date| Row { date, weight: at(&w, date), bio_age: at(&b, date) }).collect()
+    dates
+        .into_iter()
+        .map(|date| {
+            let rec = intake.iter().find(|(x, _)| *x == date).map(|(_, r)| *r);
+            let f = |k: &str| rec.and_then(|r| r.f(k));
+            Row {
+                date,
+                weight: at(&w, date),
+                bio_age: at(&b, date),
+                net_kcal: f("net_kcal"),
+                energy_out: f("energy_out_kcal"),
+                protein: f("protein_g"),
+            }
+        })
+        .collect()
 }
 
 /// Last data row (1-based).
@@ -93,6 +116,11 @@ impl SheetModule for WeightAge {
             "BMI kg/m\u{b2}",
             "BMI Readout",
             "Ideal Protein (g)",
+            "net calories (kcal)",
+            "energy out (kcal)",
+            "protein (g)",
+            "% protein",
+            "Projected Weight",
         ];
         add_table(ws, "tblWeightAge", 0, 0, &headers, data.len(), TableStyle::Medium9)?;
         for (i, row) in data.iter().enumerate() {
@@ -123,8 +151,28 @@ impl SheetModule for WeightAge {
                 Formula::new(format!("=IF(ISNUMBER(B{x}),B{x}/2.20462*1.5,\"\")")),
                 &f.dec1,
             )?;
+            put_num(ws, r, 7, row.net_kcal, &f.int)?;
+            put_num(ws, r, 8, row.energy_out, &f.int)?;
+            put_num(ws, r, 9, row.protein, &f.int)?;
+            ws.write_formula_with_format(
+                r,
+                10,
+                Formula::new(format!("=IF(AND(ISNUMBER(J{x}),ISNUMBER(G{x})),J{x}/G{x},\"\")")),
+                &f.pct,
+            )?;
+            if i > 0 {
+                let p = x - 1;
+                ws.write_formula_with_format(
+                    r,
+                    11,
+                    Formula::new(format!(
+                        "=IF(AND(ISNUMBER(B{p}),ISNUMBER(H{p}),ISNUMBER(I{p})),B{p}-((I{p}-H{p})/3500),\"\")"
+                    )),
+                    &f.dec1,
+                )?;
+            }
         }
-        set_widths(ws, &[12.0, 14.0, 18.0, 16.0, 12.0, 16.0, 16.0])?;
+        set_widths(ws, &[12.0, 14.0, 18.0, 16.0, 12.0, 16.0, 16.0, 16.0, 16.0, 12.0, 10.0, 16.0])?;
         ws.set_freeze_panes(1, 1)?;
         let hi = last_row(d) + 400;
         ws.add_conditional_format(
@@ -148,7 +196,7 @@ impl SheetModule for WeightAge {
             )?;
         }
         ws.add_conditional_format(1, C_WEIGHT, hi, C_WEIGHT, &ConditionalFormat3ColorScale::new())?;
-        ws.insert_chart(1, 8, &line_chart(d, "Weight", &[("Weight (lbs.)", C_WEIGHT)]))?;
+        ws.insert_chart(1, 13, &line_chart(d, "Weight", &[("Weight (lbs.)", C_WEIGHT)]))?;
         Ok(())
     }
 }

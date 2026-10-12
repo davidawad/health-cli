@@ -40,11 +40,9 @@ fn import_counts_match_the_workbook() {
     check("Physicals", 7, 5, 2, 0, 2);
     check("Sizes", 4, 2, 2, 0, 0);
     check("Resources", 2, 2, 0, 0, 0);
+    check("Weight & Age (intake)", 2, 2, 0, 0, 0);
     let skipped = r["skipped"].to_string();
-    assert!(
-        skipped.contains("Biomarkers") && skipped.contains("Genetics") && skipped.contains("Weight & Age"),
-        "{skipped}"
-    );
+    assert!(skipped.contains("Biomarkers") && skipped.contains("Genetics"), "{skipped}");
     assert!(!r["data"].to_string().contains("Biomarkers"));
 }
 
@@ -201,4 +199,19 @@ fn the_database_is_encrypted_and_doctor_is_green() {
     e.cmd().args(["db", "check"]).assert().success();
     let log = e.json(&["audit", "log"]);
     assert!(log["data"].as_array().unwrap().iter().any(|r| r["command"] == "import xlsx"), "{log}");
+}
+
+#[test]
+fn intake_log_keeps_daily_calories_and_protein_but_not_weight() {
+    let e = Env::new();
+    e.import();
+    let log = e.json(&["list", "intake"]);
+    assert_eq!(log["count"], 2, "the weight-only row is not an intake row");
+    assert_eq!(log["data"][0]["date"], "2024-01-01");
+    assert_eq!(log["data"][0]["net_kcal"], 1500.0);
+    assert_eq!(log["data"][0]["energy_out_kcal"], 2200.0);
+    assert_eq!(log["data"][0]["protein_g"], 120.0);
+    assert!(log["data"][1]["protein_g"].is_null(), "blank protein stays unknown");
+    assert_eq!(log["data"][1]["date"], "2024-01-02");
+    assert!(log["data"][0].get("weight").is_none(), "weight stays in biomarker-cli");
 }

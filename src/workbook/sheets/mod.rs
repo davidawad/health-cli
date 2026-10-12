@@ -51,6 +51,9 @@ pub fn registry() -> Vec<Box<dyn SheetModule>> {
         Box::new(protocols::Protocols),
         Box::new(costs::Costs),
         Box::new(lists::Lists),
+        // Infrastructure sheets, written last (phase 1) so they list what every module registered.
+        Box::new(crate::infra::params::ParamsSheet),
+        Box::new(crate::infra::kpi::KpiSheet),
     ]
 }
 

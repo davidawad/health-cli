@@ -54,8 +54,9 @@ sheet of the legacy workbook maps onto it.
 | vaccines and conditions | `vaccine`, `vaccine_dose` | Vaccines  Conditions |
 | physical checks, doctors | `physical_check`, `provider` | Physicals |
 | sizes, resource links | `size`, `resource_link` | Sizes, Resources |
+| daily intake (net kcal, energy out, protein) | `intake_log` | Weight & Age (columns F-H) |
 
-`Biomarkers`, `Bryans Biomarkers` and `Weight & Age` belong to biomarker-cli;
+`Biomarkers`, `Bryans Biomarkers` and the weight column of `Weight & Age` belong to biomarker-cli;
 `Genetics` belongs to genome-cli; `Vitals (Whoop)` is empty. The importer
 skips them and says so.
 

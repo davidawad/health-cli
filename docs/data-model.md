@@ -36,6 +36,7 @@ Schema v1 lives in `src/migrations.rs`. Principles:
 | `size` | `position`, `category`, `name`, `value`, `unit`, `note` | inches, except shoes (`us`) |
 | `resource_link` | `position`, `section` resources/workout, `label`, `url` | |
 | `note` | `scope`, `position`, `text` | free text: Dashboard TODOs, the "Alternative" cost comparison |
+| `intake_log` | `date` (PK), `net_kcal`, `energy_out_kcal`, `protein_g` | daily intake from `Weight & Age` columns F, G, H; weight stays in biomarker-cli |
 | `import_batch` | `source_name`, `sha256`, `imported_at`, `counts` | provenance of each import |
 
 ## Sheet mapping caveats

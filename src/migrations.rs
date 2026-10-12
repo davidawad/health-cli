@@ -227,8 +227,21 @@ CREATE INDEX idx_evidence_supplement ON evidence_ref(supplement_id);
 CREATE INDEX idx_vaccine_dose_vaccine ON vaccine_dose(vaccine_id);
 ";
 
-pub const MIGRATIONS: &[Migration] =
-    &[Migration { version: 1, name: "initial schema", apply: |db| db.execute_batch(SCHEMA_V1) }];
+/// v2: the daily intake log (Weight & Age: net calories, energy out, protein).
+/// Weight itself stays in biomarker-cli.
+const SCHEMA_V2: &str = r"
+CREATE TABLE intake_log (
+    date            TEXT PRIMARY KEY,
+    net_kcal        REAL,
+    energy_out_kcal REAL,
+    protein_g       REAL
+);
+";
+
+pub const MIGRATIONS: &[Migration] = &[
+    Migration { version: 1, name: "initial schema", apply: |db| db.execute_batch(SCHEMA_V1) },
+    Migration { version: 2, name: "daily intake log", apply: |db| db.execute_batch(SCHEMA_V2) },
+];
 
 pub fn latest_version() -> i64 {
     MIGRATIONS.iter().map(|m| m.version).max().unwrap_or(0)

@@ -31,6 +31,7 @@ pub const TABLES: &[&str] = &[
     "size",
     "resource_link",
     "note",
+    "intake_log",
 ];
 
 /// Column names of each table (kept in step with `migrations::SCHEMA_V1`).
@@ -130,6 +131,7 @@ pub fn columns(table: &str) -> &'static [&'static str] {
         "size" => &["id", "position", "category", "name", "value", "unit", "note"],
         "resource_link" => &["id", "position", "section", "label", "url"],
         "note" => &["id", "scope", "position", "text"],
+        "intake_log" => &["date", "net_kcal", "energy_out_kcal", "protein_g"],
         _ => &[],
     }
 }
@@ -158,6 +160,7 @@ pub fn default_order(table: &str) -> &'static str {
         "profile_fact" | "supplement" | "product" | "nutrition_item" | "nutrition_target" | "exercise" | "vaccine"
         | "physical_check" | "provider" | "size" | "resource_link" | "predisposition" => "position, rowid",
         "note" => "scope, position, id",
+        "intake_log" => "date",
         _ => "rowid",
     }
 }

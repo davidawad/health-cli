@@ -156,6 +156,7 @@ pub enum Entity {
     Sizes,
     Resources,
     Notes,
+    Intake,
 }
 
 #[derive(Debug, Args)]

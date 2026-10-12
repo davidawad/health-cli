@@ -46,7 +46,6 @@ pub struct ImportReport {
 pub const SKIPPED_SHEETS: &[(&str, &str)] = &[
     ("Biomarkers", "labs: biomarker-cli"),
     ("Bryans Biomarkers", "labs: biomarker-cli"),
-    ("Weight & Age", "labs: biomarker-cli"),
     ("Genetics", "genome-cli"),
     ("Vitals (Whoop)", "empty"),
 ];
@@ -148,6 +147,7 @@ pub fn import(db: &Db, path: &Path, price_date: &str, replace: bool) -> Result<I
             physicals(&cx, &read_sheet(path, &["Physicals"])?)?,
             sizes(&cx, &read_sheet(path, &["Sizes"])?)?,
             resources(&cx, &read_sheet(path, &["Resources"])?)?,
+            intake(&cx, &read_sheet(path, &["Weight & Age"])?)?,
         ];
         let counts = serde_json::json!(store::counts(db)?.into_iter().collect::<std::collections::BTreeMap<_, _>>());
         let name = path.file_name().map_or_else(String::new, |n| n.to_string_lossy().into_owned());
@@ -637,6 +637,31 @@ fn sizes(cx: &Cx, g: &Grid) -> Result<SheetReport> {
             }
         }
     }
+    Ok(rep)
+}
+
+// ------------------------------------------------------------ Weight & Age
+
+/// The intake columns of `Weight & Age`: net calories (F), energy out (G) and
+/// protein (H) per day. Weight is a lab series and stays in biomarker-cli; the
+/// projected weight, ages, BMI and ideal protein columns are formulas.
+fn intake(cx: &Cx, g: &Grid) -> Result<SheetReport> {
+    let mut rep = SheetReport { sheet: "Weight & Age (intake)".into(), ..Default::default() };
+    for r in 1..g.height() {
+        // Dates are typed once and then `=A2+1`: the cached value is the date either way.
+        let Some(date) = iso(g.cell(r, 0)) else { continue };
+        let vals = [g.number(r, 5), g.number(r, 6), g.number(r, 7)];
+        if vals.iter().all(Option::is_none) {
+            continue;
+        }
+        ins(
+            cx.db,
+            "INSERT INTO intake_log (date, net_kcal, energy_out_kcal, protein_g) VALUES (?1, ?2, ?3, ?4)",
+            &[text(date), opt_real(vals[0]), opt_real(vals[1]), opt_real(vals[2])],
+        )?;
+        rep.items += 1;
+    }
+    rep.rows_seen = rep.items;
     Ok(rep)
 }
 

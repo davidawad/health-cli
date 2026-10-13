@@ -14,10 +14,12 @@ use crate::store::Rec;
 
 pub mod age;
 pub mod biomarkers;
+pub mod bod;
 pub mod cln;
 pub mod costs;
 pub mod dashboard;
 pub mod evidence;
+pub mod gen;
 pub mod genetics;
 pub mod lab;
 pub mod lists;
@@ -27,6 +29,7 @@ pub mod products;
 pub mod protocols;
 pub mod resources;
 pub mod routine;
+pub mod sch;
 pub mod sizes;
 pub mod sup;
 pub mod supplements;
@@ -71,6 +74,11 @@ pub fn registry() -> Vec<Box<dyn SheetModule>> {
     reg.extend(crate::infra::calc::modules());
     reg.extend(sup::modules());
     reg.extend(cln::modules());
+    // Workstream W5 (BOD): body, nutrition, sleep and wearable signals.
+    reg.extend(bod::modules());
+    reg.extend(gen::modules());
+    // Workstream W7 (SCH): schedules, vaccines, prevention, visit pack.
+    reg.extend(sch::modules());
     reg
 }
 

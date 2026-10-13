@@ -74,9 +74,17 @@ fn no_formula_errors_after_a_full_recalculation() {
     let mut errors = Vec::new();
     for name in wb.sheet_names() {
         let r = wb.worksheet_range(&name).unwrap();
+        let f = wb.worksheet_formula(&name).unwrap();
+        let (r0, c0) = r.start().unwrap_or((0, 0));
         for (row, col, v) in r.cells() {
             if let Data::Error(err) = v {
-                errors.push(format!("{name}!R{}C{}: {err:?}", row + 1, col + 1));
+                // `#N/A` is accepted where the formula asks for it: `NA()` leaves a gap in a chart-only column.
+                let (ar, ac) = (r0 + row as u32, c0 + col as u32);
+                let formula = f.get_value((ar, ac)).cloned().unwrap_or_default();
+                if matches!(err, calamine::CellErrorType::NA) && formula.contains("NA()") {
+                    continue;
+                }
+                errors.push(format!("{name}!R{}C{}: {err:?}", ar + 1, ac + 1));
             }
         }
     }

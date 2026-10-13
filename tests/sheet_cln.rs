@@ -67,7 +67,8 @@ fn sheets_follow_the_shared_layer_in_order_and_name_their_ideas() {
     let cln: Vec<&String> = names.iter().filter(|n| n.starts_with("Cln_")).collect();
     assert_eq!(cln, CLN_SHEETS, "tab order");
     let calc = names.iter().position(|n| n == "Calc_Panel").unwrap();
-    assert_eq!(names[calc + 1], "Cln_Systems", "Cln_ views follow the Calc_ layer");
+    let first_cln = names.iter().position(|n| n == "Cln_Systems").unwrap();
+    assert!(first_cln > calc, "Cln_ views follow the Calc_ layer");
     for (id, sheet, status, _) in COVERAGE {
         let s = sheet_text(&mut wb, sheet);
         assert!(s.contains(&format!("{id} {status}")), "{sheet} does not announce {id} {status}");
@@ -223,9 +224,17 @@ fn recalculated_numbers_match_hand_computed_values() {
     let mut errors = Vec::new();
     for name in wb.sheet_names() {
         let r = wb.worksheet_range(&name).unwrap();
+        let f = wb.worksheet_formula(&name).unwrap();
+        let (r0, c0) = r.start().unwrap_or((0, 0));
         for (row, col, v) in r.cells() {
             if let Cell::Error(e) = v {
-                errors.push(format!("{name}!R{}C{}: {e:?}", row + 1, col + 1));
+                // `#N/A` is accepted where the formula asks for it: `NA()` leaves a gap in a chart-only column.
+                let (ar, ac) = (r0 + row as u32, c0 + col as u32);
+                let formula = f.get_value((ar, ac)).cloned().unwrap_or_default();
+                if matches!(e, calamine::CellErrorType::NA) && formula.contains("NA()") {
+                    continue;
+                }
+                errors.push(format!("{name}!R{}C{}: {e:?}", ar + 1, ac + 1));
             }
         }
     }

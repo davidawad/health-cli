@@ -3,47 +3,218 @@
 :ID: supp-caffeine
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: 1,3,7-trimethylxanthine | caffeine anhydrous
+:ALIASES: 1,3,7-trimethylxanthine | caffeine anhydrous | caffeine citrate | coffee | guarana | caffeine powder
 :CATEGORY: other
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Caffeine is a methylxanthine naturally present in coffee, tea, cocoa and guarana; supplement forms include anhydrous powder/tablets and beverages [https://www.efsa.europa.eu/en/topics/topic/caffeine].
+- Caffeine (1,3,7-trimethylxanthine) is a methylxanthine. Dietary sources include coffee, tea, cocoa, energy drinks and energy shots. Supplement forms include anhydrous caffeine capsules/tablets, chewing gum, mouth rinses, gels and pre-workout products [PMID:33388079] [PMID:36862943].
+- Pure or highly concentrated powdered caffeine: in an April 2018 guidance, FDA said some such dietary supplements are adulterated because they present a significant or unreasonable risk of illness or injury. It linked these products to at least two US deaths [URL:https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-highly-concentrated-caffeine-dietary-supplements]. Per FDA, toxic effects such as seizures can occur after rapid intake of about 1,200 mg, which is less than 1/2 teaspoon of pure caffeine [URL:https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much].
+- Pharmacokinetics: CYP1A2 is the main enzyme metabolizing caffeine. Its primary metabolites are paraxanthine, theobromine and theophylline [PMID:8807660]. Elimination half-life is about 5 h in healthy volunteers (4.9-5.2 h) [PMID:16236038] [PMID:2729942] [PMID:8807660]. Salivary half-life was 7.3 h in one metabolic-ward study [PMID:7836625].
+- Rx context: caffeine is among the commonly used medications in preterm infants [PMID:41945073]. Theophylline is partly N-methylated to caffeine (about 6% of a dose) [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b0d5d1cd-c79b-4229-929c-2eb3e4f43298].
+- Much of the long-term health evidence concerns coffee, not isolated caffeine. Coffee also contains polyphenols such as chlorogenic acid [PMID:10999016], and decaffeinated coffee often shows similar associations [PMID:24459154] [PMID:41845455].
 
 ** Mechanisms
-- At ordinary dietary doses caffeine primarily antagonizes adenosine receptors; higher exposure increases CNS stimulation and catecholaminergic effects [https://www.efsa.europa.eu/en/topics/topic/caffeine].
+- Adenosine receptor antagonism: at concentrations reached with normal consumption, the only established biochemical action of caffeine is blockade of adenosine A1 and A2A receptors. Blocking A2A receptors influences dopaminergic transmission [PMID:7746802]. A2A antagonism is also the proposed neuroprotective mechanism in Parkinson's disease [PMID:32580456].
+- Hemodynamics: acute pressor effect. 200-300 mg raised SBP by 8.1 mm Hg and DBP by 5.7 mm Hg for at least 3 h in hypertensive people [PMID:21880846].
+- Renal: acute increases in urinary calcium, magnesium, sodium and chloride. The hypercalciuric effect is blocked by adenosine agonists [PMID:8360789] [PMID:7836625].
+- Pharmacologic stress testing: caffeine competitively antagonizes the adenosine receptors that adenosine, dipyridamole and regadenoson act through, which blunts hyperemia [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=057289f4-2e18-4c1e-bed4-6c1858e2ef16] [PMID:19496111].
+- Shared CYP1A2 pathway: caffeine competes with other CYP1A2 substrates (clozapine, melatonin, theophylline). Smoking (polycyclic aromatic hydrocarbons) induces CYP1A2 [PMID:17823102] [PMID:9337943] [PMID:12906366].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---------+--------------------+-----------+-------------+-----------------------+-----------|
-| Alertness / sleep | regulatory evidence assessment | increased alertness; sleep disruption possible | 100 mg near bedtime may affect sleep in some adults | moderate | https://www.efsa.europa.eu/en/topics/topic/caffeine |
-| Exercise performance | systematic reviews of RCTs | small benefit, task-dependent | varies by dose, task, tolerance | moderate | PMID:39339818 |
-| Preterm infant apnea | systematic review/meta-analysis | clinical benefit in indicated neonatal care | effect depends on dose and neonatal protocol | moderate | PMID:38553606 |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Exercise performance (overall) | Umbrella review of 21 MAs; ISSN position stand | Benefit | Ergogenic for endurance, strength, muscle endurance, power, jumping, speed; GRADE mostly moderate; effect larger for aerobic than anaerobic | moderate | [PMID:30926628] [PMID:33388079] |
+| Aerobic time trial | SR/NMA (48 studies, n=612); dose-response MA (48 studies, n=689) | Benefit | Low-dose capsules SMD -0.34 completion time; low dose SMD -0.27, moderate (4-6 mg/kg) SMD -0.52 | moderate | [PMID:41374083] [PMID:42356375] |
+| Repeated sprint ability | SR/MA (13 studies) | Benefit | Peak power WMD 5.28 (CI 2.49-8.07); larger at >=6 mg/kg | low | [PMID:41228548] |
+| Female team-sport performance | Three-level MA (26 crossover RCTs) | Small benefit | Physical g 0.32 (CI 0.22-0.42); RPE g 0.35; cognition not significant | low | [PMID:42588052] |
+| Cognition after sleep loss | SR/MA (45 publications) | Benefit | Attention response time g 0.86; executive function g 0.35; driving lateral control g 1.67 | moderate | [PMID:31837359] |
+| Cognition in sport | SR/MA (13 studies; 5 pooled) | Benefit | Pooled effects only for attention, accuracy and speed | low | [PMID:33800853] |
+| Night-time sleep | SR/MA (24 studies); MA (22 crossover trials, n=956) | Harm | TST -45 min, sleep efficiency -7%, SOL +9 min; second MA: TST -34.67 min, SWS -1.01% | moderate | [PMID:36870101] [PMID:41124973] |
+| All-cause mortality (coffee) | Umbrella review; MA of 40 studies (3.85 M) | Inverse association | RR 0.83 (3-4 cups vs none); nadir RR 0.85 at 3.5 cups/d | moderate | [PMID:29167102] [PMID:31055709] |
+| CVD and CV mortality (coffee) | Umbrella review; 2026 MA (38 studies) | Mostly inverse; MI signal | CVD RR 0.85; CV mortality RR 0.81; 2026 MA: stroke HR 0.89, arrhythmia HR 0.94, but MI OR 1.48 | low | [PMID:29167102] [PMID:42098622] |
+| Heart failure (coffee) | Dose-response MA (13 studies) | Inverse | HR 0.925 for 2-4 cups/d; GRADE low | low | [PMID:41845455] |
+| Atrial fibrillation | RCT (DECAF, n=200); dose-response MA (10 cohorts); CRAVE RCT | No harm / possible benefit | DECAF recurrence HR 0.61 (CI 0.42-0.89) with coffee; MA RR 0.98 per cup; CRAVE PACs RR 1.09 (NS), PVCs RR 1.51 | moderate | [PMID:41206802] [PMID:35872898] [PMID:36947466] |
+| Blood pressure / hypertension | MA of trials in hypertensives; cohort dose-response MA; MR | Acute rise; no long-term increase | Acute SBP +8.1/DBP +5.7 mm Hg; HPT RR 0.97 at 3 cups/d; MR SBP beta -1.92 | moderate | [PMID:21880846] [PMID:29222637] [PMID:41087205] |
+| Type 2 diabetes (coffee) | Dose-response MA (28 cohorts, 1.1 M) | Inverse | RR 0.67 at 6 cups/d; per cup 0.91 caffeinated, 0.94 decaf | moderate | [PMID:24459154] [PMID:28826374] |
+| Parkinson's disease | MA (13 studies) | Inverse | Risk HR 0.797 (CI 0.748-0.849); progression HR 0.834 | low | [PMID:32580456] [PMID:28826374] |
+| Liver: HCC and chronic liver disease | MA of prospective studies; MA of MR studies | Inverse (observational); null (MR) | HCC RR 0.85 per cup; CLD RR 0.74 per cup; MR OR 0.92 (CI 0.58-1.47) | low | [PMID:27111112] [PMID:40852740] |
+| Pregnancy loss | Dose-response MA (14 cohorts); MR | Harm at high intake (observational); null in MR | RR 1.40 at 350-699 mg/d; 1.72 at >=700 mg/d; +7% per 100 mg/d; MR null | low | [PMID:26329421] [PMID:35679582] [PMID:29167102] |
+| Low birth weight | Dose-response MA (7 cohorts); MR | Harm (observational); null in MR | RR 1.70; +12% per 100 mg/d; MR did not support lower birthweight | low | [PMID:34224282] [PMID:35679582] |
+| Bone (BMD, hip fracture) | MA (20 studies, n=508,312) | No association | Coffee hip fracture HR 1.008 (CI 0.760-1.337); umbrella review: higher fracture risk in women | low | [PMID:37374383] [PMID:29167102] |
+| Panic disorder / anxiety | SR/MA of challenge studies (400-750 mg) | Harm | Panic attacks in 53.9% of PD patients vs 1.7% of controls (51.1% of all 237 patients); anxiety g 1.02 | moderate | [PMID:34871964] |
+| Migraine | SR (19 studies incl. 7 MR) | Mixed | MR OR 0.53-0.71 for migraine; acute excess or withdrawal can trigger attacks | low | [PMID:42151857] |
+| Post-exercise recovery | Three-level MA (17 RCTs) | Mixed | Functional recovery g -0.208 (benefit); sleep recovery g 0.751 (worse) | low | [PMID:42823978] |
 
 ** Dosing in trials
-- EFSA concludes single doses up to 200 mg and total intake up to 400 mg/day do not raise safety concerns for healthy adults; pregnancy limit assessed at 200 mg/day. These are safety thresholds, not efficacy prescriptions [https://www.efsa.europa.eu/en/topics/topic/caffeine].
+- Exercise: Consistently ergogenic at 3-6 mg/kg about 60 min pre-exercise. The minimal effective dose may be as low as 2 mg/kg. 9 mg/kg causes frequent side effects without extra benefit [PMID:33388079]. Low doses (about 3 mg/kg) in capsules were the top-ranked strategy for time trials [PMID:41374083]. Moderate doses (4-6 mg/kg) gave more consistent effects [PMID:42356375]. Gum may need a shorter lead time than capsules [PMID:33388079]. Mouth rinsing gives only trivial-to-small benefits (g 0.12) [PMID:41774525].
+- Cognition with L-theanine: 40 mg caffeine plus 97 mg L-theanine improved task-switching accuracy and alertness [PMID:21040626].
+- Regulatory safety levels (not efficacy doses), from EFSA 2015 [URL:https://www.efsa.europa.eu/en/topics/topic/caffeine]: Healthy adults: single doses up to 200 mg (about 3 mg/kg) and up to 400 mg/day are not a safety concern. Pregnancy and lactation: up to 200 mg/day. Children and adolescents: 3 mg/kg/day. FDA likewise cites 400 mg/day for most healthy adults [URL:https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much].
+- Sleep timing: 100 mg had no significant sleep effect even 4 h before bed, while 400 mg disrupted sleep when taken within 12 h of bedtime [PMID:39377163]. A meta-analysis suggests coffee (107 mg) at least 8.8 h before bed and a pre-workout dose (217.5 mg) at least 13.2 h before bed [PMID:36870101].
 
 ** Safety & adverse effects
-- Excess exposure may cause insomnia, anxiety, tremor, palpitations, gastrointestinal symptoms, and dependence/withdrawal; FDA notes rapid consumption of highly concentrated caffeine can be dangerous [https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much].
+- Common effects: insomnia, anxiety, tremor, palpitations and GI upset. EFSA notes that single doses of 100 mg may affect sleep in some adults [URL:https://www.efsa.europa.eu/en/topics/topic/caffeine]. Caffeine raises heart rate in female athletes (g -0.30) [PMID:42588052].
+- Withdrawal (reviewed by Juliano and Griffiths [PMID:15448977]): 10 validated symptoms, including headache (50% incidence in experimental studies), fatigue and difficulty concentrating. 13% had clinically significant distress or functional impairment. Onset 12-24 h after stopping, lasting 2-9 days. Stopping even 100 mg/day can produce symptoms.
+- Arrhythmia: in the CRAVE trial, coffee did not increase premature atrial contractions but raised PVCs (154 vs 102/day) and cut nightly sleep by 36 min [PMID:36947466].
+- Toxicity and deaths: A systematic review of 92 deaths from caffeine alone found infants, psychiatric patients and athletes over-represented. It gives serious toxicity (seizures, arrhythmia) at plasma levels of 15 mg/L or more and lethal levels of 80-100 mg/L [PMID:29757951]. In 51 poisoning deaths, median postmortem blood caffeine was 180 mg/L. All involved tablets or powder, and beverages alone were judged unlikely to reach toxic levels [PMID:28334840].
+- Energy drinks: ISSN advises against them for children, during pregnancy/breastfeeding and in caffeine-sensitive people. It advises caution in cardiovascular, metabolic, hepatorenal or neurologic disease [PMID:36862943].
+- Bone and minerals: net 24-h urinary losses of 0.32 mmol Ca and 0.16 mmol Mg after about 6 mg/kg lean mass [PMID:7836625]. Older women with low calcium intake may not compensate [PMID:8360789].
 
 ** Contraindications
-- Avoid concentrated/uncertain-dose products. Individual susceptibility, pregnancy, arrhythmia, anxiety and sleep disorders alter risk; EFSA thresholds apply to healthy populations [https://www.efsa.europa.eu/en/topics/topic/caffeine].
+- Pure or highly concentrated powdered caffeine products: FDA considers some to be adulterated [URL:https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-highly-concentrated-caffeine-dietary-supplements].
+- Within 12 h of regadenoson (or adenosine/dipyridamole) pharmacologic stress MPI [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=057289f4-2e18-4c1e-bed4-6c1858e2ef16].
+- Pregnancy above 200 mg/day: EFSA sets 200 mg/day as the safety level [URL:https://www.efsa.europa.eu/en/topics/topic/caffeine]. ACOG: under 200 mg/day does not appear to be a major factor in miscarriage or preterm birth, and the effect on growth restriction is undetermined [PMID:20664420].
+- Panic disorder: high-dose challenges trigger panic attacks in about half of patients [PMID:34871964].
+- Use caution in insomnia [PMID:36870101], uncontrolled hypertension (acute BP rise) [PMID:21880846] and with fluvoxamine therapy (caffeine half-life rises to 31-56 h) [PMID:8807660] [PMID:16236038].
 
 ** Interactions
-- Drugs, supplements, conditions, and relevant laboratory interference are summarized in the structured interaction object. Caffeine can add to other stimulants. CYP1A2 inhibitors (e.g. fluvoxamine) may slow caffeine clearance; smoking induces metabolism (review-level pharmacology). Alcohol co-use does not reverse impairment; EFSA cautions caffeine does not reliably mask intoxication [https://www.efsa.europa.eu/en/topics/topic/caffeine]. No genotype-specific claim is made because no directly relevant pharmacogenomic source was identified.
+*** Drugs
+- Fluvoxamine (strong CYP1A2 inhibitor): Caffeine clearance fell from 105 to 9.1 mL/min and half-life rose from 4.9 to 56 h [PMID:16236038]. In another study, clearance fell from 107 to 21 mL/min and half-life rose from 5 to 31 h, and the authors warned of possible caffeine intoxication [PMID:8807660]. A review of antidepressants notes that tricyclics also reduce caffeine metabolism [PMID:39870954].
+- Ciprofloxacin: caffeine half-life rose from 5.2 to 8.2 h and clearance fell about 45% [PMID:2729942].
+- Combined oral contraceptives: caffeine clearance fell about 54-55% after one cycle and recovered within a month of stopping [PMID:7589032].
+- Smoking (CYP1A2 inducer): smokers clear caffeine, clozapine and theophylline faster. After quitting, the induction wears off and doses of interacting drugs may need reduction [PMID:17823102].
+- Clozapine: CYP1A2 inhibitors, caffeine included, can raise plasma clozapine levels [PMID:9337943].
+- Lithium: in two cases, lithium tremor worsened after coffee was stopped, attributed to lower renal lithium clearance and higher serum lithium [PMID:3338980]. Changes in caffeine intake may therefore shift lithium levels.
+- Theophylline/aminophylline: an overlapping methylxanthine with the same caffeine-like adverse effects (nausea, headache, insomnia). Caffeine is a theophylline metabolite [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b0d5d1cd-c79b-4229-929c-2eb3e4f43298]. Theophylline is also a caffeine metabolite [PMID:8807660].
+- MAO inhibitors: High-dose caffeine with tranylcypromine or phenelzine has been linked to hypertension [PMID:39870954]. A 2026 review judges caffeine use during MAOI therapy manageable with monitoring [PMID:41546846].
+- Stimulants (dextroamphetamine/Dexedrine): the label lists rises in BP (2-4 mm Hg) and heart rate (3-6 bpm) and a sudden-death risk in serious cardiac disease. Adding caffeine's acute pressor effect [PMID:21880846] is plausible, but no combination trial was found [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78].
+- Ephedrine: a Danish registry of 257,364 users of prescribed ephedrine/caffeine found no substantially increased risk of death, MI or stroke (adjusted OR 0.95). Ephedra was banned in the US in 2004 [PMID:18756018].
+- Adenosine, dipyridamole and regadenoson: see Lab-test interference.
+*** Other supplements
+- L-Theanine (synergy, cognition): MA: the combination beat placebo on attention-switching accuracy (SMD 0.33) and digit vigilance accuracy (SMD 0.20) at 2 h [PMID:40314930]. RCT: 40 mg caffeine plus 97 mg L-theanine improved task switching and alertness [PMID:21040626].
+- Creatine: SR of 10 studies. Creatine loading did not blunt acute caffeine benefits, but chronic caffeine during creatine loading may interfere with creatine's effect, possibly through opposite effects on muscle relaxation time and GI distress [PMID:35016154].
+- Taurine: Bayesian NMA (12 studies). Caffeine plus taurine had credible advantages over either alone for anaerobic capacity (g 0.46) and reaction time (g 0.75) [PMID:41032459].
+- Rhodiola Rosea: a 4-week RCT in 48 volleyball players found the largest jump-height gains and lowest RPE with the combination [PMID:40005009].
+- Green Tea Extract: green tea preparations contain both catechins and caffeine [PMID:23235664]. Stacking adds to total caffeine intake (inference).
+- Ginseng (Panax): a common energy-drink co-ingredient. Any benefit beyond caffeine is unproven [PMID:36862943].
+- Alpha-GPC: only a head-to-head RCT exists, with no group difference vs 200 mg caffeine or placebo on isometric strength or psychomotor vigilance. No combination data [PMID:29042830].
+- Melatonin: 200 mg evening caffeine increased nocturnal melatonin AUC by 32%, consistent with shared CYP1A2 metabolism [PMID:12906366]. Caffeine also opposes sleep [PMID:36870101].
+- Magnesium and calcium: caffeine increases urinary excretion of both [PMID:7836625] [PMID:8360789].
+- Iron (non-heme): A cup of coffee cut iron absorption from a meal by 39%, and drinking coffee 1 h before the meal did not inhibit absorption [PMID:6402915]. Polyphenol-containing beverages reduce non-haem iron absorption by 50-90% [PMID:10999016]. The effect comes from coffee/tea polyphenols, not isolated caffeine. Heme Iron (Proferrin): no cited study of heme iron with coffee was found.
+*** Conditions
+- Pregnancy: observational dose-response harm (pregnancy loss, LBW) [PMID:26329421] [PMID:34224282], but MR is null [PMID:35679582]. Keep intake at or below 200 mg/day (EFSA, ACOG) [URL:https://www.efsa.europa.eu/en/topics/topic/caffeine] [PMID:20664420].
+- Panic and anxiety disorders [PMID:34871964]. Insomnia [PMID:36870101] [PMID:41124973].
+- Hypertension: acute BP rise of at least 3 h, without long-term BP increase or higher CVD risk in hypertensive people [PMID:21880846].
+- Atrial fibrillation: abstinence is not supported. In DECAF, coffee lowered AF recurrence after cardioversion [PMID:41206802].
+- Low calcium intake or older women at risk of osteoporosis [PMID:8360789] [PMID:29167102].
+*** Lab-test interference
+- Pharmacologic stress MPI: The regadenoson label requires avoiding methylxanthines (coffee, tea, caffeine-containing drugs, theophylline) for at least 12 h before radionuclide MPI. In the label's caffeine study, 200 or 400 mg reduced detected reversible defects by about 60% [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=057289f4-2e18-4c1e-bed4-6c1858e2ef16] [PMID:24737255]. Dipyridamole: caffeine caused false-negative dipyridamole-thallium scans in 6 of 8 patients [PMID:1869975]. A review recommends a 24-h caffeine hold for dipyridamole [PMID:19496111]. Adenosine CMR: coffee less than 4 h before the scan blunted adenosine but not regadenoson hyperemia [PMID:28547666].
+- Theophylline assays: caffeine and xanthine metabolites can falsely raise some dry-reagent office theophylline readings in neonates or renal dysfunction [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b0d5d1cd-c79b-4229-929c-2eb3e4f43298].
+- Urinary calcium and magnesium are transiently raised for about 6 h after intake [PMID:7836625].
 
 ** Genotype notes
-- No directly relevant, clinically validated pharmacogenomic/nutrigenomic source was identified in the sources reviewed.
+- CYP1A2 rs762551 (-163A>C; *1F): Cornelis et al., Costa Rica case-control study (2,014 cases): coffee raised the risk of nonfatal MI only in slow-allele (*1F) carriers. OR 1.64 at 4 or more cups/day, and 2.33 in those under 59 years. No increase was seen with *1A/*1A [PMID:16522833]. Guest et al. RCT (n=101): 4 mg/kg improved 10-km cycling time by 6.8% in AA but worsened it by 13.7% in CC; no effect in AC [PMID:29509641]. ISSN attributes inter-individual variation partly to genetics [PMID:33388079].
+- ADORA2A: A systematic review links ADORA2A variants to caffeine-related anxiety and sleep disturbance, and CYP1A2 variants to cognitive effects [PMID:37029915]. 1976TT (rs5751876) carriers showed the largest caffeine-potentiated startle to unpleasant pictures [PMID:22012471].
+- AHR and CYP1A1-CYP1A2: rs6968865 near AHR and rs2472297 between CYP1A1 and CYP1A2 associate with about 0.2 more cups/day per allele [PMID:21357676]. A GWAS meta-analysis added further loci, including ABCG2, POR, BDNF and SLC6A4 [PMID:25288136].
+- Genotype-guided intake is not validated by prospective outcome trials.
 
 ** Latest research
-- 2024: systematic review assessed caffeine/placebo effects in sports performance, reflecting active research on expectancy and ergogenic outcomes [PMID:39339818].
+- [2026-09] Three-level MA of post-exercise recovery: small functional benefit (g -0.208) but poorer sleep recovery (g 0.751); prediction intervals cross null [PMID:42823978].
+- [2026-07] Preterm-infant MA: better motor and cognitive outcomes, cerebral palsy OR 0.65 [PMID:41945073].
+- [2026-07] Female team-sport MA (26 RCTs): physical performance g 0.32; no reliable cognitive benefit [PMID:42588052].
+- [2026-06] Aerobic dose-response MA: low dose SMD -0.27, moderate SMD -0.52 for time-trial completion [PMID:42356375].
+- [2026-05] Updated CVD MA (38 studies): stroke HR 0.89, arrhythmia HR 0.94, but MI OR 1.48 at high intake [PMID:42098622].
+- [2026-05] Migraine SR: genetically higher caffeine intake is linked to lower migraine risk, while acute excess or withdrawal triggers attacks [PMID:42151857].
+- [2026-03] Heart-failure dose-response MA: HR 0.925 at 2-4 cups/day; GRADE low [PMID:41845455].
+- [2026-03] MAOI and psychoactive-substance review: caffeine is manageable with monitoring [PMID:41546846]. A 2025 review covers caffeine-antidepressant interactions [PMID:39870954].
+- [2026-01] DECAF RCT: caffeinated coffee vs abstinence after cardioversion, AF/flutter recurrence 47% vs 64% (HR 0.61) [PMID:41206802].
+- [2026-01] MR evidence: no causal effect of coffee on HCC (OR 0.92) [PMID:40852740]; genetically predicted coffee intake lowers SBP and DBP [PMID:41087205].
+- [2025-12] Caffeine mouth-rinse MA (31 studies): exercise g 0.12, GRADE moderate [PMID:41774525]. Caffeine plus taurine NMA: combination best for anaerobic capacity and reaction time [PMID:41032459].
+- [2025-12] Time-trial NMA: low-dose capsules ranked best (SMD -0.34) [PMID:41374083].
+- [2025-12] Sleep MA (22 trials): TST -34.67 min; SWS reduced at high dose [PMID:41124973].
+- [2025-11] Repeated-sprint MA: peak power WMD 5.28; stronger at >=6 mg/kg [PMID:41228548].
+- [2025-10] Tea/L-theanine MA: theanine plus caffeine gave small cognitive and mood benefits [PMID:40314930].
+- [2025-04] Dose and timing RCT: 100 mg is fine up to 4 h before bed; 400 mg disrupts sleep within 12 h [PMID:39377163].
+- [2025-02] Caffeine plus Rhodiola RCT in volleyball players [PMID:40005009]. SR of 9 RCTs on sleep in athletes [PMID:39551351].
 
 ** Open questions
-- Dose-response by genotype, sleep timing, habitual exposure, pregnancy, and combinations with energy-drink ingredients require better trials [https://www.efsa.europa.eu/en/topics/topic/caffeine].
+- Whether coffee's inverse associations (mortality, T2D, liver, Parkinson's) are causal and attributable to caffeine. MR results for HCC are null [PMID:40852740].
+- The MI signal at high intake in the 2026 MA [PMID:42098622] and genotype-specific MI risk [PMID:16522833] need confirmation.
+- Pregnancy: the gap between observational harm and null MR results [PMID:26329421] [PMID:35679582].
+- Prospective validation of CYP1A2- or ADORA2A-guided dosing for performance, sleep and anxiety [PMID:37029915].
+- Chronic caffeine-creatine interference [PMID:35016154]. Long-term safety of multi-ingredient energy products [PMID:36862943].
+- Few performance studies in women and older adults [PMID:30926628].
 
 ** Sources
-- https://www.efsa.europa.eu/en/topics/topic/caffeine
-- PMID:39339818
-- PMID:38553606
+1. Poole R et al. Coffee consumption and health: umbrella review of meta-analyses of multiple health outcomes. BMJ. 2017. PMID:29167102 DOI:10.1136/bmj.j5024
+2. Grosso G et al. Coffee, Caffeine, and Health Outcomes: An Umbrella Review. Annu Rev Nutr. 2017. PMID:28826374 DOI:10.1146/annurev-nutr-071816-064941
+3. Grgic J et al. Wake up and smell the coffee: caffeine supplementation and exercise performance-an umbrella review of 21 published meta-analyses. Br J Sports Med. 2020. PMID:30926628 DOI:10.1136/bjsports-2018-100278
+4. Guest NS et al. International society of sports nutrition position stand: caffeine and exercise performance. J Int Soc Sports Nutr. 2021. PMID:33388079 DOI:10.1186/s12970-020-00383-4
+5. Xue R et al. Effects of Caffeine Dose and Administration Method on Time-Trial Performance: SR and NMA. Nutrients. 2025. PMID:41374083 DOI:10.3390/nu17233792
+6. Wang Y et al. Effects of Acute Caffeine Ingestion on Repeated Sprint Ability: SR and MA. Nutrients. 2025. PMID:41228548 DOI:10.3390/nu17213475
+7. Martins GL et al. Dose-Response Effect of Oral Caffeine Use on Aerobic Exercise Performance: SR and MA. Nutrients. 2026. PMID:42356375 DOI:10.3390/nu18121989
+8. Lorenzo Calvo J et al. Caffeine and Cognitive Functions in Sports: SR and MA. Nutrients. 2021. PMID:33800853 DOI:10.3390/nu13030868
+9. Irwin C et al. Effects of acute caffeine consumption following sleep loss on cognitive, physical, occupational and driving performance: SR and MA. Neurosci Biobehav Rev. 2020. PMID:31837359 DOI:10.1016/j.neubiorev.2019.12.008
+10. Gardiner C et al. The effect of caffeine on subsequent sleep: SR and MA. Sleep Med Rev. 2023. PMID:36870101 DOI:10.1016/j.smrv.2023.101764
+11. Chang YH et al. Age- and dose-specific effects of caffeine on sleep: MA of controlled crossover trials. Sleep Med. 2025. PMID:41124973 DOI:10.1016/j.sleep.2025.106874
+12. Gardiner CL et al. Dose and timing effects of caffeine on subsequent sleep: a randomized clinical crossover trial. Sleep. 2025. PMID:39377163 DOI:10.1093/sleep/zsae230
+13. Kim Y et al. Coffee consumption and all-cause and cause-specific mortality: a meta-analysis by potential modifiers. Eur J Epidemiol. 2019. PMID:31055709 DOI:10.1007/s10654-019-00524-3
+14. Wong CX et al. Caffeinated Coffee Consumption or Abstinence to Reduce Atrial Fibrillation: The DECAF Randomized Clinical Trial. JAMA. 2026. PMID:41206802 DOI:10.1001/jama.2025.21056
+15. Marcus GM et al. Acute Effects of Coffee Consumption on Health among Ambulatory Adults. N Engl J Med. 2023. PMID:36947466 DOI:10.1056/NEJMoa2204737
+16. Cao Y et al. Association of Coffee Consumption With Atrial Fibrillation Risk: An Updated Dose-Response MA of Prospective Studies. Front Cardiovasc Med. 2022. PMID:35872898 DOI:10.3389/fcvm.2022.894664
+17. Ding M et al. Caffeinated and decaffeinated coffee consumption and risk of type 2 diabetes: SR and dose-response MA. Diabetes Care. 2014. PMID:24459154 DOI:10.2337/dc13-1203
+18. Hong CT et al. The Effect of Caffeine on the Risk and Progression of Parkinson's Disease: A Meta-Analysis. Nutrients. 2020. PMID:32580456 DOI:10.3390/nu12061860
+19. Bravi F et al. Coffee and the risk of hepatocellular carcinoma and chronic liver disease: SR and MA of prospective studies. Eur J Cancer Prev. 2017. PMID:27111112 DOI:10.1097/CEJ.0000000000000252
+20. Choi HB et al. Coffee and the Risk of Hepatocellular Carcinoma: SR and MA of Mendelian Randomization Studies. Gut Liver. 2026. PMID:40852740 DOI:10.5009/gnl250227
+21. Chen LW et al. Maternal caffeine intake during pregnancy and risk of pregnancy loss: a categorical and dose-response MA of prospective studies. Public Health Nutr. 2016. PMID:26329421 DOI:10.1017/S1368980015002463
+22. Soltani S et al. Maternal caffeine consumption during pregnancy and risk of low birth weight: a dose-response MA of cohort studies. Crit Rev Food Sci Nutr. 2023. PMID:34224282 DOI:10.1080/10408398.2021.1945532
+23. Brito Nunes C et al. Mendelian randomization study of maternal coffee consumption and its influence on birthweight, stillbirth, miscarriage, gestational age and pre-term birth. Int J Epidemiol. 2023. PMID:35679582 DOI:10.1093/ije/dyac121
+24. ACOG. ACOG Committee Opinion No. 462: Moderate caffeine consumption during pregnancy. Obstet Gynecol. 2010. PMID:20664420 DOI:10.1097/AOG.0b013e3181eeb2a1
+25. Chen CC et al. Association of Coffee and Tea Intake with Bone Mineral Density and Hip Fracture: A Meta-Analysis. Medicina (Kaunas). 2023. PMID:37374383 DOI:10.3390/medicina59061177
+26. Klevebrant L et al. Effects of caffeine on anxiety and panic attacks in patients with panic disorder: SR and MA. Gen Hosp Psychiatry. 2022. PMID:34871964 DOI:10.1016/j.genhosppsych.2021.11.005
+27. D'Elia L et al. Coffee consumption and risk of hypertension: a dose-response MA of prospective studies. Eur J Nutr. 2019. PMID:29222637 DOI:10.1007/s00394-017-1591-z
+28. Mesas AE et al. The effect of coffee on blood pressure and cardiovascular disease in hypertensive individuals: SR and MA. Am J Clin Nutr. 2011. PMID:21880846 DOI:10.3945/ajcn.111.016667
+29. Zhong J et al. Intake of coffee and blood pressure: A Mendelian randomized study. Nutr Metab Cardiovasc Dis. 2026. PMID:41087205 DOI:10.1016/j.numecd.2025.104273
+30. Cornelis MC et al. Coffee, CYP1A2 genotype, and risk of myocardial infarction. JAMA. 2006. PMID:16522833 DOI:10.1001/jama.295.10.1135
+31. Guest N et al. Caffeine, CYP1A2 Genotype, and Endurance Performance in Athletes. Med Sci Sports Exerc. 2018. PMID:29509641 DOI:10.1249/MSS.0000000000001596
+32. Kapellou A et al. Genetics of caffeine and brain-related outcomes - a systematic review of observational studies and randomized trials. Nutr Rev. 2023. PMID:37029915 DOI:10.1093/nutrit/nuad029
+33. Domschke K et al. ADORA2A Gene variation, caffeine, and emotional processing: a multi-level interaction on startle reflex. Neuropsychopharmacology. 2012. PMID:22012471 DOI:10.1038/npp.2011.253
+34. Sulem P et al. Sequence variants at CYP1A1-CYP1A2 and AHR associate with coffee consumption. Hum Mol Genet. 2011. PMID:21357676 DOI:10.1093/hmg/ddr086
+35. Coffee and Caffeine Genetics Consortium et al. Genome-wide meta-analysis identifies six novel loci associated with habitual coffee consumption. Mol Psychiatry. 2015. PMID:25288136 DOI:10.1038/mp.2014.107
+36. Culm-Merdek KE et al. Fluvoxamine impairs single-dose caffeine clearance without altering caffeine pharmacodynamics. Br J Clin Pharmacol. 2005. PMID:16236038 DOI:10.1111/j.1365-2125.2005.02467.x
+37. Jeppesen U et al. A fluvoxamine-caffeine interaction study. Pharmacogenetics. 1996. PMID:8807660 DOI:10.1097/00008571-199606000-00003
+38. Healy DP et al. Interaction between oral ciprofloxacin and caffeine in normal volunteers. Antimicrob Agents Chemother. 1989. PMID:2729942 DOI:10.1128/AAC.33.4.474
+39. Balogh A et al. Influence of ethinylestradiol-containing combination oral contraceptives with gestodene or levonorgestrel on caffeine elimination. Eur J Clin Pharmacol. 1995. PMID:7589032 DOI:10.1007/BF00192743
+40. Kroon LA. Drug interactions with smoking. Am J Health Syst Pharm. 2007. PMID:17823102 DOI:10.2146/ajhp060414
+41. Taylor D. Pharmacokinetic interactions involving clozapine. Br J Psychiatry. 1997. PMID:9337943 DOI:10.1192/bjp.171.2.109
+42. Jefferson JW. Lithium tremor and caffeine intake: two cases of drinking less and shaking more. J Clin Psychiatry. 1988. PMID:3338980
+43. Truong J et al. An Exploration of the Interplay Between Caffeine and Antidepressants Through the Lens of Pharmacokinetics and Pharmacodynamics. Eur J Drug Metab Pharmacokinet. 2025. PMID:39870954 DOI:10.1007/s13318-024-00928-x
+44. Rached G et al. Safety and Efficacy of Monoamine Oxidase Inhibitors in Patients Who Use Psychoactive Substances. CNS Drugs. 2026. PMID:41546846 DOI:10.1007/s40263-025-01256-7
+45. Hallas J et al. Use of a prescribed ephedrine/caffeine combination and the risk of serious cardiovascular events: a registry-based case-crossover study. Am J Epidemiol. 2008. PMID:18756018 DOI:10.1093/aje/kwn191
+46. Tejani FH et al. Effect of caffeine on SPECT myocardial perfusion imaging during regadenoson pharmacologic stress: a prospective, randomized, multicenter study. Int J Cardiovasc Imaging. 2014. PMID:24737255 DOI:10.1007/s10554-014-0419-7
+47. Salcedo J et al. Effects of caffeine and theophylline on coronary hyperemia induced by adenosine or dipyridamole. Catheter Cardiovasc Interv. 2009. PMID:19496111 DOI:10.1002/ccd.22030
+48. Smits P et al. False-negative dipyridamole-thallium-201 myocardial imaging after caffeine infusion. J Nucl Med. 1991. PMID:1869975
+49. van Dijk R et al. Effects of caffeine intake prior to stress cardiac magnetic resonance perfusion imaging on regadenoson- versus adenosine-induced hyperemia as measured by T1 mapping. Int J Cardiovasc Imaging. 2017. PMID:28547666 DOI:10.1007/s10554-017-1157-4
+50. Payne ER et al. Effects of Tea (Camellia sinensis) or its Bioactive Compounds l-Theanine or l-Theanine plus Caffeine on Cognition, Sleep, and Mood: SR and MA of RCTs. Nutr Rev. 2025. PMID:40314930 DOI:10.1093/nutrit/nuaf054
+51. Giesbrecht T et al. The combination of L-theanine and caffeine improves cognitive performance and increases subjective alertness. Nutr Neurosci. 2010. PMID:21040626 DOI:10.1179/147683010X12611460764840
+52. Elosegui S et al. Interaction Between Caffeine and Creatine When Used as Concurrent Ergogenic Supplements: A Systematic Review. Int J Sport Nutr Exerc Metab. 2022. PMID:35016154 DOI:10.1123/ijsnem.2021-0262
+53. Deng H et al. Caffeine and taurine: SR and NMA of their individual and combined effects on physical capacity, cognitive function, and physiological markers. J Int Soc Sports Nutr. 2025. PMID:41032459 DOI:10.1080/15502783.2025.2566371
+54. Wang Z et al. Effects of the Combined Supplementation of Caffeine and Rhodiola Rosea with Resistance Training on Lower Limb Explosive Power in Male Volleyball Players. Nutrients. 2025. PMID:40005009 DOI:10.3390/nu17040681
+55. Jurgens TM et al. Green tea for weight loss and weight maintenance in overweight or obese adults. Cochrane Database Syst Rev. 2012. PMID:23235664 DOI:10.1002/14651858.CD008650.pub2
+56. Jagim AR et al. International society of sports nutrition position stand: energy drinks and energy shots. J Int Soc Sports Nutr. 2023. PMID:36862943 DOI:10.1080/15502783.2023.2171314
+57. Marcus L et al. Evaluation of the effects of two doses of alpha glycerylphosphorylcholine on physical and psychomotor performance. J Int Soc Sports Nutr. 2017. PMID:29042830 DOI:10.1186/s12970-017-0196-5
+58. Ursing C et al. Caffeine raises the serum melatonin level in healthy subjects: an indication of melatonin metabolism by CYP1A2. J Endocrinol Invest. 2003. PMID:12906366 DOI:10.1007/BF03345194
+59. Kynast-Gales SA et al. Effect of caffeine on circadian excretion of urinary calcium and magnesium. J Am Coll Nutr. 1994. PMID:7836625 DOI:10.1080/07315724.1994.10718436
+60. Massey LK et al. Caffeine, urinary calcium, calcium metabolism and bone. J Nutr. 1993. PMID:8360789 DOI:10.1093/jn/123.9.1611
+61. Morck TA et al. Inhibition of food iron absorption by coffee. Am J Clin Nutr. 1983. PMID:6402915 DOI:10.1093/ajcn/37.3.416
+62. Hurrell RF et al. Inhibition of non-haem iron absorption in man by polyphenolic-containing beverages. Br J Nutr. 1999. PMID:10999016
+63. Cappelletti S et al. Caffeine-Related Deaths: Manner of Deaths and Categories at Risk. Nutrients. 2018. PMID:29757951 DOI:10.3390/nu10050611
+64. Jones AW. Review of Caffeine-Related Fatalities along with Postmortem Blood Concentrations in 51 Poisoning Deaths. J Anal Toxicol. 2017. PMID:28334840 DOI:10.1093/jat/bkx011
+65. Juliano LM et al. A critical review of caffeine withdrawal: empirical validation of symptoms and signs, incidence, severity, and associated features. Psychopharmacology (Berl). 2004. PMID:15448977 DOI:10.1007/s00213-004-2000-x
+66. Fredholm BB. Astra Award Lecture. Adenosine, adenosine receptors and the actions of caffeine. Pharmacol Toxicol. 1995. PMID:7746802 DOI:10.1111/j.1600-0773.1995.tb00111.x
+67. Shaban EE et al. Coffee, caffeine, and cardiovascular health: navigating risks and benefits - an updated SR and MA. BMC Cardiovasc Disord. 2026. PMID:42098622 DOI:10.1186/s12872-026-05693-0
+68. Biswas S et al. Habitual coffee consumption and risk of incident heart failure: an updated SR and dose-response MA. J Health Popul Nutr. 2026. PMID:41845455 DOI:10.1186/s41043-026-01295-w
+69. Zhang J et al. Effects of caffeine supplementation on post-exercise recovery: SR and three-level MA. Front Physiol. 2026. PMID:42823978 DOI:10.3389/fphys.2026.1960237
+70. Deng H et al. Revisiting the evidence on caffeine mouth rinse: effects on exercise and cognitive performance: a meta-analytic review. J Int Soc Sports Nutr. 2026. PMID:41774525 DOI:10.1080/15502783.2026.2638903
+71. Li H et al. Effects of Acute Caffeine Supplementation in Female Team-Sport Athletes: A Three-Level Meta-Analysis. Nutrients. 2026. PMID:42588052 DOI:10.3390/nu18152429
+72. Fatemian H et al. Impact of caffeine on neurodevelopmental outcomes in preterm infants: SR and MA. Pediatr Neonatol. 2026. PMID:41945073 DOI:10.1016/j.pedneo.2026.02.003
+73. Makhlouf HA et al. The impact of caffeine consumption on migraine: a systematic review. BMC Neurol. 2026. PMID:42151857 DOI:10.1186/s12883-026-04955-w
+74. Bodur M et al. Does caffeine supplementation affect sleep in athletes? A systematic review of nine randomized controlled trials. Clin Nutr ESPEN. 2025. PMID:39551351 DOI:10.1016/j.clnesp.2024.11.007
+75. EFSA. Scientific Opinion on the safety of caffeine (2015), topic page. https://www.efsa.europa.eu/en/topics/topic/caffeine
+76. US FDA. Spilling the Beans: How Much Caffeine is Too Much? https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much
+77. US FDA. Guidance for Industry: Highly Concentrated Caffeine in Dietary Supplements. 2018. https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-highly-concentrated-caffeine-dietary-supplements
+78. DailyMed. LEXISCAN (regadenoson) injection label. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=057289f4-2e18-4c1e-bed4-6c1858e2ef16
+79. DailyMed. Theophylline extended-release tablets label. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b0d5d1cd-c79b-4229-929c-2eb3e4f43298
+80. DailyMed. DEXEDRINE (dextroamphetamine sulfate) Spansule label. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78

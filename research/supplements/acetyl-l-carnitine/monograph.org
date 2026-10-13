@@ -3,47 +3,205 @@
 :ID: supp-acetyl-l-carnitine
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: Acetylcarnitine | ALCAR | ALC
+:ALIASES: Acetylcarnitine | ALCAR | ALC | LAC | L-acetylcarnitine | acetyl-L-carnitine hydrochloride | Nicetile
 :CATEGORY: amino-acid
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Acetyl-L-carnitine is the acetylated form of L-carnitine, an endogenous mitochondrial fatty-acid transport compound; oral capsules and pharmaceutical preparations have been studied [PMID:29076953].
+- Acetyl-L-carnitine (ALC, ALCAR, LAC) is the acetyl ester of L-carnitine and the most abundant ester in the body's carnitine pool, both quantitatively and functionally [PMID:15591001].
+- Forms used in trials: Oral capsules or tablets of acetyl-L-carnitine (usually the hydrochloride), most often 1-3 g/day [PMID:8797468] [PMID:29076953]. Intramuscular injection followed by oral dosing, in HIV neuropathy and fibromyalgia trials [PMID:17461852] [PMID:17543140].
+- Pharmaceutical status: in Italy it is sold as a pharmaceutical product (Nicetile, Sigma-Tau group), including an injectable form used for neuropathies, diabetic polyneuropathy and Parkinson's disease [PMID:20661677]. In the US it is sold as a dietary supplement. The related drug levocarnitine (Carnitor) is a US prescription product, and its label is the main regulatory safety source for the carnitine family [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d2133bc3-9c15-48bd-8b16-b8995a6a14cd].
+- Pharmacokinetics: Oral L-carnitine supplements (0.5-6 g) are absorbed mostly passively, with 14-18% bioavailability. Acetyl-L-carnitine is partly hydrolyzed in the gut wall, but 2 g/day raised circulating ALC by 43% [PMID:15591001]. Renal reabsorption saturates, so clearance rises and plasma levels fall quickly back to baseline after high doses [PMID:15591001]. In a 2025 human study, ALC gave a 7.7-fold lower plasma exposure increase (delta AUC) than L-carnitine. Most of it was eliminated as carnitine, and about 90% of both supplements was metabolized to TMAO [PMID:41243468].
 
 ** Mechanisms
-- Proposed roles include mitochondrial fatty-acid transport, acetyl-group donation, and neurotrophic/neurotransmission effects; mechanistic findings do not establish efficacy [PMID:30061399].
+- Carnitine shuttle: moves long-chain fatty acids into mitochondria for beta-oxidation. ALC also donates acetyl groups and has neurotrophic effects in peripheral nerve [PMID:31201734] [PMID:41824218].
+- Epigenetic and glutamatergic effects (preclinical): In rodent depression models, LAC acetylated histone H3K27 at the Grm2 promoter and raised mGlu2 receptor expression. It produced antidepressant-like effects within 3 days, versus 14 days for chlorimipramine [PMID:23382250]. The 2026 narrative review describes ALC as an epigenetic regulator of mGlu2 receptors and nerve growth factor, which is the proposed basis for its analgesic action [PMID:41824218].
+- Depression biomarker: blood ALC levels, but not free carnitine, were lower in patients with major depression at two independent centers. The deficit was larger in more severe, earlier-onset and treatment-resistant depression [PMID:30061399].
+- Ammonia lowering: ALC lowered blood ammonia in hepatic encephalopathy trials (Cochrane MA) [PMID:30610762].
+- Thyroid hormone antagonism: L-carnitine inhibits T3 and T4 entry into the nuclei of hepatocytes, neurons and fibroblasts. It acts as a peripheral antagonist of thyroid hormone action [PMID:15591013] [PMID:11502782]. In vitro, ALC itself complexed iodine and inhibited lactoperoxidase [PMID:38460232].
+- Gut-microbial TMAO pathway: Gut bacteria convert dietary L-carnitine to TMA and then TMAO, which accelerated atherosclerosis in mice [PMID:23563705]. In humans the route runs through gamma-butyrobetaine. The second step is induced by omnivorous diets and by chronic L-carnitine intake [PMID:30530985]. Microbial gbu genes predict how much TMAO a person makes after a carnitine challenge [PMID:39722590].
+- Pivalate scavenging: carnitine binds pivalate from pivalate-prodrug antibiotics as pivaloylcarnitine, which is excreted in urine and depletes body carnitine [PMID:12709724].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---------+--------------------+-----------+-------------+-----------------------+-----------|
-| Depressive symptoms | 12-RCT meta-analysis | improvement signal | SMD −1.10 (95% CI −1.65 to −0.56), I² 86% | low | PMID:29076953 |
-| Neuropathic pain | systematic reviews of RCTs | possible benefit | outcome and population dependent | low | PMID:29076953 |
-| Mood disorders latest synthesis | 2026 systematic review/meta-analysis | benefit signal, uncertain | SMD −1.20; I² 96.86%; risk of bias serious/critical | very low | PMID:42261369 |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Depressive symptoms (vs placebo) | SR/MA of 12 RCTs (n=791); 2026 SR/MA (14 RCTs + 1 open-label, n=809) | Benefit, heterogeneous | SMD -1.10 (95% CI -1.65 to -0.56; I2=86%) over 9 RCTs; larger in older adults | low | [PMID:29076953] [PMID:42261369] |
+| Depression/dysthymia vs antidepressants | MA of 3 RCTs; RCTs vs fluoxetine and amisulpride | Similar efficacy, fewer AEs | SMD 0.06 (CI -0.22 to 0.34) vs antidepressants; amisulpride non-inferiority margin of 2 exceeded by 0.46 points | low | [PMID:29076953] [PMID:23428336] [PMID:16316746] |
+| Bipolar depression (with alpha-lipoic acid) | 1 RCT (n=40) | No effect | MADRS MD -1.4 (CI -6.2 to 3.4) | low | [PMID:23948785] |
+| MCI / mild Alzheimer's disease | MA of RCTs (2003) | Small benefit | Summary ES 0.201 (CI 0.107-0.295); CGI-CH ES 0.32 (CI 0.18-0.47) | low | [PMID:12598816] |
+| Alzheimer's dementia | Cochrane review (11 RCTs); 1-year RCTs (n=431; n=229 early-onset) | No benefit on objective outcomes | CGI improvement OR 2.33 at 12 wk and 3.91 at 24 wk, but none at 52 wk or on cognition/function; 1-year RCTs null on primary endpoints | low | [PMID:12804452] [PMID:8797468] [PMID:10994000] [PMID:32408706] |
+| Painful diabetic peripheral neuropathy | Cochrane review (4 RCTs, n=907) | Possible pain reduction | VAS MD -9.16 mm (CI -16.76 to -1.57); dose >1500 mg/d MD -14.93 mm; very low certainty | very low | [PMID:31201734] [PMID:25751285] [PMID:31118753] |
+| DPN vs methylcobalamin | 1 RCT (n=232) | Similar | NDS reduction 1.66 vs 1.35 (P=0.23) | low | [PMID:27180954] |
+| Taxane CIPN prevention | SWOG S0715 RCT (n=409); MA of 3 studies; ASCO guideline | Harm | Worse FACT-NTX at 24 wk (-1.8 points; CI -3.2 to -0.4); grade 3-4 neurotoxicity 8 vs 1; worse over 2 years (-1.39) | moderate | [PMID:23733756] [PMID:29361042] [PMID:36873277] [PMID:32663120] |
+| HIV antiretroviral toxic neuropathy | 1 RCT (n=90); open cohort; MA of HIV-SN trials | Inconsistent | Pain reduction only in efficacy-evaluable population, not ITT; no superiority over placebo in MA | very low | [PMID:17461852] [PMID:15238773] [PMID:21203440] |
+| Hepatic encephalopathy (cirrhosis) | Cochrane MA (5 RCTs, n=398, single Italian group) | Ammonia lowered; clinical benefit uncertain | Ammonia MD -13.06 mg/dL (CI -17.24 to -8.99); no data on mortality or serious AEs | very low | [PMID:30610762] [PMID:24018499] [PMID:18357530] |
+| Fatigue (elderly, CFS, HE, MS) | Small RCTs; open randomized CFS study; Cochrane MS review | Possible benefit, small trials | Elderly mental fatigue -3.3 vs +0.6; MS: insufficient evidence | very low | [PMID:17658628] [PMID:15039515] [PMID:21310833] [PMID:22592719] |
+| Cancer-related fatigue (carnitine) | MA of 3 studies; ASCO-SIO 2024 guideline | No benefit | SMD 0.06 (CI -0.09 to 0.21); guideline: do not recommend L-carnitine | moderate | [PMID:29112178] [PMID:38754041] |
+| Male infertility (carnitines, incl. LC+ALC) | SR/MA of 8 RCTs; 2025 MA of 50 RCTs; NMA | Motility improved; pregnancy not shown | Better total/progressive motility and morphology; no effect on clinical pregnancy (one NMA reported pregnancy RR 3.60 for L-carnitine with micronutrients) | low | [PMID:35128424] [PMID:40431450] [PMID:40813743] [PMID:34871624] [PMID:36943634] |
+| Fibromyalgia | 1 RCT (n=102); add-on RCT (with PEA); retrospective cohort | Possible benefit | Between-group gains in tender points, depression and pain at week 10 | very low | [PMID:17543140] [PMID:37378482] [PMID:40299412] |
+| ADHD | WFSBP/CANMAT guideline (Grade A evidence review) | Not supported | Rated "not recommended" (-) | low | [PMID:35311615] |
+| ALS (add-on to riluzole) | Pilot RCT (n=82) | Possible benefit, pilot | Loss of self-sufficiency 80.9% vs 97.5% (P=0.0296) | very low | [PMID:23421600] |
 
 ** Dosing in trials
-- Depression trials used heterogeneous oral regimens, often 1–3 g/day in divided doses; the meta-analysis did not establish an optimal dose [PMID:29076953].
+- Depression: usually 1-3 g/day orally. ALCAR 500 mg twice daily was compared with amisulpride for 12 weeks [PMID:16316746]. No optimal dose has been established [PMID:29076953].
+- Alzheimer's disease: 1 g three times daily (3 g/day) for 12 months [PMID:8797468] [PMID:10994000]. The MCI/AD meta-analysis covered 1.5-3.0 g/day for 3-12 months [PMID:12598816].
+- Diabetic neuropathy: 1500-3000 mg/day for 6-12 months. Only doses above 1500 mg/day separated from placebo, in a very low-certainty subgroup [PMID:31201734]. 500 mg three times daily was used against methylcobalamin [PMID:27180954].
+- CIPN prevention (not recommended): 1000 mg three times daily for 24 weeks during taxane chemotherapy [PMID:29361042].
+- HIV neuropathy: 500 mg intramuscular twice daily for 14 days, then 1000 mg oral twice daily [PMID:17461852]. Open-label oral dosing was 1500 mg twice daily for up to 33 months [PMID:15238773].
+- Hepatic encephalopathy: 2 g twice daily for 90 days [PMID:21310833] [PMID:21870121].
+- Male infertility: L-carnitine 2 g/day plus ALC 1 g/day for 6 months, or ALC 3 g/day alone [PMID:15193480] [PMID:16169400].
+- Prefrailty: 1.5 g twice daily for 3 months [PMID:36043711]. Chronic fatigue syndrome: 2 g/day for 24 weeks [PMID:15039515]. ALS: 3 g/day with riluzole for 48 weeks [PMID:23421600].
 
 ** Safety & adverse effects
-- Trials generally reported tolerability, but adverse-event ascertainment and sample sizes were limited; nausea, agitation, and odor-related effects are described in clinical use literature [PMID:29076953].
+- Short-term tolerability is generally good: In 3 head-to-head RCTs, adverse effects were significantly less frequent with ALC than with antidepressants [PMID:29076953]. The 1-year Alzheimer's trials and the dementia Cochrane review found no significant excess of adverse events over placebo [PMID:8797468] [PMID:10994000] [PMID:12804452].
+- Reported AEs include headache, facial paresthesia and gastrointestinal upset. In one DPN trial, 4.1% stopped ALC versus 1.4% on placebo [PMID:31201734]. Neuropathic-pain MAs list pain, headache, paresthesia, hyperesthesia, retching and biliary colic, at rates similar to control [PMID:25751285].
+- A fibromyalgia cohort reported AEs in 16.7%, mainly insomnia, shivering, headache and nausea [PMID:40299412].
+- In hepatic encephalopathy, non-serious AEs were 6.34% vs 2.50% (RR 2.51, CI 0.68-9.22). Harms reporting was poor, and the review authors say harms may be underestimated [PMID:30610762].
+- Worse neuropathy with taxanes: ALC 3 g/day worsened taxane-induced neuropathy at 24 weeks, and the effect persisted for 2 years [PMID:23733756] [PMID:29361042]. ASCO and the Society for Integrative Oncology discourage its use for CIPN prevention [PMID:32663120] [PMID:28436999].
+- TMAO: L-carnitine supplementation raised fasting TMAO tenfold in older women without changing inflammatory or lipid markers over 24 weeks [PMID:30485835] [PMID:32958033]. About 90% of an ALC dose was converted to TMAO, reaching about 50 uM in plasma, a level linked to adverse outcomes in observational data [PMID:41243468]. Plasma carnitine predicted cardiovascular events only when TMAO was also high (n=2,595) [PMID:23563705]. Whether this raises cardiovascular risk in people is unproven.
+- Carnitine-class label warnings (levocarnitine, Carnitor) [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d2133bc3-9c15-48bd-8b16-b8995a6a14cd]: Gastrointestinal: nausea, vomiting, abdominal cramps and diarrhea. Body odor, which decreasing the dose often reduces. Seizures in patients with or without prior seizures, and more frequent or severe seizures in people with a seizure disorder. Hypersensitivity: rash, urticaria and facial edema. In severe renal impairment or dialysis, TMA and TMAO can accumulate.
+- Pregnancy: no adequate human studies. Levocarnitine animal studies showed no fetal harm [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d2133bc3-9c15-48bd-8b16-b8995a6a14cd].
 
 ** Contraindications
-- Caution in seizure disorders is identified in NIH ODS carnitine safety information; pregnancy safety is not established [https://ods.od.nih.gov/factsheets/Carnitine-Consumer/].
+- No absolute contraindications are listed for the carnitine class (levocarnitine label: "none known") [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d2133bc3-9c15-48bd-8b16-b8995a6a14cd].
+- Avoid during taxane (and possibly other neurotoxic) chemotherapy for CIPN prevention, because RCT evidence shows harm [PMID:23733756] [PMID:32663120].
+- Known hypersensitivity to carnitine products [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d2133bc3-9c15-48bd-8b16-b8995a6a14cd].
+- Caution in seizure disorders (label), in severe renal impairment or dialysis (TMAO accumulation), and in hypothyroidism treated with levothyroxine (see Interactions) [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d2133bc3-9c15-48bd-8b16-b8995a6a14cd] [PMID:11502782].
 
 ** Interactions
-- Drugs, supplements, conditions, and relevant laboratory interference are summarized in the structured interaction object. A theoretical coumarin-anticoagulant interaction is described for L-carnitine, while direct evidence for acetyl-L-carnitine is lacking [https://www.blackmoresinstitute.org/-/media/bklbi/pdf/cmig_11th_edition.pdf]. No genotype-specific claim is made because no directly relevant pharmacogenomic source was identified.
+*** Drugs
+- Warfarin and acenocoumarol (coumarins): The levocarnitine label reports INR increases with warfarin and advises monitoring INR after starting carnitine or changing its dose [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d2133bc3-9c15-48bd-8b16-b8995a6a14cd]. Case reports describe L-carnitine potentiating acenocoumarol [PMID:8429297] [PMID:15340883]. These data are for L-carnitine. Data specific to ALC are lacking, but ALC is largely metabolized to carnitine [PMID:41243468].
+- Thyroid hormone (levothyroxine) and hyperthyroidism treatment: L-carnitine is a peripheral thyroid hormone antagonist. In an RCT, 2-4 g/day reversed and prevented hyperthyroid symptoms in women on TSH-suppressive L-T4 [PMID:11502782] [PMID:15591013]. In people taking levothyroxine for hypothyroidism, it could in theory blunt hormone action. However, an RCT of L-carnitine 990 mg twice daily in hypothyroid patients on L-T4 improved mental fatigue [PMID:27432821]. Data specific to ALC are in vitro only [PMID:38460232].
+- Valproate: Valproate is linked to carnitine deficiency, hyperammonemia and encephalopathy [PMID:34004407]. Levocarnitine is used to treat valproate-induced hyperammonemic encephalopathy, with no adverse events reported in the reviewed literature [PMID:22180549]. A systematic review found no study showing carnitine-induced seizures in patients on valproate [PMID:26889779]. A 2026 poisoning review found no kinetic or survival benefit in a retrospective cohort of valproate toxicity [PMID:41692009]. This is a beneficial or neutral interaction, not a harmful one.
+- Pivalate-conjugated antibiotics (e.g. cefditoren pivoxil): These cause secondary carnitine deficiency. Cefditoren pivoxil 400 mg twice daily for 14 days cut plasma carnitine from about 45 to 9 umol/L [PMID:12709724]. In children they can cause hypoglycemia and encephalopathy [PMID:27059912]. Carnitine supplementation prevented the deficiency in patients on valproate [PMID:33714931].
+- Taxanes and other neurotoxic chemotherapy: ALC worsened taxane CIPN [PMID:23733756] [PMID:29361042].
+- Nucleoside reverse transcriptase inhibitors: ALC levels fall in NRTI-associated neuropathy, and ALC has been studied as treatment without stopping the drugs. No harmful interaction is reported [PMID:15238773] [PMID:16566084].
+- Duloxetine and pregabalin: adding PEA plus ALC improved fibromyalgia outcomes, with no reported safety signal [PMID:37378482].
+- Antidepressants: ALC has been used alone and as an add-on in depression RCTs, but no formal interaction study exists [PMID:29076953].
+*** Other supplements
+- CoQ10: carnitine and CoQ10 are often combined for male infertility. NMAs and MAs found each improves sperm parameters but not pregnancy rates. This is overlapping use, not a proven synergy [PMID:40813743] [PMID:34871624].
+- N-Acetyl-L-Cysteine (NAC) and Citicholine: reviews propose complementary, possibly synergistic, glutamatergic, redox and mitochondrial effects for NAC plus ALC, with citicoline added for cognitive fatigue. This rests on mechanism and early clinical data [PMID:42136265] [PMID:39506442]. In organophosphate poisoning, a mortality signal was seen when L-carnitine was combined with NAC [PMID:41692009].
+- Alpha-lipoic acid (not in the corpus list): combining it with ALC had no antidepressant effect in bipolar depression [PMID:23948785].
+- B12 methylcobalamin: an active comparator in DPN with similar efficacy. This is a head-to-head comparison, not an interaction [PMID:27180954].
+- No cited interaction data were found for Alpha-GPC or Creatine.
+*** Conditions
+- Breast or other cancers on taxane chemotherapy: avoid for CIPN prevention [PMID:32663120].
+- Seizure disorder: the label reports seizures [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d2133bc3-9c15-48bd-8b16-b8995a6a14cd]. A negative systematic review, though, found no supporting literature in valproate-treated patients [PMID:26889779].
+- Severe renal impairment or dialysis: TMA and TMAO accumulate [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d2133bc3-9c15-48bd-8b16-b8995a6a14cd].
+- Cardiovascular disease and high TMAO: raised TMAO is a mechanistic and observational concern [PMID:23563705] [PMID:41243468].
+- Hypothyroidism: possible antagonism of thyroid hormone action [PMID:15591013].
+- Pregnancy and lactation: no adequate human data [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d2133bc3-9c15-48bd-8b16-b8995a6a14cd].
+*** Lab-test interference
+- No assay artifact has been documented. The following are true physiological changes: INR may rise with coumarins [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d2133bc3-9c15-48bd-8b16-b8995a6a14cd]. Plasma TMAO rises [PMID:30485835]. Serum carnitine rises [PMID:23733756]. Blood ammonia falls in cirrhosis [PMID:30610762].
+- Thyroid markers: in the Benvenga RCT, carnitine prevented hyperthyroid shifts in several biochemical markers, but TSH and urinary hydroxyproline did not respond [PMID:15591013].
+- Acylcarnitine profiling: pivaloylcarnitine shows up as C5-acylcarnitine in patients on pivalate antibiotics [PMID:27059912].
 
 ** Genotype notes
-- No directly relevant, clinically validated pharmacogenomic/nutrigenomic source was identified in the sources reviewed.
+No cited pharmacogenomic or nutrigenomic source found. TMAO production from carnitine depends on gut-microbial gbu genes, which is a microbiome rather than a host-genotype factor [PMID:39722590].
 
 ** Latest research
-- 2026: systematic review/meta-analysis included 14 RCTs and one open-label study (809 participants), reporting lower depressive symptom scores but high heterogeneity and serious-to-critical bias risk [PMID:42261369].
+- [2026-06] SR/MA of mood disorders (14 RCTs + 1 open-label, n=809): ALC reduced depressive symptoms versus placebo, with efficacy comparable to antidepressants and fewer AEs. Larger benefit was seen in older adults and treatment-resistant depression [PMID:42261369].
+- [2026-06] SR of mitochondrial-enhancing nutraceuticals in psychiatry (122 studies, including ALC): overall risk of bias was high and methodological quality low [PMID:42253799].
+- [2026-05] Review proposes NAC + ALC + citicoline synergy for neurological and psychiatric disorders [PMID:42136265].
+- [2026-03] Narrative review of ALC in peripheral neuropathies: epigenetic mGlu2/NGF mechanism; supports long-term neurotrophic and analgesic use [PMID:41824218].
+- [2026-02] SR of L-carnitine/ALC in drug poisonings (19 studies): adjunctive benefit in organophosphate and aluminium phosphide poisoning; no benefit in valproate toxicity cohort [PMID:41692009].
+- [2025-11] Human PK study: ALC has 7.7-fold lower plasma exposure than L-carnitine, and about 90% of either was converted to TMAO (about 50 uM) [PMID:41243468].
+- [2025-08] Male infertility NMA (16 studies): L-carnitine, CoQ10 and L-carnitine + ALC improved sperm quality; L-carnitine was best for progressive motility [PMID:40813743].
+- [2025-05] Male infertility MA (50 RCTs): carnitine improved motility, but no supplement improved pregnancy or live birth; certainty low/very low [PMID:40431450].
+- [2025-03] MA of L-carnitine vs NAC monotherapy (7 RCTs): L-carnitine raised sperm concentration, morphology, motility and testosterone [PMID:40350672].
+- [2025-03] Retrospective fibromyalgia cohort (n=183): VAS fell from 75.9 to 51.9; 16.7% AEs [PMID:40299412].
+- [2025-03] Phase II/III RCT of ALC in ALS (target n=246) is recruiting; primary outcome is self-sufficiency [URL:https://clinicaltrials.gov/study/NCT06126315].
+- [2025-02] SR of CIPN drug RCTs: ALC results inconsistent; duloxetine remains the only recommended agent [PMID:39952863].
+- [2024-12] gbu gut-microbial genes determine TMAO production after L-carnitine intake [PMID:39722590].
 
 ** Open questions
-- Large preregistered trials with low risk of bias, standardized dose, and functional outcomes are needed; latest pooled effects are highly heterogeneous [PMID:42261369].
+- Depression: large, preregistered, low-bias RCTs are needed. Existing pooled effects are highly heterogeneous and come from small trials [PMID:29076953] [PMID:42253799].
+- Why ALC worsened taxane CIPN, and whether this applies to other neurotoxic agents (for example oxaliplatin) [PMID:29361042].
+- Neuropathy: dose-response and durability of benefit in diabetic neuropathy; current trials are manufacturer-funded [PMID:31201734].
+- Hepatic encephalopathy: whether ALC improves clinical outcomes, not just ammonia. All trials so far are from a single group [PMID:30610762].
+- TMAO: whether the TMAO rise from chronic supplementation affects cardiovascular events in humans [PMID:41243468] [PMID:30485835].
+- Anticoagulants and thyroid hormone: whether the L-carnitine coumarin interaction and thyroid antagonism apply at usual ALC doses.
+- Long COVID fatigue and neuropsychiatric symptoms: proposed on mechanistic grounds, but no RCT evidence was cited [PMID:38172332] [PMID:39506442].
+- ALS: confirmation of the pilot trial in the ongoing phase II/III study [PMID:23421600] [URL:https://clinicaltrials.gov/study/NCT06126315].
 
 ** Sources
-- PMID:29076953
-- PMID:30061399
-- https://pmc.ncbi.nlm.nih.gov/articles/PMC13242760/
+1. Veronese N et al. Acetyl-L-Carnitine Supplementation and the Treatment of Depressive Symptoms: A Systematic Review and Meta-Analysis. Psychosom Med. 2018. PMID:29076953 DOI:10.1097/PSY.0000000000000537
+2. Kumar R et al. Current Evidence of Acetyl-L-Carnitine Use in Mood Disorders-: A Systematic Review and Meta-Analysis. Neuropsychiatr Dis Treat. 2026. PMID:42261369 DOI:10.2147/NDT.S586506
+3. Sarris J et al. Clinician guidelines for the treatment of psychiatric disorders with nutraceuticals and phytoceuticals: The World Federation of Societies of Biological Psychiatry (WFSBP) and Canadian Network for Mood and Anxiety Treatments (CANMAT) Taskforce. World J Biol Psychiatry. 2022. PMID:35311615 DOI:10.1080/15622975.2021.2013041
+4. Nasca C et al. Acetyl-l-carnitine deficiency in patients with major depressive disorder. Proc Natl Acad Sci U S A. 2018. PMID:30061399 DOI:10.1073/pnas.1801609115
+5. Nasca C et al. L-acetylcarnitine causes rapid antidepressant effects through the epigenetic induction of mGlu2 receptors. Proc Natl Acad Sci U S A. 2013. PMID:23382250 DOI:10.1073/pnas.1216100110
+6. Bersani G et al. L-Acetylcarnitine in dysthymic disorder in elderly patients: a double-blind, multicenter, controlled randomized study vs. fluoxetine. Eur Neuropsychopharmacol. 2013. PMID:23428336 DOI:10.1016/j.euroneuro.2012.11.013
+7. Zanardi R et al. A double-blind, randomised, controlled clinical trial of acetyl-L-carnitine vs. amisulpride in the treatment of dysthymia. Eur Neuropsychopharmacol. 2006. PMID:16316746 DOI:10.1016/j.euroneuro.2005.10.005
+8. Montgomery SA et al. Meta-analysis of double blind randomized controlled clinical trials of acetyl-L-carnitine versus placebo in the treatment of mild cognitive impairment and mild Alzheimer's disease. Int Clin Psychopharmacol. 2003. PMID:12598816 DOI:10.1097/00004850-200303000-00001
+9. Hudson S et al. Acetyl-L-carnitine for dementia. Cochrane Database Syst Rev. 2003. PMID:12804452 DOI:10.1002/14651858.CD003158
+10. Thal LJ et al. A 1-year controlled trial of acetyl-l-carnitine in early-onset AD. Neurology. 2000. PMID:10994000 DOI:10.1212/wnl.55.6.805
+11. Thal LJ et al. A 1-year multicenter placebo-controlled study of acetyl-L-carnitine in patients with Alzheimer's disease. Neurology. 1996. PMID:8797468 DOI:10.1212/wnl.47.3.705
+12. Pennisi M et al. Acetyl-L-Carnitine in Dementia and Other Cognitive Disorders: A Critical Update. Nutrients. 2020. PMID:32408706 DOI:10.3390/nu12051389
+13. Rolim LC et al. Acetyl-L-carnitine for the treatment of diabetic peripheral neuropathy. Cochrane Database Syst Rev. 2019. PMID:31201734 DOI:10.1002/14651858.CD011265.pub2
+14. Li S et al. Effects of acetyl-L-carnitine and methylcobalamin for diabetic peripheral neuropathy: A multicenter, randomized, double-blind, controlled trial. J Diabetes Investig. 2016. PMID:27180954 DOI:10.1111/jdi.12493
+15. Li S et al. Acetyl-L-carnitine in the treatment of peripheral neuropathic pain: a systematic review and meta-analysis of randomized controlled trials. PLoS One. 2015. PMID:25751285 DOI:10.1371/journal.pone.0119479
+16. Di Stefano G et al. Acetyl-L-carnitine in painful peripheral neuropathy: a systematic review. J Pain Res. 2019. PMID:31118753 DOI:10.2147/JPR.S190231
+17. Fornasari DMM. Acetyl-L-Carnitine in the Treatment of Peripheral Neuropathies: A Narrative Review. Pain Ther. 2026. PMID:41824218 DOI:10.1007/s40122-026-00826-x
+18. Hershman DL et al. Randomized double-blind placebo-controlled trial of acetyl-L-carnitine for the prevention of taxane-induced neuropathy in women undergoing adjuvant breast cancer therapy. J Clin Oncol. 2013. PMID:23733756 DOI:10.1200/JCO.2012.44.8738
+19. Hershman DL et al. Two-Year Trends of Taxane-Induced Neuropathy in Women Enrolled in a Randomized Trial of Acetyl-L-Carnitine (SWOG S0715). J Natl Cancer Inst. 2018. PMID:29361042 DOI:10.1093/jnci/djx259
+20. Momenzadeh M et al. Acetyl-L-carnitine for the prevention of taxane-induced neuropathy in patients with breast cancer: a systematic review and meta-analysis. Res Pharm Sci. 2023. PMID:36873277 DOI:10.4103/1735-5362.367791
+21. Loprinzi CL et al. Prevention and Management of Chemotherapy-Induced Peripheral Neuropathy in Survivors of Adult Cancers: ASCO Guideline Update. J Clin Oncol. 2020. PMID:32663120 DOI:10.1200/JCO.20.01399
+22. Greenlee H et al. Clinical practice guidelines on the evidence-based use of integrative therapies during and after breast cancer treatment. CA Cancer J Clin. 2017. PMID:28436999 DOI:10.3322/caac.21397
+23. Jesus Palma AC et al. Pharmacological Treatment of Chemotherapy-Induced Neuropathy: A Systematic Review of Randomized Clinical Trials. Pain Manag Nurs. 2025. PMID:39952863 DOI:10.1016/j.pmn.2025.01.007
+24. Youle M et al. A double-blind, parallel-group, placebo-controlled, multicentre study of acetyl L-carnitine in the symptomatic treatment of antiretroviral toxic neuropathy in patients with HIV-1 infection. HIV Med. 2007. PMID:17461852 DOI:10.1111/j.1468-1293.2007.00467.x
+25. Hart AM et al. Acetyl-l-carnitine: a pathogenesis based treatment for HIV-associated antiretroviral toxic neuropathy. AIDS. 2004. PMID:15238773 DOI:10.1097/01.aids.0000131354.14408.fb
+26. Phillips TJ et al. Pharmacological treatment of painful HIV-associated sensory neuropathy: a systematic review and meta-analysis of randomised controlled trials. PLoS One. 2010. PMID:21203440 DOI:10.1371/journal.pone.0014433
+27. Martí-Carvajal AJ et al. Acetyl-L-carnitine for patients with hepatic encephalopathy. Cochrane Database Syst Rev. 2019. PMID:30610762 DOI:10.1002/14651858.CD011451.pub2
+28. Jiang Q et al. Oral acetyl-L-carnitine treatment in hepatic encephalopathy: view of evidence-based medicine. Ann Hepatol. 2013. PMID:24018499
+29. Malaguarnera M et al. Oral acetyl-L-carnitine therapy reduces fatigue in overt hepatic encephalopathy: a randomized, double-blind, placebo-controlled study. Am J Clin Nutr. 2011. PMID:21310833 DOI:10.3945/ajcn.110.007393
+30. Malaguarnera M et al. Acetyl-L-carnitine treatment in minimal hepatic encephalopathy. Dig Dis Sci. 2008. PMID:18357530 DOI:10.1007/s10620-008-0238-6
+31. Malaguarnera M et al. Acetyl-L-carnitine improves cognitive functions in severe hepatic encephalopathy: a randomized and controlled clinical trial. Metab Brain Dis. 2011. PMID:21870121 DOI:10.1007/s11011-011-9260-z
+32. Malaguarnera M et al. Acetyl L-carnitine (ALC) treatment in elderly patients with fatigue. Arch Gerontol Geriatr. 2008. PMID:17658628 DOI:10.1016/j.archger.2007.03.012
+33. Vermeulen RC et al. Exploratory open label, randomized study of acetyl- and propionylcarnitine in chronic fatigue syndrome. Psychosom Med. 2004. PMID:15039515 DOI:10.1097/01.psy.0000116249.60477.e9
+34. Marx W et al. Efficacy and Effectiveness of Carnitine Supplementation for Cancer-Related Fatigue: A Systematic Literature Review and Meta-Analysis. Nutrients. 2017. PMID:29112178 DOI:10.3390/nu9111224
+35. Tejani AM et al. Carnitine for fatigue in multiple sclerosis. Cochrane Database Syst Rev. 2012. PMID:22592719 DOI:10.1002/14651858.CD007280.pub3
+36. Rossini M et al. Double-blind, multicenter trial comparing acetyl l-carnitine with placebo in the treatment of fibromyalgia patients. Clin Exp Rheumatol. 2007. PMID:17543140
+37. Brennan BP et al. A placebo-controlled trial of acetyl-L-carnitine and α-lipoic acid in the treatment of bipolar depression. J Clin Psychopharmacol. 2013. PMID:23948785 DOI:10.1097/JCP.0b013e31829a83f5
+38. Tortajada J et al. Clinical outcomes of mitochondrial-enhancing nutraceutical supplementation in psychiatric disorders: A systematic review. Gen Psychiatr. 2026. PMID:42253799 DOI:10.1002/gps3.70023
+39. Khaw SC et al. l-carnitine and l-acetylcarnitine supplementation for idiopathic male infertility. Reprod Fertil. 2020. PMID:35128424 DOI:10.1530/RAF-20-0037
+40. Lenzi A et al. A placebo-controlled double-blind randomized trial of the use of combined l-carnitine and l-acetyl-carnitine treatment in men with asthenozoospermia. Fertil Steril. 2004. PMID:15193480 DOI:10.1016/j.fertnstert.2003.10.034
+41. Balercia G et al. Placebo-controlled double-blind randomized trial on the use of L-carnitine, L-acetylcarnitine, or combined L-carnitine and L-acetylcarnitine in men with idiopathic asthenozoospermia. Fertil Steril. 2005. PMID:16169400 DOI:10.1016/j.fertnstert.2005.03.064
+42. Michaelsen MP et al. The Effect of Dietary Supplements on Male Infertility in Terms of Pregnancy, Live Birth, and Sperm Parameters: A Systematic Review and Meta-Analysis. Nutrients. 2025. PMID:40431450 DOI:10.3390/nu17101710
+43. Sharma AP et al. Systematic Review and Meta-analysis on Effect of Carnitine, Coenzyme Q10 and Selenium on Pregnancy and Semen Parameters in Couples With Idiopathic Male Infertility. Urology. 2022. PMID:34871624 DOI:10.1016/j.urology.2021.10.041
+44. Ma X et al. Meta-analysis of the efficacy and safety of L-carnitine and N-acetylcysteine monotherapy for male idiopathic infertility. Rev Int Androl. 2025. PMID:40350672 DOI:10.22514/j.androl.2025.004
+45. Niu C et al. Effects of Carnitine and Coenzyme Q10 on Sperm Quality and Pregnancy Rates in Men with Unexplained Infertility: A Systematic Review and Network Meta-Analysis. Reprod Sci. 2025. PMID:40813743 DOI:10.1007/s43032-025-01958-9
+46. Zafar MI et al. Effectiveness of Nutritional Therapies in Male Factor Infertility Treatment: A Systematic Review and Network Meta-analysis. Drugs. 2023. PMID:36943634 DOI:10.1007/s40265-023-01853-0
+47. Koeth RA et al. Intestinal microbiota metabolism of L-carnitine, a nutrient in red meat, promotes atherosclerosis. Nat Med. 2013. PMID:23563705 DOI:10.1038/nm.3145
+48. Koeth RA et al. l-Carnitine in omnivorous diets induces an atherogenic gut microbial pathway in humans. J Clin Invest. 2019. PMID:30530985 DOI:10.1172/JCI94601
+49. Krims-Davis K et al. Low Bioavailability and High TMAO Production: Novel Insights Into Acetylcarnitine and Carnitine Metabolism. Mol Nutr Food Res. 2025. PMID:41243468 DOI:10.1002/mnfr.70316
+50. Samulak JJ et al. L-Carnitine Supplementation Increases Trimethylamine-N-Oxide but not Markers of Atherosclerosis in Healthy Aged Women. Ann Nutr Metab. 2019. PMID:30485835 DOI:10.1159/000495037
+51. Martinez E et al. Potentiation of acenocoumarol action by L-carnitine. J Intern Med. 1993. PMID:8429297
+52. Bachmann HU et al. Interaction of food supplement L-carnitine with oral anticoagulant acenocoumarol. Swiss Med Wkly. 2004. PMID:15340883 DOI:10.4414/smw.2004.10631
+53. Benvenga S et al. Usefulness of L-carnitine, a naturally occurring peripheral antagonist of thyroid hormone action, in iatrogenic hyperthyroidism: a randomized, double-blind, placebo-controlled clinical trial. J Clin Endocrinol Metab. 2001. PMID:11502782 DOI:10.1210/jcem.86.8.7747
+54. Benvenga S et al. Effects of carnitine on thyroid hormone action. Ann N Y Acad Sci. 2004. PMID:15591013 DOI:10.1196/annals.1320.015
+55. An JH et al. L-carnitine supplementation for the management of fatigue in patients with hypothyroidism on levothyroxine treatment: a randomized, double-blind, placebo-controlled trial. Endocr J. 2016. PMID:27432821 DOI:10.1507/endocrj.EJ16-0109
+56. Caro-Ramírez JY et al. Exploring the potential anti-thyroid activity of Acetyl-L-carnitine: Lactoperoxidase inhibition profile, iodine complexation and scavenging power against H2O2. Experimental and theoretical studies. Spectrochim Acta A Mol Biomol Spectrosc. 2024. PMID:38460232 DOI:10.1016/j.saa.2024.124098
+57. Rebouche CJ. Kinetics, pharmacokinetics, and regulation of L-carnitine and acetyl-L-carnitine metabolism. Ann N Y Acad Sci. 2004. PMID:15591001 DOI:10.1196/annals.1320.003
+58. Okumura A et al. Carnitine supplementation prevents carnitine deficiency caused by pivalate-conjugated antibiotics in patients with epilepsy prescribed valproate. Epilepsy Behav. 2021. PMID:33714931 DOI:10.1016/j.yebeh.2021.107883
+59. Kobayashi H et al. Clinical Features of Carnitine Deficiency Secondary to Pivalate-Conjugated Antibiotic Therapy. J Pediatr. 2016. PMID:27059912 DOI:10.1016/j.jpeds.2016.02.080
+60. Zeiler FA et al. Levocarnitine induced seizures in patients on valproic acid: A negative systematic review. Seizure. 2016. PMID:26889779 DOI:10.1016/j.seizure.2016.01.020
+61. Brass EP et al. Impact on carnitine homeostasis of short-term treatment with the pivalate prodrug cefditoren pivoxil. Clin Pharmacol Ther. 2003. PMID:12709724 DOI:10.1016/s0009-9236(02)17636-3
+62. Wu J et al. Valproic acid-induced encephalopathy: A review of clinical features, risk factors, diagnosis, and treatment. Epilepsy Behav. 2021. PMID:34004407 DOI:10.1016/j.yebeh.2021.107967
+63. Mock CM et al. Levocarnitine for valproic-acid-induced hyperammonemic encephalopathy. Am J Health Syst Pharm. 2012. PMID:22180549 DOI:10.2146/ajhp110049
+64. Rezaee H et al. L-Carnitine and Acetyl-L-Carnitine in Drug Poisonings: A Systematic Review of Clinical and Experimental Evidence. J Appl Toxicol. 2026. PMID:41692009 DOI:10.1002/jat.70095
+65. Schweiger V et al. Acetyl-L-Carnitine as an Add-On Treatment in Fibromyalgia Syndrome: A Retrospective Analysis on 183 Patients, According to the Generalized Linear Mixed Model for Longitudinal Data. Biomedicines. 2025. PMID:40299412 DOI:10.3390/biomedicines13040820
+66. Alborghetti M et al. N-acetylcysteine, Acetyl-L-carnitine, and Citicoline: A Potential Synergism in Neurological and Psychiatric Disorders. Curr Neuropharmacol. 2026. PMID:42136265 DOI:10.2174/011570159X403105251105014447
+67. Barlattani T et al. Neuropsychiatric Manifestations of COVID-19 Disease and Post COVID Syndrome: The Role of N-acetylcysteine and Acetyl-L-carnitine. Curr Neuropharmacol. 2025. PMID:39506442 DOI:10.2174/011570159X343115241030094848
+68. Helbing DL et al. Conceptual foundations of acetylcarnitine supplementation in neuropsychiatric long COVID syndrome: a narrative review. Eur Arch Psychiatry Clin Neurosci. 2024. PMID:38172332 DOI:10.1007/s00406-023-01734-3
+69. Malaguarnera G et al. Acetyl-L-carnitine Slows the Progression from Prefrailty to Frailty in Older Subjects: A Randomized Interventional Clinical Trial. Curr Pharm Des. 2022. PMID:36043711 DOI:10.2174/1381612828666220830092815
+70. Sinicropi MS et al. Behavior of acetyl-L-carnitine injections (Nicetile fiale) with different drugs used for combined therapy. Adv Ther. 2010. PMID:20661677 DOI:10.1007/s12325-010-0055-0
+71. Salaffi F et al. Palmitoylethanolamide and acetyl-L-carnitine act synergistically with duloxetine and pregabalin in fibromyalgia: results of a randomised controlled study. Clin Exp Rheumatol. 2023. PMID:37378482 DOI:10.55563/clinexprheumatol/pmdzcq
+72. Wu WK et al. Gut microbes with the gbu genes determine TMAO production from L-carnitine intake and serve as a biomarker for precision nutrition. Gut Microbes. 2025. PMID:39722590 DOI:10.1080/19490976.2024.2446374
+73. Sawicka AK et al. The bright and the dark sides of L-carnitine supplementation: a systematic review. J Int Soc Sports Nutr. 2020. PMID:32958033 DOI:10.1186/s12970-020-00377-2
+74. Bower JE et al. Management of Fatigue in Adult Survivors of Cancer: ASCO-Society for Integrative Oncology Guideline Update. J Clin Oncol. 2024. PMID:38754041 DOI:10.1200/JCO.24.00541
+75. Beghi E et al. Randomized double-blind placebo-controlled trial of acetyl-L-carnitine for ALS. Amyotroph Lateral Scler Frontotemporal Degener. 2013. PMID:23421600 DOI:10.3109/21678421.2013.764568
+76. Herzmann C et al. Long-term effect of acetyl-L-carnitine for antiretroviral toxic neuropathy. HIV Clin Trials. 2005. PMID:16566084 DOI:10.1310/CH1N-YBNU-G3CU-JBXR
+77. DailyMed. CARNITOR (levocarnitine) tablets prescribing information (warnings, adverse reactions, drug interactions, pregnancy). U.S. National Library of Medicine. URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d2133bc3-9c15-48bd-8b16-b8995a6a14cd
+78. ClinicalTrials.gov. A Randomized, Phase II/III Trial on the Biological and Clinical Effects of Acetyl-L-carnitine in ALS (NCT06126315). URL:https://clinicaltrials.gov/study/NCT06126315

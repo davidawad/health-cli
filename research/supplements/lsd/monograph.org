@@ -3,47 +3,212 @@
 :ID: supp-lsd
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: Lysergic acid diethylamide | lysergide
+:ALIASES: Lysergic acid diethylamide | lysergide | LSD-25 | lysergide D-tartrate | MM120 | DT120 | microdosed LSD
 :CATEGORY: other
 :RX_STATUS: controlled
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Lysergic acid diethylamide is a potent serotonergic psychedelic and Schedule I controlled substance in the United States; research administration uses measured pharmaceutical doses in supervised settings [PMID:39230883].
+- Lysergic acid diethylamide is a semisynthetic ergoline and classic serotonergic psychedelic. It is listed in US Schedule I (21 CFR 1308.11, hallucinogenic substances) [URL:https://www.ecfr.gov/current/title-21/chapter-II/subchapter-B/part-1308/section-1308.11].
+- Research forms:
+  - LSD base (ethanolic solution or rapidly dissolving tablet) and LSD tartrate (aqueous solution). All oral forms were bioequivalent, with an absolute oral bioavailability of 80% at about 80 ug freebase equivalent [PMID:40418105].
+  - MM120/DT120: lysergide D-tartrate, developed by MindMed (now Definium Therapeutics). DT120 is an orally disintegrating tablet (ODT) given as a single 100 ug dose for generalized anxiety disorder (GAD) and major depressive disorder (MDD) [PMID:42848417] [URL:https://ir.definiumtx.com/news-events/press-releases/detail/247/definium-therapeutics-receives-breakthrough-therapy-designation-for-dt120-lysergide-orally-disintegrating-tablet-odt-in-major-depressive-disorder-mdd-following-positive-phase-3-results].
+  - Sublingual microdose formulations (e.g. MB-22001, titratable 4-20 ug) are used in microdosing trials [PMID:39182140] [PMID:40251818].
+- Dose ranges in trials: "full" psychedelic doses are 100-200 ug [PMID:36266118] [PMID:33059356], and "microdoses" are about 5-20 ug. A 2026 drug review stresses that 100 ug is a perceptible psychedelic dose, not microdosing [PMID:42848417] [PMID:42365488].
+- Regulatory status: investigational, not approved anywhere as a medicine. FDA Breakthrough Therapy designation for MM120 in GAD came in March 2024 [URL:https://ir.definiumtx.com/news-events/press-releases/detail/137/mindmed-receives-fda-breakthrough-therapy-designation-and-announces-positive-12-week-durability-data-from-phase-2b-study-of-mm120-for-generalized-anxiety-disorder], and a second, for MDD, in September 2026 [URL:https://ir.definiumtx.com/news-events/press-releases/detail/247/definium-therapeutics-receives-breakthrough-therapy-designation-for-dt120-lysergide-orally-disintegrating-tablet-odt-in-major-depressive-disorder-mdd-following-positive-phase-3-results].
 
 ** Mechanisms
-- LSD is a serotonin 5-HT2A receptor agonist with additional serotonergic receptor activity; mechanistic claims do not establish treatment efficacy [PMID:38574699].
+- Serotonin 5-HT2A receptor agonism mediates the psychedelic effects. The sponsor describes DT120 as a 5-HT2A partial agonist [URL:https://ir.definiumtx.com/news-events/press-releases/detail/247/definium-therapeutics-receives-breakthrough-therapy-designation-for-dt120-lysergide-orally-disintegrating-tablet-odt-in-major-depressive-disorder-mdd-following-positive-phase-3-results]. Ketanserin (40 mg) pretreatment prevented the response to 200 ug LSD [PMID:33059356]. Ketanserin given 1 h after LSD shortened subjective effects from 8.5 h to 3.5 h, without changing LSD pharmacokinetics [PMID:36342343].
+- Broad receptor profile: LSD and nor-LSD are active at 5-HT1A, 5-HT2A, 5-HT2B and 5-HT2C receptors [PMID:30981875]. The crystal structure with 5-HT2B shows very slow dissociation from 5-HT2B and 5-HT2A, explained by an extracellular-loop "lid" [PMID:28129538].
+- Autonomic effects: LSD mainly increases sympathetic activity, and ketanserin counteracts this [PMID:33772794]. It moderately raises blood pressure and heart rate [PMID:33059356] [PMID:34515824].
+- Neuroplasticity hypotheses: in an MDD trial, the high-dose LSD arm showed increased white-matter fractional anisotropy that correlated with symptom improvement [PMID:42102823].
+- 5-HT2B agonism is the proposed basis for a valvulopathy concern with chronic or repeated exposure (see Safety) [PMID:41643722] [PMID:42209433].
+- Compared with other psychedelics, effects of the serotonergic psychedelics differed little apart from duration [PMID:38301886]. Doses of 100-200 ug LSD and 30 mg psilocybin gave comparable subjective effects. LSD raised heart rate more, and psilocybin raised blood pressure more [PMID:35217796].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---------+--------------------+-----------+-------------+-----------------------+-----------|
-| Mental disorder symptoms | 2024 systematic review/meta-analysis | possible benefit in supervised research | LSD Hedges g −0.65 (95% CI −1.03 to −0.27); only six studies in cited review | low | PMID:38574699 |
-| Adverse events in trials | systematic review/meta-analysis | acute psychological/physical AEs; rare serious events | SAEs ~4% in participants with preexisting neuropsychiatric disorders across psychedelics | low | PMID:39230883 |
-| Microdosing for depression | ongoing trial protocols | unknown | no definitive outcome established in cited sources | very low | PMID:39168500 |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Generalized anxiety disorder (single dose, MM120/DT120) | Phase 2b RCT (n=198); two Phase 3 RCTs (topline, sponsor-reported) | Benefit at 100-200 ug | Phase 2b HAM-A wk 4: LSMD -5.0 (100 ug) and -6.0 (200 ug); 25/50 ug NS. Phase 3 wk 12: -5.4 (d=0.81, Voyage) and -5.1 (d=0.64, Panorama) | moderate | [PMID:40906494] [URL:https://ir.definiumtx.com/news-events/press-releases/detail/243/definium-therapeutics-announces-positive-topline-results-from-phase-3-voyage-study-of-dt120-odt-in-generalized-anxiety-disorder] [URL:https://ir.definiumtx.com/news-events/press-releases/detail/251/definium-therapeutics-announces-positive-topline-results-from-phase-3-panorama-study-of-dt120-odt-in-generalized-anxiety-disorder] |
+| Anxiety with or without life-threatening illness (LSD-assisted therapy) | Phase 2 crossover RCT (n=42) with 12-month follow-up; pilot RCT (n=12) | Benefit | STAI-G difference -16.2 (95% CI -27.8 to -4.5), d=-1.18 at 16 wk; sustained at 1 yr | low | [PMID:36266118] [PMID:39078038] [PMID:24594678] |
+| Anxiety/depression in life-threatening disease (classic psychedelics pooled) | Cochrane SR (6 RCTs) | Benefit | STAI-T MD -8.41 (CI -12.92 to -3.89); BDI MD -4.92 (CI -8.97 to -0.87) | low | [PMID:39260823] |
+| Major depressive disorder | RCT high vs low dose (n=61); Phase 3 Emerge topline; living MA | Probable benefit | IDS-C difference -9.2 (CI -17.1 to -1.3), lost significance after baseline adjustment. Emerge: MADRS -8.1 vs placebo at wk 6. Pooled psilocybin/ayahuasca/LSD SMD -0.62 (GRADE very low). In an NMA benchmarked to antidepressant-trial placebo, only high-dose psilocybin beat placebo | low | [PMID:39168500] [PMID:40482648] [URL:https://ir.definiumtx.com/news-events/press-releases/detail/247/definium-therapeutics-receives-breakthrough-therapy-designation-for-dt120-lysergide-orally-disintegrating-tablet-odt-in-major-depressive-disorder-mdd-following-positive-phase-3-results] [PMID:41205366] |
+| Mental-disorder symptoms (LSD subset) | SR/MA of psychedelics (126 articles) | Benefit | LSD Hedges g -0.65 (CI -1.03 to -0.27); 6 LSD studies | low | [PMID:38574699] |
+| Alcohol use disorder | MA of 6 RCTs (n=536, 1960s-70s); later MAs | Benefit (older trials); inconsistent | OR 1.96 (CI 1.36-2.84) for less alcohol misuse; DB-PC LSD trials OR 1.99; living MA abstinence RR 1.42 (CI 0.89-2.26, NS) | very low | [PMID:22406913] [PMID:38111216] [PMID:41205366] |
+| ADHD (microdose 20 ug twice weekly) | Phase 2a RCT (n=53) | No benefit | AISRS -7.1 vs -8.9 placebo, no difference | low | [PMID:40105807] |
+| Mood/wellbeing in healthy adults (microdosing) | RCTs; SR/MA (2026) | No sustained benefit; transient dose-day effects | Depressive symptoms SMD -0.19 (CI -0.56 to 0.19); anxiety SMD -0.20; dose-day mood gains in home RCT; psilocybin-mushroom microdose RCT also null | low | [PMID:42593636] [PMID:36997080] [PMID:35106880] [PMID:33648632] [PMID:35918311] |
+| Cognition (microdosing) | MA of 14 studies (N=1614); umbrella review | Small harm to cognitive control | Cognitive control d=-0.34 (CI -0.62 to -0.06); other domains NS | low | [PMID:41314362] [PMID:42365488] |
+| Depression (microdosing, MDD) | Open-label Phase 2a (n=19); RCT ongoing | Uncertain | MADRS -59.5% (open-label, uncontrolled) | very low | [PMID:41202873] [PMID:39182140] |
+| Pain tolerance (low dose) | Placebo-controlled RCTs in healthy volunteers | Mixed | 20 ug raised cold-pressor tolerance; 15 ug x4 had no analgesic effect | very low | [PMID:32842825] [PMID:40917239] |
+| Sleep (microdosing) | RCT (n=80, wearable) | Increase | +24.3 min sleep (CI 10.3-38.3) on the night after dosing | low | [PMID:38622150] |
 
 ** Dosing in trials
-- Clinical studies used widely varying measured oral doses in monitored sessions; no unsupervised dose can be inferred. Contemporary reviews stress setting and safety-monitoring limitations [PMID:39230883].
+- GAD (MM120): a single oral dose of 25, 50, 100 or 200 ug freebase equivalent. 100 ug was taken forward to Phase 3 [PMID:40906494]. Phase 3 Voyage and Panorama used DT120 ODT 100 ug with at least 8 h of monitoring on dosing day [URL:https://ir.definiumtx.com/news-events/press-releases/detail/251/definium-therapeutics-announces-positive-topline-results-from-phase-3-panorama-study-of-dt120-odt-in-generalized-anxiety-disorder].
+- LSD-assisted therapy for anxiety: two sessions of 200 ug with psychotherapy [PMID:36266118] [PMID:24594678].
+- MDD: 100 ug then 200 ug, versus 25 ug + 25 ug, in two sessions with supportive psychotherapy [PMID:40482648].
+- Alcoholism (historical): a single dose within various treatment programs [PMID:22406913].
+- Microdosing regimens: 10 ug every 3 days for 6 weeks (14 doses), mostly self-administered at home [PMID:36997080]; 5, 10 or 20 ug every 4 days (6 doses) in older adults [PMID:31853557]; 13 or 26 ug at 3-4 day intervals [PMID:35106880].
+- Clinical microdosing: 20 ug twice weekly for 6 weeks for ADHD [PMID:40105807]; 6-20 ug sublingual twice weekly for 8 weeks for MDD [PMID:41202873].
+- Dose thresholds: 5 ug gave no significant subjective effects; 10 ug was the threshold for psychotropic effects [PMID:32975835]. Other studies found measurable mood or attention effects at 5 ug [PMID:33082016] and orderly dose-related effects from 6.5 ug [PMID:31331617].
+- Pharmacokinetics (full doses): 200 ug oral gives Cmax 4.5 ng/mL at 1.5 h, half-life 3.6 h and terminal half-life 8.9 h, with about 1% excreted unchanged in urine and 13% as 2-oxo-3-hydroxy-LSD [PMID:26108222]. At 100 ug, Cmax is 1.3 ng/mL, plasma half-life 2.6 h and effects last 8.2 h (11.6 h at 200 ug) [PMID:28197931]. At 85/170 ug, half-life is 3.7-4.0 h [PMID:37596682].
+- Pharmacokinetics (microdoses): Cmax 151, 279 and 500 pg/mL after 5, 10 and 20 ug, half-life about 3 h [PMID:32975835]. Sublingual 10 ug: Cmax 0.20 ug/L, half-life 3.08 h [PMID:40251818]. No tolerance or sensitisation was found over 16 twice-weekly microdoses [PMID:41713673].
 
 ** Safety & adverse effects
-- Acute anxiety, nausea, headache, perceptual changes, and cardiovascular effects occur; review found SAEs including worsening depression, suicidality, psychosis, and convulsions in vulnerable participants. AE capture in studies was incomplete [PMID:39230883].
+- Acute effects in controlled settings: in a pooled analysis (83 healthy subjects, 131 administrations), no participant had systolic BP >180 mmHg. Heart rate >100/min occurred in 0%, 6%, 20% and 25% at 25, 50, 100 and 200 ug, and temperature >38 C in up to 34% at 200 ug. Liver and kidney function were unchanged, and 6 subjects reported transient flashbacks [PMID:34515824]. The 200 ug dose induced significant anxiety and more ego dissolution than 100 ug [PMID:33059356].
+- MM120 Phase 2b: dose-related visual perceptual changes (46.2% at 25 ug up to 100% at 200 ug, vs 10.3% on placebo), nausea (up to 60.0%) and headache [PMID:40906494]. In Phase 3 Voyage, adverse events were mostly mild to moderate and occurred on dosing day, with no suicidality signal reported [URL:https://ir.definiumtx.com/news-events/press-releases/detail/243/definium-therapeutics-announces-positive-topline-results-from-phase-3-voyage-study-of-dt120-odt-in-generalized-anxiety-disorder].
+- LSD-assisted therapy for anxiety: transient mild acute adverse effects in 19% and one serious adverse event (acute transient anxiety, 2%) [PMID:36266118].
+- Classic psychedelics across trials (SR/MA, 3504 participants): serious adverse events occurred in none in healthy participants and about 4% in participants with neuropsychiatric disorders. These included worsening depression, suicidal behavior, psychosis and convulsions. There was no persistent psychosis or HPPD after high doses in contemporary trials. However, only 23.5% of studies since 2005 assessed adverse events systematically [PMID:39230883].
+- Psychosis: incidence of psychedelic-induced psychosis was 0.002% in population studies and 0.6% in RCTs. It was 3.8% in uncontrolled trials that included people with schizophrenia, and 13.1% of those with induced psychosis later developed schizophrenia [PMID:39592825]. Case reports describe schizophrenia-spectrum and affective disorders after even single use [PMID:39564729].
+- Mania: psychedelic-associated (hypo)mania ranged from 5.8% in controlled trials to 30% in naturalistic studies of people with bipolar disorder. Risk was higher with bipolar I disorder and familial vulnerability [PMID:42215638]. In a population cohort, acute care involving hallucinogens was linked to incident mania (weighted HR 5.97) [PMID:41329646]. In adolescents, the association of psychedelic use with manic symptoms interacted with genetic vulnerability to schizophrenia or bipolar I disorder [PMID:38477889].
+- HPPD/flashbacks: an SR of 31 treatment studies (87 patients) found 28% full and 61% partial recovery within a year. Benzodiazepines were ineffective for LSD-triggered HPPD, and risperidone aggravated symptoms in several reports [PMID:40938689]. Flashbacks resolved within 12 months in about half of case reports [PMID:39564729].
+- Cardiovascular/valvular (5-HT2B): LSD has high 5-HT2B affinity, and preclinical data support fibrotic signalling. No clinical cases of LSD valvulopathy have been reported [PMID:41643722]. In mice, chronic low-dose LSD caused no ventricular or valvular remodelling. The authors note that 5-HT2B activation is substantial but short-lived [PMID:41789300].
+- A 2026 review says cumulative exposure risks remain insufficiently characterized [PMID:42209433]. The first human microdosing echocardiography (open-label, n=19, 8 weeks) found no clinical alterations [PMID:41202873].
+- Microdosing tolerability: treatment-related anxiety led 4 of 40 participants to withdraw in the home-dosing RCT [PMID:36997080]. In older adults, adverse events were no more frequent than on placebo, with no impairment of balance or cognition [PMID:31853557]. Microdosing RCTs show adverse event risks similar to control [PMID:42593636].
 
 ** Contraindications
-- Clinical trials generally exclude individuals with psychotic disorders, bipolar mania risk, unstable cardiovascular disease, or interacting medications; exact exclusions vary. Legal status is controlled and varies by jurisdiction [PMID:39230883].
+- Personal history of psychotic disorder, or family history/genetic vulnerability to psychosis [PMID:39592825] [PMID:38477889] [PMID:39230883].
+- Bipolar I disorder or familial bipolar vulnerability: risk of (hypo)mania [PMID:42215638] [PMID:41329646].
+- Concurrent lithium: seizures reported (see Interactions) [PMID:34348413].
+- Uncontrolled hypertension or significant cardiovascular disease: LSD raises BP, heart rate and temperature dose-dependently [PMID:34515824]. Trial meta-analyses note BP/HR increases [PMID:38111216].
+- Valvular heart disease: theoretical 5-HT2B concern with repeated dosing [PMID:41643722].
+- Pregnancy: human data are sparse and confounded (11 LSD sources from 1968-2020), and absence of data is not evidence of safety [PMID:41930230]. In an early rat study, injection early in pregnancy caused abortions and stillbirths [PMID:6028038].
 
 ** Interactions
-- Drugs, supplements, conditions, and relevant laboratory interference are summarized in the structured interaction object. Lithium co-use has been associated with seizure reports in case literature; serotonergic medicines and stimulants can alter effects, but controlled interaction data are sparse. Research-only setting matters [PMID:39230883]. No genotype-specific claim is made because no directly relevant pharmacogenomic source was identified.
+*** Drugs
+- Lithium: in 62 online reports of lithium plus classic psychedelics, 47% involved seizures and 39% medical attention, versus none with lamotrigine [PMID:34348413]. An adolescent case had three generalized seizures after LSD on low-dose lithium [PMID:38986146]. Chronic lithium also subjectively increased LSD responses [PMID:8788508].
+- SSRIs: chronic SSRIs/trazodone attenuated or eliminated LSD responses in 28 of 32 users (88%) [PMID:8726753]. In a controlled trial, paroxetine (20 mg, 42 days) left pleasant effects intact but reduced bad drug effects, anxiety and nausea. It raised LSD Cmax and AUC (GMR 1.4 and 1.5) through CYP2D6 inhibition, with no QTc change [PMID:40022427]. SSRI initiation worsened LSD flashbacks in two adolescents [PMID:7965440].
+- Tricyclic antidepressants: chronic use subjectively increased physical, hallucinatory and psychological responses to LSD [PMID:8788508].
+- MAO inhibitors: chronic use subjectively decreased LSD effects [PMID:8788508]. A systematic review of 52 interaction studies found both attenuated and potentiated effects across drug classes [PMID:37982394].
+- Strong CYP2D6 inhibitors: paroxetine raised LSD exposure, and other strong CYP2D6 inhibitors are expected to act similarly (inference) [PMID:40022427]. CYP2D6, 2E1 and 3A4 form nor-LSD, and CYP1A2, 2C9, 2E1 and 3A4 form 2-oxo-3-hydroxy-LSD. Rifampicin induction increased metabolite formation in vitro [PMID:30981875].
+- 5-HT2A antagonists (ketanserin): block or reverse LSD effects [PMID:33059356] [PMID:36342343].
+- Antipsychotics: risperidone aggravated HPPD in several reports [PMID:40938689]. Antipsychotic interactions are summarized in a systematic review [PMID:37982394].
+- Tramadol and other serotonergic or seizure-threshold-lowering drugs: no LSD-specific human interaction data were found. The DDI review reports no serious adverse drug events except in a few case reports [PMID:37982394].
+*** Other supplements
+- Lithium (corpus item): see Drugs. Seizure reports occurred even at subtherapeutic serum levels [PMID:38986146] [PMID:34348413].
+- No cited interaction with other supplements in this batch.
+*** Conditions
+- Psychosis, bipolar disorder, cardiovascular disease, hypertension, pregnancy: see Contraindications.
+- Seizure risk: convulsive episodes were among the serious adverse events in patient trials [PMID:39230883]. Lithium co-use is the main reported trigger [PMID:34348413].
+- Prior HPPD or flashbacks: may recur, and SSRIs or risperidone may aggravate them [PMID:7965440] [PMID:40938689].
+- Recreational co-use: 56.3% of psychedelic users report typical co-use, most often cannabis and alcohol [PMID:39468747]. No controlled LSD-cannabis interaction data were found.
+*** Lab-test interference
+- Urine LSD immunoassays (CEDIA) give false positives with sertraline [PMID:22511703], ambroxol [PMID:9737335] and bupropion [PMID:17529897]. Positives are presumptive until confirmed chromatographically [PMID:24986836].
+- Standard drug screens: LSD is extensively metabolized, with only about 1% excreted unchanged in urine [PMID:26108222] [PMID:37596682].
 
 ** Genotype notes
-- No directly relevant, clinically validated pharmacogenomic/nutrigenomic source was identified in the sources reviewed.
+- CYP2D6: in a pooled analysis of 81 subjects, poor metabolizers had longer half-lives, about 75% higher LSD and 2-oxo-3-hydroxy-LSD AUC, and stronger, longer subjective effects. Other CYPs (1A2, 2C9, 2C19, 2B6) had no effect [PMID:34035391].
+- With microdoses, 2 of 4 participants who withdrew for anxiety had intermediate or weak CYP2D6 activity [PMID:40251818]. Paroxetine's CYP2D6 inhibition of LSD clearance was nominally greatest in normal metabolizers [PMID:40022427].
 
 ** Latest research
-- 2024 systematic review/meta-analysis included psychedelic studies searched through Feb 2024; LSD had fewer trials than psilocybin, with pooled symptom estimate Hedges g −0.65 across indications [PMID:38574699]. 2024 adverse-event review found SAE reports in about 4% of participants with preexisting neuropsychiatric disorders across classic psychedelics and highlighted poor AE reporting [PMID:39230883].
+- [2026-10] DT120 drug profile: a credible signal from a single 100 ug dose without mandated psychotherapy. Phase 3 Voyage and Panorama were positive; durability, retreatment and functional unblinding remain open [PMID:42848417].
+- [2026-10] Mania SR/MA: transition to bipolar disorder in registry cohorts was 4% (CI 2-8%), with little hallucinogen-specific signal. Risk is higher with bipolar I disorder or family history [PMID:42215638].
+- [2026-10] Microdosing MA in healthy adults (24 studies): no consistent benefit over placebo for depression, anxiety or stress [PMID:42593636].
+- [2026-09] Panorama Phase 3 (GAD): HAM-A -5.1 vs placebo at wk 12 (d=0.64). Pre-NDA meeting planned for Q4 2026 and NDA anticipated in 1H 2027 [URL:https://ir.definiumtx.com/news-events/press-releases/detail/251/definium-therapeutics-announces-positive-topline-results-from-phase-3-panorama-study-of-dt120-odt-in-generalized-anxiety-disorder] [URL:https://clinicaltrials.gov/study/NCT06809595].
+- [2026-09] FDA Breakthrough Therapy designation for DT120 in MDD after Phase 3 Emerge (MADRS -8.1 vs placebo at wk 6) [URL:https://ir.definiumtx.com/news-events/press-releases/detail/247/definium-therapeutics-receives-breakthrough-therapy-designation-for-dt120-lysergide-orally-disintegrating-tablet-odt-in-major-depressive-disorder-mdd-following-positive-phase-3-results] [URL:https://clinicaltrials.gov/study/NCT06941844].
+- [2026-08] Voyage Phase 3 (GAD): HAM-A -5.4 vs placebo at wk 12 (d=0.81). Mean time to discharge criteria was 6.4 h [URL:https://ir.definiumtx.com/news-events/press-releases/detail/243/definium-therapeutics-announces-positive-topline-results-from-phase-3-voyage-study-of-dt120-odt-in-generalized-anxiety-disorder] [URL:https://clinicaltrials.gov/study/NCT06741228].
+- [2026-08] 5-HT2B review: cumulative valvular risk from intermittent psychedelic dosing is insufficiently characterized [PMID:42209433].
+- [2026-07] Microdosing umbrella review: a small decrease in cognitive control (also in a Jan 2026 MA, N=1614); mood benefits are not replicated under blinding [PMID:42365488] [PMID:41314362].
+- [2026-06] DTI study of the MDD trial: white-matter FA increases correlated with antidepressant response [PMID:42102823].
+- [2026-03] SR of LSD/MDMA and 5-HT2B valvulopathy: no clinical LSD cases, but preclinical fibrotic signalling [PMID:41643722].
+- [2026-02/03] Open-label microdosing for MDD (n=19): MADRS -59.5%; normal echocardiography; no tolerance over 16 doses [PMID:41202873] [PMID:41713673].
+- [2026-01] PAT depression MA: Hedges g -0.84; more preparation therapy hours were associated with larger effects [PMID:41563753].
+- [2026-01] Pregnancy scoping review: human prenatal psychedelic evidence is sparse [PMID:41930230].
+- [2025-12] Living MA (30 RCTs): psychedelics for MDD, SMD -0.62 (very low certainty); LSD did not help ADHD [PMID:41205366].
+- [2025-12] Ontario cohort: hallucinogen acute care was linked to incident mania (HR 5.97) [PMID:41329646].
+- [2025-11] Mouse study: chronic low-dose LSD caused no valvular remodelling [PMID:41789300].
+- [2025-10] MM120 Phase 2b in GAD published (JAMA) [PMID:40906494].
+- [2025-09] MDD RCT of high- vs low-dose LSD therapy (n=61): IDS-C -9.2 [PMID:40482648]. LSD base and tartrate are bioequivalent, F=80% [PMID:40418105]. HPPD treatment SR [PMID:40938689].
+- [2025-06] Paroxetine-LSD interaction RCT: CYP2D6 inhibition raised exposure about 1.5-fold and reduced negative effects [PMID:40022427]. ADHD microdose RCT: null [PMID:40105807].
+- [2025-03] Psychosis MA: 0.6% incidence in RCTs [PMID:39592825].
+- [2024-12] Adverse events SR/MA of classic psychedelics [PMID:39230883].
 
 ** Open questions
-- Larger replicated trials, long-term follow-up, standardized adverse-event capture, and direct LSD-specific interaction studies are needed [PMID:39230883; PMID:38574699].
+- Durability, retreatment intervals and long-term safety of single-dose DT120. Phase 3 results so far are sponsor topline releases, not peer-reviewed.
+- Functional unblinding and expectancy effects in both full-dose and microdose trials [PMID:41563753] [PMID:33648632].
+- Whether microdosing has any effect beyond placebo in clinical populations. Observational studies report more benefit than experiments. The LSDDEP2 RCT is pending [PMID:39182140] [PMID:38877715] [PMID:40834796].
+- Cardiac valve safety of chronic or frequent microdosing in humans (5-HT2B).
+- Safety in people with bipolar spectrum or psychosis vulnerability, and the mechanism of the lithium-seizure signal.
+- Interactions with non-CYP2D6-inhibiting SSRIs, SNRIs, tramadol and antipsychotics under controlled conditions.
+- Pregnancy and lactation safety.
 
 ** Sources
-- PMID:39230883
-- PMID:38574699
-- PMID:39168500
+1. Code of Federal Regulations. 21 CFR 1308.11 Schedule I (hallucinogenic substances: lysergic acid diethylamide). eCFR. URL:https://www.ecfr.gov/current/title-21/chapter-II/subchapter-B/part-1308/section-1308.11
+2. MindMed. MindMed Receives FDA Breakthrough Therapy Designation and Announces Positive 12-Week Durability Data From Phase 2B Study of MM120 for GAD. Press release. 2024-03-07. URL:https://ir.definiumtx.com/news-events/press-releases/detail/137/mindmed-receives-fda-breakthrough-therapy-designation-and-announces-positive-12-week-durability-data-from-phase-2b-study-of-mm120-for-generalized-anxiety-disorder
+3. Definium Therapeutics. Positive Topline Results from Phase 3 Voyage Study of DT120 ODT in GAD. Press release. 2026-08-12. URL:https://ir.definiumtx.com/news-events/press-releases/detail/243/definium-therapeutics-announces-positive-topline-results-from-phase-3-voyage-study-of-dt120-odt-in-generalized-anxiety-disorder
+4. Definium Therapeutics. Breakthrough Therapy Designation for DT120 ODT in MDD Following Positive Phase 3 Results. Press release. 2026-09-08. URL:https://ir.definiumtx.com/news-events/press-releases/detail/247/definium-therapeutics-receives-breakthrough-therapy-designation-for-dt120-lysergide-orally-disintegrating-tablet-odt-in-major-depressive-disorder-mdd-following-positive-phase-3-results
+5. Definium Therapeutics. Positive Topline Results from Phase 3 Panorama Study of DT120 ODT in GAD. Press release. 2026-09-14. URL:https://ir.definiumtx.com/news-events/press-releases/detail/251/definium-therapeutics-announces-positive-topline-results-from-phase-3-panorama-study-of-dt120-odt-in-generalized-anxiety-disorder
+6. ClinicalTrials.gov. A Phase 3 Trial of DT120 for Generalized Anxiety Disorder (Voyage). NCT06741228. URL:https://clinicaltrials.gov/study/NCT06741228
+7. ClinicalTrials.gov. A Phase 3 Trial of MM120 for Generalized Anxiety Disorder (Panorama). NCT06809595. URL:https://clinicaltrials.gov/study/NCT06809595
+8. ClinicalTrials.gov. A Phase 3 Trial of DT120 for Major Depressive Disorder (Emerge). NCT06941844. URL:https://clinicaltrials.gov/study/NCT06941844
+9. Arikci D et al. Absolute Oral Bioavailability and Bioequivalence of LSD Base and Tartrate in a Double-Blind, Placebo-Controlled, Crossover Study. Clin Pharmacol Ther. 2025. PMID:40418105 DOI:10.1002/cpt.3726
+10. Cubała WJ. DT120 (MM120): a single-dose orally disintegrating formulation of lysergide tartrate for generalized anxiety disorder. Expert Rev Neurother. 2026. PMID:42848417 DOI:10.1080/14737175.2026.2744754
+11. Daldegan-Bueno D et al. LSDDEP2: study protocol for a randomised, double-dummy, triple-blind, active placebo-controlled, parallel groups trial of LSD microdosing in patients with major depressive disorder. Trials. 2024. PMID:39182140 DOI:10.1186/s13063-024-08384-3
+12. Morse JD et al. Pharmacokinetics and pharmacodynamics of sublingual microdosed lysergic acid diethylamide in healthy adult volunteers. J Psychopharmacol. 2025. PMID:40251818 DOI:10.1177/02698811251330747
+13. Holze F et al. Lysergic Acid Diethylamide-Assisted Therapy in Patients With Anxiety With and Without a Life-Threatening Illness: A Randomized, Double-Blind, Placebo-Controlled Phase II Study. Biol Psychiatry. 2023. PMID:36266118 DOI:10.1016/j.biopsych.2022.08.025
+14. Holze F et al. Acute dose-dependent effects of lysergic acid diethylamide in a double-blind placebo-controlled study in healthy subjects. Neuropsychopharmacology. 2021. PMID:33059356 DOI:10.1038/s41386-020-00883-6
+15. Özaydın Y et al. Classical psychedelic microdosing, mood, and cognitive function: An umbrella review with narrative synthesis. J Psychopharmacol. 2026. PMID:42365488 DOI:10.1177/02698811261456196
+16. Becker AM et al. Ketanserin Reverses the Acute Response to LSD in a Randomized, Double-Blind, Placebo-Controlled, Crossover Study in Healthy Participants. Int J Neuropsychopharmacol. 2023. PMID:36342343 DOI:10.1093/ijnp/pyac075
+17. Luethi D et al. Cytochrome P450 enzymes contribute to the metabolism of LSD to nor-LSD and 2-oxo-3-hydroxy-LSD: Implications for clinical LSD use. Biochem Pharmacol. 2019. PMID:30981875 DOI:10.1016/j.bcp.2019.04.013
+18. Wacker D et al. Crystal Structure of an LSD-Bound Human Serotonin Receptor. Cell. 2017. PMID:28129538 DOI:10.1016/j.cell.2016.12.033
+19. Olbrich S et al. LSD and ketanserin and their impact on the human autonomic nervous system. Psychophysiology. 2021. PMID:33772794 DOI:10.1111/psyp.13822
+20. Holze F et al. Safety pharmacology of acute LSD administration in healthy subjects. Psychopharmacology (Berl). 2022. PMID:34515824 DOI:10.1007/s00213-021-05978-6
+21. Avram M et al. Neuroplastic white matter changes in patients with major depression following lysergic acid diethylamide treatment. Cell Rep Med. 2026. PMID:42102823 DOI:10.1016/j.xcrm.2026.102791
+22. Xu T et al. Cardiac Consequences Associated with Psychedelic Use: A Systematic Review of Lysergic Acid Diethylamide, 3,4-Methylenedioxymethamphetamine, and 5-Hydroxytryptamine 2B-Mediated Valvular Heart Disease. Pharmacopsychiatry. 2026. PMID:41643722 DOI:10.1055/a-2794-6487
+23. Le GH et al. The Serotonin 2B (5-HT2B) Receptor: A Narrative Review of Preclinical and Clinical Evidence on the Safety Considerations and Therapeutic Potential for the Treatment of Depression. Clin Pharmacol Ther. 2026. PMID:42209433 DOI:10.1002/cpt.70344
+24. Holze F et al. Serotonergic Psychedelics: A Comparative Review of Efficacy, Safety, Pharmacokinetics, and Binding Profile. Biol Psychiatry Cogn Neurosci Neuroimaging. 2024. PMID:38301886 DOI:10.1016/j.bpsc.2024.01.007
+25. Holze F et al. Direct comparison of the acute effects of lysergic acid diethylamide and psilocybin in a double-blind placebo-controlled study in healthy subjects. Neuropsychopharmacology. 2022. PMID:35217796 DOI:10.1038/s41386-022-01297-2
+26. Robison R et al. Single Treatment With MM120 (Lysergide) in Generalized Anxiety Disorder: A Randomized Clinical Trial. JAMA. 2025. PMID:40906494 DOI:10.1001/jama.2025.13481
+27. Holze F et al. LSD-assisted therapy in patients with anxiety: open-label prospective 12-month follow-up. Br J Psychiatry. 2024. PMID:39078038 DOI:10.1192/bjp.2024.99
+28. Gasser P et al. Safety and efficacy of lysergic acid diethylamide-assisted psychotherapy for anxiety associated with life-threatening diseases. J Nerv Ment Dis. 2014. PMID:24594678 DOI:10.1097/NMD.0000000000000113
+29. Schipper S et al. Psychedelic-assisted therapy for treating anxiety, depression, and existential distress in people with life-threatening diseases. Cochrane Database Syst Rev. 2024. PMID:39260823 DOI:10.1002/14651858.CD015383.pub2
+30. Hsu TW et al. Comparative oral monotherapy of psilocybin, lysergic acid diethylamide, 3,4-methylenedioxymethamphetamine, ayahuasca, and escitalopram for depressive symptoms: systematic review and Bayesian network meta-analysis. BMJ. 2024. PMID:39168500 DOI:10.1136/bmj-2023-078607
+31. Müller F et al. Efficacy and safety of low- versus high-dose-LSD-assisted therapy in patients with major depression: A randomized trial. Med. 2025. PMID:40482648 DOI:10.1016/j.medj.2025.100725
+32. Højlund M et al. Efficacy, all-cause discontinuation, and safety of serotonergic psychedelics and MDMA to treat mental disorders: A living systematic review with meta-analysis. Eur Neuropsychopharmacol. 2025. PMID:41205366 DOI:10.1016/j.euroneuro.2025.09.011
+33. Yao Y et al. Efficacy and safety of psychedelics for the treatment of mental disorders: A systematic review and meta-analysis. Psychiatry Res. 2024. PMID:38574699 DOI:10.1016/j.psychres.2024.115886
+34. Krebs TS et al. Lysergic acid diethylamide (LSD) for alcoholism: meta-analysis of randomized controlled trials. J Psychopharmacol. 2012. PMID:22406913 DOI:10.1177/0269881112439253
+35. Sicignano D et al. The impact of psychedelics on patients with alcohol use disorder: a systematic review with meta-analysis. Curr Med Res Opin. 2024. PMID:38111216 DOI:10.1080/03007995.2023.2296968
+36. Mueller L et al. Safety and Efficacy of Repeated Low-Dose LSD for ADHD Treatment in Adults: A Randomized Clinical Trial. JAMA Psychiatry. 2025. PMID:40105807 DOI:10.1001/jamapsychiatry.2025.0044
+37. Meshkat S et al. Efficacy and Safety of Psychedelic Microdosing on Psychological Outcomes in Healthy Adults: A Systematic Review and Meta-analysis. CNS Drugs. 2026. PMID:42593636 DOI:10.1007/s40263-026-01325-5
+38. Murphy RJ et al. Acute Mood-Elevating Properties of Microdosed Lysergic Acid Diethylamide in Healthy Volunteers: A Home-Administered Randomized Controlled Trial. Biol Psychiatry. 2023. PMID:36997080 DOI:10.1016/j.biopsych.2023.03.013
+39. de Wit H et al. Repeated low doses of LSD in healthy adults: A placebo-controlled, dose-response study. Addict Biol. 2022. PMID:35106880 DOI:10.1111/adb.13143
+40. Szigeti B et al. Self-blinding citizen science to explore psychedelic microdosing. Elife. 2021. PMID:33648632 DOI:10.7554/eLife.62878
+41. Cavanna F et al. Microdosing with psilocybin mushrooms: a double-blind placebo-controlled study. Transl Psychiatry. 2022. PMID:35918311 DOI:10.1038/s41398-022-02039-0
+42. Pinhas N et al. Effects of psychedelic microdosing on cognitive functions: A systematic review and meta-analysis. Neurosci Biobehav Rev. 2026. PMID:41314362 DOI:10.1016/j.neubiorev.2025.106493
+43. Daldegan-Bueno D et al. LSD microdosing in major depressive disorder: results from an open-label trial. Neuropharmacology. 2026. PMID:41202873 DOI:10.1016/j.neuropharm.2025.110762
+44. Ramaekers JG et al. A low dose of lysergic acid diethylamide decreases pain perception in healthy volunteers. J Psychopharmacol. 2021. PMID:32842825 DOI:10.1177/0269881120940937
+45. Cavarra M et al. A randomised placebo-controlled study of the effects of lysergic acid diethylamide microdosing (15 μg) on pain perception in healthy volunteers. Br J Pain. 2025. PMID:40917239 DOI:10.1177/20494637251371626
+46. Allen N et al. LSD increases sleep duration the night after microdosing. Transl Psychiatry. 2024. PMID:38622150 DOI:10.1038/s41398-024-02900-4
+47. Family N et al. Safety, tolerability, pharmacokinetics, and pharmacodynamics of low dose lysergic acid diethylamide (LSD) in healthy older volunteers. Psychopharmacology (Berl). 2020. PMID:31853557 DOI:10.1007/s00213-019-05417-7
+48. Holze F et al. Pharmacokinetics and Pharmacodynamics of Lysergic Acid Diethylamide Microdoses in Healthy Participants. Clin Pharmacol Ther. 2021. PMID:32975835 DOI:10.1002/cpt.2057
+49. Hutten NRPW et al. Mood and cognition after administration of low LSD doses in healthy volunteers: A placebo controlled dose-effect finding study. Eur Neuropsychopharmacol. 2020. PMID:33082016 DOI:10.1016/j.euroneuro.2020.10.002
+50. Bershad AK et al. Acute Subjective and Behavioral Effects of Microdoses of Lysergic Acid Diethylamide in Healthy Human Volunteers. Biol Psychiatry. 2019. PMID:31331617 DOI:10.1016/j.biopsych.2019.05.019
+51. Dolder PC et al. Pharmacokinetics and Concentration-Effect Relationship of Oral LSD in Humans. Int J Neuropsychopharmacol. 2015. PMID:26108222 DOI:10.1093/ijnp/pyv072
+52. Dolder PC et al. Pharmacokinetics and Pharmacodynamics of Lysergic Acid Diethylamide in Healthy Subjects. Clin Pharmacokinet. 2017. PMID:28197931 DOI:10.1007/s40262-017-0513-9
+53. Holze F et al. Pharmacokinetics, pharmacodynamics and urinary recovery of oral lysergic acid diethylamide administration in healthy participants. Br J Clin Pharmacol. 2024. PMID:37596682 DOI:10.1111/bcp.15887
+54. Daldegan-Bueno D et al. LSD microdosing for major depressive disorder: Mood and pharmacokinetic outcomes from a Phase 2a trial. Prog Neuropsychopharmacol Biol Psychiatry. 2026. PMID:41713673 DOI:10.1016/j.pnpbp.2026.111645
+55. Hinkle JT et al. Adverse Events in Studies of Classic Psychedelics: A Systematic Review and Meta-Analysis. JAMA Psychiatry. 2024. PMID:39230883 DOI:10.1001/jamapsychiatry.2024.2546
+56. Sabé M et al. Reconsidering evidence for psychedelic-induced psychosis: an overview of reviews, a systematic review, and meta-analysis of human studies. Mol Psychiatry. 2025. PMID:39592825 DOI:10.1038/s41380-024-02800-5
+57. Yildirim B et al. Adverse psychiatric effects of psychedelic drugs: a systematic review of case reports. Psychol Med. 2024. PMID:39564729 DOI:10.1017/S0033291724002496
+58. Eskinazi M et al. Psychedelic-induced hypomania and mania: a systematic review and meta-analysis. Mol Psychiatry. 2026. PMID:42215638 DOI:10.1038/s41380-026-03657-6
+59. Myran DT et al. Hospital-based care for hallucinogens and risk of mania and bipolar disorder: A population-based cohort study. PLoS Med. 2025. PMID:41329646 DOI:10.1371/journal.pmed.1004805
+60. Simonsson O et al. Adolescent Psychedelic Use and Psychotic or Manic Symptoms. JAMA Psychiatry. 2024. PMID:38477889 DOI:10.1001/jamapsychiatry.2024.0047
+61. Neven A et al. Pharmacological Treatment of Hallucinogen Persisting Perception Disorder (HPPD): A Systematic Review. Harv Rev Psychiatry. 2025. PMID:40938689 DOI:10.1097/HRP.0000000000000439
+62. Effinger DP et al. Assessing the Potential Cardiovascular Risk of Microdosing the Psychedelic LSD in Mice. ACS Pharmacol Transl Sci. 2025. PMID:41789300 DOI:10.1021/acsptsci.5c00202
+63. Nayak SM et al. Classic Psychedelic Coadministration with Lithium, but Not Lamotrigine, is Associated with Seizures: An Analysis of Online Psychedelic Experience Reports. Pharmacopsychiatry. 2021. PMID:34348413 DOI:10.1055/a-1524-2794
+64. Albert OM et al. Psychedelic exposure in pregnancy: a scoping review to inform perinatal drug safety and clinical counseling. Ther Adv Drug Saf. 2026. PMID:41930230 DOI:10.1177/20420986261436104
+65. Alexander GJ et al. LSD: injection early in pregnancy produces abnormalities in offspring of rats. Science. 1967. PMID:6028038 DOI:10.1126/science.157.3787.459
+66. Edwards C et al. New-Onset Seizures in an Adolescent Following Use of LSD while on Low-Dose Lithium Therapy: A Case Study. S D Med. 2024. PMID:38986146
+67. Bonson KR et al. Alterations in responses to LSD in humans associated with chronic administration of tricyclic antidepressants, monoamine oxidase inhibitors or lithium. Behav Brain Res. 1996. PMID:8788508 DOI:10.1016/0166-4328(96)00102-7
+68. Bonson KR et al. Chronic administration of serotonergic antidepressants attenuates the subjective effects of LSD in humans. Neuropsychopharmacology. 1996. PMID:8726753 DOI:10.1016/0893-133X(95)00145-4
+69. Becker AM et al. Acute Effects and Pharmacokinetics of LSD after Paroxetine or Placebo Pre-Administration in a Randomized, Double-Blind, Cross-Over Phase I Trial. Clin Pharmacol Ther. 2025. PMID:40022427 DOI:10.1002/cpt.3618
+70. Markel H et al. LSD flashback syndrome exacerbated by selective serotonin reuptake inhibitor antidepressants in adolescents. J Pediatr. 1994. PMID:7965440 DOI:10.1016/s0022-3476(94)70083-4
+71. Halman A et al. Drug-drug interactions involving classic psychedelics: A systematic review. J Psychopharmacol. 2024. PMID:37982394 DOI:10.1177/02698811231211219
+72. Lake S et al. Co-use of psychedelics with other substances: Findings from the global psychedelic survey. J Psychopharmacol. 2025. PMID:39468747 DOI:10.1177/02698811241292956
+73. Citterio-Quentin A et al. LSD screening in urine performed by CEDIA® LSD assay: positive interference with sertraline. J Anal Toxicol. 2012. PMID:22511703 DOI:10.1093/jat/bks031
+74. Röhrich J et al. False-positive LSD testing in urine samples from intensive care patients. J Anal Toxicol. 1998. PMID:9737335 DOI:10.1093/jat/22.5.393
+75. Vidal C et al. Bupropion interference with immunoassays for amphetamines and LSD. Ther Drug Monit. 2007. PMID:17529897 DOI:10.1097/FTD.0b013e318040adc3
+76. Saitman A et al. False-positive interferences of common urine drug screen immunoassays: a review. J Anal Toxicol. 2014. PMID:24986836 DOI:10.1093/jat/bku075
+77. Vizeli P et al. Genetic influence of CYP2D6 on pharmacokinetics and acute subjective effects of LSD in a pooled analysis. Sci Rep. 2021. PMID:34035391 DOI:10.1038/s41598-021-90343-y
+78. Florineth GA et al. Psychological Therapy Quantity and Depressive Symptom Reduction in Psychedelic-Assisted Therapy: A Systematic Review and Meta-Analysis. JAMA Netw Open. 2026. PMID:41563753 DOI:10.1001/jamanetworkopen.2025.54843
+79. Polito V et al. Is microdosing a placebo? A rapid review of low-dose LSD and psilocybin research. J Psychopharmacol. 2024. PMID:38877715 DOI:10.1177/02698811241254831
+80. Totomanova I et al. Between enhancement and risk: A critical review of psychedelic microdosing. Curr Opin Psychol. 2025. PMID:40834796 DOI:10.1016/j.copsyc.2025.102129

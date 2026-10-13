@@ -3,46 +3,217 @@
 :ID: supp-cerebrolysin
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: Cerebrolysin peptide mixture | porcine brain-derived peptides
+:ALIASES: Cere | FPF-1070 | FPF1070 | porcine brain-derived peptide preparation | Cerebrolysin concentrate
 :CATEGORY: peptide
-:RX_STATUS: research-chemical
+:RX_STATUS: rx
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Cerebrolysin is a parenteral mixture of low-molecular-weight peptides and amino acids derived from porcine brain proteins; regulatory status differs by country and it is not FDA-approved in the United States [Cochrane CD007026].
+- Cerebrolysin is a mixture of low-molecular-weight peptides and amino acids derived from porcine (pig) brain proteins, given parenterally [PMID:37818733] [PMID:28430363] [PMID:31710397]. Older literature also calls it FPF-1070 or "Cere" [PMID:23440834] [PMID:12111446].
+- Product (Austrian prescribing information): solution for injection, 215.2 mg Cerebrolysin concentrate per mL; excipients sodium hydroxide and water for injection. Marketing authorisation holder is EVER Neuro Pharma GmbH (Unterach, Austria), and it is "only available on prescription and in pharmacies" [URL:https://www.cerebrolysin.com/cerebrolysin/about-cerebrolysin].
+- Labelled indications (Austrian SmPC summary): cerebrovascular disorders, especially senile dementia of Alzheimer's type, vascular dementia, stroke and craniocerebral trauma (concussion and contusion) [URL:https://www.cerebrolysin.com/cerebrolysin/about-cerebrolysin].
+- Regulatory status:
+  - Widely used for acute ischaemic stroke in Russia, Eastern Europe, China and other Asian and post-Soviet countries [PMID:37818733].
+  - A 2021 review states it "is not approved for use in the USA" but is used clinically in over 50 countries [PMID:33515100]. The manufacturer states that Cerebrolysin "is not registered with the U.S. Food and Drug Administration (FDA) and is not approved for sale or distribution in the United States" [URL:https://www.cerebrolysin.com/].
+  - It is registered in all CIS countries reviewed and is on Russia's essential medicines list. It is not on the WHO Model EML, and US, EU and UK dementia guidelines do not mention it. Of the national guidelines reviewed, only the Russian Alzheimer's guideline recommends it [PMID:41467376].
+  - A 2026 survey of 21 Asian countries or regions found it available in about a third to half of them, with low use where it is not in national guidelines [PMID:42525569].
+- RX_STATUS choice: coded "rx" because it is a licensed prescription medicine in its home markets [URL:https://www.cerebrolysin.com/cerebrolysin/about-cerebrolysin] [PMID:33515100]. Since it is not approved for sale or distribution in the US [URL:https://www.cerebrolysin.com/], any US supply falls outside approved channels. Commercial websites describe US "research-use" or grey-market sale, but no peer-reviewed or regulatory source documenting this was found, so it is not treated as established here.
+- Cerebrolysin-like products: the 2023 Cochrane review pooled Cerebrolysin with Cortexin, a peptide mixture derived from cattle brain [PMID:37818733], so results may not transfer between products.
 
 ** Mechanisms
-- Proposed neurotrophic and neuroprotective actions are largely mechanistic/preclinical; these have not translated into established patient-important benefit in stroke trials [Cochrane CD007026].
+- The peptides are proposed to mimic endogenous neurotrophic factors (NGF, IGF-1, BDNF, VEGF) and to modulate their expression. Proposed effects include neuroplasticity, neurogenesis, angiogenesis and anti-inflammatory actions (review) [PMID:37052231]. Broader reviews describe multiple regeneration-related signalling pathways [PMID:33515100] [PMID:35268364].
+- Sonic hedgehog (Shh): in rats with embolic stroke, treatment from 24 h raised Shh, patched and smoothened. It increased subventricular-zone progenitor proliferation, neurogenesis, oligodendrogenesis and axonal remodelling and improved function. The Shh inhibitor cyclopamine abolished all of these effects [PMID:23696546].
+- PI3K/Akt: in rat MCAo, 2.5-5 mL/kg started 24-48 h after stroke increased neurogenesis and cut TUNEL+ cells by about 50% without reducing infarct volume. Blocking PI3K/Akt abolished the progenitor proliferation [PMID:20857512].
+- Neurovascular unit and blood-brain barrier: reviews and imaging data from CEREHETIS suggest blood-brain barrier stabilisation, used as the rationale for combining it with reperfusion therapy [PMID:36973684] [PMID:41349847].
+- Evidence quality caveat: several preclinical Cerebrolysin papers have been retracted, including tauopathy (2025) and Rett-model (2026) studies [PMID:41382024] [PMID:41874695].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---------+--------------------+-----------+-------------+-----------------------+-----------|
-| Acute ischemic stroke mortality | Cochrane review of RCTs | no difference | RR 0.96 (95% CI 0.65–1.41), 6 trials, 1689 participants | moderate | Cochrane CD007026 |
-| Serious adverse events | Cochrane review | possible increased nonfatal SAEs | RR total SAE 1.16; nonfatal SAE RR 2.39 (95% CI 1.10–5.23) | moderate | Cochrane CD007026 |
-| Functional outcome | Cochrane review | not established | key poor functional outcome was not reported in included trials | low | Cochrane CD007026 |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Acute ischaemic stroke: all-cause death | Cochrane SR (7 RCTs, n=1773; 2023 update) | No benefit | RR 0.96 (95% CI 0.65-1.41), 6 trials, n=1689 | moderate | [PMID:37818733] [PMID:32662068] [PMID:28430363] |
+| Acute ischaemic stroke: serious adverse events | Cochrane SR | Total SAEs no different; non-fatal SAEs increased | Total RR 1.16 (0.81-1.66); non-fatal RR 2.39 (1.10-5.23); 30 mL x 10 d subgroup RR 2.87 (1.24-6.69) | moderate | [PMID:37818733] [PMID:32662068] |
+| Acute ischaemic stroke: 90-day function (mRS/BI) | MAs of RCTs; CASTA (n=1070) | No significant benefit | mRS response RR 1.33 (0.79-2.24); mRS 0-2 RR 1.31 (0.90-1.91); CASTA primary endpoint neutral | low | [PMID:28458521] [PMID:28656143] [PMID:41018475] [PMID:22282884] |
+| Acute ischaemic stroke: early neurological deficit (NIHSS) | Pre-planned IPD/aggregate MA (9 RCTs, n=1879); 2025 MA (14 RCTs) | Benefit | NIHSS day 21/30 MW 0.60, NNT 7.7; NIHSS change MD +1.39 (0.53-2.25) | low | [PMID:29248999] [PMID:41018475] [PMID:38552072] |
+| Motor recovery with early rehabilitation | CARS-1/2 IPD MA (n=442); small RCTs | Benefit | ARAT day 90 MW 0.62 (CARS-1 alone MW 0.71); early NIHSS NNT 7.1 | low | [PMID:28707130] [PMID:34152062] [PMID:26564102] [PMID:34208352] [PMID:36837492] |
+| Post-stroke non-fluent aphasia | Pilot RCT (ESCAS, n=123 ITT) | Benefit | WAB difference 14.8 points (9.5-20.1) at day 90 | low | [PMID:39957612] [PMID:20945821] |
+| Haemorrhagic transformation with thrombolysis | Open-label RCT (CEREHETIS, n=341); placebo RCT with rt-PA (n=119) | Fewer symptomatic HT; no 90-day mRS benefit | Symptomatic HT OR 0.248 (0.072-0.851) | low | [PMID:36973684] [PMID:23009193] |
+| Adjunct to mechanical thrombectomy | MA of 3 observational studies (n=294); propensity-matched cohorts | Benefit (observational) | mRS 0-3 RR 1.56 (1.25-1.93); sICH RR 0.12 (0.03-0.48) | very low | [PMID:41880098] [PMID:40325343] [PMID:41739286] [PMID:40027163] |
+| Moderate-severe TBI | CAPTAIN prospective MA (2 RCTs, n=185) | Benefit, small-to-medium | Day 90 MW 0.60 (0.52-0.68), SMD 0.34 | low | [PMID:33620612] [PMID:31897941] [PMID:31494820] |
+| TBI function (mainly cohort data) | MAs including cohort studies | Benefit, heterogeneous | GOS SMD 0.30 (0.18-0.42; I2 87.8%); mortality not affected | very low | [PMID:30643411] [PMID:36979317] [PMID:27539610] |
+| Vascular dementia: cognition / global function | Cochrane SR (6 RCTs, n=597) | Benefit, uncertain | Cognition SMD 0.36 (0.13-0.58); global response RR 2.69 (1.82-3.98) | very low | [PMID:31710397] [PMID:23440834] [PMID:20656516] |
+| Mild-moderate Alzheimer's disease | MA of 6 RCTs | Benefit at 4 wk; cognition not sustained at 6 mo | Cognition SMD -0.40 at 4 wk; -0.37 (-0.90 to 0.16) at 6 mo; global change OR 4.98 at 6 mo | low | [PMID:25832905] [PMID:12111446] [PMID:21679156] [PMID:34924395] [PMID:32808294] |
+| Aneurysmal subarachnoid haemorrhage | Pilot RCT (n=50); MA mostly non-randomised | No functional benefit in RCT; possible mortality benefit in MA | Favourable GOSE OR 1.49 (0.43-5.17) | very low | [PMID:33143640] [PMID:37892776] [PMID:39595058] |
+| Intracerebral haemorrhage | RCT (n=100); pilot RCT protocol | No significant efficacy; safe | Not significant | very low | [PMID:20968198] [PMID:41180520] |
+| Paediatric (preterm infants, cerebral palsy) | Small open RCTs | Benefit reported | Failed gross motor development 33% vs 70% (preterm) | very low | [PMID:33935111] [PMID:28074392] [PMID:34494216] |
 
 ** Dosing in trials
-- Stroke trials used intravenous regimens including 30 mL daily for 10 days (cumulative 300 mL); this was associated with a more prominent increase in nonfatal SAEs in subgroup analysis [Cochrane CD007026].
+- Route: IV infusion or injection, with IM injection used in some paediatric trials [PMID:28074392]. The manufacturer's guidance allows undiluted IV injection up to 10 mL or IM up to 5 mL, each given slowly over 3 minutes. Doses of 10-50 mL are diluted to at least 100 mL with saline, Ringer's or 5% glucose and infused within 15 minutes [URL:https://www.cerebrolysin.com/cerebrolysin/how-to-use-cerebrolysin]. The treatment handbook reports best experience with 100 mL infused over 30-45 minutes, no longer than one hour [URL:https://www.cerebrolysin.com/wp-content/uploads/2023/11/Cerebrolysin_TreatmentHandbook_2023_SCREEN_nocomments.pdf].
+- Manufacturer-recommended daily doses: stroke 20-50 mL/day for 10-21 days; TBI 20-50 mL/day for 7-30 days; Alzheimer's disease or cognitive problems 10-30 mL/day, 5 days a week for 4 weeks, 2-4 cycles a year [URL:https://www.cerebrolysin.com/cerebrolysin/how-to-use-cerebrolysin].
+- Acute ischaemic stroke trials:
+  - CASTA: 30 mL/day IV for 10 days, started within 12 h, with aspirin 100 mg, in more than 50 Asian centres [PMID:19765131] [PMID:22282884]. CARS: 30 mL/day for 21 days from 24-72 h, plus rehabilitation [PMID:26564102].
+  - Pooled RCTs used 30-50 mL/day for 10-21 days [PMID:29248999]. The 2021 EAN/EFNR GRADE guideline recommends 30 mL/day IV for at least 10 days for early motor neurorehabilitation [PMID:34152062].
+- Thrombolysis/thrombectomy add-on:
+  - With rt-PA: 30 mL/day for 10 days, started 1 h after alteplase [PMID:23009193].
+  - CEREHETIS: 30 mL/day for 14 days, started at the same time as alteplase via a separate line [PMID:36973684].
+  - After thrombectomy: 30 mL/day for 21 days, with a second course at days 69-90 [PMID:40325343].
+- TBI (CAPTAIN): 50 mL/day for 10 days, then two cycles of 10 mL/day for 10 days [PMID:33620612]. Mild TBI RCT (n=32): 30 mL/day for 5 days improved CASI at week 12 [PMID:23656173]. CAPTAIN-rTMS (n=93): no significant primary-outcome difference [PMID:37360156].
+- Vascular dementia: 20 mL/day IV in 2 cycles [PMID:20656516]. Alzheimer's: 30 mL IV 5 days a week for 4 weeks [PMID:12111446] [PMID:11129744]. Combination with donepezil used 10 mL [PMID:21679156]. Amnestic MCI (open, 3 years): yearly 20 x 20 mL infusions; lower dementia conversion reported [PMID:39435777].
+- Paediatric: 0.1 mL/kg IM daily for 10 days, then weekly for 4 months (cerebral palsy) [PMID:28074392]. 0.1 mL/kg weekly for 3 months (preterm infants) [PMID:33935111].
+- Other: 10-day postoperative course in degenerative cervical myelopathy (RCT, n=90; mJOA better at 1 year) [PMID:36730671]. 50 mL/day for 5 days around CABG [PMID:40350671].
+- Timing: the handbook advises giving later doses in the morning because the infusion "is stimulating and may cause excitability" [URL:https://www.cerebrolysin.com/wp-content/uploads/2023/11/Cerebrolysin_TreatmentHandbook_2023_SCREEN_nocomments.pdf].
 
 ** Safety & adverse effects
-- Cochrane found little/no difference in overall adverse events but a possible increase in nonfatal serious events; product injection risks and peptide-mixture variability apply [Cochrane CD007026].
+- Cochrane stroke review (2023):
+  - Total adverse events: RR 1.03 (0.92-1.14), low certainty. Non-fatal SAEs increased: RR 2.39 (1.10-5.23; 3 trials, n=1335), moderate certainty. The increase was larger with 30 mL for 10 days (RR 2.87). Fatal SAEs: RR 0.90 (0.59-1.38) [PMID:37818733].
+  - The 2017 and 2020 versions found the same signal: non-fatal SAEs 20/667 vs 8/668, RR 2.47 [PMID:28430363], and RR 2.15 (1.01-4.55) [PMID:32662068].
+- A separate safety meta-analysis: 12 RCTs (n=2202) found no significant differences. SAEs were lowest at 50 mL (RR 0.6) [PMID:34959697]. A 2025 MA of 14 RCTs reported SAE RR 1.08 (0.84-1.40) [PMID:41018475]. A network MA ranked cerebrolysin among agents with a higher adverse-effect rate than conventional treatment [PMID:39575393].
+- Common adverse reactions: vertigo, agitation and feeling hot, with incidence similar to placebo in pooled trials [PMID:22514795].
+  - The manufacturer FAQ lists dizziness, headache, sweating and nausea [URL:https://www.cerebrolysin.com/cerebrolysin/faqs].
+  - In one Alzheimer's RCT, AEs occurred in 64% on Cerebrolysin vs 73% on placebo, mostly headache, dizziness, weight loss and anxiety [PMID:12111446].
+- Infusion-rate effects: increased heart rate, blood pressure and arrhythmia are attributed to fast IV bolus. Fever can occur rarely [URL:https://www.cerebrolysin.com/wp-content/uploads/2023/11/Cerebrolysin_TreatmentHandbook_2023_SCREEN_nocomments.pdf].
+- Seizures: the handbook says post-stroke/TBI seizures in non-epileptic patients are not a contraindication, and that "there is no evidence that Cerebrolysin causes seizures". Yet the SmPC summary lists epilepsy as a contraindication [URL:https://www.cerebrolysin.com/wp-content/uploads/2023/11/Cerebrolysin_TreatmentHandbook_2023_SCREEN_nocomments.pdf] [URL:https://www.cerebrolysin.com/cerebrolysin/about-cerebrolysin].
+- Sterility: microbial contaminants may grow once the ampoule is opened, so single-use sets and immediate administration are required [URL:https://www.cerebrolysin.com/cerebrolysin/how-to-use-cerebrolysin] [URL:https://www.cerebrolysin.com/wp-content/uploads/2023/11/Cerebrolysin_TreatmentHandbook_2023_SCREEN_nocomments.pdf].
+- Liver: a translational study raised the theoretical concern that Shh amplification could speed NAFLD progression. In stroke patients with raised transaminases, however, AST improved in most [PMID:36362945].
+- Bias: the manufacturer supported three of the Cochrane-included stroke studies. Risk of bias was unclear or high in most domains [PMID:37818733].
+- No cited source on prion or other transmissible-agent risk from porcine sourcing was found.
 
 ** Contraindications
-- Product labeling and regulatory status differ by jurisdiction; the opened Cochrane synthesis does not establish a comprehensive contraindication list [https://www.cochrane.org/evidence/CD007026_cerebrolysin-acute-ischaemic-stroke].
+- Per the Austrian SmPC summary: hypersensitivity to any component, epilepsy, and severe renal impairment [URL:https://www.cerebrolysin.com/cerebrolysin/about-cerebrolysin].
+- The treatment handbook phrases these as hypersensitivity (including to the excipients), status epilepticus, and severe renal failure. It specifies no use at GFR categories 4 and 5 [URL:https://www.cerebrolysin.com/wp-content/uploads/2023/11/Cerebrolysin_TreatmentHandbook_2023_SCREEN_nocomments.pdf].
+- Porcine origin [PMID:37818733] means known hypersensitivity to porcine proteins falls under the component-hypersensitivity contraindication. This is an inference; no case series of porcine-allergy reactions was found.
+- Pregnancy and lactation: the SmPC has a section on these, but its content was not accessible [URL:https://www.cerebrolysin.com/cerebrolysin/about-cerebrolysin]. No cited human safety data.
 
 ** Interactions
-- Drugs, supplements, conditions, and relevant laboratory interference are summarized in the structured interaction object. No reliable supplement interaction studies established. Avoid asserting synergy; concomitant investigational therapies can confound stroke outcomes [Cochrane CD007026]. No genotype-specific claim is made because no directly relevant pharmacogenomic source was identified.
+*** Drugs
+- MAO inhibitors: high-dose MAOIs combined with higher Cerebrolysin doses (30 mL or more) "have been reported to increase blood pressure" [URL:https://www.cerebrolysin.com/wp-content/uploads/2023/11/Cerebrolysin_TreatmentHandbook_2023_SCREEN_nocomments.pdf]. The FAQ notes possible additive effects with antidepressants or MAOIs [URL:https://www.cerebrolysin.com/cerebrolysin/faqs].
+- Antidepressants: the handbook advises attention to additive effects and suggests lowering the antidepressant dose if this is psychiatrically safe [URL:https://www.cerebrolysin.com/wp-content/uploads/2023/11/Cerebrolysin_TreatmentHandbook_2023_SCREEN_nocomments.pdf].
+- Alteplase (rt-PA): co-administration was safe in a placebo-controlled RCT (no difference in AEs) [PMID:23009193]. In CEREHETIS, symptomatic haemorrhagic transformation was lower (OR 0.248) [PMID:36973684]. A post hoc analysis suggested earlier stabilisation of HT hazard, which is hypothesis-generating for anticoagulation timing [PMID:41640685].
+- Cholinesterase inhibitors (donepezil, rivastigmine): the combination was safe in an RCT, with the best cognitive scores in the combination arm [PMID:21679156]. A safety review reached the same conclusion [PMID:22514795].
+- IV admixtures: do not mix in the same infusion with balanced amino-acid solutions, vitamins or cardiovascular drugs. These may be given concomitantly but separately [URL:https://www.cerebrolysin.com/cerebrolysin/how-to-use-cerebrolysin].
+- Antiplatelets and statins: CASTA and the vascular dementia RCT co-administered aspirin [PMID:22282884] [PMID:20656516]. The manufacturer reports no incompatibilities with statins, aspirin or NOACs [URL:https://www.cerebrolysin.com/cerebrolysin/faqs].
+*** Other supplements
+- Citicoline: a retrospective severe-TBI cohort (n=80) found a non-significant trend to better outcome with citicoline plus Cerebrolysin vs citicoline alone [PMID:41409218].
+- Aspirin: co-administered in large RCTs without a specific interaction signal [PMID:22282884]. No other cited supplement interaction was found.
+*** Conditions
+- Epilepsy, status epilepticus, and severe renal impairment (GFR categories 4-5): contraindicated (see Contraindications).
+- Acute ischaemic stroke: watch for non-fatal SAEs, especially with 30 mL for 10 days [PMID:37818733].
+- Hypertension and arrhythmia: blood pressure and heart-rate rises are linked to fast infusion and to MAOI co-use [URL:https://www.cerebrolysin.com/wp-content/uploads/2023/11/Cerebrolysin_TreatmentHandbook_2023_SCREEN_nocomments.pdf].
+- Chronic liver disease or NAFLD: theoretical Shh-related concern; limited clinical data [PMID:36362945].
+- Children and infants: only small open trials [PMID:33935111] [PMID:28074392]; the handbook mentions infant use only as "experience reports" [URL:https://www.cerebrolysin.com/wp-content/uploads/2023/11/Cerebrolysin_TreatmentHandbook_2023_SCREEN_nocomments.pdf].
+*** Lab-test interference
+- No assay interference was found. Cerebrolysin was not associated with major changes in vital signs or laboratory parameters in trial safety data [PMID:22514795].
 
 ** Genotype notes
-- No directly relevant, clinically validated pharmacogenomic/nutrigenomic source was identified in the sources reviewed.
+No cited pharmacogenomic or nutrigenomic source found.
 
 ** Latest research
-- 2023 Cochrane review remains the key current synthesis for acute ischemic stroke: no mortality benefit and possible increased nonfatal serious adverse events [Cochrane CD007026].
+- [2026-07] Asian survey (21 countries/regions): Cerebrolysin is available in about a third to half; use is low where it is not in guidelines [PMID:42525569].
+- [2026-06] Thai prospective non-randomised cohort in moderate TBI with ICH (n=340): better CRS-R. The reported 6-month survival (59.4% vs 27.8%) is implausibly large for moderate TBI and comes from a single-blind, non-randomised design [PMID:42110924].
+- [2026-05] CIS regulatory review: registered across the CIS and recommended only in Russian Alzheimer's guidelines; not on the WHO EML [PMID:41467376].
+- [2026-03] MA of 3 observational thrombectomy studies (n=294): mRS 0-3 RR 1.56; sICH RR 0.12; authors caution evidence is limited [PMID:41880098]. A Rett-syndrome mouse study was retracted [PMID:41874695].
+- [2026-02] 12-month thrombectomy cohort (propensity-matched): functional independence aOR 6.10 (1.64-22.66). Mortality similar (18% in both groups) [PMID:41739286].
+- [2026-01] CEREHETIS post hoc: in high HT-risk patients, symptomatic HT HR 0.245; earlier hazard stabilisation [PMID:41640685].
+- [2025-12] CERECAP programme review of Cerebrolysin with recanalisation therapy [PMID:41349847]. Single-centre thrombectomy add-on study (n=50 vs 50 historical controls): mRS 0-2 at 90 days 68% vs 44%; secondary ICH 14% vs 40% [PMID:40325343].
+- [2025-12] Retraction of a Cerebrolysin tauopathy mouse study [PMID:41382024]. Retrospective severe-TBI cohort of citicoline plus Cerebrolysin: no significant difference [PMID:41409218].
+- [2025-11] VCI systematic review and MA (173 trials): small-to-moderate cognitive improvement for cerebrolysin, with substantial heterogeneity [PMID:41198594].
+- [2025-10] C-REGS2 comparative-effectiveness registry (n=1769, 16 countries): ordinal mRS day 90 MW 0.6157. It is non-randomised [PMID:40851188]. CLINCH ICH pilot RCT protocol (50 mL/day x 14 d) published [PMID:41180520].
+- [2025-08] MA of 14 RCTs (n=2884): NIHSS change MD +1.39; no significant effect on mRS 0-2, SAEs or mortality [PMID:41018475].
+- [2025-05] CABG pilot (n=55): delirium 0 vs 3 cases (not significant) [PMID:40350671]. A CNS Drugs review lists cerebrolysin among TBI neuroprotectants still without established benefit [PMID:40087248].
+- [2025-04] ESCAS pilot RCT (aphasia): WAB difference 14.8 points; no safety concerns [PMID:39957612].
+- [2025-02] Cardioembolic thrombectomy cohort: mRS 0-2 64% vs 34.7% [PMID:40027163].
+- [2025-01] Network MA of neuroprotectants (42 RCTs): butylphthalide and edaravone ranked highest; cerebrolysin did not rank first on any outcome [PMID:39834702].
+- [2024-12] Narrative review of neuroprotective drugs in severe TBI [PMID:38748062].
+- [2024-11] Network MA (35 studies): cerebrolysin was associated with lower mortality but a higher adverse-effect rate than conventional treatment [PMID:39575393].
+- [2024-10] SAH observational cohort (n=47): mortality benefit only combined with neuromonitoring in severe SAH [PMID:39595058].
 
 ** Open questions
-- Trials should report functional independence, quality of life, and systematic adverse events; Cochrane noted important patient-centered outcomes absent [Cochrane CD007026].
+- Does Cerebrolysin improve patient-important long-term outcomes (death or dependency, quality of life)? The Cochrane review notes that no included trial reported these [PMID:37818733].
+- What explains the non-fatal SAE signal (RR 2.39), and why does it conflict with other meta-analyses that found no excess [PMID:37818733] [PMID:34959697]?
+- Positive results come mainly from trials using multivariate Wei-Lachin/Mann-Whitney endpoints, from subgroups (severe stroke; a review argues effect size rises with severity [PMID:30004268]) or from observational designs [PMID:22282884] [PMID:29248999] [PMID:40851188]. These need independent confirmatory RCTs.
+- Thrombectomy add-on benefit rests on non-randomised cohorts with historical controls [PMID:41880098].
+- Vascular dementia and Alzheimer's evidence is small, at high risk of bias, and short-term [PMID:31710397] [PMID:25832905].
+- Retractions of preclinical papers undermine parts of the mechanistic evidence base [PMID:41382024] [PMID:41874695].
+- Full SmPC text on pregnancy, lactation, renal dosing and the evidence behind the epilepsy contraindication was not accessible.
+- No data exist on the safety, sterility or identity of product sold outside regulated channels.
 
 ** Sources
-- https://www.cochrane.org/evidence/CD007026_cerebrolysin-acute-ischaemic-stroke
-- https://www.cochrane.org/evidence/CD007026_cerebrolysin-acute-ischaemic-stroke
+1. Ziganshina LE et al. Cerebrolysin for acute ischaemic stroke. Cochrane Database Syst Rev. 2023. PMID:37818733 DOI:10.1002/14651858.CD007026.pub7
+2. Ziganshina LE et al. Cerebrolysin for acute ischaemic stroke. Cochrane Database Syst Rev. 2020. PMID:32662068 DOI:10.1002/14651858.CD007026.pub6
+3. Ziganshina LE et al. Cerebrolysin for acute ischaemic stroke. Cochrane Database Syst Rev. 2017. PMID:28430363 DOI:10.1002/14651858.CD007026.pub5
+4. Strilciuc S et al. Safety of Cerebrolysin for Neurorecovery after Acute Ischemic Stroke: A Systematic Review and Meta-Analysis of Twelve Randomized-Controlled Trials. Pharmaceuticals (Basel). 2021. PMID:34959697 DOI:10.3390/ph14121297
+5. Patel PN et al. Safety and Efficacy of Cerebrolysin for Neurorecovery After Acute Ischemic Stroke: A Systematic Review and Meta-Analysis of 14 Randomized Controlled Trials. Cureus. 2025. PMID:41018475 DOI:10.7759/cureus.91054
+6. Zhang D et al. Efficacy and Safety of Cerebrolysin for Acute Ischemic Stroke: A Meta-Analysis of Randomized Controlled Trials. Biomed Res Int. 2017. PMID:28656143 DOI:10.1155/2017/4191670
+7. Wang Z et al. Cerebrolysin for functional recovery in patients with acute ischemic stroke: a meta-analysis of randomized controlled trials. Drug Des Devel Ther. 2017. PMID:28458521 DOI:10.2147/DDDT.S124273
+8. Li M et al. Efficacy analysis of neuroprotective drugs in patients with acute ischemic stroke based on network meta-analysis. Front Pharmacol. 2024. PMID:39575393 DOI:10.3389/fphar.2024.1475021
+9. Wang Y et al. Comparative efficacy of neuroprotective agents for improving neurological function and prognosis in acute ischemic stroke: a network meta-analysis. Front Neurosci. 2024. PMID:39834702 DOI:10.3389/fnins.2024.1530987
+10. Afridi A et al. Efficacy and Safety of Cerebrolysin as an Adjunct to Mechanical Thrombectomy in Acute Ischemic Stroke: A Systematic Review and Meta-Analysis of Observational Studies. Brain Behav. 2026. PMID:41880098 DOI:10.1002/brb3.71252
+11. Guekht A et al. Safety and efficacy of Cerebrolysin in motor function recovery after stroke: a meta-analysis of the CARS trials. Neurol Sci. 2017. PMID:28707130 DOI:10.1007/s10072-017-3037-z
+12. Bornstein NM et al. Safety and efficacy of Cerebrolysin in early post-stroke recovery: a meta-analysis of nine randomized clinical trials. Neurol Sci. 2018. PMID:29248999 DOI:10.1007/s10072-017-3214-0
+13. Muresanu DF et al. Cerebrolysin and Recovery After Stroke (CARS): A Randomized, Placebo-Controlled, Double-Blind, Multicenter Trial. Stroke. 2016. PMID:26564102 DOI:10.1161/STROKEAHA.115.009416
+14. Heiss WD et al. Cerebrolysin in patients with acute ischemic stroke in Asia: results of a double-blind, placebo-controlled randomized trial. Stroke. 2012. PMID:22282884 DOI:10.1161/STROKEAHA.111.628537
+15. Beghi E et al. European Academy of Neurology and European Federation of Neurorehabilitation Societies guideline on pharmacological support in early motor rehabilitation after acute ischaemic stroke. Eur J Neurol. 2021. PMID:34152062 DOI:10.1111/ene.14936
+16. Wan M et al. Efficacy, safety, and cost-effectiveness analysis of Cerebrolysin in acute ischemic stroke: A rapid health technology assessment. Medicine (Baltimore). 2024. PMID:38552072 DOI:10.1097/MD.0000000000037593
+17. Vosko MR et al. C-REGS2-A multinational, high-quality comparative effectiveness study of Cerebrolysin in moderate acute ischemic stroke. Int J Stroke. 2025. PMID:40851188 DOI:10.1177/17474930251375439
+18. Kalinin MN et al. Cerebrolysin, hemorrhagic transformation, and anticoagulation timing after reperfusion therapy in stroke: post hoc secondary analysis of the CEREHETIS trial. Front Pharmacol. 2025. PMID:41640685 DOI:10.3389/fphar.2025.1725255
+19. Staszewski J et al. Cerebrolysin after Endovascular Thrombectomy in Stroke: 12-Month Functional Outcomes in a Propensity-Matched Cohort. Transl Stroke Res. 2026. PMID:41739286 DOI:10.1007/s12975-026-01414-z
+20. ElBassiouny A et al. Cerebrolysin as an adjuvant therapy after mechanical thrombectomy in large vessel occlusion cardioembolic stroke: a propensity score matching analysis. Front Neurol. 2025. PMID:40027163 DOI:10.3389/fneur.2025.1510284
+21. Staszewski J et al. Efficacy of Cerebrolysin Treatment as an Add-On Therapy to Mechanical Thrombectomy in Patients with Acute Ischemic Stroke Due to Large Vessel Occlusion in Anterior Circulation: 3-Month Follow-up of a Prospective, Open Label, Single-Center Study. Transl Stroke Res. 2025. PMID:40325343 DOI:10.1007/s12975-025-01355-z
+22. Homberg V et al. Speech Therapy Combined With Cerebrolysin in Enhancing Nonfluent Aphasia Recovery After Acute Ischemic Stroke: ESCAS Randomized Pilot Study. Stroke. 2025. PMID:39957612 DOI:10.1161/STROKEAHA.124.049834
+23. Jianu DC et al. Cerebrolysin adjuvant treatment in Broca's aphasics following first acute ischemic stroke of the left middle cerebral artery. J Med Life. 2010. PMID:20945821
+24. Chang WH et al. Cerebrolysin Combined with Rehabilitation Enhances Motor Recovery and Prevents Neural Network Degeneration in Ischemic Stroke Patients with Severe Motor Deficits. J Pers Med. 2021. PMID:34208352 DOI:10.3390/jpm11060545
+25. Mitrovic SZ et al. Extended Poststroke Rehabilitation Combined with Cerebrolysin Promotes Upper Limb Motor Recovery in Early Subacute Phase of Rehabilitation: A Randomized Clinical Study. Medicina (Kaunas). 2023. PMID:36837492 DOI:10.3390/medicina59020291
+26. Ribo M et al. Cerebroprotection in acute ischemic stroke: Perspectives on combining cerebrolysin with recanalization therapy. J Stroke Cerebrovasc Dis. 2026. PMID:41349847 DOI:10.1016/j.jstrokecerebrovasdis.2025.108515
+27. Chiu HC et al. Research-Evidence-Practice Gaps in Post-stroke Neuro-recovery Pharmacological Therapies in Asia. Cerebrovasc Dis Extra. 2026. PMID:42525569 DOI:10.1159/000553635
+28. Khasanova DR et al. Cerebrolysin as an Early Add-on to Reperfusion Therapy: Risk of Hemorrhagic Transformation after Ischemic Stroke (CEREHETIS), a prospective, randomized, multicenter pilot study. BMC Neurol. 2023. PMID:36973684 DOI:10.1186/s12883-023-03159-w
+29. Lang W et al. A prospective, randomized, placebo-controlled, double-blind trial about safety and efficacy of combined treatment with alteplase (rt-PA) and Cerebrolysin in acute ischaemic hemispheric stroke. Int J Stroke. 2013. PMID:23009193 DOI:10.1111/j.1747-4949.2012.00901.x
+30. Vester JC et al. Cerebrolysin after moderate to severe traumatic brain injury: prospective meta-analysis of the CAPTAIN trial series. Neurol Sci. 2021. PMID:33620612 DOI:10.1007/s10072-020-04974-6
+31. Poon W et al. Safety and efficacy of Cerebrolysin in acute brain injury and neurorecovery: CAPTAIN I-a randomized, placebo-controlled, double-blind, Asian-Pacific trial. Neurol Sci. 2020. PMID:31494820 DOI:10.1007/s10072-019-04053-5
+32. Muresanu DF et al. Efficacy and safety of cerebrolysin in neurorecovery after moderate-severe traumatic brain injury: results from the CAPTAIN II trial. Neurol Sci. 2020. PMID:31897941 DOI:10.1007/s10072-019-04181-y
+33. Ghaffarpasand F et al. Effects of cerebrolysin on functional outcome of patients with traumatic brain injury: a systematic review and meta-analysis. Neuropsychiatr Dis Treat. 2019. PMID:30643411 DOI:10.2147/NDT.S186865
+34. Jarosz K et al. Cerebrolysin in Patients with TBI: Systematic Review and Meta-Analysis. Brain Sci. 2023. PMID:36979317 DOI:10.3390/brainsci13030507
+35. El Sayed I et al. A meta-analysis of the effect of different neuroprotective drugs in management of patients with traumatic brain injury. Neurosurg Rev. 2018. PMID:27539610 DOI:10.1007/s10143-016-0775-y
+36. Chen CC et al. Cerebrolysin enhances cognitive recovery of mild traumatic brain injury patients: double-blind, placebo-controlled, randomized study. Br J Neurosurg. 2013. PMID:23656173 DOI:10.3109/02688697.2013.793287
+37. Verisezan Rosu O et al. Cerebrolysin and repetitive transcranial magnetic stimulation (rTMS) in patients with traumatic brain injury: a three-arm randomized trial. Front Neurosci. 2023. PMID:37360156 DOI:10.3389/fnins.2023.1186751
+38. Schlager P et al. Combined citicoline and Cerebrolysin for neuroprotection in traumatic brain injury: a retrospective cohort analysis. Front Neurol. 2025. PMID:41409218 DOI:10.3389/fneur.2025.1684981
+39. Boontoterm P et al. Neuroprotective Effects of Cerebrolysin in Moderate Traumatic Brain Injury with Nonoperative Lesions: A 6-Month Prospective Cohort Analysis. Asian J Neurosurg. 2026. PMID:42110924 DOI:10.1055/s-0045-1813223
+40. Grgac I et al. Neuroprotective and neuroregenerative drugs after severe traumatic brain injury: A narrative review from a clinical perspective. Wien Klin Wochenschr. 2024. PMID:38748062 DOI:10.1007/s00508-024-02367-9
+41. Cook AM et al. Update on Neuroprotection after Traumatic Brain Injury. CNS Drugs. 2025. PMID:40087248 DOI:10.1007/s40263-025-01173-9
+42. Cui S et al. Cerebrolysin for vascular dementia. Cochrane Database Syst Rev. 2019. PMID:31710397 DOI:10.1002/14651858.CD008900.pub3
+43. Chen N et al. Cerebrolysin for vascular dementia. Cochrane Database Syst Rev. 2013. PMID:23440834 DOI:10.1002/14651858.CD008900.pub2
+44. Guekht AB et al. Cerebrolysin in vascular dementia: improvement of clinical outcome in a randomized, double-blind, placebo-controlled multicenter trial. J Stroke Cerebrovasc Dis. 2011. PMID:20656516 DOI:10.1016/j.jstrokecerebrovasdis.2010.01.012
+45. Gauthier S et al. Cerebrolysin in mild-to-moderate Alzheimer's disease: a meta-analysis of randomized controlled clinical trials. Dement Geriatr Cogn Disord. 2015. PMID:25832905 DOI:10.1159/000377672
+46. Alvarez XA et al. Combination treatment in Alzheimer's disease: results of a randomized, controlled trial with cerebrolysin and donepezil. Curr Alzheimer Res. 2011. PMID:21679156 DOI:10.2174/156720511796391863
+47. Gavrilova SI et al. Cerebrolysin in the therapy of mild cognitive impairment and dementia due to Alzheimer's disease: 30 years of clinical use. Med Res Rev. 2021. PMID:32808294 DOI:10.1002/med.21722
+48. Masserini F et al. Therapeutic strategies in vascular cognitive impairment: A systematic review and meta-analysis. Alzheimers Dement. 2025. PMID:41198594 DOI:10.1002/alz.70840
+49. Ponomareva EV et al. [Cerebrolysin in the preventive therapy of dementia in elderly patients with mild cognitive impairment: a three-year prospective comparative study]. Zh Nevrol Psikhiatr Im S S Korsakova. 2024. PMID:39435777 DOI:10.17116/jnevro202412409151
+50. Fan F et al. The Efficacy and Safety of Alzheimer's Disease Therapies: An Updated Umbrella Review. J Alzheimers Dis. 2022. PMID:34924395 DOI:10.3233/JAD-215423
+51. Alexandrova EG et al. Use of nootropics in Alzheimer's disease: An analysis of regulatory positions and drug policies in the countries of the Commonwealth of Independent States. Int J Risk Saf Med. 2026. PMID:41467376 DOI:10.1177/09246479251410817
+52. Bae CY et al. A double-blind, placebo-controlled, multicenter study of Cerebrolysin for Alzheimer's disease. J Am Geriatr Soc. 2000. PMID:11129744 DOI:10.1111/j.1532-5415.2000.tb03865.x
+53. Panisset M et al. Cerebrolysin in Alzheimer's disease: a randomized, double-blind, placebo-controlled trial with a neurotrophic agent. J Neural Transm (Vienna). 2002. PMID:12111446 DOI:10.1007/s007020200092
+54. Kojder K et al. Cerebrolysin in Patients with Subarachnoid Hemorrhage: A Systematic Review and Meta-Analysis. J Clin Med. 2023. PMID:37892776 DOI:10.3390/jcm12206638
+55. Woo PYM et al. Randomized, placebo-controlled, double-blind, pilot trial to investigate safety and efficacy of Cerebrolysin in patients with aneurysmal subarachnoid hemorrhage. BMC Neurol. 2020. PMID:33143640 DOI:10.1186/s12883-020-01908-9
+56. Kojder K et al. Cerebrolysin in Patients Diagnosed with Subarachnoid Hemorrhage-The Results of an Observational Cohort Study. Biomedicines. 2024. PMID:39595058 DOI:10.3390/biomedicines12112492
+57. Kobayashi A et al. Safety and feasibility of cerebrolysin in treatment of primary intracerebral hemorrhage (CLINCH)-a prospective, randomized, open-label, blinded endpoint pilot trial. Front Neurol. 2025. PMID:41180520 DOI:10.3389/fneur.2025.1602956
+58. Bajenaru O et al. Efficacy and safety of Cerebrolysin in patients with hemorrhagic stroke. J Med Life. 2010. PMID:20968198
+59. Zhang L et al. Sonic hedgehog signaling pathway mediates cerebrolysin-improved neurological function after stroke. Stroke. 2013. PMID:23696546 DOI:10.1161/STROKEAHA.111.000831
+60. Zhang C et al. Cerebrolysin enhances neurogenesis in the ischemic brain and improves functional outcome after stroke. J Neurosci Res. 2010. PMID:20857512 DOI:10.1002/jnr.22495
+61. Rejdak K et al. Modulation of neurotrophic factors in the treatment of dementia, stroke and TBI: Effects of Cerebrolysin. Med Res Rev. 2023. PMID:37052231 DOI:10.1002/med.21960
+62. Brainin M. Cerebrolysin: a multi-target drug for recovery after stroke. Expert Rev Neurother. 2018. PMID:30004268 DOI:10.1080/14737175.2018.1500459
+63. Fiani B et al. Cerebrolysin for stroke, neurodegeneration, and traumatic brain injury: review of the literature and outcomes. Neurol Sci. 2021. PMID:33515100 DOI:10.1007/s10072-021-05089-2
+64. Muresanu DF et al. Role and Impact of Cerebrolysin for Ischemic Stroke Care. J Clin Med. 2022. PMID:35268364 DOI:10.3390/jcm11051273
+65. Thome J et al. Safety profile of Cerebrolysin: clinical experience from dementia and stroke trials. Drugs Today (Barc). 2012. PMID:22514795 DOI:10.1358/dot.2012.48(Suppl.A).1739724
+66. Morega S et al. Cerebrolysin Use in Patients with Liver Damage-A Translational Study. Life (Basel). 2022. PMID:36362945 DOI:10.3390/life12111791
+67. Samir A et al. Effect of cerebrolysin on neurodevelopmental outcome of high risk preterm infants: A randomized controlled trial. J Neonatal Perinatal Med. 2022. PMID:33935111 DOI:10.3233/NPM-200659
+68. Nasiri J et al. Effect of cerebrolysin on gross motor function of children with cerebral palsy: a clinical trial. Acta Neurol Belg. 2017. PMID:28074392 DOI:10.1007/s13760-016-0743-x
+69. Fiani B et al. Neuroprotective strategies of cerebrolysin for the treatment of infants with neonatal hypoxic-ischemic encephalopathy. Acta Neurol Belg. 2021. PMID:34494216 DOI:10.1007/s13760-021-01795-y
+70. Rockenstein E et al. Retraction Note: Cerebrolysin efficacy in a transgenic model of tauopathy: role in regulation of mitochondrial structure. BMC Neurosci. 2025. PMID:41382024 DOI:10.1186/s12868-025-00985-1
+71. Doppler E et al. Retraction Note: Neurotrophic effects of Cerebrolysin in the Mecp2308/Y transgenic model of Rett syndrome. Acta Neuropathol. 2026. PMID:41874695 DOI:10.1007/s00401-026-03001-w
+72. Stadnik A et al. Effect of Cerebrolysin on Cognitive Function and Delirium in Coronary Artery Bypass Graft Patients. Med Sci Monit. 2025. PMID:40350671 DOI:10.12659/MSM.947864
+73. Sharma A et al. Prospective Randomized Control Trial to Compare the Role of Injection Cerebrolysin for 10 Days Duration Against Placebo in Operated Cases of Degenerative Cervical Myelopathy. Spine (Phila Pa 1976). 2023. PMID:36730671 DOI:10.1097/BRS.0000000000004542
+74. EVER Pharma. Cerebrolysin website: Notice to U.S. Visitors (not FDA-registered; not approved for sale or distribution in the US). URL:https://www.cerebrolysin.com/
+75. EVER Pharma. About Cerebrolysin: Prescribing information based on the Austrian SmPC (composition, indications, contraindications, prescription-only status). URL:https://www.cerebrolysin.com/cerebrolysin/about-cerebrolysin
+76. EVER Pharma. How to use Cerebrolysin: dosage recommendations, route of administration, admixture incompatibilities. URL:https://www.cerebrolysin.com/cerebrolysin/how-to-use-cerebrolysin
+77. EVER Pharma. Cerebrolysin FAQs (co-medication, common adverse reactions, antidepressants/MAO inhibitors). URL:https://www.cerebrolysin.com/cerebrolysin/faqs
+78. EVER Pharma. Cerebrolysin Treatment Handbook 2023 (special warnings, MAO inhibitor/antidepressant interaction, renal impairment, seizures, infusion rate). URL:https://www.cerebrolysin.com/wp-content/uploads/2023/11/Cerebrolysin_TreatmentHandbook_2023_SCREEN_nocomments.pdf
+79. Hong Z et al. A double-blind, placebo-controlled, randomized trial to evaluate the safety and efficacy of Cerebrolysin in patients with acute ischaemic stroke in Asia--CASTA. Int J Stroke. 2009. PMID:19765131 DOI:10.1111/j.1747-4949.2009.00340.x

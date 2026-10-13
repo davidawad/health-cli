@@ -5,39 +5,366 @@
   "aliases": [
     "Rhodiola rosea",
     "roseroot",
+    "rosenroot",
     "golden root",
-    "arctic root"
+    "arctic root",
+    "SHR-5",
+    "WS 1375",
+    "Rhodiolan",
+    "Vitango",
+    "Rhodiolae roseae rhizoma et radix"
   ],
   "category": "botanical",
   "rx_status": "otc",
   "evidence_certainty_overall": "low",
   "edges": [
     {
-      "with": "antidepressants",
+      "with": "warfarin",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Rhodiola (SHR-5) inhibits CYP2C9 in humans (21% fall in losartan metabolic ratio) and noncompetitively in vitro; warfarin is a narrow-therapeutic-index CYP2C9 substrate.",
+      "evidence": "Human probe-drug crossover (n=13) and in vitro data; rat study showed no change in warfarin PK/anticoagulation; no human warfarin study; low certainty",
+      "citations": [
+        "PMID:26613955",
+        "PMID:28805981",
+        "PMID:18844284"
+      ]
+    },
+    {
+      "with": "CYP2C9 substrates (phenytoin, sulfonylureas, NSAIDs)",
       "with_kind": "drug-class",
       "kind": "caution",
       "severity": "moderate",
-      "mechanism": "Potential serotonergic or activating overlap is proposed; controlled interaction evidence is lacking.",
-      "evidence": "Potential serotonergic or activating overlap is proposed; controlled interaction evidence is lacking.",
+      "mechanism": "CYP2C9 inhibition in humans; authors flag narrow-therapeutic-index substrates such as phenytoin.",
+      "evidence": "Single human probe study (n=13) plus in vitro mechanism; HMPC judged clinical relevance unclear",
       "citations": [
-        "PMID:22643043"
+        "PMID:26613955",
+        "PMID:28805981",
+        "URL:https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rhodiola-rosea-l-rhizoma-et-radix-revision-1_en.pdf"
+      ]
+    },
+    {
+      "with": "losartan",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "CYP2C9 and P-gp inhibition; in rabbits losartan AUC almost doubled (Spanakis 2013); in humans the EXP-3174/losartan ratio fell 21%.",
+      "evidence": "Rabbit PK study plus human probe-drug study; clinical BP consequence not studied",
+      "citations": [
+        "PMID:23327826",
+        "PMID:26613955"
+      ]
+    },
+    {
+      "with": "CYP3A4 substrates",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Potent in vitro CYP3A4 inhibition (IC50 1.7-3.1 ug/mL), but no change in midazolam metabolism in humans; salidroside alone showed no CYP inhibition.",
+      "evidence": "In vitro positive, human probe study negative; low certainty of a clinical effect",
+      "citations": [
+        "PMID:19790032",
+        "PMID:26613955",
+        "PMID:37686755"
+      ]
+    },
+    {
+      "with": "P-glycoprotein substrates (e.g. digoxin)",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "In vitro P-gp inhibition (digoxin transport IC50 16.7-51.7 ug/mL); losartan exposure rose in rabbits.",
+      "evidence": "In vitro and animal data only; no human P-gp study",
+      "citations": [
+        "PMID:19790032",
+        "PMID:23327826"
+      ]
+    },
+    {
+      "with": "theophylline",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "No PK change with SHR-5 in rats; CYP1A2 (caffeine probe) unaffected in humans.",
+      "evidence": "Animal and human probe data suggest a negligible interaction",
+      "citations": [
+        "PMID:18844284",
+        "PMID:26613955"
+      ]
+    },
+    {
+      "with": "SSRIs/SNRIs and other antidepressants",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Possible pharmacodynamic serotonergic/activating overlap (in vitro MAO inhibition) and CYP/P-gp effects; paroxetine case interpreted as serotonergic syndrome; EudraVigilance reports with sertraline, paroxetine (serotonin syndrome), duloxetine and amitriptyline.",
+      "evidence": "Case report, pharmacovigilance series and adaptogen-antidepressant chart review (Siwek 2023 abstract does not list Rhodiola-specific cases); low certainty",
+      "citations": [
+        "PMID:25413939",
+        "URL:https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rhodiola-rosea-l-rhizoma-et-radix-revision-1_en.pdf",
+        "PMID:30659561",
+        "PMID:37829299",
+        "PMID:19168123"
+      ]
+    },
+    {
+      "with": "MAO inhibitors",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Root extracts inhibit MAO-A (up to 92.5%) and MAO-B in vitro; additive MAO inhibition is theoretical. Isolated salidroside does not inhibit MAO.",
+      "evidence": "In vitro only; mechanistic inference, no clinical reports found",
+      "citations": [
+        "PMID:19168123",
+        "PMID:37686755"
+      ]
+    },
+    {
+      "with": "antipsychotics",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Pharmacovigilance cases with haloperidol (myoclonus, hypoglycaemia, sedation), risperidone and quetiapine combinations; mechanism unclear.",
+      "evidence": "Case series from pharmacovigilance; very low certainty",
+      "citations": [
+        "PMID:30659561",
+        "URL:https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rhodiola-rosea-l-rhizoma-et-radix-revision-1_en.pdf"
+      ]
+    },
+    {
+      "with": "benzodiazepines and sedatives",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Cases of excessive sedation with diazepam and hypotension with alprazolam when combined with Rhodiola.",
+      "evidence": "Pharmacovigilance case series cited in HMPC assessment; very low certainty",
+      "citations": [
+        "URL:https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rhodiola-rosea-l-rhizoma-et-radix-revision-1_en.pdf"
+      ]
+    },
+    {
+      "with": "antidiabetic drugs",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Rhodiola/salidroside lower glucose via AMPK in preclinical models; additive glucose lowering possible.",
+      "evidence": "Mechanistic inference from preclinical review; no human interaction data",
+      "citations": [
+        "PMID:31069710"
+      ]
+    },
+    {
+      "with": "antihypertensive drugs",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Aqueous extract lowered SBP in hypertensive rats via beta-endorphin; R. crenulata had no BP effect in human altitude RCTs.",
+      "evidence": "Animal data plus null human BP data; speculative",
+      "citations": [
+        "PMID:23192943",
+        "PMID:40584626"
       ]
     },
     {
       "with": "Dexedrine",
-      "with_kind": "drug",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Rhodiola has CNS-stimulating activity, and nervousness and insomnia are labelled adverse effects; additive activation with amphetamine is plausible.",
+      "evidence": "Mechanistic inference from review and EU AE listing; no interaction study",
+      "citations": [
+        "PMID:20378318",
+        "URL:https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rhodiola-rosea-l-rhizoma-et-radix-revision-1_en.pdf"
+      ]
+    },
+    {
+      "with": "Caffeine",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Combined use in sport RCTs improved explosive power and duel performance; Rhodiola does not alter CYP1A2 caffeine metabolism.",
+      "evidence": "Several small RCTs; a 2026 trial found no significant CAF x RHO interaction, so synergy not established; low certainty",
+      "citations": [
+        "PMID:40005009",
+        "PMID:40278391",
+        "PMID:42123940",
+        "PMID:42738995",
+        "PMID:42821324",
+        "PMID:26613955"
+      ]
+    },
+    {
+      "with": "Ashwagandha",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Rhodiola was named a possible co-causative agent in one DILIN ashwagandha liver-injury case; ashwagandha itself causes cholestatic HILI.",
+      "evidence": "Single case within a case series; very low certainty",
+      "citations": [
+        "PMID:31991029"
+      ]
+    },
+    {
+      "with": "Ginseng (Panax)",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Both are stimulating adaptogens; both are among herbs most often implicated in adverse interactions with psychotropic drugs. Additive stimulation is inferred.",
+      "evidence": "Mechanistic inference; no combination study",
+      "citations": [
+        "PMID:34445021",
+        "PMID:30659561"
+      ]
+    },
+    {
+      "with": "bipolar disorder",
+      "with_kind": "condition",
       "kind": "caution",
       "severity": "moderate",
-      "mechanism": "Potential additive stimulation is plausible from putative activating effects; direct interaction studies are lacking.",
-      "evidence": "Potential additive stimulation is plausible from putative activating effects; direct interaction studies are lacking.",
+      "mechanism": "Antidepressant/activating profile; case report of mania associated with Rhodiola rosea.",
+      "evidence": "Case report and mechanistic reviews; WFSBP/CANMAT does not support Rhodiola for mood disorders",
       "citations": [
-        "PMID:22643043"
+        "PMID:35303403",
+        "PMID:27013349",
+        "PMID:35311615"
+      ]
+    },
+    {
+      "with": "pregnancy",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Safety not established; reproductive toxicity and genotoxicity tests unavailable.",
+      "evidence": "EU HMPC monograph: use not recommended",
+      "citations": [
+        "URL:https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-rhodiola-rosea-l-rhizoma-et-radix-revision-1_en.pdf",
+        "URL:https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rhodiola-rosea-l-rhizoma-et-radix-revision-1_en.pdf"
+      ]
+    },
+    {
+      "with": "breastfeeding",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Safety during lactation not established.",
+      "evidence": "EU HMPC monograph: use not recommended",
+      "citations": [
+        "URL:https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-rhodiola-rosea-l-rhizoma-et-radix-revision-1_en.pdf"
+      ]
+    },
+    {
+      "with": "children and adolescents under 18",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "minor",
+      "mechanism": "No safety data from clinical trials in this age group.",
+      "evidence": "EU HMPC monograph: use not recommended",
+      "citations": [
+        "URL:https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-rhodiola-rosea-l-rhizoma-et-radix-revision-1_en.pdf",
+        "URL:https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rhodiola-rosea-l-rhizoma-et-radix-revision-1_en.pdf"
+      ]
+    },
+    {
+      "with": "CYP2C9 extensive metabolizer genotype",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "CYP2C9 inhibition by Rhodiola was more pronounced in CYP2C9 extensive metabolizers than in intermediate/poor metabolizers.",
+      "evidence": "Subgroup of a single 13-person human study; very low certainty",
+      "citations": [
+        "PMID:26613955"
+      ]
+    },
+    {
+      "with": "INR (warfarin monitoring)",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Not an assay artifact; INR may shift via CYP2C9 inhibition in patients on warfarin.",
+      "evidence": "Inferred from human CYP2C9 data; no direct INR study",
+      "citations": [
+        "PMID:26613955"
       ]
     }
   ],
   "citations": [
+    "PMID:20378318",
+    "PMID:37641937",
+    "PMID:26626192",
+    "URL:https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-rhodiola-rosea-l-rhizoma-et-radix-revision-1_en.pdf",
+    "URL:https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rhodiola-rosea-l-rhizoma-et-radix-revision-1_en.pdf",
+    "URL:https://www.ema.europa.eu/en/medicines/herbal/rhodiolae-roseae-rhizoma-et-radix",
+    "PMID:29325481",
+    "PMID:19016404",
+    "PMID:17990195",
+    "PMID:11081987",
+    "PMID:26613955",
+    "PMID:28367055",
+    "PMID:26502953",
+    "PMID:22228617",
+    "PMID:28219059",
+    "PMID:39601362",
+    "PMID:37686755",
+    "PMID:42738995",
+    "PMID:24176010",
+    "PMID:29154110",
+    "PMID:32311178",
+    "PMID:25661009",
+    "PMID:42657013",
+    "PMID:19500070",
+    "PMID:41901106",
+    "PMID:33650944",
+    "PMID:19168123",
+    "PMID:27013349",
+    "PMID:41750223",
+    "PMID:26776957",
+    "PMID:41548618",
+    "PMID:25268730",
     "PMID:22643043",
+    "PMID:12725561",
+    "PMID:10839209",
+    "PMID:41906501",
+    "PMID:35745023",
+    "PMID:25837277",
+    "PMID:40014460",
+    "PMID:35311615",
+    "PMID:32090788",
+    "PMID:18307390",
+    "PMID:34370563",
+    "PMID:30450257",
+    "PMID:41374026",
+    "PMID:41080184",
     "PMID:37495266",
-    "PMID:38347175"
+    "PMID:40289957",
+    "PMID:31012483",
+    "PMID:40584626",
+    "PMID:28873320",
+    "PMID:32455817",
+    "PMID:40873122",
+    "PMID:40988719",
+    "PMID:35464040",
+    "PMID:35303403",
+    "PMID:25413939",
+    "PMID:31991029",
+    "PMID:28805981",
+    "PMID:18844284",
+    "PMID:23327826",
+    "PMID:19790032",
+    "PMID:30659561",
+    "PMID:37829299",
+    "PMID:31069710",
+    "PMID:23192943",
+    "PMID:40005009",
+    "PMID:40278391",
+    "PMID:42123940",
+    "PMID:34445021",
+    "PMID:35565828",
+    "PMID:35337143",
+    "PMID:30034237",
+    "PMID:42821324",
+    "PMID:42588175",
+    "PMID:41829897",
+    "PMID:41373984"
   ]
 }

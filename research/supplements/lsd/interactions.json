@@ -4,49 +4,323 @@
   "slug": "lsd",
   "aliases": [
     "Lysergic acid diethylamide",
-    "lysergide"
+    "lysergide",
+    "LSD-25",
+    "lysergide D-tartrate",
+    "MM120",
+    "DT120",
+    "microdosed LSD"
   ],
   "category": "other",
   "rx_status": "controlled",
   "evidence_certainty_overall": "low",
   "edges": [
     {
-      "with": "Dexedrine",
-      "with_kind": "drug",
-      "kind": "caution",
-      "severity": "moderate",
-      "mechanism": "Both can increase arousal and cardiovascular stimulation; interaction safety has not been established in controlled trials.",
-      "evidence": "Both can increase arousal and cardiovascular stimulation; interaction safety has not been established in controlled trials.",
+      "with": "Lithium",
+      "with_kind": "supplement",
+      "kind": "contraindicated",
+      "severity": "major",
+      "mechanism": "Unknown mechanism; lithium plus classic psychedelics associated with seizures; chronic lithium also subjectively intensified LSD responses.",
+      "evidence": "47% of 62 online lithium+psychedelic reports involved seizures (39% medical attention) vs 0 of 34 lamotrigine reports; adolescent case of 3 generalized seizures after LSD on low-dose lithium; retrospective questionnaire. Low certainty but serious signal.",
       "citations": [
-        "PMID:39230883"
+        "PMID:34348413",
+        "PMID:38986146",
+        "PMID:8788508"
       ]
     },
     {
-      "with": "serotonergic drugs",
+      "with": "SSRIs",
       "with_kind": "drug-class",
       "kind": "caution",
       "severity": "moderate",
-      "mechanism": "Serotonergic coadministration may alter subjective and physiologic effects; direct interaction evidence is limited.",
-      "evidence": "Serotonergic coadministration may alter subjective and physiologic effects; direct interaction evidence is limited.",
+      "mechanism": "Chronic SSRI exposure (5-HT2A downregulation/serotonergic adaptation) attenuates LSD subjective effects; CYP2D6-inhibiting SSRIs (paroxetine) raise LSD exposure.",
+      "evidence": "88% of 32 chronic SSRI users reported attenuated/eliminated LSD effects (retrospective); phase I RCT: paroxetine reduced bad effects/anxiety/nausea, raised LSD Cmax/AUC 1.4/1.5-fold, no QTc change; DDI systematic review.",
       "citations": [
-        "PMID:39230883"
+        "PMID:8726753",
+        "PMID:40022427",
+        "PMID:37982394"
       ]
     },
     {
-      "with": "psychotic disorders",
+      "with": "tricyclic antidepressants",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Chronic TCA use associated with subjectively increased physical, hallucinatory and psychological LSD responses.",
+      "evidence": "Retrospective questionnaire study (small n); very low certainty.",
+      "citations": [
+        "PMID:8788508",
+        "PMID:37982394"
+      ]
+    },
+    {
+      "with": "MAO inhibitors",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Chronic MAOI use associated with subjectively decreased LSD effects; serotonergic pharmacodynamic interaction.",
+      "evidence": "Retrospective questionnaire study; DDI systematic review reports both attenuation and potentiation across classes; very low certainty.",
+      "citations": [
+        "PMID:8788508",
+        "PMID:37982394"
+      ]
+    },
+    {
+      "with": "strong CYP2D6 inhibitors",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "CYP2D6 contributes to LSD metabolism (nor-LSD formation); inhibition increases LSD exposure and may prolong effects.",
+      "evidence": "Phase I RCT with paroxetine (GMR Cmax 1.4, AUC 1.5); in vitro CYP phenotyping. Extension to other strong inhibitors is inference.",
+      "citations": [
+        "PMID:40022427",
+        "PMID:30981875"
+      ]
+    },
+    {
+      "with": "CYP2D6 poor metabolizer",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Absent CYP2D6 function prolongs LSD half-life and raises exposure.",
+      "evidence": "Pooled analysis of 81 subjects: ~75% higher LSD and O-H-LSD AUC, stronger/longer subjective effects; microdose PK study: 2 of 4 anxiety withdrawals had intermediate/weak CYP2D6 activity.",
+      "citations": [
+        "PMID:34035391",
+        "PMID:40251818"
+      ]
+    },
+    {
+      "with": "CYP inducers (rifampicin)",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Rifampicin induced formation of LSD metabolites in hepatocyte-derived cells; may reduce LSD exposure.",
+      "evidence": "In vitro only; no human data; very low certainty.",
+      "citations": [
+        "PMID:30981875"
+      ]
+    },
+    {
+      "with": "ketanserin",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "5-HT2A antagonist blocks (pretreatment) or reverses (post-dose) LSD effects and reduces cardiovascular effects without altering LSD PK.",
+      "evidence": "Two RCTs in healthy volunteers; used as planned or rescue option in research.",
+      "citations": [
+        "PMID:33059356",
+        "PMID:36342343"
+      ]
+    },
+    {
+      "with": "antipsychotics",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Dopamine/5-HT2A antagonism; risperidone reported to aggravate HPPD symptoms after hallucinogen use.",
+      "evidence": "Case reports/series summarized in HPPD treatment SR; DDI systematic review; low certainty.",
+      "citations": [
+        "PMID:40938689",
+        "PMID:37982394"
+      ]
+    },
+    {
+      "with": "psychotic disorder (personal or family history)",
       "with_kind": "condition",
       "kind": "avoid",
       "severity": "major",
-      "mechanism": "Vulnerable neuropsychiatric participants account for the serious adverse events described in clinical psychedelic studies; trials typically exclude such populations.",
-      "evidence": "Vulnerable neuropsychiatric participants account for the serious adverse events described in clinical psychedelic studies; trials typically exclude such populations.",
+      "mechanism": "5-HT2A agonism can precipitate psychotic symptoms; higher risk with schizophrenia or genetic vulnerability.",
+      "evidence": "MA: psychosis incidence 0.6% in RCTs, 3.8% long-lasting symptoms in UCTs including schizophrenia; trial SAEs included psychosis; twin study shows interaction with schizophrenia genetic vulnerability.",
       "citations": [
-        "PMID:39230883"
+        "PMID:39592825",
+        "PMID:39230883",
+        "PMID:38477889",
+        "PMID:39564729"
+      ]
+    },
+    {
+      "with": "bipolar disorder",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Psychedelic-associated (hypo)mania, especially bipolar I and familial vulnerability.",
+      "evidence": "SR/MA: 5.8% (trials) to 30% (naturalistic bipolar samples); population cohort HR 5.97 for incident mania after hallucinogen acute care; twin study gene-environment interaction.",
+      "citations": [
+        "PMID:42215638",
+        "PMID:41329646",
+        "PMID:38477889"
+      ]
+    },
+    {
+      "with": "hypertension",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Dose-dependent sympathomimetic increases in blood pressure, heart rate and body temperature.",
+      "evidence": "Pooled analysis of 83 healthy subjects (no SBP >180 mmHg; HR >100 in 25% at 200 ug); dose-response RCT; AUD MA notes transient BP increases. Uncontrolled hypertension excluded from trials.",
+      "citations": [
+        "PMID:34515824",
+        "PMID:33059356",
+        "PMID:38111216"
+      ]
+    },
+    {
+      "with": "valvular heart disease",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "LSD is a high-affinity 5-HT2B agonist; chronic 5-HT2B activation is the mechanism of drug-induced valvulopathy (fenfluramine, ergots). Concern centres on repeated/chronic microdosing.",
+      "evidence": "SR: no clinical LSD valvulopathy cases, preclinical fibrotic signalling; mouse chronic microdose study negative; open-label human echo study (n=19, 8 wk) normal; 5-HT2B review: cumulative risk uncharacterized.",
+      "citations": [
+        "PMID:41643722",
+        "PMID:42209433",
+        "PMID:41789300",
+        "PMID:41202873"
+      ]
+    },
+    {
+      "with": "pregnancy",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Unknown developmental risk; early animal data showed abortions/stillbirths after early-pregnancy injection.",
+      "evidence": "Scoping review: 11 LSD human sources (1968-2020), small and confounded; rat study 1967. Very low certainty; absence of data is not evidence of safety.",
+      "citations": [
+        "PMID:41930230",
+        "PMID:6028038"
+      ]
+    },
+    {
+      "with": "seizure disorder",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Convulsive episodes reported among SAEs in patient trials; seizure signal with lithium co-use.",
+      "evidence": "SR/MA of AEs; online report analysis; low certainty.",
+      "citations": [
+        "PMID:39230883",
+        "PMID:34348413"
+      ]
+    },
+    {
+      "with": "hallucinogen persisting perception disorder",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Prior HPPD/flashbacks may recur or worsen; SSRIs and risperidone reported to exacerbate.",
+      "evidence": "Case reports and HPPD treatment SR; pooled healthy-subject data (6 transient flashbacks).",
+      "citations": [
+        "PMID:40938689",
+        "PMID:7965440",
+        "PMID:34515824"
+      ]
+    },
+    {
+      "with": "cannabis",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Common recreational co-use; no controlled LSD-cannabis interaction data; potential additive psychoactive effects.",
+      "evidence": "Global Psychedelic Survey: cannabis and alcohol most common co-used substances; no interaction studies. Very low certainty.",
+      "citations": [
+        "PMID:39468747"
+      ]
+    },
+    {
+      "with": "urine LSD immunoassay",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Cross-reactivity causes false-positive CEDIA LSD screens with sertraline, ambroxol and bupropion; confirm by chromatography/MS.",
+      "evidence": "Case reports/letters and review of immunoassay interferences.",
+      "citations": [
+        "PMID:22511703",
+        "PMID:9737335",
+        "PMID:17529897",
+        "PMID:24986836"
       ]
     }
   ],
   "citations": [
-    "PMID:38574699",
+    "URL:https://www.ecfr.gov/current/title-21/chapter-II/subchapter-B/part-1308/section-1308.11",
+    "PMID:40418105",
+    "PMID:42848417",
+    "URL:https://ir.definiumtx.com/news-events/press-releases/detail/247/definium-therapeutics-receives-breakthrough-therapy-designation-for-dt120-lysergide-orally-disintegrating-tablet-odt-in-major-depressive-disorder-mdd-following-positive-phase-3-results",
+    "PMID:39182140",
+    "PMID:40251818",
+    "PMID:36266118",
+    "PMID:33059356",
+    "PMID:42365488",
+    "URL:https://ir.definiumtx.com/news-events/press-releases/detail/137/mindmed-receives-fda-breakthrough-therapy-designation-and-announces-positive-12-week-durability-data-from-phase-2b-study-of-mm120-for-generalized-anxiety-disorder",
+    "PMID:36342343",
+    "PMID:30981875",
+    "PMID:28129538",
+    "PMID:33772794",
+    "PMID:34515824",
+    "PMID:42102823",
+    "PMID:41643722",
+    "PMID:42209433",
+    "PMID:38301886",
+    "PMID:35217796",
+    "PMID:40906494",
+    "URL:https://ir.definiumtx.com/news-events/press-releases/detail/243/definium-therapeutics-announces-positive-topline-results-from-phase-3-voyage-study-of-dt120-odt-in-generalized-anxiety-disorder",
+    "URL:https://ir.definiumtx.com/news-events/press-releases/detail/251/definium-therapeutics-announces-positive-topline-results-from-phase-3-panorama-study-of-dt120-odt-in-generalized-anxiety-disorder",
+    "PMID:39078038",
+    "PMID:24594678",
+    "PMID:39260823",
     "PMID:39168500",
-    "PMID:39230883"
+    "PMID:40482648",
+    "PMID:41205366",
+    "PMID:38574699",
+    "PMID:22406913",
+    "PMID:38111216",
+    "PMID:40105807",
+    "PMID:42593636",
+    "PMID:36997080",
+    "PMID:35106880",
+    "PMID:33648632",
+    "PMID:35918311",
+    "PMID:41314362",
+    "PMID:41202873",
+    "PMID:32842825",
+    "PMID:40917239",
+    "PMID:38622150",
+    "PMID:31853557",
+    "PMID:32975835",
+    "PMID:33082016",
+    "PMID:31331617",
+    "PMID:26108222",
+    "PMID:28197931",
+    "PMID:37596682",
+    "PMID:41713673",
+    "PMID:39230883",
+    "PMID:39592825",
+    "PMID:39564729",
+    "PMID:42215638",
+    "PMID:41329646",
+    "PMID:38477889",
+    "PMID:40938689",
+    "PMID:41789300",
+    "PMID:34348413",
+    "PMID:41930230",
+    "PMID:6028038",
+    "PMID:38986146",
+    "PMID:8788508",
+    "PMID:8726753",
+    "PMID:40022427",
+    "PMID:7965440",
+    "PMID:37982394",
+    "PMID:39468747",
+    "PMID:22511703",
+    "PMID:9737335",
+    "PMID:17529897",
+    "PMID:24986836",
+    "PMID:34035391",
+    "URL:https://clinicaltrials.gov/study/NCT06809595",
+    "URL:https://clinicaltrials.gov/study/NCT06941844",
+    "URL:https://clinicaltrials.gov/study/NCT06741228",
+    "PMID:41563753",
+    "PMID:38877715",
+    "PMID:40834796"
   ]
 }

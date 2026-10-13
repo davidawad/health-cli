@@ -4,39 +4,226 @@
   "slug": "zembrin",
   "aliases": [
     "Sceletium tortuosum extract",
+    "Mesembryanthemum tortuosum",
     "kanna",
-    "channa"
+    "channa",
+    "kougoed",
+    "Sceletium",
+    "Zembrin extract Sceletium tortuosum"
   ],
   "category": "botanical",
   "rx_status": "otc",
   "evidence_certainty_overall": "very-low",
   "edges": [
     {
-      "with": "serotonergic drugs",
+      "with": "SSRIs/SNRIs",
       "with_kind": "drug-class",
       "kind": "caution",
       "severity": "moderate",
-      "mechanism": "Mesembrine alkaloids have serotonin-reuptake-inhibiting activity; serotonin toxicity risk is theoretical and not quantified in clinical combination trials.",
-      "evidence": "Mesembrine alkaloids have serotonin-reuptake-inhibiting activity; serotonin toxicity risk is theoretical and not quantified in clinical combination trials.",
+      "mechanism": "Mesembrine is a potent serotonin transporter inhibitor (Ki 1.4 nM; Zembrin IC50 4.3 ug/mL); combining with SSRIs/SNRIs could add serotonergic load and theoretically precipitate serotonin toxicity.",
+      "evidence": "In vitro binding data plus serotonin-syndrome review and ADDF report advising against co-use; no case reports or combination trials; theoretical, very low certainty.",
       "citations": [
-        "PMID:34333104"
+        "PMID:21798331",
+        "PMID:31299396",
+        "PMID:37309284",
+        "URL:https://www.alzdiscovery.org/uploads/cognitive_vitality_media/Sceletium_tortuosum_(supplement).pdf"
       ]
     },
     {
-      "with": "monoamine oxidase inhibitors",
+      "with": "MAO inhibitors",
+      "with_kind": "drug-class",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Sceletium extract acts as a monoamine-releasing agent (VMAT-2 up-regulation, SERT down-regulation) with mild MAO-A inhibition, and sub-fractions inhibit MAO-B; additive serotonergic/monoaminergic effects with MAOIs are plausible.",
+      "evidence": "Cell-based mechanistic studies and serotonin-syndrome review; combination never studied; theoretical.",
+      "citations": [
+        "PMID:26615766",
+        "PMID:36006974",
+        "PMID:37309284"
+      ]
+    },
+    {
+      "with": "serotonergic drugs (tramadol, triptans, linezolid)",
       "with_kind": "drug-class",
       "kind": "caution",
       "severity": "moderate",
-      "mechanism": "Possible serotonergic overlap; combination safety has not been studied.",
-      "evidence": "Possible serotonergic overlap; combination safety has not been studied.",
+      "mechanism": "Serotonin syndrome can arise from interactions between two or more serotonergic agents; Zembrin alkaloids inhibit SERT.",
+      "evidence": "Mechanistic inference from in vitro SERT data and a focused review of serotonin syndrome; no clinical reports.",
       "citations": [
-        "PMID:34333104"
+        "PMID:21798331",
+        "PMID:37309284"
+      ]
+    },
+    {
+      "with": "PDE4 inhibitors (roflumilast)",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Zembrin and mesembrenone inhibit PDE4 selectively; additive PDE4 inhibition could increase PDE4-inhibitor effects (GI upset, insomnia, psychiatric signals reported for roflumilast).",
+      "evidence": "In vitro enzyme data; ADDF report lists roflumilast as a mechanism-based interaction; roflumilast FAERS analysis for adverse-effect profile; no interaction study.",
+      "citations": [
+        "PMID:21798331",
+        "URL:https://www.alzdiscovery.org/uploads/cognitive_vitality_media/Sceletium_tortuosum_(supplement).pdf",
+        "PMID:41458197"
+      ]
+    },
+    {
+      "with": "CYP450-metabolized drugs",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "No hepatic CYP inhibition/induction data exist for Zembrin or mesembrine; alkaloids undergo oxidative O-/N-demethylation and hydroxylation in human liver preparations, and a high-mesembrine extract inhibited steroidogenic CYP17 in adrenal cells.",
+      "evidence": "Data gap: metabolism study (rat urine, human liver preparations) and in vitro adrenal steroidogenesis study only; interaction potential unknown.",
+      "citations": [
+        "PMID:25240931",
+        "PMID:26608706"
+      ]
+    },
+    {
+      "with": "alcohol and CNS depressants",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "A Sceletium alkaloid fraction caused ataxia in rats and traditional tinctures were used for sedation; additive CNS depression is plausible (mechanistic inference).",
+      "evidence": "Rat behavioural study and ethnobotanical review; no human interaction data.",
+      "citations": [
+        "PMID:24930358",
+        "PMID:8691846"
+      ]
+    },
+    {
+      "with": "cannabis",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Historical (1789) and contemporary user reports describe synergism and potentiation of smoked cannabis by Sceletium/kougoed.",
+      "evidence": "Anecdotal reports collated in an ethnobotanical review; no controlled data.",
+      "citations": [
+        "PMID:8691846"
+      ]
+    },
+    {
+      "with": "stimulants/sympathomimetics",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Some commercial kanna products contain the phenethylamine alkaloid hordenine, and one was adulterated with ephedrine; additive sympathomimetic effects possible with non-standardized products.",
+      "evidence": "Forensic product analyses; not applicable to verified standardized Zembrin.",
+      "citations": [
+        "PMID:34750996",
+        "PMID:26821203"
+      ]
+    },
+    {
+      "with": "serotonergic supplements (5-HTP, St John's wort)",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Additive serotonergic load with SERT-inhibiting alkaloids (mechanistic inference).",
+      "evidence": "Mechanistic inference only, cited to SERT data and serotonin-syndrome review.",
+      "citations": [
+        "PMID:21798331",
+        "PMID:37309284"
+      ]
+    },
+    {
+      "with": "pregnancy and lactation",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "No human or reproductive-toxicology data; trials enrolled only healthy non-pregnant adults; toxicology data are limited.",
+      "evidence": "Absence of data (RCT inclusion, bibliometric review of gaps, ADDF report).",
+      "citations": [
+        "PMID:23441963",
+        "PMID:38576783",
+        "URL:https://www.alzdiscovery.org/uploads/cognitive_vitality_media/Sceletium_tortuosum_(supplement).pdf"
+      ]
+    },
+    {
+      "with": "treated depression, anxiety or bipolar disorder",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Psychoactive serotonergic/PDE4 agent never tested in clinical psychiatric populations; agitation, irritability and depressed mood were reported as possibly related AEs in the safety RCT.",
+      "evidence": "Reviews note no trials in clinical populations; single small safety RCT.",
+      "citations": [
+        "PMID:34333104",
+        "PMID:41771298",
+        "URL:https://www.alzdiscovery.org/uploads/cognitive_vitality_media/Sceletium_tortuosum_(supplement).pdf"
+      ]
+    },
+    {
+      "with": "urine drug testing (GC-MS/LC-MS)",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Mesembrine and mesembrenone metabolites are detectable by standard GC-MS/LC-MS urine screening and forensic NACE-MS; no immunoassay cross-reactivity data.",
+      "evidence": "Analytical/forensic method studies; detection rather than false positives.",
+      "citations": [
+        "PMID:25240931",
+        "PMID:22736358"
       ]
     }
   ],
   "citations": [
+    "PMID:18280080",
+    "PMID:18761074",
+    "PMID:18996176",
+    "PMID:20816940",
+    "PMID:21486531",
+    "PMID:21798331",
+    "PMID:22105579",
+    "PMID:22736358",
     "PMID:23441963",
+    "PMID:23903032",
+    "PMID:24695249",
+    "PMID:24930358",
+    "PMID:25240931",
+    "PMID:25301237",
     "PMID:25389443",
-    "PMID:34333104"
+    "PMID:26608705",
+    "PMID:26608706",
+    "PMID:26615766",
+    "PMID:26626243",
+    "PMID:26821203",
+    "PMID:27526669",
+    "PMID:27553978",
+    "PMID:27939420",
+    "PMID:29253615",
+    "PMID:29520661",
+    "PMID:29758341",
+    "PMID:29783186",
+    "PMID:31299396",
+    "PMID:32740286",
+    "PMID:32761980",
+    "PMID:32840669",
+    "PMID:33066617",
+    "PMID:33588735",
+    "PMID:33712901",
+    "PMID:33924742",
+    "PMID:34333104",
+    "PMID:34454055",
+    "PMID:34750996",
+    "PMID:35134486",
+    "PMID:35425789",
+    "PMID:36006974",
+    "PMID:37242666",
+    "PMID:37309284",
+    "PMID:37660956",
+    "PMID:38576783",
+    "PMID:38855756",
+    "PMID:40374049",
+    "PMID:40643548",
+    "PMID:40651754",
+    "PMID:40691887",
+    "PMID:41458197",
+    "PMID:41771298",
+    "PMID:42451736",
+    "PMID:42629587",
+    "PMID:8691846",
+    "URL:https://clinicaltrials.gov/study/NCT05471804",
+    "URL:https://www.alzdiscovery.org/uploads/cognitive_vitality_media/Sceletium_tortuosum_(supplement).pdf",
+    "URL:https://www.plthealth.com/resources/effect-zembrin-brain-electrical-activity-60-older-subjects-6-weeks-daily-intake-prospective-randomized-double-blind-placebo-controlled-3-armed-study-parallel-design",
+    "URL:https://www.scirp.org/html/4-2400309_70480.htm"
   ]
 }

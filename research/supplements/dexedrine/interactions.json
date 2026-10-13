@@ -4,59 +4,385 @@
   "slug": "dexedrine",
   "aliases": [
     "Dextroamphetamine sulfate",
-    "dextroamphetamine"
+    "dextroamphetamine",
+    "dexamfetamine",
+    "dexamphetamine",
+    "d-amphetamine",
+    "Dexedrine Spansule",
+    "Zenzedi",
+    "ProCentra"
   ],
   "category": "rx",
   "rx_status": "controlled",
   "evidence_certainty_overall": "high",
   "edges": [
     {
-      "with": "monoamine oxidase inhibitors",
+      "with": "MAO inhibitors",
       "with_kind": "drug-class",
       "kind": "contraindicated",
       "severity": "major",
-      "mechanism": "Concomitant use or use within 14 days risks hypertensive crisis.",
-      "evidence": "Concomitant use or use within 14 days risks hypertensive crisis.",
+      "mechanism": "Concomitant MAOI use or use within 14 days of stopping (including linezolid, IV methylene blue) can cause hypertensive crisis with stroke, MI, aortic dissection or death.",
+      "evidence": "FDA label contraindication",
       "citations": [
-        "DailyMed"
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78"
       ]
     },
     {
-      "with": "serotonergic drugs",
+      "with": "serotonergic drugs (SSRIs, SNRIs, triptans, tramadol, fentanyl, buspirone, tryptophan, St John's wort)",
       "with_kind": "drug-class",
       "kind": "caution",
-      "severity": "moderate",
-      "mechanism": "Label warns of serotonin syndrome; consider lower starting dose and monitor if combination clinically warranted.",
-      "evidence": "Label warns of serotonin syndrome; consider lower starting dose and monitor if combination clinically warranted.",
+      "severity": "major",
+      "mechanism": "Additive serotonergic activity; label warns of potentially life-threatening serotonin syndrome. Start at lower dose and monitor; stop both if symptoms occur.",
+      "evidence": "FDA label warning; case report of serotonin toxicity with therapeutic dexamphetamine plus venlafaxine",
       "citations": [
-        "DailyMed"
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78",
+        "PMID:11999244"
       ]
     },
     {
-      "with": "CYP2D6 inhibitors",
+      "with": "CYP2D6 inhibitors (paroxetine, fluoxetine, bupropion, quinidine, ritonavir)",
       "with_kind": "drug-class",
       "kind": "caution",
       "severity": "moderate",
-      "mechanism": "May increase dextroamphetamine exposure and serotonin-syndrome risk.",
-      "evidence": "May increase dextroamphetamine exposure and serotonin-syndrome risk.",
+      "mechanism": "Amphetamine is partly CYP2D6-metabolized; inhibitors may raise exposure (equivalent to a dose increase) and serotonin-syndrome risk. Bupropion included as a CYP2D6 inhibitor by class inference.",
+      "evidence": "FDA label; DDI review; no dedicated dextroamphetamine PK study found",
       "citations": [
-        "DailyMed"
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78",
+        "PMID:31776871"
+      ]
+    },
+    {
+      "with": "tricyclic antidepressants",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Striking and sustained increases in brain d-amphetamine and potentiated cardiovascular effects; TCAs are also serotonergic.",
+      "evidence": "FDA label",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78"
+      ]
+    },
+    {
+      "with": "alkalinizing agents (sodium bicarbonate, acetazolamide, some thiazides)",
+      "with_kind": "drug-class",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Urinary/GI alkalinization reduces ionized fraction and renal elimination, raising amphetamine levels and effects; label says avoid GI alkalinizers.",
+      "evidence": "FDA label; human PK study of urinary pH effect",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78",
+        "PMID:25157"
+      ]
+    },
+    {
+      "with": "acidifying agents (ascorbic acid, ammonium chloride, methenamine, glutamic acid HCl)",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Urinary/GI acidification increases amphetamine excretion and lowers levels and efficacy.",
+      "evidence": "FDA label; human PK study",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78",
+        "PMID:25157"
+      ]
+    },
+    {
+      "with": "Vitamin C",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Ascorbic acid is listed in the label as a GI acidifying agent that lowers amphetamine blood levels/efficacy; however 4 g/day ascorbic acid lowered urine pH by only 0.58 (non-significant) in one RCT, so effect at typical supplement doses is uncertain.",
+      "evidence": "Label statement plus indirect urine-pH RCT; no direct dextroamphetamine-vitamin C PK study",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78",
+        "PMID:7361797"
+      ]
+    },
+    {
+      "with": "proton pump inhibitors",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Reduced gastric acidity: omeprazole did not change total amphetamine exposure but shortened Tmax of mixed amphetamine salts XR (5 h to 2.75 h); label advises monitoring clinical effect.",
+      "evidence": "Crossover PK RCT (n=24, MAS XR/lisdexamfetamine) and label",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78",
+        "PMID:19820270"
+      ]
+    },
+    {
+      "with": "antihypertensives",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Amphetamines may antagonize hypotensive effects and inhibit adrenergic blockers; daily amphetamine raises SBP ~1.9 mmHg and HR ~3.7 bpm.",
+      "evidence": "Label; Cochrane review of 56 RCTs (high certainty for BP rise)",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78",
+        "PMID:40152309"
+      ]
+    },
+    {
+      "with": "Lithium",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Lithium may inhibit stimulant effects (label) and attenuated d-amphetamine euphoria/activation by ~60% and the SBP rise in small human studies; lithium is also listed among serotonergic drugs raising serotonin-syndrome risk.",
+      "evidence": "Label; small controlled human studies (n=8-9)",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78",
+        "PMID:1824",
+        "PMID:443465"
       ]
     },
     {
       "with": "Caffeine",
       "with_kind": "supplement",
       "kind": "caution",
-      "severity": "moderate",
-      "mechanism": "Additive sympathomimetic stimulation is plausible; combination-specific trials are limited.",
-      "evidence": "Additive sympathomimetic stimulation is plausible; combination-specific trials are limited.",
+      "severity": "minor",
+      "mechanism": "Additive sympathomimetic effects: 300 mg caffeine and 20 mg d-amphetamine each raised DBP/HR in humans; caffeine potentiated amphetamine seizures and lethality in rats.",
+      "evidence": "Human single-dose comparison (not co-administration) and animal toxicity data; no controlled human combination study",
       "citations": [
-        "DailyMed"
+        "PMID:25414797",
+        "PMID:1586430"
+      ]
+    },
+    {
+      "with": "L-Tyrosine",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Mechanistic inference: catecholamine-precursor depletion reduced amphetamine-induced striatal dopamine release and subjective effects, implying precursor availability modulates response; effect of tyrosine supplementation untested.",
+      "evidence": "Mechanistic human depletion studies only (PET n=8; RCT n=15)",
+      "citations": [
+        "PMID:14583741",
+        "PMID:10475719"
+      ]
+    },
+    {
+      "with": "alcohol",
+      "with_kind": "food",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Alcohol may increase plasma dextroamphetamine; dextroamphetamine masks ethanol psychomotor impairment without reducing perceived intoxication; FDA advises not combining stimulants with alcohol.",
+      "evidence": "DDI review; small crossover RCT (n=12); FDA communication",
+      "citations": [
+        "PMID:31776871",
+        "PMID:1558306",
+        "URL:https://www.fda.gov/drugs/drug-safety-communications/fda-updating-warnings-improve-safe-use-prescription-stimulants-used-treat-adhd-and-other-conditions"
+      ]
+    },
+    {
+      "with": "serious cardiac disease / hypertension",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Sudden death reported in structural cardiac abnormalities; BP/HR increases; long-term use associated with CVD (AOR 1.04 per year), especially hypertension.",
+      "evidence": "Label warning; Cochrane MA; Swedish case-control",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78",
+        "PMID:40152309",
+        "PMID:37991787"
+      ]
+    },
+    {
+      "with": "psychotic or bipolar disorder",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "major",
+      "mechanism": "May exacerbate psychosis or induce mania; prescription amphetamine associated with incident psychosis/mania (AOR 2.68; 5.28-fold at >30 mg/day) and higher risk than methylphenidate.",
+      "evidence": "Label; case-control; claims cohort; 2025 MA",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78",
+        "PMID:39262211",
+        "PMID:30893533",
+        "PMID:40900605"
+      ]
+    },
+    {
+      "with": "substance use disorder history",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "major",
+      "mechanism": "High abuse/misuse/addiction potential (boxed warning); 9.0% of adults using prescription stimulants had use disorder, more with amphetamines.",
+      "evidence": "FDA boxed warning; NSDUH analysis",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78",
+        "URL:https://www.fda.gov/drugs/drug-safety-communications/fda-updating-warnings-improve-safe-use-prescription-stimulants-used-treat-adhd-and-other-conditions",
+        "PMID:40105821"
+      ]
+    },
+    {
+      "with": "pregnancy",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "No malformation signal for amphetamines in first trimester, but continuation into later pregnancy associated with pre-eclampsia, placental abruption and preterm birth; label advises use only if benefit justifies risk.",
+      "evidence": "Large cohort studies; label",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78",
+        "PMID:29238795",
+        "PMID:41400021",
+        "PMID:29112657"
+      ]
+    },
+    {
+      "with": "lactation",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Amphetamines are excreted in human milk; label advises refraining from nursing.",
+      "evidence": "FDA label",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78"
+      ]
+    },
+    {
+      "with": "seizure disorder",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Stimulants may lower the convulsive threshold; discontinue if seizures occur.",
+      "evidence": "Label; RCT data only for methylphenidate",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78",
+        "PMID:35844168"
+      ]
+    },
+    {
+      "with": "tics / Tourette syndrome",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Stimulants associated with onset or worsening of tics; high-dose dextroamphetamine worsened tics in one short trial.",
+      "evidence": "Label; Cochrane review (very low quality for dextroamphetamine)",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78",
+        "PMID:29944175"
+      ]
+    },
+    {
+      "with": "Raynaud phenomenon / peripheral vasculopathy",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Stimulant-associated peripheral vasculopathy; usually mild and reversible, rarely ulceration or amputation.",
+      "evidence": "Label; systematic review of 61 cases",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78",
+        "PMID:39875750"
+      ]
+    },
+    {
+      "with": "plasma corticosteroids / urinary steroid assays",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Amphetamines can significantly elevate plasma corticosteroid levels (greatest in the evening) and may interfere with urinary steroid determinations.",
+      "evidence": "FDA label",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78"
+      ]
+    },
+    {
+      "with": "amphetamine urine drug screen immunoassay",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "moderate",
+      "mechanism": "Dextroamphetamine produces true-positive amphetamine screens; many other drugs cross-react (3.9-9.9% of positive screens are false positives), so confirm by GC-MS/LC-MS/MS.",
+      "evidence": "Laboratory reviews and 6-year lab audit",
+      "citations": [
+        "PMID:36367744",
+        "PMID:24986836",
+        "PMID:41639014"
+      ]
+    },
+    {
+      "with": "CYP2D6 poor metabolizer",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Reduced CYP2D6 metabolism; genotype-predicted poor metabolizers reported more symptom improvement (OR 3.67) without more side effects in youth; toxicology review notes poor or ultrarapid metabolizers may face toxicity.",
+      "evidence": "Single cross-sectional genotype study (n=214) and review; no dosing guideline",
+      "citations": [
+        "PMID:38517706",
+        "PMID:25998998"
       ]
     }
   ],
   "citations": [
-    "DailyMed",
-    "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78"
+    "PMID:23539642",
+    "PMID:1824",
+    "PMID:30097390",
+    "PMID:40152309",
+    "PMID:15955613",
+    "PMID:14583741",
+    "PMID:10475719",
+    "PMID:25157",
+    "PMID:41297970",
+    "PMID:39701638",
+    "PMID:33085721",
+    "PMID:42134365",
+    "PMID:41961095",
+    "PMID:37878348",
+    "PMID:38823477",
+    "PMID:34743789",
+    "PMID:34743790",
+    "PMID:39306601",
+    "PMID:30239930",
+    "PMID:32709551",
+    "PMID:27454675",
+    "PMID:31326580",
+    "PMID:40203844",
+    "PMID:22796229",
+    "PMID:37991787",
+    "PMID:36416824",
+    "PMID:40629932",
+    "PMID:39262211",
+    "PMID:30893533",
+    "PMID:40900605",
+    "PMID:15910204",
+    "PMID:28295312",
+    "PMID:16040876",
+    "PMID:38470385",
+    "PMID:40803836",
+    "PMID:32185696",
+    "PMID:39701142",
+    "PMID:41120148",
+    "PMID:40105821",
+    "PMID:26890573",
+    "PMID:18174822",
+    "PMID:16670648",
+    "PMID:39875750",
+    "PMID:34655948",
+    "PMID:29944175",
+    "PMID:40991352",
+    "PMID:29238795",
+    "PMID:29112657",
+    "PMID:41400021",
+    "PMID:38265792",
+    "PMID:36759544",
+    "PMID:30585374",
+    "PMID:40343695",
+    "PMID:11999244",
+    "PMID:31776871",
+    "PMID:19820270",
+    "PMID:443465",
+    "PMID:1558306",
+    "PMID:7361797",
+    "PMID:25414797",
+    "PMID:1586430",
+    "PMID:40595332",
+    "PMID:35844168",
+    "PMID:36367744",
+    "PMID:24986836",
+    "PMID:41639014",
+    "PMID:38517706",
+    "PMID:25998998",
+    "PMID:41879751",
+    "PMID:41423727",
+    "PMID:41736842",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78",
+    "URL:https://www.fda.gov/drugs/drug-safety-communications/fda-updating-warnings-improve-safe-use-prescription-stimulants-used-treat-adhd-and-other-conditions"
   ]
 }

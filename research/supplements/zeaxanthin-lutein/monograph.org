@@ -3,34 +3,213 @@
 :ID: supp-zeaxanthin-lutein
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: Lutein | Zeaxanthin | Macular xanthophylls
+:ALIASES: Lutein | Zeaxanthin | meso-Zeaxanthin | Lutein/zeaxanthin | L/Z | macular xanthophylls | macular carotenoids | marigold (Tagetes erecta) extract | lutein esters | AREDS2 carotenoids
 :CATEGORY: other
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
+
 ** Identity & forms
-- Dietary carotenoid pigments concentrated in macula; commonly combined at 10 mg lutein/2 mg zeaxanthin in AREDS2. [PMID:23644932] [PMID:24310343] [PMID:10498493]
+- Lutein and zeaxanthin are non-provitamin-A xanthophyll carotenoids. Mammals cannot make them and get them from leafy greens, broccoli, pumpkin, spinach and egg yolk [PMID:39304612]. Category "other" is used because they are carotenoids, not vitamins.
+- With meso-zeaxanthin they form the retina's macular pigment [PMID:27420092]. Lutein is the main carotenoid of the infant brain and retina [PMID:24899160].
+- Supplements are mostly marigold extracts, sold as free lutein or lutein esters [PMID:38794653]. The standard dose is the AREDS2 dose: lutein 10 mg + zeaxanthin 2 mg/day [PMID:22840421].
+- AREDS2 formula: vitamin C 500 mg, vitamin E 400 IU, copper 2 mg and zinc 80 mg (25 mg in the low-zinc arm), with L/Z replacing beta-carotene [PMID:22840421] [PMID:35653117].
+- Free vs ester forms: free lutein gave a 17% larger serum AUC over 4 weeks [PMID:21677121]. A 2024 crossover study (6 mg/day) found no difference between forms [PMID:38794653].
+- Formulation matters: an oil-based lutein raised AUC0-72 by 39% over a reference product [PMID:42449082].
+
 ** Mechanisms
-- Macular pigment absorbs short-wavelength light and has antioxidant activity; mechanistic plausibility does not establish benefit for people without AMD. [PMID:23644932] [PMID:24310343] [PMID:10498493]
+- Blue-light filtering and antioxidant activity at the fovea. MPOD correlates with contrast sensitivity (r 0.31-0.37), photostress recovery and glare disability [PMID:32792595].
+- Intestinal uptake is partly carrier-mediated:
+  - SR-BI: blocking it cut lutein transport 30-57% in Caco-2 cells, and beta-carotene (not lycopene) cut it about 20% [PMID:15554873].
+  - NPC1L1: ezetimibe inhibited up to 40% of lutein uptake [PMID:22579005].
+- Distribution: HDL is the main carrier [PMID:22375926].
+  - Adipose tissue competes with the retina: obese people have about 21% less macular pigment [PMID:11773011].
+  - MPOD tracks serum L/Z more closely than diet. Waist size and diabetes predict lower MPOD [PMID:17093164].
+- Anti-inflammatory: L + meso-Z + Z lowered IL-1beta, TNF-alpha and oxidized LDL in an RCT [PMID:38890092].
+- Carotenoids interact through competition for micelles, lipoprotein exchange and inhibition of beta-carotene cleavage. Human study results are inconsistent [PMID:10047699].
+
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---------+--------------------+-----------+-------------+-----------------------+-----------|
-| Progression to late AMD in people at elevated risk | AREDS2 tested replacement of beta-carotene in an antioxidant/zinc formula; Cochrane review finds little or uncertain effect from isolated L/Z | Established benefit | AREDS2 tested replacement of beta-carotene in an antioxidant/zinc formula; Cochrane review finds little or uncertain effect from isolated L/Z. Evidence supports use only as part of studied AREDS2 formulation/population. | moderate | [PMID:23644932] [PMID:24310343] [PMID:10498493] |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Late AMD, L/Z added to AREDS formula | AREDS2 RCT (n=4203, 5 y); Cochrane 2023 | No significant benefit (primary) | HR 0.90 (98.7% CI 0.76-1.07); Cochrane RR 0.94 (0.87-1.01) | low | [PMID:23644932] [PMID:37702300] |
+| Late AMD, L/Z vs beta-carotene in AREDS formula | AREDS2 exploratory plus 10-y follow-up | Benefit | HR 0.82 (0.69-0.96); neovascular HR 0.78 (0.64-0.94); 10-y HR 0.85 (0.73-0.98) | moderate | [PMID:24310343] [PMID:35653117] |
+| Late AMD, L/Z main effect at 10 y | AREDS2 follow-up (n=3882) | Small benefit | HR 0.91 (0.84-0.99) | low | [PMID:35653117] |
+| GA growth toward fovea | AREDS2 post hoc (325 eyes) | Slower | 80.1 vs 114.4 um/y; area growth unchanged | low | [PMID:39025435] |
+| AREDS antioxidants + zinc (background formula) | AREDS RCT; Cochrane | Benefit in intermediate AMD | OR 0.72 (0.58-0.90); about 78 fewer progressions/1000 | moderate | [PMID:11594942] [PMID:37702300] |
+| Primary prevention of AMD | Cohort MA of diet; no supplement RCT | Inverse association, late AMD only | RR 0.74 (0.57-0.97); early AMD RR 0.96 | very low | [PMID:21899805] [PMID:28756617] |
+| MPOD | MAs (20 RCTs; 9 RCTs); NMA of 38 RCTs | Increase, dose-dependent | WMD +0.07 (AMD), +0.09 (healthy); larger with meso-Z, 20 mg, >6 mo | moderate | [PMID:27420092] [PMID:31887124] [PMID:35433928] [PMID:38582248] |
+| VA / contrast sensitivity in AMD | MA of 8 RCTs (n=1176); 2026 MA; head-to-head RCT | Small benefit | logMAR WMD -0.04 (-0.06 to -0.03); CS WMD 0.08-0.18; mainly early AMD | low | [PMID:25515572] [PMID:42028334] [PMID:29053808] |
+| Visual performance, healthy adults | 1-y RCTs; CREST; NMA | Benefit on lab measures | Faster photostress recovery and better chromatic contrast; NMA photostress estimate -5.75 (-8.80 to -1.70) | low | [PMID:25468896] [PMID:23360692] [PMID:27367585] [PMID:38582248] |
+| Cataract surgery | AREDS2 secondary outcome | Null | HR 0.96 (0.84-1.10); lowest dietary quintile HR 0.68 (0.48-0.96) | moderate | [PMID:23645227] |
+| Cognition, older adults with AMD | AREDS2 substudy (n=3501) | Null | Yearly composite difference 0.03 (99% CI -0.14 to 0.19) | moderate | [PMID:26305649] |
+| Cognition, healthy adults/youth | MA of RCTs; small RCTs | MA null; small RCTs positive on selected domains | Attention SMD 0.02, executive 0.13, memory 0.03 (all NS) | low | [PMID:34641336] [PMID:29135938] [PMID:28824416] [PMID:35252311] [PMID:42413424] |
+| Dry eye / screen eye strain | SR; RCT | Objective tear tests improve | Schirmer, TBUT better; self-report unchanged | low | [PMID:40134251] [PMID:39963662] |
+| Myopia (children) | SR of 9 RCTs; RCT | No consistent effect on progression | Choroidal thinning -10.08 um less in 1 RCT | very low | [PMID:41515122] [PMID:41342624] |
+| Severe ROP, preterm infants | Cochrane (5 RCTs, n=666) | Benefit for stage >=3 | RR 0.49 (0.29-0.81); any ROP RR 0.90 | moderate | [PMID:40292760] |
+| Retinitis pigmentosa (with vitamin A) | RCT (12 mg/d, 4 y) | Slower midperipheral field loss | P = .05 (HFA 60-4); null for 30-2 | low | [PMID:20385935] |
+| Lipids / AGEs, central obesity | RCT (10 mg/d, 32 wk, n=117) | Small decrease | Lower TC, LDL-C, apoB; CML MD -72.3 ng/mL | low | [PMID:39964702] |
+| UV skin protection | Crossover RCT | Possible benefit (gene markers) | Blocked UVA-induced HO-1/ICAM-1/MMP-1 when taken first | very low | [PMID:27662341] |
+
 ** Dosing in trials
-- AREDS2 used lutein 10 mg + zeaxanthin 2 mg daily with background AREDS formulation; take with food containing fat for absorption. [PMID:23644932] [PMID:24310343] [PMID:10498493]
+- AMD: L 10 mg + Z 2 mg daily on top of the AREDS formula for 5 years, plus 5 years of follow-up [PMID:22840421] [PMID:35653117].
+- MPOD response: serum lutein plateaus in proportion to dose (5/10/20 mg), and MPOD rises linearly with dose [PMID:20599660]. Serum L/Z rises within 2 weeks [PMID:27426932]. The lowest baseline MPOD gives the largest gains (r = -0.71) [PMID:27420092].
+- Visual and cognitive RCTs: 10 mg L + 2 mg Z (or 12 mg L+Z) for 6-12 months [PMID:25468896] [PMID:28824416] [PMID:42413424].
+- Other doses: lutein 20 mg/d in drivers [PMID:23360692]; L 10 + meso-Z 10 + Z 2 mg in CREST-type products [PMID:27367585] [PMID:38890092]; 12 mg/d in RP [PMID:20385935]; 6-12 mg/d in lactation [PMID:24899160]; 10/2 mg in pregnancy [PMID:39071916].
+- Take with a fat-containing meal. Plasma lutein-ester response was 207% with 36 g fat vs 88% with 3 g fat [PMID:10799382].
+
 ** Safety & adverse effects
-- Generally tolerated in trials; rare skin yellowing at high intake; long-term data beyond trial durations limited. [PMID:23644932] [PMID:24310343] [PMID:10498493]
+- Mortality: AREDS2 data pooled by Cochrane show little or no effect of L/Z (HR 1.06, 0.87-1.31; very low certainty) [PMID:37702300].
+- RCTs in children, teenagers and screen users report good tolerability. Liver, kidney, lipid and blood-count labs were unchanged [PMID:38363462] [PMID:42413424] [PMID:39963662].
+- Observed Safe Level for lutein is 20 mg/day. Long-term safety above this is not established [PMID:16814439].
+- Beta-carotene and lung cancer (the reason AREDS2 swapped beta-carotene for L/Z):
+  - ATBC: beta-carotene raised lung cancer by 18% (3-36%) and total mortality by 8% in smokers [PMID:8127329].
+  - CARET (beta-carotene + retinol): lung cancer RR 1.28 (1.04-1.57) [PMID:8602180].
+  - Meta-analyses of RCTs: lung cancer RR 1.16-1.19 [PMID:35405977] [PMID:36715090].
+  - AREDS2: lung cancer 2.0% with beta-carotene vs 0.9% without, mostly in former smokers [PMID:23644932]. At 10 years: OR 1.82 (1.06-3.12) for beta-carotene vs 1.15 (0.79-1.66) for L/Z [PMID:35653117].
+- Lutein and lung cancer (observational): in the VITAL cohort, more than 4 years of individual lutein supplement use was associated with lung cancer (HR 2.02, 1.28-3.17). Confounding is possible [PMID:19208726].
+- Carotenodermia (yellowing, mainly palms and soles) is benign and follows prolonged high carotenoid intake [PMID:29460797].
+  - In volunteers, 15 mg/day lutein raised serum lutein 5-fold and caused carotenodermia. Levels returned to baseline within 3 months of stopping [PMID:9924266].
+  - A case of lutein-rich egg-diet carotenodermia was mistaken for jaundice [PMID:10748650].
+- Crystalline maculopathy: one case of foveal crystals after 8 years of 20 mg/day lutein plus a very high-lutein diet. Vision was unaffected and the crystals partly resolved after stopping [PMID:27787539].
+- Zinc component: GI symptoms. AREDS showed more genitourinary problems in men, with no difference between 80 and 25 mg in AREDS2 [PMID:37702300].
+
 ** Contraindications
-- No established absolute contraindication; smokers/former smokers should avoid beta-carotene-containing alternatives (not L/Z itself). [PMID:23644932] [PMID:24310343] [PMID:10498493]
+- No absolute contraindication was found [PMID:16814439] [PMID:37702300].
+- Smokers and former smokers should use the L/Z (AREDS2) formula, not beta-carotene formulas [PMID:23644932] [PMID:35653117].
+- Avoid chronic intake far above 20 mg/day [PMID:16814439] [PMID:27787539].
+- Lung cancer history or heavy smoking: there is an unconfirmed observational lutein signal and no proven non-ocular benefit to offset it [PMID:19208726].
+
 ** Interactions
-- No established clinically important drug interactions. High-dose carotenoids can compete with other carotenoids for absorption (uncertain clinical importance). [PMID:23644932] [PMID:24310343] [PMID:10498493]
+*** Drugs
+- Orlistat: cut absorption of a beta-carotene dose by about one-third [PMID:8852391]. Over 4.5 months it lowered alpha- and beta-carotene by 45% and 32%, but not L/Z (n=6) [PMID:17707976].
+  - The label advises a multivitamin taken at least 2 h before or after orlistat [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6240792b-9224-2d10-e053-2a91aa0a2c3e].
+- Bile-acid sequestrants: cholestyramine 12 g cut the rise in serum vitamin A by 59.5% [PMID:4706914]. There are no direct L/Z data.
+  - Labels warn of reduced fat-soluble vitamin absorption. Take other drugs 1 h before or 4-6 h after cholestyramine, and vitamins at least 4 h before colesevelam [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=214ea05f-de81-4026-9df9-4ce3820668ee] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5ca9a9b7-5efd-09bf-e063-6294a90a681d].
+- Ezetimibe: inhibited lutein uptake up to 40% via NPC1L1 in Caco-2 cells. No human data [PMID:22579005].
+- Statins: atorvastatin (not rosuvastatin) lowered MPOD in a small study, and MPOD fell with longer statin use [PMID:22375926]. 44% of AREDS2 participants took statins [PMID:22840421].
+*** Other supplements
+- Zinc (AREDS2 zinc arm): lowering zinc from 80 to 25 mg did not change AMD progression at 5 years [PMID:23644932] or 10 years (HR 1.04, 0.94-1.14) [PMID:35653117].
+  - Zinc alone helped in AREDS/Cochrane (OR 0.83) [PMID:37702300] [PMID:11594942].
+  - Genotype did not modify the zinc response [PMID:31358387].
+- Vitamin C, Vitamin E: co-components of the AREDS2 formula [PMID:22840421]. Vitamin E alone did not prevent AMD (RR 0.97) [PMID:28756617].
+- Beta-carotene (not on list): competes with L/Z for absorption and lowered retinal L/Z in chicks [PMID:15554873] [PMID:20082082]. L/Z replaced it in AREDS2 [PMID:24310343].
+- Astaxanthin: 6 mg plus 10 mg L + 2 mg Z still raised MPOD over 8 weeks [PMID:36986186]. Single high-dose xanthophylls lowered other xanthophylls in non-retinal tissues in chicks [PMID:20082082].
+- Lycopene: competes with lutein for incorporation into chylomicrons after a meal, but 3 weeks of co-supplementation did not lower plasma status [PMID:11864859]. It did not reduce lutein uptake in Caco-2 cells [PMID:15554873].
+- EPA/DHA/DPA: AREDS2 found no interaction and no added AMD or cognitive benefit [PMID:23644932] [PMID:26305649].
+- Plant sterol/stanol esters (food): lowered plasma lutein by 14% [PMID:15145979]. Serum L/Z fell over 18 months but MPOD did not [PMID:18986598].
+*** Conditions
+- Intermediate AMD: benefit is shown for the AREDS formula plus L/Z, not for L/Z alone [PMID:37702300] [PMID:35653117].
+- Smokers and former smokers: prefer L/Z over beta-carotene [PMID:35653117] [PMID:8127329].
+- Obesity and diabetes: associated with lower MPOD [PMID:11773011] [PMID:17093164]. Hypothyroidism and diabetes predispose to carotenaemia [PMID:29460797].
+- Pregnancy: L-ZIP (10/2 mg) raised maternal MP and 5-fold cord-blood L/Z [PMID:37247819] [PMID:39071916].
+- Lactation: 6-12 mg/d raised breast-milk lutein 140-250% [PMID:24899160].
+- Preterm infants: lower risk of severe ROP [PMID:40292760].
+*** Lab-test interference
+- Jaundice work-up: carotenodermia can mimic jaundice. It reflects carotenaemia, not bilirubin [PMID:10748650] [PMID:29460797].
+- Skin carotenoid scores (Raman or reflection spectroscopy, a fruit/vegetable biomarker) rise with supplements [PMID:23823930] [PMID:37247819] [PMID:39964702].
+- MPOD did not correlate with serum or skin carotenoids in AREDS2, so serum is a poor proxy for retinal status [PMID:22879423].
+
 ** Genotype notes
-- No validated genotype-based selection; AREDS2 genotype subgroup claims are not sufficient for routine nutrigenomic recommendations.
+- TwinsUK (n=310): SCARB1 rs11057841, RPE65 rs4926339, ABCA1 rs1929841 and FADS1 rs174534 were associated with MPOD response [PMID:23891863].
+- CFH/ARMS2 risk alleles did not modify response to L/Z vs beta-carotene, zinc dose or omega-3 in AREDS2 [PMID:31358387].
+- APOE e4: higher plasma L/Z was associated with slower cognitive decline in carriers (MIND trial cohort, observational) [PMID:40876538].
+
 ** Latest research
-- 2026-10-13 search cutoff: 2023 Cochrane update on antioxidant supplements for AMD progression included L/Z evidence and judged isolated effects uncertain [PMID:10498493]. [PMID:23644932] [PMID:24310343] [PMID:10498493]
+- [2026-10] Oil-based lutein: 32% higher Cmax and 39% higher AUC0-72 than a reference [PMID:42449082].
+- [2026-08] Teen RCT (n=82, 10/2 mg, 6 months): MPOD, attention and processing speed improved. Memory and sleep did not [PMID:42413424].
+- [2026-04] MA of 9 AMD RCTs: MPOD g -0.59, BCVA g -0.83, mostly in early AMD [PMID:42028334].
+- [2025-12] Myopia SR: no consistent slowing of progression [PMID:41515122]. Lutein esters reduced choroidal thinning in children [PMID:41342624].
+- [2025-11] MIND cohort: L/Z linked to slower cognitive decline only in APOE e4 carriers [PMID:40876538].
+- [2025-04] Cochrane: L/Z probably reduces ROP stage >=3 in preterm infants (RR 0.49) [PMID:40292760].
+- [2025-03] RCT in central obesity: lower LDL-C, apoB and AGEs [PMID:39964702].
+- [2025-02] Screen-user RCT: better Schirmer, TBUT and photostress recovery. Self-reports unchanged [PMID:39963662].
+- [2025-01] AREDS/AREDS2: L/Z slowed GA progression toward the fovea [PMID:39025435].
+- [2024-12] Dry-eye SR (3-20 mg/d, 4-12 wk): heterogeneous, possible TBUT/OSDI benefit [PMID:40134251].
+- [2024-12] Narrative review of L/Z health effects calls for larger trials [PMID:39304612].
+
 ** Open questions
-- Whether L/Z alone prevents AMD or adds benefit beyond a complete AREDS2 regimen is unresolved. [PMID:23644932] [PMID:24310343] [PMID:10498493]
+- Whether L/Z alone prevents AMD. No primary-prevention RCT exists [PMID:28756617] [PMID:21899805].
+- Whether gains in MPOD and lab vision measures matter in daily life [PMID:32792595] [PMID:38582248].
+- Cognition: small RCTs are positive, but AREDS2 and a meta-analysis are null [PMID:26305649] [PMID:34641336] [PMID:35752349].
+- Long-term safety above 20 mg/day and the observational lutein lung-cancer signal [PMID:16814439] [PMID:19208726].
+- Optimal zinc dose and the role of meso-zeaxanthin [PMID:35653117] [PMID:27420092].
+- Clinical relevance of interactions with lipid-lowering and fat-blocking drugs [PMID:18986598] [PMID:22375926].
+
 ** Sources
-- AREDS2 Research Group. Lutein + zeaxanthin and omega-3 fatty acids for AMD: the AREDS2 randomized clinical trial. JAMA. 2013;309:2005-2015. DOI:10.1001/jama.2013.4997.
-- Chew et al. Secondary analyses of lutein/zeaxanthin on AMD progression: AREDS2 report No. 3. JAMA Ophthalmol. 2014. PMID:24310343.
-- Evans & Lawrenson. Antioxidant vitamin and mineral supplements for slowing progression of age-related macular degeneration. Cochrane Database Syst Rev. PMID:10498493.
+1. Sanlier N et al. An Overview on the Effects of Some Carotenoids on Health: Lutein and Zeaxanthin. Curr Nutr Rep. 2024. PMID:39304612 DOI:10.1007/s13668-024-00579-z
+2. Ma L et al. Lutein, Zeaxanthin and Meso-zeaxanthin Supplementation Associated with Macular Pigment Optical Density. Nutrients. 2016. PMID:27420092 DOI:10.3390/nu8070426
+3. Sherry CL et al. Lutein supplementation increases breast milk and plasma lutein concentrations in lactating women and infant plasma concentrations but does not affect other carotenoids. J Nutr. 2014. PMID:24899160 DOI:10.3945/jn.114.192914
+4. Olmedilla-Alonso B et al. Bioavailability of Lutein from Marigold Flowers (Free vs. Ester Forms): A Randomised Cross-Over Study to Assess Serum Response and Visual Contrast Threshold in Adults. Nutrients. 2024. PMID:38794653 DOI:10.3390/nu16101415
+5. AREDS2 Research Group et al. The Age-Related Eye Disease Study 2 (AREDS2): study design and baseline characteristics (AREDS2 report number 1). Ophthalmology. 2012. PMID:22840421 DOI:10.1016/j.ophtha.2012.05.027
+6. Chew EY et al. Long-term Outcomes of Adding Lutein/Zeaxanthin and ω-3 Fatty Acids to the AREDS Supplements on Age-Related Macular Degeneration Progression: AREDS2 Report 28. JAMA Ophthalmol. 2022. PMID:35653117 DOI:10.1001/jamaophthalmol.2022.1640
+7. Norkus EP et al. Serum lutein response is greater from free lutein than from esterified lutein during 4 weeks of supplementation in healthy adults. J Am Coll Nutr. 2010. PMID:21677121 DOI:10.1080/07315724.2010.10719896
+8. Maddela R et al. Enhanced Bioavailability of a Novel Oil-Based Lutein Formulation: A Randomized, Double-Blind, Single-Dose, Comparative Oral Bioavailability Study in Healthy Adults. Adv Ther. 2026. PMID:42449082 DOI:10.1007/s12325-026-03713-1
+9. Johnson EJ et al. The association between macular pigment optical density and visual function outcomes: a systematic review and meta-analysis. Eye (Lond). 2021. PMID:32792595 DOI:10.1038/s41433-020-01124-2
+10. Reboul E et al. Lutein transport by Caco-2 TC-7 cells occurs partly by a facilitated process involving the scavenger receptor class B type I (SR-BI). Biochem J. 2005. PMID:15554873 DOI:10.1042/BJ20040554
+11. Sato Y et al. Involvement of cholesterol membrane transporter Niemann-Pick C1-like 1 in the intestinal absorption of lutein. J Pharm Pharm Sci. 2012. PMID:22579005 DOI:10.18433/j38k56
+12. Renzi LM et al. The relation between serum lipids and lutein and zeaxanthin in the serum and retina: results from cross-sectional, case-control and case study designs. Lipids Health Dis. 2012. PMID:22375926 DOI:10.1186/1476-511X-11-33
+13. Hammond BR Jr et al. Macular pigment density is reduced in obese subjects. Invest Ophthalmol Vis Sci. 2002. PMID:11773011
+14. Mares JA et al. Predictors of optical density of lutein and zeaxanthin in retinas of older women in the Carotenoids in Age-Related Eye Disease Study, an ancillary study of the Women's Health Initiative. Am J Clin Nutr. 2006. PMID:17093164 DOI:10.1093/ajcn/84.5.1107
+15. Stringham NT et al. Lutein, zeaxanthin, and meso-zeaxanthin supplementation attenuates inflammatory cytokines and markers of oxidative cardiovascular processes in humans. Nutr Metab Cardiovasc Dis. 2024. PMID:38890092 DOI:10.1016/j.numecd.2024.05.009
+16. van den Berg H. Carotenoid interactions. Nutr Rev. 1999. PMID:10047699 DOI:10.1111/j.1753-4887.1999.tb01769.x
+17. Age-Related Eye Disease Study 2 Research Group. Lutein + zeaxanthin and omega-3 fatty acids for age-related macular degeneration: the Age-Related Eye Disease Study 2 (AREDS2) randomized clinical trial. JAMA. 2013. PMID:23644932 DOI:10.1001/jama.2013.4997
+18. Evans JR et al. Antioxidant vitamin and mineral supplements for slowing the progression of age-related macular degeneration. Cochrane Database Syst Rev. 2023. PMID:37702300 DOI:10.1002/14651858.CD000254.pub5
+19. Age-Related Eye Disease Study 2 (AREDS2) Research Group et al. Secondary analyses of the effects of lutein/zeaxanthin on age-related macular degeneration progression: AREDS2 report No. 3. JAMA Ophthalmol. 2014. PMID:24310343 DOI:10.1001/jamaophthalmol.2013.7376
+20. Keenan TDL et al. Oral Antioxidant and Lutein/Zeaxanthin Supplements Slow Geographic Atrophy Progression to the Fovea in Age-Related Macular Degeneration. Ophthalmology. 2025. PMID:39025435 DOI:10.1016/j.ophtha.2024.07.014
+21. Age-Related Eye Disease Study Research Group. A randomized, placebo-controlled, clinical trial of high-dose supplementation with vitamins C and E, beta carotene, and zinc for age-related macular degeneration and vision loss: AREDS report no. 8. Arch Ophthalmol. 2001. PMID:11594942 DOI:10.1001/archopht.119.10.1417
+22. Ma L et al. Lutein and zeaxanthin intake and the risk of age-related macular degeneration: a systematic review and meta-analysis. Br J Nutr. 2012. PMID:21899805 DOI:10.1017/S0007114511004260
+23. Evans JR et al. Antioxidant vitamin and mineral supplements for preventing age-related macular degeneration. Cochrane Database Syst Rev. 2017. PMID:28756617 DOI:10.1002/14651858.CD000253.pub4
+24. Feng L et al. Effects of lutein supplementation in age-related macular degeneration. PLoS One. 2019. PMID:31887124 DOI:10.1371/journal.pone.0227048
+25. Liu Y et al. The level and efficacy of lutein in patients with age-related macular degeneration: a comprehensive systematic review and meta-analysis. Ann Transl Med. 2022. PMID:35433928 DOI:10.21037/atm-22-173
+26. Hu W et al. Effect of Antioxidant Supplementation on Macular Pigment Optical Density and Visual Functions: A Systematic Review and Network Meta-Analysis of Randomized Controlled Trials. Adv Nutr. 2024. PMID:38582248 DOI:10.1016/j.advnut.2024.100216
+27. Liu R et al. Lutein and zeaxanthin supplementation and association with visual function in age-related macular degeneration. Invest Ophthalmol Vis Sci. 2014. PMID:25515572 DOI:10.1167/iovs.14-15553
+28. Wang WX et al. From Supplements to Sight: Quantifying the Impact of Lutein and Carotenoid on Age-Related Macular Degeneration-A Systematic Review and Meta-Analysis of Randomized Controlled Trials. J Ophthalmol. 2026. PMID:42028334 DOI:10.1155/joph/2155378
+29. Akuffo KO et al. The Impact of Supplemental Antioxidants on Visual Function in Nonadvanced Age-Related Macular Degeneration: A Head-to-Head Randomized Clinical Trial. Invest Ophthalmol Vis Sci. 2017. PMID:29053808 DOI:10.1167/iovs.16-21192
+30. Hammond BR et al. A double-blind, placebo-controlled study on the effects of lutein and zeaxanthin on photostress recovery, glare disability, and chromatic contrast. Invest Ophthalmol Vis Sci. 2014. PMID:25468896 DOI:10.1167/iovs.14-15573
+31. Yao Y et al. Lutein supplementation improves visual performance in Chinese drivers: 1-year randomized, double-blind, placebo-controlled study. Nutrition. 2013. PMID:23360692 DOI:10.1016/j.nut.2012.10.017
+32. Nolan JM et al. Enrichment of Macular Pigment Enhances Contrast Sensitivity in Subjects Free of Retinal Disease: Central Retinal Enrichment Supplementation Trials - Report 1. Invest Ophthalmol Vis Sci. 2016. PMID:27367585 DOI:10.1167/iovs.16-19520
+33. Age-Related Eye Disease Study 2 (AREDS2) Research Group et al. Lutein/zeaxanthin for the treatment of age-related cataract: AREDS2 randomized trial report no. 4. JAMA Ophthalmol. 2013. PMID:23645227 DOI:10.1001/jamaophthalmol.2013.4412
+34. Chew EY et al. Effect of Omega-3 Fatty Acids, Lutein/Zeaxanthin, or Other Nutrient Supplementation on Cognitive Function: The AREDS2 Randomized Clinical Trial. JAMA. 2015. PMID:26305649 DOI:10.1001/jama.2015.9677
+35. Li J et al. Dietary Lutein and Cognitive Function in Adults: A Meta-Analysis of Randomized Controlled Trials. Molecules. 2021. PMID:34641336 DOI:10.3390/molecules26195794
+36. Renzi-Hammond LM et al. Effects of a Lutein and Zeaxanthin Intervention on Cognitive Function: A Randomized, Double-Masked, Placebo-Controlled Trial of Younger Healthy Adults. Nutrients. 2017. PMID:29135938 DOI:10.3390/nu9111246
+37. Hammond BR Jr et al. Effects of Lutein/Zeaxanthin Supplementation on the Cognitive Function of Community Dwelling Older Adults: A Randomized, Double-Masked, Placebo-Controlled Trial. Front Aging Neurosci. 2017. PMID:28824416 DOI:10.3389/fnagi.2017.00254
+38. Lopresti AL et al. The Effects of Lutein and Zeaxanthin Supplementation on Cognitive Function in Adults With Self-Reported Mild Cognitive Complaints: A Randomized, Double-Blind, Placebo-Controlled Study. Front Nutr. 2022. PMID:35252311 DOI:10.3389/fnut.2022.843512
+39. Lopresti AL et al. Supplementation with lutein and zeaxanthin increases macular pigment optical density and cognitive performance in healthy teenagers in a randomized, double-blind, placebo-controlled trial. Nutr Res. 2026. PMID:42413424 DOI:10.1016/j.nutres.2026.06.005
+40. Chu YC et al. Role of Lutein Supplements in the Management of Dry Eye Syndrome: A Systematic Review. Int J Vitam Nutr Res. 2024. PMID:40134251 DOI:10.31083/IJVNR36626
+41. Lopresti AL et al. The effects of lutein/ zeaxanthin (Lute-gen(®)) on eye health, eye strain, sleep quality, and attention in high electronic screen users: a randomized, double-blind, placebo-controlled study. Front Nutr. 2025. PMID:39963662 DOI:10.3389/fnut.2025.1522302
+42. Martinez-Perez C et al. Nutritional Supplementation for Myopia Prevention and Control: A Systematic Review of Randomized Controlled Trials. Nutrients. 2025. PMID:41515122 DOI:10.3390/nu18010004
+43. Li T et al. Effect of Lutein Ester Supplement on Choroidal Thickness in Children: A Randomized Controlled Trial. Transl Vis Sci Technol. 2025. PMID:41342624 DOI:10.1167/tvst.14.12.7
+44. Choo YM et al. Lutein and zeaxanthin for reducing morbidity and mortality in preterm infants. Cochrane Database Syst Rev. 2025. PMID:40292760 DOI:10.1002/14651858.CD012178.pub2
+45. Berson EL et al. Clinical trial of lutein in patients with retinitis pigmentosa receiving vitamin A. Arch Ophthalmol. 2010. PMID:20385935 DOI:10.1001/archophthalmol.2010.32
+46. Zhou J et al. Effect of lutein supplementation on blood lipids and advanced glycation end products in adults with central obesity: a double-blind randomized controlled trial. Food Funct. 2025. PMID:39964702 DOI:10.1039/d4fo05578k
+47. Grether-Beck S et al. Molecular evidence that oral supplementation with lycopene or lutein protects human skin against ultraviolet radiation: results from a double-blinded, placebo-controlled, crossover study. Br J Dermatol. 2017. PMID:27662341 DOI:10.1111/bjd.15080
+48. Bone RA et al. Dose-dependent response of serum lutein and macular pigment optical density to supplementation with lutein esters. Arch Biochem Biophys. 2010. PMID:20599660 DOI:10.1016/j.abb.2010.06.019
+49. Stringham JM et al. Serum and retinal responses to three different doses of macular carotenoids over 12 weeks of supplementation. Exp Eye Res. 2016. PMID:27426932 DOI:10.1016/j.exer.2016.07.005
+50. Addo EK et al. Ocular Effects of Prenatal Carotenoid Supplementation in the Mother and Her Child: The Lutein and Zeaxanthin in Pregnancy (L-ZIP) Randomized Trial - Report Number 2. Ophthalmol Sci. 2024. PMID:39071916 DOI:10.1016/j.xops.2024.100537
+51. Roodenburg AJ et al. Amount of fat in the diet affects bioavailability of lutein esters but not of alpha-carotene, beta-carotene, and vitamin E in humans. Am J Clin Nutr. 2000. PMID:10799382 DOI:10.1093/ajcn/71.5.1187
+52. Parekh R et al. Lutein and Zeaxanthin Supplementation Improves Dynamic Visual and Cognitive Performance in Children: A Randomized, Double-Blind, Parallel, Placebo-Controlled Study. Adv Ther. 2024. PMID:38363462 DOI:10.1007/s12325-024-02785-1
+53. Shao A et al. Risk assessment for the carotenoids lutein and lycopene. Regul Toxicol Pharmacol. 2006. PMID:16814439 DOI:10.1016/j.yrtph.2006.05.007
+54. Alpha-Tocopherol, Beta Carotene Cancer Prevention Study Group. The effect of vitamin E and beta carotene on the incidence of lung cancer and other cancers in male smokers. N Engl J Med. 1994. PMID:8127329 DOI:10.1056/NEJM199404143301501
+55. Omenn GS et al. Effects of a combination of beta carotene and vitamin A on lung cancer and cardiovascular disease. N Engl J Med. 1996. PMID:8602180 DOI:10.1056/NEJM199605023341802
+56. Kordiak J et al. Role of Beta-Carotene in Lung Cancer Primary Chemoprevention: A Systematic Review with Meta-Analysis and Meta-Regression. Nutrients. 2022. PMID:35405977 DOI:10.3390/nu14071361
+57. Zhang Y et al. Association between β-carotene supplementation and risk of cancer: a meta-analysis of randomized controlled trials. Nutr Rev. 2023. PMID:36715090 DOI:10.1093/nutrit/nuac110
+58. Satia JA et al. Long-term use of beta-carotene, retinol, lycopene, and lutein supplements and lung cancer risk: results from the VITamins And Lifestyle (VITAL) study. Am J Epidemiol. 2009. PMID:19208726 DOI:10.1093/aje/kwn409
+59. Priyadarshani AMB. Insights of hypercarotenaemia: A brief review. Clin Nutr ESPEN. 2018. PMID:29460797 DOI:10.1016/j.clnesp.2017.12.002
+60. Granado F et al. Lutein ester in serum after lutein supplementation in human subjects. Br J Nutr. 1998. PMID:9924266
+61. Pinto F et al. [Carotenodermia: an erroneous diagnosis of jaundice]. Recenti Prog Med. 2000. PMID:10748650
+62. Choi RY et al. Crystalline Maculopathy Associated With High-Dose Lutein Supplementation. JAMA Ophthalmol. 2016. PMID:27787539 DOI:10.1001/jamaophthalmol.2016.4117
+63. Zhi J et al. The effect of orlistat, an inhibitor of dietary fat absorption, on the pharmacokinetics of beta-carotene in healthy volunteers. J Clin Pharmacol. 1996. PMID:8852391 DOI:10.1002/j.1552-4604.1996.tb04180.x
+64. Sundl I et al. Effects of orlistat therapy on plasma concentrations of oxygenated and hydrocarbon carotenoids. Lipids. 2006. PMID:17707976 DOI:10.1007/s11745-006-5078-6
+65. Barnard DL et al. Bile acids and vitamin A absorption in man: the effects of two bile acid-binding agents, cholestyramine and lignin. Gut. 1973. PMID:4706914 DOI:10.1136/gut.14.4.316
+66. van Asten F et al. No CFH or ARMS2 Interaction with Omega-3 Fatty Acids, Low versus High Zinc, or β-Carotene versus Lutein and Zeaxanthin on Progression of Age-Related Macular Degeneration in the Age-Related Eye Disease Study 2: Age-Related Eye Disease Study 2 Report No. 18. Ophthalmology. 2019. PMID:31358387 DOI:10.1016/j.ophtha.2019.06.004
+67. Wang Y et al. Competitive inhibition of carotenoid transport and tissue concentrations by high dose supplements of lutein, zeaxanthin and beta-carotene. Eur J Nutr. 2010. PMID:20082082 DOI:10.1007/s00394-009-0089-8
+68. Yoshida K et al. Effects of Astaxanthin, Lutein, and Zeaxanthin on Eye-Hand Coordination and Smooth-Pursuit Eye Movement after Visual Display Terminal Operation in Healthy Subjects: A Randomized, Double-Blind Placebo-Controlled Intergroup Trial. Nutrients. 2023. PMID:36986186 DOI:10.3390/nu15061459
+69. Tyssandier V et al. Vegetable-borne lutein, lycopene, and beta-carotene compete for incorporation into chylomicrons, with no adverse effect on the medium-term (3-wk) plasma status of carotenoids in humans. Am J Clin Nutr. 2002. PMID:11864859 DOI:10.1093/ajcn/75.3.526
+70. Clifton PM et al. High dietary intake of phytosterol esters decreases carotenoids and increases plasma plant sterol levels with no additional cholesterol lowering. J Lipid Res. 2004. PMID:15145979 DOI:10.1194/jlr.M400074-JLR200
+71. Berendschot TT et al. Long-term plant stanol and sterol ester-enriched functional food consumption, serum lutein/zeaxanthin concentration and macular pigment optical density. Br J Nutr. 2009. PMID:18986598 DOI:10.1017/S0007114508111448
+72. Addo EK et al. Systemic Effects of Prenatal Carotenoid Supplementation in the Mother and her Child: The Lutein and Zeaxanthin in Pregnancy (L-ZIP) Randomized Trial -Report Number 1. J Nutr. 2023. PMID:37247819 DOI:10.1016/j.tjnut.2023.05.024
+73. Mayne ST et al. Resonance Raman spectroscopic evaluation of skin carotenoids as a biomarker of carotenoid status for human studies. Arch Biochem Biophys. 2013. PMID:23823930 DOI:10.1016/j.abb.2013.06.007
+74. Bernstein PS et al. Macular pigment imaging in AREDS2 participants: an ancillary study of AREDS2 subjects enrolled at the Moran Eye Center. Invest Ophthalmol Vis Sci. 2012. PMID:22879423 DOI:10.1167/iovs.12-10275
+75. Yonova-Doing E et al. Candidate gene study of macular response to supplemental lutein and zeaxanthin. Exp Eye Res. 2013. PMID:23891863 DOI:10.1016/j.exer.2013.07.020
+76. Liu X et al. Apolipoprotein E ε4-dependent associations between carotenoids and cognitive decline: Findings from the MIND (Mediterranean-DASH Intervention for Neurodegenerative delay) randomized controlled trial. Am J Clin Nutr. 2025. PMID:40876538 DOI:10.1016/j.ajcnut.2025.08.012
+77. García-Romera MC et al. Effect of macular pigment carotenoids on cognitive functions: A systematic review. Physiol Behav. 2022. PMID:35752349 DOI:10.1016/j.physbeh.2022.113891

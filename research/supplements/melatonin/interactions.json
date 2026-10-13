@@ -3,21 +3,79 @@
   "supplement": "Melatonin",
   "slug": "melatonin",
   "aliases": [
-    "N-acetyl-5-methoxytryptamine"
+    "N-acetyl-5-methoxytryptamine",
+    "Circadin",
+    "prolonged-release melatonin",
+    "PR-melatonin",
+    "Slenyto",
+    "pediatric prolonged-release melatonin (PedPRM)",
+    "melatonin gummies"
   ],
-  "category": "other",
+  "category": "hormone",
   "rx_status": "otc",
-  "evidence_certainty_overall": "low",
+  "evidence_certainty_overall": "moderate",
   "edges": [
     {
       "with": "fluvoxamine",
       "with_kind": "drug",
       "kind": "avoid",
       "severity": "major",
-      "mechanism": "CYP1A2 inhibition markedly increases melatonin exposure and sedation.",
-      "evidence": "FDA memorandum describes increased bioavailability and pronounced drowsiness.",
+      "mechanism": "Potent CYP1A2 (and CYP2C19) inhibition blocks melatonin 6-hydroxylation; melatonin AUC up 17-fold and Cmax up 12-fold. SmPC says avoid the combination.",
+      "evidence": "Human PK study plus microsome data plus regulatory label; high certainty for PK effect",
       "citations": [
-        "URL:https://www.fda.gov/media/169557/download"
+        "PMID:10668847",
+        "PMID:11317475",
+        "URL:https://www.medicines.org.uk/emc/product/2809/smpc"
+      ]
+    },
+    {
+      "with": "CYP1A2 inhibitors (ciprofloxacin/quinolones, cimetidine, oestrogens/oral contraceptives, methoxypsoralens)",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Inhibit CYP1A2-mediated melatonin clearance, raising exposure and next-day sedation risk.",
+      "evidence": "In vitro (5-methoxypsoralen), PK review (oral contraceptives), SmPC listing",
+      "citations": [
+        "PMID:24732412",
+        "PMID:26008214",
+        "URL:https://www.medicines.org.uk/emc/product/2809/smpc"
+      ]
+    },
+    {
+      "with": "CYP1A2 inducers (carbamazepine, rifampicin)",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Induction of CYP1A2 may lower melatonin levels and efficacy.",
+      "evidence": "Regulatory label statement; mechanistic",
+      "citations": [
+        "URL:https://www.medicines.org.uk/emc/product/2809/smpc",
+        "PMID:11317475"
+      ]
+    },
+    {
+      "with": "Caffeine",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Caffeine competes for or inhibits CYP1A2; 600 mg raised oral melatonin Cmax 142% and AUC 120%, more in non-smokers and CYP1A2*1F/*1F carriers. Caffeine is also arousing, which pharmacodynamically opposes melatonin's sleep effect.",
+      "evidence": "Human PK crossover (n=12) and phenotyping study",
+      "citations": [
+        "PMID:14616429",
+        "PMID:17040215"
+      ]
+    },
+    {
+      "with": "benzodiazepines and Z-drugs (zolpidem, zopiclone, zaleplon)",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Additive pharmacodynamic CNS depression via GABA-A: PR-melatonin plus zolpidem worsened psychomotor, driving and memory performance with no PK change. Melatonin does not aid benzodiazepine discontinuation.",
+      "evidence": "Randomized crossover RCT; SmPC; MA of 6 RCTs",
+      "citations": [
+        "PMID:18763235",
+        "URL:https://www.medicines.org.uk/emc/product/2809/smpc",
+        "PMID:26547856"
       ]
     },
     {
@@ -25,30 +83,274 @@
       "with_kind": "drug",
       "kind": "monitor",
       "severity": "moderate",
-      "mechanism": "Possible potentiation of anticoagulation; evidence is case reports.",
-      "evidence": "FDA memorandum identifies case reports; clinical interaction uncertain.",
+      "mechanism": "Case reports of harm (bleeding or INR change) in warfarin users; melatonin lowers FVIII:C and fibrinogen; listed among supplements associated with bleeding in anticoagulated patients.",
+      "evidence": "Case reports cited in Cochrane review; small RCT on coagulation factors; narrative review; low certainty",
       "citations": [
-        "URL:https://www.fda.gov/media/169557/download"
+        "PMID:12076414",
+        "PMID:18289163",
+        "PMID:36304597"
       ]
     },
     {
-      "with": "sedatives",
-      "with_kind": "drug-class",
+      "with": "nifedipine (calcium-channel blockers)",
+      "with_kind": "drug",
       "kind": "caution",
       "severity": "moderate",
-      "mechanism": "Potential additive sedation.",
-      "evidence": "FDA memorandum describes concern with sedating drugs.",
+      "mechanism": "Evening melatonin 5 mg raised 24-h SBP by 6.5 and DBP by 4.9 mmHg and heart rate by 3.9 bpm in patients controlled on nifedipine GITS; proposed competition with calcium-channel blockade.",
+      "evidence": "Double-blind crossover RCT (n=47); systematic review notes antihypertensive interactions",
       "citations": [
-        "URL:https://www.fda.gov/media/169557/download"
+        "PMID:10792199",
+        "PMID:30670284"
+      ]
+    },
+    {
+      "with": "immunosuppressants (calcineurin inhibitors, transplant regimens)",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Melatonin modulates T-cell activation and differentiation, partly via calcineurin, and could theoretically counteract immunosuppression; SmPC advises against use in autoimmune disease for lack of data.",
+      "evidence": "Mechanistic review plus regulatory precaution; no clinical interaction data; very low certainty",
+      "citations": [
+        "PMID:28152213",
+        "URL:https://www.medicines.org.uk/emc/product/2809/smpc"
+      ]
+    },
+    {
+      "with": "Rapamycin",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Both converge on mTOR/SIRT1 signalling; melatonin enhanced rapamycin's AKT/mTOR suppression and anticancer effect while reducing toxicity to normal cells in preclinical models. Any immunological interaction in humans is unknown.",
+      "evidence": "Preclinical only (cell and xenograft); mechanistic review",
+      "citations": [
+        "PMID:29247557",
+        "PMID:30242884"
+      ]
+    },
+    {
+      "with": "antidiabetic drugs",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Melatonin can impair glucose tolerance and insulin sensitivity (10 mg/d for 3 months reduced insulin sensitivity 12% in T2D), especially near meals and in MTNR1B risk carriers; one MA reports improved FBG/HbA1c, so the net effect is uncertain.",
+      "evidence": "Crossover RCTs and MA with conflicting results; low certainty",
+      "citations": [
+        "PMID:35619221",
+        "PMID:42346809",
+        "PMID:39428939"
+      ]
+    },
+    {
+      "with": "Magnesium",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Combined melatonin-magnesium-zinc supplement improved PSQI by 6.8 points vs placebo in elderly insomniacs; the effect is additive and not separated by component.",
+      "evidence": "Single double-blind RCT (n=43) of combination product",
+      "citations": [
+        "PMID:21226679"
+      ]
+    },
+    {
+      "with": "L-Theanine",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Both improved insomnia vs placebo in cancer patients (melatonin more than theanine); a complementary sleep-promoting mechanism is plausible, but the combination is untested.",
+      "evidence": "Single three-arm RCT without combination arm; very low certainty for synergy",
+      "citations": [
+        "PMID:38846134"
+      ]
+    },
+    {
+      "with": "Glycine",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Glycine improves subjective sleep or fatigue via SCN neuropeptides without changing plasma melatonin; additive sleep effects are plausible, with no PK interaction expected.",
+      "evidence": "Human plus rodent study of glycine alone; no combination data",
+      "citations": [
+        "PMID:22529837"
+      ]
+    },
+    {
+      "with": "tobacco smoking",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Smoking induces CYP1A2: exogenous melatonin AUC was about 3-fold lower while smoking than after abstinence; quitting can sharply raise melatonin exposure.",
+      "evidence": "Human PK study; PK systematic review",
+      "citations": [
+        "PMID:15824912",
+        "PMID:26008214"
+      ]
+    },
+    {
+      "with": "CYP1A2*1F (rs762551) genotype",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "CYP1A2 genotype alters melatonin exposure and the size of caffeine-melatonin interaction (larger in *1F/*1F).",
+      "evidence": "Small human PK/phenotyping studies",
+      "citations": [
+        "PMID:14616429",
+        "PMID:17040215"
+      ]
+    },
+    {
+      "with": "MTNR1B rs10830963 risk allele",
+      "with_kind": "genotype",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Melatonin worsens glucose tolerance (11.7%) and suppresses first-phase beta-cell responsivity (40%) only in risk-allele carriers; effect on glucose AUC 6-fold larger in carriers when taken in the morning.",
+      "evidence": "Randomized crossover trials (2015, 2026 Diabetes Care)",
+      "citations": [
+        "PMID:42346809",
+        "PMID:26440713"
+      ]
+    },
+    {
+      "with": "alcohol",
+      "with_kind": "food",
+      "kind": "avoid",
+      "severity": "minor",
+      "mechanism": "Evening alcohol suppresses endogenous melatonin 15-19% and adds sedation; SmPC says alcohol reduces Circadin's effectiveness on sleep.",
+      "evidence": "Controlled lab study; regulatory label",
+      "citations": [
+        "PMID:17612945",
+        "URL:https://www.medicines.org.uk/emc/product/2809/smpc"
+      ]
+    },
+    {
+      "with": "diabetes / impaired glucose tolerance",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Avoid dosing close to meals; possible deterioration of glycemia, particularly in MTNR1B carriers and at 10 mg/d.",
+      "evidence": "RCTs with conflicting MA; low certainty",
+      "citations": [
+        "PMID:35619221",
+        "PMID:42346809",
+        "PMID:39428939"
+      ]
+    },
+    {
+      "with": "epilepsy",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Case reports suggest possible harm in epilepsy and one pediatric MA case of mild generalized epilepsy; controlled trials show no worsening, and possibly better seizure severity and sleep latency.",
+      "evidence": "Cochrane (inconclusive), MA of 10 RCTs, case reports; low certainty",
+      "citations": [
+        "PMID:27513702",
+        "PMID:38417212",
+        "PMID:12076414",
+        "PMID:31982807"
+      ]
+    },
+    {
+      "with": "autoimmune disease",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Immunomodulatory T-cell effects; regulatory label does not recommend use for lack of data.",
+      "evidence": "Regulatory precaution; mechanistic",
+      "citations": [
+        "URL:https://www.medicines.org.uk/emc/product/2809/smpc",
+        "PMID:28152213"
+      ]
+    },
+    {
+      "with": "pregnancy and lactation",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "No insomnia RCTs in pregnancy; melatonin likely passes into milk. SmPC does not recommend use, although trials for other indications reported no major safety signals.",
+      "evidence": "Scoping review of human studies; regulatory label",
+      "citations": [
+        "PMID:34730672",
+        "URL:https://www.medicines.org.uk/emc/product/2809/smpc"
+      ]
+    },
+    {
+      "with": "young children (unsupervised ingestion, gummies)",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Gummy formulations with label content up to 347% (US gummies) and 0-667% (children's products) of declared dose drive a surge in pediatric ingestions: +530% in 2012-2021 with 2 deaths, and about 10,930 ED visits in 2019-2022.",
+      "evidence": "National poison-center and ED surveillance; product content surveys",
+      "citations": [
+        "PMID:35653284",
+        "PMID:38451863",
+        "PMID:37097362",
+        "PMID:39482109"
+      ]
+    },
+    {
+      "with": "heart failure",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Unpublished AHA 2025 abstract: long-term melatonin use in insomnia associated with incident HF (HR 1.89) and mortality; confounding by insomnia severity likely. NHANES reanalysis found no significant association, and RCTs in cardiac patients show no harm.",
+      "evidence": "Observational abstract (not peer reviewed) plus counter-analyses; very low certainty",
+      "citations": [
+        "URL:https://www.acc.org/Latest-in-Cardiology/Articles/2025/11/03/16/19/mon-melatonin-aha-2025",
+        "PMID:42167796",
+        "PMID:41764369",
+        "PMID:42123177"
+      ]
+    },
+    {
+      "with": "oral glucose tolerance test",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Not an assay artifact: melatonin taken shortly before a glucose load physiologically worsens glucose tolerance, especially in MTNR1B carriers, which could bias OGTT results.",
+      "evidence": "Randomized crossover trials",
+      "citations": [
+        "PMID:26440713",
+        "PMID:42346809"
       ]
     }
   ],
   "citations": [
-    "PMID:28364495",
-    "URL:https://www.nccih.nih.gov/health/sleep-disorders-and-complementary-health-approaches",
-    "URL:https://www.fda.gov/media/169557/download",
-    "URL:https://www.fda.gov/media/169557/download",
-    "URL:https://www.fda.gov/media/169557/download",
-    "URL:https://www.fda.gov/media/169557/download"
+    "PMID:10668847",
+    "PMID:11317475",
+    "URL:https://www.medicines.org.uk/emc/product/2809/smpc",
+    "PMID:24732412",
+    "PMID:26008214",
+    "PMID:14616429",
+    "PMID:17040215",
+    "PMID:18763235",
+    "PMID:26547856",
+    "PMID:12076414",
+    "PMID:18289163",
+    "PMID:36304597",
+    "PMID:10792199",
+    "PMID:30670284",
+    "PMID:28152213",
+    "PMID:29247557",
+    "PMID:30242884",
+    "PMID:35619221",
+    "PMID:42346809",
+    "PMID:39428939",
+    "PMID:21226679",
+    "PMID:38846134",
+    "PMID:22529837",
+    "PMID:15824912",
+    "PMID:26440713",
+    "PMID:17612945",
+    "PMID:27513702",
+    "PMID:38417212",
+    "PMID:31982807",
+    "PMID:34730672",
+    "PMID:35653284",
+    "PMID:38451863",
+    "PMID:37097362",
+    "PMID:39482109",
+    "URL:https://www.acc.org/Latest-in-Cardiology/Articles/2025/11/03/16/19/mon-melatonin-aha-2025",
+    "PMID:42167796",
+    "PMID:41764369",
+    "PMID:42123177"
   ]
 }

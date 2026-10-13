@@ -4,15 +4,319 @@
   "slug": "hyaluronic-acid",
   "aliases": [
     "HA",
-    "Hyaluronan",
-    "Sodium hyaluronate"
+    "hyaluronan",
+    "sodium hyaluronate",
+    "hyaluronate",
+    "Mobilee",
+    "Hyal-Joint",
+    "Oralvisc"
   ],
   "category": "other",
   "rx_status": "otc",
   "evidence_certainty_overall": "low",
-  "edges": [],
+  "edges": [
+    {
+      "with": "Collagen",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Frequently co-formulated (collagen II/HA/chondroitin matrices, HA matrix ingredients); both target dermal/joint extracellular matrix. In UV-exposed mice, adding collagen at 12-fold dose gave no benefit beyond oral HA alone.",
+      "evidence": "Combination RCT in OA (BioCell, n=80) and open-label skin study; mouse photoaging study; additive effect in humans not isolated; very low certainty",
+      "citations": [
+        "PMID:22486722",
+        "PMID:22956862",
+        "PMID:40716543",
+        "PMID:40498387",
+        "PMID:40826844"
+      ]
+    },
+    {
+      "with": "Glucosamine Sulphate 2KCL",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Glucosamine/N-acetylglucosamine is a biosynthetic substrate for HA; combined liquid products (HA + glucosamine + chondroitin) are marketed for knee OA.",
+      "evidence": "Two small RCTs of the combination: positive in mild knee pain, null in moderate pain; no factorial trial isolating HA; very low certainty",
+      "citations": [
+        "PMID:17716251",
+        "PMID:14651444",
+        "PMID:33592868",
+        "PMID:34622845"
+      ]
+    },
+    {
+      "with": "Vitamin C",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Claimed synergy via vitamin C's role in collagen synthesis alongside HA; evidence limited to multi-ingredient products and animal wound data.",
+      "evidence": "Uncontrolled 40-day study of an HA + vitamin C/biotin/Cu/Zn drink (n=20); rat wound model with topical HA + oral vitamin C; very low certainty",
+      "citations": [
+        "PMID:29228816",
+        "PMID:42501143"
+      ]
+    },
+    {
+      "with": "Green Tea Extract",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Fixed EGCG + folate + B12 + HA (50 mg) tablet studied for HPV clearance; HA's individual contribution unknown.",
+      "evidence": "Single uncontrolled clinical study (n=106); very low certainty",
+      "citations": [
+        "PMID:40508059"
+      ]
+    },
+    {
+      "with": "anticoagulants",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "No interaction with oral HA described. Relevant to injected HA: bruising/bleeding at injection sites; joint injections at therapeutic INR and on DOACs/antiplatelets showed very low bleeding rates.",
+      "evidence": "Retrospective (640 procedures) and prospective (5080 procedures) cohort data for joint injections; filler bruising commentary; low certainty",
+      "citations": [
+        "PMID:22340924",
+        "PMID:36806477",
+        "PMID:30789524"
+      ]
+    },
+    {
+      "with": "Aspirin",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Antiplatelet use around injected HA (IA/fillers) may add to bruising, though injection cohorts on antiplatelets reported no significant bleeding; aspirin is also used in filler vascular-occlusion rescue protocols. No interaction with oral HA.",
+      "evidence": "Prospective injection cohort; systematic review of ocular filler complications; very low certainty",
+      "citations": [
+        "PMID:36806477",
+        "PMID:35091771"
+      ]
+    },
+    {
+      "with": "hyaluronidase",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Enzyme that degrades HA; used to dissolve HA fillers and treat vascular occlusion. Allergy risk (higher with bee/wasp venom allergy); retrobulbar use for filler blindness is controversial.",
+      "evidence": "Practice guidelines and consensus statements; low certainty",
+      "citations": [
+        "PMID:34840662",
+        "PMID:37771016",
+        "PMID:35096260"
+      ]
+    },
+    {
+      "with": "antibiotics",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Oral HA absorption depends on gut Bacteroides degrading it to absorbable oligosaccharides; germ-free mice absorbed almost none, so broad-spectrum antibiotics could theoretically blunt uptake/effect.",
+      "evidence": "Mouse 13C-tracer and rat absorption studies only; no human data; very low certainty",
+      "citations": [
+        "PMID:37182970",
+        "PMID:27982756"
+      ]
+    },
+    {
+      "with": "NSAIDs",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Oral full-spectrum HA reduced rescue NSAID/analgesic use in knee OA; IA HA meta-analyses often allowed concomitant NSAIDs.",
+      "evidence": "Single small RCT (n=60) plus IA safety MA; low certainty",
+      "citations": [
+        "PMID:32650511",
+        "PMID:31073925"
+      ]
+    },
+    {
+      "with": "proton pump inhibitors",
+      "with_kind": "drug-class",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "HA-chondroitin bioadhesive (Esoxx) provides mucosal protection added to acid suppression in non-erosive reflux disease.",
+      "evidence": "Multicentre double-blind RCT (n=154): 52.6% vs 32.1% responders; moderate certainty for that product only",
+      "citations": [
+        "PMID:28116754"
+      ]
+    },
+    {
+      "with": "intra-articular corticosteroids",
+      "with_kind": "drug-class",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Context: IA HA combined with IA corticosteroid had the largest modelled WOMAC pain effect; triamcinolone alone ranked best short-term in large-trial NMA.",
+      "evidence": "Model-based MA (168 studies) and NMA of large RCTs; low certainty",
+      "citations": [
+        "PMID:40222628",
+        "PMID:39265924"
+      ]
+    },
+    {
+      "with": "mRNA COVID-19 vaccines",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Context (fillers): systemic immune activation can trigger delayed inflammatory reactions/angioedema in previously placed HA fillers.",
+      "evidence": "Case reports/series and consensus on late-onset reactions; very low certainty",
+      "citations": [
+        "PMID:35384252",
+        "PMID:34174156",
+        "PMID:38907876"
+      ]
+    },
+    {
+      "with": "zoledronic acid",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Context (fillers): delayed hypersensitivity reaction in an HA filler 2 days after IV zoledronic acid (acute-phase immune activation).",
+      "evidence": "Single case report; very low certainty",
+      "citations": [
+        "PMID:38895606"
+      ]
+    },
+    {
+      "with": "cancer (CD44-high tumours)",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "HA/CD44 signalling promotes tumour stemness, progression and therapy resistance; HA fragments of different sizes can enhance or attenuate CD44 signalling. Conversely, high-MW HA mediates cancer resistance in naked mole-rats. No human data that oral HA affects cancer risk.",
+      "evidence": "Mechanistic reviews and animal data only; theoretical; very low certainty",
+      "citations": [
+        "PMID:37958796",
+        "PMID:35649255",
+        "PMID:30724463",
+        "PMID:23783513",
+        "PMID:37612507"
+      ]
+    },
+    {
+      "with": "autoimmune disease",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Context (fillers): active autoimmune disease is a host risk factor for late-onset filler reactions; in scleroderma/morphea, HA fillers caused mild AEs and no flares. Oral 900 kDa HA was immunomodulatory (TLR4/SOCS3) in lupus-prone mice.",
+      "evidence": "Consensus statement, systematic review of case series, mouse study; very low certainty",
+      "citations": [
+        "PMID:38907876",
+        "PMID:41730404",
+        "PMID:20504769"
+      ]
+    },
+    {
+      "with": "avian protein allergy",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Rooster/chicken-comb-derived HA extracts (Hyal-Joint, Mobilee) may carry avian proteins; fermentation-derived HA avoids this source.",
+      "evidence": "Product descriptions in trials and production review; no oral HA anaphylaxis reports found; very low certainty",
+      "citations": [
+        "PMID:18208600",
+        "PMID:26302034",
+        "PMID:35436410"
+      ]
+    },
+    {
+      "with": "chronic liver disease",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Serum HA is elevated with fibrosis/cirrhosis and used diagnostically; postprandial rises are exaggerated in cirrhosis, complicating interpretation of HA-based tests.",
+      "evidence": "Diagnostic MA and clinical physiology study; low certainty",
+      "citations": [
+        "PMID:28579340",
+        "PMID:9711881"
+      ]
+    },
+    {
+      "with": "serum hyaluronic acid",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Serum HA rises after meals (more in cirrhosis and type 2 diabetes); oral HA has ~0.2% bioavailability in mice and no human study has tested whether supplements raise serum HA. Fasting samples and pausing supplements before testing are prudent.",
+      "evidence": "Clinical physiology studies and animal pharmacokinetics; theoretical for supplements; very low certainty",
+      "citations": [
+        "PMID:9711881",
+        "PMID:22592631",
+        "PMID:37182970",
+        "PMID:37081790"
+      ]
+    },
+    {
+      "with": "Enhanced Liver Fibrosis (ELF) test",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "HA is one of three ELF components (with PIIINP, TIMP-1); any exogenous or postprandial HA rise would shift the score. Hemolysis also lowers ELF via PIIINP.",
+      "evidence": "Diagnostic accuracy MAs and preanalytical study; supplement effect untested; very low certainty",
+      "citations": [
+        "PMID:36650720",
+        "PMID:42638152",
+        "PMID:40838567",
+        "PMID:22592631"
+      ]
+    },
+    {
+      "with": "serum hyaluronic acid (knee OA biomarker)",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Serum HA predicts radiographic knee OA progression; whether HA supplements alter this biomarker is unknown.",
+      "evidence": "5-year cohort (n=444); supplement effect untested; very low certainty",
+      "citations": [
+        "PMID:26453426"
+      ]
+    }
+  ],
   "citations": [
-    "PMID:40911749",
-    "PMID:38009035"
+    "PMID:9711881",
+    "PMID:14651444",
+    "PMID:17716251",
+    "PMID:18208600",
+    "PMID:20504769",
+    "PMID:22340924",
+    "PMID:22486722",
+    "PMID:22592631",
+    "PMID:22956862",
+    "PMID:23783513",
+    "PMID:26302034",
+    "PMID:26453426",
+    "PMID:27982756",
+    "PMID:28116754",
+    "PMID:28579340",
+    "PMID:29228816",
+    "PMID:30724463",
+    "PMID:30789524",
+    "PMID:31073925",
+    "PMID:32650511",
+    "PMID:33592868",
+    "PMID:34174156",
+    "PMID:34622845",
+    "PMID:34840662",
+    "PMID:35091771",
+    "PMID:35096260",
+    "PMID:35384252",
+    "PMID:35436410",
+    "PMID:35649255",
+    "PMID:36650720",
+    "PMID:36806477",
+    "PMID:37081790",
+    "PMID:37182970",
+    "PMID:37612507",
+    "PMID:37771016",
+    "PMID:37958796",
+    "PMID:38895606",
+    "PMID:38907876",
+    "PMID:39265924",
+    "PMID:40222628",
+    "PMID:40498387",
+    "PMID:40508059",
+    "PMID:40716543",
+    "PMID:40826844",
+    "PMID:40838567",
+    "PMID:41730404",
+    "PMID:42501143",
+    "PMID:42638152"
   ]
 }

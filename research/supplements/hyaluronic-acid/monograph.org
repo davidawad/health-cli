@@ -3,33 +3,218 @@
 :ID: supp-hyaluronic-acid
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: HA | Hyaluronan | Sodium hyaluronate
+:ALIASES: HA | hyaluronan | sodium hyaluronate | hyaluronate | Mobilee | Hyal-Joint | Oralvisc
 :CATEGORY: other
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
+
 ** Identity & forms
-- Glycosaminoglycan present in extracellular matrix; oral supplements, topical products, and prescription intra-articular formulations are distinct interventions. [PMID:40911749] [PMID:38009035]
+- Hyaluronic acid (HA) is a non-sulfated glycosaminoglycan made of repeating D-glucuronic acid / N-acetyl-D-glucosamine disaccharides. It is most concentrated in synovial fluid, and the skin holds about half of the body's HA [PMID:38234616] [PMID:25014997].
+- Sources: rooster/chicken comb extracts (Hyal-Joint, Mobilee, Oralvisc) or bacterial fermentation, mainly Streptococcus zooepidemicus [PMID:18208600] [PMID:25024048] [PMID:35436410].
+- Molecular weight (MW) varies widely across oral products: 2 kDa to 1.8 MDa in trials, plus "full-spectrum" blends [PMID:28761365] [PMID:41422283] [PMID:34933842]. MW changes the biology. High-MW HA tends to be anti-inflammatory, while small fragments can signal through CD44, RHAMM and TLRs [PMID:30724463].
+- Routes with different evidence (*do not conflate them*): oral supplement (OTC, the subject of this monograph); intra-articular (IA) injection ("viscosupplementation", a medical device; context only); topical, eye-drop and dermal-filler products (context only).
+- Many oral products combine HA with collagen, chondroitin, glucosamine, vitamin C or botanicals, so HA's own effect often cannot be isolated [PMID:29228816] [PMID:22956862] [PMID:33592868].
+
 ** Mechanisms
-- Binds water and contributes to extracellular matrix viscosity and tissue hydration; oral absorption/metabolism is not equivalent to local injection. [PMID:40911749] [PMID:38009035]
+- Skin: HA's water-binding capacity is central to skin moisture, and skin HA content changes with age [PMID:23467280].
+- Oral absorption: intact high-MW HA is poorly absorbed. Gut Bacteroides spp. cleave it into oligosaccharides (<3 kDa) that are partly absorbed or fermented to short-chain fatty acids (SCFA); germ-free mice absorbed almost none. Bioavailability of 13C-HA was about 0.2%, so the authors propose systemic signalling rather than direct delivery to skin or joints [PMID:37182970].
+  - In rats, HA was degraded by caecal contents but not by gastric or intestinal juice. Oligosaccharides crossed the large intestine, and HA fragments were found in skin [PMID:27982756].
+  - Earlier radiolabel studies in rats and dogs reported distribution to joints, skin and bone [PMID:18959406] [PMID:25383371]. A label is not proof that intact HA was absorbed [PMID:37182970].
+  - In mice, 5 kDa HA at high oral doses raised plasma and tissue HA [PMID:37081790].
+- Gut-epithelium signalling: oral 900 kDa HA bound colonic TLR4, raised SOCS3 and IL-10 and reduced autoimmune lymphoproliferation in mice [PMID:20504769]. 35 kDa fragments induced beta-defensin 2 [PMID:22761444] and protected tight junctions in alcohol-exposed mice [PMID:36574533]. Reviews: [PMID:31320101] [PMID:36876779].
+- Gut microbiota (preclinical, size-dependent): high-MW HA shifted the microbiota and eased collagen-induced arthritis in rats, and faecal transplant reproduced the benefit [PMID:42678376]. Oral HA restored microbiota and SCFA in a Parkinson's mouse model [PMID:42589230]. In human faecal fermentation, 6.9-9.5 kDa HA gave more butyrate than 13-35 kDa HA [PMID:42197407].
+- The only human microbiome data: a 7-day pilot of HA35 (140 mg/d, n=20) found no stool-microbiome change [PMID:31121841].
+- Joints (oral): rat models show lower synovial cytokines and MMPs, more so with high-MW HA [PMID:41479667]. In humans, oral Mobilee changed blood-cell expression of genes related to cartilage metabolism [PMID:25024048].
+- Photoaging models: oral HA reduced UV-induced HA/collagen breakdown in hairless mice. Adding collagen at a 12-fold higher dose gave no extra benefit [PMID:40716543]. 200-600 kDa HA performed best in D-galactose-aged mice [PMID:40857168].
+
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---------+--------------------+-----------+-------------+-----------------------+-----------|
-| Skin hydration/elasticity; osteoarthritis symptoms | 2025 meta-analysis of 7 small RCTs found improvements in skin hydration, elasticity and wrinkle depth; heterogeneity and small evidence base limit certainty | Possible / uncertain | 2025 meta-analysis of 7 small RCTs found improvements in skin hydration, elasticity and wrinkle depth; heterogeneity and small evidence base limit certainty. Injectable knee OA evidence does not establish oral efficacy. | low | [PMID:40911749] [PMID:38009035] |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Skin hydration (oral) | MA of 7 small RCTs; RCTs n=40-150 | Benefit | Pooled SMD significant (values not in abstract). Dose-dependent in largest RCT: 120 > 60 mg/d | low | [PMID:40911749] [PMID:41422283] [PMID:38009035] [PMID:25834304] [PMID:34203487] |
+| Wrinkles (oral) | MA (7 RCTs); RCTs | Benefit (depth); volume NS | Depth reduced in MA; -18.8% depth at 28 d with 200 mg FS-HA (single RCT) | low | [PMID:40911749] [PMID:28761365] [PMID:34203487] [PMID:34933842] [PMID:41422283] |
+| Skin elasticity (oral) | MA; RCTs | Benefit | Significant pooled SMD; firmness and TEWL NS in MA | low | [PMID:40911749] [PMID:41422283] [PMID:34203487] |
+| Skin photoaging (MED/R2) | SR/MA of 40 supplement RCTs | No benefit shown for HA | NS | low | [PMID:40761858] |
+| Knee OA pain/function (oral) | SR (11 studies, n=597); small RCTs n=20-80 | Mostly benefit, inconsistent | 9/11 studies positive; 2 RCTs null on primary endpoint | low | [PMID:39886281] [PMID:23226979] [PMID:32650511] [PMID:18208600] [PMID:34622845] |
+| Knee discomfort in healthy adults (oral) | 1 RCT (n=31, 111 mg/d) | Benefit | Total VAS reduced vs placebo | very low | [PMID:38234616] |
+| Knee muscle strength (oral) | 1 RCT (n=80) | Benefit in men only | Peak torque about +11% in men; none in women | very low | [PMID:26302034] |
+| Gut barrier / microbiome (oral) | Animal studies; 1 human pilot (n=20) | Preclinical benefit; no human change | None in humans | very low | [PMID:37182970] [PMID:42678376] [PMID:31121841] |
+| Knee OA pain (IA, context) | MA of large trials (24 RCTs, n=8997); NMA | Small, clinically irrelevant | SMD -0.08 (-0.15 to -0.02), about -2 mm VAS; NMA SMD -0.04 | high (IA only) | [PMID:36333100] [PMID:39265924] [PMID:22868835] |
+| Serious AEs (IA, context) | MA of large trials | Increased | RR 1.49 (1.12-1.98); OR 1.86 in NMA | moderate (IA only) | [PMID:36333100] [PMID:39265924] [PMID:31073925] |
+| Dry eye (eye drops, context) | MA of 39 RCTs (n=3469) | Symptom benefit | OSDI MD -14.23 for 0.15-0.18% drops | moderate (topical only) | [PMID:41887128] [PMID:33804439] |
+
 ** Dosing in trials
-- Oral skin trials commonly use roughly 120-240 mg/day for 4-12 weeks; products and molecular weights differ. [PMID:40911749] [PMID:38009035]
+- Skin: 120 mg/d is the most common dose, for 6-12 weeks [PMID:25834304] [PMID:28761365] [PMID:34203487]. Other doses: 60-120 mg/d of 1.8 MDa sodium hyaluronate [PMID:41422283], 200 mg/d FS-HA for 28 days [PMID:34933842], and 60 mg/d of an HA matrix [PMID:40498387].
+- MW in skin RCTs: 2 kDa and 300 kDa both reduced wrinkles, but only 300 kDa beat placebo at week 8 [PMID:28761365]. Both 300 kDa and 800 kDa improved moisture [PMID:25834304].
+- Knee: oral doses of 30-300 mg/d over 4 weeks to 12 months [PMID:39886281]. Examples: 200 mg/d for 12 months with quadriceps exercise [PMID:23226979]; 80 mg/d rooster-comb extract (Hyal-Joint/Mobilee) [PMID:18208600] [PMID:26302034]; 111 mg/d in healthy knees [PMID:38234616]; 50 mg HA + 750 mg glucosamine + 250 mg chondroitin liquid [PMID:34622845].
+- Oralvisc (3 months, n=40, obese knee OA) improved pain/function and lowered synovial cytokines [PMID:24899570]. An oral HA course gave similar 3-month gains to an IA series in an unblinded comparison [PMID:27681813].
+- IA products (context): usually a series of 1-5 injections. Effects plateau at about 2 months [PMID:40222628]. High and ultra-high MW products ranked best in a network MA [PMID:39857759].
+
 ** Safety & adverse effects
-- Oral trials report few short-term adverse events; long-term safety and source-related allergy risks poorly studied. Injection has separate local risks. [PMID:40911749] [PMID:38009035]
+- Oral: trials of up to 12 months report few AEs and no product-related serious AEs [PMID:23226979] [PMID:25834304] [PMID:40498387]. Liver enzymes, CK and CRP were unchanged at 12 weeks [PMID:38234616]; blood/urine indices were unchanged in a 2025 trial [PMID:41479667]; HA35 140 mg/d caused no laboratory changes [PMID:31121841].
+- A supplement MA found oral skin supplements safe over <=24 weeks [PMID:40761858]. Data beyond 1 year are lacking.
+- Industry funding: most oral RCTs are run or funded by manufacturers (Kewpie, Contipro, Bioiberica, Bloomage) [PMID:34203487] [PMID:41422283] [PMID:40498387] [PMID:38009035].
+- IA injection (context): transient local reactions in about 8.5% [PMID:27492466]; more serious AEs than placebo in large-trial MAs [PMID:36333100] [PMID:22868835] [PMID:31073925]; across 51,146 HA-treated patients, AE rate 10.5%, severe AEs 0.7%, infection 0.1% [PMID:41451630].
+- Dermal fillers (context):
+  - Vascular occlusion can cause blindness. In a systematic review of 34 reports, vision loss was the commonest ocular complication and 45% showed no improvement after treatment [PMID:35091771]. Consensus advice for managing filler-induced vision loss: [PMID:35096260].
+  - Delayed inflammatory reactions: about 1 per 2000 patient-years, varying by crosslinking technology [PMID:42781409]; an earlier estimate was 1.1%/year [PMID:31410442]. Proposed triggers: low-MW HA, BDDE crosslinker residues, impurities, biofilm, and immune triggers such as infections and vaccines [PMID:38907876] [PMID:38425859].
+- Allergy: rooster-comb-derived products may contain avian protein, while fermentation-derived HA avoids this [PMID:18208600] [PMID:35436410]. No oral HA anaphylaxis reports were found.
+
 ** Contraindications
-- Caution with allergy to source material or product excipients; pregnancy/lactation evidence insufficient. [PMID:40911749] [PMID:38009035]
+- No absolute contraindication to oral HA has been established. Pregnancy and lactation data are absent: no trials were found.
+- Known hypersensitivity to the product or its source (avian) [PMID:18208600].
+- Active cancer: no human data show harm from oral HA. However, the HA/CD44 axis promotes tumour stemness and progression [PMID:37958796] [PMID:35649255], so caution is a theoretical precaution. By contrast, high-MW HA underlies cancer resistance in naked mole-rats and reduced cancer in transgenic mice [PMID:23783513] [PMID:37612507].
+- Fillers (context): extra caution with active autoimmune disease, recent dental work or infection [PMID:38907876]. A systematic review of systemic sclerosis/morphea reported mild AEs and no flares [PMID:41730404].
+
 ** Interactions
-- No established oral drug interactions. Do not conflate supplement with intra-articular injection; no lab-test interference established. [PMID:40911749] [PMID:38009035]
+*** Drugs
+- No pharmacokinetic drug interaction for oral HA was found in the literature.
+- Anticoagulants/antiplatelets: no data for oral HA. For injections, joint procedures at INR >=2 had 0.2% significant bleeding [PMID:22340924]. No clinically significant bleeding occurred in 237 people on anticoagulants or antiplatelets [PMID:36806477]. Filler bruising can be delayed and HA-related [PMID:30789524].
+- Hyaluronidase: dissolves HA fillers and is the main rescue for complications. Allergy is possible, especially in people allergic to bee or wasp stings [PMID:34840662] [PMID:37771016]. Retrobulbar use is controversial [PMID:35096260].
+- Antibiotics (theoretical): absorption depends on Bacteroides, and germ-free mice did not absorb HA [PMID:37182970] [PMID:27982756]. Antibiotics could therefore blunt uptake. No human data.
+- NSAIDs/analgesics: oral FS-HA reduced rescue NSAID use in knee OA [PMID:32650511].
+- Proton-pump inhibitors: an HA-chondroitin bioadhesive (Esoxx) plus PPI improved non-erosive reflux symptoms (52.6% vs 32.1% responders) [PMID:28116754].
+- IA corticosteroids (context): HA plus corticosteroid had the largest modelled effect in a model-based MA [PMID:40222628].
+- Vaccines and zoledronic acid (filler context): case reports of delayed filler reactions after mRNA COVID-19 vaccines [PMID:35384252] [PMID:34174156] and after IV zoledronic acid [PMID:38895606].
+*** Other supplements
+- Collagen: often co-formulated. Chicken-cartilage matrices (collagen II + HA + chondroitin) improved OA symptoms (2 g/d, n=80) [PMID:22486722] and facial dryness (open-label) [PMID:22956862]. In mice, adding collagen gave no benefit beyond HA [PMID:40716543]. Collagen alone has its own skin MA (hydration SMD 1.25) [PMID:40826844].
+- Glucosamine Sulphate 2KCL: glucosamine is a substrate for HA synthesis [PMID:17716251] [PMID:14651444]. An HA + glucosamine + chondroitin liquid helped mild knee pain [PMID:33592868] but not moderate pain [PMID:34622845]. No trial isolates an additive effect.
+- Vitamin C: claimed synergy for collagen/HA. The only human evidence is an uncontrolled 40-day study of a product with HA, vitamin C, biotin, copper and zinc [PMID:29228816], plus a rat wound study of topical HA with oral vitamin C [PMID:42501143]. This is weak.
+- Green tea extract/EGCG: an uncontrolled study of an EGCG + folate + B12 + HA (50 mg) tablet for HPV clearance [PMID:40508059]. HA's contribution is unknown.
+*** Conditions
+- Knee OA: oral evidence is low certainty [PMID:39886281]; an industry-linked review is more positive [PMID:26818459]. Guidelines address only IA HA: OARSI rates it Level 1B/2 for knee OA depending on comorbidity, and not recommended for hip OA [PMID:31278997].
+- Cancer or CD44-high tumours: theoretical concern; see Contraindications [PMID:37958796] [PMID:30724463].
+- Obesity: circulating low-MW HA fragments are raised and pro-inflammatory via TLR [PMID:35896710]. It is unknown whether low-MW supplements add to this.
+- Chronic liver disease: serum HA is elevated, so HA cannot be used as a marker without considering intake [PMID:9711881] [PMID:28579340].
+*** Lab-test interference
+- Serum HA is a liver-fibrosis marker: pooled sensitivity/specificity for cirrhosis 83%/89% in post-HCV disease [PMID:28579340]. It is one of three components (HA, PIIINP, TIMP-1) of the Enhanced Liver Fibrosis (ELF) test [PMID:40838567], which predicts liver outcomes [PMID:26104018] and had AUROC 0.81 across chronic liver disease [PMID:36650720]. 2026 MASLD MA cut-offs: <9.00 rules out >=F2; >=9.80 suggests >=F3 [PMID:42638152].
+- Serum HA rises after meals, especially in cirrhosis and type 2 diabetes, so it should be measured fasting [PMID:9711881] [PMID:22592631].
+- Oral supplements: no study tested whether oral HA raises serum HA or ELF in humans. Oral bioavailability of about 0.2% suggests little effect [PMID:37182970], but mouse data show plasma HA rises with high-dose low-MW HA [PMID:37081790]. A cautious approach is to stop it before testing.
+- Serum HA is also a knee-OA progression marker [PMID:26453426]. Effects of supplements on it are untested.
+
 ** Genotype notes
-- No genotype evidence identified.
+No cited pharmacogenomic or nutrigenomic source found.
+
 ** Latest research
-- 2026-10-13 search cutoff: 2025 meta-analysis of oral HA skin RCTs reported positive pooled outcomes but called for larger robust trials [PMID:40911749]. [PMID:40911749] [PMID:38009035]
+- [2026-10] ELF MASLD MA (34 studies): balanced cut-offs 9.80 (>=F3) and 11.30 (F4) [PMID:42638152].
+- [2026-09] Rat arthritis: high-MW oral HA acts via the microbiota-gut-joint axis, and faecal transplant reproduces the benefit [PMID:42678376].
+- [2026-09] Filler DIR MA (242 studies): about 0.0005 events per patient-year [PMID:42781409].
+- [2026-07] Oral sodium hyaluronate remodels microbiota and is neuroprotective in MPTP mice [PMID:42589230].
+- [2026-04] Fermentation model: 6.9-9.5 kDa HA yields more butyrate [PMID:42197407].
+- [2026-03] HA fillers in scleroderma: mild AEs, no flares [PMID:41730404].
+- [2026-03] Dry-eye drop MA (39 RCTs): 0.15-0.18% concentrations work best [PMID:41887128].
+- [2025-12] Largest oral skin RCT (n=150, 1.8 MDa, 120 mg/d): better hydration, TEWL, elasticity and wrinkle depth [PMID:41422283].
+- [2025-12] Oral HA + wheat-oil extract RCT (n=63): fewer crow's-feet wrinkles [PMID:41071523].
+- [2025-12] Rat MW comparison plus clinical trial: oral HA lowered WOMAC [PMID:41479667].
+- [2025-12] Umbrella review of IA HA: 20/22 reviews positive, but only 5 were of high or moderate quality [PMID:41240470]. Safety MA: [PMID:41451630].
+- [2025-09] MA of 7 oral HA skin RCTs: hydration, elasticity and wrinkle depth improved [PMID:40911749].
+- [2025-09] Mouse studies: oral HA counters photoaging [PMID:40716543], and 200-600 kDa is best against D-galactose aging [PMID:40857168].
+- [2025-07] Supplement photoaging MA: HA not effective for MED/R2 [PMID:40761858].
+- [2025-06] HA matrix RCT (60 mg/d, n=60): better wrinkles, smoothness and roughness [PMID:40498387].
+- [2025-04] IA HA model-based MA (168 studies): plateau at about 2 months; greater benefit in age <65 and KL <=2 [PMID:40222628].
+- [2025-01] Large-trial NMA: IA HA SMD -0.04 for pain; serious AEs OR 1.86 [PMID:39265924]. MW NMA: [PMID:39857759].
+- [2024-12] Oral HA in OA/low-back-pain SR (11 studies) [PMID:39886281]. IA HA vs placebo MA: [PMID:39598466].
+
 ** Open questions
-- Bioavailability, optimal molecular weight/dose, and clinical relevance of cosmetic-scale changes remain uncertain. [PMID:40911749] [PMID:38009035]
+- Whether the oral effects are real and clinically meaningful. Trials are small, mostly manufacturer-funded, use different MWs, and few are independent or preregistered [PMID:40911749].
+- The mechanism, given about 0.2% bioavailability: gut TLR4 signalling, SCFA, or absorbed oligosaccharides [PMID:37182970] [PMID:20504769].
+- The optimal MW for skin vs joints, and whether low-MW fragments are pro-inflammatory in vivo [PMID:30724463] [PMID:35896710].
+- How microbiome composition and antibiotics affect response, which is untested in humans [PMID:37182970] [PMID:31121841].
+- Effect of oral HA on serum HA and ELF results.
+- Long-term (>1 year) safety, pregnancy, and use in cancer.
+- Oral knee trials beyond 12 months with structural endpoints.
+
 ** Sources
-- Amin et al. Oral hyaluronic acid supplement efficacy in skin hydration, elasticity, and wrinkle depth. J Drugs Dermatol. 2025;24:910-919. DOI:10.36849/jdd.8542.
-- Gao et al. Oral hyaluronic acid to improve skin conditions: randomized double-blind clinical test. Skin Res Technol. 2023;29:e13531. DOI:10.1111/srt.13531.
+1. Sugiyama K et al. Oral sodium hyaluronate relieves knee discomfort: A 12‑week double‑blinded, placebo‑controlled study. Exp Ther Med. 2024. PMID:38234616 DOI:10.3892/etm.2023.12352
+2. Kawada C et al. Ingested hyaluronan moisturizes dry skin. Nutr J. 2014. PMID:25014997 DOI:10.1186/1475-2891-13-70
+3. Kalman DS et al. Effect of a natural extract of chicken combs with a high content of hyaluronic acid (Hyal-Joint) on pain relief and quality of life in subjects with knee osteoarthritis: a pilot randomized double-blind placebo-controlled trial. Nutr J. 2008. PMID:18208600 DOI:10.1186/1475-2891-7-3
+4. Sánchez J et al. Blood cells transcriptomics as source of potential biomarkers of articular health improvement: effects of oral intake of a rooster combs extract rich in hyaluronic acid. Genes Nutr. 2014. PMID:25024048 DOI:10.1007/s12263-014-0417-3
+5. Ucm R et al. Comprehensive review on biotechnological production of hyaluronic acid: status, innovation, market and applications. Bioengineered. 2022. PMID:35436410 DOI:10.1080/21655979.2022.2057760
+6. Oe M et al. Oral hyaluronan relieves wrinkles: a double-blinded, placebo-controlled study over a 12-week period. Clin Cosmet Investig Dermatol. 2017. PMID:28761365 DOI:10.2147/CCID.S141845
+7. Dolečková I et al. Oral sodium hyaluronate improves skin hydration, barrier function and signs of aging: a randomized, double-blind, placebo-controlled trial in 150 healthy adults. Sci Rep. 2025. PMID:41422283 DOI:10.1038/s41598-025-32758-5
+8. Michelotti A et al. Oral intake of a new full-spectrum hyaluronan improves skin profilometry and ageing: a randomized, double-blind, placebo-controlled clinical trial. Eur J Dermatol. 2021. PMID:34933842 DOI:10.1684/ejd.2021.4176
+9. Tavianatou AG et al. Hyaluronan: molecular size-dependent signaling and biological functions in inflammation and cancer. FEBS J. 2019. PMID:30724463 DOI:10.1111/febs.14777
+10. Göllner I et al. Ingestion of an Oral Hyaluronan Solution Improves Skin Hydration, Wrinkle Reduction, Elasticity, and Skin Roughness: Results of a Clinical Study. J Evid Based Complementary Altern Med. 2017. PMID:29228816 DOI:10.1177/2156587217743640
+11. Schwartz SR et al. Ingestion of BioCell Collagen(®), a novel hydrolyzed chicken sternal cartilage extract; enhanced blood microcirculation and reduced facial aging signs. Clin Interv Aging. 2012. PMID:22956862 DOI:10.2147/CIA.S32836
+12. Wang SJ et al. The effect of oral low molecular weight liquid hyaluronic acid combination with glucosamine and chondroitin on knee osteoarthritis patients with mild knee pain: An 8-week randomized double-blind placebo-controlled trial. Medicine (Baltimore). 2021. PMID:33592868 DOI:10.1097/MD.0000000000024252
+13. Papakonstantinou E et al. Hyaluronic acid: A key molecule in skin aging. Dermatoendocrinol. 2012. PMID:23467280 DOI:10.4161/derm.21923
+14. Šimek M et al. Molecular weight and gut microbiota determine the bioavailability of orally administered hyaluronic acid. Carbohydr Polym. 2023. PMID:37182970 DOI:10.1016/j.carbpol.2023.120880
+15. Kimura M et al. Absorption of Orally Administered Hyaluronan. J Med Food. 2016. PMID:27982756 DOI:10.1089/jmf.2016.3725
+16. Balogh L et al. Absorption, uptake and tissue affinity of high-molecular-weight hyaluronan after oral administration in rats and dogs. J Agric Food Chem. 2008. PMID:18959406 DOI:10.1021/jf8017029
+17. Oe M et al. Dietary hyaluronic acid migrates into the skin of rats. ScientificWorldJournal. 2014. PMID:25383371 DOI:10.1155/2014/378024
+18. Mannino F et al. Steady state plasma and tissue distribution of low molecular weight hyaluronic acid after oral administration in mice. Nat Prod Res. 2024. PMID:37081790 DOI:10.1080/14786419.2023.2197598
+19. Asari A et al. Oral administration of high molecular weight hyaluronan (900 kDa) controls immune system via Toll-like receptor 4 in the intestinal epithelium. J Biol Chem. 2010. PMID:20504769 DOI:10.1074/jbc.M110.104950
+20. Hill DR et al. Specific-sized hyaluronan fragments promote expression of human β-defensin 2 in intestinal epithelium. J Biol Chem. 2012. PMID:22761444 DOI:10.1074/jbc.M112.356238
+21. Ray S et al. 35kDa hyaluronan ameliorates ethanol driven loss of anti-microbial defense and intestinal barrier integrity in a TLR4-dependent manner. Matrix Biol. 2023. PMID:36574533 DOI:10.1016/j.matbio.2022.11.008
+22. de Souza AB et al. Hyaluronic acid behavior in oral administration and perspectives for nanotechnology-based formulations: A review. Carbohydr Polym. 2019. PMID:31320101 DOI:10.1016/j.carbpol.2019.115001
+23. Zheng X et al. Absorption, metabolism, and functions of hyaluronic acid and its therapeutic prospects in combination with microorganisms: A review. Carbohydr Polym. 2023. PMID:36876779 DOI:10.1016/j.carbpol.2022.120153
+24. Zhu H et al. Hyaluronic acid from C. glutamicum repairs cartilage and joint injuries molecular weight-dependently via the microbiota-gut-joint axis. Food Funct. 2026. PMID:42678376 DOI:10.1039/d6fo02328b
+25. Wang Y et al. Oral Sodium Hyaluronate Reshapes Gut Microbiota Composition and Suppresses the LPS-TLR4/NF-κB Pathway to Exert Neuroprotection in MPTP-Induced Parkinson's Disease. Int J Mol Sci. 2026. PMID:42589230 DOI:10.3390/ijms27156573
+26. Dong J et al. Fine-Gradient Low-Molecular-Weight Hyaluronic Acid Supplementation Modulates Gut Microbial Profiles and SCFA Output in a Starch-Containing In Vitro Fecal Fermentation Model. Microorganisms. 2026. PMID:42197407 DOI:10.3390/microorganisms14051021
+27. Bellar A et al. Safety of Hyaluronan 35 in Healthy Human Subjects: A Pilot Study. Nutrients. 2019. PMID:31121841 DOI:10.3390/nu11051135
+28. Wang B et al. Role of oral hyaluronic acid for joint health: insights from rat models and clinical trials. Front Nutr. 2025. PMID:41479667 DOI:10.3389/fnut.2025.1691328
+29. Šimek M et al. Alleviating UV-induced photoaging with oral hyaluronic acid: insights from a hairless mouse model. Int J Biol Macromol. 2025. PMID:40716543 DOI:10.1016/j.ijbiomac.2025.146340
+30. Guo S et al. Oral Supplementation of Medium-Molecular-Weight Hyaluronic Acid (200-600 kDa) As a Functional Food Ingredient Alleviates D-Galactose-Induced Skin Aging. Biomacromolecules. 2025. PMID:40857168 DOI:10.1021/acs.biomac.5c00935
+31. Amin P et al. Oral Hyaluronic Acid Supplement: Efficacy in Skin Hydration, Elasticity, and Wrinkle Depth Reduction. J Drugs Dermatol. 2025. PMID:40911749 DOI:10.36849/jdd.8542
+32. Gao YR et al. Oral administration of hyaluronic acid to improve skin conditions via a randomized double-blind clinical test. Skin Res Technol. 2023. PMID:38009035 DOI:10.1111/srt.13531
+33. Kawada C et al. Ingestion of hyaluronans (molecular weights 800 k and 300 k) improves dry skin conditions: a randomized, double blind, controlled study. J Clin Biochem Nutr. 2015. PMID:25834304 DOI:10.3164/jcbn.14-81
+34. Hsu TF et al. Oral Hyaluronan Relieves Wrinkles and Improves Dry Skin: A 12-Week Double-Blinded, Placebo-Controlled Study. Nutrients. 2021. PMID:34203487 DOI:10.3390/nu13072220
+35. Yang Q et al. Effectiveness of dietary supplements for skin photoaging in healthy adults: a systematic review and meta-analysis of randomized controlled trials. Front Med (Lausanne). 2025. PMID:40761858 DOI:10.3389/fmed.2025.1582946
+36. de Carvalho JF et al. Oral Hyaluronic Acid in Osteoarthritis and Low Back Pain: A Systematic Review. Mediterr J Rheumatol. 2024. PMID:39886281 DOI:10.31138/mjr.240724.oha
+37. Tashiro T et al. Oral administration of polymer hyaluronic acid alleviates symptoms of knee osteoarthritis: a double-blind, placebo-controlled study over a 12-month period. ScientificWorldJournal. 2012. PMID:23226979 DOI:10.1100/2012/167928
+38. Cicero AFG et al. Short-Term Effect of a New Oral Sodium Hyaluronate Formulation on Knee Osteoarthritis: A Double-Blind, Randomized, Placebo-Controlled Clinical Trial. Diseases. 2020. PMID:32650511 DOI:10.3390/diseases8030026
+39. Wang SJ et al. Liquid combination of hyaluronan, glucosamine, and chondroitin as a dietary supplement for knee osteoarthritis patients with moderate knee pain: A randomized controlled study. Medicine (Baltimore). 2021. PMID:34622845 DOI:10.1097/MD.0000000000027405
+40. Solà R et al. A low-fat yoghurt supplemented with a rooster comb extract on muscle joint function in adults with mild knee pain: a randomized, double blind, parallel, placebo-controlled, clinical trial of efficacy. Food Funct. 2015. PMID:26302034 DOI:10.1039/c5fo00321k
+41. Pereira TV et al. Viscosupplementation for knee osteoarthritis: systematic review and meta-analysis. BMJ. 2022. PMID:36333100 DOI:10.1136/bmj-2022-069722
+42. Pereira TV et al. Effectiveness and safety of intra-articular interventions for knee and hip osteoarthritis based on large randomized trials: A systematic review and network meta-analysis. Osteoarthritis Cartilage. 2025. PMID:39265924 DOI:10.1016/j.joca.2024.08.014
+43. Rutjes AW et al. Viscosupplementation for osteoarthritis of the knee: a systematic review and meta-analysis. Ann Intern Med. 2012. PMID:22868835 DOI:10.7326/0003-4819-157-3-201208070-00473
+44. Honvo G et al. Safety of Intra-articular Hyaluronic Acid Injections in Osteoarthritis: Outcomes of a Systematic Review and Meta-Analysis. Drugs Aging. 2019. PMID:31073925 DOI:10.1007/s40266-019-00657-w
+45. Martinez-Perez C et al. Optimizing hyaluronic acid therapy for dry eye disease: a systematic review, meta-analysis, and meta-regression by concentration and comparator type. Cont Lens Anterior Eye. 2026. PMID:41887128 DOI:10.1016/j.clae.2026.102647
+46. Yang YJ et al. A Meta-Analysis of the Efficacy of Hyaluronic Acid Eye Drops for the Treatment of Dry Eye Syndrome. Int J Environ Res Public Health. 2021. PMID:33804439 DOI:10.3390/ijerph18052383
+47. Montero-Vilchez T et al. Oral Supplementation with a New Hyaluronic Acid Matrix Ingredient Improves Skin Brightness, Hydration, Smoothness, and Roughness: Results from a Randomized, Double-Blinded, Placebo-Controlled Study. Dermatol Ther (Heidelb). 2025. PMID:40498387 DOI:10.1007/s13555-025-01447-6
+48. Nelson FR et al. The effects of an oral preparation containing hyaluronic acid (Oralvisc®) on obese knee osteoarthritis patients determined by pain, function, bradykinin, leptin, inflammatory cytokines, and heavy water analyses. Rheumatol Int. 2015. PMID:24899570 DOI:10.1007/s00296-014-3047-6
+49. Ricci M et al. Clinical comparison of oral administration and viscosupplementation of hyaluronic acid (HA) in early knee osteoarthritis. Musculoskelet Surg. 2017. PMID:27681813 DOI:10.1007/s12306-016-0428-x
+50. Cao Y et al. Quantitative analysis of the efficacy and associated factors of intra-articular hyaluronic acid with respect to osteoarthritis symptoms: A systematic review of randomized trials and model-based meta-analysis. Osteoarthritis Cartilage. 2025. PMID:40222628 DOI:10.1016/j.joca.2025.01.008
+51. Migliorini F et al. Comparison of Different Molecular Weights of Intra-Articular Hyaluronic Acid Injections for Knee Osteoarthritis: A Level I Bayesian Network Meta-Analysis. Biomedicines. 2025. PMID:39857759 DOI:10.3390/biomedicines13010175
+52. Bannuru RR et al. Comparative safety profile of hyaluronic acid products for knee osteoarthritis: a systematic review and network meta-analysis. Osteoarthritis Cartilage. 2016. PMID:27492466 DOI:10.1016/j.joca.2016.07.010
+53. Bensa A et al. Safety profile comparison of intra-articular corticosteroids, hyaluronic acid, platelet-rich plasma, and cell-based injections for knee osteoarthritis: A systematic review and meta-analysis by the ESSKA Orthobiologics Initiative. Knee Surg Sports Traumatol Arthrosc. 2025. PMID:41451630 DOI:10.1002/ksa.70230
+54. Mortada H et al. Ocular Complications Post-Cosmetic Periocular Hyaluronic Acid Injections: A Systematic Review. Aesthetic Plast Surg. 2022. PMID:35091771 DOI:10.1007/s00266-021-02730-5
+55. Walker L et al. Consensus Opinion for The Management of Soft Tissue Filler Induced Vision Loss. J Clin Aesthet Dermatol. 2021. PMID:35096260
+56. Seo J et al. Incidence and Characteristics of Delayed Inflammatory Reactions Secondary to Hyaluronic Acid Filler Injections: A Systematic Review With Meta-Analysis. Aesthet Surg J Open Forum. 2026. PMID:42781409 DOI:10.1093/asjof/ojag165
+57. Chung KL et al. A Systematic Review of the Literature of Delayed Inflammatory Reactions After Hyaluronic Acid Filler Injection to Estimate the Incidence of Delayed Type Hypersensitivity Reaction. Aesthet Surg J. 2020. PMID:31410442 DOI:10.1093/asj/sjz222
+58. Baranska-Rybak W et al. Late-Onset Reactions after Hyaluronic Acid Dermal Fillers: A Consensus Recommendation on Etiology, Prevention and Management. Dermatol Ther (Heidelb). 2024. PMID:38907876 DOI:10.1007/s13555-024-01202-3
+59. Lee W et al. Etiology of Delayed Inflammatory Reaction Induced by Hyaluronic Acid Filler. Arch Plast Surg. 2024. PMID:38425859 DOI:10.1055/a-2184-6554
+60. Cirillo N et al. The Hyaluronan/CD44 Axis: A Double-Edged Sword in Cancer. Int J Mol Sci. 2023. PMID:37958796 DOI:10.3390/ijms242115812
+61. Karalis T et al. Hyaluronan network: a driving force in cancer progression. Am J Physiol Cell Physiol. 2022. PMID:35649255 DOI:10.1152/ajpcell.00139.2022
+62. Tian X et al. High-molecular-mass hyaluronan mediates the cancer resistance of the naked mole rat. Nature. 2013. PMID:23783513 DOI:10.1038/nature12234
+63. Zhang Z et al. Increased hyaluronan by naked mole-rat Has2 improves healthspan in mice. Nature. 2023. PMID:37612507 DOI:10.1038/s41586-023-06463-0
+64. Gkouvi A et al. Hyaluronic acid fillers in systemic sclerosis and localized scleroderma: A systematic review. Autoimmun Rev. 2026. PMID:41730404 DOI:10.1016/j.autrev.2026.104009
+65. Ahmed I et al. Safety of arthrocentesis and joint injection in patients receiving anticoagulation at therapeutic levels. Am J Med. 2012. PMID:22340924 DOI:10.1016/j.amjmed.2011.08.022
+66. McCrum C et al. Peri-procedural management and incidence of bleeding events following musculoskeletal injections or aspirations in people on oral anticoagulation and antiplatelet therapy. Musculoskeletal Care. 2023. PMID:36806477 DOI:10.1002/msc.1743
+67. Sadeghpour M et al. Understanding Delayed Bruising After Hyaluronic Acid Injections: Why the Molecule and Not Just the Injection Matters. Dermatol Surg. 2019. PMID:30789524 DOI:10.1097/DSS.0000000000001817
+68. Murray G et al. Guideline for the Safe Use of Hyaluronidase in Aesthetic Medicine, Including Modified High-dose Protocol. J Clin Aesthet Dermatol. 2021. PMID:34840662
+69. Cunha JMT et al. Rationale and Guidelines for the Use of Hyaluronidase: A Practical Guide for Complications Caused by Hyaluronic Acid. Skinmed. 2023. PMID:37771016
+70. Savarino V et al. Randomised clinical trial: mucosal protection combined with acid suppression in the treatment of non-erosive reflux disease - efficacy of Esoxx, a hyaluronic acid-chondroitin sulphate based bioadhesive formulation. Aliment Pharmacol Ther. 2017. PMID:28116754 DOI:10.1111/apt.13914
+71. Calvisi L et al. Hyaluronic acid delayed inflammatory reaction after third dose of SARS-CoV-2 vaccine. J Cosmet Dermatol. 2022. PMID:35384252 DOI:10.1111/jocd.14970
+72. Michon A et al. Hyaluronic acid soft tissue filler delayed inflammatory reaction following COVID-19 vaccination - A case report. J Cosmet Dermatol. 2021. PMID:34174156 DOI:10.1111/jocd.14312
+73. Alghamdi NJ et al. Delayed Inflammatory Reaction to Hyaluronic Acid Dermal Filler Following Zoledronic Acid Administration: A Case Report. Clin Cosmet Investig Dermatol. 2024. PMID:38895606 DOI:10.2147/CCID.S458750
+74. Schauss AG et al. Effect of the novel low molecular weight hydrolyzed chicken sternal cartilage extract, BioCell Collagen, on improving osteoarthritis-related symptoms: a randomized, double-blind, placebo-controlled trial. J Agric Food Chem. 2012. PMID:22486722 DOI:10.1021/jf205295u
+75. Danessa G et al. Effects of collagen-based supplements on skin's hydration and elasticity: A systematic review and meta-analysis. Indian J Dermatol Venereol Leprol. 2025. PMID:40826844 DOI:10.25259/IJDVL_1165_2023
+76. Bissett DL et al. Glucosamine: an ingredient with skin and other benefits. J Cosmet Dermatol. 2006. PMID:17716251 DOI:10.1111/j.1473-2165.2006.00277.x
+77. Matheson AJ et al. Glucosamine: a review of its use in the management of osteoarthritis. Drugs Aging. 2003. PMID:14651444 DOI:10.2165/00002512-200320140-00004
+78. Abdelrazek SMM et al. Topical hyaluronic acid serum, oral vitamin C, and their combined regimen modulate collagen-related repair indices in a sutured primary-intention rat incisional wound model. J Mol Histol. 2026. PMID:42501143 DOI:10.1007/s10735-026-10911-2
+79. Porcaro G et al. Oral Treatment with EGCG, Folic Acid, Vitamin B12, and Hyaluronic Acid Improves HPV Clearance and Counteracts Its Persistence: A Clinical Study. Int J Mol Sci. 2025. PMID:40508059 DOI:10.3390/ijms26115251
+80. Oe M et al. Oral hyaluronan relieves knee pain: a review. Nutr J. 2016. PMID:26818459 DOI:10.1186/s12937-016-0128-2
+81. Bannuru RR et al. OARSI guidelines for the non-surgical management of knee, hip, and polyarticular osteoarthritis. Osteoarthritis Cartilage. 2019. PMID:31278997 DOI:10.1016/j.joca.2019.06.011
+82. Romo M et al. Small fragments of hyaluronan are increased in individuals with obesity and contribute to low-grade inflammation through TLR-mediated activation of innate immune cells. Int J Obes (Lond). 2022. PMID:35896710 DOI:10.1038/s41366-022-01187-z
+83. Idobe Y et al. Post-prandial serum hyaluronan concentration in patients with chronic liver disease. Intern Med. 1998. PMID:9711881 DOI:10.2169/internalmedicine.37.568
+84. El Serafy MA et al. APRI test and hyaluronic acid as non-invasive diagnostic tools for post HCV liver fibrosis: Systematic review and meta-analysis. Arab J Gastroenterol. 2017. PMID:28579340 DOI:10.1016/j.ajg.2017.05.005
+85. Kelkka A et al. Preanalytical factors of enhanced liver fibrosis (ELF™) laboratory testing: the score is affected by hemolysis. Scand J Clin Lab Invest. 2025. PMID:40838567 DOI:10.1080/00365513.2025.2546316
+86. Irvine KM et al. The Enhanced liver fibrosis score is associated with clinical outcomes and disease progression in patients with chronic liver disease. Liver Int. 2016. PMID:26104018 DOI:10.1111/liv.12896
+87. Hinkson A et al. Meta-analysis: Enhanced liver fibrosis test to identify hepatic fibrosis in chronic liver diseases. Aliment Pharmacol Ther. 2023. PMID:36650720 DOI:10.1111/apt.17385
+88. Gee MFW et al. Meta-Analysis: Enhanced Liver Fibrosis (ELF) Test for Identifying Significant Fibrosis, Advanced Fibrosis, and Cirrhosis in Patients With Metabolic Dysfunction-Associated Steatotic Liver Disease. Aliment Pharmacol Ther. 2026. PMID:42638152 DOI:10.1111/apt.70846
+89. Khoo EY et al. Elevation of alanine transaminase and markers of liver fibrosis after a mixed meal challenge in individuals with type 2 diabetes. Dig Dis Sci. 2012. PMID:22592631 DOI:10.1007/s10620-012-2219-z
+90. Sasaki E et al. Serum hyaluronic acid concentration predicts the progression of joint space narrowing in normal knees and established knee osteoarthritis - a five-year prospective cohort study. Arthritis Res Ther. 2015. PMID:26453426 DOI:10.1186/s13075-015-0793-0
+91. Grier-Welch AM et al. Efficacy of an Oral Skincare Supplement on Skin Aging: A 12-Week Randomized, Double-Blind, Placebo-Controlled Trial. Dermatol Ther (Heidelb). 2025. PMID:41071523 DOI:10.1007/s13555-025-01556-2
+92. Bruyère O et al. Effects of intra-articular hyaluronic acid injections on pain and function in patients with knee osteoarthritis: An umbrella review of systematic reviews and meta-analyses of randomized placebo-controlled trials. Maturitas. 2025. PMID:41240470 DOI:10.1016/j.maturitas.2025.108779
+93. Migliorini F et al. Less Pain with Intra-Articular Hyaluronic Acid Injections for Knee Osteoarthritis Compared to Placebo: A Systematic Review and Meta-Analysis of Randomised Controlled Trials. Pharmaceuticals (Basel). 2024. PMID:39598466 DOI:10.3390/ph17111557

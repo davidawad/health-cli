@@ -3,10 +3,14 @@
   "supplement": "Zinc",
   "slug": "zinc",
   "aliases": [
-    "Zinc",
-    "Zinc gluconate",
-    "Zinc sulfate",
-    "Zinc acetate"
+    "zinc gluconate",
+    "zinc picolinate",
+    "zinc acetate",
+    "zinc sulfate",
+    "zinc citrate",
+    "zinc oxide",
+    "zinc glycinate",
+    "Zn"
   ],
   "category": "mineral",
   "rx_status": "otc",
@@ -17,10 +21,11 @@
       "with_kind": "drug-class",
       "kind": "caution",
       "severity": "moderate",
-      "mechanism": "Chelation in gut reduces absorption of zinc and antibiotic.",
-      "evidence": "NIH ODS advises dose separation.",
+      "mechanism": "Zinc chelates fluoroquinolones in the gut and lowers antibiotic absorption. A zinc-containing multivitamin lowered ciprofloxacin AUC from 14.5 to 11.3 ug.h/mL.",
+      "evidence": "Crossover PK study (n=12) plus FDA ciprofloxacin label (take 2 h before or 6 h after zinc products).",
       "citations": [
-        "URL:https://ods.nih.gov/factsheets/Zinc-HealthProfessional/"
+        "PMID:2610494",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3b3d22dc-df09-4910-8c9b-1204eeedbd68"
       ]
     },
     {
@@ -28,10 +33,10 @@
       "with_kind": "drug-class",
       "kind": "caution",
       "severity": "moderate",
-      "mechanism": "Chelation in gut reduces absorption of zinc and antibiotic.",
-      "evidence": "NIH ODS advises dose separation.",
+      "mechanism": "Zinc chelates tetracycline. 45 mg zinc as sulfate cut tetracycline absorption by about 30%; doxycycline was not significantly affected.",
+      "evidence": "Crossover PK study (n=7); doses should be separated.",
       "citations": [
-        "URL:https://ods.nih.gov/factsheets/Zinc-HealthProfessional/"
+        "PMID:786686"
       ]
     },
     {
@@ -39,30 +44,297 @@
       "with_kind": "drug",
       "kind": "caution",
       "severity": "moderate",
-      "mechanism": "Zinc reduces penicillamine absorption.",
-      "evidence": "NIH ODS interaction summary.",
+      "mechanism": "Metal binding in the gut inactivates penicillamine. The label requires at least 1 h separation from zinc- or iron-containing products and says mineral supplements may block its response. In Wilson disease the Galzin label found no pharmacodynamic interaction under supervised use.",
+      "evidence": "FDA labels; guideline context for Wilson disease.",
       "citations": [
-        "URL:https://ods.nih.gov/factsheets/Zinc-HealthProfessional/"
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f658b20a-269f-4e78-a79b-a56a5ed8dc1b",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2c4fb943-4b2f-273d-e063-6394a90abb47",
+        "PMID:40089450"
       ]
     },
     {
-      "with": "Copper",
+      "with": "thiazide diuretics",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Thiazides raise urinary zinc excretion (total zinc excretion +60%), which may deplete zinc stores over time.",
+      "evidence": "Small randomized/observational studies plus SR of zinc and antihypertensives.",
+      "citations": [
+        "PMID:7001863",
+        "PMID:3595066",
+        "PMID:23279674"
+      ]
+    },
+    {
+      "with": "ACE inhibitors / ARBs",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Captopril (more than enalapril) raises urinary zinc and lowers cell zinc. Losartan and valsartan have been linked to zinc loss.",
+      "evidence": "Small clinical studies and SR; low certainty.",
+      "citations": [
+        "PMID:9477394",
+        "PMID:2195291",
+        "PMID:23279674"
+      ]
+    },
+    {
+      "with": "proton pump inhibitors",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Raised gastric pH reduces absorption of zinc supplements. On long-term PPIs plasma zinc rose 37% versus 126% in controls; short-term omeprazole did not affect zinc absorption from food.",
+      "evidence": "Small human absorption studies; conflicting.",
+      "citations": [
+        "PMID:27957023",
+        "PMID:12546170",
+        "PMID:8568113"
+      ]
+    },
+    {
+      "with": "antidiabetic drugs",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Zinc lowers fasting glucose (about -14 mg/dL) and HbA1c (about -0.55%), so it may add to glucose-lowering drugs.",
+      "evidence": "MAs of RCTs; low certainty; no direct interaction studies.",
+      "citations": [
+        "PMID:31161192",
+        "PMID:42594341"
+      ]
+    },
+    {
+      "with": "Heme Iron (Proferrin)",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Non-heme iron competes with zinc for absorption (Fe:Zn 2:1 or more inhibits), but heme iron at a 3:1 ratio did not inhibit zinc absorption. Zinc inhibits non-heme iron absorption at Zn:Fe molar ratios of 5:1 or more. In children, adding iron blunted zinc's benefits.",
+      "evidence": "Human absorption studies and Cochrane subgroup finding; heme-specific interaction appears small.",
+      "citations": [
+        "PMID:7223699",
+        "PMID:3522825",
+        "PMID:17873388",
+        "PMID:36994923"
+      ]
+    },
+    {
+      "with": "calcium supplements",
       "with_kind": "supplement",
       "kind": "caution",
-      "severity": "moderate",
-      "mechanism": "High zinc intake induces intestinal metallothionein and reduces copper absorption.",
-      "evidence": "Established nutritional interaction.",
+      "severity": "minor",
+      "mechanism": "Calcium reduces zinc absorption: 600 mg CaCO3 with a meal halved zinc absorption, and an extra 468 mg/d calcium cut net zinc absorption by about 2 mg/d.",
+      "evidence": "Human balance and absorption studies (off-list supplement).",
       "citations": [
-        "URL:https://ods.nih.gov/factsheets/Zinc-HealthProfessional/"
+        "PMID:9174476"
+      ]
+    },
+    {
+      "with": "Magnesium",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "High-dose zinc (142 mg/d) lowers magnesium absorption and balance. Refractory hypomagnesaemia has been reported with postoperative zinc.",
+      "evidence": "Metabolic balance study plus case report.",
+      "citations": [
+        "PMID:7836627",
+        "PMID:40270655"
+      ]
+    },
+    {
+      "with": "Quercetin",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Quercetin acts as a zinc ionophore, raising intracellular labile zinc in cells and liposomes. Clinical relevance is unknown.",
+      "evidence": "In vitro only; no human outcome data.",
+      "citations": [
+        "PMID:25050823"
+      ]
+    },
+    {
+      "with": "copper",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "major",
+      "mechanism": "Zinc induces enterocyte metallothionein, which traps copper. Chronic excess causes copper deficiency with anaemia, neutropenia and myeloneuropathy. Copper status should be checked or copper added (AREDS added 2 mg) during long-term high-dose zinc (off-list supplement).",
+      "evidence": "SR of 37 cases, case reports, FDA Galzin label warning, AREDS design.",
+      "citations": [
+        "PMID:42087025",
+        "PMID:40416147",
+        "PMID:38846187",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2c4fb943-4b2f-273d-e063-6394a90abb47",
+        "PMID:11594942"
+      ]
+    },
+    {
+      "with": "Zeaxanthin + Lutein",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "These are co-components of the AREDS2 formula for intermediate AMD. Lutein/zeaxanthin replacing beta-carotene gave HR 0.85 for late AMD versus beta-carotene, without the lung-cancer signal.",
+      "evidence": "AREDS2 RCT and 10-year follow-up; Cochrane review.",
+      "citations": [
+        "PMID:35653117",
+        "PMID:23644932",
+        "PMID:37702300"
+      ]
+    },
+    {
+      "with": "Vitamin C",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "In the AREDS antioxidant-plus-zinc arm, advanced AMD OR was 0.72 versus 0.75 for zinc alone. Adding high-dose vitamin C to zinc gave no benefit in COVID-19 outpatients.",
+      "evidence": "AREDS RCT; COVID A to Z RCT.",
+      "citations": [
+        "PMID:11594942",
+        "PMID:33576820"
+      ]
+    },
+    {
+      "with": "Vitamin E",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Vitamin E is a component of the AREDS formula; antioxidants plus zinc reduced progression to advanced AMD.",
+      "evidence": "AREDS RCT and Cochrane review; moderate certainty.",
+      "citations": [
+        "PMID:11594942",
+        "PMID:37702300"
+      ]
+    },
+    {
+      "with": "phytates",
+      "with_kind": "food",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Phytate binds zinc and is thought to limit absorption from plant-based diets. In children, low-phytate maize did not raise zinc absorption and phytate had no detectable effect.",
+      "evidence": "Stable-isotope studies in children; adult effect not studied here.",
+      "citations": [
+        "PMID:16400050",
+        "PMID:26108545"
+      ]
+    },
+    {
+      "with": "Wilson disease",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Zinc salts are a guideline-endorsed maintenance therapy. Use requires specialist monitoring of urinary copper and ALT, and chelators are preferred in significant liver disease.",
+      "evidence": "EASL-ERN guideline 2025, retrospective cohort, FDA label.",
+      "citations": [
+        "PMID:40089450",
+        "PMID:31388634",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2c4fb943-4b2f-273d-e063-6394a90abb47"
+      ]
+    },
+    {
+      "with": "intranasal zinc use",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Applying zinc to the olfactory epithelium causes hyposmia or anosmia, which can be permanent; causation is supported by Bradford Hill criteria.",
+      "evidence": "Case series (17 and 25 patients) and causality analysis.",
+      "citations": [
+        "PMID:16467707",
+        "PMID:20644061",
+        "PMID:15283486"
+      ]
+    },
+    {
+      "with": "infants under 6 months with diarrhoea",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "minor",
+      "mechanism": "No reduction in diarrhoea duration, and more vomiting (RR 1.54).",
+      "evidence": "Cochrane review; moderate certainty.",
+      "citations": [
+        "PMID:27996088"
+      ]
+    },
+    {
+      "with": "serum alkaline phosphatase",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Zinc activates the metalloenzyme ALP. 50 mg/d raised total and bone ALP, and zinc acetate therapy can raise ALP, amylase and lipase.",
+      "evidence": "Small RCTs and FDA label; a true physiological change, not an assay artefact.",
+      "citations": [
+        "PMID:11787985",
+        "PMID:18813411",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2c4fb943-4b2f-273d-e063-6394a90abb47"
+      ]
+    },
+    {
+      "with": "serum copper / ceruloplasmin",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "moderate",
+      "mechanism": "Zinc lowers serum copper and ceruloplasmin activity; low values during zinc use suggest zinc-induced copper deficiency.",
+      "evidence": "Crossover trial (150 mg/d), case reports, SR.",
+      "citations": [
+        "PMID:3365292",
+        "PMID:38846187",
+        "PMID:42087025"
+      ]
+    },
+    {
+      "with": "HDL cholesterol",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "In healthy people, zinc lowered HDL by 0.10 mmol/L (about 7%); in T2D, HDL rose.",
+      "evidence": "MA of 33 interventions; T2D MA.",
+      "citations": [
+        "PMID:20034629",
+        "PMID:38224402"
       ]
     }
   ],
   "citations": [
-    "URL:https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/",
+    "PMID:2610494",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3b3d22dc-df09-4910-8c9b-1204eeedbd68",
+    "PMID:786686",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f658b20a-269f-4e78-a79b-a56a5ed8dc1b",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2c4fb943-4b2f-273d-e063-6394a90abb47",
+    "PMID:40089450",
+    "PMID:7001863",
+    "PMID:3595066",
+    "PMID:23279674",
+    "PMID:9477394",
+    "PMID:2195291",
+    "PMID:27957023",
+    "PMID:12546170",
+    "PMID:8568113",
+    "PMID:31161192",
+    "PMID:42594341",
+    "PMID:7223699",
+    "PMID:3522825",
+    "PMID:17873388",
+    "PMID:36994923",
+    "PMID:9174476",
+    "PMID:7836627",
+    "PMID:40270655",
+    "PMID:25050823",
+    "PMID:42087025",
+    "PMID:40416147",
+    "PMID:38846187",
+    "PMID:11594942",
+    "PMID:35653117",
     "PMID:23644932",
-    "URL:https://ods.nih.gov/factsheets/Zinc-HealthProfessional/",
-    "URL:https://ods.nih.gov/factsheets/Zinc-HealthProfessional/",
-    "URL:https://ods.nih.gov/factsheets/Zinc-HealthProfessional/",
-    "URL:https://ods.nih.gov/factsheets/Zinc-HealthProfessional/"
+    "PMID:37702300",
+    "PMID:33576820",
+    "PMID:16400050",
+    "PMID:26108545",
+    "PMID:31388634",
+    "PMID:16467707",
+    "PMID:20644061",
+    "PMID:15283486",
+    "PMID:27996088",
+    "PMID:11787985",
+    "PMID:18813411",
+    "PMID:3365292",
+    "PMID:20034629",
+    "PMID:38224402"
   ]
 }

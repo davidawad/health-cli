@@ -3,53 +3,370 @@
   "supplement": "B12 methylcobalamin",
   "slug": "b12-methylcobalamin",
   "aliases": [
-    "Vitamin B12",
-    "Cobalamin",
-    "Methylcobalamin"
+    "methylcobalamin",
+    "mecobalamin",
+    "MeCbl",
+    "methyl-B12",
+    "Methycobal",
+    "Rozebalamin",
+    "active B12"
   ],
   "category": "vitamin",
   "rx_status": "otc",
   "evidence_certainty_overall": "moderate",
   "edges": [
     {
-      "with": "metformin",
+      "with": "Metformin ER",
       "with_kind": "drug",
       "kind": "monitor",
-      "severity": "minor",
-      "mechanism": "Long-term metformin can reduce B12 status.",
-      "evidence": "NIH ODS fact sheet describes lower B12 status with metformin.",
+      "severity": "moderate",
+      "mechanism": "Metformin lowers serum B12 (about -19% vs placebo over 4.3 y). Deficiency risk rises with duration. Oral methylcobalamin 1 mg/d restored B12 and improved neuropathy measures in long-term metformin users.",
+      "evidence": "RCTs (HOME, DPP/DPPOS), MA of 29 studies (OR 2.45), 1-y RCT of MeCbl; moderate certainty",
       "citations": [
-        "URL:https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/"
+        "PMID:20488910",
+        "PMID:26900641",
+        "PMID:25502588",
+        "PMID:33513879",
+        "PMID:42009383"
       ]
     },
     {
-      "with": "proton pump inhibitors",
+      "with": "proton pump inhibitors / H2 blockers",
       "with_kind": "drug-class",
       "kind": "monitor",
       "severity": "minor",
-      "mechanism": "Reduced gastric acid may impair food-bound B12 release.",
-      "evidence": "NIH ODS fact sheet identifies chronic acid suppression as a risk.",
+      "mechanism": "Long-term acid suppression is associated with B12 deficiency, and higher PPI doses carry higher risk. The evidence is inconsistent across studies.",
+      "evidence": ">=2 y PPI OR 1.65, H2RA OR 1.25 (case-control, n>210,000); a 2025 MA found no serum B12 difference; low certainty",
       "citations": [
-        "URL:https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/"
+        "PMID:24327038",
+        "PMID:40823471"
       ]
     },
     {
       "with": "nitrous oxide",
       "with_kind": "drug",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "N2O inactivates cobalamin and methionine synthase, causing functional B12 deficiency with high Hcy/MMA despite normal serum B12. This can cause subacute combined degeneration. Oral B12 self-supplementation did not prevent myelopathy in recreational users.",
+      "evidence": "IPD-MA of 100 cases, case series; moderate certainty for harm of N2O, low for protection by supplementation",
+      "citations": [
+        "PMID:31018613",
+        "PMID:34427020",
+        "PMID:35253567"
+      ]
+    },
+    {
+      "with": "colchicine",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Colchicine reversibly reduces ileal IF-B12 receptors and causes B12 malabsorption. Label lists it among drugs causing malabsorption.",
+      "evidence": "Animal mechanistic study plus FDA label; low certainty",
+      "citations": [
+        "PMID:759260",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cdd4fd12-e214-43a6-b560-d56fc0d87190"
+      ]
+    },
+    {
+      "with": "capecitabine",
+      "with_kind": "drug",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Methylcobalamin 0.5 mg three times daily halved grade >=2 capecitabine hand-foot syndrome and numerically reduced capecitabine dose reductions.",
+      "evidence": "Phase 3 double-blind RCT (n=234); moderate certainty",
+      "citations": [
+        "PMID:40935571"
+      ]
+    },
+    {
+      "with": "Quatrefolic (5-MTHF)",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "moderate",
+      "mechanism": "5-MTHF donates its methyl group to cobalamin at methionine synthase, so folate and B12 are co-required for Hcy remethylation. Combined L-methylfolate + methylcobalamin lowered Hcy in hemodialysis. Folate given alone can mask the anemia of B12 deficiency while neurological damage progresses; whether it worsens neurology is disputed.",
+      "evidence": "RCTs and MA (folate + B12 in T2DM, SMD -2.77), reviews; masking risk from historical clinical data",
+      "citations": [
+        "PMID:41580678",
+        "PMID:41393929",
+        "PMID:38987872",
+        "PMID:32228273",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cdd4fd12-e214-43a6-b560-d56fc0d87190"
+      ]
+    },
+    {
+      "with": "Vitamin B12",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Same nutrient (other cobalamin forms). All forms converge to the same intracellular coenzymes, so stacking adds no benefit and drives serum B12 high, which complicates interpretation of high-B12 results.",
+      "evidence": "Mechanistic review and route/dose MA showing no dose-response; low certainty",
+      "citations": [
+        "PMID:28223907",
+        "PMID:41487531",
+        "PMID:24249744"
+      ]
+    },
+    {
+      "with": "B Complex",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Duplicates B12 and usually adds B6 and folic acid. A B complex corrected deficiency as well as B12 alone. Combined high B6 + B12 intake was associated with hip fracture.",
+      "evidence": "Small RCT plus prospective cohort; low certainty",
+      "citations": [
+        "PMID:14616423",
+        "PMID:31074816"
+      ]
+    },
+    {
+      "with": "Vitamin B6",
+      "with_kind": "supplement",
       "kind": "caution",
       "severity": "moderate",
-      "mechanism": "Oxidizes and functionally inactivates cobalamin.",
-      "evidence": "NIH ODS fact sheet discusses nitrous oxide-associated deficiency.",
+      "mechanism": "Combined high B6 (>=35 mg/d) + B12 (>=20 ug/d) intake was associated with a 47% higher hip fracture risk. High-dose B6 arms raised hip fracture in RCT follow-up. Single-supplement B6/B12 was associated with lung cancer in men. Rosacea fulminans was reported with B6 + B12.",
+      "evidence": "Cohorts (NHS, VITAL), RCT secondary analysis, case report; low certainty, not causal",
       "citations": [
-        "URL:https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/"
+        "PMID:31074816",
+        "PMID:28574605",
+        "PMID:28829668",
+        "PMID:11763399"
+      ]
+    },
+    {
+      "with": "Trimethylglycine (TMG)",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Betaine remethylates Hcy through BHMT, independent of the B12/folate pathway. Hcy lowering is additive in principle, but betaine >=4 g/d raises total and LDL cholesterol.",
+      "evidence": "MA of betaine RCTs (Hcy -1.30 umol/L); no combination trial with MeCbl; very low certainty for the combination",
+      "citations": [
+        "PMID:33764214"
+      ]
+    },
+    {
+      "with": "Vitamin C",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "The 1974 claim that ascorbic acid destroys food B12 was not replicated with standard assays. Ascorbate and other reductants can still affect B12 stability inside combined products.",
+      "evidence": "In vitro replication studies and stability review; low certainty",
+      "citations": [
+        "PMID:4479087",
+        "PMID:1274888",
+        "PMID:36615431"
+      ]
+    },
+    {
+      "with": "Vitamin B2",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Riboflavin (FAD) is the MTHFR cofactor. It lowers Hcy and raises SAM in MTHFR 677TT carriers, complementing B12-dependent remethylation.",
+      "evidence": "RCT in TT genotype and intervention study; low certainty",
+      "citations": [
+        "PMID:32330571",
+        "PMID:12560354"
+      ]
+    },
+    {
+      "with": "Melatonin",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Oral methylcobalamin 3 mg/d lowered plasma melatonin and urinary aMT6s and phase-advanced the melatonin rhythm. Its clinical effect with exogenous melatonin is unknown.",
+      "evidence": "Small crossover and randomized studies in healthy volunteers; very low certainty",
+      "citations": [
+        "PMID:1516676",
+        "PMID:8914118"
+      ]
+    },
+    {
+      "with": "Leber hereditary optic neuropathy",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Label warning: patients with early Leber's disease treated with cyanocobalamin suffered severe, swift optic atrophy, so a non-cyano form is preferred. B12 deficiency is more prevalent in LHON carriers (21% vs 5-7%) and should be corrected.",
+      "evidence": "FDA label warning (cyanocobalamin-specific); prospective cohort; low certainty",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cdd4fd12-e214-43a6-b560-d56fc0d87190",
+        "PMID:35945620"
+      ]
+    },
+    {
+      "with": "chronic kidney disease",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "High-dose B vitamins with 1 mg cyanocobalamin accelerated GFR loss and doubled vascular events in diabetic nephropathy. The proposed mechanism is cyanide accumulation from cyanocobalamin when GFR is low, and methylcobalamin has been suggested instead (hypothesis). MMA is falsely raised by low eGFR.",
+      "evidence": "RCT (DIVINe), MA, expert hypothesis; low certainty for form-specific effect",
+      "citations": [
+        "PMID:20424250",
+        "PMID:22695899",
+        "PMID:23449527",
+        "PMID:33214054",
+        "PMID:40164116"
+      ]
+    },
+    {
+      "with": "acne / rosacea",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "High-dose B12 represses B12 biosynthesis in C. acnes and raises pro-inflammatory porphyrins. It causes monomorphic acneiform eruptions and has been reported to trigger rosacea fulminans; these resolve after stopping.",
+      "evidence": "Mechanistic human study, case reports, dermatology review; low certainty",
+      "citations": [
+        "PMID:26109103",
+        "PMID:39712431",
+        "PMID:37305488",
+        "PMID:11763399",
+        "PMID:25559140"
+      ]
+    },
+    {
+      "with": "serum vitamin B12 assay",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "moderate",
+      "mechanism": "Supplementation raises serum B12. Macro-B12 (IgG-B12 complexes) falsely elevates immunoassay results (detect by PEG precipitation). Anti-intrinsic-factor antibodies cause falsely normal or high B12 in pernicious anemia. Unexplained high B12 without supplementation is a marker of cancer and mortality.",
+      "evidence": "Lab method studies, case reports, large registry cohorts; moderate certainty",
+      "citations": [
+        "PMID:31665115",
+        "PMID:42142694",
+        "PMID:26277634",
+        "PMID:40964663",
+        "PMID:24249744",
+        "PMID:30642843",
+        "PMID:38252787"
+      ]
+    },
+    {
+      "with": "methylmalonic acid / homocysteine",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Supplementation lowers Hcy (about -4 umol/L) and MMA. MMA rises with age and low eGFR independently of B12, and holoTC performs better in older adults. In N2O exposure, Hcy/MMA reveal deficiency when serum B12 is normal.",
+      "evidence": "MA of RCTs, NHANES reference study, diagnostic accuracy studies; moderate certainty",
+      "citations": [
+        "PMID:37495210",
+        "PMID:31127807",
+        "PMID:40164116",
+        "PMID:21482749",
+        "PMID:34427020"
+      ]
+    },
+    {
+      "with": "TCN2 776C>G (rs1801198)",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "The GG genotype lowers holotranscobalamin and raises Hcy when B12 is low. Odds of neuropathy were 6.9-fold in GG elders with high folate intake. No evidence that methylcobalamin is superior for carriers.",
+      "evidence": "Cross-sectional genetic association studies; low certainty",
+      "citations": [
+        "PMID:15941899",
+        "PMID:27733392",
+        "PMID:28223907"
+      ]
+    },
+    {
+      "with": "FUT2 secretor variant (rs601338)",
+      "with_kind": "genotype",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "FUT2 non-secretor status shifts total serum B12 via haptocorrin-bound B12 without changing holoTC (active B12), so total B12 may misclassify status.",
+      "evidence": "GWAS and functional studies; moderate certainty for the biomarker effect",
+      "citations": [
+        "PMID:19303062",
+        "PMID:29040465"
+      ]
+    },
+    {
+      "with": "MTHFR C677T / MTRR A66G",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "In a B6/B9/B12 RCT, Hcy and migraine-disability responses differed by MTHFR and MTRR genotype. MTHFR 677TT responds to riboflavin. Commercial SNP reports do not establish a need for methylcobalamin over other forms.",
+      "evidence": "RCT pharmacogenetic subanalysis, review; low certainty",
+      "citations": [
+        "PMID:22926161",
+        "PMID:32330571",
+        "PMID:28223907"
+      ]
+    },
+    {
+      "with": "history of cancer / high cancer risk",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Folic acid + B12 raised colorectal cancer risk in B-PROOF follow-up (HR 1.77). High single-supplement B12 was linked to lung cancer in men, and MR suggests genetically higher B12 raises lung cancer risk. A scoping review judged causality unproven.",
+      "evidence": "RCT follow-up, cohort, MR, scoping review; very low certainty",
+      "citations": [
+        "PMID:30341095",
+        "PMID:28829668",
+        "PMID:30499135",
+        "PMID:36364737"
       ]
     }
   ],
   "citations": [
-    "URL:https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
+    "PMID:20488910",
+    "PMID:26900641",
+    "PMID:25502588",
+    "PMID:33513879",
+    "PMID:42009383",
+    "PMID:24327038",
+    "PMID:40823471",
+    "PMID:31018613",
+    "PMID:34427020",
+    "PMID:35253567",
+    "PMID:759260",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cdd4fd12-e214-43a6-b560-d56fc0d87190",
+    "PMID:40935571",
+    "PMID:41580678",
+    "PMID:41393929",
+    "PMID:38987872",
+    "PMID:32228273",
     "PMID:28223907",
-    "URL:https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
-    "URL:https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
-    "URL:https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/"
+    "PMID:41487531",
+    "PMID:24249744",
+    "PMID:14616423",
+    "PMID:31074816",
+    "PMID:28574605",
+    "PMID:28829668",
+    "PMID:11763399",
+    "PMID:33764214",
+    "PMID:4479087",
+    "PMID:1274888",
+    "PMID:36615431",
+    "PMID:32330571",
+    "PMID:12560354",
+    "PMID:1516676",
+    "PMID:8914118",
+    "PMID:35945620",
+    "PMID:20424250",
+    "PMID:22695899",
+    "PMID:23449527",
+    "PMID:33214054",
+    "PMID:40164116",
+    "PMID:26109103",
+    "PMID:39712431",
+    "PMID:37305488",
+    "PMID:25559140",
+    "PMID:31665115",
+    "PMID:42142694",
+    "PMID:26277634",
+    "PMID:40964663",
+    "PMID:30642843",
+    "PMID:38252787",
+    "PMID:37495210",
+    "PMID:31127807",
+    "PMID:21482749",
+    "PMID:15941899",
+    "PMID:27733392",
+    "PMID:19303062",
+    "PMID:29040465",
+    "PMID:22926161",
+    "PMID:30341095",
+    "PMID:30499135",
+    "PMID:36364737"
   ]
 }

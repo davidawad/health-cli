@@ -3,34 +3,217 @@
 :ID: supp-nmn
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: Nicotinamide mononucleotide
+:ALIASES: nicotinamide mononucleotide | beta-NMN | β-NMN | β-nicotinamide mononucleotide | MIB-626 | NMN-C | Restorin NMN
 :CATEGORY: longevity
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
+
 ** Identity & forms
-- Nicotinamide mononucleotide, an NAD+ precursor sold as a dietary supplement in some jurisdictions; regulatory status differs. [PMID:39116016] [PMID:40275690] [PMID:39221308]
+- β-nicotinamide mononucleotide is a nucleotide intermediate of NAD+ biosynthesis. NAMPT makes it from nicotinamide, and NMNAT enzymes convert it to NAD+ [PMID:29249689] [PMID:37364580].
+- Forms used in trials: generic or brand β-NMN powder or capsules at 125-1250 mg/d, mostly from Japanese and Chinese manufacturers [PMID:35479740] [PMID:36002548] [PMID:36482258]. MIB-626 (Metro International Biotech) is a pharmaceutical-grade microcrystalline β-NMN polymorph studied under IND at 1000-2000 mg/d [PMID:35182418] [PMID:36740954].
+- Branded high-purity ingredients with toxicology dossiers include NMN-C [PMID:33587977] and Restorin [PMID:34867355]. Intravenous [PMID:36225528] and sublingual NMN [PMID:42304075] have been tested in small human studies.
+- Product quality is poor and variable. Tested commercial NMN and urolithin A products deviated from label claims by +28.6% to -100% [PMID:38935229]. An isomer-specific LC-MS/MS method found α/β-isomer mixtures and undeclared or mislabeled ingredients in 8 commercial NMN products [PMID:41545110].
+- Regulatory status, by jurisdiction:
+  - US, 2022: in late 2022 FDA told NMN ingredient notifiers that NMN was excluded from the dietary-supplement definition under the drug-preclusion ("race-to-market") clause. The reason given was that NMN had been authorized for investigation as a new drug (MIB-626) [URL:https://www.supplysidesj.com/regulatory/anh-npa-ask-fda-reverse-position-nmn-supplements]. FDA also retroactively rejected a previously acknowledged NDI notification [URL:https://www.nutritionaloutlook.com/view/fda-responds-to-citizen-petitions-on-nmn-amending-its-position-on-the-ingredient-s-status-as-a-dietary-ingredient]. NPA and ANH-USA filed a citizen petition on 7 March 2023. NPA sued FDA in August 2024. The case was then stayed, and FDA exercised enforcement discretion in the meantime [URL:https://www.nutraingredients.com/Article/2025/12/09/fda-reinstates-ndi-status-of-nmn-with-new-letters-to-ingredient-players].
+  - US, 2025 reversal: on 29 September 2025 FDA granted the petitions in part. It accepted evidence that NMN was marketed as a supplement in the US from 2017, before any IND authorization, so NMN is not excluded [URL:https://www.npanational.org/news/amid-pressure-from-npa-fda-declares-nmn-lawful-in-dietary-supplements/]. FDA did not disclose the IND date or define "substantial clinical investigation" [URL:https://www.nutritionaloutlook.com/view/fda-responds-to-citizen-petitions-on-nmn-amending-its-position-on-the-ingredient-s-status-as-a-dietary-ingredient]. On 2 December 2025 FDA sent letters reinstating the NDI notifications for SyncoZymes (NDIN 1247) and Kingdomway (NDIN 1259) [URL:https://www.nutraingredients.com/Article/2025/12/09/fda-reinstates-ndi-status-of-nmn-with-new-letters-to-ingredient-players].
+  - EU: NMN is an unauthorised novel food. In May 2026 EFSA's NDA Panel issued a positive opinion on one synthetic β-NMN at up to 300 mg/d in food supplements, for adults excluding pregnant and lactating women. Commission authorisation was still pending at the research date [PMID:42125559].
+- RX_STATUS rationale: otc. Since the September 2025 FDA reversal, β-NMN is lawfully marketable as a US dietary supplement [URL:https://www.npanational.org/news/amid-pressure-from-npa-fda-declares-nmn-lawful-in-dietary-supplements/]. "research-chemical" would only describe the 2022-2025 interim and the EU pre-authorisation status.
+
 ** Mechanisms
-- Converted to NAD+ through salvage metabolism; NAD change does not imply improved healthspan. [PMID:39116016] [PMID:40275690] [PMID:39221308]
+- Raises the NAD+ pool, the cofactor for sirtuins, PARPs and CD38. NAD+ falls with age in mouse tissues, and NMN given to mice for 12 months reduced age-related weight gain and improved insulin sensitivity, lipids, activity and eye function [PMID:28068222] [PMID:29249689].
+- Absorption route is disputed. Slc12a8 was proposed as an intestinal NMN transporter [PMID:31131364], but this was contested for lack of evidence [PMID:32694648]. In mice, most oral NMN and NR is deamidated by gut microbes to nicotinic acid and enters NAD+ synthesis by the Preiss-Handler pathway and enterohepatic recycling [PMID:40117359].
+- A 2026 human RCT (n=65) found that 14 days of NR and NMN raised blood NAD+ comparably, whereas nicotinamide did not; ex vivo, microbiota converted NR and NMN to nicotinic acid [PMID:41540253]. CD38 can base-exchange NMN to nicotinic acid mononucleotide (NaMN) [PMID:39894219], consistent with human trials showing rises in NaMN rather than NMN in blood [PMID:35479740].
+- CD38 on senescence-associated immune cells degrades extracellular NMN and NAD+ with age [PMID:33199925]. A 2026 phase 1/2 study builds on this CD38-NAD+-macrophage axis in immune thrombocytopenia [PMID:42056497].
+- Catabolism runs through nicotinamide to methylnicotinamide and the pyridones 2PY/4PY. NNMT uses SAM for this, so heavy nicotinamide flux consumes methyl groups [PMID:31685720] [PMID:30226369] [PMID:36897780].
+- Response varies widely between people. Within-group change in blood NAD had a coefficient of variation of 29-113% [PMID:38430946]. Microbiome, genetics and physiological state likely contribute [PMID:38921475].
+
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---------+--------------------+-----------+-------------+-----------------------+-----------|
-| NAD metabolites, glucose/lipid markers, physical performance | RCT meta-analyses show NMN raises NAD biomarkers, but effects on glucose/lipids and physical function are inconsistent or null; trials are small and short | Possible / uncertain | RCT meta-analyses show NMN raises NAD biomarkers, but effects on glucose/lipids and physical function are inconsistent or null; trials are small and short. | low | [PMID:39116016] [PMID:40275690] [PMID:39221308] |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Blood NAD+ / metabolome | MAs of RCTs; many RCTs, 125-2000 mg/d | Increase (dose-related) | Consistent significant rise; ~1.7-3.7x NMN AUC on 1-2 g/d MIB-626 | high | [PMID:39116016] [PMID:36482258] [PMID:35182418] [PMID:41540253] |
+| Glucose control (FPG, HbA1c, HOMA-IR) | SR/MA 8 RCTs (n=342); SR/MA 12 studies (n=513); 2026 MA 15 RCTs | No effect | No significant pooled effect; HOMA-IR non-significant downward trend | moderate | [PMID:39531138] [PMID:39116016] [PMID:42514320] |
+| Muscle insulin sensitivity (prediabetic postmenopausal women) | Single RCT (n=25, 10 wk) | Benefit | Clamp glucose disposal rose vs no change on placebo; baseline liver fat imbalanced between arms | low | [PMID:33888596] [PMID:34326206] |
+| Lipids | MAs of NMN RCTs; MIB-626 RCT | Mostly null | NMN MAs null; one 28-d MIB-626 RCT: LDL -18.7 mg/dL, TC -26.9 mg/dL | low | [PMID:39531138] [PMID:42514320] [PMID:36740954] |
+| Blood pressure | MA 10 RCTs (n=349) | Small DBP decrease | DBP WMD -2.15 mmHg (CI -3.68 to -0.61); SBP NS overall, -3.94 mmHg if >=60 y | low | [PMID:41901064] [PMID:42514320] [PMID:36740954] |
+| Arterial stiffness | 1 RCT (n=36, 250 mg/d, 12 wk) | Non-significant trend | PWV tended to fall; no between-group difference | very low | [PMID:36797393] |
+| Muscle mass/strength/gait (older adults) | SR/MA of RCTs (Prokopidis 2025); SR 10 RCTs | No effect | SMI MD -0.42; HGS MD 0.61 (NS); gait speed MD -0.01 m/s (NS) | moderate | [PMID:40275690] [PMID:39221308] [PMID:36443648] |
+| Walking speed / 6MWT | RCTs (n=80, n=60, n=108) | Possible benefit | 6MWT distance up vs placebo at 300-900 mg; 4-m walk faster at 12 wk; 5-STS d=0.72 (PM dosing) | low | [PMID:36482258] [PMID:38789831] [PMID:35215405] [PMID:35927255] |
+| Aerobic endurance | RCT in runners (n=48); NMA 27 studies | Benefit | Ventilatory-threshold power up at 600-1200 mg; NMA endurance SMD 0.66 (medium), 1.02 (high dose) | low | [PMID:34238308] [PMID:42774067] |
+| Sleep quality | RCTs; NMA | Inconsistent | PSQI global improved in one RCT; drowsiness d=0.64 with PM dosing; NMA: no precursor improves sleep | very low | [PMID:38789831] [PMID:35215405] [PMID:42774067] |
+| Perceived fatigue / QoL | NMA (n=1599) | Fatigue null; QoL small benefit | QoL SMD 0.45-0.56 for NMN | low | [PMID:42774067] [PMID:36482258] |
+| Biological age (blood clock) | 1 RCT | Possible benefit | Aging.Ai age stable on NMN vs rise on placebo at 60 d | very low | [PMID:36482258] |
+| Immune thrombocytopenia | Single-arm phase 1/2 (n=25) | Possible benefit | 20% met primary platelet response; 60% >1.5x baseline | very low | [PMID:42056497] |
+| Retina (older diabetics) | RCT (7 vs 7 patients) | Unclear | Temporal outer retinal thickness +1.14 vs -2.77 um | very low | [PMID:42082179] |
+| Body weight/composition | MAs | No effect | NS; one MIB-626 RCT -1.9 kg | low | [PMID:42514320] [PMID:36740954] [PMID:35927255] |
+
 ** Dosing in trials
-- Human RCTs generally use 250-1200 mg/day for 4-12 weeks; no established therapeutic dose. [PMID:39116016] [PMID:40275690] [PMID:39221308]
+- Typical oral dosing in RCTs is 250-2000 mg/d for 14 days to 24 weeks [PMID:42514320] [PMID:39531138]. Japanese trials in older adults and healthy volunteers used 250 mg/d for 12 weeks [PMID:35479740] [PMID:35927255] [PMID:38789831], and 24 weeks in older men with diabetes [PMID:36443648]. An open-label 8-week study in middle-aged men (250 mg/d) raised PBMC NAD+ [PMID:38191197].
+- Dose-finding RCT in 80 middle-aged adults (300/600/900 mg for 60 days): blood NAD and 6MWT gains plateaued at 600 mg/d [PMID:36482258]. A post hoc analysis estimated the median effective NAD rise for 6MWT benefit at 15.7 nmol/L [PMID:38430946].
+- Highest doses tested: 1250 mg/d once daily for 4 weeks was safe in healthy adults [PMID:36002548]. MIB-626 1000 mg twice daily for 14-28 days was tested in older overweight adults and in COVID-19 with AKI [PMID:35182418] [PMID:36740954] [PMID:40746868].
+- A 24-week phase 2a trial of MIB-626 1000 mg twice daily in diabetic kidney disease (n=156) is under way [PMID:42603990].
+- Timing: afternoon intake gave the largest effects on lower-limb function and drowsiness in one RCT [PMID:35215405].
+- Other routes: sublingual NMN raised 2PY/4PY faster than oral but did not change blood NMN, NAM or NAD+ over 60 minutes [PMID:42304075]. IV NMN was safe in 10 volunteers [PMID:36225528].
+- EU proposed maximum is 300 mg/d. This equals 109.7 mg/d nicotinamide (conversion factor 1): about 5 times the niacin PRI but below the 900 mg/d nicotinamide UL [PMID:42125559].
+
 ** Safety & adverse effects
-- Short trials generally report tolerability, but sample sizes/duration cannot establish chronic safety. [PMID:39116016] [PMID:40275690] [PMID:39221308]
+- Human RCT data show no excess adverse events. A 2026 SR/MA (15 RCTs, 10 with safety data; 250-2000 mg/d; up to 24 weeks): no increase in overall, serious, withdrawal-related or system-specific AEs, and no ALT/AST rise [PMID:42514320]. An earlier SR of 10 RCTs (n=437) found no serious AEs attributable to NMN [PMID:39221308].
+- Single 100-500 mg doses in healthy men caused no clinical changes; lab values shifted within normal range (bilirubin up; creatinine, chloride and glucose down) [PMID:31685720]. 1250 mg/d for 4 weeks caused no changes beyond physiological variation [PMID:36002548].
+- Long-term safety beyond 24 weeks in humans is unknown. Systematic reviews consistently call for longer, larger trials [PMID:41655607] [PMID:40926126] [PMID:37619764].
+- Animal toxicology: NMN-C was not genotoxic, with a rat 90-day NOAEL >=1500 mg/kg/d [PMID:33587977]. Restorin had a rat NOAEL of 500 mg/kg/d in males and 1000 mg/kg/d in females, with reduced weight gain at 2000 mg/kg/d [PMID:34867355].
+- Subacute high doses caused a mild ALT rise in mice and creatinine/uric acid rises in dogs [PMID:33384603]. The EFSA dossier's rat NOAEL was 400 mg/kg/d based on reproductive-organ effects, a margin of exposure of 93 [PMID:42125559].
+- Preclinical signals of concern: NMN raised uremic toxins and inflammatory/tubule-injury markers in aged but not young mouse kidneys (preprint) [PMID:38645109]. NMN and NR worsened atherosclerosis in ApoE-/- mice at about 300 mg/kg, even while lowering lipids [PMID:40143060].
+- NMN blunted the BFR-exercise-induced rise in muscle mitochondrial content in a small human crossover trial (n=11) [PMID:41705654].
+- Nicotinamide load: high-dose nicotinamide may inhibit PARPs and alter methyl metabolism and epigenetics. Current usage levels are judged safe [PMID:32365524]. In a hemodialysis RCT, nicotinamide 500-1000 mg/d caused thrombocytopenia [PMID:21270914] [PMID:33229753]. This is not observed with NMN, which instead raised platelets in ITP [PMID:42056497].
+- Cancer data are only preclinical and conflicting (see Contraindications and Interactions). NMN fostered chemoresistance in pancreatic cancer [PMID:41724424], but suppressed some tumours or protected against chemotherapy toxicity [PMID:39169162] [PMID:37173894] [PMID:36611902]. Lifelong NMN in mice did not raise tumour burden (preprint) [PMID:38979132].
+
 ** Contraindications
-- No established medical contraindications; insufficient pregnancy, lactation, cancer-survivor and long-term safety data. [PMID:39116016] [PMID:40275690] [PMID:39221308]
+- Pregnancy and lactation: no human data. EFSA excluded these groups from its safety conclusion [PMID:42125559].
+- Active cancer, especially during chemotherapy: NAD+ supports tumour metabolism, and NAMPT/NAPRT-mediated NAD synthesis drives resistance [PMID:38396769] [PMID:39661983]. NMN conferred resistance to oxaliplatin, 5-FU and gemcitabine and supported PDAC growth in mice [PMID:41724424]. The direction of effect differs by tumour [PMID:37175631] [PMID:28780936].
+- Children: no trials. The EU opinion covers adults only [PMID:42125559].
+
 ** Interactions
-- Drug interactions are not adequately characterized; theoretical overlap with glucose-lowering/cancer therapies. [PMID:39116016] [PMID:40275690] [PMID:39221308]
+*** Drugs
+- Cytotoxic chemotherapy: preclinical data conflict. NMN increased resistance of PDAC cells and mouse tumours to oxaliplatin, 5-FU and gemcitabine [PMID:41724424].
+- In a TNBC mouse model, NMN did not impair chemotherapy efficacy and protected fertility [PMID:39169162]. It also protected ovaries against cyclophosphamide [PMID:40849491] and against doxorubicin cardiotoxicity and fibrosis [PMID:36611902] [PMID:38791345]. No human interaction data exist, so oncologist oversight is warranted.
+- NAD-depleting anticancer agents (NAMPT inhibitors, NAD-restriction strategies with melphalan): exogenous precursors bypass NAMPT blockade and would be expected to antagonize them [PMID:38396769] [PMID:39661983].
+- Metformin: metformin raises the NADH/NAD+ ratio. In cancer cells, NMN reversed metformin's NAD-depletion-dependent effects (synthetic lethality with MCT1/4 inhibition; suppressed migration) [PMID:30540938] [PMID:42414524]. Clinical significance for glucose lowering is unknown. NMN has no pooled glycaemic effect [PMID:39531138].
+- Antihypertensives: modest additive DBP reduction is possible (WMD -2.15 mmHg) [PMID:41901064] [PMID:36740954].
+- Cell therapy (CAR-NK): NMN preconditioning enhanced MSLN CAR-NK activity in an ovarian cancer xenograft. This is preclinical and not a supplement-use interaction [PMID:42595793].
+*** Other supplements
+- Nicotinamide Riboside: same pathway. In a head-to-head RCT, NR and NMN raised blood NAD+ comparably, both largely via microbial conversion to nicotinic acid [PMID:41540253] [PMID:40117359]. Stacking adds nicotinamide/methyl-group load without evidence of additive benefit [PMID:32365524].
+- Trimethylglycine (TMG): nicotinamide clearance by NNMT consumes SAM and lowered hepatic betaine and DNA methylation in rats [PMID:23768418] [PMID:2969042] [PMID:30226369]. This underlies the common practice of pairing NAD precursors with a methyl donor. Human NR data show only a transient homocysteine rise with an intact methyl pool, and no change in DNA methylation [PMID:38016950] [PMID:36936793] [PMID:31278280]. No NMN+TMG trial exists.
+- Trans-resveratrol: theoretical synergy through the NAD+/SIRT1 axis [PMID:36678315]. The analogue stilbene pterostilbene combined with NR safely raised NAD+ in RCTs [PMID:29184669] [PMID:32791973] [PMID:42211736]. No NMN+resveratrol human trial was found.
+- B Complex / niacinamide-containing products: they add to nicotinamide intake. 300 mg NMN is about 110 mg nicotinamide equivalent, against a nicotinamide UL of 900 mg/d [PMID:42125559].
+- PQQ: combining PQQ with NMN gave no added interoception benefit over PQQ alone in one RCT [PMID:41651893].
+*** Conditions
+- Active cancer, pregnancy and lactation: see Contraindications.
+- Advanced age with kidney dysfunction: aged-mouse data show uremic-toxin accumulation and kidney inflammation [PMID:38645109]. In COVID-19 with AKI, 2 g/d MIB-626 for 14 days was safe but did not improve kidney markers [PMID:40746868].
+- Atherosclerotic disease: mouse ApoE-/- signal only [PMID:40143060].
+- Hemodialysis: nicotinamide-induced thrombocytopenia has been seen with direct nicotinamide [PMID:21270914] [PMID:33229753]. This is an extrapolation to NMN.
+- Exercise training: NMN with endurance training improved ventilatory thresholds [PMID:34238308]. However, it blunted acute mitochondrial adaptation after BFR resistance exercise [PMID:41705654].
+*** Lab-test interference
+- Niacin status markers: NMN dose-dependently raises plasma and urinary 2PY/4PY and methylnicotinamide [PMID:31685720] [PMID:42304075] [PMID:40746868]. These markers will reflect supplement intake rather than diet.
+- Within-normal-range shifts after NMN: bilirubin up, creatinine down [PMID:31685720]. NMN-induced NAD rises were associated with higher haemoglobin, RBC count and uric acid in a post hoc analysis [PMID:41162813].
+- Whole-blood NAD assays vary widely between labs and people, which complicates dose titration [PMID:38430946].
+
 ** Genotype notes
-- No validated genotype-guided selection evidence identified.
+- A blinded NR trial found no DNA-methylation disturbance, including in carriers of common MTHFR variants [PMID:36936793]. No NMN-specific pharmacogenomic study was found.
+
 ** Latest research
-- 2026-10-13 search cutoff: 2025 meta-analysis found no significant improvement in several skeletal muscle function outcomes with NMN/NR [PMID:40275690]. [PMID:39116016] [PMID:40275690] [PMID:39221308]
+- [2026-10] NOPARK phase 3 (NR 1 g/d for 52 weeks, n=410, Parkinson disease): MDS-UPDRS worsened 2.72 points vs placebo. This is a class signal that NAD precursors can fail or harm in long, large trials [PMID:42848371].
+- [2026-09] Network MA (27 studies, n=1599): NMN improves endurance (SMD 0.66-1.02), not strength, fatigue or sleep [PMID:42774067].
+- [2026-07] SR/MA (15 RCTs): NMN is safe short-term; no broad metabolic benefit; DBP slightly lower [PMID:42514320].
+- [2026-07] Phase 2a DKD trial protocol (MIB-626 2 g/d for 24 weeks, n=156) published [PMID:42603990].
+- [2026-06] Sublingual vs oral crossover PK (n=14): sublingual raises 2PY/4PY faster, with no NAD+ difference [PMID:42304075].
+- [2026-05] EFSA positive novel-food opinion: β-NMN up to 300 mg/d for adults [PMID:42125559].
+- [2026-05] Retinal thickness RCT in older diabetics: safe; small temporal-region difference [PMID:42082179].
+- [2026-05] NR plus exercise RCT in Friedreich ataxia: combination raised peak VO2 vs control but not vs exercise alone [PMID:42009009].
+- [2026-04] Phase 1/2 oral NMN 900 mg/d in refractory ITP (n=25): well tolerated; 20% primary responders [PMID:42056497].
+- [2026-03] BP MA (10 RCTs): DBP -2.15 mmHg [PMID:41901064].
+- [2026-02] PDAC study: NMN promotes chemoresistance in vitro and in mice [PMID:41724424].
+- [2026-02] Human BFR-exercise crossover: NMN suppressed TNF-α but abolished the mitochondrial-content rise [PMID:41705654].
+- [2026-02] PRISMA SR (33 human studies): target engagement consistent; clinical outcomes heterogeneous or null [PMID:41655607].
+- [2026-01] Human RCT (n=65): NR = NMN > nicotinamide for NAD+ rise; gut conversion to nicotinic acid [PMID:41540253].
+- [2025-12] FDA reinstated NMN NDI notifications on 2 Dec 2025 [URL:https://www.nutraingredients.com/Article/2025/12/09/fda-reinstates-ndi-status-of-nmn-with-new-letters-to-ingredient-players].
+- [2025-10] Post hoc analysis: NMN-induced NAD rise tracks RBC and haemoglobin increases [PMID:41162813].
+- [2025-09] FDA reversed its 2022 drug-preclusion position on NMN [URL:https://www.npanational.org/news/amid-pressure-from-npa-fda-declares-nmn-lawful-in-dietary-supplements/].
+- [2025-06] Sarcopenia MA: NMN/NR do not improve muscle mass, grip or gait in adults over 60 [PMID:40275690].
+- [2025-06] MIB-626 RCT in COVID-19 with AKI: NAD+ rose about 2.7-fold; no effect on AKI or inflammation [PMID:40746868].
+
 ** Open questions
-- Whether biomarker elevation leads to durable clinical benefit or alters disease risk is unknown. [PMID:39116016] [PMID:40275690] [PMID:39221308]
+- Whether consistent NAD+ elevation translates into clinical benefit. Most functional and metabolic endpoints are null or small, and many positive trials are industry-funded with high or unclear risk of bias [PMID:39116016] [PMID:41655607].
+- Long-term (>6 month) safety, particularly regarding cancer progression in people with undiagnosed or active tumours, kidney function in older adults, and atherosclerosis [PMID:41724424] [PMID:38645109] [PMID:40143060].
+- The true absorption route (Slc12a8 vs microbial deamidation), and whether NMN offers anything beyond cheaper nicotinic acid or NR [PMID:32694648] [PMID:41540253].
+- Whether NAD precursors blunt training adaptations [PMID:41705654].
+- Product authenticity and α/β-isomer purity of retail products [PMID:38935229] [PMID:41545110].
+- Results from the MIB-626 DKD trial and any EU authorisation decision [PMID:42603990] [PMID:42125559].
+
 ** Sources
-- Efficacy of oral NMN supplementation on glucose and lipid metabolism in adults: systematic review and meta-analysis. Crit Rev Food Sci Nutr. 2024. DOI:10.1080/10408398.2024.2387324.
-- The effect of nicotinamide mononucleotide and riboside on skeletal muscle mass and function: systematic review and meta-analysis. 2025. PMID:40275690.
-- Systematic review of randomized controlled trials of NMN and physical performance. PMID:39221308.
+1. Yoshino M et al. Nicotinamide mononucleotide increases muscle insulin sensitivity in prediabetic women. Science. 2021. PMID:33888596 DOI:10.1126/science.abe9985
+2. Brenner C. Comment on "Nicotinamide mononucleotide increases muscle insulin sensitivity in prediabetic women". Science. 2021. PMID:34326206 DOI:10.1126/science.abj1696
+3. Liao B et al. NMN supplementation enhances aerobic capacity in amateur runners: a randomized, double-blind study. J Int Soc Sports Nutr. 2021. PMID:34238308 DOI:10.1186/s12970-021-00442-4
+4. Kim M et al. Effect of 12-week intake of NMN on sleep quality, fatigue, and physical performance in older Japanese adults: RCT. Nutrients. 2022. PMID:35215405 DOI:10.3390/nu14040755
+5. Igarashi M et al. Chronic NMN supplementation elevates blood NAD+ levels and alters muscle function in healthy older men. NPJ Aging. 2022. PMID:35927255 DOI:10.1038/s41514-022-00084-z
+6. Okabe K et al. Oral administration of NMN is safe and efficiently increases blood NAD+ levels in healthy subjects. Front Nutr. 2022. PMID:35479740 DOI:10.3389/fnut.2022.868640
+7. Yi L et al. Efficacy and safety of β-NMN supplementation in healthy middle-aged adults: dose-dependent RCT. Geroscience. 2023. PMID:36482258 DOI:10.1007/s11357-022-00705-1
+8. Kimura S et al. NMN is safely metabolized and significantly reduces blood triglyceride levels in healthy individuals. Cureus. 2022. PMID:36225528 DOI:10.7759/cureus.28812
+9. Yamaguchi S et al. Safety and efficacy of long-term NMN supplementation in healthy, middle-aged Japanese men. Endocr J. 2024. PMID:38191197 DOI:10.1507/endocrj.EJ23-0431
+10. Pencina KM et al. NAD augmentation in overweight or obese middle-aged and older adults: a physiologic study. J Clin Endocrinol Metab. 2023. PMID:36740954 DOI:10.1210/clinem/dgad027
+11. Pencina KM et al. MIB-626, a microcrystalline polymorph of β-NMN, increases circulating NAD and its metabolome. J Gerontol A Biol Sci Med Sci. 2023. PMID:35182418 DOI:10.1093/gerona/glac049
+12. Akasaka H et al. Effects of NMN on older patients with diabetes and impaired physical performance. Geriatr Gerontol Int. 2023. PMID:36443648 DOI:10.1111/ggi.14513
+13. Katayoshi T et al. NAD metabolism and arterial stiffness after long-term NMN supplementation: RCT. Sci Rep. 2023. PMID:36797393 DOI:10.1038/s41598-023-29787-3
+14. Fukamizu Y et al. Safety evaluation of β-NMN oral administration in healthy adult men and women. Sci Rep. 2022. PMID:36002548 DOI:10.1038/s41598-022-18272-y
+15. Irie J et al. Effect of oral NMN on clinical parameters and nicotinamide metabolite levels in healthy Japanese men. Endocr J. 2020. PMID:31685720 DOI:10.1507/endocrj.EJ19-0313
+16. Morifuji M et al. β-NMN increased blood NAD, maintained walking speed, and improved sleep quality in older adults: RCT. Geroscience. 2024. PMID:38789831 DOI:10.1007/s11357-024-01204-1
+17. Pencina KM et al. Oral MIB-626 safely raises blood NAD+ in hospitalized patients with COVID-19 and AKI: RCT. FASEB Bioadv. 2025. PMID:40746868 DOI:10.1096/fba.2025-00014
+18. Wakabayashi J et al. Sublingual NMN increases early circulating 2PY and 4PY compared with oral administration. Sci Rep. 2026. PMID:42304075 DOI:10.1038/s41598-026-57552-9
+19. Christen S et al. Differential impact of three NAD+ boosters on circulatory NAD and microbial metabolism in humans. Nat Metab. 2026. PMID:41540253 DOI:10.1038/s42255-025-01421-8
+20. Yang DL et al. Anti-inflammatory effects of NMN in human skeletal muscle after BFR-exercise. J Int Soc Sports Nutr. 2026. PMID:41705654 DOI:10.1080/15502783.2026.2632284
+21. Zhao C et al. Effects of PQQ and NMN on interoception following acute exhaustive exercise: RCT. Sci Rep. 2026. PMID:41651893 DOI:10.1038/s41598-025-34191-0
+22. Shiraki A et al. Effect of NMN on retinal thickness of older patients with diabetes mellitus. Geriatr Gerontol Int. 2026. PMID:42082179 DOI:10.1111/ggi.70516
+23. Li H et al. Low-dose oral NMN for immune thrombocytopenia: a phase 1/2 trial. Nat Med. 2026. PMID:42056497 DOI:10.1038/s41591-026-04366-x
+24. Kuerec AH et al. Blood NAD levels and laboratory parameters after NMN supplementation: post hoc analysis of an RCT. Geroscience. 2026. PMID:41162813 DOI:10.1007/s11357-025-01968-0
+25. Kuerec AH et al. Towards personalized NMN supplementation: NAD concentration. Mech Ageing Dev. 2024. PMID:38430946 DOI:10.1016/j.mad.2024.111917
+26. Chandra MS et al. NAD augmentation in diabetic kidney disease: randomized trial study protocol. Kidney Int Rep. 2026. PMID:42603990 DOI:10.1016/j.ekir.2026.106700
+27. Zhang M et al. Effects of NMN supplementation on blood pressure: SR and MA of RCTs. Nutrients. 2026. PMID:41901064 DOI:10.3390/nu18060890
+28. Yang W et al. Safety and metabolism-related outcomes of oral NMN supplementation in adults: SR and MA. Nutrients. 2026. PMID:42514320 DOI:10.3390/nu18142251
+29. Chen F et al. Effects of NMN on glucose and lipid metabolism in adults: SR and MA of RCTs. Curr Diab Rep. 2024. PMID:39531138 DOI:10.1007/s11892-024-01557-z
+30. Zhang J et al. Efficacy of oral NMN on glucose and lipid metabolism for adults: SR with MA of RCTs. Crit Rev Food Sci Nutr. 2025. PMID:39116016 DOI:10.1080/10408398.2024.2387324
+31. Prokopidis K et al. Effect of NMN and NR on skeletal muscle mass and function: SR and MA. J Cachexia Sarcopenia Muscle. 2025. PMID:40275690 DOI:10.1002/jcsm.13799
+32. Wen J et al. Improved physical performance parameters in patients taking NMN: SR of RCTs. Cureus. 2024. PMID:39221308 DOI:10.7759/cureus.65961
+33. Gao Y et al. Domain-specific effects of NAD+ precursors on fatigue and functional performance: SR and network MA. Front Nutr. 2026. PMID:42774067 DOI:10.3389/fnut.2026.1890335
+34. Gallagher C, Emmanuel OO. NAD+ supplementation for anti-aging and wellness: PRISMA-guided SR. Ageing Res Rev. 2026. PMID:41655607 DOI:10.1016/j.arr.2026.103057
+35. Song Q et al. The safety and antiaging effects of NMN in human clinical trials: an update. Adv Nutr. 2023. PMID:37619764 DOI:10.1016/j.advnut.2023.08.008
+36. EFSA NDA Panel. Safety of β-NMN pursuant to Regulation (EU) 2015/2283 and bioavailability of nicotinamide from this source. EFSA J. 2026. PMID:42125559 DOI:10.2903/j.efsa.2026.10007
+37. Cros C et al. Safety evaluation after acute and sub-chronic oral administration of high purity NMN (NMN-C) in rats. Food Chem Toxicol. 2021. PMID:33587977 DOI:10.1016/j.fct.2021.112060
+38. Turner J et al. Safety evaluation for Restorin NMN, a NAD+ precursor. Front Pharmacol. 2021. PMID:34867355 DOI:10.3389/fphar.2021.749727
+39. You Y et al. Subacute toxicity study of NMN via oral administration. Front Pharmacol. 2020. PMID:33384603 DOI:10.3389/fphar.2020.604404
+40. Sandalova E et al. Testing the amount of NMN and urolithin A compared to the label claim. Geroscience. 2024. PMID:38935229 DOI:10.1007/s11357-024-01257-2
+41. Hoei CS et al. Aqueous LC-MS/MS quantification of α-/β-NMN in dietary supplements. Anal Chim Acta. 2026. PMID:41545110 DOI:10.1016/j.aca.2025.345027
+42. Mills KF et al. Long-term administration of NMN mitigates age-associated physiological decline in mice. Cell Metab. 2016. PMID:28068222 DOI:10.1016/j.cmet.2016.09.013
+43. Grozio A et al. Slc12a8 is a nicotinamide mononucleotide transporter. Nat Metab. 2019. PMID:31131364 DOI:10.1038/s42255-018-0009-4
+44. Schmidt MS, Brenner C. Absence of evidence that Slc12a8 encodes an NMN transporter. Nat Metab. 2019. PMID:32694648 DOI:10.1038/s42255-019-0085-0
+45. Chini CCS et al. CD38 ecto-enzyme in immune cells is induced during aging and regulates NAD+ and NMN levels. Nat Metab. 2020. PMID:33199925 DOI:10.1038/s42255-020-00298-z
+46. Yoshino J et al. NAD+ intermediates: the biology and therapeutic potential of NMN and NR. Cell Metab. 2018. PMID:29249689 DOI:10.1016/j.cmet.2017.11.002
+47. Bhasin S et al. NAD+ in aging biology: potential applications and many unknowns. Endocr Rev. 2023. PMID:37364580 DOI:10.1210/endrev/bnad019
+48. Yaku K et al. NR and NMN facilitate NAD+ synthesis via enterohepatic circulation. Sci Adv. 2025. PMID:40117359 DOI:10.1126/sciadv.adr1538
+49. Madawala R et al. CD38 mediates NMN base exchange to yield nicotinic acid mononucleotide. J Biol Chem. 2025. PMID:39894219 DOI:10.1016/j.jbc.2025.108248
+50. Dutta T et al. Source of nicotinamide governs its metabolic fate in cultured cells, mice, and humans. Cell Rep. 2023. PMID:36897780 DOI:10.1016/j.celrep.2023.112218
+51. Zhang J et al. Emerging strategies, applications and challenges of targeting NAD+ in the clinic. Nat Aging. 2025. PMID:40926126 DOI:10.1038/s43587-025-00947-6
+52. Benjamin C, Crews R. NMN supplementation: understanding metabolic variability and clinical implications. Metabolites. 2024. PMID:38921475 DOI:10.3390/metabo14060341
+53. Nakazzi F et al. Vitamin B3 derivatives support pancreatic cancer cell survival and chemotherapy resistance. Cancer Lett. 2026. PMID:41724424 DOI:10.1016/j.canlet.2026.218334
+54. Ho WJ et al. Fertility protection during chemotherapy treatment by boosting the NAD(P)+ metabolome. EMBO Mol Med. 2024. PMID:39169162 DOI:10.1038/s44321-024-00119-w
+55. Shen L et al. NMN protects ovarian function and oocyte developmental competence during chemotherapy. J Ovarian Res. 2025. PMID:40849491 DOI:10.1186/s13048-025-01782-4
+56. Margier M et al. NMN administration prevents doxorubicin-induced cardiotoxicity and loss in physical activity in mice. Cells. 2022. PMID:36611902 DOI:10.3390/cells12010108
+57. Wen F et al. NMN supplementation alleviates doxorubicin-induced multi-organ fibrosis. Int J Mol Sci. 2024. PMID:38791345 DOI:10.3390/ijms25105303
+58. Zhang M et al. High-dosage NMN promotes ferroptosis to suppress lung adenocarcinoma growth. Cancers (Basel). 2023. PMID:37173894 DOI:10.3390/cancers15092427
+59. Podyacheva E, Toropova Y. The role of NAD+, SIRTs interactions in stimulating and counteracting carcinogenesis. Int J Mol Sci. 2023. PMID:37175631 DOI:10.3390/ijms24097925
+60. Garrido A, Djouder N. NAD+ deficits in age-related diseases and cancer. Trends Cancer. 2017. PMID:28780936 DOI:10.1016/j.trecan.2017.06.001
+61. Ghanem MS et al. Inhibitors of NAD+ production in cancer treatment: state of the art and perspectives. Int J Mol Sci. 2024. PMID:38396769 DOI:10.3390/ijms25042092
+62. Soncini D et al. NAD+ metabolism restriction boosts high-dose melphalan efficacy in multiple myeloma. Blood Adv. 2025. PMID:39661983 DOI:10.1182/bloodadvances.2024013425
+63. Ouyang X et al. NMN potentiates the anti-tumor efficacy of CAR-NK cell therapy targeting MSLN in ovarian cancer. Cancer Gene Ther. 2026. PMID:42595793 DOI:10.1038/s41417-026-01071-2
+64. Kane AE et al. Long-term NMN treatment increases lifespan and healthspan in mice in a sex dependent manner. bioRxiv. 2024. PMID:38979132 DOI:10.1101/2024.06.21.599604
+65. Saleh TA et al. Metabolite accumulation from oral NMN supplementation drives aging-specific kidney inflammation. bioRxiv. 2024. PMID:38645109 DOI:10.1101/2024.04.09.588624
+66. Wang P et al. NMN and NR improve dyslipidemia and fatty liver but promote atherosclerosis in ApoE knockout mice. Pharmaceuticals (Basel). 2025. PMID:40143060 DOI:10.3390/ph18030281
+67. Hwang ES, Song SB. Possible adverse effects of high-dose nicotinamide: mechanisms and safety assessment. Biomolecules. 2020. PMID:32365524 DOI:10.3390/biom10050687
+68. Shahbazian H et al. Oral nicotinamide reduces serum phosphorus, increases HDL, and induces thrombocytopenia in hemodialysis patients. Nefrologia. 2011. PMID:21270914 DOI:10.3265/Nefrologia.pre2010.Nov.10734
+69. Hussain S et al. Nicotinamide therapy in dialysis patients: SR of RCTs. Saudi J Kidney Dis Transpl. 2020. PMID:33229753 DOI:10.4103/1319-2442.301195
+70. Li D et al. Nicotinamide supplementation induces detrimental metabolic and epigenetic changes in developing rats. Br J Nutr. 2013. PMID:23768418 DOI:10.1017/S0007114513001815
+71. Finkelstein JD et al. Effect of nicotinamide on methionine metabolism in rat liver. J Nutr. 1988. PMID:2969042 DOI:10.1093/jn/118.7.829
+72. Hong S et al. NNMT interacts with enzymes of the methionine cycle and regulates methyl donor metabolism. Biochemistry. 2018. PMID:30226369 DOI:10.1021/acs.biochem.8b00561
+73. Gaare JJ et al. NR supplementation is not associated with altered methylation homeostasis in Parkinson's disease. iScience. 2023. PMID:36936793 DOI:10.1016/j.isci.2023.106278
+74. Berven H et al. NR-SAFE: randomized safety trial of high dose NR in Parkinson's disease. Nat Commun. 2023. PMID:38016950 DOI:10.1038/s41467-023-43514-6
+75. Conze D et al. Safety and metabolism of long-term administration of NIAGEN (NR chloride): RCT. Sci Rep. 2019. PMID:31278280 DOI:10.1038/s41598-019-46120-z
+76. Brakedal B et al. Nicotinamide riboside for early-stage Parkinson disease: the NOPARK RCT. JAMA. 2026. PMID:42848371 DOI:10.1001/jama.2026.18828
+77. Lin KY et al. Individualised exercise and NAD+ precursor supplementation in Friedreich's ataxia: 2x2 factorial RCT. Lancet Neurol. 2026. PMID:42009009 DOI:10.1016/S1474-4422(26)00082-7
+78. Sharma A et al. Potential synergistic supplementation of NAD+ promoting compounds as a strategy for increasing healthspan. Nutrients. 2023. PMID:36678315 DOI:10.3390/nu15020445
+79. Dellinger RW et al. Repeat dose NRPT (NR and pterostilbene) increases NAD+ levels in humans safely: RCT. NPJ Aging Mech Dis. 2017. PMID:29184669 DOI:10.1038/s41514-017-0016-9
+80. Simic P et al. NRPT increases NAD+ in patients with acute kidney injury: RCT. BMC Nephrol. 2020. PMID:32791973 DOI:10.1186/s12882-020-02006-1
+81. Holmes HE et al. NR and pterostilbene reduce symptoms of the menopause transition: open-label pilot. Front Aging. 2026. PMID:42211736 DOI:10.3389/fragi.2026.1773667
+82. Benjamin D et al. Dual inhibition of MCT1 and MCT4 is synthetic lethal with metformin due to NAD+ depletion in cancer cells. Cell Rep. 2018. PMID:30540938 DOI:10.1016/j.celrep.2018.11.043
+83. Cabrera SNS et al. Metformin-restricted motility of an NRF2-activated lung cancer cell line involves NAD+ depletion. Sci Rep. 2026. PMID:42414524 DOI:10.1038/s41598-026-61444-3
+84. FDA NMN drug-preclusion determination and ANH/NPA citizen petition (2022-2023). SupplySide SJ. URL:https://www.supplysidesj.com/regulatory/anh-npa-ask-fda-reverse-position-nmn-supplements
+85. FDA response to NMN citizen petitions (Sept 2025). Nutritional Outlook. URL:https://www.nutritionaloutlook.com/view/fda-responds-to-citizen-petitions-on-nmn-amending-its-position-on-the-ingredient-s-status-as-a-dietary-ingredient
+86. NPA. FDA declares NMN lawful in dietary supplements (29 Sept 2025). URL:https://www.npanational.org/news/amid-pressure-from-npa-fda-declares-nmn-lawful-in-dietary-supplements/
+87. FDA reinstates NDI status of NMN (letters of 2 Dec 2025). NutraIngredients. URL:https://www.nutraingredients.com/Article/2025/12/09/fda-reinstates-ndi-status-of-nmn-with-new-letters-to-ingredient-players

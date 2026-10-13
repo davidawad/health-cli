@@ -5,15 +5,361 @@
   "aliases": [
     "Lutein",
     "Zeaxanthin",
-    "Macular xanthophylls"
+    "meso-Zeaxanthin",
+    "Lutein/zeaxanthin",
+    "L/Z",
+    "macular xanthophylls",
+    "macular carotenoids",
+    "marigold (Tagetes erecta) extract",
+    "lutein esters",
+    "AREDS2 carotenoids"
   ],
   "category": "other",
   "rx_status": "otc",
   "evidence_certainty_overall": "moderate",
-  "edges": [],
+  "edges": [
+    {
+      "with": "Zinc",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Co-component of the AREDS/AREDS2 formula (zinc 80 mg or 25 mg + copper 2 mg with L/Z 10/2 mg); zinc alone slowed AMD progression. Lowering zinc from 80 to 25 mg did not change progression at 5 or 10 years. AREDS zinc linked to genitourinary problems in men; no high- vs low-dose difference in AREDS2.",
+      "evidence": "AREDS RCT, AREDS2 secondary randomization and 10-y follow-up (HR low vs high zinc 1.04, 0.94-1.14), Cochrane 2023; moderate certainty",
+      "citations": [
+        "PMID:22840421",
+        "PMID:23644932",
+        "PMID:35653117",
+        "PMID:11594942",
+        "PMID:37702300",
+        "PMID:31358387"
+      ]
+    },
+    {
+      "with": "Vitamin C",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Vitamin C 500 mg is a fixed co-component of the AREDS2 formula in which L/Z replaced beta-carotene; benefit is established for the combined formula, not for individual components.",
+      "evidence": "AREDS/AREDS2 RCTs and Cochrane review; moderate certainty for the combination",
+      "citations": [
+        "PMID:22840421",
+        "PMID:37702300",
+        "PMID:11594942"
+      ]
+    },
+    {
+      "with": "Vitamin E",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Vitamin E 400 IU is a co-component of the AREDS2 formula; alone it did not prevent AMD (RR 0.97) and may slightly raise late AMD risk.",
+      "evidence": "AREDS2 design; Cochrane prevention review (4 RCTs, n=55,614); moderate certainty",
+      "citations": [
+        "PMID:22840421",
+        "PMID:28756617",
+        "PMID:37702300"
+      ]
+    },
+    {
+      "with": "EPA/DHA/DPA",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Tested factorially with L/Z in AREDS2: no interaction and no added benefit for AMD progression or cognition; no evidence of harm from co-use.",
+      "evidence": "AREDS2 RCT (n=4203) and cognitive substudy (n=3501); high certainty for absence of added benefit",
+      "citations": [
+        "PMID:23644932",
+        "PMID:26305649",
+        "PMID:35653117"
+      ]
+    },
+    {
+      "with": "Astaxanthin",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Xanthophylls share micellar/SR-BI absorption routes; high-dose single xanthophylls lowered other xanthophylls in non-retinal tissues in chicks. In humans, 6 mg astaxanthin + 10 mg L + 2 mg Z still raised MPOD over 8 weeks.",
+      "evidence": "One human RCT of the combination plus animal/mechanistic data; very low certainty of a clinically relevant interaction",
+      "citations": [
+        "PMID:36986186",
+        "PMID:20082082",
+        "PMID:10047699"
+      ]
+    },
+    {
+      "with": "Lycopene",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Lutein and lycopene compete for incorporation into chylomicrons postprandially, but 3-week co-supplementation did not lower plasma status; lycopene did not reduce lutein uptake in Caco-2 cells.",
+      "evidence": "Human postprandial and 3-week crossover data plus in vitro; low certainty, probably not clinically important",
+      "citations": [
+        "PMID:11864859",
+        "PMID:15554873",
+        "PMID:10047699"
+      ]
+    },
+    {
+      "with": "Beta-carotene",
+      "with_kind": "supplement",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Beta-carotene competes with lutein for intestinal uptake (about 20% lower in Caco-2) and lowered retinal L/Z at high intake in chicks; in AREDS2 it was associated with more lung cancer (OR 1.82 at 10 y) mostly in former smokers, while L/Z outperformed it for late AMD (HR 0.82; 10-y HR 0.85).",
+      "evidence": "AREDS2 RCT and 10-y follow-up, ATBC/CARET, mechanistic data; moderate certainty",
+      "citations": [
+        "PMID:15554873",
+        "PMID:20082082",
+        "PMID:23644932",
+        "PMID:24310343",
+        "PMID:35653117",
+        "PMID:8127329"
+      ]
+    },
+    {
+      "with": "orlistat",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Lipase inhibition reduces absorption of fat-soluble carotenoids (beta-carotene dose absorption about one-third lower; plasma alpha/beta-carotene down 45%/32% over 4.5 months, L/Z unchanged in n=6). Label advises a multivitamin taken at least 2 h before or after orlistat.",
+      "evidence": "Human PK study (n=48), small cohort (n=6), FDA label; low certainty for L/Z specifically",
+      "citations": [
+        "PMID:8852391",
+        "PMID:17707976",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6240792b-9224-2d10-e053-2a91aa0a2c3e"
+      ]
+    },
+    {
+      "with": "bile acid sequestrants",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Cholestyramine/colestipol/colesevelam bind bile acids needed for micellar absorption of fat-soluble nutrients (cholestyramine cut vitamin A absorption 59.5%); labels advise separating doses (1 h before or 4-6 h after cholestyramine; vitamins at least 4 h before colesevelam).",
+      "evidence": "Human absorption study for vitamin A plus drug labels; no direct L/Z data; very low certainty",
+      "citations": [
+        "PMID:4706914",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=214ea05f-de81-4026-9df9-4ce3820668ee",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5ca9a9b7-5efd-09bf-e063-6294a90a681d"
+      ]
+    },
+    {
+      "with": "ezetimibe",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Lutein uptake is partly NPC1L1-mediated; ezetimibe inhibited up to 40% of lutein accumulation in Caco-2 cells.",
+      "evidence": "In vitro only; no human data; very low certainty",
+      "citations": [
+        "PMID:22579005",
+        "PMID:15554873"
+      ]
+    },
+    {
+      "with": "statins",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "L/Z are transported mainly on HDL/lipoproteins; atorvastatin (not rosuvastatin) lowered MPOD in a small study and MPOD fell with longer statin duration. 44% of AREDS2 participants used statins.",
+      "evidence": "Cross-sectional and small case-series data; very low certainty",
+      "citations": [
+        "PMID:22375926",
+        "PMID:22840421"
+      ]
+    },
+    {
+      "with": "plant sterol/stanol esters",
+      "with_kind": "food",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Phytosterols reduce micellar carotenoid absorption: 6.6 g/d lowered plasma lutein 14%; 18-month stanol/sterol margarine lowered serum L/Z without lowering MPOD.",
+      "evidence": "Controlled human trials; low certainty for clinical relevance",
+      "citations": [
+        "PMID:15145979",
+        "PMID:18986598"
+      ]
+    },
+    {
+      "with": "dietary fat (meal timing)",
+      "with_kind": "food",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Lutein esters need more dietary fat than carotenes for absorption: plasma lutein rose 207% with 36 g fat vs 88% with 3 g fat; oil-based/self-emulsifying formulations raise bioavailability.",
+      "evidence": "Human RCT and PK studies; moderate certainty",
+      "citations": [
+        "PMID:10799382",
+        "PMID:42449082"
+      ]
+    },
+    {
+      "with": "current or former smoking",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Beta-carotene formulas raise lung cancer in smokers/former smokers, so L/Z (AREDS2) formula is preferred; L/Z itself showed no significant lung-cancer excess in AREDS2 (OR 1.15, 0.79-1.66), but long-term individual lutein supplement use was associated with lung cancer in the VITAL cohort (HR 2.02).",
+      "evidence": "RCTs (AREDS2, ATBC, CARET) and one observational cohort; low certainty for lutein itself",
+      "citations": [
+        "PMID:35653117",
+        "PMID:23644932",
+        "PMID:8127329",
+        "PMID:8602180",
+        "PMID:19208726"
+      ]
+    },
+    {
+      "with": "intermediate age-related macular degeneration",
+      "with_kind": "condition",
+      "kind": "synergy",
+      "severity": "moderate",
+      "mechanism": "Indication: AREDS antioxidant+zinc formula slows progression (OR 0.72); L/Z is the preferred carotenoid in that formula (vs beta-carotene HR 0.82) and slowed GA growth toward the fovea; L/Z alone has little effect (RR 0.94).",
+      "evidence": "AREDS, AREDS2, Cochrane 2023; moderate certainty",
+      "citations": [
+        "PMID:37702300",
+        "PMID:24310343",
+        "PMID:35653117",
+        "PMID:39025435",
+        "PMID:11594942"
+      ]
+    },
+    {
+      "with": "obesity",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Adipose tissue competes with retina for L/Z; MPOD inversely related to BMI/body fat (about 21% lower MP in BMI >29), and waist circumference/diabetes predict lower MPOD.",
+      "evidence": "Cross-sectional studies; low certainty",
+      "citations": [
+        "PMID:11773011",
+        "PMID:17093164"
+      ]
+    },
+    {
+      "with": "hypothyroidism",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Hypothyroidism and diabetes predispose to hypercarotenaemia/carotenodermia at ordinary carotenoid intakes; adding high-dose lutein makes skin yellowing more likely.",
+      "evidence": "Narrative review; very low certainty",
+      "citations": [
+        "PMID:29460797",
+        "PMID:9924266"
+      ]
+    },
+    {
+      "with": "pregnancy and lactation",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "L/Z 10/2 mg in pregnancy raised maternal macular pigment and 5-fold cord-blood L/Z without reported harm; 6-12 mg/d in lactation raised breast-milk lutein 140-250% and infant plasma lutein.",
+      "evidence": "Small RCTs (L-ZIP; lactation RCT n=89); low certainty",
+      "citations": [
+        "PMID:37247819",
+        "PMID:39071916",
+        "PMID:24899160"
+      ]
+    },
+    {
+      "with": "serum bilirubin / jaundice evaluation",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "High lutein intake causes carotenodermia (yellow skin, palms/soles) that can be mistaken for jaundice; it reflects carotenaemia, not hyperbilirubinaemia.",
+      "evidence": "Case report, supplementation study and review; low certainty",
+      "citations": [
+        "PMID:10748650",
+        "PMID:9924266",
+        "PMID:29460797"
+      ]
+    },
+    {
+      "with": "skin carotenoid score (resonance Raman / reflection spectroscopy)",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Supplemental L/Z raises skin carotenoid readings used as an objective fruit/vegetable-intake biomarker, overstating dietary intake.",
+      "evidence": "RCTs showing skin carotenoid increases with L/Z (L-ZIP, central obesity RCT) and biomarker validation review; moderate certainty",
+      "citations": [
+        "PMID:23823930",
+        "PMID:37247819",
+        "PMID:39964702"
+      ]
+    },
+    {
+      "with": "macular pigment optical density vs serum carotenoids",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "In AREDS2 participants MPOD did not correlate with serum or skin carotenoids, so serum L/Z is a poor proxy for retinal status; MPOD response is largest with low baseline.",
+      "evidence": "AREDS2 ancillary imaging study and MA; low certainty",
+      "citations": [
+        "PMID:22879423",
+        "PMID:27420092"
+      ]
+    },
+    {
+      "with": "SCARB1 / RPE65 / ABCA1 / FADS1 variants",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Variants in carotenoid transport/lipid genes (SCARB1 rs11057841, RPE65 rs4926339, ABCA1 rs1929841, FADS1 rs174534) were associated with MPOD response to supplementation.",
+      "evidence": "Candidate-gene study in TwinsUK (n=310), unreplicated; very low certainty",
+      "citations": [
+        "PMID:23891863"
+      ]
+    },
+    {
+      "with": "CFH / ARMS2 AMD risk genotypes",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "CFH and ARMS2 risk alleles did not modify response to L/Z vs beta-carotene, low vs high zinc, or omega-3 in AREDS2; genotype-guided formula selection is not supported.",
+      "evidence": "AREDS2 genetic analysis (1684 participants); moderate certainty for no interaction",
+      "citations": [
+        "PMID:31358387"
+      ]
+    }
+  ],
   "citations": [
+    "PMID:22840421",
     "PMID:23644932",
+    "PMID:35653117",
+    "PMID:11594942",
+    "PMID:37702300",
+    "PMID:31358387",
+    "PMID:28756617",
+    "PMID:26305649",
+    "PMID:36986186",
+    "PMID:20082082",
+    "PMID:10047699",
+    "PMID:11864859",
+    "PMID:15554873",
     "PMID:24310343",
-    "PMID:10498493"
+    "PMID:8127329",
+    "PMID:8852391",
+    "PMID:17707976",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6240792b-9224-2d10-e053-2a91aa0a2c3e",
+    "PMID:4706914",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=214ea05f-de81-4026-9df9-4ce3820668ee",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5ca9a9b7-5efd-09bf-e063-6294a90a681d",
+    "PMID:22579005",
+    "PMID:22375926",
+    "PMID:15145979",
+    "PMID:18986598",
+    "PMID:10799382",
+    "PMID:42449082",
+    "PMID:8602180",
+    "PMID:19208726",
+    "PMID:39025435",
+    "PMID:11773011",
+    "PMID:17093164",
+    "PMID:29460797",
+    "PMID:9924266",
+    "PMID:37247819",
+    "PMID:39071916",
+    "PMID:24899160",
+    "PMID:10748650",
+    "PMID:23823930",
+    "PMID:39964702",
+    "PMID:22879423",
+    "PMID:27420092",
+    "PMID:23891863"
   ]
 }

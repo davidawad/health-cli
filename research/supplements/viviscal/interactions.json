@@ -3,8 +3,14 @@
   "supplement": "Viviscal",
   "slug": "viviscal",
   "aliases": [
-    "Viviscal",
-    "AminoMar"
+    "Viviscal Extra Strength",
+    "Viviscal Professional",
+    "Viviscal Man",
+    "Viviscal Advanced Hair Health",
+    "AminoMar",
+    "AminoMar C",
+    "marine protein supplement (MPS)",
+    "marine complex supplement"
   ],
   "category": "other",
   "rx_status": "otc",
@@ -14,17 +20,294 @@
       "with": "fish allergy",
       "with_kind": "condition",
       "kind": "avoid",
-      "severity": "moderate",
-      "mechanism": "Some formulations contain marine proteins; allergy risk depends on formulation.",
-      "evidence": "Clinical trial describes marine-derived supplement; product ingredient labels vary.",
+      "severity": "major",
+      "mechanism": "Labels declare fish (shark) ingredients; fish collagen/gelatin is a recognized fish allergen (21% of fish-allergic patients sensitized) and fish-collagen tablets have caused anaphylaxis. Shark (cartilaginous) cross-reactivity is lower but not absent.",
+      "evidence": "Product label; allergen cohort studies, case report, molecular review; no challenge data with Viviscal itself",
       "citations": [
-        "PMID:26903744"
+        "URL:https://api.ods.od.nih.gov/dsld/v9/label/331690",
+        "PMID:32389794",
+        "PMID:33178560",
+        "PMID:28117510",
+        "PMID:27236375"
+      ]
+    },
+    {
+      "with": "shellfish/mollusc allergy",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Labels declare mollusc (oyster extract) content; oyster tropomyosin (Cra g 1) is the main mollusc allergen and cross-reacts across molluscs.",
+      "evidence": "Product label plus allergen reviews; no product-specific challenge data",
+      "citations": [
+        "URL:https://api.ods.od.nih.gov/dsld/v9/label/331690",
+        "PMID:18291306",
+        "PMID:27404324"
+      ]
+    },
+    {
+      "with": "cardiac troponin",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "moderate",
+      "mechanism": "Biotin component (about 240 mcg/day in the women's formula) can falsely lower streptavidin-biotin troponin assays; FDA reported a death after a falsely low troponin with high-dose biotin. Risk at Viviscal's dose alone is probably low except on the most sensitive assays (Ortho TnI threshold 2.5 ug/L); higher when stacked with other biotin products.",
+      "evidence": "FDA safety communication (report), real-world prevalence and risk-model studies; no serum biotin data at Viviscal dose",
+      "citations": [
+        "URL:https://www.tctmd.com/news/fda-reminds-clinicians-about-biotin-interference-troponin-tests",
+        "PMID:32804676",
+        "PMID:32936669",
+        "PMID:30296442"
+      ]
+    },
+    {
+      "with": "thyroid function tests",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "moderate",
+      "mechanism": "Biotin falsely lowers TSH/thyroglobulin (sandwich assays) and raises FT4/FT3 (competitive assays), mimicking Graves' disease; shown at 10 mg/day with peak 2 h post-dose. Platform-dependent.",
+      "evidence": "Prospective dosing study, case reports with literature review, 2026 ETA guideline",
+      "citations": [
+        "PMID:34042535",
+        "PMID:27362288",
+        "PMID:29856977",
+        "PMID:42466561"
+      ]
+    },
+    {
+      "with": "biotin-streptavidin immunoassays (hormones, ferritin, vitamin D, B12, PTH, PSA, NT-proBNP)",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Biotin interference in other immunoassays; newer reagents tolerate 1000-3000 ng/mL, older ones less. Disclose biotin intake to the laboratory.",
+      "evidence": "Analytical spiking studies and reviews",
+      "citations": [
+        "PMID:32567529",
+        "PMID:30296442",
+        "PMID:40417451",
+        "PMID:32324155"
+      ]
+    },
+    {
+      "with": "B Complex",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Additive biotin from B-complex or hair/skin/nail products raises cumulative biotin and the chance of immunoassay interference.",
+      "evidence": "Inferred from dose-dependent interference data",
+      "citations": [
+        "PMID:34042535",
+        "PMID:27362288"
+      ]
+    },
+    {
+      "with": "levothyroxine",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Iron (20 mg/day) and calcium (120 mg/day) in the formula chelate/adsorb levothyroxine and reduce absorption; ferrous sulfate caused hypothyroidism, persisting in one case despite 4 h separation. Separate doses and check TSH.",
+      "evidence": "Case reports, prospective calcium study (TSH 1.6 to 2.7 mIU/L), PK crossover (20-25% lower absorption); doses in Viviscal lower than in studies",
+      "citations": [
+        "PMID:9191742",
+        "PMID:42438581",
+        "PMID:10838651",
+        "PMID:21595516",
+        "PMID:19942153"
+      ]
+    },
+    {
+      "with": "fluoroquinolones",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Calcium, iron and zinc chelate quinolones and reduce antibiotic absorption; separate dosing.",
+      "evidence": "Pharmacokinetic interaction review",
+      "citations": [
+        "PMID:2686430"
+      ]
+    },
+    {
+      "with": "tetracyclines",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Iron and calcium salts chelate tetracyclines, reducing absorption by 50-90%; a 3-hour interval prevents the interaction.",
+      "evidence": "Pharmacokinetic review",
+      "citations": [
+        "PMID:946598"
+      ]
+    },
+    {
+      "with": "Zinc",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Viviscal supplies about 22 mg/day zinc (near EFSA UL 25 mg); adding a zinc supplement can exceed ULs and cause zinc-induced copper deficiency (anemia, neutropenia, neuropathy), often undiagnosed.",
+      "evidence": "Toxicology review and case series from a trace-element laboratory",
+      "citations": [
+        "PMID:38999082",
+        "PMID:37070154"
+      ]
+    },
+    {
+      "with": "Heme Iron (Proferrin)",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Cumulative iron intake (Viviscal 20 mg/day non-heme iron); no evidence that iron helps hair without documented deficiency; raises overload risk in susceptible people.",
+      "evidence": "Reviews; no interaction study",
+      "citations": [
+        "PMID:16635664",
+        "PMID:35755397"
+      ]
+    },
+    {
+      "with": "hereditary hemochromatosis / iron overload",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Supplemental iron plus vitamin C (which enhances non-heme iron absorption) works against the management goal of keeping ferritin low by phlebotomy.",
+      "evidence": "Management guidance plus absorption reviews; inference",
+      "citations": [
+        "PMID:9867745",
+        "PMID:15743017"
+      ]
+    },
+    {
+      "with": "Vitamin C",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Viviscal contains about 118 mg/day vitamin C; extra vitamin C further enhances non-heme iron absorption from meals, though the effect over a full diet is small.",
+      "evidence": "Iron-absorption studies",
+      "citations": [
+        "PMID:15743017",
+        "PMID:11124756"
+      ]
+    },
+    {
+      "with": "Green Tea Extract",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Phenolic-rich green tea extract reduced non-heme iron absorption (12.1% to 8.9%); may blunt the iron component if co-ingested.",
+      "evidence": "Isotope-labelled meal study in women",
+      "citations": [
+        "PMID:11237939"
+      ]
+    },
+    {
+      "with": "Collagen",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Duplicates the marine collagen component; fish-derived collagen peptides are a fish allergen and have their own hair-diameter RCT data.",
+      "evidence": "One RCT plus allergen cohort; no combination study",
+      "citations": [
+        "PMID:41788055",
+        "PMID:32389794"
+      ]
+    },
+    {
+      "with": "diuretics/antihypertensives",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Horsetail (Equisetum arvense) is diuretic (comparable to HCTZ) and lowered BP at 900 mg/day; Viviscal contains only 25-73 mg/day, so additive effect is theoretical.",
+      "evidence": "Two small RCTs of horsetail extract; dose far above Viviscal's",
+      "citations": [
+        "PMID:24723963",
+        "PMID:35168030"
+      ]
+    },
+    {
+      "with": "Lithium",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Theoretical: horsetail's diuretic effect could alter lithium clearance; no case reports or studies found at Viviscal's low horsetail dose.",
+      "evidence": "Mechanistic inference only from horsetail diuretic RCT",
+      "citations": [
+        "PMID:24723963"
+      ]
+    },
+    {
+      "with": "pregnancy/lactation",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "minor",
+      "mechanism": "Label states the product is not intended for pregnant or nursing women or under-18s; no safety data exist.",
+      "evidence": "Label precaution only",
+      "citations": [
+        "URL:https://api.ods.od.nih.gov/dsld/v9/label/331690"
+      ]
+    },
+    {
+      "with": "young children (accidental iron ingestion)",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Iron-containing tablets are a leading cause of fatal poisoning in children under 6; keep out of reach.",
+      "evidence": "Label warning; population-based case-control study",
+      "citations": [
+        "URL:https://api.ods.od.nih.gov/dsld/v9/label/331690",
+        "PMID:12796332"
+      ]
+    },
+    {
+      "with": "hair loss with nutritional deficiency (iron, zinc)",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Micronutrient components are most plausibly helpful when deficiency exists; TE is linked to low ferritin and vitamin D, AA to low zinc. Test and treat the cause rather than supplementing blindly.",
+      "evidence": "Meta-analyses of observational data, reviews",
+      "citations": [
+        "PMID:42077991",
+        "PMID:39739356",
+        "PMID:41692085",
+        "PMID:36449274"
       ]
     }
   ],
   "citations": [
-    "PMID:26903744",
-    "PMID:27506633",
-    "PMID:26903744"
+    "URL:https://api.ods.od.nih.gov/dsld/v9/label/331690",
+    "PMID:32389794",
+    "PMID:33178560",
+    "PMID:28117510",
+    "PMID:27236375",
+    "PMID:18291306",
+    "PMID:27404324",
+    "URL:https://www.tctmd.com/news/fda-reminds-clinicians-about-biotin-interference-troponin-tests",
+    "PMID:32804676",
+    "PMID:32936669",
+    "PMID:30296442",
+    "PMID:34042535",
+    "PMID:27362288",
+    "PMID:29856977",
+    "PMID:42466561",
+    "PMID:32567529",
+    "PMID:40417451",
+    "PMID:32324155",
+    "PMID:9191742",
+    "PMID:42438581",
+    "PMID:10838651",
+    "PMID:21595516",
+    "PMID:19942153",
+    "PMID:2686430",
+    "PMID:946598",
+    "PMID:38999082",
+    "PMID:37070154",
+    "PMID:16635664",
+    "PMID:35755397",
+    "PMID:9867745",
+    "PMID:15743017",
+    "PMID:11124756",
+    "PMID:11237939",
+    "PMID:41788055",
+    "PMID:24723963",
+    "PMID:35168030",
+    "PMID:12796332",
+    "PMID:42077991",
+    "PMID:39739356",
+    "PMID:41692085",
+    "PMID:36449274"
   ]
 }

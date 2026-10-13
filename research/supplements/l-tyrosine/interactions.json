@@ -4,13 +4,338 @@
   "slug": "l-tyrosine",
   "aliases": [
     "Tyrosine",
-    "L-Tyrosine"
+    "L-Tyr",
+    "Tyr",
+    "4-hydroxyphenylalanine",
+    "N-acetyl-L-tyrosine (NALT)"
   ],
   "category": "amino-acid",
   "rx_status": "otc",
   "evidence_certainty_overall": "low",
-  "edges": [],
+  "edges": [
+    {
+      "with": "MAO inhibitors (phenelzine, tranylcypromine, isocarboxazid)",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Phenelzine (Nardil) US label lists L-tyrosine among 'related compounds' (with L-dopa, L-tryptophan, phenylalanine) that patients should not take because of hypertensive-crisis risk. Tyrosine is a catecholamine precursor, not tyramine: the classic MAOI dietary pressor reaction is caused by tyramine (a decarboxylated amine normally cleared by gut/hepatic MAO), so tyramine-diet data cannot be transferred to tyrosine.",
+      "evidence": "Label warning only (phenelzine; not in tranylcypromine label); no published tyrosine-MAOI hypertensive-crisis case found; the only review asserting safety (Hinz 2014) is retracted",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=513a41d0-37d4-4355-8a6d-a2c643bce6fa",
+        "PMID:30255284",
+        "PMID:35721816",
+        "PMID:25092999"
+      ]
+    },
+    {
+      "with": "levodopa (carbidopa/levodopa)",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Tyrosine is a large neutral amino acid competing with levodopa for intestinal transport and for LAT1 (SLC7A5) at the blood-brain barrier; oral LNAAs (100 mg/kg) reversed infused levodopa's clinical effect without lowering plasma levodopa. Separate tyrosine from levodopa doses.",
+      "evidence": "Mechanistic + human LNAA challenge study (tyrosine itself not tested) + label high-protein warning; 7-day RCT of 1 g/d tyrosine in levodopa-treated PD showed no harm",
+      "citations": [
+        "PMID:6694694",
+        "PMID:25073474",
+        "PMID:41067390",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9b17b028-964a-473c-823d-81423535bd66",
+        "PMID:30363894"
+      ]
+    },
+    {
+      "with": "Dexedrine",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Tyrosine availability scales amphetamine-evoked dopamine release: acute tyrosine/phenylalanine depletion reduced d-amphetamine-induced striatal DA release (PET) and subjective stimulant effects. Loading could plausibly augment stimulant effects (additive catecholaminergic action); phenelzine label also groups amphetamines with tyrosine.",
+      "evidence": "Human depletion studies (converse direction); no human loading + amphetamine study",
+      "citations": [
+        "PMID:14583741",
+        "PMID:10475719",
+        "PMID:11581118"
+      ]
+    },
+    {
+      "with": "methylphenidate",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Exogenous tyrosine potentiated and prolonged methylphenidate-induced extracellular dopamine in rat nucleus accumbens.",
+      "evidence": "Animal microdialysis only",
+      "citations": [
+        "PMID:1760749"
+      ]
+    },
+    {
+      "with": "nitisinone",
+      "with_kind": "drug",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Nitisinone (NTBC) blocks HPPD and raises plasma tyrosine; hypertyrosinemia causes keratopathy (symptoms controlled below ~600 umol/L); management is tyrosine/phenylalanine restriction, so supplemental tyrosine is counterproductive.",
+      "evidence": "Case reports, case series and observational dietary studies in alkaptonuria",
+      "citations": [
+        "PMID:28879639",
+        "PMID:31503358",
+        "PMID:34736252"
+      ]
+    },
+    {
+      "with": "thyroid hormone (levothyroxine) / antithyroid drugs",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Tyrosine is the backbone of T4/T3, but hormones are formed by TPO iodination of tyrosyl residues within thyroglobulin under TSH control; free tyrosine is not rate-limiting. No interaction expected; no study found.",
+      "evidence": "Mechanistic; 12-month tyrosine use in YARS2 disease showed no thyroid toxicity",
+      "citations": [
+        "PMID:28153798",
+        "PMID:36834802",
+        "PMID:41404429"
+      ]
+    },
+    {
+      "with": "hyperthyroidism",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Theoretical concern because tyrosine is a thyroid-hormone and catecholamine precursor; physiologically, iodide and TSH, not tyrosine, drive synthesis. A catecholamine precursor could theoretically add to adrenergic symptoms (HR/BP rose during a multitask battery in a 150 mg/kg trial, not clearly attributable to tyrosine).",
+      "evidence": "Mechanistic only; no clinical data in hyperthyroid patients",
+      "citations": [
+        "PMID:28153798",
+        "PMID:10548261"
+      ]
+    },
+    {
+      "with": "Iodine (potassium iodide)",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Complementary substrates of thyroid hormone synthesis (iodide is oxidized by TPO and incorporated into thyroglobulin tyrosyl residues); iodine availability is the nutritional limit, so no additive thyroid effect from co-supplementation is expected.",
+      "evidence": "Mechanistic reviews; no co-supplementation study",
+      "citations": [
+        "PMID:34960019",
+        "PMID:36834802",
+        "PMID:28153798"
+      ]
+    },
+    {
+      "with": "Caffeine",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Complementary mechanisms (adenosine antagonism + catecholamine precursor); commonly co-formulated. A caffeine+theanine+tyrosine product improved movement accuracy in athletes; caffeine and tyrosine are the leading military nootropic candidates, though caffeine drives most energy-drink effects.",
+      "evidence": "One industry-funded crossover RCT of a combination product (n=20); expert reviews; contribution of tyrosine not isolated",
+      "citations": [
+        "PMID:31771598",
+        "PMID:38851246",
+        "PMID:36862943"
+      ]
+    },
+    {
+      "with": "L-Theanine",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Often combined for 'calm focus'. In a 3-arm RCT (n=80) neither altered salivary stress markers; only tyrosine 2 g reduced Stroop missed responses. Combination only tested within a caffeine-containing product.",
+      "evidence": "RCT comparing each alone; one combination-product RCT; synergy unproven",
+      "citations": [
+        "PMID:38975711",
+        "PMID:31771598"
+      ]
+    },
+    {
+      "with": "Lithium",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "In bipolar disorder, dietary tyrosine depletion reduced mania ratings, implying tyrosine loading could work against antimanic treatment; lithium (unlike clozapine) did not correct reduced fibroblast tyrosine uptake in bipolar patients.",
+      "evidence": "Small RCT of depletion in mania (n=20); in vitro fibroblast study; no tyrosine-loading data",
+      "citations": [
+        "PMID:11581118",
+        "PMID:37318540"
+      ]
+    },
+    {
+      "with": "bipolar disorder / mania",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Tyrosine-free amino acid mixture attenuated methamphetamine effects and lowered mania ratings, supporting a role of precursor availability in pathological dopamine overactivity; supplementation during mania is theoretically counterproductive.",
+      "evidence": "Small randomized study; inference by converse mechanism",
+      "citations": [
+        "PMID:11581118",
+        "PMID:11291999"
+      ]
+    },
+    {
+      "with": "hereditary tyrosinemia (types I-III)",
+      "with_kind": "condition",
+      "kind": "contraindicated",
+      "severity": "major",
+      "mechanism": "Defective tyrosine catabolism (FAH, TAT, HPD); management requires lifelong tyrosine/phenylalanine restriction; elevated tyrosine causes corneal and palmoplantar lesions and neurocognitive effects.",
+      "evidence": "Consensus guideline, GeneReviews, StatPearls",
+      "citations": [
+        "PMID:28771246",
+        "PMID:39446998",
+        "PMID:35201733"
+      ]
+    },
+    {
+      "with": "phenylketonuria",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Tyrosine is conditionally essential and already supplied in Phe-free protein substitutes; extra free tyrosine raised blood tyrosine without improving cognition and causes large diurnal swings, possibly unsafe for the fetus in maternal PKU. Specialist-directed only.",
+      "evidence": "Cochrane SR (3 RCTs, n=56); crossover RCTs; expert review",
+      "citations": [
+        "PMID:33427303",
+        "PMID:9579151",
+        "PMID:8523192",
+        "PMID:11157309"
+      ]
+    },
+    {
+      "with": "older adults (cognitive use)",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Older adults reach higher plasma tyrosine per mg/kg; higher doses (100-200 mg/kg) worsened load-dependent working memory and, with increasing age, proactive response inhibition and fronto-striatal signal (inverted-U dopamine response).",
+      "evidence": "Two small randomized crossover studies (n=17, n=24)",
+      "citations": [
+        "PMID:29168741",
+        "PMID:30094335"
+      ]
+    },
+    {
+      "with": "melanoma",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Tyrosine is the melanogenesis substrate and a hormone-like regulator of melanocytes; high tyrosine drove primary melanoma cultures toward invasive, MAPK-inhibitor-resistant phenotypes. Human Tyr/Phe-restricted diets showed no tumor response.",
+      "evidence": "In vitro and rodent data; small human diet studies; no data on supplementation and melanoma outcomes",
+      "citations": [
+        "PMID:34869032",
+        "PMID:21834848",
+        "PMID:3470551",
+        "PMID:3966427",
+        "PMID:12028515"
+      ]
+    },
+    {
+      "with": "liver cirrhosis",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Cirrhosis raises endogenous tyrosine appearance and plasma aromatic amino acids; a low BCAA:aromatic (Fischer) ratio tracks hepatic encephalopathy grade, so adding aromatic amino acid is undesirable.",
+      "evidence": "Isotope kinetic study; review; no supplementation study",
+      "citations": [
+        "PMID:18653725",
+        "PMID:30568347",
+        "PMID:35201733"
+      ]
+    },
+    {
+      "with": "plasma amino acid profile (tyrosine, Phe:Tyr ratio)",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Supplementation raises plasma tyrosine (about 2-fold 2 h after 2.5 g; modest fasting rise at 4 g/d) and Tyr:LNAA ratios, which can confound interpretation of plasma amino acids and Phe:Tyr monitoring in PKU.",
+      "evidence": "RCT pharmacokinetic data; PKU practice survey",
+      "citations": [
+        "PMID:3891616",
+        "PMID:42356406",
+        "PMID:20882350"
+      ]
+    },
+    {
+      "with": "tyrosinemia screening (succinylacetone, blood-spot tyrosine)",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Newborn screening for HT-1 relies on succinylacetone, which is more specific than tyrosine; tyrosine and Tyr/Phe are adjunct markers (PPV rose from 9% to 72%) and elevated tyrosine flags type II. Exogenous tyrosine could raise tyrosine-based markers; succinylacetone is unaffected by precursor intake (inference).",
+      "evidence": "Systematic review of test accuracy; consensus guideline; national screening evaluation",
+      "citations": [
+        "PMID:28274233",
+        "PMID:28771246",
+        "PMID:40407518",
+        "PMID:18577048"
+      ]
+    },
+    {
+      "with": "urinary/plasma catecholamines and metabolites (MHPG)",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Tyrosine 100 mg/kg/d increased urinary MHPG; 6.5 g raised plasma norepinephrine, epinephrine and dopamine under heat stress. May shift biochemical catecholamine testing; no assay study found.",
+      "evidence": "RCT secondary outcomes",
+      "citations": [
+        "PMID:2142699",
+        "PMID:24141022"
+      ]
+    },
+    {
+      "with": "DRD2 C957T (rs6277)",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "T/T homozygotes (presumed lower striatal dopamine) showed larger tyrosine benefits on stop-signal and N-back performance than C/C.",
+      "evidence": "Single RCT from one laboratory",
+      "citations": [
+        "PMID:27403851"
+      ]
+    }
+  ],
   "citations": [
-    "PMID:26126245"
+    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=513a41d0-37d4-4355-8a6d-a2c643bce6fa",
+    "PMID:30255284",
+    "PMID:35721816",
+    "PMID:25092999",
+    "PMID:6694694",
+    "PMID:25073474",
+    "PMID:41067390",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9b17b028-964a-473c-823d-81423535bd66",
+    "PMID:30363894",
+    "PMID:14583741",
+    "PMID:10475719",
+    "PMID:11581118",
+    "PMID:1760749",
+    "PMID:28879639",
+    "PMID:31503358",
+    "PMID:34736252",
+    "PMID:28153798",
+    "PMID:36834802",
+    "PMID:41404429",
+    "PMID:10548261",
+    "PMID:34960019",
+    "PMID:31771598",
+    "PMID:38851246",
+    "PMID:36862943",
+    "PMID:38975711",
+    "PMID:37318540",
+    "PMID:11291999",
+    "PMID:28771246",
+    "PMID:39446998",
+    "PMID:35201733",
+    "PMID:33427303",
+    "PMID:9579151",
+    "PMID:8523192",
+    "PMID:11157309",
+    "PMID:29168741",
+    "PMID:30094335",
+    "PMID:34869032",
+    "PMID:21834848",
+    "PMID:3470551",
+    "PMID:3966427",
+    "PMID:12028515",
+    "PMID:18653725",
+    "PMID:30568347",
+    "PMID:3891616",
+    "PMID:42356406",
+    "PMID:20882350",
+    "PMID:28274233",
+    "PMID:40407518",
+    "PMID:18577048",
+    "PMID:2142699",
+    "PMID:24141022",
+    "PMID:27403851"
   ]
 }

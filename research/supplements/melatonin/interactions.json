@@ -1,0 +1,54 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Melatonin",
+  "slug": "melatonin",
+  "aliases": [
+    "N-acetyl-5-methoxytryptamine"
+  ],
+  "category": "other",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "low",
+  "edges": [
+    {
+      "with": "fluvoxamine",
+      "with_kind": "drug",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "CYP1A2 inhibition markedly increases melatonin exposure and sedation.",
+      "evidence": "FDA memorandum describes increased bioavailability and pronounced drowsiness.",
+      "citations": [
+        "URL:https://www.fda.gov/media/169557/download"
+      ]
+    },
+    {
+      "with": "warfarin",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Possible potentiation of anticoagulation; evidence is case reports.",
+      "evidence": "FDA memorandum identifies case reports; clinical interaction uncertain.",
+      "citations": [
+        "URL:https://www.fda.gov/media/169557/download"
+      ]
+    },
+    {
+      "with": "sedatives",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Potential additive sedation.",
+      "evidence": "FDA memorandum describes concern with sedating drugs.",
+      "citations": [
+        "URL:https://www.fda.gov/media/169557/download"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:28364495",
+    "URL:https://www.nccih.nih.gov/health/sleep-disorders-and-complementary-health-approaches",
+    "URL:https://www.fda.gov/media/169557/download",
+    "URL:https://www.fda.gov/media/169557/download",
+    "URL:https://www.fda.gov/media/169557/download",
+    "URL:https://www.fda.gov/media/169557/download"
+  ]
+}

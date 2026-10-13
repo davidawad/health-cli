@@ -1,0 +1,16 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "L-Tyrosine",
+  "slug": "l-tyrosine",
+  "aliases": [
+    "Tyrosine",
+    "L-Tyrosine"
+  ],
+  "category": "amino-acid",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "low",
+  "edges": [],
+  "citations": [
+    "PMID:26126245"
+  ]
+}

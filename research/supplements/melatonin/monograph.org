@@ -1,0 +1,36 @@
+* Melatonin
+:PROPERTIES:
+:ID: supp-melatonin
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: N-acetyl-5-methoxytryptamine
+:CATEGORY: other
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+** Identity & forms
+- Endogenous circadian hormone sold as OTC supplement in some countries; product quality and regulatory status vary. [PMID:28364495] [URL:https://www.nccih.nih.gov/health/sleep-disorders-and-complementary-health-approaches] [URL:https://www.fda.gov/media/169557/download]
+** Mechanisms
+- Acts at MT1/MT2 receptors to signal circadian timing; timing relative to circadian phase is important. [PMID:28364495] [URL:https://www.nccih.nih.gov/health/sleep-disorders-and-complementary-health-approaches] [URL:https://www.fda.gov/media/169557/download]
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---------+--------------------+-----------+-------------+-----------------------+-----------|
+| Jet lag, circadian rhythm disorders, chronic insomnia | Evidence varies by indication | Possible / uncertain | Evidence varies by indication. AASM guideline found very-low-certainty evidence and advised against melatonin for chronic adult insomnia; NCCIH notes possible improvement in sleep-onset latency in some insomnia populations. | low | [PMID:28364495] [URL:https://www.nccih.nih.gov/health/sleep-disorders-and-complementary-health-approaches] [URL:https://www.fda.gov/media/169557/download] |
+** Dosing in trials
+- Trials commonly used 0.5-5 mg near bedtime; dose/timing differs for circadian disorders and jet lag. [PMID:28364495] [URL:https://www.nccih.nih.gov/health/sleep-disorders-and-complementary-health-approaches] [URL:https://www.fda.gov/media/169557/download]
+** Safety & adverse effects
+- Sleepiness, headache, dizziness, vivid dreams; supplement content may differ from label. Long-term safety evidence limited. [PMID:28364495] [URL:https://www.nccih.nih.gov/health/sleep-disorders-and-complementary-health-approaches] [URL:https://www.fda.gov/media/169557/download]
+** Contraindications
+- Caution in pregnancy/lactation, seizure disorders, and conditions/medications affected by sedation or anticoagulation. [PMID:28364495] [URL:https://www.nccih.nih.gov/health/sleep-disorders-and-complementary-health-approaches] [URL:https://www.fda.gov/media/169557/download]
+** Interactions
+- Fluvoxamine (CYP1A2 inhibition) can markedly raise melatonin exposure; possible warfarin interaction reports; additive sedation with CNS depressants [URL:https://www.fda.gov/media/169557/download]. [PMID:28364495] [URL:https://www.nccih.nih.gov/health/sleep-disorders-and-complementary-health-approaches] [URL:https://www.fda.gov/media/169557/download]
+** Genotype notes
+- No established pharmacogenomic dosing recommendation.
+** Latest research
+- 2026-10-13 search cutoff: NCCIH updated sleep-disorder overview notes limits and safety uncertainties [URL:https://www.nccih.nih.gov/health/sleep-disorders-and-complementary-health-approaches]. [PMID:28364495] [URL:https://www.nccih.nih.gov/health/sleep-disorders-and-complementary-health-approaches] [URL:https://www.fda.gov/media/169557/download]
+** Open questions
+- Best formulation, dose, chronobiologic timing, and long-term safety remain unsettled. [PMID:28364495] [URL:https://www.nccih.nih.gov/health/sleep-disorders-and-complementary-health-approaches] [URL:https://www.fda.gov/media/169557/download]
+** Sources
+- Sateia et al. Clinical practice guideline for pharmacologic treatment of chronic insomnia in adults. J Clin Sleep Med. 2017. PMID:28364495.
+- NCCIH. Sleep Disorders and Complementary Health Approaches: Usefulness and Safety. https://www.nccih.nih.gov/health/sleep-disorders-and-complementary-health-approaches
+- US FDA. Scientific Memorandum: Melatonin. https://www.fda.gov/media/169557/download

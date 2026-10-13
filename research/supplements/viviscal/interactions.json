@@ -1,0 +1,30 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Viviscal",
+  "slug": "viviscal",
+  "aliases": [
+    "Viviscal",
+    "AminoMar"
+  ],
+  "category": "other",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "low",
+  "edges": [
+    {
+      "with": "fish allergy",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Some formulations contain marine proteins; allergy risk depends on formulation.",
+      "evidence": "Clinical trial describes marine-derived supplement; product ingredient labels vary.",
+      "citations": [
+        "PMID:26903744"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:26903744",
+    "PMID:27506633",
+    "PMID:26903744"
+  ]
+}

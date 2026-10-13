@@ -1,0 +1,30 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "17\u03b1-E2 (transdermal)",
+  "slug": "17-alpha-estradiol-transdermal",
+  "aliases": [
+    "17\u03b1-estradiol",
+    "Alfatradiol",
+    "17-alpha-estradiol"
+  ],
+  "category": "hormone",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "very-low",
+  "edges": [
+    {
+      "with": "pregnancy",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Potential fetal exposure; safety is not established.",
+      "evidence": "No adequate pregnancy safety data; precaution based on hormonal pharmacology.",
+      "citations": [
+        "PMID:22879713"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:22879713",
+    "PMID:22879713"
+  ]
+}

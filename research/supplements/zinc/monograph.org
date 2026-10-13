@@ -1,0 +1,35 @@
+* Zinc
+:PROPERTIES:
+:ID: supp-zinc
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: Zinc | Zinc gluconate | Zinc sulfate | Zinc acetate
+:CATEGORY: mineral
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+** Identity & forms
+- Essential trace element sold as salts; labels should distinguish elemental zinc from salt mass. [URL:https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/] [PMID:23644932]
+** Mechanisms
+- Cofactor for hundreds of enzymes and transcription factors; supports nucleic-acid/protein synthesis, immunity, and wound healing. [URL:https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/] [PMID:23644932]
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---------+--------------------+-----------+-------------+-----------------------+-----------|
+| Deficiency correction; common cold duration; AMD progression | Replacing deficiency is established | Established benefit | Replacing deficiency is established. Lozenges may modestly shorten colds when started early, with heterogeneous evidence. Zinc plus antioxidants in AREDS reduced advanced AMD risk in high-risk participants; do not generalize to primary prevention. | moderate | [URL:https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/] [PMID:23644932] |
+** Dosing in trials
+- Trial doses vary by indication. AREDS2 used 25 or 80 mg elemental zinc/day with copper; cold trials often use lozenges, not chronic high-dose tablets. [URL:https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/] [PMID:23644932]
+** Safety & adverse effects
+- Nausea, vomiting, metallic taste; prolonged high doses impair copper absorption and can cause anemia/neutropenia. Adult UL is 40 mg/day total intake. [URL:https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/] [PMID:23644932]
+** Contraindications
+- Wilson disease treatment is a supervised indication; avoid chronic excess and account for copper status. [URL:https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/] [PMID:23644932]
+** Interactions
+- Quinolone/tetracycline antibiotics and penicillamine absorption reduced when co-administered; thiazides increase urinary zinc loss. High intake reduces copper absorption. [URL:https://ods.nih.gov/factsheets/Zinc-HealthProfessional/] [URL:https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/] [PMID:23644932]
+** Genotype notes
+- No genotype note; no cited pharmacogenomic evidence supporting dose selection.
+** Latest research
+- 2026-10-13 search cutoff: NIH ODS fact sheet (continuously updated) summarizes interaction timing and chronic excess risks [URL:https://ods.nih.gov/factsheets/Zinc-HealthProfessional/]. [URL:https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/] [PMID:23644932]
+** Open questions
+- Optimal status biomarkers and benefit in non-deficient populations remain uncertain. [URL:https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/] [PMID:23644932]
+** Sources
+- AREDS2 Research Group. Lutein + zeaxanthin and omega-3 fatty acids for AMD: the AREDS2 randomized clinical trial. JAMA. 2013;309:2005-2015. DOI:10.1001/jama.2013.4997.
+- NIH ODS. Zinc: Health Professional Fact Sheet. https://ods.nih.gov/factsheets/Zinc-HealthProfessional/

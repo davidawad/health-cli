@@ -1,0 +1,35 @@
+* Nicotinamide Riboside
+:PROPERTIES:
+:ID: supp-nicotinamide-riboside
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: NR | Nicotinamide riboside | Niagen
+:CATEGORY: longevity
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+** Identity & forms
+- NAD+ precursor sold as chloride salt; supplement versus pharmaceutical regulation depends on jurisdiction/product. [PMID:37971292] [PMID:38016950]
+** Mechanisms
+- Converted through salvage pathways to NAD+, a redox cofactor and substrate for sirtuins/PARPs; increasing blood NAD metabolites is a surrogate, not proof of clinical benefit. [PMID:37971292] [PMID:38016950]
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---------+--------------------+-----------+-------------+-----------------------+-----------|
+| NAD biomarkers; cardiometabolic, neurological, aging outcomes | Human RCTs reliably raise NAD metabolites, but trials are small/short and have not established improved clinical outcomes | Possible / uncertain | Human RCTs reliably raise NAD metabolites, but trials are small/short and have not established improved clinical outcomes. A 2024 systematic review of NAD supplements found limited heterogeneous efficacy evidence. | low | [PMID:37971292] [PMID:38016950] |
+** Dosing in trials
+- Common RCT doses 250-1000 mg/day; phase I Parkinson disease trial studied 3000 mg/day for 4 weeks [PMID:38016950]. [PMID:37971292] [PMID:38016950]
+** Safety & adverse effects
+- Short-term trials report mostly mild events (GI symptoms, headache, fatigue); long-term safety and effects on disease outcomes are uncertain. [PMID:37971292] [PMID:38016950]
+** Contraindications
+- No proven disease-specific contraindication; insufficient evidence for pregnancy/lactation and prolonged use. [PMID:37971292] [PMID:38016950]
+** Interactions
+- Potential interaction concerns with glucose-lowering or cancer therapies are theoretical and inadequately studied; check product stacking with niacin/NAM. [PMID:37971292] [PMID:38016950]
+** Genotype notes
+- No validated genotype-guided NR response evidence identified.
+** Latest research
+- 2026-10-13 search cutoff: 2024 systematic review assessed human NAD precursor RCTs and concluded the evidence base remains limited [PMID:37971292]. [PMID:37971292] [PMID:38016950]
+** Open questions
+- Long-term safety, tissue-specific NAD effects, and patient-important outcomes are open questions. [PMID:37971292] [PMID:38016950]
+** Sources
+- Gindri et al. Evaluation of safety and effectiveness of NAD in different clinical conditions: a systematic review. Am J Physiol Endocrinol Metab. 2024;326:E417-E427. DOI:10.1152/ajpendo.00242.2023.
+- Brakedal et al. NR-SAFE: randomized double-blind safety trial of high-dose nicotinamide riboside in Parkinson disease. PMID:38016950.

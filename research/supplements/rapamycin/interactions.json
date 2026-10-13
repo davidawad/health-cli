@@ -1,0 +1,67 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Rapamycin",
+  "slug": "rapamycin",
+  "aliases": [
+    "Sirolimus",
+    "Rapamycin"
+  ],
+  "category": "rx",
+  "rx_status": "rx",
+  "evidence_certainty_overall": "very-low",
+  "edges": [
+    {
+      "with": "strong CYP3A4 inhibitors",
+      "with_kind": "drug-class",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "May markedly increase sirolimus concentrations.",
+      "evidence": "Official prescribing information warns against strong inhibitors.",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85"
+      ]
+    },
+    {
+      "with": "strong CYP3A4 inducers",
+      "with_kind": "drug-class",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "May markedly decrease sirolimus concentrations.",
+      "evidence": "Official prescribing information warns against strong inducers.",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85"
+      ]
+    },
+    {
+      "with": "grapefruit",
+      "with_kind": "food",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Can inhibit intestinal CYP3A and increase exposure.",
+      "evidence": "Label advises avoiding grapefruit juice.",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85"
+      ]
+    },
+    {
+      "with": "live vaccines",
+      "with_kind": "drug-class",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Immunosuppression may increase risk from live vaccines and impair vaccine response.",
+      "evidence": "Official label cautions against live vaccines.",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:40188830",
+    "PMID:40620657",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85"
+  ]
+}

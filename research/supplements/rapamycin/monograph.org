@@ -1,0 +1,36 @@
+* Rapamycin
+:PROPERTIES:
+:ID: supp-rapamycin
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: Sirolimus | Rapamycin
+:CATEGORY: rx
+:RX_STATUS: rx
+:RESEARCHED_AT: 2026-10-13
+:END:
+** Identity & forms
+- Sirolimus is an immunosuppressive prescription drug; longevity use in healthy people is off-label and investigational. [PMID:40188830] [PMID:40620657] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85]
+** Mechanisms
+- FKBP12 complex inhibits mTORC1; immunosuppression, altered metabolism, wound healing and cell growth effects are clinically important. [PMID:40188830] [PMID:40620657] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85]
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---------+--------------------+-----------+-------------+-----------------------+-----------|
+| Healthy aging/healthspan | No established reduction in morbidity or mortality in healthy adults | Possible / uncertain | No established reduction in morbidity or mortality in healthy adults. PEARL 48-week trial studied intermittent low-dose regimens and exploratory healthspan measures; it was not powered to establish longevity efficacy. | very-low | [PMID:40188830] [PMID:40620657] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85] |
+** Dosing in trials
+- Prescription regimens for approved indications are individualized and therapeutic-drug monitored; PEARL studied 5 or 10 mg weekly for 48 weeks. [PMID:40188830] [PMID:40620657] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85]
+** Safety & adverse effects
+- Stomatitis, infections, dyslipidemia, cytopenias, impaired wound healing, proteinuria, pneumonitis; serious immunosuppressive risks and CYP3A interactions. [PMID:40188830] [PMID:40620657] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85]
+** Contraindications
+- Contraindicated with hypersensitivity; major caution in active infection, surgery/wound healing, pregnancy, hepatic impairment, and live vaccines per labeling. [PMID:40188830] [PMID:40620657] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85]
+** Interactions
+- Strong CYP3A4/P-gp inhibitors or inducers substantially alter exposure; grapefruit may increase levels. Immunosuppressants and live vaccines pose additional risk. Consult current DailyMed label. [PMID:40188830] [PMID:40620657] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85]
+** Genotype notes
+- No validated genotype guidance for longevity use.
+** Latest research
+- 2026-10-13 search cutoff: 2025 PEARL report is the longest randomized healthy-aging rapamycin trial yet, but endpoints are exploratory and do not prove longevity benefit [PMID:40188830]. [PMID:40188830] [PMID:40620657] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85]
+** Open questions
+- Long-term benefit-risk, optimal regimen, and whether any biomarker predicts benefit are unresolved. [PMID:40188830] [PMID:40620657] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85]
+** Sources
+- Galkin et al. Influence of rapamycin on safety and healthspan metrics after one year: PEARL trial results. PMID:40188830.
+- Roark & Iffland. Rapamycin for longevity: the pros, the cons, and future perspectives. Front Aging. 2025. PMID:40620657.
+- DailyMed. Sirolimus tablet: full prescribing information. Revised February 2026. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85

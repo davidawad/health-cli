@@ -1,0 +1,7 @@
+# Auto-merge policy, read by pr-risk-score for /done (dot-1lv8, dot-9pwov).
+# auto_merge: unattended landing switch; the sensitive-path floor still applies.
+# pr_review: false -- the AI reviewer is advisory (dot-9pwov-advisory).
+# Opted in by David 2026-10-13 via cos #2373 (same shape as awad-android).
+auto_merge: true
+pr_review: false
+min_score: 65

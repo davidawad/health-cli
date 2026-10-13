@@ -3,58 +3,386 @@
   "supplement": "NAC, Ginger, Curcumin",
   "slug": "n-acetyl-l-cysteine-ginger-curcumin",
   "aliases": [
-    "NAC Ginger Curcumin",
     "NAC + Ginger + Curcumin",
-    "N-acetylcysteine, ginger and curcumin"
+    "Blueprint NAC + Ginger + Curcumin",
+    "NAC Ginger Curcumin",
+    "N-acetyl-L-cysteine, ginger and curcumin",
+    "N-acetylcysteine/Zingiber officinale/curcuminoids"
   ],
   "category": "botanical",
   "rx_status": "otc",
   "evidence_certainty_overall": "low",
   "edges": [
     {
-      "with": "anticoagulants",
-      "with_kind": "drug-class",
-      "kind": "caution",
-      "severity": "moderate",
-      "mechanism": "Ginger and curcumin may add antiplatelet/bleeding effects; direct combination interaction data are limited",
-      "evidence": "Mechanistic and ingredient-level human evidence; avoid overstating clinical interaction",
-      "citations": [
-        "PMID:35623903"
-      ]
-    },
-    {
       "with": "nitroglycerin",
       "with_kind": "drug",
       "kind": "caution",
       "severity": "moderate",
-      "mechanism": "NAC can potentiate vasodilation and headache/hypotension with nitroglycerin",
-      "evidence": "Drug-label/pharmacology interaction for NAC",
+      "mechanism": "NAC donates sulfhydryl groups and potentiates nitroglycerin vasodilation (S-nitroso-NAC); symptomatic hypotension 7/24 vs 0/22 with IV NTG + IV NAC.",
+      "evidence": "Double-blind RCT in unstable angina plus human coronary physiology study, all with IV NAC at doses far above 1.2 g oral; relevance to supplement dose uncertain",
       "citations": [
-        "URL:https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=acetylcysteine"
+        "PMID:3127076",
+        "PMID:3137075",
+        "PMID:9676716"
       ]
     },
     {
-      "with": "gallstones/biliary obstruction",
+      "with": "warfarin and oral anticoagulants",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Ginger reported to potentiate warfarin; turmeric associated with bleeding in anticoagulated patients; curcumin antiplatelet/anticoagulant activity preclinically.",
+      "evidence": "Evidence reviews and SR of case reports; controlled studies (ginger crossover n=12; Meriva 10-day) found no INR change; low certainty",
+      "citations": [
+        "PMID:39288907",
+        "PMID:32478963",
+        "PMID:36304597",
+        "PMID:15801937",
+        "PMID:30070343"
+      ]
+    },
+    {
+      "with": "Aspirin",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Theoretical additive antiplatelet effect of curcumin and ginger with aspirin/clopidogrel.",
+      "evidence": "Meriva curcumin did not change bleeding time on aspirin/clopidogrel/ticlopidine over 10 days; 2 g dried ginger had no platelet effect; mechanistic reviews",
+      "citations": [
+        "PMID:30070343",
+        "PMID:8165628",
+        "PMID:29052850"
+      ]
+    },
+    {
+      "with": "tacrolimus",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Curcumin inhibits CYP3A4 in vitro and piperine inhibits CYP3A4/P-gp; case of tacrolimus trough 29.9 ng/mL with acute nephrotoxicity after high-dose turmeric.",
+      "evidence": "Single case report plus in vitro data; very low certainty",
+      "citations": [
+        "PMID:28104136",
+        "PMID:17433521",
+        "PMID:34776989"
+      ]
+    },
+    {
+      "with": "CYP3A4/CYP2C9 substrates with narrow therapeutic index",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Curcumin inhibits CYP2C9 (IC50 4.3 uM) and CYP3A4 (IC50 16.3 uM) in vitro; piperine (if present) inhibits CYP3A4, P-gp and glucuronidation.",
+      "evidence": "In vitro and review evidence; low systemic curcumin exposure limits hepatic relevance",
+      "citations": [
+        "PMID:17433521",
+        "PMID:34776989",
+        "PMID:9619120"
+      ]
+    },
+    {
+      "with": "antidiabetic drugs",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Curcumin (FBG -11.48 mg/dL, HbA1c -0.54%) and ginger (FBG -16.27 mg/dL) lower glycemia in T2DM; additive lowering possible.",
+      "evidence": "RCT meta-analyses; 10-day study found no Meriva-metformin interaction",
+      "citations": [
+        "PMID:39683570",
+        "PMID:42337792",
+        "PMID:30070343"
+      ]
+    },
+    {
+      "with": "Metformin ER",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Possible additive glucose lowering from curcumin and ginger.",
+      "evidence": "10-day non-interaction study with metformin; MA evidence of glycemic effects; low certainty",
+      "citations": [
+        "PMID:30070343",
+        "PMID:39683570"
+      ]
+    },
+    {
+      "with": "activated charcoal",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Charcoal adsorbs acetylcysteine in vitro; NAC reduces charcoal adsorption of acetaminophen and salicylate in vitro.",
+      "evidence": "Label statement, in vitro data; small human study (n=3) found no significant reduction in NAC absorption",
+      "citations": [
+        "URL:https://labeling.pfizer.com/ShowLabeling.aspx?id=4101",
+        "PMID:7258201",
+        "PMID:11714205",
+        "PMID:2029805"
+      ]
+    },
+    {
+      "with": "hepatotoxic drugs",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Idiosyncratic turmeric/curcumin liver injury; most published cases involved concomitant medications.",
+      "evidence": "Case series and USP review; no interaction study",
+      "citations": [
+        "PMID:32656820",
+        "PMID:42364655"
+      ]
+    },
+    {
+      "with": "N-Acetyl-L-Cysteine (NAC)",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Duplicate NAC; stacking raises total dose, and NAC side effects appear to increase with dose.",
+      "evidence": "Sport SR/MA (side-effect OR 1.11) with dose sub-analysis",
+      "citations": [
+        "PMID:28102488"
+      ]
+    },
+    {
+      "with": "Turmeric",
+      "with_kind": "supplement",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Duplicate curcuminoids; liver injury reported with high-dose, high-bioavailability turmeric products.",
+      "evidence": "Phytovigilance series and DILIN series",
+      "citations": [
+        "PMID:32656820",
+        "PMID:36252717"
+      ]
+    },
+    {
+      "with": "Curcumin",
+      "with_kind": "supplement",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Duplicate curcumin; cumulative dose and enhanced formulations increase exposure linked to hepatotoxicity.",
+      "evidence": "Case series and USP review",
+      "citations": [
+        "PMID:32656820",
+        "PMID:42364655"
+      ]
+    },
+    {
+      "with": "Ginger Root",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Duplicate ginger; higher total dose adds GI adverse effects (OA dropouts RR 2.33) and theoretical bleeding effect.",
+      "evidence": "Meta-analysis and reviews",
+      "citations": [
+        "PMID:25300574",
+        "PMID:36304597"
+      ]
+    },
+    {
+      "with": "Green Tea Extract",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Stacking two botanicals on the US hepatotoxic-botanical list; green tea extract carries its own USP liver caution.",
+      "evidence": "NHANES exposure study and USP review; no combined-use study",
+      "citations": [
+        "PMID:39102266",
+        "PMID:32140423"
+      ]
+    },
+    {
+      "with": "Ashwagandha",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Stacking two botanicals among the 6 most-reported hepatotoxic botanicals in the US.",
+      "evidence": "NHANES exposure study; no combined-use study",
+      "citations": [
+        "PMID:39102266"
+      ]
+    },
+    {
+      "with": "Garlic",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Garlic strongly associated with surgical bleeding; turmeric linked to bleeding with anticoagulants; additive bleeding risk plausible.",
+      "evidence": "Narrative review of bleeding risk; no combination study",
+      "citations": [
+        "PMID:36304597"
+      ]
+    },
+    {
+      "with": "EPA/DHA/DPA",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Omega-3s did not raise overall bleeding (RR 1.09), except a small rise with high-dose purified EPA; theoretical additive effect with ginger/curcumin.",
+      "evidence": "MA of 11 RCTs (n=120,643); review",
+      "citations": [
+        "PMID:38742535",
+        "PMID:36304597"
+      ]
+    },
+    {
+      "with": "chronic liver disease or prior herb-induced liver injury",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Turmeric/curcumin liver injury (fatal case in DILIN); more severe recurrence on rechallenge; USP advises consulting a clinician if liver history.",
+      "evidence": "DILIN, case series, case report, USP review",
+      "citations": [
+        "PMID:36252717",
+        "PMID:42160492",
+        "PMID:42364655",
+        "URL:https://www.nccih.nih.gov/health/turmeric"
+      ]
+    },
+    {
+      "with": "pregnancy",
       "with_kind": "condition",
       "kind": "caution",
       "severity": "moderate",
-      "mechanism": "Concentrated turmeric may stimulate bile flow; relevance depends on extract and condition",
-      "evidence": "NCCIH turmeric safety summary",
+      "mechanism": "NCCIH states turmeric supplements may be unsafe in pregnancy; ginger alone has supportive trial data; no data on the combination.",
+      "evidence": "Agency fact sheet; MA of ginger in pregnancy (12 RCTs)",
       "citations": [
-        "URL:https://www.nccih.nih.gov/health/turmeric"
+        "URL:https://www.nccih.nih.gov/health/turmeric",
+        "PMID:24642205"
+      ]
+    },
+    {
+      "with": "surgery",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Possible antiplatelet effects; review advises stopping nonessential supplements 2 weeks before surgery.",
+      "evidence": "Narrative review",
+      "citations": [
+        "PMID:36304597"
+      ]
+    },
+    {
+      "with": "HLA-B*35:01",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Allele frequency 0.450 in turmeric DILI cases vs 0.056-0.069 in controls; suggests immune-mediated susceptibility.",
+      "evidence": "DILIN case series (n=10); USP review notes emerging genetic susceptibility",
+      "citations": [
+        "PMID:36252717",
+        "PMID:42364655"
+      ]
+    },
+    {
+      "with": "TOLLIP rs3750920",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "In IPF, NAC benefited TT genotype (HR 0.14) but trended toward harm in CC (HR 3.23).",
+      "evidence": "Post hoc PANTHER-IPF analysis with replication; prospective PRECISIONS trial ongoing",
+      "citations": [
+        "PMID:26331942",
+        "PMID:36514019"
+      ]
+    },
+    {
+      "with": "serum creatinine (enzymatic assays)",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "NAC falsely lowers creatinine (larger with non-Jaffe/enzymatic methods and IV NAC) without changing cystatin C.",
+      "evidence": "SR/MA of 6 studies (n=199); in vitro Trinder study",
+      "citations": [
+        "PMID:33615065",
+        "PMID:26500003"
+      ]
+    },
+    {
+      "with": "Trinder-based assays (triglycerides, cholesterol, uric acid, HDL-C)",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "NAC inhibits peroxidase-coupled Trinder reactions at >=570 mg/L, above expected therapeutic concentrations.",
+      "evidence": "In vitro analytical study with chart review",
+      "citations": [
+        "PMID:26500003"
       ]
     }
   ],
   "citations": [
-    "PMID:26324807",
-    "PMID:26324807\n-",
-    "PMID:35623903",
-    "PMID:35623903\n-",
-    "PMID:42021338",
-    "PMID:42021338\n-",
-    "URL:https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=acetylcysteine",
-    "URL:https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=acetylcysteine\n-",
+    "PMID:3127076",
+    "PMID:3137075",
+    "PMID:9676716",
+    "PMID:39288907",
+    "PMID:32478963",
+    "PMID:36304597",
+    "PMID:15801937",
+    "PMID:30070343",
+    "PMID:8165628",
+    "PMID:29052850",
+    "PMID:28104136",
+    "PMID:17433521",
+    "PMID:34776989",
+    "PMID:9619120",
+    "PMID:39683570",
+    "PMID:42337792",
+    "URL:https://labeling.pfizer.com/ShowLabeling.aspx?id=4101",
+    "PMID:7258201",
+    "PMID:11714205",
+    "PMID:2029805",
+    "PMID:32656820",
+    "PMID:42364655",
+    "PMID:28102488",
+    "PMID:36252717",
+    "PMID:25300574",
+    "PMID:39102266",
+    "PMID:32140423",
+    "PMID:38742535",
+    "PMID:42160492",
     "URL:https://www.nccih.nih.gov/health/turmeric",
-    "URL:https://www.nccih.nih.gov/health/turmeric\n"
+    "PMID:24642205",
+    "PMID:26331942",
+    "PMID:36514019",
+    "PMID:33615065",
+    "PMID:26500003",
+    "URL:https://supp.co/products/blueprint-nac-ginger-curcumin",
+    "URL:https://healf.com/en-uk/products/blueprint-nac-capsules",
+    "PMID:39430194",
+    "PMID:39053695",
+    "PMID:36720711",
+    "PMID:32763460",
+    "PMID:39632267",
+    "PMID:35975308",
+    "PMID:28940353",
+    "PMID:42473447",
+    "PMID:41123858",
+    "PMID:36804260",
+    "PMID:31107966",
+    "PMID:38555190",
+    "PMID:39349461",
+    "PMID:39504621",
+    "PMID:37712506",
+    "PMID:39556483",
+    "PMID:41025421",
+    "PMID:42075106",
+    "PMID:38072785",
+    "PMID:38625733",
+    "PMID:34700257",
+    "PMID:32214292",
+    "PMID:40806131",
+    "PMID:38576215",
+    "PMID:33511486",
+    "PMID:34017975",
+    "PMID:42797011",
+    "PMID:39478418",
+    "PMID:41656101",
+    "PMID:42566667",
+    "PMID:42021338",
+    "PMID:32180294",
+    "PMID:42530541",
+    "URL:https://www.nccih.nih.gov/health/ginger",
+    "PMID:39381846",
+    "PMID:41281037",
+    "PMID:41688985"
   ]
 }

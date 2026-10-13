@@ -3,47 +3,214 @@
 :ID: supp-gos
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: galacto-oligosaccharides | galactooligosaccharides | GOS prebiotic
+:ALIASES: galacto-oligosaccharides | galactooligosaccharides | trans-galactooligosaccharides | TOS | beta-GOS | B-GOS | Bimuno | Biotis GOS | Vivinal GOS | Elix'or | scGOS | RP-G28
 :CATEGORY: probiotic-prebiotic
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Galacto-oligosaccharides are fermentable oligosaccharides, commonly β-GOS derived enzymatically from lactose; chain length and linkage composition vary by source and manufacturing [PMID:41263347]. They resist digestion in the small intestine and can be fermented by gut bacteria, often increasing bifidobacteria [PMID:38787732].
+- Galacto-oligosaccharides are chains of mainly galactose units (degree of polymerization 2-10) that differ in chain length, branching and glycosidic linkage. The most studied and widely used form is beta-GOS made enzymatically from lactose. alpha-GOS and fructo-GOS also have prebiotic activity [PMID:41263347].
+- Commercial GOS ingredients are mixtures, not pure oligosaccharide. In one FDA GRAS notice (GRN 000620, infant formula use), the powder is >=46% GOS on a dry-weight basis, with typical lactose 20-40%, glucose <=10% and galactose <=5% [URL:https://www.fda.gov/food/gras-notice-inventory/agency-response-letter-gras-notice-no-grn-000620].
+- Branded or trial forms:
+  - Bimuno (B-GOS), a trans-GOS mixture used at 2.7-5.5 g/d in elderly, traveller and mood trials [PMID:18996881] [PMID:28931149] [PMID:25449699].
+  - Biotis GOS: 5.5-11 g/d in constipation [PMID:35057489]. A 21.6 g/d dose of the product supplied 15 g/d GOS [PMID:33509667].
+  - Elix'or TOS: 9-20 g/d [PMID:9895419] [PMID:11110850].
+  - RP-G28: an ultra-purified (>95%) short-chain GOS developed as a drug candidate for lactose intolerance [PMID:28049818] [PMID:32290344].
+  - scGOS/lcFOS 9:1: the infant-formula prebiotic mixture, usually 4-8 g/L [PMID:16873437] [PMID:22237884].
+- Dietary "GOS" in the FODMAP sense mostly means the alpha-linked raffinose-family sugars in legumes, which differ from beta-GOS supplements. Both are counted as oligosaccharide FODMAPs [PMID:28244665] [PMID:28809383].
 
 ** Mechanisms
-- GOS escape digestion and are selectively fermented by gut microbes; fermentation products and shifts in taxa depend on chain structure and baseline microbiome. A constipation RCT observed increased Bifidobacterium and Lactobacillus [PMID:38787732; PMID:41263347].
+- Non-digestible in the small intestine and selectively fermented in the colon. Prebiotic specificity comes from species-specific saccharolytic gene clusters, mainly in bifidobacteria [PMID:28244671].
+- Bifidogenic effect:
+  - An MA of fiber RCTs (64 studies, n=2099) found fructans and GOS gave significantly greater increases in Bifidobacterium and Lactobacillus than comparators [PMID:29757343].
+  - The effect is dose-dependent: 5-10 g/d was bifidogenic and 2.5 g/d was not. About half of subjects were non-responders [PMID:21059476]. A clear dose-response on fecal Bifidobacterium was seen with 5.5 vs 11 g/d [PMID:35057489].
+  - An ex vivo study found bifidogenic and SCFA effects from 0.5 g with only mild gas production. This was not a clinical trial [PMID:40863149].
+- Lactose adaptation: RP-G28 increased lactose-fermenting Bifidobacterium, Faecalibacterium and Lactobacillus in 90% of subjects [PMID:28049818].
+- Mineral absorption: proposed lower-gut calcium absorption, mediated by bifidobacteria [PMID:23507173]. Iron absorption from ferrous fumarate correlates with lower fecal pH [PMID:28814396].
+- Immune: in elderly volunteers, raised NK-cell activity, phagocytosis and IL-10, and lowered IL-6/IL-1beta/TNF-alpha [PMID:18996881]. A systematic review proposes SCFA-GPCR signalling and direct pattern-recognition-receptor effects [PMID:40516031].
+- Gut-brain axis: lower salivary cortisol awakening response and less negative attentional bias after B-GOS [PMID:25449699]. Trend-level changes in brain GABA on 1H-MRS were seen in 2025 [PMID:40532960].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---------+--------------------+-----------+-------------+-----------------------+-----------|
-| Functional constipation | 4-week double-blind RCT, n=63 | Improved bowel frequency/form and satisfaction | 34 GOS vs 29 placebo; exact effect estimates vary by outcome | low | [PMID:38787732] |
-| Microbiome composition | Human intervention studies/review | Bifidogenic effect | response depends on dose, baseline microbiota and preparation | low | [PMID:41263347] |
-| Infant formula outcomes | SR/MA of formula GOS:FOS | Some stool/microbiota changes | findings apply to infant formula mixture, not standalone adult GOS | low | [PMID:39839466] |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Fecal bifidobacteria | MA of fiber RCTs; many RCTs | Increase | Fiber overall SMD 0.64 (CI 0.42-0.86); fructans/GOS subgroup larger; ~5-fold rise with 15 g/d | high | [PMID:29757343] [PMID:28396144] [PMID:21059476] |
+| Functional constipation | RCTs (n=63, n=132, n=35, n=14); SR of OTC therapies | Benefit, modest | More bowel movements and better stool form at 4 wk; 11 g/d raised frequency only in low-frequency or >=35-y subgroups; GOS yogurt graded B | low | [PMID:38787732] [PMID:35057489] [PMID:37751049] [PMID:9895419] [PMID:33767108] |
+| IBS global symptoms | MA prebiotics (11 RCTs, n=729); 2026 fiber MA (30 RCTs); RCTs | Prebiotics overall null; beta-GOS favorable in subgroup | Prebiotic response OR 0.62 (CI 0.07-5.69); beta-GOS improved integrative GI scores (2 RCTs); 3.5 g/d improved flatulence, bloating and SGA | low | [PMID:30949662] [PMID:42600900] [PMID:19053980] [PMID:32433273] |
+| IBS symptom provocation (dietary GOS) | Blinded FODMAP rechallenge RCTs | Harm in subset | GOS triggered symptoms in 35% of LFD responders; worse pain and bloating | moderate | [PMID:38401741] [PMID:38729390] [PMID:28809383] |
+| Lactose intolerance symptoms (RP-G28) | Phase 2b/3 RCT (n=377); phase 2 RCT (n=85) | Benefit | 40% vs 26% responders on composite score (P=0.016); more dairy intake | moderate | [PMID:32290344] [PMID:24330605] [PMID:37630749] |
+| Infant eczema prevention (formula scGOS/lcFOS) | Cochrane MA (4 RCTs); WAO MA; RCTs | Possible benefit | Eczema RR 0.68 (CI 0.48-0.97), NNTB 25; WAO MA RR 0.68 (CI 0.40-1.15), very low certainty | low | [PMID:23543544] [PMID:29035013] [PMID:16873437] [PMID:18492839] |
+| Allergy prevention via maternal GOS/FOS or GOS/inulin | RCTs (n=652; n=376) | No effect | Eczema aRR 0.98 (CI 0.77-1.23); AD OR 1.01 (CI 0.59-1.74) | moderate | [PMID:39173718] [PMID:41250898] |
+| Infant growth and tolerance with prebiotic formula | MA (24 RCTs); ESPGHAN technical review | Neutral | No overall difference in weight/length gain; GOS/FOS formulas weight-gain SMD 0.214 | moderate | [PMID:40215676] [PMID:40114538] [PMID:22237884] |
+| Calcium absorption | Crossover RCTs (adolescent girls n=31; postmenopausal n=12) | Increase | Fractional Ca absorption 0.393 to 0.444 with 5 g/d; true absorption +16% with 20 g/d | low | [PMID:23507173] [PMID:11110850] |
+| Iron absorption (non-heme) | Stable-isotope RCTs; SR/MA | Increase | +61% (water) and +28% (meal) in women; ~+45% with 100 mg Fe; +62% in infants; pooled FIA +0.74% (low certainty) | moderate | [PMID:31004135] [PMID:35015879] [PMID:28814396] [PMID:39920867] |
+| Infection / cold-flu / travellers' diarrhoea | RCTs (n=427; n=159; n=523) | Benefit, small | 40% fewer cold/flu days (5 g, normal-weight only); TD OR 0.56 (per protocol), only 1-day episodes | low | [PMID:21525194] [PMID:19756029] [PMID:28931149] |
+| Immune markers in elderly | Crossover RCTs | Inconsistent | NK activity and IL-10 up at 5.5 g/d; no immune effect at 15 g/d in prefrail elderly | low | [PMID:18996881] [PMID:26218845] [PMID:33509667] |
+| Anxiety / mood | RCTs (n=45, n=64, n=83, n=53 children); fiber MA | Inconsistent; mostly null on primary endpoints | 2025 RCT: trait anxiety p=0.443; fiber RCT MA anxiety d -0.30 (CI -0.67 to 0.07) | low | [PMID:25449699] [PMID:33859330] [PMID:40532960] [PMID:40025494] [PMID:38007616] |
+| Insulin sensitivity / glycemia | RCTs (15 g/d, 12 wk); synbiotic RCT | No effect alone; possible with probiotic | Clamp insulin sensitivity unchanged; synbiotic FBG -0.69 mmol/L vs placebo | low | [PMID:28396144] [PMID:39719724] [PMID:39064648] |
+| Metabolic syndrome markers / inflammation | Crossover RCT (n=45); SR (10 trials) | Possible benefit | Lower CRP, insulin, TC, TG (no effect sizes in abstract) | very low | [PMID:23303873] [PMID:27771020] |
+| Gestational diabetes (GOS/FOS in pregnancy) | Effect-modification analysis of RCT | Benefit only if BMI >=25 | aRR 0.50 (CI 0.28-0.89) in BMI >=25; null if <25 | very low | [PMID:41987240] |
 
 ** Dosing in trials
-- Human trials commonly use approximately 2.5–15 g/day, often divided; the 2024 constipation RCT used a 4-week GOS intervention (dose per article protocol) [PMID:38787732]. Begin-dose and tolerability depend on product purity and degree of polymerization.
+- Bifidogenic threshold in healthy adults was about 5 g/d; 2.5 g/d had no significant effect [PMID:21059476]. A 2025 ex vivo model suggests lower doses may work, but this is unproven in humans [PMID:40863149].
+- Constipation: 5.5-11 g/d for 3 weeks [PMID:35057489], 10 g/d gummies for 30 days [PMID:37751049], 9 g/d in yogurt in elderly [PMID:9895419].
+- IBS: 3.5 g/d (better symptoms) vs 7 g/d (less benefit on symptoms) trans-GOS [PMID:19053980]. 1.4 g/d B-GOS alongside a low-FODMAP diet [PMID:32433273].
+- Lactose intolerance: RP-G28 dose-escalation for 30-35 days, then dairy reintroduction [PMID:32290344] [PMID:24330605].
+- Immune/elderly: 5.5 g/d B-GOS for 10 weeks [PMID:18996881]. Students: 2.5-5 g/d for 8 weeks [PMID:21525194]. Travellers: 2.7 g/d starting 5 days before travel [PMID:28931149].
+- Mood: 5.5 g/d for 3-4 weeks [PMID:40025494] [PMID:25449699].
+- Minerals: 5-10 g/d (calcium, adolescents) [PMID:23507173]; 20 g/d TOS (postmenopausal) [PMID:11110850]; 15 g GOS taken with ferrous fumarate (iron) [PMID:31004135] [PMID:35015879]; 7.5 g/d in infant micronutrient powders [PMID:28774885].
+- Infant formula: scGOS/lcFOS 9:1 at 4-8 g/L [PMID:16873437] [PMID:22237884]. GRAS use up to 7.8 g GOS/L [URL:https://www.fda.gov/food/gras-notice-inventory/agency-response-letter-gras-notice-no-grn-000620].
+- Pregnancy: 14.2 g/d GOS/FOS from <21 weeks' gestation to 6 months postpartum [PMID:39173718].
 
 ** Safety & adverse effects
-- Fermentation can cause gas, bloating, abdominal discomfort and loose stool, especially at higher doses or in people sensitive to FODMAPs [PMID:38787732; PMID:41263347]. In a small 2024 RCT, no significant adverse drug reactions were found apart from pulse-rate signal; sample size limits rare-event detection [PMID:38787732].
+- GI effects are dose-related and caused by fermentation:
+  - Flatulence improved at prebiotic doses <=6 g/d. Inulin-type fructans worsened flatulence (SMD 0.85) [PMID:30949662].
+  - In IBS, 3.5 g/d improved flatulence, bloating and the composite symptom score; 7 g/d improved global assessment and anxiety but not the composite score [PMID:19053980].
+  - Larger doses may have neutral or negative effects on IBS symptoms [PMID:28244671].
+- Short trials report tolerability similar to placebo:
+  - Elderly: GI symptoms similar to control [PMID:9895419].
+  - Constipation RCT: no significant adverse reactions apart from a pulse-rate signal [PMID:38787732].
+  - RP-G28 (n=377): safe and well tolerated [PMID:32290344].
+  - Travellers' study: no adverse effects [PMID:28931149].
+  - Endurance athletes: 16 g/d did not worsen exercise GI symptoms [PMID:40010361].
+- Infants: prebiotic formulas were well tolerated, with no excess adverse effects (RR 1.01) [PMID:29035013] [PMID:40114538].
+- IgE-mediated anaphylaxis to scGOS: reported in atopic, cow's-milk-tolerant patients in South-East Asia, triggered by oligosaccharides with >=3 sugar units [PMID:23102546]. Estimated prevalence of allergy to one GOS product was up to 3.5% in an atopic Singapore cohort [PMID:25951913]. A 2026 review lists scGOS among supplements causing immediate hypersensitivity [PMID:42437383].
+- Microbial diversity: 15 g/d decreased diversity while increasing bifidobacteria [PMID:33509667]. The clinical meaning of this is unknown.
 
 ** Contraindications
-- Known galactosemia is a reason to avoid galactose-containing products unless specialist-directed. GOS can worsen symptoms in people with marked fermentable-carbohydrate sensitivity; this is intolerance rather than a universal contraindication [PMID:41263347].
+- Classical galactosemia: lifelong lactose restriction is standard [PMID:27858262] [PMID:25873073]. Lactose-derived GOS ingredients carry residual lactose (20-40%) and free galactose (<=5%) [URL:https://www.fda.gov/food/gras-notice-inventory/agency-response-letter-gras-notice-no-grn-000620]. Colonic release of galactose from galactosides may also be absorbed [PMID:7671975]. Avoid unless a metabolic team directs otherwise.
+- Known GOS allergy or positive scGOS skin-prick/basophil test: avoid, because of anaphylaxis risk [PMID:23102546] [PMID:25951913].
+- Relative: FODMAP-sensitive IBS, especially during the elimination phase of a low-FODMAP diet [PMID:38401741] [PMID:38729390].
 
 ** Interactions
-- No established drug interactions or laboratory assay interference identified. Fermentable fiber may change timing/absorption of oral medicines in theory; direct GOS interaction trials are lacking [PMID:41263347].
+*** Drugs
+- Oral non-heme iron (ferrous fumarate): GOS taken with it increases fractional absorption by about 30-60% in iron-depleted women and infants [PMID:31004135] [PMID:35015879] [PMID:28814396]. In iron-deficient children with HIV, adding GOS gave a 39% greater ferritin rise (p=0.053) [PMID:41233303]. No effect was seen when added to ferrous-sulfate-fortified follow-up formula with L. reuteri [PMID:39179207]. In infants, GOS offset the adverse effects of iron fortification on the gut microbiome [PMID:28774885].
+- Antibiotics (amoxicillin): GOS taken during and after treatment supported bifidobacterial recovery and butyrate production (n=12) [PMID:24925303]. No effect on drug exposure is known.
+- Antidiabetic agents: GOS alone did not change insulin sensitivity [PMID:28396144]. A GOS + B. lactis synbiotic lowered FBG by 0.69 mmol/L versus placebo in T2DM [PMID:39719724]. Additive glucose lowering is minor and only shown for synbiotics.
+- No pharmacokinetic (CYP/transporter) interaction study was found.
+*** Other supplements
+- Probiotics (synbiotic use):
+  - GOS + B. lactis MN-Gup beat the probiotic alone on FBG [PMID:39719724].
+  - GOS + L. reuteri in toddler formula improved bone and muscle outcomes [PMID:41387706]. In mice it synergistically reduced colitis [PMID:39468026].
+  - Bifidobacteria and GOS have each improved lactose tolerance, but the combination is untested [PMID:37630749].
+- Inulin/FOS: shared bifidogenic action [PMID:29757343]. GOS/FOS and GOS/inulin mixtures are standard in infant and pregnancy trials [PMID:39173718] [PMID:41250898]. Fermentation is additive, and inulin-type fructans worsen flatulence [PMID:30949662]. Both fructans and GOS are leading FODMAP triggers [PMID:38401741].
+- Calcium: GOS increased fractional calcium absorption [PMID:23507173] [PMID:11110850].
+- alpha-galactosidase enzyme: reduced symptoms from high-GOS (alpha-linked, legume) foods in GOS-sensitive IBS [PMID:28809383]. It is not shown to act on beta-GOS supplements.
+*** Conditions
+- Galactosemia and GOS allergy: see Contraindications.
+- IBS / low-FODMAP diet: GOS is a FODMAP trigger in about a third of responders [PMID:38401741]. However, 1.4 g/d B-GOS with a low-FODMAP diet gave more symptom relief than sham diet (67% vs 30%) [PMID:32433273]. A simplified diet restricting only fructans and GOS is being tested [PMID:38729393].
+- Lactose intolerance: RP-G28 aims at colonic adaptation [PMID:32290344] [PMID:28049818]. Commercial GOS powders may contain substantial lactose [URL:https://www.fda.gov/food/gras-notice-inventory/agency-response-letter-gras-notice-no-grn-000620].
+- Pregnancy: 14.2 g/d GOS/FOS showed no safety signals in 652 women [PMID:39173718]. It lowered GDM only in women with BMI >=25 [PMID:41987240].
+- Atopy (South-East Asia): see Safety & adverse effects [PMID:25951913].
+*** Lab-test interference
+- No analytical assay interference was found. True physiological changes that can shift results:
+  - Stool microbiome tests: higher Bifidobacterium and lower diversity [PMID:29757343] [PMID:33509667].
+  - Lower fecal pH in infants [PMID:22237884].
+  - Iron indices: higher absorption, and ferritin in women [PMID:31004135] [PMID:39920867].
 
 ** Genotype notes
-- No cited pharmacogenomic or nutrigenomic source specific to GOS was identified in this search; no genotype claim is made.
+- Lactase non-persistence (genetic post-weaning lactase deficiency, 65-75% of people worldwide) is the target population for GOS-based lactose-intolerance strategies. Diet cannot change lactase non-persistence, but GOS may shift the microbiome and mitigate symptoms [PMID:38613035].
+- Classical galactosemia (GALT deficiency) is a genetic contraindication, managed by galactose/lactose restriction [PMID:27858262].
+- No cited pharmacogenomic source found.
 
 ** Latest research
-- 2024 placebo-controlled RCT in Rome IV functional constipation (n=63) reported improved bowel movement measures and constipation satisfaction after 4 weeks; microbiota Bifidobacterium and Lactobacillus increased [PMID:38787732]. A 2025 review describes structural diversity and prebiotic applications but is not itself a clinical efficacy trial [PMID:41263347].
+- [2026-08] Fiber-in-IBS MA (30 RCTs, n=1904): fiber response RR 1.21. Integrative GI scores were not improved overall, except with beta-GOS (2 RCTs) [PMID:42600900].
+- [2026-06] Review lists scGOS among supplements causing immediate hypersensitivity, including anaphylaxis [PMID:42437383].
+- [2026-04] Pregnancy GOS/FOS RCT secondary analysis: GDM aRR 0.50 only in BMI >=25 [PMID:41987240].
+- [2026-02] PREGRALL RCT (n=376): antenatal GOS/inulin did not prevent infant atopic dermatitis (OR 1.01) [PMID:41250898].
+- [2026-01] ESPGHAN technical review: synbiotic infant formulas (16 RCTs) well tolerated, with no difference in growth or GI outcomes [PMID:40114538].
+- [2026] SR in healthy humans: GOS raised NK activity; prebiotics reduced infant infections. Effects on vaccines and systemic inflammation were inconsistent [PMID:40516031].
+- [2025-12] Toddler formula with L. reuteri + GOS (n=182) improved tibia speed of sound and muscle strength [PMID:41387706].
+- [2025-11] Iron + GOS in children with HIV: 39% greater ferritin rise (p=0.053) and fewer infection symptoms [PMID:41233303].
+- [2025-10] RCT in young females (n=83): GOS did not reduce trait anxiety. Trend-level GABA changes and a transient Bifidobacterium rise [PMID:40532960].
+- [2025-10] B-GOS 12-week pilot in athletes (n=18): no group benefit on GI comfort or wellbeing [PMID:41228463].
+- [2025-08] Ex vivo bifidogenic effect at 0.5-3.65 g [PMID:40863149].
+- [2025-05] Infant prebiotic-formula growth MA (24 studies): no overall effect [PMID:40215676].
+- [2025-03] Children 6-14 y (n=53): no significant effect of GOS on primary anxiety and emotion outcomes; trends only [PMID:40025494].
+- [2025-02] Probiotic/prebiotic iron MA: fractional iron absorption +0.74% (low certainty); ferritin +2.45 ng/mL in women [PMID:39920867].
+- [2025-02] Blinded FODMAP reintroduction: GOS worsened pain (P=.04) and bloating [PMID:38729390].
+- [2025-01] SYMBA RCT (n=652): maternal GOS/FOS did not reduce infant eczema (aRR 0.98) [PMID:39173718].
+- [2025-01] Synbiotic (B. lactis + GOS) beat the probiotic alone on FBG in T2DM (n=120) [PMID:39719724].
+- [2024-10] Synbiotic follow-up formula (GOS + L. reuteri) did not change iron absorption in Thai children [PMID:39179207].
 
 ** Open questions
-- Larger, better reported human studies with standardized products, clinically meaningful endpoints and longer follow-up are needed; current gaps are noted above.
+- Whether beta-GOS has a durable, clinically meaningful benefit in IBS and constipation. Current RCTs are small, short and product-specific.
+- Optimal dose: the window between bifidogenic benefit and fermentation symptoms, and why some people are bifidogenic non-responders [PMID:21059476].
+- Whether RP-G28-type lactose adaptation persists, and whether regulatory approval will follow. No 2024-2026 trial was found.
+- Mood/anxiety effects: early positive signals were not confirmed on primary endpoints in the 2025 trial.
+- The prevalence of GOS anaphylaxis outside South-East Asia, and which product-specific allergens are involved.
+- Long-term significance of lower microbial diversity at high doses.
 
 ** Sources
-- PMID:38787732
-- PMID:39839466
-- PMID:41263347
+1. Ryabtseva SA et al. [Prebiotic properties and application of galactooligosaccharides]. Vopr Pitan. 2025. PMID:41263347 DOI:10.33029/0042-8833-2025-94-5-6-23
+2. Vulevic J et al. Modulation of the fecal microflora profile and immune function by a novel trans-galactooligosaccharide mixture (B-GOS) in healthy elderly volunteers. Am J Clin Nutr. 2008. PMID:18996881 DOI:10.3945/ajcn.2008.26242
+3. Hasle G et al. Can a galacto-oligosaccharide reduce the risk of traveller's diarrhoea? A placebo-controlled, randomized, double-blind study. J Travel Med. 2017. PMID:28931149 DOI:10.1093/jtm/tax057
+4. Schmidt K et al. Prebiotic intake reduces the waking cortisol response and alters emotional bias in healthy volunteers. Psychopharmacology (Berl). 2015. PMID:25449699 DOI:10.1007/s00213-014-3810-0
+5. Schoemaker MH et al. Prebiotic Galacto-Oligosaccharides Impact Stool Frequency and Fecal Microbiota in Self-Reported Constipated Adults: A Randomized Clinical Trial. Nutrients. 2022. PMID:35057489 DOI:10.3390/nu14020309
+6. Wilms E et al. Galacto-oligosaccharides supplementation in prefrail older and healthy adults increased faecal bifidobacteria, but did not impact immune function and oxidative stress. Clin Nutr. 2021. PMID:33509667 DOI:10.1016/j.clnu.2020.12.034
+7. Teuri U et al. Galacto-oligosaccharides relieve constipation in elderly people. Ann Nutr Metab. 1998. PMID:9895419 DOI:10.1159/000012751
+8. van den Heuvel EG et al. Transgalactooligosaccharides stimulate calcium absorption in postmenopausal women. J Nutr. 2000. PMID:11110850 DOI:10.1093/jn/130.12.2938
+9. Azcarate-Peril MA et al. Impact of short-chain galactooligosaccharides on the gut microbiome of lactose-intolerant individuals. Proc Natl Acad Sci U S A. 2017. PMID:28049818 DOI:10.1073/pnas.1606722113
+10. Chey W et al. Galacto-Oligosaccharide RP-G28 Improves Multiple Clinical Outcomes in Lactose-Intolerant Patients. Nutrients. 2020. PMID:32290344 DOI:10.3390/nu12041058
+11. Moro G et al. A mixture of prebiotic oligosaccharides reduces the incidence of atopic dermatitis during the first six months of age. Arch Dis Child. 2006. PMID:16873437 DOI:10.1136/adc.2006.098251
+12. Holscher HD et al. Effects of prebiotic-containing infant formula on gastrointestinal tolerance and fecal microbiota in a randomized controlled trial. JPEN J Parenter Enteral Nutr. 2012. PMID:22237884 DOI:10.1177/0148607111430087
+13. Varney J et al. FODMAPs: food composition, defining cutoff values and international application. J Gastroenterol Hepatol. 2017. PMID:28244665 DOI:10.1111/jgh.13698
+14. Tuck CJ et al. Increasing Symptoms in Irritable Bowel Symptoms With Ingestion of Galacto-Oligosaccharides Are Mitigated by α-Galactosidase Treatment. Am J Gastroenterol. 2018. PMID:28809383 DOI:10.1038/ajg.2017.245
+15. Wilson B et al. Prebiotic inulin-type fructans and galacto-oligosaccharides: definition, specificity, function, and application in gastrointestinal disorders. J Gastroenterol Hepatol. 2017. PMID:28244671 DOI:10.1111/jgh.13700
+16. So D et al. Dietary fiber intervention on gut microbiota composition in healthy adults: a systematic review and meta-analysis. Am J Clin Nutr. 2018. PMID:29757343 DOI:10.1093/ajcn/nqy041
+17. Davis LM et al. A dose dependent impact of prebiotic galactooligosaccharides on the intestinal microbiota of healthy adults. Int J Food Microbiol. 2010. PMID:21059476 DOI:10.1016/j.ijfoodmicro.2010.10.007
+18. Harthoorn LF et al. Galacto-Oligosaccharides Exert Bifidogenic Effects at Capsule-Compatible Ultra-Low Doses. Metabolites. 2025. PMID:40863149 DOI:10.3390/metabo15080530
+19. Whisner CM et al. Galacto-oligosaccharides increase calcium absorption and gut bifidobacteria in young girls: a double-blind cross-over trial. Br J Nutr. 2013. PMID:23507173 DOI:10.1017/S000711451300055X
+20. Paganini D et al. Consumption of galacto-oligosaccharides increases iron absorption from a micronutrient powder containing ferrous fumarate and sodium iron EDTA: a stable-isotope study in Kenyan infants. Am J Clin Nutr. 2017. PMID:28814396 DOI:10.3945/ajcn.116.145060
+21. Arioz Tunc H et al. Impact of non-digestible carbohydrates and prebiotics on immunity, infections, inflammation and vaccine responses: a systematic review of evidence in healthy humans and a discussion of mechanistic proposals. Crit Rev Food Sci Nutr. 2026. PMID:40516031 DOI:10.1080/10408398.2025.2514700
+22. Johnstone N et al. A randomised controlled trial of the effects of Galacto-Oligosaccharides on the gut brain-axis of young females. Brain Behav Immun. 2025. PMID:40532960 DOI:10.1016/j.bbi.2025.06.020
+23. Canfora EE et al. Supplementation of Diet With Galacto-oligosaccharides Increases Bifidobacteria, but Not Insulin Sensitivity, in Obese Prediabetic Individuals. Gastroenterology. 2017. PMID:28396144 DOI:10.1053/j.gastro.2017.03.051
+24. Lee JH et al. Efficacy and safety of galacto-oligosaccharide in the treatment of functional constipation: randomized clinical trial. Food Funct. 2024. PMID:38787732 DOI:10.1039/d4fo00999a
+25. Dey K et al. Daily consumption of galactooligosaccharide gummies ameliorates constipation symptoms, gut dysbiosis, degree of depression and quality of life among sedentary university teaching staff: A double-blind randomized placebo control clinical trial. Indian J Gastroenterol. 2023. PMID:37751049 DOI:10.1007/s12664-023-01435-8
+26. Rao SSC et al. Efficacy and Safety of Over-the-Counter Therapies for Chronic Constipation: An Updated Systematic Review. Am J Gastroenterol. 2021. PMID:33767108 DOI:10.14309/ajg.0000000000001222
+27. Wilson B et al. Prebiotics in irritable bowel syndrome and other functional bowel disorders in adults: a systematic review and meta-analysis of randomized controlled trials. Am J Clin Nutr. 2019. PMID:30949662 DOI:10.1093/ajcn/nqy376
+28. Staudacher HM et al. Fiber Supplementation in Irritable Bowel Syndrome: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. Gastroenterology. 2026. PMID:42600900 DOI:10.1053/j.gastro.2026.07.027
+29. Silk DB et al. Clinical trial: the effects of a trans-galactooligosaccharide prebiotic on faecal microbiota and symptoms in irritable bowel syndrome. Aliment Pharmacol Ther. 2009. PMID:19053980 DOI:10.1111/j.1365-2036.2008.03911.x
+30. Wilson B et al. β-Galactooligosaccharide in Conjunction With Low FODMAP Diet Improves Irritable Bowel Syndrome Symptoms but Reduces Fecal Bifidobacteria. Am J Gastroenterol. 2020. PMID:32433273 DOI:10.14309/ajg.0000000000000641
+31. Van den Houte K et al. Efficacy and Findings of a Blinded Randomized Reintroduction Phase for the Low FODMAP Diet in Irritable Bowel Syndrome. Gastroenterology. 2024. PMID:38401741 DOI:10.1053/j.gastro.2024.02.008
+32. Eswaran S et al. All FODMAPs Aren't Created Equal: Results of a Randomized Reintroduction Trial in Patients With Irritable Bowel Syndrome. Clin Gastroenterol Hepatol. 2025. PMID:38729390 DOI:10.1016/j.cgh.2024.03.047
+33. Savaiano DA et al. Improving lactose digestion and symptoms of lactose intolerance with a novel galacto-oligosaccharide (RP-G28): a randomized, double-blind clinical trial. Nutr J. 2013. PMID:24330605 DOI:10.1186/1475-2891-12-160
+34. Mysore Saiprasad S et al. A Narrative Review of Human Clinical Trials to Improve Lactose Digestion and Tolerance by Feeding Bifidobacteria or Galacto-Oligosacharides. Nutrients. 2023. PMID:37630749 DOI:10.3390/nu15163559
+35. Osborn DA et al. Prebiotics in infants for prevention of allergy. Cochrane Database Syst Rev. 2013. PMID:23543544 DOI:10.1002/14651858.CD006474.pub3
+36. Cuello-Garcia C et al. Prebiotics for the prevention of allergies: A systematic review and meta-analysis of randomized controlled trials. Clin Exp Allergy. 2017. PMID:29035013 DOI:10.1111/cea.13042
+37. Arslanoglu S et al. Early dietary intervention with a mixture of prebiotic oligosaccharides reduces the incidence of allergic manifestations and infections during the first two years of life. J Nutr. 2008. PMID:18492839 DOI:10.1093/jn/138.6.1091
+38. Palmer DJ et al. Effects of pregnancy and lactation prebiotics supplementation on infant allergic disease: A randomized controlled trial. J Allergy Clin Immunol. 2025. PMID:39173718 DOI:10.1016/j.jaci.2024.08.009
+39. Barbarot S et al. Evaluation of antenatal prebiotic intake in infants at risk of atopy: the double-blind PREGRALL randomized clinical trial. Br J Dermatol. 2026. PMID:41250898 DOI:10.1093/bjd/ljaf414
+40. Mirzohreh ST et al. Effect of prebiotics on growth metrics in infants: A GRADE approach systematic review and meta-analysis of randomized clinical trials. Nutr Res. 2025. PMID:40215676 DOI:10.1016/j.nutres.2025.03.003
+41. Salvatore S et al. Technical review by the ESPGHAN Special Interest Group on Gut Microbiota and Modifications on the health outcomes of infant formula supplemented with synbiotic. J Pediatr Gastroenterol Nutr. 2026. PMID:40114538 DOI:10.1002/jpn3.70031
+42. Jeroense FMD et al. Consumption of Galacto-Oligosaccharides Increases Iron Absorption from Ferrous Fumarate: A Stable Iron Isotope Study in Iron-Depleted Young Women. J Nutr. 2019. PMID:31004135 DOI:10.1093/jn/nxy327
+43. Giorgetti A et al. Prebiotic Galacto-Oligosaccharides and Fructo-Oligosaccharides, but Not Acacia Gum, Increase Iron Absorption from a Single High-Dose Ferrous Fumarate Supplement in Iron-Depleted Women. J Nutr. 2022. PMID:35015879 DOI:10.1093/jn/nxac003
+44. Apte A et al. Effect of probiotic and prebiotics supplementation on hemoglobin levels and iron absorption among women of reproductive age and children: a systematic review and meta-analysis. BMC Nutr. 2025. PMID:39920867 DOI:10.1186/s40795-025-01015-3
+45. Hughes C et al. Galactooligosaccharide supplementation reduces stress-induced gastrointestinal dysfunction and days of cold or flu: a randomized, double-blind, controlled trial in healthy university students. Am J Clin Nutr. 2011. PMID:21525194 DOI:10.3945/ajcn.111.014126
+46. Drakoularakou A et al. A double-blind, placebo-controlled, randomized human study assessing the capacity of a novel galacto-oligosaccharide mixture in reducing travellers' diarrhoea. Eur J Clin Nutr. 2010. PMID:19756029 DOI:10.1038/ejcn.2009.120
+47. Vulevic J et al. Influence of galacto-oligosaccharide mixture (B-GOS) on gut microbiota, immune parameters and metabonomics in elderly persons. Br J Nutr. 2015. PMID:26218845 DOI:10.1017/S0007114515001889
+48. Johnstone N et al. Anxiolytic effects of a galacto-oligosaccharides prebiotic in healthy females (18-25 years) with corresponding changes in gut bacterial composition. Sci Rep. 2021. PMID:33859330 DOI:10.1038/s41598-021-87865-w
+49. Johnstone N et al. Indicators of improved emotion behavior in 6-14-year-old children following a 4-week placebo controlled prebiotic supplement intervention at home with a parent. Nutr J. 2025. PMID:40025494 DOI:10.1186/s12937-025-01098-5
+50. Aslam H et al. Fiber intake and fiber intervention in depression and anxiety: a systematic review and meta-analysis of observational studies and randomized controlled trials. Nutr Rev. 2024. PMID:38007616 DOI:10.1093/nutrit/nuad143
+51. Zhang C et al. Effects of synbiotics surpass probiotics alone in improving type 2 diabetes mellitus: A randomized, double-blind, placebo-controlled trial. Clin Nutr. 2025. PMID:39719724 DOI:10.1016/j.clnu.2024.11.042
+52. Beteri B et al. Impact of Combined Prebiotic Galacto-Oligosaccharides and Bifidobacterium breve-Derived Postbiotic on Gut Microbiota and HbA1c in Prediabetic Adults: A Double-Blind, Randomized, Placebo-Controlled Study. Nutrients. 2024. PMID:39064648 DOI:10.3390/nu16142205
+53. Vulevic J et al. A mixture of trans-galactooligosaccharides reduces markers of metabolic syndrome and modulates the fecal microbiota and immune function of overweight adults. J Nutr. 2013. PMID:23303873 DOI:10.3945/jn.112.166132
+54. Fernandes R et al. Effects of inulin-type fructans, galacto-oligosaccharides and related synbiotics on inflammatory markers in adult patients with overweight or obesity: A systematic review. Clin Nutr. 2017. PMID:27771020 DOI:10.1016/j.clnu.2016.10.003
+55. Pretorius RA et al. Body mass index, prebiotic supplementation during pregnancy and gestational diabetes mellitus risk: an effect modification analysis from a randomised controlled trial. Nutr J. 2026. PMID:41987240 DOI:10.1186/s12937-026-01323-9
+56. Paganini D et al. Prebiotic galacto-oligosaccharides mitigate the adverse effects of iron fortification on the gut microbiome: a randomised controlled study in Kenyan infants. Gut. 2017. PMID:28774885 DOI:10.1136/gutjnl-2017-314418
+57. Rauch CE et al. The Effects of Prebiotic Supplementation on Markers of Exercise-Induced Gastrointestinal Syndrome in Response to Exertional Heat Stress. Int J Sport Nutr Exerc Metab. 2025. PMID:40010361 DOI:10.1123/ijsnem.2024-0127
+58. Chiang WC et al. Anaphylaxis to cow's milk formula containing short-chain galacto-oligosaccharide. J Allergy Clin Immunol. 2012. PMID:23102546 DOI:10.1016/j.jaci.2012.08.048
+59. Soh JY et al. Anaphylaxis to galacto-oligosaccharides--an evaluation in an atopic population in Singapore. Allergy. 2015. PMID:25951913 DOI:10.1111/all.12645
+60. Srisuwatchari W et al. Hypersensitivity reactions associated with nutraceuticals and dietary supplements: A narrative review. Asian Pac J Allergy Immunol. 2026. PMID:42437383 DOI:10.12932/AP-270226-2242
+61. Welling L et al. International clinical guideline for the management of classical galactosemia: diagnosis, treatment, and follow-up. J Inherit Metab Dis. 2017. PMID:27858262 DOI:10.1007/s10545-016-9990-5
+62. Adam S et al. How strict is galactose restriction in adults with galactosaemia? International practice. Mol Genet Metab. 2015. PMID:25873073 DOI:10.1016/j.ymgme.2015.03.008
+63. Wiesmann UN et al. Leguminosae in the diet: the raffinose-stachyose question. Eur J Pediatr. 1995. PMID:7671975 DOI:10.1007/BF02143812
+64. Baumgartner J et al. Iron absorption and loss, and efficacy of iron supplementation with and without prebiotics in children with virally suppressed HIV: three prospective studies in South Africa. Nat Commun. 2025. PMID:41233303 DOI:10.1038/s41467-025-64998-4
+65. Scheuchzer P et al. Iron Absorption from an Iron-Fortified Follow-Up Formula with and without the Addition of a Synbiotic or a Human-Identical Milk Oligosaccharide: A Randomized Crossover Stable Isotope Study in Young Thai Children. J Nutr. 2024. PMID:39179207 DOI:10.1016/j.tjnut.2024.08.016
+66. Ladirat SE et al. Exploring the effects of galacto-oligosaccharides on the gut microbiota of healthy adults receiving amoxicillin treatment. Br J Nutr. 2014. PMID:24925303 DOI:10.1017/S0007114514001135
+67. Bonnet N et al. A young child formula with Limosilactobacillus reuteri and GOS modulates gut microbiome and enhances bone and muscle development: a randomized trial. Nat Commun. 2025. PMID:41387706 DOI:10.1038/s41467-025-66930-2
+68. Wu Y et al. Galactooligosaccharides and Limosilactobacillus reuteri synergistically alleviate gut inflammation and barrier dysfunction by enriching Bacteroides acidifaciens for pentadecanoic acid biosynthesis. Nat Commun. 2024. PMID:39468026 DOI:10.1038/s41467-024-53144-1
+69. Singh P et al. Is a Simplified, Less Restrictive Low FODMAP Diet Possible? Results From a Double-Blind, Pilot Randomized Controlled Trial. Clin Gastroenterol Hepatol. 2025. PMID:38729393 DOI:10.1016/j.cgh.2024.04.021
+70. Angima G et al. Prebiotic Strategies to Manage Lactose Intolerance Symptoms. Nutrients. 2024. PMID:38613035 DOI:10.3390/nu16071002
+71. Gough LA et al. The Effects of 12-Week Prebiotic Supplementation on General Wellness and Exercise-Induced Gastrointestinal Symptoms in Recreationally Trained Endurance Athletes: A Triple-Blind Randomised Controlled Pilot Trial. Nutrients. 2025. PMID:41228463 DOI:10.3390/nu17213390
+72. US FDA. Agency Response Letter GRAS Notice No. GRN 000620 (galacto-oligosaccharides, Nestle; 2016). URL:https://www.fda.gov/food/gras-notice-inventory/agency-response-letter-gras-notice-no-grn-000620

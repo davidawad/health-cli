@@ -3,48 +3,218 @@
 :ID: supp-essential-capsules
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: Blueprint Essential Capsules | Essential Capsules by Blueprint
+:ALIASES: Blueprint Essential Capsules | Essential Capsules by Blueprint | Blueprint Bryan Johnson Essential Capsules | Blueprint longevity multivitamin
 :CATEGORY: other
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- A multi-ingredient branded dietary supplement, not a single nutrient. Blueprint’s current product page describes 23 longevity actives, including ubiquinol, fisetin, luteolin, lithium orotate, Lactobacillus acidophilus and B vitamins; formulation/label can change, so the physical lot label governs ingredient identity [URL:https://blueprint.bryanjohnson.com/en-gb/collections/daily-health-longevity/products/essentials-capsules]. A 2025 NIH DSLD label record describes 24 actives; differences underscore version control [URL:https://hellopharmacist.com/drug-supplement-interactions/supplements/essential-capsules-by-blueprint-bryan-johnson-2431781].
+- Branded multi-ingredient dietary supplement ("daily longevity multivitamin") sold by Blueprint (Bryan Johnson). It is a vitamin-mineral premix plus NAD+ precursor, polyphenols, ubiquinol, spermidine, a probiotic, boron and lithium. Serving: 2 veggie capsules once daily in the morning with food; 30 servings per container [URL:https://blueprint.bryanjohnson.com/products/essentials-capsules].
+- Label per 2 capsules (official product page, fetched 2026-10-13; identical amounts in NIH DSLD label 328204, entered 2025-02-23) [URL:https://blueprint.bryanjohnson.com/products/essentials-capsules] [URL:https://dsld.od.nih.gov/label/328204]:
+  - Vitamins: D3 (cholecalciferol) 50 mcg/2000 IU; E (d-alpha-tocopherol) 67 mg (447% DV); B1 (thiamine HCl) 1.1 mg; B2 1.4 mg; niacin (niacinamide) 15 mg; B6 (pyridoxine HCl) 1.4 mg; folate (calcium L-5-MTHF) 200 mcg DFE; B12 (methylcobalamin) 125 mcg; biotin 50 mcg; pantothenic acid 6 mg.
+  - Minerals: calcium 50 mg; iodine (potassium iodide) 200 mcg; zinc (bisglycinate) 15 mg; selenium (L-selenomethionine) 28 mcg; manganese (citrate) 1 mg; boron (glycinate) 3 mg; lithium (orotate) 1 mg elemental.
+  - Non-nutrients: nicotinamide riboside chloride 300 mg; broccoli seed extract 200 mg (glucoraphanin 20 mg); fisetin 100 mg (smoketree stem extract); luteolin 100 mg (Sophora japonica bud extract); ubiquinol 50 mg; Lactobacillus acidophilus 20 mg (4 billion CFU); spermidine (trihydrochloride) 10 mg.
+  - Other ingredients: HPMC/pectin capsule, rice hulls, starch, rice blend extract.
+- Version caveats (from the two label sources above): the page says "23 longevity actives" but the facts panel and DSLD list 24 rows. Its ingredient notes name "Potassium Iodate" while the facts panel says potassium iodide. DSLD lists calcium as carbonate plus dicalcium phosphate (page: dicalcium phosphate only). DSLD records biotin as "50 mg" at 167% DV; 167% of the 30 mcg DV is 50 mcg, as on the page, so the DSLD unit looks like a transcription error. Blueprint revises formulas, so the bottle in hand governs.
+- Lithium orotate supplies about 3.83 mg elemental lithium per 100 mg salt [PMID:18072162]. 1 mg elemental lithium is therefore about 26 mg lithium orotate, far below prescription lithium doses [PMID:34146638].
+- No randomized or pharmacokinetic study of the combined product was found in PubMed (search 2026-10-13). All efficacy statements below are ingredient-level extrapolations.
 
 ** Mechanisms
-- The formula combines micronutrients with unrelated compounds, so no single mechanism can be assigned. For example, B vitamins serve as metabolic cofactors while ubiquinol participates in electron transport; the product has no published mechanism validated as a whole [URL:https://blueprint.bryanjohnson.com/products/essentials-capsules].
+- Micronutrients (D, E, B vitamins, zinc, selenium, iodine, manganese) act as cofactors, hormone precursors or antioxidant enzyme components. Multivitamin trials test this "fill nutrient gaps" model [PMID:35294969] [PMID:35727272].
+- Nicotinamide riboside (NR) is an NAD+ precursor. 100, 300 and 1000 mg/d raised whole-blood NAD+ by 22%, 51% and 142% in 8 weeks [PMID:31278280]. Raising NAD+ has produced few clinically relevant effects in humans [PMID:37478182].
+- Glucoraphanin is converted (by myrosinase or gut bacteria) to sulforaphane, an Nrf2 inducer. A broccoli sprout beverage increased benzene detoxication only at its highest dose [PMID:31268126].
+- Fisetin and luteolin are flavonoids. Fisetin is proposed as a senolytic/anti-inflammatory agent from in vitro and animal data. Unformulated fisetin has very low oral bioavailability (Cmax about 10 ng/mL after 1000 mg) [PMID:42633989] [PMID:36304817]. Luteolin has poor oral bioavailability, circulates mainly as glucuronide/sulfate conjugates, and inhibits OATP1B1/OATP2B1 in vitro [PMID:38088265].
+- Ubiquinol is reduced CoQ10, a mitochondrial electron carrier. Absorbed CoQ10 appears in blood mostly as ubiquinol whichever form is taken. Ubiquinol was not significantly more bioavailable than ubiquinone (1.7-fold, CI 0.9-3.1) [PMID:32188111].
+- Spermidine is an autophagy-inducing polyamine in models. Oral spermidine 15 mg/d raised plasma spermine, not spermidine, suggesting presystemic conversion [PMID:37111071].
+- Lithium inhibits GSK3-beta. In mice, dietary lithium depletion accelerated amyloid/tau pathology and lithium orotate replacement prevented it; human brain lithium was lower in MCI [PMID:40770094]. Whether orotate differs from carbonate after ingestion is disputed: it is predicted to dissociate to Li+ in the stomach [PMID:42312809].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---------+--------------------+-----------+-------------+-----------------------+-----------|
-| Prevention of disease/longevity | No product-level RCT identified | Unknown | No validated product-level effect estimate | very low | [URL:https://blueprint.bryanjohnson.com/en-gb/collections/daily-health-longevity/products/essentials-capsules] |
-| Individual nutrient deficiency correction | Established for specific nutrients in deficiency states, not equivalent to this blend | Ingredient-specific | Effects depend on baseline status and exact doses | moderate | [URL:https://ods.od.nih.gov/factsheets/list-all/] |
-| Broad health claims | Manufacturer claims only | Unproven for the whole formula | No published whole-product randomized outcome trial identified in searched sources | very low | [URL:https://blueprint.bryanjohnson.com/en-gb/collections/daily-health-longevity/products/essentials-capsules] |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Any health outcome of the combined product | None (no product trial) | Unknown | Not estimable | very low | [URL:https://blueprint.bryanjohnson.com/products/essentials-capsules] |
+| Total cancer (conventional multivitamin, older adults) | RCTs: PHS II (n=14,641, 11.2 y); COSMOS (n=21,442, 3.6 y); USPSTF MA | Small or no benefit | PHS II HR 0.92 (0.86-0.998); COSMOS HR 0.97 (0.86-1.09); pooled OR 0.93 (0.87-0.99) | moderate | [PMID:23162860] [PMID:35294969] [PMID:35727272] |
+| Cardiovascular events (multivitamin) | RCTs: PHS II, COSMOS | No effect | PHS II HR 1.01 (0.91-1.10); COSMOS HR 0.98 (0.86-1.12) | high | [PMID:23117775] [PMID:35294969] |
+| All-cause mortality (multivitamin) | MA of 21 RCTs (n=91,074); cohort of 390,124 | No effect | RR 0.98 (0.94-1.02); cohort HR 1.04 (1.02-1.07) | moderate | [PMID:23255568] [PMID:38922615] [PMID:35294969] |
+| Cognition/memory (multivitamin, older adults) | MA of 3 COSMOS substudies (n=5,203) | Small benefit | Global cognition +0.07 SU (0.03-0.11); episodic memory +0.06 SU | moderate | [PMID:38244989] [PMID:36102337] [PMID:37244291] |
+| Epigenetic aging clocks (multivitamin) | COSMOS ancillary RCT (n=958, 2 y) | Small slowing | PCGrimAge -0.113 y/yr (-0.205 to -0.020); PCPhenoAge -0.214 y/yr | low | [PMID:41803341] |
+| Cancer/CVD, vitamin D3 2000 IU | VITAL RCT (n=25,871, 5.3 y) | No effect | Cancer HR 0.96 (0.88-1.06); major CVD HR 0.97 (0.85-1.12) | high | [PMID:30415629] |
+| Fractures, vitamin D3 2000 IU | VITAL ancillary RCT | No effect | Total fractures HR 0.98 (0.89-1.08) | high | [PMID:35939577] |
+| Autoimmune disease, vitamin D3 2000 IU | VITAL RCT | Possible reduction | HR 0.78 (0.61-0.99) | moderate | [PMID:35082139] |
+| Mortality, vitamin D | MA of 52 RCTs; D-Health RCT | No all-cause effect; cancer death possibly lower | RR 0.98 (0.95-1.02); cancer death RR 0.84 (0.74-0.95); D-Health HR 1.04 (0.93-1.18) | high | [PMID:31405892] [PMID:35026158] |
+| Telomere length, vitamin D3 2000 IU | VITAL substudy (n=1,031) | Less attrition | 0.14 kb less over 4 y | low | [PMID:40409468] |
+| Blood NAD+ / metabolic syndrome (NR) | Dose-ranging RCT; MA of 19 RCTs of NAD+ precursors | NAD+ up; small lipid change only | NAD+ +51% at 300 mg/d; lower TC/TG, no other MetS effect; GRADE low/very low | low | [PMID:31278280] [PMID:39111741] |
+| Muscle mass/function (NR/NMN) | MA of RCTs (older adults) | No benefit | NMN SMI MD -0.42 (-0.99 to 0.14); NR mixed | low | [PMID:40275690] |
+| Insulin sensitivity (NR 2 g/d) | RCT (n=40 obese men) | No effect | Clamp unchanged | low | [PMID:29992272] |
+| Cognition (NR 1 g/d) | Small crossover RCT; pilot RCT | No effect on cognition; pTau217 lower | pTau217 -7% vs +18% with placebo | very low | [PMID:39817194] [PMID:37994989] |
+| Systolic BP (CoQ10) | MA of 45 RCTs | Decrease | SBP WMD -3.44 mmHg; larger at <200 mg/d, >8 wk | low | [PMID:40495903] |
+| Statin myalgia (CoQ10) | MA of 6 RCTs | No significant benefit | Pain SMD -0.53 (-1.33 to 0.28) | low | [PMID:25440725] |
+| Memory (spermidine) | SmartAge RCT (0.9 mg/d, 12 mo, n=100) | No effect | Between-group -0.03 (-0.11 to 0.05) | low | [PMID:35616942] |
+| Inflammation/metabolic markers (fisetin 200 mg/d) | RCT in obese men with/without training (n=44) | Possible benefit | Lower IL-6, TNF-a, HOMA-IR vs placebo; small single-centre trial | very low | [PMID:42218768] |
+| Cardiometabolic markers (luteolin-containing extract) | RCT post-hoc (Altilix, n=50) | Possible benefit | Lower weight, glucose, lipids; multi-ingredient extract | very low | [PMID:36678333] |
+| Cognition (low-dose lithium) | LATTICE pilot RCT (MCI, n=80, 2 y); MA of 6 RCTs in AD | Inconclusive | CVLT-II decline 0.69 points/yr slower (0.01-1.37), coprimaries null; AD MMSE MD -1.61 (-4.11 to 0.88) | very low | [PMID:41770546] [PMID:42521537] [PMID:41177743] |
+| Suicide mortality (trace lithium in water) | MA of ecological studies | Inverse association | OR 0.42 (0.27-0.67); crude, unadjusted | very low | [PMID:32056756] |
+| Thyroid autoimmunity (selenium, in Hashimoto) | MA of RCTs (35 studies) | TPOAb and TSH lower | TSH SMD -0.21; TPOAb SMD -0.96; GRADE moderate | moderate | [PMID:38243784] |
 
 ** Dosing in trials
-- Current product page recommends 2 capsules daily with food. The catalog/label has changed over time; identify version, amounts and serving size from the bottle before extrapolating [URL:https://blueprint.bryanjohnson.com/en-gb/collections/daily-health-longevity/products/essentials-capsules; URL:https://hellopharmacist.com/drug-supplement-interactions/supplements/essential-capsules-by-blueprint-bryan-johnson-2431781].
+- Multivitamin trials used conventional RDA-level products (Centrum Silver in COSMOS; a common daily multivitamin in PHS II) [PMID:35294969] [PMID:23162860] [PMID:37244291]. Essential Capsules differs: it has more vitamin E, iodine and B12, and less B6, and it adds non-nutrients. Multivitamin results are indirect evidence only.
+- Vitamin D3: 2000 IU/d is exactly the VITAL dose [PMID:30415629].
+- Vitamin E: product 67 mg d-alpha-tocopherol (about 100 IU). Trials covered 33-800 IU [PMID:37698992]. SELECT used 400 IU/d synthetic all-rac-alpha-tocopheryl acetate [PMID:21990298].
+- NR: product 300 mg/d. Trials span 100-2000 mg/d. 300 mg/d raised NAD+ 51% [PMID:31278280]; 1000 mg/d was used in MCI [PMID:37994989] and Parkinson trials [PMID:42848371]; 2000 mg/d in obese men [PMID:29992272].
+- Fisetin: product 100 mg/d. The only RCTs found used 200 mg/d for 12 weeks [PMID:42218768]. A registered trial tests 100 mg/d for 7 weeks [PMID:42633989]. Senolytic protocols use intermittent high doses; daily 100 mg has no outcome data.
+- Ubiquinol: product 50 mg/d. The BP MA found larger effects below 200 mg/d [PMID:40495903].
+- Spermidine: product 10 mg "as trihydrochloride"; the label does not say whether this is base or salt weight. Trial doses ranged from 0.9 mg/d (wheat germ) [PMID:35616942] to 15 mg/d [PMID:37111071] and 40 mg/d [PMID:39405978]. The 15 mg/d PK authors judged doses <15 mg/d unlikely to have short-term effects [PMID:37111071].
+- Glucoraphanin: product 20 mg. Only the highest of 3 sprout-beverage doses changed benzene detoxication [PMID:31268126].
+- Lithium: product 1 mg elemental/d. The MCI pilot used low-dose lithium carbonate [PMID:41770546]. Supplemental orotate doses are 5.5-67 times below therapeutic lithium [PMID:34146638].
 
 ** Safety & adverse effects
-- A multi-ingredient formula inherits ingredient-specific risks; label record includes vitamins/minerals, lithium orotate, nicotinamide riboside, botanical/polyphenol compounds and probiotic [URL:https://hellopharmacist.com/drug-supplement-interactions/supplements/essential-capsules-by-blueprint-bryan-johnson-2431781]. Supplemental biotin can interfere with certain immunoassays (including troponin and thyroid tests); FDA warns of falsely low troponin results [URL:https://www.fda.gov/medical-devices/safety-communications/update-fda-warns-biotin-may-interfere-lab-tests-fda-safety-communication].
+- Whole product: no published safety data. Blueprint states third-party heavy-metal testing; this was not independently verified here [URL:https://blueprint.bryanjohnson.com/products/essentials-capsules].
+- Multivitamins: no safety concerns in COSMOS [PMID:35294969]. USPSTF found limited evidence of serious harms for specific nutrients: hemorrhagic stroke (vitamin E), kidney stones (vitamin C, calcium), and hip fracture (vitamin A) [PMID:35727272].
+- Vitamin E (67 mg = 447% DV): MA of 9 RCTs: hemorrhagic stroke RR 1.22 (1.00-1.48), ischemic stroke RR 0.90 [PMID:21051774]. A 2024 MA found the hemorrhagic excess when E was combined with other antioxidants (RR 1.22) [PMID:37698992]. SELECT: 400 IU/d raised prostate cancer risk (HR 1.17) [PMID:21990298]. These were mostly higher doses than in this product.
+- Vitamin B6 (1.4 mg): Dutch pharmacovigilance found neuropathy reports from products with 1.4-100 mg per tablet; doses <50 mg/d "cannot be excluded" [PMID:29737502]. Low-dose reports continued after the Netherlands capped B6 at 21 mg/d [PMID:39888171]. Case report: B6 toxicity with a multivitamin providing only 6 mg/d [PMID:38098895]. The risk at 1.4 mg alone is likely negligible. Cumulative intake from other products is the concern.
+- Zinc 15 mg: long-term zinc supplementation can cause copper deficiency (myelopathy, anemia, neutropenia) by inducing enterocyte metallothionein [PMID:42757636] [PMID:40866286] [PMID:29959467]. Hematological changes reverse with copper; neurological deficits only partly reverse [PMID:29959467]. The product contains no copper.
+- Selenium 28 mcg: supplementation did not prevent cancer (RR 1.01, high certainty). RCTs showed slightly more type 2 diabetes, plus alopecia and dermatitis in SELECT [PMID:29376219]. The Danish PRECISE trial suggested a U-shaped glucose response [PMID:30280459]. 28 mcg is a low dose, so risk comes mainly from stacking.
+- Iodine 200 mcg (133-136% DV per label): excess iodine is usually tolerated. Susceptible people (pre-existing thyroid disease, previous iodine deficiency) may develop hypo- or hyperthyroidism or autoimmunity at intakes only slightly above need [PMID:30891786] [PMID:38870258].
+- Lithium 1 mg: lithium orotate was not genotoxic; rat NOAEL was 400 mg/kg/day [PMID:34146638]. Overdose of an internet orotate supplement caused mild toxicity (serum 0.40 mEq/L) [PMID:18072162]. In the MCI pilot of low-dose carbonate, diarrhea (29% vs 15%) and tremor (24% vs 15%) were more frequent [PMID:41770546].
+- NR: 100-1000 mg/d for 8 weeks caused no flushing and no adverse-event excess; LDL was not raised [PMID:31278280]. NOPARK (1000 mg/d, 52 weeks, early Parkinson disease): worse MDS-UPDRS than placebo (MD 2.72 points, CI 0.47-4.98) and worse non-motor burden. Serious AEs were fewer with NR (8.3% vs 14.1%) [PMID:42848371].
+- Spermidine 40 mg/d for 28 days caused no safety-lab changes [PMID:39405978].
+- Probiotic: Lactobacillus infections (bacteremia, endocarditis) are rare and occur mostly in immunocompromised or diabetic patients or those with valve prostheses. L. acidophilus accounted for 5 of 48 cases in 2019-2021 [PMID:35334835].
+- Glucoraphanin/sulforaphane: a 12-week broccoli sprout beverage did not change TSH, fT4, thyroglobulin or thyroid autoimmunity [PMID:30735751].
 
 ** Contraindications
-- No whole-product contraindication trials exist. Ingredient-level cautions apply: lithium products with renal impairment/dehydration and interacting medicines; iodine in thyroid disease; calcium/minerals with absorption-sensitive drugs; vitamin E with bleeding risk; check the current label and NIH ODS ingredient fact sheets [URL:https://ods.od.nih.gov/factsheets/list-all/].
+- No product-level contraindication data. The following are ingredient-based.
+- Current prescription lithium therapy: adds lithium in a narrow-therapeutic-index setting [PMID:8521679] [PMID:41620355].
+- Pre-existing thyroid disease, especially autoimmune thyroiditis or nodular goiter, when total iodine intake is high [PMID:30891786] [PMID:38870258].
+- Severe immunodeficiency or prosthetic heart valves (live probiotic): caution [PMID:35334835].
+- Parkinson disease: NR 1 g/d worsened clinical scores in NOPARK. The product dose is 300 mg, so relevance is uncertain [PMID:42848371].
+- Pregnancy/lactation and children: no data for lithium, fisetin, luteolin, spermidine or NR at these doses. Avoidance is a precaution, not evidence-based.
 
 ** Interactions
-- Potential interaction burden includes vitamin E with anticoagulants/antiplatelets, calcium with levothyroxine/quinolone/tetracycline absorption, iodine with thyroid-active drugs, and minerals with integrase inhibitors. Biotin can interfere with lab immunoassays. These are constituent-level risks, not evidence of a tested product interaction [URL:https://ods.od.nih.gov/factsheets/list-all/; URL:https://www.fda.gov/medical-devices/safety-communications/update-fda-warns-biotin-may-interfere-lab-tests-fda-safety-communication].
+*** Drugs
+- Lithium carbonate/citrate: additive lithium. Thiazides (+25-40% serum lithium), NSAIDs and ACE inhibitors reduce lithium clearance [PMID:8521679] [PMID:41620355]. At 1 mg/d the added exposure is small, but it is unmonitored.
+- Levothyroxine: calcium reduced levothyroxine absorption by 20-25% at 500 mg elemental calcium [PMID:21595516]. The product's 50 mg is a tenth of that. Separating doses is still advised for calcium and iron supplements [PMID:33801406]. Iodine and selenium can also shift thyroid tests [PMID:38870258] [PMID:38243784].
+- Anticoagulants/antiplatelets (warfarin, aspirin): vitamin E is linked to hemorrhagic stroke [PMID:21051774] [PMID:37698992]. CoQ10 100 mg/d did not change INR or warfarin dose in a crossover RCT [PMID:12772396].
+- Statins: CoQ10 did not significantly improve statin myalgia [PMID:25440725]. No harmful interaction.
+- Antithyroid drugs/amiodarone: iodine adds to iodine load [PMID:38870258].
+- OATP substrates: luteolin inhibits OATP1B1/2B1 in vitro. Human relevance is unknown [PMID:38088265].
+*** Other supplements
+- Duplication is the main practical risk. Overlapping corpus items: Lithium, Zinc, Selenium, Iodine (potassium iodide), Vitamin B6, B Complex, Vitamin D-3, Vitamin E, Nicotinamide Riboside, NMN, Fisetin, CoQ10, Spermidine, Sulforaphane Glucosinolate (BroccoMax) and Boron.
+- Zinc + Zinc: cumulative zinc raises copper-deficiency risk [PMID:42757636] [PMID:29959467].
+- Selenium + Selenium: cumulative selenium; diabetes, alopecia and dermatitis signals in RCTs [PMID:29376219].
+- Iodine + Iodine (potassium iodide): cumulative iodine above need [PMID:30891786].
+- Vitamin B6 / B Complex: cumulative B6 and neuropathy reports at low doses [PMID:29737502] [PMID:38098895].
+- Vitamin E + Vitamin E / EPA/DHA/DPA / Aspirin: possible bleeding stack; only vitamin E has outcome data [PMID:21051774].
+- Vitamin D-3 + Vitamin D-3: 2000 IU already matches VITAL. Extra D adds no shown benefit [PMID:30415629] [PMID:31405892].
+- Nicotinamide Riboside / NMN: same NAD+ pathway; dose stacking without clear benefit [PMID:31278280] [PMID:40275690].
+- Boron + Boron: an acute 11.6 mg boron dose did not alter coagulation or glucose [PMID:12428176]; cumulative long-term intake is unstudied. Spermidine, Fisetin, CoQ10 and Sulforaphane Glucosinolate (BroccoMax) duplicates add dose without outcome data [PMID:37111071] [PMID:42633989] [PMID:40495903] [PMID:31268126].
+*** Conditions
+- Thyroid disease (iodine, selenium): see Contraindications [PMID:38870258] [PMID:38243784].
+- Kidney impairment: lithium is cleared renally [PMID:8521679]. Creatinine rises were similar on low-dose lithium and placebo in the MCI pilot [PMID:41770546].
+- Parkinson disease (NR) [PMID:42848371]; immunocompromise (probiotic) [PMID:35334835].
+- Prostate cancer risk: SELECT signals for vitamin E (and selenium at high baseline status) [PMID:21990298] [PMID:29376219].
+*** Lab-test interference
+- Biotin interferes with streptavidin-biotin immunoassays: falsely low hs-troponin T and TSH, and falsely high T3 and vitamin D [PMID:30296442]. Studies model milligram-level intakes (for example, 300 mg) [PMID:31944861]. The 50 mcg here is unlikely to interfere alone but adds to other biotin-containing products.
+- True physiological changes, not artifacts: higher 25(OH)D [PMID:35026158], lower TSH/TPOAb with selenium in Hashimoto [PMID:38243784], and possibly serum lithium if measured [PMID:18072162].
 
 ** Genotype notes
-- No cited pharmacogenomic or nutrigenomic source specific to Essential Capsules was identified in this search; no genotype claim is made.
+No cited pharmacogenomic or nutrigenomic source found.
 
 ** Latest research
-- Current official product page lists a multi-active formula and a 2-capsule serving; manufacturer formulation differs from third-party indexed historical label [URL:https://blueprint.bryanjohnson.com/en-gb/collections/daily-health-longevity/products/essentials-capsules; URL:https://hellopharmacist.com/drug-supplement-interactions/supplements/essential-capsules-by-blueprint-bryan-johnson-2431781]. No new product-level efficacy RCT found in PubMed/product source search (through 2026-10-13).
+- [2026-10] NOPARK phase 3 RCT (n=410): NR 1 g/d for 52 weeks worsened MDS-UPDRS vs placebo (MD 2.72) in early Parkinson disease [PMID:42848371].
+- [2026-09] Protocol of a triple-blind RCT of 100 mg/d fisetin (the product's dose) on suPAR [PMID:42633989].
+- [2026-07] Case report: copper-deficiency myelopathy on long-term zinc-containing AREDS2 supplementation [PMID:42757636].
+- [2026-06] Bayesian reanalysis of LATTICE: 96.5% probability of verbal-recall benefit; overall inconclusive [PMID:42521537].
+- [2026-06] Commentary: lithium orotate likely dissociates to Li+; claims of a distinct compound need evidence [PMID:42312809].
+- [2026-04] LATTICE pilot RCT of low-dose lithium in MCI: coprimary outcomes null [PMID:41770546].
+- [2026-03] COSMOS epigenetic-clock RCT: MVM slowed PCGrimAge by 0.11 y/yr [PMID:41803341].
+- [2026-03] Lithium in AD MA (6 RCTs): no consistent cognitive benefit, acceptable safety [PMID:41177743].
+- [2025-09] Nature: brain lithium deficiency in MCI/AD; lithium orotate rescued mice [PMID:40770094].
+- [2025-07] VITAL telomere substudy: D3 2000 IU reduced telomere attrition by 140 bp over 4 years [PMID:40409468].
+- [2025-06] NR/NMN MA: no muscle mass or function benefit in older adults [PMID:40275690].
+- [2025-05] CoQ10 MA (45 RCTs): SBP -3.44 mmHg [PMID:40495903].
+- [2025-02] Dutch B6 neuropathy reports continue at low doses after the 21 mg cap [PMID:39888171].
+- [2025-01] NR 1 g/d crossover: pTau217 lower, cognition unchanged [PMID:39817194].
+- [2024-12] Spermidine 40 mg/d safe for 28 days; minimal change in circulating polyamines [PMID:39405978].
+- [2024-11] NAD+ precursor MA: lipid changes only; GRADE low to very low [PMID:39111741].
+- [2024-11] Endocrine Reviews: risks of iodine excess [PMID:38870258].
 
 ** Open questions
-- Larger, better reported human studies with standardized products, clinically meaningful endpoints and longer follow-up are needed; current gaps are noted above.
+- No trial of the combined formula exists. Its efficacy, tolerability and possible interactions among its 24 actives are unknown.
+- Whether multivitamin cognitive and epigenetic-clock benefits from Centrum Silver transfer to this composition.
+- Clinical relevance of 1 mg/d lithium. Ecological suicide/dementia associations and mouse data have not been tested in adequately powered human trials at trace doses.
+- Daily 100 mg fisetin and 100 mg luteolin: bioavailability from these extracts and long-term safety are unstudied.
+- Why NR worsened Parkinson outcomes in NOPARK, and whether this applies to lower doses or to people without Parkinson disease.
+- Label consistency (iodide vs iodate, calcium source, DSLD biotin unit) and lot-level verification of the stated amounts.
+- Long-term copper status with 15 mg zinc and no copper.
 
 ** Sources
-- URL:https://blueprint.bryanjohnson.com/en-gb/collections/daily-health-longevity/products/essentials-capsules
-- URL:https://hellopharmacist.com/drug-supplement-interactions/supplements/essential-capsules-by-blueprint-bryan-johnson-2431781
-- URL:https://ods.od.nih.gov/factsheets/list-all/
-- URL:https://www.fda.gov/medical-devices/safety-communications/update-fda-warns-biotin-may-interfere-lab-tests-fda-safety-communication
+1. Pauzé DK et al. Lithium toxicity from an Internet dietary supplement. J Med Toxicol. 2007. PMID:18072162 DOI:10.1007/BF03160910
+2. Murbach TS et al. A toxicological evaluation of lithium orotate. Regul Toxicol Pharmacol. 2021. PMID:34146638 DOI:10.1016/j.yrtph.2021.104973
+3. Sesso HD et al. Multivitamins in the prevention of cancer and cardiovascular disease: the COcoa Supplement and Multivitamin Outcomes Study (COSMOS) randomized clinical trial. Am J Clin Nutr. 2022. PMID:35294969 DOI:10.1093/ajcn/nqac056
+4. O'Connor EA et al. Vitamin and Mineral Supplements for the Primary Prevention of Cardiovascular Disease and Cancer: Updated Evidence Report and Systematic Review for the US Preventive Services Task Force. JAMA. 2022. PMID:35727272 DOI:10.1001/jama.2021.15650
+5. Conze D et al. Safety and Metabolism of Long-term Administration of NIAGEN (Nicotinamide Riboside Chloride) in a Randomized, Double-Blind, Placebo-controlled Clinical Trial of Healthy Overweight Adults. Sci Rep. 2019. PMID:31278280 DOI:10.1038/s41598-019-46120-z
+6. Damgaard MV et al. What is really known about the effects of nicotinamide riboside supplementation in humans. Sci Adv. 2023. PMID:37478182 DOI:10.1126/sciadv.adi4862
+7. Chen JG et al. Dose-dependent detoxication of the airborne pollutant benzene in a randomized trial of broccoli sprout beverage in Qidong, China. Am J Clin Nutr. 2019. PMID:31268126 DOI:10.1093/ajcn/nqz122
+8. Tavenier J et al. Low-Dose Fisetin Supplementation and Its Association With Chronic Inflammation in Middle-Aged and Older Adults: Study Protocol for a Triple-Blind, Randomised, Placebo-Controlled Trial. Basic Clin Pharmacol Toxicol. 2026. PMID:42633989 DOI:10.1111/bcpt.70290
+9. Krishnakumar IM et al. Enhanced bioavailability and pharmacokinetics of a novel hybrid-hydrogel formulation of fisetin orally administered in healthy individuals: a randomised double-blinded comparative crossover study. J Nutr Sci. 2022. PMID:36304817 DOI:10.1017/jns.2022.72
+10. Shi M et al. Luteolin, a flavone ingredient: Anticancer mechanisms, combined medication strategy, pharmacokinetics, clinical trials, and pharmaceutical researches. Phytother Res. 2024. PMID:38088265 DOI:10.1002/ptr.8066
+11. Pravst I et al. Comparative Bioavailability of Different Coenzyme Q10 Formulations in Healthy Elderly Individuals. Nutrients. 2020. PMID:32188111 DOI:10.3390/nu12030784
+12. Senekowitsch S et al. High-Dose Spermidine Supplementation Does Not Increase Spermidine Levels in Blood Plasma and Saliva of Healthy Adults: A Randomized Placebo-Controlled Pharmacokinetic and Metabolomic Study. Nutrients. 2023. PMID:37111071 DOI:10.3390/nu15081852
+13. Aron L et al. Lithium deficiency and the onset of Alzheimer's disease. Nature. 2025. PMID:40770094 DOI:10.1038/s41586-025-09335-x
+14. Hajek T et al. Lithium orotate: distinct compound or simply Li+ after administration?. Br J Psychiatry. 2026. PMID:42312809 DOI:10.1192/bjp.2026.10699
+15. Gaziano JM et al. Multivitamins in the prevention of cancer in men: the Physicians' Health Study II randomized controlled trial. JAMA. 2012. PMID:23162860 DOI:10.1001/jama.2012.14641
+16. Sesso HD et al. Multivitamins in the prevention of cardiovascular disease in men: the Physicians' Health Study II randomized controlled trial. JAMA. 2012. PMID:23117775 DOI:10.1001/jama.2012.14805
+17. Macpherson H et al. Multivitamin-multimineral supplementation and mortality: a meta-analysis of randomized controlled trials. Am J Clin Nutr. 2013. PMID:23255568 DOI:10.3945/ajcn.112.049304
+18. Loftfield E et al. Multivitamin Use and Mortality Risk in 3 Prospective US Cohorts. JAMA Netw Open. 2024. PMID:38922615 DOI:10.1001/jamanetworkopen.2024.18729
+19. Vyas CM et al. Effect of multivitamin-mineral supplementation versus placebo on cognitive function: results from the clinic subcohort of the COcoa Supplement and Multivitamin Outcomes Study (COSMOS) randomized clinical trial and meta-analysis of 3 cognitive studies within COSMOS. Am J Clin Nutr. 2024. PMID:38244989 DOI:10.1016/j.ajcnut.2023.12.011
+20. Baker LD et al. Effects of cocoa extract and a multivitamin on cognitive function: A randomized clinical trial. Alzheimers Dement. 2023. PMID:36102337 DOI:10.1002/alz.12767
+21. Yeung LK et al. Multivitamin Supplementation Improves Memory in Older Adults: A Randomized Clinical Trial. Am J Clin Nutr. 2023. PMID:37244291 DOI:10.1016/j.ajcnut.2023.05.011
+22. Li S et al. Effects of daily multivitamin-multimineral and cocoa extract supplementation on epigenetic aging clocks in the COSMOS randomized clinical trial. Nat Med. 2026. PMID:41803341 DOI:10.1038/s41591-026-04239-3
+23. Manson JE et al. Vitamin D Supplements and Prevention of Cancer and Cardiovascular Disease. N Engl J Med. 2019. PMID:30415629 DOI:10.1056/NEJMoa1809944
+24. LeBoff MS et al. Supplemental Vitamin D and Incident Fractures in Midlife and Older Adults. N Engl J Med. 2022. PMID:35939577 DOI:10.1056/NEJMoa2202106
+25. Hahn J et al. Vitamin D and marine omega 3 fatty acid supplementation and incident autoimmune disease: VITAL randomized controlled trial. BMJ. 2022. PMID:35082139 DOI:10.1136/bmj-2021-066452
+26. Zhang Y et al. Association between vitamin D supplementation and mortality: systematic review and meta-analysis. BMJ. 2019. PMID:31405892 DOI:10.1136/bmj.l4673
+27. Neale RE et al. The D-Health Trial: a randomised controlled trial of the effect of vitamin D on mortality. Lancet Diabetes Endocrinol. 2022. PMID:35026158 DOI:10.1016/S2213-8587(21)00345-4
+28. Zhu H et al. Vitamin D3 and marine ω-3 fatty acids supplementation and leukocyte telomere length: 4-year findings from the VITamin D and OmegA-3 TriaL (VITAL) randomized controlled trial. Am J Clin Nutr. 2025. PMID:40409468 DOI:10.1016/j.ajcnut.2025.05.003
+29. Oliveira-Cruz A et al. Effects of Supplementation with NAD +  Precursors on Metabolic Syndrome Parameters: A Systematic Review and Meta-Analysis. Horm Metab Res. 2024. PMID:39111741 DOI:10.1055/a-2382-6829
+30. Prokopidis K et al. The Effect of Nicotinamide Mononucleotide and Riboside on Skeletal Muscle Mass and Function: A Systematic Review and Meta-Analysis. J Cachexia Sarcopenia Muscle. 2025. PMID:40275690 DOI:10.1002/jcsm.13799
+31. Dollerup OL et al. A randomized placebo-controlled clinical trial of nicotinamide riboside in obese men: safety, insulin-sensitivity, and lipid-mobilizing effects. Am J Clin Nutr. 2018. PMID:29992272 DOI:10.1093/ajcn/nqy132
+32. Wu CY et al. Cognitive and Alzheimer's disease biomarker effects of oral nicotinamide riboside (NR) supplementation in older adults with subjective cognitive decline and mild cognitive impairment. Alzheimers Dement (N Y). 2025. PMID:39817194 DOI:10.1002/trc2.70023
+33. Orr ME et al. A randomized placebo-controlled trial of nicotinamide riboside in older adults with mild cognitive impairment. Geroscience. 2024. PMID:37994989 DOI:10.1007/s11357-023-00999-9
+34. Karimi M et al. Effects of coenzyme Q10 administration on blood pressure and heart rate in adults: A systematic review and meta-analysis of randomized controlled trials. Int J Cardiol Cardiovasc Risk Prev. 2025. PMID:40495903 DOI:10.1016/j.ijcrp.2025.200424
+35. Banach M et al. Effects of coenzyme Q10 on statin-induced myopathy: a meta-analysis of randomized controlled trials. Mayo Clin Proc. 2015. PMID:25440725 DOI:10.1016/j.mayocp.2014.08.021
+36. Schwarz C et al. Effects of Spermidine Supplementation on Cognition and Biomarkers in Older Adults With Subjective Cognitive Decline: A Randomized Clinical Trial. JAMA Netw Open. 2022. PMID:35616942 DOI:10.1001/jamanetworkopen.2022.13875
+37. Alipour M et al. 12‑weeks fisetin supplementation and interval resistance with aerobic training: changes in Maresin‑1 and inflammatory markers in men with obesity: a randomized controlled trial. J Int Soc Sports Nutr. 2026. PMID:42218768 DOI:10.1080/15502783.2026.2679718
+38. Terzo S et al. A Nutraceutical Containing Chlorogenic Acid and Luteolin Improves Cardiometabolic Parameters in Subjects with Pre-Obesity: A 6-Month Randomized, Double-Blind, Placebo-Controlled Study. Nutrients. 2023. PMID:36678333 DOI:10.3390/nu15020462
+39. Gildengers AG et al. Low-Dose Lithium for Mild Cognitive Impairment: A Pilot Randomized Clinical Trial. JAMA Neurol. 2026. PMID:41770546 DOI:10.1001/jamaneurol.2026.0072
+40. da Silva AMP et al. Bayesian Reanalysis of a Pilot Randomized Clinical Trial of Low-Dose Lithium in Mild Cognitive Impairment: A Probabilistic Re-Expression of the LATTICE Trial. Am J Geriatr Psychiatry. 2026. PMID:42521537 DOI:10.1016/j.jagp.2026.06.014
+41. Pereira da Silva AM et al. Efficacy and Safety of Lithium for Behavioral and Cognitive Symptoms in Alzheimer's Disease Dementia: A Systematic Review With Frequentist and Bayesian Meta-Analysis. Am J Geriatr Psychiatry. 2026. PMID:41177743 DOI:10.1016/j.jagp.2025.10.001
+42. Barjasteh-Askari F et al. Relationship between suicide mortality and lithium in drinking water: A systematic review and meta-analysis. J Affect Disord. 2020. PMID:32056756 DOI:10.1016/j.jad.2019.12.027
+43. Huwiler VV et al. Selenium Supplementation in Patients with Hashimoto Thyroiditis: A Systematic Review and Meta-Analysis of Randomized Clinical Trials. Thyroid. 2024. PMID:38243784 DOI:10.1089/thy.2023.0556
+44. Maggio E et al. Vitamin E supplementation (alone or with other antioxidants) and stroke: a meta-analysis. Nutr Rev. 2024. PMID:37698992 DOI:10.1093/nutrit/nuad114
+45. Klein EA et al. Vitamin E and the risk of prostate cancer: the Selenium and Vitamin E Cancer Prevention Trial (SELECT). JAMA. 2011. PMID:21990298 DOI:10.1001/jama.2011.1437
+46. Brakedal B et al. Nicotinamide Riboside for Patients With Early-Stage Parkinson Disease: The NOPARK Randomized Clinical Trial. JAMA. 2026. PMID:42848371 DOI:10.1001/jama.2026.18828
+47. Keohane P et al. Supplementation of spermidine at 40 mg/day has minimal effects on circulating polyamines: An exploratory double-blind randomized controlled trial in older men. Nutr Res. 2024. PMID:39405978 DOI:10.1016/j.nutres.2024.09.012
+48. Schürks M et al. Effects of vitamin E on stroke subtypes: meta-analysis of randomised controlled trials. BMJ. 2010. PMID:21051774 DOI:10.1136/bmj.c5702
+49. van Hunsel F et al. Vitamin B6 in Health Supplements and Neuropathy: Case Series Assessment of Spontaneously Reported Cases. Drug Saf. 2018. PMID:29737502 DOI:10.1007/s40264-018-0664-0
+50. van Hunsel F et al. Impact of Regulatory Action on Dose Maximalization for Vitamin B6 Dietary Supplements on the Reporting Pattern for Neuropathy. Pharmacoepidemiol Drug Saf. 2025. PMID:39888171 DOI:10.1002/pds.70108
+51. Paluszny A et al. Vitamin B6 Toxicity Secondary to Daily Multivitamin Use: A Case Report. Cureus. 2023. PMID:38098895 DOI:10.7759/cureus.48792
+52. Goodrich Z et al. Zinc-associated Copper Deficiency Myelopathy: A Case Report. Clin Neuropharmacol. 2026. PMID:42757636 DOI:10.1097/WNF.0000000000000701
+53. Silva MTT. Copper deficiency myelopathy induced by excessive zinc supplementation. Pract Neurol. 2026. PMID:40866286 DOI:10.1136/pn-2025-004785
+54. Myint ZW et al. Copper deficiency anemia: review article. Ann Hematol. 2018. PMID:29959467 DOI:10.1007/s00277-018-3407-5
+55. Vinceti M et al. Selenium for preventing cancer. Cochrane Database Syst Rev. 2018. PMID:29376219 DOI:10.1002/14651858.CD005195.pub4
+56. Stranges S et al. Effect of selenium supplementation on changes in HbA1c: Results from a multiple-dose, randomized controlled trial. Diabetes Obes Metab. 2019. PMID:30280459 DOI:10.1111/dom.13549
+57. Farebrother J et al. Excess iodine intake: sources, assessment, and effects on thyroid function. Ann N Y Acad Sci. 2019. PMID:30891786 DOI:10.1111/nyas.14041
+58. Sohn SY et al. Risks of Iodine Excess. Endocr Rev. 2024. PMID:38870258 DOI:10.1210/endrev/bnae019
+59. Rossi F et al. Lactobacilli Infection Case Reports in the Last Three Years and Safety Implications. Nutrients. 2022. PMID:35334835 DOI:10.3390/nu14061178
+60. Chartoumpekis DV et al. Broccoli sprout beverage is safe for thyroid hormonal and autoimmune status: Results of a 12-week randomized trial. Food Chem Toxicol. 2019. PMID:30735751 DOI:10.1016/j.fct.2019.02.004
+61. Finley PR et al. Clinical relevance of drug interactions with lithium. Clin Pharmacokinet. 1995. PMID:8521679 DOI:10.2165/00003088-199529030-00004
+62. Prasad S et al. Lithium: A review of its adverse effects, toxicity and discontinuation. Dis Mon. 2026. PMID:41620355 DOI:10.1016/j.disamonth.2026.102064
+63. Zamfirescu I et al. Absorption of levothyroxine when coadministered with various calcium formulations. Thyroid. 2011. PMID:21595516 DOI:10.1089/thy.2010.0296
+64. Wiesner A et al. Levothyroxine Interactions with Food and Dietary Supplements-A Systematic Review. Pharmaceuticals (Basel). 2021. PMID:33801406 DOI:10.3390/ph14030206
+65. Engelsen J et al. [Effect of Coenzyme Q10 and Ginkgo biloba on warfarin dosage in patients on long-term warfarin treatment. A randomized, double-blind, placebo-controlled cross-over trial]. Ugeskr Laeger. 2003. PMID:12772396
+66. Wallace JM et al. Boron supplementation and activated factor VII in healthy men. Eur J Clin Nutr. 2002. PMID:12428176 DOI:10.1038/sj.ejcn.1601455
+67. Li J et al. Comprehensive assessment of biotin interference in immunoassays. Clin Chim Acta. 2018. PMID:30296442 DOI:10.1016/j.cca.2018.10.013
+68. Mrosewski I et al. Interference From High-Dose Biotin Intake in Immunoassays for Potentially Time-Critical Analytes by Roche. Arch Pathol Lab Med. 2020. PMID:31944861 DOI:10.5858/arpa.2019-0425-OA
+69. URL:https://blueprint.bryanjohnson.com/products/essentials-capsules
+70. URL:https://dsld.od.nih.gov/label/328204

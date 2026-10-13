@@ -5,21 +5,46 @@
   "aliases": [
     "galacto-oligosaccharides",
     "galactooligosaccharides",
-    "GOS prebiotic"
+    "trans-galactooligosaccharides",
+    "TOS",
+    "beta-GOS",
+    "B-GOS",
+    "Bimuno",
+    "Biotis GOS",
+    "Vivinal GOS",
+    "Elix'or",
+    "scGOS",
+    "RP-G28"
   ],
   "category": "probiotic-prebiotic",
   "rx_status": "otc",
   "evidence_certainty_overall": "low",
   "edges": [
     {
-      "with": "inulin",
-      "with_kind": "supplement",
-      "kind": "synergy",
-      "severity": "minor",
-      "mechanism": "Both are fermentable prebiotic fibers and may increase fermentation/gas; combined benefit has not been tested directly",
-      "evidence": "Shared fermentability; additive GI symptoms are plausible, no specific combo trial",
+      "with": "galactosemia",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Lactose-derived GOS ingredients contain residual lactose (typically 20-40% DM) and free galactose (<=5% DM); classical galactosemia requires lifelong lactose restriction and galactosides may release absorbable galactose in the colon.",
+      "evidence": "International guideline, practice survey, GRAS specification, small dietary study; expert-level inference",
       "citations": [
-        "PMID:41263347"
+        "PMID:27858262",
+        "PMID:25873073",
+        "PMID:7671975",
+        "URL:https://www.fda.gov/food/gras-notice-inventory/agency-response-letter-gras-notice-no-grn-000620"
+      ]
+    },
+    {
+      "with": "GOS allergy / atopy (South-East Asia)",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "IgE-mediated anaphylaxis to short-chain GOS (>=3 sugar units) in atopic, cow's-milk-tolerant patients; estimated allergy prevalence up to 3.5% in an atopic Singapore cohort.",
+      "evidence": "Case series with SPT/BAT and oral challenges; narrative review",
+      "citations": [
+        "PMID:23102546",
+        "PMID:25951913",
+        "PMID:42437383"
       ]
     },
     {
@@ -27,20 +52,264 @@
       "with_kind": "condition",
       "kind": "caution",
       "severity": "moderate",
-      "mechanism": "Fermentable oligosaccharides may provoke gas, pain or altered stool in FODMAP-sensitive individuals",
-      "evidence": "Fermentation mechanism and human tolerability data",
+      "mechanism": "Dietary GOS is a FODMAP; in blinded reintroduction it triggered symptoms in 35% of low-FODMAP responders and worsened pain and bloating. Low-dose beta-GOS (1.4-3.5 g/d) has, however, improved symptoms in RCTs.",
+      "evidence": "Blinded rechallenge RCTs, MA of prebiotics in IBS (null overall), 2026 fiber MA (beta-GOS subgroup benefit)",
       "citations": [
-        "PMID:38787732",
-        "PMID:41263347"
+        "PMID:38401741",
+        "PMID:38729390",
+        "PMID:30949662",
+        "PMID:42600900",
+        "PMID:19053980"
+      ]
+    },
+    {
+      "with": "low-FODMAP diet",
+      "with_kind": "food",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "GOS is restricted during the elimination phase; low-dose B-GOS added to the diet improved response but did not prevent the fall in bifidobacteria.",
+      "evidence": "RCT (n=69); FODMAP composition review",
+      "citations": [
+        "PMID:32433273",
+        "PMID:28244665"
+      ]
+    },
+    {
+      "with": "lactose intolerance",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "RP-G28 GOS induces colonic adaptation (more lactose-fermenting bacteria) and improved symptoms; commercial GOS powders may themselves contain substantial lactose, and fermentation can cause transient symptoms.",
+      "evidence": "Phase 2 and 2b/3 RCTs, microbiome study, GRAS specification",
+      "citations": [
+        "PMID:32290344",
+        "PMID:24330605",
+        "PMID:28049818",
+        "URL:https://www.fda.gov/food/gras-notice-inventory/agency-response-letter-gras-notice-no-grn-000620"
+      ]
+    },
+    {
+      "with": "inulin",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Both are bifidogenic prebiotics; GOS/FOS and GOS/inulin mixtures are standard in infant and pregnancy trials.",
+      "evidence": "MA of fiber RCTs; RCTs of mixtures",
+      "citations": [
+        "PMID:29757343",
+        "PMID:41250898",
+        "PMID:39173718"
+      ]
+    },
+    {
+      "with": "inulin",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Additive colonic fermentation: inulin-type fructans worsened flatulence in IBS MA, and fructans and GOS are the most prevalent FODMAP triggers.",
+      "evidence": "MA of prebiotics in IBS; blinded FODMAP rechallenge",
+      "citations": [
+        "PMID:30949662",
+        "PMID:38401741"
+      ]
+    },
+    {
+      "with": "probiotics (Bifidobacterium/Lactobacillus)",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Synbiotic pairing: GOS + B. lactis beat probiotic alone on FBG in T2DM; GOS + L. reuteri improved toddler bone/muscle outcomes and synergistically reduced colitis in mice.",
+      "evidence": "RCTs (n=120, n=182), preclinical study, narrative review",
+      "citations": [
+        "PMID:39719724",
+        "PMID:41387706",
+        "PMID:39468026",
+        "PMID:37630749"
+      ]
+    },
+    {
+      "with": "oral non-heme iron (ferrous fumarate)",
+      "with_kind": "drug-class",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "GOS co-ingestion increases fractional iron absorption ~30-60% (lower fecal pH, colonic absorption) and mitigates adverse microbiome effects of iron fortification in infants.",
+      "evidence": "Stable-isotope RCTs in women and infants; RCT in Kenyan infants; SR/MA (low certainty)",
+      "citations": [
+        "PMID:31004135",
+        "PMID:35015879",
+        "PMID:28814396",
+        "PMID:28774885",
+        "PMID:39920867"
+      ]
+    },
+    {
+      "with": "Heme Iron (Proferrin)",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "GOS enhancement of iron absorption is shown only for non-heme ferrous fumarate; no effect seen for ferrous sulfate in synbiotic formula and no data for heme iron.",
+      "evidence": "Indirect: stable-isotope studies; no heme-iron study",
+      "citations": [
+        "PMID:28814396",
+        "PMID:39179207"
+      ]
+    },
+    {
+      "with": "antibiotics",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "GOS taken during/after amoxicillin supported recovery of bifidobacteria and raised fecal butyrate; no effect on drug exposure known.",
+      "evidence": "Small RCT (n=12)",
+      "citations": [
+        "PMID:24925303"
+      ]
+    },
+    {
+      "with": "antidiabetic agents",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "GOS alone did not change insulin sensitivity; a GOS+B. lactis synbiotic lowered FBG by 0.69 mmol/L vs placebo, so a small additive effect is possible with synbiotics.",
+      "evidence": "RCTs; low certainty",
+      "citations": [
+        "PMID:28396144",
+        "PMID:39719724"
+      ]
+    },
+    {
+      "with": "calcium",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "GOS increases fractional/true calcium absorption, likely via lower-gut absorption mediated by bifidobacteria.",
+      "evidence": "Two small crossover RCTs",
+      "citations": [
+        "PMID:23507173",
+        "PMID:11110850"
+      ]
+    },
+    {
+      "with": "alpha-galactosidase",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Enzyme reduces symptoms from alpha-linked GOS in legumes in GOS-sensitive IBS; not shown for beta-GOS supplements.",
+      "evidence": "Crossover RCT (n=31)",
+      "citations": [
+        "PMID:28809383"
+      ]
+    },
+    {
+      "with": "pregnancy",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "14.2 g/d GOS/FOS from mid-pregnancy had no safety signals; GDM reduced only in women with BMI >=25.",
+      "evidence": "Large RCT and secondary analysis",
+      "citations": [
+        "PMID:39173718",
+        "PMID:41987240"
+      ]
+    },
+    {
+      "with": "stool microbiome tests",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "True physiological change: increased Bifidobacterium and decreased alpha-diversity at high dose; lower fecal pH in infants.",
+      "evidence": "MA and RCTs",
+      "citations": [
+        "PMID:29757343",
+        "PMID:33509667",
+        "PMID:22237884"
+      ]
+    },
+    {
+      "with": "iron status markers (ferritin)",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Co-administration with iron raises absorption and ferritin.",
+      "evidence": "SR/MA; RCT in children with HIV",
+      "citations": [
+        "PMID:39920867",
+        "PMID:41233303"
       ]
     }
   ],
   "citations": [
-    "PMID:38787732",
-    "PMID:38787732\n-",
-    "PMID:39839466",
-    "PMID:39839466\n-",
+    "PMID:27858262",
+    "PMID:25873073",
+    "PMID:7671975",
+    "URL:https://www.fda.gov/food/gras-notice-inventory/agency-response-letter-gras-notice-no-grn-000620",
+    "PMID:23102546",
+    "PMID:25951913",
+    "PMID:42437383",
+    "PMID:38401741",
+    "PMID:38729390",
+    "PMID:30949662",
+    "PMID:42600900",
+    "PMID:19053980",
+    "PMID:32433273",
+    "PMID:28244665",
+    "PMID:32290344",
+    "PMID:24330605",
+    "PMID:28049818",
+    "PMID:29757343",
+    "PMID:41250898",
+    "PMID:39173718",
+    "PMID:39719724",
+    "PMID:41387706",
+    "PMID:39468026",
+    "PMID:37630749",
+    "PMID:31004135",
+    "PMID:35015879",
+    "PMID:28814396",
+    "PMID:28774885",
+    "PMID:39920867",
+    "PMID:39179207",
+    "PMID:24925303",
+    "PMID:28396144",
+    "PMID:23507173",
+    "PMID:11110850",
+    "PMID:28809383",
+    "PMID:41987240",
+    "PMID:33509667",
+    "PMID:22237884",
+    "PMID:41233303",
     "PMID:41263347",
-    "PMID:41263347\n"
+    "PMID:18996881",
+    "PMID:28931149",
+    "PMID:25449699",
+    "PMID:35057489",
+    "PMID:9895419",
+    "PMID:16873437",
+    "PMID:28244671",
+    "PMID:21059476",
+    "PMID:40863149",
+    "PMID:40516031",
+    "PMID:40532960",
+    "PMID:38787732",
+    "PMID:37751049",
+    "PMID:33767108",
+    "PMID:23543544",
+    "PMID:29035013",
+    "PMID:18492839",
+    "PMID:40215676",
+    "PMID:40114538",
+    "PMID:21525194",
+    "PMID:19756029",
+    "PMID:26218845",
+    "PMID:33859330",
+    "PMID:40025494",
+    "PMID:38007616",
+    "PMID:39064648",
+    "PMID:23303873",
+    "PMID:27771020",
+    "PMID:40010361",
+    "PMID:38729393",
+    "PMID:38613035",
+    "PMID:41228463"
   ]
 }

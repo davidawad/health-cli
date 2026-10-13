@@ -3,50 +3,214 @@
 :ID: supp-yeast-rice-garlic
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: Red Yeast Rice Odor-free Garlic | red yeast rice with garlic
+:ALIASES: Red Yeast Rice + Odor-free Garlic | red yeast rice with garlic | RYR + garlic | Monascus purpureus + Allium sativum | monacolin K | beni-koji | Xuezhikang | Cholestin | aged garlic extract
 :CATEGORY: botanical
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Combination label denotes red yeast rice (Monascus-fermented rice) plus garlic; product potency depends on monacolin K content and manufacturing. Monacolin K is chemically identical to lovastatin, and products may vary greatly in monacolin content and citrinin contamination [PMID:38794691; URL:https://www.nccih.nih.gov/health/red-yeast-rice]. Garlic supplements vary by preparation (powder, oil, aged extract) [URL:https://ods.od.nih.gov/factsheets/ Garlic-HealthProfessional/].
+- This is a combination product: red yeast rice (RYR; rice fermented with Monascus spp.) plus an odor-free (deodorized or aged) garlic (Allium sativum) preparation. No randomized trial of this exact two-ingredient combination was found. The evidence below is therefore per ingredient.
+- RYR contains monacolins. Monacolin K in its lactone form is identical to lovastatin [PMID:32626016] [PMID:39511729]. RYR also contains pigments, sterols, polyphenols and sometimes the mycotoxin citrinin [PMID:40927271] [PMID:25168220].
+- Product content varies widely. For monacolin K, 12 US products labeled "600 mg/capsule" contained 0.10-10.09 mg monacolin K per capsule, and 4 of 12 had elevated citrinin [PMID:20975018]. A separate analysis found monacolin K varied more than 40-fold in 600 mg products (0.03-2.18 mg) and the monacolin ratios differed from authentic RYR [PMID:25168220]. NCCIH notes that labels usually do not state monacolin K content [URL:https://www.nccih.nih.gov/health/red-yeast-rice].
+- Standardized Chinese preparations are distinct from retail supplements: Xuezhikang (XZK), a partially purified RYR extract, was used in the CCSPS outcome trial [PMID:18549841]. Zhibitai and Zhibituo are polyherbal products that contain RYR [PMID:39108747].
+- Multi-ingredient nutraceuticals (e.g., Armolipid Plus: RYR + berberine + policosanol) dominate the European trial literature [PMID:33669333] [PMID:27131395].
+- Garlic forms differ in sulfur chemistry and dose: powder, oil and aged garlic extract (AGE, the usual "odor-free" form) [PMID:40628369] [PMID:39113105]. AGE contains S-allyl-L-cysteine and related compounds [PMID:16484563].
 
 ** Mechanisms
-- Monacolin K inhibits HMG-CoA reductase, the rate-limiting enzyme in cholesterol synthesis, as lovastatin does; garlic sulfur compounds may affect vascular tone/platelet activity, but proposed mechanisms vary by garlic preparation [PMID:38794691; URL:https://www.nccih.nih.gov/health/garlic].
+- Monacolin K reversibly inhibits HMG-CoA reductase, which lowers LDL-C, non-HDL-C, apoB and hs-CRP [PMID:33538260]. In vitro, the RYR phytocomplex inhibited HMG-CoA reductase more strongly than isolated lovastatin, which suggests secondary monacolins contribute [PMID:39511729].
+- Lovastatin is activated to lovastatin acid. It is cleared by CYP3A4 and taken up into the liver by OATP1B1, the basis of its drug and gene interactions [PMID:8689812] [PMID:26020121]. RYR extracts inhibited CYP1A2, CYP2C19 and P-gp in vitro. In volunteers, one RYR capsule did not change nifedipine pharmacokinetics, but gemfibrozil raised lovastatin acid levels [PMID:23227093].
+- RYR depleted hepatic and cardiac CoQ10 in mice in a dose-dependent way (mechanistic, animal data) [PMID:15705235].
+- Garlic antiplatelet effect: AGE inhibits platelet aggregation in vitro by several mechanisms, including blunting the rise in intraplatelet Ca2+ [PMID:16484563]. In RCTs, results are inconsistent: 6 of 12 trials showed reduced aggregation [PMID:36222178]. Dietary raw garlic (4.2 g) did not impair platelet function in volunteers [PMID:17959943].
+- Garlic affects drug pharmacokinetics: garlic caplets lowered saquinavir AUC by 51% [PMID:11740713].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---------+--------------------+-----------+-------------+-----------------------+-----------|
-| LDL cholesterol | SR/MA, 14 double-blind trials | Reduction | mean absolute LDL-C −35.82 mg/dL; total cholesterol −37.43 mg/dL | moderate | [PMID:38794691] |
-| Cardiovascular events | Meta-analysis of heterogeneous RYR preparations | Possible reduction; product applicability uncertain | pooled MACE RR 0.54; mortality RR 0.62, driven by specific preparations | low | [PMID:35264949] |
-| Garlic lipid/BP effects | SRs of garlic RCTs | Small inconsistent changes | formulation and dose heterogeneous | low | [URL:https://ods.od.nih.gov/factsheets/Garlic-HealthProfessional/] |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| LDL-C (RYR vs placebo/control) | Multiple SR/MAs of RCTs (14 DB trials; 24 arms; 20 studies) | Decrease | -35.82 mg/dL (CI -43.36 to -28.29); WMD -28.94 mg/dL; -1.02 mmol/L vs placebo | moderate | [PMID:38794691] [PMID:36259545] [PMID:25897793] |
+| LDL-C (RYR vs statin) | SR/MA | Similar | No LDL-C difference vs statin (0.03 mmol/L, CI -0.36 to 0.41); in another MA, LDL-C comparable and TC less reduced (MD +12.24 mg/dL) | low | [PMID:25897793] [PMID:35111069] |
+| LDL-C (head-to-head vs low-dose statin) | Single-blind RCT, 28 days (SPORT, n=190) | No significant effect vs placebo | Rosuvastatin 5 mg -35.2% vs placebo; RYR and garlic not different from placebo | moderate | [PMID:36351465] |
+| LDL-C, large recent RCT (natto RYR) | Multicenter 2x2 RCT (n=1110, 3 mo) | Decrease | -21.02 mg/dL (-13.2%) vs placebo; no significant added benefit to simvastatin at 3 mo | moderate | [PMID:42212982] |
+| LDL-C ranking among nutraceuticals | Network MA (131 RCTs, n=13062) | Decrease; RYR among the most effective | RYR -0.94 mmol/L (second to bergamot -1.21); range across nutraceuticals -0.17 to -1.21 mmol/L | moderate | [PMID:35988871] |
+| Statin-intolerant patients | RCTs (n=62 vs placebo; n=43 vs pravastatin) | LDL-C decrease without more myalgia | -35 mg/dL at 24 wk (placebo -15); LDL-C -30% vs -27% pravastatin; myalgia withdrawal 5% vs 9% | low | [PMID:19528562] [PMID:20102918] |
+| Major coronary events (secondary prevention) | RCT (CCSPS, ~5000 post-MI, 4.5 y; Xuezhikang) | Decrease | Events 5.7% vs 10.4% (RRR 45%); CV mortality -30%, total mortality -33% | moderate (one trial, one standardized product) | [PMID:18549841] [PMID:17312447] |
+| Mortality / MACE (pooled) | SR/MA (30 RCTs, mostly Chinese preparations) | Decrease | Mortality RR 0.62 (CI 0.49-0.78); MACE RR 0.54 (CI 0.43-0.66) | low | [PMID:35264949] |
+| Carotid atherosclerosis | SR/MA (20 RCTs, n=2217, Chinese) | Regression | Plaque area SMD -0.86; IMT SMD -0.59 | low | [PMID:36120360] |
+| RYR + berberine combinations (Armolipid Plus) | SR/MAs (11-12 RCTs) | Decrease | LDL-C MD -26.67 mg/dL; berberine+RYR LDL-C -18.79 mg/dL | moderate | [PMID:33669333] [PMID:27131395] [PMID:37183391] |
+| Garlic: blood pressure | SR/MAs (108 RCTs; 10 RCTs in hypertension; 20 RCTs) | Decrease | SBP -3.71/DBP -1.97 mmHg overall; -4.21/-3.13 in hypertension; -8.7 SBP in hypertensive subgroup | moderate | [PMID:40580481] [PMID:41393949] [PMID:26764326] |
+| Garlic: LDL-C / TC | SR/MAs (108 RCTs; 39 RCTs; 21 RCTs) | Small decrease | LDL-C -5.90 mg/dL; TC -10.21 mg/dL; TC -17, LDL-C -9 mg/dL if TC >200 and >2 mo | moderate | [PMID:40580481] [PMID:23590705] [PMID:39113105] |
+| Aged garlic extract: BP and lipids | Dose-response GRADE MA (19 trials) | Small decrease | SBP -2.49 mmHg; LDL-C -4.41 mg/dL; DBP and HDL not significant | low | [PMID:40628369] |
+| Garlic: glycemia | SR/MAs | Small decrease | FBG -2.77 mg/dL (108 RCTs); FBG -7.01 mg/dL, HbA1c -0.66% (other MA) | low | [PMID:40580481] [PMID:38892625] |
+| Garlic: CV events in hypertension | Cochrane SR | Unknown | No trials reported clinical outcomes | very low | [PMID:22895963] |
 
 ** Dosing in trials
-- Trials of red yeast rice commonly used products yielding roughly 3–10 mg/day monacolin K for 4–24 weeks; exact monacolin content is often undisclosed [PMID:38794691; URL:https://www.nccih.nih.gov/health/red-yeast-rice]. Garlic trial dosing varies widely by powder/extract, so a fixed combination dose cannot be generalized [URL:https://ods.od.nih.gov/factsheets/Garlic-HealthProfessional/].
+- RYR trials: typical daily doses were 200-4800 mg of RYR, over 4-24 weeks [PMID:35111069] [PMID:38794691]. The JACC seminar describes 3-10 mg/day monacolin K, giving 15-25% LDL-C reduction within 6-8 weeks [PMID:33538260]. Statin-intolerance RCTs used 1800 mg twice daily for 24 weeks [PMID:19528562] and 2400 mg twice daily for 12 weeks [PMID:20102918].
+- Other RYR regimens. Natto RYR: 1950 mg/d for 3 months [PMID:42212982]. RYR + CoQ10: 10 mg monacolins + 30 mg CoQ10 for 6 months [PMID:27055107]. Monacolin 4.5%-standardized ingredient with gamma-oryzanol/GABA: LDL-C -19.3% at 3 months [PMID:39275298].
+- EU dose limit: since Regulation (EU) 2022/860, each daily portion must provide less than 3 mg monacolins [URL:https://lawplayer.com/eu/act/32022R0860]. In one case series, a combination product reformulated to 2.99 mg monacolin K kept its LDL-lowering effect [PMID:39614370]. A retrospective study used 3 mg/d monacolin K after sleeve gastrectomy [PMID:41754164].
+- Monacolin dose and safety: in a safety MA, higher monacolin K doses were not linked to more musculoskeletal AEs (subgroups <=3, 3.1-5, >5 mg/d) [PMID:30844537].
+- Garlic: MAs pooled heterogeneous powder, oil and AGE doses [PMID:40580481] [PMID:39113105]. Lipid effects needed more than 2 months of use [PMID:23590705]. The AGE-warfarin RCT used 5 mL twice daily for 12 weeks [PMID:16484565].
 
 ** Safety & adverse effects
-- RYR can produce statin-like myopathy, liver injury and drug interactions; citrinin contamination can injure kidneys. FDA considers products with added/enhanced lovastatin not lawful dietary supplements in the US [URL:https://www.nccih.nih.gov/health/red-yeast-rice]. Garlic can cause odor, reflux/GI upset and may increase bleeding risk [URL:https://ods.od.nih.gov/factsheets/Garlic-HealthProfessional/].
+- Muscle (RYR): RCT pooled data (53 RCTs, n=8535): no excess musculoskeletal disorders (OR 0.94, CI 0.53-1.65). Non-musculoskeletal AEs and serious AEs were fewer than in controls [PMID:30844537].
+- Spontaneous reports show statin-like muscle signals. Italy: 55 reactions including myalgia/CK rise (19), rhabdomyolysis (1) and liver injury (10). 13 required hospitalization [PMID:28093797]. US CAERS: rhabdomyolysis/myopathy ROR 8.44 [PMID:29582393]. Case reports describe severe rhabdomyolysis with CK 112,985 U/L, AKI and respiratory failure after 2 g/d for 1 month [PMID:40909457], and fulminant rhabdomyolysis 2 days after starting [PMID:40264460].
+- Liver: FAERS hepatic disorders ROR 13.71 [PMID:29582393]. One biopsy-proven acute hepatitis occurred after an RYR product in a patient who had prior lovastatin hepatotoxicity [PMID:19398239]. An umbrella review found raised ALT, AST and uric acid among 61 outcome associations, with low overall credibility [PMID:38413255].
+- Industry nutrivigilance: reporting rates were 0.02% for all AEs and 0.0003% for serious AEs across 608,815 exposed subject-periods [PMID:42514371]. Another dataset reported 0.049% AEs across 3.9 million consumers [PMID:40741249]. Both are manufacturer-run, and spontaneous reporting undercounts events. A narrative review of 2020-2025 case reports found Fanconi syndrome and kidney dysfunction were the main AEs, mostly from Japan [PMID:40927271].
+- Citrinin is a nephrotoxic mycotoxin found in some products [PMID:20975018]. NCCIH reports a 2021 analysis in which only 1 of 37 products met the EU citrinin limit [URL:https://www.nccih.nih.gov/health/red-yeast-rice]. A Taiwanese probabilistic assessment derived an RfD of 0.08 ug/kg bw/day and flagged regular consumers as a risk subgroup [PMID:41360537].
+- 2024 Kobayashi "Beni-koji CholesteHelp" outbreak (Japan). Cause: specific lots were contaminated with puberulic acid, made by Penicillium adametzioides growing in the factory [PMID:40159186]. Citrinin was not produced by the implicated strains [PMID:39708997].
+- Beni-koji outbreak scale: by November 2024, 2628 people had sought care [PMID:41732753]. One report cites 76 possibly related deaths and 492 hospitalizations [PMID:39424254]. In a nationwide survey (n=192): 94% had eGFR <60, with Fanconi syndrome and tubulointerstitial nephritis or tubular necrosis on biopsy. CK was normal. 87% still had eGFR <60 at last follow-up [PMID:39708997].
+- Beni-koji outbreak mechanism: puberulic acid reproduced proximal tubular mitochondrial injury in cells, organoids and mice [PMID:41732753] [PMID:39978331]. It was mutagenic in Ames tests but not in vivo [PMID:41641978]. Novel lovastatin analogs Y/Z were also present in the contaminated lots [PMID:42477306].
+- Beni-koji outbreak outcomes: case reports describe partial or full recovery after stopping, sometimes with steroids, and some progression to CKD [PMID:41684976] [PMID:39639196].
+- EFSA 2018: monacolins are of "significant safety concern" at 10 mg/d, with severe reactions reported at 3 mg/d. No safe intake could be identified [PMID:32626016]. EFSA NDA 2025: reiterated that no safe level below 3 mg/d can be established [PMID:40027377].
+- EU Regulation 2022/860 caps monacolins below 3 mg per daily portion and requires these label warnings: not for pregnancy or lactation, under-18s, over-70s, users of cholesterol-lowering medication, or with other RYR products [URL:https://lawplayer.com/eu/act/32022R0860].
+- A 2026 draft Commission regulation would move monacolins to Annex III Part A, i.e. a ban. The Standing Committee approved it on 13 May 2026, and full applicability is estimated for late 2027 [URL:https://www.complifegroup.com/2026/04/14/project-for-a-european-commission-regulation-monacolins-towards-a-definitive-ban/].
+- FDA: products with added or enhanced lovastatin are unapproved new drugs that cannot be sold as dietary supplements. FDA has issued warning letters [URL:https://www.nccih.nih.gov/health/red-yeast-rice].
+- Garlic: common effects are breath and body odor and GI upset. Allergy, contact dermatitis, altered platelet function/coagulation and burns from topical raw garlic are reported [PMID:17918162] [URL:https://www.nccih.nih.gov/health/garlic]. Excess surgical bleeding occurred with about 12 g/d garlic [PMID:27782907]. In a hypertension MA, adverse reactions were slightly but not significantly more frequent with garlic, mainly GI discomfort and bad breath [PMID:41393949].
 
 ** Contraindications
-- Avoid during pregnancy/breastfeeding and with active liver disease or prior statin-associated severe muscle injury; avoid uncharacterized products due variable monacolin and citrinin content [URL:https://www.nccih.nih.gov/health/red-yeast-rice]. Garlic hypersensitivity is a contraindication.
+- Pregnancy and lactation: there are no safety studies, and NCCIH advises against use. The EU-mandated label warning also excludes pregnant and lactating women [URL:https://www.nccih.nih.gov/health/red-yeast-rice] [URL:https://lawplayer.com/eu/act/32022R0860].
+- Concurrent statin or other cholesterol-lowering prescription, or other RYR products: this duplicates monacolin K/lovastatin exposure, and the EU label prohibits it [URL:https://lawplayer.com/eu/act/32022R0860] [PMID:32626016].
+- Prior statin-associated hepatotoxicity or rhabdomyolysis: RYR can act as a re-challenge [PMID:19398239] [PMID:28093797].
+- Active liver disease, and kidney disease or transplant: RYR carries hepatic and muscle signals [PMID:29582393], citrinin is nephrotoxic [PMID:20975018], and rhabdomyolysis occurred in a cyclosporine-treated renal transplant recipient [PMID:12438974].
+- Children under 18 and adults over 70 are excluded by EU labeling [URL:https://lawplayer.com/eu/act/32022R0860]. A small pediatric Armolipid cohort reported benefit without safety signals, but it is not a basis for general use [PMID:39766315].
+- Garlic: stop 1-2 weeks before elective surgery, as advised by ASA/AANA for herbal medicines [PMID:38613937]. Avoid with garlic allergy [PMID:17918162].
 
 ** Interactions
-- RYR has lovastatin-like interactions: CYP3A4 inhibitors, cyclosporine, gemfibrozil and other statins may increase myopathy risk; grapefruit may increase exposure [URL:https://www.nccih.nih.gov/health/red-yeast-rice]. Garlic may increase bleeding with anticoagulants/antiplatelets and may lower saquinavir exposure [URL:https://ods.od.nih.gov/factsheets/Garlic-HealthProfessional/].
+*** Drugs
+- Statins: RYR adds lovastatin-equivalent exposure. The EU label prohibits combined use [URL:https://lawplayer.com/eu/act/32022R0860]. Chinese RYR polyherbal products combined with statins improved lipids in low-quality RCTs [PMID:39108747]. Adding natto RYR to simvastatin gave no significant extra LDL-C lowering at 3 months [PMID:42212982].
+- Strong CYP3A4 inhibitors and grapefruit: these sharply raise lovastatin exposure, so the same is expected for monacolin K. Itraconazole raised lovastatin AUC more than 20-fold [PMID:8689812]. Clarithromycin is expected to raise lovastatin AUC more than 5-fold. Statin-clarithromycin rhabdomyolysis cases involved CYP3A4-metabolized statins [PMID:31628882]. Grapefruit juice raised lovastatin AUC 15-fold [PMID:9585793]. Direct RYR studies are lacking. The FDA cited antibiotics, antifungals, nefazodone and HIV drugs [URL:https://www.nccih.nih.gov/health/red-yeast-rice].
+- Fibrates (gemfibrozil): co-administration raised lovastatin acid with an RYR product [PMID:23227093]. FDA reports describe severe myopathy with the lovastatin-gemfibrozil combination (median CK 15,250 U/L) [PMID:2355431].
+- Cyclosporine: case of RYR-induced rhabdomyolysis in a renal transplant recipient, attributed to CYP450 interaction [PMID:12438974].
+- Warfarin/anticoagulants (garlic component): case reports suggest garlic may enhance anticoagulants [PMID:17918162]. However, a 12-week RCT (n=48) of aged garlic extract with warfarin found no increase in bleeding [PMID:16484565], and an older review found weak evidence for a warfarin-garlic interaction [PMID:11144706]. Monitor INR.
+- Antiplatelet agents: garlic has antiplatelet activity, though RCT evidence is inconsistent [PMID:36222178] [PMID:16484563]. The additive effect with platelet-inhibiting drugs is unstudied [PMID:17959943].
+- HIV protease inhibitors: garlic lowered saquinavir AUC by 51% [PMID:11740713].
+- Antihypertensives: garlic lowers BP by about 4/3 mmHg in hypertension, so a small additive effect is possible [PMID:41393949].
+*** Other supplements
+- Berberine: frequently co-formulated with RYR. The combination lowered LDL-C (MD -18.79 mg/dL) [PMID:37183391] [PMID:27131395]. This is an intended additive lipid effect.
+- CoQ10: RYR depletes tissue CoQ10 in mice [PMID:15705235]. RYR + CoQ10 has been tested together in an RCT [PMID:27055107]. Benefit of CoQ10 for RYR myalgia is not established.
+- Garlic and Garlic (Kyolic): this product already contains garlic. Stacking other garlic supplements duplicates the antiplatelet and BP effects [PMID:40628369] [PMID:17918162].
+- EPA/DHA/DPA, Ginger Root, Ginseng (Panax), Green Tea Extract: bleeding risks are reported for each (as for garlic), so additive bleeding risk with garlic is plausible [PMID:26949700] [PMID:11144706].
+- Aspirin: NCCIH advises discussing garlic use with aspirin. Garlic's antiplatelet effect could add to aspirin's, but this is unquantified [URL:https://www.nccih.nih.gov/health/garlic] [PMID:36222178].
+- Turmeric/Curcumin and Green Tea Extract: like RYR, these are among the 6 botanicals most often reported as hepatotoxic. Stacking adds liver-injury exposure [PMID:39102266].
+- Other monacolin- or RYR-containing products: duplicate exposure [URL:https://lawplayer.com/eu/act/32022R0860].
+*** Conditions
+- Pregnancy and lactation, liver disease, kidney disease or transplant, prior statin myopathy, upcoming surgery: see Contraindications.
+- Older adults (>=70): 58% of nutrivigilance reports came from people aged >=70, and both serious AEs occurred in this group [PMID:42514371].
+- Diabetes: in a claims cohort, incident diabetes was lower with RYR than with lovastatin (HR 0.46). This is observational and confounded [PMID:32021355].
+*** Lab-test interference
+- No assay artifact found. The observed changes are true physiological effects: LDL-C, TC and apoB fall [PMID:33538260]. CK and ALT/AST may rise with myotoxicity or hepatotoxicity [PMID:28093797] [PMID:38413255]. A pharmacovigilance study advises clinicians to monitor muscle and liver safety [PMID:29582393]. With contaminated beni-koji, eGFR fell and Fanconi markers appeared (hypokalemia, hypophosphatemia, hypouricemia, glycosuria) [PMID:39708997].
+- Garlic may alter INR and platelet-function tests [PMID:17918162] [PMID:36222178].
 
 ** Genotype notes
-- No cited pharmacogenomic or nutrigenomic source specific to Yeast Rice + Garlic was identified in this search; no genotype claim is made.
+- SLCO1B1 (OATP1B1) variants affect lovastatin, the drug identical to monacolin K: SLCO1B1*5/*15 or *15/*15 carriers had lovastatin acid AUC 286% of reference [PMID:26020121]. The SLCO1B1 rs4149056 C allele raised simvastatin myopathy risk (OR 4.5 per allele) [PMID:18650507]. CPIC gives SLCO1B1-based lovastatin recommendations for statin-associated musculoskeletal symptoms [PMID:35152405].
+- None of these studies used RYR itself, so extrapolating to monacolin K is an inference.
 
 ** Latest research
-- 2024 meta-analysis of 14 double-blind trials (4–24 weeks) estimated LDL-C reduction of 35.82 mg/dL, but included heterogeneous products and did not assure comparable monacolin content [PMID:38794691]. 2024 review of Xuezhikang describes this standardized extract as pharmacologically distinct from generic retail RYR products [PMID:39525586].
+- [2026-07] Natto RYR RCT (n=1110): LDL-C -21 mg/dL vs placebo; no significant added benefit to simvastatin at 3 mo [PMID:42212982].
+- [2026-07] European multicompany nutrivigilance: 148 reports; serious AE reporting rate 0.0003%; most reports in people aged >=70 [PMID:42514371].
+- [2026-07] Structures of lovastatin analogs Y/Z found in contaminated beni-koji products [PMID:42477306].
+- [2026-05] EU Standing Committee approved a draft ban on monacolins from RYR (Annex III Part A) [URL:https://www.complifegroup.com/2026/04/14/project-for-a-european-commission-regulation-monacolins-towards-a-definitive-ban/].
+- [2026-04] Puberulic acid causes proximal tubular mitochondrial injury in patient biopsy, organoids and mice; 2628 people had sought care by Nov 2024 [PMID:41732753].
+- [2026-04] Puberulic acid: Ames-positive but not mutagenic in vivo [PMID:41641978].
+- [2026-01] Garlic CV-risk MA (108 RCTs): SBP -3.71 mmHg, LDL-C -5.90 mg/dL, FBG -2.77 mg/dL [PMID:40580481].
+- [2026-01] One-year follow-up of beni-koji kidney injury: gradual recovery after stopping [PMID:41684976].
+- [2026-01] Citrinin probabilistic RfD of 0.08 ug/kg bw/day [PMID:41360537].
+- [2025-12] Garlic in hypertension MA (10 RCTs): SBP -4.21, DBP -3.13 mmHg [PMID:41393949].
+- [2025-12] Aged garlic GRADE dose-response MA (19 trials): SBP -2.49 mmHg, LDL-C -4.41 mg/dL [PMID:40628369].
+- [2025-09] RYR rhabdomyolysis with AKI and respiratory failure (case) [PMID:40909457].
+- [2025-03] Japanese nationwide nephrology survey (n=192): Fanconi syndrome; 87% still had eGFR <60 [PMID:39708997].
+- [2025-02] EFSA NDA opinion: no safe monacolin intake below 3 mg/d can be established [PMID:40027377].
+- [2025-01] Factory Penicillium adametzioides identified as the puberulic acid source [PMID:40159186].
+- [2025-01] RYR vs lovastatin: phytocomplex variability; stronger HMG-CoA reductase inhibition in vitro [PMID:39511729].
+- [2024-11] Reformulation to <3 mg monacolin K preserved LDL lowering in one combination product [PMID:39614370].
 
 ** Open questions
-- Larger, better reported human studies with standardized products, clinically meaningful endpoints and longer follow-up are needed; current gaps are noted above.
+- No RCT has tested the RYR + garlic combination as sold. Whether garlic adds clinically to RYR's lipid effect is unknown, and garlic's LDL-C effect is only about -6 mg/dL [PMID:40580481].
+- Efficacy at the EU-compliant <3 mg/d monacolin dose lacks large placebo-controlled RCTs [PMID:39614370] [PMID:40027377].
+- The only hard-outcome trial (CCSPS) used Xuezhikang. Applicability to retail products of unknown monacolin content is uncertain [PMID:18549841] [PMID:20975018].
+- Muscle safety: RCT data show no excess myopathy [PMID:30844537], while pharmacovigilance shows signals [PMID:29582393]. How to reconcile these is unresolved.
+- Long-term kidney outcomes after puberulic acid exposure, and how to control contamination in manufacturing [PMID:39708997] [PMID:40159186].
+- Whether garlic meaningfully increases bleeding with modern antithrombotics [PMID:36222178] [PMID:16484565].
 
 ** Sources
-- PMID:35264949
-- PMID:38794691
-- PMID:39525586
-- URL:https://ods.od.nih.gov/factsheets/
-- URL:https://ods.od.nih.gov/factsheets/Garlic-HealthProfessional/
-- URL:https://www.nccih.nih.gov/health/red-yeast-rice
+1. Trogkanis E et al. Safety and Efficacy of the Consumption of the Nutraceutical "Red Yeast Rice Extract" for the Reduction of Hypercholesterolemia in Humans: SR and MA. Nutrients. 2024. PMID:38794691 DOI:10.3390/nu16101453
+2. Li P et al. Red Yeast Rice for Hyperlipidemia: A Meta-Analysis of 15 High-Quality Randomized Controlled Trials. Front Pharmacol. 2021. PMID:35111069 DOI:10.3389/fphar.2021.819482
+3. Rahmani P et al. Impact of red yeast rice supplementation on lipid profile: SR and MA of randomized-controlled trials. Expert Rev Clin Pharmacol. 2023. PMID:36259545 DOI:10.1080/17512433.2023.2138342
+4. Gerards MC et al. Traditional Chinese lipid-lowering agent red yeast rice results in significant LDL reduction but safety is uncertain - SR and MA. Atherosclerosis. 2015. PMID:25897793 DOI:10.1016/j.atherosclerosis.2015.04.004
+5. Fogacci F et al. Safety of red yeast rice supplementation: SR and MA of randomized controlled trials. Pharmacol Res. 2019. PMID:30844537 DOI:10.1016/j.phrs.2019.02.028
+6. Yuan R et al. Red Yeast Rice Preparations Reduce Mortality, Major Cardiovascular Adverse Events, and Risk Factors for Metabolic Syndrome: SR and MA. Front Pharmacol. 2022. PMID:35264949 DOI:10.3389/fphar.2022.744928
+7. Ma ZY et al. Associations between the use of red yeast rice preparations and adverse health outcomes: An umbrella review of MAs of RCTs. J Integr Med. 2024. PMID:38413255 DOI:10.1016/j.joim.2024.01.008
+8. Wang S et al. Effectiveness of red yeast rice on carotid atherosclerosis: SR and MA. Front Pharmacol. 2022. PMID:36120360 DOI:10.3389/fphar.2022.937809
+9. Shi M et al. Effects of the combination of red yeast rice-containing commercial Chinese polyherbal preparation with statins for dyslipidemia: SR and MA. Front Pharmacol. 2024. PMID:39108747 DOI:10.3389/fphar.2024.1398934
+10. Cicero AFG et al. Efficacy and Safety of Armolipid Plus: An Updated PRISMA Compliant SR and MA of RCTs. Nutrients. 2021. PMID:33669333 DOI:10.3390/nu13020638
+11. Osadnik T et al. A network meta-analysis on the comparative effect of nutraceuticals on lipid profile in adults. Pharmacol Res. 2022. PMID:35988871 DOI:10.1016/j.phrs.2022.106402
+12. Becker DJ et al. Red yeast rice for dyslipidemia in statin-intolerant patients: a randomized trial. Ann Intern Med. 2009. PMID:19528562 DOI:10.7326/0003-4819-150-12-200906160-00006
+13. Halbert SC et al. Tolerability of red yeast rice (2,400 mg twice daily) versus pravastatin (20 mg twice daily) in patients with previous statin intolerance. Am J Cardiol. 2010. PMID:20102918 DOI:10.1016/j.amjcard.2009.08.672
+14. Lu Z et al. Effect of Xuezhikang, an extract from red yeast Chinese rice, on coronary events in a Chinese population with previous myocardial infarction. Am J Cardiol. 2008. PMID:18549841 DOI:10.1016/j.amjcard.2008.02.056
+15. Zhao SP et al. Xuezhikang reduces cardiovascular events in type 2 diabetes patients with coronary heart disease: subgroup analysis from CCSPS. J Cardiovasc Pharmacol. 2007. PMID:17312447 DOI:10.1097/FJC.0b013e31802d3a58
+16. Liu F et al. Natto Red Yeast Rice Supplement Regulates Lipid Profiles: A Multicenter, Double-Placebo, Double-Blinded RCT. JACC Asia. 2026. PMID:42212982 DOI:10.1016/j.jacasi.2026.03.019
+17. De Lellis LF et al. Efficacy of Food Supplement Based on Monacolins, gamma-Oryzanol, and gamma-Aminobutyric Acid in Mild Dyslipidemia: RCT. Nutrients. 2024. PMID:39275298 DOI:10.3390/nu16172983
+18. Laffin LJ et al. Comparative Effects of Low-Dose Rosuvastatin, Placebo, and Dietary Supplements on Lipids and Inflammatory Biomarkers. J Am Coll Cardiol. 2023. PMID:36351465 DOI:10.1016/j.jacc.2022.10.013
+19. Izzo A et al. Does EFSA statement on Monacolin content of nutraceutical combinations impair their lipid lowering effect? The LopiGLIK experience. Clin Diabetes Endocrinol. 2024. PMID:39614370 DOI:10.1186/s40842-024-00204-6
+20. Rigillo G et al. Red Yeast Rice or Lovastatin? A Comparative Evaluation of Safety and Efficacy Through a Multifaceted Approach. Phytother Res. 2025. PMID:39511729 DOI:10.1002/ptr.8371
+21. Mazzanti G et al. Adverse reactions to dietary supplements containing red yeast rice: assessment of cases from the Italian surveillance system. Br J Clin Pharmacol. 2017. PMID:28093797 DOI:10.1111/bcp.13171
+22. Raschi E et al. Adverse Events to Food Supplements Containing Red Yeast Rice: Comparative Analysis of FAERS and CAERS Reporting Systems. Drug Saf. 2018. PMID:29582393 DOI:10.1007/s40264-018-0661-3
+23. Cicero AFG et al. Post-Marketing Nutrivigilance of Red Yeast Rice-Containing Food Supplements: Spontaneous Adverse Event Reports and Exposure-Based Reporting Rate Estimates. Nutrients. 2026. PMID:42514371 DOI:10.3390/nu18142302
+24. Banach M et al. 2024 update on postmarketing nutrivigilance safety profile: a line of dietary food supplements containing red yeast rice for dyslipidemia. Arch Med Sci. 2025. PMID:40741249 DOI:10.5114/aoms/190111
+25. Prasad GV et al. Rhabdomyolysis due to red yeast rice (Monascus purpureus) in a renal transplant recipient. Transplantation. 2002. PMID:12438974 DOI:10.1097/00007890-200210270-00028
+26. Zhou P et al. Red yeast rice-induced severe rhabdomyolysis complicated by acute kidney injury and respiratory failure: a case report. Front Med (Lausanne). 2025. PMID:40909457 DOI:10.3389/fmed.2025.1634047
+27. Kurnik M et al. Fulminant Red Yeast Rice-Associated Rhabdomyolysis with Acute Liver Injury and Hyperkalemia Treated with CytoSorb. Drug Healthc Patient Saf. 2025. PMID:40264460 DOI:10.2147/DHPS.S519861
+28. Grieco A et al. Acute hepatitis caused by a natural lipid-lowering product: when "alternative" medicine is no "alternative" at all. J Hepatol. 2009. PMID:19398239 DOI:10.1016/j.jhep.2009.02.021
+29. Gordon RY et al. Marked variability of monacolin levels in commercial red yeast rice products: buyer beware! Arch Intern Med. 2010. PMID:20975018 DOI:10.1001/archinternmed.2010.382
+30. Avula B et al. Chemical profiling and quantification of monacolins and citrinin in red yeast rice commercial raw materials and dietary supplements. J Pharm Biomed Anal. 2014. PMID:25168220 DOI:10.1016/j.jpba.2014.07.039
+31. EFSA ANS Panel. Scientific opinion on the safety of monacolins in red yeast rice. EFSA J. 2018. PMID:32626016 DOI:10.2903/j.efsa.2018.5368
+32. EFSA NDA Panel. Scientific Opinion on additional scientific data related to the safety of monacolins from red yeast rice (Article 8(4) of Regulation (EC) No 1925/2006). EFSA J. 2025. PMID:40027377 DOI:10.2903/j.efsa.2025.9276
+33. Shinzawa M et al. A nationwide questionnaire study evaluated kidney injury associated with Beni-koji tablets in Japan. Kidney Int. 2025. PMID:39708997 DOI:10.1016/j.kint.2024.11.027
+34. Yoshinari T et al. Mechanism of puberulic acid contamination in red yeast rice tablets that caused a serious food poisoning outbreak in Japan. Proc Jpn Acad Ser B Phys Biol Sci. 2025. PMID:40159186 DOI:10.2183/pjab.101.017
+35. Sekiguchi Y et al. The Pathophysiological Mechanism of Beni-koji Choleste-Help or Puberulic Acid-Induced Kidney Injury. Kidney Int Rep. 2026. PMID:41732753 DOI:10.1016/j.ekir.2026.103793
+36. Chikasue A et al. Three Cases of Red Yeast Rice-Containing Supplement-Induced Acute Kidney Injury and Fanconi Syndrome. Am J Kidney Dis. 2025. PMID:39424254 DOI:10.1053/j.ajkd.2024.08.007
+37. Ozawa M et al. One-Year Follow-Up of Red Yeast Rice-Associated Renal Dysfunction: A Report of Two Cases. Cureus. 2026. PMID:41684976 DOI:10.7759/cureus.101317
+38. Habuka M et al. Fanconi syndrome with acute proximal tubular injury induced by a dietary supplement containing beni-koji: a case series report. BMC Nephrol. 2024. PMID:39639196 DOI:10.1186/s12882-024-03903-5
+39. Nakanoh H et al. Supplement-Induced Acute Kidney Injury Reproduced in Kidney Organoids. Am J Nephrol. 2025. PMID:39978331 DOI:10.1159/000544795
+40. Sugiyama KI et al. Assessment of mutagenic potential of puberulic acid contaminated in red yeast rice (beni-koji) health food supplements. Mutagenesis. 2026. PMID:41641978 DOI:10.1093/mutage/geag005
+41. Tanaka S et al. Two novel compounds (lovastatin analog Y and lovastatin analog Z) isolated from health foods containing beni-koji with adverse events report. J Nat Med. 2026. PMID:42477306 DOI:10.1007/s11418-026-02041-6
+42. Tsai JF et al. Probabilistic reference dose derivation and risk assessment of mycotoxin citrinin for red yeast rice-related foods. Food Res Int. 2026. PMID:41360537 DOI:10.1016/j.foodres.2025.117837
+43. Shaleha RR et al. Monascus purpureus Red Yeast Rice: A Review of the in vitro and in vivo Pharmacological Activities, Studies in Humans, and Case Reports. Clin Pharmacol. 2025. PMID:40927271 DOI:10.2147/CPAA.S542721
+44. Cicero AFG et al. Red Yeast Rice for Hypercholesterolemia: JACC Focus Seminar. J Am Coll Cardiol. 2021. PMID:33538260 DOI:10.1016/j.jacc.2020.11.056
+45. Chen CH et al. Interaction between Red Yeast Rice and CYP450 Enzymes/P-Glycoprotein and Its Implication for the Clinical Pharmacokinetics of Lovastatin. Evid Based Complement Alternat Med. 2012. PMID:23227093 DOI:10.1155/2012/127043
+46. Kantola T et al. Grapefruit juice greatly increases serum concentrations of lovastatin and lovastatin acid. Clin Pharmacol Ther. 1998. PMID:9585793 DOI:10.1016/S0009-9236(98)90034-0
+47. Neuvonen PJ et al. Itraconazole drastically increases plasma concentrations of lovastatin and lovastatin acid. Clin Pharmacol Ther. 1996. PMID:8689812 DOI:10.1016/S0009-9236(96)90167-8
+48. Hougaard Christensen MM et al. Interaction potential between clarithromycin and individual statins - A systematic review. Basic Clin Pharmacol Toxicol. 2020. PMID:31628882 DOI:10.1111/bcpt.13343
+49. Pierce LR et al. Myopathy and rhabdomyolysis associated with lovastatin-gemfibrozil combination therapy. JAMA. 1990. PMID:2355431
+50. Yang HT et al. Acute administration of red yeast rice (Monascus purpureus) depletes tissue coenzyme Q10 levels in ICR mice. Br J Nutr. 2005. PMID:15705235 DOI:10.1079/bjn20041285
+51. Cicero AF et al. Middle-Term Dietary Supplementation with Red Yeast Rice Plus Coenzyme Q10 Improves Lipid Pattern, Endothelial Reactivity and Arterial Stiffness. Ann Nutr Metab. 2016. PMID:27055107 DOI:10.1159/000445359
+52. Millan J et al. Effects of a nutraceutical combination containing berberine, policosanol, and red yeast rice on lipid profile: A MA of RCTs. Clin Investig Arterioscler. 2016. PMID:27131395 DOI:10.1016/j.arteri.2016.03.002
+53. Hernandez AV et al. Impact of Berberine or Berberine Combination Products on Lipoprotein, Triglyceride and Biological Safety Marker Concentrations in Patients with Hyperlipidemia: SR and MA. J Diet Suppl. 2024. PMID:37183391 DOI:10.1080/19390211.2023.2212762
+54. Garoufi A et al. Beneficial Effects of a Nutraceutical Combination on Lipid Profiles in Children with Moderate and Severe Hypercholesterolemia. Biomolecules. 2024. PMID:39766315 DOI:10.3390/biom14121608
+55. Nocon K et al. Postoperative Monacolin K Supplementation and Lipid Profile After Sleeve Gastrectomy: A Retrospective Comparative Analysis in Women. Nutrients. 2026. PMID:41754164 DOI:10.3390/nu18040647
+56. Chen TL et al. Evaluating Risk of Incident Diabetes Between Patients Who Used Lovastatin and Red Yeast Rice Prescriptions (LipoCol Forte). Diabetes Metab Syndr Obes. 2020. PMID:32021355 DOI:10.2147/DMSO.S223833
+57. Likhitsup A et al. Estimated Exposure to 6 Potentially Hepatotoxic Botanicals in US Adults. JAMA Netw Open. 2024. PMID:39102266 DOI:10.1001/jamanetworkopen.2024.25822
+58. Behrouz V et al. Effects of Garlic Supplementation on Cardiovascular Risk Factors in Adults: A Comprehensive Updated SR and MA of RCTs. Nutr Rev. 2026. PMID:40580481 DOI:10.1093/nutrit/nuaf090
+59. Tang Y et al. Meta-analysis on the safety and efficacy of long-term garlic consumption as an adjunctive treatment for hypertension. Front Nutr. 2025. PMID:41393949 DOI:10.3389/fnut.2025.1656809
+60. Bashiri S et al. The Effect of Aged Garlic Supplementation on Blood Pressure and Lipid Profile: A Dose-Response GRADE-Assessed SR and MA of RCTs. Phytother Res. 2025. PMID:40628369 DOI:10.1002/ptr.70032
+61. Ried K. Garlic Lowers Blood Pressure in Hypertensive Individuals, Regulates Serum Cholesterol, and Stimulates Immunity: An Updated MA and Review. J Nutr. 2016. PMID:26764326 DOI:10.3945/jn.114.202192
+62. Ried K et al. Effect of garlic on serum lipids: an updated meta-analysis. Nutr Rev. 2013. PMID:23590705 DOI:10.1111/nure.12012
+63. Du Y et al. Garlic consumption can reduce the risk of dyslipidemia: a MA of RCTs. J Health Popul Nutr. 2024. PMID:39113105 DOI:10.1186/s41043-024-00608-1
+64. Zhao X et al. Effects of Garlic on Glucose Parameters and Lipid Profile: SR and MA on RCTs. Nutrients. 2024. PMID:38892625 DOI:10.3390/nu16111692
+65. Stabler SN et al. Garlic for the prevention of cardiovascular morbidity and mortality in hypertensive patients. Cochrane Database Syst Rev. 2012. PMID:22895963 DOI:10.1002/14651858.CD007653.pub2
+66. Borrelli F et al. Garlic (Allium sativum L.): adverse effects and drug interactions in humans. Mol Nutr Food Res. 2007. PMID:17918162 DOI:10.1002/mnfr.200700072
+67. Macan H et al. Aged garlic extract may be safe for patients on warfarin therapy. J Nutr. 2006. PMID:16484565 DOI:10.1093/jn/136.3.793S
+68. Vaes LP et al. Interactions of warfarin with garlic, ginger, ginkgo, or ginseng: nature of the evidence. Ann Pharmacother. 2000. PMID:11144706 DOI:10.1345/aph.10031
+69. Piscitelli SC et al. The effect of garlic supplements on the pharmacokinetics of saquinavir. Clin Infect Dis. 2002. PMID:11740713 DOI:10.1086/324351
+70. Woodbury A et al. Garlic-Induced Surgical Bleeding: How Much Is Too Much? A A Case Rep. 2016. PMID:27782907 DOI:10.1213/XAA.0000000000000403
+71. Allison GL et al. Aged garlic extract and its constituents inhibit platelet aggregation through multiple mechanisms. J Nutr. 2006. PMID:16484563 DOI:10.1093/jn/136.3.782S
+72. Mollahosseini M et al. A systematic review of RCTs related to the effects of garlic supplementation on platelet aggregation. Phytother Res. 2022. PMID:36222178 DOI:10.1002/ptr.7556
+73. Scharbert G et al. Garlic at dietary doses does not impair platelet function. Anesth Analg. 2007. PMID:17959943 DOI:10.1213/01.ane.0000287253.92211.06
+74. Elvir Lazo OL et al. Use of herbal medication in the perioperative period: Potential adverse drug interactions. J Clin Anesth. 2024. PMID:38613937 DOI:10.1016/j.jclinane.2024.111473
+75. Wang CZ et al. Commonly Used Dietary Supplements on Coagulation Function during Surgery. Medicines (Basel). 2015. PMID:26949700 DOI:10.3390/medicines2030157
+76. Tornio A et al. SLCO1B1 polymorphism markedly affects the pharmacokinetics of lovastatin acid. Pharmacogenet Genomics. 2015. PMID:26020121 DOI:10.1097/FPC.0000000000000148
+77. SEARCH Collaborative Group. SLCO1B1 variants and statin-induced myopathy - a genomewide study. N Engl J Med. 2008. PMID:18650507 DOI:10.1056/NEJMoa0801936
+78. Cooper-DeHoff RM et al. The CPIC Guideline for SLCO1B1, ABCG2, and CYP2C9 genotypes and Statin-Associated Musculoskeletal Symptoms. Clin Pharmacol Ther. 2022. PMID:35152405 DOI:10.1002/cpt.2557
+79. NCCIH. Red Yeast Rice: What You Need To Know. URL:https://www.nccih.nih.gov/health/red-yeast-rice
+80. NCCIH. Garlic. URL:https://www.nccih.nih.gov/health/garlic
+81. Commission Regulation (EU) 2022/860 amending Annex III to Regulation (EC) No 1925/2006 as regards monacolins from red yeast rice. URL:https://lawplayer.com/eu/act/32022R0860
+82. Complife. Project for a European Commission Regulation: monacolins towards a definitive ban (2026). URL:https://www.complifegroup.com/2026/04/14/project-for-a-european-commission-regulation-monacolins-towards-a-definitive-ban/

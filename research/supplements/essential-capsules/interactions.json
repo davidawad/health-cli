@@ -4,56 +4,381 @@
   "slug": "essential-capsules",
   "aliases": [
     "Blueprint Essential Capsules",
-    "Essential Capsules by Blueprint"
+    "Essential Capsules by Blueprint",
+    "Blueprint Bryan Johnson Essential Capsules",
+    "Blueprint longevity multivitamin"
   ],
   "category": "other",
   "rx_status": "otc",
   "evidence_certainty_overall": "very-low",
   "edges": [
     {
-      "with": "warfarin",
-      "with_kind": "drug",
+      "with": "Lithium",
+      "with_kind": "supplement",
       "kind": "caution",
       "severity": "moderate",
-      "mechanism": "Vitamin E may increase bleeding tendency; exact effect depends on dose and current formulation",
-      "evidence": "Constituent-level interaction; no trial of complete product",
+      "mechanism": "Product supplies 1 mg elemental lithium/day as orotate; a separate lithium supplement adds unmonitored lithium exposure. Orotate likely dissociates to Li+ like carbonate.",
+      "evidence": "Toxicology study, overdose case report, pharmacology commentary; no stacking study; very low certainty",
       "citations": [
-        "URL:https://ods.od.nih.gov/factsheets/list-all/"
+        "PMID:34146638",
+        "PMID:18072162",
+        "PMID:42312809"
       ]
     },
     {
-      "with": "biotin-dependent immunoassays",
-      "with_kind": "lab-test",
-      "kind": "lab-interference",
-      "severity": "major",
-      "mechanism": "Biotin may cause falsely high or low results in streptavidin-biotin assays, including falsely low troponin",
-      "evidence": "FDA safety communication; label record lists biotin",
+      "with": "lithium carbonate",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Additive lithium in a narrow-therapeutic-index drug; 1 mg/d is small relative to therapeutic doses but uncounted in serum-level management.",
+      "evidence": "Drug-interaction and toxicity reviews; inferred, no direct study",
       "citations": [
-        "URL:https://www.fda.gov/medical-devices/safety-communications/update-fda-warns-biotin-may-interfere-lab-tests-fda-safety-communication",
-        "URL:https://hellopharmacist.com/drug-supplement-interactions/supplements/essential-capsules-by-blueprint-bryan-johnson-2431781"
+        "PMID:8521679",
+        "PMID:41620355",
+        "PMID:34146638"
+      ]
+    },
+    {
+      "with": "thiazide diuretics, NSAIDs, ACE inhibitors",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "These reduce renal lithium clearance (thiazides +25-40% serum lithium); relevant mainly if the product is combined with other lithium sources.",
+      "evidence": "Reviews of lithium pharmacokinetic interactions at therapeutic doses; extrapolated to trace dose",
+      "citations": [
+        "PMID:8521679",
+        "PMID:41620355"
+      ]
+    },
+    {
+      "with": "Zinc",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Product supplies 15 mg zinc with no copper; added zinc induces enterocyte metallothionein and can cause copper-deficiency anemia, neutropenia and myelopathy.",
+      "evidence": "Case reports and reviews; dose-dependent, long-term exposure",
+      "citations": [
+        "PMID:42757636",
+        "PMID:40866286",
+        "PMID:29959467"
+      ]
+    },
+    {
+      "with": "Selenium",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Product supplies 28 mcg selenomethionine; stacking raises selenium intake. RCTs show no cancer benefit and slight excess type 2 diabetes, alopecia and dermatitis; possible U-shaped glucose response.",
+      "evidence": "Cochrane review of RCTs (high certainty for no cancer benefit); PRECISE RCT",
+      "citations": [
+        "PMID:29376219",
+        "PMID:30280459",
+        "PMID:21990298"
+      ]
+    },
+    {
+      "with": "Iodine (potassium iodide)",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Product supplies 200 mcg iodine (about 133% DV); additional iodine can push intake well above need, which can trigger hypo/hyperthyroidism or autoimmunity in susceptible people.",
+      "evidence": "Narrative/endocrine reviews",
+      "citations": [
+        "PMID:30891786",
+        "PMID:38870258"
+      ]
+    },
+    {
+      "with": "autoimmune thyroid disease",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Iodine excess can worsen thyroid autoimmunity or cause dysfunction in pre-existing thyroid disease; selenium lowers TSH/TPOAb in Hashimoto, shifting tests.",
+      "evidence": "Reviews; MA of RCTs for selenium (GRADE moderate)",
+      "citations": [
+        "PMID:30891786",
+        "PMID:38870258",
+        "PMID:38243784"
       ]
     },
     {
       "with": "levothyroxine",
       "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Calcium reduces levothyroxine absorption (20-25% at 500 mg calcium; product has 50 mg); iodine and selenium can alter thyroid tests. Separate dosing.",
+      "evidence": "PK crossover study; systematic review; inferred for this dose",
+      "citations": [
+        "PMID:21595516",
+        "PMID:33801406",
+        "PMID:38243784"
+      ]
+    },
+    {
+      "with": "Vitamin B6",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Cumulative pyridoxine; neuropathy reports exist with low-dose products (1.4-100 mg per tablet), including a 6 mg/day multivitamin case.",
+      "evidence": "Pharmacovigilance case series and case report; low certainty",
+      "citations": [
+        "PMID:29737502",
+        "PMID:39888171",
+        "PMID:38098895"
+      ]
+    },
+    {
+      "with": "B Complex",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Duplicates B1, B2, niacinamide, B6, folate, B12, biotin and pantothenate; B6 is the main cumulative-toxicity concern.",
+      "evidence": "Pharmacovigilance and case data for B6",
+      "citations": [
+        "PMID:29737502",
+        "PMID:38098895"
+      ]
+    },
+    {
+      "with": "Vitamin E",
+      "with_kind": "supplement",
       "kind": "caution",
       "severity": "moderate",
-      "mechanism": "Calcium and minerals can reduce levothyroxine absorption if taken together",
-      "evidence": "Ingredient-level label precaution; NIH ODS mineral information",
+      "mechanism": "Product already supplies 67 mg d-alpha-tocopherol (447% DV); added vitamin E raises hemorrhagic stroke and prostate cancer signals seen in RCTs at higher doses.",
+      "evidence": "MAs of RCTs; SELECT RCT",
       "citations": [
-        "URL:https://ods.od.nih.gov/factsheets/list-all/"
+        "PMID:21051774",
+        "PMID:37698992",
+        "PMID:21990298"
+      ]
+    },
+    {
+      "with": "warfarin",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Vitamin E is linked to hemorrhagic stroke; CoQ10 at 100 mg/d did not change INR in a crossover RCT.",
+      "evidence": "MA of RCTs (vitamin E); small RCT (CoQ10); no product study",
+      "citations": [
+        "PMID:21051774",
+        "PMID:12772396"
+      ]
+    },
+    {
+      "with": "Aspirin",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Antiplatelet effect plus vitamin E-associated hemorrhagic stroke risk; additive bleeding risk plausible.",
+      "evidence": "MA of RCTs for vitamin E; combination not studied",
+      "citations": [
+        "PMID:21051774",
+        "PMID:37698992"
+      ]
+    },
+    {
+      "with": "Vitamin D-3",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Product supplies 2000 IU D3 (the VITAL dose); added D3 increases 25(OH)D without shown outcome benefit.",
+      "evidence": "Large RCTs and MA",
+      "citations": [
+        "PMID:30415629",
+        "PMID:31405892",
+        "PMID:35026158"
+      ]
+    },
+    {
+      "with": "Nicotinamide Riboside",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Product supplies 300 mg NR; additional NR stacks NAD+ precursor dose. High-dose NR worsened early Parkinson outcomes in a phase 3 RCT.",
+      "evidence": "Dose-ranging RCT; NOPARK RCT",
+      "citations": [
+        "PMID:31278280",
+        "PMID:42848371"
+      ]
+    },
+    {
+      "with": "NMN",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Same NAD+ salvage pathway as NR; duplicated precursor dosing without demonstrated added benefit.",
+      "evidence": "MAs of NR/NMN RCTs",
+      "citations": [
+        "PMID:40275690",
+        "PMID:39111741"
+      ]
+    },
+    {
+      "with": "Fisetin",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Product supplies 100 mg/day fisetin; added fisetin (including intermittent senolytic dosing) stacks a flavonol with limited human safety data.",
+      "evidence": "Small RCTs, protocol and PK study; very low certainty",
+      "citations": [
+        "PMID:42633989",
+        "PMID:42218768",
+        "PMID:36304817"
+      ]
+    },
+    {
+      "with": "CoQ10",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Product supplies 50 mg ubiquinol; added CoQ10 duplicates dose; BP-lowering effect is small.",
+      "evidence": "MA of RCTs; bioavailability study",
+      "citations": [
+        "PMID:32188111",
+        "PMID:40495903"
+      ]
+    },
+    {
+      "with": "Spermidine",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Product supplies 10 mg spermidine (as trihydrochloride); stacking has no outcome data, though 40 mg/d was safe for 28 days.",
+      "evidence": "Small RCTs/PK studies",
+      "citations": [
+        "PMID:37111071",
+        "PMID:39405978",
+        "PMID:35616942"
+      ]
+    },
+    {
+      "with": "Sulforaphane Glucosinolate (BroccoMax)",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Product supplies 20 mg glucoraphanin; another broccoli seed extract duplicates glucoraphanin/sulforaphane exposure. Thyroid function unaffected in a 12-week trial.",
+      "evidence": "RCTs of broccoli sprout beverages",
+      "citations": [
+        "PMID:31268126",
+        "PMID:30735751"
+      ]
+    },
+    {
+      "with": "Boron",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Product supplies 3 mg boron; added boron raises total intake; long-term cumulative effects unstudied.",
+      "evidence": "Acute RCT only",
+      "citations": [
+        "PMID:12428176"
+      ]
+    },
+    {
+      "with": "biotin-based immunoassays",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Biotin interferes with streptavidin-biotin assays (falsely low troponin T/TSH, falsely high T3/vitamin D); 50 mcg/day is unlikely to interfere alone but adds to other biotin sources.",
+      "evidence": "In vitro spiking studies at high biotin concentrations",
+      "citations": [
+        "PMID:30296442",
+        "PMID:31944861"
+      ]
+    },
+    {
+      "with": "Parkinson disease",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "NR 1 g/day for 52 weeks worsened MDS-UPDRS and non-motor scores versus placebo in early Parkinson disease; relevance at 300 mg/day unknown.",
+      "evidence": "Phase 3 RCT (n=410)",
+      "citations": [
+        "PMID:42848371"
+      ]
+    },
+    {
+      "with": "immunocompromised state",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Live Lactobacillus acidophilus (4 billion CFU); rare lactobacillus bacteremia/endocarditis mostly in immunocompromised, diabetic or valve-prosthesis patients.",
+      "evidence": "Case-report survey",
+      "citations": [
+        "PMID:35334835"
       ]
     }
   ],
   "citations": [
-    "URL:https://blueprint.bryanjohnson.com/en-gb/collections/daily-health-longevity/products/essentials-capsules",
-    "URL:https://blueprint.bryanjohnson.com/en-gb/collections/daily-health-longevity/products/essentials-capsules\n-",
+    "PMID:18072162",
+    "PMID:34146638",
+    "PMID:35294969",
+    "PMID:35727272",
+    "PMID:31278280",
+    "PMID:37478182",
+    "PMID:31268126",
+    "PMID:42633989",
+    "PMID:36304817",
+    "PMID:38088265",
+    "PMID:32188111",
+    "PMID:37111071",
+    "PMID:40770094",
+    "PMID:42312809",
+    "PMID:23162860",
+    "PMID:23117775",
+    "PMID:23255568",
+    "PMID:38922615",
+    "PMID:38244989",
+    "PMID:36102337",
+    "PMID:37244291",
+    "PMID:41803341",
+    "PMID:30415629",
+    "PMID:35939577",
+    "PMID:35082139",
+    "PMID:31405892",
+    "PMID:35026158",
+    "PMID:40409468",
+    "PMID:39111741",
+    "PMID:40275690",
+    "PMID:29992272",
+    "PMID:39817194",
+    "PMID:37994989",
+    "PMID:40495903",
+    "PMID:25440725",
+    "PMID:35616942",
+    "PMID:42218768",
+    "PMID:36678333",
+    "PMID:41770546",
+    "PMID:42521537",
+    "PMID:41177743",
+    "PMID:32056756",
+    "PMID:38243784",
+    "PMID:37698992",
+    "PMID:21990298",
+    "PMID:42848371",
+    "PMID:39405978",
+    "PMID:21051774",
+    "PMID:29737502",
+    "PMID:39888171",
+    "PMID:38098895",
+    "PMID:42757636",
+    "PMID:40866286",
+    "PMID:29959467",
+    "PMID:29376219",
+    "PMID:30280459",
+    "PMID:30891786",
+    "PMID:38870258",
+    "PMID:35334835",
+    "PMID:30735751",
+    "PMID:8521679",
+    "PMID:41620355",
+    "PMID:21595516",
+    "PMID:33801406",
+    "PMID:12772396",
+    "PMID:12428176",
+    "PMID:30296442",
+    "PMID:31944861",
     "URL:https://blueprint.bryanjohnson.com/products/essentials-capsules",
-    "URL:https://hellopharmacist.com/drug-supplement-interactions/supplements/essential-capsules-by-blueprint-bryan-johnson-2431781",
-    "URL:https://hellopharmacist.com/drug-supplement-interactions/supplements/essential-capsules-by-blueprint-bryan-johnson-2431781\n-",
-    "URL:https://ods.od.nih.gov/factsheets/list-all/",
-    "URL:https://ods.od.nih.gov/factsheets/list-all/\n-",
-    "URL:https://www.fda.gov/medical-devices/safety-communications/update-fda-warns-biotin-may-interfere-lab-tests-fda-safety-communication",
-    "URL:https://www.fda.gov/medical-devices/safety-communications/update-fda-warns-biotin-may-interfere-lab-tests-fda-safety-communication\n"
+    "URL:https://dsld.od.nih.gov/label/328204"
   ]
 }

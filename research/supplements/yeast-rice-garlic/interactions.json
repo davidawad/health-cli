@@ -3,8 +3,15 @@
   "supplement": "Yeast Rice + Garlic",
   "slug": "yeast-rice-garlic",
   "aliases": [
-    "Red Yeast Rice Odor-free Garlic",
-    "red yeast rice with garlic"
+    "Red Yeast Rice + Odor-free Garlic",
+    "red yeast rice with garlic",
+    "RYR + garlic",
+    "Monascus purpureus + Allium sativum",
+    "monacolin K",
+    "beni-koji",
+    "Xuezhikang",
+    "Cholestin",
+    "aged garlic extract"
   ],
   "category": "botanical",
   "rx_status": "otc",
@@ -15,59 +22,390 @@
       "with_kind": "drug-class",
       "kind": "avoid",
       "severity": "major",
-      "mechanism": "Monacolin K is lovastatin; additive statin exposure can increase myopathy and liver injury",
-      "evidence": "Pharmacology and NCCIH safety review",
+      "mechanism": "Monacolin K is lovastatin; adding RYR to a statin duplicates HMG-CoA reductase inhibitor exposure and myopathy/hepatotoxicity risk. EU labeling forbids use with cholesterol-lowering medication.",
+      "evidence": "EFSA opinions; EU Regulation 2022/860; RCTs of RYR+statin show little added LDL-C benefit",
       "citations": [
-        "URL:https://www.nccih.nih.gov/health/red-yeast-rice"
+        "PMID:32626016",
+        "URL:https://lawplayer.com/eu/act/32022R0860",
+        "PMID:42212982",
+        "PMID:39108747"
       ]
     },
     {
-      "with": "CYP3A4 inhibitors",
+      "with": "strong CYP3A4 inhibitors (clarithromycin, itraconazole/azole antifungals, HIV protease inhibitors)",
       "with_kind": "drug-class",
-      "kind": "caution",
+      "kind": "avoid",
       "severity": "major",
-      "mechanism": "May raise lovastatin-like monacolin exposure and muscle toxicity",
-      "evidence": "NCCIH interaction/safety information",
+      "mechanism": "CYP3A4 inhibition raises lovastatin/lovastatin acid exposure (itraconazole >20-fold AUC; clarithromycin >5-fold), raising rhabdomyolysis risk; extrapolated to monacolin K.",
+      "evidence": "Crossover PK RCT with lovastatin; systematic review of clarithromycin-statin cases; no RYR-specific PK study",
       "citations": [
+        "PMID:8689812",
+        "PMID:31628882",
         "URL:https://www.nccih.nih.gov/health/red-yeast-rice"
       ]
     },
     {
-      "with": "anticoagulants",
+      "with": "grapefruit juice",
+      "with_kind": "food",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Intestinal CYP3A4 inhibition; double-strength grapefruit juice raised lovastatin AUC 15-fold and lovastatin acid AUC 5-fold.",
+      "evidence": "Randomized crossover PK study with lovastatin (n=10); extrapolated to monacolin K",
+      "citations": [
+        "PMID:9585793"
+      ]
+    },
+    {
+      "with": "fibrates (gemfibrozil)",
+      "with_kind": "drug-class",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Gemfibrozil raised lovastatin acid concentrations with an RYR product; lovastatin-gemfibrozil caused severe myopathy/rhabdomyolysis (median CK 15,250 U/L).",
+      "evidence": "Volunteer PK study with RYR; FDA case series with lovastatin",
+      "citations": [
+        "PMID:23227093",
+        "PMID:2355431"
+      ]
+    },
+    {
+      "with": "cyclosporine",
+      "with_kind": "drug",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "CYP3A4/transporter interaction raises monacolin/lovastatin exposure; rhabdomyolysis in a renal transplant recipient on cyclosporine taking RYR.",
+      "evidence": "Case report; mechanistic PK data with lovastatin",
+      "citations": [
+        "PMID:12438974",
+        "PMID:8689812"
+      ]
+    },
+    {
+      "with": "warfarin",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Garlic antiplatelet activity may add to anticoagulation; case reports of enhanced anticoagulant effect, but an RCT of aged garlic extract with warfarin found no increase in bleeding.",
+      "evidence": "Pilot RCT (n=48), reviews; low certainty",
+      "citations": [
+        "PMID:16484565",
+        "PMID:17918162",
+        "PMID:11144706"
+      ]
+    },
+    {
+      "with": "antiplatelet agents",
       "with_kind": "drug-class",
       "kind": "caution",
       "severity": "moderate",
-      "mechanism": "Garlic may inhibit platelet function and increase bleeding",
-      "evidence": "NIH ODS garlic fact sheet",
+      "mechanism": "Garlic inhibits platelet aggregation in vitro and in about half of RCTs; additive effect with platelet inhibitors unstudied.",
+      "evidence": "Systematic review of 12 RCTs; mechanistic studies; dietary-dose RCT negative",
       "citations": [
-        "URL:https://ods.od.nih.gov/factsheets/Garlic-HealthProfessional/"
+        "PMID:36222178",
+        "PMID:16484563",
+        "PMID:17959943"
       ]
     },
     {
-      "with": "liver function tests",
+      "with": "saquinavir",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Garlic supplements reduced saquinavir AUC 51% and trough 49%, risking loss of antiviral efficacy.",
+      "evidence": "Open-label PK study in 10 volunteers",
+      "citations": [
+        "PMID:11740713"
+      ]
+    },
+    {
+      "with": "antihypertensives",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Garlic lowers SBP/DBP by about 4/3 mmHg in hypertension; small additive BP lowering.",
+      "evidence": "Meta-analyses of RCTs",
+      "citations": [
+        "PMID:41393949",
+        "PMID:40580481"
+      ]
+    },
+    {
+      "with": "Aspirin",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Garlic antiplatelet effect may add to aspirin's; NCCIH advises discussing garlic with aspirin use.",
+      "evidence": "Agency guidance plus RCT systematic review; interaction not quantified",
+      "citations": [
+        "URL:https://www.nccih.nih.gov/health/garlic",
+        "PMID:36222178"
+      ]
+    },
+    {
+      "with": "Berberine",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Berberine (PCSK9-related) plus RYR are co-formulated; combination lowers LDL-C (MD -18.79 mg/dL) more than berberine alone.",
+      "evidence": "Meta-analyses of RCTs (Armolipid Plus and berberine combinations)",
+      "citations": [
+        "PMID:37183391",
+        "PMID:27131395",
+        "PMID:33669333"
+      ]
+    },
+    {
+      "with": "CoQ10",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "HMG-CoA reductase inhibition by RYR depleted tissue CoQ10 in mice; RYR+CoQ10 combination tested in an RCT; benefit for myalgia unproven.",
+      "evidence": "Animal study plus RCT of combination",
+      "citations": [
+        "PMID:15705235",
+        "PMID:27055107"
+      ]
+    },
+    {
+      "with": "Garlic",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Duplicate garlic exposure: additive antiplatelet and BP-lowering effects and more odor/GI effects.",
+      "evidence": "Meta-analyses and adverse-effect review",
+      "citations": [
+        "PMID:40628369",
+        "PMID:17918162"
+      ]
+    },
+    {
+      "with": "Garlic (Kyolic)",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Kyolic is aged garlic extract; stacking duplicates AGE antiplatelet and BP effects.",
+      "evidence": "AGE meta-analysis and mechanistic platelet study",
+      "citations": [
+        "PMID:40628369",
+        "PMID:16484563"
+      ]
+    },
+    {
+      "with": "EPA/DHA/DPA",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Fish oil and garlic both have reported bleeding risks; additive effect plausible perioperatively.",
+      "evidence": "Narrative review of supplements and coagulation",
+      "citations": [
+        "PMID:26949700"
+      ]
+    },
+    {
+      "with": "Ginger Root",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Ginger and garlic are both reported to affect platelet function/bleeding; evidence for warfarin interaction weak.",
+      "evidence": "Reviews",
+      "citations": [
+        "PMID:26949700",
+        "PMID:11144706"
+      ]
+    },
+    {
+      "with": "Green Tea Extract",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Green tea extract and red yeast rice are both among the 6 botanicals most often implicated in US herbal hepatotoxicity; green tea also has reported bleeding risk.",
+      "evidence": "NHANES exposure study of hepatotoxic botanicals; coagulation review",
+      "citations": [
+        "PMID:39102266",
+        "PMID:26949700"
+      ]
+    },
+    {
+      "with": "Turmeric",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Turmeric and red yeast rice are both among the most frequently reported hepatotoxic botanicals; stacking adds liver-injury exposure.",
+      "evidence": "NHANES-based review of hepatotoxic botanicals",
+      "citations": [
+        "PMID:39102266"
+      ]
+    },
+    {
+      "with": "Curcumin",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Turmeric/curcumin and red yeast rice are both among the most frequently reported hepatotoxic botanicals; stacking adds liver-injury exposure.",
+      "evidence": "NHANES-based review of hepatotoxic botanicals",
+      "citations": [
+        "PMID:39102266"
+      ]
+    },
+    {
+      "with": "pregnancy and lactation",
+      "with_kind": "condition",
+      "kind": "contraindicated",
+      "severity": "major",
+      "mechanism": "Monacolin K is lovastatin; no safety studies; NCCIH advises against use and EU labels prohibit use in pregnant or lactating women.",
+      "evidence": "Agency guidance and EU regulation",
+      "citations": [
+        "URL:https://www.nccih.nih.gov/health/red-yeast-rice",
+        "URL:https://lawplayer.com/eu/act/32022R0860"
+      ]
+    },
+    {
+      "with": "liver disease or prior statin hepatotoxicity",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "RYR shows hepatic disproportionality signals (FAERS ROR 13.71) and caused biopsy-proven hepatitis after prior lovastatin hepatotoxicity.",
+      "evidence": "Pharmacovigilance and case reports; EFSA opinion",
+      "citations": [
+        "PMID:29582393",
+        "PMID:19398239",
+        "PMID:32626016"
+      ]
+    },
+    {
+      "with": "kidney disease or kidney transplant",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Citrinin nephrotoxicity; puberulic-acid-contaminated beni-koji caused Fanconi syndrome and persistent eGFR loss; rhabdomyolysis with AKI in transplant recipient.",
+      "evidence": "Product analyses, nationwide survey (n=192), case reports",
+      "citations": [
+        "PMID:20975018",
+        "PMID:39708997",
+        "PMID:12438974"
+      ]
+    },
+    {
+      "with": "elective surgery",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Garlic antiplatelet effects; excess surgical bleeding reported with high garlic intake; ASA/AANA advise stopping herbal medicines 1-2 weeks pre-op.",
+      "evidence": "Case report and perioperative review",
+      "citations": [
+        "PMID:38613937",
+        "PMID:27782907"
+      ]
+    },
+    {
+      "with": "creatine kinase and liver enzymes (CK, ALT/AST)",
       "with_kind": "lab-test",
       "kind": "monitor",
       "severity": "moderate",
-      "mechanism": "RYR can cause statin-like hepatotoxicity; monitor for true enzyme elevation",
-      "evidence": "NCCIH describes liver injury risk",
+      "mechanism": "True physiological rises with statin-like myotoxicity/hepatotoxicity (myalgia/CK rises, rhabdomyolysis with CK >100,000 U/L, ALT/AST elevations).",
+      "evidence": "Pharmacovigilance series, case reports, umbrella review",
       "citations": [
-        "URL:https://www.nccih.nih.gov/health/red-yeast-rice"
+        "PMID:28093797",
+        "PMID:40909457",
+        "PMID:38413255",
+        "PMID:29582393"
+      ]
+    },
+    {
+      "with": "SLCO1B1 decreased-function alleles (*5, *15; rs4149056)",
+      "with_kind": "genotype",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Reduced OATP1B1 hepatic uptake raises lovastatin acid AUC (~2.9-fold) and statin myopathy risk; extrapolated to monacolin K.",
+      "evidence": "Genotype-panel PK study with lovastatin; GWAS; CPIC guideline",
+      "citations": [
+        "PMID:26020121",
+        "PMID:18650507",
+        "PMID:35152405"
       ]
     }
   ],
   "citations": [
+    "PMID:2355431",
+    "PMID:8689812",
+    "PMID:9585793",
+    "PMID:11144706",
+    "PMID:11740713",
+    "PMID:12438974",
+    "PMID:15705235",
+    "PMID:16484563",
+    "PMID:16484565",
+    "PMID:17312447",
+    "PMID:17918162",
+    "PMID:17959943",
+    "PMID:18549841",
+    "PMID:18650507",
+    "PMID:19398239",
+    "PMID:19528562",
+    "PMID:20102918",
+    "PMID:20975018",
+    "PMID:22895963",
+    "PMID:23227093",
+    "PMID:23590705",
+    "PMID:25168220",
+    "PMID:25897793",
+    "PMID:26020121",
+    "PMID:26764326",
+    "PMID:26949700",
+    "PMID:27055107",
+    "PMID:27131395",
+    "PMID:27782907",
+    "PMID:28093797",
+    "PMID:29582393",
+    "PMID:30844537",
+    "PMID:31628882",
+    "PMID:32021355",
+    "PMID:32626016",
+    "PMID:33538260",
+    "PMID:33669333",
+    "PMID:35111069",
+    "PMID:35152405",
     "PMID:35264949",
-    "PMID:35264949\n-",
+    "PMID:35988871",
+    "PMID:36120360",
+    "PMID:36222178",
+    "PMID:36259545",
+    "PMID:36351465",
+    "PMID:37183391",
+    "PMID:38413255",
+    "PMID:38613937",
     "PMID:38794691",
-    "PMID:38794691\n-",
-    "PMID:39525586",
-    "PMID:39525586\n-",
-    "URL:https://ods.od.nih.gov/factsheets/",
-    "URL:https://ods.od.nih.gov/factsheets/\n-",
-    "URL:https://ods.od.nih.gov/factsheets/Garlic-HealthProfessional/",
-    "URL:https://ods.od.nih.gov/factsheets/Garlic-HealthProfessional/\n-",
+    "PMID:38892625",
+    "PMID:39102266",
+    "PMID:39108747",
+    "PMID:39113105",
+    "PMID:39275298",
+    "PMID:39424254",
+    "PMID:39511729",
+    "PMID:39614370",
+    "PMID:39639196",
+    "PMID:39708997",
+    "PMID:39766315",
+    "PMID:39978331",
+    "PMID:40027377",
+    "PMID:40159186",
+    "PMID:40264460",
+    "PMID:40580481",
+    "PMID:40628369",
+    "PMID:40741249",
+    "PMID:40909457",
+    "PMID:40927271",
+    "PMID:41360537",
+    "PMID:41393949",
+    "PMID:41641978",
+    "PMID:41684976",
+    "PMID:41732753",
+    "PMID:41754164",
+    "PMID:42212982",
+    "PMID:42477306",
+    "PMID:42514371",
+    "URL:https://lawplayer.com/eu/act/32022R0860",
+    "URL:https://www.complifegroup.com/2026/04/14/project-for-a-european-commission-regulation-monacolins-towards-a-definitive-ban/",
     "URL:https://www.nccih.nih.gov/health/garlic",
-    "URL:https://www.nccih.nih.gov/health/red-yeast-rice",
-    "URL:https://www.nccih.nih.gov/health/red-yeast-rice\n"
+    "URL:https://www.nccih.nih.gov/health/red-yeast-rice"
   ]
 }

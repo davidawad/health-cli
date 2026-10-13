@@ -4,45 +4,304 @@
   "slug": "creatine",
   "aliases": [
     "creatine monohydrate",
-    "creatine monohydrate powder"
+    "CrM",
+    "creatine HCl",
+    "creatine hydrochloride",
+    "creatine ethyl ester",
+    "Creapure",
+    "methylguanidinoacetic acid"
   ],
   "category": "other",
   "rx_status": "otc",
   "evidence_certainty_overall": "moderate",
   "edges": [
     {
-      "with": "caffeine",
-      "with_kind": "drug",
-      "kind": "caution",
-      "severity": "minor",
-      "mechanism": "Possible attenuation of ergogenic effect and additive GI symptoms at high doses",
-      "evidence": "Mixed small trials/reviews; clinical importance uncertain",
+      "with": "serum creatinine / creatinine-based eGFR",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "major",
+      "mechanism": "Supplemental creatine is converted non-enzymatically to creatinine, raising serum creatinine (MD +0.13-0.14 mg/dL) and lowering creatinine-based GFR (MD -10.75 mL/min) without change in Cr-EDTA measured GFR; creatine ethyl ester produces marked 'pseudo renal failure'.",
+      "evidence": "Three MAs of RCTs (2025-2026) plus case reports; moderate certainty",
       "citations": [
-        "PMID:39519498"
+        "PMID:42507286",
+        "PMID:42035842",
+        "PMID:41199218",
+        "PMID:25239988",
+        "PMID:21411845",
+        "PMID:31384454"
       ]
     },
     {
-      "with": "kidney function tests (serum creatinine/eGFR)",
+      "with": "cystatin C / eGFRcys",
       "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Cystatin C is not raised by creatine and is the recommended confirmatory marker (eGFRcr-cys or measured GFR) when creatinine is confounded by creatine supplements.",
+      "evidence": "RCT (cystatin C fell on ~10 g/d), NHANES analysis, case report and KDIGO-based guidance",
+      "citations": [
+        "PMID:18188581",
+        "PMID:39778146",
+        "PMID:38835922",
+        "PMID:40063957",
+        "PMID:39584585"
+      ]
+    },
+    {
+      "with": "chronic kidney disease",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Endogenous creatine synthesis (renal AGAT) declines in CKD; safety data in established CKD are sparse, and creatinine-based eGFR becomes uninterpretable during use, complicating monitoring.",
+      "evidence": "MA including CKD/hemodialysis subgroup showed no measured-GFR change; reviews advise caution; low certainty",
+      "citations": [
+        "PMID:42507286",
+        "PMID:31083291",
+        "PMID:36986197",
+        "PMID:41404326"
+      ]
+    },
+    {
+      "with": "kidney transplant",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Creatine (especially ethyl ester) raises serum creatinine and can mimic allograft dysfunction, prompting unnecessary biopsy.",
+      "evidence": "Case report; mechanistic",
+      "citations": [
+        "PMID:31384454",
+        "PMID:42507286"
+      ]
+    },
+    {
+      "with": "nephrotoxic drugs (NSAIDs, aminoglycosides, calcineurin inhibitors)",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "No controlled interaction data; creatine is not nephrotoxic in healthy-volunteer RCTs, but AIN has been reported with multi-supplement use and creatinine-based monitoring of drug nephrotoxicity is confounded; use cystatin C.",
+      "evidence": "Case report, safety reviews; very low certainty",
+      "citations": [
+        "PMID:17046619",
+        "PMID:41404326",
+        "PMID:38835922"
+      ]
+    },
+    {
+      "with": "tubular creatinine-secretion inhibitors (trimethoprim, cimetidine, dolutegravir, cobicistat)",
+      "with_kind": "drug-class",
       "kind": "lab-interference",
       "severity": "moderate",
-      "mechanism": "Supplement-derived creatine can increase serum creatinine and lower creatinine-based eGFR without a true fall in filtration",
-      "evidence": "Biochemical mechanism and clinical review",
+      "mechanism": "These drugs raise serum creatinine via OCT2/MATE inhibition without true GFR change; added to creatine-derived creatinine, the combined rise may be misread as AKI.",
+      "evidence": "Pharmacology review plus creatine MA; interaction inferred",
       "citations": [
-        "PMID:41199218"
+        "PMID:36859345",
+        "PMID:42507286"
+      ]
+    },
+    {
+      "with": "Caffeine",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Chronic caffeine during creatine loading may blunt creatine's ergogenic effect in some studies (opposing effects on muscle relaxation time; additive GI distress); creatine loading does not impair acute caffeine benefit.",
+      "evidence": "Systematic review of 10 studies, narrative review, RCT; mixed, low certainty",
+      "citations": [
+        "PMID:35016154",
+        "PMID:26219105",
+        "PMID:33759701"
+      ]
+    },
+    {
+      "with": "Beta Alanine",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Complementary mechanisms (PCr resynthesis vs carnosine buffering); NMA found no synergy beyond creatine alone, SR suggests modest added anaerobic benefit; stacks present in a rhabdomyolysis case after extreme exertion.",
+      "evidence": "NMA of 52 RCTs, SR of 7 RCTs, case report; low certainty",
+      "citations": [
+        "PMID:42384726",
+        "PMID:40647180",
+        "PMID:41952948"
+      ]
+    },
+    {
+      "with": "Metformin ER",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Creatine with exercise improved glycemic control (HbA1c -1.1%) via GLUT-4 translocation; possible additive glucose lowering with glucose-lowering drugs.",
+      "evidence": "Single 12-week RCT (n=25) and SR; low certainty",
+      "citations": [
+        "PMID:20881878",
+        "PMID:27306768"
+      ]
+    },
+    {
+      "with": "insulin and other antidiabetic drugs",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Additive glucose lowering possible; trial populations did not include insulin-treated patients.",
+      "evidence": "RCT and SR; low certainty",
+      "citations": [
+        "PMID:20881878",
+        "PMID:27306768"
+      ]
+    },
+    {
+      "with": "SSRIs (escitalopram)",
+      "with_kind": "drug-class",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Creatine 5 g/d augmentation produced faster and greater HAM-D improvement in women with MDD, possibly via restored brain bioenergetics.",
+      "evidence": "Single RCT (n=52) plus SR of 5 RCTs; low certainty",
+      "citations": [
+        "PMID:22864465",
+        "PMID:41558805",
+        "PMID:41189312"
+      ]
+    },
+    {
+      "with": "bipolar disorder",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Hypomania/mania occurred in 2 of 17 creatine-treated participants in psychiatric RCTs; no benefit in bipolar depression augmentation.",
+      "evidence": "SR of RCTs; very low certainty",
+      "citations": [
+        "PMID:41558805"
+      ]
+    },
+    {
+      "with": "pregnancy and lactation",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Human safety data are lacking.",
+      "evidence": "Narrative reviews",
+      "citations": [
+        "PMID:41404326",
+        "PMID:39720835"
+      ]
+    },
+    {
+      "with": "McArdle disease (metabolic myopathy)",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "High-dose creatine worsened activities of daily living and increased muscle pain in McArdle disease; no strength benefit in metabolic myopathies.",
+      "evidence": "Cochrane review (crossover trials, n=33)",
+      "citations": [
+        "PMID:23740606"
+      ]
+    },
+    {
+      "with": "hemodialysis",
+      "with_kind": "condition",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Dialysis patients may be creatine-depleted; pre-dialysis creatine reduced dialysis-associated cramps by 60%; serum creatinine rose slightly.",
+      "evidence": "Small RCT (n=10) and review; very low certainty",
+      "citations": [
+        "PMID:12401856",
+        "PMID:34444869"
+      ]
+    },
+    {
+      "with": "Quatrefolic (5-MTHF)",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Creatine suppresses guanidinoacetate synthesis but did not lower homocysteine alone; creatine plus folic acid lowered homocysteine similarly to folic acid alone (no additive effect).",
+      "evidence": "RCT (n=458); moderate certainty for no additive effect",
+      "citations": [
+        "PMID:26311810"
+      ]
+    },
+    {
+      "with": "cooked meat",
+      "with_kind": "food",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Cooked meat contains creatinine (from creatine) that raises serum creatinine for hours and can misclassify CKD stage; compounds supplement-related creatinine rise; fast 12 h before testing.",
+      "evidence": "Controlled feeding study (n=80)",
+      "citations": [
+        "PMID:24062331"
       ]
     }
   ],
   "citations": [
+    "PMID:12401856",
+    "PMID:16917445",
+    "PMID:17046619",
+    "PMID:18053002",
+    "PMID:18188581",
+    "PMID:19228401",
+    "PMID:19741313",
+    "PMID:20881878",
+    "PMID:21411845",
+    "PMID:21424716",
+    "PMID:22864465",
+    "PMID:23235621",
+    "PMID:23740606",
+    "PMID:24062331",
+    "PMID:24576864",
+    "PMID:25239988",
+    "PMID:25668262",
+    "PMID:26219105",
+    "PMID:26311810",
+    "PMID:27306768",
+    "PMID:28615996",
+    "PMID:28701493",
+    "PMID:29740583",
+    "PMID:30086660",
+    "PMID:31083291",
+    "PMID:31257405",
+    "PMID:31384454",
+    "PMID:33557850",
+    "PMID:33759701",
+    "PMID:34199420",
+    "PMID:34444869",
+    "PMID:34836013",
+    "PMID:35016154",
+    "PMID:35268011",
+    "PMID:35984306",
+    "PMID:36859345",
+    "PMID:36986197",
+    "PMID:37144634",
+    "PMID:37968687",
     "PMID:38417175",
-    "PMID:38417175\n-",
-    "PMID:38582412",
-    "PMID:38582412\n-",
+    "PMID:38418482",
+    "PMID:38835922",
+    "PMID:39070254",
+    "PMID:39488067",
     "PMID:39519498",
-    "PMID:39519498\n-",
+    "PMID:39545789",
+    "PMID:39584585",
+    "PMID:39720835",
+    "PMID:39778146",
+    "PMID:40063957",
+    "PMID:40265319",
+    "PMID:40395689",
+    "PMID:40647180",
+    "PMID:40854087",
+    "PMID:40971619",
+    "PMID:41189312",
     "PMID:41199218",
-    "PMID:41199218\n-",
+    "PMID:41328071",
     "PMID:41388441",
-    "PMID:41388441\n"
+    "PMID:41404326",
+    "PMID:41558805",
+    "PMID:41798953",
+    "PMID:41952948",
+    "PMID:42027564",
+    "PMID:42035842",
+    "PMID:42075005",
+    "PMID:42141930",
+    "PMID:42180567",
+    "PMID:42384726",
+    "PMID:42507286",
+    "PMID:42712402",
+    "PMID:42761190",
+    "PMID:42765482"
   ]
 }

@@ -3,46 +3,364 @@
   "supplement": "inulin",
   "slug": "inulin",
   "aliases": [
-    "chicory inulin",
     "inulin-type fructans",
-    "chicory root fiber"
+    "ITF",
+    "chicory inulin",
+    "chicory root fiber",
+    "oligofructose-enriched inulin",
+    "Synergy1",
+    "Orafti inulin",
+    "fructooligosaccharides (FOS)",
+    "oligofructose"
   ],
   "category": "probiotic-prebiotic",
   "rx_status": "otc",
   "evidence_certainty_overall": "low",
   "edges": [
     {
-      "with": "GOS",
-      "with_kind": "supplement",
-      "kind": "synergy",
-      "severity": "minor",
-      "mechanism": "Both fermentable prebiotic fibers; co-use may add gas/bloating; no direct combination trial identified",
-      "evidence": "Mechanism-based additive fermentability",
-      "citations": [
-        "PMID:38309832",
-        "PMID:41263347"
-      ]
-    },
-    {
       "with": "irritable bowel syndrome",
       "with_kind": "condition",
       "kind": "caution",
       "severity": "moderate",
-      "mechanism": "Fructan fermentation can worsen pain, bloating and bowel symptoms in sensitive patients",
-      "evidence": "Human trial synthesis and fermentation mechanism",
+      "mechanism": "Inulin-type fructans are rapidly fermented FODMAPs; colonic gas/distension provokes pain, bloating and flatulence in hypersensitive IBS colon. ITF worsened flatulence (SMD +0.85) and did not improve global IBS symptoms.",
+      "evidence": "MA of prebiotic RCTs, MA of fiber RCTs, pediatric fructan-challenge RCT, MRI challenge study; moderate certainty",
       "citations": [
-        "PMID:38309832"
+        "PMID:30949662",
+        "PMID:42600900",
+        "PMID:28970147",
+        "PMID:27746233"
+      ]
+    },
+    {
+      "with": "fructan intolerance / non-celiac gluten-wheat sensitivity",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Fructan malabsorption common in IBS (~49% positive breath test); FOS-fructans provoked more GI symptoms than gluten in self-reported NCGWS.",
+      "evidence": "Retrospective breath-test cohort and randomized crossover challenge trial; low certainty",
+      "citations": [
+        "PMID:38654193",
+        "PMID:39227818",
+        "PMID:28970147"
+      ]
+    },
+    {
+      "with": "inulin/chicory allergy",
+      "with_kind": "condition",
+      "kind": "contraindicated",
+      "severity": "major",
+      "mechanism": "IgE-mediated anaphylaxis to inulin in foods (with artichoke allergy) and to intravenous sinistrin.",
+      "evidence": "Case reports; very low certainty but severe outcome",
+      "citations": [
+        "PMID:10798950",
+        "PMID:15650313",
+        "PMID:11853197"
+      ]
+    },
+    {
+      "with": "hereditary fructose intolerance",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "HFI requires strict avoidance of fructose, sucrose and sorbitol. Inulin is largely undigested in the small intestine, but co-administered fructanase hydrolyzes fructans to fructose.",
+      "evidence": "Narrative review, ileostomy recovery study, fructanase RCT; no inulin study in HFI; very low certainty",
+      "citations": [
+        "PMID:36052111",
+        "PMID:9023459",
+        "PMID:42580594"
+      ]
+    },
+    {
+      "with": "inflammatory bowel disease",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Oligofructose-enriched inulin did not induce or maintain remission in UC or Crohn's disease and caused more flatulence/bloating.",
+      "evidence": "SR/MA of 17 studies; very low certainty",
+      "citations": [
+        "PMID:38781004"
+      ]
+    },
+    {
+      "with": "cholestatic liver disease / gut dysbiosis",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "In dysbiotic (e.g. TLR5-deficient) mice, dietary inulin fermentation caused cholestasis and hepatocellular carcinoma, dependent on microbiota and secondary bile acids. No human data.",
+      "evidence": "Preclinical mouse studies only",
+      "citations": [
+        "PMID:30340040",
+        "PMID:32223398"
+      ]
+    },
+    {
+      "with": "Metformin ER",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Metformin blunted most inulin-induced microbiota and metabolic changes in obese patients; both cause GI effects. Small pilots suggest prebiotics are tolerated and a GI microbiome modulator improved metformin tolerance.",
+      "evidence": "Secondary analysis of multicenter RCT (n=150), pilot RCT (n=6), crossover (n=10); low certainty",
+      "citations": [
+        "PMID:32340903",
+        "PMID:36909343",
+        "PMID:25802471"
+      ]
+    },
+    {
+      "with": "antidiabetic drugs / insulin",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Additive glucose lowering: ITF lowered FBG (-0.60 mmol/L) and HbA1c (-0.58%) in prediabetes/T2D; inulin reduced daily insulin need in type 1 diabetes.",
+      "evidence": "GRADE dose-response MA (33 RCTs), MA (9 RCTs), pilot RCT in T1D; low certainty",
+      "citations": [
+        "PMID:31805963",
+        "PMID:32523243",
+        "PMID:41636295"
+      ]
+    },
+    {
+      "with": "Acarbose",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Acarbose delivers undigested carbohydrate to the colon, causing fermentation-related flatulence; ITF independently increase flatulence. Additive gas/bloating is plausible.",
+      "evidence": "Mechanistic inference from acarbose RCT and IBS prebiotic MA; no direct combination study",
+      "citations": [
+        "PMID:9663365",
+        "PMID:30949662"
+      ]
+    },
+    {
+      "with": "vancomycin / broad-spectrum antibiotics",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Antibiotic depletion of fermenting bacteria abolishes inulin fermentation effects (prevented fiber-induced HCC in mice); in antibiotic-treated ICU sepsis patients, inulin did not change the microbiome.",
+      "evidence": "Mouse study plus phase 2 RCT (n=90); low certainty",
+      "citations": [
+        "PMID:32223398",
+        "PMID:39806400"
+      ]
+    },
+    {
+      "with": "GOS",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Both are rapidly fermentable bifidogenic prebiotics; stacking adds fermentable load and gas. Beta-GOS improved IBS symptom scores whereas ITF did not, and non-ITF prebiotics reduced flatulence while ITF worsened it.",
+      "evidence": "Dose-response RCT and IBS meta-analyses; no direct combination trial",
+      "citations": [
+        "PMID:15585783",
+        "PMID:42600900",
+        "PMID:30949662",
+        "PMID:42762890"
+      ]
+    },
+    {
+      "with": "psyllium",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Gel-forming psyllium (or methylcellulose) co-administered with inulin delays colonic delivery and reduces inulin-induced colonic gas and breath hydrogen.",
+      "evidence": "Randomized crossover MRI trials in IBS and healthy volunteers; low certainty",
+      "citations": [
+        "PMID:34353864",
+        "PMID:39732438",
+        "PMID:42728685"
+      ]
+    },
+    {
+      "with": "fructanase",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Fructanase hydrolyzes fructans before colonic fermentation, reducing pain, bloating and flatulence after inulin challenge (yields free fructose; see HFI).",
+      "evidence": "Industry-funded crossover RCT (n=30); low certainty",
+      "citations": [
+        "PMID:42580594"
+      ]
+    },
+    {
+      "with": "ProButyrate",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Inulin increases endogenous butyrate production (~44%); sodium butyrate plus inulin was co-administered in T2D without reported safety problems.",
+      "evidence": "Isotope RCT and 4-arm RCT (n=60); low certainty",
+      "citations": [
+        "PMID:40274191",
+        "PMID:32315958"
+      ]
+    },
+    {
+      "with": "Tributryn",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Tributyrin supplies butyrate directly; inulin raises colonic butyrate production. Combined butyrate+inulin tested in T2D RCT.",
+      "evidence": "Indirect: isotope RCT and sodium butyrate+inulin RCT; no tributyrin+inulin study",
+      "citations": [
+        "PMID:40274191",
+        "PMID:32315958"
+      ]
+    },
+    {
+      "with": "Green Tea Extract",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Green tea catechins (400 mg/d) plus inulin (2.3 g/d) improved HOMA-IR vs placebo without reducing visceral fat.",
+      "evidence": "Single industry-funded RCT (n=96); low certainty; contribution of inulin alone unknown",
+      "citations": [
+        "PMID:41830022"
+      ]
+    },
+    {
+      "with": "Magnesium",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Oligofructose-enriched inulin increased fractional magnesium (and calcium) absorption, via colonic fermentation.",
+      "evidence": "Crossover RCT in postmenopausal women (n=15); very low certainty",
+      "citations": [
+        "PMID:17298707",
+        "PMID:34555168"
+      ]
+    },
+    {
+      "with": "calcium",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "ITF increase calcium absorption, mainly colonic, and increased bone mineral accretion over 1 year in adolescents; response modified by VDR FokI genotype.",
+      "evidence": "1-y RCT, short RCTs and isotope kinetic study; low certainty",
+      "citations": [
+        "PMID:16087995",
+        "PMID:17884999",
+        "PMID:10075343"
+      ]
+    },
+    {
+      "with": "Vitamin D-3",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Oligofructose-enriched inulin raised serum 25(OH)D by 42% (and vitamin E by 19%) in children with celiac disease on gluten-free diet.",
+      "evidence": "Pilot RCT (n=34); very low certainty",
+      "citations": [
+        "PMID:30445682"
+      ]
+    },
+    {
+      "with": "VDR FokI polymorphism",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Adolescents with the ff genotype had the least initial calcium-absorption response to ITF.",
+      "evidence": "Genotype subgroup within 1-y RCT; very low certainty",
+      "citations": [
+        "PMID:16087995"
+      ]
+    },
+    {
+      "with": "hydrogen breath test",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Inulin fermentation raises breath hydrogen within hours; breath tests call maldigestion at >=20 ppm rise, so recent inulin intake may confound carbohydrate breath testing.",
+      "evidence": "Challenge studies plus consensus criteria; inferred, not directly studied",
+      "citations": [
+        "PMID:27746233",
+        "PMID:28970147",
+        "PMID:28323273"
+      ]
+    },
+    {
+      "with": "inulin clearance GFR test",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Exogenous inulin/sinistrin clearance is the reference GFR method; anaphylaxis to IV sinistrin reported. No evidence that oral inulin supplements interfere, as oral inulin is largely unabsorbed.",
+      "evidence": "Method studies and a case report; very low certainty",
+      "citations": [
+        "PMID:32750458",
+        "PMID:11853197",
+        "PMID:9023459"
       ]
     }
   ],
   "citations": [
+    "PMID:31707507",
+    "PMID:34555168",
+    "PMID:17298707",
+    "PMID:16087995",
+    "PMID:39033197",
+    "PMID:9023459",
+    "PMID:30621208",
+    "PMID:32750458",
+    "PMID:11853197",
+    "PMID:35833477",
+    "PMID:17268410",
+    "PMID:15585783",
+    "PMID:32340903",
+    "PMID:40274191",
+    "PMID:25208775",
+    "PMID:17884999",
+    "PMID:33611985",
+    "PMID:27746233",
+    "PMID:40378939",
+    "PMID:30340040",
+    "PMID:32223398",
+    "PMID:27492975",
+    "PMID:41233756",
+    "PMID:33767108",
     "PMID:38309832",
-    "PMID:38309832\n-",
+    "PMID:27623982",
+    "PMID:17951501",
+    "PMID:31805963",
+    "PMID:32523243",
+    "PMID:34401107",
     "PMID:39313030",
-    "PMID:39313030\n-",
     "PMID:40414749",
-    "PMID:40414749\n-",
-    "PMID:41263347",
-    "PMID:41263347\n"
+    "PMID:10075343",
+    "PMID:30949662",
+    "PMID:42600900",
+    "PMID:41217200",
+    "PMID:41034384",
+    "PMID:40806090",
+    "PMID:39731509",
+    "PMID:41989194",
+    "PMID:38781004",
+    "PMID:40219004",
+    "PMID:39806400",
+    "PMID:32320024",
+    "PMID:28596023",
+    "PMID:20497775",
+    "PMID:39732438",
+    "PMID:18608562",
+    "PMID:27680592",
+    "PMID:28970147",
+    "PMID:39227818",
+    "PMID:10798950",
+    "PMID:15650313",
+    "PMID:38984069",
+    "PMID:38654193",
+    "PMID:36052111",
+    "PMID:42580594",
+    "PMID:36909343",
+    "PMID:25802471",
+    "PMID:41636295",
+    "PMID:9663365",
+    "PMID:34353864",
+    "PMID:42728685",
+    "PMID:32315958",
+    "PMID:41830022",
+    "PMID:30445682",
+    "PMID:28323273",
+    "PMID:42762890",
+    "PMID:42356231",
+    "PMID:40598275",
+    "PMID:40172664"
   ]
 }

@@ -3,17 +3,273 @@
   "supplement": "Tributryn",
   "slug": "tributryn",
   "aliases": [
-    "tributryn",
     "tributyrin",
+    "tributryn",
     "glyceryl tributyrate",
-    "tributyrate"
+    "glycerol tributyrate",
+    "butyrin",
+    "CoreBiome",
+    "ButyraGen",
+    "butyrate prodrug"
   ],
-  "category": "other",
+  "category": "probiotic-prebiotic",
   "rx_status": "otc",
   "evidence_certainty_overall": "very-low",
-  "edges": [],
+  "edges": [
+    {
+      "with": "ProButyrate",
+      "with_kind": "supplement",
+      "kind": "avoid",
+      "severity": "minor",
+      "mechanism": "Both products deliver butyrate (tributyrin via lipase hydrolysis; ProButyrate as sustained-release butyric acid). Stacking duplicates exposure; tributyrin GI adverse effects (nausea, vomiting, cramping, odor) were dose-related in phase I, and oral butyrate raised blood pressure in an RCT.",
+      "evidence": "No combination study; inference from phase I tributyrin toxicity, sodium butyrate BP RCT (n=23) and prodrug review; very low certainty",
+      "citations": [
+        "PMID:9533530",
+        "PMID:39034917",
+        "PMID:42817105"
+      ]
+    },
+    {
+      "with": "inulin",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Inulin increases endogenous colonic butyrate production (+44% by stable-isotope tracer) and plasma butyrate in older adults; butyrate plus inulin lowered fasting glucose within-group in T2D where neither alone did.",
+      "evidence": "Tracer RCT (n=61) and 4-arm RCTs in T2D (n=60); additive butyrate supply; low certainty",
+      "citations": [
+        "PMID:40274191",
+        "PMID:28962046",
+        "PMID:32315958"
+      ]
+    },
+    {
+      "with": "GOS",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Fiber/prebiotic RCTs raise fecal butyrate modestly (SMD 0.24) and fructans/GOS raise Bifidobacterium; but GOS 16 g/d reduced butyrate-producing Ruminococcus and raised fasting glucose in a short crossover. Net butyrate effect of combination unpredictable.",
+      "evidence": "SR/MA of 64 fiber RCTs plus 14-day crossover RCT (n=35); low certainty",
+      "citations": [
+        "PMID:29757343",
+        "PMID:28924143"
+      ]
+    },
+    {
+      "with": "Acarbose",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Acarbose increases starch reaching the colon, raising fecal butyrate proportion (22-28 vs 18-19 mol/100 mol) and serum butyrate (4.2 vs 2.6 uM); combined with tributyrin increases total butyrate exposure; both may lower glucose.",
+      "evidence": "Human crossover RCT and 4-month RCT for acarbose; no combination study; very low certainty",
+      "citations": [
+        "PMID:9164992",
+        "PMID:10961161",
+        "PMID:41880673"
+      ]
+    },
+    {
+      "with": "Metformin ER",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Metformin raised serum butyrate at 6 months (while reducing Roseburia); sodium butyrate improved CGM time-in-tight-range and HbA1c in small T2D RCTs. Possible small additive glycemic effect and additive butyrate exposure.",
+      "evidence": "RCT of metformin (n=121) and small butyrate RCTs in T2D; no interaction study; very low certainty",
+      "citations": [
+        "PMID:34006565",
+        "PMID:41880673",
+        "PMID:41974937"
+      ]
+    },
+    {
+      "with": "antidiabetic agents",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Oral sodium butyrate lowered fasting glucose/HbA1c/HOMA-IR in some small RCTs (within or between group); additive glucose lowering possible but small and inconsistent.",
+      "evidence": "Small RCTs (n=42-60) with inconsistent between-group results; very low certainty",
+      "citations": [
+        "PMID:41974937",
+        "PMID:39448815",
+        "PMID:35623879",
+        "PMID:40507022"
+      ]
+    },
+    {
+      "with": "hypertension",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Oral sodium butyrate for 4 weeks increased daytime ambulatory SBP by 9.63 mmHg (95% CI 2.02-17.20) and DBP by 5.08 mmHg vs placebo in hypertensive patients off medication; plasma butyrate rose. A T2D trial showed only within-group BP falls.",
+      "evidence": "Double-blind RCT (n=23) contradicting rodent data; not tested with tributyrin; very low certainty",
+      "citations": [
+        "PMID:39034917",
+        "PMID:35623879"
+      ]
+    },
+    {
+      "with": "antihypertensives",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Butyrate raised BP in untreated hypertension and could oppose antihypertensive therapy; not studied with medication on board.",
+      "evidence": "Single RCT (n=23) with medication washed out; extrapolated; very low certainty",
+      "citations": [
+        "PMID:39034917"
+      ]
+    },
+    {
+      "with": "mesalazine",
+      "with_kind": "drug",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Colonic butyrate is the main colonocyte fuel and is impaired in UC; adding sodium butyrate 4 g/d to oral mesalazine produced greater improvement vs baseline (between-arm difference not significant).",
+      "evidence": "Pilot RCT (n=30) plus SR of UC trials; very low certainty",
+      "citations": [
+        "PMID:10795763",
+        "PMID:42646603"
+      ]
+    },
+    {
+      "with": "immunosuppressants",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Oral tributyrin expanded regulatory T cells and prolonged allograft survival in mice; human oral butyrate did not change immune phenotype in T1D. Clinical relevance to immunosuppressed transplant patients unknown.",
+      "evidence": "Preclinical transplant models plus null human crossover RCT (n=30); very low certainty",
+      "citations": [
+        "PMID:41554342",
+        "PMID:31915895"
+      ]
+    },
+    {
+      "with": "Vitamin D-3",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Tributyrin upregulated the vitamin D receptor and synergized with calcitriol on growth inhibition/differentiation in Caco-2 cells; a calcium butyrate + zinc + vitamin D3 formula improved fatty liver index vs placebo in MASLD.",
+      "evidence": "In vitro mechanistic study plus one combination-product RCT (n=50); very low certainty",
+      "citations": [
+        "PMID:11385076",
+        "PMID:39125336"
+      ]
+    },
+    {
+      "with": "exocrine pancreatic insufficiency",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Tributyrin requires pancreatic lipase hydrolysis to release butyrate; reduced lipase may reduce or shift activation.",
+      "evidence": "Mechanistic (in vitro digestion model and prodrug review); no clinical data; very low certainty",
+      "citations": [
+        "PMID:41473189",
+        "PMID:42817105"
+      ]
+    },
+    {
+      "with": "inflammatory bowel disease",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Oral butyrate as adjunct improved CD activity and fecal calprotectin in adults, but showed no efficacy in pediatric IBD; enemas showed no consistent benefit.",
+      "evidence": "RCTs (n=140, n=72) and SRs; very low to low certainty",
+      "citations": [
+        "PMID:41354580",
+        "PMID:36014789",
+        "PMID:33352566",
+        "PMID:42646603"
+      ]
+    },
+    {
+      "with": "serum short-chain fatty acids",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Exogenous butyrate raises plasma/serum butyrate (transiently, peaking within 60 min), confounding serum SCFA used as a marker of microbial fermentation.",
+      "evidence": "RCTs and acute PK study; physiological confounding rather than assay artifact; low certainty",
+      "citations": [
+        "PMID:39034917",
+        "PMID:41880673",
+        "PMID:39498577"
+      ]
+    },
+    {
+      "with": "serum triglycerides",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Triglycerides increased with tributyrin complex 400 mg/d in healthy adults but decreased with sodium butyrate in T2D; direction formulation- and population-dependent.",
+      "evidence": "Pilot (n=24) and RCT (n=46); very low certainty",
+      "citations": [
+        "DOI:10.3233/NHA-240005",
+        "PMID:41880673"
+      ]
+    },
+    {
+      "with": "fecal calprotectin",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Sodium butyrate lowered fecal calprotectin in active UC and CD (true anti-inflammatory change), which may shift IBD monitoring values.",
+      "evidence": "RCTs (n=36, n=140); low certainty",
+      "citations": [
+        "PMID:39003477",
+        "PMID:41354580"
+      ]
+    }
+  ],
   "citations": [
     "DOI:10.3233/NHA-240005",
-    "NCT05601635"
+    "PMID:10321503",
+    "PMID:10795763",
+    "PMID:10961161",
+    "PMID:11385076",
+    "PMID:12736763",
+    "PMID:22738315",
+    "PMID:24063909",
+    "PMID:27259147",
+    "PMID:28924143",
+    "PMID:28962046",
+    "PMID:29438462",
+    "PMID:29757343",
+    "PMID:30915065",
+    "PMID:31915895",
+    "PMID:32315958",
+    "PMID:32476236",
+    "PMID:33352566",
+    "PMID:34006565",
+    "PMID:35371361",
+    "PMID:35623879",
+    "PMID:36014789",
+    "PMID:36469320",
+    "PMID:36502573",
+    "PMID:38135194",
+    "PMID:38987636",
+    "PMID:39003477",
+    "PMID:39034917",
+    "PMID:39125336",
+    "PMID:39448815",
+    "PMID:39498577",
+    "PMID:39797089",
+    "PMID:40274191",
+    "PMID:40507022",
+    "PMID:40565024",
+    "PMID:40577952",
+    "PMID:40635319",
+    "PMID:40804708",
+    "PMID:41248397",
+    "PMID:41271518",
+    "PMID:41354580",
+    "PMID:41429215",
+    "PMID:41473189",
+    "PMID:41554342",
+    "PMID:41645591",
+    "PMID:41779349",
+    "PMID:41826362",
+    "PMID:41880673",
+    "PMID:41974937",
+    "PMID:42646603",
+    "PMID:42817105",
+    "PMID:9164992",
+    "PMID:9533530"
   ]
 }

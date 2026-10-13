@@ -3,50 +3,218 @@
 :ID: supp-tributryn
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: tributryn | tributyrin | glyceryl tributyrate | tributyrate
-:CATEGORY: other
+:ALIASES: tributyrin | tributryn | glyceryl tributyrate | glycerol tributyrate | butyrin | CoreBiome | ButyraGen | butyrate prodrug
+:CATEGORY: probiotic-prebiotic
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Tributryn is represented by these commonly studied or marketed forms: glyceryl tributyrate, tributyrate. Clinical products and formulations can differ in composition and bioavailability; this limits cross-trial comparisons [DOI:10.3233/NHA-240005, NCT05601635].
+- "Tributryn" is the corpus spelling of tributyrin. Tributyrin is a triglyceride with three butyrate molecules esterified to glycerol at positions 1, 2 and 3 [PMID:9533530]. It is a neutral SCFA triglyceride that occurs naturally in butter [PMID:41271518].
+- It is a butyrate prodrug. It resists gastric acid, and pancreatic lipases convert it to butyrate [PMID:41473189] [PMID:42817105].
+  - Free butyric acid has an unpleasant odor and taste, poor GI stability and rapid systemic metabolism. Prodrugs such as tributyrin are designed to get around these problems [PMID:42817105].
+  - In a sponsor-funded in vitro upper-GI simulation of CoreBiome, 40.9% (capsule) or 48.7% (softgel) was hydrolyzed in the small intestine. The remaining 59.1% and 51.3% stayed intact and could reach the colon [PMID:41473189].
+- Branded forms in the literature:
+  - CoreBiome (capsule/softgel): in vitro data only [PMID:41473189].
+  - ButyraGen: a "tributyrin complex" also containing partially hydrolyzed guar fiber and acacia fiber. Used in a 2024 healthy-adult pilot [DOI:10.3233/NHA-240005] [URL:https://clinicaltrials.gov/study/NCT05601635].
+  - Pharmaceutical-grade oral tributyrin: used in phase I oncology trials [PMID:9533530] [PMID:12736763].
+- Category choice: classed as probiotic-prebiotic (gut-microbiome/"postbiotic" group) to match the corpus entry ProButyrate. Butyrate and other SCFAs are described as postbiotics, i.e. microbial fermentation metabolites [PMID:42817105]. Tributyrin is not a live organism or a fermentable fiber.
+- Related butyrate forms often used in human trials, labelled as such below: sodium butyrate (often microencapsulated or in a triglyceride matrix), calcium butyrate, and butyrylated starch (HAMSB). Results from these salts and esters cannot be assumed to transfer to tributyrin [PMID:42817105] [PMID:40804708].
 
 ** Mechanisms
-- Proposed mechanisms are outcome- and formulation-dependent; mechanistic plausibility does not establish clinical efficacy. Human evidence is summarized below [DOI:10.3233/NHA-240005, NCT05601635].
+- Butyrate is a short-chain fatty acid (SCFA) made by colonic bacterial fermentation of dietary fiber. It has three main modes of action: energy substrate, histone deacetylase (HDAC) inhibitor, and ligand for G-protein-coupled receptors [PMID:27259147] [PMID:36502573].
+- Colonocyte fuel: butyrate is the main energy source for colonic epithelial cells [PMID:36502573] [PMID:10795763]. MCT1 and SMCT1 transporters take it up [PMID:30915065].
+- Receptors: GPR41 (FFAR3), GPR43 (FFAR2) and GPR109A (HCAR2) mediate immune and barrier signaling. Transgenic mouse models support a role for these receptors in intestinal inflammation [PMID:30915065].
+- HDAC inhibition and epigenetics drive differentiation and apoptosis in cancer cells in vitro. This was the rationale for the oncology trials [PMID:12736763] [PMID:29438462].
+  - In Caco-2 cells, tributyrin was more potent than butyrate. It upregulated the vitamin D receptor and acted synergistically with calcitriol [PMID:11385076].
+- Systemic availability is limited because colonocytes metabolize oral butyrate rapidly [PMID:41271518].
+  - Oral tributyrin gave peak plasma butyrate of 0-0.45 mM within 0.25-3 h. Butyrate was gone by 5 h [PMID:9533530].
+  - Three-times-daily dosing gave a median of 52 uM, with wide variation between patients [PMID:12736763].
+  - In rodents, the plasma butyrate AUC rose more than proportionally with tributyrin dose (non-linear PK) [PMID:10321503].
+  - Oral SCFA supplements (not tributyrin) peaked in serum within 60 min and returned to baseline by 120 min. Acid-resistant coating delayed and blunted the peak. One week of twice-daily dosing did not raise baseline serum SCFA [PMID:39498577].
+- Target engagement: in an open-label PD study, [11C]butyrate PET showed organ-specific changes in butyrate uptake (brain, liver, heart, GI) after 30 days of tributyrin [PMID:41271518].
+- Immune and inflammatory effects (preclinical and ex vivo):
+  - Tributyrin and sodium butyrate reduced LPS-induced cytokines in explants of human visceral fat [PMID:38987636].
+  - In mice, oral tributyrin expanded regulatory T cells and prolonged skin and heart allograft survival [PMID:41554342].
+  - Tributyrin extended lifespan in mice with mitochondrial deficiency (TFAM knockout) and restored intestinal histone acylation [PMID:41826362].
+- Microbiome (in vitro SHIME): 3 weeks of tributyrin increased butyrate, Bifidobacterium spp. and Akkermansia muciniphila, and protected barrier function in Caco-2/THP-1 co-culture. The study was sponsor-funded [PMID:41473189].
+- Endogenous production as an alternative route: fiber RCTs raise faecal butyrate [PMID:29757343]. Inulin raised colonic butyrate production by 44% in a tracer RCT [PMID:40274191].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---|---|---|---|---|---|
-| No established health outcome efficacy | Systematic review/meta-analysis or human trial synthesis | Mixed/possible benefit; no established clinical disease prevention | See evidence summary below; pooled estimates vary by outcome and population | very-low | DOI:10.3233/NHA-240005, NCT05601635 |
-
-- 2024 pilot human study evaluated tolerability and exploratory biological effects of a tributyrin-containing formulation; small sample and short duration cannot establish efficacy [DOI:10.3233/NHA-240005].
-- No established health outcome efficacy; proposed butyrate delivery is mechanistic, with human evidence limited to pilot tolerability/exploration [DOI:10.3233/NHA-240005].
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Advanced solid tumours (tributyrin) | Two phase I trials (n=13, n=20) | No objective responses | Disease stabilization 3-23 mo in 4/20; median PFS 55 days | very low | [PMID:9533530] [PMID:12736763] |
+| Tolerability / GI markers, healthy adults (tributyrin) | Single-blind 28-day pilot (n=29; 24 completed), 200 or 400 mg/d ButyraGen | Well tolerated; few marker changes | GI discomfort <10% (n=2); faecal acetate and propionate fell; TG rose at 400 mg; hs-CRP and glucose trends only | very low | [DOI:10.3233/NHA-240005] |
+| Parkinson's disease (tributyrin) | Open-label target-engagement study (14 PD + 3 controls), 500 mg TID for 30 d | Target engagement shown; exploratory improvement | No controlled effect size; safety "reassuring" | very low | [PMID:41271518] |
+| Depression (butyrate) | SR: 2 human RCTs + 32 animal studies; tributyrin pilot RCT is only a protocol | Inconclusive | 1 RCT null (healthy males, 1 wk); 1 positive in UC patients | very low | [PMID:41429215] [PMID:41248397] |
+| IBS symptoms (sodium/calcium butyrate) | RCTs: adults n=66 add-on; pediatric n=51; butyrate-probiotic-scFOS mix n=120; T2D+IBS n=52 | Benefit on some symptoms | Pediatric treatment success 73% vs 3.8%; adult RCT reduced pain during defecation but not overall severity; mix gave adequate relief 64.7% vs 42.0% | low | [PMID:22738315] [PMID:40635319] [PMID:39797089] [PMID:41974937] [PMID:35371361] |
+| IBD adjunct (oral sodium butyrate) | RCTs (n=140; n=49; n=36 UC; n=30 UC; n=72 pediatric) + SR | Mixed; better in adults, null in children | CD activity and fCal improved (p=0.013, p=0.047); pediatric remission no different (p=0.37) | very low | [PMID:41354580] [PMID:32476236] [PMID:39003477] [PMID:10795763] [PMID:36014789] [PMID:42646603] |
+| UC (butyrate enemas) | SR of 8 RCTs (n=227) | No consistent benefit | Only 1 study showed a DAI difference | low | [PMID:33352566] |
+| Pediatric obesity (sodium butyrate) | Quadruple-blind RCT (n=54), 20 mg/kg/d for 6 mo | Benefit | BMI-SDS drop >=0.25 in 96% vs 56% (ABI 40%, 95% CI 21-61%); waist -5.07 cm (CI -7.68 to -2.46); HOMA-IR -1.14 (CI -2.13 to -0.15) | low | [PMID:36469320] |
+| Adult weight with hypocaloric diet (sodium butyrate) | RCTs (n=46; n=50) | Benefit, only with calorie restriction | Without T2D: -7.0 vs -3.2 kg; no weight difference in T2D | very low | [PMID:41880673] [PMID:39448815] |
+| Glycaemia in T2D (sodium butyrate) | Small RCTs (n=46, 52, 42, 60) | Inconsistent | Time in tight range +9% (Testa); HbA1c and HOMA-IR fell within group (Panufnik); no between-group difference (Khosravi); narrative review calls for larger trials | very low | [PMID:41880673] [PMID:41974937] [PMID:35623879] [PMID:28962046] [PMID:40507022] |
+| Blood pressure (sodium butyrate) | RCT in hypertension (n=23, meds stopped); RCT in T2D | Possible harm | Daytime SBP +9.63 mmHg (95% CI 2.02-17.20); DBP +5.08 (CI 1.34-8.78) vs placebo; T2D trial showed only within-group falls | very low | [PMID:39034917] [PMID:35623879] |
+| MASLD (sodium/calcium butyrate) | RCT n=181 (Na vs Ca butyrate); RCT n=50 (Ca-butyrate+zinc+D3 formula) | No steatosis change by CAP; formula improved FLI | delta-CAP 0.84 vs -0.23 (p=0.70) | very low | [PMID:40565024] [PMID:39125336] [PMID:41779349] |
+| Type 1 diabetes immunity (sodium butyrate 4 g/d) | Crossover RCT (n=30) | No effect | No change in innate/adaptive immunity or glucose | low | [PMID:31915895] |
+| Physical function in older adults / COPD (butyrate 300 mg/d) | Two RCTs (n=130, n=131) from one group | Benefit reported | Grip strength, gait speed improved; zonulin and LBP fell | very low | [PMID:40577952] [PMID:38135194] |
+| Peanut oral immunotherapy adjuvant (butyrylated starch) | RCT (n=65) | No added benefit | OR 1.21 (95% CI 0.36-4.0) for sustained unresponsiveness | low | [PMID:40804708] |
+| Travellers' diarrhoea prevention (sodium butyrate + SCFA) | Small RCT (42 analysed) | Benefit | TD 4.5% vs 40% (p=0.008); high attrition | very low | [PMID:24063909] |
 
 ** Dosing in trials
-- Single pilot used a commercial tributyrin-containing supplement over a short intervention; no validated dose range or standardized pure-tributyrin regimen established [DOI:10.3233/NHA-240005].
+- Tributyrin, oncology:
+  - 50-400 mg/kg/day once daily (fasting), 3 weeks on, 1 week off [PMID:9533530].
+  - 150-200 mg/kg three times daily. Escalation stopped at 200 mg/kg TID because of the number of capsules needed [PMID:12736763].
+- Tributyrin, nutrition and neurology:
+  - 100 or 200 mg tributyrin per capsule (ButyraGen, 1-2 capsules/d) for 21 days [URL:https://clinicaltrials.gov/study/NCT05601635] [DOI:10.3233/NHA-240005].
+  - 500 mg three times daily for 30 days in PD [PMID:41271518].
+  - 4 g/day for 8 weeks in the planned depression pilot RCT [PMID:41248397].
+- Sodium butyrate RCTs:
+  - 300 mg/d (150 mg twice daily) in IBS and pediatric IBD [PMID:35371361] [PMID:36014789].
+  - 600 mg/d in obesity and T2D [PMID:39448815] [PMID:32315958].
+  - 1.5-1.875 g/d in T2D and obesity [PMID:41974937] [PMID:41880673].
+  - 4 g/d in T1D and UC [PMID:31915895] [PMID:10795763].
+  - 20 mg/kg/d in children [PMID:36469320].
+- Calcium butyrate: 500 mg/d (pediatric IBS); 1000 mg/d (MASLD) [PMID:40635319] [PMID:40565024].
+- PK implication: plasma butyrate is short-lived after each dose, so trials used divided dosing [PMID:9533530] [PMID:12736763] [PMID:39498577].
 
 ** Safety & adverse effects
-- Pilot reported tolerability observations but is too small and short to characterize uncommon or long-term harms [DOI:10.3233/NHA-240005].
+- Phase I tributyrin, 50-400 mg/kg/day (n=13) [PMID:9533530]:
+  - Grade 3: nausea, vomiting, myalgia.
+  - Grade 1-2: diarrhoea, headache, abdominal cramping, anemia, constipation, azotemia, lightheadedness, fatigue, rash, alopecia, odor, dysphoria and clumsiness.
+- Three-times-daily tributyrin up to 200 mg/kg (n=20): no dose-limiting toxicity [PMID:12736763].
+- Nutritional doses:
+  - ButyraGen 200-400 mg/d was well tolerated, with GI discomfort in under 10%. Triglycerides rose at 400 mg/d [DOI:10.3233/NHA-240005].
+  - 1.5 g/d tributyrin for 30 days in PD showed a "reassuring safety profile" and high adherence [PMID:41271518].
+- Sodium and calcium butyrate RCTs:
+  - Usually no or mild adverse events [PMID:36014789] [PMID:10795763] [PMID:39125336] [PMID:31915895].
+  - Transient mild nausea and headache in 2 children [PMID:36469320].
+  - Butyrylated starch added to peanut OIT did not raise the adverse-event rate [PMID:40804708].
+- Blood pressure: oral sodium butyrate raised daytime ambulatory SBP by 9.63 mmHg over 4 weeks in untreated hypertensive patients. The authors advise caution in future butyrate trials [PMID:39034917].
+- Odor and taste: free butyric acid is unpleasant to smell and taste. Odor was a grade 1-2 event with high-dose tributyrin [PMID:42817105] [PMID:41974937] [PMID:9533530].
+- Context: butyrate has been called a "double-edged sword", e.g. its role in obesity is contested [PMID:29438462].
+- Toxicology: very high oral tributyrin doses (10.3 g/kg) killed about 10% of mice acutely [PMID:10321503]. These doses are far above human supplement doses.
+- No long-term (>6 months) human safety data on tributyrin were found.
 
 ** Contraindications
-- Insufficient evidence for pregnancy/lactation, children, or significant gastrointestinal disease [DOI:10.3233/NHA-240005].
+- No formal contraindications are established. Evidence-based cautions:
+  - Hypertension, especially when untreated: BP rose with oral butyrate in an RCT [PMID:39034917].
+  - Pregnancy, lactation and children: no tributyrin safety data were found. Pediatric data exist only for sodium/calcium butyrate [PMID:36469320] [PMID:40635319].
+  - Exocrine pancreatic insufficiency: conversion to butyrate depends on pancreatic lipase, so the product may not work as intended. This is mechanistic only [PMID:41473189] [PMID:42817105].
 
 ** Interactions
-- No clinical interaction studies identified; no validated laboratory interference known [DOI:10.3233/NHA-240005].
-- No genotype-specific clinical claim is made because no qualifying pharmacogenomic source was identified for this research set.
+*** Drugs
+- Antihypertensives: butyrate raised BP in hypertensive patients off medication [PMID:39034917]. This could oppose BP control. No combined study exists.
+- Glucose-lowering drugs (Metformin ER, Acarbose, others):
+  - Sodium butyrate improved some glycemic markers in small T2D RCTs [PMID:41880673] [PMID:41974937] [PMID:39448815]. Any additive effect is likely small.
+  - Acarbose raises colonic butyrate production [PMID:9164992] and serum butyrate [PMID:10961161].
+  - Metformin raised serum butyrate at 6 months but lowered Roseburia [PMID:34006565].
+  - Combining these with tributyrin increases total butyrate exposure. This has not been studied.
+- Mesalazine: in a pilot RCT, adding sodium butyrate 4 g/d to oral mesalazine gave a larger improvement from baseline. The between-arm difference was not significant [PMID:10795763].
+- Immunosuppressants and transplant drugs: tributyrin promoted Treg-mediated tolerance in mouse allograft models [PMID:41554342]. Oral butyrate did not change human immune phenotype in T1D [PMID:31915895]. Clinical relevance is unknown.
+- Antidepressants: a tributyrin add-on pilot RCT is under way (protocol only). No interaction data exist [PMID:41248397].
+*** Other supplements
+- ProButyrate (corpus item, sustained-release butyric acid): duplicates butyrate exposure. Dose-related GI effects and the BP signal argue against stacking two butyrate sources without a reason [PMID:9533530] [PMID:39034917] [PMID:42817105].
+- Inulin: raises endogenous colonic butyrate production (+44%) and plasma butyrate in older adults [PMID:40274191]. In T2D, butyrate plus inulin lowered fasting glucose within group, which neither did alone [PMID:28962046] [PMID:32315958].
+- GOS: fiber RCTs increase faecal butyrate (SMD 0.24, 95% CI 0.00-0.47) and fructans/GOS increase Bifidobacterium [PMID:29757343]. However, GOS 16 g/d lowered Ruminococcus (a butyrate producer) and raised fasting glucose in a 14-day crossover [PMID:28924143].
+- Vitamin D-3: tributyrin upregulated the vitamin D receptor and acted synergistically with calcitriol in colon cancer cells (in vitro only) [PMID:11385076]. A calcium butyrate + zinc + D3 formula improved fatty liver index in MASLD [PMID:39125336].
+*** Conditions
+- Hypertension: see Contraindications [PMID:39034917].
+- IBD: adjunct evidence is mixed. Benefit was reported in adult CD and UC, but no effect in pediatric IBD [PMID:41354580] [PMID:36014789] [PMID:42646603].
+- Exocrine pancreatic insufficiency: possible reduced activation [PMID:41473189].
+*** Lab-test interference
+- No assay interference is known. Exogenous butyrate raises plasma/serum butyrate [PMID:39034917] [PMID:41880673] [PMID:39498577]. This confounds serum SCFA measured as a microbiome biomarker.
+- Serum triglycerides rose with ButyraGen 400 mg/d [DOI:10.3233/NHA-240005]. They fell with sodium butyrate in T2D [PMID:41880673].
+- Faecal calprotectin fell with sodium butyrate in UC and CD [PMID:39003477] [PMID:41354580].
 
 ** Genotype notes
-- No cited pharmacogenomic or nutrigenomic source identified for a clinically useful genotype-specific note.
+No cited pharmacogenomic or nutrigenomic source found. In two RCTs, baseline microbiome signatures (not host genotype) predicted response [PMID:36469320] [PMID:41354580].
 
 ** Latest research
-- 2024–2026: 2024 pilot study (ClinicalTrials.gov NCT05601635) is the directly relevant recent human evidence; larger controlled trials needed [DOI:10.3233/NHA-240005].
+- [2026-09] Review of butyric acid prodrugs: tributyrin and AN-9 are in clinical evaluation. Prodrugs fix odor, stability and PK problems [PMID:42817105].
+- [2026-08] SR of sodium butyrate in UC (22 studies, 10 clinical trials): encouraging adjunct effects in adults; inconsistent in children; enemas variable [PMID:42646603].
+- [2026-06] Oral tributyrin prolonged skin and heart allograft survival in mice through Tregs [PMID:41554342].
+- [2026-05] RCT (n=46): sodium butyrate 1.875 g/d plus diet: -7.0 vs -3.2 kg in non-diabetic adults; better TG and CGM time-in-tight-range in T2D [PMID:41880673].
+- [2026-04] RCT (n=52) in T2D with IBS: microencapsulated sodium butyrate 1.5 g/d reduced abdominal pain, diarrhoea and bloating [PMID:41974937].
+- [2026-03] Tributyrin extended lifespan in mitochondrial-deficient mice [PMID:41826362].
+- [2026-03] SR (7 observational studies, n=1185): lower butyrate and fewer butyrate producers in MASLD [PMID:41779349].
+- [2026-02] SR of butyrate for depression: only 2 human RCTs, with conflicting results [PMID:41429215].
+- [2026-02] Narrative review: no large RCTs of butyrate for cardiovascular disease [PMID:41645591].
+- [2026-01] Open-label tributyrin in Parkinson's disease (n=17): safe, PET target engagement, exploratory benefit [PMID:41271518].
+- [2026-01] RCT in IBD (n=140): microencapsulated butyrate improved CD activity and fCal; QoL improved in CD and UC [PMID:41354580].
+- [2025-11] Pilot RCT protocol: tributyrin 4 g/d as add-on to antidepressants (n=24) [PMID:41248397].
+- [2025-11] CoreBiome in vitro: about half survives upper-GI digestion; raised butyrate and Akkermansia in SHIME [PMID:41473189].
+- [2025-11] RCT: butyrylated starch added nothing to peanut OIT (OR 1.21) [PMID:40804708].
+- [2025-09] Pediatric IBS RCT (n=51): calcium butyrate success 73% vs 3.8% [PMID:40635319].
+- [2025-06] Inulin 30 g/d raised colonic butyrate production by 44% (tracer RCT) [PMID:40274191].
+- [2024-11] Tributyrin and butyrate reduced LPS cytokines in human visceral fat explants [PMID:38987636].
+- [2024-10] Hypertension RCT: oral butyrate raised daytime SBP by 9.63 mmHg [PMID:39034917].
+- [2024-10] ButyraGen pilot in healthy adults (n=24 completers): well tolerated; TG rose at 400 mg [DOI:10.3233/NHA-240005].
 
 ** Open questions
-- Larger, preregistered, adequately powered human trials with standardized, chemically characterized products and longer follow-up are needed to establish clinically important benefits and characterize uncommon harms.
+- No placebo-controlled efficacy RCT of tributyrin itself was found for any clinical outcome. Most human efficacy data come from sodium/calcium butyrate, which differ in release site and PK.
+- Several tributyrin trials are registered or under way:
+  - Phase 2 in PD with cognitive impairment [URL:https://clinicaltrials.gov/study/NCT07154511]
+  - Glycemic control in T2D [URL:https://clinicaltrials.gov/study/NCT07503548]
+  - Mild Alzheimer disease [URL:https://clinicaltrials.gov/study/NCT06797817]
+  - Acute pancreatitis prophylaxis [URL:https://clinicaltrials.gov/study/NCT06147635]
+  - A completed PK comparison of three butyrate products [URL:https://clinicaltrials.gov/study/NCT06700785]
+- Whether the BP rise seen with sodium butyrate also occurs with tributyrin [PMID:39034917].
+- How much tributyrin reaches the colon in humans. Current data come from in vitro simulation (sponsor-funded) [PMID:41473189].
+- Long-term safety and lipid effects (TG rise in the pilot) [DOI:10.3233/NHA-240005].
+- Whether taking tributyrin offers anything over raising endogenous butyrate with fiber/prebiotics [PMID:40274191] [PMID:29757343].
 
 ** Sources
-1. DOI:10.3233/NHA-240005
-2. NCT05601635
-- Smith M et al. Investigation of tolerability and potential health benefits of a novel butyrate generating supplement in a pilot human study. Nutr Healthy Aging. 2024. DOI:10.3233/NHA-240005.
-- ClinicalTrials.gov. NCT05601635, tributyrin-containing supplement pilot study.
+1. Conley BA et al. Phase I study of the orally administered butyrate prodrug, tributyrin, in patients with solid tumors. Clin Cancer Res. 1998. PMID:9533530
+2. Edelman MJ et al. Clinical and pharmacologic study of tributyrin: an oral butyrate prodrug. Cancer Chemother Pharmacol. 2003. PMID:12736763 DOI:10.1007/s00280-003-0580-5
+3. Bohnen JLB et al. Dietary tributyrin supplementation in Parkinson's disease: An open-label target engagement study. Neurotherapeutics. 2026. PMID:41271518 DOI:10.1016/j.neurot.2025.e00791
+4. Korenblik V et al. Feasibility and acceptability of 8-week oral tributyrin supplementation as add on to antidepressant medication in patients with depression: a study protocol paper for a pilot, randomised controlled trial. BMJ Open. 2025. PMID:41248397 DOI:10.1136/bmjopen-2025-108423
+5. Green CG et al. Investigating serum concentration profiles of orally ingested short-chain fatty acid supplements. Food Funct. 2024. PMID:39498577 DOI:10.1039/d4fo04028g
+6. Rafiei H et al. Butyrate and tributyrin reduce LPS-induced inflammatory cytokine production from human visceral fat. Int J Obes (Lond). 2024. PMID:38987636 DOI:10.1038/s41366-024-01581-9
+7. Duysburgh C et al. Tributyrin (CoreBiome) enhances butyrate levels and modulates the gut microbiota, barrier function, and immune response in vitro. Front Nutr. 2025. PMID:41473189 DOI:10.3389/fnut.2025.1712993
+8. Mendes DM et al. Oral tributyrin supplementation induces regulatory T cell-mediated immune regulation and prolongs allograft survival in preclinical transplant models. Am J Transplant. 2026. PMID:41554342 DOI:10.1016/j.ajt.2026.01.010
+9. Kapoor B et al. From Postbiotic to Prodrug: Chemical Strategies to Widen the Therapeutic Potential of Butyric Acid. Mini Rev Med Chem. 2026. PMID:42817105 DOI:10.2174/0113895575503053260913151114
+10. Verhaar BJH et al. Effects of Oral Butyrate on Blood Pressure in Patients With Hypertension: A Randomized, Placebo-Controlled Trial. Hypertension. 2024. PMID:39034917 DOI:10.1161/HYPERTENSIONAHA.123.22437
+11. Coppola S et al. Therapeutic Effects of Butyrate on Pediatric Obesity: A Randomized Clinical Trial. JAMA Netw Open. 2022. PMID:36469320 DOI:10.1001/jamanetworkopen.2022.44912
+12. Facchin S et al. Impact of oral butyrate on clinical and biochemical parameters in IBD: A randomized placebo-controlled study targeting gut microbiota. Dig Liver Dis. 2026. PMID:41354580 DOI:10.1016/j.dld.2025.11.014
+13. Facchin S et al. Microbiota changes induced by microencapsulated sodium butyrate in patients with inflammatory bowel disease. Neurogastroenterol Motil. 2020. PMID:32476236 DOI:10.1111/nmo.13914
+14. Cristofori F et al. Calcium butyrate efficacy in pediatric irritable bowel syndrome: Randomized placebo-controlled multiomics-based clinical trial. J Pediatr Gastroenterol Nutr. 2025. PMID:40635319 DOI:10.1002/jpn3.70154
+15. Banasiewicz T et al. Microencapsulated sodium butyrate reduces the frequency of abdominal pain in patients with irritable bowel syndrome. Colorectal Dis. 2013. PMID:22738315 DOI:10.1111/j.1463-1318.2012.03152.x
+16. Lewandowski K et al. The effectiveness of microencapsulated sodium butyrate at reducing symptoms in patients with irritable bowel syndrome. Prz Gastroenterol. 2022. PMID:35371361 DOI:10.5114/pg.2021.112681
+17. Gasiorowska A et al. Efficacy and Safety of a Mixture of Microencapsulated Sodium Butyrate, Probiotics, and Short Chain Fructooligosaccharides in Patients with Irritable Bowel Syndrome: RCT. J Clin Med. 2024. PMID:39797089 DOI:10.3390/jcm14010006
+18. Testa R et al. Targeting weight loss and blood glucose control with oral sodium butyrate in overweight/obese adults with and without type 2 diabetes: A proof-of-concept randomized controlled trial. Clin Nutr. 2026. PMID:41880673 DOI:10.1016/j.clnu.2026.106624
+19. Panufnik P et al. Effect of microencapsulated sodium butyrate on abdominal symptoms and carbohydrate metabolism in patients with type 2 diabetes: a randomized placebo-controlled trial. Sci Rep. 2026. PMID:41974937 DOI:10.1038/s41598-026-47309-9
+20. Amiri P et al. Expression of PGC-1a, PPAR-a and UCP1 genes, metabolic and anthropometric factors in response to sodium butyrate supplementation in patients with obesity: RCT. Eur J Clin Nutr. 2025. PMID:39448815 DOI:10.1038/s41430-024-01512-x
+21. Khosravi Z et al. The effects of butyrate supplementation on glycemic control, lipid profile, blood pressure, nitric oxide level and glutathione peroxidase activity in type 2 diabetic patients: RCT. Clin Nutr ESPEN. 2022. PMID:35623879 DOI:10.1016/j.clnesp.2022.03.008
+22. Roshanravan N et al. Effect of Butyrate and Inulin Supplementation on Glycemic Status, Lipid Profile and Glucagon-Like Peptide 1 Level in Patients with Type 2 Diabetes: RCT. Horm Metab Res. 2017. PMID:28962046 DOI:10.1055/s-0043-119089
+23. Roshanravan N et al. Effects of oral butyrate and inulin supplementation on inflammation-induced pyroptosis pathway in type 2 diabetes: RCT. Cytokine. 2020. PMID:32315958 DOI:10.1016/j.cyto.2020.155101
+24. de Groot PF et al. Oral butyrate does not affect innate immunity and islet autoimmunity in individuals with longstanding type 1 diabetes: a randomised controlled trial. Diabetologia. 2020. PMID:31915895 DOI:10.1007/s00125-019-05073-8
+25. Pietrzak A et al. Sodium Butyrate Effectiveness in Children and Adolescents with Newly Diagnosed Inflammatory Bowel Diseases: Randomized Placebo-Controlled Multicenter Trial. Nutrients. 2022. PMID:36014789 DOI:10.3390/nu14163283
+26. Vernia P et al. Combined oral sodium butyrate and mesalazine treatment compared to oral mesalazine alone in ulcerative colitis: randomized, double-blind, placebo-controlled pilot study. Dig Dis Sci. 2000. PMID:10795763 DOI:10.1023/a:1005537411244
+27. Fogacci F et al. Effect of Supplementation of a Butyrate-Based Formula in Individuals with Liver Steatosis and Metabolic Syndrome: RCT. Nutrients. 2024. PMID:39125336 DOI:10.3390/nu16152454
+28. Mitrovic M et al. Exploring the Potential of Oral Butyrate Supplementation in Metabolic Dysfunction-Associated Steatotic Liver Disease: Subgroup Insights from an Interventional Study. Int J Mol Sci. 2025. PMID:40565024 DOI:10.3390/ijms26125561
+29. Qaisar R et al. Oral butyrate improves postural balance by repairing leaky gut in geriatric adults. Gait Posture. 2025. PMID:40577952 DOI:10.1016/j.gaitpost.2025.06.016
+30. Korenblik V et al. From gut to glee: Is butyrate a promising antidepressant? A systematic review and mechanistic insights. Brain Behav Immun. 2026. PMID:41429215 DOI:10.1016/j.bbi.2025.106237
+31. Gonzalez-Gonzalez A et al. The Role of Butyrate in People with MASLD and Related Metabolic Comorbidities: A Systematic Review. Curr Obes Rep. 2026. PMID:41779349 DOI:10.1007/s13679-026-00694-8
+32. Golea GI et al. Sodium Butyrate Therapy in Ulcerative Colitis: A Systematic Review of Preclinical and Clinical Evidence. Med Sci (Basel). 2026. PMID:42646603 DOI:10.3390/medsci14040469
+33. Krauze W et al. Effect of Sodium Butyrate Supplementation on Type 2 Diabetes: Literature Review. Nutrients. 2025. PMID:40507022 DOI:10.3390/nu17111753
+34. Han SJ et al. Association of Butyrate Supplementation with Cardiovascular Disease: A Narrative Review. Mol Nutr Food Res. 2026. PMID:41645591 DOI:10.1002/mnfr.70374
+35. Hodgkinson K et al. Butyrate's role in human health and the current progress towards its clinical application to treat gastrointestinal disease. Clin Nutr. 2023. PMID:36502573 DOI:10.1016/j.clnu.2022.10.024
+36. Koh A et al. From Dietary Fiber to Host Physiology: Short-Chain Fatty Acids as Key Bacterial Metabolites. Cell. 2016. PMID:27259147 DOI:10.1016/j.cell.2016.05.041
+37. Parada Venegas D et al. Short Chain Fatty Acids (SCFAs)-Mediated Gut Epithelial and Immune Regulation and Its Relevance for Inflammatory Bowel Diseases. Front Immunol. 2019. PMID:30915065 DOI:10.3389/fimmu.2019.00277
+38. Liu H et al. Butyrate: A Double-Edged Sword for Health? Adv Nutr. 2018. PMID:29438462 DOI:10.1093/advances/nmx009
+39. Kirschner SK et al. Short-chain fatty acid kinetics and concentrations are higher after inulin supplementation in young and older adults: a randomized trial. Am J Clin Nutr. 2025. PMID:40274191 DOI:10.1016/j.ajcnut.2025.04.018
+40. So D et al. Dietary fiber intervention on gut microbiota composition in healthy adults: a systematic review and meta-analysis. Am J Clin Nutr. 2018. PMID:29757343 DOI:10.1093/ajcn/nqy041
+41. Liu F et al. Fructooligosaccharide (FOS) and Galactooligosaccharide (GOS) Increase Bifidobacterium but Reduce Butyrate Producing Bacteria with Adverse Glycemic Metabolism in healthy young population. Sci Rep. 2017. PMID:28924143 DOI:10.1038/s41598-017-10722-2
+42. Firoozi D et al. Effects of short-chain fatty acid-butyrate supplementation on expression of circadian-clock genes, sleep quality, and inflammation in patients with active ulcerative colitis: RCT. Lipids Health Dis. 2024. PMID:39003477 DOI:10.1186/s12944-024-02203-z
+43. Hsu PS et al. Oral Peanut Immunotherapy With Butyrate Adjuvant (OPIA) in Children: A Randomised, Controlled Trial. Clin Exp Allergy. 2025. PMID:40804708 DOI:10.1111/cea.70127
+44. Jamka M et al. The Effect of Sodium Butyrate Enemas Compared with Placebo in Inflammatory Bowel Diseases: A Systematic Review of Randomised Controlled Trials. Complement Med Res. 2021. PMID:33352566 DOI:10.1159/000512952
+45. Qaisar R et al. Butyrate supplementation reduces sarcopenia by repairing neuromuscular junction in patients with chronic obstructive pulmonary disease. Respir Med. 2024. PMID:38135194 DOI:10.1016/j.rmed.2023.107510
+46. Mueller NT et al. Metformin Affects Gut Microbiome Composition and Function and Circulating Short-Chain Fatty Acids: A Randomized Trial. Diabetes Care. 2021. PMID:34006565 DOI:10.2337/dc20-2257
+47. Weaver GA et al. Acarbose enhances human colonic butyrate production. J Nutr. 1997. PMID:9164992 DOI:10.1093/jn/127.5.717
+48. Wolever TM et al. Acarbose raises serum butyrate in human subjects with impaired glucose tolerance. Br J Nutr. 2000. PMID:10961161
+49. Gaschott T et al. Tributyrin, a stable and rapidly absorbed prodrug of butyric acid, enhances antiproliferative effects of dihydroxycholecalciferol in human colon cancer cells. J Nutr. 2001. PMID:11385076 DOI:10.1093/jn/131.6.1839
+50. Egorin MJ et al. Plasma pharmacokinetics of butyrate after intravenous administration of sodium butyrate or oral administration of tributyrin or sodium butyrate to mice and rats. Cancer Chemother Pharmacol. 1999. PMID:10321503 DOI:10.1007/s002800050922
+51. Gabande-Rodriguez E et al. Butyrate extends health and lifespan in mice with mitochondrial deficiency. Nat Commun. 2026. PMID:41826362 DOI:10.1038/s41467-026-70547-4
+52. Krokowicz L et al. Sodium butyrate and short chain fatty acids in prevention of travellers' diarrhoea: a randomized prospective study. Travel Med Infect Dis. 2014. PMID:24063909 DOI:10.1016/j.tmaid.2013.08.008
+53. Smith M et al. Investigation of the tolerability and potential health benefits of a novel butyrate generating supplement in a pilot human study. Nutr Healthy Aging. 2024. DOI:10.3233/NHA-240005 (not indexed in PubMed; abstract via Crossref)
+54. ClinicalTrials.gov. NCT05601635 (ButyraGen pilot), NCT07154511, NCT07503548, NCT06797817, NCT06147635, NCT06700785. https://clinicaltrials.gov (registry pages accessed 2026-10-13)

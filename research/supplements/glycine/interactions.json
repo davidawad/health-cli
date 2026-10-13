@@ -3,28 +3,287 @@
   "supplement": "Glycine",
   "slug": "glycine",
   "aliases": [
-    "aminoacetic acid"
+    "aminoacetic acid",
+    "L-glycine",
+    "glycine powder",
+    "GlyNAC (glycine + N-acetylcysteine)",
+    "glycine sublingual tablets"
   ],
   "category": "amino-acid",
   "rx_status": "otc",
   "evidence_certainty_overall": "low",
   "edges": [
     {
+      "with": "clozapine",
+      "with_kind": "drug",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Adding high-dose glycine (30-60 g/d) to clozapine gave no benefit; pooled data show worsened positive symptoms (SMD +0.56) and the clozapine-only arm improved more than clozapine+glycine.",
+      "evidence": "2 small RCTs plus meta-analysis of 29 trials; low certainty",
+      "citations": [
+        "PMID:9892314",
+        "PMID:10784481",
+        "PMID:21936588"
+      ]
+    },
+    {
+      "with": "antipsychotics (non-clozapine)",
+      "with_kind": "drug-class",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "NMDA glycine-site co-agonism; high-dose glycine (0.8 g/kg/d) added to typical antipsychotics, olanzapine or risperidone reduced negative symptoms in small crossover trials; serum antipsychotic levels unchanged (no PK interaction).",
+      "evidence": "Small RCTs and meta-analyses positive; largest RCT (CONSIST) null; low certainty",
+      "citations": [
+        "PMID:9892253",
+        "PMID:14732596",
+        "PMID:11806864",
+        "PMID:21936588",
+        "PMID:17898352"
+      ]
+    },
+    {
+      "with": "schizophrenia treated with clozapine",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Glycine-site agonist augmentation is ineffective and may worsen positive symptoms when added to clozapine.",
+      "evidence": "RCTs and meta-analysis; low certainty",
+      "citations": [
+        "PMID:21936588",
+        "PMID:10784481"
+      ]
+    },
+    {
+      "with": "nonketotic hyperglycinemia",
+      "with_kind": "condition",
+      "kind": "contraindicated",
+      "severity": "major",
+      "mechanism": "Inherited glycine cleavage defect (GLDC/AMT) with brain glycine accumulation and NMDA overstimulation; treatment aims to lower glycine.",
+      "evidence": "Mechanistic/clinical reviews and genetic series",
+      "citations": [
+        "PMID:38949693",
+        "PMID:27362913"
+      ]
+    },
+    {
+      "with": "GLDC/AMT pathogenic variants",
+      "with_kind": "genotype",
+      "kind": "contraindicated",
+      "severity": "major",
+      "mechanism": "Biallelic GLDC or AMT mutations cause classic nonketotic hyperglycinemia; exogenous glycine adds to the accumulating substrate.",
+      "evidence": "Genetic series of 578 families; mechanistic inference for supplementation",
+      "citations": [
+        "PMID:27362913",
+        "PMID:38949693"
+      ]
+    },
+    {
+      "with": "antidiabetic agents",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Glycine lowered HbA1c in T2D (5 g/d), GlyNAC lowered insulin resistance 22%, and oral glycine blunted post-glucose glycemia by >50% via a proposed gut-hormone effect; additive glucose lowering possible.",
+      "evidence": "1 RCT (n=74), pilot and acute crossover studies; no hypoglycemia reports; low certainty",
+      "citations": [
+        "PMID:18852529",
+        "PMID:35052658",
+        "PMID:12450897"
+      ]
+    },
+    {
+      "with": "sedatives/hypnotics",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Glycine promotes NREM sleep and lowers core temperature via SCN NMDA receptors; mild sedation in 4.5% of stroke patients on 0.5-2 g/d; additive sedation plausible.",
+      "evidence": "Animal mechanism plus RCT adverse-event data; no interaction study",
+      "citations": [
+        "PMID:25533534",
+        "PMID:10629347"
+      ]
+    },
+    {
+      "with": "Melatonin",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Both used as sleep aids; glycine does not alter plasma melatonin but has its own sleep-promoting and mild sedative effects, so effects may add.",
+      "evidence": "Mechanistic; no combination study",
+      "citations": [
+        "PMID:22529837",
+        "PMID:10629347"
+      ]
+    },
+    {
+      "with": "N-Acetyl-L-Cysteine (NAC)",
       "with_kind": "supplement",
       "kind": "synergy",
       "severity": "minor",
-      "mechanism": "No direct interaction trial identified; both have been studied in sleep contexts, but additive efficacy is unproven.",
-      "evidence": "Limited or mechanistic evidence; no direct clinically decisive interaction trial identified.",
+      "mechanism": "GlyNAC supplies both glutathione precursors (glycine + cysteine); corrected GSH deficiency and oxidative stress in older adults, uncontrolled T2D and HIV; null primary GSH endpoint in healthy older adults.",
+      "evidence": "Small RCT (n=24) and open-label pilots from one group; larger RCT (n=114) null; low certainty",
       "citations": [
-        "PMID:37851316",
-        "URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
-      ],
-      "with": "Magnesium"
+        "PMID:35975308",
+        "PMID:21795440",
+        "PMID:20929994",
+        "PMID:35821844",
+        "PMID:33783984"
+      ]
+    },
+    {
+      "with": "Trimethylglycine (TMG)",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Betaine is a methyl derivative of glycine metabolized to dimethylglycine and sarcosine and remethylates homocysteine; overlapping one-carbon pathway, combined effects untested.",
+      "evidence": "Review and RCT metabolomics; no combination trial",
+      "citations": [
+        "PMID:24760587",
+        "PMID:40944155",
+        "PMID:16197300"
+      ]
+    },
+    {
+      "with": "Collagen",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Collagen is glycine-rich and raises circulating glycine; glycine is a proposed mediator of collagen sleep effects; combined intake adds to total glycine load.",
+      "evidence": "Scoping review of 22 trials; mediation untested",
+      "citations": [
+        "PMID:42687500"
+      ]
+    },
+    {
+      "with": "antihypertensives",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "15 g/d glycine lowered SBP in men with metabolic syndrome; genetically higher glycine associated with lower SBP; additive effect likely small.",
+      "evidence": "1 RCT subgroup plus MR; very low certainty",
+      "citations": [
+        "PMID:24144057",
+        "PMID:39796632"
+      ]
+    },
+    {
+      "with": "type 2 diabetes",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Glycine may improve HbA1c and insulin resistance; monitor glucose when combined with glucose-lowering therapy.",
+      "evidence": "Small RCT and pilot data; low certainty",
+      "citations": [
+        "PMID:18852529",
+        "PMID:35052658"
+      ]
+    },
+    {
+      "with": "serum/plasma glycine and serine",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Supplementation raises serum glycine (about 8-fold at high dose) and serine, confounding metabolomic glycine used as a risk biomarker.",
+      "evidence": "Trial pharmacokinetic data",
+      "citations": [
+        "PMID:11806864",
+        "PMID:9892253",
+        "PMID:39796632"
+      ]
+    },
+    {
+      "with": "plasma glucagon/insulin",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Oral glycine raises plasma glucagon and slightly raises insulin acutely.",
+      "evidence": "Acute crossover study (n=9)",
+      "citations": [
+        "PMID:12450897"
+      ]
+    },
+    {
+      "with": "serum uric acid",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Glycine 3 g + tryptophan 0.2 g at bedtime lowered serum uric acid (7.1 to 6.7 mg/dL) and triglycerides, possibly via urinary pH.",
+      "evidence": "Crossover RCT; combination product",
+      "citations": [
+        "PMID:30845731"
+      ]
+    },
+    {
+      "with": "glycine irrigating solution (endoscopic urological surgery)",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Absorption of 1.5% glycine irrigant causes TUR syndrome (solute toxicity, dilutional hyponatremia, brain edema); not relevant to oral supplements but same compound.",
+      "evidence": "Clinical review",
+      "citations": [
+        "PMID:16317031"
+      ]
     }
   ],
   "citations": [
+    "PMID:10629347",
+    "PMID:10784481",
+    "PMID:11806864",
+    "PMID:12450897",
+    "PMID:14732596",
+    "PMID:16197300",
+    "PMID:16317031",
+    "PMID:16625590",
+    "PMID:17898352",
+    "PMID:18852529",
+    "PMID:19046587",
+    "PMID:20929994",
+    "PMID:21795440",
+    "PMID:21936588",
+    "PMID:22293292",
+    "PMID:22529837",
+    "PMID:24081740",
+    "PMID:24144057",
+    "PMID:24760587",
+    "PMID:25120925",
+    "PMID:25533534",
+    "PMID:26088787",
+    "PMID:27362913",
+    "PMID:28323968",
+    "PMID:29559876",
+    "PMID:30633660",
+    "PMID:30738126",
+    "PMID:30837465",
+    "PMID:30845731",
+    "PMID:31208147",
+    "PMID:33007928",
+    "PMID:33783984",
+    "PMID:34519439",
+    "PMID:34587244",
+    "PMID:35052658",
+    "PMID:35268089",
+    "PMID:35821844",
+    "PMID:35975308",
+    "PMID:36158554",
+    "PMID:37510995",
     "PMID:37851316",
-    "PMID:39640489",
-    "URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
+    "PMID:38587181",
+    "PMID:38949693",
+    "PMID:39191258",
+    "PMID:39453231",
+    "PMID:39796632",
+    "PMID:40944155",
+    "PMID:41044402",
+    "PMID:41109034",
+    "PMID:41189445",
+    "PMID:41327095",
+    "PMID:41421942",
+    "PMID:41531546",
+    "PMID:41684115",
+    "PMID:41971710",
+    "PMID:42232577",
+    "PMID:42687500",
+    "PMID:42721413",
+    "PMID:9892253",
+    "PMID:9892314"
   ]
 }

@@ -3,67 +3,337 @@
   "supplement": "Magnesium",
   "slug": "magnesium",
   "aliases": [
+    "Mg",
+    "magnesium oxide",
     "magnesium citrate",
-    "chloride",
-    "oxide",
-    "glycinate",
-    "lactate",
-    "sulfate"
+    "magnesium glycinate",
+    "magnesium bisglycinate",
+    "magnesium diglycinate",
+    "magnesium L-threonate",
+    "Magtein",
+    "magnesium chloride",
+    "magnesium aspartate",
+    "magnesium lactate",
+    "magnesium sulfate",
+    "magnesium hydroxide"
   ],
   "category": "mineral",
   "rx_status": "otc",
   "evidence_certainty_overall": "moderate",
   "edges": [
     {
+      "with": "tetracyclines",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Mg2+ forms insoluble chelates with tetracyclines (doxycycline, demeclocycline), reducing antibiotic absorption. Take antibiotic >=2 h before or 4-6 h after magnesium.",
+      "evidence": "NIH ODS; PK crossover: Al/Mg antacid cut doxycycline AUC from 38.6 to 6.0 mg.h/L (subtherapeutic)",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
+        "PMID:2610502"
+      ]
+    },
+    {
+      "with": "fluoroquinolones",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Chelation reduces fluoroquinolone (ciprofloxacin, levofloxacin) absorption. Interaction strongest when Mg is given within 4 h before the dose.",
+      "evidence": "NIH ODS; PK crossover: ciprofloxacin relative bioavailability 15%, 23%, 70% with antacid 5-10 min, 2 h, 4 h before; none at 6 h before or 2 h after",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
+        "PMID:2598571"
+      ]
+    },
+    {
+      "with": "oral bisphosphonates",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Magnesium-rich supplements or antacids decrease absorption of oral bisphosphonates (e.g. alendronate). Separate by >=2 h.",
+      "evidence": "NIH ODS fact sheet recommendation",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
+      ]
+    },
+    {
+      "with": "levothyroxine",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Divalent cation complexation lowers levothyroxine absorption. Mg aspartate reduced T4 AUC 12%, Mg citrate 7% (NS). Separate dosing.",
+      "evidence": "Randomized crossover PK trial in 15 healthy adults (ThyroMag)",
+      "citations": [
+        "PMID:41221788"
+      ]
+    },
+    {
+      "with": "gabapentin",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Magnesium oxide reduces intestinal absorption of gabapentin. Cmax down 33%, AUC down 43%, bioavailability down 32%.",
+      "evidence": "Randomized crossover PK study, n=13",
+      "citations": [
+        "PMID:22240839"
+      ]
+    },
+    {
+      "with": "proton pump inhibitors",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Long-term PPI use (typically >1 year) causes hypomagnesemia, sometimes refractory to supplementation (25% of FDA-reviewed cases needed PPI withdrawal). FDA advises baseline and periodic serum Mg.",
+      "evidence": "MA of 16 observational studies: adjusted OR 1.71 (1.33-2.19), high dose OR 2.13; FDA/ODS; case reports",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
+        "PMID:31689852",
+        "PMID:39465769"
+      ]
+    },
+    {
+      "with": "thiazide diuretics",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Thiazides increase urinary Mg loss. Associated with hypomagnesemia (OR 2.74-3.14), mainly with >390 days of use. Not seen when combined with a potassium-sparing agent.",
+      "evidence": "Rotterdam Study cross-sectional, n=9820; NIH ODS",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
+        "PMID:30095199"
+      ]
+    },
+    {
+      "with": "loop diuretics",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Loop diuretics increase urinary Mg excretion and can cause depletion with chronic use. Not linked to hypomagnesemia in a population cohort.",
+      "evidence": "NIH ODS; Rotterdam Study",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
+        "PMID:30095199"
+      ]
+    },
+    {
+      "with": "potassium-sparing diuretics",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Amiloride/spironolactone reduce Mg excretion. Additive retention is possible with high-dose Mg, especially with reduced renal function.",
+      "evidence": "NIH ODS; mechanism only for accumulation",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
+        "PMID:30095199"
+      ]
+    },
+    {
+      "with": "calcineurin inhibitors",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Calcineurin inhibitors are a common drug cause of renal Mg wasting and hypomagnesemia, e.g. in kidney transplant recipients.",
+      "evidence": "Narrative reviews",
+      "citations": [
+        "PMID:38871680",
+        "PMID:40565121"
+      ]
+    },
+    {
+      "with": "SGLT2 inhibitors",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "SGLT2 inhibitors raise serum Mg and are proposed as a treatment for hypomagnesemia. Consider when dosing Mg in CKD.",
+      "evidence": "Narrative reviews",
+      "citations": [
+        "PMID:38871680",
+        "PMID:40565121"
+      ]
+    },
+    {
+      "with": "Metformin ER",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Metformin is associated with hypomagnesemia (GI losses, TRPM6 suppression). Mg supplementation slightly lowers FBG/HbA1c, a small additive glycemic effect.",
+      "evidence": "Case plus narrative review; MA of 78 RCTs (FBG -3.60 mg/dL, HbA1c -0.15%)",
+      "citations": [
+        "PMID:40613016",
+        "PMID:42588058"
+      ]
+    },
+    {
+      "with": "antihypertensives",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Additive BP lowering. Larger SBP reduction (-7.68 mmHg) in hypertensive people on BP-lowering medication.",
+      "evidence": "MA of 38 RCTs (subgroup); high heterogeneity",
+      "citations": [
+        "PMID:41000008"
+      ]
+    },
+    {
+      "with": "SSRIs",
+      "with_kind": "drug-class",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Magnesium added to fluoxetine gave greater HDRS reduction (-6.35 vs -2.80).",
+      "evidence": "Small non-blinded randomized trial (n=40); low certainty",
+      "citations": [
+        "PMID:41916937"
+      ]
+    },
+    {
+      "with": "chronic kidney disease",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Reduced renal clearance leads to accumulation and hypermagnesemia (hypotension, arrhythmia, cardiac arrest). eGFR <=55 and BUN >=22 independently predicted hypermagnesemia on MgO. MAGiCAL-CKD saw more GI AEs and numerically more deaths/CV events on Mg.",
+      "evidence": "NIH ODS; retrospective cohort n=320; case series; RCT n=148",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
+        "PMID:30805197",
+        "PMID:30136128",
+        "PMID:36749131"
+      ]
+    },
+    {
+      "with": "constipation / bowel dysmotility",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "major",
+      "mechanism": "Retained Mg laxative acts as an absorption reservoir. Fatal hypermagnesemia reported even with normal renal function, and in older adults with constipation and renal dysfunction.",
+      "evidence": "Case reports/series",
+      "citations": [
+        "PMID:29661354",
+        "PMID:30136128"
+      ]
+    },
+    {
+      "with": "magnesium-containing laxatives and antacids",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Hidden additional Mg (e.g. 500 mg elemental per tablespoon of milk of magnesia). Very large doses (>5000 mg/day) cause toxicity. Counts toward the 350 mg/day supplemental UL.",
+      "evidence": "NIH ODS; case reports",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
+        "PMID:29661354"
+      ]
+    },
+    {
+      "with": "Zinc",
       "with_kind": "supplement",
       "kind": "caution",
       "severity": "minor",
-      "mechanism": "No established direct interaction; GI effects may overlap.",
-      "evidence": "Limited or mechanistic evidence; no direct clinically decisive interaction trial identified.",
+      "mechanism": "Very high supplemental zinc (142 mg/day) decreased Mg absorption and Mg balance.",
+      "evidence": "Metabolic balance studies in adult men; NIH ODS",
       "citations": [
-        "PMID:40269802",
-        "URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
-      ],
-      "with": "Berberine"
+        "URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
+        "PMID:7836627"
+      ]
     },
     {
-      "with_kind": "drug-class",
-      "kind": "caution",
+      "with": "calcium",
+      "with_kind": "supplement",
+      "kind": "monitor",
       "severity": "minor",
-      "mechanism": "Forms poorly absorbed complexes and can lower absorption; dose separation is recommended in official NIH fact sheet.",
-      "evidence": "Human trial/review evidence or official fact sheet; clinical context and dose matter.",
+      "mechanism": "Shared divalent cation handling. In a stable-isotope crossover study, raising calcium from 800 to 1800 mg/day did not significantly alter Mg absorption, kinetics or balance.",
+      "evidence": "Small stable-isotope study (n=5 adolescent girls); low certainty",
       "citations": [
-        "URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
-      ],
-      "with": "tetracycline antibiotics"
+        "PMID:9277559"
+      ]
     },
     {
-      "with_kind": "drug-class",
-      "kind": "caution",
+      "with": "Vitamin D-3",
+      "with_kind": "supplement",
+      "kind": "synergy",
       "severity": "minor",
-      "mechanism": "Magnesium can reduce absorption of oral bisphosphonates; NIH ODS recommends separating administration.",
-      "evidence": "Human trial/review evidence or official fact sheet; clinical context and dose matter.",
+      "mechanism": "Vitamin D hydroxylases are Mg-dependent. Mg supplementation modulates 25(OH)D depending on baseline (raises near 30 ng/mL, lowers at 30-50 ng/mL). Mg glycinate plus D3 raised 25(OH)D more than D3 alone.",
+      "evidence": "Two RCTs (n=180, n=95)",
       "citations": [
-        "URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
-      ],
-      "with": "oral bisphosphonates"
+        "PMID:30541089",
+        "PMID:35576873"
+      ]
     },
     {
-      "with_kind": "condition",
-      "kind": "caution",
-      "severity": "minor",
-      "mechanism": "Reduced renal clearance increases risk of magnesium accumulation and toxicity.",
-      "evidence": "Human trial/review evidence or official fact sheet; clinical context and dose matter.",
+      "with": "serum magnesium",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "moderate",
+      "mechanism": "Hemolysis falsely raises measured Mg. Serum Mg (<1% of body Mg, homeostatically defended) is a poor marker of status. Normal values do not exclude depletion, and oral repletion may not change serum Mg.",
+      "evidence": "Experimental hemolysis study; NIH ODS; reviews; RCT showing urinary but not serum rise",
       "citations": [
-        "URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
-      ],
-      "with": "chronic kidney disease"
+        "URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
+        "PMID:16519604",
+        "PMID:42647115",
+        "PMID:42336500",
+        "PMID:41903889"
+      ]
     }
   ],
   "citations": [
     "URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
-    "PMID:39519450",
+    "PMID:2610502",
+    "PMID:2598571",
+    "PMID:41221788",
+    "PMID:22240839",
+    "PMID:31689852",
+    "PMID:39465769",
+    "PMID:30095199",
+    "PMID:38871680",
+    "PMID:40565121",
+    "PMID:40613016",
+    "PMID:42588058",
+    "PMID:41000008",
+    "PMID:41916937",
+    "PMID:30805197",
+    "PMID:30136128",
+    "PMID:36749131",
+    "PMID:29661354",
+    "PMID:7836627",
+    "PMID:9277559",
+    "PMID:30541089",
+    "PMID:35576873",
+    "PMID:16519604",
+    "PMID:42647115",
+    "PMID:42336500",
+    "PMID:41903889",
+    "PMID:14596323",
+    "PMID:32162607",
+    "PMID:42091979",
+    "PMID:7815675",
+    "PMID:39770988",
+    "PMID:27178134",
+    "PMID:28654669",
+    "PMID:40077784",
+    "PMID:41641401",
     "PMID:41245414",
-    "PMID:40269802"
+    "PMID:27402922",
+    "PMID:39519450",
+    "PMID:35045911",
+    "PMID:42534812",
+    "PMID:42426860",
+    "PMID:39905454",
+    "PMID:42661485",
+    "PMID:33865376",
+    "PMID:40918053",
+    "PMID:39252819",
+    "PMID:41601871",
+    "PMID:39404918",
+    "PMID:30764890",
+    "PMID:38213402",
+    "PMID:32956536",
+    "PMID:28241153",
+    "PMID:41680812",
+    "PMID:34247796",
+    "PMID:40708765",
+    "PMID:42206948",
+    "PMID:41359319",
+    "PMID:26519439",
+    "PMID:42580984",
+    "PMID:40946805"
   ]
 }

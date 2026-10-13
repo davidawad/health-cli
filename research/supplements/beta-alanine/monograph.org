@@ -3,50 +3,206 @@
 :ID: supp-beta-alanine
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: β-alanine | 3-aminopropanoic acid
+:ALIASES: β-alanine | beta-alanine | 3-aminopropanoic acid | 3-aminopropionic acid | CarnoSyn | SR CarnoSyn | sustained-release beta-alanine
 :CATEGORY: amino-acid
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Beta Alanine is represented by these commonly studied or marketed forms: β-alanine, 3-aminopropanoic acid. Clinical products and formulations can differ in composition and bioavailability; this limits cross-trial comparisons [PMID:39724872, PMID:38952910].
+- Non-proteinogenic amino acid. It is the rate-limiting precursor of the dipeptide carnosine (beta-alanyl-L-histidine) in human skeletal muscle; L-histidine is not rate-limiting [PMID:28106620].
+- Commercial forms:
+  - Pure (rapid-release) powder or capsules, usually as 400-800 mg units [PMID:16554972].
+  - Sustained/slow-release tablets (e.g. CarnoSyn 800 mg tablets), used in many trials [PMID:22143432] [PMID:30552505].
+  - Sustained-release microgranule powder, studied at up to 15 g/d [PMID:37766731].
+- Kinetics: plasma beta-alanine peaks within ~0.5-1 h and returns to baseline by ~2 h [PMID:16554972] [PMID:22139410]. Urinary loss is small (<5%) [PMID:16554972]. Whole-body retention of slow-release product is 97-98%. Only ~3% of an oral dose ends up in muscle carnosine; most is probably oxidized [PMID:23439427].
+- Widely used in multi-ingredient pre-workout products, often alongside caffeine [PMID:39438314].
 
 ** Mechanisms
-- Proposed mechanisms are outcome- and formulation-dependent; mechanistic plausibility does not establish clinical efficacy. Human evidence is summarized below [PMID:39724872, PMID:38952910].
+- Muscle carnosine loading. Supplementation raises muscle carnosine, an intracellular H+ buffer [PMID:26175657].
+  - 3.2 and 6.4 g/d for 4 weeks raised vastus lateralis carnosine by ~42% and ~64% [PMID:16554972]. Increases were +58.8% at 4 weeks and +80.1% at 10 weeks, in both type I and IIa fibres [PMID:16868650].
+  - The rise depends on total cumulative dose: about 2.01 mmol/kg wet weight per 100 g consumed, independent of baseline or daily dose (1.6-3.2 g/d). Washout is slow (~2%/week) [PMID:21847611].
+  - Bayesian E-max meta-analysis: muscle has a large, non-linear capacity to accumulate carnosine. Common protocols probably do not saturate it. Nearly everyone responds (99.3%, 95% CrI 96.2-100) [PMID:32922303].
+  - Loading is larger when taken with meals (+64% vs +41% between meals in soleus) [PMID:23439427]. Women have lower baseline carnosine and a larger relative rise [PMID:24389513].
+- Histidine. L-histidine is not rate-limiting. Beta-alanine alone lowered plasma (-30.6%) and muscle (-31.6%) histidine; co-supplementing histidine prevented this [PMID:28106620].
+- Performance pathway: better buffering delays acidosis-related fatigue. Benefit is therefore greatest in high-intensity efforts of ~1-4 min [PMID:26175657] [PMID:22270875]. It is small or absent where phosphocreatine depletion limits performance (repeated sprints) [PMID:41971372].
+- Paresthesia mechanism: in mice, beta-alanine itch/tingling needs MrgprD, a receptor on a histamine-independent subset of skin sensory neurons. In humans, intradermal beta-alanine causes itch with no wheal or flare [PMID:23077038].
+- Taurine transporter (TauT) competition. Beta-alanine binds TauT as a substrate analogue (cryo-EM) [PMID:40789850]. At high doses in animals this depletes tissue taurine; see Safety [PMID:8838582] [PMID:31473259].
+- Brain carnosine: 6.4 g/d for 28 days did not change the brain homocarnosine/carnosine MRS signal [PMID:25875297].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---|---|---|---|---|---|
-| May improve high-intensity exercise capacity through increased muscle carnosine | Systematic review/meta-analysis or human trial synthesis | Mixed/possible benefit; no established clinical disease prevention | See evidence summary below; pooled estimates vary by outcome and population | moderate | PMID:39724872, PMID:38952910 |
-
-- Systematic review in older adults included five studies (163 participants); exercise capacity may improve, while strength/function did not [PMID:39724872]. Meta-analysis of beta-alanine plus bicarbonate found context-dependent exercise outcomes [PMID:38952910].
-- May improve high-intensity exercise capacity through increased muscle carnosine; benefit is task-specific and not consistently seen for strength or functional outcomes [PMID:39724872, PMID:38952910].
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Exercise capacity/performance overall | 3-level MA (40 RCTs, 1461 participants); earlier MA (15 studies) | Benefit, small | ES 0.18 (95% CI 0.08-0.28); median +2.85% improvement | moderate | [PMID:27797728] [PMID:22270875] |
+| Efforts ~0.5-10 min (capacity tests) | Same MAs; ISSN position stand | Benefit, largest at 1-4 min | Capacity ES 0.50 (CI 0.25-0.75) vs performance ES 0.11 (CI -0.20 to 0.42); 60-240 s improved, <60 s not | moderate | [PMID:27797728] [PMID:22270875] [PMID:26175657] |
+| Maximal-intensity exercise, trained young men | SR/MA (18 RCTs, n=331) | Benefit | ES 0.39 (CI 0.09-0.69); 4-10 min efforts ES 0.55; 5.6-6.4 g/d ES 0.35 | moderate | [PMID:39032921] |
+| Repeated-sprint ability | Multilevel MA (17 RCTs, GRADE) | No effect | Mean RSA SMD -0.02 (CI -0.21 to 0.17); peak SMD 0.21 (CI -0.07 to 0.48) | moderate | [PMID:41971372] |
+| Aerobic-anaerobic transition / longer efforts | SR/MA (19 studies) | Small benefit, imprecise | TT SMD -0.36 (CI -0.87 to 0.16); limited-time test SMD 0.25 (CI -0.01 to 0.51) | low | [PMID:32824885] |
+| Intermittent team-sport (Yo-Yo) | MA (10 groups) | Benefit only with 6-12 wk or level-2 tests | Overall SMD 0.68 (CI -0.30 to 1.67); 6-12 wk SMD 1.02 (CI 0.01-2.05) | low | [PMID:34024507] |
+| Performance in women | SR/MA (11 RCTs, n=312) | Benefit for time to exhaustion only | TTE SMD 0.49 (CI 0.20-0.79); other outcomes imprecise; GRADE very low | very low | [PMID:42370349] |
+| Strength / power | Dosing SR (9 studies, n=197); recent RCTs | Inconsistent; benefit more likely with divided 4-6.4 g/d in acidotic training | Not pooled | low | [PMID:40995761] [PMID:42413109] [PMID:42127019] |
+| Body composition | GRADE MA (20 RCTs, n=492) | No effect | Fat mass WMD -0.24 kg (CI -1.16 to 0.68); FFM +0.05 kg (CI -0.71 to 0.82) | moderate | [PMID:35813845] |
+| Older adults: exercise capacity | SR (5 studies, n=163); RCTs | Benefit for capacity; none for strength/function | TLIM +36.5% vs +8.6% placebo; PWC at fatigue threshold +28.6% | low | [PMID:39724872] [PMID:22143432] [PMID:18992136] [PMID:29336621] |
+| Cognition | RCTs in older adults, soldiers, athletes; HCD MA | Mostly null; possible benefit in older adults with low MoCA | MoCA +11.8% vs placebo only in subgroup with baseline <=26; null in young/trained | very low | [PMID:36839281] [PMID:25875297] [PMID:24716994] [PMID:39832765] [PMID:38013229] |
+| Depressive symptoms (histidine-containing dipeptides incl. beta-alanine) | MA (18 RCTs, n=776) | Benefit (pooled class) | BDI SMD -0.79 (CI -1.24 to -0.35) | low | [PMID:38545720] |
+| Glycemia (carnosine or beta-alanine) | MA (8 RCTs, n=377); Bayesian MA | Possible decrease; mostly carnosine data | FBG SMD -0.53 (CI -0.75 to -0.31); HbA1c SMD -0.36 (CI -0.59 to -0.12) | low | [PMID:40999397] [PMID:34333586] |
+| COPD exercise capacity | RCT (n=40) | No effect despite carnosine rise | Carnosine +2.82 mmol/kg ww (CI 1.49-4.14); TTE +28 s (CI -179 to 236) | low | [PMID:35977911] |
 
 ** Dosing in trials
-- Common loading protocols use 3.2–6.4 g/day in divided doses for at least 4 weeks; older-adult studies averaged 2.7 g/day for about 12 weeks [PMID:39724872].
+- ISSN position stand: 4-6 g/d for at least 2-4 weeks, in divided doses. Single doses of ~1.6 g or sustained-release forms reduce paresthesia [PMID:26175657].
+- Divided 0.8 g doses up to 4-6.4 g/d over 5-8 weeks gave the most consistent strength/power effects. Single large or sustained-release doses did less well in that review [PMID:40995761].
+- Higher-dose loading: 12 g/d sustained-release for 2 weeks raised muscle carnosine about as much as 6 g/d for 4 weeks, without more paresthesia [PMID:28910200]. However, 12 g/d for 2 weeks did not improve futsal performance [PMID:40981477].
+- Maintenance: ~1.2 g/d kept carnosine 30-50% above baseline after loading [PMID:24389513].
+- Timing: taking it with meals improves loading [PMID:23439427]. Acute single doses (10-20 g before a 10-min time trial) did not improve performance [PMID:42347476].
+- Older adults: 2.4-3.2 g/d for ~10-12 weeks (mean 2.7 g/d) [PMID:39724872] [PMID:36839281].
+- Longest controlled exposures: 6.4 g/d sustained-release for 24 weeks [PMID:30552505]; 4.8 g/d for 3 months in adults with overweight/obesity [PMID:39800667].
 
 ** Safety & adverse effects
-- Transient paresthesia (tingling) is dose-related; divided or sustained-release dosing reduces peak symptoms [PMID:39724872].
+- Systematic risk assessment and meta-analysis (Dolan 2019; 101 human and 50 animal studies, GRADE) [PMID:30980076]:
+  - Paresthesia was the only reported side effect: OR 8.9 (95% CrI 2.2-32.6) vs placebo.
+  - Dropout rates were similar to placebo.
+  - Small ALT rise (ES 0.274, CrI 0.04-0.527), with means staying inside clinical reference ranges.
+  - No effect on muscle taurine (ES 0.156, CrI -0.38 to 0.72) or muscle histidine (ES -0.15, CrI -0.64 to 0.33) in humans.
+  - Conclusion: no adverse effects at the doses studied.
+- Paresthesia (tingling, "pins and needles"):
+  - Doses above ~800 mg often cause it. Symptoms on the arms and trunk peak ~15 min after a 1.6 g solution and track the plasma curve [PMID:22139410].
+  - Slow-release tablets lowered peak plasma (82 vs 248 umol/L) and gave symptoms no different from placebo [PMID:22139410]. Sustained-release 12 g/d gave no more paresthesia than placebo [PMID:28910200].
+  - Even 15 g/d sustained-release microgranules caused mostly mild tickling (VAS <3/10). Triglycerides, LDL and urea rose within the active group, but not vs control [PMID:37766731].
+  - The tingle is not ergogenic: acute paresthesia did not improve 1-km cycling time-trial performance [PMID:25636080].
+- Long-term labs: 24 weeks at 6.4 g/d did not change muscle taurine or renal, hepatic and muscle markers (AST, ALT, ALP, creatinine, eGFR, CK). No chronic sensory side effects were reported [PMID:30552505].
+- Clinical populations: no supplement-related side effects in COPD [PMID:35977911]. Good tolerance and adherence in overweight/obesity; low probability of cardiometabolic, hepatic or renal changes [PMID:39800667].
+- Ocular/haemodynamic: 3 g did not change intraocular pressure or mean arterial pressure; caffeine did [PMID:39732141].
+- Taurine depletion (animal data):
+  - Cats given 5% beta-alanine in drinking water for 20 weeks had greatly reduced brain taurine and cerebellar damage, worse when taurine-deprived [PMID:8838582].
+  - Rats on 3% for 2 months had lower plasma taurine, thinner retinal nerve fiber layer and impaired retinal ganglion cell axonal transport [PMID:31473259].
+  - Murine taurine fell only at >=3% in drinking water, far above human doses [PMID:30980076].
+- Case report: exertional rhabdomyolysis (CK >120,000 U/L) in a young man using creatine, beta-alanine, citrulline malate and beta-ecdysterone after a >4 h resistance session. Causality cannot be assigned to any single product [PMID:41952948].
+- A review of amino-acid supplements notes gaps in long-term high-dose data and in children, pregnancy, lactation, diabetes and liver disease [PMID:35043647].
 
 ** Contraindications
-- No established contraindication in healthy adults; long-term safety and use in pregnancy/lactation are insufficiently studied [PMID:39724872].
+- None established in healthy adults at studied doses [PMID:30980076] [PMID:26175657].
+- Pregnancy, lactation and children: no safety data. Avoid in these groups as a precaution [PMID:35043647].
+- Known low taurine status or taurine-transport disorders: theoretical concern, based only on animal taurine-depletion data [PMID:8838582] [PMID:31473259] [PMID:40789850].
 
 ** Interactions
-- No established clinically meaningful drug interaction; co-use with sodium bicarbonate has been studied, with mixed performance effects [PMID:38952910].
-- No genotype-specific clinical claim is made because no qualifying pharmacogenomic source was identified for this research set.
+*** Drugs
+- No pharmacokinetic drug interaction studies were found.
+- Glucose-lowering drugs: carnosine/beta-alanine meta-analyses suggest lower FBG and HbA1c in prediabetes/T2DM, mostly from carnosine trials [PMID:40999397] [PMID:34333586]. An additive effect is possible but unquantified (minor).
+- Caffeine: often co-formulated. 200 mg caffeine plus 3 g beta-alanine raised resting intraocular pressure, an effect driven by caffeine [PMID:39732141]. The combination gave no acute performance benefit in superset resistance training [PMID:39438314].
+*** Other supplements
+- Sodium bicarbonate: MA of 10 studies (n=243). BA alone SMD 0.18 (CI -0.06 to 0.43), SB alone SMD 0.17 (CI -0.08 to 0.41), combination SMD 0.32 (CI 0.07-0.57) [PMID:38952910]. The 2017 MA found the largest effect for the combination vs placebo (ES 0.43, CI 0.22-0.64) [PMID:27797728]. A systematic review recommends co-supplementation for 30 s-10 min efforts [PMID:34882489]. In a 2026 RCT in female basketball players, gains were driven by bicarbonate [PMID:41838453].
+- Creatine:
+  - A 2025 SR of 7 RCTs (n=263) found greater high-intensity/anaerobic power and repeated-bout performance with the combination. Strength, body composition and aerobic capacity did not improve beyond either alone [PMID:40647180].
+  - A 2026 network MA of 52 RCTs found no synergy; creatine alone was most consistent [PMID:42384726].
+  - A 28-day RCT in women found no consistent additive benefit [PMID:25505854].
+  - Multi-supplement use with extreme exercise appeared in a rhabdomyolysis case [PMID:41952948].
+- Taurine: beta-alanine competes for the taurine transporter [PMID:40789850] and can raise plasma taurine acutely [PMID:16554972]. High-dose animal models show tissue taurine depletion [PMID:8838582] [PMID:31473259]. Human muscle taurine is unchanged after 10-24 weeks [PMID:16868650] [PMID:30552505] [PMID:30980076]. Whether co-supplementing taurine reduces any loading benefit is not studied.
+- L-histidine: beta-alanine lowers plasma and muscle histidine; co-supplementing histidine prevents this but does not increase carnosine further [PMID:28106620]. Sustained-release 12 g/d lowered plasma histidine [PMID:28910200].
+- Caffeine (corpus item): see Drugs.
+*** Conditions
+- Older adults: exercise capacity improves; strength and function do not [PMID:39724872] [PMID:29336621].
+- COPD: carnosine rises without functional benefit [PMID:35977911].
+- Prediabetes/T2DM: possible glycemic improvement (low certainty) [PMID:40999397].
+- Aquagenic pruritus: an online survey (n=75, self-report, uncontrolled) reported relief at ~1.6 g/d; 39.6% had paresthesia [PMID:40657651].
+- Pregnancy/lactation: no data [PMID:35043647].
+*** Lab-test interference
+- No assay artifact was found. Real physiological changes:
+  - ALT: small rise within reference range [PMID:30980076].
+  - Plasma histidine: lower with high doses [PMID:28106620] [PMID:28910200].
+  - Plasma taurine: acute rise [PMID:16554972].
+- Standard renal, hepatic and haematological panels were unchanged at 6.4 g/d for 24 weeks [PMID:30552505].
 
 ** Genotype notes
-- No cited pharmacogenomic or nutrigenomic source identified for a clinically useful genotype-specific note.
+No cited pharmacogenomic or nutrigenomic source found. An IPD meta-analysis found no true between-person variation in the performance response; variation was common to both groups and unrelated to the supplement. Muscle carnosine response does vary between people [PMID:34098531].
 
 ** Latest research
-- 2024–2026: 2024/2025 review of older adults found only five eligible studies, indicating evidence base remains small [PMID:39724872].
+- [2026-07] RCT (n=22, 6.4 g/d, 4 wk): +17-18% repetitions in drop-set and bi-set resistance protocols; no change in perceived exertion [PMID:42413109].
+- [2026-07] Network MA (52 RCTs): creatine alone most consistent; creatine plus beta-alanine shows no synergy [PMID:42384726].
+- [2026-06] MA in women (11 RCTs, n=312): TTE SMD 0.49; other outcomes imprecise; GRADE very low [PMID:42370349].
+- [2026-06] Acute 10 g or 20 g before a 10-min cycling TT (n=85): no performance benefit; lower mechanical work linked to bicarbonate [PMID:42347476].
+- [2026-05] RCT in swimmers (4.8 g/d plus plyometric training, 8 wk): greater gains in upper-body power and swim-ergometer output [PMID:42218755].
+- [2026-05] Kickboxing RCT (n=28, 6.4 g/d, 4 wk): better total anaerobic score and push-/pull-up endurance; no jump effect [PMID:42127019].
+- [2026-03] Multilevel MA (17 RCTs): no effect on repeated-sprint ability [PMID:41971372].
+- [2026-03] Female basketball RCT (n=68): gains were with bicarbonate-containing arms; beta-alanine alone gave no benefit [PMID:41838453].
+- [2026-03] Case report: rhabdomyolysis with a multi-supplement stack including beta-alanine [PMID:41952948].
+- [2025-09] Dosing SR (9 studies): divided 4-6.4 g/d over 5-8 weeks best for strength/power [PMID:40995761].
+- [2025-09] Two weeks at 12 g/d did not improve futsal performance [PMID:40981477].
+- [2025-09] MA in prediabetes/T2DM (8 RCTs, carnosine or beta-alanine): FBG SMD -0.53, HbA1c SMD -0.36 [PMID:40999397].
+- [2025-08] Cryo-EM structures show beta-alanine binding the human taurine transporter TauT [PMID:40789850].
+- [2025-06] Creatine plus beta-alanine SR (7 RCTs): better anaerobic power, no added strength or body-composition effect [PMID:40647180].
+- [2025-06] Adolescent runners RCT: TTE +6.5% vs +1.4%; no VO2peak change [PMID:40528157].
+- [2025-01] Feasibility RCT in overweight/obesity (4.8 g/d SR, 3 mo): well tolerated; no cardiometabolic signal [PMID:39800667].
+- [2025-01] 14 weeks of beta-alanine plus HIIT: no BDNF or Stroop improvement [PMID:39832765].
+- [2024-12] Older-adult SR (5 studies, n=163): capacity may improve; strength/function not [PMID:39724872].
+- [2024-12] Beta-alanine plus caffeine: caffeine, not beta-alanine, raised intraocular pressure [PMID:39732141].
+- [2024-11] MA in trained young men (18 RCTs): ES 0.39; 4-10 min efforts ES 0.55 [PMID:39032921].
 
 ** Open questions
-- Larger, preregistered, adequately powered human trials with standardized, chemically characterized products and longer follow-up are needed to establish clinically important benefits and characterize uncommon harms.
+- Long-term (>6 months) safety at high doses (>=12 g/d) and of sustained-release microgranule products. Lipid and urea changes at 15 g/d need confirmation [PMID:37766731].
+- Whether chronic use lowers taurine in human tissues other than muscle (retina, brain), given animal depletion data.
+- Cognitive and mood effects in older adults with low baseline cognition. Current data are small subgroup analyses [PMID:36839281] [PMID:38971131].
+- Whether carnosine loading gives clinical benefit in disease (COPD, diabetes, heart). The COPD RCT was null for function.
+- True added value of combining with creatine. Systematic reviews disagree [PMID:40647180] [PMID:42384726].
+- Effects in women and adolescents. Evidence is sparse and very low certainty [PMID:42370349].
 
 ** Sources
-1. PMID:39724872
-2. PMID:38952910
-- Beta-alanine for improving exercise capacity in older adults: systematic review. J Aging Phys Act. 2025. DOI:10.1123/japa.2024-0118.
-- Sodium bicarbonate and beta-alanine supplementation: systematic review and meta-analysis. PMID:38952910.
+1. Trexler ET et al. International society of sports nutrition position stand: Beta-Alanine. J Int Soc Sports Nutr. 2015. PMID:26175657 DOI:10.1186/s12970-015-0090-y
+2. Saunders B et al. β-alanine supplementation to improve exercise capacity and performance: a systematic review and meta-analysis. Br J Sports Med. 2017. PMID:27797728 DOI:10.1136/bjsports-2016-096396
+3. Dolan E et al. A Systematic Risk Assessment and Meta-Analysis on the Use of Oral β-Alanine Supplementation. Adv Nutr. 2019. PMID:30980076 DOI:10.1093/advances/nmy115
+4. Hobson RM et al. Effects of β-alanine supplementation on exercise performance: a meta-analysis. Amino Acids. 2012. PMID:22270875 DOI:10.1007/s00726-011-1200-z
+5. Rezende NS et al. The Muscle Carnosine Response to Beta-Alanine Supplementation: A Systematic Review With Bayesian Individual and Aggregate Data E-Max Model and Meta-Analysis. Front Physiol. 2020. PMID:32922303 DOI:10.3389/fphys.2020.00913
+6. Georgiou GD et al. Effect of Beta-Alanine Supplementation on Maximal Intensity Exercise in Trained Young Male Individuals: SR and MA. Int J Sport Nutr Exerc Metab. 2024. PMID:39032921 DOI:10.1123/ijsnem.2024-0027
+7. Liang W et al. No ergogenic effect of β-alanine on repeated sprint ability: a systematic review and multilevel meta-analysis of RCTs. Front Nutr. 2026. PMID:41971372 DOI:10.3389/fnut.2026.1818755
+8. Gu J et al. Effects of beta-alanine supplementation on exercise performance and related physiological outcomes in women: SR and MA. Front Nutr. 2026. PMID:42370349 DOI:10.3389/fnut.2026.1857513
+9. Huerta Ojeda A et al. Effects of Beta-Alanine Supplementation on Physical Performance in Aerobic-Anaerobic Transition Zones: SR and MA. Nutrients. 2020. PMID:32824885 DOI:10.3390/nu12092490
+10. Grgic J. Effects of beta-alanine supplementation on Yo-Yo test performance: A meta-analysis. Clin Nutr ESPEN. 2021. PMID:34024507 DOI:10.1016/j.clnesp.2021.03.027
+11. Ashtary-Larky D et al. Effects of beta-alanine supplementation on body composition: a GRADE-assessed SR and MA. J Int Soc Sports Nutr. 2022. PMID:35813845 DOI:10.1080/15502783.2022.2079384
+12. Esteves GP et al. Individual Participant Data Meta-Analysis Provides No Evidence of Intervention Response Variation in Individuals Supplementing With Beta-Alanine. Int J Sport Nutr Exerc Metab. 2021. PMID:34098531 DOI:10.1123/ijsnem.2021-0038
+13. de Camargo JBB et al. Beta-Alanine for Improving Exercise Capacity, Muscle Strength, and Functional Performance of Older Adults: A Systematic Review. J Aging Phys Act. 2025. PMID:39724872 DOI:10.1123/japa.2024-0118
+14. del Favero S et al. Beta-alanine (Carnosyn) supplementation in elderly subjects (60-80 years): effects on muscle carnosine content and physical capacity. Amino Acids. 2012. PMID:22143432 DOI:10.1007/s00726-011-1190-x
+15. Stout JR et al. The effect of beta-alanine supplementation on neuromuscular fatigue in elderly (55-92 Years): a double-blind randomized study. J Int Soc Sports Nutr. 2008. PMID:18992136 DOI:10.1186/1550-2783-5-21
+16. Bailey CH et al. Beta-Alanine Does Not Enhance the Effects of Resistance Training in Older Adults. J Diet Suppl. 2018. PMID:29336621 DOI:10.1080/19390211.2017.1406422
+17. Ostfeld I et al. Role of β-Alanine Supplementation on Cognitive Function, Mood, and Physical Function in Older Adults; Double-Blind RCT. Nutrients. 2023. PMID:36839281 DOI:10.3390/nu15040923
+18. Ostfeld I et al. β-Alanine supplementation improves fractional anisotropy scores in the hippocampus and amygdala in 60-80-year-old men and women. Exp Gerontol. 2024. PMID:38971131 DOI:10.1016/j.exger.2024.112513
+19. Solis MY et al. Effects of beta-alanine supplementation on brain homocarnosine/carnosine signal and cognitive function: an exploratory study. PLoS One. 2015. PMID:25875297 DOI:10.1371/journal.pone.0123857
+20. Hoffman JR et al. β-alanine supplementation improves tactical performance but not cognitive function in combat soldiers. J Int Soc Sports Nutr. 2014. PMID:24716994 DOI:10.1186/1550-2783-11-15
+21. Mendonca PT et al. Fourteen weeks of β-alanine supplementation and HIIT did not improve serum BDNF concentrations and Stroop test performance. Int J Sports Med. 2025. PMID:39832765 DOI:10.1055/a-2500-5556
+22. Bell SM et al. Histidine-containing dipeptide supplementation improves delayed recall: SR and MA. Nutr Rev. 2024. PMID:38013229 DOI:10.1093/nutrit/nuad135
+23. Kabthymer RH et al. Carnosine/histidine-containing dipeptide supplementation improves depression and quality of life: SR and MA of RCTs. Nutr Rev. 2025. PMID:38545720 DOI:10.1093/nutrit/nuae021
+24. Li N et al. Effect of carnosine or beta-alanine supplementation therapy for prediabetes or type 2 diabetes mellitus: SR and MA of RCTs. BMC Endocr Disord. 2025. PMID:40999397 DOI:10.1186/s12902-025-02016-w
+25. Matthews JJ et al. Effect of Carnosine or β-Alanine Supplementation on Markers of Glycemic Control and Insulin Resistance in Humans and Animals: SR and MA. Adv Nutr. 2021. PMID:34333586 DOI:10.1093/advances/nmab087
+26. Matthews JJ et al. β-alanine supplementation in adults with overweight and obesity: a randomized controlled feasibility trial. Obesity (Silver Spring). 2025. PMID:39800667 DOI:10.1002/oby.24204
+27. De Brandt J et al. Efficacy of 12 weeks oral beta-alanine supplementation in patients with COPD: a double-blind, randomized, placebo-controlled trial. J Cachexia Sarcopenia Muscle. 2022. PMID:35977911 DOI:10.1002/jcsm.13048
+28. Maestre-Hernandez AB et al. Effect of a sustained-release formulation of β-alanine on laboratory parameters and paresthesia in recreational trained men: an RCT. Front Nutr. 2023. PMID:37766731 DOI:10.3389/fnut.2023.1213105
+29. Decombaz J et al. Effect of slow-release β-alanine tablets on absorption kinetics and paresthesia. Amino Acids. 2012. PMID:22139410 DOI:10.1007/s00726-011-1169-7
+30. Church DD et al. Comparison of Two β-Alanine Dosing Protocols on Muscle Carnosine Elevations. J Am Coll Nutr. 2017. PMID:28910200 DOI:10.1080/07315724.2017.1335250
+31. Saunders B et al. 24-Week β-alanine ingestion does not affect muscle taurine or clinical blood parameters in healthy males. Eur J Nutr. 2020. PMID:30552505 DOI:10.1007/s00394-018-1881-0
+32. Garcia-Ayuso D et al. β-alanine supplementation induces taurine depletion and causes alterations of the retinal nerve fiber layer and axonal transport by retinal ganglion cells. Exp Eye Res. 2019. PMID:31473259 DOI:10.1016/j.exer.2019.107781
+33. Lu P et al. Dietary beta-alanine results in taurine depletion and cerebellar damage in adult cats. J Neurosci Res. 1996. PMID:8838582 DOI:10.1002/jnr.490430115
+34. Liu Q et al. Mechanisms of itch evoked by β-alanine. J Neurosci. 2012. PMID:23077038 DOI:10.1523/JNEUROSCI.3509-12.2012
+35. Bellinger PM, Minahan CL. Performance effects of acute β-alanine induced paresthesia in competitive cyclists. Eur J Sport Sci. 2016. PMID:25636080 DOI:10.1080/17461391.2015.1005696
+36. Ashtary-Larky D et al. Effects of Creatine and β-Alanine Co-Supplementation on Exercise Performance and Body Composition: A Systematic Review. Nutrients. 2025. PMID:40647180 DOI:10.3390/nu17132074
+37. Bai X et al. Effects of combined versus single supplementation of creatine and beta-alanine on aerobic and anaerobic performance: SR and network MA. J Int Soc Sports Nutr. 2026. PMID:42384726 DOI:10.1080/15502783.2026.2695133
+38. Kresta JY et al. Effects of 28 days of beta-alanine and creatine supplementation on muscle carnosine, body composition and exercise performance in recreationally active females. J Int Soc Sports Nutr. 2014. PMID:25505854 DOI:10.1186/s12970-014-0055-6
+39. Curran-Bowen T et al. Sodium bicarbonate and beta-alanine supplementation: Is combining both better than either alone? SR and MA. Biol Sport. 2024. PMID:38952910 DOI:10.5114/biolsport.2024.132997
+40. Gilsanz L et al. Effect of β-alanine and sodium bicarbonate co-supplementation on the body's buffering capacity and sports performance: A systematic review. Crit Rev Food Sci Nutr. 2023. PMID:34882489 DOI:10.1080/10408398.2021.2012642
+41. Adamczewski J et al. Effects of Combined Versus Isolated Beta-Alanine and Sodium Bicarbonate Supplementation on Physical Capacity in Highly Trained Female Basketball Players: An RCT. Int J Sports Physiol Perform. 2026. PMID:41838453 DOI:10.1123/ijspp.2025-0447
+42. Stellingwerff T et al. Effect of two β-alanine dosing protocols on muscle carnosine synthesis and washout. Amino Acids. 2012. PMID:21847611 DOI:10.1007/s00726-011-1054-4
+43. Stegen S et al. β-Alanine dose for maintaining moderately elevated muscle carnosine levels. Med Sci Sports Exerc. 2014. PMID:24389513 DOI:10.1249/MSS.0000000000000248
+44. Stegen S et al. Meal and beta-alanine coingestion enhances muscle carnosine loading. Med Sci Sports Exerc. 2013. PMID:23439427 DOI:10.1249/MSS.0b013e31828ab073
+45. Harris RC et al. The absorption of orally supplied beta-alanine and its effect on muscle carnosine synthesis in human vastus lateralis. Amino Acids. 2006. PMID:16554972 DOI:10.1007/s00726-006-0299-9
+46. Hill CA et al. Influence of beta-alanine supplementation on skeletal muscle carnosine concentrations and high intensity cycling capacity. Amino Acids. 2007. PMID:16868650 DOI:10.1007/s00726-006-0364-4
+47. Blancquaert L et al. Effects of Histidine and β-alanine Supplementation on Human Muscle Carnosine Storage. Med Sci Sports Exerc. 2017. PMID:28106620 DOI:10.1249/MSS.0000000000001213
+48. Ong SW et al. Dosing strategies for β-alanine supplementation in strength and power performance: a systematic review. J Int Soc Sports Nutr. 2025. PMID:40995761 DOI:10.1080/15502783.2025.2566368
+49. Colini CL et al. Beta-Alanine Supplementation Improves Isotonic Strength Endurance Performance During Drop-Set and Bi-Set Resistance Exercises in Resistance-Trained Individuals. J Strength Cond Res. 2026. PMID:42413109 DOI:10.1519/JSC.0000000000005500
+50. Munoz-Carrillo JC et al. Acute Moderate-Dose β-Alanine Improves Exercise Efficiency via Bicarbonate-Related Mechanisms During a Cycling Time Trial. Sports (Basel). 2026. PMID:42347476 DOI:10.3390/sports14060252
+51. Kucuk FH et al. Effects of β-alanine supplementation on kickboxing-specific anaerobic performance, neuromuscular power, and strength endurance: an RCT. PLoS One. 2026. PMID:42127019 DOI:10.1371/journal.pone.0346898
+52. Miraftabi H et al. High-dose beta-alanine supplementation for two weeks did not enhance intermittent endurance or sprint performance in trained futsal players. J Int Soc Sports Nutr. 2025. PMID:40981477 DOI:10.1080/15502783.2025.2564245
+53. Marko D et al. Beta-alanine supplementation improves time to exhaustion, but not aerobic capacity, in competitive middle- and long-distance runners. J Int Soc Sports Nutr. 2025. PMID:40528157 DOI:10.1080/15502783.2025.2521336
+54. Gao H et al. Selected immunoendocrine and performance adaptations to upper-body plyometric training and β-alanine supplementation in male swimmers. J Int Soc Sports Nutr. 2026. PMID:42218755 DOI:10.1080/15502783.2026.2679050
+55. Chowaniec P et al. Exercise-Induced Rhabdomyolysis With Supplements (Creatine, β-Alanine, Citrulline Malate, and β-Ecdysterone). Cureus. 2026. PMID:41952948 DOI:10.7759/cureus.104852
+56. Vera J et al. Impact of Beta-Alanine, Caffeine, and Their Combination on Intraocular Pressure and Ocular Perfusion Pressure at Rest and After Resistance Training. Int J Sport Nutr Exerc Metab. 2025. PMID:39732141 DOI:10.1123/ijsnem.2024-0159
+57. Martos-Arregui A et al. Comparative effects of caffeine, beta-alanine, and their combination on responses to upper-body superset resistance training. Eur J Appl Physiol. 2025. PMID:39438314 DOI:10.1007/s00421-024-05639-4
+58. Concistre A et al. Beta-alanine as a Potential Treatment for Aquagenic Pruritus: An Online Social Media-based Survey Study. Acta Dermatovenerol Croat. 2024. PMID:40657651
+59. Holecek M. Side effects of amino acid supplements. Physiol Res. 2022. PMID:35043647 DOI:10.33549/physiolres.934790
+60. Du B et al. Molecular basis of human taurine transporter uptake and inhibition. Nat Commun. 2025. PMID:40789850 DOI:10.1038/s41467-025-62857-w

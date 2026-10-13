@@ -3,50 +3,212 @@
 :ID: supp-urolithin-a
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: UA | mitophagy-associated gut microbial metabolite
+:ALIASES: UA | UroA | Uro-A | 3,8-dihydroxy-6H-dibenzo[b,d]pyran-6-one | Mitopure | ellagitannin-derived postbiotic
 :CATEGORY: longevity
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Urolithin A is represented by these commonly studied or marketed forms: UA, mitophagy-associated gut microbial metabolite. Clinical products and formulations can differ in composition and bioavailability; this limits cross-trial comparisons [PMID:39002645, PMID:35584623].
+- Urolithin A (UA) is a dibenzo-alpha-pyrone that gut bacteria make from dietary ellagitannins and ellagic acid. Food sources of the precursors include pomegranate, walnuts and other nuts, and berries [PMID:27400265] [PMID:34030963]. UA itself is not present in food in free form [PMID:42468665].
+- 13 urolithins and their glucuronide/sulfate conjugates have been described in human urine, blood, feces, breast milk and prostate, colon and breast tissue [PMID:35118817].
+- Supplement form: synthetic, high-purity UA (Mitopure, Amazentis SA). It was used in the sponsor's trials at 500-1,000 mg/d [PMID:35584623] [PMID:41174221].
+- US regulatory status: GRAS notice GRN No. 791 (Amazentis SA; filed 2018-06-15). FDA closed it on 2018-12-20 with a "no questions" letter. The notice covers use in protein shakes, meal-replacement beverages, oatmeal, nutrition bars and yogurts at 250-500 mg/serving, up to a maximum of 500 mg or 1,000 mg/serving [https://www.cfsanappsexternal.fda.gov/scripts/fdcc/index.cfm?set=GRASNotices&id=791].
+- Pharmacokinetics:
+  - Oral synthetic UA was bioavailable in plasma at all doses tested in the first-in-human study [PMID:32694802].
+  - In rats, glucuronide and sulfate conjugates were the main metabolites after oral and i.v. dosing [PMID:28757461]. In humans, circulating UA is also mostly phase II conjugates rather than free aglycone [PMID:42468665].
+  - After pomegranate juice, UA-glucuronide appeared in urine in 11/18 subjects on the day of intake and 16/18 the day after. Excretion therefore lags precursor intake by about 1 day [PMID:16988113].
+  - UA was drastically unstable during simulated colonic fermentation in vitro [PMID:26439723].
+- Formulation research: nanoparticle and liposome formulations raised systemic bioavailability several-fold over unformulated UA in preclinical work [PMID:41866331]. UA conjugated to NSAIDs (diclofenac, aspirin esters) suppressed UA glucuronidation in Caco-2 cells. These are research compounds, not marketed products [PMID:38000358].
 
 ** Mechanisms
-- Proposed mechanisms are outcome- and formulation-dependent; mechanistic plausibility does not establish clinical efficacy. Human evidence is summarized below [PMID:39002645, PMID:35584623].
+- Mitophagy induction: UA was identified as a first-in-class natural mitophagy inducer. It prevented accumulation of dysfunctional mitochondria and extended lifespan in C. elegans, and improved exercise capacity in aged mice and young rats [PMID:27400265]. Reviews describe PINK1/Parkin-dependent mitophagy [PMID:41404767] [PMID:37925671].
+- Human target engagement:
+  - Raised skeletal-muscle mitochondrial gene expression and modulated plasma acylcarnitines after 4 weeks at 500-1,000 mg/d [PMID:32694802].
+  - Raised muscle mitophagy and mitochondrial-metabolism proteins after 4 months [PMID:35584623].
+  - Lowered plasma acylcarnitines, ceramides and CRP [PMID:35050355] [PMID:40034121].
+  - Did not change maximal ATP production, mitochondrial biogenesis or dynamics in the 2024 systematic review [PMID:39002645].
+- Immune aging: in mice UA expands T memory stem cells and naive T cells. In humans, 4 weeks at 1,000 mg/d expanded naive-like CD8+ cells and raised CD8+ fatty-acid oxidation capacity [PMID:41174221].
+- Inflammaging: in old mice, UA-induced mitophagy reduced cytosolic mtDNA-driven cGAS/STING activation and improved neurological function [PMID:38280852].
+- Gut barrier and aryl hydrocarbon receptor (AhR):
+  - UA strengthens tight junctions through AhR-Nrf2 and attenuates colitis in mice [PMID:30626868].
+  - It activates an epithelial AhR-NLRP6-IL-18-IL-22 axis, also in IBD patient biopsies ex vivo [PMID:42336837].
+  - Its colitis protection requires CYP1A1 [PMID:36159798].
+  - In a human reporter system UA acted as a selective AhR antagonist and blunted TCDD-induced CYP1A1 [PMID:30501068].
+- Estrogen receptor: UA binds ER-alpha/ER-beta (IC50 0.4/0.75 uM). It is weakly estrogenic and antiestrogenic in MCF-7 cells [PMID:16506809] and showed SERM-like activity in breast-cancer models [PMID:37345359].
+- Platelets: in human whole blood in vitro, UA inhibited arachidonic-acid-induced aggregation (IC50 3.7 uM) and aggregation from several other agonists. UA-glucuronide did not [PMID:42812264].
+- Neuro: UA and NAD+ supplementation both stimulated mitophagy and reversed memory deficits in AD models [PMID:30742114]. Long-term UA improved cognition and lysosomal function in 3 AD mouse models [PMID:38753870]. In aged mice it prevented, but did not reverse, cognitive decline [PMID:41786716]. Brain exposure in humans is unproven and no CNS-endpoint trial has been completed [PMID:42468665].
+- Joints: UA improved chondrocyte mitophagy and reduced cartilage degeneration and pain in a mouse OA model [PMID:35778837].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---|---|---|---|---|---|
-| RCTs report changes in mitochondrial/immune biomarkers and selected muscle endurance measures, but strength, walking performance and clinically meaningful outcomes remain uncertain [PMID:35584623]. | Systematic review/meta-analysis or human trial synthesis | Mixed/possible benefit; no established clinical disease prevention | See evidence summary below; pooled estimates vary by outcome and population | low | PMID:39002645, PMID:35584623 |
-
-- 2024 systematic review of human studies found early evidence, small trial base and no evidence for lifespan extension; functional benefits are not consistent across endpoints [PMID:39002645].
-- RCTs report changes in mitochondrial/immune biomarkers and selected muscle endurance measures, but strength, walking performance and clinically meaningful outcomes remain uncertain [PMID:35584623].
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| 6-minute walk distance | SR/MA of RCTs (5 RCTs, n=236; MA of 2 RCTs) | Favorable trend, not significant | MD +17.03 m (95% CI -5.33 to 39.40); GRADE low | low | [PMID:42559151] [PMID:35050355] [PMID:35584623] |
+| Muscle strength (older/middle-aged) | RCT 4 mo (middle-aged, 500/1,000 mg); SR | Benefit | ~12% muscle-strength gain; not pooled; primary endpoint (peak power) negative | low | [PMID:35584623] [PMID:39002645] [PMID:42559151] |
+| Muscle endurance (older adults) | RCT 4 mo, n=66, 1,000 mg/d | Benefit on secondary endpoint | Contractions to fatigue: FDI +95.3 vs +11.6 and TA +41.4 vs +5.7 at 2 mo; primary endpoints (6MWD, ATPmax) null | low | [PMID:35050355] |
+| Athletic performance | 3 small RCTs (runners n=42; soccer n=20; resistance athletes n=20) | Mixed | 3000 m TT not improved; Yo-Yo IR1 +239 m (CI 20-454); MVIC +43.5 Nm vs placebo; 1RM not significant | very low | [PMID:40839339] [PMID:41245402] [PMID:39487653] |
+| Exercise recovery / muscle damage | RCT (elite runners) | Benefit | Lower CK AUC (p<0.0001) and lower RPE after time trial | very low | [PMID:40839339] |
+| Mitochondrial biomarkers | Several RCTs; SR | Benefit on surrogate markers | Lower acylcarnitines; mitophagy proteins up; no change in ATPmax | moderate | [PMID:32694802] [PMID:35584623] [PMID:35050355] [PMID:39002645] |
+| Systemic inflammation (CRP, cytokines) | RCTs; SR | Decrease | CRP lower vs placebo (e.g. -0.79 mg/L in athletes); dose-dependent anti-inflammatory effect in SR | low | [PMID:39002645] [PMID:39487653] [PMID:35584623] |
+| Immune aging (T-cell phenotype) | RCT n=50, 4 wk, 1,000 mg/d | Favorable shift | Naive-like CD8+ +0.50 pp (CI 0.16-0.83); CD8+ FAO capacity +14.72 pp (CI 6.46-22.99) | low | [PMID:41174221] |
+| Endothelial function (obesity) | RCT n=50, 4 wk, 1,000 mg/d | No effect | FMD change 1.3% vs 0.3% (NS); cerebrovascular task responses higher (exploratory) | low | [PMID:42853569] |
+| Heart failure (HFrEF) | Crossover RCT n=10, 500 mg twice daily | No effect | No change in LVEF, NT-proBNP or CRP; HDL-C +6.46 mg/dL | very low | [PMID:38415449] |
+| Cardiovascular risk biomarkers | RCT secondary analysis | Decrease | Lower plasma ceramides linked to CVD risk after 4 mo | very low | [PMID:40034121] |
+| Lifespan / hard clinical outcomes | Animal data only | Unknown in humans | C. elegans lifespan extension; no human data | very low | [PMID:27400265] [PMID:39002645] |
 
 ** Dosing in trials
-- Human RCTs commonly use 500–1,000 mg/day for 4 weeks to 4 months [PMID:35584623].
+- Range: 10-1,000 mg/d for 28 days to 4 months in the 2024 systematic review [PMID:39002645].
+- 500 mg/d and 1,000 mg/d for 4 weeks (first-in-human study, older sedentary adults) [PMID:32694802].
+- 500 and 1,000 mg/d for 4 months (middle-aged adults) [PMID:35584623]. 1,000 mg/d for 4 months (adults 65-90) [PMID:35050355].
+- 1,000 mg/d for 4 weeks in the immune trial [PMID:41174221] and the endothelial trial [PMID:42853569]. 1,000 mg/d for 4-8 weeks in athletes [PMID:40839339] [PMID:41245402] [PMID:39487653].
+- 500 mg twice daily for 4 weeks in HFrEF [PMID:38415449].
+- Direct UA (500 mg) gave >6-fold higher plasma UA exposure than a glass of pomegranate juice [PMID:34117375].
 
 ** Safety & adverse effects
-- Short-term RCTs generally found good tolerability; long-term and special-population safety are not established [PMID:35584623].
+- Toxicology (rat, synthetic UA):
+  - Not genotoxic in a standard battery.
+  - 28-day and 90-day dietary studies at up to 5% of diet found no target organs or changes in clinical chemistry or hematology.
+  - NOAEL was the highest dose tested: 3,451 mg/kg/d (males) and 3,826 mg/kg/d (females) [PMID:28757461].
+- Human trials:
+  - The first-in-human study met its primary safety outcome [PMID:32694802].
+  - The 4-month RCT in older adults found no between-group difference in adverse events [PMID:35050355].
+  - The SR reported only mild or moderate AEs, judged unrelated to UA [PMID:39002645].
+  - The 2026 endothelial RCT judged UA well tolerated [PMID:42853569].
+- Kidney stones (2026): a reference lab identified UA in urinary stones from 8 patients aged 59-87 (UA 5-80% of stone mass, mixed with calcium oxalate/phosphate; 7 of 8 female). The 6 patients with a dietary history ate walnuts daily or nearly daily, often in smoothies with berries. None was taking UA supplements. The authors attribute such stones to poorly soluble compounds crystallizing in the urinary tract [PMID:42058113]. Whether high-dose supplements carry a similar risk is unstudied.
+- Hemostasis: UA inhibits human platelet aggregation in vitro (IC50 3.7 uM) and potentiated aspirin's effect. In vivo relevance is unconfirmed, and the main circulating form (glucuronide) was inactive [PMID:42812264].
+- Endocrine: ER binding and weak estrogenic/antiestrogenic activity were seen in vitro [PMID:16506809]. In an animal hollow-fiber model UA did not induce uterine proliferation [PMID:37345359].
+- Trial base: all RCTs are small (5 RCTs, n=236 in total in the 2026 MA) and short (4 months or less). Most were sponsored by the manufacturer [PMID:35584623] [PMID:41174221] [PMID:42559151].
 
 ** Contraindications
-- Evidence insufficient for pregnancy/lactation, children, or severe hepatic/renal impairment [PMID:39002645].
+- No established contraindications. Trials enrolled healthy middle-aged or older adults or athletes. Pregnancy, lactation, children and organ impairment have not been studied [PMID:39002645] [PMID:42559151].
+- History of calcium-oxalate or unexplained kidney stones: use caution, given the UA-containing stones (diet-derived) reported in 2026 [PMID:42058113].
+- Hormone-sensitive cancers: caution is reasonable given ER binding and SERM-like activity in vitro [PMID:16506809] [PMID:37345359]. No clinical harm has been reported.
 
 ** Interactions
-- No well-established clinical drug interactions or laboratory assay interference identified in the human trial reviews [PMID:39002645].
-- No genotype-specific clinical claim is made because no qualifying pharmacogenomic source was identified for this research set.
+*** Drugs
+- Antiplatelets/anticoagulants (aspirin, P2Y12 inhibitors, warfarin): UA inhibited platelet aggregation ex vivo and potentiated acetylsalicylic acid [PMID:42812264]. These are in vitro data only, so the risk is theoretical; watch for bleeding signs.
+- Warfarin and CYP3A4/CYP2C9 substrates:
+  - The evidence concerns pomegranate juice, the ellagitannin source, not purified UA. A possible pomegranate-juice/warfarin INR interaction was reported in one case [PMID:19637955].
+  - Pomegranate constituents inhibit CYP3A4/CYP2C9 in vitro and in animals, but human relevance is not established [PMID:36903363] [PMID:23673492].
+  - No study has tested purified UA.
+- CYP1A1/AhR-pathway drugs: UA modulates AhR (antagonist in human reporter cells; agonist-like in gut epithelium) and CYP1A1 [PMID:30501068] [PMID:19469472] [PMID:42336837]. Clinical significance for drug metabolism is unknown.
+- Oncology (all preclinical):
+  - Bortezomib: synergistic in multiple myeloma cells, including resistant cells [PMID:40022244].
+  - 5-fluorouracil: chemosensitized resistant colon cancer by downregulating MDR1/BCRP/MRP2/MRP7 transporters [PMID:35910798].
+  - Bicalutamide: additive antiproliferative effect but attenuated pro-apoptotic effect in prostate cancer cells; the authors advise caution [PMID:30097116].
+- Cyclosporine A: combination outperformed either agent in murine lupus nephritis [PMID:42130005]. This is preclinical only.
+*** Other supplements
+- Spermidine: complementary mechanisms (UA targets PINK1/Parkin mitophagy; spermidine targets AMPK/SIRT1 autophagy). This is a review-level rationale with no combination trial [PMID:41404767].
+- NMN / NAD+ precursors: NAD+ supplementation and UA both reversed memory deficits through mitophagy in AD models [PMID:30742114]. The PROMETHEUS feasibility protocol assigns UA and/or NMN by gerotype, but has no outcomes yet [PMID:42393428].
+- Pomegranate extract plus probiotics: a 24-strain synbiotic with 400 mg pomegranate extract raised urinary UA 49-fold at day 91. 100% of participants became UA producers vs 44.4% on placebo [PMID:40944126].
+- Fructooligosaccharides plus ellagic acid: synergistically raised UA biosynthesis and muscle endurance in animals [PMID:41506451].
+*** Conditions
+- Urolithin metabotype 0 (non-producers): these people make no UA from dietary ellagitannins. Direct supplementation bypasses this [PMID:24976365] [PMID:34117375].
+- Nephrolithiasis: see Safety [PMID:42058113].
+- Hormone-sensitive cancers: see Contraindications [PMID:16506809].
+*** Lab-test interference
+- No assay interference was found. Physiological changes in trials include lower CRP, acylcarnitines and ceramides [PMID:35584623] [PMID:40034121] and a higher HDL-C in HFrEF [PMID:38415449]. Kidney-stone IR spectra can be misread because UA is missing from standard IR libraries [PMID:42058113].
 
 ** Genotype notes
-- No cited pharmacogenomic or nutrigenomic source identified for a clinically useful genotype-specific note.
+- No cited pharmacogenomic source was found for UA itself.
+- The relevant host variable is microbial: the urolithin metabotype.
+  - UM-A (UA conjugates only): 25-80% of volunteers. UM-B (also isourolithin A/urolithin B): 10-50%. UM-0 (none): 5-25% [PMID:24976365].
+  - About 10% of people are non-producers, independent of age [PMID:41866331].
+  - Only 12% of adults had detectable baseline UA, and about 40% converted pomegranate-juice precursors [PMID:34117375].
+- Metabotype distribution was unaffected by sex, BMI or age in one 127-person cohort [PMID:37803793].
+- UM-B is linked with higher cholesterol and Coriobacteriaceae abundance [PMID:30471188], and with overweight in children (alongside a 24-SNP host panel) [PMID:32398726].
+- UA production depends on Enterocloster species carrying the ucd (urolithin C dehydroxylase) operon [PMID:39856097] and on cooperating gut strains [PMID:36840624].
+- Gut dysbiosis in older people may add variability to polyphenol/urolithin effects on muscle (review) [PMID:37242251].
+- Ellagitannin responses differ by metabotype: pomegranate lowered LDL-C only in UM-B [PMID:27879044], and TMAO fell mainly in UM-A [PMID:41642121].
 
 ** Latest research
-- 2024–2026: 2024 systematic review describes human healthspan evidence as preliminary and calls for larger/longer trials [PMID:39002645].
+- [2026-10] JAMA Netw Open RCT (n=50, obesity, 1,000 mg/d x 4 wk): no improvement in brachial FMD; exploratory increase in cerebrovascular task responses [PMID:42853569].
+- [2026-10] WAHA walnut trial MRI substudy (n=104): rising urinary UA was associated with preserved cortical thickness (beta 0.023 per SD, CI 0.003-0.043) [PMID:42841852].
+- [2026-10] PROMETHEUS precision-geromedicine protocol assigns UA/NMN by gerotype [PMID:42393428].
+- [2026-09] UA inhibits human platelet aggregation in vitro (IC50 3.7 uM) and potentiates aspirin; its glucuronide is inactive [PMID:42812264].
+- [2026-07] SR/MA of 5 RCTs (n=236): 6MWT MD +17.03 m (CI -5.33 to 39.40); GRADE low; other outcomes exploratory [PMID:42559151].
+- [2026-07] Critical review: no completed human CNS-endpoint trial; circulating UA is mostly conjugated [PMID:42468665].
+- [2026-06] First human UA-containing kidney stones (8 patients, all diet-related) [PMID:42058113].
+- [2026-06] UA activates an AhR-NLRP6-IL-18-IL-22 gut-barrier pathway, including in IBD biopsies [PMID:42336837].
+- [2026-06] PolyPAUSE RCT: an ellagitannin-containing polyphenol mix raised LDL-C but lowered oxLDL, depending on metabotype [PMID:42371155].
+- [2026-04] UA plus cyclosporine A outperformed monotherapy in murine lupus nephritis [PMID:42130005].
+- [2026-03] Early, but not late, UA treatment prevented age-related cognitive decline in mice [PMID:41786716].
+- [2026-03] Bioavailability review: about 10% non-producers; nano/liposomal forms raise exposure in preclinical work [PMID:41866331].
+- [2026-02] Postmenopausal crossover RCT: polyphenol-induced TMAO reduction was metabotype-dependent (UM-A) [PMID:41642121].
+- [2025-12] Review contrasts UA (mitophagy) with spermidine (autophagy) [PMID:41404767].
+- [2025-11] Nature Aging RCT (n=50): UA expanded naive-like CD8+ T cells and raised FAO capacity [PMID:41174221].
+- [2025-10] Pilot RCT in academy soccer players: Yo-Yo IR1 +239 m (CI 20-454) [PMID:41245402].
+- [2025-08] Elite runners RCT (n=42): no time-trial gain; lower CK and RPE [PMID:40839339].
+- [2025-08] Synbiotic with pomegranate extract made 100% of participants UA producers [PMID:40944126].
+- [2025-01] Enterocloster ucd operon identified as the UA-producing dehydroxylase [PMID:39856097].
+- [2024-11] Resistance-trained athletes RCT (n=20): MVIC and reps-to-failure improved; CRP lower [PMID:39487653].
 
 ** Open questions
-- Larger, preregistered, adequately powered human trials with standardized, chemically characterized products and longer follow-up are needed to establish clinically important benefits and characterize uncommon harms.
+- Whether surrogate mitochondrial and immune changes translate into fewer falls, less disability or less infection. All trials last 4 months or less, and most are sponsor-funded.
+- Long-term (>1 year) safety, including kidney-stone risk at supplemental doses given the poorly soluble aglycone [PMID:42058113].
+- In vivo antiplatelet relevance and interactions with anticoagulants/antiplatelets.
+- Human CYP/UGT/transporter interaction data for purified UA. Current signals come from pomegranate juice and in vitro work.
+- Brain penetration and cognitive efficacy in humans.
+- Whether benefit differs by urolithin metabotype or baseline mitochondrial status, and whether producers gain anything from supplementation.
+- Endocrine safety in hormone-sensitive cancers.
 
 ** Sources
-1. PMID:39002645
-2. PMID:35584623
-- Targeting aging with urolithin A in humans: a systematic review. Ageing Res Rev. 2024. PMID:39002645.
-- Human randomized clinical trial of urolithin A on muscle endurance and mitochondrial health. PMID:35584623.
+1. Ryu D et al. Urolithin A induces mitophagy and prolongs lifespan in C. elegans and increases muscle function in rodents. Nat Med. 2016. PMID:27400265 DOI:10.1038/nm.4132
+2. Andreux PA et al. The mitophagy activator urolithin A is safe and induces a molecular signature of improved mitochondrial and cellular health in humans. Nat Metab. 2019. PMID:32694802 DOI:10.1038/s42255-019-0073-4
+3. Liu S et al. Effect of Urolithin A Supplementation on Muscle Endurance and Mitochondrial Health in Older Adults: A Randomized Clinical Trial. JAMA Netw Open. 2022. PMID:35050355 DOI:10.1001/jamanetworkopen.2021.44279
+4. Singh A et al. Urolithin A improves muscle strength, exercise performance, and biomarkers of mitochondrial health in a randomized trial in middle-aged adults. Cell Rep Med. 2022. PMID:35584623 DOI:10.1016/j.xcrm.2022.100633
+5. Singh A et al. Direct supplementation with Urolithin A overcomes limitations of dietary exposure and gut microbiome variability in healthy adults to achieve consistent levels across the population. Eur J Clin Nutr. 2022. PMID:34117375 DOI:10.1038/s41430-021-00950-1
+6. Denk D et al. Effect of the mitophagy inducer urolithin A on age-related immune decline: a randomized, placebo-controlled trial. Nat Aging. 2025. PMID:41174221 DOI:10.1038/s43587-025-00996-x
+7. Heilman J et al. Safety assessment of Urolithin A, a metabolite produced by the human gut microbiota upon dietary intake of plant derived ellagitannins and ellagic acid. Food Chem Toxicol. 2017. PMID:28757461 DOI:10.1016/j.fct.2017.07.050
+8. Kuerec AH et al. Targeting aging with urolithin A in humans: A systematic review. Ageing Res Rev. 2024. PMID:39002645 DOI:10.1016/j.arr.2024.102406
+9. Dao T et al. Effects of Urolithin A supplementation on muscle health outcomes in humans from randomized controlled trials. Front Nutr. 2026. PMID:42559151 DOI:10.3389/fnut.2026.1834344
+10. Zhao H et al. Assessment of Urolithin A effects on muscle endurance, strength, inflammation, oxidative stress, and protein metabolism in male athletes with resistance training: an 8-week randomized, double-blind, placebo-controlled study. J Int Soc Sports Nutr. 2024. PMID:39487653 DOI:10.1080/15502783.2024.2419388
+11. Whitfield J et al. Evaluating the Impact of Urolithin A Supplementation on Running Performance, Recovery, and Mitochondrial Biomarkers in Highly Trained Male Distance Runners. Sports Med. 2025. PMID:40839339 DOI:10.1007/s40279-025-02292-5
+12. Monsalve Acevedo A et al. Effects of Urolithin A supplementation on performance and antioxidant status in academy soccer players during preseason: a pilot randomised controlled trial. Front Nutr. 2025. PMID:41245402 DOI:10.3389/fnut.2025.1674446
+13. Jamialahmadi T et al. Evaluation of Urolithin A Efficacy in Heart Failure Patients with Reduced Ejection Fraction: A Randomized, Double-blind, Crossover, Placebo-controlled Clinical Trial. Rev Recent Clin Trials. 2024. PMID:38415449 DOI:10.2174/0115748871279354240209101604
+14. Liu S et al. Urolithin A provides cardioprotection and mitochondrial quality enhancement preclinically and improves human cardiovascular health biomarkers. iScience. 2025. PMID:40034121 DOI:10.1016/j.isci.2025.111814
+15. da Costa Pinaffi-Langley AC et al. Urolithin A and Endothelial and Cerebrovascular Function in Middle-Aged Adults With Obesity: A Randomized Clinical Trial. JAMA Netw Open. 2026. PMID:42853569 DOI:10.1001/jamanetworkopen.2026.38047
+16. D'Amico D et al. Urolithin A improves mitochondrial health, reduces cartilage degeneration, and alleviates pain in osteoarthritis. Aging Cell. 2022. PMID:35778837 DOI:10.1111/acel.13662
+17. Best SL et al. First Reported Human Cases of Urolithin A Renal Calculi. Kidney Int Rep. 2026. PMID:42058113 DOI:10.1016/j.ekir.2026.106515
+18. Soloviova A et al. Urolithin A has antiplatelet effects in contrast to its glucuronide, urolithin B, and isourolithin A. Front Cardiovasc Med. 2026. PMID:42812264 DOI:10.3389/fcvm.2026.1843932
+19. García-Villalba R et al. Urolithins: a Comprehensive Update on their Metabolism, Bioactivity, and Associated Gut Microbiota. Mol Nutr Food Res. 2022. PMID:35118817 DOI:10.1002/mnfr.202101019
+20. Pidgeon R et al. Diet-derived urolithin A is produced by a dehydroxylase encoded by human gut Enterocloster species. Nat Commun. 2025. PMID:39856097 DOI:10.1038/s41467-025-56266-2
+21. Iglesias-Aguirre CE et al. Gut Bacteria Involved in Ellagic Acid Metabolism To Yield Human Urolithin Metabotypes Revealed. J Agric Food Chem. 2023. PMID:36840624 DOI:10.1021/acs.jafc.2c08889
+22. González-Sarrías A et al. Clustering according to urolithin metabotype explains the interindividual variability in the improvement of cardiovascular risk biomarkers in overweight-obese individuals consuming pomegranate: A randomized clinical trial. Mol Nutr Food Res. 2017. PMID:27879044 DOI:10.1002/mnfr.201600830
+23. Romo-Vaquero M et al. Deciphering the Human Gut Microbiome of Urolithin Metabotypes: Association with Enterotypes and Potential Cardiometabolic Health Implications. Mol Nutr Food Res. 2019. PMID:30471188 DOI:10.1002/mnfr.201800958
+24. Cortés-Martín A et al. Genetic Polymorphisms, Mediterranean Diet and Microbiota-Associated Urolithin Metabotypes can Predict Obesity in Childhood-Adolescence. Sci Rep. 2020. PMID:32398726 DOI:10.1038/s41598-020-64833-4
+25. Jarrín-Orozco MP et al. Precision health targeting TMAO in postmenopausal women: polyphenol effects modulated by urolithin A and equol metabotypes in a randomised, placebo-controlled crossover trial. Food Funct. 2026. PMID:41642121 DOI:10.1039/d5fo05461c
+26. García-Nicolás M et al. Polyphenols increase circulating lipids but improve LDL particle quality and reduce LDL oxidation in postmenopausal women: metabotype- and age-dependent effects in a randomised, placebo-controlled crossover trial. Eur J Nutr. 2026. PMID:42371155 DOI:10.1007/s00394-026-04027-2
+27. Muku GE et al. Urolithin A Is a Dietary Microbiota-Derived Human Aryl Hydrocarbon Receptor Antagonist. Metabolites. 2018. PMID:30501068 DOI:10.3390/metabo8040086
+28. Singh R et al. Enhancement of the gut barrier integrity by a microbial metabolite through the Nrf2 pathway. Nat Commun. 2019. PMID:30626868 DOI:10.1038/s41467-018-07859-7
+29. Ghosh S et al. Urolithin A activates aryl hydrocarbon receptor-NLRP6-mediated pathways in intestinal epithelial cells to modulate mucosal immunity and strengthen gut barrier integrity. Nat Commun. 2026. PMID:42336837 DOI:10.1038/s41467-026-73760-3
+30. González-Sarrías A et al. Dissimilar in vitro and in vivo effects of ellagic acid and its microbiota-derived metabolites, urolithins, on the cytochrome P450 1A1. J Agric Food Chem. 2009. PMID:19469472 DOI:10.1021/jf900725e
+31. Ghosh S et al. Cytochrome P450 1A1 is essential for the microbial metabolite, Urolithin A-mediated protection against colitis. Front Immunol. 2022. PMID:36159798 DOI:10.3389/fimmu.2022.1004603
+32. Larrosa M et al. Urolithins, ellagic acid-derived metabolites produced by human colonic microflora, exhibit estrogenic and antiestrogenic activities. J Agric Food Chem. 2006. PMID:16506809 DOI:10.1021/jf0527403
+33. Vini R et al. Urolithin A: A promising selective estrogen receptor modulator and 27-hydroxycholesterol attenuator in breast cancer. Phytother Res. 2023. PMID:37345359 DOI:10.1002/ptr.7919
+34. Borsky P et al. Distinct roles of urolithin A and spermidine in mitophagy and autophagy: implications for dietary supplementation. Nutr Res Rev. 2025. PMID:41404767 DOI:10.1017/S0954422425100292
+35. Fang EF et al. Mitophagy inhibits amyloid-β and tau pathology and reverses cognitive deficits in models of Alzheimer's disease. Nat Neurosci. 2019. PMID:30742114 DOI:10.1038/s41593-018-0332-9
+36. Hou Y et al. Urolithin A improves Alzheimer's disease cognition and restores mitophagy and lysosomal functions. Alzheimers Dement. 2024. PMID:38753870 DOI:10.1002/alz.13847
+37. Girish Oswal D et al. Is Urolithin A(UA) a pharmacologically credible neuro-nutraceutical? A critical review of mechanisms, brain exposure, and evidence gaps in Alzheimer's and Parkinson's disease. Neurochem Int. 2026. PMID:42468665 DOI:10.1016/j.neuint.2026.106224
+38. Faitg J et al. Mitophagy Activation by Urolithin A to Target Muscle Aging. Calcif Tissue Int. 2024. PMID:37925671 DOI:10.1007/s00223-023-01145-5
+39. D'Amico D et al. Impact of the Natural Compound Urolithin A on Health, Disease, and Aging. Trends Mol Med. 2021. PMID:34030963 DOI:10.1016/j.molmed.2021.04.009
+40. Jiménez-Loygorri JI et al. Mitophagy curtails cytosolic mtDNA-dependent activation of cGAS/STING inflammation during aging. Nat Commun. 2024. PMID:38280852 DOI:10.1038/s41467-024-45044-1
+41. Rodríguez-García A et al. Microbiota-derived urolithin A in monoclonal gammopathies and multiple myeloma therapy. Microbiome. 2025. PMID:40022244 DOI:10.1186/s40168-025-02045-6
+42. Ghosh S et al. Microbial metabolite restricts 5-fluorouracil-resistant colonic tumor progression by sensitizing drug transporters via regulation of FOXO3-FOXM1 axis. Theranostics. 2022. PMID:35910798 DOI:10.7150/thno.70754
+43. Stanisławska IJ et al. The effects of urolithins on the response of prostate cancer cells to non-steroidal antiandrogen bicalutamide. Phytomedicine. 2018. PMID:30097116 DOI:10.1016/j.phymed.2018.03.054
+44. Ganugula R et al. Combined cyclosporine A and urolithin A therapy ameliorates murine lupus nephritis. J Immunol. 2026. PMID:42130005 DOI:10.1093/jimmun/vkag087
+45. Mansoor K et al. Impact of Pomegranate Juice on the Pharmacokinetics of CYP3A4- and CYP2C9-Mediated Drugs Metabolism: A Preclinical and Clinical Review. Molecules. 2023. PMID:36903363 DOI:10.3390/molecules28052117
+46. Komperda KE et al. Potential interaction between pomegranate juice and warfarin. Pharmacotherapy. 2009. PMID:19637955 DOI:10.1592/phco.29.8.1002
+47. Srinivas NR et al. Is pomegranate juice a potential perpetrator of clinical drug-drug interactions? Review of the in vitro, preclinical and clinical evidence. Eur J Drug Metab Pharmacokinet. 2013. PMID:23673492 DOI:10.1007/s13318-013-0137-x
+48. Jara C et al. Early mitophagy activation by Urolithin A prevents, but late activation does not reverse, age-related cognitive impairment. NPJ Aging. 2026. PMID:41786716 DOI:10.1038/s41514-026-00351-3
+49. Napier BA et al. Multi-Species Synbiotic Supplementation Enhances Gut Microbial Diversity, Increases Urolithin A and Butyrate Production, and Reduces Inflammation in Healthy Adults: A Randomized, Placebo-Controlled Trial. Nutrients. 2025. PMID:40944126 DOI:10.3390/nu17172734
+50. Zhang L et al. Fructooligosaccharides and ellagic acid synergistically enhance muscular endurance via targeting gut microbial urolithin A biosynthesis. J Adv Res. 2026. PMID:41506451 DOI:10.1016/j.jare.2026.01.017
+51. Galkina P et al. Microbiota-derived urolithins and cortical thickness in cognitively healthy older adults: a longitudinal MRI analysis of the WAHA trial. Food Funct. 2026. PMID:42841852 DOI:10.1039/d6fo02116f
+52. Kuerec AH et al. PROMETHEUS clinical trial protocol: tailoring healthy ageing with lifestyle and nutraceuticals. Geroscience. 2026. PMID:42393428 DOI:10.1007/s11357-026-02394-6
+53. Yuan H et al. Urolithin A From Gut Metabolite to Therapeutic Agent: Bioavailability, Mechanisms, and Translational Insights. J Food Sci. 2026. PMID:41866331 DOI:10.1111/1750-3841.70988
+54. Mena P et al. Gastrointestinal stability of urolithins: an in vitro approach. Eur J Nutr. 2017. PMID:26439723 DOI:10.1007/s00394-015-1061-4
+55. Korczak M et al. Urolithin A conjugation with NSAIDs inhibits its glucuronidation and maintains improvement of Caco-2 monolayers' barrier function. Biomed Pharmacother. 2023. PMID:38000358 DOI:10.1016/j.biopha.2023.115932
+56. Eduardo Iglesias-Aguirre C et al. Unveiling metabotype clustering in resveratrol, daidzein, and ellagic acid metabolism: Prevalence, associated gut microbiomes, and their distinctive microbial networks. Food Res Int. 2023. PMID:37803793 DOI:10.1016/j.foodres.2023.113470
+57. Tomás-Barberán FA et al. Ellagic acid metabolism by human gut microbiota: consistent observation of three urolithin phenotypes in intervention trials, independent of food source, age, and health status. J Agric Food Chem. 2014. PMID:24976365 DOI:10.1021/jf5024615
+58. Seeram NP et al. Pomegranate juice ellagitannin metabolites are present in human plasma and some persist in urine for up to 48 hours. J Nutr. 2006. PMID:16988113 DOI:10.1093/jn/136.10.2481
+59. Ticinesi A et al. Accounting Gut Microbiota as the Mediator of Beneficial Effects of Dietary (Poly)phenols on Skeletal Muscle in Aging. Nutrients. 2023. PMID:37242251 DOI:10.3390/nu15102367

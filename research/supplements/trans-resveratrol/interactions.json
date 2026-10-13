@@ -4,28 +4,333 @@
   "slug": "trans-resveratrol",
   "aliases": [
     "resveratrol",
-    "trans-3,5,4'-trihydroxystilbene"
+    "trans-3,5,4'-trihydroxystilbene",
+    "RSV",
+    "micronized resveratrol (SRT501)"
   ],
-  "category": "botanical",
+  "category": "longevity",
   "rx_status": "otc",
   "evidence_certainty_overall": "low",
   "edges": [
     {
+      "with": "CYP3A4 substrates",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Resveratrol 1 g/d for 4 weeks inhibited CYP3A4 (buspirone probe) in healthy volunteers; intestinal CYP inhibition may reduce first-pass metabolism and raise exposure to co-administered substrates.",
+      "evidence": "Human phenotyping study (n=42) plus review; interaction magnitude at <=500 mg/d unknown",
+      "citations": [
+        "PMID:20716633",
+        "PMID:22788578"
+      ]
+    },
+    {
+      "with": "Rapamycin",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Sirolimus is a CYP3A4 substrate; resveratrol 1 g/d inhibits CYP3A4 and may raise sirolimus exposure. No direct study.",
+      "evidence": "Inferred from human CYP phenotyping study and review; very low certainty",
+      "citations": [
+        "PMID:20716633",
+        "PMID:22788578"
+      ]
+    },
+    {
+      "with": "CYP2C9 substrates",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "CYP2C9 activity (losartan probe) inhibited at 1 g/d; may raise exposure to CYP2C9 substrates such as S-warfarin.",
+      "evidence": "Human phenotyping study; no clinical interaction outcome study",
+      "citations": [
+        "PMID:20716633",
+        "PMID:22788578"
+      ]
+    },
+    {
+      "with": "CYP2D6 substrates",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "CYP2D6 activity (dextromethorphan probe) inhibited at 1 g/d.",
+      "evidence": "Human phenotyping study; low certainty",
+      "citations": [
+        "PMID:20716633"
+      ]
+    },
+    {
+      "with": "CYP1A2 substrates",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "CYP1A2 activity (caffeine probe) induced at 1 g/d; exposure to CYP1A2 substrates may fall.",
+      "evidence": "Human phenotyping study; low certainty",
+      "citations": [
+        "PMID:20716633"
+      ]
+    },
+    {
+      "with": "Caffeine",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Resveratrol 1 g/d induced CYP1A2, measured by caffeine metabolism; faster caffeine clearance possible.",
+      "evidence": "Human phenotyping study using caffeine as probe",
+      "citations": [
+        "PMID:20716633"
+      ]
+    },
+    {
+      "with": "anticoagulants",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "CYP2C9 inhibition (warfarin pathway) plus in vitro/ex vivo antiplatelet activity (reduced TXA2, thrombus formation, collagen/epinephrine aggregation) could increase bleeding tendency.",
+      "evidence": "Mechanistic/ex vivo plus human CYP data; no clinical bleeding reports identified",
+      "citations": [
+        "PMID:20716633",
+        "PMID:35458194",
+        "PMID:16954814"
+      ]
+    },
+    {
+      "with": "antiplatelet agents",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Resveratrol inhibits COX-1-dependent and collagen/epinephrine-induced platelet aggregation; additive antiplatelet effect possible.",
+      "evidence": "In vitro and ex vivo platelet studies; very low certainty",
+      "citations": [
+        "PMID:19652885",
+        "PMID:16954814",
+        "PMID:35458194"
+      ]
+    },
+    {
+      "with": "Aspirin",
       "with_kind": "supplement",
       "kind": "caution",
       "severity": "minor",
-      "mechanism": "Possible additive platelet effects and metabolism modulation are theoretical.",
-      "evidence": "Limited or mechanistic evidence; no direct clinically decisive interaction trial identified.",
+      "mechanism": "Additive platelet inhibition: resveratrol inhibited aggregation of platelets from aspirin-resistant patients, and a resveratrol-containing polyphenol mixture potentiated sub-inhibitory aspirin at COX-1.",
+      "evidence": "Ex vivo/in vitro and mouse data; no clinical bleeding data",
       "citations": [
-        "PMID:39288907",
-        "PMID:39478418"
-      ],
-      "with": "Curcumin"
+        "PMID:16954814",
+        "PMID:19652885"
+      ]
+    },
+    {
+      "with": "Quercetin",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Both resveratrol and quercetin inhibit arachidonic-acid-induced platelet aggregation via COX-1; additive antiplatelet effect plausible.",
+      "evidence": "In vitro functional and modelling study",
+      "citations": [
+        "PMID:19652885"
+      ]
+    },
+    {
+      "with": "bortezomib",
+      "with_kind": "drug",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Phase 2 trial of micronized resveratrol (SRT501, 5 g/d) alone or with bortezomib in relapsed/refractory myeloma was terminated after unexpected cast nephropathy/renal failure; etiology ambiguous (nausea/vomiting-related dehydration proposed).",
+      "evidence": "Terminated phase 2 trial (n=24) as reported by review and registry",
+      "citations": [
+        "PMID:23205612",
+        "PMID:42542881"
+      ]
+    },
+    {
+      "with": "multiple myeloma",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "High-dose SRT501 associated with renal failure in myeloma patients, who already have high baseline renal risk; high-dose renal toxicity also seen in rats.",
+      "evidence": "Terminated phase 2 trial; rat toxicology (nephropathy at 3000 mg/kg/d)",
+      "citations": [
+        "PMID:23205612",
+        "PMID:42542881",
+        "PMID:15329443"
+      ]
+    },
+    {
+      "with": "renal impairment",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Gram-level doses linked to renal failure in myeloma and nephropathy in rats; in general populations a 31-RCT MA showed no harm (BUN slightly lower).",
+      "evidence": "Mixed: trial termination and animal data vs reassuring MA; low certainty",
+      "citations": [
+        "PMID:15329443",
+        "PMID:23205612",
+        "PMID:40580309"
+      ]
+    },
+    {
+      "with": "estrogen-sensitive cancers",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Resveratrol binds estrogen receptor and acts as an agonist/superagonist, stimulating ER+ breast cancer cell proliferation in vitro.",
+      "evidence": "In vitro only; relevance at achievable plasma levels unproven",
+      "citations": [
+        "PMID:9391166",
+        "PMID:12594813"
+      ]
+    },
+    {
+      "with": "Metformin ER",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Additive glucose-lowering via AMPK/SIRT1-related pathways; the combination lowered fasting glucose more than resveratrol alone in a PCOS RCT with no unexpected toxicity.",
+      "evidence": "One 6-month RCT (n=63) and preclinical SR; resveratrol glycemic effect itself small and inconsistent",
+      "citations": [
+        "PMID:40888876",
+        "PMID:32168855",
+        "PMID:24695890"
+      ]
+    },
+    {
+      "with": "glucose-lowering drugs",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Modest reductions in glucose/HbA1c/insulin in diabetic participants could add to antidiabetic drugs.",
+      "evidence": "MAs of RCTs; low certainty and inconsistent",
+      "citations": [
+        "PMID:24695890",
+        "PMID:34320173",
+        "PMID:31978258"
+      ]
+    },
+    {
+      "with": "NMN",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Proposed complementary SIRT1 support: NAD+ precursors supply SIRT1 substrate while resveratrol is proposed as an allosteric activator. Human SIRT1 not measurably changed by resveratrol.",
+      "evidence": "Narrative review rationale only; no human combination trial; very low certainty",
+      "citations": [
+        "PMID:36522127",
+        "PMID:40158656"
+      ]
+    },
+    {
+      "with": "Nicotinamide Riboside",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "NR plus resveratrol outperformed either alone in diabetic rat wound healing; complementary NAD+/SIRT1 rationale.",
+      "evidence": "Rat study and narrative review; no human data",
+      "citations": [
+        "PMID:38583241",
+        "PMID:36522127"
+      ]
+    },
+    {
+      "with": "endurance/high-intensity exercise training",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "250 mg/d blunted training gains in VO2max, BP and lipids and blunted reductions in muscle oxidative stress/TNF-alpha in aged men; another RCT with 500 mg/d found enhanced muscle adaptations.",
+      "evidence": "Small RCTs with conflicting results; low certainty",
+      "citations": [
+        "PMID:23878368",
+        "PMID:24514907",
+        "PMID:28505227"
+      ]
+    },
+    {
+      "with": "nonalcoholic fatty liver disease",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "ALT/AST rose with resveratrol in an NAFLD RCT and ALT increased in an MA; no consistent benefit on liver parameters.",
+      "evidence": "RCT and MA of 7 RCTs; low certainty",
+      "citations": [
+        "PMID:24582567",
+        "PMID:32823621"
+      ]
+    },
+    {
+      "with": "ALT/AST",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Physiological (not analytical) elevation of aminotransferases reported in NAFLD trials.",
+      "evidence": "RCT and MA",
+      "citations": [
+        "PMID:24582567",
+        "PMID:32823621"
+      ]
     }
   ],
   "citations": [
+    "PMID:9391166",
+    "PMID:12594813",
+    "PMID:15329443",
+    "PMID:15333514",
+    "PMID:15684413",
+    "PMID:16954814",
+    "PMID:17548692",
+    "PMID:19652885",
+    "PMID:19843076",
+    "PMID:20061378",
+    "PMID:20716633",
+    "PMID:20974732",
+    "PMID:21680702",
+    "PMID:22055504",
+    "PMID:22788578",
+    "PMID:23193181",
+    "PMID:23205612",
+    "PMID:23471411",
+    "PMID:23878368",
+    "PMID:24514907",
+    "PMID:24582567",
+    "PMID:24695890",
+    "PMID:25322274",
+    "PMID:26362286",
+    "PMID:26784973",
+    "PMID:28086917",
+    "PMID:28505227",
+    "PMID:29359958",
+    "PMID:29596658",
+    "PMID:30237505",
+    "PMID:31978258",
+    "PMID:32168855",
+    "PMID:32564438",
+    "PMID:32823621",
+    "PMID:33068691",
+    "PMID:33303422",
+    "PMID:34320173",
+    "PMID:34420523",
+    "PMID:34472150",
+    "PMID:35458194",
+    "PMID:36145131",
+    "PMID:36522127",
     "PMID:38255828",
-    "PMID:39288907",
-    "PMID:39478418"
+    "PMID:38433010",
+    "PMID:38583241",
+    "PMID:38958883",
+    "PMID:39255906",
+    "PMID:39557444",
+    "PMID:39723101",
+    "PMID:40158656",
+    "PMID:40439602",
+    "PMID:40507855",
+    "PMID:40580309",
+    "PMID:40771919",
+    "PMID:40854984",
+    "PMID:40888876",
+    "PMID:41037125",
+    "PMID:41455817",
+    "PMID:41760304",
+    "PMID:41987155",
+    "PMID:42268476",
+    "PMID:42542881",
+    "URL:https://clinicaltrials.gov/study/NCT00920556"
   ]
 }

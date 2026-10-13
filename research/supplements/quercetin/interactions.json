@@ -3,30 +3,386 @@
   "supplement": "Quercetin",
   "slug": "quercetin",
   "aliases": [
+    "quercetin aglycone",
     "quercetin dihydrate",
+    "Quercetin Phytosome",
     "isoquercetin",
-    "rutin (related glycoside)"
+    "isoquercitrin",
+    "quercetin-3-O-glucoside",
+    "enzymatically modified isoquercitrin",
+    "EMIQ",
+    "quercetin glycosides",
+    "3,3',4',5,7-pentahydroxyflavone"
   ],
   "category": "botanical",
   "rx_status": "otc",
   "evidence_certainty_overall": "low",
   "edges": [
     {
+      "with": "cyclosporine",
+      "with_kind": "drug",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Quercetin (and rutin) activated P-gp and CYP3A4, cutting cyclosporine (Neoral) Cmax 67.8% and AUC 43.3%; authors advise transplant patients to avoid co-use (rejection risk).",
+      "evidence": "Rat PK study plus in vitro; 2026 SR notes P-gp interactions among the few clinically shown; low certainty",
+      "citations": [
+        "PMID:21466223",
+        "PMID:42827146"
+      ]
+    },
+    {
+      "with": "digoxin",
+      "with_kind": "drug",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "P-gp modulation: quercetin raised digoxin Cmax 413% and AUC 170% in pigs; 2 of 3 pigs at 50 mg/kg died. Human P-gp inhibition shown with fexofenadine.",
+      "evidence": "Animal PK study plus human probe study; no human digoxin data; low certainty",
+      "citations": [
+        "PMID:14697403",
+        "PMID:19221726"
+      ]
+    },
+    {
+      "with": "warfarin",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "major",
+      "mechanism": "Case report of enhanced anticoagulant effect; quercetin metabolites displace warfarin from albumin (weak CYP2C9 inhibition); additive antiplatelet activity.",
+      "evidence": "Case report (title only, no abstract) plus in vitro and human platelet data; low certainty",
+      "citations": [
+        "PMID:36311308",
+        "PMID:28135601",
+        "PMID:15613018"
+      ]
+    },
+    {
+      "with": "anticoagulants and antiplatelet agents",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Quercetin inhibits collagen-induced platelet aggregation in humans; isoquercetin inhibits PDI and lowers D-dimer and thrombin generation. No major bleeding in trials.",
+      "evidence": "Human pilot study and phase II/RCT biomarker data; low certainty",
+      "citations": [
+        "PMID:15613018",
+        "PMID:30652973",
+        "PMID:38157227"
+      ]
+    },
+    {
+      "with": "Aspirin",
       "with_kind": "supplement",
       "kind": "caution",
       "severity": "minor",
-      "mechanism": "Potential overlapping CYP/transporter modulation is mechanistic; no direct clinical interaction study identified.",
-      "evidence": "Limited or mechanistic evidence; no direct clinically decisive interaction trial identified.",
+      "mechanism": "Quercetin metabolites (isorhamnetin, tamarixetin) enhanced aspirin's antiplatelet effect more than additively, cutting aspirin IC50 about 10-fold.",
+      "evidence": "In vitro and whole-blood ex vivo assays; very low certainty for clinical bleeding",
       "citations": [
-        "PMID:42827146",
-        "PMID:38255828"
-      ],
-      "with": "Trans-resveratrol"
+        "PMID:31367693",
+        "PMID:15613018"
+      ]
+    },
+    {
+      "with": "fexofenadine",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Inhibition of intestinal P-gp: 500 mg three times daily for 7 days raised fexofenadine AUC 55% and Cmax 68%.",
+      "evidence": "Human crossover PK study (n=12); moderate certainty for PK effect",
+      "citations": [
+        "PMID:19221726"
+      ]
+    },
+    {
+      "with": "P-glycoprotein substrates (e.g. talinolol)",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Direction varies by substrate: P-gp inhibition (fexofenadine) vs lower talinolol exposure (induction or OATP uptake effects), more marked in ABCB1 3435 TT.",
+      "evidence": "Human PK studies (n=10-18); low certainty",
+      "citations": [
+        "PMID:19221726",
+        "PMID:24472704",
+        "PMID:23422925"
+      ]
+    },
+    {
+      "with": "statins (OATP1B1 substrates, e.g. pravastatin)",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "OATP1B1 inhibition: 500 mg/d for 14 days raised pravastatin AUC 24% (CI 15-32%) and Cmax 31%; OATP1B1/1B3 Ki about 8-18 uM in vitro.",
+      "evidence": "Human PK study (n=16) plus in vitro; moderate certainty for PK effect",
+      "citations": [
+        "PMID:22114872",
+        "PMID:22394605"
+      ]
+    },
+    {
+      "with": "CYP2C9 substrates (e.g. diclofenac)",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "CYP2C9 inhibition: 500 mg twice daily for 10 days raised diclofenac Cmax/AUC beyond 0.80-1.25 limits and lowered 4-OH-diclofenac.",
+      "evidence": "Human open-label PK study (n=12); 2026 SR lists CYP2C9 among confirmed interactions; low-moderate certainty",
+      "citations": [
+        "PMID:29168292",
+        "PMID:42827146"
+      ]
+    },
+    {
+      "with": "CYP3A substrates (e.g. midazolam)",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Repeated quercetin induced CYP3A: lower oral midazolam AUC (500 mg/d x 13 d; 1500 mg/d x 7 d GMR 0.82), more in CYP3A5*1 carriers.",
+      "evidence": "Human PK studies (n=10-18); low certainty",
+      "citations": [
+        "PMID:21680781",
+        "PMID:25988261"
+      ]
+    },
+    {
+      "with": "Rapamycin",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Rapamycin is a CYP3A/P-gp substrate; quercetin induced CYP3A in humans and lowered exposure to the CYP3A/P-gp substrate cyclosporine in rats. Inferred; no sirolimus study.",
+      "evidence": "Mechanistic inference from human CYP3A probe and rat cyclosporine data; very low certainty",
+      "citations": [
+        "PMID:21680781",
+        "PMID:21466223",
+        "PMID:42827146"
+      ]
+    },
+    {
+      "with": "Caffeine",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "CYP1A2 inhibition: 500 mg/d for 13 days lowered CYP1A2 activity 10.4% (CI 1.1-29.8%) and significantly slowed caffeine metabolism, regardless of CYP1A2*1C/*1F genotype.",
+      "evidence": "Two human probe studies (n=12 each); moderate certainty for PK effect, minor clinical impact",
+      "citations": [
+        "PMID:19215233",
+        "PMID:25025048"
+      ]
+    },
+    {
+      "with": "Green Tea Extract",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Quercetin inhibits COMT and MRP1, decreasing EGCG methylation and raising tissue EGCG 2-3x.",
+      "evidence": "Cell and mouse data only; very low certainty",
+      "citations": [
+        "PMID:22438067"
+      ]
+    },
+    {
+      "with": "fluoroquinolones",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Quercetin binds DNA gyrase B (ATP site) but competes only weakly with quinolones; high-dose quercetin partly reduced ciprofloxacin activity against E. coli.",
+      "evidence": "In vitro only; clinical relevance unknown; very low certainty",
+      "citations": [
+        "PMID:12804597",
+        "PMID:8718602",
+        "PMID:33025172"
+      ]
+    },
+    {
+      "with": "iron supplements (non-heme)",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Quercetin chelates iron (3-OH/4-carbonyl) and lowers duodenal ferroportin, reducing basolateral iron export.",
+      "evidence": "Rat and Caco-2 data; very low certainty",
+      "citations": [
+        "PMID:25058155"
+      ]
+    },
+    {
+      "with": "Metformin ER",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Possible additive glucose/insulin lowering (insulin WMD -1.07; FPG lower only in >=500 mg/d, >=8 wk subgroups); quercetin does not inhibit OCT1 in vitro.",
+      "evidence": "Meta-analyses (no direct co-administration study) plus in vitro transporter data; low certainty",
+      "citations": [
+        "PMID:37654199",
+        "PMID:30848564",
+        "PMID:22394605"
+      ]
+    },
+    {
+      "with": "antihypertensives",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Additive BP lowering: SBP about -2 to -3 mmHg in meta-analyses, larger at >=500 mg/d and in stage 1 hypertension.",
+      "evidence": "Umbrella review and MAs of RCTs; low certainty",
+      "citations": [
+        "PMID:37654199",
+        "PMID:27405810",
+        "PMID:17951477"
+      ]
+    },
+    {
+      "with": "dasatinib",
+      "with_kind": "drug",
+      "kind": "synergy",
+      "severity": "moderate",
+      "mechanism": "Complementary senolytic targets (quercetin: senescent endothelial cells/BM-MSCs; dasatinib: senescent preadipocytes); intermittent D+Q raises AE rates vs placebo.",
+      "evidence": "Preclinical plus phase 1-2 trials; investigational; low certainty",
+      "citations": [
+        "PMID:25754370",
+        "PMID:36857968",
+        "PMID:42823536"
+      ]
+    },
+    {
+      "with": "chronic kidney disease",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Animal data suggest potentiated nephrotoxicity in damaged kidneys; IV bolus quercetin was dose-limiting nephrotoxic (945-1700 mg/m2).",
+      "evidence": "Safety review plus phase I IV trial; low certainty for oral doses",
+      "citations": [
+        "PMID:29127724",
+        "PMID:9816216"
+      ]
+    },
+    {
+      "with": "estrogen-dependent cancer",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Animal studies suggest possible promotion of estrogen-dependent tumors.",
+      "evidence": "Safety review of animal data; very low certainty",
+      "citations": [
+        "PMID:29127724"
+      ]
+    },
+    {
+      "with": "hypothyroidism / thyroid disease",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Quercetin inhibits iodide uptake, NIS/TSHR/TPO/Tg expression and type 1 deiodinase in vitro and in rats.",
+      "evidence": "In vitro/rat data and review; no human data; very low certainty",
+      "citations": [
+        "PMID:24447974",
+        "PMID:39456456"
+      ]
+    },
+    {
+      "with": "serum uric acid",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "True physiological lowering via xanthine oxidoreductase inhibition: -26.5 umol/L (CI -7.6 to -45.5) with 500 mg/d for 4 weeks.",
+      "evidence": "Crossover RCT (n=22) plus mechanistic study; low certainty",
+      "citations": [
+        "PMID:26785820",
+        "PMID:33091574"
+      ]
+    },
+    {
+      "with": "HRP-based assays",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Quercetin inhibits horseradish peroxidase at nM concentrations, abolishing signal in Amplex-type HRP assays.",
+      "evidence": "In vitro research-assay data; no clinical analyzer data; very low certainty",
+      "citations": [
+        "PMID:40518027"
+      ]
+    },
+    {
+      "with": "ABCB1 (MDR1) C3435T",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Quercetin-induced drop in talinolol AUC was most marked in 3435 TT carriers.",
+      "evidence": "Human PK study (n=18); very low certainty",
+      "citations": [
+        "PMID:23422925"
+      ]
+    },
+    {
+      "with": "CYP3A5*1 carriers",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "CYP3A induction by quercetin (lower midazolam AUC) more prominent in CYP3A5*1/*1 and *1/*3 carriers.",
+      "evidence": "Human PK study (n=18); very low certainty",
+      "citations": [
+        "PMID:21680781"
+      ]
     }
   ],
   "citations": [
+    "PMID:8718602",
+    "PMID:9816216",
+    "PMID:12804597",
+    "PMID:14697403",
+    "PMID:15613018",
+    "PMID:17951477",
+    "PMID:19215233",
+    "PMID:19221726",
+    "PMID:20478383",
+    "PMID:21466223",
+    "PMID:21606866",
+    "PMID:21680781",
+    "PMID:22114872",
+    "PMID:22394605",
+    "PMID:22438067",
+    "PMID:22805526",
+    "PMID:23422925",
+    "PMID:24447974",
+    "PMID:24472704",
+    "PMID:25025048",
+    "PMID:25058155",
+    "PMID:25754370",
+    "PMID:25897620",
+    "PMID:25988261",
+    "PMID:26785820",
+    "PMID:27405810",
+    "PMID:28135601",
+    "PMID:29127724",
+    "PMID:29168292",
+    "PMID:30328058",
+    "PMID:30616998",
+    "PMID:30652973",
+    "PMID:30848564",
+    "PMID:31367693",
+    "PMID:31542391",
+    "PMID:31557798",
+    "PMID:31940027",
+    "PMID:33025172",
+    "PMID:33091574",
+    "PMID:35776034",
+    "PMID:35948195",
+    "PMID:36311308",
+    "PMID:36499113",
+    "PMID:36857968",
+    "PMID:37398956",
+    "PMID:37654199",
+    "PMID:38157227",
+    "PMID:38185856",
+    "PMID:38930033",
+    "PMID:38956196",
+    "PMID:39417670",
+    "PMID:39456456",
+    "PMID:40037045",
+    "PMID:40063125",
+    "PMID:40362785",
+    "PMID:40375481",
+    "PMID:40518027",
+    "PMID:41404533",
+    "PMID:41759822",
+    "PMID:42435069",
+    "PMID:42823536",
     "PMID:42827146",
-    "PMID:41227106",
-    "PMID:38255828"
+    "PMID:42834340"
   ]
 }

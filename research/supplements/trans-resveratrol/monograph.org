@@ -3,50 +3,193 @@
 :ID: supp-trans-resveratrol
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: resveratrol | trans-3,5,4'-trihydroxystilbene
-:CATEGORY: botanical
+:ALIASES: resveratrol | trans-3,5,4'-trihydroxystilbene | RSV | micronized resveratrol (SRT501)
+:CATEGORY: longevity
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Trans-resveratrol is represented by these commonly studied or marketed forms: resveratrol, trans-3,5,4'-trihydroxystilbene. Clinical products and formulations can differ in composition and bioavailability; this limits cross-trial comparisons [PMID:38255828, PMID:39288907].
+- Trans-resveratrol (trans-3,5,4'-trihydroxystilbene) is a stilbene polyphenol found in grapes and red wine. It is sold as a purified supplement. About 200 clinical studies across at least 24 indications have used purified resveratrol, but there is no consensus regimen for any condition [PMID:38255828].
+- Oral absorption is high but systemic bioavailability is very low:
+  - In a 14C study, at least 70% of a 25 mg dose was absorbed. Only trace unchanged resveratrol (<5 ng/mL) appeared in plasma, because the intestine and liver rapidly sulfate- and glucuronide-conjugate it. Gut microflora also hydrogenate it to dihydroresveratrol [PMID:15333514].
+  - A single 5 g dose gave a peak of 539 ng/mL (2.4 umol/L). Sulfate and glucuronide metabolite AUCs were up to 23-fold higher than the parent compound [PMID:17548692].
+  - A 2025 meta-analysis of 84 oral administrations (25-5000 mg) found free resveratrol exposure rises linearly with dose. Mean Cmax was about 31 ng/mL, and heterogeneity between studies was substantial [PMID:39557444].
+- Micronized resveratrol (SRT501, 5 g/d) gave about 3.6-fold higher plasma levels than equivalent non-micronized doses (mean 1942 ng/mL), and the drug was detectable in liver tissue [PMID:21680702].
+- Formulation, dose and population differ widely between trials, which limits comparisons across them [PMID:38255828] [PMID:39557444].
 
 ** Mechanisms
-- Proposed mechanisms are outcome- and formulation-dependent; mechanistic plausibility does not establish clinical efficacy. Human evidence is summarized below [PMID:38255828, PMID:39288907].
+- SIRT1 controversy:
+  - Resveratrol's apparent activation of SIRT1/Sir2 in vitro depended on the non-physiological Fluor de Lys fluorophore. It had no effect on Sir2 activity or yeast life span in vivo [PMID:15684413].
+  - Two independent groups found that resveratrol does not activate SIRT1 with native peptide or full-length protein substrates (p53, acetyl-CoA synthetase, PGC-1alpha). It has multiple off-target activities [PMID:20061378] [PMID:19843076].
+  - Later work showed allosteric SIRT1 activation that requires hydrophobic substrate motifs and SIRT1 Glu230. This restored a direct, substrate-dependent mechanism [PMID:23471411]. A 2022 review still describes resveratrol as an allosteric SIRT1 activator with poor pharmacokinetics [PMID:36522127].
+  - In humans, a GRADE-assessed meta-analysis (11 RCTs) found no significant effect on SIRT1 gene expression (SMD 0.05, CI -0.24 to 0.34), protein expression or serum levels [PMID:40158656].
+- Calorie-restriction mimicry: in 11 obese men, 150 mg/d for 30 days activated muscle AMPK, raised SIRT1/PGC-1alpha protein and lowered liver fat, glucose and systolic BP [PMID:22055504]. A 4-week high-dose trial in 24 obese men found no effect on insulin sensitivity (clamp), BP, energy expenditure, fat depots or inflammatory markers [PMID:23193181].
+- Lifespan: in the NIA Interventions Testing Program, resveratrol at 300 or 1200 ppm in food did not extend life span in genetically heterogeneous mice. Rapamycin did [PMID:20974732].
+- Estrogen receptor agonism: at about 3-10 uM resveratrol binds ER and activates estrogen-responsive transcription. It acted as a superagonist in MCF-7 cells and stimulated proliferation of estrogen-dependent T47D cells [PMID:9391166]. It is a type I ER agonist with additional ER-independent growth-inhibitory pathways [PMID:12594813]. Typical plasma levels after oral dosing are far lower than these concentrations [PMID:17548692].
+- Platelets: inhibits arachidonic-acid-induced aggregation at the COX-1 level [PMID:19652885]. It reduces collagen-induced thrombus formation and TXA2 release in vitro, including in platelets from people with T2D [PMID:35458194].
+- Drug metabolism: 1 g/d for 4 weeks inhibited CYP3A4, CYP2D6 and CYP2C9 and induced CYP1A2 in healthy volunteers [PMID:20716633].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---|---|---|---|---|---|
-| Metabolic/cardiovascular surrogate findings are mixed | Systematic review/meta-analysis or human trial synthesis | Mixed/possible benefit; no established clinical disease prevention | See evidence summary below; pooled estimates vary by outcome and population | low | PMID:38255828, PMID:39288907 |
-
-- Systematic review catalogued 194 clinical studies but found sparse interaction testing and substantial heterogeneity in doses, populations and endpoints [PMID:38255828].
-- Metabolic/cardiovascular surrogate findings are mixed; no robust evidence for lifespan extension or prevention of clinical events. Certainty low/very low due to heterogeneity [PMID:38255828].
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Glycemia in T2D | Cochrane SR (3 RCTs, n=50); umbrella reviews; MA of 11 RCTs | Inconsistent; small benefit at most | Cochrane: HbA1c MD 0.1% (CI -0.02 to 0.2), FBG MD 2 mg/dL (CI -2 to 7). Umbrella 2021: short-term HbA1c -1.05% (CI -2.09 to -0.02; GRADE moderate). Umbrella 2026: no significant FBG/HbA1c/HOMA-IR effect | low | [PMID:31978258] [PMID:34320173] [PMID:42268476] [PMID:24695890] |
+| Glycemia in non-diabetic people | MA of 11 RCTs | No effect | Not significant | low | [PMID:24695890] |
+| Blood pressure | MA of 17 RCTs; umbrella 2026; crossover RCT | Null overall; benefit in T2D/high dose | Overall SBP WMD -2.5 mmHg (CI -5.5 to 0.6). In T2D (umbrella, GRADE high): SBP -7.97 (CI -10.63 to -5.31), DBP -3.55 (CI -5.18 to -1.93). 1 g/d for 4 wk: no BP effect | low | [PMID:29359958] [PMID:41987155] [PMID:40854984] |
+| Lipids | Umbrella MA; dose-response MA | Small reduction | TC SMD -0.20 (CI -0.31 to -0.08), TG SMD -0.14; WMD analyses not significant, "not clinically important"; dose-response for LDL-C | low | [PMID:39255906] [PMID:36145131] [PMID:42268476] |
+| NAFLD/MASLD | MA (7 RCTs, n=302); RCTs; 2024 MA | Largely null; possible steatosis benefit | No effect on liver parameters; ALT rose (p=0.041). Steatosis improvement OR 3.18 (CI 1.20-8.42) in a 2024 MA | low | [PMID:32823621] [PMID:24582567] [PMID:26784973] [PMID:39723101] |
+| CRP / inflammation | MA of 35 RCTs; CAD MA | Small decrease | hs-CRP -0.40 mg/L (CI -0.70 to -0.09); CRP -0.31 mg/L (CI -0.47 to -0.15); TNF-alpha reduced in primary prevention | low | [PMID:34472150] [PMID:38958883] [PMID:41760304] |
+| Body weight / waist | MA of 23 RCTs (overweight/obese) | Waist reduction only | WC -1.93 cm (CI -3.10 to -0.76); weight -1.42 kg (CI -3.19 to 0.35, NS) | low | [PMID:41455817] [PMID:41987155] |
+| Cognition (healthy/older adults) | MA of 10 RCTs; SR/MA of human vs animal data | Small or no effect | Delayed recognition SMD 0.39 (CI 0.08-0.70); 11 human MAs found no significant cognitive effects | low | [PMID:29596658] [PMID:33303422] [PMID:40771919] |
+| Alzheimer disease | Phase 2 RCT (n=119, 52 wk) | Biomarker changes; no proven clinical benefit | CSF/plasma Abeta40 stabilized; greater brain-volume loss; subset: less MMSE/ADL decline, lower CSF MMP9 and TREM2 | low | [PMID:26362286] [PMID:28086917] [PMID:40507855] |
+| Bone mineral density | MA of 10 RCTs (n=698); RCTs | Null in MA; benefit in individual RCTs | MA: lumbar aBMD MD -0.02 (CI -0.05 to 0.01). RESHAW: lumbar +0.016 g/cm2, femoral neck +0.005 g/cm2 at 12 mo | low | [PMID:34420523] [PMID:32564438] [PMID:25322274] [PMID:30237505] |
+| Exercise training adaptations | RCTs in older adults | Conflicting: blunting vs enhancement | 250 mg/d blunted VO2max gain (45% smaller) and BP/lipid benefit of HIIT; 500 mg/d with training raised knee-extensor torque and power | low | [PMID:23878368] [PMID:24514907] [PMID:28505227] [PMID:33068691] |
+| Renal function | Dose-response MA (31 RCTs, n=2299) | Small improvement | BUN WMD -1.20 mg/dL (CI -1.89 to -0.51) | low | [PMID:40580309] |
+| Knee osteoarthritis | RCT (n=137, 12 wk) | Benefit | Lower pain/WOMAC, better gait speed and grip; single-centre | very low | [PMID:41037125] |
 
 ** Dosing in trials
-- Trials range from tens of mg to multi-gram daily, commonly 150–1,000 mg/day for weeks/months; higher doses increase GI effects [PMID:38255828].
+- Supplement-type doses: 75 mg twice daily for 12 months (postmenopausal bone/cognition) [PMID:32564438]; 150 mg/d (obese men) [PMID:22055504]; 250 mg/d with exercise training [PMID:23878368]; 500 mg/d (knee OA, exercise) [PMID:41037125] [PMID:28505227].
+- High doses: 1 g/d for 4 weeks (CYP phenotyping) [PMID:20716633]; 500 mg/d escalated to 1 g twice daily over 52 weeks in Alzheimer disease [PMID:26362286]; single doses up to 5 g [PMID:17548692]; micronized SRT501 5 g/d [PMID:21680702].
+- Dose dependence:
+  - BP effects were seen mainly at >=300 mg/d [PMID:29359958].
+  - CRP fell more with >=500 mg/d for >=10 weeks [PMID:34472150].
+  - Bone formation marker (BAP) rose dose-dependently with 150 vs 1000 mg/d [PMID:25322274].
+- Reviews conclude resveratrol is generally well tolerated up to 1 g/d [PMID:38255828]. A bioavailability MA suggests 100-500 mg doses give exposures similar to the mean across all doses [PMID:39557444].
 
 ** Safety & adverse effects
-- GI symptoms (nausea, diarrhea, abdominal discomfort) are the most frequent reported adverse effects; long-term high-dose safety remains uncertain [PMID:38255828].
+- Common: GI effects. Nausea, diarrhea and weight loss were the most frequent AEs at up to 2 g/d in the Alzheimer trial [PMID:26362286]. Single doses up to 5 g caused no serious AEs [PMID:17548692].
+- Older adults: a 10-RCT systematic review found no significant AEs. However, high doses raised some CVD-risk biomarkers in overweight people [PMID:38433010].
+- Liver: ALT/AST rose in the resveratrol arm of an 8-week NAFLD RCT [PMID:24582567]. A NAFLD MA also found a significant ALT increase [PMID:32823621]. One serious AE (fever, bicytopenia) occurred in a high-dose NAFLD RCT [PMID:26784973].
+- Nephrotoxicity in multiple myeloma (SRT501):
+  - A phase 2 trial of SRT501 5 g/d, alone or with bortezomib, in relapsed/refractory myeloma (n=24) was terminated [PMID:23205612] [URL:https://clinicaltrials.gov/study/NCT00920556].
+  - A 2026 review reports that it was stopped early for unexpected cast nephropathy/renal failure and that the cause of the toxicity is unclear [PMID:42542881].
+  - In rats, 3000 mg/kg/d caused nephropathy and raised BUN/creatinine. The NOAEL was 300 mg/kg/d [PMID:15329443].
+  - In contrast, a 31-RCT MA in general populations found no renal harm; BUN fell slightly [PMID:40580309].
+- Exercise: 250 mg/d blunted training-induced gains in VO2max, BP and lipids in aged men [PMID:23878368]. It also blunted training-induced falls in muscle protein carbonylation and TNF-alpha mRNA [PMID:24514907].
+- Brain volume: the Alzheimer RCT reported greater brain-volume loss with resveratrol. Its interpretation is unclear [PMID:26362286].
 
 ** Contraindications
-- Caution in pregnancy/lactation due to inadequate supplement trial data [PMID:38255828].
+- Multiple myeloma or other high renal-risk states with high-dose (gram-level) resveratrol: SRT501 trial terminated for renal failure [PMID:23205612] [PMID:42542881].
+- Estrogen-receptor-positive cancers or other estrogen-sensitive conditions: relative caution, because resveratrol is an ER agonist that stimulated ER+ breast cancer cell growth in vitro. Clinical relevance at achievable plasma levels is unproven [PMID:9391166] [PMID:12594813].
+- Pregnancy and lactation: no human safety data were identified in the sources retrieved for this monograph.
 
 ** Interactions
-- Possible antiplatelet effects and CYP3A4/2E1 modulation are mainly mechanistic; oral anticoagulant interaction evidence is generally low quality [PMID:38255828, PMID:39288907].
-- No genotype-specific clinical claim is made because no qualifying pharmacogenomic source was identified for this research set.
+*** Drugs
+- CYP3A4 substrates (buspirone was the probe; sirolimus/Rapamycin is one such substrate): 1 g/d inhibited CYP3A4 activity in healthy volunteers [PMID:20716633]. Intestinal CYP inhibition may cut first-pass metabolism and raise exposure to co-administered substrates, especially at high doses [PMID:22788578]. No direct sirolimus study was found.
+- CYP2C9 substrates (losartan was the probe; S-warfarin is one such substrate): CYP2C9 inhibition was shown at 1 g/d [PMID:20716633]. With warfarin, this adds to antiplatelet effects [PMID:35458194]. Monitor INR. No clinical warfarin study was found.
+- CYP2D6 substrates (dextromethorphan probe): inhibited at 1 g/d [PMID:20716633].
+- CYP1A2 substrates (caffeine was the probe): induced at 1 g/d, so exposure may fall [PMID:20716633].
+- Antiplatelets/anticoagulants: resveratrol inhibited collagen- and epinephrine-induced aggregation of platelets from aspirin-resistant patients [PMID:16954814]. It also reduced TXA2 and thrombus formation in vitro [PMID:35458194]. All of this is ex vivo/in vitro, so bleeding risk is theoretical.
+- Bortezomib (multiple myeloma): renal failure in the SRT501 combination trial [PMID:23205612] [PMID:42542881].
+- Glucose-lowering drugs: modest glucose/HbA1c effects in diabetes [PMID:24695890] [PMID:34320173]. Additive hypoglycemia is unlikely but possible.
+- Metformin: a 6-month RCT in PCOS combined resveratrol with metformin. The combination lowered fasting glucose more than resveratrol alone, and no unexpected toxicity was reported [PMID:40888876]. Preclinical data suggest additive AMPK/SIRT1 effects [PMID:32168855].
+*** Other supplements
+- Aspirin (corpus item), quercetin: resveratrol and quercetin both inhibit platelet COX-1-dependent aggregation. A polyphenol mixture potentiated sub-inhibitory aspirin [PMID:19652885] [PMID:16954814].
+- NMN / nicotinamide riboside: combining NAD+ precursors with SIRT1-activating nutraceuticals such as resveratrol is proposed as complementary [PMID:36522127]. Evidence is limited to a rat diabetic-wound study where NR plus resveratrol outperformed either alone [PMID:38583241]. No human combination trial was found, and human SIRT1 is not measurably changed by resveratrol [PMID:40158656].
+- Caffeine: CYP1A2 induction may speed caffeine clearance [PMID:20716633].
+*** Conditions
+- Multiple myeloma / renal impairment, estrogen-sensitive cancers: see Contraindications.
+- NAFLD: ALT may rise rather than fall [PMID:24582567] [PMID:32823621].
+- People doing endurance or high-intensity training: possible blunting of cardiovascular adaptations [PMID:23878368] [PMID:24514907]. One trial found enhanced muscle adaptations instead [PMID:28505227].
+*** Lab-test interference
+- No analytical assay interference was found. Physiological changes to note:
+  - ALT/AST may rise [PMID:24582567].
+  - Bone alkaline phosphatase rises at 1 g/d [PMID:25322274].
+  - CRP falls slightly [PMID:34472150].
+  - Drug levels measured for CYP substrates may change [PMID:20716633].
 
 ** Genotype notes
-- No cited pharmacogenomic or nutrigenomic source identified for a clinically useful genotype-specific note.
+No cited pharmacogenomic or nutrigenomic source found.
 
 ** Latest research
-- 2024–2026: 2024 systematic review emphasizes gaps in dose-response, safety and interaction characterization across human studies [PMID:38255828].
+- [2026-07] Nanoformulation review: the SRT501 plus bortezomib myeloma trial was terminated early for unexpected cast nephropathy/renal failure of ambiguous cause [PMID:42542881].
+- [2026-06] T2D umbrella review/MA (10 MAs): no significant effect on FBG, HbA1c, HOMA-IR or most lipids; LDL-C reduced only in SMD analysis [PMID:42268476].
+- [2026-04] Umbrella review (45 SRs, 129 associations): 4 high-certainty findings: WC -0.80 cm, TC -0.19 mmol/L in overweight adults, and SBP -7.97 / DBP -3.55 mmHg in T2D [PMID:41987155].
+- [2026-03] MA of 40 RCTs (n=2551) in obesity-related disease: reductions in HOMA-IR, lipids, BP, hs-CRP, TNF-alpha and IL-6; no effect on liver enzymes or liver fat [PMID:41760304].
+- [2026-03] Overweight/obesity MA (23 RCTs): only waist circumference fell (-1.93 cm) [PMID:41455817].
+- [2026-01] PCOS RCT: resveratrol plus metformin vs resveratrol alone; the combination improved fasting glucose and MDA [PMID:40888876].
+- [2025-12] Renal-function dose-response MA (31 RCTs): BUN -1.20 mg/dL; no harm signal [PMID:40580309].
+- [2025-12] Bayesian NMA in T2D (17 studies): resveratrol ranked highly for HOMA-IR, lipids and BP vs curcumin, silymarin and berberine [PMID:40439602].
+- [2025-11] Knee OA RCT (n=137): 500 mg/d improved pain, function and plasma SIRT1 [PMID:41037125].
+- [2025-09] GRADE MA of 11 RCTs: no effect of resveratrol on human SIRT1 gene expression, protein or serum level [PMID:40158656].
+- [2025-08] Crossover RCT in pre-/stage-1 hypertension: 1 g/d for 4 weeks raised NO but did not lower BP [PMID:40854984].
+- [2025-07] Postmenopausal MA (10 RCTs): lower pain and CTX; no effect on cognition, metabolic markers or BP [PMID:40771919].
+- [2025-05] Alzheimer RCT CSF sub-analysis: lower TREM2, MMP-9 and neuronal-damage markers [PMID:40507855].
+- [2025-01] Bioavailability MA (84 administrations): linear dose-exposure; mean Cmax about 31 ng/mL [PMID:39557444].
+- [2024-12] Lipid umbrella MA: TC and TG reduced by SMD only; judged clinically unimportant [PMID:39255906].
+- [2024-11] MASLD MA: resveratrol improved steatosis (OR 3.18) but not ALT [PMID:39723101].
+- [2024-10] CAD MA: TNF-alpha reduced in primary prevention; IL-6 inconclusive [PMID:38958883].
 
 ** Open questions
-- Larger, preregistered, adequately powered human trials with standardized, chemically characterized products and longer follow-up are needed to establish clinically important benefits and characterize uncommon harms.
+- Whether any human benefit is mediated by SIRT1, given negative native-substrate assays and null human SIRT1 MA [PMID:20061378] [PMID:40158656].
+- Whether conjugated metabolites (sulfates/glucuronides), rather than the parent compound, carry activity [PMID:17548692] [PMID:15333514].
+- Mechanism and dose threshold of the myeloma renal failure. Safety of gram-level doses in people with reduced renal reserve.
+- Clinical significance of CYP3A4/2C9 inhibition at common supplement doses (<=500 mg/d). Only 1 g/d has been phenotyped [PMID:20716633].
+- Whether resveratrol blunts or enhances exercise adaptations, and in whom [PMID:23878368] [PMID:28505227].
+- Long-term (>1 y) outcome trials. Existing trials use surrogate endpoints, are small and heterogeneous [PMID:38255828] [PMID:31978258].
+- Clinical relevance of ER agonism at achievable plasma levels.
 
 ** Sources
-1. PMID:38255828
-2. PMID:39288907
-- Resveratrol for management of human health: systematic review of clinical trials. PMID:38255828.
-- Talasaz AH et al. Pharmacokinetic and pharmacodynamic interactions between food/herbal products and oral anticoagulants. Semin Thromb Hemost. 2025. DOI:10.1055/s-0044-1790258.
+1. Walle T et al. High absorption but very low bioavailability of oral resveratrol in humans. Drug Metab Dispos. 2004. PMID:15333514 DOI:10.1124/dmd.104.000885
+2. Boocock DJ et al. Phase I dose escalation pharmacokinetic study in healthy volunteers of resveratrol, a potential cancer chemopreventive agent. Cancer Epidemiol Biomarkers Prev. 2007. PMID:17548692 DOI:10.1158/1055-9965.EPI-07-0022
+3. Szymkowiak I et al. Resveratrol Bioavailability After Oral Administration: A Meta-Analysis of Clinical Trial Data. Phytother Res. 2025. PMID:39557444 DOI:10.1002/ptr.8379
+4. Howells LM et al. Phase I randomized, double-blind pilot study of micronized resveratrol (SRT501) in patients with hepatic metastases--safety, pharmacokinetics, and pharmacodynamics. Cancer Prev Res (Phila). 2011. PMID:21680702 DOI:10.1158/1940-6207.CAPR-11-0148
+5. Kaeberlein M et al. Substrate-specific activation of sirtuins by resveratrol. J Biol Chem. 2005. PMID:15684413 DOI:10.1074/jbc.M500655200
+6. Pacholec M et al. SRT1720, SRT2183, SRT1460, and resveratrol are not direct activators of SIRT1. J Biol Chem. 2010. PMID:20061378 DOI:10.1074/jbc.M109.088682
+7. Beher D et al. Resveratrol is not a direct activator of SIRT1 enzyme activity. Chem Biol Drug Des. 2009. PMID:19843076 DOI:10.1111/j.1747-0285.2009.00901.x
+8. Hubbard BP et al. Evidence for a common mechanism of SIRT1 regulation by allosteric activators. Science. 2013. PMID:23471411 DOI:10.1126/science.1231097
+9. Mansouri F et al. Impact of Resveratrol Supplementation on Human Sirtuin 1: A Grading of Recommendations Assessment, Development and Evaluation-Assessed Systematic Review and Dose-Response Meta-Analysis of Randomized Controlled Trials. J Acad Nutr Diet. 2025. PMID:40158656 DOI:10.1016/j.jand.2025.03.011
+10. DiNicolantonio JJ et al. Nutraceutical activation of Sirt1: a review. Open Heart. 2022. PMID:36522127 DOI:10.1136/openhrt-2022-002171
+11. Miller RA et al. Rapamycin, but not resveratrol or simvastatin, extends life span of genetically heterogeneous mice. J Gerontol A Biol Sci Med Sci. 2011. PMID:20974732 DOI:10.1093/gerona/glq178
+12. Timmers S et al. Calorie restriction-like effects of 30 days of resveratrol supplementation on energy metabolism and metabolic profile in obese humans. Cell Metab. 2011. PMID:22055504 DOI:10.1016/j.cmet.2011.10.002
+13. Poulsen MM et al. High-dose resveratrol supplementation in obese men: an investigator-initiated, randomized, placebo-controlled clinical trial of substrate metabolism, insulin sensitivity, and body composition. Diabetes. 2013. PMID:23193181 DOI:10.2337/db12-0975
+14. Jeyaraman MM et al. Resveratrol for adults with type 2 diabetes mellitus. Cochrane Database Syst Rev. 2020. PMID:31978258 DOI:10.1002/14651858.CD011919.pub2
+15. Ghalichi F et al. The effects of resveratrol on glycemic indices and lipid profile in patients with type 2 diabetes: an umbrella review and meta-analysis. Daru. 2026. PMID:42268476 DOI:10.1007/s40199-026-00609-x
+16. Liu K et al. Effect of resveratrol on glucose control and insulin sensitivity: a meta-analysis of 11 randomized controlled trials. Am J Clin Nutr. 2014. PMID:24695890 DOI:10.3945/ajcn.113.082024
+17. Miao R et al. Clinical Efficacy of Curcumin, Resveratrol, Silymarin, and Berberine on Cardio-Metabolic Risk Factors Among Patients With Type 2 Diabetes Mellitus: A Systemic Review and Bayesian Network Meta-Analysis. Phytother Res. 2025. PMID:40439602 DOI:10.1002/ptr.8431
+18. Zeraattalab-Motlagh S et al. The effects of resveratrol supplementation in patients with type 2 diabetes, metabolic syndrome, and nonalcoholic fatty liver disease: an umbrella review of meta-analyses of randomized controlled trials. Am J Clin Nutr. 2021. PMID:34320173 DOI:10.1093/ajcn/nqab250
+19. Shen CY et al. Resveratrol Supplementation and its Potential Benefits in Obesity-related Non-communicable Diseases. In Vivo. 2026. PMID:41760304 DOI:10.21873/invivo.14235
+20. Sun JN et al. Effects of resveratrol supplementation on multiple health outcomes: an umbrella review of systematic reviews and meta-analyses of randomized controlled trials. Nutr J. 2026. PMID:41987155 DOI:10.1186/s12937-026-01319-5
+21. Fogacci F et al. Effect of resveratrol on blood pressure: A systematic review and meta-analysis of randomized, controlled, clinical trials. Crit Rev Food Sci Nutr. 2019. PMID:29359958 DOI:10.1080/10408398.2017.1422480
+22. Shafiei E et al. Preliminary, randomized, double-blinded, placebo-controlled cross-over study with resveratrol in hypertensive patients. Sci Rep. 2025. PMID:40854984 DOI:10.1038/s41598-025-17305-6
+23. Li Z et al. Efficacy of resveratrol supplementation on lipid profile parameters: An umbrella of meta-analysis. Prostaglandins Other Lipid Mediat. 2024. PMID:39255906 DOI:10.1016/j.prostaglandins.2024.106903
+24. Cao X et al. The Effect of Resveratrol on Blood Lipid Profile: A Dose-Response Meta-Analysis of Randomized Controlled Trials. Nutrients. 2022. PMID:36145131 DOI:10.3390/nu14183755
+25. Jakubczyk K et al. Effects of Resveratrol Supplementation in Patients with Non-Alcoholic Fatty Liver Disease-A Meta-Analysis. Nutrients. 2020. PMID:32823621 DOI:10.3390/nu12082435
+26. Chachay VS et al. Resveratrol does not benefit patients with nonalcoholic fatty liver disease. Clin Gastroenterol Hepatol. 2014. PMID:24582567 DOI:10.1016/j.cgh.2014.02.024
+27. Heebøll S et al. Placebo-controlled, randomised clinical trial: high-dose resveratrol treatment for non-alcoholic fatty liver disease. Scand J Gastroenterol. 2016. PMID:26784973 DOI:10.3109/00365521.2015.1107620
+28. Huang Q et al. The Effectiveness of Curcumin, Resveratrol, and Silymarin on MASLD: A Systematic Review and Meta-Analysis. Food Sci Nutr. 2024. PMID:39723101 DOI:10.1002/fsn3.4595
+29. Gorabi AM et al. Effect of resveratrol on C-reactive protein: An updated meta-analysis of randomized controlled trials. Phytother Res. 2021. PMID:34472150 DOI:10.1002/ptr.7262
+30. Damay VA et al. Resveratrol as an Anti-inflammatory Agent in Coronary Artery Disease: A Systematic Review, Meta-Analysis and Meta-Regression. Chin J Integr Med. 2024. PMID:38958883 DOI:10.1007/s11655-024-3665-0
+31. Setayesh A et al. The effect of resveratrol supplementation on anthropometric indices, adiponectin and leptin levels in individuals with overweight and obesity: a graded, systematic review and meta-analysis of randomized controlled trials. Int J Obes (Lond). 2026. PMID:41455817 DOI:10.1038/s41366-025-01994-0
+32. Turner RS et al. A randomized, double-blind, placebo-controlled trial of resveratrol for Alzheimer disease. Neurology. 2015. PMID:26362286 DOI:10.1212/WNL.0000000000002035
+33. Moussa C et al. Resveratrol regulates neuro-inflammation and induces adaptive immunity in Alzheimer's disease. J Neuroinflammation. 2017. PMID:28086917 DOI:10.1186/s12974-016-0779-0
+34. Liu X et al. Resveratrol Attenuates CSF Markers of Neurodegeneration and Neuroinflammation in Individuals with Alzheimer's Disease. Int J Mol Sci. 2025. PMID:40507855 DOI:10.3390/ijms26115044
+35. Marx W et al. Effect of resveratrol supplementation on cognitive performance and mood in adults: a systematic literature review and meta-analysis of randomized controlled trials. Nutr Rev. 2018. PMID:29596658 DOI:10.1093/nutrit/nuy010
+36. Khorshidi F et al. Resveratrol: A "miracle" drug in neuropsychiatry or a cognitive enhancer for mice only? A systematic review and meta-analysis. Ageing Res Rev. 2021. PMID:33303422 DOI:10.1016/j.arr.2020.101199
+37. Wong RH et al. Regular Supplementation With Resveratrol Improves Bone Mineral Density in Postmenopausal Women: A Randomized, Placebo-Controlled Trial. J Bone Miner Res. 2020. PMID:32564438 DOI:10.1002/jbmr.4115
+38. Ornstrup MJ et al. Resveratrol increases bone mineral density and bone alkaline phosphatase in obese men: a randomized placebo-controlled trial. J Clin Endocrinol Metab. 2014. PMID:25322274 DOI:10.1210/jc.2014-2799
+39. Li Q et al. Effects of resveratrol supplementation on bone quality: a systematic review and meta-analysis of randomized controlled trials. BMC Complement Med Ther. 2021. PMID:34420523 DOI:10.1186/s12906-021-03381-4
+40. Bo S et al. Effects of resveratrol on bone health in type 2 diabetic patients. A double-blind randomized-controlled trial. Nutr Diabetes. 2018. PMID:30237505 DOI:10.1038/s41387-018-0059-4
+41. Wu W et al. Effects of resveratrol on postmenopausal women: a systematic review and meta-analysis. Front Pharmacol. 2025. PMID:40771919 DOI:10.3389/fphar.2025.1588284
+42. Gliemann L et al. Resveratrol blunts the positive effects of exercise training on cardiovascular health in aged men. J Physiol. 2013. PMID:23878368 DOI:10.1113/jphysiol.2013.258061
+43. Olesen J et al. Exercise training, but not resveratrol, improves metabolic and inflammatory status in skeletal muscle of aged men. J Physiol. 2014. PMID:24514907 DOI:10.1113/jphysiol.2013.270256
+44. Alway SE et al. Resveratrol Enhances Exercise-Induced Cellular and Functional Adaptations of Skeletal Muscle in Older Men and Women. J Gerontol A Biol Sci Med Sci. 2017. PMID:28505227 DOI:10.1093/gerona/glx089
+45. Harper SA et al. Resveratrol and exercise combined to treat functional limitations in late life: A pilot randomized controlled trial. Exp Gerontol. 2021. PMID:33068691 DOI:10.1016/j.exger.2020.111111
+46. Yadegar S et al. Effects and safety of resveratrol supplementation in older adults: A comprehensive systematic review. Phytother Res. 2024. PMID:38433010 DOI:10.1002/ptr.8171
+47. Karim A et al. Resveratrol supplementation improves functional performance in knee osteoarthritis by upregulating sirtuin 1: a randomized study. Inflammopharmacology. 2025. PMID:41037125 DOI:10.1007/s10787-025-01967-9
+48. Hajhashemy Z et al. Effects of resveratrol supplementation on renal function in adults: a systematic review and dose-response meta-analysis. Naunyn Schmiedebergs Arch Pharmacol. 2025. PMID:40580309 DOI:10.1007/s00210-025-04314-5
+49. Crowell JA et al. Resveratrol-associated renal toxicity. Toxicol Sci. 2004. PMID:15329443 DOI:10.1093/toxsci/kfh263
+50. Popat R et al. A phase 2 study of SRT501 (resveratrol) with bortezomib for patients with relapsed and or refractory multiple myeloma. Br J Haematol. 2013. PMID:23205612 DOI:10.1111/bjh.12154
+51. Yang H et al. Resveratrol Nanoformulations for Cancer Management: A Comprehensive Review of Disease-Specific Strategies and Clinical Translational Barriers. Int J Nanomedicine. 2026. PMID:42542881 DOI:10.2147/IJN.S610050
+52. Brown K et al. Resveratrol for the Management of Human Health: How Far Have We Come? A Systematic Review of Resveratrol Clinical Trials to Highlight Gaps and Opportunities. Int J Mol Sci. 2024. PMID:38255828 DOI:10.3390/ijms25020747
+53. Chow HH et al. Resveratrol modulates drug- and carcinogen-metabolizing enzymes in a healthy volunteer study. Cancer Prev Res (Phila). 2010. PMID:20716633 DOI:10.1158/1940-6207.CAPR-09-0155
+54. Detampel P et al. Drug interaction potential of resveratrol. Drug Metab Rev. 2012. PMID:22788578 DOI:10.3109/03602532.2012.700715
+55. Stef G et al. Resveratrol inhibits aggregation of platelets from high-risk cardiac patients with aspirin resistance. J Cardiovasc Pharmacol. 2006. PMID:16954814 DOI:10.1097/01.fjc.0000238592.67191.ab
+56. Crescente M et al. Interactions of gallic acid, resveratrol, quercetin and aspirin at the platelet cyclooxygenase-1 level. Functional and modelling studies. Thromb Haemost. 2009. PMID:19652885 DOI:10.1160/TH09-01-0057
+57. Michno A et al. Resveratrol Inhibits Metabolism and Affects Blood Platelet Function in Type 2 Diabetes. Nutrients. 2022. PMID:35458194 DOI:10.3390/nu14081633
+58. Gehm BD et al. Resveratrol, a polyphenolic compound found in grapes and wine, is an agonist for the estrogen receptor. Proc Natl Acad Sci U S A. 1997. PMID:9391166 DOI:10.1073/pnas.94.25.14138
+59. Levenson AS et al. Resveratrol acts as an estrogen receptor (ER) agonist in breast cancer cells stably transfected with ER alpha. Int J Cancer. 2003. PMID:12594813 DOI:10.1002/ijc.10992
+60. Zahra M et al. A randomized controlled trial comparing the efficacy of resveratrol combined with metformin versus resveratrol monotherapy in the management of polycystic ovary syndrome. Naunyn Schmiedebergs Arch Pharmacol. 2026. PMID:40888876 DOI:10.1007/s00210-025-04495-z
+61. Dludla PV et al. Exploring the Comparative Efficacy of Metformin and Resveratrol in the Management of Diabetes-associated Complications: A Systematic Review of Preclinical Studies. Nutrients. 2020. PMID:32168855 DOI:10.3390/nu12030739
+62. Hasan Maleki M et al. Boosting wound healing in diabetic rats: The role of nicotinamide riboside and resveratrol in UPR modulation and pyroptosis inhibition. Int Immunopharmacol. 2024. PMID:38583241 DOI:10.1016/j.intimp.2024.112013
+63. ClinicalTrials.gov. NCT00920556: A Clinical Study to Assess the Safety and Activity of SRT501 Alone or in Combination With Bortezomib in Patients With Multiple Myeloma (status: terminated). URL:https://clinicaltrials.gov/study/NCT00920556

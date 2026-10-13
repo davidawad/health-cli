@@ -3,50 +3,201 @@
 :ID: supp-apigenin
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: 4',5,7-trihydroxyflavone | parsley/chamomile flavone
+:ALIASES: 4',5,7-trihydroxyflavone | 5,7,4'-trihydroxyflavone | apigenin-7-O-glucoside | apiin | chamomile flavone | Matricaria chamomilla extract (apigenin-standardized)
 :CATEGORY: botanical
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Apigenin is represented by these commonly studied or marketed forms: 4',5,7-trihydroxyflavone, parsley/chamomile flavone. Clinical products and formulations can differ in composition and bioavailability; this limits cross-trial comparisons [PMID:38629096, PMID:38629096].
+- Apigenin (4',5,7-trihydroxyflavone) is a dietary flavone found in parsley, celery and chamomile. In plants it occurs mostly as glycosides [PMID:27766890].
+  - Chamomile tea mainly provides apigenin-7-O-glucoside. Parsley mainly provides apiin, i.e. apigenin-7-O-(2''-O-apiosyl)glucoside [PMID:35452808].
+- Supplement forms: isolated apigenin (often 50 mg in sleep stacks) [PMID:42829807], and German chamomile (Matricaria chamomilla/recutita) extracts. Clinical chamomile extracts are often standardized to 1.2% apigenin [PMID:39836709] [PMID:41761999].
+- IMPORTANT: nearly all human efficacy data come from *chamomile* products (extract capsules or tea), not from isolated apigenin. Chamomile also contains other actives, e.g. essential-oil terpenoids such as chamazulene and alpha-bisabolol [PMID:16137701]. Chamomile results should not be read as apigenin results.
+- Human pharmacokinetics (PK):
+  - Aglycone apigenin: poorly absorbed. Urinary metabolites account for about 0.5% of intake [PMID:35452808].
+  - Glycosides: urinary recovery was 11.2% from a parsley drink and 34% from chamomile tea. Tmax of apigenin-4'-glucuronide was 2 h with chamomile (upper-gut absorption) and 4-6 h with parsley (lower gut). Circulating forms are glucuronides and sulfates [PMID:35452808].
+  - Parsley bolus (n=11): plasma Cmax 127 +/- 81 nmol/L at about 7 h, with wide between-person variation. Plasma levels fell below detection by 28 h, and urinary recovery was 0.22% [PMID:16407641]. A crossover diet study found 0.58% urinary recovery [PMID:10615220].
+  - Poor solubility and extensive metabolism limit oral bioavailability, so novel carriers are being explored [PMID:27766890] [PMID:42832459].
 
 ** Mechanisms
-- Proposed mechanisms are outcome- and formulation-dependent; mechanistic plausibility does not establish clinical efficacy. Human evidence is summarized below [PMID:38629096, PMID:38629096].
+- GABA-A / benzodiazepine site (preclinical):
+  - Isolated from chamomile as a central benzodiazepine-receptor ligand (Ki 4 uM for flunitrazepam binding). In mice it was anxiolytic without sedation, and mildly sedative at 10-fold higher doses [PMID:7617761].
+  - In oocyte studies apigenin itself antagonized GABA-A currents. Those effects were flumazenil-insensitive [PMID:12586201] [PMID:15451406].
+  - At 1 uM it enhanced diazepam's positive modulation of GABA-A receptors by up to 22% [PMID:15451406].
+  - Chamomile is among 10 phytomedicines with both preclinical GABA-modulating data and human anxiety trials [PMID:29168225].
+- CD38 inhibition / NAD+ (preclinical only):
+  - Apigenin and quercetin inhibit the NADase CD38. In cells this raised NAD+ and lowered protein acetylation. In obese mice apigenin raised NAD+ and improved glucose and lipid homeostasis [PMID:23172919].
+  - CD38 drives age-related NAD+ decline and is the main enzyme degrading NMN in vivo [PMID:27304511]. This is the rationale for pairing CD38 inhibitors with NAD+ precursors.
+  - In diabetic rats apigenin restored the renal NAD+/NADH ratio and Sirt3 activity [PMID:32507768].
+  - Apigenin and nicotinamide riboside each raised brain NAD+ and suppressed LPS neuroinflammation in mice [PMID:33871064].
+  - No human study has shown that apigenin raises NAD+ or inhibits CD38 at achievable plasma concentrations [PMID:38476603].
+- Platelets: apigenin antagonizes the thromboxane A2 receptor (Ki about 155 uM) and potentiated aspirin ex vivo [PMID:18410117]. Platelet inhibition in vitro needed very high concentrations, and dietary apigenin (84 mg/d) had no effect in humans [PMID:9459373].
+- CYP inhibition (in vitro/animal):
+  - CYP2C9 (losartan, diclofenac): IC50 4-10 uM, competitive [PMID:27287328]. Mixed-type inhibition of CYP3A4/CYP2C9 [PMID:19883715].
+  - CYP3A4: reversible inhibition [PMID:30301254] [PMID:34069400].
+  - CYP1A2: potent inhibition [PMID:20806393].
+  - Chamomile itself: crude extract inhibited CYP3A4 in vitro [PMID:10969720]. Essential-oil constituents inhibited CYP1A2 (and to a lesser extent CYP3A4, 2C9 and 2D6) [PMID:16137701]. In mice a chamomile extract *induced* hepatic Cyp3a11/Cyp1a2 [PMID:41091411].
+- Sex-steroid pathways (in vitro/animal):
+  - Aromatase inhibition: in human placental/ovarian microsomes [PMID:6474163]; IC50 20 uM in H295R cells [PMID:15319488]. In rats at 50 mg/kg there was no uterine estrogenic or anti-aromatase effect, attributed to poor bioavailability [PMID:11595503].
+  - Partial estrogen-receptor agonist in ovariectomized mice [PMID:34048736].
+  - Mixed progesterone-receptor agonist that blunted genistein-driven uterine proliferation [PMID:29736565].
+- Other preclinical: antidepressant/anxiolytic-like effects in 21 rodent studies [PMID:42488186]. Vasodilatory/antihypertensive effects in animals [PMID:42832459].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---|---|---|---|---|---|
-| No reliable clinical efficacy estimate can be made for isolated apigenin | Systematic review/meta-analysis or human trial synthesis | Mixed/possible benefit; no established clinical disease prevention | See evidence summary below; pooled estimates vary by outcome and population | very-low | PMID:38629096, PMID:38629096 |
-
-- A systematic review of metabolic syndrome literature primarily summarizes preclinical and mechanistic evidence; high-quality isolated-apigenin human supplementation trials are essentially absent [PMID:38629096].
-- No reliable clinical efficacy estimate can be made for isolated apigenin; animal and cell findings cannot establish human benefit [PMID:38629096].
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| GAD symptoms (chamomile extract) | SR/MA of RCTs; 2 RCTs; large open-label phase | Benefit, modest | HAM-A MD -1.43 (95% CI -2.47 to -0.39) at 2 wk, -1.79 (CI -3.14 to -0.43) at 4 wk; relapse HR 0.52 (CI 0.20-1.33, NS); open-label response 58.1% | low | [PMID:31006899] [PMID:19593179] [PMID:27912875] [PMID:27912871] |
+| Anxiety (non-GAD / state anxiety; chamomile) | SR/MA (3 RCTs); network MA | No clear effect | SMD -0.15 (CI -0.46 to 0.16); NMA vs placebo MD 0.54 (CrI -5.13 to 6.25) | low | [PMID:31006899] [PMID:35378276] |
+| Sleep quality (chamomile) | Two SR/MAs | Benefit, heterogeneous | SMD -0.73 (CI -1.23 to -0.23); PSQI WMD -1.88 (CI -3.46 to -0.31; I2 88.4%); no gain in sleep duration or efficiency | low | [PMID:31006899] [PMID:39106912] [PMID:29154054] [PMID:41538720] |
+| Chronic insomnia disorder (chamomile) | 1 pilot RCT (n=34) | No significant effect | No sleep-diary differences; small-moderate effect sizes (d <= 0.60) | very low | [PMID:21939549] |
+| Isolated apigenin, sleep/stress | 1 RCT of a stack with 50 mg apigenin + Mg + L-theanine (2 wk) | No benefit over placebo | PM stack not superior; morning adaptogen arm drove effects | very low | [PMID:42829807] |
+| Menopausal symptoms (chamomile 400 mg/d, 1.2% apigenin) | 1 triple-blind RCT (n=80), 2 reports | Benefit | Total score -10.36 (CI -13.84 to -6.92); vasomotor QOL MD -0.82 (CI -1.25 to -0.39); other QOL domains NS | very low | [PMID:39836709] [PMID:41761999] |
+| Glycemic control in T2DM (chamomile tea) | 1 single-blind RCT (n=64) | Benefit | HbA1c, insulin and HOMA-IR lower vs water (P<0.05) | very low | [PMID:26437613] |
+| PCOS hormones (chamomile) | SR/MA (4 human studies) | No effect on testosterone/lipids | Testosterone ES 5.05 (CI -1.38 to 11.49) | very low | [PMID:41767834] |
+| Musculoskeletal pain (chamomile) | SR/MA (8 studies) | Possible benefit | Not pooled robustly; high heterogeneity | very low | [PMID:41394268] |
+| Oral mucositis / inflammation (mostly topical chamomile) | SR/MA (11 RCTs) | Benefit | Reduced mucositis severity and pain | very low | [PMID:40665590] |
+| Platelet function (dietary apigenin) | Randomized crossover (n=18), 84 mg/d from parsley | No effect | No change in aggregation, TxB2 or factor VII | low | [PMID:9459373] |
+| NAD+ / CD38 (aging) | Cell and rodent studies only | Increase NAD+ (animals) | No human data | very low | [PMID:23172919] [PMID:27304511] [PMID:38476603] |
+| Sleep quality, dietary apigenin intake | Cross-sectional cohort (n=1936) | Association | Apigenin intake associated with sleep quality (observational) | very low | [PMID:32357534] |
 
 ** Dosing in trials
-- No validated therapeutic dose for isolated apigenin established in human RCTs [PMID:38629096].
+- Chamomile extract for GAD: 1500 mg/d (500 mg three times daily) open-label for 8-12 weeks, then 26 weeks randomized continuation [PMID:27912875] [PMID:27912871]. The 2009 RCT used chamomile extract over 8 weeks [PMID:19593179].
+- Chamomile for sleep: 270 mg twice daily for 28 days in insomnia [PMID:21939549]; 200 mg twice daily for 28 days in older adults [PMID:29154054]; oral solution 5 mL three times daily during chemotherapy [PMID:41538720].
+- Menopause: 100 mg capsules (1.2% apigenin) four times daily (400 mg/d) for 12 weeks [PMID:39836709] [PMID:41761999].
+- Chamomile tea: 3 g/150 mL three times daily after meals for 8 weeks in T2DM [PMID:26437613]. A coagulation study used 9 tea bags/day or extract capsules three times daily for 7 days [PMID:37730613].
+- Isolated apigenin: 50 mg nightly (with magnesium L-threonate 2 g and L-theanine 200 mg) for 2 weeks [PMID:42829807]. No dose-finding trial of isolated apigenin exists.
+- Dietary apigenin: 84 mg/d from 5 g dried parsley for 7 days [PMID:9459373].
 
 ** Safety & adverse effects
-- Supplement-level safety data in humans are inadequate; dietary exposure in foods does not establish safety of concentrated extracts [PMID:38629096].
+- Chamomile, SR of adverse events (72 trials, 2896 exposed; 11 case reports) [PMID:40374153]:
+  - 65 AEs across 10 trials. Most common were GI complaints and drowsiness, both self-limiting.
+  - AE reporting was absent in 28 trials.
+  - 6 of the 11 case reports were allergic, including 3 anaphylaxis cases.
+- GAD trials: similar low AE rates to placebo over 26 weeks [PMID:27912875]. AEs in 11.7% of the open-label phase, with no serious events [PMID:27912871].
+- Menopause RCT: 2 withdrawals for mouth sores, skin spots or itching [PMID:39836709].
+- Allergy: type I allergy and anaphylaxis to chamomile occur, with cross-sensitization to mugwort and birch pollen (Bet v 1 homologue) and cross-reactivity with celery [PMID:10998021]. NCCIH notes higher risk in people allergic to ragweed, chrysanthemums, marigolds or daisies [URL:https://www.nccih.nih.gov/health/chamomile].
+- Coagulation: a case of multiple internal hemorrhages occurred with chamomile tea plus lotion during warfarin therapy [PMID:16636327]. In healthy volunteers not on warfarin, 7 days of chamomile tea or extract did not change PT, INR, aPTT or fibrinogen [PMID:37730613].
+- Isolated apigenin: rodent studies report a favorable safety profile even at high doses [PMID:42488186], and toxicity is reported only above 5000 mg/kg in animals [PMID:42832459]. Human safety data for concentrated apigenin supplements are limited to short trials [PMID:42829807].
+- NCCIH: chamomile is likely safe in food amounts and possibly safe short-term at medicinal doses. Side effects may include nausea, dizziness and hypersensitivity [URL:https://www.nccih.nih.gov/health/chamomile].
 
 ** Contraindications
-- Avoid extrapolating from food exposure; insufficient human safety data in pregnancy/lactation [PMID:38629096].
+- Known allergy to chamomile or other Asteraceae (ragweed, mugwort, chrysanthemum), or birch-pollen/celery cross-sensitization [PMID:10998021] [URL:https://www.nccih.nih.gov/health/chamomile].
+- Pregnancy and lactation: there are insufficient data for recommendations [PMID:40314057] [PMID:40374153].
+- Estrogen-sensitive conditions (e.g. breast or uterine cancer): NCCIH cautions about possible estrogen-like effects [URL:https://www.nccih.nih.gov/health/chamomile]. Supporting data are from animals and in vitro work [PMID:34048736] [PMID:6474163].
+- Warfarin therapy: avoid unsupervised starting or stopping of chamomile (case report; warfarin SRs) [PMID:16636327] [PMID:32478963].
 
 ** Interactions
-- CYP3A4/P-glycoprotein interaction signals are preclinical; clinical magnitude unknown [PMID:38629096].
-- No genotype-specific clinical claim is made because no qualifying pharmacogenomic source was identified for this research set.
+*** Drugs
+- Warfarin: one case report of serious bleeding [PMID:16636327]. Reviews list chamomile among herbs with a major-severity interaction [PMID:24790635] and among foods/herbs that raise bleeding risk [PMID:32478963]. No PT effect was seen in people not on warfarin [PMID:37730613]. Monitor INR.
+- CYP2C9 substrates (losartan, warfarin, some NSAIDs): apigenin competitively inhibits CYP2C9 in vitro (IC50 about 4-10 uM) [PMID:27287328] [PMID:19883715]. Human plasma levels after food are sub-micromolar [PMID:16407641], so clinical relevance is uncertain.
+- CYP3A4 / P-gp / BCRP substrates:
+  - In vitro, apigenin inhibits CYP3A4 [PMID:30301254] [PMID:34069400].
+  - In rats it raised exposure to dasatinib (via CYP3A2, P-gp and BCRP) [PMID:36838589], paclitaxel (via P-gp) [PMID:24871039] and venlafaxine (AUC +40.9% at 250 mg/kg) [PMID:26202346].
+  - No human PK interaction study was found.
+- Benzodiazepines and other sedatives: apigenin enhanced diazepam's GABA-A modulation in vitro [PMID:15451406]. Drowsiness is among the commonest chamomile AEs [PMID:40374153], and NCCIH lists sedatives as a theoretical interaction [URL:https://www.nccih.nih.gov/health/chamomile].
+- Oral contraceptives: NCCIH cites preliminary data that chamomile may reduce their effect [URL:https://www.nccih.nih.gov/health/chamomile].
+- Antidiabetic drugs: chamomile tea lowered HbA1c and insulin resistance in T2DM [PMID:26437613], so additive glucose lowering is possible (minor).
+- Aspirin/antiplatelets: apigenin potentiated aspirin ex vivo [PMID:18410117]. No in vivo antiplatelet effect was seen at dietary doses [PMID:9459373].
+*** Other supplements
+- NMN and nicotinamide riboside: there is a mechanistic rationale only. CD38 degrades NMN and drives NAD+ decline [PMID:27304511]. Apigenin inhibits CD38 [PMID:23172919]. Apigenin and NR each raised brain NAD+ in mice [PMID:33871064]. No human combination data exist.
+- Quercetin: also a CD38 inhibitor [PMID:23172919]. Combination effects in humans are unknown.
+- Magnesium (+/- L-theanine): synergistic sleep-promoting effect in mice [PMID:41701207]. However, a 2-week human RCT of apigenin + magnesium L-threonate + L-theanine showed no benefit over placebo [PMID:42829807].
+- Melatonin: melatonin is mainly cleared by CYP1A2 [PMID:11317475], and apigenin and chamomile oil constituents inhibit CYP1A2 in vitro [PMID:20806393] [PMID:16137701]. Higher melatonin levels and additive sedation are therefore possible. This is mechanistic only.
+- Genistein: apigenin blocked genistein-stimulated uterine proliferation in mice [PMID:29736565]. Opposing hormonal effects are possible but clinical relevance is unknown.
+*** Conditions
+- Asteraceae/ragweed allergy, pregnancy/lactation, estrogen-sensitive cancers: see Contraindications.
+- Iron deficiency: chamomile tea taken with a meal cut non-heme iron absorption by 47% [PMID:10999016]. Separate it from iron-rich meals and non-heme iron supplements.
+- Surgery: chamomile alone did not prolong PT in volunteers [PMID:37730613]. The perioperative bleeding concern applies mainly to patients on warfarin.
+*** Lab-test interference
+- No assay artifact was found. INR may change through the warfarin interaction [PMID:16636327], whereas chamomile alone did not alter PT/INR/aPTT [PMID:37730613]. In T2DM, true decreases in HbA1c and insulin were reported with chamomile tea [PMID:26437613].
 
 ** Genotype notes
-- No cited pharmacogenomic or nutrigenomic source identified for a clinically useful genotype-specific note.
+No cited pharmacogenomic or nutrigenomic source found.
 
 ** Latest research
-- 2024–2026: 2024 systematic review remains largely mechanistic/preclinical and highlights need for translational human trials [PMID:38629096].
+- [2026-10] Multi-compound RCT (n=103): a nightly stack with 50 mg apigenin, magnesium L-threonate and L-theanine for 2 weeks did not beat placebo on stress or sleep. Benefits were seen with the morning ashwagandha/Rhodiola arm [PMID:42829807].
+- [2026-10] Review of apigenin and hypertension: poor oral bioavailability, modulation of drug-metabolizing enzymes and transporters, and antihypertensive effects in animals only [PMID:42832459].
+- [2026-05] SR of 21 rodent studies: consistent antidepressant/anxiolytic-like effects. No human trials of isolated apigenin [PMID:42488186].
+- [2026-03] Mouse study: apigenin + magnesium prolonged sleep more than either alone (+32% to +44% sleep duration) [PMID:41701207].
+- [2026-02] Chamomile 400 mg/d (1.2% apigenin) RCT: vasomotor QOL MD -0.82 (CI -1.25 to -0.39); no change in other QOL domains [PMID:41761999].
+- [2026-02] PCOS SR/MA: chamomile had no significant effect on testosterone or lipids in humans [PMID:41767834].
+- [2026-01] Triple-blind RCT (n=80) during paclitaxel: chamomile oral solution did not prevent neuropathy. Sleep quality improved, with no AEs [PMID:41538720].
+- [2025-10] Mouse study: chamomile extract induced hepatic Cyp3a11/Cyp1a2 via BMAL1, a possible induction pathway with chronic use [PMID:41091411].
+- [2025-10] Musculoskeletal pain SR/MA (8 studies): possible analgesic effect, high heterogeneity [PMID:41394268].
+- [2025-07] Anti-inflammatory SR/MA (11 RCTs): reduced mucositis severity and pain [PMID:40665590].
+- [2025-05] SR of chamomile AEs (72 trials, n=2896): mostly GI upset and drowsiness. Case reports include anaphylaxis. Pregnancy data are insufficient [PMID:40374153].
+- [2025-04] Menopause RCT (n=80): total symptom score -10.36 (CI -13.84 to -6.92) [PMID:39836709].
+- [2025-03] SR of chamomile in pregnancy/postpartum (23 studies, n=2065): evidence too weak for recommendations [PMID:40314057].
+- [2024-09] Sleep SR/MA (10 studies, n=772): PSQI WMD -1.88. No improvement in sleep duration or efficiency [PMID:39106912].
 
 ** Open questions
-- Larger, preregistered, adequately powered human trials with standardized, chemically characterized products and longer follow-up are needed to establish clinically important benefits and characterize uncommon harms.
+- Does isolated apigenin (rather than chamomile) improve anxiety or sleep in humans? There are no adequately powered RCTs.
+- Does oral apigenin inhibit CD38 or raise NAD+ in humans at achievable plasma levels? In vitro IC50s are micromolar, while dietary plasma levels are sub-micromolar [PMID:16407641] [PMID:23172919].
+- What is the clinical magnitude of CYP2C9/CYP3A4/CYP1A2 inhibition versus possible chamomile-induced CYP induction [PMID:41091411]? No human probe-drug studies were found.
+- Dose, PK and safety of high-dose (50 mg+) apigenin supplements over months.
+- The mechanism of the warfarin interaction. Only one case and indirect evidence exist [PMID:16636327] [PMID:37730613].
+- Whether estrogenic or aromatase effects are clinically relevant in hormone-sensitive conditions.
 
 ** Sources
-1. PMID:38629096
-2. PMID:38629096
-- Role of apigenin in targeting metabolic syndrome: systematic review. PMID:38629096.
-- Role of apigenin in targeting metabolic syndrome: systematic review. PMID:38629096.
+1. Hieu TH et al. Therapeutic efficacy and safety of chamomile for state anxiety, generalized anxiety disorder, insomnia, and sleep quality: A systematic review and meta-analysis of randomized trials and quasi-randomized trials. Phytother Res. 2019. PMID:31006899 DOI:10.1002/ptr.6349
+2. Kazemi A et al. Effects of chamomile (Matricaria chamomilla L.) on sleep: A systematic review and meta-analysis of clinical trials. Complement Ther Med. 2024. PMID:39106912 DOI:10.1016/j.ctim.2024.103071
+3. Amsterdam JD et al. A randomized, double-blind, placebo-controlled trial of oral Matricaria recutita (chamomile) extract therapy for generalized anxiety disorder. J Clin Psychopharmacol. 2009. PMID:19593179 DOI:10.1097/JCP.0b013e3181ac935c
+4. Mao JJ et al. Long-term chamomile (Matricaria chamomilla L.) treatment for generalized anxiety disorder: A randomized clinical trial. Phytomedicine. 2016. PMID:27912875 DOI:10.1016/j.phymed.2016.10.012
+5. Keefe JR et al. Short-term open-label chamomile (Matricaria chamomilla L.) therapy of moderate to severe generalized anxiety disorder. Phytomedicine. 2016. PMID:27912871 DOI:10.1016/j.phymed.2016.10.013
+6. Zhang W et al. Medicinal herbs for the treatment of anxiety: A systematic review and network meta-analysis. Pharmacol Res. 2022. PMID:35378276 DOI:10.1016/j.phrs.2022.106204
+7. Zick SM et al. Preliminary examination of the efficacy and safety of a standardized chamomile extract for chronic primary insomnia: a randomized placebo-controlled pilot study. BMC Complement Altern Med. 2011. PMID:21939549 DOI:10.1186/1472-6882-11-78
+8. Adib-Hajbaghery M et al. The effects of chamomile extract on sleep quality among elderly people: A clinical trial. Complement Ther Med. 2017. PMID:29154054 DOI:10.1016/j.ctim.2017.09.010
+9. Nikkhah N et al. Evaluation of the protective effect of chamomile oral solution on the incidence of neurotoxicity caused by paclitaxel in breast cancer patients. Anticancer Drugs. 2026. PMID:41538720 DOI:10.1097/CAD.0000000000001804
+10. Mohsenzadeh-Ledari F et al. Efficacy and safety of Matricaria chamomilla intervention in managing menopausal symptoms: a triple-blind clinical trial. Menopause. 2025. PMID:39836709 DOI:10.1097/GME.0000000000002496
+11. Mohsenzadeh-Ledari F et al. Effect of Matricaria chamomilla on the Quality of Life Among Women with Menopausal Symptoms: A Triple-Blind Randomized Controlled Trial. J Integr Complement Med. 2026. PMID:41761999 DOI:10.1177/27683605261426288
+12. Zemestani M et al. Chamomile tea improves glycemic indices and antioxidants status in patients with type 2 diabetes mellitus. Nutrition. 2016. PMID:26437613 DOI:10.1016/j.nut.2015.07.011
+13. Firoozi Z et al. Evaluating Potential Effects of Chamomile (Matricaria chamomilla L.) in Polycystic Ovary Syndrome: A Systematic Review and Meta-Analysis. Food Sci Nutr. 2026. PMID:41767834 DOI:10.1002/fsn3.71600
+14. Ahmadi M et al. Effect of chamomile on musculoskeletal pain: A systematic review and meta-analysis of randomized controlled trials. Caspian J Intern Med. 2025. PMID:41394268 DOI:10.22088/cjim.16.4.630
+15. Valmy J et al. Anti-inflammatory effect of chamomile from randomized clinical trials: a systematic review and meta-analyses. Pharm Biol. 2025. PMID:40665590 DOI:10.1080/13880209.2025.2530995
+16. Ostovar M et al. Chamomile: A systematic review of adverse events. Complement Ther Med. 2025. PMID:40374153 DOI:10.1016/j.ctim.2025.103192
+17. Ferguson T et al. The Efficacy and Safety of Using Chamomile Products During Pregnancy and the Postpartum Period. Cureus. 2025. PMID:40314057 DOI:10.7759/cureus.81527
+18. Reider N et al. Anaphylaxis to camomile: clinical features and allergen cross-reactivity. Clin Exp Allergy. 2000. PMID:10998021 DOI:10.1046/j.1365-2222.2000.00902.x
+19. Borges G et al. Absorption, distribution, metabolism and excretion of apigenin and its glycosides in healthy male adults. Free Radic Biol Med. 2022. PMID:35452808 DOI:10.1016/j.freeradbiomed.2022.04.007
+20. Meyer H et al. Bioavailability of apigenin from apiin-rich parsley in humans. Ann Nutr Metab. 2006. PMID:16407641 DOI:10.1159/000090736
+21. Nielsen SE et al. Effect of parsley (Petroselinum crispum) intake on urinary apigenin excretion, blood antioxidant enzymes and biomarkers for oxidative stress in human subjects. Br J Nutr. 1999. PMID:10615220 DOI:10.1017/s000711459900080x
+22. Tang D et al. Pharmacokinetic properties and drug interactions of apigenin, a natural flavone. Expert Opin Drug Metab Toxicol. 2017. PMID:27766890 DOI:10.1080/17425255.2017.1251903
+23. Kramer DJ et al. Apigenin: a natural molecule at the intersection of sleep and aging. Front Nutr. 2024. PMID:38476603 DOI:10.3389/fnut.2024.1359176
+24. Godos J et al. Specific Dietary (Poly)phenols Are Associated with Sleep Quality in a Cohort of Italian Adults. Nutrients. 2020. PMID:32357534 DOI:10.3390/nu12051226
+25. Janssen K et al. Effects of the flavonoids quercetin and apigenin on hemostasis in healthy volunteers: results from an in vitro and a dietary supplement study. Am J Clin Nutr. 1998. PMID:9459373 DOI:10.1093/ajcn/67.2.255
+26. Navarro-Núñez L et al. Apigenin inhibits platelet adhesion and thrombus formation and synergizes with aspirin in the suppression of the arachidonic acid pathway. J Agric Food Chem. 2008. PMID:18410117 DOI:10.1021/jf0723209
+27. Escande C et al. Flavonoid apigenin is an inhibitor of the NAD+ ase CD38: implications for cellular NAD+ metabolism, protein acetylation, and treatment of metabolic syndrome. Diabetes. 2013. PMID:23172919 DOI:10.2337/db12-1139
+28. Camacho-Pereira J et al. CD38 Dictates Age-Related NAD Decline and Mitochondrial Dysfunction through an SIRT3-Dependent Mechanism. Cell Metab. 2016. PMID:27304511 DOI:10.1016/j.cmet.2016.05.006
+29. Ogura Y et al. CD38 inhibition by apigenin ameliorates mitochondrial oxidative stress through restoration of the intracellular NAD(+)/NADH ratio and Sirt3 activity in renal tubular cells in diabetic rats. Aging (Albany NY). 2020. PMID:32507768 DOI:10.18632/aging.103410
+30. Roboon J et al. Inhibition of CD38 and supplementation of nicotinamide riboside ameliorate lipopolysaccharide-induced microglial and astrocytic neuroinflammation by increasing NAD(). J Neurochem. 2021. PMID:33871064 DOI:10.1111/jnc.15367
+31. Viola H et al. Apigenin, a component of Matricaria recutita flowers, is a central benzodiazepine receptors-ligand with anxiolytic effects. Planta Med. 1995. PMID:7617761 DOI:10.1055/s-2006-958058
+32. Campbell EL et al. The dietary flavonoids apigenin and (-)-epigallocatechin gallate enhance the positive modulation by diazepam of the activation by GABA of recombinant GABA(A) receptors. Biochem Pharmacol. 2004. PMID:15451406 DOI:10.1016/j.bcp.2004.07.022
+33. Goutman JD et al. Flavonoid modulation of ionic currents mediated by GABA(A) and GABA(C) receptors. Eur J Pharmacol. 2003. PMID:12586201 DOI:10.1016/s0014-2999(03)01309-8
+34. Savage K et al. GABA-modulating phytomedicines for anxiety: A systematic review of preclinical and clinical evidence. Phytother Res. 2018. PMID:29168225 DOI:10.1002/ptr.5940
+35. Wang Z et al. Inhibitory Effect of Apigenin on Losartan Metabolism and CYP2C9 Activity in vitro. Pharmacology. 2016. PMID:27287328 DOI:10.1159/000446808
+36. Kimura Y et al. Inhibitory effects of polyphenols on human cytochrome P450 3A4 and 2C9 activity. Food Chem Toxicol. 2010. PMID:19883715 DOI:10.1016/j.fct.2009.10.041
+37. Kondža M et al. Characterization of the CYP3A4 Enzyme Inhibition Potential of Selected Flavonoids. Molecules. 2021. PMID:34069400 DOI:10.3390/molecules26103018
+38. Šarić Mustapić D et al. The Inhibitory Effect of Flavonoid Aglycones on the Metabolic Activity of CYP3A4 Enzyme. Molecules. 2018. PMID:30301254 DOI:10.3390/molecules23102553
+39. Budzinski JW et al. An in vitro evaluation of human cytochrome P450 3A4 inhibition by selected commercial herbal extracts and tinctures. Phytomedicine. 2000. PMID:10969720 DOI:10.1016/S0944-7113(00)80044-6
+40. Shimada H et al. Differential mechanisms for the inhibition of human cytochrome P450 1A2 by apigenin and genistein. J Biochem Mol Toxicol. 2010. PMID:20806393 DOI:10.1002/jbt.20328
+41. Ganzera M et al. Inhibitory effects of the essential oil of chamomile (Matricaria recutita L.) and its major constituents on human cytochrome P450 enzymes. Life Sci. 2006. PMID:16137701 DOI:10.1016/j.lfs.2005.05.095
+42. Ikeda M et al. German Chamomile (Matricaria chamomilla) Induces Cytochrome P450 Expression Through Increased BMAL1 Protein Expression in Liver Nuclei. Biochem Genet. 2026. PMID:41091411 DOI:10.1007/s10528-025-11260-7
+43. Zhan YY et al. Inhibitory Effect of Apigenin on Pharmacokinetics of Venlafaxine in vivo and in vitro. Pharmacology. 2015. PMID:26202346 DOI:10.1159/000437056
+44. Raish M et al. Effects of Apigenin on Pharmacokinetics of Dasatinib and Probable Interaction Mechanism. Molecules. 2023. PMID:36838589 DOI:10.3390/molecules28041602
+45. Kumar KK et al. Pharmacokinetic drug interactions between apigenin, rutin and paclitaxel mediated by P-glycoprotein in rats. Eur J Drug Metab Pharmacokinet. 2015. PMID:24871039 DOI:10.1007/s13318-014-0203-z
+46. Facciolá G et al. Cytochrome P450 isoforms involved in melatonin metabolism in human liver microsomes. Eur J Clin Pharmacol. 2001. PMID:11317475 DOI:10.1007/s002280000245
+47. Kellis JT Jr et al. Inhibition of human estrogen synthetase (aromatase) by flavones. Science. 1984. PMID:6474163 DOI:10.1126/science.6474163
+48. Sanderson JT et al. Induction and inhibition of aromatase (CYP19) activity by natural and synthetic flavonoid compounds in H295R human adrenocortical carcinoma cells. Toxicol Sci. 2004. PMID:15319488 DOI:10.1093/toxsci/kfh257
+49. Saarinen N et al. No evidence for the in vivo activity of aromatase-inhibiting flavonoids. J Steroid Biochem Mol Biol. 2001. PMID:11595503 DOI:10.1016/s0960-0760(01)00098-x
+50. Yao L et al. Apigenin acts as a partial agonist action at estrogen receptors in vivo. Eur J Pharmacol. 2021. PMID:34048736 DOI:10.1016/j.ejphar.2021.174175
+51. Dean M et al. The Flavonoid Apigenin Is a Progesterone Receptor Modulator with In Vivo Activity in the Uterus. Horm Cancer. 2018. PMID:29736565 DOI:10.1007/s12672-018-0333-x
+52. Segal R et al. Warfarin interaction with Matricaria chamomilla. CMAJ. 2006. PMID:16636327 DOI:10.1503/cmaj.051191
+53. Tan CSS et al. Warfarin and food, herbal or dietary supplement interactions: A systematic review. Br J Clin Pharmacol. 2021. PMID:32478963 DOI:10.1111/bcp.14404
+54. Ge B et al. Updates on the clinical evidenced herb-warfarin interactions. Evid Based Complement Alternat Med. 2014. PMID:24790635 DOI:10.1155/2014/957362
+55. Schwartz JA et al. Effect of chamomile intake on blood coagulation tests in healthy volunteers: a randomized, placebo-controlled, crossover trial. Perioper Med (Lond). 2023. PMID:37730613 DOI:10.1186/s13741-023-00339-7
+56. Hurrell RF et al. Inhibition of non-haem iron absorption in man by polyphenolic-containing beverages. Br J Nutr. 1999. PMID:10999016
+57. Mastrofini GF et al. Modulating stress and sleep through a multi-compound dietary supplement: a randomized, double-blind, placebo-controlled trial. J Int Soc Sports Nutr. 2026. PMID:42829807 DOI:10.1080/15502783.2026.2740227
+58. Wong WY et al. Synergistic sleep-promoting effects of magnesium and apigenin in normal and insomnia mouse models. Food Funct. 2026. PMID:41701207 DOI:10.1039/d5fo04538j
+59. Ajebli M et al. Apigenin and Hypertension: A Review of Natural Sources, Pharmacodynamic and Pharmacokinetic Evidence. Pharmacology. 2026. PMID:42832459 DOI:10.1159/pha/aejag005
+60. Wang J et al. Apigenin for Depression and Anxiety: A Systematic Review of Preclinical Studies. Iran J Pharm Res. 2026. PMID:42488186 DOI:10.5812/ijpr-167153
+61. National Center for Complementary and Integrative Health (NCCIH). Chamomile (fact sheet). Accessed 2026-10-13. URL:https://www.nccih.nih.gov/health/chamomile

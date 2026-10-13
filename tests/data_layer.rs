@@ -150,6 +150,12 @@ fn labs_markers_and_panels_carry_the_biomarker_data() {
     );
     let r = find(&m, "marker_id", "hdl-c");
     assert_eq!((t(&m, r, 4).as_str(), t(&m, r, 10).as_str()), ("39", "lo"));
+    assert_eq!(t(&m, r, 8), "", "a personal range shadows the blueprint set: blank");
+    let (bl, bh) = (col_of(&m, "blueprint_lo"), col_of(&m, "blueprint_hi"));
+    let r = find(&m, "marker_id", "ldl-c");
+    assert_eq!((t(&m, r, bl), t(&m, r, bh)), (String::new(), "60".into()), "blueprint from `profile show`");
+    let r = find(&m, "marker_id", "hba1c");
+    assert_eq!((t(&m, r, bl), t(&m, r, bh)), ("4.5".into(), "5.6".into()));
     let r = find(&m, "marker_id", "uacr");
     assert_eq!(t(&m, r, 2), "Renal");
     assert_eq!(t(&m, r, 11), "", "critical bounds stay blank unless sourced");
@@ -203,8 +209,12 @@ fn ref_tables_hold_the_lookups() {
     );
     let h = wb.worksheet_range("Ref_Hallmarks").unwrap();
     assert_eq!(h.height(), 10, "nine hallmarks");
-    assert_eq!(t(&h, 1, 3), "UNVERIFIED");
-    assert_eq!(wb.worksheet_range("Ref_SENS").unwrap().height(), 8);
+    assert_eq!(t(&h, 1, 3), "verified");
+    assert!(t(&h, 1, 2).contains("doi:10.1016/j.cell.2013.05.039"), "Lopez-Otin 2013");
+    let sens = wb.worksheet_range("Ref_SENS").unwrap();
+    assert_eq!(sens.height(), 8);
+    assert_eq!(t(&sens, 7, 3), "verified");
+    assert!(t(&sens, 7, 2).contains("doi:10.1111/j.1749-6632.2002.tb02115.x"), "de Grey 2002");
     let sys = wb.worksheet_range("Ref_Systems").unwrap();
     assert_eq!(t(&sys, find(&sys, "marker_id", "wbc"), 1), "Hematology");
     assert_eq!(wb.worksheet_range("Ref_Direction").unwrap().height(), 4);

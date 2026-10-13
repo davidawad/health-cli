@@ -124,7 +124,7 @@ pub fn fixture() -> Data {
         ],
         // Protocols charts its sources and fails on none (outside this workstream).
         sources: vec![rec(json!({"id": 1, "name": "Test Protocol"}))],
-        labs: Some(Labs { measurements, canonical, markers }),
+        labs: Some(Labs { measurements, canonical, markers, ..Labs::default() }),
         generated_on: Some(day("2025-03-01")),
         ..Data::default()
     }

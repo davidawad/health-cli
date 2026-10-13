@@ -109,9 +109,12 @@ fn part<'a>(parts: &'a [(String, String)], name: &str) -> &'a str {
     &parts.iter().find(|(n, _)| n == name).unwrap_or_else(|| panic!("no part {name}")).1
 }
 
-/// Path of the worksheet XML for a sheet (workbook order = sheetN.xml order).
-fn sheet_xml(p: &[(String, String)], index: usize) -> &str {
-    part(p, &format!("xl/worksheets/sheet{}.xml", index + 1))
+/// Worksheet XML of a sheet by name (workbook order = sheetN.xml order).
+fn sheet_xml<'a>(p: &'a [(String, String)], name: &str) -> &'a str {
+    let wbx = part(p, "xl/workbook.xml");
+    let names: Vec<&str> = wbx.split("<sheet name=\"").skip(1).map(|x| x.split('"').next().unwrap()).collect();
+    let i = names.iter().position(|n| *n == name).unwrap_or_else(|| panic!("no sheet {name}"));
+    part(p, &format!("xl/worksheets/sheet{}.xml", i + 1))
 }
 
 /// Prefixes of the workstream sheets (tested in `tests/sheet_<prefix>.rs`).
@@ -125,8 +128,11 @@ fn opens_with_every_sheet_in_order() {
     let names = wb.sheet_names();
     let shared: Vec<&String> = names.iter().filter(|n| SHEETS.contains(&n.as_str())).collect();
     assert_eq!(shared, SHEETS);
+    assert_eq!(names[0], "Nav", "the index opens the workbook");
     let workstream = ["Lab_", "Cln_", "Sup_", "Age_", "Bod_", "Gen_", "Sch_", "Ref_"];
-    for n in names.iter().filter(|n| !SHEETS.contains(&n.as_str())) {
+    let glb =
+        ["Nav", "Dash", "Alerts", "Changes", "Scenario", "YearReview", "Checks", "Export", "Sources", "Dash_Trend"];
+    for n in names.iter().filter(|n| !SHEETS.contains(&n.as_str()) && !glb.contains(&n.as_str())) {
         assert!(workstream.iter().any(|p| n.starts_with(p)), "{n}: unexpected sheet");
     }
 }
@@ -314,14 +320,14 @@ fn has_tables_validation_conditional_formats_and_charts() {
         assert!(names.iter().any(|n| n == t), "{t} in {names:?}");
     }
     // Supplements (index 5): YES/NO, type and frequency drop-downs.
-    let sup = sheet_xml(&p, 5);
+    let sup = sheet_xml(&p, "Supplements");
     assert!(sup.matches("<dataValidation ").count() >= 4);
     assert!(sup.contains("YES,NO") && sup.contains("Rx,Nt,Sp") && sup.contains("Lists!$A$2:$A$9"), "{sup:.0}");
     // Biomarkers (index 1): out-of-range and in-range conditional formats against ref. low/high.
-    let bio = sheet_xml(&p, 1);
+    let bio = sheet_xml(&p, "Biomarkers");
     assert!(bio.contains("<conditionalFormatting") && bio.contains("$F2") && bio.contains("$G2"));
     // Nutrition: colour scales and YES/NO.
-    let nut = sheet_xml(&p, 6);
+    let nut = sheet_xml(&p, "Nutrition");
     assert!(nut.contains("colorScale") && nut.contains("YES,NO"));
     let charts: Vec<&(String, String)> = p.iter().filter(|(n, _)| n.starts_with("xl/charts/chart")).collect();
     assert!(charts.len() >= 10, "{} charts", charts.len());
@@ -369,8 +375,8 @@ fn only_restricts_the_sheets_and_list_names_them() {
     e.run(&["sheet", "--out", out.to_str().unwrap(), "--only", "supplements,lists"]);
     assert_eq!(
         open(&out).sheet_names(),
-        ["Supplements", "Lists", "Params", "Ref_KPI"],
-        "infra sheets always come along"
+        ["Nav", "Supplements", "Lists", "Params", "Ref_KPI"],
+        "the index and the infra sheets always come along"
     );
     e.cmd().args(["sheet", "--only", "nope", "--out", out.to_str().unwrap()]).assert().failure().code(2);
     let list = e.json(&["sheet", "--list"]);
@@ -436,7 +442,7 @@ fn infrastructure_sheets_expose_params_names_and_kpis() {
     let rcv = rows.iter().find(|r| r[0] == "RCV_z").unwrap();
     assert_eq!((rcv[1].as_str(), rcv[3].as_str()), ("1.96", "verified"));
     // Limits are enforced by validation; UNVERIFIED rows are highlighted.
-    let sheet = sheet_xml(&p, SHEETS.iter().position(|s| *s == "Params").unwrap());
+    let sheet = sheet_xml(&p, "Params");
     assert!(sheet.contains("<dataValidation ") && sheet.contains("decimal") && sheet.contains("UNVERIFIED"));
     let k = wb.worksheet_range("Ref_KPI").unwrap();
     let row = (1..k.height() as u32).find(|r| text(&k, *r, 0) == "K_INFRA_n_params").expect("infra KPI listed");
@@ -452,7 +458,7 @@ fn infrastructure_sheets_expose_params_names_and_kpis() {
 fn workstream_tabs_use_their_theme_colour_and_infra_tabs_are_grey() {
     let e = Env::new();
     let p = parts(&generate(&e));
-    let n = SHEETS.iter().position(|s| *s == "Params").unwrap();
-    assert!(sheet_xml(&p, n).contains("<tabColor"), "Params tab is coloured");
-    assert!(sheet_xml(&p, 0).contains("<tabColor"), "Dashboard tab is coloured");
+    assert!(sheet_xml(&p, "Params").contains("<tabColor"), "Params tab is coloured");
+    assert!(sheet_xml(&p, "Dashboard").contains("<tabColor"), "Dashboard tab is coloured");
+    assert!(sheet_xml(&p, "Nav").contains("<tabColor"), "GLB tabs are coloured");
 }

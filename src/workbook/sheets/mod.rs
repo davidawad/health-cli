@@ -21,6 +21,7 @@ pub mod dashboard;
 pub mod evidence;
 pub mod gen;
 pub mod genetics;
+pub mod glb;
 pub mod lab;
 pub mod lists;
 pub mod nutrition;
@@ -39,8 +40,10 @@ pub mod workout;
 
 /// Every sheet module, in tab order.
 pub fn registry() -> Vec<Box<dyn SheetModule>> {
-    let mut reg: Vec<Box<dyn SheetModule>> = vec![
-        Box::new(dashboard::Dashboard),
+    // Workstream W8 (GLB) opens the workbook: Nav (index) first, then the dashboard views.
+    let mut reg: Vec<Box<dyn SheetModule>> = glb::front();
+    reg.extend([
+        Box::new(dashboard::Dashboard) as Box<dyn SheetModule>,
         Box::new(biomarkers::Biomarkers),
         Box::new(weight_age::WeightAge),
         Box::new(routine::Routine),
@@ -58,7 +61,7 @@ pub fn registry() -> Vec<Box<dyn SheetModule>> {
         Box::new(protocols::Protocols),
         Box::new(costs::Costs),
         Box::new(lists::Lists),
-    ];
+    ]);
     // Workstream sheet groups (one line each).
     reg.extend(lab::modules());
     // Infrastructure sheets, written last (phase 1) so they list what every module registered.

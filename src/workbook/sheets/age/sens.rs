@@ -27,7 +27,7 @@ impl SheetModule for Sens {
             ws,
             cx,
             "SENS damage categories vs the stack",
-            "AGE-07 (L-A12) | DEGR ch08 l.66-94 and chapters 5-12; category list UNVERIFIED (Ref_SENS)",
+            "AGE-07 (L-A12) | DEGR ch08 l.66-94 and chapters 5-12; category list per de Grey 2002 (Ref_SENS)",
             Banner::Awaiting("SENS tags in tblSuppTags (s_* columns; empty, user-owned)"),
         )?;
         let tags: Vec<&str> = SUPP_TAGS_DEF.headers.iter().copied().filter(|h| h.starts_with("s_")).collect();

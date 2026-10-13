@@ -135,7 +135,7 @@ impl SheetModule for Hallmarks {
             ws,
             cx,
             "Hallmarks of aging: coverage, cost and evidence of the stack",
-            "AGE-06 (L-A7, L-A8, L-A9) | LIFE l.1095-1118, 1170-1171; hallmark list UNVERIFIED (Ref_Hallmarks)",
+            "AGE-06 (L-A7, L-A8, L-A9) | LIFE l.1095-1118, 1170-1171; hallmark list per Lopez-Otin 2013 (Ref_Hallmarks)",
             Banner::Awaiting("hallmark tags in tblSuppTags (h_* columns; empty, user-owned, MED-VERIFY)"),
         )?;
         let tags: Vec<&str> = SUPP_TAGS_DEF.headers.iter().copied().filter(|h| h.starts_with("h_")).collect();

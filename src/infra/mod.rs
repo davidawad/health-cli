@@ -27,6 +27,7 @@ pub mod refs;
 pub mod theme;
 
 use std::cell::RefCell;
+use std::collections::BTreeMap;
 
 /// Registries shared by every sheet module of one workbook build.
 #[derive(Default)]
@@ -34,6 +35,26 @@ pub struct Shared {
     pub names: RefCell<names::Names>,
     pub params: RefCell<params::ParamSet>,
     pub kpis: RefCell<kpi::Kpis>,
+    /// Every sheet of this build, in tab order (set before any module builds).
+    pub built: RefCell<Vec<Built>>,
+    /// Last used (row, column) of every sheet, zero-based: only for
+    /// [`SheetModule::finish`](crate::workbook::SheetModule::finish).
+    pub extents: RefCell<BTreeMap<String, (u32, u16)>>,
+}
+
+/// A sheet chosen for this build.
+#[derive(Debug, Clone)]
+pub struct Built {
+    pub id: &'static str,
+    pub title: String,
+    pub hidden: bool,
+}
+
+impl Shared {
+    /// Whether the sheet titled `title` is part of this build.
+    pub fn has(&self, title: &str) -> bool {
+        self.built.borrow().iter().any(|b| b.title == title)
+    }
 }
 
 impl Shared {

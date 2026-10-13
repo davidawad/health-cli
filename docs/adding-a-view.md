@@ -50,7 +50,13 @@ Nothing here is edited by a view's author.
 
 * **Registry and phases.** `SheetModule::phase()` 0 builds first; phase 1 (`Params`,
   `Ref_KPI`) builds last so it lists everything the others registered. Tab order is
-  registry order. Duplicate sheet titles (case-insensitive) fail the build.
+  registry order. Duplicate sheet titles (case-insensitive) fail the build. Sheets with
+  `phase() > 0` come along in every `--only` build unless `always_built()` says otherwise
+  (the GLB views build in phase 2 so they can read every KPI name, but only `Nav` is forced
+  in). `cx.shared.built` lists the sheets of the current build (`cx.shared.has("Calc_Marker")`)
+  so a view never references a sheet a narrower build left out. A module whose
+  `finishes()` is true gets `finish()` after every sheet exists, with each sheet's used
+  extent in `cx.shared.extents` (the Checks error sweep uses it).
 * **Named ranges.** `cx.shared.names.borrow_mut().define("Sel_X", &names::cell_ref("Lab_Tear", 3, 1), "lab")?`
   Names must be legal and must not look like cells (`K1`); a collision fails the build and
   names both owners. Standard names: `Today`, `DOB`, `Height_in`, `Height_cm`, every
@@ -104,7 +110,9 @@ Facts to rely on:
   per marker and raw unit.
 * Booleans are the strings `YES` / `NO` (blank = unknown). Dates are real Excel dates.
 * `tblMarkers.dir`: `hi` (an upper bound matters), `lo`, `band`; blank when the marker has no range.
-  `critical_*`, `blueprint_*`, `weight`, `cvi`, `cva` are blank until someone fills them from a source.
+  `blueprint_*` are the optimal bounds of biomarker's built-in `blueprint` range set (`profile show` with
+  `BIOMARKER_RANGE_SET=blueprint`; blank when biomarker lacks the set or a personal range shadows it).
+  `critical_*`, `weight`, `cvi`, `cva` are blank until someone fills them from a source.
 * Lab tables and `Calc_*` exist only when `biomarker` answered; without it they are absent, so guard views with
   `SheetModule::available` (`d.labs.is_some()`).
 * `tblSupp.start_date` / `stop_date` exist but are empty (the store does not track them yet): GATE-DATES views degrade to
@@ -132,8 +140,9 @@ Structured references (`=SUM(tblLabs[value])`) also work in Excel and in the Lib
   Row-aligned means: to read marker `m`, `INDEX(Calc_Marker!$E$2:$E$n, MATCH(m, Calc_Marker!$A$2:$A$n, 0))`.
 
 **`Ref_*` lookups (tables, `tblRef*`):** `Ref_Systems` (marker -> organ system), `Ref_Units`, `Ref_Stance` (supporting 1 / neutral 0 / warning -1,
-heuristic), `Ref_TimeSlots`, `Ref_Hallmarks` (9), `Ref_SENS` (7), `Ref_Mechanisms` (10), `Ref_Direction`. The hallmark and SENS lists are
-**UNVERIFIED** (typed from memory; the source column says what to check them against). Rule tables you own (vaccine, screening,
+heuristic), `Ref_TimeSlots`, `Ref_Hallmarks` (9), `Ref_SENS` (7), `Ref_Mechanisms` (10), `Ref_Direction`. The hallmark list is
+`verified` against Lopez-Otin et al. 2013 (the 9; the 2023 update has 12) and the SENS list against de Grey et al. 2002; the
+source column has the DOI. Rule tables you own (vaccine, screening,
 interaction, GRADE, UL/DRI, PGx allele) must use the columns in `refs::RULE_HEADERS`: `id, rule, value, unit, source, source_state, note`.
 
 **Adding a table or column.** Add a `TableDef` (and a row builder) in `data.rs` and list it in `data::all()`; do not create a second

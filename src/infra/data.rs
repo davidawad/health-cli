@@ -178,6 +178,7 @@ fn markers(d: &Data) -> Vec<Vec<V>> {
             let (ol, oh) = m.map_or((None, None), |m| (m.opt_low, m.opt_high));
             let (dl, dh) = if ol.is_some() || oh.is_some() { (ol, oh) } else { (rl, rh) };
             let dir = dir_of(dl, dh);
+            let (bl, bh) = d.labs.as_ref().and_then(|l| l.blueprint.get(&slug).copied()).unwrap_or_default();
             vec![
                 V::S(slug.clone()),
                 V::S(name),
@@ -187,8 +188,8 @@ fn markers(d: &Data) -> Vec<Vec<V>> {
                 on(rh),
                 on(ol),
                 on(oh),
-                V::E, // blueprint_lo
-                V::E, // blueprint_hi
+                on(bl),
+                on(bh),
                 if dir.is_empty() { V::E } else { V::S(dir.into()) },
                 V::E, // critical_lo (blank unless sourced)
                 V::E, // critical_hi

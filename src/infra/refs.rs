@@ -109,6 +109,10 @@ fn slots(_: &Data) -> Vec<Vec<V>> {
 }
 
 const HALLMARKS: &[&str] = &["id", "hallmark", "source", "source_state"];
+/// Checked 2026-10-13 against the abstract (PMC3836174). The 2023 update
+/// (doi:10.1016/j.cell.2022.11.001) has 12; this table keeps the 2013 nine.
+const HALLMARK_SOURCE: &str = "Lopez-Otin C et al. The Hallmarks of Aging. Cell 2013;153(6):1194-1217, \
+    doi:10.1016/j.cell.2013.05.039 (the 9 of the 2013 paper; the 2023 update has 12)";
 const HALLMARK_NAMES: [&str; 9] = [
     "Genomic instability",
     "Telomere attrition",
@@ -125,17 +129,18 @@ fn hallmarks(_: &Data) -> Vec<Vec<V>> {
         .iter()
         .enumerate()
         .map(|(i, h)| {
-            vec![
-                V::N(i as f64 + 1.0),
-                V::S((*h).into()),
-                V::S("pending: LIFE ch00 lines 1095-1118 (Lopez-Otin 2013 list), not re-checked here".into()),
-                V::S("UNVERIFIED".into()),
-            ]
+            vec![V::N(i as f64 + 1.0), V::S((*h).into()), V::S(HALLMARK_SOURCE.into()), V::S("verified".into())]
         })
         .collect()
 }
 
 const SENS: &[&str] = &["id", "category", "source", "source_state"];
+/// Checked 2026-10-13: the seven damage categories (RepleniSENS, OncoSENS, MitoSENS,
+/// ApoptoSENS, GlycoSENS, AmyloSENS, LysoSENS) as restated by Rae 2024, which cites
+/// de Grey et al. 2002 as the first version.
+const SENS_SOURCE: &str = "de Grey AD et al. Time to talk SENS. Ann N Y Acad Sci 2002;959:452-462, \
+    doi:10.1111/j.1749-6632.2002.tb02115.x; list per Rae M, Do the Hallmarks of Aging Make SENS? (Part Two), 2024, \
+    https://lifespan.io/michael-rae/hallmarks-aging-make-sens-part-2/";
 const SENS_NAMES: [&str; 7] = [
     "Cell loss and atrophy",
     "Nuclear mutations and epimutations",
@@ -149,14 +154,7 @@ fn sens(_: &Data) -> Vec<Vec<V>> {
     SENS_NAMES
         .iter()
         .enumerate()
-        .map(|(i, h)| {
-            vec![
-                V::N(i as f64 + 1.0),
-                V::S((*h).into()),
-                V::S("pending: de Grey SENS damage categories".into()),
-                V::S("UNVERIFIED".into()),
-            ]
-        })
+        .map(|(i, h)| vec![V::N(i as f64 + 1.0), V::S((*h).into()), V::S(SENS_SOURCE.into()), V::S("verified".into())])
         .collect()
 }
 
@@ -289,12 +287,19 @@ mod tests {
     }
 
     #[test]
-    fn rows_match_headers_and_unverified_facts_are_labelled() {
+    fn rows_match_headers_and_reference_lists_cite_their_source() {
         let d = Data::default();
         for t in all() {
             assert!((t.rows)(&d).iter().all(|r| r.len() == t.headers.len()), "{}", t.table);
         }
-        assert!((REF_HALLMARKS.rows)(&d).iter().all(|r| r[3] == V::S("UNVERIFIED".into())));
+        for (t, doi) in
+            [(&REF_HALLMARKS, "10.1016/j.cell.2013.05.039"), (&REF_SENS, "10.1111/j.1749-6632.2002.tb02115.x")]
+        {
+            for r in (t.rows)(&d) {
+                assert_eq!(r[3], V::S("verified".into()), "{}", t.table);
+                assert!(matches!(&r[2], V::S(s) if s.contains(doi)), "{} cites {doi}", t.table);
+            }
+        }
         assert_eq!(RULE_HEADERS.len(), 7);
     }
 }

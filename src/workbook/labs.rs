@@ -40,6 +40,9 @@ pub struct MarkerInfo {
     pub description: Option<String>,
 }
 
+/// (low, high) bounds per marker slug.
+pub type Bounds = BTreeMap<String, (Option<f64>, Option<f64>)>;
+
 #[derive(Debug, Clone, Default)]
 pub struct Labs {
     /// In US units (`--units us`): what the legacy sheets show (weight in lb).
@@ -47,6 +50,9 @@ pub struct Labs {
     /// In canonical units (biomarker's default): what the `Data_*` tables carry.
     pub canonical: Vec<Measurement>,
     pub markers: Vec<MarkerInfo>,
+    /// Blueprint optimal bounds (low, high) per marker slug, canonical units: the
+    /// built-in `blueprint` range set of biomarker v0.6+. Empty when unavailable.
+    pub blueprint: Bounds,
 }
 
 impl Labs {
@@ -160,6 +166,22 @@ pub fn parse_markers(json: &str) -> Result<Vec<MarkerInfo>> {
         .collect())
 }
 
+/// The `blueprint` rows of `biomarker profile show PERSON --format json` run with
+/// `BIOMARKER_RANGE_SET=blueprint`: optimal ranges whose source is `set:blueprint`.
+/// A marker whose personal range shadows the set has no row and stays blank.
+pub fn parse_blueprint(json: &str) -> Result<Bounds> {
+    Ok(data_of(json, "biomarker/")?
+        .iter()
+        .filter(|r| r["kind"].as_str() == Some("optimal") && r["source"].as_str() == Some(BLUEPRINT_SOURCE))
+        .filter_map(|r| {
+            let b = (r["low"].as_f64(), r["high"].as_f64());
+            (b.0.is_some() || b.1.is_some()).then_some((text(r, "marker")?, b))
+        })
+        .collect())
+}
+
+const BLUEPRINT_SOURCE: &str = "set:blueprint";
+
 pub fn parse_kits(kits_json: &str, summary_json: &str) -> Result<Vec<Kit>> {
     let summaries = data_of(summary_json, "genome/")?;
     Ok(data_of(kits_json, "genome/")?
@@ -192,7 +214,11 @@ pub fn parse_kits(kits_json: &str, summary_json: &str) -> Result<Vec<Kit>> {
 /// Run `cmd args...` and return stdout. Personal data flows through the pipe
 /// only; stderr is shown on failure.
 fn run(cmd: &str, args: &[&str]) -> Result<String> {
-    let out = Command::new(cmd).args(args).output().map_err(|e| {
+    run_env(cmd, args, &[])
+}
+
+fn run_env(cmd: &str, args: &[&str], env: &[(&str, &str)]) -> Result<String> {
+    let out = Command::new(cmd).args(args).envs(env.iter().copied()).output().map_err(|e| {
         AppError::io(format!(
             "running `{cmd} {}`: {e} (is it installed? see the biomarker_cmd / genome_cmd settings)",
             args.join(" ")
@@ -215,7 +241,25 @@ pub fn fetch_labs(cmd: &str, person: &str) -> Result<Labs> {
     let q = run(cmd, &["query", "-p", person, "--units", "us", "--format", "json"])?;
     let c = run(cmd, &["query", "-p", person, "--format", "json"])?;
     let m = run(cmd, &["marker", "list", "--format", "json"])?;
-    Ok(Labs { measurements: parse_measurements(&q)?, canonical: parse_measurements(&c)?, markers: parse_markers(&m)? })
+    Ok(Labs {
+        measurements: parse_measurements(&q)?,
+        canonical: parse_measurements(&c)?,
+        markers: parse_markers(&m)?,
+        blueprint: fetch_blueprint(cmd, person),
+    })
+}
+
+/// The `blueprint` range set's optimal bounds in canonical units, or nothing when
+/// this biomarker predates the set (v0.6 without it) or `profile show` fails: the
+/// `blueprint_*` columns then stay blank rather than failing the lab sheets.
+pub fn fetch_blueprint(cmd: &str, person: &str) -> Bounds {
+    run_env(
+        cmd,
+        &["profile", "show", person, "--units", "canonical", "--format", "json"],
+        &[("BIOMARKER_RANGE_SET", "blueprint")],
+    )
+    .and_then(|j| parse_blueprint(&j))
+    .unwrap_or_default()
 }
 
 /// `genome kits` + `genome summary` (counts only; genotypes stay in genome-cli).
@@ -246,6 +290,28 @@ mod tests {
     fn wrong_schema_is_rejected() {
         assert!(parse_measurements(r#"{"schema":"other/v1","data":[]}"#).is_err());
         assert!(parse_measurements("nope").is_err());
+    }
+
+    #[test]
+    fn blueprint_keeps_only_the_sets_optimal_bounds() {
+        // Synthetic `profile show` output shaped like biomarker v0.6 (PR #4).
+        let j = r#"{"schema":"biomarker/v1","kind":"profile","person":"p","range_set":"blueprint","data":[
+          {"marker":"hba1c","unit":"%","kind":"optimal","low":4.5,"high":5.6,"source":"set:blueprint"},
+          {"marker":"hba1c","unit":"%","kind":"reference","low":4.0,"high":5.6,"source":"catalog"},
+          {"marker":"alt","unit":"U/L","kind":"optimal","low":null,"high":15.0,"source":"set:blueprint"},
+          {"marker":"ldl-c","unit":"mg/dL","kind":"optimal","low":null,"high":70.0,"source":"person"},
+          {"marker":"ggt","unit":"U/L","kind":"optimal","low":null,"high":null,"source":"set:blueprint"}]}"#;
+        let b = parse_blueprint(j).unwrap();
+        assert_eq!(b.len(), 2, "{b:?}");
+        assert_eq!(b["hba1c"], (Some(4.5), Some(5.6)));
+        assert_eq!(b["alt"], (None, Some(15.0)));
+        assert!(parse_blueprint(r#"{"schema":"other/v1","data":[]}"#).is_err());
+    }
+
+    #[test]
+    fn blueprint_fetch_falls_back_to_empty() {
+        assert!(fetch_blueprint("/nonexistent/biomarker-cli-for-test", "p").is_empty());
+        assert!(fetch_blueprint("false", "p").is_empty(), "a failing command yields no bounds");
     }
 
     #[test]

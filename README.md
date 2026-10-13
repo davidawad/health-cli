@@ -115,6 +115,12 @@ never the original; an existing file is only replaced when its name contains
   readout, time of day, evidence stance), and charts (weight, BMI, ages, cholesterol,
   glucose, A1c, weekly supplement breakdown, cost breakdown, protocols, genome).
 * Section headings of the old sheets are a `Category` column in real tables.
+* The workbook opens on `Nav`, an index of every sheet by workstream with its BN / PH / NS
+  status (from `docs/ideas/coverage-*.md`), then the executive dashboard `Dash` (reads only
+  `K_*` KPI and `Params` names), `Alerts`, `Changes`, `Scenario`, `YearReview`, `Checks`
+  (data integrity, reconciliation, a formula-error sweep of every sheet and one
+  ALL CHECKS PASS cell), `Export` (a redactable "book on me") and `Sources`
+  ([`docs/ideas/coverage-glb.md`](docs/ideas/coverage-glb.md)).
 * New views beyond the original: `Evidence`, `Protocols`, `Costs`, and a hidden `Lists`.
   `health sheet --list` names every sheet; `--only a,b` builds a subset.
   Add your own in one module and one registry line: [`docs/adding-a-view.md`](docs/adding-a-view.md).

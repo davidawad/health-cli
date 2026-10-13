@@ -465,7 +465,7 @@ impl Env {
         use std::os::unix::fs::PermissionsExt;
         let dir = self.path("bin");
         std::fs::create_dir_all(&dir).unwrap();
-        for f in ["query.json", "markers.json", "kits.json", "summary.json"] {
+        for f in ["query.json", "markers.json", "profile.json", "kits.json", "summary.json"] {
             std::fs::write(dir.join(f), stub_json(f)).unwrap();
         }
         let script = |first: &str, second: &str, a: &str, b: &str| {
@@ -475,10 +475,17 @@ impl Env {
                 dir.join(b).display()
             )
         };
-        for (name, body) in [
-            ("biomarker", script("query", "marker", "query.json", "markers.json")),
-            ("genome", script("kits", "summary", "kits.json", "summary.json")),
-        ] {
+        // `profile show` answers only when asked for the blueprint range set.
+        let biomarker = script("query", "marker", "query.json", "markers.json").replace(
+            "  *)",
+            &format!(
+                "  profile) [ \"$BIOMARKER_RANGE_SET\" = blueprint ] || exit 2; cat '{}' ;;\n  *)",
+                dir.join("profile.json").display()
+            ),
+        );
+        for (name, body) in
+            [("biomarker", biomarker), ("genome", script("kits", "summary", "kits.json", "summary.json"))]
+        {
             let p = dir.join(name);
             std::fs::write(&p, body).unwrap();
             std::fs::set_permissions(&p, std::fs::Permissions::from_mode(0o755)).unwrap();
@@ -567,6 +574,14 @@ fn stub_json(file: &str) -> String {
             {"slug": "glucose", "name": "Glucose", "category": "metabolic", "unit": "mg/dL", "description": null},
             {"slug": "hba1c", "name": "Hemoglobin A1c", "category": "metabolic", "unit": "%", "description": null},
         ]}),
+        "profile.json" => {
+            json!({"schema": "biomarker/v1", "kind": "profile", "person": "david", "range_set": "blueprint", "data": [
+                {"marker": "ldl-c", "unit": "mg/dL", "kind": "reference", "low": 0.0, "high": 99.0, "source": "catalog"},
+                {"marker": "ldl-c", "unit": "mg/dL", "kind": "optimal", "low": null, "high": 60.0, "source": "set:blueprint"},
+                {"marker": "hba1c", "unit": "%", "kind": "optimal", "low": 4.5, "high": 5.6, "source": "set:blueprint"},
+                {"marker": "hdl-c", "unit": "mg/dL", "kind": "optimal", "low": 60.0, "high": null, "source": "person"},
+            ]})
+        }
         "kits.json" => json!({"schema": "genome/v1", "kind": "kits", "data": [
             {"id": "k1", "name": "synthetic-kit", "source_format": "23andme", "assay": "array", "build": "GRCh37", "records": 1000}]}),
         _ => json!({"schema": "genome/v1", "kind": "summary", "data": [

@@ -25,7 +25,7 @@ use rust_xlsxwriter::{
 
 use crate::db::Db;
 use crate::error::{AppError, Result};
-use crate::infra::{theme, Shared};
+use crate::infra::{self, theme, Shared};
 use crate::output::Record;
 use crate::store;
 
@@ -186,6 +186,11 @@ pub trait SheetModule: Sync {
     fn phase(&self) -> u8 {
         0
     }
+    /// Whether `--only` builds include this sheet anyway (the infrastructure sheets that
+    /// list what the others registered).
+    fn always_built(&self) -> bool {
+        self.phase() > 0
+    }
     /// Registry ids of sheets this one reads by defined name (data sheets): `--only`
     /// brings them along.
     fn requires(&self) -> &'static [&'static str] {
@@ -196,6 +201,15 @@ pub trait SheetModule: Sync {
         true
     }
     fn build(&self, ws: &mut Worksheet, cx: &Cx) -> Result<()>;
+    /// Whether [`finish`](Self::finish) should run: after every sheet is built, with the
+    /// used extent of each sheet in `cx.shared.extents` (for whole-sheet sweeps).
+    fn finishes(&self) -> bool {
+        false
+    }
+    /// Second pass over this module's sheet once all sheets exist (see [`finishes`](Self::finishes)).
+    fn finish(&self, _ws: &mut Worksheet, _cx: &Cx) -> Result<()> {
+        Ok(())
+    }
 }
 
 /// Build the workbook from `data`. `only` (registry ids) restricts the sheets.
@@ -228,7 +242,7 @@ pub fn build_with(reg: &[Box<dyn SheetModule>], data: &Data, only: &[String]) ->
     let chosen: Vec<&Box<dyn SheetModule>> = reg
         .iter()
         .filter(|m| {
-            (only.is_empty() || wanted(m.id()) || required.contains(&m.id()) || m.phase() > 0) && m.available(data)
+            (only.is_empty() || wanted(m.id()) || required.contains(&m.id()) || m.always_built()) && m.available(data)
         })
         .collect();
     let mut titles: Vec<String> = chosen.iter().map(|m| m.title().to_lowercase()).collect();
@@ -236,6 +250,8 @@ pub fn build_with(reg: &[Box<dyn SheetModule>], data: &Data, only: &[String]) ->
     if let Some(w) = titles.windows(2).find(|w| w[0] == w[1]) {
         return Err(AppError::invalid(format!("two sheets are named '{}'", w[0])));
     }
+    *shared.built.borrow_mut() =
+        chosen.iter().map(|m| infra::Built { id: m.id(), title: m.title().to_string(), hidden: m.hidden() }).collect();
     // Build in phase order, keep tab order.
     let mut sheets: Vec<Option<Worksheet>> = chosen.iter().map(|_| None).collect();
     for phase in 0..=chosen.iter().map(|m| m.phase()).max().unwrap_or(0) {
@@ -251,8 +267,30 @@ pub fn build_with(reg: &[Box<dyn SheetModule>], data: &Data, only: &[String]) ->
         }
     }
     sheets.into_iter().flatten().for_each(|ws| wb.push_worksheet(ws));
+    let finishing: Vec<&&Box<dyn SheetModule>> = chosen.iter().filter(|m| m.finishes()).collect();
+    if !finishing.is_empty() {
+        *shared.extents.borrow_mut() = extents(&mut wb)?;
+        for m in finishing {
+            let ws = wb.worksheet_from_name(m.title())?;
+            m.finish(ws, &cx).map_err(|e| e.context(format!("sheet {}", m.id())))?;
+        }
+    }
     shared.names.borrow().apply(&mut wb)?;
     Ok(wb)
+}
+
+/// Used extent (last zero-based row and column) of every sheet, read back from the
+/// serialised workbook: rust_xlsxwriter keeps a sheet's dimensions private.
+fn extents(wb: &mut Workbook) -> Result<std::collections::BTreeMap<String, (u32, u16)>> {
+    use calamine::Reader;
+    let buf = wb.save_to_buffer()?;
+    let mut x = calamine::Xlsx::new(std::io::Cursor::new(buf)).map_err(|e| AppError::general(format!("xlsx: {e}")))?;
+    let mut out = std::collections::BTreeMap::new();
+    for name in x.sheet_names() {
+        let dims = x.worksheet_cells_reader(&name).map_err(|e| AppError::general(format!("xlsx: {e}")))?.dimensions();
+        out.insert(name, (dims.end.0, dims.end.1 as u16));
+    }
+    Ok(out)
 }
 
 // ------------------------------------------------------------------ helpers

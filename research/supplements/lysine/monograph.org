@@ -1,0 +1,37 @@
+* Lysine
+:PROPERTIES:
+:ID: supp-lysine
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: L-lysine | lysine hydrochloride
+:CATEGORY: amino-acid
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+** Identity & forms
+- Lysine is an essential amino acid obtained from diet; supplements generally provide L-lysine or its hydrochloride salt [PMID:30855987].
+** Mechanisms
+- Protein synthesis and competition with arginine for viral replication have been proposed to explain HSV effects; mechanistic rationale is not clinical proof [PMID:30855987].
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | Certainty | Citations |
+|---------+--------------------+-----------+-------------+-----------+-----------|
+| Principal studied outcome | Systematic review/RCT or official product label | Herpes labialis prevention: evidence insufficient. Review found inconsistent small RCTs; 3 g/day reduced recurrence in one trial, while another trial was null [PMID:30855987]. | See outcome summary above; no extrapolation to unstudied endpoints | very-low | [PMID:30855987] |
+| Hard clinical outcomes / prevention | Human outcome evidence sparse or absent in sources reviewed | Not established | No reliable effect estimate | very low | [PMID:30855987] |
+** Dosing in trials
+- HSV studies used roughly 1–3 g/day; no validated treatment regimen or established optimal duration [PMID:30855987].
+** Safety & adverse effects
+- Short-term studies commonly report few effects; high doses can cause GI symptoms. Long-term safety data and renal effects are insufficiently characterized [PMID:30855987].
+** Contraindications
+- Caution with significant kidney disease; avoid assuming supplements replace antiviral treatment.
+** Interactions
+- No established clinically proven drug interaction; high-dose amino acid supplementation may affect amino acid balance.
+- Structured high-priority interactions are represented in interactions.json; absence of an edge is not proof of no interaction.
+** Genotype notes
+- No cited pharmacogenomic/nutrigenomic source was identified for a supplement-specific genotype effect; no genotype claim made.
+** Latest research
+- 2019-03: No major new qualifying human intervention publication identified in the last 24 months in searched sources; herpes trial evidence remains sparse [PMID:30855987].
+** Open questions
+- Which formulations, populations, and durations produce clinically meaningful outcomes rather than biomarker-only changes?
+- Are there long-term benefits or harms beyond the relatively short human trials available?
+** Sources
+- [PMID:30855987]

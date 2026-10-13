@@ -1,0 +1,41 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Taurine",
+  "slug": "taurine",
+  "aliases": [
+    "2-aminoethanesulfonic acid",
+    "taurine"
+  ],
+  "category": "amino-acid",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "low",
+  "edges": [
+    {
+      "with": "antihypertensive drugs",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Potential additive blood-pressure reduction; direct interaction evidence is lacking.",
+      "evidence": "Small BP trials and meta-analyses evaluate taurine but do not establish drug interactions.",
+      "citations": [
+        "URL:https://pmc.ncbi.nlm.nih.gov/articles/PMC12178789/"
+      ]
+    },
+    {
+      "with": "Metformin ER",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "No established pharmacokinetic interaction; combined metabolic effects have not been adequately studied.",
+      "evidence": "No combination outcome trials identified; taurine evidence is heterogeneous.",
+      "citations": [
+        "URL:https://pmc.ncbi.nlm.nih.gov/articles/PMC12178789/"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:41369612",
+    "DOI:10.1111/sms.70123",
+    "URL:https://pmc.ncbi.nlm.nih.gov/articles/PMC12178789/"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Lithium",
+  "slug": "lithium",
+  "aliases": [
+    "Lithium",
+    "lithium orotate (supplement form)",
+    "lithium carbonate (prescription)"
+  ],
+  "category": "mineral",
+  "rx_status": "rx",
+  "evidence_certainty_overall": "very-low",
+  "edges": [
+    {
+      "with": "NSAIDs",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "major",
+      "mechanism": "NSAIDs can reduce renal lithium clearance and increase serum lithium/toxicity risk.",
+      "evidence": "Prescription lithium labeling warns of interaction; applies to therapeutic lithium exposure.",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=lithium%20carbonate"
+      ]
+    },
+    {
+      "with": "Metformin ER",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "No specific interaction established; renal impairment/dehydration can independently alter lithium safety and requires clinical monitoring.",
+      "evidence": "Lithium label advises monitoring renal function and hydration; no direct trial of this pair identified.",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=lithium%20carbonate"
+      ]
+    }
+  ],
+  "citations": [
+    "URL:https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=lithium%20carbonate",
+    "PMID:38253184",
+    "URL:https://jamanetwork.com/journals/jamaneurology/fullarticle/2845746"
+  ]
+}

@@ -1,0 +1,37 @@
+* Metformin ER
+:PROPERTIES:
+:ID: supp-metformin-er
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: Metformin extended-release | metformin hydrochloride ER
+:CATEGORY: rx
+:RX_STATUS: rx
+:RESEARCHED_AT: 2026-10-13
+:END:
+** Identity & forms
+- Prescription biguanide antihyperglycemic, extended-release oral formulation; not a dietary supplement [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529].
+** Mechanisms
+- Reduces hepatic glucose production and improves insulin sensitivity; exact molecular mechanism is not fully established [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529].
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | Certainty | Citations |
+|---------+--------------------+-----------+-------------+-----------+-----------|
+| Principal studied outcome | Systematic review/RCT or official product label | Type 2 diabetes: effective glucose-lowering prescription therapy. Prevention/aging indications are not established by ER-label evidence. | See outcome summary above; no extrapolation to unstudied endpoints | moderate | [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529] |
+| Hard clinical outcomes / prevention | Human outcome evidence sparse or absent in sources reviewed | Not established | No reliable effect estimate | very low | [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529] |
+** Dosing in trials
+- ER adult label starts 500 mg once daily with evening meal, titrates weekly as tolerated, max commonly 2000 mg/day depending product labeling [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529].
+** Safety & adverse effects
+- GI effects common; boxed warning lactic acidosis. Label contraindicates eGFR <30, hypersensitivity, metabolic acidosis; can lower B12 [same DailyMed URL].
+** Contraindications
+- Severe renal impairment, metabolic acidosis/DKA, hypersensitivity; assess renal and hepatic status.
+** Interactions
+- Alcohol and carbonic anhydrase inhibitors raise lactic acidosis risk; cationic drugs that reduce clearance (ranolazine, dolutegravir, cimetidine, vandetanib); insulin/secretagogues increase hypoglycemia risk [same DailyMed URL].
+- Structured high-priority interactions are represented in interactions.json; absence of an edge is not proof of no interaction.
+** Genotype notes
+- No cited pharmacogenomic/nutrigenomic source was identified for a supplement-specific genotype effect; no genotype claim made.
+** Latest research
+- 2025-02: 2025 ER label continues to specify B12 monitoring and renal contraindications; no recent ER-specific outcome evidence was opened [same DailyMed URL].
+** Open questions
+- Which formulations, populations, and durations produce clinically meaningful outcomes rather than biomarker-only changes?
+- Are there long-term benefits or harms beyond the relatively short human trials available?
+** Sources
+- [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529]

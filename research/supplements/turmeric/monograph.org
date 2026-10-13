@@ -1,0 +1,37 @@
+* Turmeric
+:PROPERTIES:
+:ID: supp-turmeric
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: Curcuma longa | turmeric | curcumin | curcuminoids
+:CATEGORY: botanical
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+** Identity & forms
+- Turmeric rhizome extracts contain curcuminoids, including curcumin; formulations differ markedly in bioavailability [PMID:33511486].
+** Mechanisms
+- Curcuminoids have anti-inflammatory and antioxidant actions in experimental systems; clinical effect depends on formulation [PMID:33511486].
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | Certainty | Citations |
+|---------+--------------------+-----------+-------------+-----------+-----------|
+| Principal studied outcome | Systematic review/RCT or official product label | Knee osteoarthritis: meta-analysis of 16 RCTs (n=1810) found pain SMD −0.82 and function SMD −0.75 vs placebo, high heterogeneity; similar effect to NSAIDs in short studies [PMID:33511486]. | See outcome summary above; no extrapolation to unstudied endpoints | low | [PMID:33511486] [URL:https://www.nccih.nih.gov/health/turmeric] |
+| Hard clinical outcomes / prevention | Human outcome evidence sparse or absent in sources reviewed | Not established | No reliable effect estimate | very low | [PMID:33511486] [URL:https://www.nccih.nih.gov/health/turmeric] |
+** Dosing in trials
+- Trials used varied extracts and enhanced-bioavailability formulations, commonly hundreds to ~1500 mg/day for up to 16 weeks; not interchangeable [PMID:33511486].
+** Safety & adverse effects
+- GI symptoms; rare clinically important liver injury reported with supplements, especially enhanced absorption products [URL:https://www.nccih.nih.gov/health/turmeric].
+** Contraindications
+- Biliary obstruction/gallstones warrant caution; avoid high-bioavailability products with prior supplement-related liver injury.
+** Interactions
+- Possible bleeding interaction with anticoagulants/antiplatelets is biologically plausible but clinical evidence limited; piperine changes drug metabolism.
+- Structured high-priority interactions are represented in interactions.json; absence of an edge is not proof of no interaction.
+** Genotype notes
+- No cited pharmacogenomic/nutrigenomic source was identified for a supplement-specific genotype effect; no genotype claim made.
+** Latest research
+- 2021-02: Recent clinical evidence remains formulation-dependent; opened systematic review included short-term heterogeneous OA trials and found no disease-modifying imaging/biochemical signal [PMID:33511486].
+** Open questions
+- Which formulations, populations, and durations produce clinically meaningful outcomes rather than biomarker-only changes?
+- Are there long-term benefits or harms beyond the relatively short human trials available?
+** Sources
+- [PMID:33511486] [URL:https://www.nccih.nih.gov/health/turmeric]

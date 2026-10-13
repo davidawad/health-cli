@@ -1,0 +1,41 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "K1",
+  "slug": "k1",
+  "aliases": [
+    "Phylloquinone",
+    "vitamin K1",
+    "phytonadione"
+  ],
+  "category": "vitamin",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "moderate",
+  "edges": [
+    {
+      "with": "warfarin",
+      "with_kind": "drug",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Vitamin K antagonizes vitamin K antagonist effect, potentially lowering anticoagulation.",
+      "evidence": "Official NIH ODS warning; established pharmacology.",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/"
+      ]
+    },
+    {
+      "with": "K2 MK-7",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Both are vitamin K forms; combined intake changes total vitamin K exposure relevant to VKA therapy.",
+      "evidence": "NIH ODS emphasizes consistent total vitamin K intake.",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/"
+      ]
+    }
+  ],
+  "citations": [
+    "URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/",
+    "DOI:10.1302/2046-3758.1312.BJR-2024-0123.R1"
+  ]
+}

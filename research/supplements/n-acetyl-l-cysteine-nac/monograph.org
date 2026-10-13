@@ -1,0 +1,37 @@
+* N-Acetyl-L-Cysteine (NAC)
+:PROPERTIES:
+:ID: supp-n-acetyl-l-cysteine-nac
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: N-acetylcysteine | NAC | acetylcysteine
+:CATEGORY: amino-acid
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+** Identity & forms
+- NAC is an acetylated cysteine derivative available as OTC oral supplement and as a regulated drug (including IV/ inhaled products depending jurisdiction) [URL:https://www.fda.gov/drugs].
+** Mechanisms
+- Cysteine precursor for glutathione synthesis; reduces disulfide bonds in mucus; pharmacologic antidote replenishes glutathione in acetaminophen poisoning [PMID:30855987].
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | Certainty | Citations |
+|---------+--------------------+-----------+-------------+-----------+-----------|
+| Principal studied outcome | Systematic review/RCT or official product label | Acetaminophen overdose: established antidote under medical care. COPD: trials/meta-analyses suggest possible reduction in exacerbations with inconsistent lung-function/QOL benefit [PMID:42473447]. Psychiatric indications remain investigational. | See outcome summary above; no extrapolation to unstudied endpoints | low | [PMID:42473447] [PMID:30855987] |
+| Hard clinical outcomes / prevention | Human outcome evidence sparse or absent in sources reviewed | Not established | No reliable effect estimate | very low | [PMID:42473447] [PMID:30855987] |
+** Dosing in trials
+- Oral COPD studies typically 600–1200 mg/day; psychiatric trials often 1.2–3 g/day, heterogeneous. Overdose treatment uses protocol-based IV/oral medical dosing [PMID:42473447].
+** Safety & adverse effects
+- Oral GI upset; inhaled bronchospasm; IV anaphylactoid reactions. Do not delay emergency overdose treatment.
+** Contraindications
+- Caution asthma/bronchospasm and active peptic symptoms; overdose is emergency treatment, not self-care.
+** Interactions
+- May potentiate nitroglycerin vasodilation/headache; caution with anticoagulants based on limited evidence. Activated charcoal may reduce oral antidote absorption.
+- Structured high-priority interactions are represented in interactions.json; absence of an edge is not proof of no interaction.
+** Genotype notes
+- No cited pharmacogenomic/nutrigenomic source was identified for a supplement-specific genotype effect; no genotype claim made.
+** Latest research
+- 2026-07: 2026 COPD meta-analysis (14 RCTs, n=2,856) reported fewer exacerbations RR 0.87 (0.79–0.96), without significant FEV1/QOL improvement; study supports cautious interpretation [PMID:42473447].
+** Open questions
+- Which formulations, populations, and durations produce clinically meaningful outcomes rather than biomarker-only changes?
+- Are there long-term benefits or harms beyond the relatively short human trials available?
+** Sources
+- [PMID:42473447] [PMID:30855987]

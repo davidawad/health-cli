@@ -1,0 +1,42 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Turmeric",
+  "slug": "turmeric",
+  "aliases": [
+    "Curcuma longa",
+    "turmeric",
+    "curcumin",
+    "curcuminoids"
+  ],
+  "category": "botanical",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "low",
+  "edges": [
+    {
+      "with": "warfarin",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Possible antiplatelet/anticoagulant effects and bleeding interaction are proposed; clinical evidence is limited.",
+      "evidence": "NCCIH identifies interaction concerns; evidence primarily reports and pharmacologic plausibility.",
+      "citations": [
+        "URL:https://www.nccih.nih.gov/health/turmeric"
+      ]
+    },
+    {
+      "with": "liver disease",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Turmeric supplements have rare reported liver injury; hepatic disease warrants caution.",
+      "evidence": "NCCIH safety summary.",
+      "citations": [
+        "URL:https://www.nccih.nih.gov/health/turmeric"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:33511486",
+    "URL:https://www.nccih.nih.gov/health/turmeric"
+  ]
+}

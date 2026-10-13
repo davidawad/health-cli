@@ -1,0 +1,48 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "inulin",
+  "slug": "inulin",
+  "aliases": [
+    "chicory inulin",
+    "inulin-type fructans",
+    "chicory root fiber"
+  ],
+  "category": "probiotic-prebiotic",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "low",
+  "edges": [
+    {
+      "with": "GOS",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Both fermentable prebiotic fibers; co-use may add gas/bloating; no direct combination trial identified",
+      "evidence": "Mechanism-based additive fermentability",
+      "citations": [
+        "PMID:38309832",
+        "PMID:41263347"
+      ]
+    },
+    {
+      "with": "irritable bowel syndrome",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Fructan fermentation can worsen pain, bloating and bowel symptoms in sensitive patients",
+      "evidence": "Human trial synthesis and fermentation mechanism",
+      "citations": [
+        "PMID:38309832"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:38309832",
+    "PMID:38309832\n-",
+    "PMID:39313030",
+    "PMID:39313030\n-",
+    "PMID:40414749",
+    "PMID:40414749\n-",
+    "PMID:41263347",
+    "PMID:41263347\n"
+  ]
+}

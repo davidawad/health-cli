@@ -1,0 +1,50 @@
+* Collagen
+:PROPERTIES:
+:ID: supp-collagen
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: hydrolyzed collagen | collagen peptides | gelatin
+:CATEGORY: other
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Collagen is a structural extracellular-matrix protein; oral products include hydrolyzed collagen peptides, gelatin, and undenatured type II collagen. These preparations differ and trial evidence is not interchangeable [PMID:38218227].
+
+** Mechanisms
+- Hydrolyzed peptides are digested to amino acids and small hydroxyproline-containing peptides; proposed signaling effects on fibroblasts/cartilage remain less established than the clinical endpoint trials. Intact undenatured type II collagen uses a distinct oral-tolerance hypothesis and should not be equated with peptides [PMID:38218227; PMID:42342959].
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---------+--------------------+-----------+-------------+-----------------------+-----------|
+| Osteoarthritis pain/function | Trial-sequential meta-analysis, 35 RCTs | Small benefit | pain SMD −0.35; function SMD −0.31 | moderate | [PMID:38218227] |
+| Skin hydration/elasticity/wrinkles | Systematic review, 25 RCTs | Favorable in many small trials; bias concern | hydration improved in 10/15, elasticity 10/13, wrinkle measures 9/10; high risk of bias common | low | [PMID:42342959] |
+| Musculoskeletal/skin outcomes | 2026 umbrella review, 113 RCTs | Favorable associations; mixed outcomes | RCTs across indications; pooled effect varied by outcome | low | [PMID:41809116] |
+
+** Dosing in trials
+- Trials use approximately 2.5–15 g/day hydrolyzed peptides for skin, 5–10 g/day peptides for joint symptoms, and 40 mg/day undenatured type II collagen in some OA trials; duration commonly 8–24 weeks [PMID:38218227; PMID:42342959].
+
+** Safety & adverse effects
+- Generally well tolerated in RCT syntheses, with no significant increase in adverse events or withdrawals for OA derivatives [PMID:38218227]. Source proteins may include bovine, porcine, marine fish or poultry; allergy/cross-contamination risk depends on source [PMID:42342959].
+
+** Contraindications
+- Avoid with known allergy to the source animal/fish; product source and contaminants vary. Pregnancy/lactation and long-term safety are insufficiently studied [PMID:42342959].
+
+** Interactions
+- No established clinically important drug interactions or assay interference identified in the cited RCT syntheses; product-specific excipients and allergen source remain relevant [PMID:38218227; PMID:42342959].
+
+** Genotype notes
+- No cited pharmacogenomic or nutrigenomic source specific to Collagen was identified in this search; no genotype claim is made.
+
+** Latest research
+- 2026 umbrella review searched evidence through March 2025 and included 113 RCTs; it reported generally favorable skin, muscle, bone and OA associations, while oral health and cardiometabolic outcomes were mixed [PMID:41809116]. 2025 knee OA meta-analysis updated RCT evidence [PMID:39212129].
+
+** Open questions
+- Larger, better reported human studies with standardized products, clinically meaningful endpoints and longer follow-up are needed; current gaps are noted above.
+
+** Sources
+- PMID:38218227
+- PMID:39212129
+- PMID:41809116
+- PMID:42342959

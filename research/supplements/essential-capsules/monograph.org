@@ -1,0 +1,50 @@
+* Essential Capsules
+:PROPERTIES:
+:ID: supp-essential-capsules
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: Blueprint Essential Capsules | Essential Capsules by Blueprint
+:CATEGORY: other
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- A multi-ingredient branded dietary supplement, not a single nutrient. Blueprint’s current product page describes 23 longevity actives, including ubiquinol, fisetin, luteolin, lithium orotate, Lactobacillus acidophilus and B vitamins; formulation/label can change, so the physical lot label governs ingredient identity [URL:https://blueprint.bryanjohnson.com/en-gb/collections/daily-health-longevity/products/essentials-capsules]. A 2025 NIH DSLD label record describes 24 actives; differences underscore version control [URL:https://hellopharmacist.com/drug-supplement-interactions/supplements/essential-capsules-by-blueprint-bryan-johnson-2431781].
+
+** Mechanisms
+- The formula combines micronutrients with unrelated compounds, so no single mechanism can be assigned. For example, B vitamins serve as metabolic cofactors while ubiquinol participates in electron transport; the product has no published mechanism validated as a whole [URL:https://blueprint.bryanjohnson.com/products/essentials-capsules].
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---------+--------------------+-----------+-------------+-----------------------+-----------|
+| Prevention of disease/longevity | No product-level RCT identified | Unknown | No validated product-level effect estimate | very low | [URL:https://blueprint.bryanjohnson.com/en-gb/collections/daily-health-longevity/products/essentials-capsules] |
+| Individual nutrient deficiency correction | Established for specific nutrients in deficiency states, not equivalent to this blend | Ingredient-specific | Effects depend on baseline status and exact doses | moderate | [URL:https://ods.od.nih.gov/factsheets/list-all/] |
+| Broad health claims | Manufacturer claims only | Unproven for the whole formula | No published whole-product randomized outcome trial identified in searched sources | very low | [URL:https://blueprint.bryanjohnson.com/en-gb/collections/daily-health-longevity/products/essentials-capsules] |
+
+** Dosing in trials
+- Current product page recommends 2 capsules daily with food. The catalog/label has changed over time; identify version, amounts and serving size from the bottle before extrapolating [URL:https://blueprint.bryanjohnson.com/en-gb/collections/daily-health-longevity/products/essentials-capsules; URL:https://hellopharmacist.com/drug-supplement-interactions/supplements/essential-capsules-by-blueprint-bryan-johnson-2431781].
+
+** Safety & adverse effects
+- A multi-ingredient formula inherits ingredient-specific risks; label record includes vitamins/minerals, lithium orotate, nicotinamide riboside, botanical/polyphenol compounds and probiotic [URL:https://hellopharmacist.com/drug-supplement-interactions/supplements/essential-capsules-by-blueprint-bryan-johnson-2431781]. Supplemental biotin can interfere with certain immunoassays (including troponin and thyroid tests); FDA warns of falsely low troponin results [URL:https://www.fda.gov/medical-devices/safety-communications/update-fda-warns-biotin-may-interfere-lab-tests-fda-safety-communication].
+
+** Contraindications
+- No whole-product contraindication trials exist. Ingredient-level cautions apply: lithium products with renal impairment/dehydration and interacting medicines; iodine in thyroid disease; calcium/minerals with absorption-sensitive drugs; vitamin E with bleeding risk; check the current label and NIH ODS ingredient fact sheets [URL:https://ods.od.nih.gov/factsheets/list-all/].
+
+** Interactions
+- Potential interaction burden includes vitamin E with anticoagulants/antiplatelets, calcium with levothyroxine/quinolone/tetracycline absorption, iodine with thyroid-active drugs, and minerals with integrase inhibitors. Biotin can interfere with lab immunoassays. These are constituent-level risks, not evidence of a tested product interaction [URL:https://ods.od.nih.gov/factsheets/list-all/; URL:https://www.fda.gov/medical-devices/safety-communications/update-fda-warns-biotin-may-interfere-lab-tests-fda-safety-communication].
+
+** Genotype notes
+- No cited pharmacogenomic or nutrigenomic source specific to Essential Capsules was identified in this search; no genotype claim is made.
+
+** Latest research
+- Current official product page lists a multi-active formula and a 2-capsule serving; manufacturer formulation differs from third-party indexed historical label [URL:https://blueprint.bryanjohnson.com/en-gb/collections/daily-health-longevity/products/essentials-capsules; URL:https://hellopharmacist.com/drug-supplement-interactions/supplements/essential-capsules-by-blueprint-bryan-johnson-2431781]. No new product-level efficacy RCT found in PubMed/product source search (through 2026-10-13).
+
+** Open questions
+- Larger, better reported human studies with standardized products, clinically meaningful endpoints and longer follow-up are needed; current gaps are noted above.
+
+** Sources
+- URL:https://blueprint.bryanjohnson.com/en-gb/collections/daily-health-longevity/products/essentials-capsules
+- URL:https://hellopharmacist.com/drug-supplement-interactions/supplements/essential-capsules-by-blueprint-bryan-johnson-2431781
+- URL:https://ods.od.nih.gov/factsheets/list-all/
+- URL:https://www.fda.gov/medical-devices/safety-communications/update-fda-warns-biotin-may-interfere-lab-tests-fda-safety-communication

@@ -1,0 +1,71 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Aspirin",
+  "slug": "aspirin",
+  "aliases": [
+    "acetylsalicylic acid",
+    "ASA"
+  ],
+  "category": "rx",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "high",
+  "edges": [
+    {
+      "with": "anticoagulants",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "major",
+      "mechanism": "Additive impairment of hemostasis increases bleeding risk",
+      "evidence": "Pharmacology and FDA labeling; aspirin increases major bleeding in RCT syntheses",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=aspirin",
+        "PMID:38204851"
+      ]
+    },
+    {
+      "with": "NSAIDs",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "GI mucosal injury and platelet effects can add; ibuprofen may interfere with aspirin antiplatelet effect",
+      "evidence": "FDA labeling and pharmacodynamic evidence summarized in label",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=aspirin"
+      ]
+    },
+    {
+      "with": "active bleeding",
+      "with_kind": "condition",
+      "kind": "contraindicated",
+      "severity": "major",
+      "mechanism": "Antiplatelet action can worsen active hemorrhage",
+      "evidence": "FDA/DailyMed labeling",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=aspirin"
+      ]
+    },
+    {
+      "with": "NAC, Ginger, Curcumin",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Potentially additive antiplatelet effects, mainly mechanistic; combination outcome data are lacking",
+      "evidence": "Umbrella review notes human signals but no direct interaction trial",
+      "citations": [
+        "PMID:35623903"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:19482214",
+    "PMID:19482214\n-",
+    "PMID:35623903",
+    "PMID:35623903\n-",
+    "PMID:38204851",
+    "PMID:38204851\n-",
+    "PMID:38296933",
+    "PMID:38296933\n-",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=aspirin",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=aspirin\n"
+  ]
+}

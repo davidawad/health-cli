@@ -1,0 +1,49 @@
+* GOS
+:PROPERTIES:
+:ID: supp-gos
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: galacto-oligosaccharides | galactooligosaccharides | GOS prebiotic
+:CATEGORY: probiotic-prebiotic
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Galacto-oligosaccharides are fermentable oligosaccharides, commonly β-GOS derived enzymatically from lactose; chain length and linkage composition vary by source and manufacturing [PMID:41263347]. They resist digestion in the small intestine and can be fermented by gut bacteria, often increasing bifidobacteria [PMID:38787732].
+
+** Mechanisms
+- GOS escape digestion and are selectively fermented by gut microbes; fermentation products and shifts in taxa depend on chain structure and baseline microbiome. A constipation RCT observed increased Bifidobacterium and Lactobacillus [PMID:38787732; PMID:41263347].
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---------+--------------------+-----------+-------------+-----------------------+-----------|
+| Functional constipation | 4-week double-blind RCT, n=63 | Improved bowel frequency/form and satisfaction | 34 GOS vs 29 placebo; exact effect estimates vary by outcome | low | [PMID:38787732] |
+| Microbiome composition | Human intervention studies/review | Bifidogenic effect | response depends on dose, baseline microbiota and preparation | low | [PMID:41263347] |
+| Infant formula outcomes | SR/MA of formula GOS:FOS | Some stool/microbiota changes | findings apply to infant formula mixture, not standalone adult GOS | low | [PMID:39839466] |
+
+** Dosing in trials
+- Human trials commonly use approximately 2.5–15 g/day, often divided; the 2024 constipation RCT used a 4-week GOS intervention (dose per article protocol) [PMID:38787732]. Begin-dose and tolerability depend on product purity and degree of polymerization.
+
+** Safety & adverse effects
+- Fermentation can cause gas, bloating, abdominal discomfort and loose stool, especially at higher doses or in people sensitive to FODMAPs [PMID:38787732; PMID:41263347]. In a small 2024 RCT, no significant adverse drug reactions were found apart from pulse-rate signal; sample size limits rare-event detection [PMID:38787732].
+
+** Contraindications
+- Known galactosemia is a reason to avoid galactose-containing products unless specialist-directed. GOS can worsen symptoms in people with marked fermentable-carbohydrate sensitivity; this is intolerance rather than a universal contraindication [PMID:41263347].
+
+** Interactions
+- No established drug interactions or laboratory assay interference identified. Fermentable fiber may change timing/absorption of oral medicines in theory; direct GOS interaction trials are lacking [PMID:41263347].
+
+** Genotype notes
+- No cited pharmacogenomic or nutrigenomic source specific to GOS was identified in this search; no genotype claim is made.
+
+** Latest research
+- 2024 placebo-controlled RCT in Rome IV functional constipation (n=63) reported improved bowel movement measures and constipation satisfaction after 4 weeks; microbiota Bifidobacterium and Lactobacillus increased [PMID:38787732]. A 2025 review describes structural diversity and prebiotic applications but is not itself a clinical efficacy trial [PMID:41263347].
+
+** Open questions
+- Larger, better reported human studies with standardized products, clinically meaningful endpoints and longer follow-up are needed; current gaps are noted above.
+
+** Sources
+- PMID:38787732
+- PMID:39839466
+- PMID:41263347

@@ -1,0 +1,49 @@
+* EVOO
+:PROPERTIES:
+:ID: supp-evoo
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: extra virgin olive oil | olive oil
+:CATEGORY: other
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Extra-virgin olive oil is mechanically extracted olive oil with low free acidity and sensory/chemical standards; it contains mostly oleic acid plus variable phenolic compounds. It is a food rather than a single-ingredient pharmacologic supplement [DOI:10.1016/j.tjnut.2023.10.028].
+
+** Mechanisms
+- Oleic acid is the predominant monounsaturated fatty acid; EVOO phenolics have antioxidant and signaling activity in experimental work. Cardiovascular outcome data chiefly test dietary patterns and fat substitution, not phenolics or isolated oil alone [PMID:29897866; PMID:37977313].
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---------+--------------------+-----------+-------------+-----------------------+-----------|
+| Cardiovascular events in Mediterranean dietary pattern | Large RCT (PREDIMED) | Lower composite events in supplemented Mediterranean diet | EVOO arm ~1 L/week within whole dietary pattern; cannot isolate oil effect | moderate | [PMID:29897866] |
+| Cardiometabolic markers | SR/MA of RCTs | Small/inconsistent | variable BP, lipids and inflammatory marker effects | low | [PMID:37977313] |
+| Weight/adiposity | RCT meta-analysis | No reliable weight-loss effect when energy intake comparable | calorie substitution matters | low | [PMID:37977313] |
+
+** Dosing in trials
+- PREDIMED supplied 1 L/week per household for a Mediterranean dietary intervention; this was not an isolated EVOO pill trial [PMID:29897866]. Trials of EVOO as a food use roughly 25–50 mL/day, often substituted for other fats; caloric displacement is central [PMID:37977313].
+
+** Safety & adverse effects
+- EVOO is generally consumed as food; energy-dense intake can increase total calories if added rather than substituted. Allergy is uncommon but possible. Heat, light and oxygen degrade phenolics over time; clinical significance depends on storage and product quality [PMID:37977313].
+
+** Contraindications
+- Avoid in known olive allergy. No general contraindication at food amounts established; high intake may be unsuitable when energy restriction is required [PMID:37977313].
+
+** Interactions
+- No important drug interaction at culinary amounts established. A high-fat meal can affect absorption of some medicines, but this is not a unique EVOO interaction. EVOO is not known to interfere with routine laboratory assays [PMID:37977313].
+
+** Genotype notes
+- No cited pharmacogenomic or nutrigenomic source specific to EVOO was identified in this search; no genotype claim is made.
+
+** Latest research
+- 2024 systematic review/meta-analysis of randomized trials evaluated EVOO effects on anthropometric, inflammatory and cardiometabolic outcomes and found outcome-specific, mixed results rather than uniform benefit [PMID:37977313]. PREDIMED remains key event-level evidence for the whole Mediterranean dietary pattern with EVOO, not proof of isolated oil efficacy [PMID:29897866].
+
+** Open questions
+- Larger, better reported human studies with standardized products, clinically meaningful endpoints and longer follow-up are needed; current gaps are noted above.
+
+** Sources
+- DOI:10.1016/j.tjnut.2023.10.028
+- PMID:29897866
+- PMID:37977313

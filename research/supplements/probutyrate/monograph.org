@@ -1,0 +1,48 @@
+* ProButyrate
+:PROPERTIES:
+:ID: supp-probutyrate
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: Tesseract ProButyrate | sustained-release butyric acid
+:CATEGORY: probiotic-prebiotic
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- ProButyrate is a branded sustained-release butyric acid product. The manufacturer lists 600 mg natural butyric acid proprietary complex per 2 capsules, using a dextrin carrier and release matrix; it is not equivalent to sodium butyrate or dietary fiber [URL:https://drhyman.com/products/probutyrate].
+
+** Mechanisms
+- Butyrate is a colonocyte energy substrate and can signal through short-chain-fatty-acid receptors and histone deacetylase pathways. Delivery to the colon and clinical effects of this specific formulation have not been demonstrated in independent human trials [DOI:10.1038/nrgastro.2017.51; URL:https://drhyman.com/products/probutyrate].
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---------+--------------------+-----------+-------------+-----------------------+-----------|
+| GI symptoms/intestinal inflammation | No robust product-specific RCT found | Unknown | No product-level effect estimate | very low | [URL:https://drhyman.com/products/probutyrate] |
+| Butyrate physiology | Mechanistic and preclinical literature | Biologically plausible | colonocyte fuel, epithelial and immune signaling; mechanisms do not establish oral product benefit | low | [DOI:10.1038/nrgastro.2017.51] |
+
+** Dosing in trials
+- Manufacturer label: 2 capsules provide 600 mg butyric acid complex; suggested use is 1–3 capsules twice daily. This is product-label information, not an evidence-based therapeutic dose [URL:https://drhyman.com/products/probutyrate].
+
+** Safety & adverse effects
+- No published large safety trial for this exact sustained-release product was located. Oral butyrate products may cause GI discomfort; excipients include cellulose-derived capsule/release agents and calcium laurate according to manufacturer [URL:https://drhyman.com/products/probutyrate].
+
+** Contraindications
+- Avoid if allergic to product ingredients. Product efficacy and long-term safety in pregnancy, lactation, significant GI disease or children are unestablished; no formal product-specific contraindication studies identified [URL:https://drhyman.com/products/probutyrate].
+
+** Interactions
+- No clinically established drug interactions or laboratory assay interference identified for the exact product. The manufacturer identifies calcium laurate as an excipient; no evidence it provides a clinically meaningful calcium interaction [URL:https://drhyman.com/products/probutyrate].
+
+** Genotype notes
+- No cited pharmacogenomic or nutrigenomic source specific to ProButyrate was identified in this search; no genotype claim is made.
+
+** Latest research
+- Current manufacturer page specifies a sustained-release, free butyric acid/dextrin complex and 600 mg per 2-capsule serving; independent product-level human efficacy evidence was not located in PubMed searches through 2026-10-13 [URL:https://drhyman.com/products/probutyrate].
+
+** Open questions
+- Larger, better reported human studies with standardized products, clinically meaningful endpoints and longer follow-up are needed; current gaps are noted above.
+
+** Sources
+- DOI:10.1038/nrgastro.2017.51
+- PMID:38309832
+- URL:https://drhyman.com/products/probutyrate

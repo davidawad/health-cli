@@ -1,0 +1,51 @@
+* Aspirin
+:PROPERTIES:
+:ID: supp-aspirin
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: acetylsalicylic acid | ASA
+:CATEGORY: rx
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Inhibits platelet cyclooxygenase-1 irreversibly at low doses, reducing thromboxane A2; analgesic and anti-inflammatory effects at higher doses [PMID:19482214].
+
+** Mechanisms
+- At low antiplatelet doses, aspirin acetylates platelet COX-1 irreversibly, lowering thromboxane A2 for the remaining platelet lifespan; endothelial prostacyclin can recover because endothelial cells can synthesize new enzyme [PMID:19482214].
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---------+--------------------+-----------+-------------+-----------------------+-----------|
+| Primary cardiovascular prevention | SR/MA, 14 RCTs, n=167,587 | MACE reduced; bleeding increased | MACE RR 0.90 (0.86–0.94); intracranial hemorrhage RR 1.33; extracranial major bleed RR 1.67 | high | [PMID:38204851] |
+| Secondary prevention | Individual participant meta-analysis, RCTs | Vascular events reduced | Large net benefit in established occlusive vascular disease; magnitude varies by baseline risk | high | [PMID:19482214] |
+| Colorectal cancer prevention | Long-term RCT follow-up/meta-analysis | Possible delayed reduction; uncertain | Not a short-term indication; benefit latency and bleeding trade-off | low | [PMID:19482214] |
+
+** Dosing in trials
+- Cardiovascular RCTs most often used 75–100 mg/day; analgesic/anti-inflammatory trials use higher doses, with dose-related GI and renal toxicity. Enteric-coated and immediate-release tablets are studied; enteric coating does not eliminate major bleeding [PMID:38204851; PMID:19482214].
+
+** Safety & adverse effects
+- Dyspepsia, ulceration, GI bleeding, intracranial hemorrhage, bronchospasm/hypersensitivity and renal injury are recognized risks; major bleeding is increased in primary-prevention trials [PMID:38204851]. Aspirin irreversibly inhibits platelet function for platelet lifespan [PMID:19482214].
+
+** Contraindications
+- Avoid in active bleeding/peptic ulcer, aspirin/NSAID hypersensitivity (including aspirin-exacerbated respiratory disease), children/adolescents with viral illness (Reye syndrome risk), and around procedures when bleeding risk is unacceptable; pregnancy late gestation requires clinician-directed use. These label-based contraindications are in FDA/DailyMed aspirin labeling [URL:https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=aspirin].
+
+** Interactions
+- Anticoagulants, antiplatelets, other NSAIDs, systemic corticosteroids and alcohol can increase bleeding; ibuprofen may competitively blunt low-dose aspirin platelet inhibition depending on timing; methotrexate toxicity and renal effects with ACE inhibitors/diuretics are described in FDA labeling [URL:https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=aspirin]. Ginger and curcumin have antiplatelet signals, but clinical additive-bleeding evidence is limited [PMID:35623903].
+
+** Genotype notes
+- No cited pharmacogenomic or nutrigenomic source specific to Aspirin was identified in this search; no genotype claim is made.
+
+** Latest research
+- 2024 systematic review with GRADE assessment pooled 14 RCTs and found lower MACE but higher intracranial and extracranial major bleeding, with consistent effects across prespecified subgroups [PMID:38204851]. 2024 CKD meta-analysis highlights uncertain net primary-prevention benefit in CKD populations [PMID:38296933].
+
+** Open questions
+- Larger, better reported human studies with standardized products, clinically meaningful endpoints and longer follow-up are needed; current gaps are noted above.
+
+** Sources
+- PMID:19482214
+- PMID:35623903
+- PMID:38204851
+- PMID:38296933
+- URL:https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=aspirin

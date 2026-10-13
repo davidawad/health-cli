@@ -1,0 +1,52 @@
+* Yeast Rice + Garlic
+:PROPERTIES:
+:ID: supp-yeast-rice-garlic
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: Red Yeast Rice Odor-free Garlic | red yeast rice with garlic
+:CATEGORY: botanical
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Combination label denotes red yeast rice (Monascus-fermented rice) plus garlic; product potency depends on monacolin K content and manufacturing. Monacolin K is chemically identical to lovastatin, and products may vary greatly in monacolin content and citrinin contamination [PMID:38794691; URL:https://www.nccih.nih.gov/health/red-yeast-rice]. Garlic supplements vary by preparation (powder, oil, aged extract) [URL:https://ods.od.nih.gov/factsheets/ Garlic-HealthProfessional/].
+
+** Mechanisms
+- Monacolin K inhibits HMG-CoA reductase, the rate-limiting enzyme in cholesterol synthesis, as lovastatin does; garlic sulfur compounds may affect vascular tone/platelet activity, but proposed mechanisms vary by garlic preparation [PMID:38794691; URL:https://www.nccih.nih.gov/health/garlic].
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---------+--------------------+-----------+-------------+-----------------------+-----------|
+| LDL cholesterol | SR/MA, 14 double-blind trials | Reduction | mean absolute LDL-C −35.82 mg/dL; total cholesterol −37.43 mg/dL | moderate | [PMID:38794691] |
+| Cardiovascular events | Meta-analysis of heterogeneous RYR preparations | Possible reduction; product applicability uncertain | pooled MACE RR 0.54; mortality RR 0.62, driven by specific preparations | low | [PMID:35264949] |
+| Garlic lipid/BP effects | SRs of garlic RCTs | Small inconsistent changes | formulation and dose heterogeneous | low | [URL:https://ods.od.nih.gov/factsheets/Garlic-HealthProfessional/] |
+
+** Dosing in trials
+- Trials of red yeast rice commonly used products yielding roughly 3–10 mg/day monacolin K for 4–24 weeks; exact monacolin content is often undisclosed [PMID:38794691; URL:https://www.nccih.nih.gov/health/red-yeast-rice]. Garlic trial dosing varies widely by powder/extract, so a fixed combination dose cannot be generalized [URL:https://ods.od.nih.gov/factsheets/Garlic-HealthProfessional/].
+
+** Safety & adverse effects
+- RYR can produce statin-like myopathy, liver injury and drug interactions; citrinin contamination can injure kidneys. FDA considers products with added/enhanced lovastatin not lawful dietary supplements in the US [URL:https://www.nccih.nih.gov/health/red-yeast-rice]. Garlic can cause odor, reflux/GI upset and may increase bleeding risk [URL:https://ods.od.nih.gov/factsheets/Garlic-HealthProfessional/].
+
+** Contraindications
+- Avoid during pregnancy/breastfeeding and with active liver disease or prior statin-associated severe muscle injury; avoid uncharacterized products due variable monacolin and citrinin content [URL:https://www.nccih.nih.gov/health/red-yeast-rice]. Garlic hypersensitivity is a contraindication.
+
+** Interactions
+- RYR has lovastatin-like interactions: CYP3A4 inhibitors, cyclosporine, gemfibrozil and other statins may increase myopathy risk; grapefruit may increase exposure [URL:https://www.nccih.nih.gov/health/red-yeast-rice]. Garlic may increase bleeding with anticoagulants/antiplatelets and may lower saquinavir exposure [URL:https://ods.od.nih.gov/factsheets/Garlic-HealthProfessional/].
+
+** Genotype notes
+- No cited pharmacogenomic or nutrigenomic source specific to Yeast Rice + Garlic was identified in this search; no genotype claim is made.
+
+** Latest research
+- 2024 meta-analysis of 14 double-blind trials (4–24 weeks) estimated LDL-C reduction of 35.82 mg/dL, but included heterogeneous products and did not assure comparable monacolin content [PMID:38794691]. 2024 review of Xuezhikang describes this standardized extract as pharmacologically distinct from generic retail RYR products [PMID:39525586].
+
+** Open questions
+- Larger, better reported human studies with standardized products, clinically meaningful endpoints and longer follow-up are needed; current gaps are noted above.
+
+** Sources
+- PMID:35264949
+- PMID:38794691
+- PMID:39525586
+- URL:https://ods.od.nih.gov/factsheets/
+- URL:https://ods.od.nih.gov/factsheets/Garlic-HealthProfessional/
+- URL:https://www.nccih.nih.gov/health/red-yeast-rice

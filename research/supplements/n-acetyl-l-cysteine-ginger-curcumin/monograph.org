@@ -1,0 +1,52 @@
+* NAC, Ginger, Curcumin
+:PROPERTIES:
+:ID: supp-n-acetyl-l-cysteine-ginger-curcumin
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: NAC Ginger Curcumin | NAC + Ginger + Curcumin | N-acetylcysteine, ginger and curcumin
+:CATEGORY: botanical
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- A multi-ingredient formula combining N-acetyl-L-cysteine (NAC), ginger and curcumin; exact quantities and absorption enhancers depend on the product version. A related human trial of curcumin, gingerol and piperine (not necessarily this product) found limited migraine outcome signals [PMID:42021338]. Ingredient-level effects must not be attributed automatically to the combined product.
+
+** Mechanisms
+- NAC supplies cysteine for glutathione synthesis and can reduce disulfide bonds in mucus. Gingerols/shogaols and curcuminoids have anti-inflammatory signaling effects in experimental systems; these mechanisms are not proof that the branded combination improves health outcomes [PMID:26324807; PMID:35623903].
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---------+--------------------+-----------+-------------+-----------------------+-----------|
+| NAC for chronic respiratory conditions | Cochrane-style systematic review of RCTs | Possible reduction in exacerbations in some populations | Effects depend on disease and dose; evidence mixed | low | [PMID:26324807] |
+| Ginger for nausea | SR/MA of RCTs | Benefit in selected nausea settings | modest symptom improvement; indication-specific | moderate | [PMID:35623903] |
+| Curcumin for inflammatory/metabolic outcomes | Umbrella review of 161 meta-analyses | Signals across outcomes; quality variable | heterogeneity, small-study/publication bias | low | [PMID:35623903] |
+| Curcumin+ginger-related blend for migraine | 2026 small RCT, n=60 | Headache severity/hs-CRP reduced; frequency/duration null | severity change −1.93 vs −0.36; 8 weeks | low | [PMID:42021338] |
+
+** Dosing in trials
+- NAC trials commonly use 600–1,200 mg/day orally, sometimes up to 1,800 mg/day by indication; ginger trials often use 0.5–2 g/day powder; curcumin trials use about 500–2,000 mg/day or enhanced-bioavailability extracts. These are ingredient trial doses, not a recommended dose for any branded blend [PMID:26324807; PMID:35623903].
+
+** Safety & adverse effects
+- NAC may cause nausea, diarrhea and reflux; inhaled use may cause bronchospasm. Ginger/curcumin can cause GI symptoms. Rare turmeric-associated liver injury has been reported, especially enhanced-bioavailability products; product composition matters [PMID:35623903; URL:https://www.nccih.nih.gov/health/turmeric].
+
+** Contraindications
+- Use caution with biliary obstruction/gallstones for concentrated turmeric/curcumin; clinical relevance varies. Hypersensitivity to ingredients is a contraindication. Pregnancy data for concentrated extracts are limited [URL:https://www.nccih.nih.gov/health/turmeric; PMID:35623903].
+
+** Interactions
+- NAC can potentiate nitroglycerin-associated hypotension/headache. Ginger/curcumin may have antiplatelet effects; additive bleeding with anticoagulants is plausible but clinical interaction evidence is limited. Piperine, if included, can alter drug metabolism; check exact label [PMID:35623903; PMID:42021338].
+
+** Genotype notes
+- No cited pharmacogenomic or nutrigenomic source specific to NAC, Ginger, Curcumin was identified in this search; no genotype claim is made.
+
+** Latest research
+- 2026 RCT of 60 migraine patients tested curcumin 600 mg/day, gingerol 15 mg/day and piperine 7.5 mg/day for 8 weeks; severity and hs-CRP improved, while attack frequency/duration did not [PMID:42021338]. It is not direct evidence for every NAC/ginger/curcumin branded blend.
+
+** Open questions
+- Larger, better reported human studies with standardized products, clinically meaningful endpoints and longer follow-up are needed; current gaps are noted above.
+
+** Sources
+- PMID:26324807
+- PMID:35623903
+- PMID:42021338
+- URL:https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=acetylcysteine
+- URL:https://www.nccih.nih.gov/health/turmeric

@@ -1,0 +1,47 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Collagen",
+  "slug": "collagen",
+  "aliases": [
+    "hydrolyzed collagen",
+    "collagen peptides",
+    "gelatin"
+  ],
+  "category": "other",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "moderate",
+  "edges": [
+    {
+      "with": "fish allergy",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Marine collagen can contain fish-derived proteins",
+      "evidence": "Product source-dependent allergy risk; RCT review includes heterogeneous collagen sources",
+      "citations": [
+        "PMID:42342959"
+      ]
+    },
+    {
+      "with": "warfarin",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Collagen products containing vitamin K or multi-ingredient blends may alter anticoagulation; pure collagen interaction not established",
+      "evidence": "No direct collagen interaction evidence; inspect formulation; caution is formulation-specific",
+      "citations": [
+        "PMID:38218227"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:38218227",
+    "PMID:38218227\n-",
+    "PMID:39212129",
+    "PMID:39212129\n-",
+    "PMID:41809116",
+    "PMID:41809116\n-",
+    "PMID:42342959",
+    "PMID:42342959\n"
+  ]
+}

@@ -1,0 +1,50 @@
+* inulin
+:PROPERTIES:
+:ID: supp-inulin
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: chicory inulin | inulin-type fructans | chicory root fiber
+:CATEGORY: probiotic-prebiotic
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Inulin is a β(2→1)-linked fructan, often extracted from chicory root; chain length distinguishes shorter oligofructose from longer inulin. It resists human digestive enzymes and is fermented in the colon [PMID:38309832].
+
+** Mechanisms
+- Inulin-type fructans are nondigestible fermentable carbohydrates. Microbial fermentation yields short-chain fatty acids and can alter microbiota composition; this plausibility does not establish meaningful clinical benefit [PMID:38309832].
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---------+--------------------+-----------+-------------+-----------------------+-----------|
+| Weight/body composition | SR/MA, 32 studies | Small reduction | weight MD −0.97 kg; BMI −0.39 kg/m²; waist −1.03 cm | low | [PMID:39313030] |
+| Lipids | SR/MA, 55 RCTs | Small LDL/TG reductions | LDL −0.14 mmol/L (very low); TG −0.06 mmol/L (low certainty) | low | [PMID:38309832] |
+| Glycemia/BP/other CVD markers | SR/MA, 55 RCTs | Little/no clear effect | most markers not significantly changed | low | [PMID:38309832] |
+
+** Dosing in trials
+- Trials use roughly 3–30 g/day inulin-type fructans for 2 weeks to several months. Weight meta-analysis found modest outcomes with varied dose/duration; no clear optimal dose established [PMID:39313030; PMID:38309832].
+
+** Safety & adverse effects
+- Common dose-related effects are gas, bloating, abdominal pain and altered stool due to fermentation; gradual titration is common in trials. Severe intolerance may occur in people with IBS/FODMAP sensitivity [PMID:38309832].
+
+** Contraindications
+- Avoid in known inulin/chicory allergy. Inulin may aggravate symptoms in people with fructan-sensitive IBS; tolerance is dose-dependent [PMID:38309832].
+
+** Interactions
+- No established drug interaction or assay interference. Like other fiber, large co-ingestion could alter absorption timing of oral medicines, but direct inulin interaction evidence is insufficient [PMID:38309832].
+
+** Genotype notes
+- No cited pharmacogenomic or nutrigenomic source specific to inulin was identified in this search; no genotype claim is made.
+
+** Latest research
+- 2024 systematic review/meta-analysis of 55 RCTs (n=2,518) found small LDL, triglyceride and weight reductions with low/very-low certainty [PMID:38309832]. 2024 weight meta-analysis covering 32 studies estimated −0.97 kg versus controls; erratum/corrigendum was published in 2025 [PMID:39313030; PMID:40414749].
+
+** Open questions
+- Larger, better reported human studies with standardized products, clinically meaningful endpoints and longer follow-up are needed; current gaps are noted above.
+
+** Sources
+- PMID:38309832
+- PMID:39313030
+- PMID:40414749
+- PMID:41263347

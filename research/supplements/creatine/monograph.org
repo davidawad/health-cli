@@ -1,0 +1,53 @@
+* Creatine
+:PROPERTIES:
+:ID: supp-creatine
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: creatine monohydrate | creatine monohydrate powder
+:CATEGORY: other
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Creatine is synthesized from arginine, glycine and methionine and stored largely as phosphocreatine in muscle, where it buffers ATP during brief high-intensity work [PMID:39519498]. Monohydrate is the best-studied oral form [PMID:39519498].
+
+** Mechanisms
+- Creatine kinase reversibly transfers phosphate between phosphocreatine and ADP to buffer ATP during short intense contraction; supplementation increases intramuscular creatine stores. Resistance exercise remains an essential co-intervention in most positive strength trials [PMID:39519498; PMID:41388441].
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---------+--------------------+-----------+-------------+-----------------------+-----------|
+| Strength with resistance training | SR/MA, adults <50, 23 studies | Improvement | Upper body +4.43 kg; lower body +11.35 kg pooled WMD | moderate | [PMID:39519498] |
+| Older adult strength/lean mass with training | SR/MA, 8 RCTs, n=482 | Small improvement | lower-limb strength SMD 0.29; lean mass SMD 0.27 | moderate | [PMID:41388441] |
+| Cognition | Systematic review | Equivocal | Brain creatine can rise, but cognitive outcomes inconsistent | low | [PMID:38582412] |
+| Physical function in chronic disease/older adults | SR/MA, 33 RCTs | Possible benefit; uncertain | Sit-to-stand SMD 0.51, CI 0.01–1.00; low/very low certainty | low | [PMID:38417175] |
+
+** Dosing in trials
+- Trials commonly use 3–5 g/day maintenance; loading protocols use ~20 g/day divided for 5–7 days then 3–5 g/day. Recent aging trials vary in duration and dose; the 2025 older-adult review included 8–104 week interventions [PMID:41388441]. Monohydrate dominates evidence; alternative salts/forms lack clear superiority [PMID:39519498].
+
+** Safety & adverse effects
+- Water-associated weight gain and GI symptoms can occur, particularly with large single doses. Meta-analysis in healthy people finds no meaningful reduction in GFR despite a small serum creatinine increase; creatinine can rise from conversion of supplemental creatine and confound creatinine-based eGFR, so cystatin C or measured GFR can clarify when clinically indicated [PMID:41199218].
+
+** Contraindications
+- Known hypersensitivity is a contraindication. Evidence in pregnancy, breastfeeding, significant kidney disease and children outside clinical indications is limited; these are evidence gaps rather than established universal contraindications [PMID:38417175].
+
+** Interactions
+- High-dose caffeine may attenuate ergogenic effect in some studies and increase GI complaints; evidence is mixed. Nephrotoxic drugs plus dehydration raise theoretical renal concern, though controlled interaction evidence is sparse. Serum creatinine/eGFR by creatinine may be altered without kidney injury; disclose use before testing [PMID:41199218].
+
+** Genotype notes
+- No cited pharmacogenomic or nutrigenomic source specific to Creatine was identified in this search; no genotype claim is made.
+
+** Latest research
+- 2025 meta-analysis in older adults found modest gains in lower-limb strength and lean tissue mass when creatine was combined with resistance exercise [PMID:41388441]. 2024 systematic review found cognitive effects equivocal despite some rise in brain creatine [PMID:38582412].
+
+** Open questions
+- Larger, better reported human studies with standardized products, clinically meaningful endpoints and longer follow-up are needed; current gaps are noted above.
+
+** Sources
+- PMID:41199218
+- PMID:41199218
+- PMID:38417175
+- PMID:38582412
+- PMID:39519498
+- PMID:41388441

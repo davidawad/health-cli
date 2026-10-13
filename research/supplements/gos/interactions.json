@@ -1,0 +1,46 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "GOS",
+  "slug": "gos",
+  "aliases": [
+    "galacto-oligosaccharides",
+    "galactooligosaccharides",
+    "GOS prebiotic"
+  ],
+  "category": "probiotic-prebiotic",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "low",
+  "edges": [
+    {
+      "with": "inulin",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Both are fermentable prebiotic fibers and may increase fermentation/gas; combined benefit has not been tested directly",
+      "evidence": "Shared fermentability; additive GI symptoms are plausible, no specific combo trial",
+      "citations": [
+        "PMID:41263347"
+      ]
+    },
+    {
+      "with": "irritable bowel syndrome",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Fermentable oligosaccharides may provoke gas, pain or altered stool in FODMAP-sensitive individuals",
+      "evidence": "Fermentation mechanism and human tolerability data",
+      "citations": [
+        "PMID:38787732",
+        "PMID:41263347"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:38787732",
+    "PMID:38787732\n-",
+    "PMID:39839466",
+    "PMID:39839466\n-",
+    "PMID:41263347",
+    "PMID:41263347\n"
+  ]
+}

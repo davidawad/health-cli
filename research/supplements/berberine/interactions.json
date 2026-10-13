@@ -1,0 +1,66 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Berberine",
+  "slug": "berberine",
+  "aliases": [
+    "berberine hydrochloride",
+    "Berberis alkaloid"
+  ],
+  "category": "botanical",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "low",
+  "edges": [
+    {
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Potential additive glucose lowering; no direct combination safety trial found.",
+      "evidence": "Limited or mechanistic evidence; no direct clinically decisive interaction trial identified.",
+      "citations": [
+        "PMID:40269802",
+        "PMID:39478418"
+      ],
+      "with": "Curcumin"
+    },
+    {
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "No established direct interaction; gastrointestinal intolerance may overlap.",
+      "evidence": "Limited or mechanistic evidence; no direct clinically decisive interaction trial identified.",
+      "citations": [
+        "PMID:40269802",
+        "URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
+      ],
+      "with": "Magnesium"
+    },
+    {
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Potential additive glucose-lowering effect; trials include combination regimens but interaction safety remains uncertain.",
+      "evidence": "Human trial/review evidence or official fact sheet; clinical context and dose matter.",
+      "citations": [
+        "PMID:39640489"
+      ],
+      "with": "glucose-lowering drugs"
+    },
+    {
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Avoid because neonatal bilirubin displacement and safety concerns are noted in clinical reviews.",
+      "evidence": "Human trial/review evidence or official fact sheet; clinical context and dose matter.",
+      "citations": [
+        "PMID:40269802"
+      ],
+      "with": "pregnancy"
+    }
+  ],
+  "citations": [
+    "PMID:40269802",
+    "PMID:39640489",
+    "PMID:39478418",
+    "URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
+  ]
+}

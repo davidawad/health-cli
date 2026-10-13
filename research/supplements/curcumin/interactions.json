@@ -1,0 +1,70 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Curcumin",
+  "slug": "curcumin",
+  "aliases": [
+    "turmeric",
+    "Curcuma longa",
+    "curcuminoids"
+  ],
+  "category": "botanical",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "low",
+  "edges": [
+    {
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Combination evidence is not clinically established; overlapping glucose-lowering and metabolism effects are plausible, but no direct human interaction trial was identified.",
+      "evidence": "Limited or mechanistic evidence; no direct clinically decisive interaction trial identified.",
+      "citations": [
+        "PMID:40269802",
+        "PMID:39478418"
+      ],
+      "with": "Berberine"
+    },
+    {
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Both are polyphenols with possible platelet and drug-metabolism effects; additive clinical effect is unproven.",
+      "evidence": "Limited or mechanistic evidence; no direct clinically decisive interaction trial identified.",
+      "citations": [
+        "PMID:39288907",
+        "PMID:38255828"
+      ],
+      "with": "Trans-resveratrol"
+    },
+    {
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Possible platelet and pharmacodynamic effects; evidence for herbal products with anticoagulants remains low quality.",
+      "evidence": "Human trial/review evidence or official fact sheet; clinical context and dose matter.",
+      "citations": [
+        "PMID:39288907"
+      ],
+      "with": "oral anticoagulants"
+    },
+    {
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Concentrated turmeric products may aggravate biliary symptoms; evidence is from safety references.",
+      "evidence": "Human trial/review evidence or official fact sheet; clinical context and dose matter.",
+      "citations": [
+        "URL:https://www.ncbi.nlm.nih.gov/books/NBK548561/"
+      ],
+      "with": "biliary obstruction"
+    }
+  ],
+  "citations": [
+    "PMID:39478418",
+    "PMID:40538540",
+    "PMID:39425780",
+    "PMID:40269802",
+    "PMID:39288907",
+    "PMID:38255828",
+    "URL:https://www.ncbi.nlm.nih.gov/books/NBK548561/"
+  ]
+}

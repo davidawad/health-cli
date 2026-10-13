@@ -1,0 +1,32 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Quercetin",
+  "slug": "quercetin",
+  "aliases": [
+    "quercetin dihydrate",
+    "isoquercetin",
+    "rutin (related glycoside)"
+  ],
+  "category": "botanical",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "low",
+  "edges": [
+    {
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Potential overlapping CYP/transporter modulation is mechanistic; no direct clinical interaction study identified.",
+      "evidence": "Limited or mechanistic evidence; no direct clinically decisive interaction trial identified.",
+      "citations": [
+        "PMID:42827146",
+        "PMID:38255828"
+      ],
+      "with": "Trans-resveratrol"
+    }
+  ],
+  "citations": [
+    "PMID:42827146",
+    "PMID:41227106",
+    "PMID:38255828"
+  ]
+}

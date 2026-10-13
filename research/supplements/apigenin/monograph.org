@@ -1,0 +1,52 @@
+* Apigenin
+:PROPERTIES:
+:ID: supp-apigenin
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: 4',5,7-trihydroxyflavone | parsley/chamomile flavone
+:CATEGORY: botanical
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Apigenin is represented by these commonly studied or marketed forms: 4',5,7-trihydroxyflavone, parsley/chamomile flavone. Clinical products and formulations can differ in composition and bioavailability; this limits cross-trial comparisons [PMID:38629096, PMID:38629096].
+
+** Mechanisms
+- Proposed mechanisms are outcome- and formulation-dependent; mechanistic plausibility does not establish clinical efficacy. Human evidence is summarized below [PMID:38629096, PMID:38629096].
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---|---|---|---|---|---|
+| No reliable clinical efficacy estimate can be made for isolated apigenin | Systematic review/meta-analysis or human trial synthesis | Mixed/possible benefit; no established clinical disease prevention | See evidence summary below; pooled estimates vary by outcome and population | very-low | PMID:38629096, PMID:38629096 |
+
+- A systematic review of metabolic syndrome literature primarily summarizes preclinical and mechanistic evidence; high-quality isolated-apigenin human supplementation trials are essentially absent [PMID:38629096].
+- No reliable clinical efficacy estimate can be made for isolated apigenin; animal and cell findings cannot establish human benefit [PMID:38629096].
+
+** Dosing in trials
+- No validated therapeutic dose for isolated apigenin established in human RCTs [PMID:38629096].
+
+** Safety & adverse effects
+- Supplement-level safety data in humans are inadequate; dietary exposure in foods does not establish safety of concentrated extracts [PMID:38629096].
+
+** Contraindications
+- Avoid extrapolating from food exposure; insufficient human safety data in pregnancy/lactation [PMID:38629096].
+
+** Interactions
+- CYP3A4/P-glycoprotein interaction signals are preclinical; clinical magnitude unknown [PMID:38629096].
+- No genotype-specific clinical claim is made because no qualifying pharmacogenomic source was identified for this research set.
+
+** Genotype notes
+- No cited pharmacogenomic or nutrigenomic source identified for a clinically useful genotype-specific note.
+
+** Latest research
+- 2024–2026: 2024 systematic review remains largely mechanistic/preclinical and highlights need for translational human trials [PMID:38629096].
+
+** Open questions
+- Larger, preregistered, adequately powered human trials with standardized, chemically characterized products and longer follow-up are needed to establish clinically important benefits and characterize uncommon harms.
+
+** Sources
+1. PMID:38629096
+2. PMID:38629096
+- Role of apigenin in targeting metabolic syndrome: systematic review. PMID:38629096.
+- Role of apigenin in targeting metabolic syndrome: systematic review. PMID:38629096.

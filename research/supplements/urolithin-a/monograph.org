@@ -1,0 +1,52 @@
+* Urolithin A
+:PROPERTIES:
+:ID: supp-urolithin-a
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: UA | mitophagy-associated gut microbial metabolite
+:CATEGORY: longevity
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Urolithin A is represented by these commonly studied or marketed forms: UA, mitophagy-associated gut microbial metabolite. Clinical products and formulations can differ in composition and bioavailability; this limits cross-trial comparisons [PMID:39002645, PMID:35584623].
+
+** Mechanisms
+- Proposed mechanisms are outcome- and formulation-dependent; mechanistic plausibility does not establish clinical efficacy. Human evidence is summarized below [PMID:39002645, PMID:35584623].
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---|---|---|---|---|---|
+| RCTs report changes in mitochondrial/immune biomarkers and selected muscle endurance measures, but strength, walking performance and clinically meaningful outcomes remain uncertain [PMID:35584623]. | Systematic review/meta-analysis or human trial synthesis | Mixed/possible benefit; no established clinical disease prevention | See evidence summary below; pooled estimates vary by outcome and population | low | PMID:39002645, PMID:35584623 |
+
+- 2024 systematic review of human studies found early evidence, small trial base and no evidence for lifespan extension; functional benefits are not consistent across endpoints [PMID:39002645].
+- RCTs report changes in mitochondrial/immune biomarkers and selected muscle endurance measures, but strength, walking performance and clinically meaningful outcomes remain uncertain [PMID:35584623].
+
+** Dosing in trials
+- Human RCTs commonly use 500–1,000 mg/day for 4 weeks to 4 months [PMID:35584623].
+
+** Safety & adverse effects
+- Short-term RCTs generally found good tolerability; long-term and special-population safety are not established [PMID:35584623].
+
+** Contraindications
+- Evidence insufficient for pregnancy/lactation, children, or severe hepatic/renal impairment [PMID:39002645].
+
+** Interactions
+- No well-established clinical drug interactions or laboratory assay interference identified in the human trial reviews [PMID:39002645].
+- No genotype-specific clinical claim is made because no qualifying pharmacogenomic source was identified for this research set.
+
+** Genotype notes
+- No cited pharmacogenomic or nutrigenomic source identified for a clinically useful genotype-specific note.
+
+** Latest research
+- 2024–2026: 2024 systematic review describes human healthspan evidence as preliminary and calls for larger/longer trials [PMID:39002645].
+
+** Open questions
+- Larger, preregistered, adequately powered human trials with standardized, chemically characterized products and longer follow-up are needed to establish clinically important benefits and characterize uncommon harms.
+
+** Sources
+1. PMID:39002645
+2. PMID:35584623
+- Targeting aging with urolithin A in humans: a systematic review. Ageing Res Rev. 2024. PMID:39002645.
+- Human randomized clinical trial of urolithin A on muscle endurance and mitochondrial health. PMID:35584623.

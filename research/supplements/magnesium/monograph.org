@@ -1,0 +1,54 @@
+* Magnesium
+:PROPERTIES:
+:ID: supp-magnesium
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: magnesium citrate | chloride | oxide | glycinate | lactate | sulfate
+:CATEGORY: mineral
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Magnesium is represented by these commonly studied or marketed forms: magnesium citrate, chloride, oxide, glycinate, lactate, sulfate. Clinical products and formulations can differ in composition and bioavailability; this limits cross-trial comparisons [URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/, PMID:39519450, PMID:41245414].
+
+** Mechanisms
+- Proposed mechanisms are outcome- and formulation-dependent; mechanistic plausibility does not establish clinical efficacy. Human evidence is summarized below [URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/, PMID:39519450, PMID:41245414].
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---|---|---|---|---|---|
+| Deficiency correction is established | Systematic review/meta-analysis or human trial synthesis | Mixed/possible benefit; no established clinical disease prevention | See evidence summary below; pooled estimates vary by outcome and population | moderate | URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/, PMID:39519450, PMID:41245414 |
+
+- NIH ODS identifies magnesium as essential nutrient with variable bioavailability by salt; 2025 meta-analysis found modest systolic BP lowering in normotensive adults at ≤360 mg/day and longer duration [PMID:39519450]. 2025 meta-analysis found CRP reduction in metabolic syndrome but not consistent effects on other inflammatory markers [PMID:41245414].
+- Deficiency correction is established; for BP and metabolic markers, effects are small and context-dependent; cognitive RCT evidence is insufficient [PMID:39519450, PMID:41245414, PMID:39009081].
+
+** Dosing in trials
+- Supplement trials often use about 250–400 mg/day elemental magnesium for 12–16 weeks; salts differ in absorption and GI tolerance [PMID:41245414, URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/].
+
+** Safety & adverse effects
+- Diarrhea and abdominal cramping are common dose-limiting effects; hypermagnesemia risk rises with impaired renal clearance [URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/].
+
+** Contraindications
+- Severe renal impairment increases toxicity risk; distinguish elemental magnesium from compound mass [URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/].
+
+** Interactions
+- Chelates tetracycline/quinolone antibiotics and oral bisphosphonates, reducing absorption; separate dosing. Diuretics and proton-pump inhibitors can alter magnesium status [URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/].
+- No genotype-specific clinical claim is made because no qualifying pharmacogenomic source was identified for this research set.
+
+** Genotype notes
+- No cited pharmacogenomic or nutrigenomic source identified for a clinically useful genotype-specific note.
+
+** Latest research
+- 2024–2026: 2025 RCT meta-analysis in metabolic syndrome found lower CRP after prolonged supplementation, while other inflammatory markers were not consistently changed [PMID:41245414].
+
+** Open questions
+- Larger, preregistered, adequately powered human trials with standardized, chemically characterized products and longer follow-up are needed to establish clinically important benefits and characterize uncommon harms.
+
+** Sources
+1. URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/
+2. PMID:39519450
+3. PMID:41245414
+- NIH Office of Dietary Supplements. Magnesium Fact Sheet for Health Professionals.
+- Magnesium and potassium supplementation for systolic blood pressure reduction: systematic review and subgroup meta-analysis. PMID:39519450.
+- Long-term magnesium and inflammatory markers in metabolic syndrome: systematic review/meta-analysis. Front Nutr. 2025. PMID:41245414.

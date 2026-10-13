@@ -1,0 +1,30 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Glycine",
+  "slug": "glycine",
+  "aliases": [
+    "aminoacetic acid"
+  ],
+  "category": "amino-acid",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "low",
+  "edges": [
+    {
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "No direct interaction trial identified; both have been studied in sleep contexts, but additive efficacy is unproven.",
+      "evidence": "Limited or mechanistic evidence; no direct clinically decisive interaction trial identified.",
+      "citations": [
+        "PMID:37851316",
+        "URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
+      ],
+      "with": "Magnesium"
+    }
+  ],
+  "citations": [
+    "PMID:37851316",
+    "PMID:39640489",
+    "URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
+  ]
+}

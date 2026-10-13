@@ -1,0 +1,52 @@
+* Beta Alanine
+:PROPERTIES:
+:ID: supp-beta-alanine
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: β-alanine | 3-aminopropanoic acid
+:CATEGORY: amino-acid
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Beta Alanine is represented by these commonly studied or marketed forms: β-alanine, 3-aminopropanoic acid. Clinical products and formulations can differ in composition and bioavailability; this limits cross-trial comparisons [PMID:39724872, PMID:38952910].
+
+** Mechanisms
+- Proposed mechanisms are outcome- and formulation-dependent; mechanistic plausibility does not establish clinical efficacy. Human evidence is summarized below [PMID:39724872, PMID:38952910].
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---|---|---|---|---|---|
+| May improve high-intensity exercise capacity through increased muscle carnosine | Systematic review/meta-analysis or human trial synthesis | Mixed/possible benefit; no established clinical disease prevention | See evidence summary below; pooled estimates vary by outcome and population | moderate | PMID:39724872, PMID:38952910 |
+
+- Systematic review in older adults included five studies (163 participants); exercise capacity may improve, while strength/function did not [PMID:39724872]. Meta-analysis of beta-alanine plus bicarbonate found context-dependent exercise outcomes [PMID:38952910].
+- May improve high-intensity exercise capacity through increased muscle carnosine; benefit is task-specific and not consistently seen for strength or functional outcomes [PMID:39724872, PMID:38952910].
+
+** Dosing in trials
+- Common loading protocols use 3.2–6.4 g/day in divided doses for at least 4 weeks; older-adult studies averaged 2.7 g/day for about 12 weeks [PMID:39724872].
+
+** Safety & adverse effects
+- Transient paresthesia (tingling) is dose-related; divided or sustained-release dosing reduces peak symptoms [PMID:39724872].
+
+** Contraindications
+- No established contraindication in healthy adults; long-term safety and use in pregnancy/lactation are insufficiently studied [PMID:39724872].
+
+** Interactions
+- No established clinically meaningful drug interaction; co-use with sodium bicarbonate has been studied, with mixed performance effects [PMID:38952910].
+- No genotype-specific clinical claim is made because no qualifying pharmacogenomic source was identified for this research set.
+
+** Genotype notes
+- No cited pharmacogenomic or nutrigenomic source identified for a clinically useful genotype-specific note.
+
+** Latest research
+- 2024–2026: 2024/2025 review of older adults found only five eligible studies, indicating evidence base remains small [PMID:39724872].
+
+** Open questions
+- Larger, preregistered, adequately powered human trials with standardized, chemically characterized products and longer follow-up are needed to establish clinically important benefits and characterize uncommon harms.
+
+** Sources
+1. PMID:39724872
+2. PMID:38952910
+- Beta-alanine for improving exercise capacity in older adults: systematic review. J Aging Phys Act. 2025. DOI:10.1123/japa.2024-0118.
+- Sodium bicarbonate and beta-alanine supplementation: systematic review and meta-analysis. PMID:38952910.

@@ -1,0 +1,52 @@
+* Quercetin
+:PROPERTIES:
+:ID: supp-quercetin
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: quercetin dihydrate | isoquercetin | rutin (related glycoside)
+:CATEGORY: botanical
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Quercetin is represented by these commonly studied or marketed forms: quercetin dihydrate, isoquercetin, rutin (related glycoside). Clinical products and formulations can differ in composition and bioavailability; this limits cross-trial comparisons [PMID:42827146, PMID:41227106].
+
+** Mechanisms
+- Proposed mechanisms are outcome- and formulation-dependent; mechanistic plausibility does not establish clinical efficacy. Human evidence is summarized below [PMID:42827146, PMID:41227106].
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---|---|---|---|---|---|
+| Human trials have evaluated inflammatory, cardiometabolic, allergy and exercise endpoints, but clinical effects remain inconsistent and formulation/bioavailability vary | Systematic review/meta-analysis or human trial synthesis | Mixed/possible benefit; no established clinical disease prevention | See evidence summary below; pooled estimates vary by outcome and population | low | PMID:42827146, PMID:41227106 |
+
+- A 2026 systematic review of pharmacokinetic interactions found clinically relevant human data fragmented and interaction risks uncertain, with much evidence preclinical [PMID:42827146].
+- Human trials have evaluated inflammatory, cardiometabolic, allergy and exercise endpoints, but clinical effects remain inconsistent and formulation/bioavailability vary; certainty low to very low [PMID:42827146].
+
+** Dosing in trials
+- Human supplementation studies commonly use roughly 500–1,000 mg/day for several weeks; no dose-response or optimal formulation is established [PMID:42827146].
+
+** Safety & adverse effects
+- Short-term studies commonly report mild GI symptoms or headache; long-term high-dose safety is inadequately characterized [PMID:42827146].
+
+** Contraindications
+- Avoid assuming food exposure and concentrated supplements are equivalent; limited safety evidence in pregnancy, lactation, and significant renal/hepatic disease [PMID:42827146].
+
+** Interactions
+- In vitro enzyme/transporter modulation raises possible interaction with CYP3A4/CYP2C9 substrates and transporters, but clinical relevance is uncertain [PMID:42827146]. No validated lab-test interference identified in reviewed clinical sources.
+- No genotype-specific clinical claim is made because no qualifying pharmacogenomic source was identified for this research set.
+
+** Genotype notes
+- No cited pharmacogenomic or nutrigenomic source identified for a clinically useful genotype-specific note.
+
+** Latest research
+- 2024–2026: 2026 systematic review focused on CYP enzymes, phase II metabolism, transporters and clinical interactions; it concludes more human PK work is needed [PMID:42827146].
+
+** Open questions
+- Larger, preregistered, adequately powered human trials with standardized, chemically characterized products and longer follow-up are needed to establish clinically important benefits and characterize uncommon harms.
+
+** Sources
+1. PMID:42827146
+2. PMID:41227106
+- Quercetin as a modulator of xenobiotic metabolism: systematic review. PubMed PMID:42827146 (2026).
+- Mátyus et al. Effect of L-theanine on cognitive performance: systematic review and meta-analysis of randomized placebo-controlled trials. PubMed PMID:41227106.

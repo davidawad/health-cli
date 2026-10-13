@@ -1,0 +1,52 @@
+* Trans-resveratrol
+:PROPERTIES:
+:ID: supp-trans-resveratrol
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: resveratrol | trans-3,5,4'-trihydroxystilbene
+:CATEGORY: botanical
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Trans-resveratrol is represented by these commonly studied or marketed forms: resveratrol, trans-3,5,4'-trihydroxystilbene. Clinical products and formulations can differ in composition and bioavailability; this limits cross-trial comparisons [PMID:38255828, PMID:39288907].
+
+** Mechanisms
+- Proposed mechanisms are outcome- and formulation-dependent; mechanistic plausibility does not establish clinical efficacy. Human evidence is summarized below [PMID:38255828, PMID:39288907].
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---|---|---|---|---|---|
+| Metabolic/cardiovascular surrogate findings are mixed | Systematic review/meta-analysis or human trial synthesis | Mixed/possible benefit; no established clinical disease prevention | See evidence summary below; pooled estimates vary by outcome and population | low | PMID:38255828, PMID:39288907 |
+
+- Systematic review catalogued 194 clinical studies but found sparse interaction testing and substantial heterogeneity in doses, populations and endpoints [PMID:38255828].
+- Metabolic/cardiovascular surrogate findings are mixed; no robust evidence for lifespan extension or prevention of clinical events. Certainty low/very low due to heterogeneity [PMID:38255828].
+
+** Dosing in trials
+- Trials range from tens of mg to multi-gram daily, commonly 150–1,000 mg/day for weeks/months; higher doses increase GI effects [PMID:38255828].
+
+** Safety & adverse effects
+- GI symptoms (nausea, diarrhea, abdominal discomfort) are the most frequent reported adverse effects; long-term high-dose safety remains uncertain [PMID:38255828].
+
+** Contraindications
+- Caution in pregnancy/lactation due to inadequate supplement trial data [PMID:38255828].
+
+** Interactions
+- Possible antiplatelet effects and CYP3A4/2E1 modulation are mainly mechanistic; oral anticoagulant interaction evidence is generally low quality [PMID:38255828, PMID:39288907].
+- No genotype-specific clinical claim is made because no qualifying pharmacogenomic source was identified for this research set.
+
+** Genotype notes
+- No cited pharmacogenomic or nutrigenomic source identified for a clinically useful genotype-specific note.
+
+** Latest research
+- 2024–2026: 2024 systematic review emphasizes gaps in dose-response, safety and interaction characterization across human studies [PMID:38255828].
+
+** Open questions
+- Larger, preregistered, adequately powered human trials with standardized, chemically characterized products and longer follow-up are needed to establish clinically important benefits and characterize uncommon harms.
+
+** Sources
+1. PMID:38255828
+2. PMID:39288907
+- Resveratrol for management of human health: systematic review of clinical trials. PMID:38255828.
+- Talasaz AH et al. Pharmacokinetic and pharmacodynamic interactions between food/herbal products and oral anticoagulants. Semin Thromb Hemost. 2025. DOI:10.1055/s-0044-1790258.

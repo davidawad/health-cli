@@ -1,0 +1,54 @@
+* Curcumin
+:PROPERTIES:
+:ID: supp-curcumin
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: turmeric | Curcuma longa | curcuminoids
+:CATEGORY: botanical
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Curcumin is represented by these commonly studied or marketed forms: turmeric, Curcuma longa, curcuminoids. Clinical products and formulations can differ in composition and bioavailability; this limits cross-trial comparisons [PMID:39478418, PMID:40538540, PMID:39425780].
+
+** Mechanisms
+- Proposed mechanisms are outcome- and formulation-dependent; mechanistic plausibility does not establish clinical efficacy. Human evidence is summarized below [PMID:39478418, PMID:40538540, PMID:39425780].
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---|---|---|---|---|---|
+| Osteoarthritis symptoms and inflammation: possible benefit, generally low/very low certainty | Systematic review/meta-analysis or human trial synthesis | Mixed/possible benefit; no established clinical disease prevention | See evidence summary below; pooled estimates vary by outcome and population | low | PMID:39478418, PMID:40538540, PMID:39425780 |
+
+- 103 RCT meta-analysis (7,216 participants) found statistically significant pooled results for 23/42 outcomes; certainty high for fasting glucose, CRP, HDL and weight, with most other outcomes low/very low [PMID:39478418]. An umbrella review found underlying review quality generally poor [PMID:40538540].
+- Osteoarthritis symptoms and inflammation: possible benefit, generally low/very low certainty; metabolic markers: mixed but signals for glucose and CRP; no demonstrated disease-modifying or mortality benefit [PMID:39478418, PMID:40538540].
+
+** Dosing in trials
+- Trials used heterogeneous turmeric extracts, curcuminoids, micellar/nano and piperine-enhanced products, typically hundreds of mg to several grams daily for weeks to months; products are not dose-equivalent [PMID:39478418].
+
+** Safety & adverse effects
+- GI upset, headache and rash are reported; rare clinically apparent liver injury has been reported with turmeric/curcumin products, especially enhanced-bioavailability formulations [PMID:39425780, URL:https://www.ncbi.nlm.nih.gov/books/NBK548561/].
+
+** Contraindications
+- Avoid treating as interchangeable with dietary turmeric; caution with biliary obstruction/gallstones and during cancer therapy because clinical interaction evidence is incomplete [PMID:39425780].
+
+** Interactions
+- Potential antiplatelet effects and drug-metabolism interactions are largely mechanistic; clinical interaction evidence with anticoagulants is sparse and heterogeneous [PMID:39288907]. Piperine-containing formulations can alter drug exposure [PMID:39478418].
+- No genotype-specific clinical claim is made because no qualifying pharmacogenomic source was identified for this research set.
+
+** Genotype notes
+- No cited pharmacogenomic or nutrigenomic source identified for a clinically useful genotype-specific note.
+
+** Latest research
+- 2024–2026: 2025 umbrella review: 25 prior reviews; methodological quality relatively poor [PMID:40538540]. 2025 cancer-care review reports small heterogeneous adjunct trials and insufficient basis for routine use [PMID:39425780].
+
+** Open questions
+- Larger, preregistered, adequately powered human trials with standardized, chemically characterized products and longer follow-up are needed to establish clinically important benefits and characterize uncommon harms.
+
+** Sources
+1. PMID:39478418
+2. PMID:40538540
+3. PMID:39425780
+- Jafari A et al. Curcumin on Human Health: A Comprehensive Systematic Review and Meta-Analysis of 103 Randomized Controlled Trials. Phytother Res. 2024. DOI:10.1002/ptr.8340.
+- Critical umbrella review of curcumin and multiple health outcomes. Front Pharmacol. 2025. DOI:10.3389/fphar.2025.1601204.
+- Gutsche LC et al. Curcumin as a complementary treatment in oncological therapy: a systematic review. Eur J Clin Pharmacol. 2025. DOI:10.1007/s00228-024-03764-9.

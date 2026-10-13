@@ -1,0 +1,17 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Urolithin A",
+  "slug": "urolithin-a",
+  "aliases": [
+    "UA",
+    "mitophagy-associated gut microbial metabolite"
+  ],
+  "category": "longevity",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "low",
+  "edges": [],
+  "citations": [
+    "PMID:39002645",
+    "PMID:35584623"
+  ]
+}

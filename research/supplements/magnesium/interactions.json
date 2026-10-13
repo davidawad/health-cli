@@ -1,0 +1,69 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Magnesium",
+  "slug": "magnesium",
+  "aliases": [
+    "magnesium citrate",
+    "chloride",
+    "oxide",
+    "glycinate",
+    "lactate",
+    "sulfate"
+  ],
+  "category": "mineral",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "moderate",
+  "edges": [
+    {
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "No established direct interaction; GI effects may overlap.",
+      "evidence": "Limited or mechanistic evidence; no direct clinically decisive interaction trial identified.",
+      "citations": [
+        "PMID:40269802",
+        "URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
+      ],
+      "with": "Berberine"
+    },
+    {
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Forms poorly absorbed complexes and can lower absorption; dose separation is recommended in official NIH fact sheet.",
+      "evidence": "Human trial/review evidence or official fact sheet; clinical context and dose matter.",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
+      ],
+      "with": "tetracycline antibiotics"
+    },
+    {
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Magnesium can reduce absorption of oral bisphosphonates; NIH ODS recommends separating administration.",
+      "evidence": "Human trial/review evidence or official fact sheet; clinical context and dose matter.",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
+      ],
+      "with": "oral bisphosphonates"
+    },
+    {
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Reduced renal clearance increases risk of magnesium accumulation and toxicity.",
+      "evidence": "Human trial/review evidence or official fact sheet; clinical context and dose matter.",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
+      ],
+      "with": "chronic kidney disease"
+    }
+  ],
+  "citations": [
+    "URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
+    "PMID:39519450",
+    "PMID:41245414",
+    "PMID:40269802"
+  ]
+}

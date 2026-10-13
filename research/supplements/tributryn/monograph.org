@@ -1,0 +1,52 @@
+* Tributryn
+:PROPERTIES:
+:ID: supp-tributryn
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: tributryn | tributyrin | glyceryl tributyrate | tributyrate
+:CATEGORY: other
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Tributryn is represented by these commonly studied or marketed forms: glyceryl tributyrate, tributyrate. Clinical products and formulations can differ in composition and bioavailability; this limits cross-trial comparisons [DOI:10.3233/NHA-240005, NCT05601635].
+
+** Mechanisms
+- Proposed mechanisms are outcome- and formulation-dependent; mechanistic plausibility does not establish clinical efficacy. Human evidence is summarized below [DOI:10.3233/NHA-240005, NCT05601635].
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---|---|---|---|---|---|
+| No established health outcome efficacy | Systematic review/meta-analysis or human trial synthesis | Mixed/possible benefit; no established clinical disease prevention | See evidence summary below; pooled estimates vary by outcome and population | very-low | DOI:10.3233/NHA-240005, NCT05601635 |
+
+- 2024 pilot human study evaluated tolerability and exploratory biological effects of a tributyrin-containing formulation; small sample and short duration cannot establish efficacy [DOI:10.3233/NHA-240005].
+- No established health outcome efficacy; proposed butyrate delivery is mechanistic, with human evidence limited to pilot tolerability/exploration [DOI:10.3233/NHA-240005].
+
+** Dosing in trials
+- Single pilot used a commercial tributyrin-containing supplement over a short intervention; no validated dose range or standardized pure-tributyrin regimen established [DOI:10.3233/NHA-240005].
+
+** Safety & adverse effects
+- Pilot reported tolerability observations but is too small and short to characterize uncommon or long-term harms [DOI:10.3233/NHA-240005].
+
+** Contraindications
+- Insufficient evidence for pregnancy/lactation, children, or significant gastrointestinal disease [DOI:10.3233/NHA-240005].
+
+** Interactions
+- No clinical interaction studies identified; no validated laboratory interference known [DOI:10.3233/NHA-240005].
+- No genotype-specific clinical claim is made because no qualifying pharmacogenomic source was identified for this research set.
+
+** Genotype notes
+- No cited pharmacogenomic or nutrigenomic source identified for a clinically useful genotype-specific note.
+
+** Latest research
+- 2024–2026: 2024 pilot study (ClinicalTrials.gov NCT05601635) is the directly relevant recent human evidence; larger controlled trials needed [DOI:10.3233/NHA-240005].
+
+** Open questions
+- Larger, preregistered, adequately powered human trials with standardized, chemically characterized products and longer follow-up are needed to establish clinically important benefits and characterize uncommon harms.
+
+** Sources
+1. DOI:10.3233/NHA-240005
+2. NCT05601635
+- Smith M et al. Investigation of tolerability and potential health benefits of a novel butyrate generating supplement in a pilot human study. Nutr Healthy Aging. 2024. DOI:10.3233/NHA-240005.
+- ClinicalTrials.gov. NCT05601635, tributyrin-containing supplement pilot study.

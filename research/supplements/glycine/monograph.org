@@ -1,0 +1,52 @@
+* Glycine
+:PROPERTIES:
+:ID: supp-glycine
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: aminoacetic acid
+:CATEGORY: amino-acid
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Glycine is represented by these commonly studied or marketed forms: aminoacetic acid. Clinical products and formulations can differ in composition and bioavailability; this limits cross-trial comparisons [PMID:37851316, PMID:39640489].
+
+** Mechanisms
+- Proposed mechanisms are outcome- and formulation-dependent; mechanistic plausibility does not establish clinical efficacy. Human evidence is summarized below [PMID:37851316, PMID:39640489].
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---|---|---|---|---|---|
+| Small studies suggest subjective sleep improvements with bedtime glycine | Systematic review/meta-analysis or human trial synthesis | Mixed/possible benefit; no established clinical disease prevention | See evidence summary below; pooled estimates vary by outcome and population | low | PMID:37851316, PMID:39640489 |
+
+- Systematic review included 50 human studies (42 RCTs); evidence across outcomes was limited by small samples, short duration and high risk of bias [PMID:37851316].
+- Small studies suggest subjective sleep improvements with bedtime glycine; evidence for prevention or treatment of disease is insufficient [PMID:37851316].
+
+** Dosing in trials
+- Sleep studies commonly used 3 g orally about 1 hour before bed; other clinical studies used varying multi-gram doses and schedules [PMID:37851316].
+
+** Safety & adverse effects
+- Reported tolerability was generally acceptable in small short studies; long-term safety at supplemental doses is not established [PMID:37851316].
+
+** Contraindications
+- No established contraindication identified in the systematic review; evidence is insufficient for pregnancy/lactation or severe organ disease [PMID:37851316].
+
+** Interactions
+- Potential additive effects with sedatives are theoretical; no established clinically quantified interaction found in the human systematic review [PMID:37851316].
+- No genotype-specific clinical claim is made because no qualifying pharmacogenomic source was identified for this research set.
+
+** Genotype notes
+- No cited pharmacogenomic or nutrigenomic source identified for a clinically useful genotype-specific note.
+
+** Latest research
+- 2024–2026: 2024 systematic review concludes evidence for broad physiological or preventive effects remains limited and calls for larger, longer trials [PMID:37851316].
+
+** Open questions
+- Larger, preregistered, adequately powered human trials with standardized, chemically characterized products and longer follow-up are needed to establish clinically important benefits and characterize uncommon harms.
+
+** Sources
+1. PMID:37851316
+2. PMID:39640489
+- The effect of glycine administration on physiological systems in human adults: systematic review. Nutr Rev. 2024. PMID:37851316.
+- Effects of berberine alone or in combination on type 2 diabetes mellitus: systematic review and meta-analysis. PMID:39640489.

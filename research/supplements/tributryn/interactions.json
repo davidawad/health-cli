@@ -1,0 +1,19 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Tributryn",
+  "slug": "tributryn",
+  "aliases": [
+    "tributryn",
+    "tributyrin",
+    "glyceryl tributyrate",
+    "tributyrate"
+  ],
+  "category": "other",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "very-low",
+  "edges": [],
+  "citations": [
+    "DOI:10.3233/NHA-240005",
+    "NCT05601635"
+  ]
+}

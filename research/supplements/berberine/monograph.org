@@ -1,0 +1,52 @@
+* Berberine
+:PROPERTIES:
+:ID: supp-berberine
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: berberine hydrochloride | Berberis alkaloid
+:CATEGORY: botanical
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Berberine is represented by these commonly studied or marketed forms: berberine hydrochloride, Berberis alkaloid. Clinical products and formulations can differ in composition and bioavailability; this limits cross-trial comparisons [PMID:40269802, PMID:39640489].
+
+** Mechanisms
+- Proposed mechanisms are outcome- and formulation-dependent; mechanistic plausibility does not establish clinical efficacy. Human evidence is summarized below [PMID:40269802, PMID:39640489].
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---|---|---|---|---|---|
+| Glycemic and lipid surrogate markers may improve, particularly in type 2 diabetes/metabolic syndrome | Systematic review/meta-analysis or human trial synthesis | Mixed/possible benefit; no established clinical disease prevention | See evidence summary below; pooled estimates vary by outcome and population | low | PMID:40269802, PMID:39640489 |
+
+- Overview of 54 systematic reviews assessed berberine across multiple conditions; methodological quality and certainty varied, with many reviews low/critically low quality [PMID:40269802]. Diabetes meta-analysis found improvements in glycemic markers, but substantial heterogeneity and variable co-interventions limit inference [PMID:39640489].
+- Glycemic and lipid surrogate markers may improve, particularly in type 2 diabetes/metabolic syndrome; evidence does not establish prevention of complications or equivalence to standard medicines [PMID:40269802, PMID:39640489].
+
+** Dosing in trials
+- Trials frequently use 0.9–1.5 g/day divided into 2–3 doses for 8–24 weeks, often berberine hydrochloride; formulations vary [PMID:39640489].
+
+** Safety & adverse effects
+- GI effects (constipation, diarrhea, nausea, abdominal discomfort) are common; short trials provide limited long-term safety evidence [PMID:40269802].
+
+** Contraindications
+- Avoid in pregnancy, breastfeeding and neonates because of bilirubin displacement/kernicterus concern; use particular caution in hepatic disease [PMID:40269802].
+
+** Interactions
+- May add to glucose-lowering therapy; human PK evidence indicates effects on CYP enzymes and P-glycoprotein, so interactions with narrow-therapeutic-index drugs are plausible [PMID:40269802].
+- No genotype-specific clinical claim is made because no qualifying pharmacogenomic source was identified for this research set.
+
+** Genotype notes
+- No cited pharmacogenomic or nutrigenomic source identified for a clinically useful genotype-specific note.
+
+** Latest research
+- 2024–2026: 2025 overview of 54 systematic reviews found substantial methodological limitations and uneven evidence quality [PMID:40269802].
+
+** Open questions
+- Larger, preregistered, adequately powered human trials with standardized, chemically characterized products and longer follow-up are needed to establish clinically important benefits and characterize uncommon harms.
+
+** Sources
+1. PMID:40269802
+2. PMID:39640489
+- Berberine and health outcomes: an overview of systematic reviews. BMC Complement Med Ther. 2025. DOI:10.1186/s12906-025-04872-4.
+- Effects of berberine alone or in combination on type 2 diabetes mellitus: systematic review and meta-analysis. PMID:39640489.

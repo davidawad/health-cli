@@ -1,0 +1,32 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "L-Theanine",
+  "slug": "l-theanine",
+  "aliases": [
+    "theanine",
+    "gamma-glutamylethylamide"
+  ],
+  "category": "nootropic",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "low",
+  "edges": [
+    {
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Possible additive relaxation/sedation is untested clinically.",
+      "evidence": "Limited or mechanistic evidence; no direct clinically decisive interaction trial identified.",
+      "citations": [
+        "PMID:41227106",
+        "URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
+      ],
+      "with": "Magnesium"
+    }
+  ],
+  "citations": [
+    "PMID:41227106",
+    "PMID:39633316",
+    "PMID:42410082",
+    "URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
+  ]
+}

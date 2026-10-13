@@ -1,0 +1,54 @@
+* L-Theanine
+:PROPERTIES:
+:ID: supp-l-theanine
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: theanine | gamma-glutamylethylamide
+:CATEGORY: nootropic
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- L-Theanine is represented by these commonly studied or marketed forms: theanine, gamma-glutamylethylamide. Clinical products and formulations can differ in composition and bioavailability; this limits cross-trial comparisons [PMID:41227106, PMID:39633316, PMID:42410082].
+
+** Mechanisms
+- Proposed mechanisms are outcome- and formulation-dependent; mechanistic plausibility does not establish clinical efficacy. Human evidence is summarized below [PMID:41227106, PMID:39633316, PMID:42410082].
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---|---|---|---|---|---|
+| Possible small short-term improvements in selected attention tasks | Systematic review/meta-analysis or human trial synthesis | Mixed/possible benefit; no established clinical disease prevention | See evidence summary below; pooled estimates vary by outcome and population | low | PMID:41227106, PMID:39633316, PMID:42410082 |
+
+- 2025 meta-analysis of five RCTs (148 healthy adults) found a small improvement in selected visual processing/reaction-time outcomes, but not all cognitive tests [PMID:41227106]. A systematic review in mental disorders found limited heterogeneous adjunctive RCT evidence [PMID:39633316].
+- Possible small short-term improvements in selected attention tasks; subjective stress/sleep findings remain preliminary and are not consistent across outcomes [PMID:41227106, PMID:39633316].
+
+** Dosing in trials
+- Trials often use 100–400 mg/day; acute cognition trials use around 200 mg before testing; tea-derived doses are lower [PMID:41227106].
+
+** Safety & adverse effects
+- Short-term studies suggest reasonable tolerability; adverse-event and long-term data remain limited [PMID:41227106].
+
+** Contraindications
+- Insufficient evidence in pregnancy, lactation and children [PMID:41227106].
+
+** Interactions
+- Possible additive sedation or blood-pressure lowering is theoretical; robust clinical interaction studies are lacking [PMID:41227106].
+- No genotype-specific clinical claim is made because no qualifying pharmacogenomic source was identified for this research set.
+
+** Genotype notes
+- No cited pharmacogenomic or nutrigenomic source identified for a clinically useful genotype-specific note.
+
+** Latest research
+- 2024–2026: 2026 systematic review/meta-analysis pooled 31 RCTs (1,168 participants), reinforcing that outcomes vary across cognitive and affective domains [PMID:42410082].
+
+** Open questions
+- Larger, preregistered, adequately powered human trials with standardized, chemically characterized products and longer follow-up are needed to establish clinically important benefits and characterize uncommon harms.
+
+** Sources
+1. PMID:41227106
+2. PMID:39633316
+3. PMID:42410082
+- Mátyus et al. Effect of L-theanine on cognitive performance: systematic review and meta-analysis of randomized placebo-controlled trials. PubMed PMID:41227106.
+- Systematic review of L-theanine supplementation in mental disorders. PMID:39633316 (2024).
+- Cognitive and affective effects of L-theanine: systematic review and meta-analysis of 31 randomized trials. Mol Psychiatry. 2026. DOI:10.1038/s41380-026-03727-9.

@@ -1,0 +1,30 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Apigenin",
+  "slug": "apigenin",
+  "aliases": [
+    "4',5,7-trihydroxyflavone",
+    "parsley/chamomile flavone"
+  ],
+  "category": "botanical",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "very-low",
+  "edges": [
+    {
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Both show preclinical CYP3A4/transporter modulation; human combination effects unknown.",
+      "evidence": "Limited or mechanistic evidence; no direct clinically decisive interaction trial identified.",
+      "citations": [
+        "PMID:38629096",
+        "PMID:42827146"
+      ],
+      "with": "Quercetin"
+    }
+  ],
+  "citations": [
+    "PMID:38629096",
+    "PMID:42827146"
+  ]
+}

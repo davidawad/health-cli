@@ -3,47 +3,218 @@
 :ID: supp-essential-softgels
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: Blueprint Essential Softgels | Advanced Antioxidants
+:ALIASES: Blueprint Essential Softgels | Essential Softgel | Advanced Antioxidants | Blueprint Advanced Antioxidants | Blueprint Bryan Johnson Essential Softgel
 :CATEGORY: other
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Historical Blueprint product name for the formula now called Advanced Antioxidants. Official page says it contains lutein, zeaxanthin, lycopene, astaxanthin, vitamin K1, K2-MK4 and K2-MK7 in a delayed-release capsule; the old softgel delivery changed [URL:https://blueprint.bryanjohnson.com/products/essential-softgel].
+- Branded multi-ingredient dietary supplement from Blueprint (Bryan Johnson). It is now sold as "Advanced Antioxidants". The manufacturer FAQ says the name was changed and that "the only change is delivery": the softgel became a delayed-release liquid capsule [URL:https://blueprint.bryanjohnson.com/products/advanced-antioxidants].
+- Current label, per 1 liquid capsule daily (30 per bottle) [URL:https://blueprint.bryanjohnson.com/products/advanced-antioxidants]:
+  - Vitamin K1 (phytonadione) 1500 mcg (1250% DV)
+  - Lycopene 15 mg
+  - Astaxanthin (Haematococcus pluvialis microalgae) 12 mg
+  - Lutein (marigold flower extract) 10 mg; zeaxanthin (marigold) 2 mg
+  - Vitamin K2 MK-4 (menaquinone-4) 5 mg; vitamin K2 MK-7 (menaquinone-7) 600 mcg
+  - Other ingredients: MCT oil (coconut), hypromellose capsule, candelilla wax.
+- NIH DSLD label 328205 ("Essential Softgel", veggie softgel, entered 2025-04-24) lists the same seven actives. However, it gives lutein 15 mg and zeaxanthin 3 mg; the other amounts are identical [URL:https://api.ods.od.nih.gov/dsld/v9/label/328205]. So older softgel lots may differ from the current capsule in lutein/zeaxanthin dose despite the "only delivery changed" statement. The bottle in hand governs.
+- No beta-carotene, vitamin A, vitamin E or minerals are listed on either label [URL:https://blueprint.bryanjohnson.com/products/advanced-antioxidants] [URL:https://api.ods.od.nih.gov/dsld/v9/label/328205].
+- The lutein/zeaxanthin dose on the current label (10 mg/2 mg) is the AREDS2 dose [PMID:23644932]. The other doses do not match any single trial formula. No study of the whole product was found.
 
 ** Mechanisms
-- Lutein and zeaxanthin accumulate in the macula; vitamin K supports gamma-carboxylation of coagulation proteins and bone-associated proteins. Those ingredient mechanisms do not establish efficacy of the product’s exact doses or its combined formula [PMID:23644932; URL:https://blueprint.bryanjohnson.com/products/essential-softgel].
+- Lutein/zeaxanthin: the only carotenoids (with meso-zeaxanthin) found in the macula. They raise macular pigment optical density (MPOD), act as antioxidants and filter blue light [PMID:34157098].
+- Lycopene: hydrocarbon carotenoid antioxidant. Proposed vascular effects include better endothelial function (FMD) [PMID:42588128] [PMID:28129549].
+- Astaxanthin: xanthophyll antioxidant. In RCT meta-analysis it lowers malondialdehyde [PMID:35091276].
+  - Preclinical: inhibits platelet activation and hepatic transcription of coagulation factors in rodents and human cells (2026) [PMID:41702374]. In rats it lowered vitamin K and vitamin K-dependent factors II, VII, IX and X [PMID:32725659].
+- Vitamin K1, MK-4 and MK-7 are cofactors for gamma-glutamyl carboxylation of coagulation factors, osteocalcin and matrix Gla protein (MGP) [PMID:17158229] [PMID:42851346].
+  - MK-7 has a much longer half-life than K1. It accumulates 7-8-fold on repeated dosing and carboxylates osteocalcin more completely [PMID:17158229].
+- In vitro, xanthophylls (lutein, zeaxanthin, astaxanthin) only weakly inhibit CYP enzymes, at concentrations well above human Cmax. CYP-mediated drug interactions are unlikely [PMID:23669408].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---------+--------------------+-----------+-------------+-----------------------+-----------|
-| Vision/eye disease prevention | No whole-product RCT identified | Unknown | No product-level effect estimate | very low | [URL:https://blueprint.bryanjohnson.com/products/essential-softgel] |
-| Age-related macular degeneration progression (lutein/zeaxanthin combinations) | Ingredient-level RCT evidence, not this blend | Benefit for selected AREDS2 populations | Formula and doses differ from the product; cannot transfer directly | moderate | [PMID:23644932] |
-| Cardiovascular or longevity outcomes | No whole-product outcome trial identified | Unknown | No product-level estimate | very low | [URL:https://blueprint.bryanjohnson.com/products/essential-softgel] |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Whole product, any clinical outcome | None found | Unknown | No product-level trial | very low | [URL:https://blueprint.bryanjohnson.com/products/advanced-antioxidants] |
+| Progression to late AMD (lutein/zeaxanthin 10/2 mg, on top of AREDS) | AREDS2 RCT (n=4203); Cochrane SR | No significant benefit in primary analysis; small benefit in secondary/long-term analyses | Primary HR 0.90 (98.7% CI 0.76-1.07); 10-y HR 0.91 (0.84-0.99); Cochrane RR 0.94 (0.87-1.01) | moderate | [PMID:23644932] [PMID:35653117] [PMID:37702300] |
+| Lutein/zeaxanthin vs beta-carotene in AREDS formula | AREDS2 exploratory and 10-y follow-up | Favors lutein/zeaxanthin | Late AMD HR 0.82 (0.69-0.96); 10-y HR 0.85 (0.73-0.98) | low | [PMID:24310343] [PMID:35653117] |
+| Geographic atrophy growth toward fovea | Post hoc AREDS2 | Slower | 80.1 vs 114.4 um/y; area growth unchanged | low | [PMID:39025435] |
+| Cataract surgery | AREDS2 secondary outcome | No effect overall | HR 0.96 (0.84-1.10); 0.68 in lowest dietary-intake quintile | moderate | [PMID:23645227] |
+| MPOD (healthy eyes) | SR/MA (46 studies, n=3189); network MA | Increase, dose-dependent | +0.04 units at 5-<20 mg/d; +0.11 at >=20 mg/d | moderate | [PMID:34157098] [PMID:38582248] |
+| Cognition | AREDS2 RCT (n=3501); MAs | Null in older adults with AMD; small pooled carotenoid effect | AREDS2 difference 0.03 (99% CI -0.14 to 0.19); carotenoid MA g 0.14 (0.08-0.20); lutein MA non-significant | low | [PMID:26305649] [PMID:33540909] [PMID:34641336] |
+| Cardiovascular events (lutein/zeaxanthin) | AREDS2 ancillary RCT | No effect | HR 0.94 (0.77-1.15) | moderate | [PMID:24638908] |
+| Systolic BP (lycopene) | MAs of RCTs | Small decrease, inconsistent | -5.66 mmHg; -1.95 mmHg in 2024 MA; null in a 43-study MA | low | [PMID:28129549] [PMID:39064656] [PMID:32652029] [PMID:24051501] |
+| Endothelial function (lycopene) | MA (4 studies, n=182) | Improved FMD | MD +1.36% (0.20-2.51) | low | [PMID:42588128] |
+| PSA in prostate cancer (lycopene) | MAs of RCTs | No effect | WMD -0.60 ug/L (-2.01 to 0.81); -0.12 ng/mL | low | [PMID:33355018] [PMID:35031434] |
+| Lipids (astaxanthin) | MAs of RCTs | HDL up, TG down; LDL/TC inconsistent | HDL +1.47 mg/dL; at 6-20 mg/d HDL SMD 0.42, TG SMD -0.31 | low | [PMID:32755613] [PMID:40872489] [PMID:39064656] |
+| Oxidative stress/inflammation (astaxanthin) | MA (12 RCTs, n=380) | MDA down; CRP mostly null | MDA SMD -0.95 (-1.67 to -0.23); CRP lower only at >12 mg/d or >=12 wk | low | [PMID:35091276] [PMID:32755613] |
+| Skin moisture/elasticity (astaxanthin) | MA (9 RCTs) | Improved | Moisture SMD 0.53; elasticity SMD 0.77; wrinkles NS | low | [PMID:34578794] |
+| Exercise recovery (astaxanthin) | MA (24 RCTs) | CK lower; no performance gain | CK SMD -0.45 (-0.83 to -0.07); VO2max NS | low | [PMID:42197030] |
+| Fractures (vitamin K) | MAs; Japanese MK-4 45 mg trials; ECKO K1 5 mg RCT | Possible reduction, inconsistent | 2006 MA vertebral OR 0.40; 2019 MK-4 MA vertebral RR 0.87 (0.64-1.20); ECKO 9 vs 20 clinical fractures | low | [PMID:16801507] [PMID:30734066] [PMID:18922041] [PMID:35625785] |
+| BMD and bone markers (vitamin K) | MAs; 3-y MK-7 180 mcg RCT | Small lumbar BMD gain; ucOC down | MK-4 lumbar MD +0.05 g/cm2; ucOC WMD -1.54 | low | [PMID:30734066] [PMID:39657786] [PMID:41268154] [PMID:23525894] |
+| Vascular calcification (vitamin K) | MAs; RCTs incl. AVADEC, VitaK-CAC, DANCODE | Mixed; CAC progression slowed in some trials | VC -9.1%; CAC MD -17.4; DANCODE -52 AU at 24 mo; AVADEC null for valve | low | [PMID:30514729] [PMID:37252246] [PMID:42661461] [PMID:42268593] [PMID:35465686] |
+| Arterial stiffness (MK-7) | RCTs (180 mcg, 1-3 y) | Improved in postmenopausal women | cfPWV and stiffness index lower; dp-ucMGP -50% | low | [PMID:25694037] [PMID:40077685] |
+| Cardiometabolic risk factors (vitamin K) | MA (17 RCTs) | HOMA-IR only | WMD -0.24; no lipid/CRP effect | low | [PMID:38282652] |
 
 ** Dosing in trials
-- Current formula page recommends one capsule daily with food and reports 30 servings per container. Current delayed-release capsule is not identical to the former softgel; follow the current label, not historical serving assumptions [URL:https://blueprint.bryanjohnson.com/products/essential-softgel].
+- Lutein/zeaxanthin: 10 mg/2 mg daily for a median of 5 years in AREDS2 [PMID:23644932]. The same dose for 6 months in screen users and teenagers [PMID:39963662] [PMID:42413424]. MPOD response is larger at >=20 mg/d [PMID:34157098].
+- Lycopene: trial doses ranged from 1.44 to 75 mg/d [PMID:32652029]. SBP lowering was more marked at >12 mg/d [PMID:24051501]. 15 mg for 8 weeks improved a reactive hyperemia index [PMID:42588128].
+- Astaxanthin: 6-24 mg/d in lipid trials, with HDL gains at 12 mg/d [PMID:40872489]. 87 human studies were reviewed, 35 of them at >=12 mg/d [PMID:31788888].
+- Vitamin K1: 500 mcg/d for 3 y (CAC trial) [PMID:19386744]; 5 mg/d for 2-4 y (ECKO) [PMID:18922041]. The product's 1500 mcg lies between these.
+- MK-4: the Japanese osteoporosis dose is 45 mg/d [PMID:30734066] [PMID:16801507]. The product's 5 mg is about one-ninth of this.
+- MK-7: 180 mcg/d for 1-3 y (bone, stiffness) [PMID:23525894] [PMID:25694037] [PMID:40077685]; 360 mcg/d for 2 y (VitaK-CAC) [PMID:42268593]; 720 mcg/d plus D3 25 mcg for 2 y (AVADEC, DANCODE) [PMID:35465686] [PMID:42661461]. The product's 600 mcg is near the upper end of trial doses.
+- Carotenoids are lipophilic with low oral bioavailability. Lipid-based formulations raised astaxanthin bioavailability 1.7-3.7-fold [PMID:12885395]. This supports taking the product with food. The product is delivered in MCT oil [URL:https://blueprint.bryanjohnson.com/products/advanced-antioxidants].
 
 ** Safety & adverse effects
-- Product includes vitamin K forms and carotenoids; vitamin K can antagonize warfarin. Carotenoids can cause benign skin discoloration at high intake; supplement beta-carotene raises harm in smokers in other formulations, but this product page does not list beta-carotene [URL:https://blueprint.bryanjohnson.com/products/essential-softgel; URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/].
+- Lutein/zeaxanthin: AREDS2 found no excess of adverse events or serious adverse events [PMID:24638908]. At 10 years, lutein/zeaxanthin showed no significant lung-cancer signal (OR 1.15, 0.79-1.66), whereas beta-carotene nearly doubled risk (OR 1.82) [PMID:35653117].
+- Observed Safe Levels: 20 mg/d for lutein and 75 mg/d for lycopene [PMID:16814439]. The label doses fall below both.
+- Astaxanthin:
+  - EFSA judged 8 mg/day from supplements safe for adults, on top of dietary intake (ADI 0.2 mg/kg bw) [PMID:32874213]. The product's 12 mg exceeds the EFSA 8 mg supplement level, though for a 70 kg adult it stays under the ADI-derived 14 mg.
+  - A safety review found no safety concerns across 87 human studies of natural astaxanthin [PMID:31788888].
+  - Carotenoid supplementation did not change liver enzymes in a GRADE-assessed MA [PMID:41437050].
+- Vitamin K:
+  - 5 mg/d K1 for up to 4 years was well tolerated, with no excess adverse effects [PMID:18922041].
+  - The MK-4 45 mg MA found more adverse events (RR 1.47) and adverse drug reactions (RR 1.29) than placebo, but no more serious AEs [PMID:30734066].
+  - Vitamin K in dialysis patients was safe and did not change mortality [PMID:38046003]. VitaK-CAC reported no significant adverse effects at 360 mcg MK-7 [PMID:42268593].
+- Main hazard: the combined K1 1500 mcg + MK-4 5 mg + MK-7 600 mcg is a large vitamin K load. MK-7 at 10-45 mcg/d already lowers INR during VKA therapy [PMID:23530987] (see Interactions).
+- Carotenodermia (skin yellowing) is possible with high carotenoid intake. In one trial, 13 mg beta-carotene plus 2 mg lycopene caused detectable carotenodermia, but 3 mg plus 3 mg did not [PMID:9285071]. This product contains 39 mg of total carotenoids; no product-specific data exist.
+- Bleeding: one case report describes INR rising from 1.4 to 10.38 with ecchymosis after astaxanthin was added to warfarin, judged a probable reaction [PMID:31073352]. Rodent data show anticoagulant effects of astaxanthin [PMID:32725659] [PMID:41702374]. In this product, the vitamin K content pushes in the opposite direction, so the net INR effect is unpredictable.
 
 ** Contraindications
-- Warfarin use is a major formulation-specific concern because vitamin K intake changes can alter INR; avoid assuming compatibility. Allergy to capsule/excipients is product-specific [URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/].
+- Vitamin K antagonist therapy (warfarin, acenocoumarol, phenprocoumon): the vitamin K content is many times the 10-45 mcg/d MK-7 doses that clinically lowered INR [PMID:23530987]. The authors concluded MK-7 supplements should be avoided with VKA therapy. The warfarin label lists increased vitamin K intake as a cause of decreased INR response [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=541c9a70-adaf-4ef3-94ba-ad4e70dfa057].
+- Children and adolescents: the EFSA astaxanthin assessment found the ADI reached or exceeded in under-18 age groups at 8 mg/day [PMID:32874213]. Product dose is 12 mg.
+- Pregnancy/lactation: no cited human safety data for this combination at these doses.
 
 ** Interactions
-- Vitamin K1/K2 can reduce warfarin effect; maintain consistent intake and monitor INR when intake changes [URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/]. Fat-containing meal may aid absorption of fat-soluble components, but no product interaction trial is reported [URL:https://blueprint.bryanjohnson.com/products/essential-softgel].
+*** Drugs
+- Warfarin and other VKAs (major): vitamin K competitively antagonizes VKAs [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=541c9a70-adaf-4ef3-94ba-ad4e70dfa057].
+  - MK-7 at 45 mcg/d lowered INR by about 40% in acenocoumarol-treated volunteers. 10-20 mcg caused clinically relevant INR lowering in 40-60% [PMID:23530987]. MK-7 >=50 mcg/d is flagged as clinically relevant [PMID:17158229].
+  - Low-dose K (150 mcg) is used deliberately in unstable warfarin patients, but only under supervision with dose titration [PMID:17110451] [PMID:24832594].
+  - Starting or stopping the product therefore changes the INR. Astaxanthin may add an opposite, unpredictable effect [PMID:31073352].
+- Orlistat (minor): reduces absorption of fat-soluble vitamins and beta-carotene. The label advises separating vitamins by >=2 h [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6240792b-9224-2d10-e053-2a91aa0a2c3e]. Plasma hydrocarbon carotenoids fell on orlistat [PMID:17707976], and vitamin K showed a nonsignificant decrease [PMID:12126214].
+- Antiplatelet drugs/aspirin (minor, theoretical): astaxanthin inhibited platelet activation comparably to aspirin in rodent thrombosis models [PMID:41702374]. No human interaction data exist.
+- Drugs metabolized by CYP450: interaction unlikely given weak in vitro inhibition [PMID:23669408].
+- Direct oral anticoagulants: food-drug interaction evidence for DOACs is limited [PMID:39288907]. No study of vitamin K supplements with DOACs was found.
+*** Other supplements
+- K1, K2 MK-7, K2-MK4: duplicates the vitamin K content. This adds to the VKA hazard [PMID:23530987] [PMID:17158229]. Stacking with high-dose MK-4 (45 mg) adds to its adverse-event rate [PMID:30734066].
+- Zeaxanthin + Lutein, Lycopene, Astaxanthin: duplicate carotenoid doses. Stacking can push lutein above its 20 mg/d Observed Safe Level [PMID:16814439] and astaxanthin above EFSA's 8 mg/day supplement level [PMID:32874213].
+- Vitamin E: 1000 IU/d raised PIVKA-II (an under-carboxylated prothrombin marker), suggesting antagonism of vitamin K [PMID:15213041]. This may partly offset the product's vitamin K effect.
+- Vitamin D-3: K2 plus D3 was the combination tested in AVADEC and DANCODE [PMID:35465686] [PMID:42661461]. The effect of K2 alone cannot be separated.
+- Plant sterols/stanols (2.5 g/d): lower plasma lycopene (-12.3%), zeaxanthin (-12.9%) and lutein (-7.4%) [PMID:27591863].
+*** Conditions
+- Current or former smokers: the product contains no beta-carotene. Lutein/zeaxanthin did not significantly raise lung cancer risk, unlike beta-carotene [PMID:35653117] [PMID:23644932].
+- Prostate cancer under PSA monitoring: lycopene does not change PSA overall [PMID:33355018] [PMID:35031434].
+- CKD/dialysis: vitamin K improved status markers but did not reduce mortality or calcification scores [PMID:38046003] [PMID:42851346].
+- VKA-treated conditions (AF, VTE, mechanical valves): see Contraindications.
+*** Lab-test interference
+- INR/PT: decreased in VKA-treated users [PMID:23530987]. No artifact in non-anticoagulated people.
+- PIVKA-II/DCP (des-gamma-carboxy prothrombin), used as a hepatocellular carcinoma tumour marker: vitamin K (MK-4) lowers DCP [PMID:1309308]. Supplementation could mask an elevated DCP during HCC surveillance. Interpret DCP with knowledge of vitamin K intake [PMID:15213041].
+- Vitamin K status markers: vitamin K lowers dp-ucMGP (-44.7%) and ucOC (-12%) [PMID:30514729] and the ucOC fraction [PMID:39657786]. These reflect intake, not disease change.
 
 ** Genotype notes
-- No cited pharmacogenomic or nutrigenomic source specific to Essential Softgels was identified in this search; no genotype claim is made.
+- AREDS supplement benefit did not vary by CFH/ARMS2 genotype in AREDS report 38 [PMID:24974817]. Note that AREDS tested beta-carotene formulas, not lutein.
+- MPOD response to lutein/zeaxanthin was associated with SCARB1, RPE65, ABCA1 and FADS1 variants in a candidate-gene study (n=310), which is unreplicated [PMID:23891863].
 
 ** Latest research
-- Official page now calls this Advanced Antioxidants and states the only formula change was delivery from softgel to delayed-release capsule; lists seven fat-soluble actives and one-capsule daily use [URL:https://blueprint.bryanjohnson.com/products/essential-softgel]. No product-level RCT located; formula-level human outcomes remain unestablished.
+- [2026-08] DANCODE RCT (n=398, CAC >=400): K2 720 mcg + D3 slowed CAC progression by 52 AU over 24 mo [PMID:42661461].
+- [2026-08] VitaK-CAC RCT: MK-7 360 mcg for 2 y slowed CAC progression in symptomatic CAD (P=.02) [PMID:42268593].
+- [2026-08] Lycopene MA (4 studies): FMD +1.36% [PMID:42588128].
+- [2026-08] Review: vitamin K is pharmacodynamically active but has not reduced cardiovascular events or mortality [PMID:42851346].
+- [2026-06] Teen RCT (n=82): lutein 10 mg/zeaxanthin 2 mg raised MPOD and some attention/processing-speed scores [PMID:42413424].
+- [2026-05] Astaxanthin exercise MA (24 RCTs): CK SMD -0.45; no performance effect [PMID:42197030].
+- [2026-03] Observational MA: high circulating lycopene associated with lower carotid IMT (OR 0.70) [PMID:41978094].
+- [2026-02] Astaxanthin antithrombotic effects in rodents and human platelets [PMID:41702374].
+- [2026-02] Myopia MA (10 RCTs): lutein/zeaxanthin reduced axial elongation (SMD -0.40) [PMID:41573009].
+- [2025-12] Carotenoid MA: no overall change in liver enzymes [PMID:41437050].
+- [2025-11] Vitamin K2 MA (9 RCTs): ucOC down, OC up in postmenopausal osteoporosis [PMID:41268154].
+- [2025-10] AVADEC substudy: K2+D3 lowered dp-ucMGP but did not change epicardial fat or inflammation [PMID:41100911].
+- [2025-07] Astaxanthin 6-20 mg/d lipid MA: HDL up, TG down [PMID:40872489].
+- [2025-02] Lute-gen RCT (n=70): improved tear tests and photostress recovery [PMID:39963662].
+- [2025-02] MK-7 180 mcg for 1 y attenuated stiffness in postmenopausal women [PMID:40077685].
+- [2025-02] Cohort MA: high lycopene intake/levels associated with lower overall cancer risk (RR 0.95/0.89) [PMID:40013157].
+- [2024-12] Vitamin K MA: lumbar spine BMD up [PMID:39657786].
+- [2024-12] IV K1 RCT in hemodialysis: CAC progression 20.8% vs 44% [PMID:39680321].
+- [2024-07] Post hoc AREDS/AREDS2: lutein/zeaxanthin slowed GA growth toward the fovea [PMID:39025435].
 
 ** Open questions
-- Larger, better reported human studies with standardized products, clinically meaningful endpoints and longer follow-up are needed; current gaps are noted above.
+- No trial or pharmacokinetic study exists for this exact 7-ingredient formula. Ingredient interactions (e.g. carotenoid absorption competition) at these doses are unknown.
+- Whether the lutein/zeaxanthin dose changed (15/3 mg softgel vs 10/2 mg capsule) despite the manufacturer saying only delivery changed.
+- Long-term safety of 12 mg astaxanthin, above the EFSA supplement level, combined with about 7 mg of total vitamin K.
+- Whether vitamin K slows vascular calcification enough to reduce clinical events. Trial results are mixed and no event benefit has been shown.
+- Benefit in people without AMD risk. AREDS2 applies to intermediate AMD, not healthy adults.
 
 ** Sources
-- PMID:23644932
-- URL:https://blueprint.bryanjohnson.com/products/essential-softgel
-- URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/
+1. Age-Related Eye Disease Study 2 Research Group. Lutein + zeaxanthin and omega-3 fatty acids for age-related macular degeneration: the Age-Related Eye Disease Study 2 (AREDS2) randomized clinical trial. JAMA. 2013. PMID:23644932 DOI:10.1001/jama.2013.4997
+2. Wilson LM et al. The Effect of Lutein/Zeaxanthin Intake on Human Macular Pigment Optical Density: A Systematic Review and Meta-Analysis. Adv Nutr. 2021. PMID:34157098 DOI:10.1093/advances/nmab071
+3. Yoshida K et al. Effect of Intake of Lycopene-Containing Products on Vascular Endothelial Function in Healthy Adults: A Systematic Review with Meta-Analysis. Nutrients. 2026. PMID:42588128 DOI:10.3390/nu18152505
+4. Cheng HM et al. Tomato and lycopene supplementation and cardiovascular risk factors: A systematic review and meta-analysis. Atherosclerosis. 2017. PMID:28129549 DOI:10.1016/j.atherosclerosis.2017.01.009
+5. Ma B et al. Astaxanthin supplementation mildly reduced oxidative stress and inflammation biomarkers: a systematic review and meta-analysis of randomized controlled trials. Nutr Res. 2022. PMID:35091276 DOI:10.1016/j.nutres.2021.09.005
+6. Zhang L et al. Astaxanthin suppresses thrombosis by inhibiting both platelet activation and blood coagulation. Br J Pharmacol. 2026. PMID:41702374 DOI:10.1111/bph.70363
+7. Satti HH et al. Subacute administration of Astaxanthin inhibits vitamin K-dependent clotting factors in rats. J Food Biochem. 2020. PMID:32725659 DOI:10.1111/jfbc.13407
+8. Schurgers LJ et al. Vitamin K-containing dietary supplements: comparison of synthetic vitamin K1 and natto-derived menaquinone-7. Blood. 2007. PMID:17158229 DOI:10.1182/blood-2006-08-040709
+9. Brandenburg V et al. Vitamin K and vascular calcification: from biological plausibility to clinical realism. Clin Kidney J. 2026. PMID:42851346 DOI:10.1093/ckj/sfag249
+10. Zheng YF et al. Inhibitory effects of astaxanthin, β-cryptoxanthin, canthaxanthin, lutein, and zeaxanthin on cytochrome P450 enzyme activities. Food Chem Toxicol. 2013. PMID:23669408 DOI:10.1016/j.fct.2013.04.053
+11. Chew EY et al. Long-term Outcomes of Adding Lutein/Zeaxanthin and ω-3 Fatty Acids to the AREDS Supplements on Age-Related Macular Degeneration Progression: AREDS2 Report 28. JAMA Ophthalmol. 2022. PMID:35653117 DOI:10.1001/jamaophthalmol.2022.1640
+12. Evans JR et al. Antioxidant vitamin and mineral supplements for slowing the progression of age-related macular degeneration. Cochrane Database Syst Rev. 2023. PMID:37702300 DOI:10.1002/14651858.CD000254.pub5
+13. Age-Related Eye Disease Study 2 (AREDS2) Research Group. Secondary analyses of the effects of lutein/zeaxanthin on age-related macular degeneration progression: AREDS2 report No. 3. JAMA Ophthalmol. 2014. PMID:24310343 DOI:10.1001/jamaophthalmol.2013.7376
+14. Keenan TDL et al. Oral Antioxidant and Lutein/Zeaxanthin Supplements Slow Geographic Atrophy Progression to the Fovea in Age-Related Macular Degeneration. Ophthalmology. 2025. PMID:39025435 DOI:10.1016/j.ophtha.2024.07.014
+15. Age-Related Eye Disease Study 2 (AREDS2) Research Group. Lutein/zeaxanthin for the treatment of age-related cataract: AREDS2 randomized trial report no. 4. JAMA Ophthalmol. 2013. PMID:23645227 DOI:10.1001/jamaophthalmol.2013.4412
+16. Hu W et al. Effect of Antioxidant Supplementation on Macular Pigment Optical Density and Visual Functions: A Systematic Review and Network Meta-Analysis of Randomized Controlled Trials. Adv Nutr. 2024. PMID:38582248 DOI:10.1016/j.advnut.2024.100216
+17. Chew EY et al. Effect of Omega-3 Fatty Acids, Lutein/Zeaxanthin, or Other Nutrient Supplementation on Cognitive Function: The AREDS2 Randomized Clinical Trial. JAMA. 2015. PMID:26305649 DOI:10.1001/jama.2015.9677
+18. Davinelli S et al. Carotenoids and Cognitive Outcomes: A Meta-Analysis of Randomized Intervention Trials. Antioxidants (Basel). 2021. PMID:33540909 DOI:10.3390/antiox10020223
+19. Li J et al. Dietary Lutein and Cognitive Function in Adults: A Meta-Analysis of Randomized Controlled Trials. Molecules. 2021. PMID:34641336 DOI:10.3390/molecules26195794
+20. Writing Group for the AREDS2 Research Group. Effect of long-chain ω-3 fatty acids and lutein + zeaxanthin supplements on cardiovascular outcomes: results of the Age-Related Eye Disease Study 2 (AREDS2) randomized clinical trial. JAMA Intern Med. 2014. PMID:24638908 DOI:10.1001/jamainternmed.2014.328
+21. Wan S et al. Antioxidant Lipid Supplement on Cardiovascular Risk Factors: A Systematic Review and Meta-Analysis. Nutrients. 2024. PMID:39064656 DOI:10.3390/nu16142213
+22. Tierney AC et al. Effect of Dietary and Supplemental Lycopene on Cardiovascular Risk Factors: A Systematic Review and Meta-Analysis. Adv Nutr. 2020. PMID:32652029 DOI:10.1093/advances/nmaa069
+23. Li X et al. Lycopene supplement and blood pressure: an updated meta-analysis of intervention trials. Nutrients. 2013. PMID:24051501 DOI:10.3390/nu5093696
+24. Sadeghian M et al. Lycopene Does Not Affect Prostate-Specific Antigen in Men with Non-Metastatic Prostate Cancer: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. Nutr Cancer. 2021. PMID:33355018 DOI:10.1080/01635581.2020.1862254
+25. Sharifi-Zahabi E et al. The effect of lycopene supplement from different sources on prostate specific antigen (PSA): A systematic review and meta-analysis of randomized controlled trials. Complement Ther Med. 2022. PMID:35031434 DOI:10.1016/j.ctim.2022.102801
+26. Xia W et al. The effects of astaxanthin supplementation on obesity, blood pressure, CRP, glycemic biomarkers, and lipid profile: A meta-analysis of randomized controlled trials. Pharmacol Res. 2020. PMID:32755613 DOI:10.1016/j.phrs.2020.105113
+27. Fornari Laurindo L et al. Assessing the Effects of Moderate to High Dosage of Astaxanthin Supplementation on Lipid Profile Parameters-A Systematic Review and Meta-Analysis of Randomized Controlled Studies. Pharmaceuticals (Basel). 2025. PMID:40872489 DOI:10.3390/ph18081097
+28. Zhou X et al. Systematic Review and Meta-Analysis on the Effects of Astaxanthin on Human Skin Ageing. Nutrients. 2021. PMID:34578794 DOI:10.3390/nu13092917
+29. Liu S et al. The Effects of Astaxanthin Supplementation on Exercise Recovery Biomarkers and Exercise Performance: A Systematic Review and Meta-Analysis. Nutrients. 2026. PMID:42197030 DOI:10.3390/nu18101570
+30. Cockayne S et al. Vitamin K and the prevention of fractures: systematic review and meta-analysis of randomized controlled trials. Arch Intern Med. 2006. PMID:16801507 DOI:10.1001/archinte.166.12.1256
+31. Su S et al. The efficacy and safety of menatetrenone in the management of osteoporosis: a systematic review and meta-analysis of randomized controlled trials. Osteoporos Int. 2019. PMID:30734066 DOI:10.1007/s00198-019-04853-7
+32. Cheung AM et al. Vitamin K supplementation in postmenopausal women with osteopenia (ECKO trial): a randomized controlled trial. PLoS Med. 2008. PMID:18922041 DOI:10.1371/journal.pmed.0050196
+33. Salma et al. Effect of Vitamin K on Bone Mineral Density and Fracture Risk in Adults: Systematic Review and Meta-Analysis. Biomedicines. 2022. PMID:35625785 DOI:10.3390/biomedicines10051048
+34. Xie C et al. Effects of vitamin K supplementation on bone mineral density at different sites and bone metabolism in the middle-aged and elderly population. Bone Joint Res. 2024. PMID:39657786 DOI:10.1302/2046-3758.1312.BJR-2024-0053.R1
+35. Zhang Z et al. The effect of vitamin K2 supplementation on bone turnover biochemical markers in postmenopausal osteoporosis patients: a systematic review and meta-analysis. Front Endocrinol (Lausanne). 2025. PMID:41268154 DOI:10.3389/fendo.2025.1703116
+36. Knapen MH et al. Three-year low-dose menaquinone-7 supplementation helps decrease bone loss in healthy postmenopausal women. Osteoporos Int. 2013. PMID:23525894 DOI:10.1007/s00198-013-2325-6
+37. Lees JS et al. Vitamin K status, supplementation and vascular disease: a systematic review and meta-analysis. Heart. 2019. PMID:30514729 DOI:10.1136/heartjnl-2018-313955
+38. Li T et al. Vitamin K supplementation and vascular calcification: a systematic review and meta-analysis of randomized controlled trials. Front Nutr. 2023. PMID:37252246 DOI:10.3389/fnut.2023.1115069
+39. Hasific S et al. Vitamin K2 and D3 Supplementation in Patients With Severe Coronary Artery Calcification: The DANCODE Trial. Circulation. 2026. PMID:42661461 DOI:10.1161/CIRCULATIONAHA.126.082363
+40. Vossen LM et al. Two Years of Menaquinone-7 Supplementation and Coronary Artery Calcification: A Randomized Clinical Trial. JAMA Cardiol. 2026. PMID:42268593 DOI:10.1001/jamacardio.2026.1279
+41. Diederichsen ACP et al. Vitamin K2 and D in Patients With Aortic Valve Calcification: A Randomized Double-Blinded Clinical Trial. Circulation. 2022. PMID:35465686 DOI:10.1161/CIRCULATIONAHA.121.057008
+42. Knapen MH et al. Menaquinone-7 supplementation improves arterial stiffness in healthy postmenopausal women. A double-blind randomised clinical trial. Thromb Haemost. 2015. PMID:25694037 DOI:10.1160/TH14-08-0675
+43. de Vries F et al. Effects of One-Year Menaquinone-7 Supplementation on Vascular Stiffness and Blood Pressure in Post-Menopausal Women. Nutrients. 2025. PMID:40077685 DOI:10.3390/nu17050815
+44. Zhao QY et al. The effect of vitamin K supplementation on cardiovascular risk factors: a systematic review and meta-analysis. J Nutr Sci. 2024. PMID:38282652 DOI:10.1017/jns.2023.106
+45. Lopresti AL et al. The effects of lutein/ zeaxanthin (Lute-gen®) on eye health, eye strain, sleep quality, and attention in high electronic screen users: a randomized, double-blind, placebo-controlled study. Front Nutr. 2025. PMID:39963662 DOI:10.3389/fnut.2025.1522302
+46. Lopresti AL et al. Supplementation with lutein and zeaxanthin increases macular pigment optical density and cognitive performance in healthy teenagers in a randomized, double-blind, placebo-controlled trial. Nutr Res. 2026. PMID:42413424 DOI:10.1016/j.nutres.2026.06.005
+47. Brendler T et al. Astaxanthin: How much is too much? A safety review. Phytother Res. 2019. PMID:31788888 DOI:10.1002/ptr.6514
+48. Shea MK et al. Vitamin K supplementation and progression of coronary artery calcium in older men and women. Am J Clin Nutr. 2009. PMID:19386744 DOI:10.3945/ajcn.2008.27338
+49. Mercke Odeberg J et al. Oral bioavailability of the antioxidant astaxanthin in humans is enhanced by incorporation of lipid based formulations. Eur J Pharm Sci. 2003. PMID:12885395 DOI:10.1016/s0928-0987(03)00135-0
+50. Shao A et al. Risk assessment for the carotenoids lutein and lycopene. Regul Toxicol Pharmacol. 2006. PMID:16814439 DOI:10.1016/j.yrtph.2006.05.007
+51. EFSA Panel on Nutrition, Novel Foods and Food Allergens (NDA). Safety of astaxanthin for its use as a novel food in food supplements. EFSA J. 2020. PMID:32874213 DOI:10.2903/j.efsa.2020.5993
+52. Heydari SS et al. Effects of carotenoid supplementation on liver enzymes in adults: a GRADE-assessed systematic review and dose-response meta-analysis of randomized controlled trials. BMC Complement Med Ther. 2025. PMID:41437050 DOI:10.1186/s12906-025-05201-5
+53. Andrian T et al. Vitamin K supplementation impact in dialysis patients: a systematic review and meta-analysis of randomized trials. Clin Kidney J. 2023. PMID:38046003 DOI:10.1093/ckj/sfad255
+54. Theuwissen E et al. Effect of low-dose supplements of menaquinone-7 (vitamin K2 ) on the stability of oral anticoagulant treatment: dose-response relationship in healthy volunteers. J Thromb Haemost. 2013. PMID:23530987 DOI:10.1111/jth.12203
+55. Postaire E et al. Evidence for antioxidant nutrients-induced pigmentation in skin: results of a clinical trial. Biochem Mol Biol Int. 1997. PMID:9285071 DOI:10.1080/15216549700203481
+56. Santiyanon N et al. Interaction between warfarin and astaxanthin: A case report. J Cardiol Cases. 2019. PMID:31073352 DOI:10.1016/j.jccase.2019.01.002
+57. Sconce E et al. Vitamin K supplementation can improve stability of anticoagulation for patients with unexplained variability in response to warfarin. Blood. 2007. PMID:17110451 DOI:10.1182/blood-2006-09-049262
+58. Mahtani KR et al. Vitamin K for improved anticoagulation control in patients receiving warfarin. Cochrane Database Syst Rev. 2014. PMID:24832594 DOI:10.1002/14651858.CD009917.pub2
+59. Sundl I et al. Effects of orlistat therapy on plasma concentrations of oxygenated and hydrocarbon carotenoids. Lipids. 2006. PMID:17707976 DOI:10.1007/s11745-006-5078-6
+60. McDuffie JR et al. Effects of orlistat on fat-soluble vitamins in obese adolescents. Pharmacotherapy. 2002. PMID:12126214 DOI:10.1592/phco.22.11.814.33627
+61. Talasaz AH et al. Pharmacokinetic and Pharmacodynamic Interactions between Food or Herbal Products and Oral Anticoagulants: Evidence Review, Practical Recommendations, and Knowledge Gaps. Semin Thromb Hemost. 2025. PMID:39288907 DOI:10.1055/s-0044-1790258
+62. Booth SL et al. Effect of vitamin E supplementation on vitamin K status in adults with normal coagulation status. Am J Clin Nutr. 2004. PMID:15213041 DOI:10.1093/ajcn/80.1.143
+63. Baumgartner S et al. Plasma fat-soluble vitamin and carotenoid concentrations after plant sterol and plant stanol consumption: a meta-analysis of randomized controlled trials. Eur J Nutr. 2017. PMID:27591863 DOI:10.1007/s00394-016-1289-7
+64. Furukawa M et al. Changes of plasma des-gamma-carboxy prothrombin levels in patients with hepatocellular carcinoma in response to vitamin K. Cancer. 1992. PMID:1309308 DOI:10.1002/1097-0142(19920101)69:1<31::aid-cncr2820690108>3.0.co;2-6
+65. Chew EY et al. No clinically significant association between CFH and ARMS2 genotypes and response to nutritional supplements: AREDS report number 38. Ophthalmology. 2014. PMID:24974817 DOI:10.1016/j.ophtha.2014.05.008
+66. Yonova-Doing E et al. Candidate gene study of macular response to supplemental lutein and zeaxanthin. Exp Eye Res. 2013. PMID:23891863 DOI:10.1016/j.exer.2013.07.020
+67. Cavero-Redondo I et al. Circulating Lycopene and β-Carotene Levels Are Inversely Associated with Carotid Intima-Media Thickness: A Systematic Review and Meta-Analysis. Nutrients. 2026. PMID:41978094 DOI:10.3390/nu18071043
+68. Pei L et al. The differential effects of lutein and zeaxanthin supplementation on myopia prevention in adolescents: a systematic review and Meta-analysis. Int J Ophthalmol. 2026. PMID:41573009 DOI:10.18240/ijo.2026.02.21
+69. Hasific S et al. Effects of vitamin K2 and D3 supplementation on epicardial adipose tissue and systemic inflammation: A substudy of the AVADEC trial. Atherosclerosis. 2025. PMID:41100911 DOI:10.1016/j.atherosclerosis.2025.120540
+70. Balali A et al. Dietary intake of tomato and lycopene, blood levels of lycopene, and risk of total and specific cancers in adults: a systematic review and dose-response meta-analysis of prospective cohort studies. Front Nutr. 2025. PMID:40013157 DOI:10.3389/fnut.2025.1516048
+71. Macias-Cervantes HE et al. Effect of vitamin K1 supplementation on coronary calcifications in hemodialysis patients: a randomized controlled trial. J Nephrol. 2025. PMID:39680321 DOI:10.1007/s40620-024-02154-9
+72. Blueprint Bryan Johnson. Advanced Antioxidants (formerly Essential Softgels) product page and Supplement Facts. Accessed 2026-10-13. URL:https://blueprint.bryanjohnson.com/products/advanced-antioxidants
+73. NIH Office of Dietary Supplements. Dietary Supplement Label Database, label 328205: Blueprint Bryan Johnson Essential Softgel. Entered 2025-04-24. URL:https://api.ods.od.nih.gov/dsld/v9/label/328205
+74. DailyMed. Warfarin sodium tablets prescribing information (sections 5.9, 7). 2026. URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=541c9a70-adaf-4ef3-94ba-ad4e70dfa057
+75. DailyMed. XENICAL (orlistat) prescribing information. 2026. URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6240792b-9224-2d10-e053-2a91aa0a2c3e

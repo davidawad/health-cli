@@ -3,51 +3,217 @@
 :ID: supp-creatine
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: creatine monohydrate | creatine monohydrate powder
+:ALIASES: creatine monohydrate | CrM | creatine HCl | creatine hydrochloride | creatine ethyl ester | Creapure | methylguanidinoacetic acid
 :CATEGORY: other
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Creatine is synthesized from arginine, glycine and methionine and stored largely as phosphocreatine in muscle, where it buffers ATP during brief high-intensity work [PMID:39519498]. Monohydrate is the best-studied oral form [PMID:39519498].
+- Creatine is a nitrogenous compound made endogenously and obtained from meat and dairy. About 1.6-1.7% of the total creatine pool is degraded non-enzymatically to creatinine each day and excreted in urine, so it must be continually replaced [PMID:34444869] [PMID:31083291].
+- The first synthesis step (arginine:glycine amidinotransferase, AGAT) is a kidney function. Endogenous production appears to fall as CKD progresses, and dietary creatine may become conditionally essential [PMID:31083291].
+- Creatine monohydrate (CrM): almost all trials use this form. Nearly 99% of an oral dose is taken up by muscle or excreted in urine. Supplementation raises muscle creatine and phosphocreatine by roughly 15-40% [PMID:21424716].
+- "Novel" forms (HCl, ethyl ester, buffered, nitrate and others):
+  - Two critical reviews found little or no evidence that any of them is more effective or safer than CrM. Their regulatory status is also less clear [PMID:21424716] [PMID:35268011].
+  - Creatine HCl: no better than CrM alongside resistance training in an 8-week RCT (n=40) [PMID:39545789]. Creatine ethyl ester (CEE): raised muscle creatine less effectively than CrM and raised serum creatinine [PMID:19228401].
+- All 16 RCTs in the main 2024 cognition MA used the monohydrate form [PMID:39070254].
 
 ** Mechanisms
-- Creatine kinase reversibly transfers phosphate between phosphocreatine and ADP to buffer ATP during short intense contraction; supplementation increases intramuscular creatine stores. Resistance exercise remains an essential co-intervention in most positive strength trials [PMID:39519498; PMID:41388441].
+- Phosphocreatine buffers ATP during brief high-intensity effort. More stored creatine allows more training volume and greater adaptation [PMID:21424716] [PMID:28615996].
+- Brain creatine rises with supplementation, but probably needs higher or longer dosing than muscle. Effects show most when cognition is stressed, for example by sleep deprivation or hypoxia [PMID:30086660].
+- A single 0.35 g/kg dose changed cerebral PCr/Pi and ATP during sleep deprivation (31P-MRS) [PMID:38418482].
+- Supplementation down-regulates endogenous synthesis: plasma guanidinoacetate fell 10.6% on 3 g/d. Plasma homocysteine did not fall [PMID:26311810].
+- Glucose: increased GLUT-4 translocation was seen in a type 2 diabetes RCT with exercise [PMID:20881878].
+- Androgens: one small crossover study reported a rise in DHT:T ratio [PMID:19741313]. A 12-week RCT did not reproduce it [PMID:40265319].
+- Inflammation: an RCT meta-analysis found no effect on CRP or IL-6 [PMID:41798953].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---------+--------------------+-----------+-------------+-----------------------+-----------|
-| Strength with resistance training | SR/MA, adults <50, 23 studies | Improvement | Upper body +4.43 kg; lower body +11.35 kg pooled WMD | moderate | [PMID:39519498] |
-| Older adult strength/lean mass with training | SR/MA, 8 RCTs, n=482 | Small improvement | lower-limb strength SMD 0.29; lean mass SMD 0.27 | moderate | [PMID:41388441] |
-| Cognition | Systematic review | Equivocal | Brain creatine can rise, but cognitive outcomes inconsistent | low | [PMID:38582412] |
-| Physical function in chronic disease/older adults | SR/MA, 33 RCTs | Possible benefit; uncertain | Sit-to-stand SMD 0.51, CI 0.01–1.00; low/very low certainty | low | [PMID:38417175] |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Strength with resistance training (all ages) | Three-level MA (63 studies, n=1489); MA in adults <50 (23 studies) | Benefit | Upper-body g 0.54, lower-body g 0.55; WMD +4.43 kg upper, +11.35 kg lower | high | [PMID:42765482] [PMID:39519498] [PMID:41328071] |
+| Lean/fat-free mass with resistance training | Three-level MA; MA of young men (39 RCTs) | Benefit | Lean mass g 0.30; FFM +3.39 kg with RT, not significant without RT; fat mass g -0.10 (NS) | moderate | [PMID:42765482] [PMID:42027564] |
+| Anaerobic/high-intensity performance | NMA (52 RCTs); MA of young men | Benefit | Sprint SMD -0.64; repeated-sprint SMD -0.78; Wingate peak +71 W | moderate | [PMID:42384726] [PMID:42027564] |
+| Older adults: strength/lean mass with RT (sarcopenia context) | Three-level MA (11 RCTs, age >=60); MA (8 RCTs, n=482) | Small benefit for strength; mass uncertain | Strength g 0.31 (CI 0.18-0.45, GRADE moderate); muscle mass g 0.35 (CI -0.09 to 0.78); lower-limb SMD 0.29, lean SMD 0.27 | moderate | [PMID:42712402] [PMID:41388441] [PMID:24576864] |
+| Physical function in older/chronically ill adults | SR/MA (33 RCTs, n=1076) | Possible benefit | Sit-to-stand SMD 0.51 (CI 0.01-1.00); lean mass +1.08 kg | low | [PMID:38417175] |
+| Females (exercising) | Multilevel MA (34 studies) | Small benefit | Overall g 0.23 (CI 0.09-0.37); performance g 0.30 | low | [PMID:42761190] [PMID:34836013] |
+| Postmenopausal lean mass/strength | SR/MA (7 RCTs, n=608) | Small benefit when >=5 g/d with RT | Lean mass +0.37 kg; leg press +7.5 kg | low | [PMID:42141930] |
+| Bone mineral density | 2-year RCTs (n=237, n=200); MAs | No effect on BMD | No BMD difference; some femoral-neck geometry preserved | moderate | [PMID:37144634] [PMID:31257405] [PMID:29740583] [PMID:42141930] |
+| Cognition (memory, attention, processing speed) | SR/MA (16 RCTs, n=492); memory MA (8 RCTs); large preregistered RCT | Small benefit, domain-specific | Memory SMD 0.31 (GRADE moderate); processing speed SMD -0.51; no effect on overall or executive function; RCT n=123: BDS p=0.064 | low | [PMID:39070254] [PMID:35984306] [PMID:37968687] |
+| Cognition in older adults | Memory MA subgroup; SR of 6 studies | Possible benefit | Memory SMD 0.88 (ages 66-76, I2=83%) | low | [PMID:35984306] [PMID:40971619] |
+| Cognition under sleep deprivation | Small acute RCTs | Benefit | Up to 12% less deterioration at 0.2 g/kg | low | [PMID:38418482] [PMID:42075005] |
+| Depressive symptoms | SR/MA (11 RCTs, n=1093); SR of 5 RCTs | Small benefit, uncertain | SMD -0.34 (CI -0.68 to -0.00), about 2.2 HAM-D points (below MID); remission OR 3.60 | very low | [PMID:41189312] [PMID:41558805] |
+| Traumatic brain injury (pediatric) | Open-label randomized pilots (n=39) | Possible benefit | Fewer headache/dizziness/fatigue episodes; better cognitive and behavioural scores | very low | [PMID:16917445] [PMID:18053002] |
+| Alzheimer disease | Single-arm pilot (n=20) | Feasible; cognition improved vs baseline | Brain total creatine +11% | very low | [PMID:40395689] |
+| Neurodegeneration (PD, HD, ALS) | Large RCTs; Cochrane | No benefit | PD: stopped for futility (n=1741); HD: futility; ALS: no survival difference | high | [PMID:25668262] [PMID:28701493] [PMID:23235621] |
+| Muscular dystrophies | Cochrane (6 trials, n=192) | Benefit | Strength +8.47% (CI 3.55-13.38) | moderate | [PMID:23740606] |
+| Glycemic control (T2D, with exercise) | 12-week RCT (n=25); SR | Benefit | HbA1c -1.1% (CI -1.9 to -0.4) | low | [PMID:20881878] [PMID:27306768] |
+| Lipids | SR/MA (8 RCTs) | No effect | TC +2.9, LDL +4.08 mg/dL (both NS) | low | [PMID:42180567] |
+| Kidney function (measured GFR, cystatin C) | Three MAs of RCTs; RCT with cystatin C | No harm in healthy people | Creatinine-based eGFR down; Cr-EDTA GFR unchanged (MD +5.89) | moderate | [PMID:42507286] [PMID:42035842] [PMID:41199218] [PMID:18188581] |
+| Hair loss / DHT | 12-week RCT (n=38 completers); 2009 crossover (n=20) | No effect in RCT | No change in DHT, DHT:T or hair density/thickness | low | [PMID:40265319] [PMID:19741313] |
 
 ** Dosing in trials
-- Trials commonly use 3–5 g/day maintenance; loading protocols use ~20 g/day divided for 5–7 days then 3–5 g/day. Recent aging trials vary in duration and dose; the 2025 older-adult review included 8–104 week interventions [PMID:41388441]. Monohydrate dominates evidence; alternative salts/forms lack clear superiority [PMID:39519498].
+- Typical regimens: 3-5 g/d or 0.1 g/kg/d [PMID:33557850]. An optional loading phase uses >=20 g/d for 5-7 days [PMID:34199420].
+- Older adults: creatine on training days only still increased lean mass and strength [PMID:34199420]. Postmenopausal benefits appeared at >=5 g/d with RT; <=3 g/d without RT showed no effect [PMID:42141930]. The 2-year bone RCT used 0.14 g/kg/d [PMID:37144634].
+- Brain targets: 5 g/d for 6 weeks gave small cognitive effects [PMID:37968687]. 20 g/d for 8 weeks was used in Alzheimer disease [PMID:40395689]. Single doses of 0.2-0.35 g/kg were tested during sleep deprivation [PMID:38418482] [PMID:42075005].
+- Depression: 2-10 g/d for 4-8 weeks as an add-on [PMID:41558805]. 5 g/d was added to escitalopram [PMID:22864465].
+- Neurological disease trials: 10 g/d for >=5 years (PD) [PMID:25668262]. Up to 40 g/d for up to 48 months (HD) [PMID:28701493].
+- Pediatric TBI: 0.4 g/kg/d for 6 months [PMID:16917445].
+- Low-dose HCl: 750-1500 mg/d in a menopause RCT [PMID:40854087].
+- The ISSN position stand describes up to 30 g/d for 5 years as well tolerated [PMID:28615996].
 
 ** Safety & adverse effects
-- Water-associated weight gain and GI symptoms can occur, particularly with large single doses. Meta-analysis in healthy people finds no meaningful reduction in GFR despite a small serum creatinine increase; creatinine can rise from conversion of supplemental creatine and confound creatinine-based eGFR, so cystatin C or measured GFR can clarify when clinically indicated [PMID:41199218].
+- Overall:
+  - Reviews judge CrM safe in healthy people at recommended doses. Claims that it causes dehydration, cramping or cancer are not supported by controlled data [PMID:41404326] [PMID:33557850] [PMID:39720835].
+  - Gastrointestinal upset is dose-dependent [PMID:41404326].
+  - In a preregistered cognition RCT, side effects were reported more often on creatine (RR 4.25) [PMID:37968687]. GI adverse events were more common on creatine in the HD trial [PMID:28701493].
+- Body weight: body mass rises modestly (g 0.12), mostly as lean mass [PMID:42765482].
+- Kidney:
+  - Healthy people: three recent MAs of RCTs show higher serum creatinine (MD +0.13-0.14 mg/dL). Urea is unchanged, and GFR measured by Cr-EDTA is unchanged [PMID:42035842] [PMID:42507286] [PMID:41199218]. A 3-month RCT at ~10 g/d found falling cystatin C [PMID:18188581]. A narrative review concludes that controlled trials do not support creatine-induced kidney failure [PMID:36986197].
+  - Case report: acute interstitial nephritis in a weightlifter taking several supplements, resolved after stopping [PMID:17046619]. Evidence in pre-existing kidney disease is limited [PMID:36986197] [PMID:41404326].
+- Psychiatric: hypomania/mania occurred in 2 of 17 creatine-treated participants in psychiatric RCTs [PMID:41558805].
+- Muscle: one case of severe exertional rhabdomyolysis (CK >120,000 U/L) after a >4 h session while taking creatine plus beta-alanine, citrulline and ecdysterone. Causality was unclear [PMID:41952948].
+- Androgens and hair: one 2009 crossover study (n=20 rugby players) found DHT +56% after loading [PMID:19741313]. The 2025 RCT found no effect on DHT or hair [PMID:40265319].
+- Lipids and inflammation: no adverse change [PMID:42180567] [PMID:41798953].
 
 ** Contraindications
-- Known hypersensitivity is a contraindication. Evidence in pregnancy, breastfeeding, significant kidney disease and children outside clinical indications is limited; these are evidence gaps rather than established universal contraindications [PMID:38417175].
+- No absolute contraindication is established in the cited literature.
+- Pre-existing kidney disease: caution and nephrology input are advised because data are sparse [PMID:41404326] [PMID:36986197]. A 2026 MA did include CKD and hemodialysis patients and found no change in measured GFR [PMID:42507286].
+- Pregnancy and lactation: evidence is insufficient [PMID:41404326] [PMID:39720835].
+- Bipolar disorder: mania/hypomania was reported in adjunctive trials [PMID:41558805].
+- McArdle disease: high-dose creatine worsened daily activities and muscle pain [PMID:23740606].
 
 ** Interactions
-- High-dose caffeine may attenuate ergogenic effect in some studies and increase GI complaints; evidence is mixed. Nephrotoxic drugs plus dehydration raise theoretical renal concern, though controlled interaction evidence is sparse. Serum creatinine/eGFR by creatinine may be altered without kidney injury; disclose use before testing [PMID:41199218].
+*** Drugs
+- Nephrotoxic drugs (NSAIDs, aminoglycosides, calcineurin inhibitors, etc.): no controlled interaction studies were found. A case of interstitial nephritis with a multi-supplement stack [PMID:17046619] and gaps in data for impaired kidneys [PMID:41404326] support monitoring kidney function with a creatinine-independent marker [PMID:38835922].
+- Drugs that block tubular creatinine secretion (trimethoprim, cimetidine, dolutegravir, cobicistat, some TKIs): these raise serum creatinine without true GFR loss [PMID:36859345]. Combined with creatine, the two effects could add and mimic AKI. This is inferred.
+- Antidiabetic drugs: creatine with exercise lowered HbA1c by 1.1% in T2D [PMID:20881878]. Monitor glucose for additive lowering. Data do not cover insulin users [PMID:27306768].
+- SSRIs (escitalopram): faster and larger HAM-D improvement as augmentation in an RCT (n=52) [PMID:22864465]. This is a potentially beneficial pharmacodynamic combination; watch for mood switching [PMID:41558805].
+- Caffeine (as drug or supplement): see below.
+*** Other supplements
+- Caffeine:
+  - A systematic review (10 studies) found that creatine loading does not blunt acute caffeine benefits. Chronic caffeine during creatine loading may blunt creatine's ergogenic effect in some studies [PMID:35016154].
+  - Proposed mechanisms are opposing effects on muscle relaxation time and GI distress [PMID:26219105]. A 6-week RCT showed no group differences for the combination [PMID:33759701].
+- Beta-alanine:
+  - A 2026 NMA (52 RCTs) found no synergy beyond creatine alone [PMID:42384726]. A systematic review (7 RCTs) suggests a combined benefit for anaerobic and repeated-bout performance [PMID:40647180].
+  - A multi-ingredient stack including both was present in one rhabdomyolysis case [PMID:41952948].
+- Folate (5-MTHF/folic acid): creatine plus folic acid lowered homocysteine about as much as folic acid alone (-21% vs -23%). Creatine alone did not lower it [PMID:26311810].
+- Methyl donors (TMG): creatine synthesis consumes ~50% of SAM-derived methyl groups, and supplementation suppresses guanidinoacetate. Any methyl-sparing effect in humans is unproven [PMID:26311810].
+*** Conditions
+- CKD/dialysis: dialysis patients may be creatine-depleted [PMID:34444869]. In a small RCT, creatine before hemodialysis cut cramps by 60% [PMID:12401856]. Creatinine-based eGFR becomes unreliable during use [PMID:42507286].
+- Kidney transplant: CEE raised creatinine and prompted an allograft biopsy, which was normal [PMID:31384454].
+- Type 2 diabetes, bipolar disorder, pregnancy, McArdle disease: see above.
+*** Lab-test interference
+- Serum creatinine / creatinine-based eGFR (major):
+  - Creatine raises serum creatinine and lowers creatinine-based GFR (MD -10.75 mL/min). GFR measured with Cr-EDTA does not change [PMID:42507286]. Other MAs report a creatinine rise without significant eGFR change [PMID:42035842] [PMID:41199218].
+  - CEE causes "pseudo renal failure" that reverses after stopping [PMID:25239988] [PMID:21411845] [PMID:31384454].
+  - Cooked meat similarly raises creatinine and misclassified 6 of 16 CKD 3a patients; a 12 h fast removes the effect [PMID:24062331].
+- Cystatin C as the alternative:
+  - Creatine supplements are listed among scenarios that lower eGFRcr but not measured GFR or eGFRcys, and cystatin C confirmation can avoid misdiagnosis [PMID:38835922].
+  - KDIGO 2024 puts greater emphasis on cystatin C [PMID:40063957]. European laboratory guidance favours eGFRcr-cys and measured GFR (iohexol) when eGFR is unreliable [PMID:39584585].
+  - Cystatin C did not rise on creatine in an RCT [PMID:18188581] or with dietary creatine intake in NHANES [PMID:39778146].
+- Albuminuria, proteinuria and urinary creatinine did not differ in pooled data [PMID:42507286].
 
 ** Genotype notes
-- No cited pharmacogenomic or nutrigenomic source specific to Creatine was identified in this search; no genotype claim is made.
+No cited pharmacogenomic or nutrigenomic source found.
 
 ** Latest research
-- 2025 meta-analysis in older adults found modest gains in lower-limb strength and lean tissue mass when creatine was combined with resistance exercise [PMID:41388441]. 2024 systematic review found cognitive effects equivocal despite some rise in brain creatine [PMID:38582412].
+- [2026-09] Three-level MA (63 studies, n=1489): with RT, strength g 0.54-0.55, lean mass g 0.30, no fat-mass change; effects larger in younger people [PMID:42765482].
+- [2026-08] Older-adult three-level MA (11 RCTs): strength g 0.31 (moderate certainty); mass and function uncertain [PMID:42712402].
+- [2026-07] Kidney MA (26 studies, n=1036): creatinine +0.14 mg/dL; creatinine-based GFR -10.75 mL/min; no Cr-EDTA GFR change [PMID:42507286].
+- [2026-07] Creatine/beta-alanine NMA (52 RCTs): creatine alone improves sprint and jump; no added benefit from the combination [PMID:42384726].
+- [2026-05] Postmenopausal MA (7 RCTs): lean mass +0.37 kg, leg press +7.5 kg; BMD unchanged [PMID:42141930].
+- [2026-04] Kidney MA of RCTs: creatinine +0.13 mg/dL, no eGFR or urea change [PMID:42035842].
+- [2026-04] 0.2 g/kg single dose reduced sleep-deprivation cognitive decline by up to 12% [PMID:42075005].
+- [2026-02] SR of creatine and cognition in older adults: 5 of 6 studies positive, mostly poor quality [PMID:40971619].
+- [2026-01] SR of creatine in mental disorders (5 RCTs): promising as an SSRI or CBT adjunct; 2 mania cases [PMID:41558805].
+- [2025-12] Older-adult MA (8 RCTs): lower-limb strength SMD 0.29, lean SMD 0.27 [PMID:41388441].
+- [2025-12] Safety review: no support for cancer, dehydration or cramp claims; caution in kidney disease and pregnancy [PMID:41404326].
+- [2025-11] Depression MA (11 RCTs): SMD -0.34, very low certainty, below MID [PMID:41189312].
+- [2025-08] CONCRET-MENOPA RCT: 1.5 g/d creatine HCl raised frontal brain creatine and improved reaction time [PMID:40854087].
+- [2025-05] Alzheimer pilot: 20 g/d for 8 weeks feasible; brain creatine +11% [PMID:40395689].
+- [2025-04] Hair-loss RCT: no change in DHT, DHT:T or hair outcomes over 12 weeks [PMID:40265319].
+- [2024-11] CBT add-on RCT (n=100): PHQ-9 MD -5.12 vs placebo [PMID:39488067].
+- [2024-10] MA in adults <50: upper-body +4.43 kg, lower-body +11.35 kg; larger in males [PMID:39519498].
 
 ** Open questions
-- Larger, better reported human studies with standardized products, clinically meaningful endpoints and longer follow-up are needed; current gaps are noted above.
+- Whether creatine benefits frail, sarcopenic or functionally limited older adults, as opposed to healthy ones [PMID:42712402].
+- The true size of cognitive and antidepressant effects. Current estimates are small, heterogeneous and possibly biased [PMID:41189312] [PMID:39070254].
+- Safety and efficacy in established CKD and after transplant. Long-term (>1 year) kidney RCTs are lacking [PMID:42035842].
+- Pregnancy and lactation safety [PMID:41404326].
+- Optimal brain-targeted dosing [PMID:30086660]. Whether TBI benefits seen in open-label pediatric pilots replicate in blinded trials [PMID:18053002].
+- Whether low-dose high-solubility forms (HCl) match CrM over the long term [PMID:40854087] [PMID:35268011].
 
 ** Sources
-- PMID:41199218
-- PMID:41199218
-- PMID:38417175
-- PMID:38582412
-- PMID:39519498
-- PMID:41388441
+1. Wang H et al. Resistance training combined with creatine supplementation: a three-level meta-analysis of multidimensional outcomes from strength enhancement to body composition remodeling. J Int Soc Sports Nutr. 2026. PMID:42765482 DOI:10.1080/15502783.2026.2718316
+2. Zhang H et al. Effects of creatine supplementation on muscle strength gains-a meta-analysis and systematic review. PeerJ. 2025. PMID:41328071 DOI:10.7717/peerj.20380
+3. Gu J et al. Creatine supplementation in young men under resistance versus non-resistance training: a systematic review and meta-analysis of strength, performance, and lean mass. Front Nutr. 2026. PMID:42027564 DOI:10.3389/fnut.2026.1800546
+4. Lin Y et al. Effects of creatine supplementation on exercise performance, physiological outcomes, and body composition in females engaged in exercise or training: a systematic review and multilevel meta-analysis. Front Nutr. 2026. PMID:42761190 DOI:10.3389/fnut.2026.1921827
+5. Wang Z et al. Effects of Creatine Supplementation and Resistance Training on Muscle Strength Gains in Adults <50 Years of Age: A Systematic Review and Meta-Analysis. Nutrients. 2024. PMID:39519498 DOI:10.3390/nu16213665
+6. Liu S et al. The impact of creatine supplementation associated with resistance training on muscular strength and lean tissue mass in the aged: a systematic review and meta-analysis. Eur Rev Aging Phys Act. 2025. PMID:41388441 DOI:10.1186/s11556-025-00392-9
+7. Yao L et al. Effects of resistance training combined with creatine supplementation on muscle strength, physical function, and muscle mass in older adults: a systematic review and three-level meta-analysis. Front Nutr. 2026. PMID:42712402 DOI:10.3389/fnut.2026.1919884
+8. Davies TW et al. Creatine supplementation for optimization of physical function in the patient at risk of functional disability: A systematic review and meta-analysis. JPEN J Parenter Enteral Nutr. 2024. PMID:38417175 DOI:10.1002/jpen.2607
+9. Forbes SC et al. Meta-Analysis Examining the Importance of Creatine Ingestion Strategies on Lean Tissue Mass and Strength in Older Adults. Nutrients. 2021. PMID:34199420 DOI:10.3390/nu13061912
+10. Devries MC, Phillips SM. Creatine supplementation during resistance training in older adults-a meta-analysis. Med Sci Sports Exerc. 2014. PMID:24576864 DOI:10.1249/MSS.0000000000000220
+11. Naddafha S et al. Creatine monohydrate for lean mass, strength, and bone density in postmenopausal women: a systematic review and meta-analysis. J Int Soc Sports Nutr. 2026. PMID:42141930 DOI:10.1080/15502783.2026.2668435
+12. Chilibeck PD et al. A 2-yr Randomized Controlled Trial on Creatine Supplementation during Exercise for Postmenopausal Bone Health. Med Sci Sports Exerc. 2023. PMID:37144634 DOI:10.1249/MSS.0000000000003202
+13. Sales LP et al. Creatine Supplementation (3 g/d) and Bone Health in Older Women: A 2-Year, Randomized, Placebo-Controlled Trial. J Gerontol A Biol Sci Med Sci. 2020. PMID:31257405 DOI:10.1093/gerona/glz162
+14. Forbes SC et al. Creatine Supplementation During Resistance Training Does Not Lead to Greater Bone Mineral Density in Older Humans: A Brief Meta-Analysis. Front Nutr. 2018. PMID:29740583 DOI:10.3389/fnut.2018.00027
+15. Xu C et al. The effects of creatine supplementation on cognitive function in adults: a systematic review and meta-analysis. Front Nutr. 2024. PMID:39070254 DOI:10.3389/fnut.2024.1424972
+16. Prokopidis K et al. Effects of creatine supplementation on memory in healthy individuals: a systematic review and meta-analysis of randomized controlled trials. Nutr Rev. 2023. PMID:35984306 DOI:10.1093/nutrit/nuac064
+17. Marshall S et al. Creatine and Cognition in Aging: A Systematic Review of Evidence in Older Adults. Nutr Rev. 2026. PMID:40971619 DOI:10.1093/nutrit/nuaf135
+18. Sandkühler JF et al. The effects of creatine supplementation on cognitive performance-a randomised controlled study. BMC Med. 2023. PMID:37968687 DOI:10.1186/s12916-023-03146-5
+19. Gordji-Nejad A et al. Single dose creatine improves cognitive performance and induces changes in cerebral high energy phosphates during sleep deprivation. Sci Rep. 2024. PMID:38418482 DOI:10.1038/s41598-024-54249-9
+20. Gordji-Nejad A et al. Single-Dose Creatine Reduces Sleep Deprivation-Induced Deterioration in Cognitive Performance. Nutrients. 2026. PMID:42075005 DOI:10.3390/nu18081192
+21. Smith AN et al. Creatine monohydrate pilot in Alzheimer's: Feasibility, brain creatine, and cognition. Alzheimers Dement (N Y). 2025. PMID:40395689 DOI:10.1002/trc2.70101
+22. Korovljev D et al. The Effects of 8-Week Creatine Hydrochloride and Creatine Ethyl Ester Supplementation on Cognition, Clinical Outcomes, and Brain Creatine Levels in Perimenopausal and Menopausal Women (CONCRET-MENOPA): A Randomized Controlled Trial. J Am Nutr Assoc. 2026. PMID:40854087 DOI:10.1080/27697061.2025.2551184
+23. Eckert I et al. Creatine supplementation for treating symptoms of depression: a systematic review and meta-analysis. Br J Nutr. 2025. PMID:41189312 DOI:10.1017/S0007114525105588
+24. Lyoo IK et al. A randomized, double-blind placebo-controlled trial of oral creatine monohydrate augmentation for enhanced response to a selective serotonin reuptake inhibitor in women with major depressive disorder. Am J Psychiatry. 2012. PMID:22864465 DOI:10.1176/appi.ajp.2012.12010009
+25. Sherpa NN et al. Efficacy and safety profile of oral creatine monohydrate in add-on to cognitive-behavioural therapy in depression: An 8-week pilot, double-blind, randomised, placebo-controlled feasibility and exploratory trial in an under-resourced area. Eur Neuropsychopharmacol. 2025. PMID:39488067 DOI:10.1016/j.euroneuro.2024.10.004
+26. Jeryous Fares B et al. The Effect of Creatine Monohydrate on Mental Disorders: A Systematic Review of Randomized Controlled Trials: Effet du monohydrate de créatine sur les troubles mentaux : examen systématique des essais contrôlés à répartition aléatoire. Can J Psychiatry. 2026. PMID:41558805 DOI:10.1177/07067437251408171
+27. Sakellaris G et al. Prevention of complications related to traumatic brain injury in children and adolescents with creatine administration: an open label randomized pilot study. J Trauma. 2006. PMID:16917445 DOI:10.1097/01.ta.0000230269.46108.d5
+28. Sakellaris G et al. Prevention of traumatic headache, dizziness and fatigue with creatine administration. A pilot study. Acta Paediatr. 2008. PMID:18053002 DOI:10.1111/j.1651-2227.2007.00529.x
+29. Dolan E et al. Beyond muscle: the effects of creatine supplementation on brain creatine, cognitive processing, and traumatic brain injury. Eur J Sport Sci. 2019. PMID:30086660 DOI:10.1080/17461391.2018.1500644
+30. Writing Group for the NINDS NET-PD Investigators. Effect of creatine monohydrate on clinical progression in patients with Parkinson disease: a randomized clinical trial. JAMA. 2015. PMID:25668262 DOI:10.1001/jama.2015.120
+31. Hersch SM et al. The CREST-E study of creatine for Huntington disease: A randomized controlled trial. Neurology. 2017. PMID:28701493 DOI:10.1212/WNL.0000000000004209
+32. Pastula DM et al. Creatine for amyotrophic lateral sclerosis/motor neuron disease. Cochrane Database Syst Rev. 2012. PMID:23235621 DOI:10.1002/14651858.CD005225.pub3
+33. Kley RA et al. Creatine for treating muscle disorders. Cochrane Database Syst Rev. 2013. PMID:23740606 DOI:10.1002/14651858.CD004760.pub4
+34. Naeini EK et al. Effect of creatine supplementation on kidney function: a systematic review and meta-analysis. BMC Nephrol. 2025. PMID:41199218 DOI:10.1186/s12882-025-04558-6
+35. Tsiaras A et al. The Effect of Creatine Supplementation on Kidney Function: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. J Ren Nutr. 2026. PMID:42035842 DOI:10.1053/j.jrn.2026.04.010
+36. de Souza Almeida A et al. Impact of creatine supplementation on kidney health: a systematic review and meta-analysis. Int Urol Nephrol. 2026. PMID:42507286 DOI:10.1007/s11255-026-05287-x
+37. Gualano B et al. Effects of creatine supplementation on renal function: a randomized, double-blind, placebo-controlled clinical trial. Eur J Appl Physiol. 2008. PMID:18188581 DOI:10.1007/s00421-007-0669-3
+38. Nedeljkovic D et al. Creatine Intake Is Not Associated With Elevated Circulating Cystatin C Levels in Individuals With and Without Kidney Dysfunction in the General Population. J Am Nutr Assoc. 2025. PMID:39778146 DOI:10.1080/27697061.2024.2432484
+39. Williamson L, New D. How the use of creatine supplements can elevate serum creatinine in the absence of underlying kidney pathology. BMJ Case Rep. 2014. PMID:25239988 DOI:10.1136/bcr-2014-204754
+40. Law JP et al. Elevation of serum creatinine in a renal transplant patient following oral creatine supplementation. Clin Kidney J. 2019. PMID:31384454 DOI:10.1093/ckj/sfy101
+41. Velema MS, de Ronde W. Elevated plasma creatinine due to creatine ethyl ester use. Neth J Med. 2011. PMID:21411845
+42. Longobardi I et al. Is It Time for a Requiem for Creatine Supplementation-Induced Kidney Failure? A Narrative Review. Nutrients. 2023. PMID:36986197 DOI:10.3390/nu15061466
+43. Thorsteinsdottir B et al. Acute renal failure in a young weight lifter taking multiple food supplements, including creatine monohydrate. J Ren Nutr. 2006. PMID:17046619 DOI:10.1053/j.jrn.2006.04.025
+44. van der Merwe J et al. Three weeks of creatine monohydrate supplementation affects dihydrotestosterone to testosterone ratio in college-aged rugby players. Clin J Sport Med. 2009. PMID:19741313 DOI:10.1097/JSM.0b013e3181b8b52f
+45. Lak M et al. Does creatine cause hair loss? A 12-week randomized controlled trial. J Int Soc Sports Nutr. 2025. PMID:40265319 DOI:10.1080/15502783.2025.2495229
+46. Jäger R et al. Analysis of the efficacy, safety, and regulatory status of novel forms of creatine. Amino Acids. 2011. PMID:21424716 DOI:10.1007/s00726-011-0874-6
+47. Kreider RB et al. Bioavailability, Efficacy, Safety, and Regulatory Status of Creatine and Related Compounds: A Critical Review. Nutrients. 2022. PMID:35268011 DOI:10.3390/nu14051035
+48. Eghbali E et al. Supplementing With Which Form of Creatine (Hydrochloride or Monohydrate) Alongside Resistance Training Can Have More Impacts on Anabolic/Catabolic Hormones, Strength and Body Composition?. Physiol Res. 2024. PMID:39545789 DOI:10.33549/physiolres.935323
+49. Spillane M et al. The effects of creatine ethyl ester supplementation combined with heavy resistance training on body composition, muscle performance, and serum and muscle creatine levels. J Int Soc Sports Nutr. 2009. PMID:19228401 DOI:10.1186/1550-2783-6-6
+50. Elosegui S et al. Interaction Between Caffeine and Creatine When Used as Concurrent Ergogenic Supplements: A Systematic Review. Int J Sport Nutr Exerc Metab. 2022. PMID:35016154 DOI:10.1123/ijsnem.2021-0262
+51. Trexler ET, Smith-Ryan AE. Creatine and Caffeine: Considerations for Concurrent Supplementation. Int J Sport Nutr Exerc Metab. 2015. PMID:26219105 DOI:10.1123/ijsnem.2014-0193
+52. Kreider RB et al. International Society of Sports Nutrition position stand: safety and efficacy of creatine supplementation in exercise, sport, and medicine. J Int Soc Sports Nutr. 2017. PMID:28615996 DOI:10.1186/s12970-017-0173-z
+53. Antonio J et al. Common questions and misconceptions about creatine supplementation: what does the scientific evidence really show?. J Int Soc Sports Nutr. 2021. PMID:33557850 DOI:10.1186/s12970-021-00412-w
+54. Antonio J et al. Part II. Common questions and misconceptions about creatine supplementation: what does the scientific evidence really show?. J Int Soc Sports Nutr. 2025. PMID:39720835 DOI:10.1080/15502783.2024.2441760
+55. Longobardi I et al. A short review of the most common safety concerns regarding creatine ingestion. Front Nutr. 2025. PMID:41404326 DOI:10.3389/fnut.2025.1682746
+56. Gualano B et al. Creatine in type 2 diabetes: a randomized, double-blind, placebo-controlled trial. Med Sci Sports Exerc. 2011. PMID:20881878 DOI:10.1249/MSS.0b013e3181fcee7d
+57. Pinto CL et al. Creatine supplementation and glycemic control: a systematic review. Amino Acids. 2016. PMID:27306768 DOI:10.1007/s00726-016-2277-1
+58. Peters BA et al. Low-Dose Creatine Supplementation Lowers Plasma Guanidinoacetate, but Not Plasma Homocysteine, in a Double-Blind, Randomized, Placebo-Controlled Trial. J Nutr. 2015. PMID:26311810 DOI:10.3945/jn.115.216739
+59. Bai X, Xu T. Effects of combined versus single supplementation of creatine and beta-alanine on aerobic and anerobic performance: a systematic review and network meta-analysis. J Int Soc Sports Nutr. 2026. PMID:42384726 DOI:10.1080/15502783.2026.2695133
+60. Ashtary-Larky D et al. Effects of Creatine and β-Alanine Co-Supplementation on Exercise Performance and Body Composition: A Systematic Review. Nutrients. 2025. PMID:40647180 DOI:10.3390/nu17132074
+61. Gimenez FVM et al. Does creatine affect lipid profile? a systematic review and meta-analysis of randomized placebo-controlled trials. Front Nutr. 2026. PMID:42180567 DOI:10.3389/fnut.2026.1787009
+62. de Camargo KMR et al. Impact of creatine supplementation on inflammation: evidence from a systematic review and meta-analysis of randomized double-blind placebo trials. Front Immunol. 2026. PMID:41798953 DOI:10.3389/fimmu.2026.1743603
+63. Chang CT et al. Creatine monohydrate treatment alleviates muscle cramps associated with haemodialysis. Nephrol Dial Transplant. 2002. PMID:12401856 DOI:10.1093/ndt/17.11.1978
+64. Chowaniec P et al. Exercise-Induced Rhabdomyolysis With Supplements (Creatine, β-Alanine, Citrulline Malate, and β-Ecdysterone). Cureus. 2026. PMID:41952948 DOI:10.7759/cureus.104852
+65. Beckstead A et al. My Kidney Is Fine, Can't You Cystatin C?. Fed Pract. 2024. PMID:38835922 DOI:10.12788/fp.0440
+66. Nakada T et al. Quantitative Consideration of Clinical Increases in Serum Creatinine Caused by Renal Transporter Inhibition. Drug Metab Dispos. 2023. PMID:36859345 DOI:10.1124/dmd.122.000969
+67. van der Veen Y et al. Chronic Dialysis Patients Are Depleted of Creatine: Review and Rationale for Intradialytic Creatine Supplementation. Nutrients. 2021. PMID:34444869 DOI:10.3390/nu13082709
+68. Madero M et al. Evaluation and Management of Chronic Kidney Disease: Synopsis of the Kidney Disease: Improving Global Outcomes 2024 Clinical Practice Guideline. Ann Intern Med. 2025. PMID:40063957 DOI:10.7326/ANNALS-24-01926
+69. Cavalier E et al. Recommendations for European laboratories based on the KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease. Clin Chem Lab Med. 2025. PMID:39584585 DOI:10.1515/cclm-2024-1082
+70. Nair S et al. Effect of a cooked meat meal on serum creatinine and estimated glomerular filtration rate in diabetes-related kidney disease. Diabetes Care. 2014. PMID:24062331 DOI:10.2337/dc13-1770
+71. Pakulak A et al. Effects of Creatine and Caffeine Supplementation During Resistance Training on Body Composition, Strength, Endurance, Rating of Perceived Exertion and Fatigue in Trained Young Adults. J Diet Suppl. 2022. PMID:33759701 DOI:10.1080/19390211.2021.1904085
+72. Dos Santos EEP et al. Efficacy of Creatine Supplementation Combined with Resistance Training on Muscle Strength and Muscle Mass in Older Females: A Systematic Review and Meta-Analysis. Nutrients. 2021. PMID:34836013 DOI:10.3390/nu13113757
+73. Post A et al. Creatine is a Conditionally Essential Nutrient in Chronic Kidney Disease: A Hypothesis and Narrative Literature Review. Nutrients. 2019. PMID:31083291 DOI:10.3390/nu11051044

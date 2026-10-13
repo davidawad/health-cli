@@ -3,47 +3,206 @@
 :ID: supp-evoo
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: extra virgin olive oil | olive oil
+:ALIASES: extra virgin olive oil | extra-virgin olive oil | virgin olive oil | high-phenolic EVOO | olive oil polyphenols | Olea europaea oil
 :CATEGORY: other
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Extra-virgin olive oil is mechanically extracted olive oil with low free acidity and sensory/chemical standards; it contains mostly oleic acid plus variable phenolic compounds. It is a food rather than a single-ingredient pharmacologic supplement [DOI:10.1016/j.tjnut.2023.10.028].
+- Extra-virgin olive oil is a food fat from Olea europaea fruit. It is mostly oleic acid (MUFA), plus minor phenolics (hydroxytyrosol, tyrosol, oleuropein/ligstroside aglycones, oleocanthal, oleacein), tocopherols, sterols and triterpenes [PMID:35368142] [PMID:41429309].
+- Phenolic content varies widely by cultivar and ripening stage. EFSA authorised a health claim for olive oil providing at least 250 mg/kg of hydroxytyrosol and derivatives. Several Spanish varieties reached 278-430 mg/kg, but not all did [PMID:33060000].
+  - The claim requires 5 mg hydroxytyrosol and derivatives per 20 g of oil (LDL protection from oxidative damage) [PMID:40507112].
+  - The claim applies only when hydroxytyrosol is consumed within EVOO, not as an isolated supplement [PMID:41010464].
+- Common (refined/"pure") olive oil contains little phenolic material. In PREDIMED, common olive oil showed weaker CVD associations than EVOO [PMID:40907633].
+- Forms tested in trials: EVOO as food (25-50 mL/d), high- vs low-phenolic EVOO [PMID:16954359], oleanolic-acid-enriched oil [PMID:42608317], and capsule extracts. Extracts include a 10 mg/d oleocanthal/oleacein extract [PMID:41429309] and 15 mg/d hydroxytyrosol [PMID:40690822].
+- Authenticity: EVOO is a frequent fraud target (dilution with cheaper oils). Adulterated oil is nutritionally poorer and more readily oxidised. Stigmastadienes and the sterol profile are proposed markers [PMID:35368142].
 
 ** Mechanisms
-- Oleic acid is the predominant monounsaturated fatty acid; EVOO phenolics have antioxidant and signaling activity in experimental work. Cardiovascular outcome data chiefly test dietary patterns and fat substitution, not phenolics or isolated oil alone [PMID:29897866; PMID:37977313].
+- LDL oxidation: phenolic content dose-dependently lowered oxidised LDL and raised HDL in the EUROLIVE crossover (n=200, 25 mL/d) [PMID:16954359]. High-polyphenol oil lowered apoB-100 and small LDL particle number [PMID:26136585].
+- Anti-inflammatory/antioxidant: high-phenolic EVOO lowered CRP and ox-LDL vs low-phenolic oils in a meta-analysis of 23 RCTs [PMID:40749711]. Antioxidant response depended on clinical status and baseline diet [PMID:42521082].
+- Incretin/postprandial: EVOO with a meal lowered glucose and DPP-4 activity and raised GLP-1 and insulin in impaired fasting glucose [PMID:27289163]. Oleuropein 20 mg lowered postprandial glycaemia via reduced Nox2 oxidative stress [PMID:29577365]. In type 1 diabetes, EVOO slowed gastric emptying and raised GLP-1 [PMID:30567626].
+- Platelets: olive oil phenol extracts inhibited human platelet aggregation in vitro via cAMP-phosphodiesterase inhibition [PMID:17927845]. Olive oil intake was independently associated with lower urinary 11-dehydro-TxB2 in anticoagulated AF patients [PMID:25288566].
+- Endothelial function: 4 weeks of EVOO improved NIRS-measured endothelial function and lowered diastolic BP in hyperlipidaemia [PMID:41373940].
+- Gut microbiota: virgin olive oil intake was associated with greater microbial diversity, and Adlercreutzia was a candidate mediator of cognitive associations (cohort) [PMID:41578342].
+- Fat-soluble nutrient absorption: olive oil raises lycopene/carotenoid absorption [PMID:15927929] [PMID:36921903].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---------+--------------------+-----------+-------------+-----------------------+-----------|
-| Cardiovascular events in Mediterranean dietary pattern | Large RCT (PREDIMED) | Lower composite events in supplemented Mediterranean diet | EVOO arm ~1 L/week within whole dietary pattern; cannot isolate oil effect | moderate | [PMID:29897866] |
-| Cardiometabolic markers | SR/MA of RCTs | Small/inconsistent | variable BP, lipids and inflammatory marker effects | low | [PMID:37977313] |
-| Weight/adiposity | RCT meta-analysis | No reliable weight-loss effect when energy intake comparable | calorie substitution matters | low | [PMID:37977313] |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Major CVD events (primary prevention) | PREDIMED RCT (n=7447; retracted 2013 report, republished 2018) | Benefit (MedDiet+EVOO vs low-fat advice) | HR 0.69 (95% CI 0.53-0.91); Cochrane: stroke HR 0.60, CVD mortality HR 0.81 (0.50-1.32) | moderate | [PMID:29897866] [PMID:30864165] |
+| CVD events (secondary prevention) | CORDIOPREV RCT (n=1002, 7 y) | Benefit (EVOO-rich MedDiet vs low-fat) | HR 0.72-0.75; benefit in men, none in women | moderate | [PMID:35525255] |
+| Carotid atherosclerosis | CORDIOPREV secondary outcome | Benefit | IMT-CC -0.031 mm at 7 y vs baseline; no change on low-fat | low | [PMID:34372670] |
+| Atrial fibrillation | PREDIMED post hoc | Benefit | HR 0.62 (0.45-0.85) | low | [PMID:24787471] |
+| All-cause mortality | Cohort MAs; NHS/HPFS | Inverse association | RR 0.85 high vs low; -8% per 10 g/d; HR 0.81 for >7 g/d | moderate | [PMID:38568797] [PMID:36343558] [PMID:35027106] |
+| CVD incidence/mortality | Cohort dose-response MAs | Inverse association | CVD RR 0.84 per 25 g/d; CVD mortality RR 0.77 | moderate | [PMID:36343558] [PMID:38568797] [PMID:24886626] |
+| Dementia-related death | NHS/HPFS cohort (n=92383, 28 y) | Inverse association | HR 0.72 (0.64-0.81) for >=7 g/d | low | [PMID:38709531] |
+| Cognition / MCI | PREDIMED sub-trials; MA of 5 RCTs (n=747) | Benefit, small | Global cognition SMD 0.29 (0.18-0.41), GRADE low; MCI OR 0.34 | low | [PMID:41740793] [PMID:25961184] [PMID:23732551] |
+| Blood pressure | PREDIMED; NMA; MA vs nuts | Small DBP/SBP decrease | DBP -1.53 mmHg vs control; SBP -2.9 mmHg vs refined oil; no BP effect in 33-RCT MA | low | [PMID:24050803] [PMID:31378629] [PMID:37977313] [PMID:40651889] |
+| LDL oxidation / lipids | EUROLIVE RCT; MAs of high- vs low-phenolic oil | Benefit (phenol-dependent) | ox-LDL SMD -0.44; LDL-C -0.14 mmol/L (HP vs LP EVOO); TC/LDL not changed vs other diets | moderate | [PMID:16954359] [PMID:29708409] [PMID:31378629] [PMID:40749711] |
+| Fasting glycaemia / HbA1c | MA of 51 RCTs (n=4334) | No overall effect | Glucose WMD -0.04 mg/dL; HbA1c +0.02%; HOMA-IR better at 25-50 g/d | moderate | [PMID:40971936] [PMID:33941427] [PMID:37977313] |
+| Type 2 diabetes incidence | Cohort/RCT MAs | Inverse association | RR 0.78 per 25 g/d; RR 0.87 (cohorts) | moderate | [PMID:36343558] [PMID:40275388] [PMID:28394365] |
+| Breast cancer | PREDIMED secondary outcome (35 cases); cohort SR | Possible benefit; inconsistent | HR 0.32 (0.13-0.79) in RCT; prospective cohorts null | low | [PMID:26365989] [PMID:40449295] |
+| Total cancer | MAs | Null (cohorts) vs inverse (case-control) | RR 0.94 per 25 g/d (cohorts); RR 0.69 (mostly case-control) | low | [PMID:36343558] [PMID:35015763] [PMID:38568797] |
+| Body weight | PREDIMED secondary outcome | No gain despite high fat | -0.41 kg (-0.83 to 0.01) at 5 y vs control | moderate | [PMID:31003626] |
+| Inflammation (CRP) | MA of 23 RCTs | Decrease vs low-phenolic oil | CRP -0.99 mg/L; high heterogeneity | low | [PMID:40749711] [PMID:41847236] |
 
 ** Dosing in trials
-- PREDIMED supplied 1 L/week per household for a Mediterranean dietary intervention; this was not an isolated EVOO pill trial [PMID:29897866]. Trials of EVOO as a food use roughly 25–50 mL/day, often substituted for other fats; caloric displacement is central [PMID:37977313].
+- PREDIMED: about 1 L/week of EVOO per household plus MedDiet education, versus low-fat advice [PMID:29897866] [PMID:25961184]. The top tertile of cumulative intake averaged 49 g/d [PMID:40907633].
+- PREDIMED-Plus tests an energy-reduced MedDiet plus physical activity. It cut weight by 2.5 kg vs control at 1 year (n=626) [PMID:30389673] and reduced total and visceral fat at 3 years [PMID:37851444]. It is not a test of EVOO alone.
+- Biomarker RCTs: 25 mL/d for 3 weeks (EUROLIVE) [PMID:16954359]; 30 mL/d for 12 weeks (sarcopenia) [PMID:41787835]; 40 g/d for 8 weeks [PMID:41520410]; 3 tablespoons/d in gestational diabetes [PMID:41978170].
+- Glycaemic dose-response: 25-50 g/d improved HOMA-IR [PMID:40971936]. For diabetes risk, a nonlinear benefit appeared at 10-20 g/d [PMID:40275388].
+- Cohort intake: benefit plateaued around 18-22 g/d for CVD and all-cause mortality [PMID:38568797]. The top category in NHS/HPFS was >7 g/d [PMID:35027106].
+- Isolated phenolics: hydroxytyrosol 15 mg/d for 16 weeks [PMID:40690822]; 45 mg/d for 8 weeks [PMID:28063380]; olive oil aldehydic phenols 10 mg/d for 12 weeks [PMID:41429309].
 
 ** Safety & adverse effects
-- EVOO is generally consumed as food; energy-dense intake can increase total calories if added rather than substituted. Allergy is uncommon but possible. Heat, light and oxygen degrade phenolics over time; clinical significance depends on storage and product quality [PMID:37977313].
+- Food-level intake is well tolerated. In PREDIMED, an ad libitum high-fat MedDiet did not increase body weight over about 5 years [PMID:31003626]. Calories still count: at 9 kcal/g, 40-50 g/d is about 360-450 kcal, so added (not substituted) oil raises energy intake.
+- One small RCT (n=27) found that 40 g/d raised LDL-C by 5.1 mg/dL vs sunflower oil [PMID:41520410]. Large MAs show no adverse lipid effect [PMID:37977313].
+- Isolated hydroxytyrosol:
+  - 45 mg/d for 8 weeks did not change liver, kidney or electrolyte markers, but lowered ferritin and folate [PMID:28063380].
+  - A 20% HT olive extract was non-genotoxic and judged safe up to 2.5 mg/kg/day [PMID:36852231].
+  - No adverse events with 15 mg/d for 16 weeks [PMID:40690822].
+- Adulteration and quality: fraudulent dilution and oxidised/substandard oil can carry unhealthy processing by-products and lack phenolics [PMID:35368142].
+- Aspiration: exogenous lipoid pneumonia after chronic olive oil aspiration (case report; resolved after stopping) [PMID:42309686].
+- Allergy: olive fruit allergy is rare (pollen-food olive-olive syndrome case). Oral olive oil challenge did not provoke symptoms in that case [PMID:20128426].
+- Gallbladder: 50 mL EVOO with a protein bar is used as a cholecystokinetic test meal and caused peak gallbladder contraction at 50-70 min. Only mild GI events occurred [PMID:42669445].
 
 ** Contraindications
-- Avoid in known olive allergy. No general contraindication at food amounts established; high intake may be unsuitable when energy restriction is required [PMID:37977313].
+- No absolute contraindication at food intakes was found in the cited literature.
+- Known olive fruit allergy: avoid olive products. Oil itself may be tolerated [PMID:20128426].
+- Aspiration risk or habitual vomiting: oral oil boluses can cause lipoid pneumonia [PMID:42309686].
+- Symptomatic gallstones: oil is a potent gallbladder-contraction stimulus [PMID:42669445]. This is a mechanistic precaution; no cited outcome data on biliary colic.
 
 ** Interactions
-- No important drug interaction at culinary amounts established. A high-fat meal can affect absorption of some medicines, but this is not a unique EVOO interaction. EVOO is not known to interfere with routine laboratory assays [PMID:37977313].
+*** Drugs
+- Antihypertensives: an EVOO-rich MedDiet lowered DBP by 1.53 mmHg [PMID:24050803]. Phenolic olive oils lowered SBP by about 3 mmHg vs refined oil [PMID:31378629]. An olive phenol extract lowered SBP by 7.66 mmHg in metabolic syndrome [PMID:41429309]. Any additive effect is small.
+- Antidiabetic agents/insulin: EVOO lowers postprandial glucose [PMID:27289163] [PMID:30567626]. In gestational diabetes it reduced the need for insulin (RR 0.595) [PMID:41978170]. An olive phenol extract lowered FBG by 7 mg/dL [PMID:41429309]. Glucose should be checked when intake changes; no hypoglycaemia reports were found.
+- Metformin: no direct study. The same additive glucose-lowering considerations apply [PMID:41429309] [PMID:41978170].
+- Vitamin K antagonists (warfarin/acenocoumarol):
+  - Higher MedDiet adherence (90% olive oil users) did not change INR time in therapeutic range in AF patients [PMID:25995397].
+  - Olive oil intake was associated with lower thromboxane production in VKA users [PMID:25288566].
+  - In PREDIMED, MedDiet+EVOO lowered the rate of VKA initiation (HR 0.68) [PMID:33352771].
+  - No cited case of warfarin potentiation.
+- Aspirin and antiplatelet drugs: olive phenols inhibit platelet aggregation in vitro [PMID:17927845]. Olive oil and antiplatelet drugs were independent predictors of lower TxB2 [PMID:25288566]. Additive bleeding risk is theoretical; no bleeding signal appeared in the AF cohort.
+*** Other supplements
+- EPA/DHA/DPA: in rheumatoid arthritis, fish oil 3 g/d plus olive oil 9.6 mL gave earlier and greater improvement than fish oil alone [PMID:15723739].
+- Lycopene: cooking tomatoes with 25 mL EVOO raised plasma trans-lycopene by 82% [PMID:15927929]. Olive oil raised lycopene isomers [PMID:25172701] and lycopene iAUC by 46% vs coconut oil [PMID:36921903].
+- Zeaxanthin + Lutein: olive oil gave higher total carotenoid bioaccessibility than coconut oil [PMID:36921903]. In rat/in vitro models, butter gave better lutein/zeaxanthin bioavailability than olive oil [PMID:23228631].
+- Curcumin: olive-oil-based excipient emulsions gave the greatest curcumin transport and protection from metabolism in a Caco-2 model (in vitro only) [PMID:34628238].
+- Vitamin D-3: olive oil pinoresinol reduced vitamin D absorption by 25% in rats and in Caco-2 cells [PMID:27041321]. Human relevance is unknown.
+- Inulin/prebiotics: EVOO plus FOS/inulin increased rectus femoris muscle size more than EVOO alone in probable sarcopenia (n=38) [PMID:41787835].
+*** Conditions
+- Gestational diabetes: EVOO lowered triglycerides by 43 mg/dL, insulin need, and neonatal complications [PMID:41978170].
+- Chronic kidney disease: a MedDiet with high-phenolic EVOO lowered CRP and gave a modest eGFR benefit (MA, high heterogeneity) [PMID:41847236]. Oleanolic-acid-enriched oil slowed eGFR decline in T2D with mildly reduced eGFR [PMID:42608317].
+- Weight-management plans: energy density is relevant, though PREDIMED showed no weight gain [PMID:31003626].
+- Allergy, aspiration risk, gallstones: see Contraindications.
+*** Lab-test interference
+- No assay artifact was found. EVOO causes true physiological shifts: ox-LDL, CRP [PMID:40749711], postprandial glucose/insulin and triglycerides [PMID:27289163]. Olive oil is itself used as the test meal for ultrasound gallbladder-contraction testing [PMID:42669445].
 
 ** Genotype notes
-- No cited pharmacogenomic or nutrigenomic source specific to EVOO was identified in this search; no genotype claim is made.
+- TCF7L2 rs7903146 (PREDIMED): TT carriers had higher stroke incidence on the control diet (HR 2.91). MedDiet (EVOO or nuts) cancelled this excess (HR 0.96) and the TT-linked rises in glucose and lipids [PMID:23942586].
+- APOE e4: the olive oil-dementia death association was unchanged after adjusting for APOE e4 [PMID:38709531].
 
 ** Latest research
-- 2024 systematic review/meta-analysis of randomized trials evaluated EVOO effects on anthropometric, inflammatory and cardiometabolic outcomes and found outcome-specific, mixed results rather than uniform benefit [PMID:37977313]. PREDIMED remains key event-level evidence for the whole Mediterranean dietary pattern with EVOO, not proof of isolated oil efficacy [PMID:29897866].
+- [2026-11] OLTRAD RCT (n=97, 12 months): oleanolic-acid-enriched olive oil slowed eGFR decline in T2D with mildly reduced eGFR. Exploratory analysis [PMID:42608317].
+- [2026-10] HP-EVOO pilot (n=34, 26 weeks): antioxidant response depended on post-MI status and MedDiet adherence, not on phenolic enrichment [PMID:42521082].
+- [2026-10] Olive oil plus protein bar validated as a gallbladder-contraction test meal [PMID:42669445].
+- [2026-08] HEVOOC crossover (n=28): phenolic EVOO raised urinary hydroxytyrosol-glucuronide about 10-fold. Exploratory waist circumference -2.2 cm and HbA1c -0.13% [PMID:42650297].
+- [2026-06] MCI/dementia MA (5 RCTs, n=747): global cognition SMD 0.29, GRADE low [PMID:41740793].
+- [2026-06] Lipoid pneumonia case from chronic olive oil aspiration [PMID:42309686].
+- [2026-04] FOOP-Sarc RCT (n=38): phenolic EVOO with or without prebiotic increased muscle mass vs refined oil [PMID:41787835].
+- [2026-04] Neuroimaging pilot (n=9): phenolic EVOO increased occipital resting-state connectivity [PMID:41949575].
+- [2026-03] OLIDIAG RCT (n=190, GDM): EVOO cut insulin need (RR 0.595), triglycerides and NICU admission [PMID:41978170].
+- [2026-03] CKD MA (10 studies): high-phenolic EVOO MedDiet lowered CRP by 0.79 mg/L [PMID:41847236].
+- [2026-03] RCT in reproductive-age women (n=27): lower fasting insulin, but LDL-C +5.1 mg/dL vs sunflower oil [PMID:41520410].
+- [2026-02] Glycaemic MA (51 RCTs, n=4334): no overall effect on glucose/HbA1c; HOMA-IR benefit at 25-50 g/d [PMID:40971936].
+- [2026-02] OleoMetS RCT (n=102): 10 mg/d olive phenol extract lowered FBG by 7.06 mg/dL, HbA1c by 0.29% and SBP by 7.66 mmHg [PMID:41429309].
+- [2026-01] PREDIMED outcome-wide analysis: highest EVOO tertile (49 g/d) HR 0.75 for composite CVD; common olive oil not associated [PMID:40907633].
+- [2026-01] Cohort (n=656): virgin olive oil linked to cognitive preservation, possibly via gut microbiota [PMID:41578342].
+- [2025-11] Endothelial function improved with EVOO in hyperlipidaemia (post hoc RCT) [PMID:41373940].
+- [2025-11] MA: MedDiet+olive oil vs MedDiet+nuts gave similar lipids/DBP; SBP slightly higher with olive oil [PMID:40651889].
+- [2025-09] Hydroxytyrosol 15 mg/d RCT in prediabetes (n=49): lower ox-LDL and IL-6 [PMID:40690822].
+- [2025-08] Inflammation MA (23 RCTs): ox-LDL -4.59 U/L, CRP -0.99 mg/L vs low-phenolic oils [PMID:40749711].
+- [2025-06] Moli-sani cohort plus SR: olive oil inversely associated with ER-negative breast cancer; prospective studies inconsistent overall [PMID:40449295].
+- [2025-04] Diabetes dose-response MA: RR 0.87 (cohorts), 0.78 (RCTs) [PMID:40275388].
+- [2024-05] NHS/HPFS: >=7 g/d olive oil associated with 28% lower dementia-related death [PMID:38709531].
+- [2024-05] Cohort dose-response MA (30 articles): all-cause mortality RR 0.85; benefit plateau at about 20 g/d [PMID:38568797].
 
 ** Open questions
-- Larger, better reported human studies with standardized products, clinically meaningful endpoints and longer follow-up are needed; current gaps are noted above.
+- How much of the PREDIMED/CORDIOPREV benefit comes from EVOO itself vs the whole MedDiet? No trial isolates the oil against an isocaloric fat control on hard endpoints.
+- Whether the PREDIMED-Plus hard-endpoint results (energy-reduced MedDiet plus exercise) will show added benefit beyond weight loss.
+- Clinically meaningful phenolic dose: the EFSA threshold is set for LDL oxidation; dose-response data for events are lacking.
+- Breast cancer: the RCT signal rests on 35 cases, and prospective cohorts are inconsistent.
+- Whether isolated hydroxytyrosol or olive extracts replicate EVOO effects, since the authorised claim applies only to the oil matrix.
+- Interactions with anticoagulants and antiplatelets are based on mechanism and observational data only.
+- How common adulteration is in retail EVOO, and its health impact.
 
 ** Sources
-- DOI:10.1016/j.tjnut.2023.10.028
-- PMID:29897866
-- PMID:37977313
+1. Estruch R et al. Primary Prevention of Cardiovascular Disease with a Mediterranean Diet Supplemented with Extra-Virgin Olive Oil or Nuts. N Engl J Med. 2018. PMID:29897866 DOI:10.1056/NEJMoa1800389
+2. Rees K et al. Mediterranean-style diet for the primary and secondary prevention of cardiovascular disease. Cochrane Database Syst Rev. 2019. PMID:30864165 DOI:10.1002/14651858.CD009825.pub3
+3. Delgado-Lista J et al. Long-term secondary prevention of cardiovascular disease with a Mediterranean diet and a low-fat diet (CORDIOPREV): a randomised controlled trial. Lancet. 2022. PMID:35525255 DOI:10.1016/S0140-6736(22)00122-2
+4. Jimenez-Torres J et al. Mediterranean Diet Reduces Atherosclerosis Progression in Coronary Heart Disease: An Analysis of the CORDIOPREV Randomized Controlled Trial. Stroke. 2021. PMID:34372670 DOI:10.1161/STROKEAHA.120.033214
+5. Salas-Salvadó J et al. Effect of a Lifestyle Intervention Program With Energy-Restricted Mediterranean Diet and Exercise on Weight Loss and Cardiovascular Risk Factors: One-Year Results of the PREDIMED-Plus Trial. Diabetes Care. 2019. PMID:30389673 DOI:10.2337/dc18-0836
+6. Konieczna J et al. An Energy-Reduced Mediterranean Diet, Physical Activity, and Body Composition: An Interim Subgroup Analysis of the PREDIMED-Plus Randomized Clinical Trial. JAMA Netw Open. 2023. PMID:37851444 DOI:10.1001/jamanetworkopen.2023.37994
+7. Guasch-Ferré M et al. Consumption of Olive Oil and Risk of Total and Cause-Specific Mortality Among U.S. Adults. J Am Coll Cardiol. 2022. PMID:35027106 DOI:10.1016/j.jacc.2021.10.041
+8. Tessier AJ et al. Consumption of Olive Oil and Diet Quality and Risk of Dementia-Related Death. JAMA Netw Open. 2024. PMID:38709531 DOI:10.1001/jamanetworkopen.2024.10021
+9. Guasch-Ferré M et al. Olive oil intake and risk of cardiovascular disease and mortality in the PREDIMED Study. BMC Med. 2014. PMID:24886626 DOI:10.1186/1741-7015-12-78
+10. Martínez-González MÁ et al. Extravirgin olive oil consumption reduces risk of atrial fibrillation: the PREDIMED trial. Circulation. 2014. PMID:24787471 DOI:10.1161/CIRCULATIONAHA.113.006921
+11. de Rojas JP et al. Extra-virgin olive oil and additional cardiovascular outcomes in the PREDIMED Trial: An outcome-wide perspective. Am Heart J. 2026. PMID:40907633 DOI:10.1016/j.ahj.2025.08.021
+12. Ke Y et al. Olive oil intake and cardiovascular disease, cancer, and all-cause mortality: a systematic review and dose-response meta-analysis of prospective cohort studies. Food Funct. 2024. PMID:38568797 DOI:10.1039/d3fo05246j
+13. Martínez-González MA et al. Effect of olive oil consumption on cardiovascular disease, cancer, type 2 diabetes, and all-cause mortality: A systematic review and meta-analysis. Clin Nutr. 2022. PMID:36343558 DOI:10.1016/j.clnu.2022.10.001
+14. Markellos C et al. Olive oil intake and cancer risk: A systematic review and meta-analysis. PLoS One. 2022. PMID:35015763 DOI:10.1371/journal.pone.0261649
+15. Toledo E et al. Mediterranean Diet and Invasive Breast Cancer Risk Among Women at High Cardiovascular Risk in the PREDIMED Trial: A Randomized Clinical Trial. JAMA Intern Med. 2015. PMID:26365989 DOI:10.1001/jamainternmed.2015.4838
+16. Ruggiero E et al. Olive oil consumption and risk of breast cancer: Prospective results from the Moli-sani Study, and a systematic review. Eur J Cancer. 2025. PMID:40449295 DOI:10.1016/j.ejca.2025.115520
+17. Morvaridzadeh M et al. Effect of Extra Virgin Olive Oil on Anthropometric Indices, Inflammatory and Cardiometabolic Markers: a Systematic Review and Meta-Analysis of RCTs. J Nutr. 2024. PMID:37977313 DOI:10.1016/j.tjnut.2023.10.028
+18. George ES et al. The effect of high-polyphenol extra virgin olive oil on cardiovascular risk factors: A systematic review and meta-analysis. Crit Rev Food Sci Nutr. 2019. PMID:29708409 DOI:10.1080/10408398.2018.1470491
+19. Schwingshackl L et al. Impact of different types of olive oil on cardiovascular risk factors: A systematic review and network meta-analysis. Nutr Metab Cardiovasc Dis. 2019. PMID:31378629 DOI:10.1016/j.numecd.2019.07.001
+20. Pourrajab B et al. Effect of the Mediterranean diet supplemented with olive oil versus mixed nuts on blood pressure and serum lipid indexes: SR and MA of RCTs. Nutr Metab Cardiovasc Dis. 2025. PMID:40651889 DOI:10.1016/j.numecd.2025.104166
+21. Covas MI et al. The effect of polyphenols in olive oil on heart disease risk factors: a randomized trial. Ann Intern Med. 2006. PMID:16954359 DOI:10.7326/0003-4819-145-5-200609050-00006
+22. Hernáez Á et al. Olive Oil Polyphenols Decrease LDL Concentrations and LDL Atherogenicity in Men in a Randomized Controlled Trial. J Nutr. 2015. PMID:26136585 DOI:10.3945/jn.115.211557
+23. Vidal Damasceno J et al. Effects of daily extra virgin olive oil consumption on biomarkers of inflammation and oxidative stress: a systematic review and meta-analysis. Crit Rev Food Sci Nutr. 2026. PMID:40749711 DOI:10.1080/10408398.2025.2525446
+24. Dehghani F et al. Effect of extra virgin olive oil consumption on glycemic control: A systematic review and meta-analysis. Nutr Metab Cardiovasc Dis. 2021. PMID:33941427 DOI:10.1016/j.numecd.2021.02.017
+25. Takhttavous A et al. The Effect of Different Types of Olive Oil on Glucose Control and Insulin Sensitivity: A GRADE-Assessed SR and Dose-Response MA of 51 RCTs. Nutr Rev. 2026. PMID:40971936 DOI:10.1093/nutrit/nuaf099
+26. Du Y, Zhou H. Effect of olive oil consumption on diabetes risk: a dose-response meta-analysis. J Health Popul Nutr. 2025. PMID:40275388 DOI:10.1186/s41043-025-00866-7
+27. Schwingshackl L et al. Olive oil in the prevention and management of type 2 diabetes mellitus: a systematic review and meta-analysis. Nutr Diabetes. 2017. PMID:28394365 DOI:10.1038/nutd.2017.12
+28. Valls-Pedret C et al. Mediterranean Diet and Age-Related Cognitive Decline: A Randomized Clinical Trial. JAMA Intern Med. 2015. PMID:25961184 DOI:10.1001/jamainternmed.2015.1668
+29. Martínez-Lapiscina EH et al. Virgin olive oil supplementation and long-term cognition: the PREDIMED-NAVARRA randomized trial. J Nutr Health Aging. 2013. PMID:23732551 DOI:10.1007/s12603-013-0027-6
+30. Simão VC et al. Effect of extra virgin olive oil on mild cognitive impairment and dementia in older adults: a systematic review and meta-analysis of clinical trials. Clin Nutr ESPEN. 2026. PMID:41740793 DOI:10.1016/j.clnesp.2026.102977
+31. Ni J et al. Total and different types of olive oil consumption, gut microbiota, and cognitive function changes in older adults. Microbiome. 2026. PMID:41578342 DOI:10.1186/s40168-025-02306-4
+32. Estruch R et al. Effect of a high-fat Mediterranean diet on bodyweight and waist circumference: a prespecified secondary outcomes analysis of the PREDIMED randomised controlled trial. Lancet Diabetes Endocrinol. 2019. PMID:31003626 DOI:10.1016/S2213-8587(19)30074-9
+33. Toledo E et al. Effect of the Mediterranean diet on blood pressure in the PREDIMED trial: results from a randomized controlled trial. BMC Med. 2013. PMID:24050803 DOI:10.1186/1741-7015-11-207
+34. Corella D et al. Mediterranean diet reduces the adverse effect of the TCF7L2-rs7903146 polymorphism on cardiovascular risk factors and stroke incidence. Diabetes Care. 2013. PMID:23942586 DOI:10.2337/dc13-0955
+35. Lozano-Castellón J et al. Extra virgin olive oil: A comprehensive review of efforts to ensure its authenticity, traceability, and safety. Compr Rev Food Sci Food Saf. 2022. PMID:35368142 DOI:10.1111/1541-4337.12949
+36. López-Huertas E et al. Olive oil varieties and ripening stages containing the antioxidants hydroxytyrosol and derivatives in compliance with EFSA health claim. Food Chem. 2021. PMID:33060000 DOI:10.1016/j.foodchem.2020.128291
+37. Ussia S et al. Exploring the Benefits of Extra Virgin Olive Oil on Cardiovascular Health Enhancement and Disease Prevention: A Systematic Review. Nutrients. 2025. PMID:40507112 DOI:10.3390/nu17111843
+38. Jordán M et al. Hydroxytyrosol Bioavailability: Unraveling Influencing Factors and Optimization Strategies for Dietary Supplements. Nutrients. 2025. PMID:41010464 DOI:10.3390/nu17182937
+39. Moratilla-Rivera I et al. Hydroxytyrosol supplementation improves antioxidant and anti-inflammatory status in individuals with overweight and prediabetes: a randomized trial. Clin Nutr. 2025. PMID:40690822 DOI:10.1016/j.clnu.2025.07.006
+40. Samoutis G et al. The impact of olive oil polyphenol supplementation on metabolic syndrome parameters. The OleoMetS study: A randomized, controlled clinical trial. Clin Nutr ESPEN. 2026. PMID:41429309 DOI:10.1016/j.clnesp.2025.102883
+41. Morris EA et al. Cardiovascular effects of extra virgin olive oil in healthy reproductive-aged women: a randomized controlled trial. Pregnancy Hypertens. 2026. PMID:41520410 DOI:10.1016/j.preghy.2025.101411
+42. Jawerbaum A et al. OLIDIAG Study: Extra Virgin Olive Oil Supplementation in the Diet of Women with Gestational Diabetes Mellitus-A Randomized Clinical Trial. Nutrients. 2026. PMID:41978170 DOI:10.3390/nu18071120
+43. García-González A et al. Oleanolic Acid-Enriched Olive Oil Attenuates Kidney Function Decline in Patients With Type 2 Diabetes: Results From the OLTRAD RCT. Diabetes Obes Metab. 2026. PMID:42608317 DOI:10.1111/dom.71206
+44. Gutiérrez-Romero RM et al. Corbella Extra Virgin Olive Oil, Urinary Phenolic Metabolites, and Exploratory Cardiometabolic Outcomes in Healthy Young Adults: The HEVOOC Trial. Antioxidants (Basel). 2026. PMID:42650297 DOI:10.3390/antiox15081033
+45. Sidibé H et al. Mediterranean diet adherence modulates the plasma antioxidant response to long-term extra-virgin olive oil consumption in older adults. Clin Nutr ESPEN. 2026. PMID:42521082 DOI:10.1016/j.clnesp.2026.103625
+46. Besora-Moreno M et al. Effects of Phenolic-Rich Extra Virgin Olive Oil and Prebiotics on Sarcopenia in Older Adults: FOOP-Sarc Project. J Cachexia Sarcopenia Muscle. 2026. PMID:41787835 DOI:10.1002/jcsm.70247
+47. Kourek C et al. Extra Virgin Olive Oil (EVOO) Improves Vascular Endothelial Function and Hemodynamic Parameters in Patients with Hyperlipidemia. Nutrients. 2025. PMID:41373940 DOI:10.3390/nu17233650
+48. Gutiérrez-Romero RM et al. Resting-state brain connectivity following extra virgin olive oil intake in healthy adults: a randomised crossover pilot neuroimaging substudy. Food Funct. 2026. PMID:41949575 DOI:10.1039/d5fo05016b
+49. Zhou C et al. Mediterranean diet with high-phenolic EVOO slows kidney function decline and reduces inflammation in nondialysis CKD: a meta-analysis. Front Nutr. 2026. PMID:41847236 DOI:10.3389/fnut.2026.1792390
+50. Castro-Barquero S et al. Mediterranean Diet Decreases the Initiation of Use of Vitamin K Epoxide Reductase Inhibitors and Their Associated Cardiovascular Risk: A Randomized Controlled Trial. Nutrients. 2020. PMID:33352771 DOI:10.3390/nu12123895
+51. Pignatelli P et al. Mediterranean diet reduces thromboxane A2 production in atrial fibrillation patients. Clin Nutr. 2015. PMID:25288566 DOI:10.1016/j.clnu.2014.09.011
+52. Pignatelli P et al. Relationship between Mediterranean diet and time in therapeutic range in atrial fibrillation patients taking vitamin K antagonists. Europace. 2015. PMID:25995397 DOI:10.1093/europace/euv127
+53. Dell'Agli M et al. Inhibition of platelet aggregation by olive oil phenols via cAMP-phosphodiesterase. Br J Nutr. 2008. PMID:17927845 DOI:10.1017/S0007114507837470
+54. Carnevale R et al. Oleuropein, a component of extra virgin olive oil, lowers postprandial glycaemia in healthy subjects. Br J Clin Pharmacol. 2018. PMID:29577365 DOI:10.1111/bcp.13589
+55. Carnevale R et al. Extra virgin olive oil improves post-prandial glycemic and lipid profile in patients with impaired fasting glucose. Clin Nutr. 2017. PMID:27289163 DOI:10.1016/j.clnu.2016.05.016
+56. Bozzetto L et al. Gastrointestinal effects of extra-virgin olive oil associated with lower postprandial glycemia in type 1 diabetes. Clin Nutr. 2019. PMID:30567626 DOI:10.1016/j.clnu.2018.11.015
+57. Berbert AA et al. Supplementation of fish oil and olive oil in patients with rheumatoid arthritis. Nutrition. 2005. PMID:15723739 DOI:10.1016/j.nut.2004.03.023
+58. Fielding JM et al. Increases in plasma lycopene concentration after consumption of tomatoes cooked with olive oil. Asia Pac J Clin Nutr. 2005. PMID:15927929
+59. Arranz S et al. Influence of olive oil on carotenoid absorption from tomato juice and effects on postprandial lipemia. Food Chem. 2015. PMID:25172701 DOI:10.1016/j.foodchem.2014.07.053
+60. Yao Y et al. Effects of dietary fat type and emulsification on carotenoid absorption: a randomized crossover trial. Am J Clin Nutr. 2023. PMID:36921903 DOI:10.1016/j.ajcnut.2023.03.011
+61. Gleize B et al. Effect of type of TAG fatty acids on lutein and zeaxanthin bioavailability. Br J Nutr. 2013. PMID:23228631 DOI:10.1017/S0007114512004813
+62. Luo H et al. Impact of excipient emulsions made from different types of oils on the bioavailability and metabolism of curcumin in gastrointestinal tract. Food Chem. 2022. PMID:34628238 DOI:10.1016/j.foodchem.2021.130980
+63. Goncalves A et al. Pinoresinol of olive oil decreases vitamin D intestinal absorption. Food Chem. 2016. PMID:27041321 DOI:10.1016/j.foodchem.2016.03.048
+64. Lopez-Huertas E, Fonolla J. Hydroxytyrosol supplementation increases vitamin C levels in vivo. A human volunteer trial. Redox Biol. 2017. PMID:28063380 DOI:10.1016/j.redox.2016.12.014
+65. Liamin M et al. Olive juice dry extract containing hydroxytyrosol, as a nontoxic and safe substance: Results from pre-clinical studies and review of toxicological studies. Toxicol Rep. 2023. PMID:36852231 DOI:10.1016/j.toxrep.2023.02.003
+66. Takato H et al. Repeated Self-induced Vomiting-associated Exogenous Lipoid Pneumonia Following Occult Olive Oil Aspiration. Intern Med. 2026. PMID:42309686 DOI:10.2169/internalmedicine.7462-26
+67. Unsel M et al. Food allergy due to olive. J Investig Allergol Clin Immunol. 2009. PMID:20128426
+68. Deng L et al. Optimal measurement time for evaluating gallbladder contraction function by oral protein bar combined with olive oil: a prospective, multicenter, single-blind, crossover trial. Zhonghua Wai Ke Za Zhi. 2026. PMID:42669445 DOI:10.3760/cma.j.cn112139-20260616-00264

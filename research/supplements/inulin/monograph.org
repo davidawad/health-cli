@@ -3,48 +3,206 @@
 :ID: supp-inulin
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: chicory inulin | inulin-type fructans | chicory root fiber
+:ALIASES: inulin-type fructans | ITF | chicory inulin | chicory root fiber | oligofructose-enriched inulin | Synergy1 | Orafti inulin | fructooligosaccharides (FOS) | oligofructose
 :CATEGORY: probiotic-prebiotic
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Inulin is a β(2→1)-linked fructan, often extracted from chicory root; chain length distinguishes shorter oligofructose from longer inulin. It resists human digestive enzymes and is fermented in the colon [PMID:38309832].
+- Inulin is a chain of fructose units linked by beta(2-1) bonds. It is readily fermented by intestinal bacteria into large amounts of short-chain fatty acids (SCFA) [PMID:31707507].
+- "Inulin-type fructans" (ITF) is the umbrella term for short-chain fructooligosaccharides (scFOS), oligofructose and inulin. They differ in chain length (degree of polymerization, DP) [PMID:34555168].
+- Commercial supplements are mostly chicory-root extracts:
+  - native or long-chain inulin;
+  - oligofructose (short-chain, DP < 10);
+  - oligofructose-enriched inulin (e.g. Synergy1, a mix of short and long chains) [PMID:17298707] [PMID:16087995].
+  - Jerusalem artichoke inulin has also been used in pediatric obesity trials [PMID:39033197].
+- Inulin is not digested in the small intestine. In ileostomy patients 88% of ingested inulin was recovered in the effluent [PMID:9023459].
+- Chain length matters for some outcomes. Short-chain (DP < 10) fructans increased stool frequency, while long-chain (DP >= 10) fructans did not [PMID:30621208].
+- Exogenous inulin (and sinistrin, Inutest) given intravenously is a separate use. Urinary inulin clearance is the reference ("gold standard") method for measuring GFR [PMID:32750458] [PMID:11853197].
 
 ** Mechanisms
-- Inulin-type fructans are nondigestible fermentable carbohydrates. Microbial fermentation yields short-chain fatty acids and can alter microbiota composition; this plausibility does not establish meaningful clinical benefit [PMID:38309832].
+- Bifidogenic effect: chicory ITF at 3-20 g/d increased Bifidobacterium abundance (SMD 0.83, 95% CI 0.58-1.08; 50 studies, n=2525) [PMID:35833477].
+  - Human microbiome studies also show more Anaerostipes, Faecalibacterium and Lactobacillus, and less Bacteroides [PMID:31707507] [PMID:34555168].
+  - The rise in Bifidobacterium is larger when baseline counts are low [PMID:17268410] [PMID:15585783].
+  - In the Food4Gut trial, the large rise in Bifidobacterium was a signature of inulin intake rather than a driver of the clinical outcomes [PMID:32340903].
+- SCFA production: a stable-isotope RCT (30 g/d for 7 d) found butyrate production up 44% in both young and older adults [PMID:40274191]. A systematic review found that microbiota shifts were not consistently matched by higher fecal SCFA [PMID:31707507].
+- Laxation: fermentation increases stool frequency and softens stools [PMID:25208775] [PMID:35833477].
+- Mineral absorption: ITF increase calcium absorption mainly in the colon. In responders, about 70% of the extra absorption occurred more than 7 h after dosing [PMID:17884999]. Proposed mechanisms include higher calcium solubility, more calbindin and a larger colonic absorptive surface [PMID:33611985].
+- Gas and symptoms: inulin raises colonic gas and volume on MRI in both IBS patients and controls. Symptoms in IBS reflect colonic hypersensitivity to distension rather than excess gas production [PMID:27746233].
+- Gut barrier: prebiotics lowered circulating lipopolysaccharide in 16 RCTs (SMD -0.88), with high heterogeneity [PMID:40378939].
+- Liver (preclinical): in dysbiotic mice (TLR5-deficient and others), dietary inulin caused microbiota-dependent cholestasis and then hepatocellular carcinoma. Blocking fermentation or depleting fermenting bacteria prevented it [PMID:30340040]. Vancomycin prevented the cancer, but not the cholestatic liver injury, and the effect tracked loss of secondary bile acids [PMID:32223398].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---------+--------------------+-----------+-------------+-----------------------+-----------|
-| Weight/body composition | SR/MA, 32 studies | Small reduction | weight MD −0.97 kg; BMI −0.39 kg/m²; waist −1.03 cm | low | [PMID:39313030] |
-| Lipids | SR/MA, 55 RCTs | Small LDL/TG reductions | LDL −0.14 mmol/L (very low); TG −0.06 mmol/L (low certainty) | low | [PMID:38309832] |
-| Glycemia/BP/other CVD markers | SR/MA, 55 RCTs | Little/no clear effect | most markers not significantly changed | low | [PMID:38309832] |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Stool frequency/consistency (constipation) | MA of 5 RCTs (n=252); MA of 47 publications; 2 crossover RCTs | Benefit | Stool frequency SMD 0.69 (CI 0.04-1.34); Bristol SMD 1.07; transit SMD -0.57; no effect on pain/bloating. Short-chain fructans +0.36 stools/day | low | [PMID:25208775] [PMID:30621208] [PMID:27492975] [PMID:41233756] |
+| Chronic constipation (guideline grading) | ACG-sponsored SR of OTC therapies | Insufficient | Grade I (insufficient evidence) for inulin and FOS | low | [PMID:33767108] |
+| Bifidobacterium abundance | MA (50 RCTs, n=2525) | Increase | SMD 0.83 (CI 0.58-1.08) | moderate | [PMID:35833477] [PMID:31707507] |
+| LDL-C / triglycerides | SR/MA (55 RCTs, n=2518, GRADE) | Small decrease | LDL -0.14 mmol/L (very low CoE); TG -0.06 mmol/L (low CoE); earlier MA TG -0.17 mmol/L | low | [PMID:38309832] [PMID:27623982] [PMID:17951501] |
+| Fasting glucose / HbA1c (prediabetes, T2D) | GRADE dose-response MA (33 RCTs, n=1346); MA of 9 RCTs in T2D | Decrease | FBG -0.60 mmol/L; HbA1c -0.58%; HOMA-IR -0.69. In healthy or mixed groups the effect was small or absent | low | [PMID:31805963] [PMID:32523243] [PMID:34401107] [PMID:38309832] |
+| Body weight / adiposity | SR/MA (32 studies, n=1184; industry-affiliated); CVD MA | Small decrease | Weight -0.97 kg; BMI -0.39; waist -1.03 cm; fat mass -0.37 kg | low | [PMID:39313030] [PMID:38309832] [PMID:40414749] |
+| Calcium absorption / bone (adolescents) | 1-y RCT (8 g/d); short RCTs | Increase | Absorption +8.5% at 8 wk, +5.9% at 1 y; whole-body BMC +35 g | low | [PMID:16087995] [PMID:10075343] [PMID:17884999] |
+| Calcium and magnesium absorption (postmenopausal) | Crossover RCT (n=15) | Increase in about 2/3 of participants | Fractional Ca and Mg absorption up (P<0.05) | very low | [PMID:17298707] |
+| IBS global symptoms | MA of prebiotics (11 RCTs); MA of fiber (30 RCTs) | No benefit; ITF worsen flatulence | ITF flatulence SMD +0.85 (CI 0.23-1.47). Fiber overall RR 1.21, driven by psyllium; no gain on symptom scores | moderate | [PMID:30949662] [PMID:42600900] |
+| IBS-C quality of life | Network MA (12 RCTs); 8-wk RCT (n=34) | Benefit | QoL MD 5.40 for inulin-based composite foods; IBS-SSS 267 to 196 within group | low | [PMID:41217200] [PMID:41034384] |
+| Blood pressure | MA of 6 human trials | Decrease in hypertensives only | SBP -8.5 / DBP -5.2 mmHg in hypertensives; pooled n.s. | very low | [PMID:40806090] [PMID:38309832] |
+| Depression/anxiety | MA (3 prebiotic RCTs); small RCT | No significant effect | Depression SMD -0.28 (CI -0.61 to 0.04); GAD-7 no between-group difference | very low | [PMID:39731509] [PMID:41989194] |
+| IBD remission | SR/MA (17 studies) | No benefit for oligofructose-enriched inulin | More flatulence/bloating with OF-IN | very low | [PMID:38781004] |
+| Uremic toxins (CKD 3-5) | Network MA (biotics) | Decrease | Ranked for p-cresyl and indoxyl sulfate reduction (SUCRA) | very low | [PMID:40219004] |
+| ICU sepsis colonization/infection | Phase 2 RCT (n=90; 16 or 32 g/d) | No effect | No change in SCFA producers, colonization, infection or death | low | [PMID:39806400] |
 
 ** Dosing in trials
-- Trials use roughly 3–30 g/day inulin-type fructans for 2 weeks to several months. Weight meta-analysis found modest outcomes with varied dose/duration; no clear optimal dose established [PMID:39313030; PMID:38309832].
+- Constipation: 12 g/d chicory inulin (3 x 4 g) for 4 weeks [PMID:27492975] [PMID:41233756]. IBS-C: 9.2 g/d inulin/oligofructose 50:50 for 8 weeks [PMID:41034384].
+- Bifidogenic effect: 5 g/d was already bifidogenic; 8 g/d gave more responders [PMID:17268410]. 3 g/d and 7 g/d ITF in snack bars both raised Bifidobacterium [PMID:32320024]. The meta-analytic range is 3-20 g/d [PMID:35833477].
+- Glycemia: about 10 g/d for at least 6 weeks was the dose suggested by dose-response modeling [PMID:31805963].
+- Weight: 16 g/d native inulin plus diet for 3 months [PMID:32340903]. 8 g/d oligofructose-enriched inulin for 16 weeks in children [PMID:28596023]. Meta-regression found little evidence of a dose or duration effect [PMID:39313030].
+- Calcium absorption: 8 g/d Synergy1-type ITF in adolescents [PMID:16087995]. 15 g/d oligofructose [PMID:10075343].
+- High-dose research use: 30 g/d for 7 days [PMID:40274191]. 16-32 g/d in ICU patients [PMID:39806400].
+- Tolerance-based dosing: native inulin up to 10 g/d and oligofructose up to 5 g/d were well tolerated after a single challenge [PMID:20497775]. Splitting the dose reduced early breath hydrogen but not 24-h totals [PMID:39732438].
 
 ** Safety & adverse effects
-- Common dose-related effects are gas, bloating, abdominal pain and altered stool due to fermentation; gradual titration is common in trials. Severe intolerance may occur in people with IBS/FODMAP sensitivity [PMID:38309832].
+- GI effects are dose-related: mainly flatulence, then bloating, rumbling and abdominal pain.
+  - Over 2 weeks the rise in symptoms was mild and significant only at 20 g/d of one product [PMID:18608562].
+  - 10 g of oligofructose in one challenge clearly increased symptoms [PMID:20497775].
+  - 8 g/d was well tolerated in people with gas-related complaints [PMID:27680592].
+- In IBS, ITF worsened flatulence (SMD +0.85) [PMID:30949662]. Fructans raised daily pain episodes in children with IBS (3.4 vs 2.4), and 52% of children qualified as fructan sensitive [PMID:28970147].
+- FOS-fructans (2.1 g/d) caused more GI symptoms than gluten in self-reported non-celiac gluten/wheat sensitivity [PMID:39227818].
+- Allergy: case reports describe IgE-mediated anaphylaxis to inulin in foods [PMID:10798950] [PMID:15650313] and to intravenous sinistrin used for GFR testing [PMID:11853197].
+- Liver (animal signal only): fermentable-fiber-induced cholestatic HCC occurred in dysbiotic mice [PMID:30340040] [PMID:32223398]. No human signal was found, but the authors advise caution about enriching foods with fermentable fiber.
+- Colorectal: a 2024 review notes limited clinical evidence that inulin prevents colorectal cancer and that improper use may harm GI health in some settings [PMID:38984069].
+- Industry funding: several trials and the weight meta-analysis involved chicory-ITF manufacturers (BENEO, Sensus) [PMID:39313030] [PMID:41233756].
 
 ** Contraindications
-- Avoid in known inulin/chicory allergy. Inulin may aggravate symptoms in people with fructan-sensitive IBS; tolerance is dose-dependent [PMID:38309832].
+- Known inulin or chicory/artichoke allergy (anaphylaxis reported) [PMID:15650313] [PMID:10798950].
+- Fructan-sensitive IBS or a diagnosed fructan intolerance: symptoms can worsen. About 49% of IBS patients tested positive for fructan malabsorption on breath testing [PMID:38654193] [PMID:28970147].
+- Hereditary fructose intolerance: management requires strict avoidance of fructose, sucrose and sorbitol [PMID:36052111]. Inulin itself mostly reaches the colon undigested [PMID:9023459]. Fructanase enzyme products, however, hydrolyze fructans to fructose [PMID:42580594], so they should not be combined with inulin in HFI.
 
 ** Interactions
-- No established drug interaction or assay interference. Like other fiber, large co-ingestion could alter absorption timing of oral medicines, but direct inulin interaction evidence is insufficient [PMID:38309832].
+*** Drugs
+- Metformin (incl. Metformin ER): in Food4Gut, prior metformin use blunted most inulin-related microbiota and metabolic gains [PMID:32340903]. A prebiotic during metformin start-up was well tolerated in a 6-patient pilot [PMID:36909343]. A GI microbiome modulator improved metformin tolerance in a 10-patient crossover [PMID:25802471]. Additive GI effects are possible.
+- Antidiabetic drugs and insulin: ITF lower FBG and HbA1c in T2D [PMID:31805963]. In type 1 diabetes, 6 g/d inulin reduced daily insulin need by 1.5 U vs control [PMID:41636295]. Glucose monitoring is reasonable; the size of the effect is small.
+- Acarbose: acarbose sends undigested carbohydrate to the colon and causes fermentation-related flatulence [PMID:9663365]. ITF also increase flatulence [PMID:30949662]. Additive gas and bloating are plausible; no direct study exists.
+- Vancomycin and other gut-active antibiotics: in mice, vancomycin abolished fiber-induced HCC by depleting fermenting bacteria [PMID:32223398]. The human ICU trial with broad-spectrum antibiotics showed no inulin effect on the microbiome [PMID:39806400].
+*** Other supplements
+- GOS: also bifidogenic [PMID:15585783]. Unlike ITF, beta-GOS improved IBS symptom scores [PMID:42600900], and non-ITF prebiotics reduced flatulence [PMID:30949662]. Stacking adds fermentable load.
+- Psyllium or methylcellulose gels: reduced inulin-induced colonic gas in IBS and in healthy volunteers [PMID:34353864] [PMID:42728685] [PMID:39732438].
+- Fructanase: reduced abdominal pain, bloating and flatulence after a 25 g inulin challenge (industry-funded) [PMID:42580594].
+- Butyrate products (ProButyrate, Tributryn): inulin increases endogenous butyrate production [PMID:40274191]. Sodium butyrate plus inulin was tested together in T2D without safety issues [PMID:32315958].
+- Green Tea Extract: catechins 400 mg plus inulin 2.3 g/d improved HOMA-IR but not visceral fat (Kao-funded) [PMID:41830022].
+- Calcium and Magnesium: ITF raise fractional absorption [PMID:16087995] [PMID:17298707]. An ileostomy study found no effect on small-intestinal mineral excretion [PMID:9023459].
+- Vitamin D-3: oligofructose-enriched inulin raised 25(OH)D by 42% in children with celiac disease [PMID:30445682].
+*** Conditions
+- IBS, fructan sensitivity, non-celiac gluten/wheat sensitivity: see Safety and Contraindications [PMID:28970147] [PMID:39227818].
+- IBD: no remission benefit, and more flatulence and bloating [PMID:38781004].
+- Dysbiosis or cholestatic liver disease: preclinical HCC signal only [PMID:30340040].
+- Constipation, prediabetes/T2D, overweight: likely benefit populations (see Evidence summary).
+*** Lab-test interference
+- Hydrogen breath tests: inulin raises breath hydrogen within hours [PMID:27746233] [PMID:28970147]. Breath tests define maldigestion as a rise of >= 20 ppm [PMID:28323273], so recent inulin intake could confound fructan or fructose breath testing (inferred).
+- Inulin-clearance GFR: no source shows that oral inulin interferes with exogenous inulin or sinistrin GFR measurement. Oral inulin is largely unabsorbed [PMID:9023459]. Anaphylaxis to IV sinistrin has been reported, which matters for people with inulin allergy [PMID:11853197].
+- True physiological changes (not assay artifacts): lower FBG/HbA1c [PMID:31805963], LDL/TG [PMID:38309832] and higher 25(OH)D [PMID:30445682].
 
 ** Genotype notes
-- No cited pharmacogenomic or nutrigenomic source specific to inulin was identified in this search; no genotype claim is made.
+- Vitamin D receptor (VDR) FokI polymorphism: in a 1-year RCT in adolescents, those with the ff genotype had the smallest initial calcium-absorption response to ITF [PMID:16087995]. No pharmacogenomic sources were found.
 
 ** Latest research
-- 2024 systematic review/meta-analysis of 55 RCTs (n=2,518) found small LDL, triglyceride and weight reductions with low/very-low certainty [PMID:38309832]. 2024 weight meta-analysis covering 32 studies estimated −0.97 kg versus controls; erratum/corrigendum was published in 2025 [PMID:39313030; PMID:40414749].
+- [2026-09] RCT (n=22): methylcellulose and psyllium gels reduced colonic gas from 15 g inulin once the gels reached the colon [PMID:42728685].
+- [2026-09] Review: rapidly fermentable prebiotics act as both "beneficial prebiotics" and "symptom-provoking FODMAPs" depending on the host [PMID:42762890].
+- [2026-08] Fiber-in-IBS MA (30 RCTs): fiber response RR 1.21, driven by psyllium; ITF did not improve symptom scores [PMID:42600900].
+- [2026-08] Fructanase crossover RCT (n=30): fewer pain, bloating and flatulence symptoms after a 25 g inulin challenge [PMID:42580594].
+- [2026-08] IBS-C network MA: inulin-based composite foods improved QoL (MD 5.40) [PMID:41217200].
+- [2026-06] INGUTSKIN RCT in psoriasis (15 g/d, 8 wk): stable fasting glucose vs a rise on placebo; no body-composition change [PMID:42356231].
+- [2026-04] RCT in students (4.9 g/d FOS-inulin): no effect on GAD-7 anxiety [PMID:41989194].
+- [2026-03] Catechin plus inulin RCT: HOMA-IR -0.32 vs +0.18; no visceral-fat change [PMID:41830022].
+- [2026-01] Type 1 diabetes pilot RCT: inulin 6 g/d lowered weight (-2 kg) and insulin need, with no HbA1c change [PMID:41636295].
+- [2025-11] Functional constipation crossover RCT (12 g/d, n=39): higher stool frequency and QoL; carry-over bias noted [PMID:41233756].
+- [2025-10] IBS-C RCT (9.2 g/d, n=34): IBS-SSS and QoL improved [PMID:41034384].
+- [2025-07] Inulin vs FOS RCT (n=131): inulin improved OGTT glucose only in overweight/obese adults [PMID:40598275].
+- [2025-07] Prebiotics and BP MA: SBP -8.5 mmHg in hypertensives [PMID:40806090].
+- [2025-05] Corrigendum published for the 2024 chicory ITF weight MA [PMID:40414749].
+- [2025-04] MASLD RCT (16 g/d, 24 wk): no change in liver fat; greater trunk-fat loss and lower hunger [PMID:40172664].
+- [2025-04] Isotope RCT: inulin raised butyrate production 44% in young and older adults [PMID:40274191].
+- [2025-01] ICU sepsis phase 2 RCT: no microbiome or clinical benefit [PMID:39806400].
+- [2024-12] Divided-dose inulin vs psyllium RCT: psyllium delays inulin fermentation rather than reducing it [PMID:39732438].
+- [2024-11] Chicory ITF weight MA (32 studies): -0.97 kg [PMID:39313030].
 
 ** Open questions
-- Larger, better reported human studies with standardized products, clinically meaningful endpoints and longer follow-up are needed; current gaps are noted above.
+- Clinically meaningful constipation benefit: ACG grading remains "insufficient". Larger, independent RCTs in diagnosed chronic constipation are needed.
+- Many positive trials and meta-analyses are funded by industry. Independent replication of the weight and glycemic effects is limited.
+- Who benefits: responses depend on baseline microbiota, Bifidobacterium counts and possibly VDR genotype.
+- Whether the mouse cholestatic HCC signal is relevant to humans with dysbiosis or cholestatic liver disease.
+- Interaction with metformin: does metformin blunt the benefit in humans, or does inulin improve metformin tolerance?
+- Long-term (> 1 year) safety and efficacy data at supplement doses above 15 g/d.
 
 ** Sources
-- PMID:38309832
-- PMID:39313030
-- PMID:40414749
-- PMID:41263347
+1. Le Bastard Q et al. The effects of inulin on gut microbial composition: a systematic review of evidence from human studies. Eur J Clin Microbiol Infect Dis. 2020. PMID:31707507 DOI:10.1007/s10096-019-03721-w
+2. Hughes RL et al. The Prebiotic Potential of Inulin-Type Fructans: A Systematic Review. Adv Nutr. 2022. PMID:34555168 DOI:10.1093/advances/nmab119
+3. Holloway L et al. Effects of oligofructose-enriched inulin on intestinal absorption of calcium and magnesium and bone turnover markers in postmenopausal women. Br J Nutr. 2007. PMID:17298707 DOI:10.1017/S000711450733674X
+4. Abrams SA et al. A combination of prebiotic short- and long-chain inulin-type fructans enhances calcium absorption and bone mineralization in young adolescents. Am J Clin Nutr. 2005. PMID:16087995 DOI:10.1093/ajcn.82.2.471
+5. Visuthranukul C et al. Enhancing gut microbiota and microbial function with inulin supplementation in children with obesity. Int J Obes (Lond). 2024. PMID:39033197 DOI:10.1038/s41366-024-01590-8
+6. Ellegård L et al. Inulin and oligofructose do not influence the absorption of cholesterol, or the excretion of cholesterol, Ca, Mg, Zn, Fe, or bile acids but increases energy excretion in ileostomy subjects. Eur J Clin Nutr. 1997. PMID:9023459 DOI:10.1038/sj.ejcn.1600320
+7. de Vries J et al. Effects of β-Fructans Fiber on Bowel Function: A Systematic Review and Meta-Analysis. Nutrients. 2019. PMID:30621208 DOI:10.3390/nu11010091
+8. White CA et al. Simultaneous glomerular filtration rate determination using inulin, iohexol, and 99mTc-DTPA demonstrates the need for customized measurement protocols. Kidney Int. 2021. PMID:32750458 DOI:10.1016/j.kint.2020.06.044
+9. Chandra R et al. Anaphylactic reaction to intravenous sinistrin (Inutest). Ann Clin Biochem. 2002. PMID:11853197 DOI:10.1258/0004563021901621
+10. Nagy DU et al. Effect of chicory-derived inulin-type fructans on abundance of Bifidobacterium and on bowel function: a systematic review with meta-analyses. Crit Rev Food Sci Nutr. 2023. PMID:35833477 DOI:10.1080/10408398.2022.2098246
+11. Kolida S et al. A double-blind placebo-controlled study to establish the bifidogenic dose of inulin in healthy humans. Eur J Clin Nutr. 2007. PMID:17268410 DOI:10.1038/sj.ejcn.1602636
+12. Bouhnik Y et al. The capacity of nondigestible carbohydrates to stimulate fecal bifidobacteria in healthy humans: a double-blind, randomized, placebo-controlled, parallel-group, dose-response relation study. Am J Clin Nutr. 2004. PMID:15585783 DOI:10.1093/ajcn/80.6.1658
+13. Hiel S et al. Link between gut microbiota and health outcomes in inulin -treated obese patients: Lessons from the Food4Gut multicenter randomized placebo-controlled trial. Clin Nutr. 2020. PMID:32340903 DOI:10.1016/j.clnu.2020.04.005
+14. Kirschner SK et al. Short-chain fatty acid kinetics and concentrations are higher after inulin supplementation in young and older adults: a randomized trial. Am J Clin Nutr. 2025. PMID:40274191 DOI:10.1016/j.ajcnut.2025.04.018
+15. Collado Yurrita L et al. Effectiveness of inulin intake on indicators of chronic constipation; a meta-analysis of controlled randomized clinical trials. Nutr Hosp. 2014. PMID:25208775 DOI:10.3305/nh.2014.30.2.7565
+16. Abrams SA et al. An inulin-type fructan enhances calcium absorption primarily via an effect on colonic absorption in humans. J Nutr. 2007. PMID:17884999 DOI:10.1093/jn/137.10.2208
+17. Bakirhan H et al. Effects of inulin on calcium metabolism and bone health. Int J Vitam Nutr Res. 2023. PMID:33611985 DOI:10.1024/0300-9831/a000700
+18. Major G et al. Colon Hypersensitivity to Distension, Rather Than Excessive Gas Production, Produces Carbohydrate-Related Symptoms in Individuals With Irritable Bowel Syndrome. Gastroenterology. 2017. PMID:27746233 DOI:10.1053/j.gastro.2016.09.062
+19. Ghorbani Z et al. Reinforcing gut integrity: A systematic review and meta-analysis of clinical trials assessing probiotics, synbiotics, and prebiotics on intestinal permeability markers. Pharmacol Res. 2025. PMID:40378939 DOI:10.1016/j.phrs.2025.107780
+20. Singh V et al. Dysregulated Microbial Fermentation of Soluble Fiber Induces Cholestatic Liver Cancer. Cell. 2018. PMID:30340040 DOI:10.1016/j.cell.2018.09.004
+21. Singh V et al. Vancomycin prevents fermentable fiber-induced liver cancer in mice with dysbiotic gut microbiota. Gut Microbes. 2020. PMID:32223398 DOI:10.1080/19490976.2020.1743492
+22. Micka A et al. Effect of consumption of chicory inulin on bowel function in healthy subjects with constipation: a randomized, double-blind, placebo-controlled trial. Int J Food Sci Nutr. 2017. PMID:27492975 DOI:10.1080/09637486.2016.1212819
+23. Puhlmann ML et al. Inulin-induced improvements on bowel habit and gut microbiota in adults with functional constipation: findings of a randomized, double-blind, placebo-controlled study. BMC Gastroenterol. 2025. PMID:41233756 DOI:10.1186/s12876-025-04409-6
+24. Rao SSC et al. Efficacy and Safety of Over-the-Counter Therapies for Chronic Constipation: An Updated Systematic Review. Am J Gastroenterol. 2021. PMID:33767108 DOI:10.14309/ajg.0000000000001222
+25. Talukdar JR et al. The effects of inulin-type fructans on cardiovascular disease risk factors: systematic review and meta-analysis of randomized controlled trials. Am J Clin Nutr. 2024. PMID:38309832 DOI:10.1016/j.ajcnut.2023.10.030
+26. Liu F et al. Effect of inulin-type fructans on blood lipid profile and glucose level: a systematic review and meta-analysis of randomized controlled trials. Eur J Clin Nutr. 2017. PMID:27623982 DOI:10.1038/ejcn.2016.156
+27. Brighenti F. Dietary fructans and serum triacylglycerols: a meta-analysis of randomized controlled trials. J Nutr. 2007. PMID:17951501 DOI:10.1093/jn/137.11.2552S
+28. Wang L et al. Inulin-type fructans supplementation improves glycemic control for the prediabetes and type 2 diabetes populations: results from a GRADE-assessed systematic review and dose-response meta-analysis of 33 randomized controlled trials. J Transl Med. 2019. PMID:31805963 DOI:10.1186/s12967-019-02159-0
+29. Zhang W et al. Efficacy of inulin supplementation in improving insulin control, HbA1c and HOMA-IR in patients with type 2 diabetes: a systematic review and meta-analysis of randomized controlled trials. J Clin Biochem Nutr. 2020. PMID:32523243 DOI:10.3164/jcbn.19-103
+30. Li L et al. Assessing the effects of inulin-type fructan intake on body weight, blood glucose, and lipid profile: A systematic review and meta-analysis of randomized controlled trials. Food Sci Nutr. 2021. PMID:34401107 DOI:10.1002/fsn3.2403
+31. Reimer RA et al. The effects of chicory inulin-type fructans supplementation on weight management outcomes: systematic review, meta-analysis, and meta-regression of randomized controlled trials. Am J Clin Nutr. 2024. PMID:39313030 DOI:10.1016/j.ajcnut.2024.09.019
+32. [No authors listed]. Corrigendum to "The effects of chicory inulin-type fructans supplementation on weight management outcomes: systematic review, meta-analysis, and meta-regression of randomized controlled trials" [Am J Clin Nutr, 120 (2024), 1245-1258]. Am J Clin Nutr. 2025. PMID:40414749 DOI:10.1016/j.ajcnut.2025.05.013
+33. van den Heuvel EG et al. Oligofructose stimulates calcium absorption in adolescents. Am J Clin Nutr. 1999. PMID:10075343 DOI:10.1093/ajcn/69.3.544
+34. Wilson B et al. Prebiotics in irritable bowel syndrome and other functional bowel disorders in adults: a systematic review and meta-analysis of randomized controlled trials. Am J Clin Nutr. 2019. PMID:30949662 DOI:10.1093/ajcn/nqy376
+35. Staudacher HM et al. Fiber Supplementation in Irritable Bowel Syndrome: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. Gastroenterology. 2026. PMID:42600900 DOI:10.1053/j.gastro.2026.07.027
+36. Mou J et al. Assessing the Efficacy of Functional Food as Treatment for Irritable Bowel Syndrome with Constipation: A Systematic Review and Network Meta-Analysis. Nutr Rev. 2026. PMID:41217200 DOI:10.1093/nutrit/nuaf204
+37. Akçalı Ç et al. A randomized trial of inulin for bowel symptoms, depression and quality of life in constipation predominant IBS. Sci Rep. 2025. PMID:41034384 DOI:10.1038/s41598-025-16321-w
+38. Shremo Msdi A et al. Prebiotics Improve Blood Pressure Control by Modulating Gut Microbiome Composition and Function: A Systematic Review and Meta-Analysis. Nutrients. 2025. PMID:40806090 DOI:10.3390/nu17152502
+39. Asad A et al. Effects of Prebiotics and Probiotics on Symptoms of Depression and Anxiety in Clinically Diagnosed Samples: Systematic Review and Meta-analysis of Randomized Controlled Trials. Nutr Rev. 2025. PMID:39731509 DOI:10.1093/nutrit/nuae177
+40. Herkes S et al. Inulin, Containing Frutco-Oligosaccharides, and Generalized Anxiety Disorder 7-Item Scale Scores in College Students. J Med Food. 2026. PMID:41989194 DOI:10.1177/1096620X261421081
+41. Limketkai BN et al. Prebiotics for Induction and Maintenance of Remission in Inflammatory Bowel Disease: Systematic Review and Meta-Analysis. Inflamm Bowel Dis. 2025. PMID:38781004 DOI:10.1093/ibd/izae115
+42. Cedillo-Flores R et al. Impact of Gut Microbiome Modulation on Uremic Toxin Reduction in Chronic Kidney Disease: A Systematic Review and Network Meta-Analysis. Nutrients. 2025. PMID:40219004 DOI:10.3390/nu17071247
+43. Park H et al. A phase 2 randomized, placebo-controlled trial of inulin for the prevention of gut pathogen colonization and infection among patients admitted to the intensive care unit for sepsis. Crit Care. 2025. PMID:39806400 DOI:10.1186/s13054-024-05232-3
+44. Reimer RA et al. Effect of chicory inulin-type fructan-containing snack bars on the human gut microbiota in low dietary fiber consumers in a randomized crossover trial. Am J Clin Nutr. 2020. PMID:32320024 DOI:10.1093/ajcn/nqaa074
+45. Nicolucci AC et al. Prebiotics Reduce Body Fat and Alter Intestinal Microbiota in Children Who Are Overweight or With Obesity. Gastroenterology. 2017. PMID:28596023 DOI:10.1053/j.gastro.2017.05.055
+46. Bonnema AL et al. Gastrointestinal tolerance of chicory inulin products. J Am Diet Assoc. 2010. PMID:20497775 DOI:10.1016/j.jada.2010.03.025
+47. Alhasani AT et al. Mode of Action of Psyllium in Reducing Gas Production from Inulin and its Interaction with Colonic Microbiota: A 24-hour, Randomized, Placebo-Controlled Trial in Healthy Human Volunteers. J Nutr. 2025. PMID:39732438 DOI:10.1016/j.tjnut.2024.12.017
+48. Bruhwyler J et al. Digestive tolerance of inulin-type fructans: a double-blind, placebo-controlled, cross-over, dose-ranging, randomized study in healthy volunteers. Int J Food Sci Nutr. 2009. PMID:18608562 DOI:10.1080/09637480701625697
+49. Azpiroz F et al. Effect of Chicory-derived Inulin on Abdominal Sensations and Bowel Motor Function. J Clin Gastroenterol. 2017. PMID:27680592 DOI:10.1097/MCG.0000000000000723
+50. Chumpitazi BP et al. Fructans Exacerbate Symptoms in a Subset of Children With Irritable Bowel Syndrome. Clin Gastroenterol Hepatol. 2018. PMID:28970147 DOI:10.1016/j.cgh.2017.09.043
+51. Herfindal AM et al. Effects of fructan and gluten on gut microbiota in individuals with self-reported non-celiac gluten/wheat sensitivity-a randomised controlled crossover trial. BMC Med. 2024. PMID:39227818 DOI:10.1186/s12916-024-03562-1
+52. Gay-Crosier F et al. Anaphylaxis from inulin in vegetables and processed food. N Engl J Med. 2000. PMID:10798950 DOI:10.1056/NEJM200005043421814
+53. Franck P et al. Anaphylactic reaction to inulin: first identification of specific IgEs to an inulin protein compound. Int Arch Allergy Immunol. 2005. PMID:15650313 DOI:10.1159/000083323
+54. Oliero M et al. Colorectal cancer and inulin supplementation: the good, the bad, and the unhelpful. Gastroenterol Rep (Oxf). 2024. PMID:38984069 DOI:10.1093/gastro/goae058
+55. Sia T et al. Fructose malabsorption and fructan malabsorption are associated in patients with irritable bowel syndrome. BMC Gastroenterol. 2024. PMID:38654193 DOI:10.1186/s12876-024-03230-x
+56. Singh SK et al. Hereditary fructose intolerance: A comprehensive review. World J Clin Pediatr. 2022. PMID:36052111 DOI:10.5409/wjcp.v11.i4.321
+57. Mah E et al. Oral Fructanase Administration Reduces Gastrointestinal Symptom Severity after Acute Inulin Challenge in Healthy Adults. J Nutr. 2026. PMID:42580594 DOI:10.1016/j.tjnut.2026.101782
+58. Dixon SA et al. The effects of prebiotics on gastrointestinal side effects of metformin in youth: A pilot randomized control trial in youth-onset type 2 diabetes. Front Endocrinol (Lausanne). 2023. PMID:36909343 DOI:10.3389/fendo.2023.1125187
+59. Burton JH et al. Addition of a Gastrointestinal Microbiome Modulator to Metformin Improves Metformin Tolerance and Fasting Glucose Levels. J Diabetes Sci Technol. 2015. PMID:25802471 DOI:10.1177/1932296815577425
+60. Ojetti V et al. Efficacy of inulin supplementation in metabolic control and Akkermansia muciniphila levels in subjects with type 1 diabetes: a pilot study. Eur Rev Med Pharmacol Sci. 2026. PMID:41636295 DOI:10.26355/eurrev_202601_37645
+61. Lettieri JT et al. Effects of beano on the tolerability and pharmacodynamics of acarbose. Clin Ther. 1998. PMID:9663365 DOI:10.1016/s0149-2918(98)80059-3
+62. Gunn D et al. Psyllium reduces inulin-induced colonic gas production in IBS: MRI and in vitro fermentation studies. Gut. 2022. PMID:34353864 DOI:10.1136/gutjnl-2021-324784
+63. Dellschaft N et al. Clinical Trial: Randomised Placebo-Controlled Trial of Methylcellulose and Psyllium Gels on Inulin-Induced Colonic Gas. Aliment Pharmacol Ther. 2026. PMID:42728685 DOI:10.1111/apt.70964
+64. Roshanravan N et al. Effects of oral butyrate and inulin supplementation on inflammation-induced pyroptosis pathway in type 2 diabetes: A randomized, double-blind, placebo-controlled trial. Cytokine. 2020. PMID:32315958 DOI:10.1016/j.cyto.2020.155101
+65. Iino C et al. Green Tea Catechin Plus Inulin Improves Insulin Resistance Without Reducing Visceral Fat and Shows Exploratory Gut Microbiota Signals in Adults with Visceral Obesity: A Double-Blind Randomized Controlled Trial. Nutrients. 2026. PMID:41830022 DOI:10.3390/nu18050851
+66. Drabińska N et al. Beneficial Effect of Oligofructose-Enriched Inulin on Vitamin D and E Status in Children with Celiac Disease on a Long-Term Gluten-Free Diet: A Preliminary Randomized, Placebo-Controlled Nutritional Intervention Study. Nutrients. 2018. PMID:30445682 DOI:10.3390/nu10111768
+67. Rezaie A et al. Hydrogen and Methane-Based Breath Testing in Gastrointestinal Disorders: The North American Consensus. Am J Gastroenterol. 2017. PMID:28323273 DOI:10.1038/ajg.2017.46
+68. Ibrahim F. Rapidly fermentable prebiotic substrates: Benefits, FODMAP effects and host tolerance. Clin Nutr ESPEN. 2026. PMID:42762890 DOI:10.1016/j.clnesp.2026.105130
+69. Bieglecka K et al. Effect of Inulin-Type Fructans on Body Composition, Carbohydrate Metabolism and Energy Expenditure in Patients with Psoriasis: Results of INGUTSKIN Randomized Controlled Trial. Nutrients. 2026. PMID:42356231 DOI:10.3390/nu18121843
+70. Li J et al. Differential effects of inulin and fructooligosaccharides on gut microbiota composition and glycemic metabolism in overweight/obese and healthy individuals: a randomized, double-blind clinical trial. BMC Med. 2025. PMID:40598275 DOI:10.1186/s12916-025-04189-6
+71. Mayengbam S et al. Effects of combined prebiotic fiber supplementation and weight loss counseling in adults with metabolic dysfunction-associated steatotic liver disease: a randomized controlled trial. Eur J Nutr. 2025. PMID:40172664 DOI:10.1007/s00394-025-03660-7

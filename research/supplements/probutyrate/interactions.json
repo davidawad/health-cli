@@ -4,31 +4,418 @@
   "slug": "probutyrate",
   "aliases": [
     "Tesseract ProButyrate",
-    "sustained-release butyric acid"
+    "ProButyrate (Tesseract Medical Research)",
+    "sustained-release butyric acid",
+    "butyric acid complex",
+    "butyrate",
+    "oral butyrate"
   ],
-  "category": "probiotic-prebiotic",
+  "category": "other",
   "rx_status": "otc",
-  "evidence_certainty_overall": "very-low",
+  "evidence_certainty_overall": "low",
   "edges": [
+    {
+      "with": "Tributryn",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Tributyrin is a butyrate prodrug with the same active moiety; combining duplicates butyrate exposure without evidence of added benefit.",
+      "evidence": "Tributyrin PK/safety studies; no combination study",
+      "citations": [
+        "PMID:12736763",
+        "PMID:41271518"
+      ]
+    },
     {
       "with": "inulin",
       "with_kind": "supplement",
       "kind": "synergy",
       "severity": "minor",
-      "mechanism": "Inulin fermentation can produce endogenous short-chain fatty acids including butyrate; additive clinical benefit with supplemental butyrate is untested",
-      "evidence": "Mechanistic relationship only; no direct combination trial",
+      "mechanism": "Butyrogenic fibre raises colonic butyrate; sodium butyrate plus inulin lowered fasting glucose and waist-to-hip ratio (within-group) and raised GLP-1 vs placebo in T2D.",
+      "evidence": "Four-arm RCT in T2D (n=60, 45 days) plus fibre MA; low certainty",
       "citations": [
-        "PMID:38309832",
-        "DOI:10.1038/nrgastro.2017.51"
+        "PMID:28962046",
+        "PMID:32315958",
+        "PMID:29757343"
+      ]
+    },
+    {
+      "with": "GOS",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "GOS is bifidogenic; one crossover RCT (16 g/d) reduced butyrate-producing Ruminococcus and raised fasting glucose, while a GOS-containing blend increased butyrate producers. Net effect on butyrate inconsistent.",
+      "evidence": "Two small RCTs; very low certainty",
+      "citations": [
+        "PMID:28924143",
+        "PMID:39064648"
+      ]
+    },
+    {
+      "with": "Acarbose",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Acarbose increases starch reaching the colon, raising faecal butyrate (22-28 vs 18-19 mol/100 mol) and serum butyrate (4.2 vs 2.6 uM); additive butyrate exposure with supplemental butyrate.",
+      "evidence": "Two RCTs of acarbose; no combination study",
+      "citations": [
+        "PMID:9164992",
+        "PMID:10961161"
+      ]
+    },
+    {
+      "with": "Metformin ER",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Sodium butyrate improved CGM time-in-tight-range/HbA1c in some T2D RCTs; metformin enriches microbial butanoate pathways. Possible small additive glucose lowering.",
+      "evidence": "RCTs of butyrate in T2D; observational/pilot metformin microbiome data; no combination study",
+      "citations": [
+        "PMID:41880673",
+        "PMID:41974937",
+        "PMID:38871078"
+      ]
+    },
+    {
+      "with": "Berberine",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Berberine RCTs show depletion of butyrate-producing taxa alongside glucose/lipid improvements; may oppose endogenous butyrate production while adding glucose lowering.",
+      "evidence": "SR of 7 RCTs (microbiome outcomes); hypothesis-generating",
+      "citations": [
+        "PMID:42356246",
+        "PMID:41880673"
+      ]
+    },
+    {
+      "with": "Vitamin B2",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Riboflavin 50-100 mg/d increased faecal butyrate production without major microbiota shifts.",
+      "evidence": "Single RCT (RIBOGUT); very low certainty",
+      "citations": [
+        "PMID:35943883"
+      ]
+    },
+    {
+      "with": "EPA/DHA/DPA",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Fish oil plus soluble fibre lowered Roseburia butyrate-kinase gene abundance vs comparator, without changing faecal butyrate.",
+      "evidence": "Crossover RCT (n=30); clinical relevance unknown",
+      "citations": [
+        "PMID:40754387"
+      ]
+    },
+    {
+      "with": "mesalazine (5-ASA)",
+      "with_kind": "drug",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Oral butyrate 4 g/d plus mesalazine gave greater improvement from baseline than mesalazine alone; MSB add-on to standard UC therapy improved remission.",
+      "evidence": "Pilot RCT (n=30) and multicentre RCT (n=98); low certainty",
+      "citations": [
+        "PMID:10795763",
+        "PMID:41422374",
+        "PMID:41107619"
+      ]
+    },
+    {
+      "with": "antihypertensives",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Oral sodium butyrate raised daytime systolic BP +9.63 mmHg and diastolic +5.08 mmHg over 4 weeks in hypertension (medication withdrawn); may counteract BP control.",
+      "evidence": "Single RCT (n=23) plus SR finding inconsistent direct effects",
+      "citations": [
+        "PMID:39034917",
+        "PMID:42775036"
+      ]
+    },
+    {
+      "with": "antidiabetic drugs",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Sodium butyrate reduced HbA1c/HOMA-IR or improved CGM metrics in some T2D trials; additive glucose lowering possible but small and inconsistent.",
+      "evidence": "Small RCTs; one 6-week RCT without between-group glycemic effect",
+      "citations": [
+        "PMID:41880673",
+        "PMID:41974937",
+        "PMID:35623879"
+      ]
+    },
+    {
+      "with": "valproate",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Both valproic acid and butyrate are HDAC inhibitors; additive HDAC inhibition (including embryotoxicity) is theoretical.",
+      "evidence": "Mechanistic reviews only; no clinical interaction study",
+      "citations": [
+        "PMID:24502598",
+        "PMID:39276955"
+      ]
+    },
+    {
+      "with": "HDAC inhibitor anticancer drugs",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Butyrate/tributyrin act via HDAC inhibition and epigenetic modulation; overlapping pharmacology with drugs such as vorinostat is theoretical.",
+      "evidence": "Mechanistic reviews; no clinical interaction study",
+      "citations": [
+        "PMID:24502598",
+        "PMID:23140283"
+      ]
+    },
+    {
+      "with": "levodopa",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "SCFA (propionate + butyrate) supplementation in Parkinson's disease coincided with clinically relevant reductions in levodopa medication.",
+      "evidence": "RCT (n=72) without placebo-only arm; open-label tributyrin study",
+      "citations": [
+        "PMID:41350593",
+        "PMID:41271518"
+      ]
+    },
+    {
+      "with": "antibiotics",
+      "with_kind": "drug-class",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Antibiotics deplete commensal bacteria and disrupt the barrier; butyrate supplementation is proposed to mitigate antibiotic-induced dysbiosis.",
+      "evidence": "Narrative review; no human RCT",
+      "citations": [
+        "PMID:33198506"
+      ]
+    },
+    {
+      "with": "hypertension",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Oral sodium butyrate increased 24-h daytime BP in hypertensive adults; colon-targeted enema lowered BP acutely; direct effects inconsistent.",
+      "evidence": "RCT (n=23), crossover (n=20), SR",
+      "citations": [
+        "PMID:39034917",
+        "PMID:40736085",
+        "PMID:42775036"
+      ]
+    },
+    {
+      "with": "pregnancy",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "No human data; HDAC inhibitors including sodium butyrate induce congenital malformations in experimental embryo studies; label advises consulting a practitioner.",
+      "evidence": "Review of experimental teratology; product label",
+      "citations": [
+        "PMID:24502598",
+        "URL:https://www.professionalsupplementcenter.com/products/probutyrate-by-tesseract-medical-research"
+      ]
+    },
+    {
+      "with": "inflammatory bowel disease",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Adjunct only: oral/microencapsulated butyrate may aid remission in adult UC/CD, but showed no benefit in pediatric IBD.",
+      "evidence": "RCTs and SRs; low certainty",
+      "citations": [
+        "PMID:41422374",
+        "PMID:36014789",
+        "PMID:42646603"
+      ]
+    },
+    {
+      "with": "liver impairment",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "The liver takes up absorbed butyrate; a participant with pre-existing liver impairment discontinued sustained-release calcium butyrate.",
+      "evidence": "Mechanistic human flux study; single dropout in RCT",
+      "citations": [
+        "PMID:26156796",
+        "PMID:41628665"
+      ]
+    },
+    {
+      "with": "faecal calprotectin",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "True physiological decrease with butyrate in UC/IBD trials; interpret disease-activity markers accordingly.",
+      "evidence": "RCTs",
+      "citations": [
+        "PMID:39003477",
+        "PMID:41422374",
+        "PMID:41354580"
+      ]
+    },
+    {
+      "with": "stool short-chain fatty acid testing",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Oral butyrate alters plasma and faecal SCFA profiles (faecal butyrate sometimes unchanged), so stool SCFA tests during supplementation may not reflect endogenous production.",
+      "evidence": "RCTs measuring SCFAs",
+      "citations": [
+        "PMID:31915895",
+        "PMID:29799027",
+        "PMID:39034917"
+      ]
+    },
+    {
+      "with": "lactulose hydrogen breath test",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Microencapsulated sodium butyrate reduced the frequency of positive lactulose hydrogen breath tests in T2D with IBS.",
+      "evidence": "Single RCT (n=52)",
+      "citations": [
+        "PMID:41974937"
       ]
     }
   ],
   "citations": [
-    "DOI:10.1038/nrgastro.2017.51",
-    "DOI:10.1038/nrgastro.2017.51\n-",
-    "PMID:38309832",
-    "PMID:38309832\n-",
+    "DOI:10.1001/jamanetworkopen.2022.44912",
+    "DOI:10.1002/jpn3.70154",
+    "DOI:10.1007/s00011-025-02112-6",
+    "DOI:10.1007/s00125-019-05073-8",
+    "DOI:10.1007/s00280-003-0580-5",
+    "DOI:10.1007/s00384-013-1807-5",
+    "DOI:10.1007/s00394-025-03656-3",
+    "DOI:10.1007/s10620-025-09536-4",
+    "DOI:10.1007/s13679-026-00694-8",
+    "DOI:10.1016/0016-5085(92)91094-k",
+    "DOI:10.1016/j.ajcnut.2025.04.031",
+    "DOI:10.1016/j.bbi.2025.106237",
+    "DOI:10.1016/j.clnesp.2022.03.008",
+    "DOI:10.1016/j.clnu.2026.106624",
+    "DOI:10.1016/j.cyto.2020.155101",
+    "DOI:10.1016/j.dld.2025.11.014",
+    "DOI:10.1016/j.gaitpost.2025.06.016",
+    "DOI:10.1016/j.ijbiomac.2025.142017",
+    "DOI:10.1016/j.joca.2026.01.630",
+    "DOI:10.1016/j.metabol.2024.155941",
+    "DOI:10.1016/j.neurot.2025.e00791",
+    "DOI:10.1016/j.phrs.2024.107410",
+    "DOI:10.1016/j.pnpbp.2024.110939",
+    "DOI:10.1016/j.rmed.2023.107510",
+    "DOI:10.1016/j.tmaid.2013.08.008",
+    "DOI:10.1016/s0140-6736(00)02787-2",
+    "DOI:10.1023/a:1005537411244",
+    "DOI:10.1038/s41424-018-0025-4",
+    "DOI:10.1038/s41598-017-10722-2",
+    "DOI:10.1038/s41598-025-29692-x",
+    "DOI:10.1038/s41598-026-47309-9",
+    "DOI:10.1046/j.1365-2036.1996.d01-509.x",
+    "DOI:10.1055/s-0043-119089",
+    "DOI:10.1080/10408398.2020.1843396",
+    "DOI:10.1080/19490976.2025.2545414",
+    "DOI:10.1089/ars.2022.0033",
+    "DOI:10.1093/ajcn/nqy041",
+    "DOI:10.1093/jn/127.5.717",
+    "DOI:10.1097/MD.0000000000014513",
+    "DOI:10.1111/cea.70127",
+    "DOI:10.1111/j.1365-2036.2005.02639.x",
+    "DOI:10.1111/j.1365-2036.2007.03562.x",
+    "DOI:10.1111/j.1463-1318.2012.03152.x",
+    "DOI:10.1111/nmo.13914",
+    "DOI:10.1161/HYPERTENSIONAHA.123.22437",
+    "DOI:10.1161/JAHA.124.039759",
+    "DOI:10.1186/s12876-020-01577-5",
+    "DOI:10.1186/s12944-024-02203-z",
+    "DOI:10.12659/MSM.948912",
+    "DOI:10.2174/1381612820666140205144900",
+    "DOI:10.2174/138945012804545443",
+    "DOI:10.3389/fnut.2025.1603490",
+    "DOI:10.3390/ijms26125561",
+    "DOI:10.3390/jcm14010006",
+    "DOI:10.3390/medsci14040469",
+    "DOI:10.3390/nu14163283",
+    "DOI:10.3390/nu16142205",
+    "DOI:10.3390/nu16152454",
+    "DOI:10.3390/nu16193384",
+    "DOI:10.3390/nu18121858",
+    "DOI:10.3748/wjg.v13.i7.1079",
+    "DOI:10.3748/wjg.v17.i12.1519",
+    "DOI:10.3945/ajcn.111.017228",
+    "DOI:10.3945/jn.115.211193",
+    "DOI:10.7759/cureus.115011",
+    "PMID:10795763",
+    "PMID:10961161",
+    "PMID:11072942",
+    "PMID:12736763",
+    "PMID:1612357",
+    "PMID:16225487",
+    "PMID:17373743",
+    "PMID:17973645",
+    "PMID:21472114",
+    "PMID:21940597",
+    "PMID:22738315",
+    "PMID:23140283",
+    "PMID:24063909",
+    "PMID:24343275",
+    "PMID:24502598",
+    "PMID:26156796",
+    "PMID:28924143",
+    "PMID:28962046",
+    "PMID:29757343",
+    "PMID:29799027",
+    "PMID:30762787",
+    "PMID:31915895",
+    "PMID:32315958",
+    "PMID:32476236",
+    "PMID:33198506",
+    "PMID:33407171",
+    "PMID:35623879",
+    "PMID:35943883",
+    "PMID:36014789",
+    "PMID:36469320",
+    "PMID:38135194",
+    "PMID:38199487",
+    "PMID:38871078",
+    "PMID:39003477",
+    "PMID:39034917",
+    "PMID:39064648",
+    "PMID:39125336",
+    "PMID:39276955",
+    "PMID:39408351",
+    "PMID:39797089",
+    "PMID:40081693",
+    "PMID:40167641",
+    "PMID:40557239",
+    "PMID:40565024",
+    "PMID:40577952",
+    "PMID:40635319",
+    "PMID:40736085",
+    "PMID:40754387",
+    "PMID:40804708",
+    "PMID:40810534",
+    "PMID:41107619",
+    "PMID:41238998",
+    "PMID:41271518",
+    "PMID:41350593",
+    "PMID:41354580",
+    "PMID:41422374",
+    "PMID:41429215",
+    "PMID:41628665",
+    "PMID:41779349",
+    "PMID:41880673",
+    "PMID:41974937",
+    "PMID:42356246",
+    "PMID:42646603",
+    "PMID:42775036",
+    "PMID:8899080",
+    "PMID:9164992",
     "URL:https://drhyman.com/products/probutyrate",
-    "URL:https://drhyman.com/products/probutyrate\n"
+    "URL:https://www.professionalsupplementcenter.com/products/probutyrate-by-tesseract-medical-research"
   ]
 }

@@ -3,49 +3,215 @@
 :ID: supp-aspirin
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: acetylsalicylic acid | ASA
+:ALIASES: acetylsalicylic acid | ASA | low-dose aspirin | baby aspirin | aspirin 81 mg | enteric-coated aspirin | Durlaza
 :CATEGORY: rx
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Inhibits platelet cyclooxygenase-1 irreversibly at low doses, reducing thromboxane A2; analgesic and anti-inflammatory effects at higher doses [PMID:19482214].
+- Acetylsalicylic acid is a non-selective COX inhibitor (NSAID). It is sold over the counter as immediate-release (chewable, plain) and enteric-coated/delayed-release tablets (usually 81 mg in the US, 75-100 mg elsewhere, 325 mg analgesic strength). An extended-release capsule (Durlaza) is prescription-only [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=72b16a5c-825f-4f3f-a8b3-b723e4242da7] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4c2a1403-3862-1efd-0a91-444989222b37].
+- Aspirin is rapidly deacetylated to salicylic acid (plasma half-life of aspirin 20-60 min). It is excreted in urine mainly as salicylic acid metabolites, including phenolic and acyl glucuronides [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4c2a1403-3862-1efd-0a91-444989222b37].
+- Enteric coating delays and reduces absorption. After a single 325 mg dose, up to 49% of healthy volunteers looked "aspirin-resistant" on enteric-coated aspirin vs 0% on immediate-release. No true pharmacological resistance was found among 400 people [PMID:23212718].
 
 ** Mechanisms
-- At low antiplatelet doses, aspirin acetylates platelet COX-1 irreversibly, lowering thromboxane A2 for the remaining platelet lifespan; endothelial prostacyclin can recover because endothelial cells can synthesize new enzyme [PMID:19482214].
+- Antiplatelet: aspirin acetylates a serine in platelet COX-1 and inactivates it irreversibly. This blocks thromboxane A2 for the life of the platelet (7-10 days) [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4c2a1403-3862-1efd-0a91-444989222b37]. Once-daily 75-100 mg fully suppresses platelet COX-1 [PMID:41592353].
+- Anticancer hypotheses: platelet TXA2 may drive COX-2/PGE2 induction at gastrointestinal mucosal lesions and suppress T-cell anticancer immunity. This is supported by mechanistic and biomarker studies, not proven in humans [PMID:41592353]. In Add-Aspirin, 100 mg/d lowered urinary thromboxane metabolite by about 77-82%; 300 mg added nothing [PMID:37420000].
+- GI bleeding risk is raised across the 75-325 mg/d range. Neither dose nor duration consistently changed the relative risk of upper GI bleeding [PMID:27490468].
+- Urate: aspirin handles uric acid in two directions. Low doses cause urate retention and high doses (>3 g/d) are uricosuric. Even 75 mg/d reduced urate excretion by 15% in elderly inpatients [PMID:10643705].
+- Respiratory: NSAID-exacerbated respiratory disease (N-ERD/AERD) is a chronic eosinophilic airway disorder in which aspirin and other NSAIDs worsen asthma and rhinosinusitis symptoms [PMID:30216468].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---------+--------------------+-----------+-------------+-----------------------+-----------|
-| Primary cardiovascular prevention | SR/MA, 14 RCTs, n=167,587 | MACE reduced; bleeding increased | MACE RR 0.90 (0.86–0.94); intracranial hemorrhage RR 1.33; extracranial major bleed RR 1.67 | high | [PMID:38204851] |
-| Secondary prevention | Individual participant meta-analysis, RCTs | Vascular events reduced | Large net benefit in established occlusive vascular disease; magnitude varies by baseline risk | high | [PMID:19482214] |
-| Colorectal cancer prevention | Long-term RCT follow-up/meta-analysis | Possible delayed reduction; uncertain | Not a short-term indication; benefit latency and bleeding trade-off | low | [PMID:19482214] |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Secondary prevention of vascular events | IPD MA of 16 RCTs (n=17,000) | Benefit | Serious vascular events 6.7% vs 8.2%/yr; total stroke and coronary events reduced by about a fifth | high | [PMID:19482214] |
+| Primary prevention: MACE | SR/MA of 14 RCTs (n=167,587), GRADE | Small benefit | RR 0.90 (0.86-0.94); ATT: 12% proportional reduction (0.51% vs 0.57%/yr) | high | [PMID:38204851] [PMID:19482214] [PMID:35471505] |
+| Primary prevention: major bleeding/ICH | Same MA; ASPREE; ASCEND | Harm | ICH RR 1.33 (1.13-1.56); extracranial major bleeding RR 1.67 (1.36-2.06) | high | [PMID:38204851] [PMID:30221597] [PMID:30146931] |
+| Primary prevention, age >=70 (ASPREE) | RCT n=19,114, 100 mg EC, 4.7 y plus extended follow-up | No CV benefit; harm | CVD HR 0.95 (0.83-1.08); major hemorrhage HR 1.38 (1.18-1.62); all-cause death HR 1.14 (1.01-1.29); long-term MACE HR 1.04 | high | [PMID:30221597] [PMID:30221595] [PMID:30221596] [PMID:40796244] |
+| Primary prevention, diabetes (ASCEND) | RCT n=15,480, 100 mg, 7.4 y | Benefit offset by bleeding | Serious vascular events RR 0.88 (0.79-0.97); major bleeding RR 1.29 (1.09-1.52) | high | [PMID:30146931] |
+| Primary prevention, moderate risk (ARRIVE) | RCT n=12,546, 100 mg EC | No benefit | Primary endpoint HR 0.96 (0.81-1.13); GI bleeding HR 2.11 (1.36-3.28) | moderate | [PMID:30158069] |
+| Primary prevention, CKD | MA of 6 RCTs + 5 cohorts | Possible benefit with more bleeding | RCT MACE HR 0.79 (0.64-0.97); major bleeding RR 1.35; null when cohorts were added | low | [PMID:38296933] |
+| Primary prevention, elevated Lp(a)/LPA variants | Two 2026 SR/MAs (6-7 studies) | Uncertain | MACE HR 0.60 (0.31-1.17) and HR 0.99 (0.79-1.24); possible benefit in rs3798220-C carriers (HR 0.37-0.39) | very low | [PMID:42138694] [PMID:42018111] [PMID:36175048] |
+| Dose in established ASCVD (81 vs 325 mg) | Pragmatic RCT n=15,076 (ADAPTABLE) | No difference | Death/MI/stroke HR 1.02 (0.91-1.14); major bleeding HR 1.18 (0.79-1.77) | moderate | [PMID:33999548] |
+| Colorectal cancer, general population | 20-y follow-up of 4 RCTs (n=14,033) | Delayed benefit | Colon cancer incidence HR 0.76 (0.60-0.96); proximal colon about 70% reduction with >=5 y treatment | moderate | [PMID:20970847] |
+| Colorectal cancer, Lynch syndrome | RCT CAPP2 (600 mg, n=861); CaPP3 dose trial (n=1866) | Benefit | CAPP2 CRC HR 0.65 (0.43-0.97); CaPP3 100 mg vs 600 mg HR 0.97 (0.67-1.42) with less bleeding | moderate | [PMID:32534647] [PMID:42425127] |
+| Cancer, age >=70 | ASPREE RCT + 10-y follow-up | No benefit; cancer death up | Incidence HR 0.98 (CRC HR 1.01); cancer mortality HR 1.15 (1.03-1.29); stage 4 at diagnosis HR 1.22 | moderate | [PMID:41609798] [PMID:32778876] |
+| Adjuvant therapy, PIK3CA-mutated CRC | MA of 4 RCTs (n=789); ASCOLT TR | Possible DFS benefit | DFS HR 0.65 (0.46-0.90); exon 9/20 HR 0.61 (0.39-0.96); OS not significant | low | [PMID:41621633] [PMID:42475879] |
+| Adjuvant therapy after resected CRC liver metastases | RCT ASAC (160 mg, n=428) | No benefit, possible harm | DFS HR 1.08 (0.85-1.38); OS death HR 1.64 (1.01-2.65) | moderate | [PMID:42777749] |
+| Barrett's oesophagus outcomes | Factorial RCT AspECT (n=2557) | Possible benefit | Aspirin TR 1.24 (0.98-1.57, NS); combined with high-dose PPI TR 1.59 | low | [PMID:30057104] |
+| Preterm preeclampsia (high-risk pregnancy) | RCT ASPRE (150 mg, n=1776) | Benefit | 1.6% vs 4.3%; OR 0.38 (0.20-0.74) | high | [PMID:28657417] |
+| AERD: aspirin desensitization | MA of 5 RCTs (n=233) | Benefit with more AEs | SNOT-22 MD -10.27; discontinuation AEs RR 4.39 | moderate | [PMID:31518069] |
 
 ** Dosing in trials
-- Cardiovascular RCTs most often used 75–100 mg/day; analgesic/anti-inflammatory trials use higher doses, with dose-related GI and renal toxicity. Enteric-coated and immediate-release tablets are studied; enteric coating does not eliminate major bleeding [PMID:38204851; PMID:19482214].
+- Cardiovascular primary prevention: 100 mg/d (enteric-coated in ASPREE and ARRIVE) [PMID:30221597] [PMID:30158069] [PMID:30146931].
+- Secondary prevention: 81 mg was as effective as 325 mg. Patients assigned 325 mg often switched to 81 mg (41.6% vs 7.1%) [PMID:33999548].
+- Bodyweight modified the effect in an IPD analysis of 10 trials (n=117,279). 75-100 mg reduced events only below 70 kg (HR 0.75); doses >=325 mg helped only at higher weight [PMID:30017552].
+- Lynch syndrome: 600 mg/d (CAPP2). CaPP3 suggests 100 mg is similar to 600 mg with fewer bleeds (serious bleeding 0% vs 1.5%) [PMID:32534647] [PMID:42425127].
+- Adjuvant cancer trials: 100 or 300 mg/d (Add-Aspirin); 160 mg/d (ASAC) [PMID:31477558] [PMID:42777749].
+- Preeclampsia: 150 mg/d from 11-14 to 36 weeks [PMID:28657417].
+- AERD desensitization: a mean of about 800 mg/d [PMID:31518069].
+- OTC analgesic label (81 mg delayed-release): 4-8 tablets (324-648 mg) every 4 h, maximum 48 tablets (about 3.9 g) per 24 h, for adults and children 12 years and older [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=72b16a5c-825f-4f3f-a8b3-b723e4242da7].
 
 ** Safety & adverse effects
-- Dyspepsia, ulceration, GI bleeding, intracranial hemorrhage, bronchospasm/hypersensitivity and renal injury are recognized risks; major bleeding is increased in primary-prevention trials [PMID:38204851]. Aspirin irreversibly inhibits platelet function for platelet lifespan [PMID:19482214].
+- Major bleeding is the key harm.
+  - ASPREE: major hemorrhage 8.6 vs 6.2 per 1000 person-years [PMID:30221597].
+  - Upper GI bleeding HR 1.87. Absolute 5-year risk ranged from 0.25% (age 70, no aspirin) to 5.03% (age 80 on aspirin with risk factors) [PMID:32747412].
+  - Intracranial bleeding HR 1.38 (1.03-1.84), with no significant reduction in ischemic stroke [PMID:37494038].
+  - Observational meta-analysis: GI bleeding RR 1.4 and ICH RR 1.4 with 75-325 mg/d [PMID:27490468].
+- Anemia and iron loss: aspirin raised incident anemia (HR 1.20) and lowered ferritin by 11.5% in older adults, even without major bleeding [PMID:37335992].
+- Older adults: excess all-cause mortality (HR 1.14), mainly cancer deaths [PMID:30221595]. Higher rate of advanced-stage cancer [PMID:32778876]. MACE rose after aspirin stopped in post-trial follow-up (HR 1.17) [PMID:40796244].
+- Perioperative and adjuvant cancer settings: in ASAC, aspirin caused more serious AEs (8% vs 2%), including duodenal ulcer and cerebral haemorrhage [PMID:42777749].
+- Reye syndrome: rare encephalopathy with liver failure, historically linked to salicylates during viral illness (influenza B, varicella) in children. The label warns children and teenagers [PMID:41362566] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=72b16a5c-825f-4f3f-a8b3-b723e4242da7]. A dissenting review argues the causal evidence is weaker than assumed [PMID:17523700].
+- Hypersensitivity: AERD affects about 7% of adult asthmatics and about 15% of those with severe asthma [PMID:25282015]. The label warns of hives, facial swelling, shock and asthma [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=72b16a5c-825f-4f3f-a8b3-b723e4242da7].
+- Urate and gout: low-dose aspirin on 2 consecutive days was associated with recurrent gout attacks (OR 1.81; OR 1.91 at <=100 mg). Allopurinol removed the effect [PMID:23345599]. A 2-week RCT subanalysis found no rise in serum urate at 50-100 mg [PMID:32196623].
+- G6PD deficiency: occasional hemolysis, including a late-onset case on 100 mg/d followed by fatal subdural hemorrhage. Safety evidence is contradictory [PMID:33313989] [PMID:38292218].
+- Overdose/salicylism: respiratory alkalosis plus anion-gap metabolic acidosis, tinnitus, seizures and pulmonary edema. Hemodialysis is used for severe cases [PMID:41049912].
+- Pregnancy: avoid in the third trimester (premature ductus closure; maternal and neonatal hemostasis effects) unless directed. Low-dose use for preeclampsia is the exception [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4c2a1403-3862-1efd-0a91-444989222b37] [PMID:28657417].
 
 ** Contraindications
-- Avoid in active bleeding/peptic ulcer, aspirin/NSAID hypersensitivity (including aspirin-exacerbated respiratory disease), children/adolescents with viral illness (Reye syndrome risk), and around procedures when bleeding risk is unacceptable; pregnancy late gestation requires clinician-directed use. These label-based contraindications are in FDA/DailyMed aspirin labeling [URL:https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=aspirin].
+- NSAID hypersensitivity, or the syndrome of asthma, rhinitis and nasal polyps (labeled contraindication) [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4c2a1403-3862-1efd-0a91-444989222b37] [PMID:30216468].
+- Children and teenagers with or recovering from chickenpox or flu-like illness (Reye syndrome) [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=72b16a5c-825f-4f3f-a8b3-b723e4242da7].
+- Active peptic ulcer or bleeding, or high bleeding risk. The USPSTF population excluded people at increased bleeding risk [PMID:35471505] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4c2a1403-3862-1efd-0a91-444989222b37].
+- Primary prevention starting at age 60 or older: USPSTF grade D (no net benefit) [PMID:35471505].
+- Third trimester of pregnancy and the week before delivery. Severe hepatic impairment. GFR <10 mL/min [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4c2a1403-3862-1efd-0a91-444989222b37].
 
 ** Interactions
-- Anticoagulants, antiplatelets, other NSAIDs, systemic corticosteroids and alcohol can increase bleeding; ibuprofen may competitively blunt low-dose aspirin platelet inhibition depending on timing; methotrexate toxicity and renal effects with ACE inhibitors/diuretics are described in FDA labeling [URL:https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=aspirin]. Ginger and curcumin have antiplatelet signals, but clinical additive-bleeding evidence is limited [PMID:35623903].
+*** Drugs
+- Oral anticoagulants: any bleeding with OAC plus aspirin vs OAC alone, OR 1.36 (RCTs) and 1.42 (observational studies) [PMID:38263263].
+- Ibuprofen: taken before aspirin, it blocks aspirin's irreversible platelet inhibition [PMID:11752357].
+  - FDA advice for immediate-release 81 mg aspirin: take ibuprofen 400 mg at least 30 min after aspirin or at least 8 h before it. No timing advice is possible for enteric-coated aspirin [URL:https://www.fda.gov/media/76636/download] [PMID:17844731].
+  - Durlaza label: take ibuprofen 2-4 h or more after a dose [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4c2a1403-3862-1efd-0a91-444989222b37].
+- Naproxen also interferes with platelet COX-1 inhibition by aspirin [PMID:15837265]. Diclofenac, acetaminophen and rofecoxib did not [PMID:11752357].
+- Other NSAIDs: additive GI bleeding (pooled observational data) [PMID:27490468].
+- SSRIs: in UK Biobank aspirin users, GI bleeding aHR 1.27 (1.01-1.58); paroxetine aHR 1.73 [PMID:41435617]. Also increased in an observational meta-analysis [PMID:27490468].
+- PPIs: reduce upper GI bleeding on aspirin.
+  - Meta-analysis of RCTs vs placebo: RR 0.30 (0.19-0.46). Non-randomized data suggest more lower GI bleeding (RR 2.85) [PMID:42479073].
+  - COMPASS: pantoprazole did not reduce overall upper GI events (HR 0.88) but reduced bleeding gastroduodenal lesions (HR 0.52) [PMID:31054846].
+- Methotrexate:
+  - The label says salicylate can inhibit renal methotrexate clearance and cause marrow toxicity [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4c2a1403-3862-1efd-0a91-444989222b37].
+  - PK study with high-dose ASA (about 3.4 g/d): clearance fell only after excluding one outlier; exposure to 7-OH-MTX rose [PMID:2273459].
+  - Low-dose aspirin did not delay elimination of high-dose MTX in one cohort [PMID:28705331]. A Cochrane review found low-to-moderate-quality data without clear harm in RA [PMID:22071858].
+- Other labeled interactions: RAS inhibitors and diuretics (renal impairment); phenytoin and valproate displacement [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4c2a1403-3862-1efd-0a91-444989222b37].
+- Urate-lowering therapy: low-dose aspirin causes urate retention [PMID:10643705]. Allopurinol cancelled the aspirin-linked increase in gout attacks [PMID:23345599].
+*** Other supplements
+- EPA/DHA/DPA (omega-3): an MA of 11 RCTs (n=120,643) found no overall bleeding increase (RR 1.09), and background antiplatelet therapy did not modify risk. Bleeding was higher with high-dose purified EPA [PMID:38742535]. In 182 patients on fish oil plus aspirin and clopidogrel, there was no excess bleeding [PMID:19801023].
+- Vitamin E: raised hemorrhagic stroke risk (RR 1.22) in an MA of RCTs [PMID:21051774]. In the PPP factorial trial, vitamin E 300 mg added no benefit to aspirin [PMID:11197445].
+- Garlic: no measurable effect on platelet aggregation at up to 3 tablets/d, but 30% of the high-dose group reported bleeding [PMID:27761425]. In vitro and human antiplatelet signals are reviewed in [PMID:25839871].
+- Garlic (Kyolic): aged garlic extract with warfarin showed no excess bleeding in a small RCT [PMID:16484565].
+- Turmeric and Curcumin: the Meriva curcumin formulation did not change bleeding time on aspirin over 10 days [PMID:30070343]. Turmeric shows in-vitro antiplatelet activity [PMID:25839871].
+- Ginger Root: reduced platelet aggregation in human studies [PMID:25839871], and was additive with nifedipine on aggregation [PMID:16883626].
+- Green Tea Extract: catechins inhibit platelet aggregation in vitro [PMID:11707691]. Green tea has a reported warfarin interaction [PMID:25839871].
+- Ginseng (Panax): reduces platelet aggregation [PMID:25839871].
+*** Conditions
+- Asthma with nasal polyps (AERD/N-ERD), peptic ulcer or prior GI bleeding, CKD, age 70 and older, G6PD deficiency, gout, pregnancy, and children with viral illness: see Safety and Contraindications.
+- Lynch syndrome: a population with an RCT-supported cancer-prevention benefit [PMID:32534647].
+*** Lab-test interference
+- Platelet function tests: aspirin is designed to change them (serum TXB2, AA-induced aggregation, VerifyNow Aspirin, PFA). "Aspirin resistance" results agree poorly across assays and partly reflect platelet reactivity before treatment [PMID:18983514]. Enteric coating causes pseudoresistance [PMID:23212718].
+- Serum uric acid: true physiological rise at low doses [PMID:10643705].
+- Chloride and anion gap: high salicylate levels falsely raise chloride on direct ion-selective electrodes. This can produce a normal or negative anion gap that masks salicylate poisoning [PMID:33864761] [PMID:35971785].
+- Hemoglobin and ferritin: true declines [PMID:37335992].
 
 ** Genotype notes
-- No cited pharmacogenomic or nutrigenomic source specific to Aspirin was identified in this search; no genotype claim is made.
+- LPA rs3798220-C carriers in ASPREE (n=12,815): MACE was higher on placebo (HR 1.90) but not on aspirin, with an interaction P of 0.049 [PMID:36175048]. Pooled carrier data gave HR 0.37-0.39, but results were inconsistent and certainty very low [PMID:42138694] [PMID:42018111].
+- An integrative ischemic-stroke polygenic score in ASPREE: in the top quintile, aspirin was linked to ischemic stroke HR 0.49 without excess bleeding (post hoc) [PMID:42100829].
+- G6PD deficiency (X-linked): risk of hemolysis [PMID:33313989] [PMID:38292218].
+- Lynch syndrome (germline mismatch-repair variants): CRC prevention benefit [PMID:32534647] [PMID:42425127].
+- Tumour somatic PIK3CA mutation: possible adjuvant benefit [PMID:41621633] [PMID:42475879].
 
 ** Latest research
-- 2024 systematic review with GRADE assessment pooled 14 RCTs and found lower MACE but higher intracranial and extracranial major bleeding, with consistent effects across prespecified subgroups [PMID:38204851]. 2024 CKD meta-analysis highlights uncertain net primary-prevention benefit in CKD populations [PMID:38296933].
+- [2026-09] ASAC RCT: adjuvant 160 mg after CRC liver metastases did not improve DFS (HR 1.08). OS was worse (death HR 1.64) [PMID:42777749].
+- [2026-07] ASCOLT translational study: no significant DFS benefit in PIK3CA-mutant CRC. Meta-analysis of exon 9/20 mutations: HR 0.61 [PMID:42475879].
+- [2026-07] PPI meta-analysis (16 RCTs + 14 non-RCTs): upper GI bleeding RR 0.30 vs placebo; possible increase in lower GI bleeding [PMID:42479073].
+- [2026-07] CaPP3 (n=1866, Lynch syndrome): 100 mg looked similar to 600 mg for cancer and caused fewer serious bleeds [PMID:42425127].
+- [2026-05] Lp(a)/LPA meta-analysis: no significant MACE benefit (HR 0.60, 0.31-1.17) [PMID:42138694].
+- [2026-05] ASPREE polygenic score: possible ischemic stroke benefit in the top genetic-risk quintile [PMID:42100829].
+- [2026-04] Lp(a) SR/MA (GRADE very low): MACE HR 0.99 [PMID:42018111].
+- [2026-03] ASPREE 10-year cancer follow-up: no effect on incidence; cancer mortality HR 1.15 during the trial with no legacy effect [PMID:41609798].
+- [2026-01] Adjuvant NSAID meta-analysis in PIK3CA-mutated CRC: DFS HR 0.65 [PMID:41621633].
+- [2025-12] UK Biobank: SSRI use with aspirin, GI bleeding aHR 1.27 [PMID:41435617].
+- [2025-12] Pharmacol Rev synthesis: proposed platelet-TXA2 mechanisms in cancer [PMID:41592353].
+- [2025-11] ASPREE extended follow-up: no long-term MACE benefit (HR 1.04). Major hemorrhage HR 1.24 [PMID:40796244].
+- [2025-11] ASPREE individualized-effect model: CHIP >=10% VAF predicted cancer benefit (non-prespecified analysis) [PMID:40996732].
+- [2025-11] Review of adult Reye syndrome and low-dose aspirin rechallenge: the evidence is sparse [PMID:41362566].
 
 ** Open questions
-- Larger, better reported human studies with standardized products, clinically meaningful endpoints and longer follow-up are needed; current gaps are noted above.
+- Who benefits in primary prevention: Lp(a), polygenic scores, coronary calcium and CKD subgroups rest on post hoc or very-low-certainty data.
+- Why aspirin raised cancer mortality in people 70 and older (ASPREE) but lowered delayed CRC risk in younger cohorts. Final Add-Aspirin results are pending.
+- The best dose by bodyweight and formulation, especially enteric-coated vs immediate-release.
+- Whether chronic low-dose aspirin is safe in G6PD deficiency. Prospective data are lacking.
+- Supplement-aspirin bleeding interactions: most data are in vitro, short-term or surrogate-based, and no outcome trials exist (except omega-3).
+- Whether PPI co-therapy increases lower GI bleeding. Current evidence is non-randomized only.
 
 ** Sources
-- PMID:19482214
-- PMID:35623903
-- PMID:38204851
-- PMID:38296933
-- URL:https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=aspirin
+1. Antithrombotic Trialists' (ATT) Collaboration. Aspirin in the primary and secondary prevention of vascular disease: collaborative meta-analysis of individual participant data from randomised trials. Lancet. 2009. PMID:19482214 DOI:10.1016/S0140-6736(09)60503-1
+2. McNeil JJ et al. Effect of Aspirin on Cardiovascular Events and Bleeding in the Healthy Elderly. N Engl J Med. 2018. PMID:30221597 DOI:10.1056/NEJMoa1805819
+3. McNeil JJ et al. Effect of Aspirin on All-Cause Mortality in the Healthy Elderly. N Engl J Med. 2018. PMID:30221595 DOI:10.1056/NEJMoa1803955
+4. McNeil JJ et al. Effect of Aspirin on Disability-free Survival in the Healthy Elderly. N Engl J Med. 2018. PMID:30221596 DOI:10.1056/NEJMoa1800722
+5. Wolfe R et al. Aspirin, cardiovascular events, and major bleeding in older adults: extended follow-up of the ASPREE trial. Eur Heart J. 2025. PMID:40796244 DOI:10.1093/eurheartj/ehaf514
+6. Gaziano JM et al. Use of aspirin to reduce risk of initial vascular events in patients at moderate risk of cardiovascular disease (ARRIVE). Lancet. 2018. PMID:30158069 DOI:10.1016/S0140-6736(18)31924-X
+7. ASCEND Study Collaborative Group. Effects of Aspirin for Primary Prevention in Persons with Diabetes Mellitus. N Engl J Med. 2018. PMID:30146931 DOI:10.1056/NEJMoa1804988
+8. US Preventive Services Task Force. Aspirin Use to Prevent Cardiovascular Disease: USPSTF Recommendation Statement. JAMA. 2022. PMID:35471505 DOI:10.1001/jama.2022.4983
+9. Laferriere C et al. Aspirin for the Primary Prevention of Vascular Ischemic Events: An Updated Systematic Review and Meta-analysis to Support Shared Decision-Making. CJC Open. 2023. PMID:38204851 DOI:10.1016/j.cjco.2023.08.011
+10. Bellos I et al. Aspirin for the Primary Prevention of Cardiovascular Diseases in Patients with Chronic Kidney Disease: An Updated Meta-analysis. Am J Cardiovasc Drugs. 2024. PMID:38296933 DOI:10.1007/s40256-024-00630-y
+11. Lopes RA et al. Efficacy and safety of aspirin for primary prevention in adults with elevated lipoprotein(a) or genetic susceptibility via LPA gene variants: SR and MA. Eur J Prev Cardiol. 2026. PMID:42138694 DOI:10.1093/eurjpc/zwag207
+12. Caldeira D et al. Impact of Aspirin on Primary Prevention of Cardiovascular Events in Patients with Elevated Lipoprotein(a): SR and MA. Am J Cardiovasc Drugs. 2026. PMID:42018111 DOI:10.1007/s40256-026-00795-8
+13. Lacaze P et al. Aspirin for Primary Prevention of Cardiovascular Events in Relation to Lipoprotein(a) Genotypes. J Am Coll Cardiol. 2022. PMID:36175048 DOI:10.1016/j.jacc.2022.07.027
+14. Rothwell PM et al. Effects of aspirin on risks of vascular events and cancer according to bodyweight and dose: analysis of individual patient data from randomised trials. Lancet. 2018. PMID:30017552 DOI:10.1016/S0140-6736(18)31133-4
+15. Jones WS et al. Comparative Effectiveness of Aspirin Dosing in Cardiovascular Disease (ADAPTABLE). N Engl J Med. 2021. PMID:33999548 DOI:10.1056/NEJMoa2102137
+16. Yu C et al. Polygenic Risk Identifies Older Adults Who May Benefit From Aspirin for the Primary Prevention of Ischemic Stroke. Stroke. 2026. PMID:42100829 DOI:10.1161/STROKEAHA.125.054979
+17. Burn J et al. Cancer prevention with aspirin in hereditary colorectal cancer (Lynch syndrome), 10-year follow-up and registry-based 20-year data in the CAPP2 study. Lancet. 2020. PMID:32534647 DOI:10.1016/S0140-6736(20)30366-4
+18. Burn J et al. Aspirin for cancer prevention in individuals with Lynch syndrome: first results from the CaPP3 trial. Lancet Gastroenterol Hepatol. 2026. PMID:42425127 DOI:10.1016/S2468-1253(26)00114-7
+19. Orchard SG et al. Cancer Incidence and Mortality With Aspirin in Older Adults: Follow-Up of the ASPREE Trial. JAMA Oncol. 2026. PMID:41609798 DOI:10.1001/jamaoncol.2025.6196
+20. McNeil JJ et al. Effect of Aspirin on Cancer Incidence and Mortality in Older Adults. J Natl Cancer Inst. 2021. PMID:32778876 DOI:10.1093/jnci/djaa114
+21. Thao LTP et al. Low-Dose Aspirin for Individualized Cancer Prevention in Older Adults: A Secondary Analysis of the ASPREE Randomized Clinical Trial. JAMA Oncol. 2025. PMID:40996732 DOI:10.1001/jamaoncol.2025.3593
+22. Rothwell PM et al. Long-term effect of aspirin on colorectal cancer incidence and mortality: 20-year follow-up of five randomised trials. Lancet. 2010. PMID:20970847 DOI:10.1016/S0140-6736(10)61543-7
+23. Yaqub S et al. Aspirin after curative-intent treatment of colorectal cancer liver metastases (ASAC): a phase 3 RCT. Lancet Gastroenterol Hepatol. 2026. PMID:42777749 DOI:10.1016/S2468-1253(26)00260-8
+24. Blanchard-Cavagis ER et al. Adjuvant aspirin and COX-2 inhibitors in resected, PIK3CA-mutated colorectal cancer: SR and MA of RCTs. Crit Rev Oncol Hematol. 2026. PMID:41621633 DOI:10.1016/j.critrevonc.2026.105167
+25. Segelov E et al. Adjuvant aspirin for colorectal cancer with PIK3CA-mutated and COX-2 overexpressed tumours: the ASCOLT translational research study and meta-analysis. EBioMedicine. 2026. PMID:42475879 DOI:10.1016/j.ebiom.2026.106389
+26. Joharatnam-Hogan N et al. Aspirin as an adjuvant treatment for cancer: feasibility results from the Add-Aspirin randomised trial. Lancet Gastroenterol Hepatol. 2019. PMID:31477558 DOI:10.1016/S2468-1253(19)30289-4
+27. Jankowski JAZ et al. Esomeprazole and aspirin in Barrett's oesophagus (AspECT): a randomised factorial trial. Lancet. 2018. PMID:30057104 DOI:10.1016/S0140-6736(18)31388-6
+28. Mahady SE et al. Major GI bleeding in older persons using aspirin: incidence and risk factors in the ASPREE randomised controlled trial. Gut. 2021. PMID:32747412 DOI:10.1136/gutjnl-2020-321585
+29. Cloud GC et al. Low-Dose Aspirin and the Risk of Stroke and Intracerebral Bleeding in Healthy Older People. JAMA Netw Open. 2023. PMID:37494038 DOI:10.1001/jamanetworkopen.2023.25803
+30. McQuilten ZK et al. Effect of Low-Dose Aspirin Versus Placebo on Incidence of Anemia in the Elderly. Ann Intern Med. 2023. PMID:37335992 DOI:10.7326/M23-0675
+31. Jia S et al. Proton pump inhibitors for prevention of upper and lower gastrointestinal bleeding in patients taking aspirin: SR and MA. Eur J Clin Pharmacol. 2026. PMID:42479073 DOI:10.1007/s00228-026-04135-2
+32. Moayyedi P et al. Pantoprazole to Prevent Gastroduodenal Events in Patients Receiving Rivaroxaban and/or Aspirin in a Randomized, Double-Blind, Placebo-Controlled Trial. Gastroenterology. 2019. PMID:31054846 DOI:10.1053/j.gastro.2019.04.041
+33. Garcia Rodriguez LA et al. Bleeding Risk with Long-Term Low-Dose Aspirin: A Systematic Review of Observational Studies. PLoS One. 2016. PMID:27490468 DOI:10.1371/journal.pone.0160046
+34. Ghule P et al. Risk of bleeding with concomitant use of oral anticoagulants and aspirin: SR and MA. Am J Health Syst Pharm. 2024. PMID:38263263 DOI:10.1093/ajhp/zxae010
+35. He Y et al. Selective serotonin re-uptake inhibitor use and risk of gastrointestinal bleeding in aspirin users. J Psychiatr Res. 2026. PMID:41435617 DOI:10.1016/j.jpsychires.2025.12.038
+36. Boerrigter E et al. A non-interventional retrospective cohort study of the interaction between methotrexate and proton pump inhibitors or aspirin. Ann Pharm Fr. 2017. PMID:28705331 DOI:10.1016/j.pharma.2017.06.002
+37. Catella-Lawson F et al. Cyclooxygenase inhibitors and the antiplatelet effects of aspirin. N Engl J Med. 2001. PMID:11752357 DOI:10.1056/NEJMoa003199
+38. Food and Drug Administration. Concomitant use of ibuprofen and aspirin. J Pain Palliat Care Pharmacother. 2007. PMID:17844731
+39. Capone ML et al. Pharmacodynamic interaction of naproxen with low-dose aspirin in healthy subjects. J Am Coll Cardiol. 2005. PMID:15837265 DOI:10.1016/j.jacc.2005.01.045
+40. Schror K. Aspirin and Reye syndrome: a review of the evidence. Paediatr Drugs. 2007. PMID:17523700 DOI:10.2165/00148581-200709030-00008
+41. Gibson C et al. Adult-Onset Reye's Syndrome and the Risks of Low-Dose Aspirin Rechallenge: A Review. Cureus. 2025. PMID:41362566 DOI:10.7759/cureus.96332
+42. Rajan JP et al. Prevalence of aspirin-exacerbated respiratory disease among asthmatic patients: A meta-analysis of the literature. J Allergy Clin Immunol. 2015. PMID:25282015 DOI:10.1016/j.jaci.2014.08.020
+43. Chu DK et al. Benefits and harms of aspirin desensitization for aspirin-exacerbated respiratory disease: SR and MA. Int Forum Allergy Rhinol. 2019. PMID:31518069 DOI:10.1002/alr.22428
+44. Kowalski ML et al. Diagnosis and management of NSAID-Exacerbated Respiratory Disease (N-ERD): an EAACI position paper. Allergy. 2019. PMID:30216468 DOI:10.1111/all.13599
+45. Li J et al. Aspirin Therapy in Cardiovascular Disease with Glucose-6-Phosphate Dehydrogenase Deficiency, Safe or Not? Am J Cardiovasc Drugs. 2021. PMID:33313989 DOI:10.1007/s40256-020-00460-8
+46. Li J et al. Late-onset aspirin-related hemolysis and subsequent subdural hemorrhage in patient with G6PD deficiency. Clin Case Rep. 2024. PMID:38292218 DOI:10.1002/ccr3.8450
+47. Caspi D et al. The effect of mini-dose aspirin on renal function and uric acid handling in elderly patients. Arthritis Rheum. 2000. PMID:10643705 DOI:10.1002/1529-0131(200001)43:1<103::AID-ANR13>3.0.CO;2-C
+48. Zhang Y et al. Low-dose aspirin use and recurrent gout attacks. Ann Rheum Dis. 2014. PMID:23345599 DOI:10.1136/annrheumdis-2012-202589
+49. Zhang P et al. Effect of low-dose aspirin on serum uric acid levels in Chinese individuals over 60: subanalysis of a multicentre RCT. Eur Rev Med Pharmacol Sci. 2020. PMID:32196623 DOI:10.26355/eurrev_202003_20544
+50. Javaid M et al. Bleeding Risk in Patients Receiving Omega-3 Polyunsaturated Fatty Acids: SR and MA of RCTs. J Am Heart Assoc. 2024. PMID:38742535 DOI:10.1161/JAHA.123.032390
+51. Watson PD et al. Comparison of bleeding complications with omega-3 fatty acids + aspirin + clopidogrel versus aspirin + clopidogrel. Am J Cardiol. 2009. PMID:19801023 DOI:10.1016/j.amjcard.2009.05.055
+52. de Gaetano G et al. Low-dose aspirin and vitamin E in people at cardiovascular risk: a randomised trial in general practice (PPP). Lancet. 2001. PMID:11197445 DOI:10.1016/s0140-6736(00)03539-x
+53. Schurks M et al. Effects of vitamin E on stroke subtypes: meta-analysis of randomised controlled trials. BMJ. 2010. PMID:21051774 DOI:10.1136/bmj.c5702
+54. Furst DE et al. Effect of aspirin and sulindac on methotrexate clearance. J Pharm Sci. 1990. PMID:2273459 DOI:10.1002/jps.2600790907
+55. Colebatch AN et al. Safety of NSAIDs, including aspirin and paracetamol, in people receiving methotrexate for inflammatory arthritis. Cochrane Database Syst Rev. 2011. PMID:22071858 DOI:10.1002/14651858.CD008872.pub2
+56. Sidlak AM et al. Acute Salicylate Toxicity: A Narrative Review for Emergency Clinicians. Cureus. 2025. PMID:41049912 DOI:10.7759/cureus.91505
+57. Hu S et al. Interaction study between antiplatelet agents, anticoagulants, thyroid replacement therapy and a bioavailable formulation of curcumin (Meriva). Eur Rev Med Pharmacol Sci. 2018. PMID:30070343 DOI:10.26355/eurrev_201808_15647
+58. Shafiekhani M et al. Comparison of antiplatelet activity of garlic tablets with cardio-protective dose of aspirin in healthy volunteers: an RCT. Avicenna J Phytomed. 2016. PMID:27761425
+59. Macan H et al. Aged garlic extract may be safe for patients on warfarin therapy. J Nutr. 2006. PMID:16484565 DOI:10.1093/jn/136.3.793S
+60. McEwen BJ. The influence of herbal medicine on platelet function and coagulation: a narrative review. Semin Thromb Hemost. 2015. PMID:25839871 DOI:10.1055/s-0035-1549089
+61. Frelinger AL et al. Aspirin 'resistance': role of pre-existent platelet reactivity and correlation between tests. J Thromb Haemost. 2008. PMID:18983514 DOI:10.1111/j.1538-7836.2008.03184.x
+62. Wiederkehr MR et al. Pseudohyperchloremia and Negative Anion Gap - Think Salicylate! Am J Med. 2021. PMID:33864761 DOI:10.1016/j.amjmed.2021.03.017
+63. Buisman L et al. Case report: Salicylate intoxication can present with a normal anion gap metabolic acidosis depending on method used for measuring chloride. Br J Clin Pharmacol. 2022. PMID:35971785 DOI:10.1111/bcp.15492
+64. Rolnik DL et al. Aspirin versus Placebo in Pregnancies at High Risk for Preterm Preeclampsia. N Engl J Med. 2017. PMID:28657417 DOI:10.1056/NEJMoa1704559
+65. Patrono C et al. Platelet activation, aspirin, and cancer: From basic science to clinical trials. Pharmacol Rev. 2026. PMID:41592353 DOI:10.1016/j.pharmr.2025.100109
+66. Grosser T et al. Drug resistance and pseudoresistance: an unintended consequence of enteric coating aspirin. Circulation. 2013. PMID:23212718 DOI:10.1161/CIRCULATIONAHA.112.117283
+67. Kang WS et al. Antiplatelet activity of green tea catechins is mediated by inhibition of cytoplasmic calcium increase. J Cardiovasc Pharmacol. 2001. PMID:11707691 DOI:10.1097/00005344-200112000-00009
+68. Young HY et al. Synergistic effect of ginger and nifedipine on human platelet aggregation. Am J Chin Med. 2006. PMID:16883626 DOI:10.1142/S0192415X06004089
+69. Joharatnam-Hogan N et al. Thromboxane biosynthesis in cancer patients and its inhibition by aspirin: a sub-study of the Add-Aspirin trial. Br J Cancer. 2023. PMID:37420000 DOI:10.1038/s41416-023-02310-1
+70. US FDA CDER. Information for healthcare professionals: concomitant use of ibuprofen and aspirin (science paper, 2006). URL:https://www.fda.gov/media/76636/download
+71. DailyMed. Aspirin 81 mg delayed-release tablet (H-E-B), OTC Drug Facts label. URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=72b16a5c-825f-4f3f-a8b3-b723e4242da7
+72. DailyMed. DURLAZA (acetylsalicylic acid) extended-release capsule, prescribing information. URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4c2a1403-3862-1efd-0a91-444989222b37

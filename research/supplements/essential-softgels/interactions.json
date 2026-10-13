@@ -4,7 +4,10 @@
   "slug": "essential-softgels",
   "aliases": [
     "Blueprint Essential Softgels",
-    "Advanced Antioxidants"
+    "Essential Softgel",
+    "Advanced Antioxidants",
+    "Blueprint Advanced Antioxidants",
+    "Blueprint Bryan Johnson Essential Softgel"
   ],
   "category": "other",
   "rx_status": "otc",
@@ -13,33 +16,310 @@
     {
       "with": "warfarin",
       "with_kind": "drug",
-      "kind": "caution",
+      "kind": "avoid",
       "severity": "major",
-      "mechanism": "Vitamin K1/K2 can oppose vitamin K antagonist anticoagulation and alter INR",
-      "evidence": "Established nutrient-drug interaction; official product lists vitamin K1 and K2",
+      "mechanism": "Product supplies vitamin K1 1500 mcg + MK-4 5 mg + MK-7 600 mcg; vitamin K competitively antagonizes warfarin, lowering INR; MK-7 has a long half-life and accumulates. Astaxanthin raised INR in one case report, adding unpredictability.",
+      "evidence": "Label: increased vitamin K intake decreases INR response; dose-response study: MK-7 10-45 mcg/d clinically lowered INR; MK-7 >=50 mcg/d flagged as relevant; case report with astaxanthin; moderate certainty for direction",
       "citations": [
-        "URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/",
-        "URL:https://blueprint.bryanjohnson.com/products/essential-softgel"
+        "PMID:23530987",
+        "PMID:17158229",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=541c9a70-adaf-4ef3-94ba-ad4e70dfa057",
+        "PMID:31073352"
       ]
     },
     {
-      "with": "INR",
+      "with": "vitamin K antagonists (acenocoumarol, phenprocoumon)",
+      "with_kind": "drug-class",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Same vitamin K-mediated antagonism of VKA anticoagulation; MK-7 45 mcg/d lowered INR ~40% in acenocoumarol-treated volunteers.",
+      "evidence": "Controlled dose-escalation study in 15-18 anticoagulated volunteers; authors advise avoiding MK-7 supplements with VKAs",
+      "citations": [
+        "PMID:23530987",
+        "PMID:39288907"
+      ]
+    },
+    {
+      "with": "INR / prothrombin time",
       "with_kind": "lab-test",
       "kind": "monitor",
-      "severity": "moderate",
-      "mechanism": "Changes in vitamin K intake can change anticoagulation control measured by INR",
-      "evidence": "Clinical monitoring interaction with vitamin K antagonists",
+      "severity": "major",
+      "mechanism": "Starting, stopping or skipping the product changes INR in VKA-treated users; low-dose vitamin K (150 mcg) changes INR variability.",
+      "evidence": "RCT (n=70) and dose-response study; Cochrane review of 2 RCTs",
       "citations": [
-        "URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/"
+        "PMID:23530987",
+        "PMID:17110451",
+        "PMID:24832594"
+      ]
+    },
+    {
+      "with": "PIVKA-II / des-gamma-carboxy prothrombin (DCP)",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "moderate",
+      "mechanism": "Vitamin K (MK-4) lowers DCP, the HCC tumour marker, and PIVKA-II reflects vitamin K status; supplementation may mask DCP elevation.",
+      "evidence": "Small clinical pharmacology study in HCC/vitamin K deficiency; RCT data on PIVKA-II as vitamin K status marker",
+      "citations": [
+        "PMID:1309308",
+        "PMID:15213041"
+      ]
+    },
+    {
+      "with": "dp-ucMGP / undercarboxylated osteocalcin",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Vitamin K lowers dp-ucMGP and ucOC, so these status biomarkers reflect intake rather than disease change.",
+      "evidence": "Meta-analyses and RCTs",
+      "citations": [
+        "PMID:30514729",
+        "PMID:39657786",
+        "PMID:35465686"
+      ]
+    },
+    {
+      "with": "K1",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Duplicates phylloquinone (product already 1500 mcg); adds to vitamin K load relevant to VKA users.",
+      "evidence": "Inferred from ingredient overlap; K1 5 mg/d tolerated for 4 y in ECKO",
+      "citations": [
+        "PMID:18922041",
+        "PMID:17158229"
+      ]
+    },
+    {
+      "with": "K2 MK-7",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Duplicates MK-7 (product already 600 mcg, near top of trial doses); long half-life increases accumulation and VKA interference.",
+      "evidence": "Inferred from overlap; dose-response VKA study; RCT doses 180-720 mcg/d",
+      "citations": [
+        "PMID:23530987",
+        "PMID:17158229",
+        "PMID:42661461"
+      ]
+    },
+    {
+      "with": "K2-MK4",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Duplicates MK-4 (product 5 mg); 45 mg/d MK-4 raised adverse events (RR 1.47) vs placebo in MA.",
+      "evidence": "MA of 18 RCTs",
+      "citations": [
+        "PMID:30734066",
+        "PMID:16801507"
+      ]
+    },
+    {
+      "with": "Zeaxanthin + Lutein",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Duplicates lutein 10 mg/zeaxanthin 2 mg (15/3 mg on older softgel label); stacking can exceed the 20 mg/d lutein Observed Safe Level.",
+      "evidence": "Risk assessment; AREDS2 dose reference",
+      "citations": [
+        "PMID:16814439",
+        "PMID:23644932"
+      ]
+    },
+    {
+      "with": "Lycopene",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Duplicates lycopene 15 mg; Observed Safe Level 75 mg/d, so stacking mainly adds cost and carotenodermia risk.",
+      "evidence": "Risk assessment; small RCT of carotenodermia",
+      "citations": [
+        "PMID:16814439",
+        "PMID:9285071"
+      ]
+    },
+    {
+      "with": "Astaxanthin",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Duplicates astaxanthin 12 mg, already above EFSA's 8 mg/day supplement level; stacking further raises exposure; astaxanthin had anticoagulant/antiplatelet effects in animals.",
+      "evidence": "EFSA opinion; safety review; preclinical data",
+      "citations": [
+        "PMID:32874213",
+        "PMID:31788888",
+        "PMID:41702374"
+      ]
+    },
+    {
+      "with": "Vitamin E",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "High-dose vitamin E (1000 IU/d) increased PIVKA-II, i.e. antagonized vitamin K; may partly offset vitamin K effects and alter anticoagulant response.",
+      "evidence": "2 RCTs (n=70) of vitamin E on vitamin K status",
+      "citations": [
+        "PMID:15213041"
+      ]
+    },
+    {
+      "with": "Vitamin D-3",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "K2 was tested combined with D3 (25 mcg) in AVADEC and DANCODE; DANCODE slowed CAC progression, AVADEC did not slow valve calcification.",
+      "evidence": "RCTs; contribution of each vitamin not separable",
+      "citations": [
+        "PMID:42661461",
+        "PMID:35465686"
+      ]
+    },
+    {
+      "with": "Aspirin",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Astaxanthin inhibited platelet activation comparably to aspirin in rodents; additive antiplatelet effect theoretical.",
+      "evidence": "Preclinical only; one human warfarin case report",
+      "citations": [
+        "PMID:41702374",
+        "PMID:31073352"
+      ]
+    },
+    {
+      "with": "orlistat",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Lipase inhibition reduces absorption of fat-soluble vitamins and carotenoids; label advises taking vitamins >=2 h apart.",
+      "evidence": "Drug label; small clinical studies",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6240792b-9224-2d10-e053-2a91aa0a2c3e",
+        "PMID:17707976",
+        "PMID:12126214"
+      ]
+    },
+    {
+      "with": "plant sterols/stanols",
+      "with_kind": "food",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "2.5 g/d sterols/stanols lower plasma lycopene (-12.3%), zeaxanthin (-12.9%), lutein (-7.4%).",
+      "evidence": "MA of 41 RCTs",
+      "citations": [
+        "PMID:27591863"
+      ]
+    },
+    {
+      "with": "smokers / former smokers",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Product has no beta-carotene; lutein/zeaxanthin was not significantly associated with lung cancer (OR 1.15) whereas beta-carotene was (OR 1.82).",
+      "evidence": "AREDS2 RCT and 10-y follow-up",
+      "citations": [
+        "PMID:35653117",
+        "PMID:23644932"
+      ]
+    },
+    {
+      "with": "hepatocellular carcinoma surveillance",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "DCP/PIVKA-II tumour marker falls with vitamin K, potentially masking HCC signal.",
+      "evidence": "Small clinical pharmacology study",
+      "citations": [
+        "PMID:1309308"
+      ]
+    },
+    {
+      "with": "children and adolescents",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "EFSA found the astaxanthin ADI reached or exceeded in under-18s at 8 mg/day; product supplies 12 mg.",
+      "evidence": "EFSA safety opinion",
+      "citations": [
+        "PMID:32874213"
       ]
     }
   ],
   "citations": [
+    "PMID:23530987",
+    "PMID:17158229",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=541c9a70-adaf-4ef3-94ba-ad4e70dfa057",
+    "PMID:31073352",
+    "PMID:39288907",
+    "PMID:17110451",
+    "PMID:24832594",
+    "PMID:1309308",
+    "PMID:15213041",
+    "PMID:30514729",
+    "PMID:39657786",
+    "PMID:35465686",
+    "PMID:18922041",
+    "PMID:42661461",
+    "PMID:30734066",
+    "PMID:16801507",
+    "PMID:16814439",
     "PMID:23644932",
-    "PMID:23644932\n-",
-    "URL:https://blueprint.bryanjohnson.com/products/essential-softgel",
-    "URL:https://blueprint.bryanjohnson.com/products/essential-softgel\n-",
-    "URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/",
-    "URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/\n"
+    "PMID:9285071",
+    "PMID:32874213",
+    "PMID:31788888",
+    "PMID:41702374",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6240792b-9224-2d10-e053-2a91aa0a2c3e",
+    "PMID:17707976",
+    "PMID:12126214",
+    "PMID:27591863",
+    "PMID:35653117",
+    "URL:https://blueprint.bryanjohnson.com/products/advanced-antioxidants",
+    "URL:https://api.ods.od.nih.gov/dsld/v9/label/328205",
+    "PMID:34157098",
+    "PMID:42588128",
+    "PMID:28129549",
+    "PMID:35091276",
+    "PMID:32725659",
+    "PMID:42851346",
+    "PMID:23669408",
+    "PMID:37702300",
+    "PMID:24310343",
+    "PMID:39025435",
+    "PMID:23645227",
+    "PMID:38582248",
+    "PMID:26305649",
+    "PMID:33540909",
+    "PMID:34641336",
+    "PMID:24638908",
+    "PMID:39064656",
+    "PMID:32652029",
+    "PMID:24051501",
+    "PMID:33355018",
+    "PMID:35031434",
+    "PMID:32755613",
+    "PMID:40872489",
+    "PMID:34578794",
+    "PMID:42197030",
+    "PMID:35625785",
+    "PMID:41268154",
+    "PMID:23525894",
+    "PMID:37252246",
+    "PMID:42268593",
+    "PMID:25694037",
+    "PMID:40077685",
+    "PMID:38282652",
+    "PMID:39963662",
+    "PMID:42413424",
+    "PMID:19386744",
+    "PMID:12885395",
+    "PMID:41437050",
+    "PMID:38046003",
+    "PMID:24974817",
+    "PMID:23891863",
+    "PMID:41978094",
+    "PMID:41573009",
+    "PMID:41100911",
+    "PMID:40013157",
+    "PMID:39680321"
   ]
 }

@@ -4,7 +4,11 @@
   "slug": "evoo",
   "aliases": [
     "extra virgin olive oil",
-    "olive oil"
+    "extra-virgin olive oil",
+    "virgin olive oil",
+    "high-phenolic EVOO",
+    "olive oil polyphenols",
+    "Olea europaea oil"
   ],
   "category": "other",
   "rx_status": "otc",
@@ -15,19 +19,370 @@
       "with_kind": "drug-class",
       "kind": "monitor",
       "severity": "minor",
-      "mechanism": "Possible small additive blood-pressure lowering in dietary intervention studies; clinical interaction not established",
-      "evidence": "Indirect marker evidence only",
+      "mechanism": "EVOO-rich MedDiet lowers diastolic BP (~1.5 mmHg) and phenolic olive oils lower SBP (~3 mmHg vs refined oil); concentrated olive phenol extract lowered SBP 7.7 mmHg; additive BP lowering possible.",
+      "evidence": "PREDIMED RCT, network MA, single extract RCT; no direct interaction study; low certainty",
       "citations": [
-        "PMID:37977313"
+        "PMID:24050803",
+        "PMID:31378629",
+        "PMID:41429309"
+      ]
+    },
+    {
+      "with": "antidiabetic agents",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "EVOO lowers postprandial glucose (incretin/GLP-1, slowed gastric emptying) and reduced insulin requirement in gestational diabetes; olive phenol extract lowered FBG/HbA1c; additive glucose lowering possible.",
+      "evidence": "Crossover meal studies, RCT in GDM (n=190), extract RCT; no hypoglycaemia reports; low certainty",
+      "citations": [
+        "PMID:27289163",
+        "PMID:30567626",
+        "PMID:41978170",
+        "PMID:41429309"
+      ]
+    },
+    {
+      "with": "Metformin ER",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Possible additive glucose lowering via EVOO/olive phenol effects on postprandial and fasting glucose; no direct metformin study.",
+      "evidence": "Inferred from glycaemic RCTs; very low certainty",
+      "citations": [
+        "PMID:41429309",
+        "PMID:27289163"
+      ]
+    },
+    {
+      "with": "insulin",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "EVOO supplementation reduced the need for insulinization in gestational diabetes (RR 0.595) and lowers postprandial glycaemia in type 1 diabetes on pump therapy.",
+      "evidence": "RCT (n=190) and crossover (n=11); low certainty",
+      "citations": [
+        "PMID:41978170",
+        "PMID:30567626"
+      ]
+    },
+    {
+      "with": "vitamin K antagonists",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Olive phenols have antiplatelet activity; olive oil intake associated with lower thromboxane in VKA-treated AF patients. MedDiet (90% olive oil users) did not change INR time in therapeutic range.",
+      "evidence": "Observational AF cohorts and PREDIMED secondary analysis; no warfarin potentiation case found; low certainty",
+      "citations": [
+        "PMID:25995397",
+        "PMID:25288566",
+        "PMID:33352771"
+      ]
+    },
+    {
+      "with": "Aspirin",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Olive oil phenols inhibit platelet aggregation (cAMP-PDE inhibition) and olive oil intake independently predicts lower urinary 11-dehydro-TxB2; theoretical additive antiplatelet effect.",
+      "evidence": "In vitro human platelets plus observational cohort; no bleeding signal; very low certainty",
+      "citations": [
+        "PMID:17927845",
+        "PMID:25288566"
+      ]
+    },
+    {
+      "with": "antiplatelet agents",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Additive antiplatelet effect theoretically possible from olive phenols; no clinical bleeding signal reported.",
+      "evidence": "In vitro and observational only; very low certainty",
+      "citations": [
+        "PMID:17927845",
+        "PMID:25288566"
+      ]
+    },
+    {
+      "with": "EPA/DHA/DPA",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Olive oil added to fish oil (3 g/d) gave earlier and greater clinical improvement in rheumatoid arthritis than fish oil alone.",
+      "evidence": "Single small RCT (n=43); low certainty",
+      "citations": [
+        "PMID:15723739"
+      ]
+    },
+    {
+      "with": "Lycopene",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Olive oil as dietary fat increases lycopene absorption (plasma trans-lycopene +82% when tomatoes cooked with EVOO; lycopene iAUC +46% vs coconut oil).",
+      "evidence": "Small human feeding/crossover trials; moderate certainty for absorption",
+      "citations": [
+        "PMID:15927929",
+        "PMID:25172701",
+        "PMID:36921903"
+      ]
+    },
+    {
+      "with": "Zeaxanthin + Lutein",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Co-ingested fat improves carotenoid absorption and olive oil beat coconut oil for total carotenoids; however, saturated fats gave higher lutein/zeaxanthin bioavailability than olive oil in rat/in vitro models.",
+      "evidence": "Human crossover plus animal/in vitro data; conflicting; low certainty",
+      "citations": [
+        "PMID:36921903",
+        "PMID:23228631"
+      ]
+    },
+    {
+      "with": "Curcumin",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Olive-oil-based excipient emulsions gave the greatest curcumin trans-enterocyte transport and protection from metabolism among oils tested.",
+      "evidence": "Caco-2 in vitro only; very low certainty",
+      "citations": [
+        "PMID:34628238"
+      ]
+    },
+    {
+      "with": "Vitamin D-3",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Olive oil pinoresinol reduced intestinal vitamin D absorption (-25% postprandial response in rats; Caco-2 uptake inhibited).",
+      "evidence": "Animal and cell data only; human relevance unknown; very low certainty",
+      "citations": [
+        "PMID:27041321"
+      ]
+    },
+    {
+      "with": "inulin",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Phenolic EVOO plus FOS/inulin prebiotic increased rectus femoris muscle thickness/CSA more than EVOO alone in older adults with probable sarcopenia.",
+      "evidence": "Small 3-arm RCT (n=38); low certainty",
+      "citations": [
+        "PMID:41787835"
+      ]
+    },
+    {
+      "with": "olive fruit allergy",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "minor",
+      "mechanism": "Rare IgE-mediated olive fruit allergy (pollen-food olive-olive syndrome); refined oil challenge was tolerated in the reported case.",
+      "evidence": "Case report; very low certainty",
+      "citations": [
+        "PMID:20128426"
+      ]
+    },
+    {
+      "with": "aspiration risk",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Chronic aspiration of olive oil can cause exogenous lipoid pneumonia.",
+      "evidence": "Case report (2026); very low certainty",
+      "citations": [
+        "PMID:42309686"
+      ]
+    },
+    {
+      "with": "symptomatic gallstones",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Olive oil is a potent gallbladder-contraction stimulus (used as cholecystokinetic test meal, peak at 50-70 min).",
+      "evidence": "Crossover diagnostic trial (n=112); mechanistic precaution only",
+      "citations": [
+        "PMID:42669445"
+      ]
+    },
+    {
+      "with": "energy-restricted diet",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "EVOO is energy dense (~9 kcal/g); in PREDIMED an ad libitum high-fat MedDiet did not raise body weight, but added rather than substituted oil increases energy intake.",
+      "evidence": "Large RCT secondary outcome; moderate certainty for no weight gain",
+      "citations": [
+        "PMID:31003626"
+      ]
+    },
+    {
+      "with": "gestational diabetes",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "EVOO (3 tbsp/d) reduced triglycerides, insulin requirement and neonatal complications; glucose-lowering therapy may need review.",
+      "evidence": "RCT (n=190); low certainty",
+      "citations": [
+        "PMID:41978170"
+      ]
+    },
+    {
+      "with": "TCF7L2 rs7903146 TT",
+      "with_kind": "genotype",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "MedDiet (EVOO or nuts) abolished the excess stroke risk (HR 2.91 on control diet) and the higher glucose/lipids of TT homozygotes.",
+      "evidence": "PREDIMED gene-diet interaction analysis; low certainty",
+      "citations": [
+        "PMID:23942586"
+      ]
+    },
+    {
+      "with": "gallbladder ultrasound contraction test",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Olive oil ingestion itself triggers gallbladder contraction and is used as the test stimulus; recent oil intake before fasting gallbladder ultrasound could alter baseline volume.",
+      "evidence": "Diagnostic trial; inferred precaution",
+      "citations": [
+        "PMID:42669445"
       ]
     }
   ],
   "citations": [
+    "DOI:10.1001/jamainternmed.2015.1668",
+    "DOI:10.1001/jamainternmed.2015.4838",
+    "DOI:10.1001/jamanetworkopen.2023.37994",
+    "DOI:10.1001/jamanetworkopen.2024.10021",
+    "DOI:10.1002/14651858.CD009825.pub3",
+    "DOI:10.1002/jcsm.70247",
+    "DOI:10.1007/s12603-013-0027-6",
+    "DOI:10.1016/S0140-6736(22)00122-2",
+    "DOI:10.1016/S2213-8587(19)30074-9",
+    "DOI:10.1016/j.ahj.2025.08.021",
+    "DOI:10.1016/j.ajcnut.2023.03.011",
+    "DOI:10.1016/j.clnesp.2025.102883",
+    "DOI:10.1016/j.clnesp.2026.102977",
+    "DOI:10.1016/j.clnesp.2026.103625",
+    "DOI:10.1016/j.clnu.2014.09.011",
+    "DOI:10.1016/j.clnu.2016.05.016",
+    "DOI:10.1016/j.clnu.2018.11.015",
+    "DOI:10.1016/j.clnu.2022.10.001",
+    "DOI:10.1016/j.clnu.2025.07.006",
+    "DOI:10.1016/j.ejca.2025.115520",
+    "DOI:10.1016/j.foodchem.2014.07.053",
+    "DOI:10.1016/j.foodchem.2016.03.048",
+    "DOI:10.1016/j.foodchem.2020.128291",
+    "DOI:10.1016/j.foodchem.2021.130980",
+    "DOI:10.1016/j.jacc.2021.10.041",
+    "DOI:10.1016/j.numecd.2019.07.001",
+    "DOI:10.1016/j.numecd.2021.02.017",
+    "DOI:10.1016/j.numecd.2025.104166",
+    "DOI:10.1016/j.nut.2004.03.023",
+    "DOI:10.1016/j.preghy.2025.101411",
+    "DOI:10.1016/j.redox.2016.12.014",
     "DOI:10.1016/j.tjnut.2023.10.028",
-    "DOI:10.1016/j.tjnut.2023.10.028\n-",
+    "DOI:10.1016/j.toxrep.2023.02.003",
+    "DOI:10.1017/S0007114507837470",
+    "DOI:10.1017/S0007114512004813",
+    "DOI:10.1038/nutd.2017.12",
+    "DOI:10.1039/d3fo05246j",
+    "DOI:10.1039/d5fo05016b",
+    "DOI:10.1056/NEJMoa1800389",
+    "DOI:10.1080/10408398.2018.1470491",
+    "DOI:10.1080/10408398.2025.2525446",
+    "DOI:10.1093/europace/euv127",
+    "DOI:10.1093/nutrit/nuaf099",
+    "DOI:10.1111/1541-4337.12949",
+    "DOI:10.1111/bcp.13589",
+    "DOI:10.1111/dom.71206",
+    "DOI:10.1161/CIRCULATIONAHA.113.006921",
+    "DOI:10.1161/STROKEAHA.120.033214",
+    "DOI:10.1186/1741-7015-11-207",
+    "DOI:10.1186/1741-7015-12-78",
+    "DOI:10.1186/s40168-025-02306-4",
+    "DOI:10.1186/s41043-025-00866-7",
+    "DOI:10.1371/journal.pone.0261649",
+    "DOI:10.2169/internalmedicine.7462-26",
+    "DOI:10.2337/dc13-0955",
+    "DOI:10.2337/dc18-0836",
+    "DOI:10.3389/fnut.2026.1792390",
+    "DOI:10.3390/antiox15081033",
+    "DOI:10.3390/nu12123895",
+    "DOI:10.3390/nu17111843",
+    "DOI:10.3390/nu17182937",
+    "DOI:10.3390/nu17233650",
+    "DOI:10.3390/nu18071120",
+    "DOI:10.3760/cma.j.cn112139-20260616-00264",
+    "DOI:10.3945/jn.115.211557",
+    "DOI:10.7326/0003-4819-145-5-200609050-00006",
+    "PMID:15723739",
+    "PMID:15927929",
+    "PMID:16954359",
+    "PMID:17927845",
+    "PMID:20128426",
+    "PMID:23228631",
+    "PMID:23732551",
+    "PMID:23942586",
+    "PMID:24050803",
+    "PMID:24787471",
+    "PMID:24886626",
+    "PMID:25172701",
+    "PMID:25288566",
+    "PMID:25961184",
+    "PMID:25995397",
+    "PMID:26136585",
+    "PMID:26365989",
+    "PMID:27041321",
+    "PMID:27289163",
+    "PMID:28063380",
+    "PMID:28394365",
+    "PMID:29577365",
+    "PMID:29708409",
     "PMID:29897866",
-    "PMID:29897866\n-",
+    "PMID:30389673",
+    "PMID:30567626",
+    "PMID:30864165",
+    "PMID:31003626",
+    "PMID:31378629",
+    "PMID:33060000",
+    "PMID:33352771",
+    "PMID:33941427",
+    "PMID:34372670",
+    "PMID:34628238",
+    "PMID:35015763",
+    "PMID:35027106",
+    "PMID:35368142",
+    "PMID:35525255",
+    "PMID:36343558",
+    "PMID:36852231",
+    "PMID:36921903",
+    "PMID:37851444",
     "PMID:37977313",
-    "PMID:37977313\n"
+    "PMID:38568797",
+    "PMID:38709531",
+    "PMID:40275388",
+    "PMID:40449295",
+    "PMID:40507112",
+    "PMID:40651889",
+    "PMID:40690822",
+    "PMID:40749711",
+    "PMID:40907633",
+    "PMID:40971936",
+    "PMID:41010464",
+    "PMID:41373940",
+    "PMID:41429309",
+    "PMID:41520410",
+    "PMID:41578342",
+    "PMID:41740793",
+    "PMID:41787835",
+    "PMID:41847236",
+    "PMID:41949575",
+    "PMID:41978170",
+    "PMID:42309686",
+    "PMID:42521082",
+    "PMID:42608317",
+    "PMID:42650297",
+    "PMID:42669445"
   ]
 }

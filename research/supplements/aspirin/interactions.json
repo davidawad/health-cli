@@ -4,22 +4,41 @@
   "slug": "aspirin",
   "aliases": [
     "acetylsalicylic acid",
-    "ASA"
+    "ASA",
+    "low-dose aspirin",
+    "baby aspirin",
+    "aspirin 81 mg",
+    "enteric-coated aspirin",
+    "Durlaza"
   ],
   "category": "rx",
   "rx_status": "otc",
   "evidence_certainty_overall": "high",
   "edges": [
     {
-      "with": "anticoagulants",
+      "with": "oral anticoagulants",
       "with_kind": "drug-class",
       "kind": "caution",
       "severity": "major",
-      "mechanism": "Additive impairment of hemostasis increases bleeding risk",
-      "evidence": "Pharmacology and FDA labeling; aspirin increases major bleeding in RCT syntheses",
+      "mechanism": "Additive impairment of hemostasis; any bleeding OR 1.36 (RCTs) and 1.42 (observational) for OAC+aspirin vs OAC alone.",
+      "evidence": "SR/MA of 42 studies; FDA label",
       "citations": [
-        "URL:https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=aspirin",
-        "PMID:38204851"
+        "PMID:38263263",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4c2a1403-3862-1efd-0a91-444989222b37"
+      ]
+    },
+    {
+      "with": "ibuprofen",
+      "with_kind": "drug",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Ibuprofen dosed before aspirin competitively blocks irreversible platelet COX-1 acetylation, abolishing aspirin's antiplatelet effect. FDA: take ibuprofen 400 mg >=30 min after or >=8 h before immediate-release aspirin; no advice possible for enteric-coated aspirin.",
+      "evidence": "Crossover PD study (NEJM 2001); FDA science paper and label",
+      "citations": [
+        "PMID:11752357",
+        "PMID:17844731",
+        "URL:https://www.fda.gov/media/76636/download",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4c2a1403-3862-1efd-0a91-444989222b37"
       ]
     },
     {
@@ -27,21 +46,148 @@
       "with_kind": "drug-class",
       "kind": "caution",
       "severity": "moderate",
-      "mechanism": "GI mucosal injury and platelet effects can add; ibuprofen may interfere with aspirin antiplatelet effect",
-      "evidence": "FDA labeling and pharmacodynamic evidence summarized in label",
+      "mechanism": "Additive GI bleeding and renal impairment; ibuprofen and naproxen interfere with low-dose aspirin's platelet COX-1 inhibition (diclofenac, acetaminophen did not).",
+      "evidence": "Observational MA; PD studies; FDA/DailyMed labels",
       "citations": [
-        "URL:https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=aspirin"
+        "PMID:27490468",
+        "PMID:15837265",
+        "PMID:11752357",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=72b16a5c-825f-4f3f-a8b3-b723e4242da7",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4c2a1403-3862-1efd-0a91-444989222b37"
       ]
     },
     {
-      "with": "active bleeding",
-      "with_kind": "condition",
-      "kind": "contraindicated",
-      "severity": "major",
-      "mechanism": "Antiplatelet action can worsen active hemorrhage",
-      "evidence": "FDA/DailyMed labeling",
+      "with": "SSRIs",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Additive GI bleeding risk; GI bleeding aHR 1.27 among aspirin users taking SSRIs (paroxetine aHR 1.73).",
+      "evidence": "Prospective cohort (UK Biobank) and observational MA",
       "citations": [
-        "URL:https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=aspirin"
+        "PMID:41435617",
+        "PMID:27490468"
+      ]
+    },
+    {
+      "with": "proton pump inhibitors",
+      "with_kind": "drug-class",
+      "kind": "synergy",
+      "severity": "moderate",
+      "mechanism": "PPIs lower aspirin-associated upper GI bleeding (RR 0.30 vs placebo); pantoprazole reduced bleeding gastroduodenal lesions (HR 0.52). Possible increase in lower GI bleeding from non-randomized data.",
+      "evidence": "MA of 16 RCTs + 14 non-RCTs; large RCT (COMPASS)",
+      "citations": [
+        "PMID:42479073",
+        "PMID:31054846"
+      ]
+    },
+    {
+      "with": "methotrexate",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Salicylate may reduce renal methotrexate clearance (label: bone marrow toxicity, especially elderly/renal impairment); PK data mixed and low-dose aspirin showed no effect on high-dose MTX elimination.",
+      "evidence": "Label, small PK study, cohort, Cochrane review",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4c2a1403-3862-1efd-0a91-444989222b37",
+        "PMID:2273459",
+        "PMID:28705331",
+        "PMID:22071858"
+      ]
+    },
+    {
+      "with": "EPA/DHA/DPA",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Theoretical additive antiplatelet effect; MA of 11 RCTs found no overall bleeding increase and no modification by background antiplatelet therapy; high-dose purified EPA raised bleeding modestly.",
+      "evidence": "MA of RCTs (n=120,643); retrospective cohort on fish oil + DAPT",
+      "citations": [
+        "PMID:38742535",
+        "PMID:19801023"
+      ]
+    },
+    {
+      "with": "Vitamin E",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Vitamin E increased haemorrhagic stroke risk (RR 1.22); combined with aspirin's ICH risk (RR 1.33) bleeding risks may add; vitamin E gave no CV benefit on top of aspirin.",
+      "evidence": "MA of RCTs; factorial RCT (PPP); additive risk inferred",
+      "citations": [
+        "PMID:21051774",
+        "PMID:11197445",
+        "PMID:38204851"
+      ]
+    },
+    {
+      "with": "Garlic",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Garlic has antiplatelet activity; garlic tablets did not change aggregation but 30% at 3 tablets/day reported bleeding.",
+      "evidence": "Small RCT; narrative review",
+      "citations": [
+        "PMID:27761425",
+        "PMID:25839871"
+      ]
+    },
+    {
+      "with": "Garlic (Kyolic)",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Aged garlic extract showed no excess bleeding with warfarin in a small RCT; data with aspirin lacking.",
+      "evidence": "Pilot RCT (n=48) with warfarin",
+      "citations": [
+        "PMID:16484565"
+      ]
+    },
+    {
+      "with": "Yeast Rice + Garlic",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Garlic component has antiplatelet activity; additive bleeding with aspirin is theoretical.",
+      "evidence": "Narrative review; small RCT; inferred",
+      "citations": [
+        "PMID:25839871",
+        "PMID:27761425"
+      ]
+    },
+    {
+      "with": "Curcumin",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "In-vitro antiplatelet activity of turmeric; Meriva curcumin did not change bleeding time over 10 days on aspirin.",
+      "evidence": "Small non-interaction clinical study; review",
+      "citations": [
+        "PMID:30070343",
+        "PMID:25839871"
+      ]
+    },
+    {
+      "with": "Turmeric",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Turmeric reduces platelet aggregation in vitro; clinical additive bleeding not demonstrated.",
+      "evidence": "Narrative review; curcumin interaction study",
+      "citations": [
+        "PMID:25839871",
+        "PMID:30070343"
+      ]
+    },
+    {
+      "with": "Ginger Root",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Ginger reduces platelet aggregation in human studies and potentiates other antiplatelet effects; additive bleeding with aspirin plausible.",
+      "evidence": "Narrative review; small human PD study",
+      "citations": [
+        "PMID:25839871",
+        "PMID:16883626"
       ]
     },
     {
@@ -49,23 +195,208 @@
       "with_kind": "supplement",
       "kind": "caution",
       "severity": "minor",
-      "mechanism": "Potentially additive antiplatelet effects, mainly mechanistic; combination outcome data are lacking",
-      "evidence": "Umbrella review notes human signals but no direct interaction trial",
+      "mechanism": "Contains ginger and curcumin, both with antiplatelet signals; additive effect with aspirin plausible but unquantified.",
+      "evidence": "Review and small studies; inferred",
       "citations": [
-        "PMID:35623903"
+        "PMID:25839871",
+        "PMID:30070343"
+      ]
+    },
+    {
+      "with": "Green Tea Extract",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Green tea catechins inhibit platelet aggregation in vitro; green tea interacts with warfarin.",
+      "evidence": "In vitro; review",
+      "citations": [
+        "PMID:11707691",
+        "PMID:25839871"
+      ]
+    },
+    {
+      "with": "Ginseng (Panax)",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Ginseng reduces platelet aggregation; additive antiplatelet effect with aspirin is theoretical.",
+      "evidence": "Narrative review",
+      "citations": [
+        "PMID:25839871"
+      ]
+    },
+    {
+      "with": "aspirin-exacerbated respiratory disease",
+      "with_kind": "condition",
+      "kind": "contraindicated",
+      "severity": "major",
+      "mechanism": "COX-inhibition-triggered bronchospasm, urticaria, angioedema in asthma with nasal polyps; ~7% of adult asthmatics, ~15% of severe asthma.",
+      "evidence": "Label contraindication; MA of prevalence; EAACI position paper",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4c2a1403-3862-1efd-0a91-444989222b37",
+        "PMID:25282015",
+        "PMID:30216468"
+      ]
+    },
+    {
+      "with": "children/teenagers with viral illness (Reye syndrome)",
+      "with_kind": "condition",
+      "kind": "contraindicated",
+      "severity": "major",
+      "mechanism": "Salicylate use during influenza or varicella associated with Reye syndrome (encephalopathy with liver failure).",
+      "evidence": "OTC label warning; reviews",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=72b16a5c-825f-4f3f-a8b3-b723e4242da7",
+        "PMID:41362566",
+        "PMID:17523700"
+      ]
+    },
+    {
+      "with": "active peptic ulcer or GI bleeding",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Aspirin raises upper GI bleeding (ASPREE HR 1.87; observational RR 2.3).",
+      "evidence": "RCT secondary analysis; observational MA; label",
+      "citations": [
+        "PMID:32747412",
+        "PMID:27490468",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4c2a1403-3862-1efd-0a91-444989222b37"
+      ]
+    },
+    {
+      "with": "G6PD deficiency",
+      "with_kind": "genotype",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Oxidative hemolysis reported, including late-onset hemolysis on 100 mg/day followed by fatal subdural hemorrhage; safety data contradictory.",
+      "evidence": "Review and case report",
+      "citations": [
+        "PMID:33313989",
+        "PMID:38292218"
+      ]
+    },
+    {
+      "with": "gout",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Low-dose aspirin reduces renal urate excretion; recurrent gout attack OR 1.81 (1.91 at <=100 mg/d), nullified by allopurinol.",
+      "evidence": "Case-crossover study; physiologic study",
+      "citations": [
+        "PMID:23345599",
+        "PMID:10643705"
+      ]
+    },
+    {
+      "with": "serum uric acid",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "True physiological rise in serum urate and fall in urate excretion (~15%) at 75 mg/day; a 2-week RCT subanalysis found no rise.",
+      "evidence": "Physiologic study; RCT subanalysis",
+      "citations": [
+        "PMID:10643705",
+        "PMID:32196623"
+      ]
+    },
+    {
+      "with": "platelet function tests",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "moderate",
+      "mechanism": "Aspirin suppresses serum TXB2, arachidonic-acid aggregation, VerifyNow Aspirin; 'resistance' results disagree across assays and enteric coating causes pseudoresistance.",
+      "evidence": "Healthy-volunteer studies",
+      "citations": [
+        "PMID:18983514",
+        "PMID:23212718"
+      ]
+    },
+    {
+      "with": "serum chloride / anion gap",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "moderate",
+      "mechanism": "High salicylate falsely raises chloride on direct ion-selective electrodes, producing normal/negative anion gap that masks salicylate toxicity.",
+      "evidence": "Case series and case report with method comparison",
+      "citations": [
+        "PMID:33864761",
+        "PMID:35971785"
       ]
     }
   ],
   "citations": [
+    "PMID:2273459",
+    "PMID:10643705",
+    "PMID:11197445",
+    "PMID:11707691",
+    "PMID:11752357",
+    "PMID:15837265",
+    "PMID:16484565",
+    "PMID:16883626",
+    "PMID:17523700",
+    "PMID:17844731",
+    "PMID:18983514",
     "PMID:19482214",
-    "PMID:19482214\n-",
-    "PMID:35623903",
-    "PMID:35623903\n-",
+    "PMID:19801023",
+    "PMID:20970847",
+    "PMID:21051774",
+    "PMID:22071858",
+    "PMID:23212718",
+    "PMID:23345599",
+    "PMID:25282015",
+    "PMID:25839871",
+    "PMID:27490468",
+    "PMID:27761425",
+    "PMID:28657417",
+    "PMID:28705331",
+    "PMID:30017552",
+    "PMID:30057104",
+    "PMID:30070343",
+    "PMID:30146931",
+    "PMID:30158069",
+    "PMID:30216468",
+    "PMID:30221595",
+    "PMID:30221596",
+    "PMID:30221597",
+    "PMID:31054846",
+    "PMID:31477558",
+    "PMID:31518069",
+    "PMID:32196623",
+    "PMID:32534647",
+    "PMID:32747412",
+    "PMID:32778876",
+    "PMID:33313989",
+    "PMID:33864761",
+    "PMID:33999548",
+    "PMID:35471505",
+    "PMID:35971785",
+    "PMID:36175048",
+    "PMID:37335992",
+    "PMID:37420000",
+    "PMID:37494038",
     "PMID:38204851",
-    "PMID:38204851\n-",
+    "PMID:38263263",
+    "PMID:38292218",
     "PMID:38296933",
-    "PMID:38296933\n-",
-    "URL:https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=aspirin",
-    "URL:https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=aspirin\n"
+    "PMID:38742535",
+    "PMID:40796244",
+    "PMID:40996732",
+    "PMID:41049912",
+    "PMID:41362566",
+    "PMID:41435617",
+    "PMID:41592353",
+    "PMID:41609798",
+    "PMID:41621633",
+    "PMID:42018111",
+    "PMID:42100829",
+    "PMID:42138694",
+    "PMID:42425127",
+    "PMID:42475879",
+    "PMID:42479073",
+    "PMID:42777749",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4c2a1403-3862-1efd-0a91-444989222b37",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=72b16a5c-825f-4f3f-a8b3-b723e4242da7",
+    "URL:https://www.fda.gov/media/76636/download"
   ]
 }

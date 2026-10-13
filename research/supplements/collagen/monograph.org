@@ -3,48 +3,195 @@
 :ID: supp-collagen
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: hydrolyzed collagen | collagen peptides | gelatin
+:ALIASES: hydrolyzed collagen | collagen peptides | collagen hydrolysate | gelatin | specific collagen peptides (SCP) | bioactive collagen peptides | marine collagen | low-molecular-weight collagen peptides | undenatured type II collagen (UC-II)
 :CATEGORY: other
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Collagen is a structural extracellular-matrix protein; oral products include hydrolyzed collagen peptides, gelatin, and undenatured type II collagen. These preparations differ and trial evidence is not interchangeable [PMID:38218227].
+- Hydrolyzed collagen (collagen peptides) is enzymatically hydrolyzed gelatin from bovine, porcine, poultry or fish (marine) skin, bone or cartilage. Source animal matters for allergy and product quality [PMID:41804623] [PMID:42451143].
+- Gelatin is the partially hydrolyzed, larger-molecule form. Low-molecular-weight or tripeptide-enriched hydrolysates are marketed for higher peptide absorption [PMID:26934933] [PMID:41788055].
+- Branded "specific collagen peptides" (e.g. VERISOL for skin/nails, TENDOFORTE for tendon, and the peptides used in the König bone trial) are claimed to have distinct peptide profiles [PMID:28786550] [PMID:30609761] [PMID:29337906].
+- Undenatured (native) type II collagen (UC-II, 40 mg/d) is a different product. It is chicken-sternum cartilage that is not hydrolyzed and is thought to act by oral tolerance rather than as a protein source. Its trial results should not be pooled with peptide trials [PMID:40253594] [PMID:26822714].
+- Protein quality: collagen has no tryptophan, so by PDCAAS it is an incomplete protein. Modelling suggests up to 36% of dietary protein could be collagen peptides without breaking indispensable-amino-acid requirements in a Western diet [PMID:31096622].
+- Collagen is rich in glycine, proline and hydroxyproline. Gelatin ingestion raises plasma glycine, proline, hydroxyproline and hydroxylysine dose-dependently, peaking about 1 h after intake [PMID:27852613] [PMID:42687500].
 
 ** Mechanisms
-- Hydrolyzed peptides are digested to amino acids and small hydroxyproline-containing peptides; proposed signaling effects on fibroblasts/cartilage remain less established than the clinical endpoint trials. Intact undenatured type II collagen uses a distinct oral-tolerance hypothesis and should not be equated with peptides [PMID:38218227; PMID:42342959].
+- Absorption: Gly-Pro-Hyp and Pro-Hyp appear intact in plasma and urine after ingestion, more so with tripeptide-enriched products [PMID:26934933]. Dissolving in coffee changed free Hyp/Pro uptake but not bioactive-peptide AUC or Cmax [PMID:40356137].
+- Substrate supply plus exercise: 15 g vitamin C-enriched gelatin before exercise doubled serum PINP (amino-terminal propeptide of type I collagen), a marker of collagen synthesis [PMID:27852613]. 30 g hydrolysate raised PINP AUC more than 15 g or 0 g after resistance exercise [PMID:38007183].
+- Vitamin C is a cofactor for collagen hydroxylation. Supporting human data come mainly from trials of combined products [PMID:30386805] [PMID:41900537].
+- Muscle protein synthesis: collagen is a poor stimulus compared with whey or pea protein, consistent with its low leucine and indispensable-amino-acid content [PMID:31919527] [PMID:38762187]. Gains in fat-free mass may partly reflect connective tissue rather than contractile protein [PMID:31126103] [PMID:42376607].
+- Hydroxyproline is metabolized to glycolate and oxalate. 30 g/d gelatin raised urinary oxalate by 43% versus whey [PMID:17021603].
+- Glycine-mediated thermoregulatory/NMDA effects are proposed for sleep. Mediation has not been tested [PMID:42687500] [PMID:22293292].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---------+--------------------+-----------+-------------+-----------------------+-----------|
-| Osteoarthritis pain/function | Trial-sequential meta-analysis, 35 RCTs | Small benefit | pain SMD −0.35; function SMD −0.31 | moderate | [PMID:38218227] |
-| Skin hydration/elasticity/wrinkles | Systematic review, 25 RCTs | Favorable in many small trials; bias concern | hydration improved in 10/15, elasticity 10/13, wrinkle measures 9/10; high risk of bias common | low | [PMID:42342959] |
-| Musculoskeletal/skin outcomes | 2026 umbrella review, 113 RCTs | Favorable associations; mixed outcomes | RCTs across indications; pooled effect varied by outcome | low | [PMID:41809116] |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Skin hydration/elasticity/wrinkles | SR/MA of RCTs (23 RCTs, n=1474; 26 RCTs, n=1721; 19 RCTs) | Benefit overall; no effect in non-industry-funded or high-quality trials | Pooled benefit, but null in independent/high-quality subgroups; hydration SMD 1.25, elasticity SMD 0.61 in a 10-RCT MA | low | [PMID:40324552] [PMID:37432180] [PMID:33742704] [PMID:40826844] [PMID:42342959] [PMID:34694676] |
+| Skin photoaging (MED/elasticity) | MA of supplement RCTs (40 RCTs) | Benefit | Increased MED/R2 elasticity vs placebo | low | [PMID:40761858] |
+| Osteoarthritis pain | Trial-sequential MA (35 RCTs, n=3165); knee OA MA (11 RCTs) | Benefit, small | Pain SMD -0.35 (CI -0.48 to -0.22); knee MD -13.63 (I2=88%) | moderate | [PMID:38218227] [PMID:39212129] [PMID:30368550] |
+| Osteoarthritis function | Trial-sequential MA | Benefit, small | SMD -0.31 (CI -0.41 to -0.22), GRADE high | moderate | [PMID:38218227] [PMID:39212129] |
+| OA vs other supplements | Network MA (39 RCTs, n=4599) | Collagen beneficial on some outcomes; Boswellia ranked best | Not reported for collagen in abstract | low | [PMID:40806131] [PMID:29018060] |
+| Tendon CSA/stiffness with training | SR (8 RCTs, n=257); MA (19 studies) | Benefit at 15-30 g/d | Tendon morphology SMD 0.67 (GRADE very low) | low | [PMID:41900537] [PMID:39060741] [PMID:40100255] [PMID:40623147] |
+| Achilles tendinopathy / tendon tears | Pilot crossover RCT (n=20); SR of 6 studies | Possible benefit | VISA-A +12.6 vs +5.3 at 3 months | very low | [PMID:30609761] [PMID:42666580] |
+| Bone mineral density (postmenopausal) | RCT (n=131, 5 g/d, 12 mo); MA; open-label 4-yr follow-up | Increase | T-score spine +0.10 vs -0.03; femoral neck +0.09 vs -0.01; MA I2=80% | low | [PMID:29337906] [PMID:41049371] [PMID:34520654] [PMID:34980546] |
+| Bone turnover markers | MA; RCTs | Mostly favorable (PINP up, CTX down); null in one 6-month RCT | SMD 0.40-0.58 | low | [PMID:41049371] [PMID:42221768] [PMID:41002783] |
+| Fat-free mass with resistance training | MA (19 studies, n=768); RCTs | Increase, modest | FFM SMD 0.48 (GRADE moderate); strength SMD 0.19 | moderate | [PMID:39060741] [PMID:31010031] [PMID:31126103] |
+| Sarcopenia (older men + training) | Single RCT (n=53, 15 g/d) | Benefit | FFM +4.2 vs +2.9 kg; a published letter questioned these "exceptional" changes | very low | [PMID:26353786] [PMID:27267663] |
+| Muscle hypertrophy vs whey | RCTs | Inferior to whey | Leucine-matched collagen gave less muscle thickness growth; no MPS rise in older adults | moderate | [PMID:35042187] [PMID:31919527] [PMID:38762187] |
+| Muscle strength | SR of tendon RCTs; MA; SR of 36 RCTs | No added effect / trivial | Strength SMD 0.19; "strong evidence against" effect in tendon SR | low | [PMID:41900537] [PMID:39060741] [PMID:39980497] |
+| Cardiometabolic markers | MA (12 RCTs) | Small decreases in fat mass, LDL, SBP; no glycemic effect | Fat mass -1.21 kg; LDL -4.09 mg/dL; SBP -5.04 mmHg (I2=99%) | very low | [PMID:35658958] [PMID:41809116] |
+| Sleep | Crossover RCT (n=13); scoping review | Fewer awakenings only | 21.3 vs 29.3 PSG awakenings | very low | [PMID:37874350] [PMID:42687500] |
+| Nails/hair | Open-label trial; small RCTs | Possible benefit | Nail growth +12%, broken nails -42% (uncontrolled) | very low | [PMID:28786550] [PMID:42624827] [PMID:41788055] |
 
 ** Dosing in trials
-- Trials use approximately 2.5–15 g/day hydrolyzed peptides for skin, 5–10 g/day peptides for joint symptoms, and 40 mg/day undenatured type II collagen in some OA trials; duration commonly 8–24 weeks [PMID:38218227; PMID:42342959].
+- Skin: 1-10 g/d (most often 2.5-5 g/d, median 3.5 g/d) for 8-24 weeks [PMID:40826844] [PMID:42342959]. 1 g/d low-molecular-weight peptides were used for 24 weeks in one trial [PMID:41788055].
+- Osteoarthritis: hydrolysate 3 g/d for 180 days in one RCT [PMID:40977985]. UC-II is dosed at 40 mg/d [PMID:26822714] [PMID:41787523].
+- Tendon: 15-30 g/d, with >=50 mg vitamin C, taken around high-load training [PMID:41900537] [PMID:40100255]. 10 g/d for 16 weeks without training increased Achilles stiffness [PMID:40623147].
+- Bone: 5 g/d specific collagen peptides for 12 months [PMID:29337906]. 5 g/d plus calcium 500 mg and vitamin D3 400 IU [PMID:34980546].
+- Muscle with resistance training: 15 g/d post-exercise for 12 weeks [PMID:26353786] [PMID:31010031] [PMID:31126103].
+- Sleep: 15 g 1 h before bed [PMID:37874350].
 
 ** Safety & adverse effects
-- Generally well tolerated in RCT syntheses, with no significant increase in adverse events or withdrawals for OA derivatives [PMID:38218227]. Source proteins may include bovine, porcine, marine fish or poultry; allergy/cross-contamination risk depends on source [PMID:42342959].
+- RCT syntheses show no increase in adverse events or withdrawals versus control [PMID:38218227] [PMID:40806131]. Skin trials report a low adverse-event rate [PMID:42342959]. Supplements in photoaging trials of <=24 weeks were safe [PMID:40761858].
+- 6 months of fish collagen 5 g/d (+/- calcium/vitamin D) did not change creatinine, ALT or AST [PMID:41002783].
+- Allergy:
+  - Fish collagen (type I) is a clinically relevant fish allergen. 21% of 101 fish-allergic patients were sensitized and collagen caused functional IgE cross-linking [PMID:32389794].
+  - In Japan, 50% of fish-allergic patients had IgE to mackerel collagen, with high cross-reactivity across 22 species [PMID:26785247].
+  - Bovine type I collagen is the main allergen in bovine-gelatin allergy. Some fish-allergic children have IgE to fish gelatin [PMID:10984381].
+  - Mammalian gelatin carries alpha-gal, a trigger in alpha-gal syndrome [PMID:35879928] [PMID:40752174].
+- Contaminants:
+  - Among 30 sports protein products, mercury was mostly <0.01 mg/kg; the one exception was a collagen sample (0.02 mg/kg). Modelled hazard index rose to 0.90 at 90 g/d of protein products, and the 95th-percentile HI was 1.28 [PMID:41655677].
+  - Bone broths contained several times the lead concentration of the water used to make them [PMID:23375414]. Source and contaminant quality vary by product [PMID:41804623].
+- Oxalate (theoretical stone risk): 30 g gelatin raised urinary oxalate by 43% and glycolate 5.3-fold. Loads of 5-10 g changed urinary oxalate, but 1-2 g did not [PMID:17021603]. A 3-day 30 g/d study found no oxalate or CaOx supersaturation change [PMID:31161522].
+- Protein displacement: collagen does not overcome anabolic resistance in older adults. Relying on it as the main protein source would lower protein quality [PMID:38762187] [PMID:31096622].
 
 ** Contraindications
-- Avoid with known allergy to the source animal/fish; product source and contaminants vary. Pregnancy/lactation and long-term safety are insufficiently studied [PMID:42342959].
+- Fish allergy (marine collagen) and bovine/porcine gelatin allergy, including alpha-gal syndrome [PMID:32389794] [PMID:10984381] [PMID:35879928].
+- Primary hyperoxaluria or recurrent calcium-oxalate stones: hydroxyproline is an oxalate precursor, and dietary gelatin/hydroxyproline restriction is suggested in primary hyperoxaluria [PMID:17021603] [PMID:30039216].
+- No cited pregnancy, lactation or pediatric safety data.
 
 ** Interactions
-- No established clinically important drug interactions or assay interference identified in the cited RCT syntheses; product-specific excipients and allergen source remain relevant [PMID:38218227; PMID:42342959].
+*** Drugs
+- No pharmacokinetic drug interaction studies were found. Collagen is digested to amino acids and peptides [PMID:26934933].
+- Antihypertensives: pooled SBP -5.04 mmHg, with extreme heterogeneity [PMID:35658958]. SBP also fell in an obesity RCT [PMID:39458544]. Any additive effect is minor.
+- Antidiabetic drugs: one RCT in T2DM (13 g/d marine peptides) reported lower FBG and HbA1c [PMID:21164551]. A later MA found no glycemic effect [PMID:35658958]. Any additive effect is minor.
+- Gelatin-containing vaccines and drugs: these are relevant to people sensitized to gelatin or alpha-gal [PMID:40752174] [PMID:35879928].
+*** Other supplements
+- Vitamin C: claimed synergy, because ascorbate is a cofactor for collagen synthesis. Most tendon trials co-administer >=50 mg vitamin C, so no trial has isolated its added effect [PMID:27852613] [PMID:41900537] [PMID:34808597] [PMID:30386805].
+- Hyaluronic Acid: adding 30 mg HA to 5 g collagen + vitamin C gave no extra skin benefit over collagen + vitamin C [PMID:38931263]. Oral HA alone showed no photoaging benefit in a MA [PMID:40761858].
+- Glucosamine Sulphate 2KCL: UC-II beat glucosamine HCl + chondroitin on WOMAC [PMID:26822714]. Type II hydrolysate and glucosamine HCl gave similar WOMAC improvements [PMID:36918892]. No combination trial with glucosamine sulphate was found.
+- Vitamin D-3 (with calcium): combined collagen + calcium/vitamin D gave larger BMD/marker changes in MA subgroups [PMID:41049371] and in RCTs [PMID:34980546] [PMID:41002783].
+- Glycine: collagen is a glycine source, so intake adds to glycine supplements. Both are studied for sleep [PMID:42687500] [PMID:22293292].
+- Whey protein: whey + collagen beat either alone for muscle and spine BMD (n=40) [PMID:42426859]. Whey is superior to collagen as a muscle-building protein [PMID:35042187].
+*** Conditions
+- Fish/gelatin allergy, alpha-gal syndrome, primary hyperoxaluria and calcium-oxalate stones: see Contraindications.
+- Sarcopenia and older age: collagen should not replace high-quality protein. It did not raise integrated MPS above RDA intake [PMID:38762187] [PMID:31919527].
+*** Lab-test interference
+- Urinary hydroxyproline (an old bone-resorption marker), glycolate and oxalate rise after gelatin loads of 5 g or more [PMID:17021603]. Pro-Hyp and Gly-Pro-Hyp are excreted in urine [PMID:26934933].
+- Bone and collagen turnover markers (PINP, CTX) shift physiologically with supplementation, so baselines should be interpreted with this in mind [PMID:29337906] [PMID:38007183] [PMID:42221768].
 
 ** Genotype notes
-- No cited pharmacogenomic or nutrigenomic source specific to Collagen was identified in this search; no genotype claim is made.
+No cited pharmacogenomic or nutrigenomic source found.
 
 ** Latest research
-- 2026 umbrella review searched evidence through March 2025 and included 113 RCTs; it reported generally favorable skin, muscle, bone and OA associations, while oral health and cardiometabolic outcomes were mixed [PMID:41809116]. 2025 knee OA meta-analysis updated RCT evidence [PMID:39212129].
+- [2026-11] Letter in Am J Med reporting inconsistencies in the 2025 funding-bias skin MA [PMID:42822893].
+- [2026-09] Scoping review (22 trials): glycine from collagen is bioavailable, but its sleep mediation is untested [PMID:42687500].
+- [2026-08] SR of collagen peptides in tendon/ligament tears (6 studies): cautiously positive, low certainty [PMID:42666580].
+- [2026-08] RCT (3 g/d, 24 wk): better hair gloss, elasticity and diameter in damaged hair [PMID:42624827].
+- [2026-07] RCT (n=40): whey + collagen gave the largest gains in muscle mass and lumbar BMD in trained men [PMID:42426859].
+- [2026-06] SLR of 25 skin RCTs: benefits in most trials, but most were at high risk of bias [PMID:42342959].
+- [2026-06] RCT: 15 g/d SCP + training raised intramuscular collagen type I by 29.8% vs 9.9% [PMID:42376607].
+- [2026-05] Pilot RCT in female runners (20 g/d, 4 wk): PINP up, IL-6 down [PMID:42221768].
+- [2026-03] Tendon SR (8 RCTs): 15-30 g/d raises tendon CSA/stiffness; no added strength [PMID:41900537].
+- [2026-03] UC-II RCT in healthy adults with activity-related joint discomfort (n=74): earlier KOOS improvement [PMID:41787523].
+- [2026-02] Heavy metals/microplastics in 30 protein products; the only mercury value above 0.01 mg/kg was in a collagen product [PMID:41655677].
+- [2026-01] Umbrella review (113 RCTs, n=7983): favorable for skin, bone, muscle and OA; mixed for cardiometabolic outcomes [PMID:41809116].
+- [2025-09] Bone/muscle MA: BMD up (I2=80%), turnover markers SMD 0.40-0.58, muscle performance SMD 0.60 [PMID:41049371].
+- [2025-09] LMW peptide RCT in knee OA (n=80, 3 g/d, 180 d): WOMAC pain down; no joint-space change [PMID:40977985].
+- [2025-08] Knee OA network MA (39 RCTs): collagen beneficial on some outcomes; Boswellia ranked best [PMID:40806131].
+- [2025-07] RCT (n=50, 10 g/d, 16 wk): Achilles stiffness and RTD up; no change in CSA [PMID:40623147].
+- [2025-05] Skin MA (23 RCTs): benefit only in industry-funded and low-quality trials [PMID:40324552].
+- [2025-04] RCT in middle-aged men (30 g/d + training): greater patellar-tendon CSA and stiffness gains [PMID:40100255].
+- [2024-10] Obesity RCT (20 g/d swelling collagen): weight and SBP down [PMID:39458544].
 
 ** Open questions
-- Larger, better reported human studies with standardized products, clinically meaningful endpoints and longer follow-up are needed; current gaps are noted above.
+- Whether skin benefits survive in independent, preregistered, adequately powered trials. Industry-funded trials drive the pooled effect [PMID:40324552], and marketing claims exceed the evidence [PMID:34694676].
+- OA meta-analyses pool hydrolysates with UC-II and have high heterogeneity, and critics dispute how strong the conclusions are [PMID:34636929].
+- Fracture outcomes and BMD effects beyond one RCT and its open-label extension. A SR of 36 RCTs found bone studies too limited for definitive conclusions [PMID:39980497].
+- Long-term kidney-stone risk at the 15-30 g/d doses used in tendon trials.
+- Contaminant (heavy metal) testing standards for collagen products.
 
 ** Sources
-- PMID:38218227
-- PMID:39212129
-- PMID:41809116
-- PMID:42342959
+1. Myung SK et al. Effects of Collagen Supplements on Skin Aging: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. Am J Med. 2025. PMID:40324552 DOI:10.1016/j.amjmed.2025.04.034
+2. Hermann M et al. Inconsistencies found in the meta-analysis on collagen supplementation. Am J Med. 2026. PMID:42822893 DOI:10.1016/j.amjmed.2026.05.005
+3. de Miranda RB et al. Effects of hydrolyzed collagen supplementation on skin aging: a systematic review and meta-analysis. Int J Dermatol. 2021. PMID:33742704 DOI:10.1111/ijd.15518
+4. Pu SY et al. Effects of Oral Collagen for Skin Anti-Aging: A Systematic Review and Meta-Analysis. Nutrients. 2023. PMID:37432180 DOI:10.3390/nu15092080
+5. Danessa G et al. Effects of collagen-based supplements on skin's hydration and elasticity: A systematic review and meta-analysis. Indian J Dermatol Venereol Leprol. 2025. PMID:40826844 DOI:10.25259/IJDVL_1165_2023
+6. Bassila C et al. Efficacy and safety of hydrolyzed collagen supplementation on skin health outcomes: a systematic literature review of randomized controlled trials. Eur J Clin Nutr. 2026. PMID:42342959 DOI:10.1038/s41430-026-01778-3
+7. Ravindran R et al. Collagen Supplementation for Skin and Musculoskeletal Health: An Umbrella Review of Meta-Analyses on Elasticity, Hydration, and Structural Outcomes. Aesthet Surg J Open Forum. 2026. PMID:41809116 DOI:10.1093/asjof/ojag018
+8. Yang Q et al. Effectiveness of dietary supplements for skin photoaging in healthy adults: a systematic review and meta-analysis of randomized controlled trials. Front Med (Lausanne). 2025. PMID:40761858 DOI:10.3389/fmed.2025.1582946
+9. Rustad AM et al. Myths and media in oral collagen supplementation for the skin, nails, and hair: A review. J Cosmet Dermatol. 2022. PMID:34694676 DOI:10.1111/jocd.14567
+10. Biełach-Bazyluk A et al. Dietary Collagen Supplementation as a Strategy for Skin Health: A Narrative Review of Clinical Effects on Skin, Hair, Nails, and Wound Healing. Nutrients. 2026. PMID:42451143 DOI:10.3390/nu18132141
+11. Hwang S et al. Low-Molecular-Weight Collagen Peptide Supplementation Improves Cellulite Severity, Skin Elasticity, and Hair Shaft Diameter: A Clinical Study with Pharmacokinetic Evaluation. J Med Food. 2026. PMID:41788055 DOI:10.1177/1096620X261428336
+12. Hexsel D et al. Oral supplementation with specific bioactive collagen peptides improves nail growth and reduces symptoms of brittle nails. J Cosmet Dermatol. 2017. PMID:28786550 DOI:10.1111/jocd.12393
+13. Kim TK et al. Efficacy and Safety of Low-Molecular-Weight Collagen Peptide GT for Improving Hair Condition in Individuals with Damaged Hair: A Randomized, Double-Blind, Placebo-Controlled Trial. Int J Stem Cells. 2026. PMID:42624827 DOI:10.15283/ijsc26035
+14. Duangjai A et al. Calcium and Vitamin D Supplementation with and Without Collagen on Bone Density and Skin Elasticity in Menopausal Women-A Randomized Controlled Study. Clin Pract. 2025. PMID:41002783 DOI:10.3390/clinpract15090168
+15. Žmitek K et al. The Effects of Dietary Supplementation with Collagen and Vitamin C and Their Combination with Hyaluronic Acid on Skin Density, Texture and Other Parameters: A Randomised, Double-Blind, Placebo-Controlled Trial. Nutrients. 2024. PMID:38931263 DOI:10.3390/nu16121908
+16. Liang CW et al. Efficacy and safety of collagen derivatives for osteoarthritis: A trial sequential meta-analysis. Osteoarthritis Cartilage. 2024. PMID:38218227 DOI:10.1016/j.joca.2023.12.010
+17. Simental-Mendía M et al. Effect of collagen supplementation on knee osteoarthritis: an updated systematic review and meta-analysis of randomised controlled trials. Clin Exp Rheumatol. 2025. PMID:39212129 DOI:10.55563/clinexprheumatol/kflfr5
+18. García-Coronado JM et al. Effect of collagen supplementation on osteoarthritis symptoms: a meta-analysis of randomized placebo-controlled trials. Int Orthop. 2019. PMID:30368550 DOI:10.1007/s00264-018-4211-5
+19. von Hippel PT. Do collagen supplements reduce symptoms of osteoarthritis? Meta-analytic results do not support strong conclusions. Int Orthop. 2021. PMID:34636929 DOI:10.1007/s00264-021-05239-3
+20. Zhang Y et al. Comparative Effectiveness of Nutritional Supplements in the Treatment of Knee Osteoarthritis: A Network Meta-Analysis. Nutrients. 2025. PMID:40806131 DOI:10.3390/nu17152547
+21. Gupta A et al. Undenatured type II collagen for knee osteoarthritis. Ann Med. 2025. PMID:40253594 DOI:10.1080/07853890.2025.2493306
+22. Lugo JP et al. Efficacy and tolerability of an undenatured type II collagen supplement in modulating knee osteoarthritis symptoms: a multicenter randomized, double-blind, placebo-controlled study. Nutr J. 2016. PMID:26822714 DOI:10.1186/s12937-016-0130-8
+23. Park SY et al. Efficacy and safety of low-molecular-weight collagen peptides in knee osteoarthritis: a randomized, double-blind, placebo-controlled trial. Front Nutr. 2025. PMID:40977985 DOI:10.3389/fnut.2025.1644899
+24. Liu X et al. Dietary supplements for treating osteoarthritis: a systematic review and meta-analysis. Br J Sports Med. 2018. PMID:29018060 DOI:10.1136/bjsports-2016-097333
+25. Möller I et al. Efficacy and tolerability of native (undenatured) type II collagen supplementation for joint health in healthy volunteers: a randomized double-blind placebo-controlled study. Nutr J. 2026. PMID:41787523 DOI:10.1186/s12937-026-01302-0
+26. Chen CC et al. Randomized, double-blind, four-arm pilot study on the effects of chicken essence and type II collagen hydrolysate on joint, bone, and muscle functions. Nutr J. 2023. PMID:36918892 DOI:10.1186/s12937-023-00837-w
+27. Brueckheimer PJ et al. The Effects of Type I Collagen Hydrolysate Supplementation on Bones, Muscles, and Joints: A Systematic Review. Orthop Rev (Pavia). 2025. PMID:39980497 DOI:10.52965/001c.129086
+28. Buchalski A et al. Collagen Supplementation on Tendon-Related Structural and Performance Outcomes: A Systematic Review. J Funct Morphol Kinesiol. 2026. PMID:41900537 DOI:10.3390/jfmk11010130
+29. Bischof K et al. Impact of Collagen Peptide Supplementation in Combination with Long-Term Physical Training on Strength, Musculotendinous Remodeling, Functional Recovery, and Body Composition in Healthy Adults: A Systematic Review with Meta-analysis. Sports Med. 2024. PMID:39060741 DOI:10.1007/s40279-024-02079-0
+30. Praet SFE et al. Oral Supplementation of Specific Collagen Peptides Combined with Calf-Strengthening Exercises Enhances Function and Reduces Pain in Achilles Tendinopathy Patients. Nutrients. 2019. PMID:30609761 DOI:10.3390/nu11010076
+31. Nulty CD et al. Hydrolysed Collagen Supplementation Enhances Patellar Tendon Adaptations to 12 Weeks' Resistance Training in Middle-Aged Men. Eur J Sport Sci. 2025. PMID:40100255 DOI:10.1002/ejsc.12281
+32. Miyamoto N et al. Collagen Peptide Supplementation Enhances Muscle-Tendon Stiffness and Explosive Strength: A 16-wk Randomized Controlled Trial. Med Sci Sports Exerc. 2025. PMID:40623147 DOI:10.1249/MSS.0000000000003814
+33. Shaw G et al. Vitamin C-enriched gelatin supplementation before intermittent activity augments collagen synthesis. Am J Clin Nutr. 2017. PMID:27852613 DOI:10.3945/ajcn.116.138594
+34. Lis DM et al. Collagen and Vitamin C Supplementation Increases Lower Limb Rate of Force Development. Int J Sport Nutr Exerc Metab. 2022. PMID:34808597 DOI:10.1123/ijsnem.2020-0313
+35. DePhillipo NN et al. Efficacy of Vitamin C Supplementation on Collagen Synthesis and Oxidative Stress After Musculoskeletal Injuries: A Systematic Review. Orthop J Sports Med. 2018. PMID:30386805 DOI:10.1177/2325967118804544
+36. Latini L et al. Clinical evidence for low-molecular-weight collagen peptides in tendon and ligament tears: a systematic review with narrative synthesis. Front Med (Lausanne). 2026. PMID:42666580 DOI:10.3389/fmed.2026.1891011
+37. König D et al. Specific Collagen Peptides Improve Bone Mineral Density and Bone Markers in Postmenopausal Women-A Randomized Controlled Study. Nutrients. 2018. PMID:29337906 DOI:10.3390/nu10010097
+38. Zdzieblik D et al. Specific Bioactive Collagen Peptides in Osteopenia and Osteoporosis: Long-Term Observation in Postmenopausal Women. J Bone Metab. 2021. PMID:34520654 DOI:10.11005/jbm.2021.28.3.207
+39. Lampropoulou-Adamidou K et al. Effect of Calcium and Vitamin D Supplementation With and Without Collagen Peptides on Volumetric and Areal Bone Mineral Density, Bone Geometry and Bone Turnover in Postmenopausal Women With Osteopenia. J Clin Densitom. 2022. PMID:34980546 DOI:10.1016/j.jocd.2021.11.011
+40. Sun C et al. Efficacy of collagen peptide supplementation on bone and muscle health: a meta-analysis. Front Nutr. 2025. PMID:41049371 DOI:10.3389/fnut.2025.1646090
+41. Kuhlman NM et al. Effects of collagen peptide supplementation on bone turnover, cytokine, and inflammatory markers in female distance runners: a randomized pilot study. Front Nutr. 2026. PMID:42221768 DOI:10.3389/fnut.2026.1825906
+42. Zdzieblik D et al. Collagen peptide supplementation in combination with resistance training improves body composition and increases muscle strength in elderly sarcopenic men: a randomised controlled trial. Br J Nutr. 2015. PMID:26353786 DOI:10.1017/S0007114515002810
+43. Phillips SM et al. Exceptional body composition changes attributed to collagen peptide supplementation and resistance training in older sarcopenic men. Br J Nutr. 2016. PMID:27267663 DOI:10.1017/S000711451600221X
+44. Jendricke P et al. Specific Collagen Peptides in Combination with Resistance Training Improve Body Composition and Regional Muscle Strength in Premenopausal Women: A Randomized Controlled Trial. Nutrients. 2019. PMID:31010031 DOI:10.3390/nu11040892
+45. Kirmse M et al. Prolonged Collagen Peptide Supplementation and Resistance Exercise Training Affects Body Composition in Recreationally Active Men. Nutrients. 2019. PMID:31126103 DOI:10.3390/nu11051154
+46. Oikawa SY et al. Whey protein but not collagen peptides stimulate acute and longer-term muscle protein synthesis with and without resistance exercise in healthy older women: a randomized controlled trial. Am J Clin Nutr. 2020. PMID:31919527 DOI:10.1093/ajcn/nqz332
+47. Jacinto JL et al. Whey Protein Supplementation Is Superior to Leucine-Matched Collagen Peptides to Increase Muscle Thickness During a 10-Week Resistance Training Program in Untrained Young Adults. Int J Sport Nutr Exerc Metab. 2022. PMID:35042187 DOI:10.1123/ijsnem.2021-0265
+48. McKendry J et al. The effects of whey, pea, and collagen protein supplementation beyond the recommended dietary allowance on integrated myofibrillar protein synthetic rates in older males: a randomized controlled trial. Am J Clin Nutr. 2024. PMID:38762187 DOI:10.1016/j.ajcnut.2024.05.009
+49. Lee J et al. The Collagen Synthesis Response to an Acute Bout of Resistance Exercise Is Greater when Ingesting 30 g Hydrolyzed Collagen Compared with 15 g and 0 g in Resistance-Trained Young Men. J Nutr. 2024. PMID:38007183 DOI:10.1016/j.tjnut.2023.10.030
+50. Seyhan S et al. The combined effects of whey protein and collagen supplementation on bone mineral density and muscle mass in resistance-trained men: a randomized controlled trial. BMC Sports Sci Med Rehabil. 2026. PMID:42426859 DOI:10.1186/s13102-026-01846-y
+51. Jerger S et al. Specific collagen peptides supplementation increases collagen type I content in skeletal muscle after 12 weeks of high-load resistance training: a randomized controlled trial. Front Physiol. 2026. PMID:42376607 DOI:10.3389/fphys.2026.1839695
+52. Paul C et al. Significant Amounts of Functional Collagen Peptides Can Be Incorporated in the Diet While Maintaining Indispensable Amino Acid Balance. Nutrients. 2019. PMID:31096622 DOI:10.3390/nu11051079
+53. Chen M et al. Heavy metal and Microplastic exposure from sports protein Supplements: Integrated health risk modeling and scenario analysis. Environ Res. 2026. PMID:41655677 DOI:10.1016/j.envres.2026.123988
+54. Monro JA et al. The risk of lead contamination in bone broth diets. Med Hypotheses. 2013. PMID:23375414 DOI:10.1016/j.mehy.2012.12.026
+55. Sakaguchi M et al. IgE antibody to fish gelatin (type I collagen) in patients with fish allergy. J Allergy Clin Immunol. 2000. PMID:10984381 DOI:10.1067/mai.2000.108499
+56. Kalic T et al. Collagen-An Important Fish Allergen for Improved Diagnosis. J Allergy Clin Immunol Pract. 2020. PMID:32389794 DOI:10.1016/j.jaip.2020.04.063
+57. Kobayashi Y et al. Fish collagen is an important panallergen in the Japanese population. Allergy. 2016. PMID:26785247 DOI:10.1111/all.12836
+58. Vaz-Rodrigues R et al. Current and Future Strategies for the Diagnosis and Treatment of the Alpha-Gal Syndrome (AGS). J Asthma Allergy. 2022. PMID:35879928 DOI:10.2147/JAA.S265660
+59. Chiu CY et al. Association between tick-bite history and safety of gelatin-containing vaccines: Analysis of a large database of the United States. Ticks Tick Borne Dis. 2025. PMID:40752174 DOI:10.1016/j.ttbdis.2025.102532
+60. Knight J et al. Hydroxyproline ingestion and urinary oxalate and glycolate excretion. Kidney Int. 2006. PMID:17021603 DOI:10.1038/sj.ki.5001906
+61. Rodgers A et al. Theoretical and laboratory investigations of the effects of hydroxyproline ingestion on the metabolic and physicochemical risk factors for calcium oxalate kidney stone formation in a small group of healthy subjects. Int Urol Nephrol. 2019. PMID:31161522 DOI:10.1007/s11255-019-02186-2
+62. Siener R et al. Metabolic profile and impact of diet in patients with primary hyperoxaluria. Int Urol Nephrol. 2018. PMID:30039216 DOI:10.1007/s11255-018-1939-1
+63. Thomas C et al. Collagen peptide supplementation before bedtime reduces sleep fragmentation and improves cognitive function in physically active males with sleep complaints. Eur J Nutr. 2024. PMID:37874350 DOI:10.1007/s00394-023-03267-w
+64. Fan Z et al. Glycine Bioavailability and Sleep-Related Outcomes Following Oral Glycine and Collagen Supplementation-A Scoping Review. J Diet Suppl. 2026. PMID:42687500 DOI:10.1080/19390211.2026.2726197
+65. Bannai M et al. New therapeutic strategy for amino acid medicine: glycine improves the quality of sleep. J Pharmacol Sci. 2012. PMID:22293292 DOI:10.1254/jphs.11r04fm
+66. Jalili Z et al. Effects of collagen peptide supplementation on cardiovascular markers: a systematic review and meta-analysis of randomised, placebo-controlled trials. Br J Nutr. 2023. PMID:35658958 DOI:10.1017/S0007114522001301
+67. López-Yoldi M et al. Anti-Obesity Effects of a Collagen with Low Digestibility and High Swelling Capacity: A Human Randomized Control Trial. Nutrients. 2024. PMID:39458544 DOI:10.3390/nu16203550
+68. Zhu CF et al. Treatment with marine collagen peptides modulates glucose and lipid metabolism in Chinese patients with type 2 diabetes mellitus. Appl Physiol Nutr Metab. 2010. PMID:21164551 DOI:10.1139/H10-075
+69. Yamamoto S et al. Absorption and Urinary Excretion of Peptides after Collagen Tripeptide Ingestion in Humans. Biol Pharm Bull. 2016. PMID:26934933 DOI:10.1248/bpb.b15-00624
+70. Virgilio N et al. Unravelling the bioavailability of amino acids and bioactive peptides from collagen hydrolysate in coffee in healthy volunteers. Food Res Int. 2025. PMID:40356137 DOI:10.1016/j.foodres.2025.116478
+71. Haralović V et al. Oral Use of Collagen Supplements in Dermatology. Acta Dermatovenerol Croat. 2025. PMID:41804623 DOI: none assigned in PubMed

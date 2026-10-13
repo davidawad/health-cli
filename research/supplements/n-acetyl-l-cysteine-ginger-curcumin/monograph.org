@@ -3,50 +3,208 @@
 :ID: supp-n-acetyl-l-cysteine-ginger-curcumin
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: NAC Ginger Curcumin | NAC + Ginger + Curcumin | N-acetylcysteine, ginger and curcumin
+:ALIASES: NAC + Ginger + Curcumin | Blueprint NAC + Ginger + Curcumin | NAC Ginger Curcumin | N-acetyl-L-cysteine, ginger and curcumin | N-acetylcysteine/Zingiber officinale/curcuminoids
 :CATEGORY: botanical
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- A multi-ingredient formula combining N-acetyl-L-cysteine (NAC), ginger and curcumin; exact quantities and absorption enhancers depend on the product version. A related human trial of curcumin, gingerol and piperine (not necessarily this product) found limited migraine outcome signals [PMID:42021338]. Ingredient-level effects must not be attributed automatically to the combined product.
+- Likely product: Blueprint "NAC + Ginger + Curcumin" capsules. A supplement database lists, per 3-capsule serving: N-acetyl-L-cysteine 1200 mg, ginger extract 400 mg (standardized to 26% gingeroids) and curcumin extract 250 mg. It lists 30 servings per container, yet the directions say "1 capsule daily with meals" [URL:https://supp.co/products/blueprint-nac-ginger-curcumin]. A retailer lists 90 capsules with one capsule daily [URL:https://healf.com/en-uk/products/blueprint-nac-capsules]. Neither listing names a curcumin delivery form or piperine, so the curcumin's bioavailability is unknown. Treat this as a generic NAC + ginger + curcumin combination.
+- No randomized trial of this three-ingredient product, or of any NAC + ginger + curcumin combination, was found. A PubMed search for acetylcysteine AND curcumin AND ginger returned 0 records on 2026-10-13. The evidence below is ingredient-level and cannot be transferred directly to the blend.
+- N-acetylcysteine (NAC): acetylated cysteine. It is a prescription mucolytic and the acetaminophen-overdose antidote. Oral doses of 200-400 mg reach peak plasma levels of 0.35-4 mg/L within 1-2 h. Terminal half-life is about 6.25 h, and roughly 70% of clearance is nonrenal [PMID:2029805]. Oral bioavailability depends on the formulation [PMID:39430194].
+- Ginger (Zingiber officinale rhizome): gingerols and shogaols. Trials mostly used 0.5-2 g/day of powder or extract [PMID:39053695] [PMID:24642205].
+- Curcumin: the main curcuminoid of turmeric (Curcuma longa). Plain curcumin is poorly bioavailable. With 2 g curcumin alone, human serum levels were undetectable or very low, and 20 mg piperine raised bioavailability by 2000% [PMID:9619120]. Piperine and other enhanced formulations are common in curcumin products [PMID:36720711].
+- Combination pharmacology: one rat nanoparticle study found that NAC-modified carriers raised curcumin AUC 3.25-fold [PMID:32763460]. This is preclinical and formulation-specific, and not evidence that adding NAC to a capsule boosts curcumin absorption.
 
 ** Mechanisms
-- NAC supplies cysteine for glutathione synthesis and can reduce disulfide bonds in mucus. Gingerols/shogaols and curcuminoids have anti-inflammatory signaling effects in experimental systems; these mechanisms are not proof that the branded combination improves health outcomes [PMID:26324807; PMID:35623903].
+- NAC supplies cysteine for glutathione (GSH) synthesis and breaks mucus disulfide bonds [PMID:2029805] [PMID:39632267]. With glycine (GlyNAC), it corrected GSH deficiency and oxidative stress in a 16-week RCT in 24 older adults [PMID:35975308]. Even at 6 g/day orally, brain GSH did not rise, possibly because of low oral bioavailability [PMID:28940353]. A COPD meta-analysis found no change in GSH levels [PMID:42473447].
+- NAC donates sulfhydryl groups, which potentiates nitroglycerin vasodilation (possibly via S-nitroso-NAC) and its antiplatelet effect [PMID:3137075] [PMID:9676716]. A review warns that very high NAC concentrations may cause "reductive stress" [PMID:39430194].
+- Ginger lowers CRP, TNF-alpha and IL-6 and raises antioxidant capacity in RCT meta-analyses [PMID:41123858]. Antiplatelet activity is dose- and preparation-dependent: 2 g dried ginger had no effect on platelet function or bleeding time in a small RCT [PMID:8165628].
+- Curcumin is anti-inflammatory and antioxidant (CRP, TNF-alpha, IL-6, MDA, SOD) [PMID:36804260]. Preclinical work shows antiplatelet, anticoagulant and fibrinolytic activity [PMID:29052850]. In vitro, curcumin inhibits CYP2C9 (IC50 4.3 uM) and CYP3A4 (IC50 16.3 uM), but low systemic exposure limits hepatic relevance [PMID:17433521]. Piperine inhibits glucuronidation [PMID:9619120], P-glycoprotein and CYP3A4 [PMID:34776989].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---------+--------------------+-----------+-------------+-----------------------+-----------|
-| NAC for chronic respiratory conditions | Cochrane-style systematic review of RCTs | Possible reduction in exacerbations in some populations | Effects depend on disease and dose; evidence mixed | low | [PMID:26324807] |
-| Ginger for nausea | SR/MA of RCTs | Benefit in selected nausea settings | modest symptom improvement; indication-specific | moderate | [PMID:35623903] |
-| Curcumin for inflammatory/metabolic outcomes | Umbrella review of 161 meta-analyses | Signals across outcomes; quality variable | heterogeneity, small-study/publication bias | low | [PMID:35623903] |
-| Curcumin+ginger-related blend for migraine | 2026 small RCT, n=60 | Headache severity/hs-CRP reduced; frequency/duration null | severity change −1.93 vs −0.36; 8 weeks | low | [PMID:42021338] |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| COPD/chronic bronchitis exacerbations (NAC) | Cochrane review (mucolytics, 38 RCTs); NAC MAs (20 studies; 14 RCTs, n=2856); 2-yr RCT (n=968) | Small reduction; null in mild-moderate COPD RCT | Exacerbation IRR 0.76 (0.59-0.99) COPD, 0.81 chronic bronchitis; RR 0.87 (0.79-0.96); high-dose RCT RR 0.90 (0.80-1.02); no FEV1 change | moderate | [PMID:31107966] [PMID:38555190] [PMID:42473447] [PMID:39349461] |
+| Depressive symptoms (NAC, adjunct) | SR/MA (12 RCTs, n=904) | Small benefit | SMD -0.24 (-0.44 to -0.05), mainly bipolar depression | low | [PMID:39504621] |
+| Psychosis (NAC, adjunct) | SR/MA (8 RCTs, n=594) | No effect | No PANSS difference | low | [PMID:37712506] |
+| Substance craving / cannabis use disorder (NAC) | MA (9 RCTs, n=623); Cochrane 2025 | No clear benefit | Craving SMD 0.19 (-0.02 to 0.39), I2 99%; abstinence RR 1.17 (0.73-1.88) | low | [PMID:39556483] [PMID:41025421] |
+| Glutathione/oxidative stress (NAC) | MA (20 studies, exercise); small RCT (GlyNAC) | Increase GSH, lower TBARS/IL-6 after exercise | IL-6 SMD -1.71; TBARS SMD -1.03; GSH up | low | [PMID:39632267] [PMID:35975308] |
+| Nausea/vomiting of pregnancy (ginger) | SR/MA (12 RCTs, n=1278); NMA 2026; overview of MAs | Benefit for nausea, not vomiting | Nausea MD 1.20 (0.56-1.84) vs placebo | moderate | [PMID:24642205] [PMID:42075106] [PMID:38072785] |
+| Chemotherapy-induced nausea (ginger, adjunct) | SR/MA (35 RCTs) | Benefit for severe CINV | Grade-3 acute nausea RR 0.19; high-grade vomiting RR 0.47 | low | [PMID:38625733] |
+| Postoperative nausea (ginger) | SR/MA (14 RCTs, n=1506) | Less nausea; no effect on vomiting/rescue antiemetics | Nausea SMD -1.10 to -2.04 at 2-12 h | low | [PMID:34700257] |
+| Knee OA pain (ginger) | MA (5 RCTs, n=593); later MA; NMA | Small benefit | Pain SMD -0.30 (-0.50 to -0.09); dropouts RR 2.33; later MA judged evidence insufficient | low | [PMID:25300574] [PMID:32214292] [PMID:40806131] |
+| Knee OA pain/function (curcumin/turmeric) | Umbrella MA (11 MAs); SR/MA (16 RCTs, n=1810); NMA (39 RCTs) | Benefit, similar to NSAIDs | Pain SMD -0.82 (-1.17 to -0.47), I2 86%; function SMD -0.75 | moderate | [PMID:38576215] [PMID:33511486] [PMID:34017975] [PMID:40806131] |
+| CRP and inflammatory markers (curcumin) | GRADE dose-response MA (66 RCTs); T2DM MA 2026 | Decrease | CRP WMD -0.58 mg/L (-0.74 to -0.41); TNF-a -3.48 pg/mL; T2DM hs-CRP -1.06 mg/L | moderate | [PMID:36804260] [PMID:42797011] [PMID:39478418] |
+| CRP and inflammatory markers (ginger) | GRADE dose-response MA (29 RCTs) | Decrease | CRP WMD -0.86 mg/L (-1.10 to -0.62); IL-6 -1.15 pg/mL | low | [PMID:41123858] |
+| Glycemia in T2DM (curcumin) | MA (18 RCTs, n=1382); MA of 103 RCTs | Decrease | FBG MD -11.48 mg/dL; HbA1c -0.54% | moderate | [PMID:39683570] [PMID:39478418] |
+| Glycemia in T2DM (ginger) | MA (13 RCTs, 2026); earlier MA (5 RCTs) | Small decrease; earlier MA null | FBG MD -16.27 mg/dL; HbA1c -0.41% (I2 >85%) | low | [PMID:42337792] [PMID:39053695] |
+| Lipids (curcumin, prediabetes/T2DM) | SR/MA (27 RCTs) | Modest improvement | TG -13.73 mg/dL; LDL-C -5.72 mg/dL; HDL-C +2.14 mg/dL; GRADE low | low | [PMID:41656101] |
+| Blood pressure (ginger) | GRADE dose-response MA (12 RCTs) | Modest decrease | SBP -5.03 mmHg; DBP -2.03 mmHg; GRADE low | low | [PMID:42566667] |
+| Migraine (curcumin + gingerol + piperine; no NAC) | RCT (n=60, 8 wk) | Severity and hs-CRP down; frequency/duration null | Severity -1.93 vs -0.36 (VAS) | very low | [PMID:42021338] |
+| Knee OA PGE2 (turmeric + ginger + black pepper; no NAC) | RCT vs naproxen (n=60, 4 wk) | PGE2 fell similarly to naproxen | No between-group difference | very low | [PMID:32180294] |
 
 ** Dosing in trials
-- NAC trials commonly use 600–1,200 mg/day orally, sometimes up to 1,800 mg/day by indication; ginger trials often use 0.5–2 g/day powder; curcumin trials use about 500–2,000 mg/day or enhanced-bioavailability extracts. These are ingredient trial doses, not a recommended dose for any branded blend [PMID:26324807; PMID:35623903].
+- Product: per-serving amounts of 1200 mg NAC, 400 mg ginger extract and 250 mg curcumin extract are listed, but the 3-capsule serving conflicts with the "1 capsule daily" directions [URL:https://supp.co/products/blueprint-nac-ginger-curcumin].
+- NAC, COPD: 600 mg twice daily for 2 years in the largest recent RCT [PMID:39349461]. A meta-analysis found benefit at <=600 mg/day (RR 0.84) but not at >600 mg/day (RR 0.88, NS) [PMID:42473447].
+- NAC, psychiatry: 1000-3000 mg/day for 8-24 weeks in depression trials [PMID:39504621]. In the IPF genotype trial (PRECISIONS), 600 mg three times daily [PMID:36514019].
+- NAC, sport/high dose: a typical 5.8 g/day (range 1.2-20 g/day), with side effects appearing to rise with dose [PMID:28102488].
+- Ginger: 1.2-2 g/day powder for 4-12 weeks in T2DM [PMID:39053695]. Lower doses (<1500 mg/day) favored for nausea of pregnancy [PMID:24642205]. Blood pressure effects were larger at >=2000 mg/day [PMID:42566667].
+- Curcumin: OA benefit is suggested at >12 weeks of use [PMID:34017975]. Combination trials used 600 mg curcumin + 15 mg gingerol + 7.5 mg piperine daily (migraine) [PMID:42021338] and 500 mg-1 g/day ginger + curcumin (1-week diet study) [PMID:42530541].
 
 ** Safety & adverse effects
-- NAC may cause nausea, diarrhea and reflux; inhaled use may cause bronchospasm. Ginger/curcumin can cause GI symptoms. Rare turmeric-associated liver injury has been reported, especially enhanced-bioavailability products; product composition matters [PMID:35623903; URL:https://www.nccih.nih.gov/health/turmeric].
+- NAC (oral): nausea, vomiting and diarrhea are the commonest effects [PMID:2029805]. Side-effect odds versus placebo were 1.11 (0.88-1.39) [PMID:28102488]. Mucolytics did not increase adverse events in the Cochrane review [PMID:31107966] or the 2026 NAC meta-analysis [PMID:42473447].
+  - Inhaled acetylcysteine (prescription solution) can cause bronchospasm. The label says asthmatics "should be watched carefully" and treatment should stop if bronchospasm progresses [URL:https://labeling.pfizer.com/ShowLabeling.aspx?id=4101]. This applies to inhaled, not oral capsule, use.
+- Ginger: abdominal discomfort, heartburn and diarrhea [URL:https://www.nccih.nih.gov/health/ginger]. In an OA meta-analysis, ginger takers were more likely to withdraw than placebo takers (RR 2.33) [PMID:25300574]. No significant excess of miscarriage versus placebo (RR 3.14, 0.65-15.11; wide CI) [PMID:24642205].
+- Curcumin/turmeric: GI upset, nausea and diarrhea [URL:https://www.nccih.nih.gov/health/turmeric]. OA trials show adverse-event rates similar to placebo and 12% lower than NSAIDs [PMID:33511486].
+- Curcumin/turmeric hepatotoxicity (idiosyncratic herb-induced liver injury):
+  - US DILIN: 10 cases, all since 2011, 9 hepatocellular. Latency was 1-4 months; 5 patients were hospitalized and 1 died. 3 of 7 tested products contained piperine. HLA-B*35:01 carrier frequency was 0.45 vs 0.056-0.069 in controls [PMID:36252717].
+  - Histopathology series: 11 cases (91% female), mostly acute pan-lobular or zone-3 hepatitis. All normalized after stopping [PMID:39381846].
+  - Italy (Tuscany): 7 cases, all linked to high-bioavailability, high-dose formulations [PMID:32656820].
+  - Recurrence on rechallenge with a turmeric + black pepper product: drug-induced autoimmune-like hepatitis needing steroids [PMID:42160492]. A further case was linked to a turmeric-piperine supplement [PMID:41281037].
+  - USP (2026): reactions are rare and resolve on withdrawal, but acute liver failure has occurred. USP added a cautionary liver statement to its turmeric/curcuminoid monographs [PMID:42364655]. NCCIH notes liver damage with bioavailable formulations [URL:https://www.nccih.nih.gov/health/turmeric].
+  - Piperine is suspected as a contributor, through inhibition of drug metabolism. A RUCAM-based review argues causality for curcumin itself is weak [PMID:34776989].
+- Turmeric/curcumin is the most commonly used of the 6 botanicals most often reported as hepatotoxic in the US (n=236 of the NHANES users) [PMID:39102266].
+- Bleeding: in a review, ginger's overall bleeding risk was conflicting, and turmeric was associated with bleeding only in people on anticoagulants [PMID:36304597].
 
 ** Contraindications
-- Use caution with biliary obstruction/gallstones for concentrated turmeric/curcumin; clinical relevance varies. Hypersensitivity to ingredients is a contraindication. Pregnancy data for concentrated extracts are limited [URL:https://www.nccih.nih.gov/health/turmeric; PMID:35623903].
+- Prior turmeric/curcumin-associated liver injury: recurrence was more severe on re-exposure [PMID:42160492]. Existing liver disease warrants caution, per the USP cautionary statement [PMID:42364655].
+- Pregnancy: NCCIH says turmeric supplements "may be unsafe" in pregnancy [URL:https://www.nccih.nih.gov/health/turmeric]. Ginger alone has supportive data [PMID:24642205]. No data exist for the combination.
+- Asthma/bronchospasm history: this applies to the inhaled acetylcysteine product only [URL:https://labeling.pfizer.com/ShowLabeling.aspx?id=4101]. No signal was found for oral capsules.
+- Scheduled surgery: a review advises stopping non-essential supplements 2 weeks before surgery [PMID:36304597].
+- Hypersensitivity to any ingredient.
 
 ** Interactions
-- NAC can potentiate nitroglycerin-associated hypotension/headache. Ginger/curcumin may have antiplatelet effects; additive bleeding with anticoagulants is plausible but clinical interaction evidence is limited. Piperine, if included, can alter drug metabolism; check exact label [PMID:35623903; PMID:42021338].
+*** Drugs
+- Nitroglycerin/organic nitrates: in an RCT of IV NTG + IV NAC (5 g every 6 h) in unstable angina, symptomatic hypotension occurred in 7 of 24 patients vs 0 of 22 [PMID:3127076] [PMID:3137075]. IV NAC also potentiated NTG coronary vasodilation [PMID:9676716]. The doses were far above supplement doses, so relevance to 1.2 g oral NAC is uncertain.
+- Warfarin/oral anticoagulants: an evidence review says ginger, even in small quantities, can potentiate warfarin [PMID:39288907]. A systematic review lists ginger among herbs raising bleeding risk with warfarin [PMID:32478963]. However, ginger did not alter warfarin PK/INR in a crossover study in 12 healthy men [PMID:15801937]. Meriva curcumin did not change INR with warfarin or dabigatran over 10 days [PMID:30070343]. Turmeric is linked to bleeding in anticoagulated people [PMID:36304597]. Monitor INR.
+- Antiplatelets (aspirin, clopidogrel, ticlopidine): Meriva curcumin did not change bleeding time over 10 days [PMID:30070343]. Antiplatelet effects are mainly preclinical [PMID:29052850]. 2 g dried ginger did not affect platelets [PMID:8165628].
+- Tacrolimus and other CYP3A4 substrates: one case report of turmeric-associated tacrolimus toxicity (trough 29.9 ng/mL) with acute nephrotoxicity [PMID:28104136]. In vitro, curcumin inhibits CYP3A4 and CYP2C9 [PMID:17433521]. Piperine inhibits CYP3A4 and P-gp [PMID:34776989]. Monitor trough levels of narrow-therapeutic-index drugs.
+- Antidiabetics (metformin, sulfonylureas, insulin): curcumin and ginger both lower FBG/HbA1c in T2DM [PMID:39683570] [PMID:42337792], so additive effects are possible. A 10-day study found no interaction of Meriva with metformin [PMID:30070343].
+- Activated charcoal: charcoal adsorbs acetylcysteine in vitro [URL:https://labeling.pfizer.com/ShowLabeling.aspx?id=4101] [PMID:2029805]. A 3-volunteer study found no significant drop in NAC absorption [PMID:7258201]. NAC reduced charcoal adsorption of acetaminophen and salicylate in vitro [PMID:11714205].
+- Hepatotoxic drugs: no interaction study exists. Most published turmeric DILI cases involved concomitant medications [PMID:32656820] [PMID:42364655].
+*** Other supplements
+- Duplication: the corpus items N-Acetyl-L-Cysteine (NAC), Turmeric, Curcumin and Ginger Root contain the same actives. Stacking raises total NAC dose (side effects rise with dose [PMID:28102488]) and total curcuminoid exposure (liver injury with high-dose, high-bioavailability products [PMID:32656820]).
+- Hepatotoxic botanical stack: Green Tea Extract and Ashwagandha share the 6-botanical hepatotoxicity list with turmeric [PMID:39102266]. USP also requires a liver caution for green tea extract [PMID:32140423].
+- Bleeding stack: Garlic is strongly associated with surgical bleeding [PMID:36304597]. EPA/DHA/DPA: no overall bleeding excess, except a small rise with high-dose purified EPA [PMID:38742535]. Aspirin: see Drugs [PMID:30070343].
+- Piperine/black pepper extract: enhances curcumin bioavailability [PMID:9619120] and is suspected in liver injury [PMID:34776989] [PMID:42160492].
+*** Conditions
+- Liver disease or prior herb-induced liver injury: see Contraindications [PMID:42364655].
+- Diabetes on glucose-lowering drugs: possible additive lowering [PMID:39683570].
+- Bleeding disorders or anticoagulation: caution [PMID:36304597].
+- Idiopathic pulmonary fibrosis: NAC benefit or harm may depend on TOLLIP genotype [PMID:26331942].
+*** Lab-test interference
+- Creatinine: NAC lowers measured serum creatinine (WMD -2.80 umol/L) without changing cystatin C. The drop is larger with enzymatic (non-Jaffe) assays and IV NAC (-31.1 umol/L), which suggests analytic interference [PMID:33615065].
+- Trinder-based assays (Roche): NAC causes >=10% inhibition of triglycerides (570 mg/L), cholesterol (740 mg/L), enzymatic creatinine (790 mg/L), uric acid and HDL-C. These concentrations exceed those expected with therapeutic dosing [PMID:26500003]. Interference with oral supplement doses is therefore unlikely.
+- Salicylate assays: no cited source found for NAC interference.
+- Liver tests: curcumin can cause true elevations (DILI), not assay artifacts [PMID:36252717].
 
 ** Genotype notes
-- No cited pharmacogenomic or nutrigenomic source specific to NAC, Ginger, Curcumin was identified in this search; no genotype claim is made.
+- HLA-B*35:01: 7 of 10 DILIN turmeric liver-injury cases carried this allele (allele frequency 0.450 vs 0.056-0.069 in controls) [PMID:36252717]. The USP review notes emerging genetic susceptibility [PMID:42364655].
+- TOLLIP rs3750920 (IPF): in PANTHER-IPF, NAC lowered composite-endpoint risk in TT carriers (HR 0.14, 0.02-0.83) but trended toward harm in CC carriers (HR 3.23, 0.79-13.16). The finding was replicated in an independent cohort [PMID:26331942]. The PRECISIONS phase III trial is testing 1800 mg/day NAC in TT patients [PMID:36514019].
 
 ** Latest research
-- 2026 RCT of 60 migraine patients tested curcumin 600 mg/day, gingerol 15 mg/day and piperine 7.5 mg/day for 8 weeks; severity and hs-CRP improved, while attack frequency/duration did not [PMID:42021338]. It is not direct evidence for every NAC/ginger/curcumin branded blend.
+- [2026-09] Curcumin in T2DM inflammatory-marker MA (6 RCTs, n=472): hs-CRP -1.06 mg/L; TNF-a g -1.20 [PMID:42797011].
+- [2026-08] Ginger blood-pressure GRADE MA (12 RCTs): SBP -5.03, DBP -2.03 mmHg; low certainty [PMID:42566667].
+- [2026-07] NAC in COPD MA (14 RCTs, n=2856): exacerbations RR 0.87; no FEV1, SGRQ or GSH benefit [PMID:42473447].
+- [2026-07] 1-week pesco-vegetarian diet with 0-2 doses of ginger + curcumin: blunted the HDL-C fall [PMID:42530541].
+- [2026-06] USP review of turmeric/curcuminoid hepatotoxicity: recommends a liver cautionary label [PMID:42364655].
+- [2026-06] Ginger in T2DM MA (13 RCTs): FBG -16.27 mg/dL, HbA1c -0.41% [PMID:42337792].
+- [2026-05] Recurrent turmeric + piperine drug-induced autoimmune-like hepatitis on rechallenge [PMID:42160492].
+- [2026-04] Curcumin + gingerol + piperine (Mixodin) migraine RCT (n=60): lower severity and hs-CRP; frequency unchanged [PMID:42021338].
+- [2026-04] NVP network MA (24 RCTs): ginger among effective non-drug options [PMID:42075106].
+- [2026-02] Mucolytic NMA in COPD (18 RCTs, n=4408): erdosteine and cineole ranked best [PMID:41688985].
+- [2026-02] Curcumin lipid MA in prediabetes/T2DM (27 RCTs): TG -13.73 mg/dL; GRADE low [PMID:41656101].
+- [2025-10] Ginger anti-inflammatory GRADE MA (29 RCTs): CRP -0.86 mg/L [PMID:41123858].
+- [2025-10] Case of DILI from a turmeric-piperine supplement [PMID:41281037].
+- [2025-09] Cochrane cannabis use disorder update: NAC did not increase abstinence (RR 1.17) [PMID:41025421].
+- [2025-08] Knee OA supplement NMA (39 RCTs): curcumin and ginger show benefit on some outcomes; Boswellia ranked best [PMID:40806131].
+- [2024-12] NAC exercise MA (20 studies): lower IL-6, TBARS and lactate; GSH up [PMID:39632267].
+- [2024-11] NAC depression MA (12 RCTs): SMD -0.24 [PMID:39504621]. NAC craving MA: null [PMID:39556483].
+- [2024-11] Curcumin T2DM MA (18 RCTs): FBG -11.48 mg/dL; HbA1c -0.54% [PMID:39683570].
+- [2024-10] Turmeric hepatitis histopathology series (11 cases) [PMID:39381846]. Curcumin MA of 103 RCTs: high credibility for FBG, CRP and HDL [PMID:39478418].
 
 ** Open questions
-- Larger, better reported human studies with standardized products, clinically meaningful endpoints and longer follow-up are needed; current gaps are noted above.
+- No trial of the NAC + ginger + curcumin combination exists. Additive or synergistic benefit is unproven, and the product's curcumin form and enhancer status are undisclosed.
+- The serving size on the label (3 capsules vs 1 capsule) needs clarification. NAC dose (400 vs 1200 mg/day) matters for COPD evidence, where benefit was seen at <=600 mg/day [PMID:42473447].
+- Incidence of turmeric/curcumin liver injury, and whether risk differs by formulation (piperine, nanoparticle, phytosome) or HLA-B*35:01 status [PMID:36252717] [PMID:34776989].
+- Clinical relevance of the NAC-nitrate interaction at oral supplement doses. Human data are from IV dosing [PMID:3127076].
+- Whether the oral NAC rise in GSH translates into clinical outcomes in healthy adults [PMID:28940353] [PMID:42473447].
+- Heterogeneity (I2 >80%) and small, short, regionally clustered trials limit most curcumin and ginger metabolic MAs [PMID:41656101] [PMID:42337792].
 
 ** Sources
-- PMID:26324807
-- PMID:35623903
-- PMID:42021338
-- URL:https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=acetylcysteine
-- URL:https://www.nccih.nih.gov/health/turmeric
+1. Holdiness MR. Clinical pharmacokinetics of N-acetylcysteine. Clin Pharmacokinet. 1991. PMID:2029805 DOI:10.2165/00003088-199120020-00004
+2. Hernández-Cruz EY et al. N-acetylcysteine in Kidney Disease: Molecular Mechanisms, Pharmacokinetics, and Clinical Effectiveness. Kidney Int Rep. 2024. PMID:39430194 DOI:10.1016/j.ekir.2024.07.020
+3. Schumacher JC et al. The effect of oral supplementation of ginger on glycemic control of patients with type 2 diabetes mellitus - A systematic review and meta-analysis. Clin Nutr ESPEN. 2024. PMID:39053695 DOI:10.1016/j.clnesp.2024.07.011
+4. Viljoen E et al. A systematic review and meta-analysis of the effect and safety of ginger in the treatment of pregnancy-associated nausea and vomiting. Nutr J. 2014. PMID:24642205 DOI:10.1186/1475-2891-13-20
+5. Shoba G et al. Influence of piperine on the pharmacokinetics of curcumin in animals and human volunteers. Planta Med. 1998. PMID:9619120 DOI:10.1055/s-2006-957450
+6. Heidari H et al. Curcumin-piperine co-supplementation and human health: A comprehensive review of preclinical and clinical studies. Phytother Res. 2023. PMID:36720711 DOI:10.1002/ptr.7737
+7. Zhang S et al. The enhancement of N-acetylcysteine on intestinal absorption and oral bioavailability of hydrophobic curcumin. Eur J Pharm Sci. 2020. PMID:32763460 DOI:10.1016/j.ejps.2020.105506
+8. Sadowski M et al. The impact of N-acetylcysteine on lactate, biomarkers of oxidative stress, immune response, and muscle damage: A systematic review and meta-analysis. J Cell Mol Med. 2024. PMID:39632267 DOI:10.1111/jcmm.70198
+9. Kumar P et al. Supplementing Glycine and N-Acetylcysteine (GlyNAC) in Older Adults Improves Glutathione Deficiency, Oxidative Stress, Mitochondrial Dysfunction, Inflammation, Physical Function, and Aging Hallmarks: A Randomized Clinical Trial. J Gerontol A Biol Sci Med Sci. 2023. PMID:35975308 DOI:10.1093/gerona/glac135
+10. Coles LD et al. Repeated-Dose Oral N-Acetylcysteine in Parkinson's Disease: Pharmacokinetics and Effect on Brain Glutathione and Oxidative Stress. J Clin Pharmacol. 2018. PMID:28940353 DOI:10.1002/jcph.1008
+11. Cai X et al. The efficacy of N-acetylcysteine in the management of chronic obstructive pulmonary disease: a systematic review and meta-analysis. PeerJ. 2026. PMID:42473447 DOI:10.7717/peerj.21448
+12. Horowitz JD et al. Nitroglycerine/N-acetylcysteine in the management of unstable angina pectoris. Eur Heart J. 1988. PMID:3137075 DOI:10.1093/eurheartj/9.suppl_a.95
+13. Nishikawa Y et al. Differential effects of N-acetylcysteine on nitroglycerin- and nicorandil-induced vasodilation in human coronary circulation. J Cardiovasc Pharmacol. 1998. PMID:9676716 DOI:10.1097/00005344-199807000-00004
+14. Rjabi S et al. Antioxidant and anti-inflammatory effects of ginger supplementation in adults: a GRADE-assessed systematic review and dose-response meta-analysis of randomised controlled trials. Inflammopharmacology. 2025. PMID:41123858 DOI:10.1007/s10787-025-01994-6
+15. Lumb AB. Effect of dried ginger on human platelet function. Thromb Haemost. 1994. PMID:8165628
+16. Dehzad MJ et al. Antioxidant and anti-inflammatory effects of curcumin/turmeric supplementation in adults: A GRADE-assessed systematic review and dose-response meta-analysis of randomized controlled trials. Cytokine. 2023. PMID:36804260 DOI:10.1016/j.cyto.2023.156144
+17. Keihanian F et al. Curcumin, hemostasis, thrombosis, and coagulation. J Cell Physiol. 2018. PMID:29052850 DOI:10.1002/jcp.26249
+18. Appiah-Opong R et al. Inhibition of human recombinant cytochrome P450s by curcumin and curcumin decomposition products. Toxicology. 2007. PMID:17433521 DOI:10.1016/j.tox.2007.03.007
+19. Stati G et al. Curcuma longa Hepatotoxicity: A Baseless Accusation. Cases Assessed for Causality Using RUCAM Method. Front Pharmacol. 2021. PMID:34776989 DOI:10.3389/fphar.2021.780330
+20. Poole P et al. Mucolytic agents versus placebo for chronic bronchitis or chronic obstructive pulmonary disease. Cochrane Database Syst Rev. 2019. PMID:31107966 DOI:10.1002/14651858.CD001287.pub6
+21. Papi A et al. N-acetylcysteine Treatment in Chronic Obstructive Pulmonary Disease (COPD) and Chronic Bronchitis/Pre-COPD: Distinct Meta-analyses. Arch Bronconeumol. 2024. PMID:38555190 DOI:10.1016/j.arbres.2024.03.010
+22. Zhou Y et al. Effect of high-dose N-acetylcysteine on exacerbations and lung function in patients with mild-to-moderate COPD: a double-blind, parallel group, multicentre randomised clinical trial. Nat Commun. 2024. PMID:39349461 DOI:10.1038/s41467-024-51079-1
+23. Peng TR et al. Efficacy of N-acetylcysteine for patients with depression: An updated systematic review and meta-analysis. Gen Hosp Psychiatry. 2024. PMID:39504621 DOI:10.1016/j.genhosppsych.2024.10.018
+24. Zhang Q et al. Efficacy and acceptability of adjunctive n-acetylcysteine for psychotic disorders: Systematic review and meta-analysis. Hum Psychopharmacol. 2024. PMID:37712506 DOI:10.1002/hup.2880
+25. Winterlind EL et al. N-acetylcysteine as a treatment for substance use cravings: A meta-analysis. Addict Biol. 2024. PMID:39556483 DOI:10.1111/adb.70001
+26. Spiga F et al. Pharmacotherapies for cannabis use disorder. Cochrane Database Syst Rev. 2025. PMID:41025421 DOI:10.1002/14651858.CD008940.pub4
+27. Frivaldszky L et al. Comparative Effectiveness of Pharmacological and Non-Pharmacological Interventions for Nausea and Vomiting in Pregnancy: A Systematic Review and Network Meta-Analysis. Nutrients. 2026. PMID:42075106 DOI:10.3390/nu18081293
+28. Li Z et al. Ginger for treating nausea and vomiting: an overview of systematic reviews and meta-analyses. Int J Food Sci Nutr. 2024. PMID:38072785 DOI:10.1080/09637486.2023.2284647
+29. Lin CY et al. Efficacy and Safety of Ginger on Chemotherapy-Induced Nausea and Vomiting: A Systematic Review and Meta-analysis of Randomized Controlled Trials. Cancer Nurs. 2025. PMID:38625733 DOI:10.1097/NCC.0000000000001355
+30. Lu C et al. The preventive and relieving effects of ginger on postoperative nausea and vomiting: A systematic review and meta-analysis of randomized controlled trials. Int J Nurs Stud. 2022. PMID:34700257 DOI:10.1016/j.ijnurstu.2021.104094
+31. Bartels EM et al. Efficacy and safety of ginger in osteoarthritis patients: a meta-analysis of randomized placebo-controlled trials. Osteoarthritis Cartilage. 2015. PMID:25300574 DOI:10.1016/j.joca.2014.09.024
+32. Araya-Quintanilla F et al. Effectiveness of Ginger on Pain and Function in Knee Osteoarthritis: A PRISMA Systematic Review and Meta-Analysis. Pain Physician. 2020. PMID:32214292
+33. Zhang Y et al. Comparative Effectiveness of Nutritional Supplements in the Treatment of Knee Osteoarthritis: A Network Meta-Analysis. Nutrients. 2025. PMID:40806131 DOI:10.3390/nu17152547
+34. Bideshki MV et al. The efficacy of curcumin in relieving osteoarthritis: A meta-analysis of meta-analyses. Phytother Res. 2024. PMID:38576215 DOI:10.1002/ptr.8153
+35. Wang Z et al. Efficacy and Safety of Turmeric Extracts for the Treatment of Knee Osteoarthritis: a Systematic Review and Meta-analysis of Randomised Controlled Trials. Curr Rheumatol Rep. 2021. PMID:33511486 DOI:10.1007/s11926-020-00975-8
+36. Zeng L et al. The efficacy and safety of Curcuma longa extract and curcumin supplements on osteoarthritis: a systematic review and meta-analysis. Biosci Rep. 2021. PMID:34017975 DOI:10.1042/BSR20210817
+37. Pérez CI et al. Effects of Curcumin Supplementation on Inflammatory Biomarkers in Adults with Type 2 Diabetes Mellitus: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. Nutrients. 2026. PMID:42797011 DOI:10.3390/nu18183028
+38. Jafari A et al. Curcumin on Human Health: A Comprehensive Systematic Review and Meta-Analysis of 103 Randomized Controlled Trials. Phytother Res. 2024. PMID:39478418 DOI:10.1002/ptr.8340
+39. Mokgalaboni K et al. Curcumin Attenuates Hyperglycemia and Inflammation in Type 2 Diabetes Mellitus: Quantitative Analysis of Randomized Controlled Trial. Nutrients. 2024. PMID:39683570 DOI:10.3390/nu16234177
+40. Chen X et al. Meta-analysis of the effects of ginger supplementation on glycemic control, blood pressure and lipid profile in patients with type 2 diabetes. Syst Rev. 2026. PMID:42337792 DOI:10.1186/s13643-026-03251-5
+41. Bahari H et al. Effects of Curcumin/Turmeric Supplementation on Lipid Profile in Subjects With Prediabetes and Diabetes: A Systematic Review and Meta-Analysis. Lipids. 2026. PMID:41656101 DOI:10.1002/lipd.70037
+42. Karimi M et al. Ginger Supplementation and Blood Pressure in Adults: A GRADE-Based Systematic Review and Dose-Response Meta-Analysis of Randomized Controlled Trials. J Hum Nutr Diet. 2026. PMID:42566667 DOI:10.1111/jhn.70329
+43. Askari MA et al. The effects of Mixodin supplementation on migraine headache characteristics, oxidative stress and inflammatory biomarkers in patients with migraine: a double-blind, placebo-controlled, randomized trial. Nutr J. 2026. PMID:42021338 DOI:10.1186/s12937-026-01308-8
+44. Heidari-Beni M et al. Herbal formulation "turmeric extract, black pepper, and ginger" versus Naproxen for chronic knee osteoarthritis: A randomized, double-blind, controlled clinical trial. Phytother Res. 2020. PMID:32180294 DOI:10.1002/ptr.6671
+45. Podolanczuk AJ et al. Design and rationale for the prospective treatment efficacy in IPF using genotype for NAC selection (PRECISIONS) clinical trial. BMC Pulm Med. 2022. PMID:36514019 DOI:10.1186/s12890-022-02281-8
+46. Rhodes K et al. Performance and Side Effects of Supplementation with N-Acetylcysteine: A Systematic Review and Meta-Analysis. Sports Med. 2017. PMID:28102488 DOI:10.1007/s40279-017-0677-3
+47. Mossburg K et al. Dietary intake and blood biomarker changes with a one-week pesco-vegetarian diet intervention supplemented with varying dose of ginger and curcumin: A single-blinded randomized clinical trial. Nutr Health. 2026. PMID:42530541 DOI:10.1177/02601060261468994
+48. Halegoua-DeMarzio D et al. Liver Injury Associated with Turmeric-A Growing Problem: Ten Cases from the Drug-Induced Liver Injury Network [DILIN]. Am J Med. 2023. PMID:36252717 DOI:10.1016/j.amjmed.2022.09.026
+49. Papke DJ et al. Turmeric supplement-associated hepatitis: a clinicopathological series of 11 cases highlighting pan-lobular and zone 3 injury. Histopathology. 2025. PMID:39381846 DOI:10.1111/his.15333
+50. Lombardi N et al. Acute liver injury following turmeric use in Tuscany: An analysis of the Italian Phytovigilance database and systematic review of case reports. Br J Clin Pharmacol. 2021. PMID:32656820 DOI:10.1111/bcp.14460
+51. Patel AA et al. Recurrent Drug-Induced Autoimmune-like Hepatitis due to Turmeric Supplementation. J Investig Med High Impact Case Rep. 2026. PMID:42160492 DOI:10.1177/23247096261452814
+52. Koo N et al. Drug-Induced Liver Injury Secondary to Turmeric Supplement Containing Piperine: A Case Report. Cureus. 2025. PMID:41281037 DOI:10.7759/cureus.95076
+53. Akhtar N et al. Rarely reported cases of hepatotoxicity associated with turmeric- and curcuminoid-containing dietary supplements: a comprehensive review by USP. Pharm Biol. 2026. PMID:42364655 DOI:10.1080/13880209.2026.2693375
+54. Likhitsup A et al. Estimated Exposure to 6 Potentially Hepatotoxic Botanicals in US Adults. JAMA Netw Open. 2024. PMID:39102266 DOI:10.1001/jamanetworkopen.2024.25822
+55. Hatfield J et al. Dietary supplements and bleeding. Proc (Bayl Univ Med Cent). 2022. PMID:36304597 DOI:10.1080/08998280.2022.2121575
+56. Horowitz JD et al. Combined use of nitroglycerin and N-acetylcysteine in the management of unstable angina pectoris. Circulation. 1988. PMID:3127076 DOI:10.1161/01.cir.77.4.787
+57. Talasaz AH et al. Pharmacokinetic and Pharmacodynamic Interactions between Food or Herbal Products and Oral Anticoagulants: Evidence Review, Practical Recommendations, and Knowledge Gaps. Semin Thromb Hemost. 2025. PMID:39288907 DOI:10.1055/s-0044-1790258
+58. Tan CSS et al. Warfarin and food, herbal or dietary supplement interactions: A systematic review. Br J Clin Pharmacol. 2021. PMID:32478963 DOI:10.1111/bcp.14404
+59. Jiang X et al. Effect of ginkgo and ginger on the pharmacokinetics and pharmacodynamics of warfarin in healthy subjects. Br J Clin Pharmacol. 2005. PMID:15801937 DOI:10.1111/j.1365-2125.2005.02322.x
+60. Hu S et al. Interaction study between antiplatelet agents, anticoagulants, thyroid replacement therapy and a bioavailable formulation of curcumin (Meriva®). Eur Rev Med Pharmacol Sci. 2018. PMID:30070343 DOI:10.26355/eurrev_201808_15647
+61. Nayeri A et al. Acute Calcineurin Inhibitor Nephrotoxicity Secondary to Turmeric Intake: A Case Report. Transplant Proc. 2017. PMID:28104136 DOI:10.1016/j.transproceed.2016.11.029
+62. North DS et al. Effect of activated charcoal administration on acetylcysteine serum levels in humans. Am J Hosp Pharm. 1981. PMID:7258201
+63. Tenenbein PK et al. Interaction between N-acetylcysteine and activated charcoal: implications for the treatment of acetaminophen poisoning. Pharmacotherapy. 2001. PMID:11714205 DOI:10.1592/phco.21.17.1331.34427
+64. Oketch-Rabah HA et al. United States Pharmacopeia (USP) comprehensive review of the hepatotoxicity of green tea extracts. Toxicol Rep. 2020. PMID:32140423 DOI:10.1016/j.toxrep.2020.02.008
+65. Javaid M et al. Bleeding Risk in Patients Receiving Omega-3 Polyunsaturated Fatty Acids: A Systematic Review and Meta-Analysis of Randomized Clinical Trials. J Am Heart Assoc. 2024. PMID:38742535 DOI:10.1161/JAHA.123.032390
+66. Oldham JM et al. TOLLIP, MUC5B, and the Response to N-Acetylcysteine among Individuals with Idiopathic Pulmonary Fibrosis. Am J Respir Crit Care Med. 2015. PMID:26331942 DOI:10.1164/rccm.201505-1010OC
+67. Huang JW et al. A Systematic Review of the Effect of N-Acetylcysteine on Serum Creatinine and Cystatin C Measurements. Kidney Int Rep. 2021. PMID:33615065 DOI:10.1016/j.ekir.2020.11.018
+68. Genzen JR et al. N-acetylcysteine interference of Trinder-based assays. Clin Biochem. 2016. PMID:26500003 DOI:10.1016/j.clinbiochem.2015.10.005
+69. Zhao Y et al. Efficacy and safety of mucolytic agents in patients with chronic obstructive pulmonary disease: a systematic review and network meta-analysis. BMC Pulm Med. 2026. PMID:41688985 DOI:10.1186/s12890-026-04166-6
+70. SuppCo. Blueprint NAC + Ginger + Curcumin product listing (supplement facts). Accessed 2026-10-13. URL:https://supp.co/products/blueprint-nac-ginger-curcumin
+71. Healf. Blueprint NAC + Ginger + Curcumin capsules retailer listing. Accessed 2026-10-13. URL:https://healf.com/en-uk/products/blueprint-nac-capsules
+72. Pfizer/Hospira. Acetylcysteine Solution, USP (inhalation/oral) prescribing information. Accessed 2026-10-13. URL:https://labeling.pfizer.com/ShowLabeling.aspx?id=4101
+73. NCCIH. Ginger: Usefulness and Safety. Accessed 2026-10-13. URL:https://www.nccih.nih.gov/health/ginger
+74. NCCIH. Turmeric: Usefulness and Safety (updated April 2025). Accessed 2026-10-13. URL:https://www.nccih.nih.gov/health/turmeric

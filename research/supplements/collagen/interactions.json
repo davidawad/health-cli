@@ -5,43 +5,327 @@
   "aliases": [
     "hydrolyzed collagen",
     "collagen peptides",
-    "gelatin"
+    "collagen hydrolysate",
+    "gelatin",
+    "specific collagen peptides (SCP)",
+    "bioactive collagen peptides",
+    "marine collagen",
+    "low-molecular-weight collagen peptides",
+    "undenatured type II collagen (UC-II)"
   ],
   "category": "other",
   "rx_status": "otc",
-  "evidence_certainty_overall": "moderate",
+  "evidence_certainty_overall": "low",
   "edges": [
     {
       "with": "fish allergy",
       "with_kind": "condition",
-      "kind": "caution",
-      "severity": "moderate",
-      "mechanism": "Marine collagen can contain fish-derived proteins",
-      "evidence": "Product source-dependent allergy risk; RCT review includes heterogeneous collagen sources",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Fish type I collagen/gelatin is a clinically relevant, cross-reactive fish allergen; 21% of fish-allergic patients sensitized (functional IgE cross-linking), 50% in a Japanese cohort. Marine collagen products carry this risk.",
+      "evidence": "Allergy cohort studies (ELISA, basophil activation); no supplement challenge trials",
       "citations": [
-        "PMID:42342959"
+        "PMID:32389794",
+        "PMID:26785247",
+        "PMID:10984381"
       ]
     },
     {
-      "with": "warfarin",
-      "with_kind": "drug",
+      "with": "bovine/porcine gelatin allergy",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Bovine type I collagen is the main allergen in bovine-gelatin allergy; mammalian-source collagen peptides may provoke reactions.",
+      "evidence": "Serological study; mechanistic",
+      "citations": [
+        "PMID:10984381"
+      ]
+    },
+    {
+      "with": "alpha-gal syndrome",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Mammalian gelatin carries galactose-alpha-1,3-galactose; gelatin-containing products can trigger reactions in alpha-gal-sensitized people. Marine collagen avoids the mammalian epitope.",
+      "evidence": "Reviews and vaccine database analysis; no collagen-supplement data",
+      "citations": [
+        "PMID:35879928",
+        "PMID:40752174"
+      ]
+    },
+    {
+      "with": "primary hyperoxaluria",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Hydroxyproline from gelatin/collagen is metabolized to glycolate and oxalate; dietary gelatin restriction suggested for primary hyperoxaluria.",
+      "evidence": "Controlled feeding study (healthy subjects) and pilot PH diet study",
+      "citations": [
+        "PMID:17021603",
+        "PMID:30039216"
+      ]
+    },
+    {
+      "with": "calcium oxalate kidney stones",
+      "with_kind": "condition",
       "kind": "caution",
       "severity": "minor",
-      "mechanism": "Collagen products containing vitamin K or multi-ingredient blends may alter anticoagulation; pure collagen interaction not established",
-      "evidence": "No direct collagen interaction evidence; inspect formulation; caution is formulation-specific",
+      "mechanism": "30 g/d gelatin raised urinary oxalate 43% and glycolate 5.3-fold vs whey; effects seen at 5-10 g loads, not 1-2 g. A small 3-day study found no change in oxalate or CaOx supersaturation.",
+      "evidence": "Two small controlled feeding studies; theoretical risk, no stone outcome data",
       "citations": [
-        "PMID:38218227"
+        "PMID:17021603",
+        "PMID:31161522"
+      ]
+    },
+    {
+      "with": "Vitamin C",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Ascorbate is a cofactor for prolyl/lysyl hydroxylation; vitamin C-enriched gelatin/hydrolysate before exercise raises collagen synthesis markers and tendon adaptations. Added effect of vitamin C never isolated.",
+      "evidence": "Crossover and parallel RCTs co-administering vitamin C; SR of tendon RCTs; low certainty",
+      "citations": [
+        "PMID:27852613",
+        "PMID:40100255",
+        "PMID:41900537",
+        "PMID:34808597",
+        "PMID:30386805"
+      ]
+    },
+    {
+      "with": "Hyaluronic Acid",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Commonly co-formulated for skin; adding 30 mg HA to 5 g collagen + vitamin C gave no additional skin benefit; oral HA alone showed no photoaging benefit in MA.",
+      "evidence": "One 3-arm RCT (n=87) and MA; claimed synergy not supported",
+      "citations": [
+        "PMID:38931263",
+        "PMID:40761858"
+      ]
+    },
+    {
+      "with": "Glucosamine Sulphate 2KCL",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Often combined for joint products; UC-II outperformed glucosamine HCl + chondroitin and type II hydrolysate performed similarly to glucosamine HCl. No combination trial with glucosamine sulphate found.",
+      "evidence": "Head-to-head RCTs (n=191, n=160) and supplement MA; additive benefit untested",
+      "citations": [
+        "PMID:26822714",
+        "PMID:36918892",
+        "PMID:29018060"
+      ]
+    },
+    {
+      "with": "Vitamin D-3",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Collagen peptides co-administered with calcium and vitamin D3 gave larger bone-density and bone-marker changes than calcium/vitamin D alone.",
+      "evidence": "MA subgroup (SMD 0.40-0.56) and RCTs (n=51, menopausal 4-arm); low certainty",
+      "citations": [
+        "PMID:41049371",
+        "PMID:34980546",
+        "PMID:41002783"
+      ]
+    },
+    {
+      "with": "Glycine",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Collagen is glycine-rich and raises plasma glycine; stacking with glycine supplements adds glycine load; both are studied for sleep.",
+      "evidence": "Scoping review of PK and sleep trials; additive load is inferential",
+      "citations": [
+        "PMID:42687500",
+        "PMID:22293292",
+        "PMID:27852613"
+      ]
+    },
+    {
+      "with": "whey protein",
+      "with_kind": "food",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Collagen lacks tryptophan and is low in leucine; whey is superior for muscle protein synthesis and hypertrophy, while whey + collagen produced the largest muscle and BMD gains in one RCT.",
+      "evidence": "RCTs (n=40, n=22, n=22); small",
+      "citations": [
+        "PMID:42426859",
+        "PMID:35042187",
+        "PMID:31919527"
+      ]
+    },
+    {
+      "with": "sarcopenia",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Collagen does not raise integrated muscle protein synthesis in older adults above RDA intake and is an incomplete protein by PDCAAS; it should not displace high-quality protein.",
+      "evidence": "RCTs with stable-isotope MPS; PDCAAS modelling",
+      "citations": [
+        "PMID:38762187",
+        "PMID:31919527",
+        "PMID:31096622"
+      ]
+    },
+    {
+      "with": "antihypertensives",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Pooled SBP reduction of 5 mmHg (very high heterogeneity) and SBP reduction in an obesity RCT; possible minor additive BP lowering.",
+      "evidence": "MA of 12 RCTs; one RCT; very low certainty",
+      "citations": [
+        "PMID:35658958",
+        "PMID:39458544"
+      ]
+    },
+    {
+      "with": "antidiabetic drugs",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "One RCT of 13 g/d marine collagen peptides in T2DM reported lower FBG and HbA1c; a later MA found no glycemic effect.",
+      "evidence": "Single RCT vs null MA; very low certainty",
+      "citations": [
+        "PMID:21164551",
+        "PMID:35658958"
+      ]
+    },
+    {
+      "with": "gelatin-containing vaccines/drugs",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "People who react to oral gelatin or are alpha-gal sensitized may also react to gelatin excipients in vaccines/drugs.",
+      "evidence": "Database study and review; no collagen-supplement-specific data",
+      "citations": [
+        "PMID:40752174",
+        "PMID:35879928"
+      ]
+    },
+    {
+      "with": "urinary hydroxyproline",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Gelatin loads >=5 g raise plasma hydroxyproline and urinary hydroxyproline metabolites; intact Pro-Hyp/Gly-Pro-Hyp appear in urine, confounding hydroxyproline-based bone-resorption assays.",
+      "evidence": "Human PK and feeding studies",
+      "citations": [
+        "PMID:17021603",
+        "PMID:26934933"
+      ]
+    },
+    {
+      "with": "urinary oxalate",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Gelatin/collagen intake raises 24-h urinary oxalate and glycolate, which can alter stone-risk workups.",
+      "evidence": "Controlled feeding study",
+      "citations": [
+        "PMID:17021603",
+        "PMID:31161522"
+      ]
+    },
+    {
+      "with": "bone turnover markers (PINP, CTX)",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Collagen supplementation raises PINP and may lower CTX, so bone-marker baselines and responses shift physiologically.",
+      "evidence": "RCTs and crossover trial",
+      "citations": [
+        "PMID:29337906",
+        "PMID:38007183",
+        "PMID:42221768"
+      ]
+    },
+    {
+      "with": "heavy metal exposure",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Animal-bone-derived products can carry lead; a collagen protein product had the only mercury value above 0.01 mg/kg among 30 products; modelled hazard index approaches 1 at high intake.",
+      "evidence": "Product testing and risk modelling; bone broth measurements",
+      "citations": [
+        "PMID:41655677",
+        "PMID:23375414"
       ]
     }
   ],
   "citations": [
+    "PMID:10984381",
+    "PMID:17021603",
+    "PMID:21164551",
+    "PMID:22293292",
+    "PMID:23375414",
+    "PMID:26353786",
+    "PMID:26785247",
+    "PMID:26822714",
+    "PMID:26934933",
+    "PMID:27267663",
+    "PMID:27852613",
+    "PMID:28786550",
+    "PMID:29018060",
+    "PMID:29337906",
+    "PMID:30039216",
+    "PMID:30368550",
+    "PMID:30386805",
+    "PMID:30609761",
+    "PMID:31010031",
+    "PMID:31096622",
+    "PMID:31126103",
+    "PMID:31161522",
+    "PMID:31919527",
+    "PMID:32389794",
+    "PMID:33742704",
+    "PMID:34520654",
+    "PMID:34636929",
+    "PMID:34694676",
+    "PMID:34808597",
+    "PMID:34980546",
+    "PMID:35042187",
+    "PMID:35658958",
+    "PMID:35879928",
+    "PMID:36918892",
+    "PMID:37432180",
+    "PMID:37874350",
+    "PMID:38007183",
     "PMID:38218227",
-    "PMID:38218227\n-",
+    "PMID:38762187",
+    "PMID:38931263",
+    "PMID:39060741",
     "PMID:39212129",
-    "PMID:39212129\n-",
+    "PMID:39458544",
+    "PMID:39980497",
+    "PMID:40100255",
+    "PMID:40253594",
+    "PMID:40324552",
+    "PMID:40356137",
+    "PMID:40623147",
+    "PMID:40752174",
+    "PMID:40761858",
+    "PMID:40806131",
+    "PMID:40826844",
+    "PMID:40977985",
+    "PMID:41002783",
+    "PMID:41049371",
+    "PMID:41655677",
+    "PMID:41787523",
+    "PMID:41788055",
+    "PMID:41804623",
     "PMID:41809116",
-    "PMID:41809116\n-",
+    "PMID:41900537",
+    "PMID:42221768",
     "PMID:42342959",
-    "PMID:42342959\n"
+    "PMID:42376607",
+    "PMID:42426859",
+    "PMID:42451143",
+    "PMID:42624827",
+    "PMID:42666580",
+    "PMID:42687500",
+    "PMID:42822893"
   ]
 }

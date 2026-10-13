@@ -3,45 +3,215 @@
 :ID: supp-selenium
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: selenium | Se | selenomethionine | selenium yeast | sodium selenite
+:ALIASES: Se | selenomethionine | L-selenomethionine | selenium yeast | Se-yeast | sodium selenite | sodium selenate | selenium nanoparticles
 :CATEGORY: mineral
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Essential trace element incorporated as selenocysteine in selenoproteins. Common supplemental forms are selenomethionine, selenium-enriched yeast, sodium selenite and sodium selenate; absorption and retention differ by form. [URL:https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/]
+- Essential trace element. It is incorporated as selenocysteine into selenoproteins: glutathione peroxidases (GPx), thioredoxin reductases, iodothyronine deiodinases and selenoprotein P (SELENOP) [PMID:22381456] [PMID:19942156].
+- Supplement forms:
+  - L-selenomethionine (SeMet): the main food form. It is stored in place of methionine in body proteins and released with protein turnover [PMID:10867031]. Used at 200 ug/d in SELECT [PMID:19066370].
+  - Selenium-enriched yeast (Se-yeast): mostly SeMet. Used in the NPC, Denmark PRECISE and KiSel-10 trials [PMID:14519754] [PMID:29454039] [PMID:40563319]. Its kinetics resemble food selenium [PMID:18193397].
+  - Sodium selenite or selenate (inorganic): used in Hashimoto trials, Keshan disease prevention, radiotherapy and IV in sepsis [PMID:23744563] [PMID:22705420] [PMID:20133068] [PMID:27428731]. Selenium nanoparticles are investigational [PMID:41825095].
+- Organic forms raise blood selenium more than inorganic forms. GPx responses are similar across forms [PMID:8825978].
+- Two Brazil nuts per day matched 100 ug SeMet for raising selenium status [PMID:18258628].
+- Reference intakes: US RDA 55 ug/d and UL 400 ug/d [PMID:18193397]. EFSA (2023) set the adult UL at 255 ug/d, including pregnancy and lactation [PMID:36698500].
 
 ** Mechanisms
-- Selenoproteins include glutathione peroxidases, thioredoxin reductases and iodothyronine deiodinases, supporting redox reactions and thyroid hormone metabolism. [URL:https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/]
+- Hepatic regulation and supply hierarchy: the liver exports SELENOP to tissues via the ApoER2 and megalin receptors. Vital selenoproteins are prioritized when selenium is scarce [PMID:25974694].
+- SELENOP is both transport protein and status biomarker [PMID:36067902]. It saturates at serum selenium ~146 ug/L (GPx3 at ~99 ug/L) [PMID:38960007]; selenoproteins are thought replete at plasma ~125 ug/L [PMID:29454039].
+- Thyroid: GPx scavenges H2O2 from hormone synthesis, and deiodinases DIO1-3 are selenoproteins [PMID:19942156] [PMID:41677203]. In Hashimoto thyroiditis, selenium increased activated Tregs [PMID:33650299].
+- U-shaped dose-response: deficiency and excess both harm. High-dose SeMet metabolites (selenols) redox-cycle and generate superoxide; tolerance varies with SNPs, toxic-element co-exposure and form [PMID:31388899] [PMID:22381456].
+- Statins could impair Sec-tRNA isopentenylation and so selenoprotein synthesis. This is a hypothesis only [PMID:15031036].
+- Vitamin A suppressed hepatic SELENOP in vitro [PMID:41106613].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---|---|---|---|---|---|
-| Cardiovascular events | Cochrane review of RCTs | null | RR 1.03 (95% CI 0.95–1.11) all CVD events | moderate | URL:https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/ |
-| Cancer prevention | Cochrane review / large RCTs | null; possible harm at high baseline status | No prevention demonstrated; SELECT 200 µg/day did not lower prostate cancer | moderate | PMID:24401833 |
-| Thyroid autoimmunity | Meta-analysis of RCTs | TPO antibodies may fall; clinical benefit uncertain | Antibody reduction; no reliable effect on symptoms or hypothyroidism | low | URL:https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/ |
-| Cognitive decline | RCTs / systematic review | null | No improvement in cognitive scores in 11 trials | low | URL:https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/ |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Cancer incidence (any) | Cochrane SR (RCTs, n=27,232) incl. SELECT | No effect | RR 1.01 (95% CI 0.93-1.10), low-RoB RCTs | high | [PMID:29376219] [PMID:19066370] |
+| Cancer mortality | Cochrane SR | No effect | RR 1.02 (CI 0.80-1.30) | high | [PMID:29376219] |
+| Prostate cancer | SELECT (n=35,533); Cochrane | No benefit; possible harm (high-grade) in selenium-replete men | SELECT HR 1.09 (99% CI 0.93-1.27); high-grade PCa +91% if high baseline toenail Se | high (no benefit) / low (harm) | [PMID:21990298] [PMID:24563519] [PMID:29788239] [PMID:20661819] |
+| Non-melanoma skin cancer | NPC RCT (n=1312) | Harm (SCC) | SCC HR 1.25 (CI 1.03-1.51); total NMSC HR 1.17 | moderate | [PMID:14519754] [PMID:8971064] [PMID:40674897] |
+| Colorectal adenoma | Sel/Cel RCT (n=1621) | No overall effect | RR 1.03 (CI 0.91-1.16); RR 0.82 in baseline advanced adenoma | moderate | [PMID:27530657] |
+| Type 2 diabetes incidence | MA of RCTs and observational studies; NPC secondary analysis | Increased risk | RCT RR 1.11 (CI 1.01-1.22); NPC HR 1.55 (CI 1.03-2.33) | moderate | [PMID:29974401] [PMID:17620655] [PMID:29788239] |
+| HbA1c (low-status population) | Denmark PRECISE RCT (n=491) | No effect | No difference vs placebo at 2 y | moderate | [PMID:30280459] |
+| CVD and all-cause mortality (selenium alone) | MA of 43 RCTs; umbrella MA | No effect alone | Benefit only when Se is part of antioxidant mixtures: CVD mortality RR 0.77 | moderate | [PMID:33053149] [PMID:36480969] |
+| CV mortality (Se + CoQ10, low-status elderly) | KiSel-10 RCT (n=443) with 10-12 y follow-up | Benefit | CV mortality HR 0.51 (CI 0.36-0.74) | low | [PMID:26624886] [PMID:29641571] [PMID:40563319] |
+| All-cause mortality (high dose) | Denmark PRECISE, 300 ug/d x 5 y | Harm | HR 1.59 (CI 1.02-2.46) over 15 y | low | [PMID:29454039] |
+| Mortality vs selenium status (observational) | Cohort MA (20 studies) | Inverse association | RR 0.87 per SD (CI 0.83-0.90) | low | [PMID:40690813] |
+| Hashimoto thyroiditis: TPOAb | SR/MA of RCTs (35 studies) | Decrease | SMD -0.96 (CI -1.36 to -0.56; I2=90%) | moderate | [PMID:38243784] [PMID:27702392] [PMID:40898469] [PMID:39698034] |
+| Hashimoto: TSH (no levothyroxine) | SR/MA | Small decrease | SMD -0.21 (CI -0.43 to -0.02) | moderate | [PMID:38243784] |
+| Hashimoto: clinical outcomes / QoL | Cochrane SR (4 RCTs) | Uncertain | Not estimable | very low | [PMID:23744563] |
+| Postpartum thyroiditis (TPOAb+ pregnancy) | Single RCT (n=151 TPOAb+) | Benefit | PPTD 28.6% vs 48.6% | low | [PMID:17284630] |
+| Graves orbitopathy (mild), CAS | RCT (n=159); MAs (4-5 RCTs) | Benefit on CAS; inconsistent on QoL | CAS MD -1.05 (CI -1.61 to -0.48) | low | [PMID:21591944] [PMID:39138905] [PMID:42355878] |
+| Graves hyperthyroidism remission | GRASS RCT (n=430) | No effect | Non-remission OR 1.0 (CI 0.7-1.5) | moderate | [PMID:41384622] |
+| Dementia | PREADViSE (n=7338 men) | No effect | HR 0.83 (CI 0.60-1.13) | moderate | [PMID:28319243] |
+| Sepsis mortality (IV selenite) | SISPCT RCT | No effect | Not significant | moderate | [PMID:27428731] [PMID:42681987] |
+| Radiotherapy-induced diarrhea | Phase 3 RCT (n=81), selenium-deficient women | Benefit | Grade >=2 diarrhea 20.5% vs 44.5% | low | [PMID:20133068] [PMID:39374898] |
+| Cisplatin nephrotoxicity | Small RCTs | Possible benefit | AKI 0 vs 7 cases; antioxidant mix RCT null | very low | [PMID:24475439] [PMID:9197929] [PMID:15251161] |
+| Lipids | MA of 25 RCTs | Mostly null | VLDL WMD -1.53; TC/LDL/HDL/TG not significant | low | [PMID:39260819] |
+| Gestational diabetes FPG | MA (4 RCTs, n=230) | Decrease | FPG MD -5.03 (CI -7.70 to -2.37) at 200 ug/d | very low | [PMID:41073938] |
 
 ** Dosing in trials
-- Trials used approximately 100–800 µg/day for weeks to years; SELECT used 200 µg/day selenomethionine. Dietary RDA is 55 µg/day; U.S. adult UL is 400 µg/day. [URL:https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/]
+- Cancer prevention: 200 ug/d as SeMet (SELECT) or Se-yeast (NPC, Sel/Cel) [PMID:19066370] [PMID:8971064] [PMID:27530657]. Denmark PRECISE used 100, 200 or 300 ug/d Se-yeast for 5 years [PMID:29454039].
+- Hashimoto: usually 100-200 ug/d SeMet or selenite for 3-12 months [PMID:38243784] [PMID:27702392]. SeMet appeared more effective than selenite or Se-yeast [PMID:40898469].
+- TPOAb-positive pregnancy: SeMet 200 ug/d through pregnancy and postpartum [PMID:17284630].
+- Graves orbitopathy: 100 ug twice daily for 6 months [PMID:21591944]. Graves disease (GRASS): 200 ug/d for 24-30 months [PMID:41384622].
+- KiSel-10: Se-yeast 200 ug/d plus CoQ10 200 mg/d for 4 years [PMID:40563319].
+- Cisplatin RCT: a single 400 ug dose [PMID:24475439].
+- Effect on status: SELECT raised circulating selenium by a median ~114 ug/L [PMID:29788239]. 300 ug/d Se-yeast raised plasma selenium from 142 to 228 ug/L over 48 weeks [PMID:18193397].
 
 ** Safety & adverse effects
-- Excess causes selenosis: hair/nail brittleness or loss, garlic breath, metallic taste, rash, nausea, fatigue and neurologic effects. Chronic high intake can cause toxicity; total diet and multiple products matter. [URL:https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/]
+- Selenosis outbreak: a liquid supplement with ~200x the labeled selenium (median ~41,749 ug/d) caused 201 cases: diarrhea (78%), fatigue (75%), hair loss (72%), joint pain (70%), nail discoloration or brittleness (61%). Nail and hair changes often persisted beyond 90 days [PMID:20142570].
+- Upper limits: EFSA based its UL on alopecia (LOAEL 330 ug/d total intake, from SELECT). High-dose supplement users and Brazil-nut eaters may exceed it [PMID:36698500].
+- SELECT (200 ug/d): more alopecia and dermatitis [PMID:29376219]; a non-significant rise in T2D (RR 1.07) [PMID:19066370].
+- Type 2 diabetes: pooled RCT RR 1.11 [PMID:29974401]. Mendelian randomization gave OR 1.18 (CI 0.97-1.43) [PMID:29788239].
+- Cancer: high-grade prostate cancer rose in men with high baseline status [PMID:24563519]. SCC increased in NPC [PMID:14519754]; a 2025 dose-response MA links exposure to SCC and possibly melanoma [PMID:40674897].
+- All-cause mortality rose with 300 ug/d (Denmark PRECISE) [PMID:29454039].
+- Thyroid trials: AEs similar to control (OR 0.89) [PMID:38243784]; an earlier MA reported slightly more AEs with selenium [PMID:27702392].
+- Deficiency is harmful too: selenite programs reduced Keshan cardiomyopathy in China [PMID:22705420].
 
 ** Contraindications
-- Avoid supplementation in known selenium excess/selenosis. Pregnancy and lactation require attention to total intake; deficiency correction and research dosing are distinct contexts. UL is not a target. [URL:https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/]
+- Adequate or high selenium status (e.g., most of the US). Supplementing people who are already replete may raise T2D and high-grade prostate cancer risk [PMID:22381456] [PMID:24563519] [PMID:17620655].
+- Total intake above 300-400 ug/d [PMID:29454039] [PMID:18193397] [PMID:36698500].
+- Combined severe iodine and selenium deficiency without correcting iodine: selenium alone may worsen hypothyroidism by increasing T4 deiodination [PMID:8427203] [PMID:12487769].
+- History of non-melanoma (squamous cell) skin cancer: increased SCC in the NPC trial [PMID:14519754].
+- Children: selenium-containing supplements should be used with caution [PMID:36698500].
 
 ** Interactions
-- Warfarin: inconsistent reports of altered anticoagulant response; monitor INR when intake changes. Other antioxidant supplements: randomized trials do not establish additive clinical benefit. Thyroid disease: physiologic relevance does not establish treatment efficacy. [URL:https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/]
+*** Drugs
+- Cisplatin: small RCTs suggest less nephrotoxicity and myelosuppression [PMID:24475439] [PMID:9197929]. An antioxidant-mix RCT was null [PMID:15251161], and Cochrane found insufficient evidence [PMID:16856073]. Preclinical SeMet reduced ototoxicity via GPX4 without blunting tumor killing [PMID:41698483].
+- Radiotherapy and chemotherapy: benefit appears limited to selenium-deficient patients, with no OS or recurrence benefit [PMID:39374898] [PMID:20133068].
+- Statins: a selenoprotein-synthesis effect is hypothesized [PMID:15031036]. CoQ10 + selenium RCTs in statin myopathy showed no selenium-specific benefit [PMID:23458201] [PMID:23301875].
+- Simvastatin-niacin: an antioxidant mix including selenium blunted the HDL2 rise and the angiographic benefit (HATS) [PMID:11757504] [PMID:11498460].
+- Levothyroxine: TPOAb fell in treated patients [PMID:27702392] and TSH fell in untreated patients [PMID:38243784]. Monitor TSH.
+- Antithyroid drugs: selenium added no remission benefit [PMID:41384622].
+*** Other supplements
+- Vitamin E (SELECT): vitamin E alone raised prostate cancer risk (HR 1.17). Selenium plus vitamin E showed no benefit (HR 1.05) [PMID:21990298] [PMID:19066370]. Vitamin E harm was confined to men with low selenium status [PMID:24563519]. Neither prevented dementia [PMID:28319243].
+- Iodine: correct iodine before selenium in combined deficiency [PMID:12487769] [PMID:8427203]. No synergy on thyroid function in older New Zealanders [PMID:19692495].
+- Zinc: Zn/Se co-supplementation raised RMR and selenium levels but not thyroid function or zinc levels [PMID:37513551]. Zinc and selenium both act on thyroid hormone metabolism [PMID:12487769].
+- CoQ10: Se + CoQ10 reduced CV mortality in low-status elderly people (KiSel-10) [PMID:26624886] [PMID:29641571] [PMID:38960007].
+- Myo-inositol: added to selenium, it lowered TSH more than selenium alone in Hashimoto with subclinical hypothyroidism [PMID:42122912]. It was not superior in the network MA for antibodies [PMID:39698034].
+- Antioxidant mixtures: CVD and all-cause mortality were lower only when selenium was in the mix [PMID:33053149].
+- Vitamin A: suppressed SELENOP in vitro (preclinical) [PMID:41106613].
+- Brazil nuts (food): a rich source that adds to supplement intake [PMID:18258628] [PMID:36698500].
+*** Conditions
+- Type 2 diabetes or high diabetes risk: caution [PMID:29974401] [PMID:27530657].
+- Hashimoto thyroiditis: TPOAb lowering is likely, clinical benefit uncertain [PMID:38243784] [PMID:23744563].
+- TPOAb-positive pregnancy: possible reduction of postpartum thyroiditis (single RCT) [PMID:17284630].
+- Mild active Graves orbitopathy: EUGOGO 2021 lists selenium (in selenium-deficient areas) with risk-factor control and local measures [PMID:34297684] [PMID:21591944].
+- Graves hyperthyroidism: no remission benefit [PMID:41384622].
+- Hemodialysis: raises selenium levels without lipid or inflammation effects [PMID:39900786].
+- Critical illness: high-dose IV selenite showed no mortality benefit [PMID:27428731]. Reviews recommend repletion only for biomarker-confirmed deficiency [PMID:42681987].
+*** Lab-test interference
+- No assay artifact found. True physiological changes: TPOAb/TgAb and TSH down in autoimmune thyroiditis [PMID:38243784] [PMID:40898469]; plasma/erythrocyte selenium and GPx activity up [PMID:18193397] [PMID:8825978].
+- Plasma selenium reflects recent supplement intake and falls quickly after stopping [PMID:18193397].
 
-** Latest research (last 24 months)
-- 2025 NIH ODS fact sheet refresh reiterates lack of support for cardiovascular prevention in selenium-replete adults and summarizes thyroid antibody research. [URL:https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/]
+** Genotype notes
+- GPX1 Pro198Leu (rs1050450): modified selenium status, GPx activity and DNA-damage responses to Brazil nuts in small trials [PMID:21208780] [PMID:26661784].
+- SELENOP (SEPP1) rs3877899 and rs7579 set plasma SELENOP isoform ratios, a difference that disappears after supplementation [PMID:19453253]. They were associated with glucose and cholesterol responses to Brazil nuts [PMID:28501922].
+- Cochrane notes genetic background may modify selenium-cancer relations [PMID:29376219]. MR found that genetically higher selenium did not lower prostate cancer risk [PMID:29788239].
+- None of these variants is validated for dosing decisions.
+
+** Latest research
+- [2026-09] Critical-care review: no routine high-dose micronutrients; replete only proven deficiency [PMID:42681987].
+- [2026-06] GO MA with TSA (5 RCTs, n=303): CAS MD -1.05. No consistent QoL, visual or palpebral benefit [PMID:42355878].
+- [2026-06] Preclinical: SeMet attenuated cisplatin ototoxicity via GPX4 [PMID:41698483].
+- [2026-05] Pilot RCT of selenium nanoparticles in sepsis: lower IL-6 and mortality reported [PMID:41825095].
+- [2026-04] MA (3 studies, n=288): myo-inositol + selenium lowered TSH vs selenium alone (SMD -1.26) [PMID:42122912].
+- [2026-02] Editorial: large effects in Hashimoto, few in Graves disease [PMID:41677203]. Same month: vitamin A suppresses SELENOP in vitro [PMID:41106613].
+- [2026-01] GRASS RCT (n=430): no effect on Graves remission or QoL [PMID:41384622].
+- [2025-10] GDM MA (4 RCTs): FPG MD -5.03 at 200 ug/d [PMID:41073938].
+- [2025-09] Cohort MA (20 studies): mortality RR 0.87 per SD of selenium status [PMID:40690813].
+- [2025-08] Hashimoto MA (21 RCTs, n=1610): TPOAb SMD -0.80 at 6 months [PMID:40898469]. Same month: skin cancer MA links selenium to SCC [PMID:40674897].
+- [2025-07] Hemodialysis MA: selenium levels up, no lipid or CRP effect [PMID:39900786].
+- [2025-06] KiSel-10 sex analysis: CV survival benefit, greater in women [PMID:40563319].
+- [2024-12] GO MA (4 RCTs): CAS MD -1.27 at 6 months [PMID:39138905]. Lipid MA (25 RCTs): only VLDL reduced [PMID:39260819].
+- [2024-11] SR of selenium as complementary cancer therapy: benefit only in deficient patients [PMID:39374898].
 
 ** Open questions
-- Identify baseline selenium status and whether any subgroup has patient-important benefit; establish dose-response safety at chronic low supplemental doses.
+- Which baseline status (plasma selenium or SELENOP) identifies people who benefit rather than are harmed? Most trials did not stratify by status [PMID:42355878] [PMID:39374898].
+- Whether lower TPOAb in Hashimoto translates into fewer cases of hypothyroidism or better QoL [PMID:23744563].
+- Whether the KiSel-10 CV benefit is due to selenium, CoQ10 or both. The result needs independent replication [PMID:26624886].
+- Is the T2D signal form- or sex-specific (SeMet/Se-yeast vs selenite)? [PMID:29974401]
+- Whether selenium protects against cisplatin toxicity in adequately powered RCTs without reducing efficacy [PMID:16856073].
+- Clinical utility of GPX1/SELENOP genotyping [PMID:29376219].
 
 ** Sources
-- NIH ODS. Selenium: Health Professional Fact Sheet. [https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/]
-- Lippman SM et al. Effect of selenium and vitamin E on risk of prostate cancer and other cancers. JAMA. 2009. [https://pubmed.ncbi.nlm.nih.gov/20068209/]
-- Rees K et al. Selenium supplementation for the prevention of cardiovascular disease. Cochrane Database Syst Rev. [https://www.cochrane.org/evidence/CD009671_selenium-supplements-prevention-cardiovascular-disease]
+1. Lippman SM et al. Effect of selenium and vitamin E on risk of prostate cancer and other cancers: SELECT. JAMA. 2009. PMID:19066370 DOI:10.1001/jama.2008.864
+2. Klein EA et al. Vitamin E and the risk of prostate cancer: SELECT. JAMA. 2011. PMID:21990298 DOI:10.1001/jama.2011.1437
+3. Kristal AR et al. Baseline selenium status and effects of selenium and vitamin E supplementation on prostate cancer risk. J Natl Cancer Inst. 2014. PMID:24563519 DOI:10.1093/jnci/djt456
+4. Vinceti M et al. Selenium for preventing cancer. Cochrane Database Syst Rev. 2018. PMID:29376219 DOI:10.1002/14651858.CD005195.pub4
+5. Clark LC et al. Effects of selenium supplementation for cancer prevention in patients with carcinoma of the skin (NPC). JAMA. 1996. PMID:8971064
+6. Duffield-Lillico AJ et al. Selenium supplementation and secondary prevention of nonmelanoma skin cancer in a randomized trial. J Natl Cancer Inst. 2003. PMID:14519754 DOI:10.1093/jnci/djg061
+7. Stranges S et al. Effects of long-term selenium supplementation on the incidence of type 2 diabetes. Ann Intern Med. 2007. PMID:17620655 DOI:10.7326/0003-4819-147-4-200708210-00175
+8. Thompson PA et al. Selenium Supplementation for Prevention of Colorectal Adenomas and Risk of Associated Type 2 Diabetes. J Natl Cancer Inst. 2016. PMID:27530657 DOI:10.1093/jnci/djw152
+9. Vinceti M et al. Selenium exposure and the risk of type 2 diabetes: SR and MA. Eur J Epidemiol. 2018. PMID:29974401 DOI:10.1007/s10654-018-0422-8
+10. Stranges S et al. Effect of selenium supplementation on changes in HbA1c: multiple-dose RCT. Diabetes Obes Metab. 2019. PMID:30280459 DOI:10.1111/dom.13549
+11. Rayman MP et al. Effect of long-term selenium supplementation on mortality: multiple-dose RCT. Free Radic Biol Med. 2018. PMID:29454039 DOI:10.1016/j.freeradbiomed.2018.02.015
+12. Jenkins DJA et al. Selenium, antioxidants, cardiovascular disease, and all-cause mortality: SR and MA of RCTs. Am J Clin Nutr. 2020. PMID:33053149 DOI:10.1093/ajcn/nqaa245
+13. An P et al. Micronutrient Supplementation to Reduce Cardiovascular Risk. J Am Coll Cardiol. 2022. PMID:36480969 DOI:10.1016/j.jacc.2022.09.048
+14. Cui Z et al. Associations of selenium status with all-cause and cause-specific mortality: SR and MA of cohort studies. Redox Biol. 2025. PMID:40690813 DOI:10.1016/j.redox.2025.103755
+15. Alehagen U et al. Reduced Cardiovascular Mortality 10 Years after Supplementation with Selenium and Coenzyme Q10 for Four Years. PLoS One. 2015. PMID:26624886 DOI:10.1371/journal.pone.0141641
+16. Alehagen U et al. Still reduced cardiovascular mortality 12 years after supplementation with selenium and coenzyme Q10. PLoS One. 2018. PMID:29641571 DOI:10.1371/journal.pone.0193120
+17. Alehagen U et al. Selenium and Coenzyme Q10 Supplementation and Sex Differences in Cardiovascular Mortality. Antioxidants (Basel). 2025. PMID:40563319 DOI:10.3390/antiox14060685
+18. Alehagen U et al. Selenoprotein P increases upon selenium and coenzyme Q10 supplementation. Free Radic Biol Med. 2024. PMID:38960007 DOI:10.1016/j.freeradbiomed.2024.06.027
+19. Rayman MP et al. Selenium intake, status, and health: a complex relationship. Hormones (Athens). 2020. PMID:31388899 DOI:10.1007/s42000-019-00125-5
+20. Rayman MP. Selenium and human health. Lancet. 2012. PMID:22381456 DOI:10.1016/S0140-6736(11)61452-9
+21. MacFarquhar JK et al. Acute selenium toxicity associated with a dietary supplement. Arch Intern Med. 2010. PMID:20142570 DOI:10.1001/archinternmed.2009.495
+22. EFSA NDA Panel. Scientific opinion on the tolerable upper intake level for selenium. EFSA J. 2023. PMID:36698500 DOI:10.2903/j.efsa.2023.7704
+23. Hawkes WC et al. Response of selenium status indicators to supplementation of healthy North American men with high-selenium yeast. Biol Trace Elem Res. 2008. PMID:18193397 DOI:10.1007/s12011-007-8066-7
+24. Huwiler VV et al. Selenium Supplementation in Patients with Hashimoto Thyroiditis: SR and MA of RCTs. Thyroid. 2024. PMID:38243784 DOI:10.1089/thy.2023.0556
+25. Wichman J et al. Selenium Supplementation Significantly Reduces Thyroid Autoantibody Levels in Chronic Autoimmune Thyroiditis: SR and MA. Thyroid. 2016. PMID:27702392 DOI:10.1089/thy.2016.0256
+26. van Zuuren EJ et al. Selenium supplementation for Hashimoto's thyroiditis. Cochrane Database Syst Rev. 2013. PMID:23744563 DOI:10.1002/14651858.CD010223.pub2
+27. Zhang H et al. Clinical efficacy of selenium supplementation in patients with Hashimoto thyroiditis: SR and MA. Medicine (Baltimore). 2025. PMID:40898469 DOI:10.1097/MD.0000000000044043
+28. Peng B et al. Effects of different supplements on Hashimoto's thyroiditis: SR and network MA. Front Endocrinol. 2024. PMID:39698034 DOI:10.3389/fendo.2024.1445878
+29. Stanchev P et al. Myo-Inositol Plus Selenium vs. Selenium Alone in Hashimoto's Thyroiditis with Subclinical Hypothyroidism: SR and MA with TSA. J Clin Med. 2026. PMID:42122912 DOI:10.3390/jcm15093179
+30. Negro R et al. The influence of selenium supplementation on postpartum thyroid status in pregnant women with TPO autoantibodies. J Clin Endocrinol Metab. 2007. PMID:17284630 DOI:10.1210/jc.2006-1821
+31. Hu Y et al. Effect of selenium on thyroid autoimmunity and regulatory T cells in Hashimoto's thyroiditis: RCT. Clin Transl Sci. 2021. PMID:33650299 DOI:10.1111/cts.12993
+32. Marcocci C et al. Selenium and the course of mild Graves' orbitopathy. N Engl J Med. 2011. PMID:21591944 DOI:10.1056/NEJMoa1012985
+33. Bartalena L et al. The 2021 EUGOGO clinical practice guidelines for the medical management of Graves' orbitopathy. Eur J Endocrinol. 2021. PMID:34297684 DOI:10.1530/EJE-21-0479
+34. Sharabati I et al. Selenium supplementation versus placebo in Graves' orbitopathy: SR and MA of RCTs. Clin Endocrinol (Oxf). 2024. PMID:39138905 DOI:10.1111/cen.15128
+35. Kostadinov N et al. Efficacy of Selenium Supplementation in Graves' Orbitopathy: SR and MA with TSA. J Clin Med. 2026. PMID:42355878 DOI:10.3390/jcm15124710
+36. Cramon PK et al. Selenium supplementation in newly diagnosed Graves' hyperthyroidism: double-blind multi-centre RCT (GRASS). Eur Thyroid J. 2026. PMID:41384622 DOI:10.1530/ETJ-25-0264
+37. Duntas LH. The caprices of a trace element: selenium's effects on Hashimoto's thyroiditis, though few on Graves' disease. Eur Thyroid J. 2026. PMID:41677203 DOI:10.1530/ETJ-26-0009
+38. Moosmann B, Behl C. Selenoprotein synthesis and side-effects of statins. Lancet. 2004. PMID:15031036 DOI:10.1016/S0140-6736(04)15739-5
+39. Brown BG et al. Simvastatin and niacin, antioxidant vitamins, or the combination for the prevention of coronary disease. N Engl J Med. 2001. PMID:11757504 DOI:10.1056/NEJMoa011090
+40. Cheung MC et al. Antioxidant supplements block the response of HDL to simvastatin-niacin therapy. Arterioscler Thromb Vasc Biol. 2001. PMID:11498460 DOI:10.1161/hq0801.095151
+41. Fedacko J et al. Coenzyme Q10 and selenium in statin-associated myopathy treatment. Can J Physiol Pharmacol. 2013. PMID:23458201 DOI:10.1139/cjpp-2012-0118
+42. Bogsrud MP et al. No effect of combined coenzyme Q10 and selenium supplementation on atorvastatin-induced myopathy. Scand Cardiovasc J. 2013. PMID:23301875 DOI:10.3109/14017431.2012.756119
+43. Ghorbani A et al. Protective effect of selenium on cisplatin induced nephrotoxicity: double-blind RCT. J Nephropathol. 2013. PMID:24475439 DOI:10.12860/JNP.2013.21
+44. Hu YJ et al. The protective role of selenium on the toxicity of cisplatin-contained chemotherapy regimen in cancer patients. Biol Trace Elem Res. 1997. PMID:9197929 DOI:10.1007/BF02785304
+45. Weijl NI et al. Supplementation with antioxidant micronutrients and chemotherapy-induced toxicity in cisplatin-treated cancer patients: RCT. Eur J Cancer. 2004. PMID:15251161 DOI:10.1016/j.ejca.2004.02.029
+46. Dennert G, Horneber M. Selenium for alleviating the side effects of chemotherapy, radiotherapy and surgery in cancer patients. Cochrane Database Syst Rev. 2006. PMID:16856073 DOI:10.1002/14651858.CD005037.pub2
+47. Krannich F et al. A systematic review of Selenium as a complementary treatment in cancer patients. Complement Ther Med. 2024. PMID:39374898 DOI:10.1016/j.ctim.2024.103095
+48. Muecke R et al. Multicenter, phase 3 trial comparing selenium supplementation with observation in gynecologic radiation oncology. Int J Radiat Oncol Biol Phys. 2010. PMID:20133068 DOI:10.1016/j.ijrobp.2009.08.013
+49. Schrauzer GN. Selenomethionine: a review of its nutritional significance, metabolism and toxicity. J Nutr. 2000. PMID:10867031 DOI:10.1093/jn/130.7.1653
+50. Burk RF, Hill KE. Regulation of Selenium Metabolism and Transport. Annu Rev Nutr. 2015. PMID:25974694 DOI:10.1146/annurev-nutr-071714-034250
+51. Schomburg L. Selenoprotein P - Selenium transport protein, enzyme and biomarker of selenium status. Free Radic Biol Med. 2022. PMID:36067902 DOI:10.1016/j.freeradbiomed.2022.08.022
+52. Neve J. Human selenium supplementation as assessed by changes in blood selenium concentration and glutathione peroxidase activity. J Trace Elem Med Biol. 1995. PMID:8825978 DOI:10.1016/S0946-672X(11)80013-1
+53. Thomson CD et al. Brazil nuts: an effective way to improve selenium status. Am J Clin Nutr. 2008. PMID:18258628 DOI:10.1093/ajcn/87.2.379
+54. Jiang L et al. Efficacy of antioxidant vitamins and selenium supplement in prostate cancer prevention: MA of RCTs. Nutr Cancer. 2010. PMID:20661819 DOI:10.1080/01635581.2010.494335
+55. Yarmolinsky J et al. Circulating Selenium and Prostate Cancer Risk: A Mendelian Randomization Analysis. J Natl Cancer Inst. 2018. PMID:29788239 DOI:10.1093/jnci/djy081
+56. Filippini T et al. Selenium exposure and risk of skin cancer: SR and dose-response MA. J Trace Elem Med Biol. 2025. PMID:40674897 DOI:10.1016/j.jtemb.2025.127693
+57. Cominetti C et al. GPx1 Pro198Leu polymorphism, selenium status, and DNA damage in obese women after Brazil nuts. Nutrition. 2011. PMID:21208780 DOI:10.1016/j.nut.2010.09.003
+58. Cardoso BR et al. Pro198Leu polymorphism affects the selenium status and GPx activity in response to Brazil nut intake. Food Funct. 2016. PMID:26661784 DOI:10.1039/c5fo01270h
+59. Donadio JLS et al. SEPP1 polymorphisms modulate serum glucose and lipid response to Brazil nut supplementation. Eur J Nutr. 2018. PMID:28501922 DOI:10.1007/s00394-017-1470-7
+60. Meplan C et al. Relative abundance of selenoprotein P isoforms in human plasma depends on genotype, Se intake, and cancer status. Antioxid Redox Signal. 2009. PMID:19453253 DOI:10.1089/ARS.2009.2533
+61. Kohrle J, Gartner R. Selenium and thyroid. Best Pract Res Clin Endocrinol Metab. 2009. PMID:19942156 DOI:10.1016/j.beem.2009.08.002
+62. Vanderpas JB et al. Selenium deficiency mitigates hypothyroxinemia in iodine-deficient subjects. Am J Clin Nutr. 1993. PMID:8427203 DOI:10.1093/ajcn/57.2.271S
+63. Zimmermann MB, Kohrle J. The impact of iron and selenium deficiencies on iodine and thyroid metabolism. Thyroid. 2002. PMID:12487769 DOI:10.1089/105072502761016494
+64. Thomson CD et al. Selenium and iodine supplementation: effect on thyroid function of older New Zealanders. Am J Clin Nutr. 2009. PMID:19692495 DOI:10.3945/ajcn.2009.28190
+65. Zavros A et al. Zinc and Selenium Co-Supplementation in Overweight and Obese People under a Hypocaloric Diet: RCT. Nutrients. 2023. PMID:37513551 DOI:10.3390/nu15143133
+66. Chen J. An original discovery: selenium deficiency and Keshan disease. Asia Pac J Clin Nutr. 2012. PMID:22705420
+67. Karmeli S et al. Vitamin A acts as a potent suppressor of selenoprotein P. J Nutr Biochem. 2026. PMID:41106613 DOI:10.1016/j.jnutbio.2025.110142
+68. Cheng Q et al. Effect of selenium supplementation on hemodialysis patients: MA. Int Urol Nephrol. 2025. PMID:39900786 DOI:10.1007/s11255-025-04400-w
+69. Sun J et al. Selenium supplementation for gestational diabetes mellitus: SR and MA of RCTs. BMC Endocr Disord. 2025. PMID:41073938 DOI:10.1186/s12902-025-02045-5
+70. Saadh MJ et al. Effects of selenium supplementation on lipid profile in adults: SR and MA of RCTs. Prostaglandins Other Lipid Mediat. 2024. PMID:39260819 DOI:10.1016/j.prostaglandins.2024.106901
+71. Gu WJ et al. Selenium nanoparticles as adjunctive therapy in sepsis: A pilot RCT. Drug Resist Updat. 2026. PMID:41825095 DOI:10.1016/j.drup.2026.101389
+72. Bloos F et al. Effect of Sodium Selenite Administration and Procalcitonin-Guided Therapy on Mortality in Severe Sepsis or Septic Shock: RCT. JAMA Intern Med. 2016. PMID:27428731 DOI:10.1001/jamainternmed.2016.2514
+73. Stoppe C et al. Micronutrients in adult critically ill patients: lessons learned and the path toward precision. Curr Opin Clin Nutr Metab Care. 2026. PMID:42681987 DOI:10.1097/MCO.0000000000001253
+74. Kryscio RJ et al. Association of Antioxidant Supplement Use and Dementia in PREADViSE. JAMA Neurol. 2017. PMID:28319243 DOI:10.1001/jamaneurol.2016.5778
+75. Li Z et al. Pharmacological activation of GPX4 by selenomethionine attenuates cisplatin-induced ototoxicity. Biochem Pharmacol. 2026. PMID:41698483 DOI:10.1016/j.bcp.2026.117816

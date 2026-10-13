@@ -3,45 +3,213 @@
 :ID: supp-green-tea-extract
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: green tea extract | GTE | Camellia sinensis extract | EGCG | epigallocatechin gallate
+:ALIASES: green tea extract | GTE | Camellia sinensis extract | green tea catechins | EGCG | epigallocatechin gallate | Polyphenon E | Teavigo
 :CATEGORY: botanical
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Concentrated extracts of Camellia sinensis leaves contain catechins, especially epigallocatechin gallate (EGCG); caffeine content and catechin composition vary by product and processing. [PMID:32140423]
+- Green tea is made from unfermented leaves of Camellia sinensis (L.) Kuntze. Most of its polyphenols are catechins, and (-)-epigallocatechin-3-gallate (EGCG) is the most relevant one [PMID:32625874]. EGCG makes up about 50% of green tea polyphenols [PMID:39942757].
+- Exposure from tea vs supplements: EU mean EGCG intake from green tea infusions is 90-300 mg/day (high consumers up to 866 mg/day). Food supplements provide 5-1,000 mg EGCG/day [PMID:32625874].
+- Composition varies widely: Catechin profiles of extracts vary with the manufacturing process [PMID:32140423]. In 19 US green tea supplements, caffeine, EGCG and total polyphenols ranged 28-183 mg, 12-143 mg and 14-36% of tablet/capsule weight. Labels often did not match content, and only 7 products declared caffeine [PMID:16506807].
+- Forms used in trials: decaffeinated extract with 843 mg EGCG/day (1,315 mg total catechins; Minnesota Green Tea Trial, MGTT) [PMID:28904061]; Polyphenon E with 400 mg EGCG/day [PMID:25873370]; extract standardized to 150 mg EGCG twice daily (MIRACLE) [PMID:35213393]; purified EGCG (Teavigo) [PMID:32438698].
+- Pharmacokinetics: With 150 mg EGCG twice daily, EGCG half-life was about 2.6 h and peak levels varied more than 6-fold between people. MRP2 and OATP1B1 variants partly explained the variability [PMID:29466429]. Fasting raises exposure. Purified EGCG taken after an overnight fast gave the highest plasma AUC and Cmax, compared with taking it with breakfast [PMID:32438698]. Repeated bolus doses taken fasting markedly increase catechin bioavailability, possibly by saturating first-pass elimination [PMID:32140423]. Co-ingested caffeine (40 mg) raised EGCG AUC from 857 to 1,370 ng*h/mL [PMID:19734672].
+- A prescription green tea catechin ointment is FDA-approved for genital warts. Oral supplements are not FDA-approved before sale [URL:https://www.nccih.nih.gov/health/green-tea].
 
 ** Mechanisms
-- Catechins have antioxidant and signaling effects in experimental systems; human mechanism and effective dose for clinical outcomes are not settled. [PMID:32140423]
+- EGCG has antioxidant, anti-inflammatory and cell-signaling effects (oxidative stress, apoptosis, lipid metabolism), mostly shown in preclinical work [PMID:39942757].
+- Weight and energy metabolism: catechins and caffeine are each proposed to raise energy expenditure [PMID:23235664]. In long-term trials, decaffeinated extracts did not change adiposity. This suggests caffeine drives part of the effect [PMID:26701796] [PMID:29228755].
+- Drug transporters: EGCG competitively inhibits intestinal OATP1A2 (Ki about 19-22 uM for nadolol) [PMID:24419562] [PMID:29480324]. In vitro, green tea inhibits OATP1B1/1B3, OCT1/2, MATE1/2-K and P-gp transport [PMID:26426900]. Catechins may also reduce drug solubility or enhance P-gp efflux [PMID:39748104].
+- Folate pathway: EGCG inhibits dihydrofolate reductase (DHFR) in vitro at 0.1-1.0 umol/L [PMID:15781612]. It also inhibits folic acid uptake in Caco-2 cells (IC50 34.8 umol/L) [PMID:17117344].
+- Iron: tea polyphenols inhibit non-heme iron absorption [PMID:11029010] [PMID:29046302]. In Caco-2 cells, EGCG and green tea extract also inhibit heme-iron absorption, dose-dependently [PMID:22417433].
+- Proteasome inhibitors: EGCG's 1,2-benzenediol groups react directly with boronic-acid proteasome inhibitors such as bortezomib and block their activity [PMID:19190249].
+- Hepatotoxicity mechanisms: Proposed: immune-mediated idiosyncrasy linked to HLA-B*35:01 [PMID:32892374]. Dietary restriction potentiates EGCG liver injury in mice [PMID:33584288].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---|---|---|---|---|---|
-| Weight loss | Systematic reviews of RCTs | small/inconsistent | Average effect small and not reliably clinically important | low | PMID:28927846 |
-| Liver injury | Case series, pharmacovigilance, RCT safety review | harm in susceptible users | Idiosyncratic hepatocellular injury; fasting/high EGCG exposure increases concern | moderate | PMID:32140423 |
-| Cancer/cardiovascular prevention | Clinical trials and reviews | unproven | No established outcome benefit | low | PMID:32140423 |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Body weight (overweight/obese) | Cochrane SR (14 RCTs); 2025 dose-response MA; 2024 NMA (22 RCTs) | Small benefit, not clinically important | Cochrane non-Japan MD -0.04 kg (CI -0.5 to 0.4); 2025 MA WMD -0.74 kg (CI -0.97 to -0.51); NMA vs placebo -1.23 kg (low certainty) | low | [PMID:23235664] [PMID:40326418] [PMID:39497467] |
+| Weight, decaffeinated extract, long term | 12-month RCTs (MGTT substudy n=121; Polyphenon E n=97) | No effect | No BMI, fat mass or waist:hip change | moderate | [PMID:26701796] [PMID:29228755] |
+| Weight loss added to exercise | MA of 10 RCTs | Small additive benefit | Weight SMD -0.30 (CI -0.53 to -0.07) | low | [PMID:39350601] |
+| LDL / total cholesterol | MAs of 14, 20 and 31 RCTs; 55-RCT MA; MGTT | Decrease | LDL -2.2 to -5.8 mg/dL; TC -4.7 to -7.6 mg/dL; no HDL change; MGTT LDL -4.1% vs +0.9% | moderate | [PMID:21715508] [PMID:22027055] [PMID:32434539] [PMID:36704803] [PMID:27806972] |
+| Triglycerides | MAs; MGTT | No effect or slight increase | MA WMD -3.77 mg/dL (NS); MGTT +3.6% vs -2.5% placebo | low | [PMID:32434539] [PMID:27806972] |
+| Fasting glucose | MAs of 17-41 RCTs | Small decrease | -1.44 to -1.67 mg/dL; HbA1c effect inconsistent (0 to -0.18%) | moderate | [PMID:32670385] [PMID:23426037] [PMID:40885603] [PMID:36704803] |
+| Glycemia in type 2 diabetes | MA of 15 RCTs (n=722) | Benefit | FBG SMD -0.41; HbA1c SMD -0.68; HOMA-IR SMD -0.70 | low | [PMID:39809182] |
+| Blood pressure | 2025 GRADE dose-response MA (36 RCTs); earlier MAs | Small decrease | SBP -1.08 mmHg, DBP -1.09 mmHg (I2 74-85%); larger with SBP >=130 | low | [PMID:40497293] [PMID:24861099] |
+| Cancer incidence (RCTs) | Cochrane 2020 (11 RCTs, n=1795) | Inconclusive | Prostate RR 0.50 (CI 0.18-1.36); gynecologic RR 1.50 (CI 0.41-5.48) | low | [PMID:32118296] |
+| Colorectal adenoma recurrence | MIRACLE RCT (n=879, 3 y); Korean RCT (n=176) | Null in large trial | 51.1% vs 55.7%, aRR 0.905 (NS); Korean RCT RR 0.56 (CI 0.34-0.92) | moderate | [PMID:35213393] [PMID:28209333] |
+| Prostate cancer in HGPIN/ASAP | RCT, Polyphenon E 400 mg EGCG, 1 y (n=97) | Null on primary end point | 5/49 vs 9/48 (P=0.25); PSA -0.87 ng/mL | low | [PMID:25873370] |
+| Mammographic density | MGTT RCT (n=932 completers) | Null overall | Benefit only in women aged 50-55 (PMD -4.4%) | moderate | [PMID:28904061] |
+| Inflammation (CRP, IL-6, TNF-a) | MGTT substudy (n=97) | No effect | NS | low | [PMID:41515260] |
 
 ** Dosing in trials
-- Human trials vary widely by extract and catechin dose. EFSA noted transaminase elevations at supplemental EGCG doses ≥800 mg/day; no universally established safe supplemental dose. [PMID:28927846, PMID:32140423]
+- Weight: 12-13 week trials of mixed preparations [PMID:23235664].
+- Breast-cancer biomarkers: 843 mg EGCG/day (4 capsules) for 12 months in MGTT [PMID:28904061].
+- Prostate: Polyphenon E 200 mg EGCG twice daily with food for 1 year was well tolerated with monthly liver panels [PMID:28053292].
+- Colorectal: 150 mg EGCG twice daily for 3 years after a 4-week safety run-in [PMID:35213393]. 0.9 g extract/day for 12 months in the Korean trial [PMID:28209333].
+- Fibroids/fertility: 720-800 mg EGCG/day for 30 days in reproductive-age women [PMID:36678191] [PMID:40077973].
+- Safety-derived limits: EFSA: >=800 mg EGCG/day as a supplement raises transaminases [PMID:32625874]. Industry-authored SR: safe level 338 mg EGCG/day for solid bolus doses; observed safe level 704 mg/day in beverage form [PMID:29580974]. USP label caution: "Do not take on an empty stomach. Take with food." [PMID:32140423].
 
 ** Safety & adverse effects
-- Rare acute hepatitis and liver failure have been associated with concentrated extracts. Fasting increases EGCG exposure; take with food in safety studies. Nausea and caffeine-related effects may occur. [PMID:32140423, URL:https://www.ncbi.nlm.nih.gov/books/NBK547925/]
+- Hepatotoxicity (key risk), EFSA 2018: supplements at >=800 mg EGCG/day significantly raised serum transaminases vs control in trials. Traditional infusions are generally safe, though rare idiosyncratic cases occur [PMID:32625874].
+- USP reviews: hepatocellular injury pattern at EGCG intakes of 140 to ~1,000 mg/day, with large between-person variability; solvent, pesticide and pyrrolizidine contaminants were not implicated [PMID:32140423]. The 2008 USP review found 34 liver reports (7 probable) and greater risk on an empty stomach [PMID:18484782].
+- MGTT (n=1,075, 843 mg EGCG/day, 12 months): ALT elevation in 6.7% vs 0.7% on placebo, with ALT-related serious AEs in 1.3%; nausea and skin AEs were more frequent [PMID:26051348]. In 1,021 women with normal baseline enzymes, ALT rose 5.4 U/L and AST 3.8 U/L; OR for moderate or worse liver abnormality 7.0 (CI 2.4-20.3), with positive dechallenge/rechallenge [PMID:28765194].
+- SR of 34 RCTs (to 2013): liver AEs OR 2.1 (CI 0.5-9.8), mostly mild [PMID:27188915].
+- US DILIN: green tea caused 40 of 1,414 adjudicated cases (3%). Median latency was 72 days, 95% were hepatocellular and 83% jaundiced; 35% were severe and 8% needed transplantation [PMID:32892374].
+- SLIMQUICK products: 6 DILIN cases with ALT >1,000 U/L and one transplant [PMID:27189593]. Garcinia cambogia plus green tea injury is clinically indistinguishable from green tea alone [PMID:34400337].
+- HDS cause 20% of US DILI, and green tea extract is one of the major implicated agents [PMID:39136211]. 2025-2026 reviews still list it among the main HDS hepatotoxins and report worsening outcomes in HDS-related acute liver failure [PMID:42504634] [PMID:42475234].
+- LiverTox: extract, and rarely large amounts of tea, cause acute liver injury, including liver failure needing transplant or causing death [PMID:31643260].
+- Fasting/bolus dosing: Toxicology links hepatotoxicity to bolus dosing and fasting [PMID:29580974].
+- Other AEs: GI disorders, liver-enzyme elevation, and rarely insomnia, raised BP and skin reactions [PMID:32118296]. Nausea, constipation and abdominal discomfort are also reported [URL:https://www.nccih.nih.gov/health/green-tea].
+- Caffeine: no adverse effects expected up to 400 mg/day in healthy adults and 300 mg/day in pregnancy [PMID:28438661]. Caffeine content of extracts is often undeclared [PMID:16506807].
+- Iron: severe iron-deficiency anemia has been reported after moderate green tea intake in a susceptible woman [PMID:39263133].
 
 ** Contraindications
-- Avoid or use particular caution with active liver disease, prior supplement-associated liver injury, pregnancy, and concentrated high-EGCG products. Stop and assess if jaundice, dark urine, pruritus or abdominal symptoms occur. [PMID:32140423]
+- Liver disease, or prior supplement-induced liver injury: USP labeling advises against use [PMID:32140423]. Re-exposure caused recurrence with shorter latency [PMID:32892374].
+- Concentrated extracts on an empty stomach or during calorie restriction: exposure and toxicity rise [PMID:32438698] [PMID:18484782] [PMID:33584288].
+- Bortezomib therapy: avoid supplemental EGCG [PMID:19190249] [PMID:39119616].
+- Pregnancy: keep caffeine moderate [URL:https://www.nccih.nih.gov/health/green-tea] [PMID:28438661]. No adequate safety data for high-dose extract.
 
 ** Interactions
-- May reduce nadolol exposure via intestinal transporter effects; can affect iron absorption. Caffeine-containing extracts may add stimulant effects. Liver injury risk may compound with hepatotoxic drugs, though direct interactions are not well quantified. [PMID:32140423]
+*** Drugs
+- Nadolol (OATP1A2 substrate): avoid co-ingestion. Green tea 700 mL/day lowered nadolol Cmax and AUC by about 85% and blunted its BP effect [PMID:24419562]. A single extract dose cut AUC to 0.60-0.72 of control [PMID:29480324]. One cup of brewed tea cut it to 0.37, and taking tea 1 h before still gave 0.54 [PMID:32320490]. A case of therapeutic failure has been reported [PMID:37951784].
+- Lisinopril: extract with ~300 mg EGCG lowered lisinopril AUC to 0.34 and Cmax to 0.29 of control [PMID:33048477]. This could reduce antihypertensive effect.
+- Atorvastatin: 300-600 mg extract lowered AUC by 22-24% [PMID:31997084]. Green tea inhibits OATP1B1/1B3 uptake of atorvastatin in vitro [PMID:26426900].
+- Rosuvastatin: Extract with 800 mg EGCG for 14 days lowered AUC by about 20%, independent of ABCG2 genotype [PMID:35399656]. A single 300 mg EGCG dose lowered AUC by 19%, but after 10 days of pretreatment there was no effect [PMID:28533679].
+- Other OATP/transport substrates: extract lowered fexofenadine exposure by 70% [PMID:35678032] and raloxifene AUC by about 40% [PMID:37639334]. Clinical studies reported 18-99% reductions for 10 drugs, and a 50% increase for sildenafil [PMID:39748104]. Cardiovascular-drug evidence was reviewed in 2026 [PMID:41943479].
+- Warfarin: tea is a vitamin K source. A 0.5-1 gallon/day green tea habit lowered INR from 3.79 to 1.14, and INR recovered after stopping [PMID:10332534]. A systematic review lists green tea among warfarin-interacting foods/herbs [PMID:32478963].
+- Bortezomib: EGCG neutralizes bortezomib and other boronic-acid proteasome inhibitors in vitro and in xenografts [PMID:19190249]. Gallated catechins antagonized bortezomib at tea-attainable concentrations in long-term assays [PMID:39119616]. Antagonism in mice needed EGCG plasma levels above 200 uM, far above supplement levels (0.6-3 uM) [PMID:21400028]. Conservative advice is to avoid supplements during therapy.
+- Tacrolimus: one case of a supratherapeutic trough (18.3 ng/mL) with heavy home-made green tea, which normalized after stopping [PMID:42226872].
+- Metformin: green tea and EGCG inhibit OCT1/2 and MATE1/2-K metformin uptake in vitro. No human data [PMID:26426900].
+- Stimulants (dextroamphetamine): caffeine in extracts adds sympathetic and BP effects. How caffeine-containing products interact with amphetamines is unresolved [PMID:32033367] [PMID:16506807].
+- Tamoxifen, simvastatin, fluvastatin and pseudoephedrine pharmacokinetics were not affected in clinical studies [PMID:39748104] [PMID:35678032].
+*** Other supplements
+- Iron: Tea taken with a meal reduced non-heme iron absorption by 37%. Waiting 1 h halved the inhibition [PMID:29046302]. Tea can block response to oral ferrous salts but has little effect on heme iron in vivo [PMID:8647516]. Heme iron intake is the recommended counter-strategy [PMID:11029010]. In vitro, EGCG still inhibits heme-iron transfer dose-dependently [PMID:22417433]. Separate doses of any iron product.
+- Folate: Green tea extract (0.3 g) reduced folic acid AUC by 27% (0.4 mg dose) and 40% (5 mg dose) [PMID:18551467]. 720-800 mg EGCG/day for 30 days did not lower serum folate, regardless of MTHFR/DHFR genotype [PMID:40077973] [PMID:36678191]. No data exist for 5-MTHF (Quatrefolic). The evidence covers folic acid uptake and DHFR inhibition only [PMID:15781612] [PMID:17117344].
+- Caffeine: additive with caffeine in extracts. Caffeine also raises EGCG exposure [PMID:19734672] [PMID:28438661].
+- L-Theanine: theanine plus caffeine gave small acute cognition/mood benefits [PMID:40314930].
+- Hepatotoxic botanicals: Turmeric/curcumin, green tea extract, Garcinia cambogia, black cohosh, red yeast rice and ashwagandha are the most reported hepatotoxic botanicals in the US [PMID:39102266]. Turmeric injury also clusters with HLA-B*35:01 (allele frequency 0.45 vs about 0.06) [PMID:36252717].
+*** Conditions
+- Liver disease, HLA-B*35:01 carriage, fasting or weight-loss diets: see Safety and Genotype notes [PMID:32892374] [PMID:33584288].
+- Iron deficiency or anemia: separate tea/extract from iron-containing meals and supplements [PMID:29046302] [PMID:39263133].
+- Hypertension: a small BP-lowering effect [PMID:40497293]. However, extracts may lower lisinopril and nadolol levels [PMID:33048477] [PMID:24419562].
+*** Lab-test interference
+- No analytical assay interference was found. True changes include ALT/AST rises with high-dose extract [PMID:28765194], small LDL/total cholesterol falls [PMID:27806972] and PSA decreases [PMID:25873370]. These can confound monitoring.
+- INR can fall in warfarin users [PMID:10332534]. Serum folate can fall after co-ingestion with folic acid [PMID:18551467].
 
-** Latest research (last 24 months)
-- USP systematic review documents variable extract composition and a credible association with idiosyncratic liver injury; EFSA review links ≥800 mg/day supplemental EGCG to raised liver enzymes. [PMID:32140423]
+** Genotype notes
+- HLA-B*35:01: present in 72% of DILIN green tea liver-injury cases, vs 12% of drug-DILI cases and 11% of population controls [PMID:32892374]. NCCIH notes that 5-15% of Americans carry the variant [URL:https://www.nccih.nih.gov/health/green-tea]. The 2026 DILI review lists it as a risk factor [PMID:42092331]. The allele is also over-represented in Garcinia-plus-green-tea injury (55%) [PMID:34400337].
+- UGT1A4 rs6755571 A/C: ALT rose +78-82% at months 6-9 vs +28-30% in C/C on 843 mg EGCG/day (MGTT) [PMID:36178169].
+- COMT rs4680: small AST:ALT ratio difference [PMID:36178169]. COMT genotype did not modify effects on adiposity, cytokines or mammographic density [PMID:26701796] [PMID:41515260] [PMID:28904061].
+- SLCO1A2 (OATP1A2): in MIRACLE, non-carriers on extract had fewer adenomas (RR 0.82, CI 0.69-0.97). Carriers had no benefit [PMID:40433816].
+- MRP2 and OATP1B1 polymorphisms partly explain variability in catechin pharmacokinetics [PMID:29466429].
+
+** Latest research
+- [2026-08] DILI review names HLA-B*35:01 as a risk factor for green tea extract injury [PMID:42092331]. A second review lists green tea extract among leading HDS causes in the US [PMID:42475234].
+- [2026-07] Review of 2025 DILI causes includes green tea extract among newly recognized hepatotoxic HDS [PMID:42504634].
+- [2026-06] Postmenopausal MA (7 RCTs): total cholesterol -7.03 mg/dL; no other effects; advises liver monitoring with high doses [PMID:42228178].
+- [2026-04] Review of green tea pharmacokinetic interactions with cardiovascular drugs [PMID:41943479].
+- [2026-01] MGTT secondary analysis: 843 mg EGCG/day for 1 year did not lower CRP, IL-6 or TNF-a [PMID:41515260].
+- [2025-12] GRADE dose-response BP MA (36 RCTs): SBP -1.08 / DBP -1.09 mmHg [PMID:40497293].
+- [2025-10] EGCG glycemic MA (41 RCTs): HbA1c -0.18%, judged not clinically meaningful [PMID:40885603]. Tea/theanine cognition MA [PMID:40314930].
+- [2025-08] Cancer MA (7 RCTs, 36 cohorts): green tea RR 0.91, EGCG RR 0.72. Heterogeneity is high [PMID:40832777].
+- [2025-07] Review: 72% of clinical PK analyses showed 18-99% lower drug exposure with green tea [PMID:39748104].
+- [2025-06] Obesity dose-response MA: body weight -0.74 kg, BMI -0.29 [PMID:40326418].
+- [2025-04] MIRACLE GWAS: SLCO1A2 variants modify adenoma prevention [PMID:40433816].
+- [2025-03] EGCG 720 mg/day did not lower folate in reproductive-age women [PMID:40077973]. HILI review names green tea extract among the main agents [PMID:39136211].
+- [2024-12] Exercise plus green tea MA: weight SMD -0.30; no lipid benefit [PMID:39350601].
+- [2024-11] Tea/coffee NMA: green tea -1.23 kg vs placebo, low certainty [PMID:39497467]. T2DM MA: improved FBG, HbA1c and HOMA-IR [PMID:39809182].
 
 ** Open questions
-- Identify product characteristics and genetic/clinical susceptibility associated with liver injury; establish a safe dose threshold and meaningful clinical efficacy.
+- A safe EGCG dose for bolus supplements. EFSA reported transaminase rises at >=800 mg/day, and the industry-derived 338 mg/day figure needs independent confirmation [PMID:32625874] [PMID:29580974].
+- Whether HLA-B*35:01 or UGT1A4 screening could identify at-risk users before high-dose trials [PMID:32892374] [PMID:36178169].
+- Whether the 2012 Cochrane weight conclusion still holds against newer, lower-quality positive MAs [PMID:23235664] [PMID:40326418].
+- Clinical consequences of transporter interactions with chronic dosing. Rosuvastatin data conflict [PMID:28533679] [PMID:35399656].
+- Hard cardiovascular and cancer outcomes. No adequately powered RCTs exist [PMID:32118296].
 
 ** Sources
-- Oketch-Rabah HA et al. USP comprehensive review of the hepatotoxicity of green tea extracts. Toxicol Rep. 2020. [https://pubmed.ncbi.nlm.nih.gov/32140423/]
- - EFSA. Scientific opinion on the safety of green tea catechins. EFSA J. 2018. [https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2018.5239]
-- LiverTox: Green Tea. NCBI Bookshelf. [https://www.ncbi.nlm.nih.gov/books/NBK547925/]
-- Jurgens TM et al. Green tea for weight loss and weight maintenance in overweight or obese adults. Cochrane. [https://pubmed.ncbi.nlm.nih.gov/25014173/]
+1. EFSA Panel on Food Additives and Nutrient Sources added to Food (ANS) et al. Scientific opinion on the safety of green tea catechins. EFSA J. 2018. PMID:32625874 DOI:10.2903/j.efsa.2018.5239
+2. Capasso L et al. Epigallocatechin Gallate (EGCG): Pharmacological Properties, Biological Activities and Therapeutic Potential. Molecules. 2025. PMID:39942757 DOI:10.3390/molecules30030654
+3. Oketch-Rabah HA et al. United States Pharmacopeia (USP) comprehensive review of the hepatotoxicity of green tea extracts. Toxicol Rep. 2020. PMID:32140423 DOI:10.1016/j.toxrep.2020.02.008
+4. Seeram NP et al. Catechin and caffeine content of green tea dietary supplements and correlation with antioxidant capacity. J Agric Food Chem. 2006. PMID:16506807 DOI:10.1021/jf052857r
+5. Samavat H et al. A Randomized Controlled Trial of Green Tea Extract Supplementation and Mammographic Density in Postmenopausal Women at Increased Risk of Breast Cancer. Cancer Prev Res (Phila). 2017. PMID:28904061 DOI:10.1158/1940-6207.CAPR-17-0187
+6. Kumar NB et al. Randomized, Placebo-Controlled Trial of Green Tea Catechins for Prostate Cancer Prevention. Cancer Prev Res (Phila). 2015. PMID:25873370 DOI:10.1158/1940-6207.CAPR-14-0324
+7. Seufferlein T et al. Green Tea Extract to Prevent Colorectal Adenomas, Results of a Randomized, Placebo-Controlled Clinical Trial. Am J Gastroenterol. 2022. PMID:35213393 DOI:10.14309/ajg.0000000000001706
+8. Andreu-Fernández V et al. Bioavailability of Epigallocatechin Gallate Administered With Different Nutritional Strategies in Healthy Volunteers. Antioxidants (Basel). 2020. PMID:32438698 DOI:10.3390/antiox9050440
+9. Scholl C et al. Population nutrikinetics of green tea extract. PLoS One. 2018. PMID:29466429 DOI:10.1371/journal.pone.0193074
+10. Nakagawa K et al. Effects of co-administration of tea epigallocatechin-3-gallate (EGCG) and caffeine on absorption and metabolism of EGCG in humans. Biosci Biotechnol Biochem. 2009. PMID:19734672 DOI:10.1271/bbb.90195
+11. Jurgens TM et al. Green tea for weight loss and weight maintenance in overweight or obese adults. Cochrane Database Syst Rev. 2012. PMID:23235664 DOI:10.1002/14651858.CD008650.pub2
+12. Dostal AM et al. Long-Term Supplementation of Green Tea Extract Does Not Modify Adiposity or Bone Mineral Density in a Randomized Trial of Overweight and Obese Postmenopausal Women. J Nutr. 2016. PMID:26701796 DOI:10.3945/jn.115.219238
+13. Kumar NB et al. Long-term supplementation of decaffeinated green tea extract does not modify body weight or abdominal obesity in a randomized trial of men at high risk for prostate cancer. Oncotarget. 2017. PMID:29228755 DOI:10.18632/oncotarget.18858
+14. Misaka S et al. Green tea ingestion greatly reduces plasma concentrations of nadolol in healthy subjects. Clin Pharmacol Ther. 2014. PMID:24419562 DOI:10.1038/clpt.2013.241
+15. Abe O et al. Role of (-)-epigallocatechin gallate in the pharmacokinetic interaction between nadolol and green tea in healthy volunteers. Eur J Clin Pharmacol. 2018. PMID:29480324 DOI:10.1007/s00228-018-2436-2
+16. Knop J et al. Inhibitory Effects of Green Tea and (-)-Epigallocatechin Gallate on Transport by OATP1B1, OATP1B3, OCT1, OCT2, MATE1, MATE2-K and P-Glycoprotein. PLoS One. 2015. PMID:26426900 DOI:10.1371/journal.pone.0139370
+17. Kyriacou NM et al. Green Tea Catechins as Perpetrators of Drug Pharmacokinetic Interactions. Clin Pharmacol Ther. 2025. PMID:39748104 DOI:10.1002/cpt.3547
+18. Navarro-Perán E et al. The antifolate activity of tea catechins. Cancer Res. 2005. PMID:15781612 DOI:10.1158/0008-5472.CAN-04-3469
+19. Alemdaroglu NC et al. Inhibition of folic acid uptake by catechins and tea extracts in Caco-2 cells. Planta Med. 2007. PMID:17117344 DOI:10.1055/s-2006-951745
+20. Zijp IM et al. Effect of tea and other dietary factors on iron absorption. Crit Rev Food Sci Nutr. 2000. PMID:11029010 DOI:10.1080/10408690091189194
+21. Ahmad Fuzi SF et al. A 1-h time interval between a meal containing iron and consumption of tea attenuates the inhibitory effects on iron absorption: a controlled trial in a cohort of healthy UK women using a stable iron isotope. Am J Clin Nutr. 2017. PMID:29046302 DOI:10.3945/ajcn.117.161364
+22. Ma Q et al. Bioactive dietary polyphenols inhibit heme iron absorption in a dose-dependent manner in human intestinal Caco-2 cells. J Food Sci. 2011. PMID:22417433 DOI:10.1111/j.1750-3841.2011.02184.x
+23. Golden EB et al. Green tea polyphenols block the anticancer effects of bortezomib and other boronic acid-based proteasome inhibitors. Blood. 2009. PMID:19190249 DOI:10.1182/blood-2008-07-171389
+24. Hoofnagle JH et al. HLA-B*35:01 and Green Tea-Induced Liver Injury. Hepatology. 2021. PMID:32892374 DOI:10.1002/hep.31538
+25. Shi Z et al. Epigallocatechin Gallate During Dietary Restriction - Potential Mechanisms of Enhanced Liver Injury. Front Pharmacol. 2020. PMID:33584288 DOI:10.3389/fphar.2020.609378
+26. Dehzad MJ et al. Effects of green tea supplementation on obesity indices and adipokines in adults: a grade-assessed systematic review and dose-response meta-analysis of randomised controlled trials. Int J Food Sci Nutr. 2025. PMID:40326418 DOI:10.1080/09637486.2025.2496400
+27. Jayedi A et al. Comparative effects of tea and coffee drinking on body weight in adults: a systematic review and network meta-analysis of randomised trials. Br J Nutr. 2024. PMID:39497467 DOI:10.1017/S0007114524001867
+28. Gholami F et al. Does green tea catechin enhance weight-loss effect of exercise training in overweight and obese individuals? a systematic review and meta-analysis of randomized trials. J Int Soc Sports Nutr. 2024. PMID:39350601 DOI:10.1080/15502783.2024.2411029
+29. Zheng XX et al. Green tea intake lowers fasting serum total and LDL cholesterol in adults: a meta-analysis of 14 randomized controlled trials. Am J Clin Nutr. 2011. PMID:21715508 DOI:10.3945/ajcn.110.010926
+30. Kim A et al. Green tea catechins decrease total and low-density lipoprotein cholesterol: a systematic review and meta-analysis. J Am Diet Assoc. 2011. PMID:22027055 DOI:10.1016/j.jada.2011.08.009
+31. Xu R et al. Effect of green tea consumption on blood lipids: a systematic review and meta-analysis of randomized controlled trials. Nutr J. 2020. PMID:32434539 DOI:10.1186/s12937-020-00557-5
+32. Zamani M et al. The effects of green tea supplementation on cardiovascular risk factors: A systematic review and meta-analysis. Front Nutr. 2022. PMID:36704803 DOI:10.3389/fnut.2022.1084455
+33. Samavat H et al. Effects of green tea catechin extract on serum lipids in postmenopausal women: a randomized, placebo-controlled clinical trial. Am J Clin Nutr. 2016. PMID:27806972 DOI:10.3945/ajcn.116.137075
+34. Xu R et al. Effects of green tea consumption on glycemic control: a systematic review and meta-analysis of randomized controlled trials. Nutr Metab (Lond). 2020. PMID:32670385 DOI:10.1186/s12986-020-00469-5
+35. Zheng XX et al. Effects of green tea catechins with or without caffeine on glycemic control in adults: a meta-analysis of randomized controlled trials. Am J Clin Nutr. 2013. PMID:23426037 DOI:10.3945/ajcn.111.032573
+36. Saadh MJ et al. Effect of Epigallocatechin Gallate on Glycemic Index: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. Clin Ther. 2025. PMID:40885603 DOI:10.1016/j.clinthera.2025.07.015
+37. Jia MJ et al. The effect of green tea on patients with type 2 diabetes mellitus: A meta-analysis. Medicine (Baltimore). 2024. PMID:39809182 DOI:10.1097/MD.0000000000039702
+38. Rezaei M et al. Effect of green tea supplementation on blood pressure in adults: a GRADE-assessed systematic review and dose-response meta-analysis of randomised controlled trials. Blood Press. 2025. PMID:40497293 DOI:10.1080/08037051.2025.2517122
+39. Khalesi S et al. Green tea catechins and blood pressure: a systematic review and meta-analysis of randomised controlled trials. Eur J Nutr. 2014. PMID:24861099 DOI:10.1007/s00394-014-0720-1
+40. Filippini T et al. Green tea (Camellia sinensis) for the prevention of cancer. Cochrane Database Syst Rev. 2020. PMID:32118296 DOI:10.1002/14651858.CD005004.pub3
+41. Shin CM et al. Green tea extracts for the prevention of metachronous colorectal polyps among patients who underwent endoscopic removal of colorectal adenomas: A randomized clinical trial. Clin Nutr. 2018. PMID:28209333 DOI:10.1016/j.clnu.2017.01.014
+42. Cunningham A et al. Effects of Green Tea Extract Supplementation on Inflammatory Cytokines Among Postmenopausal Women with Overweight or Obesity-A Secondary Analysis of a Randomized Controlled Trial. Nutrients. 2026. PMID:41515260 DOI:10.3390/nu18010143
+43. Kumar NB et al. Randomized, placebo-controlled trial evaluating the safety of one-year administration of green tea catechins. Oncotarget. 2016. PMID:28053292 DOI:10.18632/oncotarget.12222
+44. Siblini H et al. Assessing the Hepatic Safety of Epigallocatechin Gallate (EGCG) in Reproductive-Aged Women. Nutrients. 2023. PMID:36678191 DOI:10.3390/nu15020320
+45. Johnson JJ et al. Evaluating the Effect of Epigallocatechin Gallate (EGCG) in Reducing Folate Levels in Reproductive Aged Women by MTHFR and DHFR Genotype in Combination With Letrozole or Clomiphene. Clin Transl Sci. 2025. PMID:40077973 DOI:10.1111/cts.70189
+46. Hu J et al. The safety of green tea and green tea extract consumption in adults - Results of a systematic review. Regul Toxicol Pharmacol. 2018. PMID:29580974 DOI:10.1016/j.yrtph.2018.03.019
+47. Sarma DN et al. Safety of green tea extracts : a systematic review by the US Pharmacopeia. Drug Saf. 2008. PMID:18484782 DOI:10.2165/00002018-200831060-00003
+48. Dostal AM et al. The safety of green tea extract supplementation in postmenopausal women at risk for breast cancer: results of the Minnesota Green Tea Trial. Food Chem Toxicol. 2015. PMID:26051348 DOI:10.1016/j.fct.2015.05.019
+49. Yu Z et al. Effect of Green Tea Supplements on Liver Enzyme Elevation: Results from a Randomized Intervention Study in the United States. Cancer Prev Res (Phila). 2017. PMID:28765194 DOI:10.1158/1940-6207.CAPR-17-0160
+50. Isomura T et al. Liver-related safety assessment of green tea extracts in humans: a systematic review of randomized controlled trials. Eur J Clin Nutr. 2016. PMID:27188915 DOI:10.1038/ejcn.2016.78
+51. Zheng EX et al. Risk of Liver Injury Associated with Green Tea Extract in SLIMQUICK(®) Weight Loss Products: Results from the DILIN Prospective Study. Drug Saf. 2016. PMID:27189593 DOI:10.1007/s40264-016-0428-7
+52. Vuppalanchi R et al. Garcinia cambogia, Either Alone or in Combination With Green Tea, Causes Moderate to Severe Liver Injury. Clin Gastroenterol Hepatol. 2022. PMID:34400337 DOI:10.1016/j.cgh.2021.08.015
+53. Halegoua-DeMarzio D et al. Challenges in herbal-induced liver injury identification and prevention. Liver Int. 2025. PMID:39136211 DOI:10.1111/liv.16071
+54. Björnsson ES. Common Causes of Drug-Induced Liver Injury in 2025. Turk J Gastroenterol. 2026. PMID:42504634 DOI:10.5152/tjg.2026.26361
+55. Swanson L et al. The contemporary epidemiology, causes, and management of drug-induced liver injury. Hepatol Commun. 2026. PMID:42475234 DOI:10.1097/HC9.0000000000001011
+56. LiverTox (NIDDK). Green Tea. LiverTox: Clinical and Research Information on Drug-Induced Liver Injury. 2012. PMID:31643260
+57. Wikoff D et al. Systematic review of the potential adverse effects of caffeine consumption in healthy adults, pregnant women, adolescents, and children. Food Chem Toxicol. 2017. PMID:28438661 DOI:10.1016/j.fct.2017.04.002
+58. He Y et al. Severe iron-deficiency anemia after short-term moderate consumption of green tea in woman: A rare case report. Heliyon. 2024. PMID:39263133 DOI:10.1016/j.heliyon.2024.e36666
+59. Van TTT et al. The SAR analysis of dietary polyphenols and their antagonistic effects on bortezomib at physiological concentrations. Front Pharmacol. 2024. PMID:39119616 DOI:10.3389/fphar.2024.1403424
+60. Misaka S et al. Effects of single green tea ingestion on pharmacokinetics of nadolol in healthy volunteers. Br J Clin Pharmacol. 2020. PMID:32320490 DOI:10.1111/bcp.14315
+61. Facile A et al. Green tea and nadolol interaction: A risk of therapeutic inefficiency, a case report and extensive review. Therapie. 2024. PMID:37951784 DOI:10.1016/j.therap.2023.10.002
+62. Misaka S et al. Impact of Green Tea Catechin Ingestion on the Pharmacokinetics of Lisinopril in Healthy Volunteers. Clin Transl Sci. 2021. PMID:33048477 DOI:10.1111/cts.12905
+63. Abdelkawy KS et al. Effects of Green Tea Extract on Atorvastatin Pharmacokinetics in Healthy Volunteers. Eur J Drug Metab Pharmacokinet. 2020. PMID:31997084 DOI:10.1007/s13318-020-00608-6
+64. Zeng W et al. Effect of Green Tea Extract and Soy Isoflavones on the Pharmacokinetics of Rosuvastatin in Healthy Volunteers. Front Nutr. 2022. PMID:35399656 DOI:10.3389/fnut.2022.850318
+65. Kim TE et al. Effect of epigallocatechin-3-gallate, major ingredient of green tea, on the pharmacokinetics of rosuvastatin in healthy volunteers. Drug Des Devel Ther. 2017. PMID:28533679 DOI:10.2147/DDDT.S130050
+66. Misaka S et al. Exposure of Fexofenadine, but Not Pseudoephedrine, Is Markedly Decreased by Green Tea Extract in Healthy Volunteers. Clin Pharmacol Ther. 2022. PMID:35678032 DOI:10.1002/cpt.2682
+67. Clarke JD et al. Co-consuming green tea with raloxifene decreases raloxifene systemic exposure in healthy adult participants. Clin Transl Sci. 2023. PMID:37639334 DOI:10.1111/cts.13578
+68. Misaka S et al. Impact of green tea on pharmacokinetics in cardiovascular therapy: current insights. Expert Opin Drug Metab Toxicol. 2026. PMID:41943479 DOI:10.1080/17425255.2026.2654467
+69. Taylor JR et al. Probable antagonism of warfarin by green tea. Ann Pharmacother. 1999. PMID:10332534 DOI:10.1345/aph.18238
+70. Tan CSS et al. Warfarin and food, herbal or dietary supplement interactions: A systematic review. Br J Clin Pharmacol. 2021. PMID:32478963 DOI:10.1111/bcp.14404
+71. Bannerman B et al. Preclinical evaluation of the antitumor activity of bortezomib in combination with vitamin C or with epigallocatechin gallate, a component of green tea. Cancer Chemother Pharmacol. 2011. PMID:21400028 DOI:10.1007/s00280-011-1591-2
+72. Modi R et al. Brewing an Interaction: Non-commercial Green Tea-Associated Supratherapeutic Tacrolimus Levels Presenting With Gastrointestinal Symptoms. Cureus. 2026. PMID:42226872 DOI:10.7759/cureus.109952
+73. Somers KR et al. Cardiovascular and Autonomic Responses to Energy Drinks-Clinical Implications. J Clin Med. 2020. PMID:32033367 DOI:10.3390/jcm9020431
+74. Gabrielli GB et al. Excessive tea consumption can inhibit the efficacy of oral iron treatment in iron-deficiency anemia. Haematologica. 1995. PMID:8647516
+75. Alemdaroglu NC et al. Influence of green and black tea on folic acid pharmacokinetics in healthy volunteers: potential risk of diminished folic acid bioavailability. Biopharm Drug Dispos. 2008. PMID:18551467 DOI:10.1002/bdd.617
+76. Payne ER et al. Effects of Tea (Camellia sinensis) or its Bioactive Compounds l-Theanine or l-Theanine plus Caffeine on Cognition, Sleep, and Mood in Healthy Participants: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. Nutr Rev. 2025. PMID:40314930 DOI:10.1093/nutrit/nuaf054
+77. Likhitsup A et al. Estimated Exposure to 6 Potentially Hepatotoxic Botanicals in US Adults. JAMA Netw Open. 2024. PMID:39102266 DOI:10.1001/jamanetworkopen.2024.25822
+78. Halegoua-DeMarzio D et al. Liver Injury Associated with Turmeric-A Growing Problem: Ten Cases from the Drug-Induced Liver Injury Network [DILIN]. Am J Med. 2023. PMID:36252717 DOI:10.1016/j.amjmed.2022.09.026
+79. Björnsson ES et al. An update on drug-induced liver injury-What's new?. J Intern Med. 2026. PMID:42092331 DOI:10.1111/joim.70111
+80. Acosta L et al. Hepatotoxicity with High-Dose Green Tea Extract: Effect of Catechol-O-Methyltransferase and Uridine 5'-Diphospho-glucuronosyltransferase 1A4 Genotypes. J Diet Suppl. 2023. PMID:36178169 DOI:10.1080/19390211.2022.2128501
+81. Stingl J et al. Genomewide association analysis on green tea chemoprevention of colorectal adenoma: the importance of SLCO1A2 variants. Pharmacogenomics. 2025. PMID:40433816 DOI:10.1080/14622416.2025.2510186
+82. Zago IHR et al. Effects of green tea use on the metabolic profile of postmenopausal women: systematic review and meta-analysis. Eur J Nutr. 2026. PMID:42228178 DOI:10.1007/s00394-026-04005-8
+83. Zhang Y et al. Green Tea and Epigallocatechin Gallate (EGCG) for Cancer Prevention: A Systematic Review and Meta-Analysis. Am J Chin Med. 2025. PMID:40832777 DOI:10.1142/S0192415X2550065X
+84. National Center for Complementary and Integrative Health. Green Tea (fact sheet). NIH. Accessed 2026-10-13. URL:https://www.nccih.nih.gov/health/green-tea

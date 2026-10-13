@@ -3,10 +3,12 @@
   "supplement": "Citicholine",
   "slug": "citicholine",
   "aliases": [
-    "Citicholine",
     "citicoline",
-    "cytidine diphosphate-choline",
-    "CDP-choline"
+    "CDP-choline",
+    "cytidine 5'-diphosphocholine",
+    "cytidine diphosphate choline",
+    "Cognizin",
+    "choline cytidine 5'-pyrophosphate"
   ],
   "category": "nootropic",
   "rx_status": "otc",
@@ -17,27 +19,370 @@
       "with_kind": "drug",
       "kind": "monitor",
       "severity": "moderate",
-      "mechanism": "Citicoline may increase dopaminergic effects of levodopa; monitor clinical response.",
-      "evidence": "Pharmacologic interaction described in clinical reviews.",
+      "mechanism": "Citicoline raises dopamine release/tyrosine hydroxylase activity; adds to levodopa effect and allowed levodopa dose cuts of up to 50% in older trials.",
+      "evidence": "SR of 7 studies, 1990 RCT and 2026 multicentre DB RCT (n=474) on stable PD drugs; low certainty",
       "citations": [
-        "PMID:36678257"
+        "PMID:33279231",
+        "PMID:2289218",
+        "PMID:42561742"
+      ]
+    },
+    {
+      "with": "cholinesterase inhibitors (donepezil, rivastigmine, galantamine)",
+      "with_kind": "drug-class",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Cholinergic precursor plus reduced acetylcholine breakdown; small additive MMSE gains reported without new safety signals.",
+      "evidence": "Retrospective cohorts and SR of 2 observational studies; very low certainty",
+      "citations": [
+        "PMID:28035929",
+        "PMID:27587069",
+        "PMID:32538854",
+        "PMID:33459645"
+      ]
+    },
+    {
+      "with": "memantine",
+      "with_kind": "drug",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Triple therapy (citicoline + memantine + AChEI) kept MMSE stable vs decline in controls; no added harms reported.",
+      "evidence": "Retrospective case-control studies; very low certainty",
+      "citations": [
+        "PMID:33459645",
+        "PMID:33484469"
+      ]
+    },
+    {
+      "with": "anticholinergic drugs",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Anticholinergic load opposes cholinergic strategies; reducing it is recommended in MCI. Opposition to citicoline is inferred, not studied.",
+      "evidence": "Narrative review; no direct interaction study",
+      "citations": [
+        "PMID:41562827"
+      ]
+    },
+    {
+      "with": "stimulants (methylphenidate)",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Case of recurrent suicidality in a child on methylphenidate after starting citicoline plus phosphatidylserine; resolved on stopping and recurred on rechallenge.",
+      "evidence": "Single case report; very low certainty",
+      "citations": [
+        "PMID:41562580"
+      ]
+    },
+    {
+      "with": "SSRIs (citalopram)",
+      "with_kind": "drug-class",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Adjunctive citicoline improved HDRS and remission vs placebo when added to citalopram.",
+      "evidence": "One DB RCT (n=50); very low certainty",
+      "citations": [
+        "PMID:28085707"
+      ]
+    },
+    {
+      "with": "antipsychotics (risperidone)",
+      "with_kind": "drug-class",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Adjunctive citicoline improved negative symptoms with no excess extrapyramidal effects.",
+      "evidence": "One DB RCT (n=73) plus NMA; very low certainty",
+      "citations": [
+        "PMID:29901250",
+        "PMID:39026098"
+      ]
+    },
+    {
+      "with": "Alpha-GPC",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Duplicative choline donor; alpha-GPC gives higher plasma choline than citicoline. Stacking adds choline load and water-soluble choline sources raise TMAO.",
+      "evidence": "PK crossover studies and MA of 3 head-to-head RCTs; low certainty",
+      "citations": [
+        "PMID:1428296",
+        "PMID:41426989",
+        "PMID:36950691",
+        "PMID:34287673"
+      ]
+    },
+    {
+      "with": "Caffeine",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Citicoline-caffeine beverage improved sustained attention and reaction time vs control; contributions of each part not separated.",
+      "evidence": "Single RCT in healthy adults; low certainty",
+      "citations": [
+        "PMID:25046515"
+      ]
+    },
+    {
+      "with": "Cerebrolysin",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Both are used as neuroprotectants in TBI; the combination showed a nonsignificant trend to better neurological outcome.",
+      "evidence": "Retrospective cohort (n=80) and narrative review; very low certainty",
+      "citations": [
+        "PMID:41409218",
+        "PMID:38748062"
+      ]
+    },
+    {
+      "with": "Acetyl-L-Carnitine",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Complementary mitochondrial support (ALCAR) and membrane-phospholipid support (citicoline) proposed as synergistic.",
+      "evidence": "Narrative review only",
+      "citations": [
+        "PMID:42136265"
+      ]
+    },
+    {
+      "with": "N-Acetyl-L-Cysteine (NAC)",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Redox support (NAC) plus membrane support (citicoline) proposed as synergistic in neuropsychiatric disorders.",
+      "evidence": "Narrative review only",
+      "citations": [
+        "PMID:42136265"
+      ]
+    },
+    {
+      "with": "EPA/DHA/DPA",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "DHA plus oral citicoline improved visual-field MD and VFI slopes in glaucoma.",
+      "evidence": "One randomized trial (n=73); low certainty",
+      "citations": [
+        "PMID:36294916"
+      ]
+    },
+    {
+      "with": "CoQ10",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Combined citicoline + CoQ10 reduced retinal glial activation in ocular hypertension and is proposed for glaucoma neuroprotection.",
+      "evidence": "Mouse study and review; very low certainty",
+      "citations": [
+        "PMID:40430513",
+        "PMID:36590976"
+      ]
+    },
+    {
+      "with": "Vitamin B12",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Citicoline + vitamin B12 eye drops preserved retinal function and morphology in type 1 diabetes with mild retinopathy.",
+      "evidence": "3-year pilot study; very low certainty",
+      "citations": [
+        "PMID:32180131"
+      ]
+    },
+    {
+      "with": "Bacopa Monieri",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Bacopa and citicoline are grouped in a theoretical multi-target nootropic 'brain health triad' stack; no clinical interaction data.",
+      "evidence": "Narrative review only",
+      "citations": [
+        "PMID:42074246"
+      ]
+    },
+    {
+      "with": "L-Theanine",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "L-theanine and citicoline are grouped in the same theoretical nootropic stacking framework; no clinical interaction data.",
+      "evidence": "Narrative review only",
+      "citations": [
+        "PMID:42074246"
+      ]
+    },
+    {
+      "with": "Lithium",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Both protected retinal ganglion cells after optic-nerve crush in rats; the combination was no better than lithium alone.",
+      "evidence": "Single animal study; no human data",
+      "citations": [
+        "PMID:16876158"
+      ]
+    },
+    {
+      "with": "trimethylamine N-oxide (TMAO)",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Water-soluble choline supplements and alpha-GPC raise plasma TMAO quickly; this is a true metabolic rise, not assay interference. No citicoline-specific TMAO data exist.",
+      "evidence": "Crossover PK study and 4-week RCT of choline; low certainty",
+      "citations": [
+        "PMID:34287673",
+        "PMID:29764315"
+      ]
+    },
+    {
+      "with": "plasma choline / uridine",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Oral citicoline raises plasma choline (dose-related) and uridine by 70-120% for hours after dosing.",
+      "evidence": "Human crossover PK study",
+      "citations": [
+        "PMID:10974208"
+      ]
+    },
+    {
+      "with": "APOE e4 carrier",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Cognitive response to citicoline 1000 mg/d was weaker in APOE4 carriers than in non-carriers among relatives of AD patients.",
+      "evidence": "Open-label study (n=82); very low certainty",
+      "citations": [
+        "PMID:34870911"
       ]
     },
     {
       "with": "bipolar disorder",
       "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Theoretical activation risk; RCTs in bipolar patients found no mood destabilisation or excess side effects.",
+      "evidence": "Two DB RCTs; low certainty",
+      "citations": [
+        "PMID:25998279",
+        "PMID:17873684"
+      ]
+    },
+    {
+      "with": "children",
+      "with_kind": "condition",
       "kind": "caution",
       "severity": "minor",
-      "mechanism": "Potential activating effects and insomnia warrant caution; direct interaction evidence is limited.",
-      "evidence": "Precaution based on adverse effect profile.",
+      "mechanism": "EU novel-food authorisation says products are not intended for children; pediatric trials are small, and one case of suicidality occurred with stimulants.",
+      "evidence": "Regulatory decision, small RCTs, case report",
       "citations": [
-        "PMID:36678257"
+        "URL:https://www.legislation.gov.uk/eudn/2014/423/introduction",
+        "PMID:38976279",
+        "PMID:41562580"
+      ]
+    },
+    {
+      "with": "Parkinson's disease",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Additive to dopaminergic therapy; may allow levodopa dose reduction, so motor status and dyskinesia need watching when adding or stopping.",
+      "evidence": "DB RCT and SR; low certainty",
+      "citations": [
+        "PMID:42561742",
+        "PMID:33279231"
       ]
     }
   ],
   "citations": [
+    "PMID:10974208",
+    "PMID:11796739",
+    "PMID:12468781",
+    "PMID:1428296",
+    "PMID:15846601",
+    "PMID:16490951",
+    "PMID:16876158",
+    "PMID:17873684",
+    "PMID:18816480",
+    "PMID:21164117",
+    "PMID:21769048",
+    "PMID:22691567",
+    "PMID:22845688",
+    "PMID:2289218",
+    "PMID:22974472",
+    "PMID:23168823",
+    "PMID:23403474",
+    "PMID:23406981",
+    "PMID:24504829",
+    "PMID:24618483",
+    "PMID:25046515",
+    "PMID:25998279",
+    "PMID:26179181",
     "PMID:27234918",
+    "PMID:27539610",
+    "PMID:27587069",
+    "PMID:28035929",
+    "PMID:28039682",
+    "PMID:28085707",
+    "PMID:29764315",
+    "PMID:29901250",
+    "PMID:30457668",
+    "PMID:31725734",
+    "PMID:32180131",
+    "PMID:32538854",
+    "PMID:32541370",
+    "PMID:32860632",
+    "PMID:33279231",
+    "PMID:33459645",
+    "PMID:33484469",
+    "PMID:33978188",
+    "PMID:34287673",
+    "PMID:34870911",
+    "PMID:36294916",
+    "PMID:36590976",
+    "PMID:36639525",
     "PMID:36678257",
-    "PMID:39575393"
+    "PMID:36836726",
+    "PMID:36950691",
+    "PMID:37109211",
+    "PMID:37489128",
+    "PMID:37768938",
+    "PMID:38128611",
+    "PMID:38748062",
+    "PMID:38966137",
+    "PMID:38976279",
+    "PMID:39026098",
+    "PMID:39221499",
+    "PMID:39432105",
+    "PMID:39575393",
+    "PMID:39834702",
+    "PMID:40054542",
+    "PMID:40255575",
+    "PMID:40430513",
+    "PMID:40576847",
+    "PMID:41027417",
+    "PMID:41394525",
+    "PMID:41409218",
+    "PMID:41426989",
+    "PMID:41467376",
+    "PMID:41517474",
+    "PMID:41562580",
+    "PMID:41562827",
+    "PMID:42074246",
+    "PMID:42136265",
+    "PMID:42179665",
+    "PMID:42561742",
+    "PMID:42635820",
+    "PMID:42679920",
+    "PMID:6412727",
+    "PMID:8624220",
+    "URL:https://clinicaltrials.gov/study/NCT00331890",
+    "URL:https://clinicaltrials.gov/study/NCT00545662",
+    "URL:https://clinicaltrials.gov/study/NCT05710198",
+    "URL:https://clinicaltrials.gov/study/NCT05870111",
+    "URL:https://clinicaltrials.gov/study/NCT07804498",
+    "URL:https://www.legislation.gov.uk/eudn/2014/423/introduction"
   ]
 }

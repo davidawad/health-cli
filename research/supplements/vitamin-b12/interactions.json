@@ -3,54 +3,395 @@
   "supplement": "Vitamin B12",
   "slug": "vitamin-b12",
   "aliases": [
-    "Vitamin B12",
     "cobalamin",
     "cyanocobalamin",
-    "methylcobalamin",
     "hydroxocobalamin",
-    "adenosylcobalamin"
+    "methylcobalamin",
+    "mecobalamin",
+    "adenosylcobalamin",
+    "cobamamide",
+    "vitamin B-12"
   ],
   "category": "vitamin",
   "rx_status": "otc",
-  "evidence_certainty_overall": "high",
+  "evidence_certainty_overall": "moderate",
   "edges": [
     {
-      "with": "metformin",
-      "with_kind": "drug",
+      "with": "Metformin ER",
+      "with_kind": "supplement",
       "kind": "monitor",
       "severity": "moderate",
-      "mechanism": "Long-term metformin use is associated with reduced B12 status; periodic assessment may be considered in at-risk users.",
-      "evidence": "NIH ODS interaction summary.",
+      "mechanism": "Metformin reduces ileal calcium-dependent IF-B12 uptake; serum B12 falls ~19% vs placebo with dose- and duration-dependent deficiency risk.",
+      "evidence": "RCT (4.3 y, NNH 13.8), DPPOS (OR 1.13/yr), 3 MAs (OR 2.45-2.95); ADA and MHRA recommend periodic B12 monitoring; moderate certainty",
       "citations": [
-        "URL:https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/"
+        "PMID:20488910",
+        "PMID:26900641",
+        "PMID:25502588",
+        "PMID:30615306",
+        "PMID:36628003",
+        "PMID:31955662",
+        "PMID:41358900",
+        "URL:https://www.gov.uk/drug-safety-update/metformin-and-reduced-vitamin-b12-levels-new-advice-for-monitoring-patients-at-risk"
       ]
     },
     {
       "with": "proton pump inhibitors",
       "with_kind": "drug-class",
       "kind": "monitor",
-      "severity": "moderate",
-      "mechanism": "Acid suppression can impair release of food-bound B12 with prolonged use.",
-      "evidence": "NIH ODS interaction summary.",
+      "severity": "minor",
+      "mechanism": "Gastric acid suppression impairs release of protein-bound food B12; supplemental crystalline B12 is unaffected.",
+      "evidence": "Large case-control (>=2 y use OR 1.65); MA OR 1.42 with heterogeneity; 2025 MA null; NICE lists as risk factor; low certainty",
       "citations": [
-        "URL:https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/"
+        "PMID:24327038",
+        "PMID:37060552",
+        "PMID:40823471",
+        "URL:https://www.nice.org.uk/guidance/ng239/chapter/Recommendations"
+      ]
+    },
+    {
+      "with": "H2-receptor antagonists",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Acid suppression reduces food-B12 release.",
+      "evidence": "Case-control OR 1.25 for >=2 y supply; NICE risk-factor list; low certainty",
+      "citations": [
+        "PMID:24327038",
+        "URL:https://www.nice.org.uk/guidance/ng239/chapter/Recommendations"
       ]
     },
     {
       "with": "nitrous oxide",
       "with_kind": "drug",
-      "kind": "caution",
+      "kind": "avoid",
       "severity": "major",
-      "mechanism": "Nitrous oxide can inactivate cobalamin and precipitate neurologic problems, especially with low B12 status.",
-      "evidence": "NIH ODS clinical interaction summary.",
+      "mechanism": "N2O oxidizes cob(I)alamin and inactivates methionine synthase, producing functional deficiency (raised tHcy/MMA) with often-normal serum B12; myeloneuropathy.",
+      "evidence": "Systematic review of 574 recreational users, adolescent case series/SR, poison-centre trends; NICE: test tHcy/MMA first",
       "citations": [
-        "URL:https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/"
+        "PMID:37371921",
+        "PMID:42474763",
+        "PMID:41396044",
+        "URL:https://www.nice.org.uk/guidance/ng239/chapter/Recommendations"
+      ]
+    },
+    {
+      "with": "colchicine",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Colchicine causes reversible B12 malabsorption (reduced ileal IF-B12 receptor in animal model).",
+      "evidence": "Clinical mechanistic study, animal data, label and NICE risk-factor list; low certainty",
+      "citations": [
+        "PMID:5677718",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cdd4fd12-e214-43a6-b560-d56fc0d87190",
+        "URL:https://www.nice.org.uk/guidance/ng239/chapter/Recommendations"
+      ]
+    },
+    {
+      "with": "capecitabine",
+      "with_kind": "drug",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Methylcobalamin reduced capecitabine-induced hand-foot syndrome without significant change in capecitabine dose reductions.",
+      "evidence": "Phase 3 RCT (n=234): grade>=2 HFS 14.5% vs 29.1%",
+      "citations": [
+        "PMID:40935571"
+      ]
+    },
+    {
+      "with": "B12 methylcobalamin",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Duplicate cobalamin dosing; no benefit of excess B12 without deficiency and observational signals with very high intakes (hip fracture with B6, acneiform eruptions).",
+      "evidence": "Review and observational/case data; low certainty",
+      "citations": [
+        "PMID:42197057",
+        "PMID:31074816",
+        "PMID:1834437"
+      ]
+    },
+    {
+      "with": "B Complex",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Duplicate B12 (and B6/folate) dosing; combined high B6+B12 intake associated with hip fracture and rosacea/acneiform eruptions.",
+      "evidence": "Nurses' Health Study cohort (RR 1.47) and case reports",
+      "citations": [
+        "PMID:31074816",
+        "PMID:11763399",
+        "PMID:1834437"
+      ]
+    },
+    {
+      "with": "Vitamin B6",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "High combined B6 (>=35 mg/d) + B12 (>=20 ug/d) intake associated with hip fracture; high-dose B6+B12 linked to rosacea fulminans/acneiform eruptions.",
+      "evidence": "Prospective cohort (n=75,864) and case reports; low certainty",
+      "citations": [
+        "PMID:31074816",
+        "PMID:11763399",
+        "PMID:1834437"
+      ]
+    },
+    {
+      "with": "Quatrefolic (5-MTHF)",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Folate and B12 jointly lower homocysteine, but high folate can correct anemia while B12 neuropathy progresses; high folate with low B12 linked to worse anemia/cognition and higher MMA/tHcy.",
+      "evidence": "Label warning, NHANES analyses, review; check B12 status before high-dose folate",
+      "citations": [
+        "PMID:24965307",
+        "PMID:17209196",
+        "PMID:18056804",
+        "PMID:40315282",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cdd4fd12-e214-43a6-b560-d56fc0d87190"
+      ]
+    },
+    {
+      "with": "Trimethylglycine (TMG)",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Betaine remethylates homocysteine via BHMT independent of B12-dependent methionine synthase; additive tHcy lowering.",
+      "evidence": "MA of 5 RCTs (-1.23 umol/L with >=4 g/d betaine); interaction not directly tested",
+      "citations": [
+        "PMID:23997720"
+      ]
+    },
+    {
+      "with": "EPA/DHA/DPA",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "In VITACOG, B-vitamin slowing of cognitive decline in MCI occurred only with good baseline omega-3 (DHA) status.",
+      "evidence": "Post-hoc analysis of RCT (n=266); low certainty",
+      "citations": [
+        "PMID:26757190"
+      ]
+    },
+    {
+      "with": "Vitamin C",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Early claim that ascorbate destroys food B12 in vitro was not reproduced with standard assays; no clinically relevant interaction shown.",
+      "evidence": "Two in vitro studies, conflicting; very low certainty",
+      "citations": [
+        "PMID:4479087",
+        "PMID:1274888"
+      ]
+    },
+    {
+      "with": "chronic kidney disease / diabetic nephropathy",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "High-dose cyanocobalamin-containing B-vitamin therapy accelerated GFR decline and increased vascular events; proposed cyanide/thiocyanate accumulation at GFR<50 (methylcobalamin/hydroxocobalamin suggested).",
+      "evidence": "DIVINe RCT (GFR MD -5.8; composite HR 2.0); narrative reviews; MA shows benefit only with normal renal function",
+      "citations": [
+        "PMID:20424250",
+        "PMID:23449527",
+        "PMID:26597770",
+        "PMID:37850302"
+      ]
+    },
+    {
+      "with": "Leber hereditary optic neuropathy",
+      "with_kind": "condition",
+      "kind": "contraindicated",
+      "severity": "major",
+      "mechanism": "Label: early Leber's disease patients given cyanocobalamin suffered severe and swift optic atrophy.",
+      "evidence": "FDA label warning; cohort showing higher B12 deficiency prevalence in carriers",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cdd4fd12-e214-43a6-b560-d56fc0d87190",
+        "PMID:35945620"
+      ]
+    },
+    {
+      "with": "cobalt / cobalamin hypersensitivity",
+      "with_kind": "condition",
+      "kind": "contraindicated",
+      "severity": "major",
+      "mechanism": "Immediate hypersensitivity including anaphylaxis to cyanocobalamin or hydroxocobalamin injections; some tolerate alternative form.",
+      "evidence": "Label contraindication; UK multicentre series (8/29 anaphylaxis)",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cdd4fd12-e214-43a6-b560-d56fc0d87190",
+        "PMID:37898177"
+      ]
+    },
+    {
+      "with": "pernicious anemia / autoimmune gastritis",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Lack of intrinsic factor requires lifelong high-dose oral (>=1 mg/d) or IM replacement; associated gastric NET/adenocarcinoma risk.",
+      "evidence": "NICE NG239; Cochrane oral vs IM; cohort of AG/PA neoplasia",
+      "citations": [
+        "URL:https://www.nice.org.uk/guidance/ng239/chapter/Recommendations",
+        "PMID:29543316",
+        "PMID:41101382"
+      ]
+    },
+    {
+      "with": "intrinsic factor antibody test",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "moderate",
+      "mechanism": "High serum B12 after injection causes false-positive IF antibody radioassay (24 h after 1 mg; unreliable >3500 pg/mL).",
+      "evidence": "Assay method study",
+      "citations": [
+        "PMID:6465096"
+      ]
+    },
+    {
+      "with": "serum vitamin B12 assay",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "moderate",
+      "mechanism": "Supplement intake raises serum B12 (sample before treatment); anti-IF antibodies can cause falsely normal competitive-binding B12 results; total B12 includes inactive holoHC.",
+      "evidence": "NICE guidance, case report, biomarker reviews",
+      "citations": [
+        "URL:https://www.nice.org.uk/guidance/ng239/chapter/Recommendations",
+        "PMID:37987415",
+        "PMID:39367523",
+        "PMID:24942828"
+      ]
+    },
+    {
+      "with": "colorimetric chemistry and co-oximetry assays",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "moderate",
+      "mechanism": "Red-coloured hydroxocobalamin at antidote concentrations interferes with 27/77 analytes.",
+      "evidence": "In vitro spiking study",
+      "citations": [
+        "PMID:33444605"
+      ]
+    },
+    {
+      "with": "CUBN rs1801222",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Cubilin variant increases risk of metformin-induced B12 deficiency (AA vs GG OR 2.43).",
+      "evidence": "GWAS in UK Biobank replicated in Scottish and DPPOS cohorts",
+      "citations": [
+        "PMID:41537778"
+      ]
+    },
+    {
+      "with": "FUT2 rs601338",
+      "with_kind": "genotype",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Non-secretor variant alters serum B12 via holo-haptocorrin, not bioactive holoTC; serum B12 may misclassify status.",
+      "evidence": "GWAS and mechanistic study",
+      "citations": [
+        "PMID:19303062",
+        "PMID:29040465"
+      ]
+    },
+    {
+      "with": "TCN2 776C>G",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "GG genotype lowers holoTC; associated with neuropathy in elders, especially with folate intake >800 ug/d.",
+      "evidence": "Cross-sectional (n=171); low certainty",
+      "citations": [
+        "PMID:27733392"
       ]
     }
   ],
   "citations": [
+    "PMID:11763399",
+    "PMID:1274888",
+    "PMID:15911731",
+    "PMID:17209196",
+    "PMID:18056804",
+    "PMID:1834437",
+    "PMID:19303062",
+    "PMID:20424250",
+    "PMID:20488910",
+    "PMID:20838622",
+    "PMID:21780182",
+    "PMID:23449527",
+    "PMID:23690582",
+    "PMID:23997720",
+    "PMID:24249744",
+    "PMID:24327038",
+    "PMID:24942828",
+    "PMID:24965307",
+    "PMID:25411293",
+    "PMID:25502588",
+    "PMID:25559140",
+    "PMID:26597770",
+    "PMID:26757190",
+    "PMID:26900641",
+    "PMID:27733392",
+    "PMID:28816346",
+    "PMID:29040465",
+    "PMID:29543316",
+    "PMID:30341095",
+    "PMID:30499135",
+    "PMID:30615306",
+    "PMID:31074816",
+    "PMID:31955662",
+    "PMID:32716261",
+    "PMID:32800386",
+    "PMID:32819927",
+    "PMID:33444605",
+    "PMID:33513879",
+    "PMID:33809274",
+    "PMID:33881359",
+    "PMID:34432056",
+    "PMID:35532908",
+    "PMID:35783562",
+    "PMID:35945620",
+    "PMID:36628003",
+    "PMID:37060552",
+    "PMID:37371921",
+    "PMID:37605270",
+    "PMID:37850302",
+    "PMID:37898177",
+    "PMID:37987415",
+    "PMID:38189492",
+    "PMID:38252787",
+    "PMID:38892484",
+    "PMID:38987879",
+    "PMID:39367523",
+    "PMID:39373282",
+    "PMID:39655146",
+    "PMID:40315282",
+    "PMID:40647287",
+    "PMID:40823471",
+    "PMID:40935571",
+    "PMID:40961307",
     "PMID:40966571",
+    "PMID:41101382",
+    "PMID:41358900",
+    "PMID:41396044",
+    "PMID:41461260",
+    "PMID:41487531",
+    "PMID:41537778",
+    "PMID:41615824",
+    "PMID:41850742",
+    "PMID:42144864",
+    "PMID:42197057",
     "PMID:42227307",
-    "URL:https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/"
+    "PMID:42287473",
+    "PMID:42474763",
+    "PMID:4479087",
+    "PMID:5677718",
+    "PMID:6465096",
+    "PMID:9694707",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cdd4fd12-e214-43a6-b560-d56fc0d87190",
+    "URL:https://www.gov.uk/drug-safety-update/metformin-and-reduced-vitamin-b12-levels-new-advice-for-monitoring-patients-at-risk",
+    "URL:https://www.nice.org.uk/guidance/ng239/chapter/Recommendations"
   ]
 }

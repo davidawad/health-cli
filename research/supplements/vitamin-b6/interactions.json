@@ -3,36 +3,233 @@
   "supplement": "Vitamin B6",
   "slug": "vitamin-b6",
   "aliases": [
-    "Vitamin B6",
     "pyridoxine",
-    "pyridoxal-5-phosphate",
+    "pyridoxine hydrochloride",
+    "pyridoxal 5'-phosphate",
+    "P5P",
     "PLP",
+    "pyridoxal",
     "pyridoxamine"
   ],
   "category": "vitamin",
   "rx_status": "otc",
-  "evidence_certainty_overall": "high",
+  "evidence_certainty_overall": "moderate",
   "edges": [
     {
-      "with": "levodopa",
+      "with": "levodopa (without decarboxylase inhibitor)",
       "with_kind": "drug",
-      "kind": "caution",
+      "kind": "avoid",
       "severity": "moderate",
-      "mechanism": "Pyridoxine can reduce levodopa effect when levodopa is given without carbidopa.",
-      "evidence": "Established pharmacologic interaction in NIH ODS summary.",
+      "mechanism": "Pyridoxine (10-25 mg) accelerates peripheral aromatic amino acid decarboxylation of levodopa, reversing its effect; carbidopa blocks this.",
+      "evidence": "FDA label (Sinemet clinical pharmacology); classic metabolic studies and reviews",
       "citations": [
-        "URL:https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/"
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9b17b028-964a-473c-823d-81423535bd66",
+        "PMID:6087425",
+        "PMID:4827061"
+      ]
+    },
+    {
+      "with": "carbidopa-levodopa",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Carbidopa binds PLP; high carbidopa exposure (incl. foslevodopa/foscarbidopa infusion) associated with low B6 biomarkers and neuropathy. B6 supplementation does not reduce carbidopa-levodopa efficacy.",
+      "evidence": "Label statement; scoping review (36 reports) with no established threshold; case series; low certainty",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9b17b028-964a-473c-823d-81423535bd66",
+        "PMID:42703450",
+        "PMID:41942316",
+        "PMID:35802009"
+      ]
+    },
+    {
+      "with": "phenytoin",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "High-dose pyridoxine reported to lower serum phenytoin; phenytoin and other anti-seizure drugs can lower plasma PLP.",
+      "evidence": "Case-level report (Lancet letter); GeneReviews advice; low certainty",
+      "citations": [
+        "PMID:55569",
+        "PMID:35737815"
+      ]
+    },
+    {
+      "with": "phenobarbital",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "High-dose pyridoxine reported to lower serum phenobarbitone; phenobarbital can lower plasma PLP.",
+      "evidence": "Case-level report; GeneReviews advice; low certainty",
+      "citations": [
+        "PMID:55569",
+        "PMID:35737815"
       ]
     },
     {
       "with": "isoniazid",
       "with_kind": "drug",
-      "kind": "monitor",
+      "kind": "synergy",
       "severity": "moderate",
-      "mechanism": "Isoniazid can interfere with B6 metabolism and cause deficiency/neuropathy; prescribed pyridoxine may be used for risk reduction.",
-      "evidence": "Drug-nutrient interaction recognized in official reference.",
+      "mechanism": "Isoniazid antagonises PLP and causes polyneuropathy; pyridoxine co-administration prevents it, especially in high-risk groups such as HIV co-infection.",
+      "evidence": "Clinical studies since 1956 and systematic review; moderate certainty",
       "citations": [
-        "URL:https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/"
+        "PMID:13334809",
+        "PMID:6269259",
+        "PMID:21477422",
+        "PMID:30285383"
+      ]
+    },
+    {
+      "with": "theophylline",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Theophylline noncompetitively inhibits pyridoxal kinase, lowering plasma and erythrocyte PLP; 10 mg/d pyridoxine normalizes status.",
+      "evidence": "Placebo-controlled human studies and crystallography",
+      "citations": [
+        "PMID:2535870",
+        "PMID:2231024",
+        "PMID:22879864"
+      ]
+    },
+    {
+      "with": "hydralazine",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Hydrazine drug that depletes B6 and can cause pyridoxine-deficiency neuropathy.",
+      "evidence": "Case report (NEJM 1965); review",
+      "citations": [
+        "PMID:5847557",
+        "PMID:6087425"
+      ]
+    },
+    {
+      "with": "penicillamine",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Penicillamine inactivates PLP, interrupting the tryptophan-niacin pathway in Wilson disease.",
+      "evidence": "Human and animal studies; review",
+      "citations": [
+        "PMID:5262012",
+        "PMID:6342968"
+      ]
+    },
+    {
+      "with": "oral contraceptives",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Estrogen-progestin contraceptives can lower PLP in a subset of users; 10 mg/d pyridoxine restores PLP and normalizes metabolite profiles.",
+      "evidence": "RCT of 7 low-dose OCs (transient PLP fall) and supplementation study (n=10); low certainty",
+      "citations": [
+        "PMID:2527729",
+        "PMID:26201817",
+        "PMID:6342968"
+      ]
+    },
+    {
+      "with": "doxylamine",
+      "with_kind": "drug",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Fixed-dose doxylamine 10 mg + pyridoxine 10 mg delayed-release (Diclegis) for nausea and vomiting of pregnancy; benefit is modest (PUQE about -0.7 to -1.0).",
+      "evidence": "FDA label; RCTs and reanalysis; moderate certainty",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8bde08f6-e8bd-4e90-baa7-82e01876a86a",
+        "PMID:20843504",
+        "PMID:29342163",
+        "PMID:37335994"
+      ]
+    },
+    {
+      "with": "Vitamin B2",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Riboflavin (as FMN) is the cofactor of PNPO, which forms PLP; poor riboflavin status lowers plasma PLP.",
+      "evidence": "Observational studies (n=407; n=5612) and review",
+      "citations": [
+        "PMID:32805038",
+        "PMID:36264281",
+        "PMID:37603429"
+      ]
+    },
+    {
+      "with": "Quatrefolic (5-MTHF)",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Folate plus B6/B12 lowers homocysteine; combinations reduced stroke modestly but not MI or mortality. Folic acid plus B12 (not B6) linked to cancer increase in Norway.",
+      "evidence": "Cochrane MA of 15 RCTs; HOPE-2; NORVIT/WENBIT pooled",
+      "citations": [
+        "PMID:28816346",
+        "PMID:16531613",
+        "PMID:19920236"
+      ]
+    },
+    {
+      "with": "Vitamin B12",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Combined high B6 and B12 intake associated with higher hip-fracture risk; individual B6 (>20 mg/d) and B12 supplements associated with lung cancer in men; NORVIT combined arm showed harm trend.",
+      "evidence": "Large cohorts (NHS n=75,864; VITAL n=77,118) and RCT; very low to low certainty",
+      "citations": [
+        "PMID:31074816",
+        "PMID:28829668",
+        "PMID:16531614"
+      ]
+    },
+    {
+      "with": "B Complex",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Stacking B-complex/multivitamin products with B6 supplements raises cumulative intake; neuropathy reported even at 6 mg/d and with B-complex use.",
+      "evidence": "Pharmacovigilance (Lareb), case reports, TGA review",
+      "citations": [
+        "PMID:38098895",
+        "PMID:40418248",
+        "URL:https://www.lareb.nl/en/news/over-50-reports-of-vitamin-b6-in-multi-vitamin-preparations-and-neuropathy/",
+        "URL:https://www.tga.gov.au/news/safety-alerts/health-supplements-containing-vitamin-b6-can-cause-peripheral-neuropathy"
+      ]
+    },
+    {
+      "with": "Magnesium",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Many magnesium products contain B6 (often 30 mg); TGA advises checking magnesium and zinc products for hidden B6. Mg+B6 not superior to Mg alone for stress overall.",
+      "evidence": "Regulator advice; RCT (n=264)",
+      "citations": [
+        "URL:https://www.tga.gov.au/news/safety-alerts/health-supplements-containing-vitamin-b6-can-cause-peripheral-neuropathy",
+        "PMID:30562392"
+      ]
+    },
+    {
+      "with": "Zinc",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Zinc combination products can contain undeclared-by-common-name B6, adding to cumulative exposure.",
+      "evidence": "Regulator advice (TGA)",
+      "citations": [
+        "URL:https://www.tga.gov.au/news/safety-alerts/health-supplements-containing-vitamin-b6-can-cause-peripheral-neuropathy"
+      ]
+    },
+    {
+      "with": "Trimethylglycine (TMG)",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "In cystathionine beta-synthase deficiency, pyridoxine responders are treated with B6 while non/partial responders need betaine plus low-methionine diet.",
+      "evidence": "Guideline and E-HOD registry",
+      "citations": [
+        "PMID:27778219",
+        "PMID:40095936"
       ]
     },
     {
@@ -40,16 +237,204 @@
       "with_kind": "condition",
       "kind": "caution",
       "severity": "major",
-      "mechanism": "Excess chronic B6 itself can cause sensory neuropathy; EFSA UL is 12 mg/day in adults.",
-      "evidence": "Systematic regulatory evidence assessment.",
+      "mechanism": "Excess pyridoxine causes sensory axonal neuropathy, plausibly via PDXK inhibition; cases at <50 mg/d; EFSA UL 12 mg/d.",
+      "evidence": "Case series, pharmacovigilance (90 and 224 reports), SR, regulatory opinion",
       "citations": [
-        "PMID:37207271"
+        "PMID:37447150",
+        "PMID:29737502",
+        "PMID:39888171",
+        "PMID:37207271",
+        "PMID:33912895"
+      ]
+    },
+    {
+      "with": "hypophosphatasia",
+      "with_kind": "condition",
+      "kind": "lab-interference",
+      "severity": "moderate",
+      "mechanism": "Low TNSALP activity raises plasma PLP (diagnostic marker); supplements confound PLP and are unnecessary for raised levels.",
+      "evidence": "Cohort and biochemical studies; reviews",
+      "citations": [
+        "PMID:34547524",
+        "PMID:30049651",
+        "PMID:40047955",
+        "PMID:41037513"
+      ]
+    },
+    {
+      "with": "plasma vitamin B6 / PLP",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Supplements raise plasma B6 far above reference (Lareb mean 907 nmol/L vs 51-183 reference); PLP also lowered by inflammation, low albumin and high ALP independently of intake.",
+      "evidence": "Pharmacovigilance and biomarker reviews",
+      "citations": [
+        "URL:https://www.lareb.nl/en/news/vitamin-b6-in-health-supplements-and-neuropathy",
+        "PMID:29737502",
+        "PMID:25974692",
+        "PMID:22623384",
+        "PMID:42730844"
+      ]
+    },
+    {
+      "with": "ALPL",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "ALPL rs4654748 is the main GWAS locus for serum B6; pathogenic ALPL variants cause hypophosphatasia with high PLP.",
+      "evidence": "GWAS (n~2900 + replication); cohort",
+      "citations": [
+        "PMID:19303062",
+        "PMID:34547524"
+      ]
+    },
+    {
+      "with": "PNPO deficiency",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Most patients need PLP rather than pyridoxine; high-dose PLP linked to liver toxicity (20%) and hepatocellular carcinoma cases.",
+      "evidence": "SR of 49 patients; GeneReviews; case reports",
+      "citations": [
+        "PMID:40751583",
+        "PMID:35737815",
+        "PMID:40349651"
       ]
     }
   ],
   "citations": [
+    "DOI:10.1001/jamanetworkopen.2019.3591",
+    "DOI:10.1002/14651858.CD006612.pub5",
+    "DOI:10.1002/ana.25524",
+    "DOI:10.1002/jimd.12332",
+    "DOI:10.1002/jimd.70074",
+    "DOI:10.1002/pds.70108",
+    "DOI:10.1007/s40264-018-0664-0",
+    "DOI:10.1016/S1474-4422(10)70187-3",
+    "DOI:10.1016/j.ajhg.2009.02.011",
+    "DOI:10.1016/j.ajog.2010.07.030",
+    "DOI:10.1016/j.bone.2021.116204",
+    "DOI:10.1016/j.tiv.2017.07.009",
+    "DOI:10.1016/s0140-6736(76)91385-4",
+    "DOI:10.1056/NEJM198308253090801",
+    "DOI:10.1056/NEJMoa055227",
+    "DOI:10.1056/NEJMoa060900",
+    "DOI:10.1093/advances/nmab033",
+    "DOI:10.1093/ajcn/nqac240",
+    "DOI:10.1093/jnci/djw230",
+    "DOI:10.1136/bmj.318.7195.1375",
+    "DOI:10.1146/annurev-nutr-071714-034330",
+    "DOI:10.1155/da/8926512",
+    "DOI:10.1200/JCO.2017.72.7735",
+    "DOI:10.1371/journal.pone.0189978",
+    "DOI:10.2903/j.efsa.2023.8006",
+    "DOI:10.3390/nu15132823",
+    "DOI:10.7759/cureus.114123",
+    "PMID:10334745",
+    "PMID:13334809",
+    "PMID:15098856",
+    "PMID:15965967",
+    "PMID:16450017",
+    "PMID:16531613",
+    "PMID:16531614",
+    "PMID:19228852",
+    "PMID:19303062",
+    "PMID:19920236",
+    "PMID:20301659",
+    "PMID:20688574",
+    "PMID:20843504",
+    "PMID:21477422",
+    "PMID:22018420",
+    "PMID:2231024",
+    "PMID:22623384",
+    "PMID:22879864",
+    "PMID:24645144",
+    "PMID:24797341",
+    "PMID:24798673",
+    "PMID:25198265",
+    "PMID:25276694",
+    "PMID:2527729",
+    "PMID:2535870",
+    "PMID:25974692",
+    "PMID:26201817",
+    "PMID:26348534",
+    "PMID:27247955",
+    "PMID:27778219",
+    "PMID:28376200",
+    "PMID:28716455",
+    "PMID:28816346",
+    "PMID:28829668",
+    "PMID:29342163",
+    "PMID:29737502",
+    "PMID:30049651",
+    "PMID:30285383",
+    "PMID:30562392",
+    "PMID:31074816",
+    "PMID:31187503",
+    "PMID:32503038",
+    "PMID:32805038",
+    "PMID:32820583",
+    "PMID:3309020",
+    "PMID:33200442",
+    "PMID:33912895",
+    "PMID:34547524",
+    "PMID:35737815",
+    "PMID:35802009",
+    "PMID:35851507",
+    "PMID:36264281",
     "PMID:37207271",
+    "PMID:37335994",
     "PMID:37447150",
-    "URL:https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/"
+    "PMID:37603429",
+    "PMID:38098895",
+    "PMID:38187791",
+    "PMID:38684926",
+    "PMID:39180365",
+    "PMID:39281190",
+    "PMID:39729294",
+    "PMID:39729892",
+    "PMID:39843186",
+    "PMID:39856062",
+    "PMID:39888171",
+    "PMID:40047955",
+    "PMID:40095936",
+    "PMID:40195342",
+    "PMID:40349651",
+    "PMID:40418248",
+    "PMID:40441734",
+    "PMID:40636590",
+    "PMID:40751583",
+    "PMID:40754968",
+    "PMID:40898150",
+    "PMID:41037513",
+    "PMID:41221123",
+    "PMID:41327197",
+    "PMID:41532169",
+    "PMID:41615824",
+    "PMID:41942316",
+    "PMID:41980593",
+    "PMID:42002000",
+    "PMID:42072608",
+    "PMID:42075106",
+    "PMID:42569537",
+    "PMID:42703450",
+    "PMID:42730844",
+    "PMID:4827061",
+    "PMID:5262012",
+    "PMID:55569",
+    "PMID:5847557",
+    "PMID:6087425",
+    "PMID:6269259",
+    "PMID:6308447",
+    "PMID:6342968",
+    "PMID:7573262",
+    "PMID:7706447",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8bde08f6-e8bd-4e90-baa7-82e01876a86a",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9b17b028-964a-473c-823d-81423535bd66",
+    "URL:https://nap.nationalacademies.org/read/6015/chapter/9",
+    "URL:https://www.lareb.nl/en/news/over-50-reports-of-vitamin-b6-in-multi-vitamin-preparations-and-neuropathy/",
+    "URL:https://www.lareb.nl/en/news/vitamin-b6-in-health-supplements-and-neuropathy",
+    "URL:https://www.tga.gov.au/news/safety-alerts/health-supplements-containing-vitamin-b6-can-cause-peripheral-neuropathy",
+    "URL:https://www.tga.gov.au/news/safety-updates/medicines-containing-vitamin-b6-pyridoxine-pyridoxal-or-pyridoxamine"
   ]
 }

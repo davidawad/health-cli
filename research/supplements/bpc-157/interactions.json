@@ -3,39 +3,365 @@
   "supplement": "BPC-157",
   "slug": "bpc-157",
   "aliases": [
-    "BPC-157",
+    "BPC 157",
     "body protection compound 157",
-    "pentadecapeptide"
+    "body protective compound-157",
+    "stable gastric pentadecapeptide",
+    "Bepecin",
+    "PL 14736",
+    "PL-10",
+    "PCO-02",
+    "BPC-157 acetate",
+    "GEPPPGKPADDAGLV"
   ],
   "category": "peptide",
   "rx_status": "research-chemical",
   "evidence_certainty_overall": "very-low",
   "edges": [
     {
-      "with": "anticoagulants",
+      "with": "anticoagulants (heparin, warfarin)",
       "with_kind": "drug-class",
       "kind": "caution",
-      "severity": "major",
-      "mechanism": "FDA nonclinical review noted coagulation-related signals; no human interaction characterization exists.",
-      "evidence": "Potential pharmacodynamic risk inferred from preclinical regulatory review.",
+      "severity": "moderate",
+      "mechanism": "In rats BPC-157 shortened bleeding time and limited thrombocytopenia under heparin or warfarin; FDA noted aPTT shortening (rats) and prolongation (dogs) in 28-day studies. This could oppose anticoagulation or perturb aPTT/INR; direction in humans unknown.",
+      "evidence": "Rodent studies and FDA nonclinical review; no human data; very low certainty",
       "citations": [
-        "URL:https://www.fda.gov/media/193773/download"
+        "PMID:21840572",
+        "PMID:25897838",
+        "PMID:41901308",
+        "URL:https://www.fda.gov/media/193343/download"
       ]
     },
     {
-      "with": "liver disease",
+      "with": "Aspirin",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "In rats BPC-157 restored arachidonic-acid-induced platelet aggregation inhibited by aspirin and reduced aspirin-associated bleeding; it could theoretically blunt antiplatelet effect.",
+      "evidence": "Rodent aggregometry/bleeding studies only; very low certainty",
+      "citations": [
+        "PMID:31976029",
+        "PMID:21840572"
+      ]
+    },
+    {
+      "with": "antiplatelet agents (clopidogrel, cilostazol)",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "In rats BPC-157 counteracted clopidogrel and cilostazol inhibition of ADP-, collagen- and arachidonic-acid-induced aggregation (possible loss of antiplatelet efficacy); it also reduced clopidogrel gastric injury.",
+      "evidence": "Rodent studies only; very low certainty",
+      "citations": [
+        "PMID:31976029",
+        "PMID:33376304"
+      ]
+    },
+    {
+      "with": "nitrates and PDE5 inhibitors",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "BPC-157 causes endothelium-dependent, NO-mediated vasorelaxation (rat aorta via Src-Caveolin-1-eNOS; human internal mammary artery rings); additive hypotension with NO donors or PDE5 inhibitors is theoretically possible.",
+      "evidence": "Ex vivo/mechanistic only; no clinical interaction data",
+      "citations": [
+        "PMID:33051481",
+        "PMID:42123221"
+      ]
+    },
+    {
+      "with": "antipsychotics (dopamine antagonists)",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Rodent studies show BPC-157 counteracting haloperidol catalepsy and supersensitivity, neuroleptic-induced QTc prolongation and vascular occlusion-like syndromes; it may alter dopaminergic drug effects.",
+      "evidence": "Rodent studies, mostly from one group; clinical relevance unknown",
+      "citations": [
+        "PMID:10499368",
+        "PMID:9547930",
+        "PMID:28797793",
+        "PMID:37375736"
+      ]
+    },
+    {
+      "with": "Dexedrine",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "BPC-157 blocked amphetamine-induced stereotypy and reversed amphetamine-induced occlusion-like vascular syndrome in rodents; it may modulate amphetamine response.",
+      "evidence": "Rodent studies only; very low certainty",
+      "citations": [
+        "PMID:9547930",
+        "PMID:37375736"
+      ]
+    },
+    {
+      "with": "serotonergic drugs (SSRIs, MAOIs)",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "BPC-157 altered regional brain 5-HT synthesis and attenuated pargyline + L-tryptophan serotonin syndrome in rats; pharmacodynamic interaction with serotonergic drugs is theoretical.",
+      "evidence": "Rodent studies only; very low certainty",
+      "citations": [
+        "PMID:15840402",
+        "PMID:15531385"
+      ]
+    },
+    {
+      "with": "opioids",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "BPC-157 counteracted haloperidol-enhanced morphine analgesia in mice (dopamine-opioid interaction); effect on opioid analgesia in humans unknown.",
+      "evidence": "Single mouse study; very low certainty",
+      "citations": [
+        "PMID:20388962"
+      ]
+    },
+    {
+      "with": "cholinesterase inhibitors",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "BPC-157 is a weak reversible competitive acetylcholinesterase inhibitor in vitro; additive cholinergic effect is theoretical.",
+      "evidence": "In vitro enzyme study only",
+      "citations": [
+        "PMID:42278509"
+      ]
+    },
+    {
+      "with": "Lithium",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "In rats BPC-157 counteracted high-dose lithium toxicity (vascular/multiorgan failure); not evidence of benefit or safety in human lithium therapy or poisoning.",
+      "evidence": "Rodent toxicity model; very low certainty",
+      "citations": [
+        "PMID:34829735"
+      ]
+    },
+    {
+      "with": "Magnesium",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "In rats BPC-157 abrogated magnesium-overdose hypermagnesemia and related disturbances; human relevance unknown.",
+      "evidence": "Rodent toxicity model; very low certainty",
+      "citations": [
+        "PMID:28210905"
+      ]
+    },
+    {
+      "with": "corticosteroids",
+      "with_kind": "drug-class",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "BPC-157 opposed methylprednisolone-impaired Achilles tendon-to-bone and muscle healing in rats.",
+      "evidence": "Rodent studies only; no human data; very low certainty",
+      "citations": [
+        "PMID:16583442",
+        "PMID:20190676"
+      ]
+    },
+    {
+      "with": "NSAIDs",
+      "with_kind": "drug-class",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "BPC-157 counteracted NSAID (celecoxib, diclofenac and others) gastrointestinal, liver and brain lesions in rodents.",
+      "evidence": "Rodent studies and same-group reviews; very low certainty",
+      "citations": [
+        "PMID:22950504",
+        "PMID:28839430",
+        "PMID:32445447"
+      ]
+    },
+    {
+      "with": "TB-500 (thymosin beta-4 fragment)",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Commonly co-injected; a rechallenge-positive FAERS case of diffuse hyperpigmentation and gingival darkening involved a research-only BPC-157/TB-500 blend; a 2026 rat study found no additive tendon benefit; both are unapproved and prohibited in sport.",
+      "evidence": "One FAERS report, one rat study, review; very low certainty",
+      "citations": [
+        "URL:https://www.fda.gov/media/193343/download",
+        "PMID:42542926",
+        "PMID:41476424"
+      ]
+    },
+    {
+      "with": "active or prior malignancy",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Pro-angiogenic actions (VEGFR2-Akt-eNOS, FBXO22-BACH1) raise a theoretical tumour-promotion concern; no carcinogenicity studies exist.",
+      "evidence": "Mechanistic/preclinical data, expert reviews and FDA review; theoretical, very low certainty",
+      "citations": [
+        "PMID:27847966",
+        "PMID:41606641",
+        "PMID:42757290",
+        "URL:https://www.fda.gov/media/193343/download"
+      ]
+    },
+    {
+      "with": "pregnancy",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Only one IM rat embryo-fetal study (no malformations up to 4 mg/kg); no full reproductive-cycle or human data.",
+      "evidence": "Single animal study; no human data",
+      "citations": [
+        "PMID:32334036",
+        "URL:https://www.fda.gov/media/193343/download"
+      ]
+    },
+    {
+      "with": "bleeding or clotting disorders",
       "with_kind": "condition",
       "kind": "caution",
       "severity": "moderate",
-      "mechanism": "Animal repeat-dose studies had liver-associated signals; human hepatic safety is unknown.",
-      "evidence": "FDA nonclinical summary; extrapolation is precautionary.",
+      "mechanism": "aPTT changes in rats and dogs and effects on bleeding and platelet aggregation in rodents; human haemostatic effects uncharacterized.",
+      "evidence": "FDA nonclinical review and rodent studies; very low certainty",
       "citations": [
-        "URL:https://www.fda.gov/media/193773/download"
+        "URL:https://www.fda.gov/media/193343/download",
+        "PMID:21840572",
+        "PMID:31976029"
+      ]
+    },
+    {
+      "with": "competitive sport (anti-doping)",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "BPC-157 is named under WADA S0 Non-approved substances, prohibited at all times in and out of competition.",
+      "evidence": "Official WADA Prohibited List (2026)",
+      "citations": [
+        "URL:https://www.wada-ama.org/en/prohibited-list?item-id=5027",
+        "URL:https://nsa.gov.cz/wp-content/uploads/2025/11/3_Priloha-I_en.pdf"
+      ]
+    },
+    {
+      "with": "anti-doping urine/blood screens",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "BPC-157 and its metabolites are detectable in urine (LOD 0.1 ng/mL) and in dried blood spots; use produces true-positive doping findings.",
+      "evidence": "Validated analytical methods",
+      "citations": [
+        "PMID:28035768",
+        "PMID:37959764",
+        "PMID:42328738"
+      ]
+    },
+    {
+      "with": "aPTT / coagulation tests",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "28-day animal studies showed aPTT shortening (rats) and prolongation (dogs); no human data.",
+      "evidence": "FDA re-analysis of animal toxicology",
+      "citations": [
+        "URL:https://www.fda.gov/media/193343/download"
+      ]
+    },
+    {
+      "with": "liver enzymes (ALT)",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "FDA flagged raised ALT, glucose and triglycerides in 28-day animal studies; the IV pilot (n=2) found no liver-test change.",
+      "evidence": "Animal toxicology and a 2-person pilot; very low certainty",
+      "citations": [
+        "URL:https://www.fda.gov/media/193343/download",
+        "PMID:40131143"
       ]
     }
   ],
   "citations": [
-    "PMID:38613439",
-    "URL:https://www.fda.gov/media/193773/download"
+    "PMID:10499368",
+    "PMID:10791689",
+    "PMID:11742568",
+    "PMID:15531385",
+    "PMID:15840402",
+    "PMID:16583442",
+    "PMID:17186181",
+    "PMID:17628536",
+    "PMID:17713731",
+    "PMID:18668315",
+    "PMID:19931318",
+    "PMID:20190676",
+    "PMID:20225319",
+    "PMID:20388953",
+    "PMID:20388962",
+    "PMID:20388964",
+    "PMID:21030672",
+    "PMID:21840572",
+    "PMID:22950504",
+    "PMID:23755725",
+    "PMID:25415472",
+    "PMID:25897838",
+    "PMID:27847966",
+    "PMID:28035768",
+    "PMID:28210905",
+    "PMID:28797793",
+    "PMID:28839430",
+    "PMID:29358856",
+    "PMID:29898649",
+    "PMID:30029448",
+    "PMID:30915550",
+    "PMID:31266512",
+    "PMID:31976029",
+    "PMID:32334036",
+    "PMID:32445447",
+    "PMID:32558293",
+    "PMID:33051481",
+    "PMID:33376304",
+    "PMID:34324435",
+    "PMID:34380875",
+    "PMID:34829735",
+    "PMID:36228773",
+    "PMID:36588717",
+    "PMID:37375736",
+    "PMID:37959764",
+    "PMID:38675421",
+    "PMID:39325560",
+    "PMID:40005408",
+    "PMID:40005999",
+    "PMID:40131143",
+    "PMID:40573323",
+    "PMID:40756949",
+    "PMID:40789979",
+    "PMID:41155565",
+    "PMID:41476424",
+    "PMID:41606641",
+    "PMID:41898733",
+    "PMID:41901308",
+    "PMID:41966639",
+    "PMID:42021992",
+    "PMID:42123221",
+    "PMID:42160466",
+    "PMID:42198317",
+    "PMID:42204242",
+    "PMID:42278509",
+    "PMID:42328738",
+    "PMID:42437212",
+    "PMID:42542926",
+    "PMID:42578445",
+    "PMID:42635865",
+    "PMID:42752426",
+    "PMID:42757290",
+    "PMID:42794771",
+    "PMID:7815358",
+    "PMID:9547930",
+    "URL:https://clinicaltrials.gov/study/NCT02637284",
+    "URL:https://clinicaltrials.gov/study/NCT07437547",
+    "URL:https://clinicaltrials.gov/study/NCT07752381",
+    "URL:https://clinicaltrials.gov/study/NCT07803250",
+    "URL:https://nsa.gov.cz/wp-content/uploads/2025/11/3_Priloha-I_en.pdf",
+    "URL:https://pubmed.ncbi.nlm.nih.gov/?term=%28BPC-157+OR+%22BPC+157%22+OR+BPC157+OR+%22body+protection+compound%22+OR+%22pentadecapeptide+BPC%22%29+AND+Sikiric+P%5Bau%5D",
+    "URL:https://www.fda.gov/advisory-committees/advisory-committee-calendar/july-23-24-2026-meeting-pharmacy-compounding-advisory-committee-07232026",
+    "URL:https://www.fda.gov/drugs/human-drug-compounding/certain-bulk-drug-substances-use-compounding-may-present-significant-safety-risks",
+    "URL:https://www.fda.gov/media/193343/download",
+    "URL:https://www.raps.org/resource/fda-advisory-committee-backs-two-controversial-peptides.html",
+    "URL:https://www.wada-ama.org/en/prohibited-list?item-id=5027"
   ]
 }

@@ -3,41 +3,453 @@
   "supplement": "Vitamin B1",
   "slug": "vitamin-b1",
   "aliases": [
-    "Vitamin B1",
-    "thiamin",
     "thiamine",
+    "thiamin",
+    "aneurine",
     "thiamine hydrochloride",
-    "benfotiamine"
+    "thiamine mononitrate",
+    "benfotiamine",
+    "sulbutiamine",
+    "allithiamine",
+    "fursultiamine (TTFD)",
+    "thiamine diphosphate (TDP/TPP)"
   ],
   "category": "vitamin",
   "rx_status": "otc",
   "evidence_certainty_overall": "moderate",
   "edges": [
     {
-      "with": "alcohol use disorder",
-      "with_kind": "condition",
+      "with": "loop diuretics (furosemide, torasemide)",
+      "with_kind": "drug-class",
       "kind": "monitor",
       "severity": "moderate",
-      "mechanism": "Alcohol misuse and malnutrition are associated with thiamin deficiency; replacement is a clinical deficiency strategy.",
-      "evidence": "NIH ODS thiamin deficiency risk review.",
+      "mechanism": "Increased urinary thiamine loss and possible inhibition of cellular thiamine uptake; furosemide dose associated with worsening TPP effect.",
+      "evidence": "Focused review, small RCT (LVEF improved with repletion), pediatric RCT, FAERS top signal; outpatient prevalence may be low (<11.6%)",
       "citations": [
-        "URL:https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/"
+        "PMID:26899752",
+        "PMID:7733128",
+        "PMID:41872295",
+        "PMID:41864862",
+        "PMID:26923517"
       ]
     },
     {
-      "with": "loop diuretics",
-      "with_kind": "drug-class",
+      "with": "Metformin ER",
+      "with_kind": "supplement",
       "kind": "monitor",
       "severity": "minor",
-      "mechanism": "Long-term loop diuretic exposure may increase urinary thiamin loss.",
-      "evidence": "NIH ODS review.",
+      "mechanism": "Metformin is a substrate/inhibitor of intestinal THTR-2 (SLC19A3) and competitively inhibits hepatic OCT1-mediated thiamine uptake.",
+      "evidence": "In vitro/animal transporter data, predicted intestinal inhibitory concentrations, FAERS signal; no controlled human depletion study",
       "citations": [
-        "URL:https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/"
+        "PMID:26528626",
+        "PMID:24961373",
+        "PMID:31764942",
+        "PMID:41864862",
+        "PMID:39738067"
+      ]
+    },
+    {
+      "with": "fedratinib",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "major",
+      "mechanism": "Potent THTR-2 inhibition reduces intestinal thiamine absorption; Wernicke encephalopathy halted early development.",
+      "evidence": "Mechanistic transporter studies, cryo-EM structures, FAERS signal",
+      "citations": [
+        "PMID:25063672",
+        "PMID:39738067",
+        "PMID:41864862"
+      ]
+    },
+    {
+      "with": "fluorouracil (5-FU)",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "5-FU-based chemotherapy is associated with thiamine deficiency and Wernicke encephalopathy; low thiamine predicted neurological symptoms in GI-cancer chemotherapy.",
+      "evidence": "Case report, retrospective cohort, FAERS top-5 signal",
+      "citations": [
+        "PMID:19654964",
+        "PMID:31657715",
+        "PMID:41864862"
+      ]
+    },
+    {
+      "with": "intravenous glucose/dextrose",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Carbohydrate load increases thiamine demand; prolonged glucose without thiamine can precipitate Wernicke encephalopathy. A single dextrose dose before thiamine appears low risk; do not delay hypoglycemia treatment.",
+      "evidence": "Guideline (EFNS, level C), literature review of case reports, VA retrospective cohort (0 cases in 120 encounters)",
+      "citations": [
+        "PMID:20642790",
+        "PMID:22104258",
+        "PMID:40873301"
+      ]
+    },
+    {
+      "with": "GLP-1 receptor agonists (semaglutide)",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Prolonged vomiting, appetite suppression and rapid weight loss can deplete thiamine; Wernicke encephalopathy cases reported.",
+      "evidence": "Systematic review of 6 case reports",
+      "citations": [
+        "PMID:42399213"
+      ]
+    },
+    {
+      "with": "alcohol use disorder",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "major",
+      "mechanism": "Poor intake, impaired absorption and storage cause thiamine deficiency and Wernicke-Korsakoff syndrome; parenteral thiamine recommended for at-risk patients.",
+      "evidence": "Cochrane SR, dose-ranging RCTs, EFNS guideline",
+      "citations": [
+        "PMID:23818100",
+        "PMID:35428992",
+        "PMID:20642790"
+      ]
+    },
+    {
+      "with": "bariatric and gastrointestinal surgery",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "major",
+      "mechanism": "Vomiting, restricted intake and malabsorption cause deficiency (pooled 27% post-op) and Wernicke encephalopathy, typically 4-12 weeks after surgery.",
+      "evidence": "Meta-analyses of prevalence; systematic reviews of WE cases; guideline monitoring >=6 months",
+      "citations": [
+        "PMID:38095772",
+        "PMID:35776243",
+        "PMID:17353468",
+        "PMID:42453365",
+        "PMID:20642790"
+      ]
+    },
+    {
+      "with": "refeeding syndrome",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "major",
+      "mechanism": "Reintroduction of carbohydrate increases thiamine demand; deficiency is part of severe refeeding syndrome definition.",
+      "evidence": "ASPEN and AuSPEN consensus statements",
+      "citations": [
+        "PMID:32115791",
+        "PMID:40090863"
+      ]
+    },
+    {
+      "with": "heart failure",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Diuretic-associated thiamine depletion; supplementation corrects deficiency but MAs show no consistent LVEF/NYHA benefit.",
+      "evidence": "MAs of 6-8 small RCTs; low certainty",
+      "citations": [
+        "PMID:38940395",
+        "PMID:35842069",
+        "PMID:26899752"
+      ]
+    },
+    {
+      "with": "thiamine hypersensitivity (parenteral use)",
+      "with_kind": "condition",
+      "kind": "contraindicated",
+      "severity": "major",
+      "mechanism": "Rare IgE/anaphylactoid reactions with IV thiamine, including anaphylactic shock with cardiac arrest; IV push series show no anaphylaxis and <1% local reactions.",
+      "evidence": "Case report; large retrospective/prospective safety series",
+      "citations": [
+        "PMID:23853017",
+        "PMID:2757284",
+        "PMID:31932197",
+        "PMID:35491726"
+      ]
+    },
+    {
+      "with": "bipolar disorder (sulbutiamine)",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Case of escalating, dependence-like sulbutiamine use that disrupted psychiatric care.",
+      "evidence": "Single case report; sparse RCT data on sulbutiamine",
+      "citations": [
+        "PMID:16861144",
+        "PMID:32399290"
+      ]
+    },
+    {
+      "with": "Green Tea Extract",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Tannins/polyphenols react with and inactivate thiamine and alter intestinal thiamine transport; ascorbate blocks the reaction.",
+      "evidence": "In vitro chemistry and experimental transport review; no human GTE-thiamine study",
+      "citations": [
+        "PMID:910744",
+        "PMID:20392307"
+      ]
+    },
+    {
+      "with": "tea and coffee (tannins/polyphenols)",
+      "with_kind": "food",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Polyphenol-thiamine reactions and transport interference may lower thiamine availability when taken with meals or supplements.",
+      "evidence": "In vitro/experimental data only; clinical relevance at usual intakes unquantified",
+      "citations": [
+        "PMID:910744",
+        "PMID:20392307"
+      ]
+    },
+    {
+      "with": "Magnesium",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "moderate",
+      "mechanism": "Magnesium is a cofactor for thiamine-dependent enzymes; hypomagnesemia associated with thiamine-refractory Wernicke-Korsakoff syndrome.",
+      "evidence": "Case series; RCT authors recommend correcting magnesium",
+      "citations": [
+        "PMID:4420329",
+        "PMID:35428992"
+      ]
+    },
+    {
+      "with": "Vitamin C",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Ascorbic acid prevents tannin-mediated thiamine inactivation in vitro; however, vitamin C plus thiamine (plus hydrocortisone) did not improve sepsis outcomes and an observational cluster analysis raised possible harm in older patients.",
+      "evidence": "In vitro data; large RCTs (VICTAS, VITAMINS) neutral",
+      "citations": [
+        "PMID:910744",
+        "PMID:33620405",
+        "PMID:31950979",
+        "PMID:39614357"
+      ]
+    },
+    {
+      "with": "B Complex",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Combination B-vitamin regimens appeared numerically more effective than single agents for diabetic neuropathy.",
+      "evidence": "MA of 13 RCTs; subgroup interaction mostly non-significant",
+      "citations": [
+        "PMID:42452619"
+      ]
+    },
+    {
+      "with": "whole blood thiamine diphosphate (TDP)",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Supplementation raises TDP and all thiamine analytes, masking pre-treatment deficiency; draw sample before dosing. Volumetric TDP misleads in anemia/polycythemia.",
+      "evidence": "Guideline, RCT pharmacokinetics, reference-interval study",
+      "citations": [
+        "PMID:20642790",
+        "PMID:41571333",
+        "PMID:42778271",
+        "PMID:42833437"
+      ]
+    },
+    {
+      "with": "erythrocyte transketolase activity coefficient (ETKAC)",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Thiamine repletion normalizes ETKAC/TPP effect; cut-offs lack harmonization and do not predict individual response.",
+      "evidence": "Assay protocol paper; prospective Lao cohort",
+      "citations": [
+        "PMID:33354793",
+        "PMID:38974350",
+        "PMID:7733128"
+      ]
+    },
+    {
+      "with": "SLC19A3 (THTR-2) variants",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "major",
+      "mechanism": "Biallelic mutations cause biotin-thiamine-responsive basal ganglia disease requiring thiamine plus biotin; common variants linked to diabetic microvascular outcomes and metformin response.",
+      "evidence": "Case series; genetic association cohorts; in vitro",
+      "citations": [
+        "PMID:23742248",
+        "PMID:26718501",
+        "PMID:40243602"
+      ]
+    },
+    {
+      "with": "SLC19A2 (THTR-1) variants",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "major",
+      "mechanism": "Biallelic mutations cause thiamine-responsive megaloblastic anemia with diabetes and deafness, treated with pharmacological thiamine.",
+      "evidence": "Positional cloning genetic study",
+      "citations": [
+        "PMID:10391221"
       ]
     }
   ],
   "citations": [
+    "DOI:10.1001/jama.2019.22176",
+    "DOI:10.1001/jama.2020.24505",
+    "DOI:10.1002/14651858.CD004033.pub3",
+    "DOI:10.1002/clc.24309",
+    "DOI:10.1002/jcph.261",
+    "DOI:10.1002/jpen.70085",
+    "DOI:10.1002/ncp.10474",
+    "DOI:10.1002/ncp.70073",
+    "DOI:10.1002/oby.70256",
+    "DOI:10.1007/s00125-008-1224-4",
+    "DOI:10.1007/s00134-021-06558-0",
+    "DOI:10.1007/s11695-022-06178-7",
+    "DOI:10.1007/s11695-023-06896-6",
+    "DOI:10.1016/bs.mie.2026.06.018",
+    "DOI:10.1016/j.amjmed.2016.01.037",
+    "DOI:10.1016/j.cdnut.2024.103786",
+    "DOI:10.1016/j.cjco.2022.02.007",
+    "DOI:10.1016/j.clinbiochem.2026.111215",
+    "DOI:10.1016/j.clinsp.2026.100901",
+    "DOI:10.1016/j.clnu.2016.02.011",
+    "DOI:10.1016/j.clnu.2024.09.002",
+    "DOI:10.1016/j.ctim.2022.102853",
+    "DOI:10.1016/j.drugalcdep.2013.07.035",
+    "DOI:10.1016/j.genhosppsych.2024.01.005",
+    "DOI:10.1016/j.hrtlng.2023.04.011",
+    "DOI:10.1016/j.japh.2019.12.005",
+    "DOI:10.1016/j.jemermed.2011.05.076",
+    "DOI:10.1016/j.metabol.2023.155565",
+    "DOI:10.1016/j.msard.2017.05.010",
+    "DOI:10.1016/s0002-9343(99)80349-0",
+    "DOI:10.1016/s0196-0644(89)80215-x",
+    "DOI:10.1017/S0954422410000053",
+    "DOI:10.1021/acs.molpharmaceut.5b00501",
+    "DOI:10.1037/dev0001829",
+    "DOI:10.1038/10372",
+    "DOI:10.1038/s41467-024-55359-8",
+    "DOI:10.1038/s41598-026-45100-4",
+    "DOI:10.1055/s-2008-1065351",
+    "DOI:10.1073/pnas.1314939111",
+    "DOI:10.1080/0886022X.2026.2658981",
+    "DOI:10.1080/15622970500492616",
+    "DOI:10.1093/ajcn/30.10.1680",
+    "DOI:10.1093/ajcn/nqz255",
+    "DOI:10.1097/MCC.0000000000001396",
+    "DOI:10.1111/1747-0080.70003",
+    "DOI:10.1111/acem.70131",
+    "DOI:10.1111/acer.14843",
+    "DOI:10.1111/apt.16166",
+    "DOI:10.1111/j.1468-1331.2010.03153.x",
+    "DOI:10.1111/nyas.13919",
+    "DOI:10.1111/nyas.14547",
+    "DOI:10.1124/dmd.114.058883",
+    "DOI:10.1136/bcr-2013-009648",
+    "DOI:10.1136/bmjdrc-2025-005773",
+    "DOI:10.1136/jnnp.37.8.959",
+    "DOI:10.1155/2020/9349063",
+    "DOI:10.1155/jnme/7143046",
+    "DOI:10.1177/00368504221096539",
+    "DOI:10.1186/1471-2210-8-10",
+    "DOI:10.1186/1472-6904-12-4",
+    "DOI:10.1186/1750-1172-8-83",
+    "DOI:10.1186/s12906-019-2506-8",
+    "DOI:10.1186/s13054-024-05188-4",
+    "DOI:10.1212/01.wnl.0000256812.29648.86",
+    "DOI:10.1371/journal.pone.0302998",
+    "DOI:10.1373/clinchem.2007.099077",
+    "DOI:10.17226/6015",
+    "DOI:10.2337/db15-1247",
+    "DOI:10.2337/dc09-2241",
+    "DOI:10.3233/JAD-200896",
+    "DOI:10.3346/jkms.2009.24.4.747",
+    "DOI:10.3389/fsurg.2026.1802386",
+    "DOI:10.3390/ijms26072972",
+    "DOI:10.3390/jcm15135156",
+    "DOI:10.3390/nu17061006",
+    "DOI:10.3390/nu17111821",
+    "DOI:10.3390/nu17132206",
+    "DOI:10.3390/pediatric17010015",
+    "DOI:10.5414/CP203602",
+    "PMID:10391221",
+    "PMID:15328496",
+    "PMID:16861144",
+    "PMID:17353468",
+    "PMID:18356241",
+    "PMID:18473286",
+    "PMID:18549472",
+    "PMID:19057893",
+    "PMID:19654964",
+    "PMID:20392307",
+    "PMID:20413516",
+    "PMID:20642790",
+    "PMID:22104258",
+    "PMID:22305197",
+    "PMID:23193625",
+    "PMID:23742248",
+    "PMID:23818100",
+    "PMID:23853017",
+    "PMID:23992649",
+    "PMID:24399744",
+    "PMID:24961373",
+    "PMID:25063672",
+    "PMID:26528626",
+    "PMID:26718501",
+    "PMID:26899752",
+    "PMID:26923517",
+    "PMID:2757284",
+    "PMID:28755683",
+    "PMID:30151974",
+    "PMID:31060559",
+    "PMID:31657715",
+    "PMID:31764942",
+    "PMID:31932197",
+    "PMID:31950979",
+    "PMID:32115791",
+    "PMID:32399290",
+    "PMID:33074237",
+    "PMID:33210299",
+    "PMID:33354793",
+    "PMID:33620405",
+    "PMID:34750650",
+    "PMID:35428992",
+    "PMID:35491726",
+    "PMID:35734514",
+    "PMID:35776243",
+    "PMID:35842069",
+    "PMID:37094704",
+    "PMID:37126872",
+    "PMID:38095772",
+    "PMID:38306946",
+    "PMID:38809849",
+    "PMID:38940395",
+    "PMID:38974350",
     "PMID:39307094",
-    "URL:https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/"
+    "PMID:39614357",
+    "PMID:39699595",
+    "PMID:39738067",
+    "PMID:39997622",
+    "PMID:40090863",
+    "PMID:40243602",
+    "PMID:40290059",
+    "PMID:40507089",
+    "PMID:40647310",
+    "PMID:40873301",
+    "PMID:41277404",
+    "PMID:41571333",
+    "PMID:41684754",
+    "PMID:41863966",
+    "PMID:41864862",
+    "PMID:41872295",
+    "PMID:42059045",
+    "PMID:42273945",
+    "PMID:42399213",
+    "PMID:42452619",
+    "PMID:42453365",
+    "PMID:42778271",
+    "PMID:42833437",
+    "PMID:4420329",
+    "PMID:7733128",
+    "PMID:910744",
+    "URL:https://clinicaltrials.gov/study/NCT06223360"
   ]
 }

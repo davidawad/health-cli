@@ -3,48 +3,213 @@
 :ID: supp-quatrefolic-5-mthf
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: Quatrefolic | 5-MTHF | L-methylfolate | levomefolate | calcium L-5-methyltetrahydrofolate
+:ALIASES: Quatrefolic | 5-MTHF | L-methylfolate | levomefolate | (6S)-5-methyltetrahydrofolate glucosamine salt | Metafolin | calcium L-methylfolate | Deplin
 :CATEGORY: vitamin
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Quatrefolic is a branded glucosamine salt of the biologically active folate form (6S)-5-methyltetrahydrofolate (5-MTHF). Other supplemental folate forms include folic acid and calcium L-methylfolate. [PMID:25914100]
+- Quatrefolic is the glucosamine salt of (6S)-5-methyltetrahydrofolic acid (5-MTHF), the main circulating folate form [PMID:27008238] [PMID:20608755]. Metafolin is the crystalline calcium salt (L-5-MTHF-Ca) [PMID:20608755]. A sodium salt also exists [PMID:41161371].
+- Folic acid is a synthetic, oxidized form that has no coenzyme activity until dihydrofolate reductase (DHFR) reduces it. 5-MTHF needs no reduction [PMID:20608755] [PMID:24494987].
+- Glucosamine salt vs calcium salt: In a manufacturer-run rat PK study (n=6/group), Quatrefolic gave a 1.8x higher Cmax than the calcium salt and a 3.1x higher Cmax than folic acid. AUC(0-8h) was only 1.12x that of the calcium salt [PMID:27008238]. A second rat study found a new calcium crystal form ("form C") more stable than crystal form I or the amorphous glucosamine salt, with 218% relative bioavailability vs the glucosamine salt [PMID:34641555]. Neither study involved humans. EFSA (2022) judged that the cation's effect on bioavailability is "within the margin of error". It applies the same dietary folate equivalent (DFE) factors to both salts: 1.7 below 400 ug/day and 2.0 at or above 400 ug/day [PMID:36034319].
+- EU upper limit: EFSA's 2023 adult UL of 1000 ug/day covers combined folic acid plus both 5-MTHF salts [PMID:37965303].
+- Prescription "medical food": US L-methylfolate calcium 7.5 mg and 15 mg tablets (the Deplin-type products) are dispensed by prescription. The labeled use is adjunctive dietary management in major depressive disorder and schizophrenia. Usual adult dose is 7.5-15 mg/day [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=13eb8bf0-5227-455c-9660-b02abee04676].
+- Levomefolate calcium is also added to some ethinylestradiol/drospirenone oral contraceptives. In a 24-week RCT it raised RBC folate from 990 to 1406 nmol/L [PMID:22067790].
 
 ** Mechanisms
-- 5-MTHF donates a methyl group for methionine synthase-mediated homocysteine remethylation; folate coenzymes support nucleotide synthesis and one-carbon metabolism. [URL:https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/]
+- 5-MTHF gives up its methyl group to homocysteine through B12-dependent methionine synthase. This regenerates tetrahydrofolate and methionine/SAM [PMID:3927946] [PMID:30228213].
+- Without B12, folate builds up as 5-MTHF (the "methyl trap"). This explains the folate-B12 interdependence [PMID:3927946].
+- MTHFR (an FAD-dependent enzyme) produces 5-MTHF. Supplemental 5-MTHF enters the cycle after this step, so it bypasses both MTHFR and DHFR [PMID:20608755] [PMID:24494987].
+- Riboflavin raises SAM and cystathionine specifically in MTHFR 677TT individuals [PMID:32330571].
+- Because 5-MTHF needs no DHFR reduction, reviews propose less interaction with DHFR-inhibiting drugs [PMID:20608755] [PMID:24126794].
+- Reviews also propose less masking of B12-deficiency anemia, since 5-MTHF cannot enter the folate cycle without B12 [PMID:20608755] [PMID:14988450]. This is a theoretical argument, not tested in outcome trials.
+- Folic acid at high intakes appears in plasma as unmetabolized folic acid (UMFA). Folic acid allocation in trials quadrupled plasma folic acid [PMID:23352552]. Replacing folic acid with 5-MTHF lowers UMFA [PMID:42739064] [PMID:41971363].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---|---|---|---|---|---|
-| Folate status / homocysteine | RCTs and systematic reviews | improves biomarkers | 5-MTHF raises folate; comparative equivalence to folic acid for status is supported | moderate | PMID:25914100 |
-| Neural tube defect prevention | Population trials / guideline evidence for folic acid | benefit for folic acid; 5-MTHF outcome evidence indirect | Folic acid 400 µg/day periconceptionally recommended; not proven interchangeable for NTD outcome | high | URL:https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/ |
-| Cardiovascular events via homocysteine lowering | Large RCTs/meta-analysis | no consistent benefit | Biomarker reduction does not reliably lower events | moderate | PMID:2409100 |
-| MTHFR genotype-specific outcomes | Clinical evidence synthesis | uncertain | No robust genotype-tailored outcome effect demonstrated | low | URL:https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/ |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Blood folate status (5-MTHF vs folic acid) | RCTs; SR/MA of 11 RCTs in women of childbearing age | 5-MTHF at least equivalent | RBC folate rise greater with 416 ug 5-MTHF than 400 ug folic acid; pregnancy RCT: RBC folate +244.5 vs +262 ng/mL (NS); SR: higher plasma/RBC folate at >=0.4 mg and >=12 wk | moderate | [PMID:16825690] [PMID:42716224] [PMID:41398893] [PMID:14988450] |
+| Plasma homocysteine | RCTs; NMA of supplements | Decrease, similar to folic acid | 113 ug L-MTHF: tHcy -14.6% vs placebo (folic acid 100 ug: -9.3%); NMA all supplements MD -0.59 umol/L | moderate | [PMID:12600857] [PMID:12486865] [PMID:39960689] |
+| Unmetabolized folic acid | SR/MA (k=3) and pregnancy RCTs | Lower with 5-MTHF | SMD 0.99 (CI 0.20-1.79), GRADE low; detectable UMFA 7% vs 31% | low | [PMID:42739064] [PMID:41971363] [PMID:41544303] |
+| Neural tube defects | Folic acid RCTs and Cochrane; no 5-MTHF outcome trial | Folic acid prevents NTDs (high certainty); 5-MTHF unproven | MRC RR 0.28 (0.12-0.71); USPSTF A for 0.4-0.8 mg folic acid | very low | [PMID:1677062] [PMID:26662928] [PMID:37526713] [PMID:39339754] |
+| Depression (adjunct to SSRI) | SR/MA; 2 sequential RCTs | Modest benefit at 15 mg | Response RR 1.25 (1.08-1.46); SMD -0.38; NNT about 6 at 15 mg, no effect at 7.5 mg | low | [PMID:34794190] [PMID:23212058] [PMID:34450256] [PMID:29442609] |
+| Schizophrenia (adjunct) | 1 RCT (n=55), 15 mg | Small benefit | PANSS total d=0.61 | very low | [PMID:28289280] |
+| Stroke (folic acid) | MA of 21 RCTs; CSPPT; Cochrane | Decrease | RR 0.90 (0.83-0.98); CSPPT HR 0.79 for first stroke; strongest without grain fortification | moderate | [PMID:38824900] [PMID:25771069] [PMID:28816346] |
+| MI / all-cause death (Hcy lowering) | Cochrane (15 RCTs, 71,422) | No effect | MI RR 1.02 (0.95-1.10); death RR 1.01 | high | [PMID:28816346] |
+| Cancer incidence (folic acid) | IPD MA, 13 RCTs (49,621) | No significant effect | RR 1.06 (0.99-1.13) over 5.2 y | moderate | [PMID:23352552] |
+| Colorectal adenoma (1 mg folic acid) | RCT (AFPPS) and pooled RCTs | No benefit; possible harm signal | Advanced lesions RR 1.67 (1.00-2.80); SSA/P RR 1.94 on extended use | low | [PMID:17551129] [PMID:31401653] [PMID:21170989] |
 
 ** Dosing in trials
-- Supplement and trial doses range from 400 µg to 15 mg/day depending on indication; compare folate equivalents and formulation. Standard periconceptional recommendations specify 400 µg/day folic acid, not necessarily branded 5-MTHF. [URL:https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/]
+- Bioavailability/status trials: 113-416 ug/day of 5-MTHF, or equimolar to 100-400 ug folic acid [PMID:12600857] [PMID:16825690]. RBC folate half-life is about 8 weeks, so steady state takes about 40 weeks [PMID:17991654].
+- Pregnancy: 1100 ug 5-MTHF glucosamine salt is equimolar to 600 ug folic acid (1.35 umol) [PMID:42716224]. 1000 ug DFE 5-MTHF in a prenatal multivitamin was compared against 1330 ug DFE folic acid [PMID:41971363]. A 400 or 800 ug 1:1 5-MTHF/folic acid mix has also been tested [PMID:39466653].
+- Depression: 15 mg/day L-methylfolate (7.5 mg/day was ineffective) [PMID:23212058] [PMID:24813065]. 800 ug/day was used in a small open-label trial [PMID:39844190].
+- Schizophrenia: 15 mg/day for 12 weeks [PMID:28289280].
+- Hemodialysis/resistant hypertension: 800 ug methylfolate plus 1000 ug methylcobalamin for 3 months [PMID:41580678].
+- NTD prevention guidelines specify folic acid, not 5-MTHF: 0.4-0.8 mg/day [PMID:37526713], or at least 0.4 mg/day in people on antiseizure drugs [PMID:38748979].
 
 ** Safety & adverse effects
-- High folate can correct megaloblastic anemia while B12 deficiency neurologic injury progresses; evaluate B12 when clinically relevant. UL of 1,000 µg/day applies to synthetic folic acid from supplements/fortified foods, not naturally occurring food folate. [URL:https://ods.nih.gov/factsheets/Folate-HealthProfessional/]
+- Short-term trials show tolerability similar to placebo. With 15 mg/day, adverse events did not differ from placebo [PMID:23212058]. Most nutraceuticals in a depression NMA were tolerated like placebo [PMID:40314175].
+- Allergic reactions are the only adverse reaction listed on the L-methylfolate label [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=13eb8bf0-5227-455c-9660-b02abee04676].
+- Preclinical toxicology: Calcium L-methylfolate: rat NOAEL 400 mg/kg bw/day; not teratogenic [PMID:31673504]. Sodium salt: no adverse findings in a 90-day study [PMID:41161371].
+- Mood elevation: the label warns that mood elevation is possible in bipolar-risk patients. An open bipolar depression registry (n=10) reported no YMRS rise [PMID:27794238].
+- B12 deficiency masking: high folate can correct the anemia of B12 deficiency while neurological damage progresses [PMID:38987872] [PMID:7796091]. In older adults with low B12, high serum folate was associated with anemia (OR 3.1) and cognitive impairment (OR 2.6) [PMID:17209196], and with higher MMA/homocysteine [PMID:19726595]. Higher serum 5-MTHF was also associated with anemia in low-B12 seniors [PMID:20357042]. So the claim that 5-MTHF does not mask B12 deficiency [PMID:23482308] is not established.
+- High-dose folic acid and cancer (observational, folic acid only): High maternal folic acid (>=1 mg) in mothers with epilepsy: childhood cancer HR 2.7 (1.2-6.3) [PMID:36156660]. Women who had given birth, using >1 mg/day: cancer HR 1.1 after a 6-month lag; non-Hodgkin lymphoma HR 2.0 [PMID:39540679]. Umbrella review: credibility is "highly suggestive" for some folate-cancer associations, but evidence is mostly weak [PMID:41718012]. Pre-fortification cohort: high total folate intake was associated with lower colorectal cancer mortality [PMID:40455102].
+- UMFA: associated with lower NK-cell cytotoxicity (cross-sectional) [PMID:16365081]. It was not associated with colorectal cancer overall [PMID:26376686] [PMID:28600398]. A 2026 systematic review found no evidence that UMFA independently causes harm [PMID:42739064].
 
 ** Contraindications
-- Cancer treatment with methotrexate is a special context: folate can interfere with antifolate therapy, although prescribed folinic/folic acid is sometimes intentionally co-administered in other settings. Antiepileptic medicines may interact with folate status. [URL:https://ods.nih.gov/factsheets/Folate-HealthProfessional/]
+- Cancer chemotherapy with methotrexate or capecitabine/5-FU, unless prescribed by the oncology team. Labels instruct patients to avoid folic acid or folate-analog products [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aafd97c1-3a0a-42b2-845a-a9db9bb7d876] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0b59e98c-5b34-4b93-90f6-20526f4d4f88].
+- Untreated or unevaluated B12 deficiency, including pernicious anemia: folate alone is inadequate and may delay diagnosis [PMID:38987872] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=13eb8bf0-5227-455c-9660-b02abee04676].
+- Hypersensitivity to any component [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=13eb8bf0-5227-455c-9660-b02abee04676].
+- Not a substitute for folic acid in NTD prevention. Guideline recommendations and outcome RCTs exist only for folic acid [PMID:37526713] [PMID:39339754] [PMID:41277701].
 
 ** Interactions
-- Methotrexate: interaction depends on indication and timing; oncology and rheumatology protocols differ. Phenytoin/carbamazepine/valproate can lower folate; folate can affect phenytoin levels. Check B12 status before prolonged high-dose folate. [URL:https://ods.nih.gov/factsheets/Folate-HealthProfessional/]
+*** Drugs
+- Methotrexate: In cancer, folate products may reduce methotrexate's efficacy [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aafd97c1-3a0a-42b2-845a-a9db9bb7d876]. In RA, psoriasis and pJIA, the label directs folic or folinic acid supplementation. A Cochrane review found it reduced liver-enzyme elevation (RR 0.23) and withdrawals (RR 0.39) without loss of efficacy [PMID:23728635]. No trial has tested 5-MTHF specifically.
+- Capecitabine/5-FU: folates raise fluorouracil toxicity. In a CRC cohort, folic acid-containing supplements gave toxicity HR 1.81 and plasma folic acid HR 2.09-2.31 [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0b59e98c-5b34-4b93-90f6-20526f4d4f88] [PMID:38070682].
+- Phenytoin: the drug lowers folate, and adding folate can lower phenytoin levels and change its kinetics. Starting both together is advised [PMID:1628589] [PMID:8520091] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=13eb8bf0-5227-455c-9660-b02abee04676].
+- Carbamazepine and phenobarbital: enzyme inducers lower serum folate. Valproate did not lower it [PMID:9073038]. Folate deficiency is common in women with epilepsy [PMID:41066307].
+- Valproate: Guidelines advise avoiding valproate in people who could become pregnant. They also advise at least 0.4 mg/day folic acid with any antiseizure drug [PMID:38748979] [PMID:19398680]. A meta-analysis found no reduction in major malformations with periconceptional folic acid in women with epilepsy (OR 1.34) [PMID:39326214].
+- Sulfasalazine inhibits folate absorption [PMID:6117796]. Trimethoprim 400 mg/day for 7 days lowered serum folate by 1.95 nmol/L vs placebo [PMID:26566149].
+- Pyrimethamine: an antifolate that affects folate metabolism [PMID:5800521]. Supplementary folate at NTD-prevention doses did not reduce sulfadoxine-pyrimethamine efficacy, and 5-MTHF is proposed as non-antagonizing [PMID:24126794].
+- Metformin: long-term use lowers B12, which raises homocysteine [PMID:20488910]. The L-methylfolate label also lists decreased serum folate with metformin [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=13eb8bf0-5227-455c-9660-b02abee04676].
+- SSRIs and other antidepressants: used as an intended adjunct (see evidence table) [PMID:34794190].
+*** Other supplements
+- Vitamin B12 / B12 methylcobalamin: methionine synthase needs B12, so folate without B12 risks masking and the methyl trap [PMID:3927946] [PMID:38987872]. Combined methylfolate plus methylcobalamin lowered homocysteine and BP in hemodialysis patients [PMID:41580678].
+- Vitamin B6 / B Complex: in an NMA, combinations near 800 ug folic acid with B6/B12 lowered homocysteine most [PMID:39960689]. In an RCT, methylfolate + P5P + methylcobalamin lowered homocysteine by 11.8% in homozygous carriers [PMID:38892484].
+- Trimethylglycine (TMG/betaine): lowers homocysteine through the folate-independent BHMT route (-1.23 umol/L at >=4 g/day) [PMID:23997720]. Adding it to low-dose B vitamins lowered homocysteine further [PMID:36717385].
+- Vitamin B2 (riboflavin): an MTHFR cofactor. It modifies one-carbon metabolites and BP in MTHFR 677TT individuals [PMID:32330571] [PMID:33172445].
+*** Conditions
+- B12 deficiency, pregnancy planning, epilepsy, active cancer chemotherapy: see above.
+- History of colorectal adenoma: 1 mg/day folic acid increased advanced and multiple adenomas (RR 1.67) and SSA/P on extended use [PMID:17551129] [PMID:31401653]. Pooled trials were null [PMID:21170989].
+- Bipolar disorder: label caution for mood elevation [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=13eb8bf0-5227-455c-9660-b02abee04676].
+*** Lab-test interference
+- No direct assay artifact from 5-MTHF was found. Supplementation causes true rises in serum and RBC folate. Serum folate reflects recent intake, while RBC folate reflects about 4 months [PMID:30228213]. Labs differ: CLIA and microbiological assays give non-interchangeable values [PMID:23007069].
+- High folate results should prompt B12 assessment [PMID:30228213].
+- 5-MTHF degrades in stored samples and products, a known confounder in trials [PMID:41544303].
 
 ** Genotype notes
-- MTHFR C677T can reduce folate availability; NIH ODS says outcome evidence supporting genotype-specific supplementation with 5-MTHF remains inconclusive. [URL:https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/]
+- MTHFR C677T: TT carriers show a smaller serum folate response to folic acid (-7.2 nmol/L vs CT/CC) with similar homocysteine change (MA) [PMID:26497154]. RBC folate rises with 400 ug in all genotypes [PMID:23456769]. The TT-related homocysteine excess disappears once plasma folate reaches about 15 ng/mL [PMID:29371246]. TT carriers respond more to higher folic acid doses [PMID:22230384]. Low-dose 5-MTHF lowered homocysteine as well as folic acid in both 677CC and TT subjects [PMID:12486865]. In recurrent miscarriage, 5-MTHF vs folic acid showed no benefit by C677T/A1298C genotype [PMID:26630680]. Folinic acid outperformed L-methylfolate for homocysteine in 677CT individuals [PMID:38056998]. ACMG advises against routine MTHFR polymorphism testing [PMID:23288205]. The L-methylfolate label states use regardless of C677T genotype [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=13eb8bf0-5227-455c-9660-b02abee04676]. CSPPT stratified randomization by C677T genotype [PMID:25771069]. Riboflavin modifies BP risk in TT carriers [PMID:33172445].
+- Depression pharmacogenomics: Folate-pathway markers may predict response to 15 mg L-methylfolate (exploratory) [PMID:24813065]. A 2026 SR links MTHFR variants to treatment-resistant depression, from inconsistent studies [PMID:41737528]. A retrospective genotype-guided cohort is hypothesis-generating only [PMID:42738962].
 
-** Latest research (last 24 months)
-- NIH ODS current fact sheet reports MTHFR C677T may reduce available 5-MTHF but evidence that 5-MTHF supplementation improves outcomes in carriers remains inconclusive. [URL:https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/]
+** Latest research
+- [2026-10] Prospective cohort with Mendelian randomization: RBC 5-MTHF >700 nmol/L in early pregnancy was associated with 18% fewer birth defects [PMID:42673811].
+- [2026-09] Pregnancy RCT (n=110) of 5-MTHF glucosamine salt vs equimolar folic acid: RBC folate and homocysteine were similar; plasma 5-MTHF rose more with borderline significance [PMID:42716224].
+- [2026-09] UMFA systematic review: 5-MTHF lowers UMFA (GRADE low); no equivalence claim is possible; no proof of UMFA harm [PMID:42739064].
+- [2026-09] Clinical review: folic acid remains the only form with NTD outcome RCTs; 5-MTHF is suggested for high-risk cases with B12 [PMID:41277701].
+- [2026-08] Retrospective cohort of MTHFR-guided nutraceuticals in mental health: hypothesis-generating [PMID:42738962].
+- [2026-03] Prenatal multivitamin RCT (n=80): 5-MTHF vs folic acid gave equal folate status and less maternal/placental UMFA [PMID:41971363].
+- [2026-02] Folate-cancer umbrella review (67 syntheses): highly suggestive associations for colorectal and oesophageal cancer [PMID:41718012].
+- [2026-02] Recurrent pregnancy loss feasibility RCT: UMFA fell with 5-MTHF; 5-MTHF degraded in stored product [PMID:41544303].
+- [2026-01] Hemodialysis RCT: methylfolate + methylcobalamin lowered homocysteine and BP [PMID:41580678].
+- [2026-01] Sodium L-methylfolate preclinical safety: no adverse findings [PMID:41161371].
+- [2026-01] SR of MTHFR variants and treatment-resistant depression [PMID:41737528].
+- [2025-12] SR/MA (11 RCTs): active folate gave higher plasma/RBC folate and lower UMFA than folic acid; homocysteine did not differ [PMID:41398893].
+- [2025-11] Scoping review: folate deficiency is common in women with epilepsy [PMID:41066307].
+- [2025-07] Homocysteine NMA in healthy adults: folic acid combinations near 800 ug were most effective [PMID:39960689].
+- [2025-05] Depression NMA (192 trials): folate + antidepressant SMD 0.64 [PMID:40314175].
+- [2025-01] Nordic register study: high-dose folic acid linked to maternal cancer (non-Hodgkin lymphoma HR 2.0) [PMID:39540679].
+- [2025-01] Open-label RCT: 800 ug methylfolate added to antidepressants improved PHQ-9 at day 28 [PMID:39844190].
+- [2024-12] Epilepsy SR: periconceptional folic acid did not reduce malformations [PMID:39326214].
+- [2024-11] 400 vs 800 ug 5-MTHF/folic acid mix: higher serum 5-MTHF at 800 ug without more detectable folic acid [PMID:39466653].
+- [2024-10] Pregnancy RCT: removing folic acid after 12 weeks lowered UMFA [PMID:38783413].
 
 ** Open questions
-- Direct trials of Quatrefolic on clinical outcomes are sparse; clarify bioavailability and equivalence across salts, doses, and pregnancy outcomes.
+- No RCT has tested 5-MTHF (either salt) for NTD prevention. Equivalence to folic acid rests on biomarkers [PMID:39339754] [PMID:42739064].
+- Human head-to-head comparisons of the glucosamine and calcium salts are absent. The only data are rodent PK studies [PMID:27008238] [PMID:34641555].
+- Whether 5-MTHF truly avoids masking B12 deficiency in humans [PMID:20357042].
+- Long-term safety of 15 mg/day and the cancer risk of high-dose reduced folates; clinical meaning of UMFA [PMID:42739064]; stability of 5-MTHF in products [PMID:41544303].
 
 ** Sources
-- NIH ODS. Folate: Health Professional Fact Sheet. [https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/]
-- Lamers Y et al. Red blood cell folate concentrations increase more after supplementation with 5-MTHF than folic acid. Am J Clin Nutr. 2006. [https://pubmed.ncbi.nlm.nih.gov/16825686/]
-- Prinz-Langenohl R et al. High-dose 5-methyltetrahydrofolate increases plasma folate more effectively than folic acid. Br J Pharmacol. 2009. [https://pubmed.ncbi.nlm.nih.gov/19371307/]
+1. Miraglia N et al. Enhanced oral bioavailability of a novel folate salt: comparison with folic acid and a calcium folate salt in a pharmacokinetic study in rats. Minerva Ginecol. 2016. PMID:27008238
+2. Pietrzik K et al. Folic acid and L-5-methyltetrahydrofolate: comparison of clinical pharmacokinetics and pharmacodynamics. Clin Pharmacokinet. 2010. PMID:20608755 DOI:10.2165/11532990-000000000-00000
+3. Morris-Schaffer K et al. Preclinical safety evaluation of sodium l-methylfolate. Food Chem Toxicol. 2026. PMID:41161371 DOI:10.1016/j.fct.2025.115822
+4. Scaglione F et al. Folate, folic acid and 5-methyltetrahydrofolate are not the same thing. Xenobiotica. 2014. PMID:24494987 DOI:10.3109/00498254.2013.845705
+5. Lian Z et al. Improved Stability of a Stable Crystal Form C of 6S-5-Methyltetrahydrofolate Calcium Salt, Method Development and Validation of an LC-MS/MS Method for Rat Pharmacokinetic Comparison. Molecules. 2021. PMID:34641555 DOI:10.3390/molecules26196011
+6. EFSA Panel on Nutrition, Novel Foods and Food Allergens (NDA) et al. Conversion of calcium-l-methylfolate and (6S)-5-methyltetrahydrofolic acid glucosamine salt into dietary folate equivalents. EFSA J. 2022. PMID:36034319 DOI:10.2903/j.efsa.2022.7452
+7. EFSA Panel on Nutrition, Novel Foods and Food Allergens (NDA Panel) et al. Scientific opinion on the tolerable upper intake level for folate. EFSA J. 2023. PMID:37965303 DOI:10.2903/j.efsa.2023.8353
+8. DailyMed. L-METHYLFOLATE CALCIUM (levomefolate calcium) tablet, coated, 7.5 mg/15 mg (medical food; Bryant Ranch Prepack/Virtus label, published May 2026). U.S. National Library of Medicine. URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=13eb8bf0-5227-455c-9660-b02abee04676
+9. Bart S Sr et al. Folate status and homocysteine levels during a 24-week oral administration of a folate-containing oral contraceptive: a randomized, double-blind, active-controlled, parallel-group, US-based multicenter study. Contraception. 2012. PMID:22067790 DOI:10.1016/j.contraception.2011.05.013
+10. Shane B et al. Vitamin B12-folate interrelationships. Annu Rev Nutr. 1985. PMID:3927946 DOI:10.1146/annurev.nu.05.070185.000555
+11. Sobczyńska-Malefora A et al. Laboratory assessment of folate (vitamin B(9)) status. J Clin Pathol. 2018. PMID:30228213 DOI:10.1136/jclinpath-2018-205048
+12. Rooney M et al. Impact of the MTHFR C677T polymorphism on one-carbon metabolites: Evidence from a randomised trial of riboflavin supplementation. Biochimie. 2020. PMID:32330571 DOI:10.1016/j.biochi.2020.04.004
+13. Nzila A et al. Impact of folate supplementation on the efficacy of sulfadoxine/pyrimethamine in preventing malaria in pregnancy: the potential of 5-methyl-tetrahydrofolate. J Antimicrob Chemother. 2014. PMID:24126794 DOI:10.1093/jac/dkt394
+14. Pentieva K et al. The short-term bioavailabilities of [6S]-5-methyltetrahydrofolate and folic acid are equivalent in men. J Nutr. 2004. PMID:14988450 DOI:10.1093/jn/134.3.580
+15. Vollset SE et al. Effects of folic acid supplementation on overall and site-specific cancer incidence during the randomised trials: meta-analyses of data on 50,000 individuals. Lancet. 2013. PMID:23352552 DOI:10.1016/S0140-6736(12)62001-7
+16. Frye RE et al. Unmetabolized Folic Acid: Biology, Epidemiology, and Clinical Consequences: A Systematic Review. Nutrients. 2026. PMID:42739064 DOI:10.3390/nu18172887
+17. Draicchio F et al. Using 6S-5-methyltetrahydrofolate instead of folic acid in prenatal multivitamin reduces unmetabolized folic acid concentrations in the mother-fetus dyad: a 24-week randomized controlled trial. Front Nutr. 2026. PMID:41971363 DOI:10.3389/fnut.2026.1679067
+18. Lamers Y et al. Red blood cell folate concentrations increase more after supplementation with [6S]-5-methyltetrahydrofolate than with folic acid in women of childbearing age. Am J Clin Nutr. 2006. PMID:16825690 DOI:10.1093/ajcn/84.1.156
+19. Ernawati E et al. Comparative bioavailability of 5-methyltetrahydrofolate and folic acid in pregnant women: A randomized controlled trial. Clin Nutr ESPEN. 2026. PMID:42716224 DOI:10.1016/j.clnesp.2026.105107
+20. Xie M et al. The effectiveness and safety of the active form of folate on biochemical parameters in women of childbearing age: A systematic review and meta-analysis. Medicine (Baltimore). 2025. PMID:41398893 DOI:10.1097/MD.0000000000046564
+21. Venn BJ et al. Comparison of the effect of low-dose supplementation with L-5-methyltetrahydrofolate or folic acid on plasma homocysteine: a randomized placebo-controlled study. Am J Clin Nutr. 2003. PMID:12600857 DOI:10.1093/ajcn/77.3.658
+22. Litynski P et al. Effect of low doses of 5-methyltetrahydrofolate and folic acid on plasma homocysteine in healthy subjects with or without the 677C-->T polymorphism of methylenetetrahydrofolate reductase. Eur J Clin Invest. 2002. PMID:12486865 DOI:10.1046/j.1365-2362.2002.01055.x
+23. Liu C et al. Effect of Nutritional Supplements for Reducing Homocysteine Levels in Healthy Adults: A Systematic Review and Network Meta-Analysis of Randomized Trials. Nutr Rev. 2025. PMID:39960689 DOI:10.1093/nutrit/nuae191
+24. Ledowsky C et al. Feasibility of a randomized clinical trial comparing 5-methyltetrahydrofolate and folic acid prenatal multivitamins in couples with recurrent pregnancy loss. Nutr Res. 2026. PMID:41544303 DOI:10.1016/j.nutres.2025.12.008
+25. MRC Vitamin Study Research Group. Prevention of neural tube defects: results of the Medical Research Council Vitamin Study. MRC Vitamin Study Research Group. Lancet. 1991. PMID:1677062
+26. De-Regil LM et al. Effects and safety of periconceptional oral folate supplementation for preventing birth defects. Cochrane Database Syst Rev. 2015. PMID:26662928 DOI:10.1002/14651858.CD007950.pub3
+27. US Preventive Services Task Force et al. Folic Acid Supplementation to Prevent Neural Tube Defects: US Preventive Services Task Force Reaffirmation Recommendation Statement. JAMA. 2023. PMID:37526713 DOI:10.1001/jama.2023.12876
+28. Samaniego-Vaesken ML et al. Supplementation with Folic Acid or 5-Methyltetrahydrofolate and Prevention of Neural Tube Defects: An Evidence-Based Narrative Review. Nutrients. 2024. PMID:39339754 DOI:10.3390/nu16183154
+29. Maruf AA et al. Systematic Review and Meta-Analysis of L-Methylfolate Augmentation in Depressive Disorders. Pharmacopsychiatry. 2022. PMID:34794190 DOI:10.1055/a-1681-2047
+30. Papakostas GI et al. L-methylfolate as adjunctive therapy for SSRI-resistant major depression: results of two randomized, double-blind, parallel-sequential trials. Am J Psychiatry. 2012. PMID:23212058 DOI:10.1176/appi.ajp.2012.11071114
+31. Altaf R et al. Folate as adjunct therapy to SSRI/SNRI for major depressive disorder: Systematic review & meta-analysis. Complement Ther Med. 2021. PMID:34450256 DOI:10.1016/j.ctim.2021.102770
+32. Roberts E et al. Caveat emptor: Folate in unipolar depressive illness, a systematic review and meta-analysis. J Psychopharmacol. 2018. PMID:29442609 DOI:10.1177/0269881118756060
+33. Roffman JL et al. Biochemical, physiological and clinical effects of l-methylfolate in schizophrenia: a randomized controlled trial. Mol Psychiatry. 2018. PMID:28289280 DOI:10.1038/mp.2017.41
+34. Zhang N et al. Folic acid supplementation for stroke prevention: A systematic review and meta-analysis of 21 randomized clinical trials worldwide. Clin Nutr. 2024. PMID:38824900 DOI:10.1016/j.clnu.2024.05.034
+35. Huo Y et al. Efficacy of folic acid therapy in primary prevention of stroke among adults with hypertension in China: the CSPPT randomized clinical trial. JAMA. 2015. PMID:25771069 DOI:10.1001/jama.2015.2274
+36. Martí-Carvajal AJ et al. Homocysteine-lowering interventions for preventing cardiovascular events. Cochrane Database Syst Rev. 2017. PMID:28816346 DOI:10.1002/14651858.CD006612.pub5
+37. Cole BF et al. Folic acid for the prevention of colorectal adenomas: a randomized clinical trial. JAMA. 2007. PMID:17551129 DOI:10.1001/jama.297.21.2351
+38. Passarelli MN et al. Folic acid supplementation and risk of colorectal neoplasia during long-term follow-up of a randomized clinical trial. Am J Clin Nutr. 2019. PMID:31401653 DOI:10.1093/ajcn/nqz160
+39. Figueiredo JC et al. Folic acid and prevention of colorectal adenomas: a combined analysis of randomized clinical trials. Int J Cancer. 2011. PMID:21170989 DOI:10.1002/ijc.25872
+40. Pietrzik K et al. Calculation of red blood cell folate steady state conditions and elimination kinetics after daily supplementation with various folate forms and doses in women of childbearing age. Am J Clin Nutr. 2007. PMID:17991654 DOI:10.1093/ajcn/86.5.1414
+41. Obeid R et al. Serum Concentrations of Folate Forms Following Supplementation of Multimicronutrients with 400 µg or 800 µg Mix of (6S)-5-Methyltetrahydrofolate and Folic Acid (1:1) in Women of Childbearing Age. Mol Nutr Food Res. 2024. PMID:39466653 DOI:10.1002/mnfr.202400444
+42. Papakostas GI et al. Effect of adjunctive L-methylfolate 15 mg among inadequate responders to SSRIs in depressed patients who were stratified by biomarker levels and genotype: results from a randomized clinical trial. J Clin Psychiatry. 2014. PMID:24813065 DOI:10.4088/JCP.13m08947
+43. Siddique A et al. Effect of combination therapy of methylfolate with antidepressants in patients with depressive disorder. BMC Pharmacol Toxicol. 2025. PMID:39844190 DOI:10.1186/s40360-025-00846-x
+44. Salem MS et al. Efficacy of L-methylfolate and methylcobalamin in treating resistant hypertension associated with elevated serum homocysteine in hemodialysis patients. BMC Nephrol. 2026. PMID:41580678 DOI:10.1186/s12882-025-04726-8
+45. Pack AM et al. Teratogenesis, Perinatal, and Neurodevelopmental Outcomes After In Utero Exposure to Antiseizure Medication: Practice Guideline From the AAN, AES, and SMFM. Neurology. 2024. PMID:38748979 DOI:10.1212/WNL.0000000000209279
+46. Cheng YC et al. Comparative efficacy and tolerability of nutraceuticals for depressive disorder: A systematic review and network meta-analysis. Psychol Med. 2025. PMID:40314175 DOI:10.1017/S0033291725000996
+47. Niederberger KE et al. Safety evaluation of calcium L-methylfolate. Toxicol Rep. 2019. PMID:31673504 DOI:10.1016/j.toxrep.2019.09.012
+48. Nierenberg AA et al. L-Methylfolate For Bipolar I depressive episodes: An open trial proof-of-concept registry. J Affect Disord. 2017. PMID:27794238 DOI:10.1016/j.jad.2016.09.053
+49. Miller JW et al. Excess Folic Acid and Vitamin B12 Deficiency: Clinical Implications?. Food Nutr Bull. 2024. PMID:38987872 DOI:10.1177/03795721241229503
+50. Dickinson CJ. Does folic acid harm people with vitamin B12 deficiency?. QJM. 1995. PMID:7796091
+51. Morris MS et al. Folate and vitamin B-12 status in relation to anemia, macrocytosis, and cognitive impairment in older Americans in the age of folic acid fortification. Am J Clin Nutr. 2007. PMID:17209196 DOI:10.1093/ajcn/85.1.193
+52. Miller JW et al. Metabolic evidence of vitamin B-12 deficiency, including high homocysteine and methylmalonic acid and low holotranscobalamin, is more pronounced in older adults with elevated plasma folate. Am J Clin Nutr. 2009. PMID:19726595 DOI:10.3945/ajcn.2009.27514
+53. Morris MS et al. Circulating unmetabolized folic acid and 5-methyltetrahydrofolate in relation to anemia, macrocytosis, and cognitive test performance in American seniors. Am J Clin Nutr. 2010. PMID:20357042 DOI:10.3945/ajcn.2009.28671
+54. Obeid R et al. Is 5-methyltetrahydrofolate an alternative to folic acid for the prevention of neural tube defects?. J Perinat Med. 2013. PMID:23482308 DOI:10.1515/jpm-2012-0256
+55. Vegrim HM et al. Cancer Risk in Children of Mothers With Epilepsy and High-Dose Folic Acid Use During Pregnancy. JAMA Neurol. 2022. PMID:36156660 DOI:10.1001/jamaneurol.2022.2977
+56. Vegrim HM et al. High-dose folic acid use and cancer risk in women who have given birth: A register-based cohort study. Epilepsia. 2025. PMID:39540679 DOI:10.1111/epi.18146
+57. Yoo S et al. Folate and global health umbrella review series, part 2: syntheses on cancers. J Glob Health. 2026. PMID:41718012 DOI:10.7189/jogh.16.04102
+58. Bhattachary A et al. Folate intake, tissue levels, and colorectal cancer deaths in a national cohort established before folic acid fortification. Eur J Nutr. 2025. PMID:40455102 DOI:10.1007/s00394-025-03720-y
+59. Troen AM et al. Unmetabolized folic acid in plasma is associated with reduced natural killer cell cytotoxicity among postmenopausal women. J Nutr. 2006. PMID:16365081 DOI:10.1093/jn/136.1.189
+60. Cho E et al. Unmetabolized Folic Acid in Prediagnostic Plasma and the Risk of Colorectal Cancer. J Natl Cancer Inst. 2015. PMID:26376686 DOI:10.1093/jnci/djv260
+61. Rees JR et al. Unmetabolized Folic Acid, Tetrahydrofolate, and Colorectal Adenoma Risk. Cancer Prev Res (Phila). 2017. PMID:28600398 DOI:10.1158/1940-6207.CAPR-16-0278
+62. DailyMed. Methotrexate tablet prescribing information (American Health Packaging), sections 5.10 and 7. U.S. National Library of Medicine. URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aafd97c1-3a0a-42b2-845a-a9db9bb7d876
+63. DailyMed. Capecitabine tablet prescribing information (Northstar Rx), section 7.1 Leucovorin/folic acid. U.S. National Library of Medicine. URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0b59e98c-5b34-4b93-90f6-20526f4d4f88
+64. Skavinska O et al. Comparative Analysis of Treatment With Folate Forms in Clinical Practice. Nutr Rev. 2026. PMID:41277701 DOI:10.1093/nutrit/nuaf216
+65. Shea B et al. Folic acid and folinic acid for reducing side effects in patients receiving methotrexate for rheumatoid arthritis. Cochrane Database Syst Rev. 2013. PMID:23728635 DOI:10.1002/14651858.CD000951.pub2
+66. Kok DE et al. Intake and biomarkers of folate and folic acid as determinants of chemotherapy-induced toxicities in patients with colorectal cancer: a cohort study. Am J Clin Nutr. 2024. PMID:38070682 DOI:10.1016/j.ajcnut.2023.11.023
+67. Berg MJ et al. Phenytoin pharmacokinetics: before and after folic acid administration. Epilepsia. 1992. PMID:1628589 DOI:10.1111/j.1528-1157.1992.tb02352.x
+68. Lewis DP et al. Phenytoin-folic acid interaction. Ann Pharmacother. 1995. PMID:8520091 DOI:10.1177/106002809502907-816
+69. Kishi T et al. Mechanism for reduction of serum folate by antiepileptic drugs during prolonged therapy. J Neurol Sci. 1997. PMID:9073038 DOI:10.1016/s0022-510x(96)00256-0
+70. Abdulaziz AT et al. Folate deficiency in women with epilepsy: a scoping review. Brain. 2025. PMID:41066307 DOI:10.1093/brain/awaf298
+71. Harden CL et al. Practice parameter update: management issues for women with epilepsy--focus on pregnancy (an evidence-based review): vitamin K, folic acid, blood levels, and breastfeeding: report of the Quality Standards Subcommittee and Therapeutics and Technology Assessment Subcommittee of the American Academy of Neurology and American Epilepsy Society. Neurology. 2009. PMID:19398680 DOI:10.1212/WNL.0b013e3181a6b325
+72. Peng A et al. Periconceptional folic acid supplementation for women with epilepsy: A systematic review of the literature. Epilepsy Behav. 2024. PMID:39326214 DOI:10.1016/j.yebeh.2024.110064
+73. Halsted CH et al. Sulfasalazine inhibits the absorption of folates in ulcerative colitis. N Engl J Med. 1981. PMID:6117796 DOI:10.1056/NEJM198112173052506
+74. Meidahl Petersen K et al. The Effect of Trimethoprim on Serum Folate Levels in Humans: A Randomized, Double-Blind, Placebo-Controlled Trial. Am J Ther. 2016. PMID:26566149 DOI:10.1097/MJT.0000000000000372
+75. Herbert V et al. Pyrimethamine effect on folate metabolism. N Engl J Med. 1969. PMID:5800521 DOI:10.1056/NEJM196909042811024
+76. de Jager J et al. Long term treatment with metformin in patients with type 2 diabetes and risk of vitamin B-12 deficiency: randomised placebo controlled trial. BMJ. 2010. PMID:20488910 DOI:10.1136/bmj.c2181
+77. Pokushalov E et al. Effect of Methylfolate, Pyridoxal-5'-Phosphate, and Methylcobalamin (Soloways(TM)) Supplementation on Homocysteine and Low-Density Lipoprotein Cholesterol Levels in Patients with Methylenetetrahydrofolate Reductase, Methionine Synthase, and Methionine Synthase Reductase Polymorphisms: A Randomized Controlled Trial. Nutrients. 2024. PMID:38892484 DOI:10.3390/nu16111550
+78. McRae MP. Betaine supplementation decreases plasma homocysteine in healthy adult participants: a meta-analysis. J Chiropr Med. 2013. PMID:23997720 DOI:10.1016/j.jcm.2012.11.001
+79. Lu XT et al. Effects of low-dose B vitamins plus betaine supplementation on lowering homocysteine concentrations among Chinese adults with hyperhomocysteinemia: a randomized, double-blind, controlled preliminary clinical trial. Eur J Nutr. 2023. PMID:36717385 DOI:10.1007/s00394-023-03087-y
+80. Ward M et al. Impact of the common MTHFR 677C→T polymorphism on blood pressure in adulthood and role of riboflavin in modifying the genetic risk of hypertension: evidence from the JINGO project. BMC Med. 2020. PMID:33172445 DOI:10.1186/s12916-020-01780-x
+81. Nakazato M et al. Blood folate concentrations analyzed by microbiological assay and chemiluminescent immunoassay methods. J Nutr Sci Vitaminol (Tokyo). 2012. PMID:23007069 DOI:10.3177/jnsv.58.59
+82. Colson NJ et al. The impact of MTHFR 677 C/T genotypes on folate status markers: a meta-analysis of folic acid intervention studies. Eur J Nutr. 2017. PMID:26497154 DOI:10.1007/s00394-015-1076-x
+83. Anderson CA et al. Response of serum and red blood cell folate concentrations to folic acid supplementation depends on methylenetetrahydrofolate reductase C677T genotype: results from a crossover trial. Mol Nutr Food Res. 2013. PMID:23456769 DOI:10.1002/mnfr.201200108
+84. Huang X et al. MTHFR Gene and Serum Folate Interaction on Serum Homocysteine Lowering: Prospect for Precision Folic Acid Treatment. Arterioscler Thromb Vasc Biol. 2018. PMID:29371246 DOI:10.1161/ATVBAHA.117.310211
+85. Qin X et al. MTHFR C677T and MTR A2756G polymorphisms and the homocysteine lowering efficacy of different doses of folic acid in hypertensive Chinese adults. Nutr J. 2012. PMID:22230384 DOI:10.1186/1475-2891-11-2
+86. Hekmatdoost A et al. Methyltetrahydrofolate vs Folic Acid Supplementation in Idiopathic Recurrent Miscarriage with Respect to Methylenetetrahydrofolate Reductase C677T and A1298C Polymorphisms: A Randomized Controlled Trial. PLoS One. 2015. PMID:26630680 DOI:10.1371/journal.pone.0143569
+87. Mazokopakis EE et al. The effects of folinic acid and l-methylfolate supplementation on serum total homocysteine levels in healthy adults. Clin Nutr ESPEN. 2023. PMID:38056998 DOI:10.1016/j.clnesp.2023.09.002
+88. Hickey SE et al. ACMG Practice Guideline: lack of evidence for MTHFR polymorphism testing. Genet Med. 2013. PMID:23288205 DOI:10.1038/gim.2012.165
+89. Brum Moraes J et al. Systematic Review of Methylenetetrahydrofolate Reductase (MTHFR) 677C>T and 1298A>C Variants and Treatment-Resistant Depression: Insights for Precision Psychiatry. Complex Psychiatry. 2026. PMID:41737528 DOI:10.1159/000548757
+90. Beer C et al. Personalised Nutraceutical Treatment Guided by MTHFR Genotype in Mental Health: A Retrospective Cohort Study. Nutrients. 2026. PMID:42738962 DOI:10.3390/nu18172791
+91. Shi H et al. Low maternal red blood cell 5-methyltetrahydrofolate levels in early pregnancy are associated with increased risk of birth defects: A prospective cohort study. Clin Nutr. 2026. PMID:42673811 DOI:10.1016/j.clnu.2026.106760
+92. Sulistyoningrum DC et al. Maternal serum unmetabolized folic acid concentration following multivitamin and mineral supplementation with or without folic acid after 12 weeks gestation: A randomized controlled trial. Matern Child Nutr. 2024. PMID:38783413 DOI:10.1111/mcn.13668

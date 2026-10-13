@@ -3,44 +3,209 @@
 :ID: supp-vitamin-b2
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: Vitamin B2 | riboflavin | riboflavin-5-phosphate | FMN | FAD
+:ALIASES: riboflavin | vitamin B2 | riboflavin-5'-phosphate | riboflavin 5'-phosphate sodium | flavin mononucleotide (FMN) | R5P | lactoflavin
 :CATEGORY: vitamin
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Riboflavin (vitamin B2) is water soluble; active coenzyme forms are flavin mononucleotide (FMN) and flavin adenine dinucleotide (FAD). [URL:https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/]
+- Riboflavin is a water-soluble, yellow, naturally fluorescent B vitamin. It is the precursor of the coenzymes flavin mononucleotide (FMN, also called riboflavin-5'-phosphate) and flavin adenine dinucleotide (FAD) [URL:https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/] [URL:https://nap.nationalacademies.org/read/6015/chapter/7].
+- Supplement forms: Free riboflavin is the form used in the migraine and MTHFR trials [PMID:9484373] [PMID:23608654]. Riboflavin-5'-phosphate sodium (FMN sodium) is the more water-soluble salt. EFSA re-evaluated it as food additive E 101(ii) together with riboflavin E 101(i) [DOI:10.2903/j.efsa.2013.3357]. Free riboflavin is about as bioavailable as dietary FAD and FMN, which are hydrolysed to riboflavin before absorption [URL:https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/]. No head-to-head human trial showing clinical superiority of oral R5P over riboflavin was found.
+- Topical riboflavin 5'-phosphate ophthalmic solutions are FDA-approved photoenhancers for corneal cross-linking: Photrexa (epithelium-off) and Epioxa (epithelium-on) [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f82cfe92-1a24-11e3-8ffd-0800200c9a66] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=13cefc46-337c-41a3-b113-106bfe553bbb].
+- Reference intakes: US RDA: 1.3 mg/day for men and 1.1 mg/day for women; 1.4 mg in pregnancy and 1.6 mg in lactation [URL:https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/]. EFSA published its own Dietary Reference Values in 2017 [DOI:10.2903/j.efsa.2017.4919]. US mean intake is about 2.5 mg/day in men and 1.8 mg/day in women [URL:https://lpi.oregonstate.edu/mic/vitamins/riboflavin].
+- Absorption is saturable. In a human PK study, the most absorbed from a single oral dose was 27 mg (absorption half-life 1.1 h), and urinary excretion accounted for about half of plasma clearance [PMID:8604671].
+- Status markers: The erythrocyte glutathione reductase activation coefficient (EGRAC) is the standard marker. Common cut-offs are <=1.2 adequate, 1.2-1.4 marginal and >1.4 deficient [URL:https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/]. Results are sensitive to how the assay is run. Methodological changes may explain a jump in UK deficiency prevalence from 2% to 46% in men between survey rounds [PMID:19102813]. Erythrocyte pyridoxamine phosphate oxidase (PPO) activity is an alternative marker that shows a dose response [PMID:19740970].
 
 ** Mechanisms
-- FMN and FAD are cofactors for redox enzymes, energy metabolism and conversion of other B vitamins. [URL:https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/]
+- Flavoproteins: FAD and FMN are cofactors for redox enzymes in energy production, glutathione recycling, and fat, drug and steroid metabolism [URL:https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/] [URL:https://lpi.oregonstate.edu/mic/vitamins/riboflavin]. Poor status reduces metabolism of folate and vitamin B6 [PMID:12791609].
+- Migraine rationale: migraine brains are proposed to have a mitochondrial energy deficit, and riboflavin was trialled to increase mitochondrial energy efficiency [PMID:7828189] [PMID:9484373].
+- One-carbon metabolism: FAD is the cofactor of MTHFR. The 677TT variant has reduced MTHFR activity, and riboflavin status appears to be the environmental factor modifying its BP and homocysteine phenotype [PMID:27720779] [URL:https://lpi.oregonstate.edu/mic/vitamins/riboflavin]. FMN/FAD-dependent methionine synthase reductase regenerates methylcobalamin, linking riboflavin to vitamin B12 function [URL:https://lpi.oregonstate.edu/mic/vitamins/riboflavin].
+- Vitamin B6 activation: pyridoxine/pyridoxamine 5'-phosphate oxidase (PNPO/PPO) is FMN-dependent [URL:https://lpi.oregonstate.edu/mic/vitamins/riboflavin]. Plasma PLP falls stepwise as riboflavin status worsens, independent of B6 intake [PMID:32805038] [PMID:36264281].
+- Niacin: tryptophan-to-NAD conversion needs the FAD-dependent kynurenine 3-monooxygenase [URL:https://lpi.oregonstate.edu/mic/vitamins/riboflavin].
+- Iron: riboflavin deficiency is linked to impaired iron handling, including release of iron from ferritin for red-cell production [PMID:39540254] [PMID:21525198].
+- Transport: three transporters (RFVT1-3, encoded by SLC52A1-3) mediate absorption and tissue distribution. Cryo-EM structures of RFVT2 and RFVT3 were solved in 2025 [PMID:40307217].
+- Ferroptosis (preclinical): FAD binding stabilises the ferroptosis suppressor FSP1, linking riboflavin metabolism to resistance to lipid peroxidation [PMID:41826699].
+- Corneal cross-linking: UV-A light excites riboflavin in the corneal stroma, producing reactive oxygen species that cross-link collagen [PMID:39681212].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---|---|---|---|---|---|
-| Migraine frequency/duration | Systematic review and dose-response meta-analysis of 12 trials | decrease | WMD frequency −1.39 and duration −1.36; high heterogeneity | moderate | PMID:41769676 |
-| Migraine prevention | Meta-analysis of RCTs | benefit | 400 mg/day for about 3 months improved pooled migraine measures | moderate | PMID:33779525 |
-| Cardiovascular disease prevention | No outcome evidence | unknown | Insufficient evidence | very low | URL:https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/ |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---+---+---+---+---+---|
+| Migraine attack frequency (adults) | SR/MAs of RCTs (8 RCTs + 1 CCT, n=673; 12 trials, n=749); dose-response MA of 22 supplement trials | Benefit | Frequency WMD -1.39 attacks (95% CI -2.52 to -0.25; I2 92%); MD -1.34 in a separate MA; linear dose-response up to 400 mg/d | moderate | [PMID:33779525] [PMID:41769676] [PMID:39404918] |
+| Migraine (first RCT, 400 mg/d x 3 mo) | RCT (n=55) | Benefit | 50% responders 59% vs 15%; NNT 2.3 | moderate | [PMID:9484373] |
+| Pediatric migraine | NMA of 45 RCTs; RCTs (200 mg null; high-dose positive); SR of 17 studies | Mixed | Riboflavin RoM 0.50 (0.32-0.77) for frequency, based on a single study; 200 mg RCT null | low | [PMID:39388181] [PMID:18984840] [PMID:29629048] [PMID:40411246] |
+| Migraine: riboflavin + magnesium + CoQ10 combination | RCT (n=130) | Benefit on burden and intensity, not migraine days | Migraine days 4.4 vs 5.2 (p=0.23); HIT-6 -4.8 vs -2.0 | low | [PMID:25916335] |
+| Blood pressure (unselected/all genotypes) | Cochrane SR (4 RCTs) | Uncertain | SBP MD -1.94 mmHg (-5.74 to 1.86); DBP MD -3.03 (-5.97 to -0.09) | very low | [PMID:41123035] |
+| Blood pressure in MTHFR 677TT | Genotype-targeted RCTs (1.6 mg/d, 16 wk) | Benefit only in TT | SBP -5.6 mmHg vs placebo in treated hypertensives (n=91); 144/87 to 131/80 in CVD patients; no effect in CC/CT | low | [PMID:23608654] [PMID:19952781] [PMID:22277556] |
+| Plasma homocysteine | RCT stratified by genotype; RCT in elderly | Lowers only in MTHFR 677TT | -22% overall in TT (-40% if low baseline status); no effect in CC/CT or in elderly with low status | low | [PMID:16380544] [PMID:12209373] |
+| Hemoglobin/anemia | RCT in UK women (RIBOFEM); RCT in anemic pregnant women in China | Benefit when status is low | Hb rise correlated with status improvement; +5.4 g/L with iron-folate + retinol + riboflavin | low | [PMID:21525198] [PMID:18806105] |
+| Riboflavin transporter deficiency (SLC52A2/A3) | Case series; SR | Large benefit (disease-specific) | 90.4% responsive (n=94); all 13 treated pediatric cases survived vs 28/61 untreated deaths | moderate | [PMID:42046426] [PMID:23107375] [PMID:26973221] |
+| Riboflavin-responsive MADD (ETFDH) | Case series; SR | Large benefit (disease-specific) | MADD type 3: 93.1% responsive (n=536); MADD type 1 not responsive | moderate | [PMID:42046426] [PMID:17584774] [PMID:35734957] |
+| Nuclear cataract | Linxian RCT (riboflavin + niacin) | Benefit with possible harm | 44% lower nuclear cataract prevalence at age 65-74; more posterior subcapsular cataract | low | [PMID:8363468] |
+| Perceived stress | Small RCT (B1 100 mg + B2 100 mg, n=43) | Possible benefit | PSS 21.5 to 15.5 vs 20.3 to 19.8; no anxiety effect | very low | [PMID:40507089] |
+| ALS | No RCT; adult transporter deficiency can mimic ALS | No evidence of benefit in ALS itself | Not applicable | very low | [PMID:33087424] [PMID:37367854] |
 
 ** Dosing in trials
-- Dietary RDA is 1.1 mg/day for women and 1.3 mg/day for men; migraine trials commonly used 400 mg/day for 3 months. [URL:https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/, PMID:33779525]
+- Migraine prophylaxis: 400 mg/day once daily for at least 3 months is the standard regimen [PMID:9484373] [PMID:7828189]. Benefit was most pronounced in the third month [URL:https://lpi.oregonstate.edu/mic/vitamins/riboflavin]. Dose-response meta-analysis found a linear benefit up to 400 mg/day [PMID:41769676]. Children: 200-400 mg/day in observational use [PMID:19649688]. A 200 mg/day RCT was null [PMID:18984840]. Combination product: riboflavin with magnesium and Q10 for 3 months [PMID:25916335].
+- MTHFR 677TT blood pressure and homocysteine: 1.6 mg/day for 12-16 weeks, a physiological dose [PMID:23608654] [PMID:19952781] [PMID:16380544].
+- Anemia: 2 or 4 mg/day for 8 weeks in UK women [PMID:21525198]. 1.0 mg/day added to 60 mg iron + 400 ug folic acid in pregnancy [PMID:18806105].
+- Inherited metabolic disease: pharmacological high doses, started immediately when riboflavin transporter deficiency is suspected, without waiting for genetic confirmation [PMID:26973221] [PMID:42046426].
+- Above about 27 mg per dose, absorption saturates, so split dosing is a pharmacokinetic rationale. This has not been tested clinically [PMID:8604671].
 
 ** Safety & adverse effects
-- High oral doses can cause bright yellow urine; no UL established and toxicity is considered low because absorption is limited. [URL:https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/]
+- No UL was set because no adverse effects from food or supplements have been reported [URL:https://nap.nationalacademies.org/read/6015/chapter/7] [URL:https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/]. The IOM noted that high-dose studies were not designed to assess harm systematically [URL:https://nap.nationalacademies.org/read/6015/chapter/7]. No short-term side effects were seen with 400 mg/day for at least 3 months [PMID:7828189].
+- In the 400 mg RCT, AEs were minor: diarrhoea and polyuria in 2 patients [PMID:9484373]. The Cochrane BP review found little to no difference in adverse events (low certainty) [PMID:41123035]. AEs in inherited metabolic disease were infrequent and mild [PMID:42046426].
+- Urine discoloration: high doses turn urine bright yellow (flavinuria). This is harmless [URL:https://lpi.oregonstate.edu/mic/vitamins/riboflavin]. The Canadian Headache Society judged side effects, such as discoloured urine, to be minimal [URL:https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/].
+- Light sensitivity: riboflavin is photolabile. Prolonged neonatal phototherapy can deplete it [URL:https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/], and also PLP [PMID:4040702].
+- Possible harm signals: Riboflavin/niacin increased posterior subcapsular cataract in the Linxian trial [PMID:8363468]. In cell culture, excess riboflavin increased DNA strand breaks with chromium(VI); no human data exist [URL:https://lpi.oregonstate.edu/mic/vitamins/riboflavin].
+- Topical CXL is a separate risk profile: ulcerative keratitis, haze and herpetic keratitis per the labels. These risks do not apply to oral use [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f82cfe92-1a24-11e3-8ffd-0800200c9a66] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=13cefc46-337c-41a3-b113-106bfe553bbb].
 
 ** Contraindications
-- Known hypersensitivity is the only routine contraindication; pregnancy/lactation requirements differ from high-dose migraine trial use. [URL:https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/]
+- Oral riboflavin has no established contraindications beyond hypersensitivity. No UL exists [URL:https://nap.nationalacademies.org/read/6015/chapter/7].
+- Pediatric migraine: evidence is inconsistent, and 2024 reviews do not consider pediatric efficacy proven [PMID:39853578] [PMID:18984840].
+- Epioxa (topical) is contraindicated in aphakic eyes and in pseudophakic eyes without a UV-blocking IOL, and with hypersensitivity to benzalkonium chloride [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=13cefc46-337c-41a3-b113-106bfe553bbb].
 
 ** Interactions
-- Phenobarbital and probenecid may alter riboflavin status; chlorpromazine and tricyclic agents may interfere with conversion/handling. Supplementation can affect some urine fluorescence-based lab methods; confirm assay specifics. [URL:https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/]
+*** Drugs
+- ODS states that riboflavin "is not known to have any clinically relevant interactions with medications" [URL:https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/]. The interactions below are mostly drug effects on riboflavin status, based on animal or in-vitro data.
+- Phenothiazines (chlorpromazine) and tricyclic antidepressants (imipramine, amitriptyline): In rat tissues they inhibit flavokinase and block conversion of riboflavin to FAD [PMID:6262379]. Chlorpromazine doubled urinary riboflavin loss and sped up FAD depletion in rats on a riboflavin-deficient diet [PMID:6626265]. In rabbit renal tubules, chlorpromazine inhibited tubular riboflavin transport [PMID:11078692]. LPI also lists quinacrine and doxorubicin (adriamycin) as inhibitors of flavocoenzyme formation [URL:https://lpi.oregonstate.edu/mic/vitamins/riboflavin].
+- Probenecid: a human study specifically examined probenecid's effect on renal riboflavin clearance [PMID:5440673]. In isolated renal tubules, probenecid inhibited riboflavin secretion, which runs through the organic-anion pathway [PMID:11078692].
+- Phenobarbital: long-term use may increase hepatic breakdown of riboflavin [URL:https://lpi.oregonstate.edu/mic/vitamins/riboflavin].
+- Other drugs that promote renal riboflavin excretion: boric acid and some antimalarial, antimicrobial, anticancer, tricyclic and antipsychotic agents (review) [PMID:3319474].
+- Oral contraceptives: an apparent lowering of riboflavin status disappeared after adjustment for diet [URL:https://lpi.oregonstate.edu/mic/vitamins/riboflavin].
+- Tetracyclines/doxycycline: no cited source found. ODS (2022 update) lists no clinically relevant drug interactions, and no PubMed evidence of a riboflavin-tetracycline absorption interaction was found.
+- Antihypertensives: in MTHFR 677TT patients already on treatment, riboflavin lowered BP further [PMID:23608654] [PMID:22277556].
+*** Other supplements
+- Vitamin B6: FMN-dependent PNPO is needed to form PLP. Low riboflavin status predicts lower plasma PLP, most markedly in older adults and in MTHFR 677TT carriers [PMID:32805038] [PMID:36264281] [URL:https://lpi.oregonstate.edu/mic/vitamins/riboflavin].
+- Folate / 5-MTHF (Quatrefolic): Riboflavin acts upstream of 5-MTHF as the MTHFR cofactor [PMID:27720779]. L-methylfolate lowered homocysteine more in MTHFR 677TT than in CC/CT adults [PMID:38056998]. In elderly people with low status, folic acid, not riboflavin, lowered homocysteine [PMID:12209373].
+- Vitamin B12: methionine synthase reductase needs FMN and FAD to regenerate methylcobalamin [URL:https://lpi.oregonstate.edu/mic/vitamins/riboflavin].
+- Iron (including heme iron): Correcting marginal riboflavin deficiency raised hemoglobin without changing iron intake or absorption [PMID:21525198]. Adding riboflavin with retinol to iron-folate reduced anemia in pregnancy [PMID:18806105]. Correcting riboflavin deficiency improves the response of iron-deficiency anemia to iron [URL:https://lpi.oregonstate.edu/mic/vitamins/riboflavin].
+- Magnesium and CoQ10 (migraine co-therapy): The Canadian Headache Society strongly recommends riboflavin, CoQ10 and magnesium citrate individually [PMID:22683887]. AAN/AHS rated riboflavin and magnesium Level B and CoQ10 Level C [PMID:22529203]. A fixed combination reduced migraine burden but not migraine days [PMID:25916335]. Riboflavin 400 mg + magnesium + feverfew did no better than riboflavin 25 mg [PMID:15447697]. Single-agent evidence: CoQ10 RCT [PMID:15728298], CoQ10 MA [PMID:33402403], magnesium MA [PMID:26752497]. A 2026 network MA found CoQ10 and vitamins reduced frequency, while magnesium did not reach significance for frequency but did lower severity [PMID:42707444].
+- B complex / multivitamins: riboflavin is a common component, so totals add up. A B1+B2 100 mg/100 mg product raised urinary B2 about 20-fold [URL:https://lpi.oregonstate.edu/mic/vitamins/riboflavin] [PMID:40507089].
+*** Conditions
+- Riboflavin transporter deficiency (formerly BVVL/Fazio-Londe; SLC52A2, SLC52A3): High-dose riboflavin is lifesaving and should start empirically [PMID:26973221] [PMID:23107375] [URL:https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/]. The biochemical profile can mimic mild MADD [PMID:21110228]. Adult-onset disease can mimic ALS or distal hereditary motor neuropathy (56% of adult cases), and 86% improved on riboflavin [PMID:33087424].
+- MADD (ETFDH, FLAD1), ACAD9 complex I deficiency and FAD transporter deficiency: these are riboflavin-responsive [PMID:17584774] [PMID:38228875] [PMID:20929961] [PMID:42046426]. Riboflavin-responsive MADD is associated with hyperhomocysteinemia [PMID:37606529] and can involve the spinal cord in adults [PMID:41615582]. Unresponsive MADD presents earlier and more severely [PMID:31331668].
+- ALS: no trial evidence supports riboflavin. Riboflavin intake was often inadequate in an ALS cohort [PMID:37367854]. The key clinical point is to exclude treatable transporter deficiency in ALS-like presentations [PMID:33087424].
+- Pregnancy: riboflavin deficiency is linked to preeclampsia and anemia [URL:https://lpi.oregonstate.edu/mic/vitamins/riboflavin] [PMID:39540254]. A personalised BP strategy in pregnancy has been proposed [PMID:41768514].
+- Higher risk of deficiency: neonatal phototherapy, vegetarian athletes, pregnant or lactating women with low dairy and meat intake, older adults, adolescents and chronic alcohol use [URL:https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/] [URL:https://lpi.oregonstate.edu/mic/vitamins/riboflavin] [PMID:12791609].
+*** Lab-test interference
+- Fluorescence immunoassays: 200-400 mg doses caused background-fluorescence errors (MX BKG) on Abbott TDx urine drugs-of-abuse assays within hours. These cleared about 60 h after stopping, with no false negatives [PMID:9846401].
+- Urine fluorescence spectroscopy: B2 supplements were the only tested substance that altered the urine fluorescence spectrum. Authors advise avoiding them before such testing [PMID:38605494].
+- Urinalysis colour: high doses intensify urine colour to bright yellow (flavinuria). This is harmless, but it should be expected when reading urine colour [URL:https://lpi.oregonstate.edu/mic/vitamins/riboflavin].
+- EGRAC status assay: invalid in G6PD deficiency [URL:https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/]. Results vary with methodology [PMID:19102813].
+- Homocysteine and PLP: these are real physiological changes, not artefacts. Homocysteine falls in MTHFR 677TT [PMID:16380544], and PLP is lower when riboflavin status is poorer [PMID:32805038].
 
-** Latest research (last 24 months)
-- 2025-search dose-response meta-analysis (published 2026) pooled 12 trials and found reductions in migraine frequency and duration, but heterogeneity was high. [PMID:41769676]
+** Genotype notes
+- MTHFR C677T TT homozygotes (about 12% of adults in the JINGO cohort): TT carries an OR of 1.42 for hypertension, and 3.00 when combined with deficient riboflavin status [PMID:33172445]. A case-control study in older Chinese adults confirmed the genotype-riboflavin interaction [PMID:40738729]. Riboflavin 1.6 mg/day lowered BP only in TT, not in CT or CC [PMID:19952781] [PMID:23608654] [PMID:22277556]. It lowered homocysteine only in TT [PMID:16380544].
+  -
+  - The Cochrane review (all genotypes) judged BP evidence very uncertain [PMID:41123035]. Precision approaches are still advocated [PMID:42067935].
+- SLC52A2 / SLC52A3 biallelic variants cause riboflavin transporter deficiency types 2 and 3. Treatment response depends on how early riboflavin starts after onset; presymptomatic siblings found by cascade screening stayed asymptomatic [PMID:42759448] [PMID:40168907] [PMID:26973221].
+- ETFDH variants cause riboflavin-responsive MADD [PMID:17584774]. Single heterozygous carriers may develop the disease when riboflavin deficiency and a high-fat diet are added (cell and mouse data) [PMID:42231330].
+- FLAD1 (FAD synthase) and ACAD9 variants are also riboflavin-responsive [PMID:38228875] [PMID:20929961].
+- G6PD deficiency: the EGRAC assay cannot be used [URL:https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/].
+
+** Latest research
+- [2026-09] Turkish SLC52A2 p.Pro134Leu kindred followed 5 years: full recovery when treated 8 months after onset; only stabilisation when treated after 13 years; presymptomatic siblings stayed normal [PMID:42759448].
+- [2026-08] Network MA of 14 supplement RCTs (n=791): vitamins MD -1.85 attacks/month and CoQ10 -1.91; magnesium did not reach significance for frequency but lowered severity [PMID:42707444].
+- [2026-06] ETFDH single-heterozygous carriers: riboflavin deficiency plus high-fat diet triggered the RR-MADD phenotype (mechanistic) [PMID:42231330].
+- [2026-05] SR of riboflavin in 33 inherited metabolic diseases: effective in MADD type 3, RTD2/3, ACAD9 and FAD transporter deficiency; not effective in MADD type 1 [PMID:42046426].
+- [2026-03] CRISPR screen identifies riboflavin/FAD as required for FSP1 stability and ferroptosis resistance (preclinical) [PMID:41826699].
+- [2026-01] Dose-response MA (12 trials, n=749): migraine frequency WMD -1.39 and duration -1.36, linear up to 400 mg/d; I2 >90% [PMID:41769676].
+- [2026-01] Spinal cord involvement described in adult-onset RR-MADD [PMID:41615582].
+- [2025-10] Cochrane review (4 RCTs): BP effect very uncertain; 3 of 4 RCTs at high risk of bias [PMID:41123035].
+- [2025-09] Proposal for riboflavin as a personalised BP strategy in pregnancy [PMID:41768514]. The OPTIMUM pregnancy-hypertension trial (n=2250) is active [URL:https://clinicaltrials.gov/study/NCT04723836].
+- [2025-08] Chinese case-control study: MTHFR TT with low riboflavin status gave the highest hypertension prevalence [PMID:40738729].
+- [2025-05] Pediatric SR (17 studies): riboflavin reduced frequency in 7 of 10 comparisons; mixed findings on other outcomes [PMID:40411246].
+- [2025-05] B1+B2 RCT (n=43): lower perceived stress; no anxiety effect [PMID:40507089].
+- [2025-05] Cryo-EM structures of RFVT2/RFVT3 [PMID:40307217].
+- [2025-01] Headache nutraceutical review: riboflavin can be recommended in adults; pediatric efficacy not proven [PMID:39853578].
+- [2024-11] Review of riboflavin deficiency as an overlooked contributor to anemia in pregnancy [PMID:39540254].
+- [2024-10] Supplement dose-response MA (22 RCTs): riboflavin frequency MD -1.34 [PMID:39404918]. Pediatric NMA: riboflavin RoM 0.50, based on a single study [PMID:39388181].
 
 ** Open questions
-- Larger low-bias trials should establish dose, responder characteristics, and whether benefit generalizes beyond migraine.
+- Large, low-bias migraine RCTs comparing 400 mg/day with active preventives are lacking. Heterogeneity in MAs is high (I2 about 90%) [PMID:41769676] [PMID:33779525].
+- It is unknown whether riboflavin lowers BP in unselected populations or only in MTHFR 677TT, and whether genotype-guided supplementation reduces CVD events [PMID:41123035] [PMID:23608654]. The RIBOGENE trial has unknown status [URL:https://clinicaltrials.gov/study/NCT02463513].
+- Whether riboflavin-5'-phosphate offers any clinical advantage over riboflavin at doses above the absorption ceiling [PMID:8604671].
+- The best EGRAC thresholds, and whether functional deficiency should be screened for in pregnancy and in older adults [PMID:19102813] [PMID:39540254].
+- Whether riboflavin-tricyclic or riboflavin-phenothiazine interactions shown in animals matter clinically in humans [PMID:6262379].
+- Pediatric migraine efficacy and the right dose [PMID:18984840] [PMID:29629048].
 
 ** Sources
-- NIH ODS. Riboflavin: Health Professional Fact Sheet. [https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/]
-- Chen YS et al. Effect of Vitamin B2 supplementation on migraine prophylaxis: systematic review and meta-analysis. Nutr Neurosci. 2022. [https://pubmed.ncbi.nlm.nih.gov/33779525/]
-- Riboflavin dose-response meta-analysis of migraine trials. 2026. [https://pubmed.ncbi.nlm.nih.gov/41769676/]
+1. NIH Office of Dietary Supplements. Riboflavin: Fact Sheet for Health Professionals (updated 2022-05-11). URL:https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/
+2. Institute of Medicine. Dietary Reference Intakes for Thiamin, Riboflavin, Niacin, Vitamin B6, Folate, Vitamin B12, Pantothenic Acid, Biotin, and Choline. Ch. 5 Riboflavin. National Academies Press. 1998. DOI:10.17226/6015 URL:https://nap.nationalacademies.org/read/6015/chapter/7
+3. Schoenen J et al. Effectiveness of high-dose riboflavin in migraine prophylaxis. A randomized controlled trial. Neurology. 1998. PMID:9484373 DOI:10.1212/wnl.50.2.466
+4. Wilson CP et al. Blood pressure in treated hypertensive individuals with the MTHFR 677TT genotype is responsive to intervention with riboflavin: findings of a targeted randomized trial. Hypertension. 2013. PMID:23608654 DOI:10.1161/HYPERTENSIONAHA.111.01047
+5. EFSA ANS Panel. Scientific Opinion on the re-evaluation of riboflavin (E 101(i)) and riboflavin-5'-phosphate sodium (E 101(ii)) as food additives. EFSA Journal. 2013. DOI:10.2903/j.efsa.2013.3357
+6. DailyMed. Photrexa Viscous / Photrexa (riboflavin 5'-phosphate ophthalmic solution) cross-linking kit, prescribing information (Glaukos; SPL v26, 2026). URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f82cfe92-1a24-11e3-8ffd-0800200c9a66
+7. DailyMed. Epioxa HD / Epioxa (riboflavin 5'-phosphate ophthalmic) epithelium-on cross-linking kit, prescribing information (Glaukos; SPL v3, 2026). URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=13cefc46-337c-41a3-b113-106bfe553bbb
+8. EFSA NDA Panel. Dietary Reference Values for riboflavin. EFSA Journal. 2017. DOI:10.2903/j.efsa.2017.4919
+9. Linus Pauling Institute Micronutrient Information Center. Riboflavin (updated 2021, reviewed 2022). URL:https://lpi.oregonstate.edu/mic/vitamins/riboflavin
+10. Zempleni J et al. Pharmacokinetics of orally and intravenously administered riboflavin in healthy humans. Am J Clin Nutr. 1996. PMID:8604671 DOI:10.1093/ajcn/63.1.54
+11. Hill MH et al. Effects of methodological variation on assessment of riboflavin status using the erythrocyte glutathione reductase activation coefficient assay. Br J Nutr. 2009. PMID:19102813 DOI:10.1017/S0007114508162997
+12. Mushtaq S et al. Erythrocyte pyridoxamine phosphate oxidase activity: a potential biomarker of riboflavin status?. Am J Clin Nutr. 2009. PMID:19740970 DOI:10.3945/ajcn.2009.28338
+13. Powers HJ. Riboflavin (vitamin B-2) and health. Am J Clin Nutr. 2003. PMID:12791609 DOI:10.1093/ajcn/77.6.1352
+14. Schoenen J et al. High-dose riboflavin as a prophylactic treatment of migraine: results of an open pilot study. Cephalalgia. 1994. PMID:7828189 DOI:10.1046/j.1468-2982.1994.1405328.x
+15. McNulty H et al. Riboflavin, MTHFR genotype and blood pressure: A personalized approach to prevention and treatment of hypertension. Mol Aspects Med. 2017. PMID:27720779 DOI:10.1016/j.mam.2016.10.002
+16. Jungert A et al. Riboflavin Is an Important Determinant of Vitamin B-6 Status in Healthy Adults. J Nutr. 2020. PMID:32805038 DOI:10.1093/jn/nxaa225
+17. Jarrett H et al. Vitamin B-6 and riboflavin, their metabolic interaction, and relationship with MTHFR genotype in adults aged 18-102 years. Am J Clin Nutr. 2022. PMID:36264281 DOI:10.1093/ajcn/nqac240
+18. Duffy B et al. Anaemia during pregnancy: could riboflavin deficiency be implicated?. Proc Nutr Soc. 2026. PMID:39540254 DOI:10.1017/S0029665124007468
+19. Powers HJ et al. Correcting a marginal riboflavin deficiency improves hematologic status in young women in the United Kingdom (RIBOFEM). Am J Clin Nutr. 2011. PMID:21525198 DOI:10.3945/ajcn.110.008409
+20. Wang K et al. Structure and transport mechanism of human riboflavin transporters. Nat Commun. 2025. PMID:40307217 DOI:10.1038/s41467-025-59255-7
+21. Skafar V et al. Riboflavin metabolism shapes FSP1-driven ferroptosis resistance. Nat Cell Biol. 2026. PMID:41826699 DOI:10.1038/s41556-025-01856-x
+22. Hafezi F et al. Corneal cross-linking. Prog Retin Eye Res. 2025. PMID:39681212 DOI:10.1016/j.preteyeres.2024.101322
+23. Chen YS et al. Effect of Vitamin B2 supplementation on migraine prophylaxis: a systematic review and meta-analysis. Nutr Neurosci. 2022. PMID:33779525 DOI:10.1080/1028415X.2021.1904542
+24. Amini S et al. The effect of riboflavin on the mean attack frequency, severity, and duration of migraine headaches: A systematic review and dose-response meta-analysis of clinical trials. J Res Med Sci. 2026. PMID:41769676 DOI:10.4103/jrms.jrms_547_24
+25. Talandashti MK et al. Effects of selected dietary supplements on migraine prophylaxis: A systematic review and dose-response meta-analysis of randomized controlled trials. Neurol Sci. 2025. PMID:39404918 DOI:10.1007/s10072-024-07794-0
+26. Kohandel Gargari O et al. Preventive Medications in Pediatric Migraine: A Network Meta-Analysis. JAMA Netw Open. 2024. PMID:39388181 DOI:10.1001/jamanetworkopen.2024.38666
+27. MacLennan SC et al. High-dose riboflavin for migraine prophylaxis in children: a double-blind, randomized, placebo-controlled trial. J Child Neurol. 2008. PMID:18984840 DOI:10.1177/0883073808318053
+28. Talebian A et al. Prophylactic effect of riboflavin on pediatric migraine: a randomized, double-blind, placebo-controlled trial. Electron Physician. 2018. PMID:29629048 DOI:10.19082/6279
+29. Martello E et al. Systematic Review Suggests Nutraceuticals Containing Vitamin B2 Could Provide an Alternative Treatment for Paediatric Migraines. Acta Paediatr. 2025. PMID:40411246 DOI:10.1111/apa.70157
+30. Gaul C et al. Improvement of migraine symptoms with a proprietary supplement containing riboflavin, magnesium and Q10: a randomized, placebo-controlled, double-blind, multicenter trial. J Headache Pain. 2015. PMID:25916335 DOI:10.1186/s10194-015-0516-6
+31. Bradbury KE et al. Riboflavin supplements for blood pressure lowering in adults. Cochrane Database Syst Rev. 2025. PMID:41123035 DOI:10.1002/14651858.CD015464.pub2
+32. Horigan G et al. Riboflavin lowers blood pressure in cardiovascular disease patients homozygous for the 677C-->T polymorphism in MTHFR. J Hypertens. 2010. PMID:19952781 DOI:10.1097/HJH.0b013e328334c126
+33. Wilson CP et al. Riboflavin offers a targeted strategy for managing hypertension in patients with the MTHFR 677TT genotype: a 4-y follow-up. Am J Clin Nutr. 2012. PMID:22277556 DOI:10.3945/ajcn.111.026245
+34. McNulty H et al. Riboflavin lowers homocysteine in individuals homozygous for the MTHFR 677C->T polymorphism. Circulation. 2006. PMID:16380544 DOI:10.1161/CIRCULATIONAHA.105.580332
+35. McKinley MC et al. Effect of riboflavin supplementation on plasma homocysteine in elderly people with low riboflavin status. Eur J Clin Nutr. 2002. PMID:12209373 DOI:10.1038/sj.ejcn.1601402
+36. Ma AG et al. Retinol and riboflavin supplementation decreases the prevalence of anemia in Chinese pregnant women taking iron and folic Acid supplements. J Nutr. 2008. PMID:18806105 DOI:10.1093/jn/138.10.1946
+37. Jaeger B et al. Effectiveness of Riboflavin in Inherited Metabolic Diseases: A Systematic Review. J Inherit Metab Dis. 2026. PMID:42046426 DOI:10.1002/jimd.70190
+38. Bosch AM et al. The Brown-Vialetto-Van Laere and Fazio Londe syndrome revisited: natural history, genetics, treatment and future perspectives. Orphanet J Rare Dis. 2012. PMID:23107375 DOI:10.1186/1750-1172-7-83
+39. Jaeger B et al. Clinical presentation and outcome of riboflavin transporter deficiency: mini review after five years of experience. J Inherit Metab Dis. 2016. PMID:26973221 DOI:10.1007/s10545-016-9924-2
+40. Olsen RK et al. ETFDH mutations as a major cause of riboflavin-responsive multiple acyl-CoA dehydrogenation deficiency. Brain. 2007. PMID:17584774 DOI:10.1093/brain/awm135
+41. Zhang J et al. Characterization of 31 Patients with Riboflavin-Responsive Multiple acyl-CoA Dehydrogenase Deficiency. Balkan Med J. 2022. PMID:35734957 DOI:10.4274/balkanmedj.galenos.2022.2022-1-127
+42. Sperduto RD et al. The Linxian cataract studies. Two nutrition intervention trials. Arch Ophthalmol. 1993. PMID:8363468 DOI:10.1001/archopht.1993.01090090098027
+43. Tao Y et al. Impact of Vitamin B1 and Vitamin B2 Supplementation on Anxiety, Stress, and Sleep Quality: A Randomized, Double-Blind, Placebo-Controlled Trial. Nutrients. 2025. PMID:40507089 DOI:10.3390/nu17111821
+44. Carreau C et al. Late-onset riboflavin transporter deficiency: a treatable mimic of various motor neuropathy aetiologies. J Neurol Neurosurg Psychiatry. 2020. PMID:33087424 DOI:10.1136/jnnp-2020-323304
+45. Barros ANAB et al. Dietary Intake of Micronutrients and Disease Severity in Patients with Amyotrophic Lateral Sclerosis. Metabolites. 2023. PMID:37367854 DOI:10.3390/metabo13060696
+46. Condò M et al. Riboflavin prophylaxis in pediatric and adolescent migraine. J Headache Pain. 2009. PMID:19649688 DOI:10.1007/s10194-009-0142-2
+47. Rudolph N et al. Postnatal decline in pyridoxal phosphate and riboflavin. Accentuation by phototherapy. Am J Dis Child. 1985. PMID:4040702 DOI:10.1001/archpedi.1985.02140100074034
+48. Tepper SJ et al. Nutraceuticals and Headache 2024: Riboflavin, Coenzyme Q10, Feverfew, Magnesium, Melatonin, and Butterbur. Curr Pain Headache Rep. 2025. PMID:39853578 DOI:10.1007/s11916-025-01358-3
+49. Pinto J et al. Inhibition of riboflavin metabolism in rat tissues by chlorpromazine, imipramine, and amitriptyline. J Clin Invest. 1981. PMID:6262379 DOI:10.1172/jci110180
+50. Pelliccione N et al. Accelerated development of riboflavin deficiency by treatment with chlorpromazine. Biochem Pharmacol. 1983. PMID:6626265 DOI:10.1016/0006-2952(83)90401-x
+51. Yanagawa N et al. Riboflavin transport by isolated perfused rabbit renal proximal tubules. Am J Physiol Cell Physiol. 2000. PMID:11078692 DOI:10.1152/ajpcell.2000.279.6.C1782
+52. Jusko WJ et al. Effect of probenecid on renal clearance of riboflavin in man. J Pharm Sci. 1970. PMID:5440673 DOI:10.1002/jps.2600590407
+53. Pinto JT et al. Drugs that promote renal excretion of riboflavin. Drug Nutr Interact. 1987. PMID:3319474
+54. Mazokopakis EE et al. The effects of folinic acid and l-methylfolate supplementation on serum total homocysteine levels in healthy adults. Clin Nutr ESPEN. 2023. PMID:38056998 DOI:10.1016/j.clnesp.2023.09.002
+55. Pringsheim T et al. Canadian Headache Society guideline for migraine prophylaxis. Can J Neurol Sci. 2012. PMID:22683887
+56. Holland S et al. Evidence-based guideline update: NSAIDs and other complementary treatments for episodic migraine prevention in adults: report of the Quality Standards Subcommittee of the American Academy of Neurology and the American Headache Society. Neurology. 2012. PMID:22529203 DOI:10.1212/WNL.0b013e3182535d0c
+57. Maizels M et al. A combination of riboflavin, magnesium, and feverfew for migraine prophylaxis: a randomized trial. Headache. 2004. PMID:15447697 DOI:10.1111/j.1526-4610.2004.04170.x
+58. Sándor PS et al. Efficacy of coenzyme Q10 in migraine prophylaxis: a randomized controlled trial. Neurology. 2005. PMID:15728298 DOI:10.1212/01.WNL.0000151975.03598.ED
+59. Sazali S et al. Coenzyme Q10 supplementation for prophylaxis in adult patients with migraine-a meta-analysis. BMJ Open. 2021. PMID:33402403 DOI:10.1136/bmjopen-2020-039358
+60. Chiu HY et al. Effects of Intravenous and Oral Magnesium on Reducing Migraine: A Meta-analysis of Randomized Controlled Trials. Pain Physician. 2016. PMID:26752497
+61. Peng J et al. Nutritional supplements for migraine prevention: evaluating evidence sufficiency and effect modifiers through network meta-analysis, trial sequential analysis, and meta-regression. Front Nutr. 2026. PMID:42707444 DOI:10.3389/fnut.2026.1911863
+62. Bosch AM et al. Brown-Vialetto-Van Laere and Fazio Londe syndrome is associated with a riboflavin transporter defect mimicking mild MADD: a new inborn error of metabolism with potential treatment. J Inherit Metab Dis. 2011. PMID:21110228 DOI:10.1007/s10545-010-9242-z
+63. Wen B et al. A comparative study on riboflavin responsive multiple acyl-CoA dehydrogenation deficiency due to variants in FLAD1 and ETFDH gene. J Hum Genet. 2024. PMID:38228875 DOI:10.1038/s10038-023-01216-3
+64. Gerards M et al. Riboflavin-responsive oxidative phosphorylation complex I deficiency caused by defective ACAD9: new function for an old gene. Brain. 2011. PMID:20929961 DOI:10.1093/brain/awq273
+65. Zhang H et al. Hyperhomocysteinemia in patients with riboflavin-responsive multiple acyl-CoA dehydrogenase deficiency. Muscle Nerve. 2023. PMID:37606529 DOI:10.1002/mus.27960
+66. Wang W et al. Spinal Cord Involvement in Patients with Adult-Onset Multiple Acyl-CoA Dehydrogenase Deficiency. Neuromolecular Med. 2026. PMID:41615582 DOI:10.1007/s12017-025-08904-7
+67. Yıldız Y et al. Determinants of Riboflavin Responsiveness in Multiple Acyl-CoA Dehydrogenase Deficiency. Pediatr Neurol. 2019. PMID:31331668 DOI:10.1016/j.pediatrneurol.2019.06.015
+68. Duffy B et al. Can riboflavin offer a novel personalised strategy for maintaining healthy blood pressure in pregnancy in populations globally?. BMJ Nutr Prev Health. 2025. PMID:41768514 DOI:10.1136/bmjnph-2025-001212
+69. Kunsman GW et al. Vitamin B2 interference with TDx drugs-of-abuse assays. J Forensic Sci. 1998. PMID:9846401
+70. Chalissery P et al. Influence of vitamins and food on the fluorescence spectrum of human urine. Lasers Surg Med. 2024. PMID:38605494 DOI:10.1002/lsm.23785
+71. Ward M et al. Impact of the common MTHFR 677C→T polymorphism on blood pressure in adulthood and role of riboflavin in modifying the genetic risk of hypertension: evidence from the JINGO project. BMC Med. 2020. PMID:33172445 DOI:10.1186/s12916-020-01780-x
+72. Zhang L et al. The relationship between riboflavin and hypertension with MTHFR C677T in older adults in northern China: a case-control study. Asia Pac J Clin Nutr. 2025. PMID:40738729 DOI:10.6133/apjcn.202508_34(4).0013
+73. Awashra A et al. B vitamins and cardiovascular health: mechanisms, clinical evidence, and precision prevention strategies. Nutr Metab (Lond). 2026. PMID:42067935 DOI:10.1186/s12986-026-01125-0
+74. Bedir AZ et al. Longitudinal riboflavin response in homozygous SLC52A2 p.Pro134Leu: a Turkish kindred with riboflavin transporter deficiency type 2. Neuromuscul Disord. 2026. PMID:42759448 DOI:10.1016/j.nmd.2026.107422
+75. Gayathri S et al. Brown-Vialetto-Van Laere syndrome patients with unusual phenotypes from Indian ethnicity: Functional analysis of clinical variants in SLC52A2 and SLC52A3 genes. Brain Dev. 2025. PMID:40168907 DOI:10.1016/j.braindev.2025.104355
+76. Ma J et al. Genotype-environment interaction drives the onset of riboflavin-responsive multiple acyl-CoA dehydrogenase deficiency in carriers of single heterozygous ETFDH variants. Cell Commun Signal. 2026. PMID:42231330 DOI:10.1186/s12964-026-02972-3
+77. ClinicalTrials.gov. NCT04723836: Optimal Nutrition for Prevention of Hypertension in Pregnancy (active, not recruiting; n=2250). URL:https://clinicaltrials.gov/study/NCT04723836
+78. ClinicalTrials.gov. NCT02463513: RIBOGENE - Optimisation of Riboflavin Status in Hypertensive Adults With a Genetic Predisposition to Elevated Blood Pressure (status unknown). URL:https://clinicaltrials.gov/study/NCT02463513

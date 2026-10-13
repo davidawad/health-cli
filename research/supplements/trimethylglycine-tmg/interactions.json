@@ -6,34 +6,26 @@
     "trimethylglycine",
     "TMG",
     "betaine",
-    "anhydrous betaine"
+    "glycine betaine",
+    "betaine anhydrous",
+    "Cystadane"
   ],
-  "category": "other",
+  "category": "amino-acid",
   "rx_status": "otc",
   "evidence_certainty_overall": "low",
   "edges": [
     {
-      "with": "Vitamin B12",
-      "with_kind": "supplement",
-      "kind": "synergy",
-      "severity": "minor",
-      "mechanism": "B12-dependent methionine synthase and betaine-dependent BHMT are alternate remethylation pathways; a combined regimen trial lowered homocysteine but cannot isolate betaine contribution.",
-      "evidence": "Mechanistic complementarity and combined RCT.",
+      "with": "cystathionine beta-synthase deficiency (classical homocystinuria)",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "major",
+      "mechanism": "Betaine remethylates homocysteine to methionine; in CBS deficiency methionine cannot be cleared via transsulfuration and can reach 1,000-3,000 umol/L, with reported cerebral edema. FDA label: monitor methionine, keep <1,000 umol/L via diet and betaine dose reduction.",
+      "evidence": "FDA label warning plus case reports/review of 19 patients and a crossover RCT suggesting doses >100 mg/kg/day may harm hypermethioninemic patients",
       "citations": [
-        "PMID:36717385",
-        "PMID:3610948"
-      ]
-    },
-    {
-      "with": "Quatrefolic (5-MTHF)",
-      "with_kind": "supplement",
-      "kind": "synergy",
-      "severity": "minor",
-      "mechanism": "Folate-dependent remethylation is complementary to BHMT; combined B vitamin/betaine trial is not a direct TMG-plus-5-MTHF comparison.",
-      "evidence": "Pathway mechanism; indirect clinical evidence.",
-      "citations": [
-        "PMID:36717385",
-        "PMID:3610948"
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=31a684d0-cd98-4e46-b43a-ccbd17c41559",
+        "PMID:32154053",
+        "PMID:11857551",
+        "PMID:36376887"
       ]
     },
     {
@@ -41,16 +33,328 @@
       "with_kind": "condition",
       "kind": "caution",
       "severity": "moderate",
-      "mechanism": "Betaine RCT meta-analysis reports increased total/LDL cholesterol, potentially adverse in dyslipidemia.",
-      "evidence": "Controlled trial meta-analysis.",
+      "mechanism": "Betaine at >=4 g/d raises total and LDL cholesterol (LDL +0.36 mmol/L at 6 g/d; pooled LDL +10.3 mg/dL), potentially offsetting any homocysteine benefit; effect not seen at <4 g/d.",
+      "evidence": "SR/MA of RCTs and pooled RCT data; EFSA used the 4 g/d LDL effect as its reference point",
       "citations": [
-        "PMID:3610948"
+        "PMID:33764214",
+        "PMID:15916468",
+        "PMID:31809615",
+        "PMID:32625349"
+      ]
+    },
+    {
+      "with": "LDL cholesterol",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "True physiological rise in LDL/total cholesterol with gram-dose betaine (evident within 2 weeks at 6 g/d).",
+      "evidence": "RCTs and MA; moderate certainty",
+      "citations": [
+        "PMID:15916468",
+        "PMID:33764214",
+        "PMID:12399266"
+      ]
+    },
+    {
+      "with": "plasma methionine",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Betaine-driven remethylation raises plasma methionine (MD +2.06 umol/L in healthy adults; large rises in CBS deficiency).",
+      "evidence": "SR/MA in healthy adults; label and case series in CBS deficiency",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=31a684d0-cd98-4e46-b43a-ccbd17c41559",
+        "PMID:33764214",
+        "PMID:32154053"
+      ]
+    },
+    {
+      "with": "plasma total homocysteine",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Betaine lowers fasting tHcy (about -1.2 umol/L; 12-20% at 1.5-6 g/d) and blunts the post-methionine-load rise; interpret tHcy results with this in mind.",
+      "evidence": "MA of RCTs; dose-ranging RCT",
+      "citations": [
+        "PMID:23997720",
+        "PMID:14652361",
+        "PMID:12730412"
+      ]
+    },
+    {
+      "with": "dimethylglycine",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "DMG is the direct BHMT product; it rose 16.5-fold with ~10 g/d in prediabetes. Elevated DMG is an observational mortality risk marker in CHD (causality unknown).",
+      "evidence": "RCT biomarker data; observational cohort",
+      "citations": [
+        "PMID:29860335",
+        "PMID:24671904"
+      ]
+    },
+    {
+      "with": "trimethylamine N-oxide (TMAO)",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Betaine is a TMAO precursor; supplementation produced a non-significant TMAO rise; betaine and TMAO were CVD risk predictors in metabolomics cohorts.",
+      "evidence": "Crossover RCT (P=.053) and metabolomics cohort; low certainty",
+      "citations": [
+        "PMID:38876040",
+        "PMID:21475195"
+      ]
+    },
+    {
+      "with": "Quatrefolic (5-MTHF)",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Folate-dependent methionine synthase and betaine-dependent BHMT are parallel remethylation routes; folic acid raises plasma betaine up to 15%, and betaine-homocysteine associations are strongest at low folate status. Folic acid lowers fasting Hcy without raising lipids.",
+      "evidence": "Mechanistic RCT/cohort data; no direct 5-MTHF plus betaine trial",
+      "citations": [
+        "PMID:15941890",
+        "PMID:15550695",
+        "PMID:12730412",
+        "PMID:15916468"
+      ]
+    },
+    {
+      "with": "Vitamin B12",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "B12 is the methionine synthase cofactor; BHMT provides a B12-independent remethylation route. Betaine is combined with hydroxocobalamin in cobalamin defects; low-dose B vitamins plus 1 g betaine lowered Hcy 10.1%.",
+      "evidence": "Guideline (inborn errors) and combination RCT that cannot isolate betaine",
+      "citations": [
+        "PMID:27905001",
+        "PMID:36717385"
+      ]
+    },
+    {
+      "with": "B12 methylcobalamin",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Same complementary remethylation pathways as for Vitamin B12; no trial specific to methylcobalamin plus betaine.",
+      "evidence": "Indirect: guideline and combination RCT",
+      "citations": [
+        "PMID:27905001",
+        "PMID:36717385"
+      ]
+    },
+    {
+      "with": "Vitamin B6",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "B6 drives transsulfuration (CBS/CGL) while betaine drives remethylation; B6 deficiency raises post-load Hcy, and betaine added to folate+pyridoxine lowered post-load Hcy a further 18% in CKD.",
+      "evidence": "Controlled studies; low certainty",
+      "citations": [
+        "PMID:8690790",
+        "PMID:11849459"
+      ]
+    },
+    {
+      "with": "B Complex",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Combined folate/B6/B12 plus betaine lowered Hcy; methyl-donor co-supplementation (betaine HCl + B vitamins) prevented guanidinoacetate-induced hyperhomocysteinemia.",
+      "evidence": "Two RCTs of combination products",
+      "citations": [
+        "PMID:36717385",
+        "PMID:23351309"
+      ]
+    },
+    {
+      "with": "Metformin ER",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Metformin lowers B12 and raises Hcy (+2.02 umol/L without B-vitamin co-supplementation). Betaine's BHMT pathway could theoretically offset the Hcy rise, but no co-administration study exists.",
+      "evidence": "RCTs and MA for metformin effects; betaine interaction is theoretical",
+      "citations": [
+        "PMID:27941660",
+        "PMID:20488910",
+        "PMID:26900641"
+      ]
+    },
+    {
+      "with": "fibrates",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Bezafibrate causes abnormal urinary betaine loss associated with higher plasma homocysteine.",
+      "evidence": "Pooled observational data (32 fibrate-treated patients)",
+      "citations": [
+        "PMID:19653086"
+      ]
+    },
+    {
+      "with": "statins / lipid-lowering therapy",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Betaine >=4 g/d raises LDL, which may partly counter lipid-lowering goals (inferred; no interaction study).",
+      "evidence": "Inferred from MA of RCTs",
+      "citations": [
+        "PMID:33764214",
+        "PMID:15916468"
+      ]
+    },
+    {
+      "with": "Alpha-GPC",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Choline donors are oxidized to betaine; supplemental choline raises plasma betaine, lowers Hcy and (as phosphatidylcholine) raised TG; choline and betaine are both TMAO precursors. Data are for choline bitartrate/phosphatidylcholine, not Alpha-GPC specifically.",
+      "evidence": "RCTs of other choline forms; extrapolated",
+      "citations": [
+        "PMID:22172554",
+        "PMID:16002808",
+        "PMID:21475195"
+      ]
+    },
+    {
+      "with": "MTHFR C677T",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "T-allele carriers had larger serum betaine increases after supplementation; no genotype x dose interaction for performance; no genotype-guided clinical benefit established.",
+      "evidence": "Two crossover RCTs, small",
+      "citations": [
+        "PMID:38876040",
+        "PMID:37409757"
+      ]
+    },
+    {
+      "with": "MTHFR deficiency (severe, inborn)",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Betaine is guideline first-line and an FDA-labelled indication; requires specialist dosing and monitoring of tHcy/methionine.",
+      "evidence": "International guidelines; FDA label",
+      "citations": [
+        "PMID:27905001",
+        "PMID:42231716",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=31a684d0-cd98-4e46-b43a-ccbd17c41559"
+      ]
+    },
+    {
+      "with": "chronic kidney disease",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Betaine did not lower fasting Hcy beyond folate in dialysis/CRF but lowered post-load Hcy; DMG accumulates; lipids rose slightly.",
+      "evidence": "Controlled trials in CKD/ESRD",
+      "citations": [
+        "PMID:10081520",
+        "PMID:11849459",
+        "PMID:12534635"
+      ]
+    },
+    {
+      "with": "pregnancy",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Limited human data; label reports no identified drug-associated risk from case reports; no animal reproduction studies.",
+      "evidence": "FDA label only",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=31a684d0-cd98-4e46-b43a-ccbd17c41559"
       ]
     }
   ],
   "citations": [
-    "PMID:3610948",
+    "PMID:10081520",
+    "PMID:10994156",
+    "PMID:11073719",
+    "PMID:11569700",
+    "PMID:11849459",
+    "PMID:11857551",
+    "PMID:12399266",
+    "PMID:12534635",
+    "PMID:12730412",
+    "PMID:14652361",
+    "PMID:14699020",
+    "PMID:15017331",
+    "PMID:15321791",
+    "PMID:15550695",
+    "PMID:15916468",
+    "PMID:15941890",
+    "PMID:16002808",
+    "PMID:16197300",
+    "PMID:19653086",
+    "PMID:19824078",
+    "PMID:20446114",
+    "PMID:20488910",
+    "PMID:20642826",
+    "PMID:20978525",
+    "PMID:21093336",
+    "PMID:21475195",
+    "PMID:21744011",
+    "PMID:22172554",
+    "PMID:22339686",
+    "PMID:23351309",
+    "PMID:23980906",
+    "PMID:23997720",
+    "PMID:24022817",
+    "PMID:24128557",
+    "PMID:24671904",
+    "PMID:24795654",
+    "PMID:26311810",
+    "PMID:26900641",
+    "PMID:27778219",
+    "PMID:27905001",
+    "PMID:27941660",
+    "PMID:28426517",
+    "PMID:28816346",
+    "PMID:29860335",
+    "PMID:30064450",
+    "PMID:30871635",
+    "PMID:31623137",
+    "PMID:31809615",
+    "PMID:31915809",
+    "PMID:32154053",
+    "PMID:32516959",
+    "PMID:32625349",
+    "PMID:32626284",
+    "PMID:33132631",
+    "PMID:33663545",
+    "PMID:33764214",
+    "PMID:33818349",
+    "PMID:34477469",
+    "PMID:34663363",
+    "PMID:34743773",
+    "PMID:35276860",
+    "PMID:35358327",
+    "PMID:36376887",
     "PMID:36717385",
-    "PMID:38876040"
+    "PMID:37409757",
+    "PMID:37733077",
+    "PMID:38876040",
+    "PMID:39270852",
+    "PMID:39514262",
+    "PMID:39647584",
+    "PMID:40095936",
+    "PMID:40570836",
+    "PMID:40758380",
+    "PMID:40806080",
+    "PMID:40871658",
+    "PMID:40944155",
+    "PMID:41415850",
+    "PMID:41687879",
+    "PMID:41825530",
+    "PMID:42231716",
+    "PMID:42792248",
+    "PMID:42821324",
+    "PMID:42841999",
+    "PMID:6877313",
+    "PMID:8690790",
+    "URL:https://clinicaltrials.gov/study/NCT04633044",
+    "URL:https://clinicaltrials.gov/study/NCT07243678",
+    "URL:https://clinicaltrials.gov/study/NCT07276204",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=31a684d0-cd98-4e46-b43a-ccbd17c41559"
   ]
 }

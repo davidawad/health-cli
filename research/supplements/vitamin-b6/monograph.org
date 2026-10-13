@@ -3,45 +3,217 @@
 :ID: supp-vitamin-b6
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: Vitamin B6 | pyridoxine | pyridoxal-5-phosphate | PLP | pyridoxamine
+:ALIASES: pyridoxine | pyridoxine hydrochloride | pyridoxal 5'-phosphate | P5P | PLP | pyridoxal | pyridoxamine
 :CATEGORY: vitamin
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Vitamin B6 comprises pyridoxine, pyridoxal and pyridoxamine and their phosphorylated forms; pyridoxal-5-phosphate (PLP) is the principal active coenzyme in blood. [URL:https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/]
+- Vitamin B6 is six interconvertible vitamers: pyridoxine (PN), pyridoxal (PL), pyridoxamine (PM) and their 5'-phosphates (PNP, PLP, PMP). Plant foods supply mostly PN/PNP, sometimes as a glucoside; animal tissues mostly PLP/PMP. The main urinary catabolite is 4-pyridoxic acid [URL:https://nap.nationalacademies.org/read/6015/chapter/9].
+- PLP is the coenzyme for more than 100-160 enzymes in amino acid, carbohydrate, lipid and neurotransmitter metabolism [URL:https://nap.nationalacademies.org/read/6015/chapter/9] [PMID:38187791].
+- Pyridoxine HCl vs P5P (PLP):
+  - Pyridoxine hydrochloride is the usual supplement form and the form in the prescription doxylamine-pyridoxine product [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8bde08f6-e8bd-4e90-baa7-82e01876a86a].
+  - PN has to be phosphorylated by pyridoxal kinase (PDXK) and oxidised by the FMN-dependent PNPO enzyme to become PLP [PMID:33912895] [PMID:32805038].
+  - In neuronal cell culture only PN, not PL, PM, PLP or PMP, caused concentration-dependent cell death. PN also competitively inhibited PLP-dependent enzymes ("vitamin B6 paradox") [PMID:28716455]. This is in vitro evidence. No human trial compares neuropathy risk between PN and PLP supplements.
+  - PLP is not authorised as a medicinal product in Europe. Patients with PNPO deficiency therefore rely on less-regulated PLP food supplements [PMID:40751583].
+- Reference intakes (US IOM 1998):
+  - RDA is 1.3 mg/day at ages 19-50, 1.7 mg/day for men over 50 and 1.5 mg/day for women over 50.
+  - RDA is 1.9 mg/day in pregnancy and 2.0 mg/day in lactation.
+  - The RDA is based on keeping plasma PLP at or above 20 nmol/L [URL:https://nap.nationalacademies.org/read/6015/chapter/9].
+- Upper limits:
+  - US IOM UL: 100 mg/day for adults, derived from a NOAEL of 200 mg/day divided by an uncertainty factor of 2. The critical effect is sensory neuropathy [URL:https://nap.nationalacademies.org/read/6015/chapter/9].
+  - EFSA 2023 UL: 12 mg/day for adults, including pregnancy and lactation. EFSA used a reference point of 50 mg/day with an uncertainty factor of 4 (giving 12.5 mg/day), checked it against a dog LOAEL (giving 11.7 mg/day), and rounded down. Children's ULs range from 2.2-2.5 mg/day (4-11 months) to 6.1-10.7 mg/day (7-17 years) [PMID:37207271] [DOI:10.2903/j.efsa.2023.8006].
 
 ** Mechanisms
-- PLP is a coenzyme for amino acid metabolism, neurotransmitter synthesis, hemoglobin synthesis and glycogenolysis. [URL:https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/]
+- PLP-dependent enzymes include:
+  - delta-aminolevulinate synthase (ALAS2; heme synthesis) [URL:https://nap.nationalacademies.org/read/6015/chapter/9] [PMID:40195342];
+  - cystathionine beta-synthase and cystathionase (transsulfuration of homocysteine) [URL:https://nap.nationalacademies.org/read/6015/chapter/9] [PMID:27778219];
+  - aromatic L-amino acid decarboxylase (dopa decarboxylase) [PMID:15965967];
+  - glutamate decarboxylase (GABA synthesis) [PMID:33912895] [PMID:35851507].
+- About a third of mammalian PLP-dependent enzymes are mitochondrial. SLC25A38 is required for PLP to accumulate in mitochondria [PMID:39856062].
+- Riboflavin link: PNPO needs FMN. Poorer riboflavin status (higher EGRac) predicts lower plasma PLP in healthy adults (n=407) and stepwise lower PLP across riboflavin categories (n=5612) [PMID:32805038] [PMID:36264281] [PMID:37603429].
+- Neurotoxicity hypothesis: excess PN inhibits PDXK, causing functional PLP deficiency in peripheral sensory neurons and disturbed GABA signalling [PMID:33912895] [PMID:28716455]. This is consistent with axonal neuropathy in hereditary PDXK deficiency, which responds to PLP [PMID:31187503].
+- Plasma PLP is lowered by inflammation independently of intake. Hypoalbuminaemia, alkaline phosphatase activity and renal function also confound it, so combined or ratio biomarkers (PAr, HK:XA) are proposed [PMID:25974692] [PMID:22623384].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---|---|---|---|---|---|
-| Deficiency | Replacement evidence | benefit | Corrects deficiency and associated clinical manifestations | high | URL:https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/ |
-| Nausea in pregnancy | RCTs/guideline evidence | modest benefit | Pyridoxine sometimes reduces nausea; combination with doxylamine has stronger evidence | moderate | URL:https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/ |
-| Neuropathy prevention/treatment in unselected people | Systematic review | no proven benefit | Evidence does not support routine high-dose use for neuropathy | low | PMID:37447150 |
-| Peripheral neuropathy from excess | Regulatory systematic review | harm | Risk increases with chronic excessive supplemental exposure; adult EFSA UL 12 mg/day | high | PMID:37207271 |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| NVP (pyridoxine alone) | RCT (n=342, 30 mg/d); Cochrane (41 RCTs); NMA (24 RCTs) | Benefit for nausea | Nausea score fell (p=0.0008); vomiting not significant (p=0.055) | low | [PMID:7573262] [PMID:26348534] [PMID:42075106] |
+| NVP (doxylamine-pyridoxine, Diclegis) | RCT (n=280) + reanalysis; factorial RCT (n=352) | Small benefit | PUQE -0.7 to -1.0 vs placebo; below 3-point MCID in reanalysis | moderate | [PMID:20843504] [PMID:29342163] [PMID:37335994] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8bde08f6-e8bd-4e90-baa7-82e01876a86a] |
+| Premenstrual syndrome | SR of 9 RCTs (n=940); SR of 31 RCTs | Possible benefit | OR 2.32 overall symptoms; OR 1.69 depressive symptoms; low trial quality | low | [PMID:10334745] [PMID:38684926] [PMID:25276694] |
+| Cyclic mastalgia | MA (3 RCTs) | No effect | SMD -3.57 (CI -9.15 to 2.01), I2 99.6% | very low | [PMID:40898150] |
+| Carpal tunnel syndrome | Narrative reviews; BMJ Clin Evid SR | Unproven | Flawed, mostly non-electrodiagnostic studies | very low | [PMID:15098856] [PMID:3309020] [PMID:22018420] |
+| Plasma homocysteine | RCTs of B-vitamin combinations | Decrease (mainly from folate/B12) | HOPE-2 -2.4 umol/L; MA -2.36 umol/L | high | [PMID:16531613] [PMID:41615824] |
+| Major CV events | Cochrane (15 RCTs, n=71,422); HOPE-2; NORVIT | No benefit | MI RR 1.02 (0.95-1.10); NORVIT B6+FA+B12 RR 1.22 (1.00-1.50) | high | [PMID:28816346] [PMID:16531613] [PMID:16531614] |
+| Stroke | Cochrane; HOPE-2; VITATOPS | Small reduction (combinations) | RR 0.90 (0.82-0.99); HOPE-2 RR 0.75; VITATOPS RR 0.91 (0.82-1.00) | moderate | [PMID:28816346] [PMID:19228852] [PMID:20688574] |
+| Cancer incidence | Field synopsis (121 obs, 9 RCTs); NORVIT/WENBIT pooled | No benefit in RCTs; inverse association with dietary B6/PLP | Dietary RR 0.78; PLP RR 0.66; B6 arm null in RCTs | low | [PMID:28376200] [PMID:19920236] |
+| Lung cancer (supplement) | VITAL cohort (n=77,118) | Possible harm in men | B6 >20 mg/d HR 1.82 (1.25-2.65) in men | very low | [PMID:28829668] |
+| Hip fracture | NHS cohort (n=75,864) | Possible harm | B6 >=35 mg/d RR 1.29; with high B12 RR 1.47 | very low | [PMID:31074816] |
+| Anxiety / depression | RCTs (100 mg/d, 1 month) | Small benefit, subgroups | Anxiety reduced; depression only in symptomatic subgroup (partial eta2 0.20) | low | [PMID:35851507] [PMID:42569537] |
+| Pyridoxine-dependent epilepsy (ALDH7A1) | Consensus guideline; GeneReviews | Essential therapy | Seizure control; development often impaired | moderate | [PMID:33200442] [PMID:20301659] |
+| PNPO deficiency | SR (30 studies, 49 patients) | PLP effective | 77.6% seizure response; PN ineffective in 30/33 | low | [PMID:40751583] [PMID:35737815] |
+| X-linked sideroblastic anemia | Case series / genetics | Variable response | Anemia responds variably by ALAS2 variant | low | [PMID:27247955] [PMID:39281190] [PMID:40195342] |
+| Isoniazid neuropathy prevention | Clinical studies/SR | Prevention | Pyridoxine prevents INH polyneuropathy | moderate | [PMID:13334809] [PMID:6269259] [PMID:21477422] |
+| Postoperative nausea | RCT (n=240, 200 mg IV) | Benefit | PONV 16.7% vs 35.8%, RR 0.47 | low | [PMID:39729294] |
 
 ** Dosing in trials
-- RDA is 1.3–1.7 mg/day in adults by age/sex. Preeclampsia/nausea and other trials use indication-specific doses. EFSA established adult UL 12 mg/day; U.S. FNB UL differs (100 mg/day). [PMID:37207271, URL:https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/]
+- NVP:
+  - Pyridoxine alone: 30 mg/day for 5 days [PMID:7573262].
+  - Doxylamine 10 mg + pyridoxine 10 mg delayed release: 2 tablets at bedtime, up to 4 tablets/day (40 mg pyridoxine) [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8bde08f6-e8bd-4e90-baa7-82e01876a86a] [PMID:20843504].
+  - Doxylamine 12.5 mg + pyridoxine 25 mg in the ondansetron comparison [PMID:25198265].
+- PMS: up to 100 mg/day [PMID:10334745].
+- Homocysteine/CVD trials (combinations):
+  - HOPE-2: B6 50 mg + folic acid 2.5 mg + B12 1 mg [PMID:16450017] [PMID:19228852].
+  - NORVIT/WENBIT: B6 40 mg, alone or with folic acid 0.8 mg + B12 0.4 mg [PMID:16531614] [PMID:19920236].
+  - VITATOPS: B6 25 mg + folic acid 2 mg + B12 0.5 mg [PMID:20688574].
+- Mood/sensory trials: 100 mg/day pyridoxine for 1 month [PMID:35851507] [PMID:42569537] [PMID:39180365].
+- Magnesium combination: 30 mg B6 with 300 mg magnesium for 8 weeks [PMID:30562392].
+- PDE-ALDH7A1 (guideline): newborns 100 mg/day; infants 30 mg/kg/day (max 300 mg); older patients 30 mg/kg/day (max 500 mg) [PMID:20301659] [PMID:33200442].
+- Oral-contraceptive users with low B6: 10 mg/day for 28 days raised PLP from 25.8 to 143 nmol/L [PMID:26201817].
+- Theophylline-induced low PLP: 10 mg/day for 1 week corrected it [PMID:2535870] [PMID:2231024].
 
 ** Safety & adverse effects
-- Chronic supplemental excess causes sensory peripheral neuropathy; risk is dose- and duration-related and cases have been reported at relatively modest doses. Avoid stacking multivitamins/energy products. [PMID:37207271]
+- Sensory neuropathy is the defining toxicity:
+  - First described in 7 adults on megadoses with ataxia and sensory loss. All improved after withdrawal [PMID:6308447].
+  - It is a predominantly sensory axonal neuropathy that improves after stopping [PMID:37447150] [PMID:33912895].
+- Netherlands (Lareb pharmacovigilance):
+  - 2016: 53 reports, including products within the then 25 mg/day limit [URL:https://www.lareb.nl/en/news/over-50-reports-of-vitamin-b6-in-multi-vitamin-preparations-and-neuropathy/].
+  - 2018 case series: 90 reports, products contained 1.4-100 mg/tablet, serum B6 88-4338 nmol/L. Causality was plausible, including at doses below 50 mg/day [PMID:29737502] [URL:https://www.lareb.nl/en/news/vitamin-b6-in-health-supplements-and-neuropathy].
+  - The Dutch maximum fell to 21 mg/day in October 2018. Of 224 reports up to 2023, only one exceeded 21 mg afterwards, but low-dose cases continue. Dose explained only 15% of the variance in plasma levels [PMID:39888171].
+- Australia (TGA):
+  - Since 1 March 2023, a neuropathy label warning is required above 10 mg/day (previously above 50 mg/day).
+  - The maximum adult daily dose in listed products was cut from 200 to 100 mg.
+  - The review of more than 30 reports found neuropathy below 50 mg/day and with stacked products, with no clear minimum dose or duration.
+  - These points come from the TGA safety alert [URL:https://www.tga.gov.au/news/safety-alerts/health-supplements-containing-vitamin-b6-can-cause-peripheral-neuropathy].
+  - A TGA scheduling decision (final 25 Nov 2025, effective 1 June 2027) keeps oral products at 50 mg/day or less unscheduled. Products above 50 and up to 200 mg/day become pharmacist-only, and products above 200 mg/day prescription-only [URL:https://www.tga.gov.au/news/safety-updates/medicines-containing-vitamin-b6-pyridoxine-pyridoxal-or-pyridoxamine].
+  - Australian clinical reviews and case series (including lung-transplant recipients) document toxicity from OTC products [PMID:40754968] [PMID:41532169].
+- EFSA 2023 set the adult UL at 12 mg/day on the basis of neuropathy [PMID:37207271].
+- Low-dose cases:
+  - Neuropathy with serum B6 259.9 nmol/L while taking only a 6 mg multivitamin [PMID:38098895].
+  - Three cases from B-complex use, one with CNS symptoms and complement abnormalities that resolved [PMID:40418248].
+- Singapore's HSA issued a high-dose B6 neuropathy alert in May 2023. Hospital deprescribing rose from 15.2% to 100% [PMID:40441734].
+- Elite athletes: 38.7% of 654 PLP measurements were above 125 nmol/L, plausibly from supplements [PMID:42730844].
+- Pyridoxine challenge in a neonate with CBS deficiency caused respiratory failure and rhabdomyolysis [PMID:32820583].
+- High-dose PLP in PNPO deficiency: liver toxicity in 20.4% of patients [PMID:40751583], and hepatocellular carcinoma in 2 patients on long-term PLP [PMID:40349651].
+- Observational harm signals (not proven causal): lung cancer in men taking more than 20 mg/day [PMID:28829668]; hip fracture at 35 mg/day or more, especially with high B12 [PMID:31074816]. In NORVIT, B6 alone showed RR 1.14 (0.98-1.32) for CV events [PMID:16531614].
+- Pregnancy (Diclegis label):
+  - Epidemiology, including a meta-analysis of 27 studies, showed no increase in malformations.
+  - Somnolence was 14.3% vs 11.7% on placebo [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8bde08f6-e8bd-4e90-baa7-82e01876a86a].
+  - A factorial RCT reported more small-for-gestational-age births with doxylamine-pyridoxine (OR 3.8, CI 1.0-14.1) [PMID:37335994].
+  - Large cohorts found no neurodevelopmental or malformation signal for pyridoxine or doxylamine [PMID:41327197] [PMID:41980593].
 
 ** Contraindications
-- Avoid prolonged high-dose pyridoxine absent a specific indication; caution with existing neuropathy and levodopa without carbidopa. [URL:https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/]
+- Existing B6-toxicity neuropathy, or unexplained sensory neuropathy with raised B6: stop all B6 sources [PMID:37447150] [PMID:29737502].
+- Levodopa monotherapy without a decarboxylase inhibitor: 10-25 mg pyridoxine can reverse levodopa's effect [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9b17b028-964a-473c-823d-81423535bd66].
+- Diclegis label contraindications are concurrent MAO inhibitors and hypersensitivity to ethanolamine antihistamines or pyridoxine [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8bde08f6-e8bd-4e90-baa7-82e01876a86a].
+- Hypophosphatasia: plasma PLP is already high [PMID:34547524]. Neuropathic pain in HPP has been linked to B6 metabolism (speculative) [PMID:40636590].
 
 ** Interactions
-- Levodopa without carbidopa: pyridoxine can accelerate peripheral levodopa decarboxylation. Isoniazid, cycloserine, hydralazine and penicillamine can lower B6; some antiepileptics affect status. [URL:https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/]
+*** Drugs
+- Levodopa (without carbidopa): pyridoxine speeds peripheral decarboxylation and reduces the effect [PMID:6087425] [PMID:4827061]. Carbidopa blocks this, so carbidopa-levodopa can be given with B6 [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9b17b028-964a-473c-823d-81423535bd66].
+- Carbidopa-levodopa causing B6 depletion:
+  - Carbidopa binds PLP. Human studies show lower B6 biomarkers mainly at high carbidopa exposure, but no threshold or prophylactic dose has been set [PMID:42703450].
+  - Neuropathy has been reported with foslevodopa/foscarbidopa infusion together with B6/B12 deficiency [PMID:41942316] [PMID:35802009].
+- Phenytoin and phenobarbital: pyridoxine lowered their serum concentrations [PMID:55569]. These anti-seizure drugs (with carbamazepine and valproate) can also lower plasma PLP [PMID:35737815].
+- Isoniazid: INH antagonises PLP and causes neuropathy. Pyridoxine prophylaxis is recommended for high-risk groups (e.g. HIV co-infection) [PMID:13334809] [PMID:6269259] [PMID:21477422] [PMID:30285383].
+- Theophylline: noncompetitive pyridoxal kinase inhibitor (Ki 1.28e-5 M) that lowers plasma and red-cell PLP. 10 mg/day pyridoxine corrects this [PMID:2535870] [PMID:2231024] [PMID:22879864].
+- Hydralazine: pyridoxine-deficiency neuropathy has been reported [PMID:5847557].
+- Penicillamine: blocks the tryptophan-niacin pathway through B6 deficiency in Wilson disease [PMID:5262012]. Many drugs inactivate PLP by forming Schiff-base complexes with it [PMID:6342968].
+- Oral contraceptives: low-dose pills only transiently lowered PLP [PMID:2527729]. A subset of users have PLP below 30 nmol/L with functional metabolic changes that 10 mg/day reverses [PMID:26201817].
+- Doxylamine: fixed combination for NVP. CNS depressants and alcohol add to sedation [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8bde08f6-e8bd-4e90-baa7-82e01876a86a].
+*** Other supplements
+- Vitamin B2 (riboflavin): FMN is needed by PNPO. Low riboflavin status lowers PLP [PMID:32805038] [PMID:36264281] [PMID:37603429].
+- Quatrefolic (5-MTHF) and folate: the homocysteine-lowering combination trials used folic acid with B6/B12, which lowered homocysteine but not MI. Stroke fell modestly [PMID:28816346] [PMID:16531613]. Folic acid + B12 (not B6) was linked to more cancer in NORVIT/WENBIT [PMID:19920236].
+- Vitamin B12: high combined B6+B12 intake was associated with hip fracture [PMID:31074816] and, from single-nutrient supplements, lung cancer in men [PMID:28829668]. NORVIT combined arm RR 1.22 [PMID:16531614].
+- B Complex and multivitamins: stacking products drives cumulative exposure. Cases occur at 6 mg/day and with B-complex use [PMID:38098895] [PMID:40418248] [URL:https://www.lareb.nl/en/news/over-50-reports-of-vitamin-b6-in-multi-vitamin-preparations-and-neuropathy/].
+- Magnesium: Mg+B6 was not superior to Mg alone for stress overall [PMID:30562392]. TGA advises checking for hidden B6 in magnesium and zinc products [URL:https://www.tga.gov.au/news/safety-alerts/health-supplements-containing-vitamin-b6-can-cause-peripheral-neuropathy].
+- Trimethylglycine (TMG, betaine): in CBS deficiency, pyridoxine responders are treated with B6, while non-responders need betaine and diet [PMID:27778219] [PMID:40095936].
+*** Conditions
+- Pregnancy: NVP is an established use (see above). EFSA's 12 mg/day UL also applies in pregnancy [PMID:37207271].
+- Pyridoxine-dependent epilepsy, PNPO deficiency, CBS deficiency, X-linked sideroblastic anemia and primary hyperoxaluria type 1 (G170R) are pharmacological B6 indications under specialist care [PMID:33200442] [PMID:40751583] [PMID:27778219] [PMID:40195342] [PMID:24797341].
+- Primary sclerosing cholangitis: B6 deficiency (PLP <20 nmol/L) in 25-50% of patients predicted worse transplant-free survival [PMID:42002000].
+- Hypophosphatasia: diagnostic PLP elevation, so do not supplement on the basis of the B6 level [PMID:40047955] [PMID:34547524].
+*** Lab-test interference
+- Supplements raise plasma B6/PLP well above reference. In Lareb cases the mean was 907 nmol/L against a 51-183 nmol/L reference range [URL:https://www.lareb.nl/en/news/vitamin-b6-in-health-supplements-and-neuropathy] [PMID:29737502].
+- High PLP is a diagnostic marker of hypophosphatasia (low ALP, high PLP, high PEA) [PMID:30049651] [PMID:40047955].
+  - Supplement use confounds this marker. In fibromyalgia patients with low ALP, 31% had high PLP but none had ALPL variants [PMID:41037513].
+  - PLP correlates inversely with ALP [PMID:30049651] and falls during pregnancy in carriers as placental ALP rises [PMID:7706447].
+- Low PLP can reflect inflammation rather than intake (PLP 61 vs 80 nmol/L across inflammation tertiles) [PMID:22623384]. Interpret alongside CRP, albumin, ALP and renal function [PMID:25974692].
+- Theophylline lowers erythrocyte ALT/AST activity by 70%/50% through PLP depletion [PMID:2231024].
 
-** Latest research (last 24 months)
-- EFSA 2023 systematic assessment set adult UL at 12 mg/day based on neuropathy; Australia’s 2025 regulatory notice described continued adverse event monitoring for B6 neuropathy. [PMID:37207271]
+** Genotype notes
+- ALPL: GWAS identified rs4654748 (p=8.3e-18) as the main locus for serum B6, probably through catabolism [PMID:19303062]. Pathogenic ALPL variants cause hypophosphatasia with high PLP [PMID:34547524].
+- ALDH7A1 (PDE), PNPO and PDXK: inborn errors needing lifelong PN or PLP [PMID:20301659] [PMID:24645144] [PMID:31187503].
+- ALAS2: variant-dependent pyridoxine responsiveness in X-linked sideroblastic anemia [PMID:27247955] [PMID:39281190].
+- CBS: variant determines pyridoxine responsiveness [PMID:40095936]. AGXT G170R homozygotes with PH1 respond to pyridoxine [PMID:24797341].
+- MTHFR: the relation between riboflavin status and PLP was examined by MTHFR genotype [PMID:36264281].
+- COMT: the low-activity allele predicted motor response to high-dose pyridoxine in Parkinson's disease on levodopa (small study) [PMID:15965967].
+
+** Latest research
+- [2026-09] Elite athletes: 38.7% of PLP results were above 125 nmol/L. Total intake above 21 mg/day was flagged as a toxicity risk [PMID:42730844].
+- [2026-08] Scoping review: B6 depletion on carbidopa/levodopa is plausible, but there is no causal threshold or prophylactic dose [PMID:42703450].
+- [2026-08] RCT: 100 mg/day B6 reduced depressive symptoms only in symptomatic participants [PMID:42569537].
+- [2026-04] Foslevodopa/foscarbidopa infusion: 4 cases of worsened neuropathy with B6/B12 deficiency [PMID:41942316].
+- [2026-04] Multinational PSC cohorts: low PLP predicts transplant or death and decompensation [PMID:42002000].
+- [2026-04] NVP network MA (24 RCTs): B6 among effective options; low-to-moderate certainty [PMID:42075106].
+- [2026-04] MotherToBaby cohort: NVP medications are not associated with malformations [PMID:41980593].
+- [2026-03] Review of classical and novel PDE-ALDH7A1 biomarkers [PMID:42072608].
+- [2026-01] Pyridoxine toxicity in lung-transplant recipients [PMID:41532169].
+- [2026-01] MA of 13 studies in CHD: B vitamins lower homocysteine (-2.36 umol/L) without reducing MACE or CV death [PMID:41615824].
+- [2025-12] Korean cohort (n=630,904): no neurodevelopmental signal for prenatal pyridoxine [PMID:41327197].
+- [2025-10] Mouse proof of principle: AASS inhibition as a PDE therapy [PMID:41221123]. Hypophosphatasia screening in fibromyalgia: PLP elevated without ALPL variants [PMID:41037513].
+- [2025-09] SR of PLP in PNPO deficiency: 77.6% respond; liver toxicity in 20.4% [PMID:40751583]. Mastalgia MA was null [PMID:40898150].
+- [2025-08] Australian GP review of pyridoxine toxicity from OTC supplements [PMID:40754968].
+- [2025-06] Neuropathic pain in adult hypophosphatasia linked to B6 metabolism [PMID:40636590].
+- [2025-05] B-complex neurotoxicity case review [PMID:40418248]. Deprescribing project in Singapore [PMID:40441734]. Hepatocellular carcinoma on long-term PLP [PMID:40349651].
+- [2025-04] Pyridoxine 200 mg IV halved postoperative nausea and vomiting (RCT) [PMID:39729294]. ALAS2 genetics in X-linked sideroblastic anemia [PMID:40195342].
+- [2025-03] Hypophosphatasia diagnosis review lists PLP as a key substrate [PMID:40047955].
+- [2025-02] Lareb: the 21 mg cap changed reporting, but low-dose cases persist [PMID:39888171]. PMS SR supports B6 for psychological symptoms [PMID:38684926].
+- [2025-01] SLC25A38 is the mitochondrial PLP carrier [PMID:39856062]. E-HOD registry on CBS treatment [PMID:40095936]. Ontario Diclectin dispensing time-series [PMID:39843186]. PDE newborn screening feasibility [PMID:39729892].
+- [2024-12] RCT: 100 mg/day B6 reduced sensory over-responsivity [PMID:39180365].
 
 ** Open questions
-- Clarify susceptible individuals, low-dose duration thresholds, and whether PLP formulations differ meaningfully in neurotoxicity risk.
+- The true dose threshold for neuropathy. Cases occur well below 50 mg/day, and plasma levels correlate poorly with dose [PMID:39888171] [PMID:38098895].
+- Whether PLP or PL supplements are less neurotoxic than pyridoxine in humans. The evidence is only in vitro [PMID:28716455].
+- Whether the efficacy of doxylamine-pyridoxine is clinically meaningful [PMID:29342163] [PMID:24798673].
+- Whether the observational lung cancer and hip fracture signals at high doses are causal [PMID:28829668] [PMID:31074816].
+- Whether B6 lowers stroke risk independently of folic acid and B12 [PMID:28816346] [PMID:32503038].
+- Monitoring and prophylaxis for B6 depletion with carbidopa-containing infusions [PMID:42703450].
 
 ** Sources
-- NIH ODS. Vitamin B6: Health Professional Fact Sheet. [https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/]
-- EFSA NDA Panel. Scientific opinion on tolerable upper intake level for vitamin B6. EFSA J. 2023. [https://pubmed.ncbi.nlm.nih.gov/37207271/]
-- Muhamad R et al. The Role of Vitamin B6 in Peripheral Neuropathy: A Systematic Review. Nutrients. 2023. [https://pubmed.ncbi.nlm.nih.gov/37447150/]
+1. EFSA NDA Panel. Scientific opinion on the tolerable upper intake level for vitamin B6. EFSA J. 2023. PMID:37207271 DOI:10.2903/j.efsa.2023.8006
+2. Institute of Medicine. Dietary Reference Intakes ... Chapter 7 Vitamin B6. National Academies Press. 1998. URL:https://nap.nationalacademies.org/read/6015/chapter/9
+3. DICLEGIS (doxylamine succinate and pyridoxine hydrochloride) label. DailyMed. 2025. URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8bde08f6-e8bd-4e90-baa7-82e01876a86a
+4. SINEMET (carbidopa and levodopa) label. DailyMed. 2026. URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9b17b028-964a-473c-823d-81423535bd66
+5. Lareb. Vitamin B6 in health supplements and neuropathy. 2018. URL:https://www.lareb.nl/en/news/vitamin-b6-in-health-supplements-and-neuropathy
+6. Lareb. Over 50 reports of vitamin B6 in (multi) vitamin preparations and neuropathy. 2016. URL:https://www.lareb.nl/en/news/over-50-reports-of-vitamin-b6-in-multi-vitamin-preparations-and-neuropathy/
+7. TGA. Health supplements containing vitamin B6 can cause peripheral neuropathy. URL:https://www.tga.gov.au/news/safety-alerts/health-supplements-containing-vitamin-b6-can-cause-peripheral-neuropathy
+8. TGA. Medicines containing vitamin B6 (pyridoxine, pyridoxal or pyridoxamine). URL:https://www.tga.gov.au/news/safety-updates/medicines-containing-vitamin-b6-pyridoxine-pyridoxal-or-pyridoxamine
+9. van Hunsel F et al. Vitamin B6 in Health Supplements and Neuropathy: Case Series Assessment of Spontaneously Reported Cases. Drug Saf. 2018. PMID:29737502 DOI:10.1007/s40264-018-0664-0
+10. van Hunsel F et al. Impact of Regulatory Action on Dose Maximalization for Vitamin B6 Dietary Supplements on the Reporting Pattern for Neuropathy. Pharmacoepidemiol Drug Saf. 2025. PMID:39888171 DOI:10.1002/pds.70108
+11. Hadtstein F, Vrolijk M. Vitamin B-6-Induced Neuropathy: Exploring the Mechanisms of Pyridoxine Toxicity. Adv Nutr. 2021. PMID:33912895 DOI:10.1093/advances/nmab033
+12. Muhamad R et al. The Role of Vitamin B6 in Peripheral Neuropathy: A Systematic Review. Nutrients. 2023. PMID:37447150 DOI:10.3390/nu15132823
+13. Vrolijk MF et al. The vitamin B6 paradox. Toxicol In Vitro. 2017. PMID:28716455 DOI:10.1016/j.tiv.2017.07.009
+14. Schaumburg H et al. Sensory neuropathy from pyridoxine abuse. N Engl J Med. 1983. PMID:6308447 DOI:10.1056/NEJM198308253090801
+15. Lonn E et al. Homocysteine lowering with folic acid and B vitamins in vascular disease (HOPE-2). N Engl J Med. 2006. PMID:16531613 DOI:10.1056/NEJMoa060900
+16. Bonaa KH et al. Homocysteine lowering and cardiovascular events after acute myocardial infarction (NORVIT). N Engl J Med. 2006. PMID:16531614 DOI:10.1056/NEJMoa055227
+17. VITATOPS Trial Study Group. B vitamins in patients with recent TIA or stroke. Lancet Neurol. 2010. PMID:20688574 DOI:10.1016/S1474-4422(10)70187-3
+18. Marti-Carvajal AJ et al. Homocysteine-lowering interventions for preventing cardiovascular events. Cochrane Database Syst Rev. 2017. PMID:28816346 DOI:10.1002/14651858.CD006612.pub5
+19. Koren G et al. Effectiveness of delayed-release doxylamine and pyridoxine for NVP: RCT. Am J Obstet Gynecol. 2010. PMID:20843504 DOI:10.1016/j.ajog.2010.07.030
+20. Persaud N et al. Doxylamine-pyridoxine for NVP RCT: prespecified analyses and reanalysis. PLoS One. 2018. PMID:29342163 DOI:10.1371/journal.pone.0189978
+21. Mocellin S et al. Vitamin B6 and Cancer Risk: A Field Synopsis and Meta-Analysis. J Natl Cancer Inst. 2017. PMID:28376200 DOI:10.1093/jnci/djw230
+22. Brasky TM et al. Long-term supplemental one-carbon metabolism-related vitamin B use and lung cancer risk (VITAL). J Clin Oncol. 2017. PMID:28829668 DOI:10.1200/JCO.2017.72.7735
+23. Wyatt KM et al. Efficacy of vitamin B-6 in the treatment of premenstrual syndrome: systematic review. BMJ. 1999. PMID:10334745 DOI:10.1136/bmj.318.7195.1375
+24. Coughlin CR 2nd et al. Consensus guidelines for PDE-ALDH7A1. J Inherit Metab Dis. 2021. PMID:33200442 DOI:10.1002/jimd.12332
+25. Stolwijk NN et al. Effectiveness of Pyridoxal-5'-Phosphate in PNPO Deficiency: A Systematic Review. J Inherit Metab Dis. 2025. PMID:40751583 DOI:10.1002/jimd.70074
+26. Jarrett H et al. Vitamin B-6 and riboflavin, their metabolic interaction, and MTHFR genotype. Am J Clin Nutr. 2022. PMID:36264281 DOI:10.1093/ajcn/nqac240
+27. Whyte MP et al. Hypophosphatasia: Vitamin B6 status of affected children and adults. Bone. 2022. PMID:34547524 DOI:10.1016/j.bone.2021.116204
+28. Tanaka T et al. Genome-wide association study of vitamin B6, vitamin B12, folate, and homocysteine blood concentrations. Am J Hum Genet. 2009. PMID:19303062 DOI:10.1016/j.ajhg.2009.02.011
+29. Ueland PM et al. Direct and Functional Biomarkers of Vitamin B6 Status. Annu Rev Nutr. 2015. PMID:25974692 DOI:10.1146/annurev-nutr-071714-034330
+30. Ubbink JB et al. Theophylline-induced vitamin B6 deficiency by noncompetitive inhibition of pyridoxal kinase. J Lab Clin Med. 1989. PMID:2535870
+31. Hansson O, Sillanpaa M. Pyridoxine and serum concentration of phenytoin and phenobarbitone. Lancet. 1976. PMID:55569 DOI:10.1016/s0140-6736(76)91385-4
+32. Meyer HE et al. High intakes of vitamins B6 and B12 and hip fracture in the Nurses' Health Study. JAMA Netw Open. 2019. PMID:31074816 DOI:10.1001/jamanetworkopen.2019.3591
+33. Field DT et al. High Dose Vitamin B6 Reduces Depression Symptoms. Depress Anxiety. 2026. PMID:42569537 DOI:10.1155/da/8926512
+34. Sielaff P et al. Potential vitamin B6 depletion during carbidopa/levodopa therapy: scoping review. Cureus. 2026. PMID:42703450 DOI:10.7759/cureus.114123
+35. Chelban V et al. PDXK mutations cause polyneuropathy responsive to PLP supplementation. Ann Neurol. 2019. PMID:31187503 DOI:10.1002/ana.25524

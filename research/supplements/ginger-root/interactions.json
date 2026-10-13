@@ -3,30 +3,323 @@
   "supplement": "Ginger Root",
   "slug": "ginger-root",
   "aliases": [
-    "Zingiber officinale"
+    "Zingiber officinale",
+    "ginger",
+    "ginger rhizome",
+    "Zingiberis rhizoma",
+    "dried ginger",
+    "steamed ginger extract",
+    "GGE03"
   ],
   "category": "botanical",
   "rx_status": "otc",
-  "evidence_certainty_overall": "low",
+  "evidence_certainty_overall": "moderate",
   "edges": [
     {
-      "with": "anticoagulants",
+      "with": "vitamin K antagonists (warfarin, phenprocoumon)",
       "with_kind": "drug-class",
       "kind": "caution",
       "severity": "moderate",
-      "mechanism": "Potential additive platelet inhibition and bleeding risk; clinical evidence is limited.",
-      "evidence": "Safety evidence from human reviews.",
+      "mechanism": "Possible potentiation of anticoagulation and bleeding; proposed antiplatelet and pharmacokinetic mechanisms. A controlled PK/PD study in healthy men found no INR or warfarin clearance change.",
+      "evidence": "Case report (phenprocoumon, INR 10 with epistaxis, probable causality); prospective warfarin cohort (ginger bleeding OR 3.20); crossover PK/PD study null; systematic reviews list ginger among bleeding-risk herbs; low certainty",
       "citations": [
-        "PMID:41123858"
+        "PMID:14742762",
+        "PMID:17723077",
+        "PMID:15801937",
+        "PMID:32478963",
+        "PMID:39288907"
+      ]
+    },
+    {
+      "with": "direct oral anticoagulants",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Additive bleeding tendency theoretically possible; review notes food-herb interactions may also be relevant for DOACs.",
+      "evidence": "Evidence review without ginger-specific DOAC data; very low certainty",
+      "citations": [
+        "PMID:39288907"
+      ]
+    },
+    {
+      "with": "antiplatelet agents",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Gingerols inhibit arachidonic-acid-dependent platelet aggregation in vitro; human platelet data equivocal (4 of 8 trials positive).",
+      "evidence": "Systematic review of platelet studies; bleeding review rates ginger evidence conflicting; low certainty",
+      "citations": [
+        "PMID:26488162",
+        "PMID:36304597"
+      ]
+    },
+    {
+      "with": "NSAIDs",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Both Zingiberaceae extracts and NSAIDs have been associated with heightened bleeding risk; no comparator trials of combined risk.",
+      "evidence": "Meta-analysis discussion; very low certainty",
+      "citations": [
+        "PMID:25972154"
+      ]
+    },
+    {
+      "with": "nifedipine",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Ginger potentiated the anti-platelet-aggregation effect of nifedipine (1 g ginger + 10 mg nifedipine); additive blood-pressure lowering also plausible.",
+      "evidence": "Small human platelet study in hypertensive patients and volunteers; BP MA",
+      "citations": [
+        "PMID:16883626",
+        "PMID:42566667"
+      ]
+    },
+    {
+      "with": "antidiabetic agents",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Ginger lowers fasting glucose and HbA1c in T2D; additive glucose lowering possible.",
+      "evidence": "MAs of RCTs (FBS -16.27 mg/dL, HbA1c -0.41%); heterogeneous; no direct interaction study",
+      "citations": [
+        "PMID:42337792",
+        "PMID:35031435",
+        "PMID:41195902"
+      ]
+    },
+    {
+      "with": "Metformin ER",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Additive glucose lowering possible given ginger's FBS/HbA1c reductions in T2D trials (many participants on background metformin).",
+      "evidence": "Inferred from MAs; no direct interaction study",
+      "citations": [
+        "PMID:42337792",
+        "PMID:35031435"
+      ]
+    },
+    {
+      "with": "antihypertensives",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Modest additive BP reduction (SBP about -5 mmHg).",
+      "evidence": "GRADE-low MA of 12 RCTs",
+      "citations": [
+        "PMID:42566667",
+        "PMID:35031435"
+      ]
+    },
+    {
+      "with": "tacrolimus",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Ginger constituents inhibit CYP3A4 and P-gp in vitro, which could raise tacrolimus exposure; a renal-transplant case found no trough change with 10 g/d for 4 days.",
+      "evidence": "Review, in-vitro data and single case report; very low certainty",
+      "citations": [
+        "PMID:36297591",
+        "PMID:37586787",
+        "PMID:37134183"
+      ]
+    },
+    {
+      "with": "CYP3A4/P-gp substrates with narrow therapeutic index",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "In-vitro inhibition of CYP3A4, 2C9, 1A2, 2B6, P-gp and BCRP by ginger extract and constituents at concentrations potentially reached in the gut.",
+      "evidence": "In-vitro study plus kinase-inhibitor case report; very low certainty",
+      "citations": [
+        "PMID:37134183",
+        "PMID:30701569"
+      ]
+    },
+    {
+      "with": "crizotinib",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Reported pharmacokinetic herb-drug interaction with serious consequences, consistent with CYP3A4 inhibition.",
+      "evidence": "Single case report",
+      "citations": [
+        "PMID:30701569",
+        "PMID:37134183"
+      ]
+    },
+    {
+      "with": "Garlic",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Stacking bleeding-associated supplements; garlic strongly associated with surgical bleeding, ginger evidence conflicting.",
+      "evidence": "Narrative review; very low certainty",
+      "citations": [
+        "PMID:36304597"
+      ]
+    },
+    {
+      "with": "Turmeric",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Turmeric is associated with bleeding in anticoagulated patients and, like ginger, is listed as a putative CYP3A4 inhibitor (tacrolimus).",
+      "evidence": "Reviews and case report (no tacrolimus change); very low certainty",
+      "citations": [
+        "PMID:36304597",
+        "PMID:36297591",
+        "PMID:37586787"
+      ]
+    },
+    {
+      "with": "CoQ10",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "In warfarin users both CoQ10 (OR 3.69) and ginger (OR 3.20) were independently associated with self-reported bleeding; use of more than one CAM was itself a risk factor.",
+      "evidence": "Prospective cohort (n=171); low certainty",
+      "citations": [
+        "PMID:17723077"
+      ]
+    },
+    {
+      "with": "Ginkgo biloba",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Both listed among herbs increasing bleeding risk with warfarin; neither altered warfarin PK/PD in healthy men.",
+      "evidence": "Systematic review and crossover study; very low certainty",
+      "citations": [
+        "PMID:32478963",
+        "PMID:15801937"
+      ]
+    },
+    {
+      "with": "pregnancy",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Effective for nausea of pregnancy; cohorts show no excess malformations, one small confounded cohort had a borderline stillbirth signal; EU HMPC advises against use for lack of adequate data while NCCIH says it may be safe.",
+      "evidence": "MAs of RCTs, MoBa cohort (n=68,522), Korean cohort, regulator texts",
+      "citations": [
+        "PMID:24642205",
+        "PMID:22706624",
+        "PMID:25093607",
+        "URL:https://www.ema.europa.eu/en/medicines/herbal/zingiberis-rhizoma",
+        "URL:https://www.nccih.nih.gov/health/ginger"
+      ]
+    },
+    {
+      "with": "lactation",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Insufficient safety data; EU HMPC advises against use while breastfeeding.",
+      "evidence": "Regulator statements only",
+      "citations": [
+        "URL:https://www.ema.europa.eu/en/medicines/herbal/zingiberis-rhizoma",
+        "URL:https://www.nccih.nih.gov/health/ginger"
+      ]
+    },
+    {
+      "with": "children",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "minor",
+      "mechanism": "EU HMPC: not for children under 6 (motion sickness) or under 18 (other indications) due to lack of data.",
+      "evidence": "Regulator monograph",
+      "citations": [
+        "URL:https://www.ema.europa.eu/en/medicines/herbal/zingiberis-rhizoma"
+      ]
+    },
+    {
+      "with": "surgery / bleeding disorders",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Equivocal antiplatelet activity; review advises stopping non-essential supplements 2 weeks before surgery.",
+      "evidence": "Narrative review and platelet SR",
+      "citations": [
+        "PMID:36304597",
+        "PMID:26488162"
+      ]
+    },
+    {
+      "with": "INR",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Not an assay artifact; ginger may truly raise INR in patients on vitamin K antagonists.",
+      "evidence": "Case report and evidence review",
+      "citations": [
+        "PMID:14742762",
+        "PMID:39288907"
       ]
     }
   ],
   "citations": [
+    "PMID:11275030",
+    "PMID:12576305",
+    "PMID:14742762",
+    "PMID:15801937",
+    "PMID:16883626",
+    "PMID:17723077",
+    "PMID:18403946",
+    "PMID:18708382",
+    "PMID:21218090",
+    "PMID:21818642",
+    "PMID:22706624",
+    "PMID:24642205",
+    "PMID:25093607",
+    "PMID:25300574",
+    "PMID:25972154",
+    "PMID:26228533",
+    "PMID:26348534",
+    "PMID:26488162",
+    "PMID:2683568",
+    "PMID:27000311",
+    "PMID:27701665",
+    "PMID:28666335",
+    "PMID:30701569",
+    "PMID:31937153",
+    "PMID:32478963",
+    "PMID:32763761",
+    "PMID:3277342",
+    "PMID:34312974",
+    "PMID:34700257",
+    "PMID:35031435",
+    "PMID:35147170",
+    "PMID:36297591",
+    "PMID:36304597",
+    "PMID:36501010",
+    "PMID:36786398",
+    "PMID:37134183",
+    "PMID:37586787",
+    "PMID:37699474",
     "PMID:38261398",
-    "PMID:41123858",
-    "PMID:38261398",
-    "PMID:41123858",
+    "PMID:38625733",
+    "PMID:38770631",
     "PMID:39053695",
-    "PMID:39343171"
+    "PMID:39212491",
+    "PMID:39288907",
+    "PMID:40732990",
+    "PMID:40806131",
+    "PMID:40808693",
+    "PMID:40878144",
+    "PMID:41101746",
+    "PMID:41123858",
+    "PMID:41195902",
+    "PMID:41599979",
+    "PMID:42075106",
+    "PMID:42095787",
+    "PMID:42337792",
+    "PMID:42566667",
+    "PMID:42613614",
+    "PMID:9815340",
+    "URL:https://www.ema.europa.eu/en/medicines/herbal/zingiberis-rhizoma",
+    "URL:https://www.nccih.nih.gov/health/ginger"
   ]
 }

@@ -3,49 +3,201 @@
 :ID: supp-ginger-root
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: Zingiber officinale
+:ALIASES: Zingiber officinale | ginger | ginger rhizome | Zingiberis rhizoma | dried ginger | steamed ginger extract | GGE03
 :CATEGORY: botanical
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Ginger root is rhizome of Zingiber officinale, used as food, powder, extracts and standardized gingerols/shogaols. [PMID:38261398]
+- Ginger is the rhizome of Zingiber officinale Roscoe (Zingiberaceae). It is used as a food spice and sold as dried rhizome powder in capsules, teas and standardized extracts [PMID:35147170] [PMID:26228533].
+- Main pungent bioactives are gingerols (6-, 8-, 10-gingerol). These dehydrate on heating or drying to shogaols (e.g. 6-shogaol), which are used as quality-control markers [PMID:26228533].
+- Pharmacokinetics: after single oral doses of 100 mg-2.0 g, no free gingerols or shogaols were found in plasma, only glucuronide and sulfate conjugates. At 2.0 g, 6-gingerol conjugate Cmax was about 0.85 ug/mL, tmax about 1 h and elimination half-life under 2 h [PMID:18708382].
+- Products used in trials:
+  - Dried rhizome powder capsules, most often 0.5-2 g/d [PMID:35147170] [PMID:21818642].
+  - Standardized extracts, e.g. 84 mg/d gingerols/shogaols [PMID:37699474], 160 mg/d standardized extract [PMID:28666335], and 125 mg/d CO2/fermented extract with 10% gingerols [PMID:40732990].
+  - Steamed ginger extract GGE03, standardized to 1-dehydro-6-gingerdione, at 480 mg/d [PMID:41599979] [PMID:40878144] [PMID:39212491].
+- Regulatory status: EU HMPC recognizes "well-established use" of powdered rhizome to prevent nausea and vomiting in motion sickness. It lists traditional use for mild spasmodic GI complaints, loss of appetite, minor joint pain and cold symptoms [URL:https://www.ema.europa.eu/en/medicines/herbal/zingiberis-rhizoma].
+- Products differ widely in content, and poor reporting of interventions limits comparison across trials [PMID:35147170].
 
 ** Mechanisms
-- Proposed biological activity and the best-established physiological context are described above; clinical mechanisms remain uncertain where outcome evidence is limited. ["PMID:38261398"]
+- Antiemetic action appears to be peripheral and GI rather than central or vestibular:
+  - Ginger did not alter vestibular or optokinetic nystagmus, whereas dimenhydrinate did [PMID:2683568].
+  - In circular-vection motion sickness, 1-2 g reduced tachygastria and the rise in plasma vasopressin [PMID:12576305].
+- Gastric motility: 1.2 g accelerated gastric emptying (half-emptying time 13.1 vs 26.7 min) and increased antral contractions in healthy volunteers [PMID:18403946]. It also sped emptying in functional dyspepsia without changing symptoms or gut peptides [PMID:21218090].
+- Anti-inflammatory and antioxidant effects: in RCT meta-analyses, CRP, TNF-alpha, IL-6 and MDA fall and TAC and SOD rise [PMID:41123858] [PMID:32763761]. 
+- Platelet effects: gingerols inhibit arachidonic-acid pathways in vitro. Human studies are split: 4 of 8 clinical trials found reduced platelet aggregation and 4 found no effect [PMID:26488162].
+- Drug-metabolism effects (in vitro): ginger extract and its constituents strongly inhibited CYP3A4, 2C9, 1A2 and 2B6, P-gp and BCRP, and activated PXR and AhR. Intestinal concentrations at recommended doses could exceed CYP IC50 values [PMID:37134183].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | Certainty | Citations |
-|---|---|---|---|---|---|
-| Primary studied clinical/biomarker outcomes | Systematic review/meta-analysis or RCT synthesis | Meta-analysis of 27 RCTs (n=1,309) found small changes in weight (−1.52 kg) and BMI (−0.58 kg/m²), with low/very-low certainty | See narrative | low | PMID:38261398; PMID:41123858 |
-| Long-term clinical outcomes | Evidence insufficient or mixed | No established benefit | Not established | very low | PMID:38261398; PMID:41123858 |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Nausea of pregnancy | SR/MA (12 RCTs, n=1278; 13 studies, n=1174); Cochrane; JAMA SR; umbrella review; 2026 NMA | Benefit for nausea; vomiting not significantly reduced; similar to vitamin B6 | Nausea MD 1.20 (95% CI 0.56-1.84) vs placebo; nausea SMD 0.82 (0.59-1.06); vomiting SMD 0.55 (-0.27 to 1.37); vs B6 SMD 0.20 (-0.10 to 0.50) | moderate | [PMID:24642205] [PMID:31937153] [PMID:26348534] [PMID:27701665] [PMID:35147170] [PMID:42075106] |
+| Chemotherapy-induced nausea/vomiting (adjunct to antiemetics) | SR/MA (35 RCTs); SR/MA (23 RCTs); large RCTs (n=576; n=244; n=103) | Mixed; possible benefit for acute nausea or severe CINV | Grade 3 acute nausea RR 0.19; high-grade vomiting RR 0.47; another MA found no overall effect (acute vomiting OR 0.30 only at <=1 g/d); cisplatin RCT null | low | [PMID:38625733] [PMID:36501010] [PMID:21818642] [PMID:28666335] [PMID:37699474] [PMID:42613614] |
+| Postoperative nausea/vomiting | SR/MA (14 RCTs, n=1506; 14 RCTs, n=1417); Bayesian NMA (54 RCTs) | Less nausea; vomiting and PONV incidence inconsistent | Nausea SMD -1.10 to -2.04 at 2-12 h; nausea MD -0.71 (-1.37 to -0.06); rescue antiemetic RR 0.71 (0.62-0.82); NMA GRADE low/very low | low | [PMID:34700257] [PMID:34312974] [PMID:42095787] |
+| Motion sickness / seasickness | Small RCTs (n=80 cadets; n=13 crossover); comparative trial (n=1489, no placebo) | Possible benefit | Vomiting protection index 72%; nausea/vertigo not significant; similar to six antiemetics at sea | low | [PMID:3277342] [PMID:12576305] [PMID:9815340] |
+| Primary dysmenorrhea pain | SR/MA (12 RCTs pooled); Cochrane | Benefit | Pain intensity SMD -1.13 (-1.59 to -0.68; I2 81%); no difference vs NSAIDs (SMD 0.01); Cochrane MD -1.55 points (3 RCTs, low quality) | low | [PMID:38770631] [PMID:27000311] |
+| Osteoarthritis pain/disability | MA of 5 placebo RCTs (n=593); NMA (39 RCTs); later MA | Small benefit | Pain SMD -0.30 (-0.50 to -0.09); disability SMD -0.22 (-0.39 to -0.04) | low | [PMID:25300574] [PMID:40806131] [PMID:35147170] |
+| Fasting glucose / HbA1c in T2D | MA (13 RCTs, 2026); MA (10 RCTs); smaller MA (5 RCTs) null | Decrease, heterogeneous | FBS MD -16.27 mg/dL (-25.75 to -6.80); HbA1c -0.41% (-0.63 to -0.20); I2 86-92%; 5-RCT MA non-significant | low | [PMID:42337792] [PMID:35031435] [PMID:39053695] [PMID:41195902] |
+| Blood lipids | MA of RCTs | Small TG/TC decrease; LDL/HDL inconsistent | TC SMD -0.44; TG SMD -0.61; LDL/HDL not significant; T2D: TG -17.1 mg/dL, HDL +2.13 mg/dL | low | [PMID:36786398] [PMID:42337792] [PMID:41195902] |
+| Inflammation / oxidative-stress markers | Dose-response MA (29 RCTs); MA (16 RCTs) | Decrease | CRP -0.86 mg/L; TNF-alpha -1.90 pg/mL; IL-6 -1.15 pg/mL; high heterogeneity | low | [PMID:41123858] [PMID:32763761] |
+| Blood pressure | GRADE dose-response MA (12 RCTs, 2026) | Modest decrease | SBP -5.03 mmHg (-8.49 to -1.57); DBP -2.03 mmHg; GRADE low; larger at >=2 g/d | low | [PMID:42566667] [PMID:35031435] |
+| Body weight / composition | GRADE MA (27 RCTs, n=1309); MA (36 RCTs) | Small or null | Weight -1.52 kg; BMI -0.58 (low/very low); 2025 MA: no effect on weight/BMI, WC -0.65 cm | very low | [PMID:38261398] [PMID:41101746] |
+| Gastric emptying / functional dyspepsia | Crossover RCTs (n=24; n=11); 12-wk RCT of steamed extract (n=80) | Faster emptying; symptom benefit inconsistent | T1/2 13.1 vs 26.7 min; GSRS improved with GGE03 | low | [PMID:18403946] [PMID:21218090] [PMID:40878144] |
 
 ** Dosing in trials
-- Trials often used 1.2–2 g/day powder for 4–12 weeks; effective body-mass dose-response estimate ~2 g/day. [PMID:39053695] [PMID:38261398]
+- Nausea of pregnancy: about 1 g/d for at least 4 days [PMID:11275030]. Lower doses below 1500 mg/d looked better in subgroup analysis [PMID:24642205], and 500-1500 mg/d in divided doses is typical [PMID:40808693].
+- CINV:
+  - 0.5, 1.0 or 1.5 g/d for 6 days starting 3 days before chemotherapy; 0.5-1.0 g gave the largest reduction [PMID:21818642].
+  - 84 mg/d gingerols/shogaols for 5 days per cycle [PMID:37699474].
+  - 160 mg/d standardized extract was ineffective with high-dose cisplatin [PMID:28666335].
+- PONV: usually a single preoperative dose in trials pooled by [PMID:34312974] [PMID:34700257].
+- Motion sickness: 1 g powdered rhizome before exposure [PMID:3277342]; 1-2 g in a laboratory model [PMID:12576305].
+- Dysmenorrhea: powder taken during the first days of menses in pooled RCTs [PMID:38770631].
+- Osteoarthritis: extracts and powders over weeks to months [PMID:25300574]; steamed extract 0.48 g/d for 12 weeks [PMID:39212491].
+- Metabolic outcomes: 1.2-2 g/d powder for 4-12 weeks [PMID:39053695]. The umbrella review found 0.5-3 g/d in capsules for up to 3 months consistently effective [PMID:35147170]. Effects on BP were larger at >=2 g/d [PMID:42566667].
 
 ** Safety & adverse effects
-- Heartburn, abdominal discomfort, diarrhea and mouth/throat irritation; supplement safety data in pregnancy less robust than food use. [PMID:39343171]
+- Generally well tolerated. Reported effects are heartburn, abdominal discomfort, diarrhea and mouth/throat irritation [URL:https://www.nccih.nih.gov/health/ginger]. Belching was noted in pregnancy trials [PMID:40808693].
+- OA meta-analysis: people on ginger were more than twice as likely to stop treatment (RR 2.33, 1.04-5.22), mostly because of GI complaints [PMID:25300574].
+- CINV RCTs reported no serious adverse events [PMID:37699474] and no safety difference vs placebo [PMID:28666335]. A 2026 SR noted two studies with worse CINV on ginger [PMID:42613614].
+- Pregnancy:
+  - RCT meta-analysis: no significant excess of spontaneous abortion vs placebo (RR 3.14, 0.65-15.11; wide CI) or vs vitamin B6 [PMID:24642205].
+  - Norwegian MoBa cohort (n=68,522; 1,020 exposed): no increase in malformations, stillbirth/perinatal death, preterm birth, low birth weight or low Apgar [PMID:22706624].
+    - Korean cohort of dried-ginger exposure (n=159): borderline stillbirth signal (OR 7.8, 0.9-70.3), confounded by co-exposure to other herbs [PMID:25093607].
+  - EU HMPC monograph advises against use in pregnancy and breastfeeding because data are inadequate [URL:https://www.ema.europa.eu/en/medicines/herbal/zingiberis-rhizoma].
+- Bleeding:
+  - Platelet evidence is equivocal [PMID:26488162]. A bleeding-risk review rates the evidence for ginger as conflicting [PMID:36304597].
+  - Warfarin users: ginger was independently associated with self-reported bleeding (OR 3.20, 2.42-4.24) in a prospective cohort [PMID:17723077].
+- Liver injury: no consistent signal in the retrieved literature. GGE03 trials reported no clinically significant laboratory changes [PMID:41599979] [PMID:40878144].
 
 ** Contraindications
-- Caution with gallstone disease and bleeding-risk medicines; pregnancy evidence is specific to nausea and products/doses. [PMID:39343171]
+- Allergy to ginger [URL:https://www.ema.europa.eu/en/medicines/herbal/zingiberis-rhizoma].
+- Pregnancy and lactation: regulators differ. EU HMPC advises against use for lack of adequate data [URL:https://www.ema.europa.eu/en/medicines/herbal/zingiberis-rhizoma]. NCCIH says use in pregnancy "may be safe" and that little is known for breastfeeding [URL:https://www.nccih.nih.gov/health/ginger]. Cohort data are reassuring [PMID:22706624].
+- Children: EU HMPC does not recommend use under 6 years for motion sickness or under 18 for other indications [URL:https://www.ema.europa.eu/en/medicines/herbal/zingiberis-rhizoma].
+- Active bleeding or upcoming surgery: a review advises stopping non-essential supplements 2 weeks before surgery [PMID:36304597].
+- Gallstones: this caution is often repeated in secondary sources, but no retrieved primary source or regulator text (EMA, NCCIH) supports it, so no contraindication is asserted here.
 
 ** Interactions
-- Possible additive antiplatelet effect; may lower glucose or blood pressure, so monitor when combined with corresponding drugs (interaction evidence limited). [PMID:41123858]
+*** Drugs
+- Vitamin K antagonists (warfarin, phenprocoumon):
+  - A crossover PK/PD study in 12 healthy men found no change in INR, S-/R-warfarin clearance or platelet aggregation [PMID:15801937].
+  - Case report: phenprocoumon user reached INR 10 with epistaxis, causality "probable" [PMID:14742762].
+  - Prospective warfarin cohort: bleeding OR 3.20 [PMID:17723077].
+  - Reviews list ginger among herbs that increase bleeding risk [PMID:32478963]. A 2025 evidence review says even small quantities may potentiate warfarin [PMID:39288907].
+  - Check INR more often.
+- Direct oral anticoagulants: the anticoagulant review notes food-herb interactions may also matter for DOACs, but has no ginger-specific DOAC data [PMID:39288907].
+- Antiplatelet agents and NSAIDs: ginger's antiplatelet effect is equivocal [PMID:26488162]. Zingiberaceae extracts and NSAIDs have both been linked to higher bleeding risk, with no comparative trials [PMID:25972154].
+- Nifedipine: in hypertensive patients and volunteers, ginger potentiated nifedipine's antiplatelet effect (1 g ginger + 10 mg nifedipine) [PMID:16883626]. It may also add to BP lowering [PMID:42566667].
+- Antidiabetic drugs, including metformin: FBS and HbA1c reductions in T2D [PMID:42337792] [PMID:35031435] mean glucose lowering may be additive. Monitor glucose. No direct interaction study.
+- Antihypertensives: modest BP reduction [PMID:42566667], so additive effect is possible but minor.
+- Tacrolimus:
+  - A review lists ginger with grapefruit and turmeric as CYP3A4 inhibitors that may raise tacrolimus levels [PMID:36297591].
+  - In a renal-transplant case, 10 g/d ginger for 4 days did not change tacrolimus trough levels [PMID:37586787].
+  - In-vitro CYP3A4/P-gp inhibition provides the mechanism [PMID:37134183].
+  - Monitor trough levels.
+- CYP3A4/P-gp substrates with narrow therapeutic index, including oral kinase inhibitors: in-vitro inhibition [PMID:37134183] and a case report of a serious ginger-crizotinib pharmacokinetic interaction [PMID:30701569].
+*** Other supplements
+- Garlic: a bleeding review links garlic strongly to surgical bleeding and rates ginger evidence as conflicting [PMID:36304597]. Stacking adds exposure to bleeding risk.
+- Turmeric: associated with bleeding in anticoagulated patients [PMID:36304597]. It shares putative CYP3A4 inhibition with ginger [PMID:36297591]. The two were co-tested in a tacrolimus case without effect [PMID:37586787].
+- CoQ10: in warfarin users, CoQ10 (OR 3.69) and ginger (OR 3.20) were each independently associated with bleeding, and using more than one CAM product was itself a risk factor [PMID:17723077].
+- Ginkgo biloba: listed with ginger among herbs that raise bleeding risk with warfarin [PMID:32478963]. Neither changed warfarin PK/PD in healthy men [PMID:15801937].
+*** Conditions
+- Pregnancy, lactation, children, perioperative period: see Contraindications.
+- Diabetes, especially on glucose-lowering drugs: glucose may fall [PMID:42337792].
+- Bleeding disorders: equivocal antiplatelet activity [PMID:26488162] [PMID:36304597].
+*** Lab-test interference
+- No assay artifact was found. Ginger may genuinely change INR in patients on vitamin K antagonists [PMID:14742762] [PMID:39288907], as well as glucose/HbA1c [PMID:42337792], lipids [PMID:36786398] and CRP [PMID:41123858].
 
 ** Genotype notes
-- No cited pharmacogenomic or nutrigenomic source was identified in the sources reviewed; no genotype-specific claim is made.
+No cited pharmacogenomic or nutrigenomic source found.
 
 ** Latest research
-- 2025–2026 literature: 2025 dose-response meta-analysis of 29 RCTs evaluated oxidative and inflammatory biomarkers. [PMID:41123858]
+- [2026-08] BP dose-response MA (12 RCTs): SBP -5.03, DBP -2.03 mmHg; GRADE low; larger effects at >=2 g/d [PMID:42566667].
+- [2026-08] SR of ginger in oncology supportive care (24 studies, n=2409): heterogeneous; two studies found worse CINV [PMID:42613614].
+- [2026-06] T2D cardiometabolic MA (13 RCTs): FBS -16.27 mg/dL, HbA1c -0.41%, TG -17.1 mg/dL; effects of limited clinical importance [PMID:42337792].
+- [2026-05] PONV Bayesian NMA (54 RCTs, n=8275): ginger ranked best for nausea severity; GRADE low/very low [PMID:42095787].
+- [2026-04] NVP NMA (24 RCTs, n=3017): ginger among effective non-pharmacological options; adverse-event reporting sparse [PMID:42075106].
+- [2026-01] RCT of steamed ginger extract GGE03 (n=80): lower body fat, weight, TG and TC; no product-related AEs [PMID:41599979].
+- [2025-11] SR/MA of CINV (35 RCTs): ginger capsules with antiemetics cut grade 3 acute nausea (RR 0.19) [PMID:38625733].
+- [2025-11] Cardiovascular-biomarker SR/MA (41 RCTs): FBS -12.79 mg/dL, HbA1c -0.68%, SBP -2.72 mmHg [PMID:41195902].
+- [2025-10] Inflammation dose-response MA (29 RCTs): CRP -0.86 mg/L; non-linear IL-6 dose-response [PMID:41123858].
+- [2025-10] Obesity MA (36 RCTs): no effect on weight/BMI; small reductions in WC and body fat [PMID:41101746].
+- [2025-09] RCT of GGE03 in functional dyspepsia (n=80): improved GSRS scores [PMID:40878144].
+- [2025-08] Knee OA NMA (39 RCTs): ginger benefited some outcomes; Boswellia ranked highest [PMID:40806131].
+- [2025-07] RCT (n=30): 125 mg/d extract improved joint pain/function and inflammatory markers [PMID:40732990].
+- [2025-07] Review of meta-analyses: 500-1500 mg/d for NVP; belching as a side effect [PMID:40808693].
+- [2024-12] Body-composition GRADE MA (27 RCTs): weight -1.52 kg, low/very low certainty [PMID:38261398].
+- [2024-11] Dysmenorrhea MA: pain SMD -1.13, comparable to NSAIDs [PMID:38770631].
+- [2024-10] T2D glycemic MA (5 RCTs): no significant pooled FBS/HbA1c effect [PMID:39053695].
 
 ** Open questions
-- Whether findings translate into durable patient-important outcomes, optimal formulation/dose, and long-term safety remains uncertain. [PMID:38261398; PMID:41123858]
+- Clinical size of the bleeding interaction with anticoagulants. A controlled PK/PD study was null, but case reports and cohort data suggest risk.
+- Optimal standardized product and dose. Gingerol/shogaol content varies, and trials use powders, extracts and steamed extracts interchangeably.
+- Whether ginger adds benefit to modern NK1/5-HT3 antiemetic regimens for CINV. Large RCTs disagree.
+- Whether the borderline stillbirth signal from one Korean cohort (confounded by other herbs) is real. Larger cohorts did not reproduce it.
+- Whether in-vitro CYP3A4/P-gp inhibition translates into clinically relevant interactions in humans (e.g. tacrolimus, kinase inhibitors).
+- Durability and clinical relevance of the small glycemic, lipid and BP effects. Most trials are short, small and highly heterogeneous.
+- The gallstone contraindication found in secondary literature lacks a retrieved primary source.
 
 ** Sources
-- PMID:38261398
-- PMID:41123858
-- PMID:38261398
-- PMID:41123858
-- PMID:39053695
-- PMID:39343171
+1. Viljoen E et al. A systematic review and meta-analysis of the effect and safety of ginger in the treatment of pregnancy-associated nausea and vomiting. Nutr J. 2014. PMID:24642205 DOI:10.1186/1475-2891-13-20
+2. Hu Y et al. Effect of ginger in the treatment of nausea and vomiting compared with vitamin B6 and placebo during pregnancy: a meta-analysis. J Matern Fetal Neonatal Med. 2022. PMID:31937153 DOI:10.1080/14767058.2020.1712714
+3. Matthews A et al. Interventions for nausea and vomiting in early pregnancy. Cochrane Database Syst Rev. 2015. PMID:26348534 DOI:10.1002/14651858.CD007575.pub4
+4. McParlin C et al. Treatments for Hyperemesis Gravidarum and Nausea and Vomiting in Pregnancy: A Systematic Review. JAMA. 2016. PMID:27701665 DOI:10.1001/jama.2016.14337
+5. Frivaldszky L et al. Comparative Effectiveness of Pharmacological and Non-Pharmacological Interventions for Nausea and Vomiting in Pregnancy: SR and NMA. Nutrients. 2026. PMID:42075106 DOI:10.3390/nu18081293
+6. Vutyavanich T et al. Ginger for nausea and vomiting in pregnancy: randomized, double-masked, placebo-controlled trial. Obstet Gynecol. 2001. PMID:11275030 DOI:10.1016/s0029-7844(00)01228-x
+7. Heitmann K et al. Safety of ginger use in pregnancy: results from a large population-based cohort study. Eur J Clin Pharmacol. 2013. PMID:22706624 DOI:10.1007/s00228-012-1331-5
+8. Choi JS et al. Assessment of fetal and neonatal outcomes in the offspring of women treated with dried ginger during pregnancy. J Obstet Gynaecol. 2015. PMID:25093607 DOI:10.3109/01443615.2014.941342
+9. Lin CY et al. Efficacy and Safety of Ginger on Chemotherapy-Induced Nausea and Vomiting: SR and MA of RCTs. Cancer Nurs. 2025. PMID:38625733 DOI:10.1097/NCC.0000000000001355
+10. Choi J et al. Effects of Ginger Intake on Chemotherapy-Induced Nausea and Vomiting: A Systematic Review of Randomized Clinical Trials. Nutrients. 2022. PMID:36501010 DOI:10.3390/nu14234982
+11. Crichton M et al. Effect of a Standardized Ginger Root Powder Regimen on Chemotherapy-Induced Nausea and Vomiting: Multicenter Double-Blind RCT. J Acad Nutr Diet. 2024. PMID:37699474 DOI:10.1016/j.jand.2023.09.003
+12. Bossi P et al. A randomized, double-blind, placebo-controlled, multicenter study of a ginger extract in CINV in patients receiving high-dose cisplatin. Ann Oncol. 2017. PMID:28666335 DOI:10.1093/annonc/mdx315
+13. Ryan JL et al. Ginger (Zingiber officinale) reduces acute chemotherapy-induced nausea: a URCC CCOP study of 576 patients. Support Care Cancer. 2012. PMID:21818642 DOI:10.1007/s00520-011-1236-3
+14. Burg SC et al. Ginger in supportive therapy against side effects of oncological treatment: a systematic review. BMC Complement Med Ther. 2026. PMID:42613614 DOI:10.1186/s12906-026-05530-z
+15. Lu C et al. The preventive and relieving effects of ginger on postoperative nausea and vomiting: SR and MA of RCTs. Int J Nurs Stud. 2022. PMID:34700257 DOI:10.1016/j.ijnurstu.2021.104094
+16. Zhu W et al. Efficacy of Ginger in Preventing Postoperative Nausea and Vomiting: A Systematic Review and Meta-Analysis. J Nurs Scholarsh. 2021. PMID:34312974 DOI:10.1111/jnu.12691
+17. Guo Y et al. Efficacy of Different Nonpharmacological Interventions as Adjunctive Treatments for PONV: SR and Bayesian NMA. J Perianesth Nurs. 2026. PMID:42095787 DOI:10.1016/j.jopan.2026.03.004
+18. Grontved A et al. Ginger root against seasickness. A controlled trial on the open sea. Acta Otolaryngol. 1988. PMID:3277342 DOI:10.3109/00016488809119444
+19. Holtmann S et al. The anti-motion sickness mechanism of ginger. A comparative study with placebo and dimenhydrinate. Acta Otolaryngol. 1989. PMID:2683568 DOI:10.3109/00016488909125515
+20. Lien HC et al. Effects of ginger on motion sickness and gastric slow-wave dysrhythmias induced by circular vection. Am J Physiol Gastrointest Liver Physiol. 2003. PMID:12576305 DOI:10.1152/ajpgi.00164.2002
+21. Schmid R et al. Comparison of Seven Commonly Used Agents for Prophylaxis of Seasickness. J Travel Med. 1994. PMID:9815340 DOI:10.1111/j.1708-8305.1994.tb00596.x
+22. Moshfeghinia R et al. Ginger for Pain Management in Primary Dysmenorrhea: A Systematic Review and Meta-Analysis. J Integr Complement Med. 2024. PMID:38770631 DOI:10.1089/jicm.2023.0799
+23. Pattanittum P et al. Dietary supplements for dysmenorrhoea. Cochrane Database Syst Rev. 2016. PMID:27000311 DOI:10.1002/14651858.CD002124.pub2
+24. Bartels EM et al. Efficacy and safety of ginger in osteoarthritis patients: a meta-analysis of randomized placebo-controlled trials. Osteoarthritis Cartilage. 2015. PMID:25300574 DOI:10.1016/j.joca.2014.09.024
+25. Zhang Y et al. Comparative Effectiveness of Nutritional Supplements in the Treatment of Knee Osteoarthritis: A Network Meta-Analysis. Nutrients. 2025. PMID:40806131 DOI:10.3390/nu17152547
+26. Baek HI et al. Effectiveness and safety of steamed ginger extract on mild osteoarthritis: a randomized, double-blind, placebo-controlled clinical trial. Food Funct. 2024. PMID:39212491 DOI:10.1039/d4fo01640h
+27. Broeckel J et al. Effects of Ginger Supplementation on Markers of Inflammation and Functional Capacity in Individuals with Mild to Moderate Joint Pain. Nutrients. 2025. PMID:40732990 DOI:10.3390/nu17142365
+28. Lakhan SE et al. Zingiberaceae extracts for pain: a systematic review and meta-analysis. Nutr J. 2015. PMID:25972154 DOI:10.1186/s12937-015-0038-8
+29. Schumacher JC et al. The effect of oral supplementation of ginger on glycemic control of patients with type 2 diabetes mellitus: SR and MA. Clin Nutr ESPEN. 2024. PMID:39053695 DOI:10.1016/j.clnesp.2024.07.011
+30. Ebrahimzadeh A et al. The effect of ginger supplementation on metabolic profiles in patients with type 2 diabetes mellitus: SR and MA of RCTs. Complement Ther Med. 2022. PMID:35031435 DOI:10.1016/j.ctim.2022.102802
+31. Chen X et al. Meta-analysis of the effects of ginger supplementation on glycemic control, blood pressure and lipid profile in patients with type 2 diabetes. Syst Rev. 2026. PMID:42337792 DOI:10.1186/s13643-026-03251-5
+32. Rjabi S et al. Ginger (Zingiber Officinale) Supplementation and Biomarkers of Cardiovascular Disease - A Systematic Review. J Diet Suppl. 2026. PMID:41195902 DOI:10.1080/19390211.2025.2583512
+33. Salih AK et al. Effect of ginger (Zingiber officinale) intake on human serum lipid profile: Systematic review and meta-analysis. Phytother Res. 2023. PMID:36786398 DOI:10.1002/ptr.7769
+34. Rjabi S et al. Antioxidant and anti-inflammatory effects of ginger supplementation in adults: GRADE-assessed SR and dose-response MA of RCTs. Inflammopharmacology. 2025. PMID:41123858 DOI:10.1007/s10787-025-01994-6
+35. Morvaridzadeh M et al. Effect of ginger (Zingiber officinale) on inflammatory markers: SR and MA of RCTs. Cytokine. 2020. PMID:32763761 DOI:10.1016/j.cyto.2020.155224
+36. Karimi M et al. Ginger Supplementation and Blood Pressure in Adults: GRADE-Based SR and Dose-Response MA of RCTs. J Hum Nutr Diet. 2026. PMID:42566667 DOI:10.1111/jhn.70329
+37. Rafieipour N et al. Ginger intervention on body weight and body composition in adults: GRADE-assessed SR and dose-response MA of 27 RCTs. Nutr Rev. 2024. PMID:38261398 DOI:10.1093/nutrit/nuad149
+38. Rjabi S et al. Impact of ginger supplementation on obesity indices and adipokine profiles in adults: GRADE-based SR and dose-response MA. Complement Ther Med. 2025. PMID:41101746 DOI:10.1016/j.ctim.2025.103260
+39. Kwon JE et al. Efficacy and Safety of Steamed Ginger Extract for Body Weight and Body Fat Reduction in Overweight Adults: RCT. Nutrients. 2026. PMID:41599979 DOI:10.3390/nu18020366
+40. Wu KL et al. Effects of ginger on gastric emptying and motility in healthy humans. Eur J Gastroenterol Hepatol. 2008. PMID:18403946 DOI:10.1097/MEG.0b013e3282f4b224
+41. Hu ML et al. Effect of ginger on gastric motility and symptoms of functional dyspepsia. World J Gastroenterol. 2011. PMID:21218090 DOI:10.3748/wjg.v17.i1.105
+42. Baek HI et al. Efficacy and safety of steamed ginger extract for gastric health: a randomized, double-blind, placebo-controlled multi-center trial. Food Funct. 2025. PMID:40878144 DOI:10.1039/d5fo01172h
+43. Crichton M et al. Orally consumed ginger and human health: an umbrella review. Am J Clin Nutr. 2022. PMID:35147170 DOI:10.1093/ajcn/nqac035
+44. Paudel KR et al. Pharmacological properties of ginger (Zingiber officinale): what do meta-analyses say? A systematic review. Front Pharmacol. 2025. PMID:40808693 DOI:10.3389/fphar.2025.1619655
+45. Tan CSS, Lee SWH. Warfarin and food, herbal or dietary supplement interactions: A systematic review. Br J Clin Pharmacol. 2021. PMID:32478963 DOI:10.1111/bcp.14404
+46. Jiang X et al. Effect of ginkgo and ginger on the pharmacokinetics and pharmacodynamics of warfarin in healthy subjects. Br J Clin Pharmacol. 2005. PMID:15801937 DOI:10.1111/j.1365-2125.2005.02322.x
+47. Kruth P et al. Ginger-associated overanticoagulation by phenprocoumon. Ann Pharmacother. 2004. PMID:14742762 DOI:10.1345/aph.1D225
+48. Talasaz AH et al. Pharmacokinetic and Pharmacodynamic Interactions between Food or Herbal Products and Oral Anticoagulants: Evidence Review. Semin Thromb Hemost. 2025. PMID:39288907 DOI:10.1055/s-0044-1790258
+49. Shalansky S et al. Risk of warfarin-related bleeding events and supratherapeutic INRs associated with complementary and alternative medicine. Pharmacotherapy. 2007. PMID:17723077 DOI:10.1592/phco.27.9.1237
+50. Hatfield J et al. Dietary supplements and bleeding. Proc (Bayl Univ Med Cent). 2022. PMID:36304597 DOI:10.1080/08998280.2022.2121575
+51. Marx W et al. The Effect of Ginger (Zingiber officinale) on Platelet Aggregation: A Systematic Literature Review. PLoS One. 2015. PMID:26488162 DOI:10.1371/journal.pone.0141119
+52. Young HY et al. Synergistic effect of ginger and nifedipine on human platelet aggregation: a study in hypertensive patients and normal volunteers. Am J Chin Med. 2006. PMID:16883626 DOI:10.1142/S0192415X06004089
+53. Boissiere C et al. Spice-drug interactions: a case report on the use of turmeric, curry and ginger in a renal transplant patient on tacrolimus. Eur J Hosp Pharm. 2023. PMID:37586787 DOI:10.1136/ejhpharm-2023-003871
+54. Miedziaszczyk M et al. Controversial Interactions of Tacrolimus with Dietary Supplements, Herbs and Food. Pharmaceutics. 2022. PMID:36297591 DOI:10.3390/pharmaceutics14102154
+55. Husain I et al. Evaluation of the Herb-Drug Interaction (HDI) Potential of Zingiber officinale and Its Major Phytoconstituents. J Agric Food Chem. 2023. PMID:37134183 DOI:10.1021/acs.jafc.2c07912
+56. Revol B et al. Pharmacokinetic herb-drug interaction between ginger and crizotinib. Br J Clin Pharmacol. 2020. PMID:30701569 DOI:10.1111/bcp.13862
+57. Semwal RB et al. Gingerols and shogaols: Important nutraceutical principles from ginger. Phytochemistry. 2015. PMID:26228533 DOI:10.1016/j.phytochem.2015.07.012
+58. Zick SM et al. Pharmacokinetics of 6-gingerol, 8-gingerol, 10-gingerol, and 6-shogaol and conjugate metabolites in healthy human subjects. Cancer Epidemiol Biomarkers Prev. 2008. PMID:18708382 DOI:10.1158/1055-9965.EPI-07-2934
+59. European Medicines Agency, HMPC. Zingiberis rhizoma (ginger) herbal medicine summary. [URL:https://www.ema.europa.eu/en/medicines/herbal/zingiberis-rhizoma]
+60. NIH NCCIH. Ginger: Usefulness and Safety. [URL:https://www.nccih.nih.gov/health/ginger]

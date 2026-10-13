@@ -3,48 +3,200 @@
 :ID: supp-epa-dha-dpa
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: omega-3 fatty acids | eicosapentaenoic acid | docosahexaenoic acid | docosapentaenoic acid
+:ALIASES: omega-3 fatty acids | n-3 PUFA | long-chain omega-3 | fish oil | algal oil | eicosapentaenoic acid | docosahexaenoic acid | docosapentaenoic acid | icosapent ethyl | Vascepa | omega-3-acid ethyl esters | Lovaza | Omacor | omega-3 carboxylic acids
 :CATEGORY: other
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Long-chain omega-3 polyunsaturated fatty acids include EPA, DHA, and DPA; fish oil and algal oils differ in composition and formulations. Prescription EPA products are distinct from OTC mixed oils. [URL:https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/]
+- Long-chain marine omega-3 polyunsaturated fatty acids: eicosapentaenoic acid (EPA, 20:5n-3), docosahexaenoic acid (DHA, 22:6n-3) and docosapentaenoic acid (DPA, 22:5n-3). Category "other" was chosen because these are essential fatty acids, not vitamins or minerals. Both OTC and prescription forms exist; RX_STATUS reflects the OTC fish/algal oils that most users take.
+- DPA is a minor constituent of fish oil. Only two human studies have used pure n-3 DPA (1-2 g/day). Blood DPA rises within 3-4 days, and DPA behaves biologically more like DHA than EPA [PMID:33315722]. No outcome trial has dosed DPA separately.
+- OTC forms: fish oil triglycerides or ethyl esters, concentrates, and algal oils, typically about 1 g capsules. Label accuracy and oxidation vary. In New Zealand, 69% of 32 products contained <67% of the labelled EPA+DHA and 83% exceeded peroxide limits [PMID:25604397]. A 2016 Australian/NZ survey using accredited labs found all 10 products met label claims [PMID:27827947].
+- Prescription forms (FDA labels):
+  - Icosapent ethyl (Vascepa): purified EPA ethyl ester, 4 g/day. Indicated with maximally tolerated statins to reduce MI, stroke, revascularization and unstable angina in adults with TG >=150 mg/dL plus established CVD, or diabetes with >=2 risk factors. Also indicated for TG >=500 mg/dL [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9c1a2828-1583-4414-ab22-a60480e8e508].
+  - Omega-3-acid ethyl esters (Lovaza/Omacor): each 1 g capsule has about 465 mg EPA and 375 mg DHA ethyl esters. Indicated only for TG >=500 mg/dL; the label states the effect on cardiovascular morbidity and mortality has not been determined [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=21cfa4ce-0b05-47ed-b268-339eb1b83b75].
+  - Omega-3 carboxylic acids (Epanova; EPA+DHA free fatty acids) were tested in EVOLVE II and STRENGTH [PMID:29289538] [PMID:33190147].
+- Regulatory intake reference: EFSA found no basis for a UL. Combined EPA+DHA up to 5 g/day and EPA alone up to 1.8 g/day raise no safety concern for adults; 250-500 mg/day is the cardiovascular dietary recommendation [PMID:42016086]. In 2026 EFSA kept a safe level of 1 g/day for supplemental DHA alone, for all ages including pregnancy [PMID:41542352].
 
 ** Mechanisms
-- Proposed biological activity and the best-established physiological context are described above; clinical mechanisms remain uncertain where outcome evidence is limited. ["PMID:41445624"]
+- Triglyceride lowering: EPA and DHA reduce hepatic VLDL-TG production and lower fasting and postprandial TG. DHA is retroconverted to EPA, but EPA is not converted to DHA in humans [PMID:28797250]. The Vascepa label lists increased beta-oxidation, DGAT inhibition, lower hepatic lipogenesis and higher lipoprotein lipase activity as possible mechanisms [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9c1a2828-1583-4414-ab22-a60480e8e508].
+- EPA vs DHA lipid effects differ. DHA raises LDL-C (+7.23 mg/dL vs placebo) and HDL-C, while EPA does not raise LDL-C [PMID:21975919].
+- Inflammation: across 96 trials, EPA+DHA lowered arachidonic acid, CRP, TNF-alpha and IL-6. Doses of 1-3 g/day gave the most consistent cytokine reductions [PMID:41568426]. EPA, DHA and DPA give rise to specialized pro-resolving mediators (resolvins, protectins, maresins) [PMID:33315722].
+- Hemostasis: omega-3s may reduce platelet aggregation and thromboxane A2. Bleeding-time prolongation in trials stayed within normal limits [PMID:22300597] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=21cfa4ce-0b05-47ed-b268-339eb1b83b75].
+- Atrial arrhythmia: a review proposes dose-dependent vagal-tone effects as the explanation for the biphasic link between omega-3 intake and AF [PMID:39617283]. In OMEMI, the rise in serum EPA (not DHA) mediated 65% of the excess AF [PMID:37515843].
+- The REDUCE-IT benefit is not fully explained by TG lowering. The mineral-oil comparator raised IL-1beta, IL-6, hsCRP, oxidized LDL and LDL-C, which may have exaggerated the between-group difference [PMID:35762321].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | Certainty | Citations |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
 |---|---|---|---|---|---|
-| Primary studied clinical/biomarker outcomes | Systematic review/meta-analysis or RCT synthesis | Meta-analysis of 38 RCTs (149,051 people) found modest reduction in several cardiovascular outcomes, stronger for EPA-only than EPA+DHA; AF increased (RR 1.26) | See narrative | low | PMID:41445624; PMID:39076869 |
-| Long-term clinical outcomes | Evidence insufficient or mixed | No established benefit | Not established | very low | PMID:41445624; PMID:39076869 |
+| MACE, high-dose purified EPA (statin-treated, high TG) | REDUCE-IT (n=8179); JELIS (open-label); RESPECT-EPA (open-label) | Benefit; comparator debated | REDUCE-IT HR 0.75 (0.68-0.83); JELIS -19% major coronary events; RESPECT-EPA HR 0.79 (0.62-1.00) | moderate | [PMID:30415628] [PMID:17398308] [PMID:38873793] [PMID:35762321] |
+| MACE, high-dose EPA+DHA (carboxylic acids 4 g/d) | STRENGTH (n=13,078) | Null | HR 0.99 (0.90-1.09); stopped for futility | high | [PMID:33190147] |
+| MACE, ~1 g/d EPA+DHA (primary prevention) | VITAL (n=25,871); ASCEND (n=15,480 with diabetes) | Null; MI possibly lower | VITAL HR 0.92 (0.80-1.06), total MI HR 0.72 (0.59-0.90); ASCEND RR 0.97 (0.87-1.08) | high | [PMID:30415637] [PMID:30146932] |
+| MACE, elderly post-MI (1.8 g/d) | OMEMI (n=1027) | Null | HR 1.08 (0.82-1.41) | moderate | [PMID:33191772] |
+| Cardiovascular mortality (all formulations) | Cochrane (86 RCTs); MAs of 38 and 16 RCTs | Small reduction; larger with EPA alone | Cochrane RR 0.92 (0.86-0.99); EPA HR 0.79 (0.67-0.94) vs EPA/DHA 0.92 (0.84-1.00) | moderate | [PMID:32114706] [PMID:34505026] [PMID:40974959] [PMID:38869144] |
+| All-cause mortality | Cochrane (45 RCTs); VITAL; ASCEND | Null | RR 0.97 (0.93-1.01) | high | [PMID:32114706] [PMID:30415637] [PMID:30146932] |
+| CV events on hemodialysis | PISCES RCT (n=1228, 4 g/d) | Benefit (single trial) | HR 0.57 (0.47-0.70) | moderate | [PMID:41201837] [PMID:41851014] |
+| Atrial fibrillation (harm) | MAs of 7 and 35 RCTs; OMEMI; VITAL-Rhythm | Increase, dose-dependent | HR 1.25 (1.07-1.46), +11% per 1 g/d; OR 1.43 (1.14-1.79) only at >1.5 g/d in high-risk patients; VITAL (840 mg/d) HR 1.09 (0.96-1.24) | moderate | [PMID:34612056] [PMID:42517224] [PMID:37515843] [PMID:33724323] |
+| Triglycerides | Dose-response MA (90 RCTs); FDA labels | Decrease, near-linear with dose | Lovaza -44.9% vs +6.7% at TG >=500 mg/dL; REDUCE-IT -18% at 1 y | high | [PMID:37264945] [PMID:41156531] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=21cfa4ce-0b05-47ed-b268-339eb1b83b75] |
+| LDL-C | MA of EPA vs DHA monotherapy; Lovaza label | Increase with DHA-containing products | DHA +7.23 mg/dL vs placebo; Lovaza LDL-C +44.5% in severe HTG | moderate | [PMID:21975919] [PMID:42016086] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=21cfa4ce-0b05-47ed-b268-339eb1b83b75] |
+| Blood pressure | Dose-response MA (71 RCTs) | Small decrease | SBP -2.61 / DBP -1.64 mmHg at 2 g/d | moderate | [PMID:35647665] |
+| Depression treatment | MA of 26 RCTs; older-adult MA; Cochrane (children) | Small benefit, EPA-predominant formulas | SMD -0.28; EPA >=60% at <=1 g/d SMD -0.50; older adults SMD -0.14; children SMD -0.34 (-0.85 to 0.17), very low certainty | low | [PMID:31383846] [PMID:40169548] [PMID:39564892] |
+| Depression prevention | VITAL-DEP (n=18,353) | No benefit; small excess risk | HR 1.13 (1.01-1.26); PHQ-8 MD 0.03 | moderate | [PMID:34932079] |
+| Cognition (no dementia) | Dose-response MA (24 RCTs); overview of SRs; DHA RCT | Small/inconsistent | Executive function gain >500 mg/d; MMSE g 0.16 (0.01-0.32); 2 g/d DHA no change in cognition or brain volume at 24 mo | low | [PMID:38468309] [PMID:41010527] [PMID:42315445] |
+| Rheumatoid arthritis | MAs of 18 and 23 RCTs | Small or no benefit | Tender joints SMD -0.59 (one MA); pain SMD -0.16 (-0.40 to 0.09), DAS28/CRP not significant | low | [PMID:38922552] [PMID:35900212] [PMID:39357585] |
+| Preterm birth | Cochrane (26 RCTs); ORIP (n=5544); ADORE; 2026 MA | Reduction overall; null in replete populations | Cochrane PTB RR 0.89 (0.81-0.97), early PTB RR 0.58 (0.44-0.77); ORIP early PTB RR 1.13 (0.79-1.63); 2026 MA OR 0.83 | moderate | [PMID:30480773] [PMID:31509674] [PMID:34308309] [PMID:41773213] |
+| Autoimmune disease incidence | VITAL | Null | HR 0.85 (0.67-1.08) | moderate | [PMID:35082139] |
+| Dry eye disease | DREAM RCT (3 g/d) | Null | OSDI change -13.9 vs -12.5 | moderate | [PMID:29652551] |
+| Epigenetic aging clocks | DO-HEALTH post hoc (n=777, 1 g/d) | Small slowing | 0.16-0.32 SD (2.9-3.8 months over 3 y) | low | [PMID:39900648] |
 
 ** Dosing in trials
-- Trials use ~0.5–4 g/day EPA+DHA; prescription icosapent ethyl is 4 g/day. DPA is usually present as a minor constituent, not separately dosed. [PMID:41445624] [URL:https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/]
+- Cardiovascular outcome trials: icosapent ethyl 4 g/day (2 g twice daily) in REDUCE-IT [PMID:30415628]; EPA 1.8 g/day in JELIS and RESPECT-EPA [PMID:17398308] [PMID:38873793]; omega-3 carboxylic acids 4 g/day in STRENGTH [PMID:33190147]; 1.8 g/day (930 mg EPA + 660 mg DHA) in OMEMI [PMID:33191772]; 1 g capsules (840 mg EPA+DHA) in VITAL and ASCEND [PMID:30415637] [PMID:30146932]; 4 g/day (1.6 g EPA + 0.8 g DHA) in PISCES [PMID:41201837].
+- Severe hypertriglyceridemia: 4 g/day of Lovaza or Vascepa with meals, swallowed whole [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=21cfa4ce-0b05-47ed-b268-339eb1b83b75] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9c1a2828-1583-4414-ab22-a60480e8e508]. Omega-3 carboxylic acids 2 g/day cut TG by 14.2% vs olive oil [PMID:29289538].
+- TG and non-HDL-C fall almost linearly with dose, most clearly above 2 g/day [PMID:37264945]. Blood pressure effects plateau at 2-3 g/day [PMID:35647665].
+- Depression: EPA-predominant (>=60% EPA) formulations at <=1 g/day EPA [PMID:31383846]. Late-life depression relapse prevention used 1.2 g EPA + 1 g DHA for 52 weeks [PMID:39306009].
+- Pregnancy: 900 mg/day n-3 LCPUFA (ORIP) [PMID:31509674]; DHA 1000 vs 200 mg/day (ADORE) [PMID:34308309].
+- Omega-3 index (RBC EPA+DHA as % of fatty acids): proposed targets are <4% (higher risk) and >8% (lower risk). Moving from 4% to 8% was estimated to lower fatal CHD risk by about 30% (cohort data) [PMID:28511049].
 
 ** Safety & adverse effects
-- GI effects; high-dose therapy associated with atrial fibrillation; possible bleeding at high purified EPA exposure. [PMID:34505026] [PMID:41445624]
+- Atrial fibrillation is the main safety signal, and it depends on dose.
+  - REDUCE-IT: AF/flutter hospitalization 3.1% vs 2.1% [PMID:30415628]. RESPECT-EPA: new-onset AF 3.1% vs 1.6% [PMID:38873793]. OMEMI: AF HR 1.84 (0.98-3.45), and AF or micro-AF HR 1.90 (1.16-3.11) [PMID:33191772] [PMID:37515843].
+  - Meta-analyses: HR 1.25 overall, 1.49 at >1 g/day and 1.12 at <=1 g/day [PMID:34612056]. The 2026 MA of 35 RCTs confined the excess to high-risk patients taking >1.5 g/day (absolute risk +0.8%) [PMID:42517224]. Other MAs report RR 1.26 overall and 1.35 for EPA alone [PMID:34505026].
+  - In the Lovaza trial in paroxysmal or persistent AF, symptomatic recurrence was more frequent (HR 1.25; 1.00-1.40) [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=21cfa4ce-0b05-47ed-b268-339eb1b83b75].
+  - Observational data point the other way. In UK Biobank, regular fish oil use was linked to more incident AF in healthy people (HR 1.13) [PMID:38800667]. Higher blood DHA, DPA and EPA+DHA levels were linked to slightly lower AF risk (HR 0.89-0.93) across 17 cohorts [PMID:37468189].
+- Bleeding:
+  - A MA of 11 RCTs (n=120,643) found no overall excess (RR 1.09; 0.91-1.31). High-dose purified EPA raised relative bleeding risk by about 50% (absolute +0.6%) [PMID:38742535].
+  - REDUCE-IT: any bleeding 12% vs 10%, serious bleeding 3% vs 2%. Rates were higher with concomitant aspirin, clopidogrel or warfarin [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9c1a2828-1583-4414-ab22-a60480e8e508].
+  - OMEMI major bleeding was 10.7% vs 11.0% [PMID:33191772]. VITAL-DEP GI bleeding was 2.6% vs 2.7% [PMID:34932079].
+- LDL-C: DHA-containing products raise LDL-C. EFSA estimated about +3% at 2-6 g/day EPA+DHA, while EPA up to 4 g/day had no significant effect [PMID:42016086]. Lovaza raised LDL-C by 44.5% in severe HTG, and its label requires LDL monitoring [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=21cfa4ce-0b05-47ed-b268-339eb1b83b75].
+- GI and other effects:
+  - Lovaza: eructation, dyspepsia and taste perversion [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=21cfa4ce-0b05-47ed-b268-339eb1b83b75]. STRENGTH: more GI events than corn oil [PMID:33190147].
+  - Vascepa: musculoskeletal pain, peripheral edema, constipation and gout [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9c1a2828-1583-4414-ab22-a60480e8e508]. Real-world claims data show the same pattern at one-third to one-fifth of trial incidence [PMID:40148153].
+- Depression: VITAL-DEP found a small excess of incident or recurrent depression with 1 g/day (HR 1.13) [PMID:34932079].
+- Pregnancy: prolonged gestation >42 weeks rose (RR 1.61; 1.11-2.33) [PMID:30480773]. ORIP had more very-large-for-gestational-age infants (RR 1.30) [PMID:31509674].
+- Fish allergy: both FDA labels warn of possible allergic reactions in people allergic to fish or shellfish [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9c1a2828-1583-4414-ab22-a60480e8e508]. In a pilot study, 6 of 6 people allergic to finned fish had negative skin tests and oral challenges to two fish oil supplements [PMID:18926060].
 
 ** Contraindications
-- Caution with atrial fibrillation history and high-dose regimens. [PMID:41445624]
+- Known hypersensitivity to the product. This is the only labelled contraindication for Vascepa and Lovaza [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9c1a2828-1583-4414-ab22-a60480e8e508] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=21cfa4ce-0b05-47ed-b268-339eb1b83b75].
+- Relative (caution):
+  - Paroxysmal or persistent AF, or high AF risk, with doses >1 g/day [PMID:42517224] [PMID:34612056].
+  - Fish or shellfish allergy (label caution; algal oil avoids fish protein) [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=21cfa4ce-0b05-47ed-b268-339eb1b83b75] [PMID:18926060].
+  - Active bleeding, or combined antithrombotic therapy, with high-dose EPA [PMID:38742535].
 
 ** Interactions
-- Anticoagulants/antiplatelets: monitor bleeding at pharmacologic doses; may lower triglycerides with lipid-lowering therapy. [PMID:34505026]
+*** Drugs
+- Warfarin: icosapent ethyl 4 g/day did not change R-/S-warfarin pharmacokinetics or INR in healthy volunteers [PMID:24760401]. A case report describes INR rising from 2.8 to 4.3 after fish oil was doubled to 2 g/day [PMID:14742793]. Labels advise periodic monitoring with anticoagulants [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=21cfa4ce-0b05-47ed-b268-339eb1b83b75].
+- Antiplatelets (aspirin, clopidogrel) and other anticoagulants: bleeding in REDUCE-IT was higher with concomitant antithrombotics [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9c1a2828-1583-4414-ab22-a60480e8e508]. In an RCT meta-analysis, bleeding tracked EPA dose rather than background antiplatelet use [PMID:38742535].
+- Statins: the positive EPA trials were all run on a statin background [PMID:30415628] [PMID:17398308] [PMID:38873793]. The Vascepa CV indication requires maximally tolerated statin therapy [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9c1a2828-1583-4414-ab22-a60480e8e508].
+- Antihypertensives: omega-3s give a small additive BP reduction (about -2.6 mmHg systolic at 2-3 g/day) [PMID:35647665].
+- Antidiabetic drugs: no adverse glycemic effect at up to 5 g/day per EFSA [PMID:42016086]. ASCEND, in people with diabetes, showed no excess serious adverse events [PMID:30146932].
+*** Other supplements
+- Vitamin E, Garlic, Ginger Root and Ginkgo biloba: a review lists these together with fish oil as supplements that may affect hemostasis. It found anecdotal bleeding cases but too few controlled studies to show a consistent additive effect [PMID:22300597].
+- Vitamin D-3: no interaction on AF or depression in the VITAL factorial design [PMID:33724323] [PMID:34932079]. Additive slowing of the PhenoAge clock in DO-HEALTH [PMID:39900648].
+*** Conditions
+- Atrial fibrillation, fish allergy and bleeding risk: see Contraindications.
+- Hepatic impairment: the Lovaza label advises periodic ALT/AST monitoring [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=21cfa4ce-0b05-47ed-b268-339eb1b83b75].
+- Pregnancy: lowers preterm birth risk but increases prolonged gestation [PMID:30480773]. The benefit is concentrated in women with low baseline omega-3 status [PMID:34308309] [PMID:31509674].
+- Hemodialysis: the one large RCT found a cardiovascular benefit [PMID:41201837].
+*** Lab-test interference
+- No assay artifact identified. The changes below are real physiological effects:
+  - TG falls and LDL-C rises with DHA-containing products [PMID:21975919] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=21cfa4ce-0b05-47ed-b268-339eb1b83b75].
+  - The omega-3 index and EPA/AA ratio rise, which makes them adherence and exposure markers [PMID:28511049] [PMID:38873793] [PMID:41568426].
+  - Bleeding time may lengthen but stays within normal limits [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9c1a2828-1583-4414-ab22-a60480e8e508].
 
 ** Genotype notes
-- No cited pharmacogenomic or nutrigenomic source was identified in the sources reviewed; no genotype-specific claim is made.
+- FADS Indel (rs66698963): in a post hoc ADORE analysis (n=761), I-allele carriers on 200 mg/day DHA had 4.3% early preterm birth vs 0.8% in D/D. High-dose DHA (1000 mg/day) lowered preterm birth in I-allele carriers but increased prolonged gestation in D/D women. This supports genotype-guided DHA dosing, but the finding needs prospective confirmation [PMID:42848825].
+- APOE e4: 2 g/day DHA raised CSF DHA/AA independently of APOE e4 status. It had no cognitive or brain-volume effect at 24 months [PMID:42315445].
 
 ** Latest research
-- 2025–2026 literature: 2025 meta-analysis across 34 trials found dose and baseline CVD risk modified observed AF association. [PMID:41445624]
+- [2026-10] FADS Indel genotype modified the effect of DHA dose on early preterm birth and prolonged gestation (ADORE secondary analysis) [PMID:42848825].
+- [2026-08] MA of 35 RCTs (n=114,592): AF excess only at >1.5 g/day in high-CV-risk patients (OR 1.43). Low doses showed no excess [PMID:42517224].
+- [2026-07] DHA 2 g/day for 24 months in older adults at risk of dementia: CNS target engagement, but no cognitive or MRI benefit [PMID:42315445].
+- [2026-06] MA of 25 secondary-prevention RCTs: moderate-dose EPA+DHA did not reduce MACE or AF/POAF [PMID:42144851].
+- [2026-04] Dialysis MA: fish oil HR 0.56 for CV events in hemodialysis [PMID:41851014]. Small RCT in psychological distress (750 mg/day): improvements in PSS, PHQ-9 and sleep [PMID:41461240].
+- [2026-03] Pregnancy MA (23 studies): preterm birth OR 0.83 (0.75-0.93); slightly larger birth size [PMID:41773213].
+- [2026-01] PISCES (NEJM): 4 g/day fish oil in hemodialysis, serious CV events HR 0.57 [PMID:41201837]. EFSA kept a 1 g/day safe level for DHA alone [PMID:41542352]. MA of 96 trials on EPA:DHA ratio and inflammation [PMID:41568426].
+- [2025-10] MA of 16 RCTs: purified EPA lowered CV mortality (HR 0.79) more than EPA/DHA (HR 0.92) [PMID:40974959]. Metabolic syndrome MA: TG reductions of up to about 57 mg/dL at >2 g/day [PMID:41156531].
+- [2025-09] Overview of SRs: MMSE g 0.16 in people without dementia or with MCI [PMID:41010527].
+- [2025-07] Review: dose-dependent AF risk in RCTs (about +12% at ~1 g/day, about +50% at 1.8-4 g/day) vs lower risk with dietary intake [PMID:39617283].
+- [2025-05] Real-world icosapent ethyl safety: AF, bleeding, edema and constipation at one-third to one-fifth of trial incidence [PMID:40148153].
+- [2025-04] Older-adult depression MA: omega-3 SMD -0.14 [PMID:40169548].
+- [2025-03] DO-HEALTH: omega-3 1 g/day slowed PhenoAge, GrimAge2 and DunedinPACE [PMID:39900648].
+- [2025-01] 52-week RCT (n=39): fewer late-life depression recurrences (HR 0.30) [PMID:39306009].
+- [2024-12] MA of prescription omega-3 (12 RCTs): CV events RR 0.88 [PMID:39639295].
+- [2024-11] Cochrane: very uncertain benefit for depression in children and adolescents [PMID:39564892]. MA of 18 RCTs: EPA alone reduced revascularization more than EPA+DHA [PMID:38869144]. Umbrella review plus MR: benefit for RA and SLE [PMID:39357585].
 
 ** Open questions
-- Whether findings translate into durable patient-important outcomes, optimal formulation/dose, and long-term safety remains uncertain. [PMID:41445624; PMID:39076869]
+- Is the REDUCE-IT benefit real or partly a mineral-oil artifact? STRENGTH (corn oil) was null, and RESPECT-EPA was open-label and borderline [PMID:35762321] [PMID:33190147] [PMID:38873793].
+- Is EPA alone truly superior to EPA+DHA, or does this reflect dose, comparator and population? [PMID:40974959] [PMID:38869144]
+- What dose threshold and patient profile define AF risk, and why do RCTs and biomarker cohorts disagree? [PMID:42517224] [PMID:37468189]
+- Does the PISCES hemodialysis benefit replicate? [PMID:41201837]
+- Should the omega-3 index be used to target supplementation? [PMID:28511049] [PMID:34308309]
+- Does DPA have independent clinical effects? [PMID:33315722]
+- Does OTC product quality (content, oxidation) matter clinically? [PMID:25604397]
 
 ** Sources
-- PMID:41445624
-- PMID:39076869
-- URL:https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/
-- PMID:34505026
-- PMID:41445624
+1. Bhatt DL et al. Cardiovascular Risk Reduction with Icosapent Ethyl for Hypertriglyceridemia (REDUCE-IT). N Engl J Med. 2019. PMID:30415628 DOI:10.1056/NEJMoa1812792
+2. Nicholls SJ et al. Effect of High-Dose Omega-3 Fatty Acids vs Corn Oil on Major Adverse Cardiovascular Events: The STRENGTH Randomized Clinical Trial. JAMA. 2020. PMID:33190147 DOI:10.1001/jama.2020.22258
+3. Manson JE et al. Marine n-3 Fatty Acids and Prevention of Cardiovascular Disease and Cancer (VITAL). N Engl J Med. 2019. PMID:30415637 DOI:10.1056/NEJMoa1811403
+4. ASCEND Study Collaborative Group. Effects of n-3 Fatty Acid Supplements in Diabetes Mellitus. N Engl J Med. 2018. PMID:30146932 DOI:10.1056/NEJMoa1804989
+5. Kalstad AA et al. Effects of n-3 Fatty Acid Supplements in Elderly Patients After Myocardial Infarction (OMEMI). Circulation. 2021. PMID:33191772 DOI:10.1161/CIRCULATIONAHA.120.052209
+6. Yokoyama M et al. Effects of eicosapentaenoic acid on major coronary events in hypercholesterolaemic patients (JELIS). Lancet. 2007. PMID:17398308 DOI:10.1016/S0140-6736(07)60527-3
+7. Miyauchi K et al. Randomized Trial for Evaluation in Secondary Prevention Efficacy of Combination Therapy-Statin and Eicosapentaenoic Acid (RESPECT-EPA). Circulation. 2024. PMID:38873793 DOI:10.1161/CIRCULATIONAHA.123.065520
+8. Abuknesha NR et al. Effects of Omega-3 Fatty Acid Treatment on Risk for Atrial Fibrillation: An Updated Meta-Analysis of 35 Trials including 114 592 Individuals. Circ Arrhythm Electrophysiol. 2026. PMID:42517224 DOI:10.1161/CIRCEP.125.014785
+9. Gencer B et al. Effect of Long-Term Marine Omega-3 Fatty Acids Supplementation on the Risk of Atrial Fibrillation in RCTs of Cardiovascular Outcomes: SR and MA. Circulation. 2021. PMID:34612056 DOI:10.1161/CIRCULATIONAHA.121.055654
+10. Shayan SK et al. Meta Analysis of DHA and EPA Supplementation on Cardiovascular Outcomes and Atrial Fibrillation Risk. Pharmacol Res Perspect. 2026. PMID:42144851 DOI:10.1002/prp2.70265
+11. Javaid M et al. Bleeding Risk in Patients Receiving Omega-3 Polyunsaturated Fatty Acids: SR and MA of Randomized Clinical Trials. J Am Heart Assoc. 2024. PMID:38742535 DOI:10.1161/JAHA.123.032390
+12. Khan SU et al. Effect of omega-3 fatty acids on cardiovascular outcomes: A systematic review and meta-analysis. EClinicalMedicine. 2021. PMID:34505026 DOI:10.1016/j.eclinm.2021.100997
+13. Abdelhamid AS et al. Omega-3 fatty acids for the primary and secondary prevention of cardiovascular disease. Cochrane Database Syst Rev. 2020. PMID:32114706 DOI:10.1002/14651858.CD003177.pub5
+14. Dong S et al. The effect of omega-3 PUFA prescription preparations on the prevention of clinical cardiovascular disease: a meta-analysis of RCTs. Nutr J. 2024. PMID:39639295 DOI:10.1186/s12937-024-01051-y
+15. Sheppard JP et al. Effects of Eicosapentaenoic Acid vs Eicosapentaenoic/Docosahexaenoic Acids on Cardiovascular Mortality: Meta-Analysis of Clinical Trials. JACC Adv. 2025. PMID:40974959 DOI:10.1016/j.jacadv.2025.102149
+16. Dinu M et al. Effects of omega-3 fatty acids on coronary revascularization and cardiovascular events: a meta-analysis. Eur J Prev Cardiol. 2024. PMID:38869144 DOI:10.1093/eurjpc/zwae184
+17. Chen G et al. Regular use of fish oil supplements and course of cardiovascular diseases: prospective cohort study. BMJ Med. 2024. PMID:38800667 DOI:10.1136/bmjmed-2022-000451
+18. Myhre PL et al. Omega-3 fatty acid supplements and risk of atrial fibrillation and 'micro-atrial fibrillation': A secondary analysis from the OMEMI trial. Clin Nutr. 2023. PMID:37515843 DOI:10.1016/j.clnu.2023.07.002
+19. O'Keefe EL et al. Omega-3 and Risk of atrial fibrillation: Vagally-mediated double-edged sword. Prog Cardiovasc Dis. 2025. PMID:39617283 DOI:10.1016/j.pcad.2024.11.003
+20. Albert CM et al. Effect of Marine Omega-3 Fatty Acid and Vitamin D Supplementation on Incident Atrial Fibrillation (VITAL-Rhythm). JAMA. 2021. PMID:33724323 DOI:10.1001/jama.2021.1489
+21. Qian F et al. Omega-3 Fatty Acid Biomarkers and Incident Atrial Fibrillation. J Am Coll Cardiol. 2023. PMID:37468189 DOI:10.1016/j.jacc.2023.05.024
+22. Wang T et al. Association Between Omega-3 Fatty Acid Intake and Dyslipidemia: A Continuous Dose-Response Meta-Analysis of RCTs. J Am Heart Assoc. 2023. PMID:37264945 DOI:10.1161/JAHA.123.029512
+23. Wei MY et al. Effects of eicosapentaenoic acid versus docosahexaenoic acid on serum lipids: a systematic review and meta-analysis. Curr Atheroscler Rep. 2011. PMID:21975919 DOI:10.1007/s11883-011-0210-3
+24. Basirat A et al. Marine-Based Omega-3 Fatty Acids and Metabolic Syndrome: SR and MA of RCTs. Nutrients. 2025. PMID:41156531 DOI:10.3390/nu17203279
+25. Stroes ESG et al. Omega-3 carboxylic acids in patients with severe hypertriglyceridemia: EVOLVE II. J Clin Lipidol. 2018. PMID:29289538 DOI:10.1016/j.jacl.2017.10.012
+26. Oscarsson J et al. Omega-3 fatty acids EPA and DHA and their mechanisms of action on apolipoprotein B-containing lipoproteins in humans: a review. Lipids Health Dis. 2017. PMID:28797250 DOI:10.1186/s12944-017-0541-3
+27. Ridker PM et al. Effects of Randomized Treatment With Icosapent Ethyl and a Mineral Oil Comparator on Interleukin-1beta, Interleukin-6, CRP, Oxidized LDL...: A REDUCE-IT Biomarker Substudy. Circulation. 2022. PMID:35762321 DOI:10.1161/CIRCULATIONAHA.122.059410
+28. Zhang X et al. Omega-3 Polyunsaturated Fatty Acids Intake and Blood Pressure: A Dose-Response Meta-Analysis of RCTs. J Am Heart Assoc. 2022. PMID:35647665 DOI:10.1161/JAHA.121.025071
+29. Lok CE et al. Fish-Oil Supplementation and Cardiovascular Events in Patients Receiving Hemodialysis (PISCES). N Engl J Med. 2026. PMID:41201837 DOI:10.1056/NEJMoa2513032
+30. Shokravi A et al. Omega-3 polyunsaturated fatty acid exposure and cardiovascular outcomes in dialysis: SR and MA. Future Cardiol. 2026. PMID:41851014 DOI:10.1080/14796678.2026.2645005
+31. Braeckman RA et al. Phase 1 study of the effect of icosapent ethyl on warfarin pharmacokinetic and anticoagulation parameters. Clin Drug Investig. 2014. PMID:24760401 DOI:10.1007/s40261-014-0194-1
+32. Buckley MS et al. Fish oil interaction with warfarin. Ann Pharmacother. 2004. PMID:14742793 DOI:10.1345/aph.1D007
+33. Stanger MJ et al. Anticoagulant activity of select dietary supplements. Nutr Rev. 2012. PMID:22300597 DOI:10.1111/j.1753-4887.2011.00444.x
+34. Mark BJ et al. Are fish oil supplements safe in finned fish-allergic patients? Allergy Asthma Proc. 2008. PMID:18926060 DOI:10.2500/aap.2008.29.3159
+35. Nelson JR et al. Comparison of product label vs real-world safety data from branded icosapent ethyl users: MarketScan analysis. J Clin Lipidol. 2025. PMID:40148153 DOI:10.1016/j.jacl.2025.02.001
+36. Liao Y et al. Efficacy of omega-3 PUFAs in depression: A meta-analysis. Transl Psychiatry. 2019. PMID:31383846 DOI:10.1038/s41398-019-0515-5
+37. Okereke OI et al. Effect of Long-term Supplementation With Marine Omega-3 Fatty Acids vs Placebo on Risk of Depression (VITAL-DEP). JAMA. 2021. PMID:34932079 DOI:10.1001/jama.2021.21187
+38. Cheng YC et al. The N-3 PUFA supplementation to prevent depression recurrence in patients with late-life depression: A 52-week double-blind, placebo-controlled trial. J Affect Disord. 2025. PMID:39306009 DOI:10.1016/j.jad.2024.09.129
+39. Gong H et al. Anti-inflammatory interventions for the treatment and prevention of depression among older adults: SR and MA. Transl Psychiatry. 2025. PMID:40169548 DOI:10.1038/s41398-025-03317-3
+40. Campisi SC et al. Omega-3 fatty acid supplementation for depression in children and adolescents. Cochrane Database Syst Rev. 2024. PMID:39564892 DOI:10.1002/14651858.CD014803.pub2
+41. Azhar W et al. The effects of Omega-3 supplementation on stress, anxiety, depression, sleep quality, and everyday memory in individuals with psychological distress: RCT. J Affect Disord. 2026. PMID:41461240 DOI:10.1016/j.jad.2025.121055
+42. Suh SW et al. The influence of n-3 PUFA on cognitive function in individuals without dementia: SR and dose-response MA. BMC Med. 2024. PMID:38468309 DOI:10.1186/s12916-024-03296-0
+43. Barros MI et al. Omega-3 PUFA and Cognitive Decline in Adults with Non-Dementia or Mild Cognitive Impairment: An Overview of Systematic Reviews. Nutrients. 2025. PMID:41010527 DOI:10.3390/nu17183002
+44. Yassine HN et al. CNS target engagement of high-dose DHA supplementation in older adults at risk for dementia: a randomised, double-blind, placebo-controlled trial. EBioMedicine. 2026. PMID:42315445 DOI:10.1016/j.ebiom.2026.106316
+45. Wang W et al. Effects of omega-3 supplementation on lipid metabolism, inflammation, and disease activity in rheumatoid arthritis: MA of RCTs. Clin Rheumatol. 2024. PMID:38922552 DOI:10.1007/s10067-024-07040-0
+46. Gkiouras K et al. Efficacy of n-3 fatty acid supplementation on rheumatoid arthritis' disease activity indicators: SR and MA of randomized placebo-controlled trials. Crit Rev Food Sci Nutr. 2024. PMID:35900212 DOI:10.1080/10408398.2022.2104210
+47. Hong K et al. Association between Omega-3 fatty acids and autoimmune disease: umbrella review and Mendelian randomization analysis. Autoimmun Rev. 2024. PMID:39357585 DOI:10.1016/j.autrev.2024.103651
+48. Hahn J et al. Vitamin D and marine omega 3 fatty acid supplementation and incident autoimmune disease: VITAL randomized controlled trial. BMJ. 2022. PMID:35082139 DOI:10.1136/bmj-2021-066452
+49. Middleton P et al. Omega-3 fatty acid addition during pregnancy. Cochrane Database Syst Rev. 2018. PMID:30480773 DOI:10.1002/14651858.CD003402.pub3
+50. Makrides M et al. A Randomized Trial of Prenatal n-3 Fatty Acid Supplementation and Preterm Delivery (ORIP). N Engl J Med. 2019. PMID:31509674 DOI:10.1056/NEJMoa1816832
+51. Carlson SE et al. Higher dose docosahexaenoic acid supplementation during pregnancy and early preterm birth (ADORE). EClinicalMedicine. 2021. PMID:34308309 DOI:10.1016/j.eclinm.2021.100905
+52. Li YN et al. Genotype-informed docosahexaenoic acid dosing based on the FADS Indel to reduce preterm and prolonged gestation: secondary analysis of ADORE. PLoS Med. 2026. PMID:42848825 DOI:10.1371/journal.pmed.1005274
+53. Saei Ghare Naz M et al. The Impact of Maternal Omega-3 Supplementation on Infant Anthropometric Measures and Pregnancy Outcomes: SR and MA. Health Sci Rep. 2026. PMID:41773213 DOI:10.1002/hsr2.71941
+54. Harris WS et al. The Omega-3 Index and relative risk for coronary heart disease mortality: Estimation from 10 cohort studies. Atherosclerosis. 2017. PMID:28511049 DOI:10.1016/j.atherosclerosis.2017.05.007
+55. Bischoff-Ferrari HA et al. Individual and additive effects of vitamin D, omega-3 and exercise on DNA methylation clocks of biological aging (DO-HEALTH). Nat Aging. 2025. PMID:39900648 DOI:10.1038/s43587-024-00793-y
+56. Dry Eye Assessment and Management Study Research Group. n-3 Fatty Acid Supplementation for the Treatment of Dry Eye Disease (DREAM). N Engl J Med. 2018. PMID:29652551 DOI:10.1056/NEJMoa1709691
+57. Khabir Z et al. Role of the EPA:DHA dosing ratio in omega-3 supplements on blood fatty acid profiles and inflammation: SR and MA. Crit Rev Food Sci Nutr. 2026. PMID:41568426 DOI:10.1080/10408398.2026.2615693
+58. Ghasemi Fard S et al. n-3 Docosapentaenoic acid: the iceberg n-3 fatty acid. Curr Opin Clin Nutr Metab Care. 2021. PMID:33315722 DOI:10.1097/MCO.0000000000000722
+59. EFSA NDA Panel. Scientific Opinion on the Tolerable Upper Intake Level of EPA, DHA and DPA. EFSA J. 2012. PMID:42016086 DOI:10.2903/j.efsa.2012.2815
+60. EFSA NDA Panel. Scientific Opinion on the tolerable upper intake level for supplemental docosahexaenoic acid. EFSA J. 2026. PMID:41542352 DOI:10.2903/j.efsa.2026.9858
+61. Albert BB et al. Fish oil supplements in New Zealand are highly oxidised and do not meet label content of n-3 PUFA. Sci Rep. 2015. PMID:25604397 DOI:10.1038/srep07928
+62. Nichols PD et al. Australian and New Zealand Fish Oil Products in 2016 Meet Label Omega-3 Claims and Are Not Oxidized. Nutrients. 2016. PMID:27827947 DOI:10.3390/nu8110703
+63. FDA label: VASCEPA (icosapent ethyl) capsules, Amarin Pharma, DailyMed (revised 2026-03). URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9c1a2828-1583-4414-ab22-a60480e8e508
+64. FDA label: LOVAZA (omega-3-acid ethyl esters) capsules, Waylis Therapeutics, DailyMed (revised 2026-03). URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=21cfa4ce-0b05-47ed-b268-339eb1b83b75

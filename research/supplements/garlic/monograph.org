@@ -3,47 +3,202 @@
 :ID: supp-garlic
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: Allium sativum
+:ALIASES: Allium sativum | garlic powder | garlic tablets | allicin | allicin-standardized garlic | garlic oil | Kwai | odourless garlic
 :CATEGORY: botanical
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Garlic (Allium sativum) preparations include fresh garlic, powder, oils and aged extracts; processing changes sulfur compounds and bioavailability. [URL:https://www.nccih.nih.gov/health/garlic]
+- Allium sativum L. bulb, used as food and as supplements. Its bioactivity is attributed to sulfur compounds: alliin, allicin, diallyl sulfide/disulfide/trisulfide, ajoene and S-allylcysteine (SAC) [PMID:41273868] [PMID:39275211].
+- This monograph covers non-aged preparations. Aged garlic extract (AGE, e.g. Kyolic) has its own monograph ("Garlic (Kyolic)"). AGE is cited here only where meta-analyses pool it with other forms or where it is the only human data.
+- Main supplement forms:
+  - Dried garlic powder tablets/capsules, usually standardized on "allicin potential" (alliin plus alliinase). Kwai powder tablets gave about 80% allicin bioequivalence relative to crushed raw garlic, so they are a reasonable stand-in for raw garlic in older trials [PMID:29937536].
+  - Enteric-coated tablets: allicin bioequivalence 36-104%, falling to 22-57% when taken with a high-protein meal. Non-enteric tablets gave 80-111% and powder capsules 26-109% [PMID:29937536].
+  - Garlic oil (steam-distilled or solvent-extracted; mostly allyl polysulfides) and macerates. Garlic oil showed stronger TC/LDL lowering than powder in one subgroup analysis [PMID:39113105].
+- Products are not interchangeable. In a 6-month RCT comparing raw garlic, powder and AGE (all chemically characterized and stable), none lowered LDL [PMID:17325296].
 
 ** Mechanisms
-- Proposed biological activity and the best-established physiological context are described above; clinical mechanisms remain uncertain where outcome evidence is limited. ["PMID:39113105"]
+- Vasodilation: human red cells convert garlic-derived organic polysulfides to hydrogen sulfide (H2S). Aortic relaxation tracked H2S yield (ex vivo/in vitro) [PMID:17951430]. Reviews add raised nitric oxide, better endothelial function and antioxidant effects [PMID:39275211].
+- Cholesterol metabolism (mostly preclinical): inhibits de novo cholesterol synthesis and dietary cholesterol absorption, increases LDL uptake and HDL biogenesis, and shifts gut microbiota (higher SCFA, lower TMAO) [PMID:41273868].
+- Platelets: in vitro inhibition is consistent, but in vivo effects depend on dose and preparation.
+  - Garlic extract inhibited collagen-induced aggregation in vitro, but only at concentrations above those reachable in vivo; oral dosing had no effect [PMID:8582091].
+  - One large dose of garlic oil reduced adrenaline-induced aggregation by 12% only [PMID:17365851].
+  - AGE for 13 weeks inhibited ADP-induced aggregation [PMID:11053504].
+- Inflammation/oxidative stress: lowers CRP, IL-6 and TNF in RCT meta-analyses [PMID:30949665] [PMID:40580481].
+- Drug metabolism:
+  - Garlic oil inhibited CYP2E1 by 39% in young adults [PMID:12235448] and about 22% in older adults [PMID:15974642]. Diallyl sulfide reduced chlorzoxazone hydroxylation in volunteers [PMID:11530830].
+  - No CYP3A4 or CYP2D6 change on probe-drug phenotyping [PMID:12235448] [PMID:15974642]. Yet saquinavir exposure fell about 50% [PMID:11740713]. Ex vivo work implicates higher intestinal P-gp/MRP2 efflux, which leaves CYP3A4 itself unchanged [PMID:21104925].
+- Anti-Helicobacter: allicin is active against H. pylori, and RCTs have tested it as an add-on to eradication therapy [PMID:31660038].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | Certainty | Citations |
-|---|---|---|---|---|---|
-| Primary studied clinical/biomarker outcomes | Systematic review/meta-analysis or RCT synthesis | Meta-analysis of RCTs reports possible lipid improvement, but preparations and trials vary; clinical event reduction is unproven | See narrative | low | PMID:39113105; URL:https://www.nccih.nih.gov/health/garlic |
-| Long-term clinical outcomes | Evidence insufficient or mixed | No established benefit | Not established | very low | PMID:39113105; URL:https://www.nccih.nih.gov/health/garlic |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Blood pressure (hypertensive adults) | SR/MA of RCTs (20 RCTs, n=970; 10 RCTs in hypertension, 2025) | Decrease | SBP -8.7 / DBP -6.1 mmHg in hypertensive subgroup; SBP -4.21 (CI -5.74 to -2.69), DBP -3.13 (CI -4.42 to -1.84) in 2025 MA | moderate | [PMID:26764326] [PMID:41393949] [PMID:18554422] [PMID:25557383] |
+| Blood pressure (all adults) | MA of 108 RCTs (n=7137) | Small decrease | SBP -3.71 (CI -5.07 to -2.36), DBP -1.97 mmHg; 2015 MA: no significant SBP effect in normotensives | moderate | [PMID:40580481] [PMID:25557383] |
+| Total cholesterol | Multiple MAs of RCTs | Decrease, modest | -10.21 mg/dL (CI -13.69 to -6.74) across 108 RCTs; -0.64 mmol/L in dyslipidemia (21 RCTs); diet-controlled high-quality trials not significant | low | [PMID:40580481] [PMID:39113105] [PMID:19555517] [PMID:10975959] |
+| LDL-C | MAs vs large RCTs | Inconsistent | MA: -5.90 mg/dL (CI -10.51 to -1.29); 6-mo RCT (n=192) and 28-day SPORT RCT: no LDL lowering | low | [PMID:40580481] [PMID:17325296] [PMID:36351465] [PMID:19555517] |
+| Triglycerides / HDL-C | MA of RCTs | Small TG decrease, small HDL rise | TG -5.82 mg/dL; HDL +2.18 mg/dL; TG not significant in a 2024 MA | low | [PMID:40580481] [PMID:38892625] |
+| Lipoprotein(a) | MA of 6 RCTs | No reduction | WMD +16.86% (NS); +54.6% in trials >12 wk | low | [PMID:26522661] |
+| Fasting glucose / HbA1c | GRADE dose-response MA (27 RCTs, n=1619) | Small decrease | FBG -2.76 mg/dL (CI -5.11 to -0.41); HbA1c -0.53% (CI -0.86 to -0.20); no insulin/HOMA-IR effect | low | [PMID:42398591] [PMID:38892625] [PMID:30049636] |
+| Metabolic syndrome components | MA of RCTs; 2025 RCT in PCOS | Benefit | Improved WC, lipids, BP, glucose, CRP; PCOS RCT FBS -10.5%, LDL -14.2% | low | [PMID:37517570] [PMID:40770379] |
+| Inflammatory markers | MA of 16 RCTs | Decrease | CRP -0.61 mg/L; IL-6 -0.73 ng/L; TNF -0.26 ng/L | low | [PMID:30949665] [PMID:40580481] |
+| NAFLD | MA of 4 RCTs (n=186) | Benefit | Steatosis improvement RR 2.75 (CI 1.79-4.23); lower ALT/AST | very low | [PMID:36576698] |
+| Common cold prevention | Cochrane SR (1 RCT, n=146); AGE RCT (n=120) | Possible benefit | 24 vs 65 colds over 12 wk, recovery time similar; AGE: incidence unchanged, 21% fewer symptoms | very low | [PMID:25386977] [PMID:11697022] [PMID:22280901] |
+| Gastric cancer | 22-y follow-up of factorial RCT (Shandong, n=3365) | Mortality reduced; incidence not significant | Mortality HR 0.66 (CI 0.43-1.00); incidence OR 0.81 (CI 0.57-1.13) | low | [PMID:31511230] [PMID:30155945] |
+| Colorectal / overall cancer | MAs of prospective studies | No benefit | Garlic supplements: overall cancer RR 0.97 (CI 0.84-1.12); CRC RR 1.18 (CI 1.02-1.36) | very low | [PMID:35402472] [PMID:24681077] |
+| H. pylori eradication (allicin add-on) | MA of 8 RCTs (n=867) | Higher eradication | 93.3% vs 83.6%, OR 2.75; GRADE very low | very low | [PMID:31660038] |
+| Pre-eclampsia | Cochrane SR (1 RCT, n=100) | No clear effect | Pre-eclampsia RR 0.78 (CI 0.31-1.93) | very low | [PMID:16856110] |
 
 ** Dosing in trials
-- Trials commonly use garlic powder or aged extract for weeks to months; products are not interchangeable. [URL:https://www.nccih.nih.gov/health/garlic]
+- Blood pressure: powder/extract doses in RCTs varied widely. A 2025 MA found SBP benefit with about 8 weeks of treatment and larger effects at higher baseline BP. SAC dose was inversely related to effect (optimal about 0.5-1.5 mg) [PMID:41393949]. Larger effects with higher baseline BP were also seen in an earlier meta-regression [PMID:18554422].
+- Lipids:
+  - Effects were seen when garlic was taken for >2 months by people with total cholesterol above about 200 mg/dL [PMID:26764326].
+  - 900 mg/d powder for 12 weeks lowered LDL 14% in one RCT [PMID:9022529].
+  - About one 4 g clove-equivalent per day (raw, powder or AGE), 6 d/wk for 6 months, had no effect [PMID:17325296].
+- Glycemia: nonlinear dose-response with greater FBG reduction at <=0.5 g/day [PMID:42398591].
+- Common cold: one capsule per day containing allicin (Cochrane: "180 mg of allicin content") for 12 weeks in winter [PMID:25386977] [PMID:11697022]. The AGE comparator trial used 2.56 g/d for 90 days [PMID:22280901].
+- PCOS/metabolic syndrome: 500 mg tablets (2-3 mg allicin) twice daily for 8 weeks [PMID:40770379].
+- Gastric cancer prevention: garlic extract plus oil for 7.3 years (Shandong trial) [PMID:31511230].
+- Formulation matters. Allicin bioequivalence of 13 supplements ranged from about 22% to 111% depending on coating, capsule type and meal; enteric tablets taken with a high-protein meal performed worst [PMID:29937536].
 
 ** Safety & adverse effects
-- Breath/body odor, heartburn, abdominal upset; supplements may increase bleeding. [URL:https://www.nccih.nih.gov/health/garlic]
+- Common effects:
+  - Breath and body odour are the most frequent complaints [PMID:17918162]. In the Cochrane pre-eclampsia review, odour had RR 8.50 vs placebo [PMID:16856110].
+  - GI discomfort (heartburn, flatulence, nausea): in a 2025 hypertension MA, adverse events were slightly but not significantly more frequent, mostly GI discomfort and bad breath [PMID:41393949]. GI side effects limited dose escalation in a platelet trial [PMID:8582091].
+  - Rash and odour were the AEs in the common-cold RCT [PMID:25386977].
+- Bleeding:
+  - Case report: spontaneous spinal epidural hematoma with platelet dysfunction after heavy garlic intake [PMID:2352608].
+  - Reviews link garlic to surgical bleeding independent of anticoagulants [PMID:36304597] and to altered platelet function/coagulation [PMID:17918162]. A review of supplement-associated bleeding (retrobulbar, subarachnoid, postoperative) found controlled studies too few to confirm a consistent effect [PMID:22300597].
+  - Controlled data are weaker. 4.2 g raw garlic daily did not impair platelet function on PFA-100, Multiplate or TEG [PMID:17959943].
+- Allergy and skin:
+  - IgE-mediated garlic allergy is rare. Alliin lyase is the major, heat-labile allergen. Garlic powder resembles raw garlic on SDS-PAGE, so powder may be as allergenic as raw garlic [PMID:39022755].
+  - Reported reactions include allergic contact dermatitis, urticaria, angioedema, pemphigus, anaphylaxis and photoallergy [PMID:17918162].
+  - Raw garlic on skin or mucosa causes chemical burns, mostly second-degree (39 patients in a systematic review) [PMID:33571752].
+- Lactation: garlic capsules flavour breast milk and change how long infants feed [PMID:8108198].
+- Cancer signal: one MA of prospective studies associated garlic-supplement use with higher colorectal cancer risk (RR 1.18). This is observational and probably confounded [PMID:24681077].
+- Long term: 7.3 years of garlic extract/oil in the Shandong trial showed no excess of other cancers or cardiovascular deaths [PMID:31511230].
 
 ** Contraindications
-- Caution before surgery and in bleeding disorders. [URL:https://www.nccih.nih.gov/health/garlic]
+- Known garlic/Allium allergy. Powder may carry intact heat-labile allergens [PMID:39022755].
+- Saquinavir-based (unboosted) HIV protease inhibitor regimens: exposure fell about 50% with lingering effect after washout [PMID:11740713].
+- Scheduled surgery or neuraxial anaesthesia: ASA/AANA recommend stopping herbal products 1-2 weeks before elective surgery [PMID:38613937]. Earlier reviews and case reports flag garlic for perioperative bleeding [PMID:11448284] [PMID:2352608].
+- Bleeding disorders or active bleeding: caution, based on case reports [PMID:2352608] [PMID:22300597].
+- Do not apply raw garlic to skin or mucosa [PMID:33571752].
 
 ** Interactions
-- May increase bleeding with anticoagulants/antiplatelets; can reduce saquinavir exposure. [URL:https://www.nccih.nih.gov/health/garlic]
+*** Drugs
+- Saquinavir/HIV protease inhibitors:
+  - Garlic caplets for 3 weeks cut saquinavir AUC 51%, trough 49% and Cmax 54%. Levels were still only 60-70% of baseline after a 10-day washout [PMID:11740713].
+  - Short-term garlic did not significantly change single-dose ritonavir AUC (-17%, NS). Steady-state effects remain untested [PMID:12580992].
+  - Mechanism: ex vivo, AGE increased intestinal efflux of saquinavir and darunavir while inhibiting their CYP3A4 metabolism [PMID:21104925]. Probe phenotyping found no CYP3A4 induction [PMID:12235448]. The popular "CYP3A4 induction" explanation is therefore not supported by human probe data; transporter effects are more likely.
+- Warfarin and other vitamin K antagonists:
+  - Case reports and reviews describe over-anticoagulation, including with fluindione [PMID:17918162] [PMID:19719333].
+  - Controlled data are reassuring. In a crossover RCT (n=12), garlic did not change warfarin PK, INR or platelet aggregation [PMID:18516070]. AGE in 48 warfarin patients for 12 weeks caused no excess bleeding [PMID:16484565].
+  - INR monitoring is reasonable when starting or stopping garlic [PMID:19719333].
+- Antiplatelet drugs (aspirin, P2Y12 inhibitors): additive effect is plausible. AGE inhibited ADP-induced aggregation [PMID:11053504], and garlic oil modestly reduced adrenaline-induced aggregation [PMID:17365851]. Reviews say controlled evidence of clinical bleeding with antiplatelets is lacking [PMID:22300597].
+- Isoniazid: in rabbits, garlic extract for 14 days lowered isoniazid Cmax by about 65% and AUC by about 55%, with rifampicin unchanged [PMID:16699292]. No human data.
+- CYP2E1 substrates (chlorzoxazone; theoretical relevance for paracetamol bioactivation, ethanol): garlic oil and diallyl sulfide inhibit CYP2E1 by 22-39% [PMID:12235448] [PMID:15974642] [PMID:11530830].
+- Docetaxel (CYP3A substrate): garlic 600 mg twice daily did not significantly change docetaxel clearance in 10 patients [PMID:16899612].
+- Antihypertensives: additive BP lowering is plausible (SBP -4 to -9 mmHg in hypertensive people) [PMID:26764326] [PMID:41393949].
+- Antidiabetic drugs: small additive glucose lowering (HbA1c -0.53%) [PMID:42398591]. A chlorpropamide interaction is reported [PMID:19719333].
+- Cardiovascular drugs generally: an SR found evidence insufficient for clinical harms. Low-strength evidence showed HDL rises with garlic plus nitrates or warfarin [PMID:22651380].
+*** Other supplements
+- Garlic (Kyolic): taking both duplicates the same bioactive class. Antiplatelet effects (AGE inhibits ADP-induced aggregation [PMID:11053504]) and BP/LDL lowering (AGE MA: SBP -2.49 mmHg, LDL -4.41 mg/dL [PMID:40628369]) are additive. Treat as one garlic exposure for bleeding-risk and perioperative purposes [PMID:38613937].
+- EPA/DHA/DPA: complementary lipid effects. In a 12-week RCT, garlic lowered LDL 14% and fish oil lowered TG 37%, and the combination offset the LDL rise seen with fish oil alone [PMID:9022529]. Both appear in bleeding-risk reviews, although controlled bleeding data are limited [PMID:22300597].
+- Vitamin E and Ginger Root: reviewed alongside garlic as supplements that may interfere with hemostasis. Stacking is a theoretical bleeding risk [PMID:22300597].
+- Turmeric: associated with bleeding in people on anticoagulants [PMID:36304597]. Combining it with garlic adds antiplatelet exposure (inferred).
+- Other antiplatelet herbs (ginkgo, ginseng): perioperative bleeding concern shared with garlic [PMID:11448284].
+*** Conditions
+- Surgery, bleeding disorders, garlic allergy: see Contraindications.
+- Hypertension, dyslipidemia, type 2 diabetes: modest favourable changes [PMID:40580481]. These are additive to drug therapy, not a substitute for it [PMID:39275211].
+- Pregnancy: one small RCT showed no clear effect on pre-eclampsia, and odour was more common [PMID:16856110]. No safety signal beyond food use was identified in the retrieved literature.
+- Breastfeeding: garlic alters milk flavour and nursing behaviour [PMID:8108198].
+- GI reflux/dyspepsia: GI discomfort is the commonest AE [PMID:41393949].
+*** Lab-test interference
+- No analytical assay interference was found. Platelet aggregation tests may show true pharmacological inhibition after AGE (ADP Km roughly doubled) [PMID:11053504]. Dietary garlic did not alter PFA-100/Multiplate/TEG results [PMID:17959943].
+- Physiological shifts in lipids, glucose/HbA1c, CRP and AST may appear during supplementation [PMID:40580481] [PMID:42398591].
 
 ** Genotype notes
-- No cited pharmacogenomic or nutrigenomic source was identified in the sources reviewed; no genotype-specific claim is made.
+- CYP3A5: in a docetaxel study, the day-15/day-1 docetaxel AUC ratio during garlic co-administration was 3.74 in three CYP3A5*1A/*1A patients vs 1.02 in six CYP3A5*3C/*3C patients. Very small numbers; hypothesis-generating [PMID:16899612].
+- VKORC1: garlic showed some evidence of a VKORC1 (not CYP2C9) genotype-dependent pharmacodynamic interaction with warfarin in healthy men (n=12) [PMID:18516070].
 
 ** Latest research
-- 2025–2026 literature: 2024 meta-analysis of RCTs evaluated garlic and dyslipidemia; no newer robust outcome trial identified. [PMID:39113105]
+- [2026-09] Retraction notice for the 2024 AGE blood-pressure MA (9 RCTs; SBP -4.03 mmHg). Do not rely on its estimates [PMID:42527229] [PMID:39437887].
+- [2026-07] GRADE dose-response MA (27 RCTs, n=1619): FBG -2.76 mg/dL, HbA1c -0.53%, no insulin/HOMA-IR effect; larger effects at <=0.5 g/day [PMID:42398591].
+- [2025-12] Hypertension MA (10 RCTs): SBP -4.21, DBP -3.13 mmHg; GI discomfort and bad breath were the main AEs; SAC dose inversely associated with effect [PMID:41393949].
+- [2025-11] Mechanistic review of garlic and cholesterol metabolism: synthesis/absorption inhibition, LDL uptake, HDL biogenesis, gut microbiota and TMAO [PMID:41273868].
+- [2025-08] RCT in PCOS with metabolic syndrome (n=97, 1 g/d for 8 wk): FBS -10.5%, TG -17.8%, LDL -14.2%, CRP -24.7%, SBP -5.2% vs placebo [PMID:40770379].
+- [2025-07] Comprehensive CV risk-factor MA (108 RCTs, n=7137): improved lipids, FBG, insulin, BP, CRP, TNF and MDA; no effect on apoB, IL-6 or weight [PMID:40580481].
+- [2025-07] Aged-garlic dose-response GRADE MA (19 trials): SBP -2.49 mmHg, LDL -4.41 mg/dL; no significant DBP/HDL effect [PMID:40628369].
 
 ** Open questions
-- Whether findings translate into durable patient-important outcomes, optimal formulation/dose, and long-term safety remains uncertain. [PMID:39113105; URL:https://www.nccih.nih.gov/health/garlic]
+- Whether garlic's BP and lipid effects reduce cardiovascular events; no outcome trials exist.
+- Why LDL-lowering in meta-analyses is not reproduced in rigorous, well-characterized RCTs (Gardner 2007, SPORT 2023), and how much publication bias and product variability (allicin release) explain this [PMID:17325296] [PMID:36351465] [PMID:29937536].
+- Whether garlic interacts at steady state with boosted protease-inhibitor regimens, and the relative roles of transporters vs CYP3A4 [PMID:12580992] [PMID:21104925].
+- Clinical bleeding risk with antiplatelets/anticoagulants at supplement doses; human controlled data are reassuring but small [PMID:18516070] [PMID:17959943].
+- Whether the late gastric-cancer mortality benefit in Shandong generalizes beyond high-risk Chinese populations [PMID:31511230].
+- Common cold: a single 2001 trial underpins any benefit; replication is needed [PMID:25386977].
+- Possible Lp(a) increase with longer-term use [PMID:26522661].
 
 ** Sources
-- PMID:39113105
-- URL:https://www.nccih.nih.gov/health/garlic
-- URL:https://www.nccih.nih.gov/health/garlic
-- PMID:39113105
+1. Ried K. Garlic Lowers Blood Pressure in Hypertensive Individuals, Regulates Serum Cholesterol, and Stimulates Immunity: An Updated Meta-analysis and Review. J Nutr. 2016. PMID:26764326 DOI:10.3945/jn.114.202192
+2. Wang HP et al. Effect of garlic on blood pressure: a meta-analysis. J Clin Hypertens (Greenwich). 2015. PMID:25557383 DOI:10.1111/jch.12473
+3. Behrouz V et al. Effects of Garlic Supplementation on Cardiovascular Risk Factors in Adults: A Comprehensive Updated SR and MA of RCTs. Nutr Rev. 2026. PMID:40580481 DOI:10.1093/nutrit/nuaf090
+4. Bashiri S et al. The Effect of Aged Garlic Supplementation on Blood Pressure and Lipid Profile: A Dose-Response GRADE-Assessed SR and MA of RCTs. Phytother Res. 2025. PMID:40628369 DOI:10.1002/ptr.70032
+5. Tang Y et al. Meta-analysis on the safety and efficacy of long-term garlic consumption as an adjunctive treatment for hypertension. Front Nutr. 2025. PMID:41393949 DOI:10.3389/fnut.2025.1656809
+6. Ried K et al. Effect of garlic on blood pressure: a systematic review and meta-analysis. BMC Cardiovasc Disord. 2008. PMID:18554422 DOI:10.1186/1471-2261-8-13
+7. Sleiman C et al. Garlic and Hypertension: Efficacy, Mechanism of Action, and Clinical Implications. Nutrients. 2024. PMID:39275211 DOI:10.3390/nu16172895
+8. Reinhart KM et al. The impact of garlic on lipid parameters: a systematic review and meta-analysis. Nutr Res Rev. 2009. PMID:19555517 DOI:10.1017/S0954422409350003
+9. Stevinson C et al. Garlic for treating hypercholesterolemia. A meta-analysis of randomized clinical trials. Ann Intern Med. 2000. PMID:10975959 DOI:10.7326/0003-4819-133-6-200009190-00009
+10. Du Y et al. Garlic consumption can reduce the risk of dyslipidemia: a meta-analysis of randomized controlled trials. J Health Popul Nutr. 2024. PMID:39113105 DOI:10.1186/s41043-024-00608-1
+11. Sahebkar A et al. Effect of garlic on plasma lipoprotein(a) concentrations: SR and MA of RCTs. Nutrition. 2016. PMID:26522661 DOI:10.1016/j.nut.2015.06.009
+12. Laffin LJ et al. Comparative Effects of Low-Dose Rosuvastatin, Placebo, and Dietary Supplements on Lipids and Inflammatory Biomarkers. J Am Coll Cardiol. 2023. PMID:36351465 DOI:10.1016/j.jacc.2022.10.013
+13. Gardner CD et al. Effect of raw garlic vs commercial garlic supplements on plasma lipid concentrations in adults with moderate hypercholesterolemia: a randomized clinical trial. Arch Intern Med. 2007. PMID:17325296 DOI:10.1001/archinte.167.4.346
+14. Zhao X et al. Effects of Garlic on Glucose Parameters and Lipid Profile: SR and MA on RCTs. Nutrients. 2024. PMID:38892625 DOI:10.3390/nu16111692
+15. Alsanie SA et al. Effects of garlic supplementation on glycemic indices in adults: a GRADE-assessed SR and dose-response MA of RCTs. Diabetes Res Clin Pract. 2026. PMID:42398591 DOI:10.1016/j.diabres.2026.113407
+16. Shabani E et al. The effect of garlic on lipid profile and glucose parameters in diabetic patients: SR and MA. Prim Care Diabetes. 2019. PMID:30049636 DOI:10.1016/j.pcd.2018.07.007
+17. Varade S et al. Effect of garlic on the components of metabolic syndrome: SR and MA of RCTs. J Ethnopharmacol. 2024. PMID:37517570 DOI:10.1016/j.jep.2023.116960
+18. Darooghegi Mofrad M et al. Garlic Supplementation Reduces Circulating C-reactive Protein, Tumor Necrosis Factor, and Interleukin-6 in Adults: SR and MA of RCTs. J Nutr. 2019. PMID:30949665 DOI:10.1093/jn/nxy310
+19. Rastkar M et al. Systematic review and meta-analysis of the effect of garlic in patients with non-alcoholic fatty liver disease. Indian J Gastroenterol. 2022. PMID:36576698 DOI:10.1007/s12664-022-01287-8
+20. Lissiman E et al. Garlic for the common cold. Cochrane Database Syst Rev. 2014. PMID:25386977 DOI:10.1002/14651858.CD006206.pub4
+21. Josling P. Preventing the common cold with a garlic supplement: a double-blind, placebo-controlled survey. Adv Ther. 2001. PMID:11697022 DOI:10.1007/BF02850113
+22. Nantz MP et al. Supplementation with aged garlic extract improves both NK and gammadelta-T cell function and reduces the severity of cold and flu symptoms: an RCT. Clin Nutr. 2012. PMID:22280901 DOI:10.1016/j.clnu.2011.11.019
+23. Li WQ et al. Effects of Helicobacter pylori treatment and vitamin and garlic supplementation on gastric cancer incidence and mortality: follow-up of a randomized intervention trial. BMJ. 2019. PMID:31511230 DOI:10.1136/bmj.l5016
+24. Zhang Q et al. Allium Vegetables, Garlic Supplements, and Risk of Cancer: A Systematic Review and Meta-Analysis. Front Nutr. 2021. PMID:35402472 DOI:10.3389/fnut.2021.746944
+25. Zhu B et al. Allium vegetables and garlic supplements do not reduce risk of colorectal cancer, based on meta-analysis of prospective studies. Clin Gastroenterol Hepatol. 2014. PMID:24681077 DOI:10.1016/j.cgh.2014.03.019
+26. Li Z et al. The association of garlic with Helicobacter pylori infection and gastric cancer risk: SR and MA. Helicobacter. 2018. PMID:30155945 DOI:10.1111/hel.12532
+27. Si XB et al. Allicin as add-on therapy for Helicobacter pylori infection: SR and MA. World J Gastroenterol. 2019. PMID:31660038 DOI:10.3748/wjg.v25.i39.6025
+28. Piscitelli SC et al. The effect of garlic supplements on the pharmacokinetics of saquinavir. Clin Infect Dis. 2002. PMID:11740713 DOI:10.1086/324351
+29. Gallicano K et al. Effect of short-term administration of garlic supplements on single-dose ritonavir pharmacokinetics in healthy volunteers. Br J Clin Pharmacol. 2003. PMID:12580992 DOI:10.1046/j.1365-2125.2003.01736.x
+30. Gurley BJ et al. Cytochrome P450 phenotypic ratios for predicting herb-drug interactions in humans. Clin Pharmacol Ther. 2002. PMID:12235448 DOI:10.1067/mcp.2002.126913
+31. Gurley BJ et al. Clinical assessment of effects of botanical supplementation on cytochrome P450 phenotypes in the elderly. Drugs Aging. 2005. PMID:15974642 DOI:10.2165/00002512-200522060-00006
+32. Cox MC et al. Influence of garlic (Allium sativum) on the pharmacokinetics of docetaxel. Clin Cancer Res. 2006. PMID:16899612 DOI:10.1158/1078-0432.CCR-06-0388
+33. Mohammed Abdul MI et al. Pharmacodynamic interaction of warfarin with cranberry but not with garlic in healthy subjects. Br J Pharmacol. 2008. PMID:18516070 DOI:10.1038/bjp.2008.210
+34. Macan H et al. Aged garlic extract may be safe for patients on warfarin therapy. J Nutr. 2006. PMID:16484565 DOI:10.1093/jn/136.3.793S
+35. Borrelli F et al. Garlic (Allium sativum L.): adverse effects and drug interactions in humans. Mol Nutr Food Res. 2007. PMID:17918162 DOI:10.1002/mnfr.200700072
+36. Rose KD et al. Spontaneous spinal epidural hematoma with associated platelet dysfunction from excessive garlic ingestion: a case report. Neurosurgery. 1990. PMID:2352608 DOI:10.1097/00006123-199005000-00026
+37. Scharbert G et al. Garlic at dietary doses does not impair platelet function. Anesth Analg. 2007. PMID:17959943 DOI:10.1213/01.ane.0000287253.92211.06
+38. Wojcikowski K et al. Effects of garlic oil on platelet aggregation: a double-blind placebo-controlled crossover study. Platelets. 2007. PMID:17365851 DOI:10.1080/09537100600800636
+39. Morris J et al. Effects of garlic extract on platelet aggregation: a randomized placebo-controlled double-blind study. Clin Exp Pharmacol Physiol. 1995. PMID:8582091 DOI:10.1111/j.1440-1681.1995.tb02032.x
+40. Rahman K et al. Dietary supplementation with aged garlic extract inhibits ADP-induced platelet aggregation in humans. J Nutr. 2000. PMID:11053504 DOI:10.1093/jn/130.11.2662
+41. Elvir Lazo OL et al. Use of herbal medication in the perioperative period: Potential adverse drug interactions. J Clin Anesth. 2024. PMID:38613937 DOI:10.1016/j.jclinane.2024.111473
+42. Ang-Lee MK et al. Herbal medicines and perioperative care. JAMA. 2001. PMID:11448284 DOI:10.1001/jama.286.2.208
+43. Hatfield J et al. Dietary supplements and bleeding. Proc (Bayl Univ Med Cent). 2022. PMID:36304597 DOI:10.1080/08998280.2022.2121575
+44. Dhamija P et al. Effect of oral administration of crude aqueous extract of garlic on pharmacokinetic parameters of isoniazid and rifampicin in rabbits. Pharmacology. 2006. PMID:16699292 DOI:10.1159/000093285
+45. Loizou GD et al. The effects of alcohol and diallyl sulphide on CYP2E1 activity in humans: a phenotyping study using chlorzoxazone. Hum Exp Toxicol. 2001. PMID:11530830 DOI:10.1191/096032701680350587
+46. Stanger MJ et al. Anticoagulant activity of select dietary supplements. Nutr Rev. 2012. PMID:22300597 DOI:10.1111/j.1753-4887.2011.00444.x
+47. Hitl M et al. Garlic burn injuries - a systematic review of reported cases. Am J Emerg Med. 2021. PMID:33571752 DOI:10.1016/j.ajem.2021.01.039
+48. Hellu TS et al. Garlic: a potential food allergen? J Food Allergy. 2023. PMID:39022755 DOI:10.2500/jfa.2023.5.230012
+49. Lawson LD et al. Allicin Bioavailability and Bioequivalence from Garlic Supplements and Garlic Foods. Nutrients. 2018. PMID:29937536 DOI:10.3390/nu10070812
+50. Meher S et al. Garlic for preventing pre-eclampsia and its complications. Cochrane Database Syst Rev. 2006. PMID:16856110 DOI:10.1002/14651858.CD006065
+51. Adler AJ et al. Effect of garlic and fish-oil supplementation on serum lipid and lipoprotein concentrations in hypercholesterolemic men. Am J Clin Nutr. 1997. PMID:9022529 DOI:10.1093/ajcn/65.2.445
+52. Hesari NG et al. Efficacy of garlic (Allium sativum) on metabolic syndrome components in women with polycystic ovary syndrome: randomized controlled trial. J Health Popul Nutr. 2025. PMID:40770379 DOI:10.1186/s41043-025-01025-8
+53. Liang N et al. Roles of garlic and its bioactive compounds in modulating cholesterol metabolism. Phytomedicine. 2025. PMID:41273868 DOI:10.1016/j.phymed.2025.157543
+54. Benavides GA et al. Hydrogen sulfide mediates the vasoactivity of garlic. Proc Natl Acad Sci U S A. 2007. PMID:17951430 DOI:10.1073/pnas.0705710104
+55. Izzo AA et al. Interactions between herbal medicines and prescribed drugs: an updated systematic review. Drugs. 2009. PMID:19719333 DOI:10.2165/11317010-000000000-00000
+56. Kanji S et al. Interactions of commonly used dietary supplements with cardiovascular drugs: a systematic review. Syst Rev. 2012. PMID:22651380 DOI:10.1186/2046-4053-1-26
+57. Mennella JA et al. The effects of repeated exposure to garlic-flavored milk on the nursling's behavior. Pediatr Res. 1993. PMID:8108198 DOI:10.1203/00006450-199312000-00022
+58. Berginc K et al. HIV protease inhibitors: garlic supplements and first-pass intestinal metabolism impact on the therapeutic efficacy. Biopharm Drug Dispos. 2010. PMID:21104925 DOI:10.1002/bdd.730
+59. Saadh MJ et al. Effects of aged garlic extract on blood pressure in hypertensive patients: SR and MA of RCTs (RETRACTED). Prostaglandins Other Lipid Mediat. 2024. PMID:39437887 DOI:10.1016/j.prostaglandins.2024.106914
+60. Saadh MJ et al. Retraction notice to "Effects of aged garlic extract on blood pressure in hypertensive patients". Prostaglandins Other Lipid Mediat. 2026. PMID:42527229 DOI:10.1016/j.prostaglandins.2026.107100

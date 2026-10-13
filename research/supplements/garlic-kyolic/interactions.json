@@ -4,7 +4,12 @@
   "slug": "garlic-kyolic",
   "aliases": [
     "aged garlic extract",
-    "Kyolic"
+    "AGE",
+    "Kyolic",
+    "Kyolic aged garlic extract",
+    "S-allyl cysteine",
+    "S-allylcysteine",
+    "SAC"
   ],
   "category": "botanical",
   "rx_status": "otc",
@@ -13,32 +18,315 @@
     {
       "with": "warfarin",
       "with_kind": "drug",
-      "kind": "caution",
-      "severity": "major",
-      "mechanism": "Garlic preparations may increase bleeding when combined with anticoagulant therapy.",
-      "evidence": "Official NCCIH safety summary.",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Antiplatelet activity of AGE could add to anticoagulation; garlic case reports describe enhanced warfarin/fluindione effect. AGE itself did not increase bleeding in a warfarin RCT and garlic did not change warfarin PK/INR in healthy subjects.",
+      "evidence": "Pilot RCT of AGE 5 mL twice daily in 48 warfarin patients (no increased hemorrhage); crossover PK/PD study; case-report review; observational TTR study; low certainty",
       "citations": [
-        "URL:https://www.nccih.nih.gov/health/garlic"
+        "PMID:16484565",
+        "PMID:18516070",
+        "PMID:17918162",
+        "PMID:21558883",
+        "PMID:26869811"
+      ]
+    },
+    {
+      "with": "antiplatelet agents",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "AGE inhibits ADP-induced platelet aggregation and adhesion; additive effect with aspirin/P2Y12 inhibitors plausible. AGE plus cilostazol did not enhance antiplatelet activity in a small study.",
+      "evidence": "Human platelet studies, small PD interaction study (n=10), SR of 12 garlic RCTs inconsistent; low certainty",
+      "citations": [
+        "PMID:11053504",
+        "PMID:11238801",
+        "PMID:21713089",
+        "PMID:16041725",
+        "PMID:36222178"
+      ]
+    },
+    {
+      "with": "anticoagulants (DOACs, heparins)",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Pharmacodynamic additive bleeding risk inferred from garlic antiplatelet activity; no interaction studies with DOACs or heparins.",
+      "evidence": "Mechanistic inference plus perioperative guidance and case-report review; very low certainty",
+      "citations": [
+        "PMID:11053504",
+        "PMID:17918162",
+        "PMID:38613937"
       ]
     },
     {
       "with": "Garlic",
       "with_kind": "supplement",
-      "kind": "caution",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Duplicate organosulfur exposure: additive antiplatelet effect and stacking of garlic adverse effects (odour, GI upset, allergy, bleeding); no added benefit shown.",
+      "evidence": "Platelet studies and adverse-effect reviews; no combination trial; low certainty",
+      "citations": [
+        "PMID:11053504",
+        "PMID:11238801",
+        "PMID:17918162",
+        "PMID:36222178"
+      ]
+    },
+    {
+      "with": "HIV protease inhibitors (saquinavir)",
+      "with_kind": "drug-class",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Garlic caplets lowered saquinavir AUC 51% and Cmax 54%, likely via intestinal P-gp induction; ritonavir single-dose PK not significantly changed. Not tested with AGE.",
+      "evidence": "Healthy-volunteer PK studies (n=10 each) and duodenal biopsy study; moderate certainty for garlic, unknown for AGE",
+      "citations": [
+        "PMID:11740713",
+        "PMID:20933082",
+        "PMID:12580992"
+      ]
+    },
+    {
+      "with": "CYP2E1 substrates",
+      "with_kind": "drug-class",
+      "kind": "monitor",
       "severity": "minor",
-      "mechanism": "Aged garlic is a garlic preparation; duplicated exposure has uncertain incremental effect and can increase garlic adverse effects.",
-      "evidence": "Ingredient overlap; no direct combination trial.",
+      "mechanism": "Garlic oil reduced CYP2E1 activity (chlorzoxazone ratio) by 39% in young and ~22% in elderly subjects; AGE not tested.",
+      "evidence": "Probe-cocktail phenotyping studies; low certainty",
+      "citations": [
+        "PMID:12235448",
+        "PMID:15974642"
+      ]
+    },
+    {
+      "with": "CYP3A4/CYP2D6 substrates",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Garlic extract did not alter alprazolam (CYP3A4), dextromethorphan (CYP2D6), erythromycin breath test, or simvastatin/pravastatin AUC; interaction unlikely.",
+      "evidence": "Healthy-volunteer probe studies; moderate certainty of no effect for garlic extracts",
+      "citations": [
+        "PMID:12891227",
+        "PMID:20933082"
+      ]
+    },
+    {
+      "with": "P-glycoprotein substrates",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Garlic extract increased duodenal P-gp expression to 131%, which correlated with reduced saquinavir exposure.",
+      "evidence": "Single human mechanistic study; low certainty",
+      "citations": [
+        "PMID:20933082"
+      ]
+    },
+    {
+      "with": "antihypertensives",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "AGE lowers SBP further when added to existing antihypertensive therapy; additive effect.",
+      "evidence": "Adjunct RCTs in treated uncontrolled hypertension; low certainty",
+      "citations": [
+        "PMID:20594781",
+        "PMID:23169470",
+        "PMID:26869811",
+        "PMID:37686723"
+      ]
+    },
+    {
+      "with": "antidiabetic agents",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Garlic modestly lowers fasting glucose and HbA1c; AGE lowered glucose in a 1-year trial; minor additive effect possible.",
+      "evidence": "MA of 27 RCTs plus AGE RCT; low certainty",
+      "citations": [
+        "PMID:42398591",
+        "PMID:40580481",
+        "PMID:32349742"
+      ]
+    },
+    {
+      "with": "CoQ10",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Fixed AGE+CoQ10 combination slowed CAC progression, lowered CRP and improved PWV/endothelial function; individual contributions not separable.",
+      "evidence": "Two RCTs in firefighters; low certainty",
+      "citations": [
+        "PMID:22923934",
+        "PMID:22858191"
+      ]
+    },
+    {
+      "with": "B Complex",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "AGE combined with B6, B12, folic acid and L-arginine lowered homocysteine and slowed CAC progression and adipose-tissue growth.",
+      "evidence": "RCT (n=65) and secondary analyses; low certainty",
+      "citations": [
+        "PMID:19573556",
+        "PMID:23453866",
+        "PMID:29140808"
+      ]
+    },
+    {
+      "with": "B12 methylcobalamin",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Vitamin B12 status influenced blood-pressure responsiveness to Kyolic in about 17% of hypertensive patients.",
+      "evidence": "Secondary finding of one RCT plus review; very low certainty",
       "citations": [
         "PMID:30619868",
-        "URL:https://www.nccih.nih.gov/health/garlic"
+        "PMID:32010325"
+      ]
+    },
+    {
+      "with": "Cocoa Flavanols",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Cocoa/cacao and garlic both inhibit platelet aggregation in RCTs; stacking may add to bleeding tendency.",
+      "evidence": "SR of herb antiplatelet RCTs; interaction not studied directly; very low certainty",
+      "citations": [
+        "PMID:36380973"
+      ]
+    },
+    {
+      "with": "Ginkgo biloba",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Both inhibit platelet aggregation and are among herbs flagged for perioperative bleeding risk; additive effect plausible.",
+      "evidence": "SR of herb antiplatelet RCTs and perioperative review; very low certainty",
+      "citations": [
+        "PMID:36380973",
+        "PMID:38613937"
+      ]
+    },
+    {
+      "with": "surgery/perioperative period",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Antiplatelet activity may increase surgical bleeding; ASA/AANA advise stopping herbal medicines 1-2 weeks before elective surgery.",
+      "evidence": "Perioperative review and case report of garlic-associated surgical bleeding; low certainty",
+      "citations": [
+        "PMID:38613937",
+        "PMID:27782907"
+      ]
+    },
+    {
+      "with": "bleeding disorders",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Inhibition of platelet aggregation and adhesion could worsen bleeding tendency.",
+      "evidence": "Human platelet-function studies and case-report review; very low certainty",
+      "citations": [
+        "PMID:11053504",
+        "PMID:11238801",
+        "PMID:17918162"
+      ]
+    },
+    {
+      "with": "garlic/Allium allergy",
+      "with_kind": "condition",
+      "kind": "contraindicated",
+      "severity": "moderate",
+      "mechanism": "Garlic can cause allergic contact dermatitis, urticaria, angioedema and anaphylaxis.",
+      "evidence": "Case reports summarized in review; low certainty",
+      "citations": [
+        "PMID:17918162"
+      ]
+    },
+    {
+      "with": "pregnancy",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Insufficient evidence on garlic in pregnancy (one trial, odour more common, no serious harms); no AGE-specific data.",
+      "evidence": "Cochrane review of one RCT (n=100); very low certainty",
+      "citations": [
+        "PMID:16856110"
+      ]
+    },
+    {
+      "with": "platelet aggregation tests",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "True physiological inhibition of ADP-, collagen- and epinephrine-induced aggregation and adhesion may alter platelet-function test results.",
+      "evidence": "Human supplementation studies; low certainty",
+      "citations": [
+        "PMID:11053504",
+        "PMID:11238801"
       ]
     }
   ],
   "citations": [
+    "PMID:11053504",
+    "PMID:11238801",
+    "PMID:11740713",
+    "PMID:12235448",
+    "PMID:12580992",
+    "PMID:12891227",
+    "PMID:15475033",
+    "PMID:15974642",
+    "PMID:16041725",
+    "PMID:16484565",
+    "PMID:16856110",
+    "PMID:17918162",
+    "PMID:18516070",
+    "PMID:19573556",
+    "PMID:20594781",
+    "PMID:20933082",
+    "PMID:21558883",
+    "PMID:21713089",
+    "PMID:22280901",
+    "PMID:22858191",
+    "PMID:22923934",
+    "PMID:23169470",
+    "PMID:23453866",
+    "PMID:23533302",
+    "PMID:25386977",
+    "PMID:26764322",
+    "PMID:26764326",
+    "PMID:26764332",
+    "PMID:26869811",
+    "PMID:27782907",
+    "PMID:29140808",
+    "PMID:29576354",
     "PMID:30619868",
+    "PMID:30949665",
+    "PMID:31518044",
+    "PMID:32010322",
+    "PMID:32010325",
+    "PMID:32010327",
+    "PMID:32010328",
+    "PMID:32143889",
+    "PMID:32349742",
+    "PMID:33293771",
+    "PMID:33590955",
+    "PMID:35505122",
+    "PMID:36222178",
+    "PMID:36380973",
+    "PMID:37686723",
+    "PMID:38613937",
+    "PMID:39437887",
+    "PMID:39882336",
     "PMID:40084199",
-    "PMID:30619868",
-    "PMID:40084199",
-    "URL:https://www.nccih.nih.gov/health/garlic"
+    "PMID:40171135",
+    "PMID:40171136",
+    "PMID:40580481",
+    "PMID:40628369",
+    "PMID:41273868",
+    "PMID:41393949",
+    "PMID:42300751",
+    "PMID:42398591",
+    "PMID:42527229"
   ]
 }

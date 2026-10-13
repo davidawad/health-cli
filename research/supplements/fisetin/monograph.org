@@ -3,47 +3,208 @@
 :ID: supp-fisetin
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: 3,3′,4′,7-tetrahydroxyflavone
+:ALIASES: 3,3',4',7-tetrahydroxyflavone | fisetin flavonol | FF-20 | Hybrid-FENUMAT fisetin | Rhus succedanea extract
 :CATEGORY: longevity
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Fisetin is a plant flavonol found in strawberries and other produce; concentrated supplements are marketed for senolytic effects. [PMID:42796982]
+- Fisetin (3,3',4',7-tetrahydroxyflavone) is a dietary flavonol found in strawberry, apple, persimmon, grape, onion and cucumber [PMID:23121441] [PMID:38716552]. It is sold as an OTC supplement and is being tested as an investigational senolytic in academic trials [PMID:39384074] [PMID:39434114].
+- Unformulated fisetin has poor water solubility, high lipophilicity and low oral bioavailability. Many nano- and macro-formulations have been made to overcome this [PMID:38716552] [PMID:37762460].
+- Human pharmacokinetics (the only published human PK study; randomized crossover, n=15) [PMID:36304817]:
+  - 1000 mg unformulated fisetin: Cmax 9.97 ng/mL, AUC0-12h 12.67.
+  - 1000 mg FF-20, a fenugreek-galactomannan hydrogel (Hybrid-FENUMAT) delivering 192 mg fisetin: Cmax 238.2 ng/mL and 26.9-fold higher AUC0-12h (341.4). The formulation also reduced conversion to the methylated metabolite geraldol. No adverse events were reported.
+- Metabolism (animal data):
+  - Mice (223 mg/kg i.p.): Cmax 2.5 ug/mL at 15 min, terminal half-life 3.1 h. Metabolites were glucuronides and geraldol (3'-O-methyl fisetin), which was more cytotoxic than fisetin and reached higher levels than fisetin in tumors [PMID:21840301].
+  - Rats: plasma AUC ratio of free fisetin to glucuronides to sulfates was 1:6:21. Sulfates dominate biliary excretion, and biliary excretion of fisetin is P-glycoprotein-mediated [PMID:29862816].
+- One botanical source used in trials is Rhus succedanea extract [PMID:33802381]. A trial comparing fisetin kinetics in young versus older adults (fasted and fed; FISEKIN-1) is registered but has not yet reported [URL:https://clinicaltrials.gov/study/NCT06796374].
 
 ** Mechanisms
-- Proposed biological activity and the best-established physiological context are described above; clinical mechanisms remain uncertain where outcome evidence is limited. ["PMID:39434114"]
+- Senolytic activity: fisetin selectively induced apoptosis in senescent human endothelial cells (HUVECs), but not in senescent IMR90 lung fibroblasts or preadipocytes, so its effect depends on cell type [PMID:28273655].
+- Among 10 flavonoids screened, fisetin was the most potent senolytic [PMID:30279143]:
+  - Acute or intermittent dosing reduced senescence markers in several tissues of progeroid and old mice.
+  - Late-life dosing extended median and maximum lifespan in wild-type mice.
+  - Fisetin reduced senescent cells in human adipose tissue explants.
+- In the NIA Interventions Testing Program (genetically heterogeneous UM-HET3 mice), dietary fisetin did not significantly extend lifespan in either sex at the dose and schedule used [PMID:38041783]. This is the most important replication failure for the lifespan claim.
+- "Hit-and-run" rationale: senescent cells take weeks to reaccumulate, so senolytics can be given intermittently [PMID:32686219] [PMID:35953721].
+- Vascular effects (mouse data):
+  - Intermittent oral fisetin (1 week on, 2 off, 1 on) lowered vascular senescence and SASP and improved endothelial function and aortic stiffness in old mice. Genetic senolysis experiments showed the benefit worked through senescent-cell removal [PMID:38062873].
+  - The same schedule (100 mg/kg/day) reversed doxorubicin-induced endothelial dysfunction and aortic stiffening in young mice [PMID:42144546].
+- Other mechanisms:
+  - Anti-inflammatory and antioxidant signalling through PI3K/Akt/mTOR, NF-kB and MAPK [PMID:40074915] [PMID:41538057].
+  - Microtubule stabilization [PMID:27765854].
+  - Neuroprotective effects across multiple dementia risk factors in animals [PMID:39004102].
+  - Many responses are hormetic (biphasic dose-response), which complicates dose selection [PMID:40208387].
+- Antiplatelet activity:
+  - In rabbit platelets, fisetin inhibited arachidonic-acid-induced aggregation (IC50 22 uM) by blocking thromboxane formation and antagonizing the thromboxane receptor [PMID:1776142].
+  - Oral fisetin (100 mg/kg/day for 7 days) protected rats against arterial thrombosis [PMID:25372471].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | Certainty | Citations |
-|---|---|---|---|---|---|
-| Primary studied clinical/biomarker outcomes | Systematic review/meta-analysis or RCT synthesis | Senolytic, antioxidant and anti-inflammatory effects are primarily preclinical | See narrative | low | PMID:39434114; PMID:42796982 |
-| Long-term clinical outcomes | Evidence insufficient or mixed | No established benefit | Not established | very low | PMID:39434114; PMID:42796982 |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Senescent-cell burden in humans | No published fisetin data. Indirect: open-label D+Q pilot in diabetic kidney disease (n=9) | Decrease (D+Q only) | D+Q lowered adipose p16/p21/SA-beta-gal cells and circulating IL-1alpha, IL-6, MMP-9/12 at 11 days | very low | [PMID:31542391] [PMID:39384074] |
+| Systemic inflammation (IL-8, hs-CRP, IL-6, TNF-alpha) | 2 small RCTs (CRC on chemotherapy, n=37; obese men, n=44); registry results of a knee-OA RCT | Possible decrease; inconsistent | CRC: only IL-8 differed vs placebo (p<0.03), hs-CRP fell within-group only. Obesity: IL-6 and TNF-alpha fell in the fisetin-alone arm. OA: CRP no difference (p=0.97) | very low | [PMID:29541713] [PMID:42218768] [URL:https://clinicaltrials.gov/study/NCT04210986] |
+| Insulin resistance / fasting glucose (obesity) | 1 RCT, 4-arm factorial (n=44, 200 mg/d, 12 wk) | Decrease | FBS, insulin and HOMA-IR fell in all active arms including fisetin alone (p=0.003); largest with training plus fisetin | very low | [PMID:42218768] |
+| Body weight / adipokines (obesity) | 1 RCT, 4-arm (n=60, 200 mg/d, 12 wk) | Decrease (weight); favorable adipokines mostly with training | Fisetin alone lost weight vs placebo. Asprosin -60.7% and MCP-1 -46.5% in training plus fisetin | very low | [PMID:41683255] |
+| Acute ischemic stroke (adjunct to rt-PA) | 1 double-blind RCT (China) | Benefit in delayed-treatment strata | Lower NIHSS and lower MMP-2, MMP-9 and CRP; sample size and dose not given in abstract | very low | [PMID:31434498] |
+| Knee osteoarthritis (cartilage markers) | RCT, registry results only (n=75; 20 mg/kg x 2 d, twice) | Null | COMP and CRP did not differ from placebo (p>0.97) | very low | [URL:https://clinicaltrials.gov/study/NCT04210986] |
+| COVID-19 in older adults | 2 small RCTs, registry results only (n=55; n=20, terminated) | Null / underpowered | WHO ordinal scale similar; SAEs 0/29 vs 2/26 | very low | [URL:https://clinicaltrials.gov/study/NCT04771611] [URL:https://clinicaltrials.gov/study/NCT04537299] [PMID:34375437] |
+| Gulf War illness symptoms | Pseudo-randomized crossover (n=21 veterans) | Null | Lower dose p=0.504, higher dose p=0.616 vs placebo | low | [PMID:33802381] |
+| Frailty / physical function (older adults) | AFFIRM and AFFIRM-LITE pilots, no results posted. Indirect: D+Q in IPF (open-label n=14; RCT n=12) | Unknown for fisetin | D+Q open-label improved 6MWD and gait speed; the D+Q RCT showed no meaningful between-group difference | very low | [URL:https://clinicaltrials.gov/study/NCT03675724] [URL:https://clinicaltrials.gov/study/NCT03430037] [PMID:30616998] [PMID:36857968] |
+| Bone turnover (indirect, D+Q) | Phase 2 RCT of D+Q in postmenopausal women (n=60) | Null for primary endpoint | CTx: D+Q -4.1% vs control -7.7% (p=0.611); P1NP +16% at 2-4 wk only | low (for D+Q) | [PMID:38956196] [PMID:39823170] |
+| Lifespan | Mouse studies only | Conflicting | Extension in one lab; no effect in the multi-site ITP | very low | [PMID:30279143] [PMID:38041783] |
+| Oral bioavailability (formulation) | Randomized crossover PK (n=15) | Higher with hydrogel formulation | AUC 26.9-fold and Cmax more than 23-fold vs unformulated | low | [PMID:36304817] |
 
 ** Dosing in trials
-- No established evidence-based dose; research protocols vary and no validated OTC regimen exists. [PMID:42796982]
+- Intermittent "senolytic" dosing of about 20 mg/kg/day for 2 consecutive days (roughly 1.4 g/day for a 70 kg adult):
+  - AFFIRM-LITE: once [URL:https://clinicaltrials.gov/study/NCT03675724].
+  - AFFIRM (older women): repeated in 2 consecutive months [URL:https://clinicaltrials.gov/study/NCT03430037].
+  - Knee OA: 2 days on, 28 days off, 2 days on [URL:https://clinicaltrials.gov/study/NCT04210986].
+  - COVID-19: days 0-1 and 8-9 [URL:https://clinicaltrials.gov/study/NCT04771611].
+- STOP-Sepsis (planned n=220, age >65): a single oral 20 mg/kg dose or two doses 1 day apart, versus placebo [PMID:39434114].
+- TROFFi (breast cancer survivors after chemotherapy, n=88): 20 mg/kg/day on days 1-3 of a 14-day cycle for 4 cycles. Primary endpoint is 6-minute walk distance [PMID:41835341].
+- Low daily dosing:
+  - 100 mg/day for 7 weeks alongside chemotherapy [PMID:29541713].
+  - 100 mg/day for 7 weeks (Danish suPAR trial protocol, age >=50) [PMID:42633989].
+  - 100 mg/day for 3 weeks (REPROGRAM, age 70+, versus metformin or spermidine) [PMID:42308222].
+  - 200 mg/day for 12 weeks in obese men [PMID:42218768] [PMID:41683255].
+- Carpal tunnel syndrome: 100 mg on 2 consecutive days, repeated after 1 month (single-arm, n=40) [URL:https://clinicaltrials.gov/study/NCT05416515].
+- Single 1000 mg doses (unformulated or FF-20) in the PK study [PMID:36304817].
+- No dose has been validated for any clinical outcome. Reviews call for dose-finding, PK and safety studies [PMID:39384074] [PMID:34699859].
 
 ** Safety & adverse effects
-- Human long-term safety and pharmacokinetics are inadequately characterized; potential drug-metabolism interactions remain theoretical. [PMID:42796982]
+- Human safety data are limited to short exposures in small trials:
+  - Single-dose PK study: no adverse events [PMID:36304817].
+  - Knee-OA RCT (20 mg/kg intermittent): any treatment-emergent AE 28/34 on fisetin vs 33/40 on placebo (p>0.9); SAEs 2/34 vs 2/40 [URL:https://clinicaltrials.gov/study/NCT04210986].
+  - COVFIS-HOME: SAEs 0/29 vs 2/26 [URL:https://clinicaltrials.gov/study/NCT04771611].
+  - Carpal tunnel (single-arm): no SAEs; 15/40 had other AEs [URL:https://clinicaltrials.gov/study/NCT05416515].
+- Long-term safety, pharmacokinetics and optimal dosing in humans are not established [PMID:39384074]. A 2026 review flags genotoxicity at relatively high concentrations (in vitro) [PMID:41538057].
+- Senolytic class (indirect): in the D+Q IPF RCT, sleep disturbance and anxiety occurred more often with D+Q (4/6 vs 0/6). Most AEs were attributed to dasatinib or to IPF [PMID:36857968]. These data do not transfer directly to fisetin monotherapy.
+- Related flavonol quercetin (indirect): long-term (>12 weeks) high-dose safety is not established. Animal data raise concerns about worsening a damaged kidney and promoting estrogen-dependent tumors [PMID:29127724].
 
 ** Contraindications
-- No clinical contraindication set established; avoid treating preclinical hypotheses as proven therapy. [PMID:42796982]
+- No formal contraindications have been established. Fisetin is not an approved drug, and evidence is too thin to define risk groups [PMID:39384074].
+- Cautions based on mechanism and preclinical data:
+  - Active chemotherapy (CYP2C8 inhibition, chemosensitization) [PMID:29454704] [PMID:40074915].
+  - Bleeding disorders or upcoming surgery (antiplatelet activity) [PMID:1776142] [PMID:25372471].
+  - Pregnancy and lactation: no human data were found [PMID:39384074].
 
 ** Interactions
-- Potential interactions with anticoagulants or drug-metabolizing enzymes are theoretical; clinical interaction studies are lacking. [PMID:42796982]
+*** Drugs
+- CYP2C8 substrates (paclitaxel, among others): in human liver microsomes, fisetin selectively and reversibly inhibited CYP2C8 (noncompetitive; Ki 4.1 uM). Geraldol also inhibited it (Ki 11.5 uM). No human interaction study exists [PMID:29454704].
+- CYP2C9 substrates (warfarin, NSAIDs): fisetin competitively inhibited CYP2C9 (diclofenac 4'-hydroxylation) with Ki <=2.2 uM in a recombinant system [PMID:19074529]. Together with antiplatelet activity [PMID:1776142], this means warfarin users should have their INR monitored. Clinical data are lacking.
+- Antiplatelet agents and anticoagulants: fisetin has in vitro and rat antithrombotic effects [PMID:1776142] [PMID:25372471], so additive bleeding risk is plausible but not quantified. Perioperative guidance for antithrombotics also addresses supplements [PMID:38735483].
+- Thrombolytics (rt-PA): one RCT gave fisetin with rt-PA and reported benefit. Bleeding outcomes are not reported in the abstract [PMID:31434498].
+- Taxanes (paclitaxel, cabazitaxel): fisetin was synergistic with paclitaxel in A549 cells and enhanced cabazitaxel in prostate cancer cells and xenografts [PMID:26884726] [PMID:27765854]. CYP2C8 inhibition could raise paclitaxel exposure [PMID:29454704].
+- Anthracyclines (doxorubicin): synergistic lymphoma killing in vitro and in mice [PMID:39929420]. Fisetin also protected against doxorubicin vascular toxicity in mice [PMID:42144546]. Human data are absent.
+- Platinum agents (cisplatin): fisetin sensitized renal carcinoma cells to cisplatin [PMID:38426151] and reduced cisplatin neuropathy in rats [PMID:40167901].
+- Capecitabine: 100 mg/day fisetin was given alongside chemotherapy in a CRC RCT [PMID:29541713]. In cells it had additive pro-apoptotic effects, including in capecitabine-resistant cells [PMID:38748229].
+- OAT1 substrates: fisetin completely inhibited OAT1-mediated uptake at 50 uM and is itself an OAT1 substrate [PMID:25002746].
+- P-glycoprotein substrates: fisetin is a weak P-gp inhibitor in KB-C2 cells [PMID:16327165]. It did not reverse daunomycin resistance in MCF-7/ADR cells [PMID:16114498]. Its own biliary excretion is P-gp-mediated [PMID:29862816].
+- Antidiabetic drugs: FBS, insulin and HOMA-IR fell with 200 mg/day in obese men [PMID:42218768]. A minor additive effect is possible.
+*** Other supplements
+- Quercetin: a related flavonol with overlapping CYP2C9 inhibition [PMID:19074529] and antiplatelet activity [PMID:1776142]. It also has its own safety and drug-interaction concerns at high doses [PMID:29127724]. Stacking two senolytic flavonols has not been studied.
+- EPA/DHA/DPA: n-3 fatty acids affect haemostasis but did not increase clinically significant bleeding [PMID:24472372]. Combining them with fisetin's antiplatelet effect [PMID:1776142] is untested and probably minor.
+- Garlic, Ginger Root: perioperative antithrombotic reviews flag these supplements [PMID:38735483]. Stacking them with fisetin [PMID:25372471] adds theoretical antiplatelet load.
+- Metformin ER, Spermidine: compared as alternative geroprotectors in REPROGRAM, not combined, so there are no interaction data [PMID:42308222].
+- Dasatinib + quercetin is a separate senolytic regimen. Trials of it inform the class rationale but are indirect evidence for fisetin [PMID:31542391] [PMID:37679434].
+*** Conditions
+- Cancer under active treatment: preclinical chemosensitization and CYP2C8 inhibition cut both ways. Fisetin should not be added to chemotherapy outside trials [PMID:40074915] [PMID:29454704].
+- Bleeding disorders and perioperative periods: see antiplatelet data [PMID:1776142] [PMID:25372471].
+- Pregnancy and lactation: no human data [PMID:39384074].
+*** Lab-test interference
+- No assay interference was found. Trials report real changes in inflammatory markers (IL-8, IL-6, TNF-alpha), FBS, insulin and HOMA-IR [PMID:29541713] [PMID:42218768]. Warfarin users should have their INR monitored, given CYP2C9 inhibition [PMID:19074529]. Senescence biomarkers such as T-cell p16 variants are still being developed and validated [PMID:39823170].
 
 ** Genotype notes
-- No cited pharmacogenomic or nutrigenomic source was identified in the sources reviewed; no genotype-specific claim is made.
+No cited pharmacogenomic or nutrigenomic source found.
 
 ** Latest research
-- 2025–2026 literature: 2024 phase 2 STOP-Sepsis protocol describes testing fisetin in hospitalized older adults; protocol reports no efficacy result. [PMID:39434114]
+- [2026-09] Danish triple-blind RCT protocol: 100 mg/day for 7 weeks in adults >=50; primary outcome suPAR, plus adverse events [PMID:42633989].
+- [2026-07] FIS-AD pilot (20 mg/kg/day, n=5, mild AD/MCI) completed; no results posted yet [URL:https://clinicaltrials.gov/study/NCT07279714].
+- [2026-06] REPROGRAM protocol: fisetin 100 mg vs metformin vs spermidine for 3 weeks in adults 70+; primary outcome adipose SA-beta-gal [PMID:42308222].
+- [2026-05] RCT in obese men (n=44): 200 mg/day for 12 weeks lowered IL-6, TNF-alpha and HOMA-IR, with the most benefit alongside training [PMID:42218768].
+- [2026-05] Mouse study: intermittent fisetin reversed doxorubicin-induced endothelial dysfunction and aortic stiffening [PMID:42144546].
+- [2026-03] TROFFi phase II design: 20 mg/kg/day intermittently in breast cancer survivors; endpoint 6MWD [PMID:41835341].
+- [2026-01] RCT in obese men (n=60): fisetin alone reduced weight vs placebo; asprosin and MCP-1 fell most with training plus fisetin [PMID:41683255].
+- [2026-01] Review flags poor bioavailability and in vitro genotoxicity at high concentrations [PMID:41538057].
+- [2025-04] Hormesis review: many fisetin effects are biphasic [PMID:40208387].
+- [2025-04] D+Q AD trial biomarker analysis (indirect evidence) [PMID:40274471].
+- [2025-04] Rat study: fisetin reduced cisplatin peripheral neuropathy [PMID:40167901].
+- [2025-03] Systematic review of fisetin as a chemoprotective and chemotherapeutic adjunct (preclinical) [PMID:40074915].
+- [2025-02] Fisetin plus doxorubicin was synergistic in lymphoma models [PMID:39929420].
+- [2025-01] Carpal tunnel single-arm study (n=40) completed with registry results; no SAEs [URL:https://clinicaltrials.gov/study/NCT05416515].
+- [2025-01] Higher T-cell p16 variant 5 predicted D+Q skeletal response; this marker is proposed for selecting senolytic trial participants [PMID:39823170].
+- [2024-10] STOP-Sepsis phase 2 protocol (n=220, 20 mg/kg single or double dose) [PMID:39434114].
+- [2024-10] Senotherapeutic review: human safety, PK and efficacy of fisetin remain to be established [PMID:39384074].
 
 ** Open questions
-- Whether findings translate into durable patient-important outcomes, optimal formulation/dose, and long-term safety remains uncertain. [PMID:39434114; PMID:42796982]
+- Does fisetin clear senescent cells in humans at the doses used? No peer-reviewed human senescence-burden result exists for fisetin. Results from AFFIRM/AFFIRM-LITE (started 2018) remain unpublished. A 2024 systematic review of dietary senotherapeutics found only 5 human studies in total [PMID:38382678].
+- The lifespan signal conflicts: extension in one lab versus a null ITP result. Dose, formulation and genetic background may explain the difference.
+- What tissue exposures do intermittent ~20 mg/kg doses reach, given very low unformulated bioavailability? How do formulations, food and age change this (FISEKIN-1 pending)?
+- Are the CYP2C8, CYP2C9 and OAT1 inhibition shown in vitro clinically relevant at supplement doses? This matters especially with paclitaxel and warfarin.
+- Is it safe to add fisetin to chemotherapy, given preclinical sensitization of both tumor and normal tissue effects?
+- The positive human RCTs are small, single-centre and from a few groups. They need independent replication with preregistered outcomes.
 
 ** Sources
-- PMID:39434114
-- PMID:42796982
-- PMID:42796982
-- PMID:39434114
+1. Wang L et al. Fisetin Prolongs Therapy Window of Brain Ischemic Stroke Using Tissue Plasminogen Activator: A Double-Blind Randomized Placebo-Controlled Clinical Trial. Clin Appl Thromb Hemost. 2019. PMID:31434498 DOI:10.1177/1076029619871359
+2. Farsad-Naeimi A et al. Effect of fisetin supplementation on inflammatory factors and matrix metalloproteinase enzymes in colorectal cancer patients. Food Funct. 2018. PMID:29541713 DOI:10.1039/c7fo01898c
+3. Krishnakumar IM et al. Enhanced bioavailability and pharmacokinetics of a novel hybrid-hydrogel formulation of fisetin orally administered in healthy individuals: a randomised double-blinded comparative crossover study. J Nutr Sci. 2022. PMID:36304817 DOI:10.1017/jns.2022.72
+4. Alipour M et al. 12‑weeks fisetin supplementation and interval resistance with aerobic training: changes in Maresin‑1 and inflammatory markers in men with obesity: a randomized controlled trial. J Int Soc Sports Nutr. 2026. PMID:42218768 DOI:10.1080/15502783.2026.2679718
+5. Alipour M et al. The Effects of Interval Resistance-Aerobic Training and Fisetin Supplementation on Asprosin and Selected Adipokines in Obese Men: A Double-Blind Randomized Control Trial. Nutrients. 2026. PMID:41683255 DOI:10.3390/nu18030433
+6. Hodgin KS et al. A Placebo-Controlled, Pseudo-Randomized, Crossover Trial of Botanical Agents for Gulf War Illness: Resveratrol (Polygonum cuspidatum), Luteolin, and Fisetin (Rhus succedanea). Int J Environ Res Public Health. 2021. PMID:33802381 DOI:10.3390/ijerph18052483
+7. Silva M et al. Senolytics To slOw Progression of Sepsis (STOP-Sepsis) in elderly patients: Study protocol for a multicenter, randomized, adaptive allocation clinical trial. Trials. 2024. PMID:39434114 DOI:10.1186/s13063-024-08474-2
+8. Tavenier J et al. Low-Dose Fisetin Supplementation and Its Association With Chronic Inflammation in Middle-Aged and Older Adults: Study Protocol for a Triple-Blind, Randomised, Placebo-Controlled Trial. Basic Clin Pharmacol Toxicol. 2026. PMID:42633989 DOI:10.1111/bcpt.70290
+9. Ji J et al. A phase II randomized placebo-controlled study of fisetin to improve physical function in breast cancer survivors: the TROFFi study rationale and trial design. Ther Adv Med Oncol. 2026. PMID:41835341 DOI:10.1177/17588359261424668
+10. Wilson D et al. REPROGRAM: REsilience PROmotion with GeRoprotectors: AssessMent of biological effect: Rationale and protocol for a trial of biological effect. PLoS One. 2026. PMID:42308222 DOI:10.1371/journal.pone.0346347
+11. Verdoorn BP et al. Fisetin for COVID-19 in skilled nursing facilities: Senolytic trials in the COVID era. J Am Geriatr Soc. 2021. PMID:34375437 DOI:10.1111/jgs.17416
+12. Yousefzadeh MJ et al. Fisetin is a senotherapeutic that extends health and lifespan. EBioMedicine. 2018. PMID:30279143 DOI:10.1016/j.ebiom.2018.09.015
+13. Zhu Y et al. New agents that target senescent cells: the flavone, fisetin, and the BCL-X(L) inhibitors, A1331852 and A1155463. Aging (Albany NY). 2017. PMID:28273655 DOI:10.18632/aging.101202
+14. Harrison DE et al. Astaxanthin and meclizine extend lifespan in UM-HET3 male mice; fisetin, SG1002 (hydrogen sulfide donor), dimethyl fumarate, mycophenolic acid, and 4-phenylbutyrate do not significantly affect lifespan in either sex at the doses and schedules used. Geroscience. 2024. PMID:38041783 DOI:10.1007/s11357-023-01011-0
+15. Mahoney SA et al. Intermittent supplementation with fisetin improves arterial function in old mice by decreasing cellular senescence. Aging Cell. 2024. PMID:38062873 DOI:10.1111/acel.14060
+16. Darrah MA et al. Fisetin Supplementation Attenuates Premature Vascular Aging Induced by Doxorubicin via Suppression of Cellular Senescence and Mitochondrial Oxidative Stress. Aging Cell. 2026. PMID:42144546 DOI:10.1111/acel.70535
+17. Touil YS et al. Fisetin disposition and metabolism in mice: Identification of geraldol as an active metabolite. Biochem Pharmacol. 2011. PMID:21840301 DOI:10.1016/j.bcp.2011.07.097
+18. Huang MC et al. Pharmacokinetics and Biliary Excretion of Fisetin in Rats. J Agric Food Chem. 2018. PMID:29862816 DOI:10.1021/acs.jafc.8b00917
+19. Shrestha R et al. Selective inhibition of CYP2C8 by fisetin and its methylated metabolite, geraldol, in human liver microsomes. Drug Metab Pharmacokinet. 2018. PMID:29454704 DOI:10.1016/j.dmpk.2017.12.006
+20. Si D et al. Mechanism of CYP2C9 inhibition by flavones and flavonols. Drug Metab Dispos. 2009. PMID:19074529 DOI:10.1124/dmd.108.023416
+21. An G et al. Flavonoids are inhibitors of human organic anion transporter 1 (OAT1)-mediated transport. Drug Metab Dispos. 2014. PMID:25002746 DOI:10.1124/dmd.114.059337
+22. Tzeng SH et al. Inhibition of platelet aggregation by some flavonoids. Thromb Res. 1991. PMID:1776142 DOI:10.1016/0049-3848(91)90208-e
+23. Lee JH et al. Antiplatelet effects of Rhus verniciflua stokes heartwood and its active constituents--fisetin, butein, and sulfuretin--in rats. J Med Food. 2015. PMID:25372471 DOI:10.1089/jmf.2013.3116
+24. Mukhtar E et al. Fisetin Enhances Chemotherapeutic Effect of Cabazitaxel against Human Prostate Cancer Cells. Mol Cancer Ther. 2016. PMID:27765854 DOI:10.1158/1535-7163.MCT-16-0515
+25. Jiang T et al. Fisetin enhances cisplatin sensitivity in renal cell carcinoma via the CDK6/PI3K/Akt/mTOR signaling pathway. Oncol Lett. 2024. PMID:38426151 DOI:10.3892/ol.2024.14298
+26. Zehra K et al. Fisetin and/or capecitabine causes changes in apoptosis pathways in capecitabine-resistant colorectal cancer cell lines. Naunyn Schmiedebergs Arch Pharmacol. 2024. PMID:38748229 DOI:10.1007/s00210-024-03145-0
+27. Klimaszewska-Wisniewska A et al. Paclitaxel and the dietary flavonoid fisetin: a synergistic combination that induces mitotic catastrophe and autophagic cell death in A549 non-small cell lung cancer cells. Cancer Cell Int. 2016. PMID:26884726 DOI:10.1186/s12935-016-0288-3
+28. Singh S et al. Synergistic combination of doxorubicin with fisetin for the treatment of lymphoma. Eur J Pharmacol. 2025. PMID:39929420 DOI:10.1016/j.ejphar.2025.177361
+29. Chung SY et al. Inhibition of P-glycoprotein by natural products in human breast cancer cells. Arch Pharm Res. 2005. PMID:16114498 DOI:10.1007/BF02977349
+30. Kitagawa S et al. Structure-activity relationships of the inhibitory effects of flavonoids on P-glycoprotein-mediated transport in KB-C2 cells. Biol Pharm Bull. 2005. PMID:16327165 DOI:10.1248/bpb.28.2274
+31. Adıgüzel C et al. Fisetin mitigates cisplatin-induced peripheral neuropathy: a behavioral and immunohistochemical study. Mol Biol Rep. 2025. PMID:40167901 DOI:10.1007/s11033-025-10465-8
+32. Tavenier J et al. Fisetin as a senotherapeutic agent: Evidence and perspectives for age-related diseases. Mech Ageing Dev. 2024. PMID:39384074 DOI:10.1016/j.mad.2024.111995
+33. Calabrese EJ et al. Fisetin: hormesis accounts for many of its chemoprotective effects. Biogerontology. 2025. PMID:40208387 DOI:10.1007/s10522-025-10230-1
+34. Mirza MA et al. Fisetin from Dietary Supplement to a Drug Candidate: An Assessment of Potential. Curr Pharm Biotechnol. 2025. PMID:38716552 DOI:10.2174/0113892010304479240415074928
+35. Szymczak J et al. Fisetin-In Search of Better Bioavailability-From Macro to Nano Modifications: A Review. Int J Mol Sci. 2023. PMID:37762460 DOI:10.3390/ijms241814158
+36. Chahal SK et al. Fisetin: a multitarget flavonol bridging oxidative stress, inflammation, aging, and cancer. Naunyn Schmiedebergs Arch Pharmacol. 2026. PMID:41538057 DOI:10.1007/s00210-025-04912-3
+37. Fatima R et al. Fisetin as a chemoprotective and chemotherapeutic agent: mechanistic insights and future directions in cancer therapy. Med Oncol. 2025. PMID:40074915 DOI:10.1007/s12032-025-02664-x
+38. Chaib S et al. Cellular senescence and senolytics: the path to the clinic. Nat Med. 2022. PMID:35953721 DOI:10.1038/s41591-022-01923-y
+39. Kirkland JL et al. Senolytic drugs: from discovery to translation. J Intern Med. 2020. PMID:32686219 DOI:10.1111/joim.13141
+40. Wissler Gerdes EO et al. Strategies for late phase preclinical and early clinical trials of senolytics. Mech Ageing Dev. 2021. PMID:34699859 DOI:10.1016/j.mad.2021.111591
+41. Maher P et al. The flavonoid fisetin reduces multiple physiological risk factors for dementia. Neurochem Int. 2024. PMID:39004102 DOI:10.1016/j.neuint.2024.105805
+42. Khan N et al. Fisetin: a dietary antioxidant for health promotion. Antioxid Redox Signal. 2013. PMID:23121441 DOI:10.1089/ars.2012.4901
+43. Hickson LJ et al. Senolytics decrease senescent cells in humans: Preliminary report from a clinical trial of Dasatinib plus Quercetin in individuals with diabetic kidney disease. EBioMedicine. 2019. PMID:31542391 DOI:10.1016/j.ebiom.2019.08.069
+44. Justice JN et al. Senolytics in idiopathic pulmonary fibrosis: Results from a first-in-human, open-label, pilot study. EBioMedicine. 2019. PMID:30616998 DOI:10.1016/j.ebiom.2018.12.052
+45. Nambiar A et al. Senolytics dasatinib and quercetin in idiopathic pulmonary fibrosis: results of a phase I, single-blind, single-center, randomized, placebo-controlled pilot trial on feasibility and tolerability. EBioMedicine. 2023. PMID:36857968 DOI:10.1016/j.ebiom.2023.104481
+46. Gonzales MM et al. Senolytic therapy in mild Alzheimer's disease: a phase 1 feasibility trial. Nat Med. 2023. PMID:37679434 DOI:10.1038/s41591-023-02543-w
+47. Farr JN et al. Effects of intermittent senolytic therapy on bone metabolism in postmenopausal women: a phase 2 randomized controlled trial. Nat Med. 2024. PMID:38956196 DOI:10.1038/s41591-024-03096-2
+48. Garbarino VR et al. Evaluation of exploratory fluid biomarkers from a phase 1 senolytic trial in mild Alzheimer's disease. Neurotherapeutics. 2025. PMID:40274471 DOI:10.1016/j.neurot.2025.e00591
+49. Farr JN et al. Characterization of Human Senescent Cell Biomarkers for Clinical Trials. Aging Cell. 2025. PMID:39823170 DOI:10.1111/acel.14489
+50. Guan L et al. Therapeutic effect of dietary ingredients on cellular senescence in animals and humans: A systematic review. Ageing Res Rev. 2024. PMID:38382678 DOI:10.1016/j.arr.2024.102238
+51. Trager MH et al. Part 1: Management of antithrombotic medications in dermatologic surgery. J Am Acad Dermatol. 2025. PMID:38735483 DOI:10.1016/j.jaad.2024.01.096
+52. Wachira JK et al. n-3 Fatty acids affect haemostasis but do not increase the risk of bleeding: clinical observations and mechanistic insights. Br J Nutr. 2014. PMID:24472372 DOI:10.1017/S000711451300425X
+53. Andres S et al. Safety Aspects of the Use of Quercetin as a Dietary Supplement. Mol Nutr Food Res. 2018. PMID:29127724 DOI:10.1002/mnfr.201700447
+54. ClinicalTrials.gov. Alleviation by Fisetin of Frailty, Inflammation, and Related Measures in Older Adults (AFFIRM-LITE). NCT03675724. Accessed 2026-10-13. URL:https://clinicaltrials.gov/study/NCT03675724
+55. ClinicalTrials.gov. Alleviation by Fisetin of Frailty, Inflammation, and Related Measures in Older Women (AFFIRM). NCT03430037. Accessed 2026-10-13. URL:https://clinicaltrials.gov/study/NCT03430037
+56. ClinicalTrials.gov. Senolytic Drugs Attenuate Osteoarthritis-Related Articular Cartilage Degeneration: A Clinical Trial (results posted). NCT04210986. Accessed 2026-10-13. URL:https://clinicaltrials.gov/study/NCT04210986
+57. ClinicalTrials.gov. COVFIS-HOME: COVID-19 Pilot Study of Fisetin to Alleviate Dysfunction and Decrease Complications (results posted). NCT04771611. Accessed 2026-10-13. URL:https://clinicaltrials.gov/study/NCT04771611
+58. ClinicalTrials.gov. COVID-FIS: Pilot in COVID-19 of Fisetin in Older Adults in Nursing Homes (terminated; results posted). NCT04537299. Accessed 2026-10-13. URL:https://clinicaltrials.gov/study/NCT04537299
+59. ClinicalTrials.gov. A Study of Fisetin to Treat Carpal Tunnel Syndrome (results posted). NCT05416515. Accessed 2026-10-13. URL:https://clinicaltrials.gov/study/NCT05416515
+60. ClinicalTrials.gov. A Comparison of Fisetin Kinetics in Young and Old Adults (FISEKIN-1). NCT06796374. Accessed 2026-10-13. URL:https://clinicaltrials.gov/study/NCT06796374
+61. ClinicalTrials.gov. Fisetin in Mild Alzheimer's Disease (FIS-AD). NCT07279714. Accessed 2026-10-13. URL:https://clinicaltrials.gov/study/NCT07279714

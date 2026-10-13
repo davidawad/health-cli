@@ -3,41 +3,346 @@
   "supplement": "Vitamin E",
   "slug": "vitamin-e",
   "aliases": [
-    "alpha-tocopherol"
+    "alpha-tocopherol",
+    "d-alpha-tocopherol",
+    "RRR-alpha-tocopherol",
+    "dl-alpha-tocopherol",
+    "all-rac-alpha-tocopheryl acetate",
+    "mixed tocopherols",
+    "tocotrienols",
+    "tocotrienol-rich fraction (TRF)"
   ],
   "category": "vitamin",
   "rx_status": "otc",
-  "evidence_certainty_overall": "low",
+  "evidence_certainty_overall": "moderate",
   "edges": [
     {
       "with": "warfarin",
       "with_kind": "drug",
-      "kind": "caution",
-      "severity": "major",
-      "mechanism": "High supplemental alpha-tocopherol may impair coagulation and potentiate anticoagulation.",
-      "evidence": "Official NIH ODS interaction summary.",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "High-dose vitamin E antagonizes vitamin K (PIVKA-II rise) and inhibits platelets; may potentiate vitamin K antagonist anticoagulation at >=300 mg/d.",
+      "evidence": "Small RCT (n=21) showed no INR change; mechanistic RCT of 1000 IU/d raised PIVKA-II; reviews list warfarin as plausible interaction; low certainty",
       "citations": [
-        "URL:https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/"
+        "PMID:15213041",
+        "PMID:8629604",
+        "PMID:25225959",
+        "PMID:40065887"
       ]
     },
     {
-      "with": "Vitamin K2-MK4",
+      "with": "antiplatelet agents",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Alpha-tocopherol inhibits platelet aggregation via protein kinase C; additive bleeding with aspirin.",
+      "evidence": "ATBC substudy: gingival bleeding highest with alpha-tocopherol + aspirin (33.4% vs 25.8% sites); human ex vivo platelet data; review",
+      "citations": [
+        "PMID:9920356",
+        "PMID:8921785",
+        "PMID:25225959"
+      ]
+    },
+    {
+      "with": "simvastatin + niacin",
+      "with_kind": "drug",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Antioxidant cocktail (vitamins E, C, beta-carotene, selenium) blunted HDL2/Lp(A-I) response and angiographic benefit of simvastatin-niacin; vitamin E alone did not alter HDL subfractions on statins.",
+      "evidence": "HATS RCT (n=160) and lipoprotein substudy; separate 2-y RCT of 1200 IU/d RRR-alpha-tocopherol null; moderate certainty for cocktail, low for vitamin E alone",
+      "citations": [
+        "PMID:11757504",
+        "PMID:11498460",
+        "PMID:17234730"
+      ]
+    },
+    {
+      "with": "cyclosporine",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "High-dose vitamin E may alter cyclosporine A activity/absorption.",
+      "evidence": "Narrative review of vitamin E-drug interactions; limited clinical data; very low certainty",
+      "citations": [
+        "PMID:25225959"
+      ]
+    },
+    {
+      "with": "tamoxifen",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "High-dose vitamin E (>=300 mg/d) proposed to alter tamoxifen activity.",
+      "evidence": "Narrative review; limited data; very low certainty",
+      "citations": [
+        "PMID:25225959"
+      ]
+    },
+    {
+      "with": "orlistat",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Lipase inhibition reduces absorption of fat-soluble alpha-tocopherol.",
+      "evidence": "Open-label pilot (n=17 adolescents): reduced acute alpha-tocopherol absorption, serum levels maintained with multivitamin",
+      "citations": [
+        "PMID:12126214"
+      ]
+    },
+    {
+      "with": "K1",
       "with_kind": "supplement",
       "kind": "caution",
       "severity": "moderate",
-      "mechanism": "Vitamin E can antagonize vitamin-K-dependent coagulation, while MK-4 alters vitamin K exposure; net anticoagulation effect may be clinically relevant.",
-      "evidence": "Mechanistic interaction; clinical outcome evidence limited.",
+      "mechanism": "High-dose vitamin E antagonizes vitamin K-dependent carboxylation; vitamin K reverses vitamin E-associated coagulopathy. Low vitamin K status amplifies bleeding risk.",
+      "evidence": "RCTs of 1000 IU/d (PIVKA-II rise); 2025 case report of reversible coagulopathy",
       "citations": [
-        "URL:https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/",
-        "URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/"
+        "PMID:15213041",
+        "PMID:40499949"
+      ]
+    },
+    {
+      "with": "Selenium",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Vitamin E alone raised prostate cancer risk in SELECT, mainly in men with low baseline selenium; the combination arm was not significantly increased.",
+      "evidence": "SELECT RCT (n=35,533) and case-cohort analysis by toenail selenium",
+      "citations": [
+        "PMID:21990298",
+        "PMID:24563519"
+      ]
+    },
+    {
+      "with": "Vitamin C",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Vitamin E combined with other antioxidants (incl. vitamin C) linked to more hemorrhagic stroke, blunted statin-niacin HDL response, and higher term PROM in pregnancy.",
+      "evidence": "2024 MA of 16 RCTs; HATS substudy; Cochrane pregnancy review",
+      "citations": [
+        "PMID:37698992",
+        "PMID:11498460",
+        "PMID:26343254"
+      ]
+    },
+    {
+      "with": "Zinc",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "AREDS formula (vitamins C, E, beta-carotene plus zinc) slowed AMD progression; vitamin E alone not shown to help.",
+      "evidence": "AREDS RCT (n=3640) and Cochrane 2023; moderate certainty for combination",
+      "citations": [
+        "PMID:11594942",
+        "PMID:37702300"
+      ]
+    },
+    {
+      "with": "hemorrhagic stroke",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Vitamin E raises hemorrhagic stroke risk (antiplatelet and vitamin K-antagonist effects).",
+      "evidence": "MA of 9 RCTs RR 1.22; PHS II HR 1.74; ATBC excess hemorrhagic stroke deaths; USPSTF harm signal",
+      "citations": [
+        "PMID:21051774",
+        "PMID:18997197",
+        "PMID:8127329",
+        "PMID:35727272"
+      ]
+    },
+    {
+      "with": "bleeding disorders",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Vitamin E excess can produce coagulopathy when vitamin K absorption or function is compromised (malabsorption, bariatric diversion, vitamin K deficiency).",
+      "evidence": "Case report 2025; mechanistic RCT; IOM UL based on hemorrhage",
+      "citations": [
+        "PMID:40499949",
+        "PMID:15213041"
+      ]
+    },
+    {
+      "with": "heart failure",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Long-term 400 IU/d increased heart failure and HF hospitalization in patients with vascular disease or diabetes.",
+      "evidence": "HOPE-TOO RCT RR 1.13 (1.01-1.26); null in healthy women (WHS)",
+      "citations": [
+        "PMID:15769967",
+        "PMID:22438520"
+      ]
+    },
+    {
+      "with": "prostate cancer risk",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "400 IU/d all-rac-alpha-tocopheryl acetate increased prostate cancer incidence.",
+      "evidence": "SELECT HR 1.17 (99% CI 1.004-1.36); +63% in low-selenium men",
+      "citations": [
+        "PMID:21990298",
+        "PMID:24563519"
+      ]
+    },
+    {
+      "with": "MASLD/MASH under vitamin E treatment",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Occult gastrointestinal bleeding and iron deficiency during 200-800 IU/d, especially in diabetes; histologic benefit in non-diabetic MASH.",
+      "evidence": "Prospective series (n=20, 55% iron deficiency); PIVENS RCT",
+      "citations": [
+        "PMID:39960325",
+        "PMID:20427778"
+      ]
+    },
+    {
+      "with": "pregnancy",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Vitamin E (mostly combined with vitamin C) did not prevent pre-eclampsia and increased term prelabour rupture of membranes.",
+      "evidence": "Cochrane review of 21 trials (n=22,129)",
+      "citations": [
+        "PMID:26343254"
+      ]
+    },
+    {
+      "with": "vaping products containing vitamin E acetate",
+      "with_kind": "condition",
+      "kind": "contraindicated",
+      "severity": "major",
+      "mechanism": "Inhaled vitamin E acetate associated with e-cigarette or vaping product use-associated lung injury (EVALI).",
+      "evidence": "CDC BAL study: vitamin E acetate in 48/51 EVALI cases vs 0 controls",
+      "citations": [
+        "PMID:31860793"
+      ]
+    },
+    {
+      "with": "haptoglobin 2-2 genotype (with diabetes)",
+      "with_kind": "genotype",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Hp 2-2 protein binds hemoglobin poorly, raising oxidative stress; vitamin E associated with fewer CV events and better HDL function only in diabetic Hp 2-2 carriers.",
+      "evidence": "MAs of trial subgroups OR 0.66; 2024 SR; LURIC cohort interaction; post hoc, low certainty",
+      "citations": [
+        "PMID:22939808",
+        "PMID:29731659",
+        "PMID:39474248",
+        "PMID:39882297"
+      ]
+    },
+    {
+      "with": "CYP4F2 variants",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "CYP4F2 omega-hydroxylase initiates tocopherol catabolism; W12G increases and V433M (rs2108622) decreases activity in vitro.",
+      "evidence": "In vitro enzyme study; ATBC cohort found no modification of alpha-tocopherol-prostate cancer association",
+      "citations": [
+        "PMID:20861217",
+        "PMID:35197557"
+      ]
+    },
+    {
+      "with": "PIVKA-II",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Physiological rise in under-carboxylated prothrombin from vitamin K antagonism (not an assay artifact).",
+      "evidence": "Two 12-week RCTs of 1000 IU/d",
+      "citations": [
+        "PMID:15213041"
+      ]
+    },
+    {
+      "with": "PT/INR and APTT",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "moderate",
+      "mechanism": "Vitamin E excess with impaired vitamin K can prolong INR and APTT; INR shifts possible on warfarin.",
+      "evidence": "Case report 2025; small warfarin RCT null",
+      "citations": [
+        "PMID:40499949",
+        "PMID:8629604"
+      ]
+    },
+    {
+      "with": "ferritin and hemoglobin",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Falling ferritin, MCV and hemoglobin from occult GI blood loss during vitamin E therapy.",
+      "evidence": "Prospective MASLD series",
+      "citations": [
+        "PMID:39960325"
       ]
     }
   ],
   "citations": [
-    "URL:https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/",
-    "PMID:25398301",
-    "URL:https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/",
-    "PMID:25398301",
-    "PMID:39790118"
+    "PMID:8127329",
+    "PMID:8629604",
+    "PMID:8921785",
+    "PMID:9110909",
+    "PMID:9537614",
+    "PMID:9920356",
+    "PMID:10639540",
+    "PMID:11498460",
+    "PMID:11594942",
+    "PMID:11757504",
+    "PMID:12126214",
+    "PMID:15213041",
+    "PMID:15537682",
+    "PMID:15769967",
+    "PMID:15829527",
+    "PMID:15998891",
+    "PMID:17234730",
+    "PMID:18997197",
+    "PMID:19066370",
+    "PMID:20427778",
+    "PMID:20861217",
+    "PMID:21051774",
+    "PMID:21235492",
+    "PMID:21521847",
+    "PMID:21990298",
+    "PMID:22419320",
+    "PMID:22438520",
+    "PMID:22939808",
+    "PMID:24381967",
+    "PMID:24563519",
+    "PMID:25225959",
+    "PMID:26343254",
+    "PMID:28418065",
+    "PMID:29731659",
+    "PMID:30506586",
+    "PMID:31860793",
+    "PMID:32951713",
+    "PMID:34148036",
+    "PMID:34563650",
+    "PMID:34699937",
+    "PMID:34785321",
+    "PMID:35197557",
+    "PMID:35727271",
+    "PMID:35727272",
+    "PMID:37321474",
+    "PMID:37698992",
+    "PMID:37702300",
+    "PMID:38851997",
+    "PMID:39150005",
+    "PMID:39412049",
+    "PMID:39474248",
+    "PMID:39882297",
+    "PMID:39960325",
+    "PMID:39970876",
+    "PMID:40065887",
+    "PMID:40499949",
+    "PMID:40895855",
+    "PMID:41199412",
+    "PMID:41528693",
+    "PMID:41706672"
   ]
 }

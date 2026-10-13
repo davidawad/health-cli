@@ -3,47 +3,205 @@
 :ID: supp-iodine-potassium-iodide
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: iodide | KI
+:ALIASES: potassium iodide | KI | iodide | iodine | SSKI | iOSAT | ThyroShield
 :CATEGORY: mineral
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Iodine is an essential component of thyroid hormones T4 and T3. Potassium iodide (KI) supplies iodide; supplement dose is expressed as micrograms iodine. [URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/]
+- Iodine is an essential trace element and a structural part of the thyroid hormones thyroxine (T4) and triiodothyronine (T3). Its only known function in humans is as a component of thyroid hormone [URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/] [PMID:40633808].
+- Supplement forms: potassium iodide or sodium iodide. Kelp (seaweed) products are also sold. Potassium iodide is almost completely absorbed (96.4% in a small study). Many multivitamins contain 150 mcg, and some iodine-only products exceed the UL [URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/].
+- US product survey (2016-2017): 74.2% of the top-selling adult multivitamins contained iodine, all as potassium iodide, at a median 150 mcg/day. Only 57.6% of prenatal multivitamins contained iodine (median 150 mcg; range 25-290 mcg). Of these, 73.5% used KI and 23.5% used kelp [PMID:30266075].
+- Label accuracy: in a 2025 analysis of 47 prenatal products, iodine was declared on 25. Of those, 80% contained more than 20% less iodine than labeled [PMID:40252729].
+- Reference intakes (US FNB): RDA 150 mcg/day for adults, 220 mcg in pregnancy and 290 mcg in lactation. WHO/UNICEF/ICCIDD recommend 250 mcg/day in pregnancy. The adult UL is 1,100 mcg/day (900 mcg at 14-18 years, 600 at 9-13, 300 at 4-8 and 200 at 1-3). The UL does not apply to medical use under a physician's care [URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/].
+- Pharmacological KI (FDA-approved, OTC) is sold for thyroid blocking in radiation emergencies:
+  - iOSAT: 130 mg or 65 mg tablets [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ea98aef8-93b6-4fac-be35-eb17a1a04a92].
+  - ThyroShield: oral solution, 65 mg/mL [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=186aadd3-2cb6-4de4-99b1-2371613e248d].
+- Saturated solution of KI (SSKI) is also used in dermatology (sporotrichosis and inflammatory panniculitides such as erythema nodosum) [PMID:40487487].
 
 ** Mechanisms
-- Proposed biological activity and the best-established physiological context are described above; clinical mechanisms remain uncertain where outcome evidence is limited. ["URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/"]
+- Hormone synthesis: iodide is taken up by the sodium-iodide symporter (NIS), then oxidized, organified onto thyroglobulin and coupled to form T4/T3. TSH drives uptake. In deficiency, persistently high TSH causes goiter [PMID:38870258] [URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/].
+- Wolff-Chaikoff effect: an acute iodide load transiently inhibits organification. Normally the thyroid "escapes" within days by down-regulating NIS. Failure to escape causes iodine-induced hypothyroidism. Groups at risk include fetuses and newborns, people with autoimmune thyroiditis, people with Graves' disease previously treated with radioiodine, surgery or antithyroid drugs, and people with prior postpartum or subacute thyroiditis. It usually resolves 2-3 weeks after iodide is stopped [PMID:11396709] [PMID:38870258].
+- Jod-Basedow phenomenon (iodine-induced hyperthyroidism): occurs mainly in autonomous nodular goiter from long-standing deficiency, but also in iodine-sufficient regions and in people with prior Graves' disease [PMID:11396708] [PMID:39510448].
+- Radioprotection: a saturating stable-iodide dose competitively blocks thyroidal uptake of radioactive 131I. KI protects only the thyroid, not against other radionuclides or external radiation [PMID:38989660] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ea98aef8-93b6-4fac-be35-eb17a1a04a92].
+- Large iodide doses also selectively inhibit thyroglobulin synthesis and hormone release. This is the basis for using iodide in Graves' disease and thyroid storm. In rats, the effect was synergistic with lithium [PMID:946343] [PMID:39510448].
+- The relationship between iodine status and thyroid disease is U-shaped. Thyroid nodules were more likely in deficiency (OR 1.28) and showed a non-linear rise at excessive intakes [PMID:41675569]. Population iodine excess is linked to thyroid autoimmunity [PMID:33914231].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | Certainty | Citations |
-|---|---|---|---|---|---|
-| Primary studied clinical/biomarker outcomes | Systematic review/meta-analysis or RCT synthesis | Supplementation corrects deficiency and supports thyroid hormone synthesis; excess can trigger hypo- or hyperthyroidism | See narrative | low | URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/; PMID:40633808 |
-| Long-term clinical outcomes | Evidence insufficient or mixed | No established benefit | Not established | very low | URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/; PMID:40633808 |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---+---+---+---+---+---|
+| Cognition in children (direct supplementation, deficient settings) | 2026 Cochrane SR (8 RCTs, n=2528) | Benefit, slight | SMD 0.19 (95% CI 0.04-0.34), 1 trial, n=166; rated high certainty | moderate | [PMID:42720098] |
+| Hypothyroidism and infant mortality (children, deficient settings) | 2026 Cochrane SR | Benefit | Hypothyroidism RR 0.03 (0.00-0.23); infant mortality RR 0.32 (0.14-0.73); each from 1 trial | moderate | [PMID:42720098] |
+| Goitre (children) | 2026 Cochrane SR | Uncertain | RR 0.68 (0.15-3.07), I2=97%; RR 0.31 (0.22-0.45) after excluding high-RoB trial | very low | [PMID:42720098] |
+| Child neurodevelopment after prenatal supplementation (mild-moderate deficiency) | SR/MA of RCTs; largest RCT (n=832) | No effect | Cognitive SMD 0.07 (-0.07 to 0.20); MD -0.18 (-1.22 to 0.87); verbal IQ -0.7 (-2.9 to 1.5) at 5-6 y | moderate | [PMID:33112293] [PMID:32320029] [PMID:29030199] [PMID:33123091] |
+| Maternal thyroglobulin and thyroid volume (pregnancy) | SR/MA of RCTs | Decrease (benefit) | Tg SMD -0.22 (-0.32 to -0.13); TSH SMD -0.14 (-0.23 to -0.05) in deficient women | moderate | [PMID:42359139] [PMID:32320029] [PMID:24088547] |
+| Maternal TSH/FT4 (pregnancy, mild-moderate deficiency) | SR/MA; RCTs | Mostly no effect; small FT4 decrease in one RCT | Inconsistent | low | [PMID:32320029] [PMID:33123091] [PMID:31689890] |
+| Postpartum hyperthyroidism | Cochrane SR (3 RCTs, n=543) | Decrease | RR 0.32 (0.11-0.91) | low | [PMID:28260263] |
+| Digestive intolerance in pregnancy (harm) | Cochrane SR (1 RCT, n=76) | Increase | RR 15.33 (2.07-113.70) | very low | [PMID:28260263] |
+| Birth weight, length, head circumference | SR/MA of RCTs | No effect | Weight SMD -0.11 (-0.23 to 0.01) | low | [PMID:33112293] [PMID:28260263] |
+| Postpartum maternal thyroid hormones | SR/MA (18 studies) | No effect of supplementation | Not significant | low | [PMID:37966688] |
+| School-age cognition (mild deficiency) | MA of 2 RCTs | Benefit, modest | Perceptual reasoning SMD 0.55 (0.05-1.04); global cognitive index SMD 0.27 (0.10-0.44) | low | [PMID:24088547] |
+| Radiation-induced thyroid cancer (KI after 131I exposure) | Population case-control study (Chernobyl, 276 cases) | Decrease | RR 0.34 (0.1-0.9) for KI use vs none | low | [PMID:15900042] |
+| Thyroid blood loss at thyroidectomy (preoperative KI in Graves') | SR/MA (9 studies, n=510) | Decrease | Lower vascularity and blood loss; no change in complications | low | [PMID:30721111] |
+| Early control of Graves' thyrotoxicosis (KI added to methimazole) | RCT (n=134) | Faster normalization | Normal FT4 at 2 weeks 59% vs 29% (MMI 30 mg) | low | [PMID:19912243] |
 
 ** Dosing in trials
-- Adult RDA 150 mcg/day; trials/clinical use depend on deficiency and life stage. Adult UL 1,100 mcg/day. [URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/]
+- Pregnancy: 150-250 mcg/day as KI is typical, for example 200 mcg/day from about 11 weeks to delivery in the India/Thailand RCT [PMID:29030199] and 225 mcg/day KI in an Italian RCT [PMID:31689890]. The largest TSH reductions were seen with 200-300 mcg/day KI [PMID:42359139].
+- Preconception: the American Thyroid Association advises 150 mcg/day starting 3 months before conception. In a Québec cohort, only 36% started before conception, at a median dose of 220 mcg/day [PMID:42567091].
+- Lactation: 150 or 300 mcg/day did not change infant iodine sufficiency or growth where salt iodization works well [PMID:30272528].
+- Children in deficient settings: single oral doses of 100 mg (infants) or 400-490 mg (ages 6-17), or 150 mcg/day for 28 weeks [PMID:42720098].
+- Radiation emergency (FDA label): one dose every 24 hours, only when public officials advise. Doses are 130 mg for adults and adolescents weighing at least 150 lb, 65 mg for ages 3-18, 32.5 mg for 1 month to 3 years, and 16.25 mg from birth to 1 month. Taking more does not add protection [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ea98aef8-93b6-4fac-be35-eb17a1a04a92] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=186aadd3-2cb6-4de4-99b1-2371613e248d].
+- Graves' disease adjunct: KI tablets were added to methimazole until FT4 normalized [PMID:19912243].
 
 ** Safety & adverse effects
-- Excess may cause goiter, thyroiditis, hypo- or hyperthyroidism; susceptible thyroid disease increases risk. [URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/]
+- Excess intake can cause the same problems as deficiency (goiter, raised TSH, hypothyroidism), as well as hyperthyroidism and thyroiditis. People with autoimmune thyroid disease or prior deficiency may react at intakes that are safe for others [URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/] [PMID:38870258].
+- Iodine-induced hypothyroidism: usually transient, but many affected people later develop permanent hypothyroidism [PMID:11396709]. In 2 patients with Hashimoto's thyroiditis, OTC high-dose iodine (Iodoral) caused severe hypothyroidism [PMID:23529350].
+- Iodine-induced hyperthyroidism:
+  - After Danish salt fortification, hyperthyroidism incidence rose from 102.8 to 138.7 per 100,000/year. The largest rise (+160%) was in ages 20-39 [PMID:16849408].
+  - Kelp tablets caused transient hyperthyroidism in an older adult with no thyroid history [PMID:31517826].
+  - OTC "Tri-iodine" worsened thyrotoxicosis in a patient taking methimazole [PMID:23529350].
+- Pregnancy and fetus:
+  - Maternal intake of 12.5 mg/day caused congenital hypothyroidism in 3 infants [PMID:22841183].
+  - A supplement providing 62.5 times the pregnancy requirement caused fetal goiter, neonatal hypothyroidism and hearing loss [PMID:27006474].
+  - In a pooled analysis, 52% of pregnant women had excessive intake, which was associated with hypothyroxinemia and hypo- or hyperthyroidism (observational) [PMID:36018544].
+  - High water iodine (>100 ug/L) was associated with subclinical hypothyroidism in pregnancy (OR 10.8, 95% CI 1.4-84.0) [PMID:39736330].
+- Iodinated contrast media (a common medical source of excess iodine [PMID:38870258]):
+  - In a prospective cohort, 11.5% developed thyroid dysfunction (4.9% hyperthyroidism, 6.6% subclinical hypothyroidism) [PMID:38700099].
+  - Neonates and preterm infants are the most vulnerable [PMID:42340805] [PMID:33112287].
+- KI label adverse effects: salivary gland swelling, GI upset, metallic taste and allergic reactions (rash, angioedema, fever with joint pain). Rarely it causes hypo- or hyperthyroidism or goiter, which are more likely with thyroid disease or in infants under 1 month [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ea98aef8-93b6-4fac-be35-eb17a1a04a92].
+- Population experience: a 2024 review judged KI generally well tolerated, with scarce data on adverse effects [PMID:38989660]. Poland's mass KI prophylaxis after Chernobyl was not followed by a substantial rise in childhood thyroid cancer [URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/] [PMID:8498398].
+- Acute poisoning is rare and usually needs doses of many grams [URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/].
 
 ** Contraindications
-- Thyroid disorders and pregnancy require avoiding excess and considering iodine status. [URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/]
+- KI labels say not to use with:
+  - known iodine allergy
+  - nodular thyroid disease with heart disease
+  - dermatitis herpetiformis
+  - hypocomplementemic vasculitis
+  [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ea98aef8-93b6-4fac-be35-eb17a1a04a92] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=186aadd3-2cb6-4de4-99b1-2371613e248d].
+- Supplemental doses above the UL in autoimmune thyroiditis, autonomous nodules, prior Graves' disease, or prior postpartum, subacute or amiodarone-related thyroiditis. These groups fail to escape Wolff-Chaikoff or develop Jod-Basedow [PMID:11396709] [PMID:11396708] [PMID:1331165].
+- High-dose iodine in pregnancy because of fetal thyroid suppression [PMID:22841183] [PMID:27006474]. Repeat KI dosing in pregnancy, breastfeeding and neonates should be avoided [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ea98aef8-93b6-4fac-be35-eb17a1a04a92].
 
 ** Interactions
-- KI with ACE inhibitors or potassium-sparing diuretics can cause hyperkalemia; antithyroid drugs may interact. [URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/]
+*** Drugs
+- Antithyroid drugs (methimazole, PTU): high-dose iodine has an additive effect and could cause hypothyroidism [URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/].
+  - Excess iodine may also reduce antithyroid-drug effectiveness in hyperthyroid Graves' disease [PMID:11396708].
+  - In a controlled setting, KI plus methimazole sped FT4 control without causing thionamide resistance [PMID:19912243].
+- Lithium (see the "Lithium" entry): both inhibit thyroid hormone release.
+  - In 10 patients on chronic lithium, KI 250 mg four times daily raised mean TSH by 8.9 uU/mL. Two became hypothyroid, and one developed Jod-Basedow hyperthyroidism [PMID:576345].
+  - In rats, iodide potentiated lithium's effect on thyroglobulin [PMID:946343].
+  - Iodine status modifies thyroid risk with lithium [PMID:16968542].
+- Amiodarone: contains 37% iodine by weight. Its deiodination releases large iodine loads, causing hypothyroidism or thyrotoxicosis in about 20% of patients [PMID:33159436]. Pooled prevalence of amiodarone-induced hypothyroidism is 14% [PMID:35026394]. Further iodide after amiodarone thyrotoxicosis induced subclinical hypothyroidism in 6 of 10 patients [PMID:1331165].
+- ACE inhibitors and potassium-sparing diuretics (spironolactone, amiloride): KI adds potassium and raises the risk of hyperkalemia [URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/]. ARBs are not named by ODS, but share the same potassium-retaining mechanism (extrapolation). This matters mainly at pharmacological KI doses; 150 mcg of iodine supplies negligible potassium.
+- Levothyroxine: in levothyroxine-treated hypothyroid pregnant women, 150 mcg/day iodine did not improve maternal FT4/FT3. Neonatal TSH was 33% higher [PMID:27387243]. Iodine does not replace levothyroxine [PMID:40900603].
+- Iodinated contrast media: add a large iodine load. Extra iodine should be avoided around imaging in at-risk people [PMID:38870258] [PMID:38700099].
+*** Other supplements
+- Genistein / soy isoflavones: genistein inactivates thyroid peroxidase. Iodine deficiency greatly increases soy's antithyroid effects, whereas iodine supplementation is protective [PMID:12060828]. In an RCT meta-analysis, soy raised TSH by 0.248 mIU/L, with no change in FT3/FT4 [PMID:30850697].
+- Lithium: see Drugs.
+- Kelp/seaweed and other iodine-containing products (multivitamins, prenatal vitamins): stacking raises total intake. Kelp iodine content varies widely [PMID:30266075] [PMID:31517826] [PMID:39510448].
+- Dairy: higher dairy intake is associated with lower odds of iodine deficiency in pregnancy (OR 0.58) [PMID:41374057]. Vegan diets without supplements or fortification may not supply enough iodine [PMID:37622183].
+*** Conditions
+- Autoimmune thyroiditis (Hashimoto's) and thyroid antibody positivity: risk of iodine-induced hypothyroidism [PMID:11396709] [PMID:23529350]. Antibody positivity is the strongest risk factor for hypothyroidism in pregnancy [PMID:40296843].
+- Nodular goiter or prior Graves' disease: Jod-Basedow risk [PMID:11396708] [PMID:39510448].
+- Iodine deficiency: increases radiation-related thyroid cancer risk (RR 3.2) and soy goitrogenicity [PMID:15900042] [PMID:12060828].
+- Pregnancy: needs rise. US pregnant women are again iodine-insufficient (median UIC below 150 ug/L in NHANES 2011-2020) [PMID:40096706]. Excess is also harmful (see Safety).
+- Neonates: prone to hypothyroidism after iodine loads [PMID:42340805] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ea98aef8-93b6-4fac-be35-eb17a1a04a92].
+*** Lab-test interference
+- Radioactive iodine uptake scans and 131I therapy: stable iodine from supplements, kelp or contrast reduces thyroidal radioiodine uptake. A low-iodine diet (no more than 50 mcg/day for 1-2 weeks) is used before RAI [PMID:26118628] [URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/]. Four days was sufficient in an iodine-sufficient area (24-h urinary iodine below 50 mcg in 72%) [PMID:34534327].
+- Thyroid function tests (TSH, FT4, thyroglobulin): iodine changes them physiologically rather than through assay artifact. Supplementation lowers thyroglobulin and TSH in deficient women [PMID:42359139]. Excess can raise TSH [PMID:38870258].
+- Urinary iodine reflects recent intake and is used for population status. Thyroglobulin is a longer-term marker [PMID:42567091] [PMID:38870258].
 
 ** Genotype notes
-- No cited pharmacogenomic or nutrigenomic source was identified in the sources reviewed; no genotype-specific claim is made.
+- DUOX2: a case report described delayed-onset congenital hypothyroidism in an infant with biallelic DUOX2 mutations whose mother ate large amounts of seaweed in pregnancy. Newborn screening was negative. This is a gene-iodine interaction that can distort screening results [PMID:23239635]. This is case-level evidence only; no population pharmacogenomic data were found.
 
 ** Latest research
-- 2025–2026 literature: 2025 systematic review/meta-analysis evaluated thyroid function under mild-to-moderate iodine deficiency. [PMID:40633808]
+- [2026-09] Cochrane update in children (8 RCTs, n=2528): iodine slightly improves cognition (SMD 0.19) and likely reduces hypothyroidism and infant mortality; goitre effect very uncertain [PMID:42720098].
+- [2026-08] Québec cohort: women starting iodine after conception had a larger thyroglobulin decline; first-trimester Tg suggested insufficiency [PMID:42567091].
+- [2026-08] SR in children: iodinated contrast causes mainly transient subclinical hypothyroidism, worst in neonates [PMID:42340805].
+- [2026-06] MA in iodine-deficient pregnancy: supplementation lowers TSH (SMD -0.14) and Tg (SMD -0.22), most with 200-300 mcg/day KI [PMID:42359139].
+- [2026-05] Dose-response MA of 8 cohorts: suboptimal maternal iodine linked to lower child cognition (g -0.22); exploratory optimum about 150-300 mcg/day [PMID:42124075].
+- [2026-03] ALSPAC: first-trimester iodine below 50 ug/g linked to 3.3-point lower full-scale IQ at age 15 [PMID:41915209].
+- [2026-01] Dose-response MA (25 studies, n=54,621): U-shaped link between iodine status and thyroid nodules [PMID:41675569].
+- [2025-11] Dairy MA: dairy intake lowers odds of iodine deficiency in pregnancy and lactation (OR 0.58) [PMID:41374057].
+- [2025-11] JAMA review: hypothyroidism prevalence 0.3-12% depending on iodine intake [PMID:40900603].
+- [2025-10] Review: iodine deficiency resurging among US pregnant women; 23-59% inadequate [PMID:40096706].
+- [2025-09] SR/MA (72 studies): no clear association of mild-to-moderate deficiency with TSH/FT4/FT3 [PMID:40633808].
+- [2025-07] Shandong: water iodine >100 ug/L associated with subclinical hypothyroidism, nodules and goiter in pregnancy [PMID:39736330].
+- [2025-06] Prenatal product analysis: 80% of labeled products contained more than 20% less iodine than declared [PMID:40252729].
+- [2025-05] PoppiE RCT statistical analysis plan: 20 vs 200 mcg/day in iodine-replete pregnant women; data collection to July 2026 [PMID:40390018].
+- [2025-05] Thyroid SR for ATA guideline: iodine deficiency and excess both linked to subclinical hypothyroidism in pregnancy [PMID:40296843].
+- [2025-05] Review of KI in dermatology (indications, adverse effects) [PMID:40487487].
+- [2025-03] Prospective contrast cohort: 11.5% developed thyroid dysfunction [PMID:38700099].
+- [2025-03] Endocrine Practice review: iodine-induced hyperthyroidism from supplements, seaweed, contrast and amiodarone [PMID:39510448].
+- [2024-11] Endocrine Reviews: risks of iodine excess; safe ULs in high-risk groups need better definition [PMID:38870258].
 
 ** Open questions
-- Whether findings translate into durable patient-important outcomes, optimal formulation/dose, and long-term safety remains uncertain. [URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/; PMID:40633808]
+- Whether routine iodine supplementation in mildly deficient or replete pregnancies benefits or harms child neurodevelopment. RCTs are null, but cohorts show associations. PoppiE results are pending [PMID:32320029] [PMID:40390018] [PMID:42124075].
+- Optimal timing (preconception vs early pregnancy) and dose. Whether thyroidal iodine stores before conception determine benefit [PMID:42567091] [PMID:32320029].
+- Safe upper limits for susceptible groups: autoimmune thyroiditis, nodular goiter, pregnancy, neonates [PMID:38870258].
+- Long-term thyroid autoimmunity effects of population iodine increases [PMID:33914231] [PMID:16849408].
+- Accuracy and regulation of iodine content in supplements, especially kelp-based ones [PMID:40252729] [PMID:30266075].
+- KI prophylaxis in iodine-deficient regions, after dirty-bomb events, and formulation choice (granules vs tablets) remain debated [PMID:38989660].
 
 ** Sources
-- URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/
-- PMID:40633808
-- URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/
-- PMID:40633808
+1. NIH Office of Dietary Supplements. Iodine: Fact Sheet for Health Professionals (RDAs, ULs, interactions, radiation emergencies, low-iodine diets). URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/
+2. DailyMed. IOSAT (potassium iodide tablets USP, 130 mg) drug facts and consumer package insert. Anbex Inc. URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ea98aef8-93b6-4fac-be35-eb17a1a04a92
+3. DailyMed. ThyroShield (potassium iodide oral solution, 65 mg/mL) drug facts. Arco Pharmaceuticals. URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=186aadd3-2cb6-4de4-99b1-2371613e248d
+4. Velasco I et al. Iodine supplementation for preventing iodine deficiency disorders in children and adolescents. Cochrane Database Syst Rev. 2026. PMID:42720098 DOI:10.1002/14651858.CD014475.pub2
+5. Harding KB et al. Iodine supplementation for women during the preconception, pregnancy and postpartum period. Cochrane Database Syst Rev. 2017. PMID:28260263 DOI:10.1002/14651858.CD011761.pub2
+6. Nazeri P et al. Effects of iodine supplementation during pregnancy on pregnant women and their offspring: a systematic review and meta-analysis of trials over the past 3 decades. Eur J Endocrinol. 2021. PMID:33112293 DOI:10.1530/EJE-20-0927
+7. Dineva M et al. Systematic review and meta-analysis of the effects of iodine supplementation on thyroid function and child neurodevelopment in mildly-to-moderately iodine-deficient pregnant women. Am J Clin Nutr. 2020. PMID:32320029 DOI:10.1093/ajcn/nqaa071
+8. Gowachirapant S et al. Effect of iodine supplementation in pregnant women on child neurodevelopment: a randomised, double-blind, placebo-controlled trial. Lancet Diabetes Endocrinol. 2017. PMID:29030199 DOI:10.1016/S2213-8587(17)30332-7
+9. Verhagen NJE et al. Iodine Supplementation in Mildly Iodine-Deficient Pregnant Women Does Not Improve Maternal Thyroid Function or Child Development: A Secondary Analysis of a Randomized Controlled Trial. Front Endocrinol (Lausanne). 2020. PMID:33123091 DOI:10.3389/fendo.2020.572984
+10. Censi S et al. The Effects of Iodine Supplementation in Pregnancy on Iodine Status, Thyroglobulin Levels and Thyroid Function Parameters: Results from a Randomized Controlled Clinical Trial in a Mild-to-Moderate Iodine Deficiency Area. Nutrients. 2019. PMID:31689890 DOI:10.3390/nu11112639
+11. Lv Y et al. Effects of different iodine supplementation strategies on thyroid function in iodine-deficient pregnant women: a meta-analysis. Front Public Health. 2026. PMID:42359139 DOI:10.3389/fpubh.2026.1846475
+12. Luo Q et al. Maternal Iodine Status During Pregnancy and Child Neurodevelopment: A Systematic Review and Dose-Response Meta-Analysis of Prospective Cohort Studies. Nutrients. 2026. PMID:42124075 DOI:10.3390/nu18091474
+13. Aarsland TE et al. Association of Mild-to-Moderate Iodine Deficiency With Thyroid Function-A Systematic Review and Meta-analysis. Adv Nutr. 2025. PMID:40633808 DOI:10.1016/j.advnut.2025.100471
+14. Taylor PN et al. Therapy of endocrine disease: Impact of iodine supplementation in mild-to-moderate iodine deficiency: systematic review and meta-analysis. Eur J Endocrinol. 2014. PMID:24088547 DOI:10.1530/EJE-13-0651
+15. Nazeri P et al. Do Postpartum Maternal Iodine Status or Supplementation Affect Thyroid Function After Delivery? A Systematic Review and Meta-Analysis. Biol Trace Elem Res. 2024. PMID:37966688 DOI:10.1007/s12011-023-03934-3
+16. Nazeri P et al. Lactating Mothers and Infants Residing in an Area with an Effective Salt Iodization Program Have No Need for Iodine Supplements: Results from a Double-Blind, Placebo-Controlled, Randomized Controlled Trial. Thyroid. 2018. PMID:30272528 DOI:10.1089/thy.2018.0153
+17. Bertinato J et al. Preconception vs. postconception iodine supplementation: Effect on thyroglobulin decline in a Québec pregnancy cohort. J Trace Elem Med Biol. 2026. PMID:42567091 DOI:10.1016/j.jtemb.2026.127939
+18. Keestra SM et al. Iodine deficiency in the first pregnancy trimester and intelligence in adolescence. Eur J Nutr. 2026. PMID:41915209 DOI:10.1007/s00394-026-03955-3
+19. Sullivan TR et al. Statistical analysis plan for the Prenatal Iodine Supplementation and Early Childhood Neurodevelopment (PoppiE) randomised controlled trial. Trials. 2025. PMID:40390018 DOI:10.1186/s13063-025-08863-1
+20. Daniel KS et al. Resurgence of Iodine Deficiency in the United States During Pregnancy: Potential Implications for Cognitive Development in Children. Nutr Rev. 2025. PMID:40096706 DOI:10.1093/nutrit/nuaf025
+21. Sohn SY et al. Risks of Iodine Excess. Endocr Rev. 2024. PMID:38870258 DOI:10.1210/endrev/bnae019
+22. Markou K et al. Iodine-Induced hypothyroidism. Thyroid. 2001. PMID:11396709 DOI:10.1089/105072501300176462
+23. Roti E et al. Iodine excess and hyperthyroidism. Thyroid. 2001. PMID:11396708 DOI:10.1089/105072501300176453
+24. Braverman KD et al. Iodine and Hyperthyroidism: A Double-Edged Sword. Endocr Pract. 2025. PMID:39510448 DOI:10.1016/j.eprac.2024.10.014
+25. Bülow Pedersen I et al. Increase in incidence of hyperthyroidism predominantly occurs in young people after iodine fortification of salt in Denmark. J Clin Endocrinol Metab. 2006. PMID:16849408 DOI:10.1210/jc.2006-0652
+26. Teti C et al. Iodoprophylaxis and thyroid autoimmunity: an update. Immunol Res. 2021. PMID:33914231 DOI:10.1007/s12026-021-09192-6
+27. Lu C et al. Correlations between iodine status and the risk of thyroid nodules, a systematic review and dose-response meta-analysis. Front Endocrinol (Lausanne). 2026. PMID:41675569 DOI:10.3389/fendo.2026.1711749
+28. Candido AC et al. Prevalence of Excessive Iodine Intake in Pregnancy and Its Health Consequences: Systematic Review and Meta-analysis. Biol Trace Elem Res. 2023. PMID:36018544 DOI:10.1007/s12011-022-03401-5
+29. Ren Z et al. High Water Iodine Concentrations Are Associated With the Prevalence of Subclinical Hypothyroidism, Thyroid Nodules, and Goiter Among Pregnant Women in Shandong, China. J Nutr. 2025. PMID:39736330 DOI:10.1016/j.tjnut.2024.12.024
+30. Connelly KJ et al. Congenital hypothyroidism caused by excess prenatal maternal iodine ingestion. J Pediatr. 2012. PMID:22841183 DOI:10.1016/j.jpeds.2012.05.057
+31. Overcash RT et al. Maternal Iodine Exposure: A Case of Fetal Goiter and Neonatal Hearing Loss. Pediatrics. 2016. PMID:27006474 DOI:10.1542/peds.2015-3722
+32. Hoang TD et al. Over-the-counter-drug-induced thyroid disorders. Endocr Pract. 2013. PMID:23529350 DOI:10.4158/EP12298.OR
+33. Gherbon A et al. Transient Hyperthyroidism following the ingestion of complementary medications containing kelp seaweed: A case-report. Medicine (Baltimore). 2019. PMID:31517826 DOI:10.1097/MD.0000000000017058
+34. Sohn SY et al. Thyroid Dysfunction Risk After Iodinated Contrast Media Administration: A Prospective Longitudinal Cohort Analysis. J Clin Endocrinol Metab. 2025. PMID:38700099 DOI:10.1210/clinem/dgae304
+35. van Welie N et al. Iodine contrast prior to or during pregnancy and neonatal thyroid function: a systematic review. Eur J Endocrinol. 2021. PMID:33112287 DOI:10.1530/EJE-20-0627
+36. Vancauwenbergh F et al. The effect of iodinated contrast media on thyroid (dys)function in children. Eur Thyroid J. 2026. PMID:42340805 DOI:10.1530/ETJ-26-0036
+37. da Silva Lopes JP et al. Clinical and forensic aspects of potassium iodide: Suddenly in high demand across Europe due to fears of radiation poisoning from a nuclear attack in Ukraine. Basic Clin Pharmacol Toxicol. 2024. PMID:38989660 DOI:10.1111/bcpt.14052
+38. Cardis E et al. Risk of thyroid cancer after exposure to 131I in childhood. J Natl Cancer Inst. 2005. PMID:15900042 DOI:10.1093/jnci/dji129
+39. Nauman J et al. Iodide prophylaxis in Poland after the Chernobyl reactor accident: benefits and risks. Am J Med. 1993. PMID:8498398 DOI:10.1016/0002-9343(93)90089-8
+40. Takata K et al. Benefit of short-term iodide supplementation to antithyroid drug treatment of thyrotoxicosis due to Graves' disease. Clin Endocrinol (Oxf). 2010. PMID:19912243 DOI:10.1111/j.1365-2265.2009.03745.x
+41. Tsai CH et al. Effects of Preoperative Iodine Administration on Thyroidectomy for Hyperthyroidism: A Systematic Review and Meta-analysis. Otolaryngol Head Neck Surg. 2019. PMID:30721111 DOI:10.1177/0194599819829052
+42. Spaulding SW et al. Effect of increased iodide intake on thyroid function in subjects on chronic lithium therapy. Acta Endocrinol (Copenh). 1977. PMID:576345 DOI:10.1530/acta.0.0840290
+43. Radvila A et al. Inhibition of thyroglobulin biosynthesis and degradation by excess iodide. Synergism with lithium. Acta Endocrinol (Copenh). 1976. PMID:946343 DOI:10.1530/acta.0.0810495
+44. Bocchetta A et al. Lithium treatment and thyroid abnormalities. Clin Pract Epidemiol Ment Health. 2006. PMID:16968542 DOI:10.1186/1745-0179-2-23
+45. Ylli D et al. Evaluation and Treatment of Amiodarone-Induced Thyroid Disorders. J Clin Endocrinol Metab. 2021. PMID:33159436 DOI:10.1210/clinem/dgaa686
+46. Mohammadi K et al. Prevalence of amiodarone-induced hypothyroidism; A systematic review and meta-analysis. Trends Cardiovasc Med. 2023. PMID:35026394 DOI:10.1016/j.tcm.2022.01.001
+47. Roti E et al. Iodine-induced subclinical hypothyroidism in euthyroid subjects with a previous episode of amiodarone-induced thyrotoxicosis. J Clin Endocrinol Metab. 1992. PMID:1331165 DOI:10.1210/jcem.75.5.1331165
+48. Jastrzębska H et al. Iodine supplementation during pregnancy of hypothyroid women treated with L-thyroxine neither influences neonatal TSH nor prevents decrease in maternal free thyroid hormone concentrations in second and third trimesters. Endokrynol Pol. 2016. PMID:27387243 DOI:10.5603/EP.a2016.0049
+49. Chaker L et al. Hypothyroidism: A Review. JAMA. 2025. PMID:40900603 DOI:10.1001/jama.2025.13559
+50. Doerge DR et al. Goitrogenic and estrogenic activity of soy isoflavones. Environ Health Perspect. 2002. PMID:12060828 DOI:10.1289/ehp.02110s3349
+51. Otun J et al. Systematic Review and Meta-analysis on the Effect of Soy on Thyroid Function. Sci Rep. 2019. PMID:30850697 DOI:10.1038/s41598-019-40647-x
+52. Patel A et al. Iodine Content of the Best-Selling United States Adult and Prenatal Multivitamin Preparations. Thyroid. 2019. PMID:30266075 DOI:10.1089/thy.2018.0386
+53. Borgelt LM et al. Content of selected nutrients and heavy metals in prenatal multivitamins and minerals: an observational study. Am J Clin Nutr. 2025. PMID:40252729 DOI:10.1016/j.ajcnut.2025.04.013
+54. Razmpoosh E et al. Dairy Intake and Iodine Status in Pregnant and Lactating Women: A Systematic Review and Meta-Analysis. Nutrients. 2025. PMID:41374057 DOI:10.3390/nu17233765
+55. Nicol K et al. Iodine and plant-based diets: a narrative review and calculation of iodine content. Br J Nutr. 2024. PMID:37622183 DOI:10.1017/S0007114523001873
+56. Li JH et al. Low iodine diet in differentiated thyroid cancer: a review. Clin Endocrinol (Oxf). 2016. PMID:26118628 DOI:10.1111/cen.12846
+57. Dekker BL et al. Low-Iodine Diet of 4 Days Is Sufficient Preparation for 131I Therapy in Differentiated Thyroid Cancer Patients. J Clin Endocrinol Metab. 2022. PMID:34534327 DOI:10.1210/clinem/dgab691
+58. Liu Y et al. Risk Factors for Thyroid Function Test Abnormalities During Pregnancy: A Systematic Review of the Literature to Validate Current Risk Factors and Identify Novel Ones. Thyroid. 2025. PMID:40296843 DOI:10.1089/thy.2024.0743
+59. Goel N et al. Potassium Iodide in Dermatology- Recent Advances in Mechanism of Action, Preparation, Uses and Adverse Effects. Indian J Dermatol. 2025. PMID:40487487 DOI:10.4103/ijd.ijd_508_24
+60. Kasahara T et al. Delayed onset congenital hypothyroidism in a patient with DUOX2 mutations and maternal iodine excess. Am J Med Genet A. 2013. PMID:23239635 DOI:10.1002/ajmg.a.35693

@@ -5,7 +5,11 @@
   "aliases": [
     "Acetylcarnitine",
     "ALCAR",
-    "ALC"
+    "ALC",
+    "LAC",
+    "L-acetylcarnitine",
+    "acetyl-L-carnitine hydrochloride",
+    "Nicetile"
   ],
   "category": "amino-acid",
   "rx_status": "otc",
@@ -15,11 +19,92 @@
       "with": "warfarin",
       "with_kind": "drug",
       "kind": "monitor",
-      "severity": "minor",
-      "mechanism": "Possible INR increase is reported in interaction references; direct clinical evidence is limited and should be treated as uncertain.",
-      "evidence": "Possible INR increase is reported in interaction references; direct clinical evidence is limited and should be treated as uncertain.",
+      "severity": "moderate",
+      "mechanism": "Carnitine potentiates coumarin anticoagulant effect; levocarnitine label reports INR increases with warfarin and advises INR monitoring after starting or changing carnitine dose. ALC is largely metabolized to carnitine.",
+      "evidence": "FDA levocarnitine label (postmarketing reports); no ALC-specific data; low certainty",
       "citations": [
-        "https://www.blackmoresinstitute.org/-/media/bklbi/pdf/cmig_11th_edition.pdf"
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d2133bc3-9c15-48bd-8b16-b8995a6a14cd",
+        "PMID:41243468"
+      ]
+    },
+    {
+      "with": "acenocoumarol",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Potentiation of acenocoumarol anticoagulation by L-carnitine (INR rise).",
+      "evidence": "Two published case reports (L-carnitine); very low certainty",
+      "citations": [
+        "PMID:8429297",
+        "PMID:15340883"
+      ]
+    },
+    {
+      "with": "thyroid hormone",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "L-carnitine is a peripheral antagonist of thyroid hormone action (inhibits T3/T4 nuclear entry); 2-4 g/day reversed hyperthyroid symptoms in women on suppressive L-T4. Could theoretically blunt levothyroxine effect, although an RCT in treated hypothyroid patients found improved mental fatigue.",
+      "evidence": "RCTs with L-carnitine and in vitro ALC data; clinical relevance at ALC doses unknown; low certainty",
+      "citations": [
+        "PMID:11502782",
+        "PMID:15591013",
+        "PMID:27432821",
+        "PMID:38460232"
+      ]
+    },
+    {
+      "with": "hyperthyroidism",
+      "with_kind": "condition",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Carnitine antagonizes peripheral thyroid hormone action and reversed/prevented hyperthyroid symptoms in an RCT (beneficial direction).",
+      "evidence": "One small RCT (n=50) with L-carnitine; low certainty",
+      "citations": [
+        "PMID:11502782",
+        "PMID:15591013"
+      ]
+    },
+    {
+      "with": "valproate",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Valproate causes carnitine deficiency, hyperammonemia and encephalopathy; carnitine is used to treat valproate-induced hyperammonemic encephalopathy. No evidence that carnitine provokes seizures in valproate-treated patients. Beneficial/neutral interaction.",
+      "evidence": "Reviews, retrospective studies, negative systematic review on seizures; low certainty",
+      "citations": [
+        "PMID:34004407",
+        "PMID:22180549",
+        "PMID:26889779",
+        "PMID:41692009"
+      ]
+    },
+    {
+      "with": "pivalate-conjugated antibiotics",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Pivalate prodrugs (e.g. cefditoren pivoxil) are excreted as pivaloylcarnitine, depleting carnitine (plasma ~45 to ~9 umol/L in 14 days); can cause hypoglycemia/encephalopathy in children. Carnitine supplementation prevented deficiency.",
+      "evidence": "Controlled PK study, case series (n=22), small case series; low certainty",
+      "citations": [
+        "PMID:12709724",
+        "PMID:27059912",
+        "PMID:33714931"
+      ]
+    },
+    {
+      "with": "taxanes",
+      "with_kind": "drug-class",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "ALC 3 g/day during adjuvant taxane chemotherapy worsened chemotherapy-induced peripheral neuropathy at 24 weeks and over 2 years; ASCO and SIO guidelines discourage ALC for CIPN prevention.",
+      "evidence": "Large double-blind RCT (SWOG S0715, n=409), meta-analysis, guidelines; moderate certainty",
+      "citations": [
+        "PMID:23733756",
+        "PMID:29361042",
+        "PMID:36873277",
+        "PMID:32663120",
+        "PMID:28436999"
       ]
     },
     {
@@ -27,18 +112,213 @@
       "with_kind": "condition",
       "kind": "caution",
       "severity": "moderate",
-      "mechanism": "Seizure-threshold concern is reported in secondary safety references; robust controlled evidence is lacking.",
-      "evidence": "Seizure-threshold concern is reported in secondary safety references; robust controlled evidence is lacking.",
+      "mechanism": "Levocarnitine label reports seizures in patients with or without prior seizure activity and increased seizure frequency/severity in those with seizure disorders; a systematic review found no supporting literature in valproate-treated patients.",
+      "evidence": "Label postmarketing reports vs negative systematic review; very low certainty",
       "citations": [
-        "https://ods.od.nih.gov/factsheets/Carnitine-Consumer/"
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d2133bc3-9c15-48bd-8b16-b8995a6a14cd",
+        "PMID:26889779"
+      ]
+    },
+    {
+      "with": "severe renal impairment / dialysis",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "High-dose oral carnitine in severe renal impairment or ESRD on dialysis may cause accumulation of TMA and TMAO.",
+      "evidence": "FDA levocarnitine label; low certainty",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d2133bc3-9c15-48bd-8b16-b8995a6a14cd"
+      ]
+    },
+    {
+      "with": "cardiovascular disease",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Gut microbes convert carnitine (and ALC, ~90% of dose) to TMAO, which is pro-atherogenic in mice and associated with events in humans; supplementation raises TMAO tenfold without changing inflammatory or lipid markers over 24 weeks.",
+      "evidence": "Mechanistic, observational and short-term human studies; no outcome trials; very low certainty",
+      "citations": [
+        "PMID:23563705",
+        "PMID:30530985",
+        "PMID:41243468",
+        "PMID:30485835"
+      ]
+    },
+    {
+      "with": "pregnancy",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "No adequate human studies; animal studies with levocarnitine showed no fetal harm.",
+      "evidence": "FDA levocarnitine label; very low certainty",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d2133bc3-9c15-48bd-8b16-b8995a6a14cd"
+      ]
+    },
+    {
+      "with": "nucleoside reverse transcriptase inhibitors",
+      "with_kind": "drug-class",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "ALC levels fall in NRTI-associated toxic neuropathy; ALC studied as symptomatic/regenerative treatment without stopping NRTIs. Efficacy inconsistent.",
+      "evidence": "RCT (n=90) positive only in per-protocol analysis, open cohorts; MA negative; very low certainty",
+      "citations": [
+        "PMID:17461852",
+        "PMID:15238773",
+        "PMID:16566084",
+        "PMID:21203440"
+      ]
+    },
+    {
+      "with": "CoQ10",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Carnitines and CoQ10 are combined for idiopathic male infertility; both improve sperm parameters, without proven pregnancy benefit. Overlapping use, not proven synergy.",
+      "evidence": "Network meta-analyses/MAs of RCTs; low certainty",
+      "citations": [
+        "PMID:40813743",
+        "PMID:34871624"
+      ]
+    },
+    {
+      "with": "N-Acetyl-L-Cysteine (NAC)",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Proposed complementary glutamatergic (xc-/mGlu2), redox and mitochondrial actions; in organophosphate poisoning a mortality signal was noted with L-carnitine plus NAC.",
+      "evidence": "Mechanistic/narrative reviews and poisoning SR; mechanistic-inference edge; very low certainty",
+      "citations": [
+        "PMID:42136265",
+        "PMID:39506442",
+        "PMID:41692009"
+      ]
+    },
+    {
+      "with": "Citicholine",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Proposed complementary membrane-integrity (citicoline) and mitochondrial (ALC) effects for cognitive fatigue/impairment.",
+      "evidence": "Narrative review only; mechanistic-inference edge; very low certainty",
+      "citations": [
+        "PMID:42136265"
+      ]
+    },
+    {
+      "with": "serum TMAO",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "True physiological rise in plasma TMAO with carnitine/ALC supplementation (tenfold with L-carnitine; ~50 uM after ALC).",
+      "evidence": "Human supplementation studies; moderate certainty for the rise itself",
+      "citations": [
+        "PMID:30485835",
+        "PMID:41243468"
+      ]
+    },
+    {
+      "with": "INR",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "moderate",
+      "mechanism": "True INR increase in patients on coumarins (not an assay artifact).",
+      "evidence": "Label and case reports; low certainty",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d2133bc3-9c15-48bd-8b16-b8995a6a14cd",
+        "PMID:15340883"
+      ]
+    },
+    {
+      "with": "acylcarnitine profile (C5)",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Pivaloylcarnitine from pivalate antibiotics appears as C5-acylcarnitine on tandem MS acylcarnitine analysis.",
+      "evidence": "Case series; low certainty",
+      "citations": [
+        "PMID:27059912"
       ]
     }
   ],
   "citations": [
+    "PMID:15591001",
+    "PMID:8797468",
     "PMID:29076953",
+    "PMID:17461852",
+    "PMID:17543140",
+    "PMID:20661677",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d2133bc3-9c15-48bd-8b16-b8995a6a14cd",
+    "PMID:41243468",
+    "PMID:31201734",
+    "PMID:41824218",
+    "PMID:23382250",
     "PMID:30061399",
-    "https://ods.od.nih.gov/factsheets/Carnitine-Consumer/",
-    "https://pmc.ncbi.nlm.nih.gov/articles/PMC13242760/",
-    "https://www.blackmoresinstitute.org/-/media/bklbi/pdf/cmig_11th_edition.pdf"
+    "PMID:30610762",
+    "PMID:15591013",
+    "PMID:11502782",
+    "PMID:38460232",
+    "PMID:23563705",
+    "PMID:30530985",
+    "PMID:39722590",
+    "PMID:12709724",
+    "PMID:42261369",
+    "PMID:23428336",
+    "PMID:16316746",
+    "PMID:23948785",
+    "PMID:12598816",
+    "PMID:12804452",
+    "PMID:10994000",
+    "PMID:32408706",
+    "PMID:25751285",
+    "PMID:31118753",
+    "PMID:27180954",
+    "PMID:23733756",
+    "PMID:29361042",
+    "PMID:36873277",
+    "PMID:32663120",
+    "PMID:15238773",
+    "PMID:21203440",
+    "PMID:24018499",
+    "PMID:18357530",
+    "PMID:17658628",
+    "PMID:15039515",
+    "PMID:21310833",
+    "PMID:22592719",
+    "PMID:29112178",
+    "PMID:38754041",
+    "PMID:35128424",
+    "PMID:40431450",
+    "PMID:40813743",
+    "PMID:34871624",
+    "PMID:36943634",
+    "PMID:37378482",
+    "PMID:40299412",
+    "PMID:35311615",
+    "PMID:23421600",
+    "PMID:21870121",
+    "PMID:15193480",
+    "PMID:16169400",
+    "PMID:36043711",
+    "PMID:28436999",
+    "PMID:30485835",
+    "PMID:32958033",
+    "PMID:8429297",
+    "PMID:15340883",
+    "PMID:27432821",
+    "PMID:34004407",
+    "PMID:22180549",
+    "PMID:26889779",
+    "PMID:41692009",
+    "PMID:27059912",
+    "PMID:33714931",
+    "PMID:16566084",
+    "PMID:42136265",
+    "PMID:39506442",
+    "PMID:42253799",
+    "PMID:40350672",
+    "URL:https://clinicaltrials.gov/study/NCT06126315",
+    "PMID:39952863",
+    "PMID:38172332"
   ]
 }

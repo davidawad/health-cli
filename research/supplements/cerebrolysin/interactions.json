@@ -3,27 +3,269 @@
   "supplement": "Cerebrolysin",
   "slug": "cerebrolysin",
   "aliases": [
-    "Cerebrolysin peptide mixture",
-    "porcine brain-derived peptides"
+    "Cere",
+    "FPF-1070",
+    "FPF1070",
+    "porcine brain-derived peptide preparation",
+    "Cerebrolysin concentrate"
   ],
   "category": "peptide",
-  "rx_status": "research-chemical",
-  "evidence_certainty_overall": "moderate",
+  "rx_status": "rx",
+  "evidence_certainty_overall": "low",
   "edges": [
+    {
+      "with": "MAO inhibitors",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Possible additive pharmacodynamic effects; high-dose MAO inhibitors combined with higher Cerebrolysin doses (>=30 mL) have been reported to increase blood pressure.",
+      "evidence": "Manufacturer treatment handbook (special warnings, based on SmPC) and FAQ; no controlled interaction study.",
+      "citations": [
+        "URL:https://www.cerebrolysin.com/wp-content/uploads/2023/11/Cerebrolysin_TreatmentHandbook_2023_SCREEN_nocomments.pdf",
+        "URL:https://www.cerebrolysin.com/cerebrolysin/faqs"
+      ]
+    },
+    {
+      "with": "antidepressants",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Possible additive effects with antidepressants; manufacturer recommends considering a lower antidepressant dose if psychiatrically safe.",
+      "evidence": "Manufacturer treatment handbook and FAQ; no controlled interaction study.",
+      "citations": [
+        "URL:https://www.cerebrolysin.com/wp-content/uploads/2023/11/Cerebrolysin_TreatmentHandbook_2023_SCREEN_nocomments.pdf",
+        "URL:https://www.cerebrolysin.com/cerebrolysin/faqs"
+      ]
+    },
+    {
+      "with": "epilepsy",
+      "with_kind": "condition",
+      "kind": "contraindicated",
+      "severity": "major",
+      "mechanism": "Listed contraindication (epilepsy in Austrian SmPC summary; status epilepticus in treatment handbook). Handbook states post-stroke/TBI seizures in non-epileptic patients are not a contraindication.",
+      "evidence": "Official prescribing information summary (Austrian SmPC) and manufacturer handbook.",
+      "citations": [
+        "URL:https://www.cerebrolysin.com/cerebrolysin/about-cerebrolysin",
+        "URL:https://www.cerebrolysin.com/wp-content/uploads/2023/11/Cerebrolysin_TreatmentHandbook_2023_SCREEN_nocomments.pdf"
+      ]
+    },
+    {
+      "with": "severe renal impairment",
+      "with_kind": "condition",
+      "kind": "contraindicated",
+      "severity": "major",
+      "mechanism": "Listed contraindication; handbook specifies no use at GFR categories 4 and 5.",
+      "evidence": "Official prescribing information summary (Austrian SmPC) and manufacturer handbook.",
+      "citations": [
+        "URL:https://www.cerebrolysin.com/cerebrolysin/about-cerebrolysin",
+        "URL:https://www.cerebrolysin.com/wp-content/uploads/2023/11/Cerebrolysin_TreatmentHandbook_2023_SCREEN_nocomments.pdf"
+      ]
+    },
+    {
+      "with": "porcine protein hypersensitivity",
+      "with_kind": "condition",
+      "kind": "contraindicated",
+      "severity": "major",
+      "mechanism": "Product is a porcine brain-derived peptide preparation; hypersensitivity to any component is a labelled contraindication (application to porcine-protein allergy is an inference).",
+      "evidence": "SmPC summary contraindication plus Cochrane description of porcine origin; no case series of porcine-allergy reactions found.",
+      "citations": [
+        "URL:https://www.cerebrolysin.com/cerebrolysin/about-cerebrolysin",
+        "PMID:37818733"
+      ]
+    },
     {
       "with": "acute ischemic stroke",
       "with_kind": "condition",
-      "kind": "caution",
+      "kind": "monitor",
       "severity": "moderate",
-      "mechanism": "Evidence does not show mortality benefit and suggests potential increase in nonfatal serious adverse events.",
-      "evidence": "Evidence does not show mortality benefit and suggests potential increase in nonfatal serious adverse events.",
+      "mechanism": "Cochrane meta-analysis found no mortality benefit and an increase in non-fatal serious adverse events, more prominent with 30 mL x 10 days.",
+      "evidence": "Cochrane SR 2023 (RR non-fatal SAE 2.39, 95% CI 1.10-5.23; moderate certainty), consistent with 2017 and 2020 versions; a separate 12-RCT safety MA found no excess.",
       "citations": [
-        "Cochrane CD007026"
+        "PMID:37818733",
+        "PMID:32662068",
+        "PMID:28430363",
+        "PMID:34959697"
+      ]
+    },
+    {
+      "with": "hypertension",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Rapid IV bolus is associated with increased heart rate, blood pressure and arrhythmia; blood pressure rise reported with high-dose MAO inhibitor co-use. Slow infusion (30-45 min per 100 mL) advised.",
+      "evidence": "Manufacturer treatment handbook only.",
+      "citations": [
+        "URL:https://www.cerebrolysin.com/wp-content/uploads/2023/11/Cerebrolysin_TreatmentHandbook_2023_SCREEN_nocomments.pdf"
+      ]
+    },
+    {
+      "with": "alteplase",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Co-administration with rt-PA studied; no excess adverse events and lower symptomatic haemorrhagic transformation reported; post hoc data hypothesise earlier stabilisation of HT hazard.",
+      "evidence": "Placebo-controlled RCT (n=119) and open-label RCT CEREHETIS (n=341; sHT OR 0.248); safety review; post hoc analysis is hypothesis-generating.",
+      "citations": [
+        "PMID:23009193",
+        "PMID:36973684",
+        "PMID:22514795",
+        "PMID:41640685"
+      ]
+    },
+    {
+      "with": "cholinesterase inhibitors",
+      "with_kind": "drug-class",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Neurotrophic plus cholinergic mechanisms; combination with donepezil was safe and gave best cognitive scores, without significant between-group cognitive differences.",
+      "evidence": "RCT (n=197) of Cerebrolysin, donepezil and combination; safety review covering donepezil/rivastigmine.",
+      "citations": [
+        "PMID:21679156",
+        "PMID:22514795"
+      ]
+    },
+    {
+      "with": "IV amino acid solutions, vitamins and cardiovascular drugs (same infusion)",
+      "with_kind": "drug-class",
+      "kind": "avoid",
+      "severity": "minor",
+      "mechanism": "Pharmaceutical incompatibility: Cerebrolysin should not be mixed in the same infusion with balanced amino acid solutions, vitamins or cardiovascular products; they may be given separately.",
+      "evidence": "Manufacturer administration instructions.",
+      "citations": [
+        "URL:https://www.cerebrolysin.com/cerebrolysin/how-to-use-cerebrolysin"
+      ]
+    },
+    {
+      "with": "Aspirin",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Co-administered as background therapy in CASTA and a vascular dementia RCT without a specific interaction signal; manufacturer reports no incompatibilities with aspirin, statins or NOACs.",
+      "evidence": "Large RCTs (background therapy, not an interaction study) and manufacturer FAQ.",
+      "citations": [
+        "PMID:22282884",
+        "PMID:20656516",
+        "URL:https://www.cerebrolysin.com/cerebrolysin/faqs"
+      ]
+    },
+    {
+      "with": "Citicholine",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Both proposed neuroprotective/neurorestorative agents; combination tested in severe TBI.",
+      "evidence": "Retrospective cohort (n=80): non-significant trend favouring citicoline plus Cerebrolysin over citicoline alone; narrative review of combined use. Synergy unproven.",
+      "citations": [
+        "PMID:41409218",
+        "PMID:38748062"
+      ]
+    },
+    {
+      "with": "chronic liver disease",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Theoretical concern that Sonic hedgehog pathway amplification could accelerate NAFLD progression; in stroke patients with raised transaminases AST improved in most.",
+      "evidence": "Single translational study (clinical case data plus mouse model); low certainty.",
+      "citations": [
+        "PMID:36362945",
+        "PMID:23696546"
+      ]
+    },
+    {
+      "with": "pediatric use",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Only small trials in preterm infants and children with cerebral palsy; manufacturer cites infant use only as experience reports.",
+      "evidence": "Small open RCTs and narrative review; very low certainty.",
+      "citations": [
+        "PMID:33935111",
+        "PMID:28074392",
+        "PMID:34494216",
+        "URL:https://www.cerebrolysin.com/wp-content/uploads/2023/11/Cerebrolysin_TreatmentHandbook_2023_SCREEN_nocomments.pdf"
       ]
     }
   ],
   "citations": [
-    "Cochrane CD007026",
-    "https://www.cochrane.org/evidence/CD007026_cerebrolysin-acute-ischaemic-stroke"
+    "PMID:37818733",
+    "PMID:28430363",
+    "PMID:31710397",
+    "PMID:23440834",
+    "PMID:12111446",
+    "URL:https://www.cerebrolysin.com/cerebrolysin/about-cerebrolysin",
+    "PMID:33515100",
+    "URL:https://www.cerebrolysin.com/",
+    "PMID:41467376",
+    "PMID:42525569",
+    "PMID:37052231",
+    "PMID:35268364",
+    "PMID:23696546",
+    "PMID:20857512",
+    "PMID:36973684",
+    "PMID:41349847",
+    "PMID:41382024",
+    "PMID:41874695",
+    "PMID:32662068",
+    "PMID:28458521",
+    "PMID:28656143",
+    "PMID:41018475",
+    "PMID:22282884",
+    "PMID:29248999",
+    "PMID:38552072",
+    "PMID:28707130",
+    "PMID:34152062",
+    "PMID:26564102",
+    "PMID:34208352",
+    "PMID:36837492",
+    "PMID:39957612",
+    "PMID:20945821",
+    "PMID:23009193",
+    "PMID:41880098",
+    "PMID:40325343",
+    "PMID:41739286",
+    "PMID:40027163",
+    "PMID:33620612",
+    "PMID:31897941",
+    "PMID:31494820",
+    "PMID:30643411",
+    "PMID:36979317",
+    "PMID:27539610",
+    "PMID:20656516",
+    "PMID:25832905",
+    "PMID:21679156",
+    "PMID:34924395",
+    "PMID:32808294",
+    "PMID:33143640",
+    "PMID:37892776",
+    "PMID:39595058",
+    "PMID:20968198",
+    "PMID:41180520",
+    "PMID:33935111",
+    "PMID:28074392",
+    "PMID:34494216",
+    "URL:https://www.cerebrolysin.com/cerebrolysin/how-to-use-cerebrolysin",
+    "URL:https://www.cerebrolysin.com/wp-content/uploads/2023/11/Cerebrolysin_TreatmentHandbook_2023_SCREEN_nocomments.pdf",
+    "PMID:19765131",
+    "PMID:23656173",
+    "PMID:37360156",
+    "PMID:11129744",
+    "PMID:39435777",
+    "PMID:36730671",
+    "PMID:40350671",
+    "PMID:34959697",
+    "PMID:39575393",
+    "PMID:22514795",
+    "URL:https://www.cerebrolysin.com/cerebrolysin/faqs",
+    "PMID:36362945",
+    "PMID:41640685",
+    "PMID:41409218",
+    "PMID:42110924",
+    "PMID:41198594",
+    "PMID:40851188",
+    "PMID:40087248",
+    "PMID:39834702",
+    "PMID:38748062",
+    "PMID:30004268"
   ]
 }

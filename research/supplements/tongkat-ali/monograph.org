@@ -3,46 +3,218 @@
 :ID: supp-tongkat-ali
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: Eurycoma longifolia | Malaysian ginseng | pasak bumi
+:ALIASES: Eurycoma longifolia | Long Jack | Malaysian ginseng | pasak bumi | Physta | tongkat ali root extract
 :CATEGORY: botanical
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Tongkat ali is root of Eurycoma longifolia Jack, sold as powders and water extracts standardized variably to eurycomanone; products are standardized variably [PMID:36013514].
+- Eurycoma longifolia Jack (Simaroubaceae) is a shrubby tree native to Indonesia, Malaysia, Vietnam, Cambodia, Myanmar, Laos and Thailand. The root is used mainly for sexual dysfunction, aging, fatigue and fever [PMID:26978330] [PMID:20434529]. LiverTox lists "Long Jack" as a synonym and notes it is promoted in the US to raise testosterone and athletic performance [PMID:39527684].
+- Bioactives: quassinoids make up most of the root phytochemicals (eurycomanone, 13,21-dihydroeurycomanone, eurycomanol, longilactone). Other classes are canthin-6-one and beta-carboline alkaloids, tirucallane triterpenes, squalene derivatives and bioactive steroids [PMID:26978330] [PMID:36687023]. Eurycomanone was the most abundant quassinoid in all supplement tablets/capsules tested by LC-MS/MS [PMID:25914245].
+- Standardized extracts used in trials:
+  - Physta: a freeze-dried, standardized hot-water root extract. It was used at 100-300 mg/d in men [PMID:23243445] [PMID:34262417] and 50-100 mg/d in women [PMID:41283187].
+  - The same aqueous extract (EU novel-food dossier) contains 40-65% glycosaponins and 0.8-1.5% eurycomanone, with canthin-6-one alkaloids and isoscopoletin, at a proposed 200 mg/d [PMID:34987621].
+  - Malaysian Standard MS 2409 water extract (pharmacokinetic work) [PMID:29997335]. Quassinoid-rich TAF273 extract (rat toxicology) [PMID:24318772].
+  - China: a 2024 TCM-properties review proposes 2-10 g/d of root as a decoction [PMID:39701690].
+- Product quality varies widely:
+  - DNA barcoding: only 37% of Malaysian herbal medicinal products were authentic, and 27% were adulterated [PMID:30058427].
+  - HPLC: only 5 of 8 randomly purchased products contained detectable E. longifolia compounds [PMID:29154863].
+  - UHPLC-MS: commercial products clustered apart from authentic root [PMID:39369924].
+  - NIR screening flagged a sildenafil analogue in 2 internet-bought products [PMID:24731345].
 
 ** Mechanisms
-- Quassinoids including eurycomanone are proposed to affect steroidogenesis and stress pathways; mechanism and human exposure-response remain uncertain [PMID:36013514].
+- Steroidogenesis: in rat Leydig cells, eurycomanone raised testosterone dose-dependently (0.1-10 uM). The authors attribute this to aromatase inhibition and, at high concentrations, phosphodiesterase inhibition [PMID:23810842].
+- Hormonal axes: in young men, 600 mg/d for 2 weeks raised total and free testosterone and estradiol without changing LH, FSH or SHBG. The authors suggest an adrenal (HPA) rather than gonadal (HPG) route [PMID:33559971]. In older women, the rise in free testosterone was attributed to lower SHBG [PMID:23754792].
+- Erectile tissue (preclinical):
+  - Canthin-6-one alkaloids inhibit PDE-5 (IC50 2.86-4.66 uM) [PMID:35652145].
+  - 9-hydroxycanthin-6-one relaxes rat corpus cavernosum by interfering with Ca2+ mobilization, independent of NO/cGMP [PMID:21569213].
+  - An aqueous extract raised brain cortical/hippocampal dopamine and serum testosterone in rats [PMID:31275418].
+- Vascular: a dichloromethane subfraction relaxed rat aorta through ACE inhibition and AT1-receptor antagonism [PMID:27800486].
+- Bone (rat orchidectomy/castration models): preserved bone calcium, cortical thickness and biomechanics, in some measures comparably to testosterone [PMID:20874437] [PMID:29689767] [PMID:22844328].
+- Glucose: antihyperglycemic in db/db mice through PDX1-linked beta-cell expansion [PMID:32708678]. Lowered glucose in STZ-hyperglycemic rats only at 150 mg/kg, with no effect in normoglycemic rats [PMID:15507337].
+- Prostate cells: a quassinoid composition (SQ40) inhibited LNCaP growth and androgen-receptor nuclear translocation and lowered PSA secretion [PMID:25826409]. Isolated quassinoids reduced prostate weight in a testosterone-induced BPH rat model [PMID:36931528].
+- Sleep/wake (mice): wake consolidation in the active period and more REM/NREM consolidation at rest, with circadian tau prolonged [PMID:37968729] [PMID:39055967]. No human sleep trial was found.
+- Pharmacokinetics: oral eurycomanone has low bioavailability, 10.5% in rats [PMID:16206032], 11.8% in rats and 54.9% in mice, with t1/2 about 0.30 h [PMID:29997335]. Human PK data are lacking.
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---------+--------------------+-----------+-------------+-----------------------+-----------|
-| Total testosterone in men | meta-analysis of 5 RCTs | increase signal | SMD 1.352 (95% CI 0.565–2.138); small heterogeneous evidence base | low | PMID:36013514 |
-| Stress / wellbeing | small clinical trials | possible improvement | heterogeneous measures; no robust pooled estimate | very low | PMID:36013514 |
-| Safety | small trials/reviews | inadequately characterized | insufficient long-term exposure data | very low | PMID:36013514 |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Total testosterone (men) | SR/MA (9 studies; 5 RCTs pooled); SR of testosterone boosters | Increase | SMD 1.352 (95% CI 0.565 to 2.138), confirmed in hypogonadal subgroup; "possibly effective" in LOH and healthy men | low | [PMID:36013514] [PMID:37697053] [PMID:42575271] |
+| Late-onset hypogonadism / aging-male symptoms | RCT, 105 men aged 50-70 (Physta 100/200 mg, 12 wk); uncontrolled study, n=76 | Benefit | Total T up vs placebo at wk 12 (both doses); AMS and fatigue reduced (P<0.001); uncontrolled: normal T rose from 35.5% to 90.8% | low | [PMID:34262417] [PMID:21671978] [PMID:33541567] |
+| Erectile function | SR/MA (2 RCTs, n=139); later RCTs | Uncertain; benefit only with lower baseline | IIEF-5 WMD 0.91 (CI -1.50 to 3.33; I2=89.5%); lower-baseline subgroup +2.15 (1.03-3.27) | very low | [PMID:26365449] [PMID:23243445] [PMID:33541567] |
+| Sexual well-being / libido | RCTs (Physta 300 mg; Physta + Polygonum minus) | Benefit | IIEF erectile domain P<0.001; libido +14% at wk 12; combination improved SHIM, erection hardness | low | [PMID:23243445] [PMID:24550993] [PMID:28259255] |
+| Male infertility / semen | Uncontrolled study (n=350 enrolled, 75 completed 3 months); RCT secondary outcome | Improvement (uncontrolled) | All semen parameters improved; 11 (14.7%) spontaneous pregnancies; motility 44.4%, semen volume +18.2% in RCT | very low | [PMID:20348942] [PMID:23243445] [PMID:30790614] |
+| Stress hormones / mood | RCT, 63 moderately stressed adults, 4 wk | Benefit | Salivary cortisol -16%, testosterone +37%; tension -11%, anger -12%, confusion -15% | low | [PMID:23705671] [PMID:30574050] |
+| Muscle strength / exercise | Small RCTs (ADAM men 6 mo; young men 8 wk; rugby players 7 d); pilot in seniors | Mixed; benefit mainly with training or in older adults | Knee-flexion torque rose only with training + EL; no effect on muscle damage or salivary hormones in athletes; handgrip up in seniors (uncontrolled) | low | [PMID:33445146] [PMID:31367282] [PMID:37398958] [PMID:23754792] |
+| Menopausal quality of life | RCT, 138 women (Physta 50/100 mg, 12 wk); combination RCT (n=119) | Small benefit at 100 mg | MENQOL -33.9% (P=0.049); no change in female reproductive hormones; combination product no different from placebo for hot flushes | low | [PMID:41283187] [PMID:33061884] |
+| Immune parameters | RCT, 84 middle-aged Japanese adults, 200 mg 4 wk | Increase in immune scores | Higher SIV and total/naive/CD4+ T cells vs placebo | low | [PMID:26816234] |
+| Bone | Rat orchidectomy/castration models only | Protective (animal) | Comparable to testosterone on cortical thickness/biomechanics in one model | very low | [PMID:29689767] [PMID:20874437] [PMID:22924057] |
+| Glycemia | Rodent studies only | Lowering (animal) | Not quantified in humans | very low | [PMID:32708678] [PMID:15507337] |
 
 ** Dosing in trials
-- Trials have used standardized extracts at roughly 100–600 mg/day, often for several weeks; formulation and standardization vary and there is no established optimal regimen [PMID:36013514].
+- Testosterone/aging male: 100-200 mg/d Physta for 12 weeks [PMID:34262417]. 200 mg/d standardized water extract for 1 month in LOH [PMID:21671978]. 200 mg/d for 6 months with concurrent training [PMID:33541567].
+- Young men: 600 mg/d for 2 weeks [PMID:33559971]. 200 mg/d for 8 weeks with resistance training [PMID:31367282]. 400 mg/d (4 x 100 mg) for 7 days in rugby players [PMID:37398958].
+- Sexual well-being: 300 mg/d Physta for 12 weeks [PMID:23243445].
+- Infertility: 200 mg/d for up to 9 months [PMID:20348942].
+- Stress: standardized hot-water root extract for 4 weeks [PMID:23705671].
+- Seniors: 400 mg/d for 5 weeks [PMID:23754792].
+- Women: 50-100 mg/d Physta for 12 weeks [PMID:41283187].
+- EU novel-food application: up to 200 mg/d in adults, excluding pregnancy and lactation [PMID:34987621].
+- A rat-derived acceptable daily intake of up to 1.2 g/adult/day was proposed for powdered root [PMID:24062779].
 
 ** Safety & adverse effects
-- Short-term trials report few serious events but are underpowered for uncommon harms. long-term safety is not characterized in the small trial literature [PMID:36013514].
+- RCTs (4-24 weeks) report safety labs (blood count, lipids, liver and renal function) comparable to placebo [PMID:34262417] [PMID:23243445] [PMID:24550993] [PMID:41283187]. Adverse events were similar between arms (7 vs 6) [PMID:30574050]. Trials are small and many are manufacturer-linked, so rare harms cannot be excluded.
+- Hepatotoxicity:
+  - First published case (2024): a 47-year-old man developed jaundice and raised liver enzymes soon after starting tongkat ali, and improved after stopping [PMID:38646387].
+  - LiverTox (updated 2024) notes recent reports of clinically apparent liver injury in body builders [PMID:39527684].
+- Cardiac: probable case of new-onset atrial flutter in a 71-year-old after starting the supplement (2025) [PMID:41080360].
+- Genotoxicity (EFSA 2021): the aqueous root extract was positive in an in vitro chromosome aberration test and in an in vivo comet assay at 2000 mg/kg (stomach, duodenum). EFSA concluded it "has the potential to induce DNA damage" and that its safety "has not been established under any condition of use" [PMID:34987621]. An earlier study of powdered root found no mutagenicity or clastogenicity [PMID:24062779].
+- Animal toxicology:
+  - Powdered root: LD50 >6 g/kg. No adverse effects at up to 2 g/kg/day for 13 weeks, though prothrombin time and partial thromboplastin time were reduced [PMID:24062779].
+  - Quassinoid-rich extract TAF273: LD50 1293 mg/kg (female) and >2000 mg/kg (male). Reproductive/teratology NOAEL 100 mg/kg/day; no fetal toxicity [PMID:24318772].
+  - Tongkat ali coffee: NOAEL 1 g/kg. Lower platelets in chronic-dosed males and some renal/liver marker changes [PMID:33066137].
+  - Tongkat ali + Labisia combination: NOAEL >500 but not more than 2000 mg/kg [PMID:33579048].
+  - Eurycomanone was the most toxic quassinoid in toxicity-guided fractionation [PMID:12143009].
+- Heavy metals (Malaysia):
+  - 36 of 100 tongkat ali products had 0.52-5.30 ppm mercury, above the 0.5 ppm limit; 5 of them were registered products [PMID:15162849].
+  - 26 of 100 "tongkat ali hitam" products had 0.53-2.35 ppm mercury [PMID:16567029].
+  - Arsenic and lead were not detected in two root samples [PMID:22468741].
+- Adulteration: undeclared sildenafil analogues [PMID:24731345] and non-authentic material [PMID:30058427] add risk that is independent of the plant itself.
+- Sperm in vitro: no harm at therapeutic concentrations (<2.5 ug/mL). Possible harm at very high concentrations [PMID:22332826].
 
 ** Contraindications
-- Pregnancy/lactation and hormone-sensitive disease safety are not established. data in pregnancy/lactation and hormone-sensitive conditions are inadequate [PMID:36013514].
+- Pregnancy and lactation: excluded from the EU novel-food target population, and EFSA did not establish safety [PMID:34987621]. No human data. Rat teratology was reassuring at <=100 mg/kg [PMID:24318772].
+- Prostate cancer or other androgen-sensitive malignancy: raises testosterone [PMID:36013514]. A review notes prostate cancer is a debated absolute contraindication for testosterone therapy [PMID:24386995]. Anti-proliferative LNCaP data are in vitro only [PMID:25826409].
+- Liver disease or prior herb-induced liver injury: case report and LiverTox entry [PMID:38646387] [PMID:39527684].
+- Children/adolescents: no trial data. The EU application targeted adults only [PMID:34987621].
 
 ** Interactions
-- Drugs, supplements, conditions, and relevant laboratory interference are summarized in the structured interaction object. Potential additive androgen effects with testosterone therapy are plausible; no robust interaction trials. Monitor concern around glucose/BP changes remains uncertain [PMID:36013514]. No genotype-specific claim is made because no directly relevant pharmacogenomic source was identified.
+*** Drugs
+- Propranolol: crossover RCT in 14 healthy men. 200 mg aqueous extract reduced propranolol AUC by 29% and Cmax by 42%, and prolonged Tmax by about 86%, through reduced absorption. Pharmacodynamics were unchanged in healthy volunteers, but the authors advise caution [PMID:21054461]. Other orally absorbed beta-blockers are not studied.
+- CYP-metabolized drugs (in vitro only):
+  - Methanolic root extract weakly inhibited CYP1A2, CYP2A6 and CYP2C19 (IC50 324.9, 797.1 and 562.9 ug/mL) [PMID:26240600].
+  - Eurycomanone did not potently inhibit CYP1A2, 2A6, 2C8, 2C9, 2C19, 2E1 or 3A4 (IC50 >250 ug/mL) [PMID:23881640].
+  - Extract inhibited CYP2C8 (amodiaquine N-desethylation) with a Ki 4 times that of quercetin [PMID:27695271].
+  - No human CYP probe study exists.
+- Testosterone/androgen therapy: additive androgen exposure is plausible [PMID:36013514] [PMID:34262417]. In orchidectomized rats, EL plus low-dose testosterone improved bone strain [PMID:22924057]. No human combination study.
+- Estrogen-modulating drugs (aromatase inhibitors, estrogens): eurycomanone enhanced formestane-type aromatase inhibition in vitro [PMID:23810842]. In young men, estradiol rose [PMID:33559971]. The net direction is unclear.
+- PDE-5 inhibitors (sildenafil etc.): canthin-6-ones inhibit PDE-5 in vitro [PMID:35652145], and some products are adulterated with sildenafil analogues [PMID:24731345]. Hidden additive exposure is possible.
+- Antihypertensives: ACE inhibition and vasorelaxation in rat aorta [PMID:27800486]. Mechanistic only.
+- Antidiabetics: glucose lowering in diabetic rodents [PMID:32708678] [PMID:15507337]. Mechanistic only. HbA1c was a secondary endpoint in one RCT, with no reported effect [PMID:34262417].
+- Anticoagulants/antiplatelets: rats showed shortened PT/aPTT [PMID:24062779], and lower platelets with tongkat ali coffee [PMID:33066137]. No human data. The clinical direction is unclear.
+- Hepatotoxic drugs: additive liver risk is unstudied. Liver injury has been reported [PMID:38646387].
+*** Other supplements
+- Ashwagandha: both are classed as "possibly effective" testosterone boosters in healthy men [PMID:37697053] and as modest testosterone raisers in a 2026 review [PMID:42575271]. Additive androgen effect is a mechanistic inference.
+- DHEA: Physta raised DHEA within-group [PMID:34262417]. Combined androgen-precursor load is a mechanistic inference; no interaction study.
+- Labisia pumila (kacip fatimah): combination product tested for menopause [PMID:33061884] and in rat toxicology [PMID:33579048]. Labisia also inhibits CYP2C8, more potently than EL [PMID:27695271].
+- Polygonum minus: combination RCT for sexual performance [PMID:24550993].
+- Zinc, magnesium: in the testosterone-booster SR, most such agents did not raise testosterone. No interaction data with tongkat ali [PMID:37697053].
+*** Conditions
+- Androgen-sensitive cancers (prostate, breast), pregnancy/lactation, liver disease: see Contraindications.
+- Cardiac arrhythmia: a single probable atrial flutter case [PMID:41080360].
+- Sports anti-doping: in 8 weeks at 200 mg/d, the urinary testosterone:epitestosterone ratio was unchanged [PMID:31367282]. Contamination or adulteration of products remains a separate risk [PMID:30058427].
+*** Lab-test interference
+- No assay artifact was found. True physiological shifts reported:
+  - Total and free testosterone up [PMID:34262417] [PMID:33559971].
+  - Estradiol up in young men [PMID:33559971].
+  - SHBG down in older women [PMID:23754792].
+  - DHEA up and cortisol down [PMID:34262417] [PMID:23705671].
+  - T-cell counts up [PMID:26816234].
+- Liver enzymes and bilirubin should be checked if symptoms of liver injury appear [PMID:38646387].
 
 ** Genotype notes
-- No directly relevant, clinically validated pharmacogenomic/nutrigenomic source was identified in the sources reviewed.
+No cited pharmacogenomic or nutrigenomic source found.
 
 ** Latest research
-- No qualifying large, definitive human trial published in the last 24 months was identified in the searched literature; 2022 meta-analysis remains the main RCT synthesis [PMID:36013514].
+- [2026-09] Structured critical review of androgen-modulating botanicals: standardized E. longifolia has limited-to-moderate evidence for modest testosterone increases in selected men (low baseline T, aging, infertility, stress). Durable functional benefit is inconsistent and cannot be generalized across extracts [PMID:42575271].
+- [2025-11] RCT in 138 menopausal women: Physta 100 mg lowered MENQOL by 33.9% (P=0.049), with no change in reproductive hormones or safety labs [PMID:41283187].
+- [2025-09] Probable tongkat ali-induced atrial flutter in a 71-year-old man [PMID:41080360].
+- [2025-02] Indonesian SR plus network pharmacology: stigmasterol, eurycomanone and eurycomalactone are predicted to target 13 erectile-dysfunction genes. This is in silico [PMID:40007786].
+- [2025-01] Metabolomics: commercial products differ chemically from authentic root. Root extract protected against 5-FU testicular toxicity in rats [PMID:39369924].
+- [2024-10] LiverTox entry updated: liver injury attributed to tongkat ali in body builders [PMID:39527684].
+- [2024-09] Chinese TCM-properties review proposes introducing the root as a new medicinal (2-10 g/d decoction) [PMID:39701690].
+- [2024-06] SR of 27 testosterone boosters: E. longifolia is "possibly effective" for LOH and healthy men. Most other boosters fail [PMID:37697053].
+- Registered trials (ClinicalTrials.gov): NCT06100432 (E. longifolia DLBS5055 + antioxidant vitamins in infertile men; active, not recruiting) [URL:https://clinicaltrials.gov/study/NCT06100432]. NCT04584918 (Euryco-10 in senior men; status unknown) [URL:https://clinicaltrials.gov/study/NCT04584918]. NCT05347329 (Tongkat Ali Maca Plus; completed, results not found in PubMed) [URL:https://clinicaltrials.gov/study/NCT05347329].
 
 ** Open questions
-- Independent trials must standardize extracts, measure clinically meaningful symptoms and hormone changes, and monitor hepatic/reproductive safety [PMID:36013514].
+- Size and durability of the testosterone effect in independent, preregistered trials. The 2022 MA pooled only 5 small RCTs with high heterogeneity, and many trials used one manufacturer's extract.
+- Whether hormonal changes translate into clinical outcomes: sexual function, fertility (live birth), muscle, bone.
+- Genotoxicity: the EFSA comet-assay signal at first-contact tissues [PMID:34987621] has not been resolved by newer data.
+- Incidence of liver injury. Only isolated case reports exist [PMID:38646387].
+- Human pharmacokinetics of eurycomanone and other markers. Human CYP/transporter interaction studies beyond the single propranolol study.
+- Long-term safety in men with prostate disease and in androgen-sensitive conditions.
+- Contamination (mercury) and adulteration (PDE-5 analogues): no recent surveys outside Malaysia were found.
+- Effects of eurypeptides and other non-quassinoid fractions: no cited human data were found.
 
 ** Sources
-- PMID:36013514
-- PMID:39387709
+1. Leisegang K et al. Eurycoma longifolia (Jack) Improves Serum Total Testosterone in Men: A Systematic Review and Meta-Analysis of Clinical Trials. Medicina (Kaunas). 2022. PMID:36013514 DOI:10.3390/medicina58081047
+2. Kotirum S et al. Efficacy of Tongkat Ali (Eurycoma longifolia) on erectile function improvement: systematic review and meta-analysis of randomized controlled trials. Complement Ther Med. 2015. PMID:26365449 DOI:10.1016/j.ctim.2015.07.009
+3. Morgado A et al. Do "testosterone boosters" really increase serum total testosterone? A systematic review. Int J Impot Res. 2024. PMID:37697053 DOI:10.1038/s41443-023-00763-9
+4. Sharma K et al. Analysis of androgen modulation by natural products. Pharmacol Res. 2026. PMID:42575271 DOI:10.1016/j.phrs.2026.108377
+5. Thu HE et al. Eurycoma Longifolia as a potential adoptogen of male sexual health: a systematic review on clinical studies. Chin J Nat Med. 2017. PMID:28259255 DOI:10.1016/S1875-5364(17)30010-9
+6. Santos HO et al. Beyond tribulus (Tribulus terrestris L.): The effects of phytotherapics on testosterone, sperm and prostate parameters. J Ethnopharmacol. 2019. PMID:30790614 DOI:10.1016/j.jep.2019.02.033
+7. Leitão AE et al. A 6-month, double-blind, placebo-controlled, randomized trial of Eurycoma longifolia and concurrent training on erectile function and testosterone levels in androgen deficiency of aging males (ADAM). Maturitas. 2021. PMID:33541567 DOI:10.1016/j.maturitas.2020.12.002
+8. Leitão AE et al. Exercise associated or not to the intake of Eurycoma longifolia improves strength and cardiorespiratory fitness in men with androgen deficiency. Complement Ther Clin Pract. 2021. PMID:33445146 DOI:10.1016/j.ctcp.2020.101301
+9. Chinnappan SM et al. Effect of Eurycoma longifolia standardised aqueous root extract-Physta on testosterone levels and quality of life in ageing male subjects: a randomised, double-blind, placebo-controlled multicentre study. Food Nutr Res. 2021. PMID:34262417 DOI:10.29219/fnr.v65.5647
+10. Chan KQ et al. The effect of Eurycoma Longifolia on the regulation of reproductive hormones in young males. Andrologia. 2021. PMID:33559971 DOI:10.1111/and.14001
+11. Tambi MI et al. Standardised water-soluble extract of Eurycoma longifolia, Tongkat ali, as testosterone booster for managing men with late-onset hypogonadism? Andrologia. 2012. PMID:21671978 DOI:10.1111/j.1439-0272.2011.01168.x
+12. Tambi MI et al. Eurycoma longifolia Jack in managing idiopathic male infertility. Asian J Androl. 2010. PMID:20348942 DOI:10.1038/aja.2010.7
+13. Ismail SB et al. Randomized Clinical Trial on the Use of PHYSTA Freeze-Dried Water Extract of Eurycoma longifolia for the Improvement of Quality of Life and Sexual Well-Being in Men. Evid Based Complement Alternat Med. 2012. PMID:23243445 DOI:10.1155/2012/429268
+14. Udani JK et al. Effects of a Proprietary Freeze-Dried Water Extract of Eurycoma longifolia (Physta) and Polygonum minus on Sexual Performance and Well-Being in Men: A Randomized, Double-Blind, Placebo-Controlled Study. Evid Based Complement Alternat Med. 2014. PMID:24550993 DOI:10.1155/2014/179529
+15. Talbott SM et al. Effect of Tongkat Ali on stress hormones and psychological mood state in moderately stressed subjects. J Int Soc Sports Nutr. 2013. PMID:23705671 DOI:10.1186/1550-2783-10-28
+16. George A et al. Efficacy and safety of Eurycoma longifolia (Physta) water extract plus multivitamins on quality of life, mood and stress: a randomized placebo-controlled and parallel study. Food Nutr Res. 2018. PMID:30574050 DOI:10.29219/fnr.v62.1374
+17. George A et al. Immunomodulation in Middle-Aged Humans Via the Ingestion of Physta Standardized Root Water Extract of Eurycoma longifolia Jack: A Randomized, Double-Blind, Placebo-Controlled, Parallel Study. Phytother Res. 2016. PMID:26816234 DOI:10.1002/ptr.5571
+18. Henkel RR et al. Tongkat Ali as a potential herbal supplement for physically active male and female seniors: a pilot study. Phytother Res. 2014. PMID:23754792 DOI:10.1002/ptr.5017
+19. Chen CK et al. Effects of Eurycoma Longifolia Jack Supplementation Combined with Resistance Training on Isokinetic Muscular Strength and Power, Anaerobic Power, and Urinary Testosterone: Epitestosterone Ratio in Young Males. Int J Prev Med. 2019. PMID:31367282 DOI:10.4103/ijpvm.IJPVM_404_17
+20. Zakaria AZ et al. Effects of Eurycoma longifolia Jack supplementation on eccentric leg press exercise-induced muscle damage in rugby players. Biol Sport. 2023. PMID:37398958 DOI:10.5114/biolsport.2023.119290
+21. Chinnappan SM et al. Efficacy of Labisia pumila and Eurycoma longifolia standardised extracts on hot flushes, quality of life, hormone and lipid profile of peri-menopausal and menopausal women: a randomised, placebo-controlled study. Food Nutr Res. 2020. PMID:33061884 DOI:10.29219/fnr.v64.3665
+22. Muniandy S et al. Effect of Eurycoma longifolia water extract (Physta) on menopausal quality of life and mood states. World J Clin Cases. 2025. PMID:41283187 DOI:10.12998/wjcc.v13.i31.109113
+23. Salman SA et al. Modification of propranolol's bioavailability by Eurycoma longifolia water-based extract. J Clin Pharm Ther. 2010. PMID:21054461 DOI:10.1111/j.1365-2710.2009.01147.x
+24. Han YM et al. In Vitro Evaluation of the Effects of Eurycoma longifolia Extract on CYP-Mediated Drug Metabolism. Evid Based Complement Alternat Med. 2015. PMID:26240600 DOI:10.1155/2015/631329
+25. Pan Y et al. Effect of eurycomanone on cytochrome P450 isoforms CYP1A2, CYP2A6, CYP2C8, CYP2C9, CYP2C19, CYP2E1 and CYP3A4 in vitro. J Nat Med. 2014. PMID:23881640 DOI:10.1007/s11418-013-0794-8
+26. Muthiah YD et al. Inhibition of Human Cytochrome P450 2c8-catalyzed Amodiaquine N-desethylation: Effect of Five Traditionally and Commonly Used Herbs. Pharmacognosy Res. 2016. PMID:27695271 DOI:10.4103/0974-8490.188886
+27. Low BS et al. Eurycomanone, the major quassinoid in Eurycoma longifolia root extract increases spermatogenesis by inhibiting the activity of phosphodiesterase and aromatase in steroidogenesis. J Ethnopharmacol. 2013. PMID:23810842 DOI:10.1016/j.jep.2013.06.023
+28. Low BS et al. Acute, reproductive toxicity and two-generation teratology studies of a standardized quassinoid-rich extract of Eurycoma longifolia Jack in Sprague-Dawley rats. Phytother Res. 2014. PMID:24318772 DOI:10.1002/ptr.5094
+29. Li CH et al. Evaluation of Acute 13-Week Subchronic Toxicity and Genotoxicity of the Powdered Root of Tongkat Ali (Eurycoma longifolia Jack). Evid Based Complement Alternat Med. 2013. PMID:24062779 DOI:10.1155/2013/102987
+30. EFSA NDA Panel et al. Safety of Eurycoma longifolia (Tongkat Ali) root extract as a novel food pursuant to Regulation (EU) 2015/2283. EFSA J. 2021. PMID:34987621 DOI:10.2903/j.efsa.2021.6937
+31. Ahmad N et al. Eurycoma longifolia-Infused Coffee: An Oral Toxicity Study. Nutrients. 2020. PMID:33066137 DOI:10.3390/nu12103125
+32. Chan KL et al. The toxicity of some quassinoids from Eurycoma longifolia. Planta Med. 2002. PMID:12143009 DOI:10.1055/s-2002-32907
+33. Teh BP et al. Herbal-Based Formulation Containing Eurycoma longifolia and Labisia pumila Aqueous Extracts: Safe for Consumption? Pharmaceuticals (Basel). 2021. PMID:33579048 DOI:10.3390/ph14020142
+34. Ang HH et al. Contamination of mercury in tongkat Ali hitam herbal preparations. Food Chem Toxicol. 2006. PMID:16567029 DOI:10.1016/j.fct.2006.01.014
+35. Ang HH et al. Determination of mercury by cold vapor atomic absorption spectrophotometer in Tongkat Ali preparations obtained in Malaysia. Int J Toxicol. 2004. PMID:15162849 DOI:10.1080/10915810490269654
+36. Chua LS et al. Plant proteins, minerals and trace elements of Eurycoma longifolia (Tongkat Ali). Nat Prod Res. 2013. PMID:22468741 DOI:10.1080/14786419.2012.676552
+37. Abubakar BM et al. Assessing product adulteration of Eurycoma longifolia (Tongkat Ali) herbal medicinal product using DNA barcoding and HPLC analysis. Pharm Biol. 2018. PMID:30058427 DOI:10.1080/13880209.2018.1479869
+38. Said MM et al. Rapid detection of sildenafil analogue in Eurycoma longifolia products using a new two-tier procedure of the near infrared (NIR) spectra database. Food Chem. 2014. PMID:24731345 DOI:10.1016/j.foodchem.2014.02.125
+39. Mutschlechner B et al. Development of a selective HPLC-DAD/ELSD method for the qualitative and quantitative assessment of commercially available Eurycoma longifolia products and plant extracts. Fitoterapia. 2018. PMID:29154863 DOI:10.1016/j.fitote.2017.11.015
+40. Han YM et al. Simultaneous quantitation of six major quassinoids in Tongkat Ali dietary supplements by liquid chromatography with tandem mass spectrometry. J Sep Sci. 2015. PMID:25914245 DOI:10.1002/jssc.201500207
+41. Kaliounji A et al. A Rare Case of Tongkat Ali-Induced Liver Injury: A Case Report. Cureus. 2024. PMID:38646387 DOI:10.7759/cureus.56639
+42. LiverTox: Clinical and Research Information on Drug-Induced Liver Injury. Tongkat Ali. NIDDK. 2012 (updated 2024). PMID:39527684
+43. Ali M. Tongkat Ali-Induced Atrial Flutter: A Probable Case. Cureus. 2025. PMID:41080360 DOI:10.7759/cureus.92024
+44. Rehman SU et al. Review on a Traditional Herbal Medicine, Eurycoma longifolia Jack (Tongkat Ali): Its Traditional Uses, Chemistry, Evidence-Based Pharmacology and Toxicology. Molecules. 2016. PMID:26978330 DOI:10.3390/molecules21030331
+45. Bhat R et al. Tongkat Ali (Eurycoma longifolia Jack): a review on its ethnobotany and pharmacological importance. Fitoterapia. 2010. PMID:20434529 DOI:10.1016/j.fitote.2010.04.006
+46. George A et al. Phytoandrogenic properties of Eurycoma longifolia as natural alternative to testosterone replacement therapy. Andrologia. 2014. PMID:24386995 DOI:10.1111/and.12214
+47. Farag MA et al. A Multifaceted Review of Eurycoma longifolia Nutraceutical Bioactives: Production, Extraction, and Analysis in Drugs and Biofluids. ACS Omega. 2023. PMID:36687023 DOI:10.1021/acsomega.2c06340
+48. Ye DN et al. Literature research and discussion on properties of a new oversea-introduced traditional Chinese medicine Malaysian ginseng (Tongkat Ali). Zhongguo Zhong Yao Za Zhi. 2024. PMID:39701690 DOI:10.19540/j.cnki.cjcmm.20240611.401
+49. Ahmad N et al. Bioavailability of Eurycomanone in Its Pure Form and in a Standardised Eurycoma longifolia Water Extract. Pharmaceutics. 2018. PMID:29997335 DOI:10.3390/pharmaceutics10030090
+50. Low BS et al. Bioavailability and pharmacokinetic studies of eurycomanone from Eurycoma longifolia. Planta Med. 2005. PMID:16206032 DOI:10.1055/s-2005-871259
+51. Erasmus N et al. Effect of Eurycoma longifolia Jack (Tongkat ali) extract on human spermatozoa in vitro. Andrologia. 2012. PMID:22332826 DOI:10.1111/j.1439-0272.2012.01282.x
+52. Eissa MA et al. Metabolome classification of Tongkat Ali (Eurycoma longifolia jack) and its commercial products via UHPLC-QTOF-MS-MS and its protective effect against 5-flurouracil-Induced testicular toxicity in male rats. J Ethnopharmacol. 2025. PMID:39369924 DOI:10.1016/j.jep.2024.118904
+53. Jayusman PA et al. Effects of standardized quassinoid-rich Eurycoma longifolia extract in a rat model of osteoporosis due to testosterone deficiency. J Xray Sci Technol. 2018. PMID:29689767 DOI:10.3233/XST-17366
+54. Shuid AN et al. The anti-osteoporotic effect of Eurycoma Longifolia in aged orchidectomised rat model. Aging Male. 2011. PMID:20874437 DOI:10.3109/13685538.2010.511327
+55. Saadiah Abdul Razak H et al. Combined Effects of Eurycoma longifolia and Testosterone on Androgen-Deficient Osteoporosis in a Male Rat Model. Evid Based Complement Alternat Med. 2012. PMID:22924057 DOI:10.1155/2012/872406
+56. Mohd Effendy N et al. Eurycoma longifolia: Medicinal Plant in the Prevention and Treatment of Male Osteoporosis due to Androgen Deficiency. Evid Based Complement Alternat Med. 2012. PMID:22844328 DOI:10.1155/2012/125761
+57. Tsai CH et al. The Powdered Root of Eurycoma longifolia Jack Improves Beta-Cell Number and Pancreatic Islet Performance through PDX1 Induction and Shows Antihyperglycemic Activity in db/db Mice. Nutrients. 2020. PMID:32708678 DOI:10.3390/nu12072111
+58. Husen R et al. Screening for antihyperglycaemic activity in several local herbs of Malaysia. J Ethnopharmacol. 2004. PMID:15507337 DOI:10.1016/j.jep.2004.07.004
+59. Tong KL et al. The in vitro and in vivo anti-cancer activities of a standardized quassinoids composition from Eurycoma longifolia on LNCaP human prostate cancer cells. PLoS One. 2015. PMID:25826409 DOI:10.1371/journal.pone.0121752
+60. Hipolith MM et al. Quassinoids from Eurycoma longifolia Jack roots and their potential inhibitory activity against human benign prostatic hyperplasia cells (BPH-1) and testosterone-induced BPH rat model. Fitoterapia. 2023. PMID:36931528 DOI:10.1016/j.fitote.2023.105468
+61. Chiou WF et al. 9-hydroxycanthin-6-one induces penile erection and delays ejaculation. J Sex Med. 2012. PMID:21569213 DOI:10.1111/j.1743-6109.2011.02296.x
+62. Choonong R et al. Phosphodiesterase-5 Inhibitory Activity of Canthin-6-One Alkaloids and the Roots of Eurycoma longifolia and Eurycoma harmandiana. Chem Biodivers. 2022. PMID:35652145 DOI:10.1002/cbdv.202200121
+63. Tee BH et al. First Report of Eurycoma longifolia Jack Root Extract Causing Relaxation of Aortic Rings in Rats. Biomed Res Int. 2016. PMID:27800486 DOI:10.1155/2016/1361508
+64. Ezzat SM et al. Brain Cortical and Hippocampal Dopamine: A New Mechanistic Approach for Eurycoma longifolia Well-Known Aphrodisiac Activity and Its Chemical Characterization. Evid Based Complement Alternat Med. 2019. PMID:31275418 DOI:10.1155/2019/7543460
+65. Ono T et al. Eurycoma longifolia (Tongkat Ali) enhances wakefulness during active periods but facilitates sleep during resting periods in C57BL/6 mice. Eur J Neurosci. 2023. PMID:37968729 DOI:10.1111/ejn.16186
+66. Sakai N et al. Eurycoma longifolia (Tongkat Ali) supplementation enhances sleep and wake consolidation in wild-type, but not in narcoleptic mice. Sleep Adv. 2024. PMID:39055967 DOI:10.1093/sleepadvances/zpae047
+67. Sukardiman et al. Potential and mechanisms of indigenous Indonesian medicinal plants in treating sexual dysfunction: A systematic review and pharmacological network overview. Heliyon. 2025. PMID:40007786 DOI:10.1016/j.heliyon.2025.e42501
+68. ClinicalTrials.gov. NCT06100432: Effect of Eurycoma longifolia (DLBS5055) and Multivitamins for Infertile Males. https://clinicaltrials.gov/study/NCT06100432
+69. ClinicalTrials.gov. NCT04584918: Open Label Study of Euryco-10 Oral Dietary Supplement in Senior Men. https://clinicaltrials.gov/study/NCT04584918
+70. ClinicalTrials.gov. NCT05347329: Efficacy and Safety of Tongkat Ali Maca Plus. https://clinicaltrials.gov/study/NCT05347329

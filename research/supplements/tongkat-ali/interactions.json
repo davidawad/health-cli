@@ -4,22 +4,180 @@
   "slug": "tongkat-ali",
   "aliases": [
     "Eurycoma longifolia",
+    "Long Jack",
     "Malaysian ginseng",
-    "pasak bumi"
+    "pasak bumi",
+    "Physta",
+    "tongkat ali root extract"
   ],
   "category": "botanical",
   "rx_status": "otc",
   "evidence_certainty_overall": "low",
   "edges": [
     {
+      "with": "propranolol",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "200 mg aqueous extract reduced propranolol AUC by 29% and Cmax by 42% and prolonged Tmax ~86% via reduced absorption; elimination half-life unchanged.",
+      "evidence": "Randomized single-blind crossover PK study in 14 healthy men; no pharmacodynamic change in healthy volunteers; low certainty",
+      "citations": [
+        "PMID:21054461"
+      ]
+    },
+    {
+      "with": "beta blockers",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Absorption-reducing interaction shown for propranolol may extend to other orally absorbed beta-blockers; antihypertensive response could be blunted.",
+      "evidence": "Extrapolation from a single propranolol PK study; not studied for other agents; very low certainty",
+      "citations": [
+        "PMID:21054461"
+      ]
+    },
+    {
+      "with": "CYP1A2 substrates",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Root extract weakly inhibited CYP1A2 in human liver microsomes (IC50 324.9 ug/mL); eurycomanone itself not a potent inhibitor.",
+      "evidence": "In vitro only; IC50 values likely above achievable concentrations; very low certainty",
+      "citations": [
+        "PMID:26240600",
+        "PMID:23881640"
+      ]
+    },
+    {
+      "with": "CYP2C19 substrates",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Root extract weakly inhibited CYP2C19 (IC50 562.9 ug/mL) and CYP2A6 (797.1 ug/mL).",
+      "evidence": "In vitro only; very low certainty",
+      "citations": [
+        "PMID:26240600",
+        "PMID:23881640"
+      ]
+    },
+    {
+      "with": "CYP2C8 substrates",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Extract inhibited CYP2C8-catalyzed amodiaquine N-desethylation with Ki about 4 times that of quercetin; authors suggest possible in vivo relevance.",
+      "evidence": "In vitro only; no human study; very low certainty",
+      "citations": [
+        "PMID:27695271"
+      ]
+    },
+    {
+      "with": "CYP3A4 substrates",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Eurycomanone did not potently inhibit CYP3A4 (IC50 >250 ug/mL); interaction via CYP3A4 considered unlikely by authors.",
+      "evidence": "In vitro, largely reassuring; very low certainty",
+      "citations": [
+        "PMID:23881640"
+      ]
+    },
+    {
       "with": "testosterone",
       "with_kind": "drug",
       "kind": "caution",
       "severity": "moderate",
-      "mechanism": "Tongkat ali may increase serum testosterone in small trials; additive effect with androgen therapy is unstudied.",
-      "evidence": "Tongkat ali may increase serum testosterone in small trials; additive effect with androgen therapy is unstudied.",
+      "mechanism": "Tongkat ali raises total testosterone (MA SMD 1.352) and DHEA; additive androgen exposure with testosterone therapy plausible; rat bone study combined EL with low-dose testosterone.",
+      "evidence": "MA of 5 small RCTs plus RCT; no human combination study; low certainty",
       "citations": [
-        "PMID:36013514"
+        "PMID:36013514",
+        "PMID:34262417",
+        "PMID:22924057"
+      ]
+    },
+    {
+      "with": "aromatase inhibitors",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Eurycomanone inhibits aromatase in Leydig cells and enhanced formestane inhibition in vitro, yet estradiol rose in young men; net effect on estrogen-modulating therapy unclear.",
+      "evidence": "In vitro mechanism plus one small human trial; very low certainty",
+      "citations": [
+        "PMID:23810842",
+        "PMID:33559971"
+      ]
+    },
+    {
+      "with": "PDE-5 inhibitors",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Canthin-6-one alkaloids inhibit PDE-5 in vitro; some tongkat ali products were found adulterated with sildenafil analogues, creating hidden additive exposure (e.g. with nitrates).",
+      "evidence": "In vitro mechanism plus product adulteration survey; low certainty",
+      "citations": [
+        "PMID:35652145",
+        "PMID:24731345"
+      ]
+    },
+    {
+      "with": "antihypertensives",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Root subfraction inhibited ACE and AT1 signalling and relaxed rat aorta; additive BP lowering is mechanistic only.",
+      "evidence": "Rat ex vivo/in vitro only; very low certainty",
+      "citations": [
+        "PMID:27800486"
+      ]
+    },
+    {
+      "with": "antidiabetic drugs",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Antihyperglycemic in db/db mice (PDX1/beta-cell expansion) and STZ rats at 150 mg/kg; no effect in normoglycemic rats; additive glucose lowering is mechanistic inference.",
+      "evidence": "Animal data only; HbA1c not reported changed in human RCT; very low certainty",
+      "citations": [
+        "PMID:32708678",
+        "PMID:15507337",
+        "PMID:34262417"
+      ]
+    },
+    {
+      "with": "anticoagulants",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Powdered root shortened PT and aPTT in rats; tongkat ali coffee lowered platelet counts in chronically dosed male rats; clinical direction unknown.",
+      "evidence": "Rat toxicology only; no human data; very low certainty",
+      "citations": [
+        "PMID:24062779",
+        "PMID:33066137"
+      ]
+    },
+    {
+      "with": "hepatotoxic drugs",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Clinically apparent liver injury attributed to tongkat ali has been reported; stacking hepatotoxic agents adds risk.",
+      "evidence": "Case report and LiverTox entry; very low certainty",
+      "citations": [
+        "PMID:38646387",
+        "PMID:39527684"
+      ]
+    },
+    {
+      "with": "prostate cancer",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Raises testosterone; prostate cancer is a debated contraindication to testosterone therapy; LNCaP anti-proliferative data are in vitro only and do not establish safety.",
+      "evidence": "MA (hormone effect) plus reviews and in vitro data; very low certainty for clinical harm",
+      "citations": [
+        "PMID:36013514",
+        "PMID:24386995",
+        "PMID:25826409"
       ]
     },
     {
@@ -27,15 +185,181 @@
       "with_kind": "condition",
       "kind": "caution",
       "severity": "moderate",
-      "mechanism": "Possible androgen-related activity creates theoretical concern; direct evidence is insufficient.",
-      "evidence": "Possible androgen-related activity creates theoretical concern; direct evidence is insufficient.",
+      "mechanism": "Increases testosterone and estradiol and lowers SHBG in some populations; effects in androgen- or estrogen-sensitive disease unstudied.",
+      "evidence": "Human RCTs of hormone biomarkers; no disease-outcome data; low certainty",
       "citations": [
-        "PMID:36013514"
+        "PMID:33559971",
+        "PMID:23754792",
+        "PMID:42575271"
+      ]
+    },
+    {
+      "with": "pregnancy",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Safety not established; EU novel-food application excluded pregnant and lactating women and EFSA concluded safety not established under any condition of use (genotoxicity signal).",
+      "evidence": "Regulatory opinion; rat teratology NOAEL 100 mg/kg/day; no human data",
+      "citations": [
+        "PMID:34987621",
+        "PMID:24318772"
+      ]
+    },
+    {
+      "with": "breastfeeding",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "No human data; excluded from EU novel-food target population.",
+      "evidence": "Regulatory opinion only",
+      "citations": [
+        "PMID:34987621"
+      ]
+    },
+    {
+      "with": "liver disease",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Reported herb-induced liver injury (jaundice, raised enzymes) resolving on withdrawal.",
+      "evidence": "Single case report plus LiverTox; very low certainty",
+      "citations": [
+        "PMID:38646387",
+        "PMID:39527684"
+      ]
+    },
+    {
+      "with": "cardiac arrhythmia",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Probable case of new-onset atrial flutter after starting tongkat ali in a 71-year-old.",
+      "evidence": "Single case report; very low certainty",
+      "citations": [
+        "PMID:41080360"
+      ]
+    },
+    {
+      "with": "serum testosterone",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "True physiological increase in total/free testosterone (not an assay artifact); interpret androgen panels in light of use.",
+      "evidence": "RCTs and MA; low certainty",
+      "citations": [
+        "PMID:36013514",
+        "PMID:34262417",
+        "PMID:33559971"
+      ]
+    },
+    {
+      "with": "estradiol / SHBG / DHEA / cortisol",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Physiological shifts: estradiol up (young men), SHBG down (older women), DHEA up and cortisol down.",
+      "evidence": "Small RCTs and pilot study; low certainty",
+      "citations": [
+        "PMID:33559971",
+        "PMID:23754792",
+        "PMID:34262417",
+        "PMID:23705671"
+      ]
+    },
+    {
+      "with": "Ashwagandha",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Both classed as possibly effective testosterone boosters; additive androgenic effect is a mechanistic inference.",
+      "evidence": "Mechanistic inference from systematic/critical reviews; no combination study",
+      "citations": [
+        "PMID:37697053",
+        "PMID:42575271"
+      ]
+    },
+    {
+      "with": "DHEA",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Physta raised DHEA within-group; combined androgen-precursor load is a mechanistic inference.",
+      "evidence": "Mechanistic inference from one RCT; no interaction study",
+      "citations": [
+        "PMID:34262417"
       ]
     }
   ],
   "citations": [
+    "PMID:26978330",
+    "PMID:20434529",
+    "PMID:39527684",
+    "PMID:36687023",
+    "PMID:25914245",
+    "PMID:23243445",
+    "PMID:34262417",
+    "PMID:41283187",
+    "PMID:34987621",
+    "PMID:29997335",
+    "PMID:24318772",
+    "PMID:39701690",
+    "PMID:30058427",
+    "PMID:29154863",
+    "PMID:39369924",
+    "PMID:24731345",
+    "PMID:23810842",
+    "PMID:33559971",
+    "PMID:23754792",
+    "PMID:35652145",
+    "PMID:21569213",
+    "PMID:31275418",
+    "PMID:27800486",
+    "PMID:20874437",
+    "PMID:29689767",
+    "PMID:22844328",
+    "PMID:32708678",
+    "PMID:15507337",
+    "PMID:25826409",
+    "PMID:36931528",
+    "PMID:37968729",
+    "PMID:39055967",
+    "PMID:16206032",
     "PMID:36013514",
-    "PMID:39387709"
+    "PMID:37697053",
+    "PMID:42575271",
+    "PMID:21671978",
+    "PMID:33541567",
+    "PMID:26365449",
+    "PMID:24550993",
+    "PMID:28259255",
+    "PMID:20348942",
+    "PMID:30790614",
+    "PMID:23705671",
+    "PMID:30574050",
+    "PMID:33445146",
+    "PMID:31367282",
+    "PMID:37398958",
+    "PMID:33061884",
+    "PMID:26816234",
+    "PMID:22924057",
+    "PMID:24062779",
+    "PMID:38646387",
+    "PMID:41080360",
+    "PMID:33066137",
+    "PMID:33579048",
+    "PMID:12143009",
+    "PMID:15162849",
+    "PMID:16567029",
+    "PMID:22468741",
+    "PMID:22332826",
+    "PMID:24386995",
+    "PMID:21054461",
+    "PMID:26240600",
+    "PMID:23881640",
+    "PMID:27695271",
+    "PMID:40007786",
+    "URL:https://clinicaltrials.gov/study/NCT06100432",
+    "URL:https://clinicaltrials.gov/study/NCT04584918",
+    "URL:https://clinicaltrials.gov/study/NCT05347329"
   ]
 }

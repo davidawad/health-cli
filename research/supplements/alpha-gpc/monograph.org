@@ -3,45 +3,205 @@
 :ID: supp-alpha-gpc
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: Alpha-glycerylphosphorylcholine | choline alphoscerate | α-GPC
+:ALIASES: L-alpha-glycerylphosphorylcholine | L-α-GPC | α-GPC | A-GPC | GPC | glycerophosphocholine | choline alfoscerate | choline alphoscerate | Gliatilin | Gliatamin | Cereton
 :CATEGORY: nootropic
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Choline alphoscerate is a choline-containing phospholipid that provides choline and glycerophosphate; supplement formulations include capsules and soft gels [PMID:39300341].
+- L-alpha-glycerylphosphorylcholine (GPC, choline alfoscerate/alphoscerate) is a water-soluble, choline-containing phospholipid metabolite of phosphatidylcholine. It is sold as both a pharmaceutical product and a dietary supplement [PMID:40036805] [PMID:36950691].
+- Regulatory status differs by country. It has had marketing authorization since 1985, and countries disagree on whether it should be a prescription medicine [PMID:36683513]. Reviews describe it as available as a prescription drug [PMID:40842650].
+  - Italy: Gliatilin (Italfarmaco; ATC N07AX02), 600 mg soft capsules, is an authorized medicine "soggetto a prescrizione medica" (prescription only), reimbursement class C (paid by the patient), authorized 1993 [URL:https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/formadosaggio/ricerca?query=gliatilin].
+  - South Korea: a prescription drug covered by National Health Insurance. It is widely prescribed for cognitive impairment and costs the insurer a lot [PMID:39548376] [PMID:42361543]. A tablet formulation was shown bioequivalent to the Gliatilin soft capsule in Korean volunteers [PMID:31040642]. Korean manufacturers registered placebo-controlled phase IV re-evaluation trials in AD, degenerative MCI and vascular MCI [URL:https://clinicaltrials.gov/study/NCT05383183] [URL:https://clinicaltrials.gov/study/NCT05041790] [URL:https://clinicaltrials.gov/study/NCT05050604].
+  - Russia/CIS: registered as a drug (e.g. Cereton, Gliatilin) in injectable, capsule and oral-solution forms. It is recommended in Russian AD guidelines but not in US, EU or UK guidelines, nor on the WHO Model EML [PMID:41467376] [PMID:42133414].
+  - Food status: approved as a new food resource in Canada (2023) and China (2024) [PMID:39898924]. EFSA (2026) concluded that soy-lecithin-derived L-alpha-GPC is safe as a novel food at up to 203.7 mg/day (82.5 mg/day choline) for people over 3 years of age [PMID:42131868].
+- Choline content: 203.7 mg GPC supplies about 82.5 mg choline (about 40% by weight) [PMID:42131868].
+- Typical forms: 400 mg and 600 mg soft capsules, tablets, oral solution, and IM/IV injection (1000 mg) in Russian and Italian clinical use [PMID:31040642] [PMID:38696157] [PMID:1428296].
 
 ** Mechanisms
-- Choline is a precursor for acetylcholine and phosphatidylcholine; biochemical plausibility does not prove cognitive benefit in healthy people [PMID:39683633].
+- Choline donor. In the gut mucosa GPC is cleaved to glycerophosphate and free choline [PMID:1662399]. Intestinal glycerophosphodiesterase Gpcpd1 hydrolyses it in the lumen [PMID:39510189]. Oral GPC raises plasma choline within 60-120 min [PMID:22673596]. In one study plasma choline AUC was similar to choline chloride, bitartrate and egg-PC at equal choline doses [PMID:34287673].
+- IM alpha-GPC 1000 mg raised plasma choline faster and higher than an equal dose of citicoline [PMID:1428296].
+- Cholinergic effects in rats: raises acetylcholine release in the hippocampus and partly prevents the scopolamine-induced fall in brain ACh. It reverses scopolamine amnesia [PMID:1662399] [PMID:1409797]. It increases expression of the vesicular ACh transporter and choline transporter [PMID:21195433].
+- Other proposed actions, mostly preclinical: phosphatidylinositol signal transduction [PMID:1409797], neurotrophic and anti-inflammatory signalling via alpha7 nAChR in microglia [PMID:38391922], hippocampal neurogenesis, and neurovascular-unit protection [PMID:36212684] [PMID:40036805] [PMID:42199923].
+- Growth hormone: cholinergic tone enhances GH release. Alpha-GPC increased the GH response to GHRH in young and elderly volunteers [PMID:1577400].
+- Methyl donor and TMAO pathway: choline from GPC is oxidised to betaine. Gut microbes also convert it to trimethylamine, which the liver oxidises to TMAO [PMID:34287673] [PMID:21475195]. TMAO formation after GPC is partly Gpcpd1-dependent in mice [PMID:39510189]. In ApoE-/- mice GPC promoted atherosclerosis and enriched cutC-encoding bacteria [PMID:34948275].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---------+--------------------+-----------+-------------+-----------------------+-----------|
-| Amnestic mild cognitive impairment | single 12-week double-blind RCT (n=100) | benefit signal | ADAS-Cog change −2.34 points vs placebo | low | PMID:39300341 |
-| Acute cognition in healthy trained men | crossover RCT (n=20) | uncertain | 315/630 mg tested; exploratory small sample | very low | PMID:39683633 |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Cognition in adult-onset dementia / cognitive dysfunction (overall) | SR/MA (7 RCTs + 1 cohort) | Benefit | Alpha-GPC vs placebo/other drugs cognition MD 3.50 (95% CI 0.36-6.63) | low | [PMID:36683513] [PMID:11589921] |
+| Mild-moderate Alzheimer's disease (monotherapy) | Multicenter RCT (n=261, 1200 mg/d, 180 d) | Benefit | ADAS-Cog -3.20 vs +2.90 placebo at day 180 (within-group) | low | [PMID:12637119] |
+| AD with cerebrovascular injury, add-on to donepezil | ASCOMALVA RCT (113 of 210 planned, interim) + MA (4 RCTs) | Benefit (slower decline) | Combination cognition MD 1.72 (CI 0.20-3.25); function MD 0.79; behaviour MD -7.61 | low | [PMID:24898643] [PMID:36683513] [PMID:38875437] |
+| Behavioural symptoms, apathy, depression in AD (add-on) | ASCOMALVA secondary analyses | Benefit | NPI and apathy lower vs donepezil alone; p<0.05 depression | very low | [PMID:28035924] [PMID:26402001] [PMID:35719710] [PMID:35006557] |
+| Brain atrophy in AD (add-on) | ASCOMALVA MRI substudy (n=56) | Less grey-matter loss | Qualitative voxel morphometry | very low | [PMID:32508323] |
+| Amnestic MCI | RCT (n=100, 600 mg/d, 12 wk); MA of 10 studies (Russian); RCT in T2DM-MCI (n=36) | Benefit, small | ADAS-cog -2.34 points vs placebo (significant); MMSE MD +1.7 at 12 mo in T2DM | low | [PMID:39300341] [PMID:41362980] [PMID:39703111] |
+| Conversion MCI to dementia | Korean nationwide cohort (n=508,107); multicenter CDM cohort (3,062 matched pairs); open-label comparisons | Inconsistent | AD HR 0.899 (0.882-0.918), VaD HR 0.832 vs null HR 0.93 (0.59-1.26) | very low | [PMID:40155153] [PMID:39512703] [PMID:38696157] |
+| Mortality in dementia | NHIS senior cohort (n=11,463) | Possible decrease (observational) | About 20% lower all-cause mortality; progression association unclear | very low | [PMID:39548376] |
+| Dementia: alpha-GPC vs citicoline | SR/MA (3 RCTs, n=358) | Favors alpha-GPC on global scale | SCAG WMD -3.92 (CI -7.41 to -0.42); no difference memory/fluency | low | [PMID:41426989] |
+| Vascular cognitive impairment (small vessel disease) | CONIVaD RCT (n=62, plus nimodipine) | No effect | No significant primary/secondary differences; low adherence | low | [PMID:33855653] |
+| Stroke recovery | SR/MA (15 studies, n=8357, mostly citicoline); uncontrolled trials (n=2484) | Possible benefit | Improved Mathew scale and MMSE (alpha-GPC arms); no pooled effect size | very low | [PMID:37109211] [PMID:11589921] |
+| Incident stroke (users vs non-users) | Korean NHIS cohort (n=12,008,977) | Harm signal (observational) | Total stroke aHR 1.43 (1.41-1.46) matched; dose-response | low | [PMID:34817582] |
+| Acute cognition in healthy adults | Crossover RCTs (n=20; n=20 combo) | Small benefit (Stroop) / null | Stroop d 0.61 (630 mg), d 0.48 (315 mg); null for combination product | very low | [PMID:39683633] [PMID:28222577] |
+| Motivation / mood in healthy adults | Single-blind RCT (n=39) | Possible benefit | Night-time motivation higher (p<0.05); no anxiety effect | very low | [PMID:34207484] |
+| Subthreshold depression in elderly | Open-label pilot (n=17); RCT in T2DM (n=49) | Uncertain | HAMD-17 improved pre-post; no difference vs placebo in RCT | very low | [PMID:42278899] [PMID:40095622] [PMID:40126282] |
+| Strength / power | Crossover RCT (n=13, 600 mg x 6 d); acute RCT (n=20) | Inconsistent | Mid-thigh pull peak force +98.8 N vs -39.0 N; no effect on jumps/bench throw | very low | [PMID:26582972] [PMID:39683633] |
+| Growth hormone | Crossover RCT (n=8, 1000 mg); GHRH challenge | Acute increase / null after exercise | GH up at 60 min; no GH difference post-exercise | very low | [PMID:22673596] [PMID:1577400] [PMID:39683633] |
 
 ** Dosing in trials
-- MCI trial: 600 mg orally once daily for 12 weeks. Acute crossover trial: 315 or 630 mg single dose. These are study regimens, not established general-use dosing [PMID:39300341; PMID:39683633].
+- Dementia (Italian/Latin American trials, ASCOMALVA): 400 mg three times daily (1200 mg/d) for 180 days to 4 years [PMID:12637119] [PMID:28035924]. ASCOMALVA added it to donepezil 10 mg/d [PMID:35719710].
+- MCI: 600 mg/d for 12 weeks [PMID:39300341]. 1200 mg/d for 3-12 months [PMID:29927403] [PMID:39703111]. Russian regimens used 20 IV infusions of 1000 mg yearly [PMID:38696157] or repeated 3-month oral courses of 400 mg three times daily [PMID:42054337].
+- Vascular cognitive impairment: 600 mg twice daily with nimodipine for 1 year [PMID:33855653].
+- Healthy-adult and exercise studies: 315-630 mg single dose [PMID:39683633], 600 mg/d for 6 days [PMID:26582972], 1000 mg single dose [PMID:22673596] [PMID:36235623], and 300 mg/d inside a multi-ingredient product [PMID:37229544].
+- Food-supplement ceiling assessed by EFSA: 203.7 mg/day [PMID:42131868].
+- PK: after 1200 mg oral, plasma choline Cmax was about 0.37 ug/mL with Tmax about 3.5-3.9 h (baseline-corrected) [PMID:31040642].
 
 ** Safety & adverse effects
-- In the 100-person 12-week trial, adverse-event incidence did not differ significantly from placebo and no serious events occurred; samples and follow-up are too small to establish long-term safety [PMID:39300341].
+- Trials: no excess AEs versus placebo and no serious AEs in a 12-week MCI RCT [PMID:39300341]. Tolerability was good in the 180-day AD RCT [PMID:12637119]. In CONIVaD, 4 of 62 dropped out for adverse reactions and 8 had non-serious reactions (combination with nimodipine) [PMID:33855653]. Reviews report no severe adverse effects in human studies [PMID:40036805] [PMID:24156263]. Side effects (brief) occurred in 15% with IV use in Parkinson's disease [PMID:20032953].
+- Stroke signal: in 12 million Koreans aged >=50, prescribed users had higher 10-year stroke risk (matched aHR total 1.43, ischemic 1.34, hemorrhagic 1.37) with dose-response [PMID:34817582]. This is confounded by indication: users were older and prescribed it for cognitive or vascular complaints. Note: the brief cited "Kim et al. 2023"; the study PubMed returns is Lee G et al., JAMA Netw Open 2021 [PMID:34817582].
+  - A later Korean MCI cohort found lower stroke risk in users who did not progress to dementia [PMID:40155153].
+- TMAO and atherosclerosis: water-soluble choline supplements, including GPC, rapidly raised plasma TMAO in a crossover study, unlike egg-PC [PMID:34287673] [PMID:36840817]. In a 12-man RCT, GPC at 480 mg-choline-equivalent did not significantly raise TMAO [PMID:38490741]. GPC promoted atherosclerosis in mice [PMID:34948275].
+  - Higher plasma TMAO is associated with MACCE (HR 1.67) and mortality (HR 1.91) [PMID:29020409] and with acute ischemic stroke (RR 1.12 per 1 umol/L) [PMID:37883346]. Reviews call the risk unvalidated and debatable [PMID:40036805] [PMID:42196986].
+- Cancer: no association with kidney cancer in a Korean cohort (aHR 0.95, 0.84-1.08) [PMID:42361543].
+- Toxicology: rat oral LD50 >=10 g/kg and not genotoxic. 26-week NOAEL 150 mg/kg/day [PMID:21414376]. A newer package found a 90-day NOAEL of 1000 mg/kg (female rats) and maternal NOAEL of 1000 mg/kg in a teratogenicity study [PMID:39577616] [PMID:42131868].
+- Cardiomyocytes in vitro: 24-h exposure was cytotoxic, while short exposure was cytoprotective. The authors call for cardiac safety testing [PMID:31280435].
+- Seizure models: acetylcholine precursors had timing-dependent effects (early CDP-choline worsened post-seizure neuronal death; late alpha-GPC was protective) [PMID:28521701].
 
 ** Contraindications
-- No well-defined contraindication profile is established from the small trials; pregnancy, lactation, and long-term use are poorly studied [PMID:39300341].
+- No formal contraindication is established from trials [PMID:39300341] [PMID:40036805].
+- Pregnancy and lactation: EFSA's novel-food assessment included pregnant and lactating women at <=203.7 mg/day. Data on pharmacological doses in pregnancy are lacking [PMID:42131868].
+- Prior stroke or high cerebrovascular/atherosclerotic risk: caution because of the observational stroke signal and the TMAO mechanism [PMID:34817582] [PMID:34948275].
 
 ** Interactions
-- Drugs, supplements, conditions, and relevant laboratory interference are summarized in the structured interaction object. Potential pharmacodynamic overlap with cholinergic drugs is plausible because α-GPC supplies choline; formal interaction studies were not identified [PMID:39683633]. No genotype-specific claim is made because no directly relevant pharmacogenomic source was identified.
+*** Drugs
+- Donepezil and other cholinesterase inhibitors: synergy, the best-studied combination. Preclinically the combination raised brain ACh more than either alone. In ASCOMALVA, donepezil + 1200 mg/d alpha-GPC slowed decline vs donepezil + placebo [PMID:24898643] [PMID:22959283]. A Korean RCT showed additional ADAS-Cog benefit [PMID:38875437]. A Korean CDM cohort found no benefit in AChEI users [PMID:39512703]. No excess cholinergic AEs were reported, but systematic safety data for the combination are limited.
+- Pyridostigmine: one month of GPC did not restore the pyridostigmine potentiation of GHRH-induced GH in anorexia nervosa [PMID:12952362].
+- Anticholinergic drugs (including scopolamine): pharmacodynamic opposition. Alpha-GPC reversed scopolamine amnesia and partly restored brain ACh in rats [PMID:1662399] [PMID:1409797]. Anticholinergic burden is associated with dementia risk [PMID:33933505]. No human interaction study exists.
+- Nimodipine: co-administered for 1 year in CONIVaD without safety concerns, but with no efficacy gain [PMID:33855653].
+- Antidepressants: adjunct to antidepressants in an older-adult MDD trial (completed; results pending) [URL:https://clinicaltrials.gov/study/NCT05257902].
+*** Other supplements
+- Citicoline: an overlapping choline donor. Alpha-GPC gave higher plasma choline than citicoline [PMID:1428296]. It differed in cholinergic transporter effects in rats [PMID:21195433]. It was superior on SCAG in dementia in an MA [PMID:41426989]. Stacking duplicates choline/TMAO load (mechanistic inference) [PMID:34287673].
+- Trimethylglycine (TMG): GPC-derived choline is oxidised to betaine [PMID:34287673]. Betaine supplements produced a borderline TMAO rise (p=0.053) [PMID:38876040]. Both feed the same pathway [PMID:21475195]. This is mechanistic inference.
+- Acetyl-L-Carnitine: compared head-to-head as donepezil add-ons. The donepezil + ALCAR arm performed worse than donepezil + alpha-GPC [PMID:38875437]. Carnitine is also a gut-microbial TMAO precursor, giving additive TMAO load (mechanistic inference) [PMID:30530985].
+- Huperzine A (not in corpus; a natural AChE inhibitor): expected synergy similar to the ChE-I + alpha-GPC rationale (mechanistic inference) [PMID:24086396] [PMID:24898643].
+- Caffeine: no combination study of alpha-GPC with caffeine was found. One multi-ingredient study (BCAA + citrulline + 300 mg A-GPC) improved cycling peak power [PMID:37229544]. Another (A-GPC + uridine + DHA) did not improve power or cognition [PMID:28222577].
+*** Conditions
+- Cerebrovascular disease / stroke risk: observational harm signal [PMID:34817582]; contrasting findings in MCI [PMID:40155153].
+- Atherosclerotic cardiovascular disease: TMAO pathway concerns (mechanistic plus animal data) [PMID:34948275] [PMID:29020409].
+- Anorexia nervosa: no effect of GPC on cholinergic GH control [PMID:12952362].
+*** Lab-test interference
+- No assay interference was identified. Alpha-GPC raises plasma choline, betaine and TMAO (true physiological changes) [PMID:34287673]. It may raise GH acutely [PMID:22673596] and free fatty acids/ketones [PMID:22673596]. In a T2DM RCT it improved the LDL/HDL ratio and waist circumference (OR 0.16 for a high LDL/HDL ratio) [PMID:40095622].
 
 ** Genotype notes
-- No directly relevant, clinically validated pharmacogenomic/nutrigenomic source was identified in the sources reviewed.
+- APOE: in an open trial in amnestic MCI (1200 mg/d, 3 months), APOE4 non-carriers performed better on immediate and delayed 10-word recall than carriers [PMID:29927403]. This is small and uncontrolled.
+- MTHFR C677T modified betaine levels after betaine supplementation (relevant to the choline-betaine pathway, not tested with GPC) [PMID:38876040].
 
 ** Latest research
-- 2024: placebo-controlled MCI trial (n=100) used 600 mg/day for 12 weeks; ADAS-Cog declined 2.34 points more than placebo, with no serious adverse events [PMID:39300341]. 2024: acute crossover trial in 20 trained men tested 315 and 630 mg; small sample limits inference [PMID:39683633].
+- [2026-08] Korean NHIS cohort (81,970 users vs 409,801 non-users): no association with kidney cancer (aHR 0.95) [PMID:42361543].
+- [2026-05] EFSA NDA Panel: L-alpha-GPC from soy lecithin is safe as a novel food at <=203.7 mg/day; MoE 345 for adults [PMID:42131868].
+- [2026-05] CARTESIO open-label pilot (n=17, 1200 mg/d, 8 wk): HAMD-17 and GDS-15 improved; no cognitive change [PMID:42278899].
+- [2026-05] Narrative review of GPC absorption, gut microbiota and TMAO: the adverse role of TMAO remains debatable [PMID:42196986].
+- [2026-05] CIS regulatory analysis: choline alfoscerate is registered across CIS and recommended in Russian AD guidelines only [PMID:41467376].
+- [2026] Neurodegeneration review: evidence heterogeneous; calls for biomarker-based RCTs [PMID:42199923].
+- [2026] Russian 5-year comparative study in first-degree relatives of AD patients (n=122): 16.7% SCI-to-MCI conversion in untreated controls; improved scores with repeated oral courses (non-randomized) [PMID:42054337].
+- [2026-01] Preterm infants: GPC raised plasma choline fastest, with similar AUC to other choline forms [PMID:41524941].
+- [2025] Alpha-GPC vs citicoline MA in dementia (3 RCTs): SCAG WMD -3.92 favoring alpha-GPC [PMID:41426989].
+- [2025-10] RCT of 315 mg/d alpha-GPC for 6 weeks on cognition and sports performance started (industry sponsor) [URL:https://clinicaltrials.gov/study/NCT07267845].
+- [2025] Russian MA of Gliatilin in non-dementia vascular/post-traumatic MCI (10 studies): significant effect, high heterogeneity [PMID:41362980].
+- [2025-08] Nutr Rev mechanism/safety review: no severe AEs; stroke/atherosclerosis risk awaits validation [PMID:40036805].
+- [2025-04] Korean MCI cohort (n=508,107): lower progression to AD (HR 0.899) and VaD (HR 0.832) [PMID:40155153].
+- [2025-03] T2DM-MCI RCT (n=36, 1200 mg/d): MMSE MD +1.7 at 12 months [PMID:39703111].
+- [2025-03] Canada (2023) and China (2024) approved it as a new food resource [PMID:39898924].
+- [2025-02] T2DM depressive symptoms RCT (n=49, 800 mg/d): not superior to placebo [PMID:40095622].
+- [2024-12] Acute crossover RCT in resistance-trained men: Stroop improved; no GH or performance effect [PMID:39683633].
+- [2024-11] NHIS senior dementia cohort: about 20% lower mortality; unclear effect on progression [PMID:39548376].
+- [2024-10] Korean multicenter CDM cohort: no association with MCI-to-dementia progression (HR 0.93) [PMID:39512703].
 
 ** Open questions
-- Larger independent trials should establish whether effects generalize beyond MCI, the clinical importance of scale changes, and long-term safety [PMID:39300341].
+- Whether the Korean stroke signal is causal or reflects confounding by indication, and whether TMAO mediates it in humans [PMID:34817582] [PMID:42196986].
+- Results of the Korean placebo-controlled phase IV re-evaluation trials in AD and MCI (status unknown as of the registry check) [URL:https://clinicaltrials.gov/study/NCT05383183] [URL:https://clinicaltrials.gov/study/NCT05041790].
+- Final (4-year) ASCOMALVA results. Most published data are interim analyses from one group [PMID:32508323].
+- Independent replication of MCI benefit using modern diagnostic and biomarker criteria [PMID:38929542] [PMID:42199923].
+- Ergogenic and GH effects in larger, longer trials; evidence is limited to small crossover studies [PMID:26582972] [PMID:22673596].
+- Long-term safety at supplement doses in healthy adults, including cardiovascular outcomes.
 
 ** Sources
-- PMID:39300341
-- PMID:39683633
+1. Lee G et al. Association of L-α Glycerylphosphorylcholine With Subsequent Stroke Risk After 10 Years. JAMA Netw Open. 2021. PMID:34817582 DOI:10.1001/jamanetworkopen.2021.36008
+2. Kim HK et al. Association between L-α glycerylphosphorylcholine use and delayed dementia conversion: A nationwide longitudinal study in South Korea. J Prev Alzheimers Dis. 2025. PMID:40155153 DOI:10.1016/j.tjpad.2025.100059
+3. Duong KL et al. Effect of choline alfoscerate in older adult patients with dementia: an observational study from the claims data of national health insurance. BMC Geriatr. 2024. PMID:39548376 DOI:10.1186/s12877-024-05531-y
+4. Sagaro GG et al. Comparison of the effects of choline alphoscerate and citicoline in patients with dementia disorders: a systematic review and meta-analysis. Front Neurol. 2025. PMID:41426989 DOI:10.3389/fneur.2025.1649661
+5. Sagaro GG et al. Activity of Choline Alphoscerate on Adult-Onset Cognitive Dysfunctions: A Systematic Review and Meta-Analysis. J Alzheimers Dis. 2023. PMID:36683513 DOI:10.3233/JAD-221189
+6. Sagaro GG et al. Choline-Containing Phospholipids in Stroke Treatment: A Systematic Review and Meta-Analysis. J Clin Med. 2023. PMID:37109211 DOI:10.3390/jcm12082875
+7. Voznyuk IA et al. [Gliatilin in the Treatment of Cognitive Impairments Not Reaching the Level of Dementia: Meta-Analysis and Systematic Review]. Zh Nevrol Psikhiatr Im S S Korsakova. 2025. PMID:41362980 DOI:10.17116/jnevro202512511186
+8. De Jesus Moreno Moreno M. Cognitive improvement in mild to moderate Alzheimer's dementia after treatment with the acetylcholine precursor choline alfoscerate: a multicenter, double-blind, randomized, placebo-controlled trial. Clin Ther. 2003. PMID:12637119 DOI:10.1016/s0149-2918(03)90023-3
+9. Amenta F et al. The ASCOMALVA Trial: interim results after two years of treatment. J Alzheimers Dis. 2014. PMID:24898643 DOI:10.3233/JAD-140150
+10. Amenta F et al. The ASCOMALVA trial: association between the cholinesterase inhibitor donepezil and the cholinergic precursor choline alphoscerate in Alzheimer's disease with cerebrovascular injury: interim results. J Neurol Sci. 2012. PMID:22959283 DOI:10.1016/j.jns.2012.07.003
+11. Carotenuto A et al. The Effect of the Association between Donepezil and Choline Alphoscerate on Behavioral Disturbances in Alzheimer's Disease: Interim Results of the ASCOMALVA Trial. J Alzheimers Dis. 2017. PMID:28035924 DOI:10.3233/JAD-160675
+12. Traini E et al. Volume Analysis of Brain Cognitive Areas in Alzheimer's Disease: Interim 3-Year Results from the ASCOMALVA Trial. J Alzheimers Dis. 2020. PMID:32508323 DOI:10.3233/JAD-190623
+13. Rea R et al. Apathy Treatment in Alzheimer's Disease: Interim Results of the ASCOMALVA Trial. J Alzheimers Dis. 2015. PMID:26402001 DOI:10.3233/JAD-141983
+14. Carotenuto A et al. Association Between the Cholinesterase Inhibitor Donepezil and the Cholinergic Precursor Choline Alphoscerate in the Treatment of Depression in Patients with Alzheimer's Disease. J Alzheimers Dis Rep. 2022. PMID:35719710 DOI:10.3233/ADR-200269
+15. Lee W et al. Comparative study of choline alfoscerate as a combination therapy with donepezil: A mixed double-blind randomized controlled and open-label observation trial. Medicine (Baltimore). 2024. PMID:38875437 DOI:10.1097/MD.0000000000038067
+16. Jeon J et al. Efficacy and safety of choline alphoscerate for amnestic mild cognitive impairment: a randomized double-blind placebo-controlled trial. BMC Geriatr. 2024. PMID:39300341 DOI:10.1186/s12877-024-05366-7
+17. Kerksick CM et al. Acute Alpha-Glycerylphosphorylcholine Supplementation Enhances Cognitive Performance in Healthy Men. Nutrients. 2024. PMID:39683633 DOI:10.3390/nu16234240
+18. Kawamura T et al. Glycerophosphocholine enhances growth hormone secretion and fat oxidation in young adults. Nutrition. 2012. PMID:22673596 DOI:10.1016/j.nut.2012.02.011
+19. Ceda GP et al. alpha-Glycerylphosphorylcholine administration increases the GH responses to GHRH of young and elderly subjects. Horm Metab Res. 1992. PMID:1577400 DOI:10.1055/s-2007-1003272
+20. Bellar D et al. The effect of 6 days of alpha glycerylphosphorylcholine on isometric strength. J Int Soc Sports Nutr. 2015. PMID:26582972 DOI:10.1186/s12970-015-0103-x
+21. Harrington RN et al. Effects of branched chain amino acids, l-citrulline, and alpha-glycerylphosphorylcholine supplementation on exercise performance in trained cyclists: a randomized crossover trial. J Int Soc Sports Nutr. 2023. PMID:37229544 DOI:10.1080/15502783.2023.2214112
+22. Barzanjeh SP et al. The Effects of Alpha-Glycerylphosphorylcholine on Heart Rate Variability and Hemodynamic Variables Following Sprint Interval Exercise in Overweight and Obese Women. Nutrients. 2022. PMID:36235623 DOI:10.3390/nu14193970
+23. Bunn JA et al. Acute ingestion of neuromuscular enhancement supplements do not improve power output, work capacity, and cognition. J Sports Med Phys Fitness. 2018. PMID:28222577 DOI:10.23736/S0022-4707.17.07022-0
+24. Tamura Y et al. Alpha-Glycerylphosphorylcholine Increases Motivation in Healthy Volunteers: A Single-Blind, Randomized, Placebo-Controlled Human Study. Nutrients. 2021. PMID:34207484 DOI:10.3390/nu13062091
+25. Sohn M et al. Effects of choline alfoscerate on cognitive function and quality of life in type 2 diabetes: A double-blind, randomized, placebo-controlled trial. Diabetes Obes Metab. 2025. PMID:39703111 DOI:10.1111/dom.16131
+26. Ponomareva EV et al. [Efficacy and safety of choline alfoscerate in the preventive therapy of dementia in elderly patients with Mild Cognitive Impairment: a three-year prospective comparative study]. Zh Nevrol Psikhiatr Im S S Korsakova. 2024. PMID:38696157 DOI:10.17116/jnevro202412404292
+27. Selezneva ND et al. [Efficacy of choline alfoscerate treatment for subjective cognitive impairment in first-degree relatives of patients with Alzheimer's disease: Results of a comparative 5-year study]. Zh Nevrol Psikhiatr Im S S Korsakova. 2026. PMID:42054337 DOI:10.17116/jnevro202612604292
+28. Pyun JM et al. Effect of Choline Alfoscerate on the Progression From Mild Cognitive Impairment to Dementia: Distributed Network Analysis of a Multicenter Korean Database Using a Common Data Model. Dement Neurocogn Disord. 2024. PMID:39512703 DOI:10.12779/dnd.2024.23.4.202
+29. Park YJ et al. Association between L-α-glycerylphosphorylcholine use and risk of kidney cancer: A nationwide representative retrospective cohort study. Cancer Epidemiol. 2026. PMID:42361543 DOI:10.1016/j.canep.2026.103152
+30. Wang Z et al. The Nutritional Supplement L-Alpha Glycerylphosphorylcholine Promotes Atherosclerosis. Int J Mol Sci. 2021. PMID:34948275 DOI:10.3390/ijms222413477
+31. Böckmann KA et al. Differential metabolism of choline supplements in adult volunteers. Eur J Nutr. 2022. PMID:34287673 DOI:10.1007/s00394-021-02637-6
+32. Böckmann KA et al. Different choline supplement metabolism in adults using deuterium labelling. Eur J Nutr. 2023. PMID:36840817 DOI:10.1007/s00394-023-03121-z
+33. Chen S et al. Role of Gpcpd1 in intestinal alpha-glycerophosphocholine metabolism and trimethylamine N-oxide production. J Biol Chem. 2024. PMID:39510189 DOI:10.1016/j.jbc.2024.107965
+34. Biggio G et al. Choline alphoscerate: insights between acquired certainties and future perspectives. Front Aging Neurosci. 2025. PMID:40842650 DOI:10.3389/fnagi.2025.1613566
+35. Che X et al. Unlocking the Potential of l-α-Glycerylphosphorylcholine: From Metabolic Pathways to Therapeutic Applications. Nutr Rev. 2025. PMID:40036805 DOI:10.1093/nutrit/nuaf008
+36. Cao J et al. Unlocking the potential of l-α-glycerylphosphorylcholine in the food industry: From safety approvals to market prospects. Compr Rev Food Sci Food Saf. 2025. PMID:39898924 DOI:10.1111/1541-4337.70117
+37. Traini E et al. Choline alphoscerate (alpha-glyceryl-phosphoryl-choline) an old choline-containing phospholipid with a still interesting profile as cognition enhancing agent. Curr Alzheimer Res. 2013. PMID:24156263 DOI:10.2174/15672050113106660173
+38. Kansakar U et al. Choline supplements: An update. Front Endocrinol (Lausanne). 2023. PMID:36950691 DOI:10.3389/fendo.2023.1148166
+39. Chen S et al. A Friend or Foe: Understanding the Physiological Significance, Therapeutic Uses, and Potential Risks of Glycerophosphocholine-A Narrative Review. Nutrients. 2026. PMID:42196986 DOI:10.3390/nu18101526
+40. Putri VA et al. L-α-GPC in Cognitive Decline: Mechanisms and Clinical Evidence in Neurodegenerative Disorders. Neuropsychiatr Dis Treat. 2026. PMID:42199923 DOI:10.2147/NDT.S579603
+41. Shavlovskaya OA. [Choline alfoscerate in the treatment of cognitive impairment]. Zh Nevrol Psikhiatr Im S S Korsakova. 2026. PMID:42133414 DOI:10.17116/jnevro202612604148
+42. Tian J et al. Safety evaluation of alpha-glycerylphosphorylcholine as a novel food. Food Chem Toxicol. 2025. PMID:39577616 DOI:10.1016/j.fct.2024.115123
+43. EFSA NDA Panel et al. Safety of L-alpha-glycerylphosphorylcholine (L-alpha-GPC) from soya phospholipids (lecithin) as a novel food pursuant to Regulation (EU) 2015/2283. EFSA J. 2026. PMID:42131868 DOI:10.2903/j.efsa.2026.10008
+44. Brownawell AM et al. Safety assessment of AGPC as a food ingredient. Food Chem Toxicol. 2011. PMID:21414376 DOI:10.1016/j.fct.2011.03.012
+45. Min MH et al. Formulation and bioequivalence studies of choline alfoscerate tablet comparing with soft gelatin capsule in healthy male volunteers. Drug Des Devel Ther. 2019. PMID:31040642 DOI:10.2147/DDDT.S193424
+46. Gatti G et al. A comparative study of free plasma choline levels following intramuscular administration of L-alpha-glycerylphosphorylcholine and citicoline in normal volunteers. Int J Clin Pharmacol Ther Toxicol. 1992. PMID:1428296
+47. Tanaka-Kanegae R et al. Pharmacokinetics of soy-derived lysophosphatidylcholine compared with that of glycerophosphocholine: a randomized controlled trial. Biosci Biotechnol Biochem. 2024. PMID:38490741 DOI:10.1093/bbb/zbae031
+48. Parnetti L et al. Choline alphoscerate in cognitive decline and in acute cerebrovascular disease: an analysis of published clinical data. Mech Ageing Dev. 2001. PMID:11589921 DOI:10.1016/s0047-6374(01)00312-8
+49. Salvadori E et al. Efficacy and Safety of the Association of Nimodipine and Choline Alphoscerate in the Treatment of Cognitive Impairment in Patients with Cerebral Small Vessel Disease. The CONIVaD Trial. Drugs Aging. 2021. PMID:33855653 DOI:10.1007/s40266-021-00852-8
+50. Granata N et al. Choline Alphoscerate: A Therapeutic Option for the Management of Subthreshold Depression in the Older Population. Geriatrics (Basel). 2025. PMID:40126282 DOI:10.3390/geriatrics10020032
+51. Fleishhacker F et al. Choline Alfoscerate in the Treatment of Subthreshold Depression in the Elderly: A Pilot Study (CARTESIO). J Clin Med. 2026. PMID:42278899 DOI:10.3390/jcm15114037
+52. Lee I et al. Potential Impact of Choline Alphoscerate on Depressive Symptoms in Association with Insulin Resistance in Elderly Patients with Type 2 Diabetes. J Clin Med. 2025. PMID:40095622 DOI:10.3390/jcm14051664
+53. Lopez CM et al. Effect of a new cognition enhancer, alpha-glycerylphosphorylcholine, on scopolamine-induced amnesia and brain acetylcholine. Pharmacol Biochem Behav. 1991. PMID:1662399 DOI:10.1016/0091-3057(91)90040-9
+54. Schettini G et al. Molecular mechanisms mediating the effects of L-alpha-glycerylphosphorylcholine, a new cognition-enhancing drug, on behavioral and biochemical parameters in young and aged rats. Pharmacol Biochem Behav. 1992. PMID:1409797 DOI:10.1016/0091-3057(92)90650-5
+55. Fassino S et al. Prolonged treatment with glycerophosphocholine, an acetylcholine precursor, does not disclose the potentiating effect of cholinesterase inhibitors on GHRH-induced somatotroph secretion in anorexia nervosa. J Endocrinol Invest. 2003. PMID:12952362 DOI:10.1007/BF03345211
+56. Levin OS et al. [Efficacy and tolerability of choline alphoscerate (cereton) in patients with Parkinson's disease with cognitive disorders]. Zh Nevrol Psikhiatr Im S S Korsakova. 2009. PMID:20032953
+57. Böckmann KA et al. Choline supplementation in preterm infants: effects of four different supplements on choline plasma concentrations. Eur J Nutr. 2026. PMID:41524941 DOI:10.1007/s00394-025-03865-w
+58. Alexandrova EG et al. Use of nootropics in Alzheimer's disease: An analysis of regulatory positions and drug policies in the countries of the Commonwealth of Independent States. Int J Risk Saf Med. 2026. PMID:41467376 DOI:10.1177/09246479251410817
+59. Tuboly E et al. L-Alpha-glycerylphosphorylcholine can be cytoprotective or cytotoxic in neonatal rat cardiac myocytes: a double-edged sword phenomenon. Mol Cell Biochem. 2019. PMID:31280435 DOI:10.1007/s11010-019-03580-1
+60. Lee M et al. Unexpected Effects of Acetylcholine Precursors on Pilocarpine Seizure-Induced Neuronal Death. Curr Neuropharmacol. 2018. PMID:28521701 DOI:10.2174/1570159X15666170518150053
+61. Roy P et al. Effects of choline containing phospholipids on the neurovascular unit: A review. Front Cell Neurosci. 2022. PMID:36212684 DOI:10.3389/fncel.2022.988759
+62. Tayebati SK et al. Effect of choline-containing phospholipids on brain cholinergic transporters in the rat. J Neurol Sci. 2011. PMID:21195433 DOI:10.1016/j.jns.2010.11.028
+63. Carotenuto A et al. Effect of Treatment of the Cholinergic Precursor Choline Alphoscerate in Mild Cognitive Dysfunction: A Randomized Controlled Trial. Medicina (Kaunas). 2024. PMID:38929542 DOI:10.3390/medicina60060925
+64. Cantone AF et al. Taming Microglia in Alzheimer's Disease: Exploring Potential Implications of Choline Alphoscerate via α7 nAChR Modulation. Cells. 2024. PMID:38391922 DOI:10.3390/cells13040309
+65. Gavrilova SI et al. [Clinical efficacy and safety of choline alfoscerate in the treatment of late-onset cognitive impairment]. Zh Nevrol Psikhiatr Im S S Korsakova. 2018. PMID:29927403 DOI:10.17116/jnevro20181185145
+66. Azhar L et al. Pharmacological Management of Apathy in Dementia. CNS Drugs. 2022. PMID:35006557 DOI:10.1007/s40263-021-00883-0
+67. Hong Y et al. The relationship between trimethylamine-N-oxide and the risk of acute ischemic stroke: A dose-response meta-analysis. PLoS One. 2023. PMID:37883346 DOI:10.1371/journal.pone.0293275
+68. Schiattarella GG et al. Gut microbe-generated metabolite trimethylamine-N-oxide as cardiovascular risk biomarker: a systematic review and dose-response meta-analysis. Eur Heart J. 2017. PMID:29020409 DOI:10.1093/eurheartj/ehx342
+69. Zheng YB et al. Anticholinergic drugs and the risk of dementia: A systematic review and meta-analysis. Neurosci Biobehav Rev. 2021. PMID:33933505 DOI:10.1016/j.neubiorev.2021.04.031
+70. Yang G et al. Huperzine A for Alzheimer's disease: a systematic review and meta-analysis of randomized clinical trials. PLoS One. 2013. PMID:24086396 DOI:10.1371/journal.pone.0074916
+71. Zawieja E et al. Betaine supplementation modulates betaine concentration by methylenetetrahydrofolate reductase genotype, but has no effect on amino acid profile in healthy active males: A randomized placebo-controlled cross-over study. Nutr Res. 2024. PMID:38876040 DOI:10.1016/j.nutres.2024.05.003
+72. Wang Z et al. Gut flora metabolism of phosphatidylcholine promotes cardiovascular disease. Nature. 2011. PMID:21475195 DOI:10.1038/nature09922
+73. Koeth RA et al. l-Carnitine in omnivorous diets induces an atherogenic gut microbial pathway in humans. J Clin Invest. 2019. PMID:30530985 DOI:10.1172/JCI94601
+74. AIFA Banca Dati Farmaci. GLIATILIN (colina alfoscerato) 600 mg soft capsules, prescription-only, class C. https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/formadosaggio/ricerca?query=gliatilin
+75. ClinicalTrials.gov. NCT05383183: Phase IV RCT of choline alfoscerate + donepezil in mild-moderate AD (Daewoong Bio). https://clinicaltrials.gov/study/NCT05383183
+76. ClinicalTrials.gov. NCT05041790: Phase IV RCT of choline alfoscerate in degenerative MCI (ESCALADE). https://clinicaltrials.gov/study/NCT05041790
+77. ClinicalTrials.gov. NCT05050604: Phase IV RCT of choline alfoscerate in MCI with cerebrovascular disease. https://clinicaltrials.gov/study/NCT05050604
+78. ClinicalTrials.gov. NCT05257902: Choline alphoscerate adjunct in older adults with MDD and subjective memory complaints. https://clinicaltrials.gov/study/NCT05257902
+79. ClinicalTrials.gov. NCT07267845: RCT of alpha-GPC on cognitive function and sports performance in adults. https://clinicaltrials.gov/study/NCT07267845

@@ -3,47 +3,203 @@
 :ID: supp-rhodiola-rosea
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: Rhodiola rosea | roseroot | golden root | arctic root
+:ALIASES: Rhodiola rosea | roseroot | rosenroot | golden root | arctic root | SHR-5 | WS 1375 | Rhodiolan | Vitango | Rhodiolae roseae rhizoma et radix
 :CATEGORY: botanical
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Rhodiola rosea L. root/rhizome extracts are standardized variably to rosavins and salidroside; extract composition differs across products [PMID:37495266].
+- Rhodiola rosea L. (Crassulaceae). The medicinal parts are the rhizome and root. About 140 compounds have been isolated, including monoterpene alcohols and glycosides, cyanogenic glycosides, aryl glycosides, phenylethanoids, phenylpropanoids and their glycosides, flavonoids, proanthocyanidins and gallic acid derivatives [PMID:20378318].
+- Typical standardization is about 3% rosavins and 1% salidroside, e.g. ~200 mg doses in acute exercise studies [PMID:37641937]. Rosavins are the markers that distinguish R. rosea from related species. Salidroside also occurs in other Rhodiola species [PMID:26626192].
+- EU regulatory form: a dry extract (DER 1.5-5:1, extraction solvent ethanol 67-70% V/V) in solid oral dosage forms. This is registered as a traditional herbal medicinal product, not under well-established use [URL:https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-rhodiola-rosea-l-rhizoma-et-radix-revision-1_en.pdf]. Such extracts have been in medicinal use in the EU since 1987 [URL:https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rhodiola-rosea-l-rhizoma-et-radix-revision-1_en.pdf]. The EMA public summary describes the use as temporary relief of stress symptoms such as fatigue and a sensation of weakness, in adults only [URL:https://www.ema.europa.eu/en/medicines/herbal/rhodiolae-roseae-rhizoma-et-radix]. Rhodiola is the main adaptogen with an HMPC/EMA stress indication [PMID:29325481].
+- Branded or standardized extracts in trials: SHR-5 (Swedish Herbal Institute; "Arctic Root"): DER 2.5-5:1, extracted with 70% ethanol and then water [URL:https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rhodiola-rosea-l-rhizoma-et-radix-revision-1_en.pdf]. Used in most older RCTs [PMID:19016404] [PMID:17990195] [PMID:11081987] and in the human CYP study [PMID:26613955]. WS 1375 (marketed as Rosalin [PMID:28367055] and Vitano [PMID:26502953]): an ethanolic dry extract, 200 mg twice daily, used in open-label stress, fatigue and burnout trials [PMID:22228617] [PMID:28219059] [PMID:28367055] [PMID:26502953]. Biosynthetic ("nature-identical") salidroside alone, 60 mg/d [PMID:39601362] [PMID:37686755]. Chinese "Rhodiola capsules" (e.g. Tongrentang, 2.4 g/d) in sports trials [PMID:42738995]. R. crenulata extracts are used for altitude illness [PMID:24176010]. These are different preparations, and in some cases different species.
+- Adulteration and authenticity: About one-fifth of ~40 European market products labelled R. rosea contained no rosavin. About 80% of the rest had less rosavin than registered products and appeared to be adulterated with other Rhodiola species [PMID:26626192]. In a DNA-barcoding survey of UK roseroot products, only 5 of 10 products with Rhodiola DNA matched R. rosea. Three products contained only alfalfa and fenugreek [PMID:29154110]. The labelled amounts of salidroside and rosavins were confirmed in fewer than a quarter of products. The R. crenulata marker crenulatin was found in 2 of 4 products [PMID:32311178]. Only 40% of Chinese R. crenulata decoction pieces were authentic, and 10% were R. rosea [PMID:25661009]. A 2026 review of more than 500 constituents across the genus concludes that reliable chemical markers for identifying species are still lacking [PMID:42657013].
 
 ** Mechanisms
-- Proposed adaptogenic effects include modulation of stress-response and monoaminergic pathways, mainly based on preclinical and mechanistic data [PMID:22643043].
+- Adaptogen/stress-response model: proposed modulation of the HPA axis (cortisol), molecular chaperones (Hsp70), stress-activated JNK, FoxO/DAF-16 and nitric oxide. This model comes mainly from in vitro and animal work [PMID:19500070] [PMID:20378318]. A 2026 review adds salidroside activation of PI3K/Akt [PMID:41901106].
+- Cortisol: SHR-5 changed the cortisol awakening response compared with placebo in burnout patients with fatigue syndrome [PMID:19016404]. A systematic review of human trials found the overall HPA-axis effects of phytonutrients other than ashwagandha unclear [PMID:33650944].
+- Monoamine oxidase: methanol and water root extracts inhibited MAO-A by 92.5% and 84.3%, and MAO-B by 81.8% and 88.9%, at 100 ug/mL in vitro. Rosiridin was the most active compound (MAO-B pIC50 5.38) [PMID:19168123]. Isolated salidroside did not inhibit MAO-A or MAO-B at relevant concentrations [PMID:37686755].
+- Antidepressant-like activity across neuroendocrine, neurotransmitter and immune networks in preclinical models [PMID:27013349] [PMID:41750223].
+- Proposed oestrogen-receptor (SERM-like) activity. This is a hypothesis paper, not human data [PMID:26776957].
+- Pharmacokinetics: salidroside is rapidly metabolized and has low oral bioavailability. In rats it is excreted mainly as tyrosol, and hypobaric hypoxia roughly doubled its bioavailability (+108%) [PMID:41548618]. No human PK data on rosavins were found.
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---------+--------------------+-----------+-------------+-----------------------+-----------|
-| Physical fatigue/performance | systematic review of 13 RCTs, n=263 | mixed, some positive outcomes | 11 studies reported some favorable measures; heterogeneity prevents pooled effect | low | PMID:37495266 |
-| Mental/physical fatigue | systematic review | inconsistent | 11 small trials, high risk of bias/reporting flaws | very low | PMID:22643043 |
-| Post-COVID fatigue/cognition | 2024 narrative review | hypothesis only | no robust Rhodiola-specific estimate | very low | PMID:38347175 |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Stress-related fatigue / burnout | 1 RCT (SHR-5, n=60, 28 d); open-label WS 1375 studies (n=118; n=100); SR of 11 trials | Benefit in small trials; one RCT showed worsening | Pines burnout scale and attention improved vs placebo; large placebo response. Nursing-student RCT: vitality worse on Rhodiola (-17.3, CI -30.6 to -3.9) | low | [PMID:19016404] [PMID:28367055] [PMID:28219059] [PMID:25268730] [PMID:22643043] |
+| Mental fatigue / performance under stress | Small SHR-5 RCTs (night-duty physicians n=56; cadets n=161; students) | Benefit, inconsistent | Cadets' anti-fatigue index 1.0385 / 1.0195 vs 0.9046 placebo (p<0.001); all trials high or unclear risk of bias | very low | [PMID:11081987] [PMID:12725561] [PMID:10839209] [PMID:22643043] |
+| Life-stress symptoms | Open-label single-arm (n=101); non-placebo controlled (n=80); SR of RCTs; EMA traditional use | Improvement vs baseline/no treatment | Not quantifiable; HMPC rejected well-established use because trials were deficient | very low | [PMID:22228617] [PMID:26502953] [PMID:41906501] [PMID:35745023] [URL:https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rhodiola-rosea-l-rhizoma-et-radix-revision-1_en.pdf] |
+| Mild-moderate depression | 2 RCTs (SHR-5 n=89; Mao 2015 n=57 vs sertraline vs placebo); SR 2025 | Small or uncertain benefit | Mao: HAM-D -5.1 (Rhodiola) vs -8.2 (sertraline) vs -4.6 (placebo), between-group p=0.79; AEs 30% vs 63.2% vs 16.7% | low | [PMID:17990195] [PMID:25837277] [PMID:40014460] [PMID:27013349] |
+| Depression (guideline view) | WFSBP/CANMAT taskforce | Not supported | Rhodiola "not supported for use in mood disorders" | low | [PMID:35311615] |
+| Depression, adjunct to sertraline | 1 RCT (n=100, "Rhodiola capsule") | Benefit | Larger HAM-D/BDI/CGI decline at 0.6 g/d than with sertraline alone; numbers not reported in abstract | very low | [PMID:32090788] |
+| Anxiety | Open pilot in GAD (n=10); non-placebo trial (n=80) | Improvement | HARS fell significantly (t=3.27, p=0.01) | very low | [PMID:18307390] [PMID:26502953] |
+| Cognition | SR of supplements in healthy adults; small RCTs | Inconsistent | Low certainty overall; faster reaction time at 600 mg/d; Stroop gains vs no-capsule control | very low | [PMID:34370563] [PMID:30450257] [PMID:41374026] |
+| Endurance performance | MA of 26 RCTs (n=668) | Benefit, small | VO2max ES 0.32; time to exhaustion ES 0.38; time trial ES -0.40; heterogeneity | low | [PMID:41080184] [PMID:37495266] |
+| Strength / anaerobic performance | SR of 13 RCTs (n=263); later RCTs | Possible benefit | Chronic use helped anaerobic but not endurance performance in the SR; bench-press 1RM +5.59 kg vs no-capsule control | low | [PMID:37495266] [PMID:41374026] [PMID:40289957] |
+| Exercise biomarkers | MA of 26 RCTs | Benefit | CK ES -0.84; lactate ES -0.87; MDA ES -1.21; no effect on IL-6/CRP | low | [PMID:41080184] |
+| Acute mountain sickness (R. crenulata) | Crossover RCT (n=102); Cochrane review | No benefit | AMS 60.8% in both arms (AOR 1.02, CI 0.69-1.52); Cochrane RR 1.00 (CI 0.78-1.29) | low | [PMID:24176010] [PMID:31012483] |
+| Acute high-altitude disease treatment (R. crenulata) | MA of 19 Chinese RCTs (n=1690) | Benefit vs placebo; no difference vs Western medicine | SaO2/PaO2 better than placebo; no BP/HR effect | very low | [PMID:40584626] |
+| Heat acclimation | Controlled trial (n=20, SHR-5 432 mg/d) | No effect | Changes similar to placebo (p>0.05) | very low | [PMID:28873320] |
+| Menopausal symptoms (with black cohosh) | 1 RCT (n=220) | Benefit of combination | Combination better than black cohosh alone and placebo on KMI/MRS | very low | [PMID:32455817] |
 
 ** Dosing in trials
-- Trials used acute and chronic extract dosing, with formulations and doses varying substantially; review did not identify a reliable dose-response [PMID:37495266].
+- EU traditional use (adults): 144-200 mg dry extract 1-2 times daily (daily dose 144-400 mg). Consult a doctor if symptoms last more than 2 weeks. Not recommended under 18 years [URL:https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-rhodiola-rosea-l-rhizoma-et-radix-revision-1_en.pdf].
+- WS 1375: 200 mg twice daily for 4-12 weeks [PMID:22228617] [PMID:28219059] [PMID:28367055].
+- SHR-5: Depression: 340 or 680 mg/d for 6 weeks [PMID:17990195]. Fatigue syndrome: 576 mg/d for 28 days [PMID:19016404]. Low-dose fatigue regimens: 1 tablet/d [PMID:11081987]. Cadets: 2 vs 3 capsules once, with no difference between doses [PMID:12725561].
+- GAD pilot: 340 mg/d for 10 weeks [PMID:18307390]. Nursing-student RCT: 364 mg, up to 2 capsules/d, for 42 days [PMID:25268730].
+- Exercise: Acute: about 200 mg 60 min before exercise [PMID:37641937]. Chronic: higher doses of about 1500-2400 mg/d for 4-30 days [PMID:37641937], or 1200 mg/d for 4 days [PMID:40873122]. VO2max gains were greater at >600 mg/d in subgroup analysis [PMID:41080184].
+- Salidroside alone: 60 mg/d for 16 days [PMID:39601362] or 150 mg/d for 4 weeks [PMID:40988719].
 
 ** Safety & adverse effects
-- Trials are small and short; adverse-event and product-quality reporting are incomplete. Long-term safety is uncertain [PMID:22643043].
+- Short-term trials report few, mostly mild AEs: WS 1375: AE incidence of 0.015 events per observation day over 12 weeks [PMID:28367055]. In another study, mostly mild AEs and no serious AEs [PMID:22228617]. Mao 2015: AEs in 30.0% on Rhodiola vs 63.2% on sertraline and 16.7% on placebo [PMID:25837277]. GAD pilot: dizziness and dry mouth were the commonest AEs [PMID:18307390]. An exercise SR of 10 studies reported no obvious adverse reactions [PMID:35464040].
+- EU monograph undesirable effects (frequency not known): headache, nervousness, insomnia, dizziness; nausea, vomiting; skin rash and itching. These were derived from trials and EudraVigilance reports [URL:https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rhodiola-rosea-l-rhizoma-et-radix-revision-1_en.pdf].
+- Toxicology gaps: tests for reproductive toxicity, genotoxicity and carcinogenicity are not available. Because genotoxicity data are missing, the HMPC did not create an EU list entry [URL:https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-rhodiola-rosea-l-rhizoma-et-radix-revision-1_en.pdf] [URL:https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rhodiola-rosea-l-rhizoma-et-radix-revision-1_en.pdf].
+- Psychiatric activation: there is a case report of mania associated with Rhodiola rosea (title only; no abstract available) [PMID:35303403]. A paroxetine add-on case presented with symptoms interpreted as serotonergic syndrome [PMID:25413939].
+- Liver: no Rhodiola-specific hepatotoxicity series was found. In one DILIN case, rhodiola was named as a possible co-causative agent alongside ashwagandha [PMID:31991029].
+- Product quality is a safety issue because substitution and adulteration are common (see Identity & forms) [PMID:26626192] [PMID:29154110].
+- Long-term safety beyond about 12 weeks has not been characterized [PMID:22643043] [PMID:41906501].
 
 ** Contraindications
-- Insufficient evidence in pregnancy/lactation, bipolar disorder, or significant medical illness; do not interpret absence of reported harm in small trials as established safety [PMID:22643043].
+- Hypersensitivity to the active substance. This is the only formal contraindication in the EU monograph [URL:https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-rhodiola-rosea-l-rhizoma-et-radix-revision-1_en.pdf].
+- Pregnancy and lactation: not recommended because safety has not been established, and there are no fertility data [URL:https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-rhodiola-rosea-l-rhizoma-et-radix-revision-1_en.pdf].
+- Children and adolescents under 18: not recommended because data are lacking [URL:https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-rhodiola-rosea-l-rhizoma-et-radix-revision-1_en.pdf].
+- Bipolar disorder: caution because of an antidepressant/activating profile and a mania case report [PMID:35303403] [PMID:27013349]. This is a precaution based on case-level evidence, not a formal contraindication.
 
 ** Interactions
-- Drugs, supplements, conditions, and relevant laboratory interference are summarized in the structured interaction object. Potential serotonergic/activating interactions with antidepressants are mechanistically plausible but clinical evidence is limited; mention as uncertainty [PMID:22643043]. No genotype-specific claim is made because no directly relevant pharmacogenomic source was identified.
+*** Drugs
+- CYP2C9 substrates (warfarin, phenytoin, losartan): Human cocktail study (n=13, SHR-5 for 14 days): the EXP-3174/losartan ratio fell 21% (p=0.023), indicating CYP2C9 inhibition. The authors flag narrow-therapeutic-index substrates such as warfarin and phenytoin [PMID:26613955]. In vitro, the same product inhibited CYP2C9 noncompetitively (IC50 19.2 ug/mL) [PMID:28805981]. The HMPC judged the clinical relevance unclear [URL:https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rhodiola-rosea-l-rhizoma-et-radix-revision-1_en.pdf].
+- Warfarin: in rats, SHR-5 did not alter warfarin PK or anticoagulant effect [PMID:18844284]. However, human CYP2C9 inhibition was later shown [PMID:26613955]. Monitoring INR when Rhodiola is started or stopped is reasonable.
+- Losartan: Spanakis 2013 was a rabbit study, not a human one. Losartan AUC almost doubled and Cmax rose, with no change in EXP-3174 [PMID:23327826]. In humans, the metabolic ratio fell 21% [PMID:26613955].
+- Theophylline: no PK change in rats [PMID:18844284]. In humans, CYP1A2 activity (caffeine probe) was not affected [PMID:26613955].
+- CYP3A4 and P-gp substrates: Potent in vitro inhibition: CYP3A4 IC50 1.7-3.1 ug/mL; P-gp (digoxin transport) IC50 16.7-51.7 ug/mL [PMID:19790032]. In humans, however, midazolam (CYP3A4), omeprazole (CYP2C19) and dextromethorphan (CYP2D6) metabolism did not change [PMID:26613955]. Isolated salidroside showed no CYP, MAO or OATP inhibition risk [PMID:37686755].
+- Antidepressants (SSRIs/SNRIs/TCAs): Case of a serotonergic-type syndrome with paroxetine [PMID:25413939]. EudraVigilance reports with sertraline, paroxetine (including serotonin syndrome), duloxetine and amitriptyline [URL:https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rhodiola-rosea-l-rhizoma-et-radix-revision-1_en.pdf]. A pharmacovigilance series names Rhodiola among herbs with significant interaction risk with psychotropics [PMID:30659561]. Siwek 2023 chart review: adaptogens were involved in 9% of AEs with concomitant antidepressants, and the authors propose CYP/P-gp and pharmacodynamic mechanisms. The abstract does not list Rhodiola-specific cases [PMID:37829299]. An RCT of Rhodiola capsule plus sertraline reports efficacy, but its abstract gives no safety data [PMID:32090788].
+- MAO inhibitors: root extracts inhibit MAO-A and MAO-B in vitro [PMID:19168123]. Additive MAO inhibition is a theoretical risk only; salidroside alone does not inhibit MAO [PMID:37686755].
+- Antipsychotics and benzodiazepines: case series list haloperidol (myoclonus, hypoglycaemia, sedation), risperidone and diazepam (excessive sedation) combined with Rhodiola [URL:https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rhodiola-rosea-l-rhizoma-et-radix-revision-1_en.pdf] [PMID:30659561].
+- Antidiabetics: glucose-lowering effects via AMPK in preclinical models [PMID:31069710]. There are no human interaction data, so the risk is mechanistic only.
+- Antihypertensives: an aqueous extract lowered SBP in hypertensive rats via beta-endorphin [PMID:23192943]. R. crenulata had no BP effect in altitude RCTs [PMID:40584626]. Any additive effect is speculative.
+- Stimulants (dextroamphetamine): CNS-stimulating activity is reported [PMID:20378318], and nervousness and insomnia are listed AEs [URL:https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rhodiola-rosea-l-rhizoma-et-radix-revision-1_en.pdf]. Additive activation is an inference only.
+*** Other supplements
+- Caffeine: several RCTs combined caffeine (3 mg/kg) with Rhodiola for sport performance: The combination improved jump and punch power [PMID:40005009] [PMID:40278391] and aerial-duel performance [PMID:42123940]. A 2026 trial found no significant CAF x RHO interaction [PMID:42738995]. Rhodiola did not change CYP1A2 caffeine metabolism [PMID:26613955].
+- Ashwagandha: rhodiola was a possible co-causative agent in one ashwagandha liver-injury case [PMID:31991029].
+- Ginseng (Panax): both are classed as stimulating adaptogens [PMID:34445021]. Ginseng and Rhodiola are both among the herbs most often implicated in adverse interactions with psychotropic drugs [PMID:30659561]. Additive effects are inferred; no combination study exists.
+- Fixed combinations studied: magnesium/B vitamins/L-theanine (stress DASS-42 ES 0.29) [PMID:35565828]; ADAPT-232 with Eleutherococcus and Schisandra in long COVID [PMID:35337143]; saffron in mild-moderate depression (open-label) [PMID:30034237]; black cohosh for menopause [PMID:32455817].
+*** Conditions
+- Pregnancy and lactation, age under 18, and bipolar disorder: see Contraindications.
+- Major depressive disorder: Rhodiola is less effective than sertraline [PMID:25837277] and not recommended by WFSBP/CANMAT [PMID:35311615]. It should not replace established treatment.
+- High-altitude travel: R. crenulata did not prevent AMS [PMID:24176010] [PMID:31012483].
+*** Lab-test interference
+- No assay interference reported. The EU assessment notes "no data available" for laboratory findings [URL:https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rhodiola-rosea-l-rhizoma-et-radix-revision-1_en.pdf]. Physiological shifts include salivary cortisol awakening response [PMID:19016404] and CK/lactate after exercise [PMID:41080184]. INR may shift through the CYP2C9 effect on warfarin [PMID:26613955].
 
 ** Genotype notes
-- No directly relevant, clinically validated pharmacogenomic/nutrigenomic source was identified in the sources reviewed.
+- CYP2C9: the 21% fall in the losartan metabolic ratio was more pronounced in CYP2C9 extensive metabolizers than in intermediate or poor metabolizers [PMID:26613955]. No other pharmacogenomic or nutrigenomic source was found.
 
 ** Latest research
-- 2024 review discussed Rhodiola among multi-target agents proposed for post-COVID cognitive impairment/fatigue, but did not supply definitive Rhodiola-specific clinical efficacy evidence [PMID:38347175].
+- [2026-10] Bayesian NMA of supplements on jump performance (119 studies): the caffeine + Rhodiola CMJ credible interval excluded zero, but most comparisons were very low certainty [PMID:42821324].
+- [2026-08] Caffeine/Rhodiola DanceSport RCT (n=48, 2.4 g/d): no significant CAF x RHO interaction; synergy not established [PMID:42738995].
+- [2026-08] Narrative review of adaptogens in athletes: evidence for Rhodiola is limited and preliminary [PMID:42588175].
+- [2026-08] Systematic review of Rhodiola constituents (>500 compounds) aimed at preventing adulteration: no reliable species markers yet [PMID:42657013].
+- [2026-04] Soccer RCT (n=96): Rhodiola mainly lowered perceived exertion; combination with caffeine gave the broadest benefits [PMID:42123940].
+- [2026-04] Rat PK: hypoxia increased salidroside bioavailability by ~108% [PMID:41548618].
+- [2026-03] Systematic review of RCTs of ashwagandha and Rhodiola (5 Rhodiola RCTs, 290-1500 mg/d, 3-16 weeks): benefits for stress, mood and cognition, limited by small and short trials [PMID:41906501].
+- [2026-03] Mechanistic review: salidroside acts via PI3K/Akt; adaptogens modulate HPA, Hsp70, JNK and FOXO [PMID:41901106].
+- [2026-02] Football RCT (n=24, 4 weeks): better Yo-Yo IR2, repeated sprint and decision-making under fatigue [PMID:41829897].
+- [2026-02] Review of medicinal plants for MDD, including Rhodiola, highlights herb-drug interaction and standardization risks [PMID:41750223].
+- [2025-11] Dose-response crossover RCT (n=27): resistance performance and Stroop improved vs no-capsule control [PMID:41374026].
+- [2025-11] Basketball RCT (n=48, 28 days): VO2max, 5 km run and simulated-game time improved [PMID:41373984].
+- [2025-11] Digital eye strain RCT (1200 mg/d for 4 days): reduced accommodation variability [PMID:40873122].
+- [2025-09] Endurance MA (26 RCTs, n=668): VO2max ES 0.32, TTE ES 0.38, CK ES -0.84 [PMID:41080184].
+- [2025-09] Salidroside 150 mg/d plus eccentric training: added late-stage reactive-strength benefit [PMID:40988719].
+- [2025-06] MA of R. crenulata for acute high-altitude disease (19 RCTs): better SaO2/PaO2 vs placebo [PMID:40584626].
+- [2025-04] Boxing RCT (n=96): caffeine + Rhodiola improved punch power [PMID:40278391].
+- [2025-03] Bench-press/pull crossover RCT: small strength gains, no effect on mental fatigue [PMID:40289957].
+- [2025-02] SR of drugs and supplements for mild depression: Rhodiola better than placebo in a single RCT [PMID:40014460].
+- [2025-02] Volleyball RCT (n=48): caffeine + Rhodiola gave the largest jump gains [PMID:40005009].
+- [2024-12] Salidroside 60 mg/d RCT (n=50): maintained TTE and less myoglobin rise [PMID:39601362].
 
 ** Open questions
-- Standardized preparations, larger independent RCTs, and clinically meaningful fatigue outcomes are needed [PMID:37495266].
+- Whether CYP2C9 inhibition is clinically meaningful with warfarin, phenytoin or sulfonylureas. No human warfarin interaction study exists.
+- Whether the potent in vitro CYP3A4/P-gp inhibition matters clinically for digoxin or other P-gp substrates, given the null human midazolam result.
+- Serotonergic and manic risk when combined with antidepressants, and in bipolar disorder. Evidence is limited to case reports and pharmacovigilance.
+- Efficacy in burnout and depression in adequately powered, placebo-controlled, independent RCTs using authenticated, standardized extracts.
+- Genotoxicity and reproductive toxicity data, which the HMPC has identified as missing.
+- How results transfer across preparations (SHR-5, WS 1375, Chinese Rhodiola capsules, R. crenulata, pure salidroside), and how widespread market adulteration is.
 
 ** Sources
-- PMID:37495266
-- PMID:22643043
-- PMID:38347175
+1. European Medicines Agency HMPC. European Union herbal monograph on Rhodiola rosea L., rhizoma et radix, Final Revision 1 (EMA/HMPC/24177/2023). 2024. https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-rhodiola-rosea-l-rhizoma-et-radix-revision-1_en.pdf
+2. European Medicines Agency HMPC. Assessment report on Rhodiola rosea L., rhizoma et radix, Revision 1 (EMA/HMPC/24186/2023). 2024. https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rhodiola-rosea-l-rhizoma-et-radix-revision-1_en.pdf
+3. European Medicines Agency. Rhodiolae roseae rhizoma et radix - herbal medicinal product (overview page). https://www.ema.europa.eu/en/medicines/herbal/rhodiolae-roseae-rhizoma-et-radix
+4. Wang X et al. The effect of Rhodiola rosea supplementation on endurance performance and related biomarkers: a systematic review and meta-analysis. Front Nutr. 2025. PMID:41080184 DOI:10.3389/fnut.2025.1645346
+5. Sanz-Barrio PM et al. Rhodiola rosea supplementation on sports performance: A systematic review of randomized controlled trials. Phytother Res. 2023. PMID:37495266 DOI:10.1002/ptr.7950
+6. Lu Y et al. Effects of Rhodiola Rosea Supplementation on Exercise and Sport: A Systematic Review. Front Nutr. 2022. PMID:35464040 DOI:10.3389/fnut.2022.856287
+7. Ishaque S et al. Rhodiola rosea for physical and mental fatigue: a systematic review. BMC Complement Altern Med. 2012. PMID:22643043 DOI:10.1186/1472-6882-12-70
+8. Tinsley GM et al. Rhodiola rosea as an adaptogen to enhance exercise performance: a review of the literature. Br J Nutr. 2024. PMID:37641937 DOI:10.1017/S0007114523001988
+9. Książek A. Current Evidence and Practical Considerations for Adaptogen Use in Exercise Recovery, Training Adaptation, and Exercise Performance in Athletes: A Narrative Review. Nutrients. 2026. PMID:42588175 DOI:10.3390/nu18152552
+10. Sun R et al. Effects of dietary supplements on lower-limb power and jump performance in physically active individuals and athletes: SR and Bayesian network MA. J Int Soc Sports Nutr. 2026. PMID:42821324 DOI:10.1080/15502783.2026.2740221
+11. Mao JJ et al. Rhodiola rosea versus sertraline for major depressive disorder: A randomized placebo-controlled trial. Phytomedicine. 2015. PMID:25837277 DOI:10.1016/j.phymed.2015.01.010
+12. Darbinyan V et al. Clinical trial of Rhodiola rosea L. extract SHR-5 in the treatment of mild to moderate depression. Nord J Psychiatry. 2007. PMID:17990195 DOI:10.1080/08039480701643290
+13. Gao L et al. Antidepressants effects of Rhodiola capsule combined with sertraline for major depressive disorder: A randomized double-blind placebo-controlled clinical trial. J Affect Disord. 2020. PMID:32090788 DOI:10.1016/j.jad.2020.01.065
+14. Urata M et al. Efficacy of Pharmacological Interventions in Milder Depression: A Systematic Review and Meta-Analysis. Neuropsychopharmacol Rep. 2025. PMID:40014460 DOI:10.1002/npr2.70008
+15. Sarris J et al. Clinician guidelines for the treatment of psychiatric disorders with nutraceuticals and phytoceuticals: WFSBP and CANMAT Taskforce. World J Biol Psychiatry. 2022. PMID:35311615 DOI:10.1080/15622975.2021.2013041
+16. Amsterdam JD et al. Rhodiola rosea L. as a putative botanical antidepressant. Phytomedicine. 2016. PMID:27013349 DOI:10.1016/j.phymed.2016.02.009
+17. Bertollo AG et al. Medicinal Plants for Major Depressive Disorder. Brain Sci. 2026. PMID:41750223 DOI:10.3390/brainsci16020223
+18. Bangratz M et al. A preliminary assessment of a combination of rhodiola and saffron in the management of mild-moderate depression. Neuropsychiatr Dis Treat. 2018. PMID:30034237 DOI:10.2147/NDT.S169575
+19. Olsson EM et al. A randomised, double-blind, placebo-controlled, parallel-group study of the standardised extract SHR-5 of the roots of Rhodiola rosea in the treatment of subjects with stress-related fatigue. Planta Med. 2009. PMID:19016404 DOI:10.1055/s-0028-1088346
+20. Darbinyan V et al. Rhodiola rosea in stress induced fatigue: a double blind cross-over study of a standardized extract SHR-5 on the mental performance of healthy physicians during night duty. Phytomedicine. 2000. PMID:11081987 DOI:10.1016/S0944-7113(00)80055-0
+21. Shevtsov VA et al. A randomized trial of two different doses of a SHR-5 Rhodiola rosea extract versus placebo and control of capacity for mental work. Phytomedicine. 2003. PMID:12725561 DOI:10.1078/094471103321659780
+22. Spasov AA et al. A double-blind, placebo-controlled pilot study of the stimulating and adaptogenic effect of Rhodiola rosea SHR-5 extract on the fatigue of students during an examination period. Phytomedicine. 2000. PMID:10839209 DOI:10.1016/S0944-7113(00)80078-1
+23. Punja S et al. Rhodiola rosea for mental and physical fatigue in nursing students: a randomized controlled trial. PLoS One. 2014. PMID:25268730 DOI:10.1371/journal.pone.0108416
+24. Jówko E et al. Effects of Rhodiola rosea supplementation on mental performance, physical capacity, and oxidative stress biomarkers in healthy men. J Sport Health Sci. 2018. PMID:30450257 DOI:10.1016/j.jshs.2016.05.005
+25. Kasper S et al. Multicenter, open-label, exploratory clinical trial with Rhodiola rosea extract in patients suffering from burnout symptoms. Neuropsychiatr Dis Treat. 2017. PMID:28367055 DOI:10.2147/NDT.S120113
+26. Edwards D et al. Therapeutic effects and safety of Rhodiola rosea extract WS 1375 in subjects with life-stress symptoms: results of an open-label study. Phytother Res. 2012. PMID:22228617 DOI:10.1002/ptr.3712
+27. Lekomtseva Y et al. Rhodiola rosea in Subjects with Prolonged or Chronic Fatigue Symptoms: Results of an Open-Label Clinical Trial. Complement Med Res. 2017. PMID:28219059 DOI:10.1159/000457918
+28. Cropley M et al. The Effects of Rhodiola rosea L. Extract on Anxiety, Stress, Cognition and Other Mood Symptoms. Phytother Res. 2015. PMID:26502953 DOI:10.1002/ptr.5486
+29. Bystritsky A et al. A pilot study of Rhodiola rosea (Rhodax) for generalized anxiety disorder (GAD). J Altern Complement Med. 2008. PMID:18307390 DOI:10.1089/acm.2007.7117
+30. Noah L et al. Effect of a Combination of Magnesium, B Vitamins, Rhodiola, and Green Tea (L-Theanine) on Chronically Stressed Healthy Individuals: A Randomized, Placebo-Controlled Study. Nutrients. 2022. PMID:35565828 DOI:10.3390/nu14091863
+31. Łuszczak J et al. Clinical evidence for the adaptogenic effects of Withania somnifera and Rhodiola rosea: A systematic review. Ann Agric Environ Med. 2026. PMID:41906501 DOI:10.26444/aaem/213417
+32. Lopresti AL et al. Modulation of the HPA axis by plants and phytonutrients: a systematic review of human trials. Nutr Neurosci. 2022. PMID:33650944 DOI:10.1080/1028415X.2021.1892253
+33. Crawford C et al. Dietary Supplement Ingredients for Optimizing Cognitive Performance Among Healthy Adults: A Systematic Review. J Altern Complement Med. 2021. PMID:34370563 DOI:10.1089/acm.2021.0135
+34. Panossian A et al. Rosenroot (Rhodiola rosea): traditional use, chemical composition, pharmacology and clinical efficacy. Phytomedicine. 2010. PMID:20378318 DOI:10.1016/j.phymed.2010.02.002
+35. Ivanova Stojcheva E et al. The Effectiveness of Rhodiola rosea L. Preparations in Alleviating Various Aspects of Life-Stress Symptoms and Stress-Induced Conditions. Molecules. 2022. PMID:35745023 DOI:10.3390/molecules27123902
+36. Anghelescu IG et al. Stress management and the role of Rhodiola rosea: a review. Int J Psychiatry Clin Pract. 2018. PMID:29325481 DOI:10.1080/13651501.2017.1417442
+37. Panossian A et al. Evidence-based efficacy of adaptogens in fatigue, and molecular mechanisms related to their stress-protective activity. Curr Clin Pharmacol. 2009. PMID:19500070 DOI:10.2174/157488409789375311
+38. Todorova V et al. Plant Adaptogens: History and Future Perspectives. Nutrients. 2021. PMID:34445021 DOI:10.3390/nu13082861
+39. Such S et al. System-Level, Molecular and Cellular Mechanisms of Selected Plant Adaptogens: A Review. Nutrients. 2026. PMID:41901106 DOI:10.3390/nu18060931
+40. Thu OK et al. Effect of commercial Rhodiola rosea on CYP enzyme activity in humans. Eur J Clin Pharmacol. 2016. PMID:26613955 DOI:10.1007/s00228-015-1988-7
+41. Thu OKF et al. Noncompetitive inhibition of human CYP2C9 in vitro by a commercial Rhodiola rosea product. Pharmacol Res Perspect. 2017. PMID:28805981 DOI:10.1002/prp2.324
+42. Hellum BH et al. Potent in vitro inhibition of CYP3A4 and P-glycoprotein by Rhodiola rosea. Planta Med. 2010. PMID:19790032 DOI:10.1055/s-0029-1186153
+43. Spanakis M et al. Pharmacokinetic interaction between losartan and Rhodiola rosea in rabbits. Pharmacology. 2013. PMID:23327826 DOI:10.1159/000345929
+44. Kasprzyk PG et al. In Vitro Evaluation of the Potential for Drug Interactions by Salidroside. Nutrients. 2023. PMID:37686755 DOI:10.3390/nu15173723
+45. Panossian A et al. Pharmacokinetic and pharmacodynamic study of interaction of Rhodiola rosea SHR-5 extract with warfarin and theophylline in rats. Phytother Res. 2009. PMID:18844284 DOI:10.1002/ptr.2631
+46. Siwek M et al. Harder, better, faster, stronger? Retrospective chart review of adverse events of interactions between adaptogens and antidepressant drugs. Front Pharmacol. 2023. PMID:37829299 DOI:10.3389/fphar.2023.1271776
+47. Woroń J et al. Unwanted effects of psychotropic drug interactions with medicinal products and diet supplements containing plant extracts. Psychiatr Pol. 2018. PMID:30659561 DOI:10.12740/PP/OnlineFirst/80998
+48. Maniscalco I et al. The interaction of Rhodiola rosea and antidepressants. A case report. Neuropsychiatr. 2015. PMID:25413939 DOI:10.1007/s40211-014-0124-8
+49. Whig R et al. Mania Associated With Rhodiola Rosea: An Adaptogen With Antidepressant Effects. Prim Care Companion CNS Disord. 2022. PMID:35303403 DOI:10.4088/PCC.21cr02980
+50. van Diermen D et al. Monoamine oxidase inhibition by Rhodiola rosea L. roots. J Ethnopharmacol. 2009. PMID:19168123 DOI:10.1016/j.jep.2009.01.007
+51. Booker A et al. The authenticity and quality of Rhodiola rosea products. Phytomedicine. 2016. PMID:26626192 DOI:10.1016/j.phymed.2015.10.006
+52. Xin T et al. Survey of commercial Rhodiola products revealed species diversity and potential safety issues. Sci Rep. 2015. PMID:25661009 DOI:10.1038/srep08337
+53. Ruhsam M et al. Authentication of Eleutherococcus and Rhodiola herbal supplement products in the United Kingdom. J Pharm Biomed Anal. 2018. PMID:29154110 DOI:10.1016/j.jpba.2017.11.025
+54. Marchev AS et al. Authenticity and quality evaluation of different Rhodiola species and commercial products based on NMR-spectroscopy and HPLC. Phytochem Anal. 2020. PMID:32311178 DOI:10.1002/pca.2940
+55. Li J et al. Adulteration prevention-oriented systematic review of chemical constituents in the genus Rhodiola. Front Pharmacol. 2026. PMID:42657013 DOI:10.3389/fphar.2026.1872755
+56. Molano Franco D et al. Interventions for preventing high altitude illness: Part 3. Miscellaneous and non-pharmacological interventions. Cochrane Database Syst Rev. 2019. PMID:31012483 DOI:10.1002/14651858.CD013315
+57. Chiu TF et al. Rhodiola crenulata extract for prevention of acute mountain sickness: a randomized, double-blind, placebo-controlled, crossover trial. BMC Complement Altern Med. 2013. PMID:24176010 DOI:10.1186/1472-6882-13-298
+58. Gao Z et al. Efficacy and safety of Rhodiola crenulata extract in the treatment of acute high altitude disease: SR and MA. Front Pharmacol. 2025. PMID:40584626 DOI:10.3389/fphar.2025.1595953
+59. Weng J et al. Pharmacokinetic changes and mechanisms of salidroside in hypobaric hypoxic environment. J Ethnopharmacol. 2026. PMID:41548618 DOI:10.1016/j.jep.2026.121205
+60. Zheng T et al. Beneficial Effects of Rhodiola and Salidroside in Diabetes: Potential Role of AMP-Activated Protein Kinase. Mol Diagn Ther. 2019. PMID:31069710 DOI:10.1007/s40291-019-00402-4
+61. Lee WJ et al. Rhodiola-water extract induces beta-endorphin secretion to lower blood pressure in spontaneously hypertensive rats. Phytother Res. 2013. PMID:23192943 DOI:10.1002/ptr.4900
+62. Gerbarg PL et al. Pause menopause with Rhodiola rosea, a natural selective estrogen receptor modulator. Phytomedicine. 2016. PMID:26776957 DOI:10.1016/j.phymed.2015.11.013
+63. Pkhaladze L et al. Actaea racemosa L. Is More Effective in Combination with Rhodiola rosea L. for Relief of Menopausal Symptoms: A Randomized, Double-Blind, Placebo-Controlled Study. Pharmaceuticals (Basel). 2020. PMID:32455817 DOI:10.3390/ph13050102
+64. Timpmann S et al. Influence of Rhodiola rosea on the heat acclimation process in young healthy men. Appl Physiol Nutr Metab. 2018. PMID:28873320 DOI:10.1139/apnm-2017-0372
+65. Marcos-Frutos D et al. The Impact of Rhodiola Rosea Extract on Strength Performance in Bench-Press and Bench-Pull Exercises Under Resting and Mental Fatigue Conditions. Nutrients. 2025. PMID:40289957 DOI:10.3390/nu17060940
+66. Koozehchian MS et al. Dose-Response Effects of Short-Term Rhodiola rosea Supplementation on Anaerobic Exercise Performance and Cognitive Function in Resistance-Trained Athletes. Nutrients. 2025. PMID:41374026 DOI:10.3390/nu17233736
+67. Wang J et al. The Effect of Short-Term Rhodiola rosea Supplementation on Simulated Game Time, Perceived Fatigue, and Performance in Basketball Players. Nutrients. 2025. PMID:41373984 DOI:10.3390/nu17233694
+68. Dou Y et al. Effects of Rhodiola rosea on Physical and Decision-Making Performance in Football Players: A Randomised Controlled Trial. Nutrients. 2026. PMID:41829897 DOI:10.3390/nu18050724
+69. Schwarz NA et al. Salidroside and exercise performance in healthy active young adults: an exploratory, randomized, double-blind, placebo-controlled study. J Int Soc Sports Nutr. 2024. PMID:39601362 DOI:10.1080/15502783.2024.2433744
+70. Lara PM et al. Can Rhodiola rosea supplementation mitigate digital eye strain? A triple-blinded placebo-controlled study. Ophthalmic Physiol Opt. 2025. PMID:40873122 DOI:10.1111/opo.70005
+71. Wang Z et al. Effects of the Combined Supplementation of Caffeine and Rhodiola Rosea with Resistance Training on Lower Limb Explosive Power in Male Volleyball Players. Nutrients. 2025. PMID:40005009 DOI:10.3390/nu17040681
+72. Tao B et al. Combined Effects of Rhodiola Rosea and Caffeine Supplementation on Straight Punch Explosive Power in Untrained and Trained Boxing Volunteers. Metabolites. 2025. PMID:40278391 DOI:10.3390/metabo15040262
+73. Dai X et al. Effects of Caffeine and Rhodiola rosea, Alone and Combined, on DanceSport-Specific Jive Performance: A Randomized, Blinded, Placebo-Controlled Trial. Nutrients. 2026. PMID:42738995 DOI:10.3390/nu18172823
+74. Dou Y et al. Effects of Combined Caffeine and Rhodiola rosea Supplementation on Repeated Aerial Duel Performance and Neck Neuromuscular Function in Soccer Players. Nutrients. 2026. PMID:42123940 DOI:10.3390/nu18091339
+75. Wang IL et al. Combined Rhodiola rosea and eccentric training boost endurance performance and lower-limb reactive strength in recreationally active women. Front Physiol. 2025. PMID:40988719 DOI:10.3389/fphys.2025.1663086
+76. Karosanidze I et al. Efficacy of Adaptogens in Patients with Long COVID-19: A Randomized, Quadruple-Blind, Placebo-Controlled Trial. Pharmaceuticals (Basel). 2022. PMID:35337143 DOI:10.3390/ph15030345
+77. Björnsson HK et al. Ashwagandha-induced liver injury: A case series from Iceland and the US Drug-Induced Liver Injury Network. Liver Int. 2020. PMID:31991029 DOI:10.1111/liv.14393

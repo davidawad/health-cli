@@ -3,44 +3,218 @@
 :ID: supp-dexedrine
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: Dextroamphetamine sulfate | dextroamphetamine
+:ALIASES: Dextroamphetamine sulfate | dextroamphetamine | dexamfetamine | dexamphetamine | d-amphetamine | Dexedrine Spansule | Zenzedi | ProCentra
 :CATEGORY: rx
 :RX_STATUS: controlled
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Dexedrine is dextroamphetamine sulfate, an oral immediate-release tablet or extended-release Spansule prescription CNS stimulant, Schedule II in the United States [DailyMed].
+- Dextroamphetamine sulfate is the dextro isomer of racemic amphetamine, a sympathomimetic amine (d-alpha-methylphenethylamine). It is a US Schedule II controlled substance [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78].
+- Dexedrine Spansule capsules (5, 10, 15 mg) release an initial dose promptly and the rest gradually. Bioavailability is similar to immediate-release tablets. Tmax is about 8 h for a 15 mg capsule (Cmax 23.5 ng/mL) versus about 3 h for three 5 mg tablets (Cmax 36.6 ng/mL). Plasma half-life is about 12 h for both, and fed and fasted absorption are similar [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78].
+- Labeled indications are narcolepsy and ADHD in patients aged 6-16 years, as part of a total treatment program. The label does not recommend it under age 6, because exposure and adverse reactions (e.g. weight loss) were higher in that age group [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78].
+- Related products: lisdexamfetamine is a d-amphetamine prodrug [PMID:23539642]. Mixed amphetamine salts contain both isomers, and d-amphetamine was 2 to 2.3-fold more potent than l-amphetamine for activation and euphoria [PMID:1824]. Much of the class evidence below pools "amphetamines" (dextroamphetamine, mixed salts, lisdexamfetamine) [PMID:30097390] [PMID:40152309].
 
 ** Mechanisms
-- Amphetamine increases synaptic norepinephrine and dopamine through transporter and vesicular mechanisms; FDA labeling describes sympathomimetic CNS stimulation [DailyMed].
+- Amphetamines release catecholamines by a non-exocytic mechanism. They redistribute dopamine and norepinephrine from synaptic vesicles to the cytosol and reverse transport through plasma-membrane uptake carriers. They also inhibit uptake and affect synthesis and metabolism [PMID:15955613].
+- Peripheral effects include raised systolic and diastolic blood pressure and weak bronchodilator and respiratory stimulant actions. The label states that the mechanism of the behavioral effects in children is not established [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78].
+- Dopamine dependence of subjective effects: acute phenylalanine/tyrosine depletion reduced d-amphetamine-induced striatal dopamine release on PET [PMID:14583741]. It also attenuated subjective stimulant effects but not anorexia [PMID:10475719].
+- Elimination is pH-dependent. Urinary acidification speeds and alkalinization slows elimination, and the half-life difference between isomers was largest at basic urinary pH [PMID:25157]. Amphetamines are metabolized partly by CYP2D6 and weakly inhibit it [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---------+--------------------+-----------+-------------+-----------------------+-----------|
-| ADHD symptoms | regulatory label based on clinical trials | improvement in indicated populations | label supports pediatric ADHD; exact effect varies by trial | moderate | DailyMed |
-| Narcolepsy symptoms | regulatory label | symptom control | approved indication; no pooled effect size in label | moderate | DailyMed |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| ADHD core symptoms, children/adolescents | NMA of 133 double-blind RCTs; 2025 umbrella review | Benefit | Clinician-rated SMD -1.02 (95% CI -1.19 to -0.85) vs placebo at ~12 wk; greater than methylphenidate and atomoxetine on clinician ratings | high | [PMID:30097390] [PMID:41297970] |
+| ADHD core symptoms, adults | NMA (Cortese 2018); adult component NMA (113 RCTs); umbrella review | Benefit | SMD -0.79 (CI -0.99 to -0.58) clinician-rated; stimulants as a class SMD -0.61 clinician, -0.39 self-rated | moderate | [PMID:30097390] [PMID:39701638] [PMID:41297970] [PMID:33085721] |
+| Tolerability (dropout due to AEs) | NMA; Cochrane BP review | Worse than placebo | OR 2.30 (children), 3.26 (adults); RR withdrawal 2.69 (CI 2.13-3.40), ARI 4.3% | high | [PMID:30097390] [PMID:40152309] |
+| Dose-response in ADHD | Dose-effect NMAs (113 and 48 RCTs); adult dose MA (47 RCTs) | Plateau | Efficacy plateaus ~25 mg/d (children) and ~50 mg/d (adults); AE dropouts keep rising; unlicensed vs licensed doses SMD -0.08 (CI -0.24 to 0.08) | moderate | [PMID:42134365] [PMID:41961095] [PMID:37878348] |
+| Quality of life in ADHD | MA of 17 RCTs | Benefit | Hedges g 0.51 (CI 0.08-0.94) for amphetamines | low | [PMID:38823477] |
+| Narcolepsy (excessive sleepiness) | AASM guideline and GRADE review; small RCT vs modafinil; NMA | Benefit | Conditional recommendation for adults; ESS -4.4 vs -5.0 with modafinil (non-inferiority not shown); no amphetamine RCTs in a 14-RCT narcolepsy NMA | low | [PMID:34743789] [PMID:34743790] [PMID:39306601] [PMID:30239930] |
+| Cognitive enhancement, healthy adults | MA of 47 studies (10 d-amphetamine); MA on processing speed | No clear benefit | No significant effect of d-amphetamine on any domain; prescription stimulants processing-speed accuracy g 0.282 | low | [PMID:32709551] [PMID:27454675] [PMID:31326580] |
+| Blood pressure / heart rate | Cochrane review (56 RCTs, n=10,583); NMA (102 RCTs) | Increase | SBP +1.93 mmHg, DBP +1.84 mmHg, HR +3.71 bpm (high certainty) | high | [PMID:40152309] [PMID:40203844] [PMID:22796229] |
+| Incident cardiovascular disease (long-term) | Swedish case-control (n=278,027); MA of 19 observational studies | Possible increase with duration | AOR 1.04 per year of use; >5 y AOR 1.23; hypertension AOR 1.80; pooled RR 1.18 (CI 0.91-1.53) in youth, NS | low | [PMID:37991787] [PMID:36416824] [PMID:40629932] |
+| Psychosis / mania | Case-control (McLean); claims cohort; 2025 MA | Increase, dose-related | AOR 2.68 any amphetamine; 5.28-fold at >30 mg d-amph equivalents; HR 1.65 vs methylphenidate; OR 1.57 vs methylphenidate | low | [PMID:39262211] [PMID:30893533] [PMID:40900605] |
+| Height/weight in children | Open-label MAS-XR cohort; MTA follow-up; review | Decrease | Deficits mostly in year 1; MTA consistent users 2.55 cm shorter as adults; ~1 cm/year in first 1-3 years | low | [PMID:15910204] [PMID:28295312] [PMID:16040876] |
+| Mortality and harmful outcomes in ADHD (class) | Swedish target-trial emulations (mostly methylphenidate) | Benefit | All-cause mortality HR 0.79; suicidal behaviour IRR 0.83; substance misuse 0.85; criminality 0.87 | low | [PMID:38470385] [PMID:40803836] |
+| Methamphetamine/amphetamine dependence (agonist therapy) | SR of 43 RCTs; RCT of lisdexamfetamine | Possible benefit | Most consistent signals for dexamphetamine/methylphenidate; LDX 8.8 fewer use days over 12 wk | very low | [PMID:32185696] [PMID:39701142] |
 
 ** Dosing in trials
-- FDA label gives individualized titration; pediatric ADHD starts 5 mg once or twice daily, with weekly 5 mg increments, rarely exceeding 40 mg/day; dosing differs by indication and formulation [DailyMed].
+- Label, narcolepsy: 5-60 mg/day in divided doses. Ages 6-12 start at 5 mg/day, rising by 5 mg weekly. Age 12 and over start at 10 mg/day, rising by 10 mg weekly [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78].
+- Label, ADHD (age 6 and over): start 5 mg once or twice daily, rising by 5 mg weekly. Only rarely is more than 40 mg/day needed. Spansules can be used once daily. Avoid late-evening doses because of insomnia [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78].
+- Dose-effect: in children, amphetamine efficacy plateaus near 25 mg/day, with the best net clinical benefit at about 12-26 mg/day (peak 18-20 mg/day) [PMID:42134365] [PMID:41961095]. In adults it plateaus above about 50 mg/day, and AE discontinuations rise above that dose [PMID:42134365]. Doses above the licensed range gave no added symptom benefit [PMID:37878348].
+- Narcolepsy type 2 / idiopathic hypersomnia RCT: amphetamine-dextroamphetamine titrated to at most 20 mg twice daily for 12 weeks [PMID:39306601].
+- Dependence trials: in the ATLAS4Dependence protocol, dextroamphetamine is given flexibly at 30-120 mg/day for 12 weeks [PMID:41120148].
 
 ** Safety & adverse effects
-- Label warns of abuse, misuse, addiction, serious cardiac disease risk, increased blood pressure/heart rate, psychiatric reactions, growth suppression, and peripheral vasculopathy [DailyMed].
+- Boxed warning (class update): the FDA Drug Safety Communication of 2023-05-11 required consistent boxed warnings on misuse, abuse, addiction and overdose for all prescription stimulants. It also requires counseling never to share the drug. FDA cited past-year nonmedical use of 4.1-7.5% in ages 18-25 and found the most severe harms with non-oral routes [URL:https://www.fda.gov/drugs/drug-safety-communications/fda-updating-warnings-improve-safe-use-prescription-stimulants-used-treat-adhd-and-other-conditions]. The current Dexedrine label carries this boxed warning and says the overdose/death risk rises with higher doses or with snorting/injection [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78].
+- Abuse, misuse and use disorder:
+  - Among US adults using prescription stimulants, 25.3% reported misuse and 9.0% had prescription stimulant use disorder. Amphetamine users had more misuse (PR 3.1) and use disorder (PR 2.2) than methylphenidate users [PMID:40105821].
+  - In adults, nonmedical dextroamphetamine-amphetamine use rose 67.1% and ED visits rose 155.9% over 2006-2011 [PMID:26890573].
+  - Diversion is common: 16-29% of students with prescriptions were asked to give, sell or trade them [PMID:18174822]. Nonmedical use does not appear to improve academic performance in people without ADHD [PMID:31326580].
+- Cardiovascular:
+  - Mean BP and HR increases are given in the evidence table [PMID:40152309]. Amphetamines did not raise haemodynamic values more than atomoxetine or viloxazine [PMID:40203844].
+  - The label warns of sudden death in patients with structural cardiac abnormalities. It advises avoiding the drug in serious cardiac disease and monitoring for hypertension and tachycardia [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78].
+  - Long-term use was associated with CVD in a Swedish case-control study, mainly hypertension and arterial disease [PMID:37991787]. In people aged 5-30, ADHD medication was associated with cardiac events (aOR 1.63), driven by undefined arrhythmias [PMID:40629932].
+- Psychiatric:
+  - In pooled short-term trials, new psychotic or manic symptoms occurred in about 0.1% on stimulants versus 0% on placebo (label) [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78].
+  - Observational studies show higher psychosis risk with amphetamines than methylphenidate, rising with dose [PMID:39262211] [PMID:30893533] [PMID:40900605].
+- Growth: weight and height suppression in children; monitor growth (label) [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78] [PMID:15910204] [PMID:28295312]. Mixed amphetamine salts and methylphenidate did not differ on height, but the salts reduced weight more [PMID:16670648].
+- Peripheral vasculopathy/Raynaud: a systematic review found 61 cases, including (dex)amfetamine cases, mostly mild and reversible. Rare cases led to ulceration or amputation [PMID:39875750] [PMID:34655948].
+- Other label warnings: seizure threshold lowering, tics/Tourette's worsening and serotonin syndrome. Other listed reactions include rhabdomyolysis, intestinal ischemia, alopecia, impotence/libido changes and frequent or prolonged erections [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78]. High-dose dextroamphetamine appeared to worsen tics in one short trial [PMID:29944175].
+- Overdose: tachyarrhythmias, vasospasm, MI, aortic dissection, Takotsubo cardiomyopathy, hyperthermia above 104 F, rhabdomyolysis, seizures and coma. D-amphetamine is not dialyzable [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78]. In amphetamine-related emergencies, stroke odds are raised (OR 4.95) [PMID:40991352].
+- Pregnancy:
+  - Amphetamine use in the first trimester was not associated with malformations (aRR 1.05, CI 0.93-1.19; cardiac 0.96) [PMID:29238795].
+  - Stimulant use was associated with preeclampsia (aRR 1.29). Continuing after 20 weeks was associated with preterm birth (aRR 1.30) [PMID:29112657].
+  - Continuing into the 2nd/3rd trimester raised pre-eclampsia (RR 1.42), placental abruption (RR 1.63) and preterm birth (RR 1.34) [PMID:41400021].
+  - In utero amphetamine exposure was not associated with neurodevelopmental disorders after adjustment (ADHD HR 1.07) [PMID:38265792] [PMID:36759544]. Pooled data show more NICU admissions (RR 1.88) [PMID:30585374].
+  - Label: embryotoxic in mice at about 41 times the human dose. Infants of amphetamine-dependent mothers risk prematurity, low birth weight and withdrawal. Amphetamines pass into milk, and nursing is not advised [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78].
+- Overall AE burden: across 93 RCTs, stimulants raised overall AEs (RR 1.34) [PMID:40343695]. The label also lists tolerance, physical dependence and a withdrawal syndrome (dysphoria, fatigue, vivid dreams, sleep changes) [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78].
 
 ** Contraindications
-- Contraindicated with hypersensitivity to amphetamine and during MAOI treatment or within 14 days after stopping MAOI because of hypertensive-crisis risk; label also lists advanced arteriosclerosis, symptomatic cardiovascular disease, moderate/severe hypertension, hyperthyroidism, glaucoma, agitated state, and history of drug abuse [DailyMed].
+- Known hypersensitivity to amphetamine or product components. Angioedema and anaphylaxis have been reported with other amphetamines [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78].
+- MAOIs, during use or within 14 days of stopping (including linezolid and IV methylene blue): risk of hypertensive crisis [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78].
+- Strong label warnings (avoid or use with caution) rather than formal contraindications in the 2025 label: structural cardiac abnormalities, cardiomyopathy, serious arrhythmia, coronary artery disease; pre-existing psychosis; bipolar risk; seizures; tics/Tourette's; peripheral vasculopathy; history of substance misuse [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78] [URL:https://www.fda.gov/drugs/drug-safety-communications/fda-updating-warnings-improve-safe-use-prescription-stimulants-used-treat-adhd-and-other-conditions].
 
 ** Interactions
-- Drugs, supplements, conditions, and relevant laboratory interference are summarized in the structured interaction object. MAOIs contraindicated; serotonergic drugs and CYP2D6 inhibitors increase serotonin-syndrome/exposure risk; alkalinizing agents may raise levels, acidifying agents may lower levels; antihypertensives may be opposed [DailyMed]. No genotype-specific claim is made because no directly relevant pharmacogenomic source was identified.
+*** Drugs
+- MAO inhibitors (selegiline, tranylcypromine, phenelzine, isocarboxazid, linezolid, methylene blue): contraindicated. Possible outcomes include death, stroke, MI, aortic dissection and renal failure [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78].
+- Serotonergic drugs (SSRIs, SNRIs, triptans, TCAs, fentanyl, tramadol, buspirone, tryptophan, St John's wort): serotonin syndrome risk. Start low and monitor (label) [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78]. Case report: serotonin toxicity with therapeutic dexamphetamine plus venlafaxine [PMID:11999244].
+- CYP2D6 inhibitors (label examples: paroxetine, fluoxetine, quinidine, ritonavir; bupropion is included by class inference, as it is not named in the label): may raise amphetamine exposure and serotonin-syndrome risk [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78]. A DDI review advises treating an added CYP2D6 inhibitor as equivalent to a dose increase [PMID:31776871].
+- Alkalinizing agents (sodium bicarbonate, acetazolamide, some thiazides): raise amphetamine levels and potentiate its action. The label says to avoid GI alkalinizers [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78] [PMID:25157].
+- Acidifying agents (ascorbic acid, glutamic acid HCl, ammonium chloride, methenamine): lower amphetamine levels and efficacy [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78].
+- Proton pump inhibitors: omeprazole did not change total exposure to mixed amphetamine salts XR, but shortened Tmax (5 h to 2.75 h) [PMID:19820270]. The label says to monitor clinical effect [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78].
+- Antihypertensives and adrenergic blockers: amphetamines may antagonize their effects (label) [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78]. The BP rise itself is shown in [PMID:40152309].
+- Tricyclic antidepressants (desipramine, protriptyline): striking, sustained rises in brain d-amphetamine; cardiovascular effects potentiated; also serotonergic [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78].
+- Lithium: the label says lithium may inhibit stimulant effects [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78]. In small human studies lithium attenuated d-amphetamine euphoria and activation by 60% [PMID:1824] and blunted the systolic BP rise [PMID:443465]. Lithium is also on the label's serotonergic list [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78].
+- Alcohol: a DDI review reports alcohol may raise plasma dextroamphetamine [PMID:31776871]. In an RCT, dextroamphetamine reduced ethanol-induced psychomotor impairment but not perceived intoxication [PMID:1558306]. FDA advises patients not to combine stimulants with alcohol [URL:https://www.fda.gov/drugs/drug-safety-communications/fda-updating-warnings-improve-safe-use-prescription-stimulants-used-treat-adhd-and-other-conditions].
+- Antipsychotics (haloperidol, chlorpromazine) block central stimulant effects. Other label interactions: anticonvulsant absorption delays (ethosuximide, phenobarbital, phenytoin), potentiation of meperidine and norepinephrine, and propoxyphene overdose seizures [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78].
+*** Other supplements
+- Vitamin C: the label lists ascorbic acid as a GI acidifier that lowers amphetamine levels and efficacy [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78]. Supplemental ascorbic acid 4 g/day lowered urine pH by only 0.58 (not significant) [PMID:7361797], so the size of the effect at typical doses is uncertain.
+- Caffeine: additive sympathomimetic effects are plausible. Both 300 mg caffeine and 20 mg d-amphetamine raised DBP/HR in controls [PMID:25414797]. In rats, caffeine potentiated amphetamine seizures and lethality [PMID:1586430]. No controlled human combination safety study was found.
+- L-Tyrosine: mechanistic only. Tyrosine/phenylalanine depletion reduced amphetamine-induced dopamine release and subjective effects [PMID:14583741] [PMID:10475719]. Whether supplementation potentiates the drug is untested.
+- Lithium (corpus item): see Drugs. It attenuates euphoria and is on the serotonergic list [PMID:1824] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78].
+- LSD: no cited human interaction study with dextroamphetamine was found, so no claim is made.
+*** Conditions
+- Serious cardiac disease, hypertension: BP/HR increases and sudden-death warning [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78] [PMID:40152309] [PMID:37991787].
+- Psychotic and bipolar disorders: exacerbation and new-onset risk, especially at high doses [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78] [PMID:39262211] [PMID:40900605]. In schizophrenia-spectrum cohorts, lisdexamfetamine was not associated with more psychosis hospitalization [PMID:40595332].
+- Substance use disorder history: high abuse potential [URL:https://www.fda.gov/drugs/drug-safety-communications/fda-updating-warnings-improve-safe-use-prescription-stimulants-used-treat-adhd-and-other-conditions] [PMID:40105821].
+- Epilepsy: may lower seizure threshold (label) [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78]. RCT data in ADHD plus epilepsy exist only for methylphenidate [PMID:35844168].
+- Tics/Tourette's [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78] [PMID:29944175]; Raynaud's phenomenon [PMID:39875750]; pregnancy and lactation [PMID:41400021] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78].
+*** Lab-test interference
+- Amphetamines can cause a significant rise in plasma corticosteroids, greatest in the evening. They may interfere with urinary steroid determinations (label) [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78].
+- Urine drug screens: dextroamphetamine gives true-positive amphetamine immunoassay results. Many other drugs cross-react, and 3.9-9.9% of positive amphetamine screens were false positives [PMID:36367744]. Immunoassay results are presumptive until confirmed by GC-MS or LC-MS/MS [PMID:24986836] [PMID:41639014].
 
 ** Genotype notes
-- No directly relevant, clinically validated pharmacogenomic/nutrigenomic source was identified in the sources reviewed.
+- CYP2D6: amphetamines are partly metabolized by CYP2D6 [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78]. In 214 youth treated with amphetamines, genotype-predicted poor metabolizers (corrected for phenoconversion) had higher odds of reported symptom improvement than intermediate metabolizers (OR 3.67, CI 1.15-11.7). There was no association with side effects [PMID:38517706].
+- A toxicology review concludes that either poor or extensive/ultrarapid CYP2D6 metabolizers may be exposed to amfetamine toxicity, with substance-dependent evidence [PMID:25998998]. No CPIC-style dosing guideline for dextroamphetamine was found.
 
 ** Latest research
-- 2025 label version on DailyMed reiterates boxed warnings, contraindications, and interaction precautions; label updates are regulatory rather than new efficacy trials [DailyMed].
+- [2026-08] Pediatric dose-response NMA (48 RCTs): amphetamine efficacy plateaus near 25 mg/day; best net benefit at 12-26 mg/day [PMID:41961095].
+- [2026-06] Lancet Psychiatry dose-effect NMA (113 RCTs): amphetamine plateau near 25 mg/day (children) and 50 mg/day (adults); dose-dependent AE dropouts [PMID:42134365].
+- [2026-06] Finnish instrumental-variable study: methylphenidate not associated with psychosis, a contrast to amphetamine signals [PMID:41879751].
+- [2026-05] Updated review of false-positive urine drug screens (2013-2024 literature) [PMID:41639014].
+- [2026-05] MA of lisdexamfetamine (d-amphetamine prodrug) in binge-eating disorder: -1.29 binge days/week [PMID:41423727].
+- [2026-03] Claims cohort: continuing stimulants into the 2nd/3rd trimester linked to pre-eclampsia, abruption, preterm birth and stillbirth (vs early exposure) [PMID:41400021].
+- [2026-02] Australian Prescriber review of adult ADHD pharmacotherapy and monitoring [PMID:41736842].
+- [2025-12] Review of stimulant emergencies: amphetamine stroke OR 4.95; rhabdomyolysis common [PMID:40991352].
+- [2025-11] MA (16 studies, n=391,043): psychosis risk OR 1.57 for amphetamines vs methylphenidate; higher with higher dose [PMID:40900605].
+- [2025-11] BMJ umbrella review: amphetamines effective short term, with moderate-to-high certainty in youth; worse tolerability (RR 0.40 in adults) [PMID:41297970].
+- [2025-11] Swedish case-control: ADHD medication associated with cardiac events (aOR 1.63) at ages 5-30 [PMID:40629932].
+- [2025-10] ATLAS4Dependence RCT protocol: dextroamphetamine 30-120 mg/day for amphetamine dependence [PMID:41120148].
+- [2025-10] Schizophrenia-spectrum cohort: lisdexamfetamine associated with lower all-cause hospitalization/mortality (aHR 0.89) [PMID:40595332].
+- [2025-09] Dexedrine label revision with class boxed warning and updated drug interactions [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78].
+- [2025-08] BMJ target-trial emulation: ADHD drug treatment reduced suicidal behaviour, substance misuse, transport accidents and criminality [PMID:40803836].
+- [2025-07] RCT of lisdexamfetamine in methamphetamine dependence: fewer use days over 12 weeks; weak evidence at week 13 [PMID:39701142].
+- [2025-06] US NSDUH analysis: 25.3% misuse and 9.0% use disorder among adults using prescription stimulants; higher with amphetamines [PMID:40105821].
+- [2025-05] Cardiovascular NMA (102 RCTs): amphetamines raise SBP/DBP/pulse but no more than non-stimulants [PMID:40203844].
+- [2025-05] MA of 93 RCTs: stimulants raise overall AEs (RR 1.34) [PMID:40343695].
+- [2025-03] Cochrane: amphetamines raise SBP 1.93 and DBP 1.84 mmHg and HR 3.71 bpm (high certainty) [PMID:40152309].
+- [2025-03] SR of Raynaud syndrome with ADHD drugs (61 cases) [PMID:39875750].
+- [2025-03] QoL MA: amphetamines g 0.51 [PMID:38823477].
+- [2025-01] Adult component NMA: stimulants are among the only interventions effective on both self- and clinician-rated symptoms [PMID:39701638].
+- [2024-11] RCT: amphetamine-dextroamphetamine vs modafinil in NT2/IH; ESS non-inferiority not shown; fewer AE dropouts (9.1% vs 31.8%) [PMID:39306601].
+- [2024-10] McLean case-control: incident psychosis/mania AOR 2.68; 5.28-fold at >30 mg/day [PMID:39262211].
 
 ** Open questions
-- Long-term comparative benefit-risk, individualized dosing, and durable outcomes remain under study; these statements are within FDA label scope [DailyMed].
+- Long-term (>1 year) randomized efficacy and safety data. No high-certainty long-term evidence exists for any ADHD intervention [PMID:41297970] [PMID:40203844].
+- Whether the observational CVD association with cumulative use is causal, and which groups are at highest risk [PMID:37991787] [PMID:36416824].
+- Mechanism and dose thresholds for amphetamine-associated psychosis versus methylphenidate [PMID:39262211] [PMID:40900605].
+- Pregnancy: whether risks of continuing late in pregnancy reflect drug effects or confounding [PMID:41400021] [PMID:29112657].
+- Clinical utility of CYP2D6 genotyping for amphetamine dosing, which needs replication [PMID:38517706].
+- Size of interaction effects from dietary or supplemental acidifiers (vitamin C) and from caffeine in humans [PMID:7361797] [PMID:1586430].
+- Results of dextroamphetamine agonist trials for amphetamine dependence [PMID:41120148].
 
 ** Sources
-- https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78
+1. DailyMed. DEXEDRINE SPANSULE (dextroamphetamine sulfate) capsule, extended release, prescribing information and Medication Guide (Rev. 09-2025). U.S. National Library of Medicine. URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78
+2. U.S. Food and Drug Administration. FDA updating warnings to improve safe use of prescription stimulants used to treat ADHD and other conditions (Drug Safety Communication, 2023-05-11). URL:https://www.fda.gov/drugs/drug-safety-communications/fda-updating-warnings-improve-safe-use-prescription-stimulants-used-treat-adhd-and-other-conditions
+3. Heal DJ et al. Amphetamine, past and present--a pharmacological and clinical perspective. J Psychopharmacol. 2013. PMID:23539642 DOI:10.1177/0269881113482532
+4. Van Kammen DP et al. Attenuation of the euphoriant and activating effects of d- and l-amphetamine by lithium carbonate treatment. Psychopharmacologia. 1975. PMID:1824 DOI:10.1007/BF00428897
+5. Cortese S et al. Comparative efficacy and tolerability of medications for attention-deficit hyperactivity disorder in children, adolescents, and adults: a systematic review and network meta-analysis. Lancet Psychiatry. 2018. PMID:30097390 DOI:10.1016/S2215-0366(18)30269-4
+6. Chan M et al. Effect of amphetamines on blood pressure. Cochrane Database Syst Rev. 2025. PMID:40152309 DOI:10.1002/14651858.CD007896.pub4
+7. Sulzer D et al. Mechanisms of neurotransmitter release by amphetamines: a review. Prog Neurobiol. 2005. PMID:15955613 DOI:10.1016/j.pneurobio.2005.04.003
+8. Leyton M et al. Decreasing amphetamine-induced dopamine release by acute phenylalanine/tyrosine depletion: A PET/[11C]raclopride study in healthy men. Neuropsychopharmacology. 2004. PMID:14583741 DOI:10.1038/sj.npp.1300328
+9. McTavish SF et al. Attenuation of some subjective effects of amphetamine following tyrosine depletion. J Psychopharmacol. 1999. PMID:10475719 DOI:10.1177/026988119901300205
+10. Wan SH et al. Kinetics, salivary excretion of amphetamine isomers, and effect of urinary pH. Clin Pharmacol Ther. 1978. PMID:25157 DOI:10.1002/cpt1978235585
+11. Gosling CJ et al. Benefits and harms of ADHD interventions: umbrella review and platform for shared decision making. BMJ. 2025. PMID:41297970 DOI:10.1136/bmj-2025-085875
+12. Ostinelli EG et al. Comparative efficacy and acceptability of pharmacological, psychological, and neurostimulatory interventions for ADHD in adults: a systematic review and component network meta-analysis. Lancet Psychiatry. 2025. PMID:39701638 DOI:10.1016/S2215-0366(24)00360-2
+13. Elliott J et al. Pharmacologic treatment of attention deficit hyperactivity disorder in adults: A systematic review and network meta-analysis. PLoS One. 2020. PMID:33085721 DOI:10.1371/journal.pone.0240584
+14. Nourredine M et al. Pharmacological interventions for ADHD: a systematic review and dose-effect network meta-analysis. Lancet Psychiatry. 2026. PMID:42134365 DOI:10.1016/S2215-0366(26)00091-X
+15. Chang Y et al. Dose-response, net clinical benefit and optimal dose ranges of stimulants in children and adolescents with ADHD: a network meta-analysis. Eur Child Adolesc Psychiatry. 2026. PMID:41961095 DOI:10.1007/s00787-026-03025-3
+16. Farhat LC et al. Treatment Outcomes With Licensed and Unlicensed Stimulant Doses for Adults With Attention-Deficit/Hyperactivity Disorder: A Systematic Review and Meta-Analysis. JAMA Psychiatry. 2024. PMID:37878348 DOI:10.1001/jamapsychiatry.2023.3985
+17. Bellato A et al. Systematic Review and Meta-Analysis: Effects of Pharmacological Treatment for Attention-Deficit/Hyperactivity Disorder on Quality of Life. J Am Acad Child Adolesc Psychiatry. 2025. PMID:38823477 DOI:10.1016/j.jaac.2024.05.023
+18. Maski K et al. Treatment of central disorders of hypersomnolence: an American Academy of Sleep Medicine clinical practice guideline. J Clin Sleep Med. 2021. PMID:34743789 DOI:10.5664/jcsm.9328
+19. Maski K et al. Treatment of central disorders of hypersomnolence: an American Academy of Sleep Medicine systematic review, meta-analysis, and GRADE assessment. J Clin Sleep Med. 2021. PMID:34743790 DOI:10.5664/jcsm.9326
+20. Trotti LM et al. Modafinil Versus Amphetamine-Dextroamphetamine For Idiopathic Hypersomnia and Narcolepsy Type 2: A Randomized, Blinded, Non-inferiority Trial. CNS Drugs. 2024. PMID:39306601 DOI:10.1007/s40263-024-01122-y
+21. Roberts CA et al. How effective are pharmaceuticals for cognitive enhancement in healthy adults? A series of meta-analyses of cognitive performance during acute administration of modafinil, methylphenidate and D-amphetamine. Eur Neuropsychopharmacol. 2020. PMID:32709551 DOI:10.1016/j.euroneuro.2020.07.002
+22. Marraccini ME et al. Neurocognitive enhancement or impairment? A systematic meta-analysis of prescription stimulant effects on processing speed, decision-making, planning, and cognitive perseveration. Exp Clin Psychopharmacol. 2016. PMID:27454675 DOI:10.1037/pha0000079
+23. Faraone SV et al. Systematic Review: Nonmedical Use of Prescription Stimulants: Risk Factors, Outcomes, and Risk Reduction Strategies. J Am Acad Child Adolesc Psychiatry. 2020. PMID:31326580 DOI:10.1016/j.jaac.2019.06.012
+24. Farhat LC et al. Comparative cardiovascular safety of medications for attention-deficit hyperactivity disorder in children, adolescents, and adults: a systematic review and network meta-analysis. Lancet Psychiatry. 2025. PMID:40203844 DOI:10.1016/S2215-0366(25)00062-8
+25. Mick E et al. Meta-analysis of increased heart rate and blood pressure associated with CNS stimulant treatment of ADHD in adults. Eur Neuropsychopharmacol. 2013. PMID:22796229 DOI:10.1016/j.euroneuro.2012.06.011
+26. Zhang L et al. Attention-Deficit/Hyperactivity Disorder Medications and Long-Term Risk of Cardiovascular Diseases. JAMA Psychiatry. 2024. PMID:37991787 DOI:10.1001/jamapsychiatry.2023.4294
+27. Zhang L et al. Risk of Cardiovascular Diseases Associated With Medications Used in Attention-Deficit/Hyperactivity Disorder: A Systematic Review and Meta-analysis. JAMA Netw Open. 2022. PMID:36416824 DOI:10.1001/jamanetworkopen.2022.43597
+28. Elmowafi H et al. Children and Young Adults Who Used Medication for Attention Deficit Hyperactivity Disorder Faced Increased Cardiac Risks. Acta Paediatr. 2025. PMID:40629932 DOI:10.1111/apa.70215
+29. Moran LV et al. Risk of Incident Psychosis and Mania With Prescription Amphetamines. Am J Psychiatry. 2024. PMID:39262211 DOI:10.1176/appi.ajp.20230329
+30. Moran LV et al. Psychosis with Methylphenidate or Amphetamine in Patients with ADHD. N Engl J Med. 2019. PMID:30893533 DOI:10.1056/NEJMoa1813751
+31. Salazar de Pablo G et al. Occurrence of Psychosis and Bipolar Disorder in Individuals With Attention-Deficit/Hyperactivity Disorder Treated With Stimulants: A Systematic Review and Meta-Analysis. JAMA Psychiatry. 2025. PMID:40900605 DOI:10.1001/jamapsychiatry.2025.2311
+32. Faraone SV et al. Long-term effects of extended-release mixed amphetamine salts treatment of attention- deficit/hyperactivity disorder on growth. J Child Adolesc Psychopharmacol. 2005. PMID:15910204 DOI:10.1089/cap.2005.15.191
+33. Swanson JM et al. Young adult outcomes in the follow-up of the multimodal treatment study of attention-deficit/hyperactivity disorder: symptom persistence, source discrepancy, and height suppression. J Child Psychol Psychiatry. 2017. PMID:28295312 DOI:10.1111/jcpp.12684
+34. Poulton A. Growth on stimulant medication; clarifying the confusion: a review. Arch Dis Child. 2005. PMID:16040876 DOI:10.1136/adc.2004.056952
+35. Li L et al. ADHD Pharmacotherapy and Mortality in Individuals With ADHD. JAMA. 2024. PMID:38470385 DOI:10.1001/jama.2024.0851
+36. Zhang L et al. ADHD drug treatment and risk of suicidal behaviours, substance misuse, accidental injuries, transport accidents, and criminality: emulation of target trials. BMJ. 2025. PMID:40803836 DOI:10.1136/bmj-2024-083658
+37. Siefried KJ et al. Pharmacological Treatment of Methamphetamine/Amphetamine Dependence: A Systematic Review. CNS Drugs. 2020. PMID:32185696 DOI:10.1007/s40263-020-00711-x
+38. Ezard N et al. Lisdexamfetamine in the treatment of methamphetamine dependence: A randomised, placebo-controlled trial. Addiction. 2025. PMID:39701142 DOI:10.1111/add.16730
+39. Chalabianloo F et al. Impact of dextroamphetamine substitution on the use of illicit amphetamines in adults with amphetamine dependence: a study protocol for the multicentre double blind randomised controlled trial ATLAS4Dependence. BMJ Open. 2025. PMID:41120148 DOI:10.1136/bmjopen-2024-095383
+40. Han B et al. Prescription Stimulant Use, Misuse, and Use Disorder Among US Adults Aged 18 to 64 Years. JAMA Psychiatry. 2025. PMID:40105821 DOI:10.1001/jamapsychiatry.2025.0054
+41. Chen LY et al. Prescriptions, nonmedical use, and emergency department visits involving prescription stimulants. J Clin Psychiatry. 2016. PMID:26890573 DOI:10.4088/JCP.14m09291
+42. Wilens TE et al. Misuse and diversion of stimulants prescribed for ADHD: a systematic review of the literature. J Am Acad Child Adolesc Psychiatry. 2008. PMID:18174822 DOI:10.1097/chi.0b013e31815a56f1
+43. Pliszka SR et al. Comparative effects of methylphenidate and mixed salts amphetamine on height and weight in children with attention-deficit/hyperactivity disorder. J Am Acad Child Adolesc Psychiatry. 2006. PMID:16670648 DOI:10.1097/01.chi.0000205702.48324.fd
+44. Besag FMC et al. Raynaud Syndrome Associated with Medication for Attention-Deficit/Hyperactivity Disorder: A Systematic Review. CNS Drugs. 2025. PMID:39875750 DOI:10.1007/s40263-024-01154-4
+45. Umair HM et al. Association between central nervous system stimulants used to treat attention deficit hyperactivity disorder (ADHD) and Raynaud's phenomenon: A scoping review. Semin Arthritis Rheum. 2021. PMID:34655948 DOI:10.1016/j.semarthrit.2021.09.002
+46. Osland ST et al. Pharmacological treatment for attention deficit hyperactivity disorder (ADHD) in children with comorbid tic disorders. Cochrane Database Syst Rev. 2018. PMID:29944175 DOI:10.1002/14651858.CD007990.pub3
+47. Fries A et al. The Diagnosis and Treatment of Stimulant-Related Emergencies. Dtsch Arztebl Int. 2025. PMID:40991352 DOI:10.3238/arztebl.m2025.0158
+48. Huybrechts KF et al. Association Between Methylphenidate and Amphetamine Use in Pregnancy and Risk of Congenital Malformations: A Cohort Study From the International Pregnancy Safety Study Consortium. JAMA Psychiatry. 2018. PMID:29238795 DOI:10.1001/jamapsychiatry.2017.3644
+49. Cohen JM et al. Placental Complications Associated With Psychostimulant Use in Pregnancy. Obstet Gynecol. 2017. PMID:29112657 DOI:10.1097/AOG.0000000000002362
+50. Hasan SA et al. Prescription Stimulant Continuation in Pregnancy and Birth Outcomes. J Atten Disord. 2026. PMID:41400021 DOI:10.1177/10870547251397034
+51. Suarez EA et al. Prescription Stimulant Use During Pregnancy and Risk of Neurodevelopmental Disorders in Children. JAMA Psychiatry. 2024. PMID:38265792 DOI:10.1001/jamapsychiatry.2023.5073
+52. Bang Madsen K et al. In utero exposure to ADHD medication and long-term offspring outcomes. Mol Psychiatry. 2023. PMID:36759544 DOI:10.1038/s41380-023-01992-6
+53. Jiang HY et al. Maternal and neonatal outcomes after exposure to ADHD medication during pregnancy: A systematic review and meta-analysis. Pharmacoepidemiol Drug Saf. 2019. PMID:30585374 DOI:10.1002/pds.4716
+54. Oliva HNP et al. Safety of Stimulants Across Patient Populations: A Meta-Analysis. JAMA Netw Open. 2025. PMID:40343695 DOI:10.1001/jamanetworkopen.2025.9492
+55. Prior FH et al. Serotonin toxicity with therapeutic doses of dexamphetamine and venlafaxine. Med J Aust. 2002. PMID:11999244 DOI:10.5694/j.1326-5377.2002.tb04385.x
+56. Schoretsanitis G et al. Clinically Significant Drug-Drug Interactions with Agents for Attention-Deficit/Hyperactivity Disorder. CNS Drugs. 2019. PMID:31776871 DOI:10.1007/s40263-019-00683-7
+57. Haffey MB et al. Effects of omeprazole on the pharmacokinetic profiles of lisdexamfetamine dimesylate and extended-release mixed amphetamine salts in adults. Postgrad Med. 2009. PMID:19820270 DOI:10.3810/pgm.2009.09.2048
+58. Angrist B et al. Variable attenuation of amphetamine effects by lithium. Am J Psychiatry. 1979. PMID:443465 DOI:10.1176/ajp.136.6.806
+59. Perez-Reyes M et al. Interaction between ethanol and dextroamphetamine: effects on psychomotor performance. Alcohol Clin Exp Res. 1992. PMID:1558306 DOI:10.1111/j.1530-0277.1992.tb00640.x
+60. Hetey SK et al. Effect of ascorbic acid on urine pH in patients with injured spinal cords. Am J Hosp Pharm. 1980. PMID:7361797
+61. Lane SD et al. Comparison of Caffeine and d-amphetamine in Cocaine-Dependent Subjects: Differential Outcomes on Subjective and Cardiovascular Effects, Reward Learning, and Salivary Paraxanthine. J Addict Res Ther. 2014. PMID:25414797 DOI:10.4172/2155-6105.1000176
+62. Derlet RW et al. Potentiation of cocaine and d-amphetamine toxicity with caffeine. Am J Emerg Med. 1992. PMID:1586430 DOI:10.1016/0735-6757(92)90211-F
+63. Luykx JJ et al. Long term safety of ADHD medication in patients with schizophrenia spectrum disorders. Mol Psychiatry. 2025. PMID:40595332 DOI:10.1038/s41380-025-03080-3
+64. Eaton C et al. Stimulant and non-stimulant drug therapy for people with attention deficit hyperactivity disorder and epilepsy. Cochrane Database Syst Rev. 2022. PMID:35844168 DOI:10.1002/14651858.CD013136.pub2
+65. Pope JD et al. False-Positive Amphetamines in Urine Drug Screens: A 6-Year Review. J Anal Toxicol. 2023. PMID:36367744 DOI:10.1093/jat/bkac089
+66. Saitman A et al. False-positive interferences of common urine drug screen immunoassays: a review. J Anal Toxicol. 2014. PMID:24986836 DOI:10.1093/jat/bku075
+67. Saitman A et al. False positive urine drug screens. J Anal Toxicol. 2026. PMID:41639014 DOI:10.1093/jat/bkag007
+68. Gerlach S et al. Effect of CYP2D6 genetic variation on patient-reported symptom improvement and side effects among children and adolescents treated with amphetamines. Pharmacogenet Genomics. 2024. PMID:38517706 DOI:10.1097/FPC.0000000000000529
+69. Haufroid V et al. CYP2D6 genetic polymorphisms and their relevance for poisoning due to amfetamines, opioid analgesics and antidepressants. Clin Toxicol (Phila). 2015. PMID:25998998 DOI:10.3109/15563650.2015.1049355
+70. Healy C et al. Methylphenidate Treatment and Risk of Psychotic Disorder. JAMA Psychiatry. 2026. PMID:41879751 DOI:10.1001/jamapsychiatry.2026.0152
+71. Ellwanger MP et al. Efficacy, Safety and Tolerability of Lisdexamfetamine Dimesylate Treatment Compared With Placebo in Adults With Binge-Eating Disorder: A Systematic Review and Meta-Analysis of Randomised Controlled Trials. Eur Eat Disord Rev. 2026. PMID:41423727 DOI:10.1002/erv.70070
+72. Suetani S et al. Pharmacological management of attention deficit hyperactivity disorder in adults. Aust Prescr. 2026. PMID:41736842 DOI:10.18773/austprescr.2026.002
+73. Lehert P et al. Multiple treatment comparison in narcolepsy: a network meta-analysis. Sleep. 2018. PMID:30239930 DOI:10.1093/sleep/zsy185

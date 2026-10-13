@@ -3,47 +3,218 @@
 :ID: supp-ginseng-panax
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: Panax ginseng | Asian ginseng | Korean ginseng | red ginseng
+:ALIASES: Panax ginseng | Asian ginseng | Korean ginseng | Korean red ginseng | red ginseng | white ginseng | Ginseng radix | G115 | Ginsana | Panax quinquefolius | American ginseng | North American ginseng | COLD-fX | CVT-E002
 :CATEGORY: botanical
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Panax ginseng C.A.Mey. root is sold as white/dried root, steamed red ginseng, powders, teas, and standardized ginsenoside extracts; products are not interchangeable [PMID:39387709].
+- Panax ginseng C.A.Mey. (Araliaceae) root. It is sold dried ("white ginseng") or steamed and then dried ("red ginseng"), as powder or tea, or as ethanolic/methanolic extracts [URL:https://www.ema.europa.eu/en/medicines/herbal/ginseng-radix]. Asian ginseng is native to Korea, northeastern China and far-eastern Siberia, and the root is the part used [URL:https://www.nccih.nih.gov/health/asian-ginseng].
+- Panax quinquefolius (American/North American ginseng) is the second main species [PMID:41017752]. Proprietary American-ginseng extracts include CVT-E002 (COLD-fX), which is rich in poly-furanosyl-pyranosyl-saccharides [PMID:16566675].
+- Main bioactives are ginsenosides (panaxosides), grouped as protopanaxadiol (PPD) and protopanaxatriol (PPT) ginsenosides [URL:https://www.nccih.nih.gov/health/asian-ginseng] [PMID:12571655].
+- Standardization matters. G115 (Ginsana) is a well-characterized standardized P. ginseng extract with decades of trials in glucose regulation, COPD, energy, cognition and immunity; marketed ginseng products vary widely in composition and quality [PMID:32148399].
+  - One American ginseng batch with a "depressed" ginsenoside profile (1.66% total ginsenosides) did not reproduce the postprandial glucose-lowering seen with earlier batches. This suggests clinical effects depend on ginsenoside profile [PMID:12571655]. Digoxin-like immunoreactivity also varies greatly between commercial ginsengs [PMID:12580002].
+- Bioavailability: natural PPD ginsenosides show low intestinal absorption, whereas compound K (one conjugated glucose) is better absorbed. In a human crossover study, a fermented compound-K product gave 118.3-fold higher Cmax and 135.1-fold higher AUC than red ginseng extract (median Tmax 3.0 h vs 10.0 h) [PMID:33884767].
+- Not the same as "Siberian ginseng" (Eleutherococcus senticosus). It belongs to the same family but is a different genus, and its marker compounds are eleutherosides B (syringin) and E rather than ginsenosides [PMID:41235111]. "Indian ginseng" is ashwagandha (Withania somnifera) [PMID:16040294]. Results from these plants should not be pooled with Panax data.
+- EU status: the HMPC monograph accepts only traditional use (symptomatic treatment of asthenia such as fatigue and weakness), "exclusively based upon long-standing medicinal use and not based on results from clinical studies" [URL:https://www.ema.europa.eu/en/medicines/herbal/ginseng-radix].
 
 ** Mechanisms
-- Ginsenosides are proposed to influence inflammatory, vascular, metabolic, and neurotransmitter signaling; proposed pathways do not establish clinical benefit [PMID:39387709].
+- Classed as an adaptogen alongside Rhodiola rosea, Withania somnifera, Eleutherococcus and others. Proposed shared actions are HPA-axis regulation, Hsp70 induction and modulation of SAPK/JNK, FOXO and NF-kB. Ginsenosides are reported to suppress FKBP51. These data are mostly preclinical [PMID:41901106].
+- Glucoregulation: acute reductions in postprandial glycemia with American ginseng [PMID:10761967] and in blood glucose with single doses of G115 [PMID:15982990]. The effect depends on ginsenoside profile [PMID:12571655].
+- Vascular: pooled trials show higher flow-mediated dilation and nitric oxide and lower pulse-wave velocity [PMID:40646515]. American ginseng raised serum nitrates/nitrites in type 2 diabetes [PMID:29478187].
+- Anti-inflammatory/antioxidant: pooled RCTs show lower hs-CRP, IL-6 and ROS and higher SOD [PMID:40923100] [PMID:39387709].
+- Immune: ginseng is among the 15 herbs with the strongest multi-level evidence of immunostimulatory activity (TLR activation, NF-kB/MAPK, pro-inflammatory cytokines) [PMID:41475897]. G115 nearly doubled NK activity in a vaccine trial [PMID:8879982].
+- Estrogenic activity: ginsenoside Rb1 activated estrogen-receptor-dependent transcription in MCF-7 cells at 50 uM. This was blocked by ICI 182,780 [PMID:12568360]. Human evidence for estrogenic effects is conflicting [PMID:18204104].
+- Proposed American-ginseng cognitive mechanisms include frontoparietal activation, gut-microbiome changes and cholinergic modulation [PMID:41017752].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---------+--------------------+-----------+-------------+-----------------------+-----------|
-| Cardiovascular biomarkers | 45-RCT meta-analysis | small improvements | SBP −2.57 mmHg; LDL-C −2.81 mg/dL; substantial heterogeneity | low | PMID:39387709 |
-| Cognition in impairment | RCT meta-analysis | possible improvement | pooled cognitive scales; magnitude depends on instrument | low | PMID:40774237 |
-| Exercise muscle damage | systematic review of 13 RCTs | inconsistent | 11 studies reported some positive outcomes, two no effect | very low | PMID:38888561 |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| General / chronic fatigue | SR/MA (19 RCTs); MA (12 RCTs, n=1298); MA (4 RCTs) | Small benefit; inconsistent | Overall SMD -0.36 (95% CI -0.82 to 0.11, NS); general fatigue SMD -0.48 (-0.71 to -0.25); disease-related fatigue SMD 0.33 (reported CI 0.44-0.22) | low | [PMID:36730693] [PMID:35776997] [PMID:27822924] |
+| Cancer-related fatigue | Phase III RCT (American ginseng 2 g/d, n=364); SR/MAs; ASCO-SIO guideline | Benefit during treatment; MAs mixed | MFSI-SF general change 20 vs 10.3 at 8 wk (P=.003); MA SMD -0.21 (-0.42 to 0.00); ginseng subgroup NS in 2026 MA (GRADE very low) | low | [PMID:23853057] [PMID:35184068] [PMID:41745077] [PMID:38754041] |
+| Cognition, healthy adults | Cochrane SR (9 RCTs); MA (15 RCTs, n=671) | Memory only, small | Memory SMD 0.19 (0.02-0.36); overall cognition SMD 0.06 (-0.64 to 0.77); Cochrane: no convincing evidence | low | [PMID:21154383] [PMID:39474788] |
+| Cognition, MCI/AD/dementia | SR/MA (9 RCTs, n=617); SR/MA (8 RCTs) | Small benefit, below clinical threshold | MMSE MD 0.38 (0.03-0.74); ADAS-Cog MD -2.21 (-3.97 to -0.44); second MA MMSE MD 0.68, ADAS-Cog MD -1.10 | low | [PMID:41863264] [PMID:40774237] |
+| Fasting glucose | SR/MA (16 RCTs >=30 d) | Small decrease | FBG MD -0.31 mmol/L (-0.59 to -0.03); no effect on insulin, HbA1c, HOMA-IR | low | [PMID:25265315] [PMID:40923100] |
+| Postprandial glucose / HbA1c (American ginseng) | Acute crossover RCTs; 8-wk crossover RCT in T2DM (n=24) | Decrease | Postprandial AUC -18% to -22%; HbA1c -0.29%, FBG -0.71 mmol/L vs placebo | low | [PMID:10761967] [PMID:29478187] [PMID:12571655] |
+| Erectile dysfunction | Cochrane SR (9 RCTs, n=587); 2026 MA; AFU/SFMS synthesis | Trivial benefit | IIEF-EF MD 3.52 (1.79-5.25; below MCID 4); IIEF-5 MD 2.39 (0.89-3.88); self-reported intercourse RR 2.55 | low | [PMID:33871063] [PMID:41696741] [PMID:42229757] |
+| Common cold / ARI prevention (American ginseng) | SR (5 RCTs, n=747) | Shorter duration; incidence NS | Incidence RR 0.70 (0.48-1.02); duration -6.2 days (3.4-9.0; 2 trials) | low | [PMID:19592479] [PMID:16566675] |
+| Influenza vaccine response / colds (G115) | Single RCT (n=227) | Benefit | Colds/flu 15 vs 42 cases; antibody titre 272 vs 171 units | very low | [PMID:8879982] |
+| COPD exacerbations | RCT (G115 200 mg twice daily, n=200, 24 wk) | No effect | Exacerbation rate not different at 12 months | moderate | [PMID:32273696] |
+| Blood pressure | MA (17 RCTs, n=1381); MA (45 RCTs); dose-response MA (70 studies) | Neutral to small decrease | MA 2016: no significant SBP/DBP effect; MA 2024: SBP -2.57 mmHg (-4.99 to -0.14); MA 2025: no BP effect | low | [PMID:27074879] [PMID:39387709] [PMID:40923100] |
+| Lipids / CRP / IL-6 | MA (45 RCTs); dose-response MA | Small improvement; heterogeneous | LDL-C -2.81 mg/dL; CRP -0.41 mg/L; IL-6 -2.82 pg/mL; hs-CRP SMD -0.23; 2025 MA: no lipid effect | low | [PMID:39387709] [PMID:40923100] |
+| Vascular function | SR/MA (13 RCTs) | Improvement | FMD SMD 0.571; PWV SMD -0.29; AIx NS | low | [PMID:40646515] |
+| Menopausal symptoms / QoL | SR/MA (15 RCTs); 2026 RCT (n=112) | Small benefit | Menopausal symptoms SMD -0.40 (-0.73 to -0.07); hot flashes SMD -0.34; QoL SMD -0.31; no endometrial effect | low | [PMID:35691259] [PMID:41788586] |
+| Exercise performance / muscle damage | SRs; narrative review | No consistent benefit | Muscle-damage markers not attenuated (6 studies); athlete evidence "limited and preliminary" | low | [PMID:38888561] [PMID:27822924] [PMID:42588175] |
+| Liver enzymes | SR/MA (14 RCTs, n=992) | Neutral | No change in ALT/AST/GGT/ALP; small bilirubin rise at >=3 g/d | low | [PMID:32379697] |
+| Heart failure (ginseng berry saponin, adjunct) | SR/MA (32 RCTs, n=3476) | Surrogate improvement | LVEF MD 8.91; no hard endpoints; mostly low/very low GRADE | very low | [PMID:42100315] |
 
 ** Dosing in trials
-- Trial products and doses vary substantially; clinical trials commonly use standardized root extracts or red-ginseng preparations over weeks. The cardiovascular meta-analysis pooled heterogeneous formulations and schedules; it does not define a single effective dose [PMID:39387709].
+- Standardized P. ginseng extract G115: 100 mg/d for 12 weeks (vaccine trial) [PMID:8879982]; 200-400 mg single doses (cognition) [PMID:15982990]; 200 mg twice daily for 24 weeks (COPD) [PMID:32273696].
+- Korean red ginseng: 960 mg/d extract for 3 weeks (fatigue) [PMID:40453352]; 1 g/d for 6 weeks with warfarin [PMID:19913311]. A red ginseng root powder with 24 mg ginsenosides/day (200 mg/d) was used for 3 weeks for stress [PMID:40289951].
+- Healthy-volunteer safety RCT: P. ginseng extract 1-2 g/d for 4 weeks [PMID:22909282]. Pharmacokinetic study: 500 mg twice daily for 28 days [PMID:21646440].
+- Cognitive impairment: in subgroup analysis, 4.5 g/d was the dose that gave MMSE benefit [PMID:41863264].
+- Cancer-related fatigue: American ginseng 2000 mg/d for 8 weeks [PMID:23853057]. Standardized P. ginseng 250 mg/d for 4 weeks [PMID:41838185].
+- American ginseng and glycemia: 1-3 g taken 40 min before a glucose load gave equal effects across doses [PMID:10761967]. 1 g/meal (3 g/d) extract for 8 weeks was used in type 2 diabetes [PMID:29478187].
+- American ginseng (CVT-E002) for ARI prevention: 2 x 200 mg/d for 4 months [PMID:16566675]. Preventive use for 8-16 weeks shortened colds in an SR [PMID:19592479].
+- Higher doses of P. ginseng (>=3 g/d) were associated with small bilirubin increases [PMID:32379697].
 
 ** Safety & adverse effects
-- Short clinical trials have not established long-term safety; gastrointestinal symptoms, insomnia, headache, and blood-pressure/glucose changes are reported in clinical safety literature. Product variability limits extrapolation [PMID:39387709].
+- Trials: adverse events with ginseng monopreparations occur at rates similar to placebo. The most common are headache, sleep disturbance and gastrointestinal upset [PMID:12020172]. In the Cochrane ED review, adverse events were RR 1.45 (0.69-3.03; low certainty) [PMID:33871063]. A fatigue MA found no increase in adverse events [PMID:36730693].
+- Insomnia is the most common side effect [URL:https://www.nccih.nih.gov/health/asian-ginseng]. It was the main adverse event in the G115 vaccine trial [PMID:8879982]. Dyspepsia, hot flash, insomnia and constipation occurred in both arms of a 4-week healthy-volunteer RCT, with no laboratory changes [PMID:22909282].
+- EU-listed effects: stomach discomfort, nausea, vomiting, diarrhoea, constipation, urticaria/itching and insomnia (frequency unknown) [URL:https://www.ema.europa.eu/en/medicines/herbal/ginseng-radix].
+- Blood pressure: an uncontrolled 1979 report coined "ginseng abuse syndrome" [PMID:430716]. An early observational study raised concern about BP elevation [PMID:15998708]. However, RCT meta-analyses show neutral or slightly lowering effects [PMID:27074879] [PMID:39387709]. In hypertensive patients, acute American ginseng 3 g had a neutral effect on 160-minute mean BP [PMID:15998708].
+- Estrogen-like effects: reported cases include mastalgia (1978 letter) [PMID:656841] and postmenopausal vaginal bleeding attributed to topical ginseng face cream [PMID:3189445]. Ginsenoside Rb1 is a weak phytoestrogen in vitro [PMID:12568360].
+  - RCTs of Korean red ginseng found no effect on endometrial thickness [PMID:35691259]. A 2026 menopause RCT found no change in hormone levels or endometrial thickness, and included breast ultrasound in its safety assessment [PMID:41788586].
+- Psychiatric: ginseng was implicated in 5 of 35 published herbal mania case reports [PMID:30034348]. Two cases of manic psychosis with high-dose chronic use remitted within days of stopping [PMID:24689505].
+- Liver: no hepatotoxic or hepatoprotective signal in pooled RCTs [PMID:32379697]. Liver damage is listed as an uncommon reported effect [URL:https://www.nccih.nih.gov/health/asian-ginseng].
+- Bleeding: reviews list possible bleeding [PMID:37465522] [PMID:11448284]. However, an RCT found no clinically relevant effect on platelet function, PT/APTT or thrombin generation, alone or with aspirin [PMID:28732813].
+- Combination products containing ginseng account for more serious events than monopreparations, but causal attribution is usually not possible [PMID:12020172].
 
 ** Contraindications
-- No robust condition-specific contraindication trials were identified. Pregnancy/lactation and hormone-sensitive conditions have insufficient standardized-product safety evidence; frame as uncertainty rather than demonstrated harm [PMID:39387709].
+- Pregnancy and breastfeeding: not recommended in the EU monograph because of a lack of adequate data [URL:https://www.ema.europa.eu/en/medicines/herbal/ginseng-radix]. A ginsenoside has caused birth defects in animals [URL:https://www.nccih.nih.gov/health/asian-ginseng]. A systematic review advises caution, especially in the first trimester and during lactation [PMID:18204104].
+- Children and adolescents under 18: not recommended in the EU because of a lack of adequate data [URL:https://www.ema.europa.eu/en/medicines/herbal/ginseng-radix].
+- Known allergy to the plant [URL:https://www.ema.europa.eu/en/medicines/herbal/ginseng-radix].
+- Use with MAO inhibitors (phenelzine): case reports describe interactions [PMID:3597812] [PMID:11772128].
+- Bipolar disorder or history of mania: case reports of ginseng-associated mania [PMID:24689505] [PMID:30034348].
 
 ** Interactions
-- Drugs, supplements, conditions, and relevant laboratory interference are summarized in the structured interaction object. Potential additive glucose lowering or blood-pressure effects are plausible from biomarker RCT meta-analysis; clinical interaction magnitude remains uncertain [PMID:39387709]. No genotype-specific claim is made because no directly relevant pharmacogenomic source was identified.
+*** Drugs
+- Warfarin: in a double-blind RCT in 20 healthy volunteers, American ginseng lowered peak INR (difference -0.19, 95% CI -0.36 to -0.07). INR AUC, peak warfarin level and warfarin AUC also fell [PMID:15238367]. P. ginseng / Korean red ginseng showed no significant INR effect in ischemic stroke patients [PMID:18637764], in valve-replacement patients on warfarin (crossover RCT) [PMID:19913311] or in healthy subjects [PMID:15089812].
+  - An SR of herb-warfarin RCTs found that only American ginseng altered warfarin pharmacodynamics [PMID:28797065]. Monitoring INR is still suggested [PMID:27864798].
+- MAO inhibitors (phenelzine): case reports of interaction [PMID:3597812]. A systematic review reports that ginseng "induces mania if used concomitantly with phenelzine" [PMID:11772128] [PMID:19719333] [PMID:12020172].
+- Antidiabetic agents: ginseng lowers fasting glucose [PMID:25265315] and postprandial glucose [PMID:10761967]. American ginseng added to conventional therapy lowered HbA1c by 0.29% [PMID:29478187]. Hypoglycemia is a listed perioperative concern [PMID:11448284], and diabetes is flagged for clinician consultation [URL:https://www.nccih.nih.gov/health/asian-ginseng].
+- CYP3A4 substrates: 28 days of P. ginseng 500 mg twice daily lowered midazolam AUC (GMR 0.66, 0.55-0.78) and Cmax (0.74), consistent with weak CYP3A induction [PMID:21646440]. Red ginseng probe-cocktail studies found no clinically relevant CYP3A4 effect [PMID:30078466] [PMID:27495955].
+  - Overall, interactions appear rare but warrant monitoring with narrow-therapeutic-index CYP3A substrates [PMID:27864798].
+- Imatinib: case of acute lobular hepatitis (ALT 1069 U/L) in a man on imatinib for 7 years after 3 months of daily P. ginseng in energy drinks. Horn scale: probable interaction, proposed via CYP3A4. Re-challenge with imatinib alone caused no recurrence [PMID:20332334].
+- P-gp substrates: fermented red ginseng raised fexofenadine AUC (GMR 1.322, 1.112-1.571) [PMID:27495955]. A P. ginseng study found no fexofenadine change [PMID:21646440].
+- Digoxin: interference is with the assay rather than true pharmacokinetics. See Lab-test interference.
+- Antiplatelet drugs / aspirin: no additive platelet inhibition with aspirin in an RCT [PMID:28732813]. Perioperative reviews still list bleeding risk [PMID:11448284].
+- Immunosuppressants: ginseng's immunostimulatory profile [PMID:41475897] could in theory oppose immunosuppression. This is mechanistic only; no interaction study was found.
+*** Other supplements
+- Caffeine: ginseng is a common energy-drink ingredient alongside caffeine. Caffeine and carbohydrate appear to be the primary ergogenic components [PMID:36862943]. Additive stimulation and insomnia are a mechanistic inference from ginseng's insomnia signal [URL:https://www.nccih.nih.gov/health/asian-ginseng]. The imatinib-hepatotoxicity case involved ginseng taken via energy drinks [PMID:20332334].
+- Ashwagandha ("Indian ginseng"): it also produces digoxin-like immunoreactivity on FPIA/MEIA assays [PMID:16040294]. It is also among the strongest-evidence immunostimulatory herbs [PMID:41475897]. Additive assay interference and immunostimulation are possible.
+- Rhodiola Rosea, Eleutherococcus: overlapping adaptogen mechanisms (HPA axis, stress-response pathways) [PMID:41901106]. Exercise evidence for Panax and Rhodiola is limited and preliminary, while it is more consistent for ashwagandha [PMID:42588175]. No clinical interaction data exist.
+- Siberian ginseng (Eleutherococcus) is a different plant. A case of raised measured digoxin levels involved Siberian, not Panax, ginseng [PMID:8705908].
+*** Conditions
+- Pregnancy, lactation, children, mania/bipolar disorder: see Contraindications.
+- Diabetes: glucose-lowering may add to medication effects [PMID:25265315] [PMID:29478187].
+- Hypertension: RCT evidence is neutral or slightly lowering [PMID:27074879] [PMID:39387709]. Older reports of BP elevation [PMID:430716] justify monitoring rather than avoidance.
+- Estrogen-sensitive conditions: in vitro estrogenic activity [PMID:12568360] and case reports of mastalgia and vaginal bleeding [PMID:656841] [PMID:3189445]. Human evidence on estrogenic effects is conflicting [PMID:18204104].
+- Autoimmune disease: ginseng may worsen autoimmune disorders [URL:https://www.nccih.nih.gov/health/asian-ginseng] [PMID:41475897].
+- Surgery: perioperative concerns are bleeding and hypoglycemia; a JAMA review advises eliciting herbal use preoperatively [PMID:11448284].
+*** Lab-test interference
+- Serum digoxin immunoassays: Asian, American and Indian ginsengs falsely raise digoxin on FPIA and falsely lower it on MEIA. Tina-quant was free of interference [PMID:16040294]. In digoxin-patient serum, Asian ginseng raised FPIA digoxin to 1.54 ng/mL vs 1.10 ng/mL control. Digoxin-like immunoreactivity varied greatly between commercial products [PMID:12580002].
+  - Newer LOCI and ARCHITECT assays showed negligible or no interference [PMID:21860344] [PMID:24659366].
+- Glucose: real (not artifactual) acute reductions in blood glucose [PMID:15982990] [PMID:10761967].
+- Bilirubin: small real rise at >=3 g/d [PMID:32379697].
 
 ** Genotype notes
-- No directly relevant, clinically validated pharmacogenomic/nutrigenomic source was identified in the sources reviewed.
+No cited pharmacogenomic or nutrigenomic source found.
 
 ** Latest research
-- 2025: systematic review/meta-analysis of randomized trials in cognitively impaired populations reported cognitive-scale outcomes; study populations and preparations vary [PMID:40774237].
+- [2026-08] AFU/SFMS secondary synthesis: ginseng shows only a "modest low-certainty" signal for ED; routine phytotherapy is not recommended [PMID:42229757].
+- [2026-03] Cancer survivor RCT (n=65, P. ginseng 250 mg/d, 4 wk): BFI adjusted MD -1.38 (-1.90 to -0.86); no treatment-related AEs [PMID:41838185].
+- [2026-03] MCI/AD/dementia MA (9 RCTs, n=617): MMSE MD 0.38; ADAS-Cog MD -2.21; below clinical significance [PMID:41863264].
+- [2026-03] Korean red ginseng RCT in T2DM/impaired glucose regulation: within-group FBG 6.44 to 6.19 mmol/L, HbA1c 6.27% to 6.12% [PMID:41788588].
+- [2026-03] Red ginseng beverage RCT in menopause (n=112, 90 d): improved Kupperman Index; no change in hormones or endometrial thickness [PMID:41788586].
+- [2026-02] American ginseng neurocognition review: attention/working-memory benefits at 100-400 mg in healthy adults [PMID:41017752].
+- [2026-01] Phytotherapy for cancer-related fatigue MA (14 RCTs): ginseng subgroup not significant; GRADE very low [PMID:41745077].
+- [2026-01] Herbal ED MA (14 RCTs, n=1227): ginseng benefited erectile function, sexual desire and testosterone [PMID:41696741].
+- [2026-01] Ginseng berry extract RCT in andropause (n=116, 700 mg/d): AMS and IIEF improved vs placebo [PMID:40583012].
+- [2025-10] CVD risk-factor dose-response MA (70 studies, n=4506): hs-CRP SMD -0.23; no effect on BP, lipids or glycaemia [PMID:40923100].
+- [2025-07] G1899 Korean red ginseng in long COVID (n=216 completers): fatigue relief in women at 12 weeks [PMID:40621076].
+- [2025] Cognition MA (8 RCTs): MMSE MD 0.68; ADAS-Cog MD -1.10 [PMID:40774237].
+- [2025-05] Korean red ginseng 960 mg/d in healthy Japanese adults (n=46): fatigue VAS improved; no safety signal [PMID:40453352].
+- [2025-03] Red ginseng (24 mg ginsenosides/d) in stressed adults (n=149): larger PSS and negative-affect reductions vs placebo [PMID:40289951].
+- [2024-12] Cognition MA (15 RCTs, n=671): memory SMD 0.19; no overall cognition effect [PMID:39474788].
+- [2024-12] CV-biomarker MA (45 RCTs): SBP -2.57 mmHg, LDL-C -2.81 mg/dL; high heterogeneity [PMID:39387709].
 
 ** Open questions
-- Which ginsenoside profile, preparation, dose, and patient subgroup drive reproducible clinical effects? Long-term outcome trials are lacking [PMID:39387709].
+- Which ginsenoside profile, preparation (white, red, fermented, berry, American) and dose gives reproducible effects? Product variability is well documented [PMID:12571655] [PMID:32148399].
+- Whether the small effects on fatigue, memory and ED are clinically meaningful, given small, short, mostly Asian-sited trials of unclear risk of bias [PMID:37465522] [PMID:33871063].
+- Long-term (>6 months) safety. Short-term use appears safe, but long-term safety has been questioned [URL:https://www.nccih.nih.gov/health/asian-ginseng].
+- Pregnancy and lactation safety. Human data are limited [PMID:18204104].
+- Whether the American-ginseng warfarin interaction applies to Panax ginseng products and to anticoagulated patients [PMID:15238367] [PMID:19913311].
+- Clinical relevance of CYP3A induction and P-gp inhibition, which differ by product [PMID:21646440] [PMID:27495955] [PMID:30078466].
 
 ** Sources
-- PMID:39387709
-- PMID:40774237
-- PMID:38888561
+1. Li X et al. Ginseng and Ginseng Herbal Formulas for Symptomatic Management of Fatigue: A Systematic Review and Meta-Analysis. J Integr Complement Med. 2023. PMID:36730693 DOI:10.1089/jicm.2022.0532
+2. Zhu J et al. Efficacy of ginseng supplements on disease-related fatigue: A systematic review and meta-analysis. Medicine (Baltimore). 2022. PMID:35776997 DOI:10.1097/MD.0000000000029767
+3. Bach HV et al. Efficacy of Ginseng Supplements on Fatigue and Physical Performance: a Meta-analysis. J Korean Med Sci. 2016. PMID:27822924 DOI:10.3346/jkms.2016.31.12.1879
+4. Luo WT et al. Effects of Ginseng on Cancer-Related Fatigue: A Systematic Review and Meta-analysis of Randomized Controlled Trials. Cancer Nurs. 2023. PMID:35184068 DOI:10.1097/NCC.0000000000001068
+5. Matsas S et al. Efficacy of Phytotherapy for Cancer-Related Fatigue: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. Diseases. 2026. PMID:41745077 DOI:10.3390/diseases14020039
+6. Barton DL et al. Wisconsin Ginseng (Panax quinquefolius) to improve cancer-related fatigue: a randomized, double-blind trial, N07C2. J Natl Cancer Inst. 2013. PMID:23853057 DOI:10.1093/jnci/djt181
+7. Bower JE et al. Management of Fatigue in Adult Survivors of Cancer: ASCO-Society for Integrative Oncology Guideline Update. J Clin Oncol. 2024. PMID:38754041 DOI:10.1200/JCO.24.00541
+8. Rahmani A et al. The effect of ginseng extract on fatigue in cancer survivors: a randomized double-blind clinical trial. Support Care Cancer. 2026. PMID:41838185 DOI:10.1007/s00520-026-10398-3
+9. Lee YG et al. Anti-fatigue effects of Korean Red Ginseng extract in healthy Japanese adults: A randomized, double-blind, placebo-controlled study. J Ginseng Res. 2025. PMID:40453352 DOI:10.1016/j.jgr.2024.12.003
+10. Li Z et al. Ginseng and health outcomes: an umbrella review. Front Pharmacol. 2023. PMID:37465522 DOI:10.3389/fphar.2023.1069268
+11. Zeng M et al. Effects of Ginseng on Cognitive Function: A Systematic Review and Meta-Analysis. Phytother Res. 2024. PMID:39474788 DOI:10.1002/ptr.8359
+12. Chen N et al. Ginseng for Cognitive Function in Elderly Adults with Mild Cognitive Impairment, Alzheimer's Disease, or Dementia: A Systematic Review and Meta-Analysis. Curr Neuropharmacol. 2026. PMID:41863264 DOI:10.2174/011570159X415818251222083130
+13. Geng J et al. Ginseng for cognition. Cochrane Database Syst Rev. 2010. PMID:21154383 DOI:10.1002/14651858.CD007769.pub2
+14. Kim J et al. Cognitive Benefits of Ginseng: A Systematic Review and Meta-Analysis of Changes in MMSE and ADAS-Cog Scores. Complement Med Res. 2025. PMID:40774237 DOI:10.1159/000547543
+15. Reay JL et al. Single doses of Panax ginseng (G115) reduce blood glucose levels and improve cognitive performance during sustained mental activity. J Psychopharmacol. 2005. PMID:15982990 DOI:10.1177/0269881105053286
+16. Bell L et al. Effects of American ginseng (Panax quinquefolius) extract on human neurocognitive function: a review. Nutr Neurosci. 2026. PMID:41017752 DOI:10.1080/1028415X.2025.2555921
+17. Dormal V et al. Effect of Hydroponically Grown Red Panax Ginseng on Perceived Stress Level, Emotional Processing, and Cognitive Functions in Moderately Stressed Adults: A Randomized, Double-Blind, Placebo-Controlled Study. Nutrients. 2025. PMID:40289951 DOI:10.3390/nu17060955
+18. Shishtar E et al. The effect of ginseng (the genus panax) on glycemic control: a systematic review and meta-analysis of randomized controlled clinical trials. PLoS One. 2014. PMID:25265315 DOI:10.1371/journal.pone.0107391
+19. Vuksan V et al. American ginseng (Panax quinquefolius L) reduces postprandial glycemia in nondiabetic subjects and subjects with type 2 diabetes mellitus. Arch Intern Med. 2000. PMID:10761967 DOI:10.1001/archinte.160.7.1009
+20. Sievenpiper JL et al. Variable effects of American ginseng: a batch with a depressed ginsenoside profile does not affect postprandial glycemia. Eur J Clin Nutr. 2003. PMID:12571655 DOI:10.1038/sj.ejcn.1601550
+21. Vuksan V et al. Efficacy and safety of American ginseng extract on glycemic control and cardiovascular risk factors in individuals with type 2 diabetes: a double-blind, randomized, cross-over clinical trial. Eur J Nutr. 2019. PMID:29478187 DOI:10.1007/s00394-018-1642-0
+22. Tan G et al. Clinical randomized controlled trial and network pharmacological analysis of blood glucose regulation by Korean red ginseng in patients with type 2 diabetes and impaired glucose regulation. J Ginseng Res. 2026. PMID:41788588 DOI:10.1016/j.jgr.2025.11.005
+23. Lee HW et al. Ginseng for erectile dysfunction. Cochrane Database Syst Rev. 2021. PMID:33871063 DOI:10.1002/14651858.CD012654.pub2
+24. Ho CY et al. Herbal dietary supplements for erectile dysfunction: A systematic review and meta-analysis of randomized-controlled trials. J Tradit Complement Med. 2026. PMID:41696741 DOI:10.1016/j.jtcme.2025.11.001
+25. Lebacle C et al. Phytotherapies and complementary therapies for erectile dysfunction: A focused secondary synthesis of the AFU/SFMS evidence base. Fr J Urol. 2026. PMID:42229757 DOI:10.1016/j.fjurol.2026.103138
+26. Park SY et al. Efficacy and Safety of Ginseng Berry Extract (SIRTBERRY) in Treating Andropause Symptoms: A Randomized, Double-Blind, Placebo-Controlled Clinical Trial. World J Mens Health. 2026. PMID:40583012 DOI:10.5534/wjmh.240311
+27. Komishon AM et al. The effect of ginseng (genus Panax) on blood pressure: a systematic review and meta-analysis of randomized controlled clinical trials. J Hum Hypertens. 2016. PMID:27074879 DOI:10.1038/jhh.2016.18
+28. Zhang XF et al. Effects of Ginseng Consumption on Cardiovascular Health Biomarkers in Adults: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. Phytother Res. 2024. PMID:39387709 DOI:10.1002/ptr.8339
+29. Jafari A et al. The effect of ginseng supplementation on CVD risk factors: a comprehensive systematic review and dose-response meta-analysis. Br J Nutr. 2025. PMID:40923100 DOI:10.1017/S0007114525103607
+30. Esmaeili A et al. Ginseng supplementation and vascular function: a systematic review and meta-analysis of clinical trials. BMC Complement Med Ther. 2025. PMID:40646515 DOI:10.1186/s12906-025-04936-5
+31. Stavro PM et al. North American ginseng exerts a neutral effect on blood pressure in individuals with hypertension. Hypertension. 2005. PMID:15998708 DOI:10.1161/01.HYP.0000173424.77483.1e
+32. Wang J et al. The efficacy and safety of ginseng berry saponin for heart failure: a systematic review and meta-analysis. Front Pharmacol. 2026. PMID:42100315 DOI:10.3389/fphar.2026.1712401
+33. Seida JK et al. North American (Panax quinquefolius) and Asian Ginseng (Panax ginseng) Preparations for Prevention of the Common Cold in Healthy Adults: A Systematic Review. Evid Based Complement Alternat Med. 2011. PMID:19592479 DOI:10.1093/ecam/nep068
+34. McElhaney JE et al. Efficacy of COLD-fX in the prevention of respiratory symptoms in community-dwelling adults: a randomized, double-blinded, placebo controlled trial. J Altern Complement Med. 2006. PMID:16566675 DOI:10.1089/acm.2006.12.153
+35. Scaglione F et al. Efficacy and safety of the standardised Ginseng extract G115 for potentiating vaccination against the influenza syndrome and protection against the common cold. Drugs Exp Clin Res. 1996. PMID:8879982
+36. Chen Y et al. Effect of Panax Ginseng (G115) Capsules versus Placebo on Acute Exacerbations in Patients with Moderate to Very Severe COPD: A Randomized Controlled Trial. Int J Chron Obstruct Pulmon Dis. 2020. PMID:32273696 DOI:10.2147/COPD.S236425
+37. Seo IH et al. The effects of G1899 Korean red ginseng extract powder on long COVID for acute COVID19 infection: A randomized, double-blind, placebo-controlled trial. J Ginseng Res. 2025. PMID:40621076 DOI:10.1016/j.jgr.2025.04.007
+38. Lee HW et al. Using ginseng for menopausal women's health care: A systematic review of randomized placebo-controlled trials. Complement Ther Clin Pract. 2022. PMID:35691259 DOI:10.1016/j.ctcp.2022.101615
+39. Wang X et al. Effect of red ginseng beverage on menopausal symptoms in Chinese women: A randomized, double-blind, placebo-controlled clinical trial. J Ginseng Res. 2026. PMID:41788586 DOI:10.1016/j.jgr.2025.12.004
+40. Morgans R et al. The effect of Panax ginseng supplementation on markers of resistance exercise-induced muscle damage: a systematic review. J Sports Med Phys Fitness. 2024. PMID:38888561 DOI:10.23736/S0022-4707.24.15832-X
+41. Ksiazek A. Current Evidence and Practical Considerations for Adaptogen Use in Exercise Recovery, Training Adaptation, and Exercise Performance in Athletes: A Narrative Review. Nutrients. 2026. PMID:42588175 DOI:10.3390/nu18152552
+42. Ghavami A et al. Benefits and harms of ginseng supplementation on liver function? A systematic review and meta-analysis. Complement Ther Clin Pract. 2020. PMID:32379697 DOI:10.1016/j.ctcp.2020.101173
+43. Coon JT et al. Panax ginseng: a systematic review of adverse effects and drug interactions. Drug Saf. 2002. PMID:12020172 DOI:10.2165/00002018-200225050-00003
+44. Lee NH et al. Safety and tolerability of Panax ginseng root extract: a randomized, placebo-controlled, clinical trial in healthy Korean volunteers. J Altern Complement Med. 2012. PMID:22909282 DOI:10.1089/acm.2011.0591
+45. Seely D et al. Safety and efficacy of panax ginseng during pregnancy and lactation. Can J Clin Pharmacol. 2008. PMID:18204104
+46. Norelli LJ et al. Manic psychosis associated with ginseng: a report of two cases and discussion of the literature. J Diet Suppl. 2015. PMID:24689505 DOI:10.3109/19390211.2014.902001
+47. Bostock E et al. Mania Associated With Herbal Medicines, Other Than Cannabis: A Systematic Review and Quality Assessment of Case Reports. Front Psychiatry. 2018. PMID:30034348 DOI:10.3389/fpsyt.2018.00280
+48. Dukes MN. Ginseng and mastalgia. Br Med J. 1978. PMID:656841 DOI:10.1136/bmj.1.6127.1621-a
+49. Siegel RK. Ginseng abuse syndrome. Problems with the panacea. JAMA. 1979. PMID:430716
+50. Hopkins MP et al. Ginseng face cream and unexplained vaginal bleeding. Am J Obstet Gynecol. 1988. PMID:3189445 DOI:10.1016/0002-9378(88)90426-7
+51. Lee YJ et al. Ginsenoside-Rb1 acts as a weak phytoestrogen in MCF-7 human breast cancer cells. Arch Pharm Res. 2003. PMID:12568360 DOI:10.1007/BF03179933
+52. Weiner JD et al. Identifying immunostimulatory herbal supplements that may flare autoimmune skin diseases: a systematic scoping review. Lupus Sci Med. 2025. PMID:41475897 DOI:10.1136/lupus-2025-001803
+53. Yuan CS et al. Brief communication: American ginseng reduces warfarin's effect in healthy patients: a randomized, controlled Trial. Ann Intern Med. 2004. PMID:15238367 DOI:10.7326/0003-4819-141-1-200407060-00011
+54. Lee SH et al. Interaction between warfarin and Panax ginseng in ischemic stroke patients. J Altern Complement Med. 2008. PMID:18637764 DOI:10.1089/acm.2007.0799
+55. Lee YH et al. Interaction between warfarin and Korean red ginseng in patients with cardiac valve replacement. Int J Cardiol. 2010. PMID:19913311 DOI:10.1016/j.ijcard.2009.09.553
+56. Jiang X et al. Effect of St John's wort and ginseng on the pharmacokinetics and pharmacodynamics of warfarin in healthy subjects. Br J Clin Pharmacol. 2004. PMID:15089812 DOI:10.1111/j.1365-2125.2003.02051.x
+57. Choi S et al. A systematic review of the pharmacokinetic and pharmacodynamic interactions of herbal medicine with warfarin. PLoS One. 2017. PMID:28797065 DOI:10.1371/journal.pone.0182794
+58. Jones BD et al. Interaction of ginseng with phenelzine. J Clin Psychopharmacol. 1987. PMID:3597812 DOI:10.1097/00004714-198706000-00030
+59. Izzo AA et al. Interactions between herbal medicines and prescribed drugs: a systematic review. Drugs. 2001. PMID:11772128 DOI:10.2165/00003495-200161150-00002
+60. Izzo AA et al. Interactions between herbal medicines and prescribed drugs: an updated systematic review. Drugs. 2009. PMID:19719333 DOI:10.2165/11317010-000000000-00000
+61. Malati CY et al. Influence of Panax ginseng on cytochrome P450 (CYP)3A and P-glycoprotein (P-gp) activity in healthy participants. J Clin Pharmacol. 2012. PMID:21646440 DOI:10.1177/0091270011407194
+62. Kim MG et al. Effect of fermented red ginseng on cytochrome P450 and P-glycoprotein activity in healthy subjects, as evaluated using the cocktail approach. Br J Clin Pharmacol. 2016. PMID:27495955 DOI:10.1111/bcp.13080
+63. Seong SJ et al. A Comprehensive In Vivo and In Vitro Assessment of the Drug Interaction Potential of Red Ginseng. Clin Ther. 2018. PMID:30078466 DOI:10.1016/j.clinthera.2018.06.017
+64. Ramanathan MR et al. Pharmacokinetic Drug Interactions with Panax ginseng. Eur J Drug Metab Pharmacokinet. 2017. PMID:27864798 DOI:10.1007/s13318-016-0387-5
+65. Bilgi N et al. Imatinib and Panax ginseng: a potential interaction resulting in liver toxicity. Ann Pharmacother. 2010. PMID:20332334 DOI:10.1345/aph.1M715
+66. Fung FY et al. A randomized, double-blind, placebo-controlled study on the anti-haemostatic effects of Curcuma longa, Angelica sinensis and Panax ginseng. Phytomedicine. 2017. PMID:28732813 DOI:10.1016/j.phymed.2017.04.004
+67. Ang-Lee MK et al. Herbal medicines and perioperative care. JAMA. 2001. PMID:11448284 DOI:10.1001/jama.286.2.208
+68. Dasgupta A et al. Effect of Asian and Siberian ginseng on serum digoxin measurement by five digoxin immunoassays. Am J Clin Pathol. 2003. PMID:12580002 DOI:10.1309/34BJ-ECP7-UK6F-H13V
+69. Dasgupta A et al. Effect of Brazilian, Indian, Siberian, Asian, and North American ginseng on serum digoxin measurement by immunoassays and binding with Digibind. Am J Clin Pathol. 2005. PMID:16040294 DOI:10.1309/UTFT-K2LH-1RMH-CBD7
+70. Dasgupta A et al. Effect of Chinese medicines Chan Su, Asian ginseng, Siberian ginseng, and American ginseng on a new digoxin immunoassay based on luminescent oxygen channeling technology. Ther Drug Monit. 2011. PMID:21860344 DOI:10.1097/FTD.0b013e3182252103
+71. Baugher BW et al. Digoxin immunoassays on the ARCHITECT i2000SR and ARCHITECT c8000 analyzers are free from interferences of Asian, Siberian, and American ginseng. J Clin Lab Anal. 2015. PMID:24659366 DOI:10.1002/jcla.21714
+72. McRae S. Elevated serum digoxin levels in a patient taking digoxin and Siberian ginseng. CMAJ. 1996. PMID:8705908
+73. Bilia AR et al. The G115 standardized ginseng extract: an example for safety, efficacy, and quality of an herbal medicine. J Ginseng Res. 2020. PMID:32148399 DOI:10.1016/j.jgr.2019.06.003
+74. Ban MS et al. Pharmacokinetics of Ginsenoside Compound K From a Compound K Fermentation Product, CK-30, and From Red Ginseng Extract in Healthy Korean Subjects. Clin Pharmacol Drug Dev. 2021. PMID:33884767 DOI:10.1002/cpdd.949
+75. Patyra A et al. Eleutherococcus root: a comprehensive review of its phytochemistry and pharmacological potential in the context of its adaptogenic effect. Front Pharmacol. 2025. PMID:41235111 DOI:10.3389/fphar.2025.1683795
+76. Such S et al. System-Level, Molecular and Cellular Mechanisms of Selected Plant Adaptogens-A Review. Nutrients. 2026. PMID:41901106 DOI:10.3390/nu18060931
+77. Jagim AR et al. International society of sports nutrition position stand: energy drinks and energy shots. J Int Soc Sports Nutr. 2023. PMID:36862943 DOI:10.1080/15502783.2023.2171314
+78. European Medicines Agency, HMPC. Ginseng radix - herbal medicinal product (EU herbal monograph summary, Panax ginseng C.A. Mey., radix). URL:https://www.ema.europa.eu/en/medicines/herbal/ginseng-radix
+79. NCCIH. Asian Ginseng (fact sheet). URL:https://www.nccih.nih.gov/health/asian-ginseng

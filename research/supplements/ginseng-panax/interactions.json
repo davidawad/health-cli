@@ -6,27 +6,359 @@
     "Panax ginseng",
     "Asian ginseng",
     "Korean ginseng",
-    "red ginseng"
+    "Korean red ginseng",
+    "red ginseng",
+    "white ginseng",
+    "Ginseng radix",
+    "G115",
+    "Ginsana",
+    "Panax quinquefolius",
+    "American ginseng",
+    "North American ginseng",
+    "COLD-fX",
+    "CVT-E002"
   ],
   "category": "botanical",
   "rx_status": "otc",
   "evidence_certainty_overall": "low",
   "edges": [
     {
+      "with": "warfarin",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "American ginseng lowered peak INR (-0.19, 95% CI -0.36 to -0.07), INR AUC and plasma warfarin levels; Panax ginseng / Korean red ginseng showed no significant INR change in patients or healthy subjects.",
+      "evidence": "1 RCT (American ginseng, n=20 healthy volunteers) positive; 3 RCTs with P. ginseng/KRG null; SR of herb-warfarin RCTs; low certainty",
+      "citations": [
+        "PMID:15238367",
+        "PMID:18637764",
+        "PMID:19913311",
+        "PMID:15089812",
+        "PMID:28797065",
+        "PMID:27864798"
+      ]
+    },
+    {
+      "with": "MAO inhibitors",
+      "with_kind": "drug-class",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Case reports of interaction with phenelzine; systematic reviews report mania with concomitant phenelzine; pharmacodynamic CNS stimulation.",
+      "evidence": "Case reports summarized in systematic reviews; very low certainty",
+      "citations": [
+        "PMID:3597812",
+        "PMID:11772128",
+        "PMID:19719333",
+        "PMID:12020172"
+      ]
+    },
+    {
       "with": "antidiabetic agents",
       "with_kind": "drug-class",
       "kind": "monitor",
-      "severity": "minor",
-      "mechanism": "Trials report small glucose-related biomarker changes; additive effect is possible but clinical interaction data are limited.",
-      "evidence": "Trials report small glucose-related biomarker changes; additive effect is possible but clinical interaction data are limited.",
+      "severity": "moderate",
+      "mechanism": "Additive glucose lowering: FBG -0.31 mmol/L in MA; American ginseng reduced postprandial glycemia and lowered HbA1c 0.29% as add-on to conventional therapy; hypoglycemia listed as perioperative concern.",
+      "evidence": "MA of 16 RCTs, acute and 8-week crossover RCTs, review; low certainty",
       "citations": [
-        "PMID:39387709"
+        "PMID:25265315",
+        "PMID:10761967",
+        "PMID:29478187",
+        "PMID:11448284",
+        "URL:https://www.nccih.nih.gov/health/asian-ginseng"
+      ]
+    },
+    {
+      "with": "CYP3A4 substrates (e.g. midazolam)",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "P. ginseng 500 mg twice daily for 28 days lowered midazolam AUC (GMR 0.66) consistent with weak CYP3A induction; red ginseng cocktail studies showed no clinically relevant CYP3A4 change.",
+      "evidence": "Open-label PK studies in healthy volunteers; product-dependent; low certainty",
+      "citations": [
+        "PMID:21646440",
+        "PMID:30078466",
+        "PMID:27495955",
+        "PMID:27864798"
+      ]
+    },
+    {
+      "with": "imatinib",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Probable interaction (Horn scale) causing acute hepatitis (ALT 1069 U/L) after 3 months of ginseng in energy drinks in a patient stable on imatinib for 7 years; proposed via CYP3A4; no recurrence on imatinib re-challenge without ginseng.",
+      "evidence": "Single case report; very low certainty",
+      "citations": [
+        "PMID:20332334"
+      ]
+    },
+    {
+      "with": "P-glycoprotein substrates (e.g. fexofenadine)",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Fermented red ginseng raised fexofenadine AUC (GMR 1.322); P. ginseng extract did not change fexofenadine pharmacokinetics.",
+      "evidence": "Two small PK studies with conflicting results; low certainty",
+      "citations": [
+        "PMID:27495955",
+        "PMID:21646440"
+      ]
+    },
+    {
+      "with": "Aspirin",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Reviews list possible bleeding with ginseng, but an RCT found no added platelet inhibition with aspirin and no PT/APTT or thrombin-generation effect.",
+      "evidence": "RCT in healthy volunteers (n=25 per herb) plus reviews; low certainty",
+      "citations": [
+        "PMID:28732813",
+        "PMID:11448284",
+        "PMID:37465522"
+      ]
+    },
+    {
+      "with": "immunosuppressants",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Immunostimulatory activity (TLR activation, NF-kB/MAPK, pro-inflammatory cytokines) could theoretically oppose immunosuppression.",
+      "evidence": "Mechanistic inference from scoping review; no clinical interaction study",
+      "citations": [
+        "PMID:41475897"
+      ]
+    },
+    {
+      "with": "serum digoxin immunoassay",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "moderate",
+      "mechanism": "Digoxin-like immunoreactive components of Asian/American ginseng falsely raise digoxin on FPIA and falsely lower it on MEIA; Tina-quant, LOCI and ARCHITECT assays largely free of interference.",
+      "evidence": "In vitro and mouse studies across multiple assays; moderate certainty for assay-dependence",
+      "citations": [
+        "PMID:16040294",
+        "PMID:12580002",
+        "PMID:21860344",
+        "PMID:24659366"
+      ]
+    },
+    {
+      "with": "Caffeine",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Ginseng is co-formulated with caffeine in energy drinks; insomnia is ginseng's most common side effect, so additive stimulation/insomnia is plausible (mechanistic inference). The imatinib hepatotoxicity case involved ginseng taken via energy drinks.",
+      "evidence": "Mechanistic inference; position stand and case report; very low certainty",
+      "citations": [
+        "PMID:36862943",
+        "URL:https://www.nccih.nih.gov/health/asian-ginseng",
+        "PMID:20332334"
+      ]
+    },
+    {
+      "with": "Ashwagandha",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Ashwagandha ('Indian ginseng') also produces digoxin-like immunoreactivity on FPIA/MEIA, and both are among the herbs with the strongest immunostimulatory evidence; additive assay interference and immunostimulation possible.",
+      "evidence": "In vitro assay studies and scoping review; mechanistic inference; very low certainty",
+      "citations": [
+        "PMID:16040294",
+        "PMID:41475897"
+      ]
+    },
+    {
+      "with": "Rhodiola Rosea",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Overlapping adaptogen mechanisms (HPA-axis regulation, stress-response pathways); duplicate adaptogen stacking has no clinical interaction data.",
+      "evidence": "Mechanistic inference from reviews; no clinical interaction study",
+      "citations": [
+        "PMID:41901106",
+        "PMID:42588175"
+      ]
+    },
+    {
+      "with": "pregnancy",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "EU HMPC: not recommended for lack of adequate data; a ginsenoside caused birth defects in animals; systematic review advises caution especially in first trimester.",
+      "evidence": "Regulatory monograph, NCCIH fact sheet, systematic review; low certainty",
+      "citations": [
+        "URL:https://www.ema.europa.eu/en/medicines/herbal/ginseng-radix",
+        "URL:https://www.nccih.nih.gov/health/asian-ginseng",
+        "PMID:18204104"
+      ]
+    },
+    {
+      "with": "lactation",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "minor",
+      "mechanism": "No human lactation safety data; EU HMPC advises against use during breastfeeding.",
+      "evidence": "Regulatory monograph and systematic review; very low certainty",
+      "citations": [
+        "URL:https://www.ema.europa.eu/en/medicines/herbal/ginseng-radix",
+        "PMID:18204104"
+      ]
+    },
+    {
+      "with": "children and adolescents",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "minor",
+      "mechanism": "EU HMPC does not recommend use under 18 years because of lack of adequate data.",
+      "evidence": "Regulatory monograph",
+      "citations": [
+        "URL:https://www.ema.europa.eu/en/medicines/herbal/ginseng-radix"
+      ]
+    },
+    {
+      "with": "bipolar disorder / history of mania",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Ginseng implicated in 5 of 35 published herbal mania case reports; manic psychosis with high-dose chronic use remitting after withdrawal.",
+      "evidence": "Case reports and systematic review of case reports; very low certainty",
+      "citations": [
+        "PMID:30034348",
+        "PMID:24689505"
+      ]
+    },
+    {
+      "with": "hypertension",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Older uncontrolled reports ('ginseng abuse syndrome') raised BP concern, but RCT meta-analyses show neutral or slightly lowering effects (SBP -2.57 mmHg); acute American ginseng neutral in hypertensive patients.",
+      "evidence": "MAs of RCTs and acute RCT; low certainty",
+      "citations": [
+        "PMID:27074879",
+        "PMID:39387709",
+        "PMID:15998708",
+        "PMID:430716"
+      ]
+    },
+    {
+      "with": "estrogen-sensitive conditions",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Ginsenoside Rb1 is a weak ER-dependent phytoestrogen in vitro; case reports of mastalgia and postmenopausal vaginal bleeding; RCTs show no endometrial thickness change.",
+      "evidence": "In vitro study, case reports, SR of RCTs; conflicting; very low certainty",
+      "citations": [
+        "PMID:12568360",
+        "PMID:656841",
+        "PMID:3189445",
+        "PMID:35691259",
+        "PMID:18204104"
+      ]
+    },
+    {
+      "with": "autoimmune disease",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Immunostimulatory activity; NCCIH notes ginseng may worsen autoimmune disorders.",
+      "evidence": "Scoping review and agency fact sheet; very low certainty",
+      "citations": [
+        "PMID:41475897",
+        "URL:https://www.nccih.nih.gov/health/asian-ginseng"
+      ]
+    },
+    {
+      "with": "surgery (perioperative)",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Perioperative concerns: possible bleeding and hypoglycemia.",
+      "evidence": "Narrative review; very low certainty",
+      "citations": [
+        "PMID:11448284"
       ]
     }
   ],
   "citations": [
-    "PMID:38888561",
+    "PMID:41017752",
+    "PMID:16566675",
+    "PMID:12571655",
+    "PMID:32148399",
+    "PMID:12580002",
+    "PMID:33884767",
+    "PMID:41235111",
+    "PMID:16040294",
+    "PMID:41901106",
+    "PMID:10761967",
+    "PMID:15982990",
+    "PMID:40646515",
+    "PMID:29478187",
+    "PMID:40923100",
     "PMID:39387709",
-    "PMID:40774237"
+    "PMID:41475897",
+    "PMID:8879982",
+    "PMID:12568360",
+    "PMID:18204104",
+    "PMID:36730693",
+    "PMID:35776997",
+    "PMID:27822924",
+    "PMID:23853057",
+    "PMID:35184068",
+    "PMID:41745077",
+    "PMID:38754041",
+    "PMID:21154383",
+    "PMID:39474788",
+    "PMID:41863264",
+    "PMID:40774237",
+    "PMID:25265315",
+    "PMID:33871063",
+    "PMID:41696741",
+    "PMID:42229757",
+    "PMID:19592479",
+    "PMID:32273696",
+    "PMID:27074879",
+    "PMID:35691259",
+    "PMID:41788586",
+    "PMID:38888561",
+    "PMID:42588175",
+    "PMID:32379697",
+    "PMID:42100315",
+    "PMID:40453352",
+    "PMID:19913311",
+    "PMID:40289951",
+    "PMID:22909282",
+    "PMID:21646440",
+    "PMID:41838185",
+    "PMID:12020172",
+    "PMID:430716",
+    "PMID:15998708",
+    "PMID:656841",
+    "PMID:3189445",
+    "PMID:30034348",
+    "PMID:24689505",
+    "PMID:37465522",
+    "PMID:11448284",
+    "PMID:28732813",
+    "PMID:3597812",
+    "PMID:11772128",
+    "PMID:15238367",
+    "PMID:18637764",
+    "PMID:15089812",
+    "PMID:28797065",
+    "PMID:27864798",
+    "PMID:19719333",
+    "PMID:30078466",
+    "PMID:27495955",
+    "PMID:20332334",
+    "PMID:36862943",
+    "PMID:8705908",
+    "PMID:21860344",
+    "PMID:24659366",
+    "PMID:41788588",
+    "PMID:40583012",
+    "PMID:40621076",
+    "URL:https://www.ema.europa.eu/en/medicines/herbal/ginseng-radix",
+    "URL:https://www.nccih.nih.gov/health/asian-ginseng"
   ]
 }

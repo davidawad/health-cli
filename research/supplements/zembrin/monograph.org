@@ -3,47 +3,195 @@
 :ID: supp-zembrin
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: Sceletium tortuosum extract | kanna | channa
+:ALIASES: Sceletium tortuosum extract | Mesembryanthemum tortuosum | kanna | channa | kougoed | Sceletium | Zembrin extract Sceletium tortuosum
 :CATEGORY: botanical
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Zembrin is a proprietary standardized extract of Sceletium tortuosum (kanna), a South African succulent; trial extract used a 2:1 plant ratio [PMID:23441963].
+- Zembrin is a proprietary standardized extract of Sceletium tortuosum (L.) N.E.Br. (syn. Mesembryanthemum tortuosum L.; Aizoaceae/Mesembryanthemaceae), a South African succulent known as kanna, channa or kougoed [PMID:34333104] [PMID:35134486].
+- Traditional use by San and Khoikhoi peoples: chewed (often after "fermentation" into kougoed), smoked, snuffed, or taken as tea or tincture for mood, sedation, analgesia, and to suppress thirst and hunger [PMID:18761074] [PMID:8691846] [PMID:33924742].
+- Zembrin specification: a hydroethanolic extract of a "mak" (mild) variety, standardized to 0.35-0.45% total alkaloids (mesembrenone + mesembrenol >=60%, mesembrine <20%) [PMID:25301237]. The trial extract was a 2:1 plant-to-extract ratio [PMID:23441963].
+- Measured Zembrin alkaloid profile: mesembrenone 47.9%, mesembrenol 32%, mesembrine 13.2%, mesembranol 6.8% of total alkaloids [PMID:34454055].
+- Other products differ. Trimesemine is a high-mesembrine Sceletium extract [PMID:26615766] [PMID:26608706]. Zembrin-specific data cannot be assumed to apply to them.
+- S. tortuosum contains about 25 alkaloids in four structural classes (mesembrine, Sceletium A4, joubertiamine, tortuosamine) [PMID:34333104] [PMID:27939420]. Alkaloid content varies by chemotype and region [PMID:29783186] [PMID:35425789] [PMID:40374049].
+- Fermentation converts mesembrine to delta7-mesembrenone (mesembrine fell from 1.33% to 0.05% over 10 days) [PMID:18996176].
+- Commercial kanna can contain hordenine [PMID:34750996]. One product was found adulterated with ephedrine [PMID:26821203]. S. tortuosum is on a UNODC list of "plants of concern" [PMID:34750996].
+- Analytical methods for identity and quality control: HPLC, CZE, LC-MS and NACE-MS [PMID:21486531] [PMID:18280080] [PMID:26626243] [PMID:22736358].
+- Novel delivery forms under development include chewing gum [PMID:33712901] and intranasal delivery (ex vivo mesembrine permeation across sheep nasal tissue) [PMID:37242666].
 
 ** Mechanisms
-- Mesembrine alkaloids are reported to inhibit serotonin reuptake and PDE4 in preclinical work; clinical relevance and product-specific exposure are uncertain [PMID:34333104].
+- Serotonin transporter (SERT) inhibition: Zembrin blocked 5-HT transporter binding (IC50 4.3 ug/mL). Mesembrine was the most potent alkaloid (Ki 1.4 nM) [PMID:21798331]. A review describes mesembrine as a more potent SERT inhibitor than fluoxetine in binding assays [PMID:31299396].
+- PDE4 inhibition: Zembrin inhibited PDE4 (IC50 8.5 ug/mL) but not other PDEs. Mesembrenone was active on both SERT and PDE4 (IC50 <1 uM) [PMID:21798331] [PMID:27939420].
+- Monoamine release: a high-mesembrine extract (Trimesemine) down-regulated SERT expression like citalopram and up-regulated VMAT-2 in cell models, with only mild AChE and MAO-A inhibition. The authors argue that monoamine release is the primary action and SERT inhibition secondary [PMID:26615766].
+- Neurochemistry in mice: 35 days of two chemotype extracts raised noradrenaline and lowered GABA in all brain regions studied. A commercial extract did not have this effect [PMID:40374049].
+- Rat model: Zembrin and its alkaloids attenuated hippocampal excitability. Mesembrenol and mesembranol reduced AMPA-mediated transmission [PMID:29758341]. The rat EEG profile resembled that of rolipram (a PDE4 inhibitor) and of some antidepressants [PMID:26608705].
+- Immune and redox effects (in vitro): cytoprotective effects and IL-10 up-regulation in monocytes [PMID:29253615]. Anti-inflammatory and antioxidant effects in astrocytes, which differ by extraction method [PMID:29520661].
+- Adrenal steroidogenesis (in vitro, H295R cells): a mesembrine-rich extract lowered cortisol, androgens and aldosterone, suggesting inhibition of CYP17, 3betaHSD and 17betaHSD [PMID:26608706].
+- Other in vitro targets: sub-fractions inhibited AChE, MAO-B and NMDA receptors in vitro, and docking predicted A2A and CB2 targets [PMID:36006974].
+- Behavioural models: anxiolytic-like effects in chicks (75-100 mg/kg i.p.) [PMID:27553978] and zebrafish larvae [PMID:32840669] [PMID:35134486] [PMID:37660956]. In Flinders Sensitive Line rats, Zembrin 50 mg/kg was antidepressant-like and equivalent to escitalopram 5 mg/kg [PMID:34454055].
+- Human brain: a single 25 mg dose of Zembrin reduced amygdala reactivity to fearful faces and amygdala-hypothalamus coupling (fMRI, n=16) [PMID:23903032].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---------+--------------------+-----------+-------------+-----------------------+-----------|
-| Safety/tolerability in healthy adults | 3-month RCT, n=37 | no major signal detected | 8 or 25 mg/day; no significant lab/ECG differences | very low | PMID:23441963 |
-| Cognitive tests | 3-week crossover RCT, n=21 | exploratory signal | 25 mg/day; small sample and multiple measures | very low | PMID:25389443 |
-| Anxiety/mood | few small trials/review | uncertain | insufficient replicated clinical effect estimate | very low | PMID:34333104 |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Safety/tolerability (healthy adults) | 3-month parallel RCT (n=37; 8 or 25 mg/d) | No signal | No differences vs placebo in vitals, ECG, hematology or biochemistry; AEs more frequent with placebo | low | [PMID:23441963] |
+| Cognitive flexibility / executive function | 3-week crossover RCT (n=21, mean age 54.6) | Benefit | Set flexibility P<0.032, executive function P<0.022 vs placebo; no effect on other domains | very low | [PMID:25389443] [URL:https://www.alzdiscovery.org/uploads/cognitive_vitality_media/Sceletium_tortuosum_(supplement).pdf] |
+| Cognition under load / reactive performance | 8-day RCT, young trained adults (n=60, 25 mg/d) | Benefit on complex tasks only | Better complex reactive performance; no change in simple reaction, visual tracking or mood | very low | [PMID:32740286] |
+| Cognition and anxiety, older adults | 6-week 3-arm RCT (n=60, 25 or 50 mg/d), sponsor-hosted report | Benefit, exploratory | Arithmetic and number-connection tests improved; HAM-A decreased (p=0.03) | very low | [URL:https://www.plthealth.com/resources/effect-zembrin-brain-electrical-activity-60-older-subjects-6-weeks-daily-intake-prospective-randomized-double-blind-placebo-controlled-3-armed-study-parallel-design] |
+| Acute experimentally induced anxiety | 2 small between-subject RCTs (n=20 each, single 25 mg) | Mixed | Study 1: no effect; study 2: lower pre-stress subjective anxiety and treatment x time effect on HR | very low | [PMID:32761980] |
+| Threat-circuit reactivity (fMRI) | Crossover RCT (n=16, single 25 mg) | Attenuation | Lower amygdala reactivity and amygdala-hypothalamus coupling | very low | [PMID:23903032] |
+| Quantitative EEG | Single-dose 3-arm RCT (n=60, 25/50 mg) | Change, unclear meaning | Frontal delta increase (p<0.01) during tasks; psychometric tests not significant | very low | [URL:https://www.scirp.org/html/4-2400309_70480.htm] |
+| Mood/depression | Secondary endpoints in above RCTs; no trial in clinical depression | Uncertain | HAM-D not significantly changed; no POMS benefit in young adults | very low | [PMID:25389443] [PMID:32740286] [PMID:41771298] [URL:https://www.alzdiscovery.org/uploads/cognitive_vitality_media/Sceletium_tortuosum_(supplement).pdf] |
+| Sleep | Diary/subscale secondary outcomes | Possible benefit, anecdotal | Unsolicited diary reports; positive changes in mood and sleep reported in crossover trial | very low | [PMID:23441963] [PMID:25389443] |
+| Clinical anxiety or depressive disorders | No RCTs in patient populations | Unknown | None | very low | [PMID:34333104] [PMID:41771298] |
 
 ** Dosing in trials
-- Human trials used standardized Zembrin 8 or 25 mg once daily for three months, and 25 mg/day for three weeks in crossover study; these do not establish general dose or long-term safety [PMID:23441963; PMID:25389443].
+- Most Zembrin trials used 25 mg once daily, orally [PMID:23441963] [PMID:25389443] [PMID:32740286] [PMID:32761980] [PMID:23903032].
+- Safety trial: 8 or 25 mg/day for 3 months [PMID:23441963].
+- Cognition: 25 mg/day for 3 weeks (crossover) [PMID:25389443]. 25 mg/day for 8 days [PMID:32740286].
+- Acute studies: single doses of 25 mg [PMID:23903032] [PMID:32761980], and 25 or 50 mg [URL:https://www.scirp.org/html/4-2400309_70480.htm].
+- Older adults: 25 or 50 mg/day for 6 weeks [URL:https://www.plthealth.com/resources/effect-zembrin-brain-electrical-activity-60-older-subjects-6-weeks-daily-intake-prospective-randomized-double-blind-placebo-controlled-3-armed-study-parallel-design].
+- 25 mg Zembrin is described as equivalent to about 50 mg of dry plant. No trial has established long-term safety beyond 3 months [URL:https://www.alzdiscovery.org/uploads/cognitive_vitality_media/Sceletium_tortuosum_(supplement).pdf].
+- Pharmacokinetics:
+  - No human PK data were found.
+  - In mice, oral bioavailability of mesembrine and mesembrenone was poor, and plasma levels were below detection after oral dosing [PMID:27526669].
+  - Mesembrine permeated porcine intestinal mucosa better than caffeine. Buccal/sublingual uptake may contribute when the plant is chewed [PMID:22105579].
+  - Metabolism (rat urine, pooled human liver preparations): O- and N-demethylation, dihydration, hydroxylation, then glucuronide/sulfate conjugation [PMID:25240931].
 
 ** Safety & adverse effects
-- Small trial reported tolerability without significant ECG or laboratory changes; n=37 is inadequate to detect rare events. Serotonergic pharmacology creates an unquantified interaction concern [PMID:23441963; PMID:34333104].
+- 3-month RCT (n=37):
+  - Both doses were well tolerated.
+  - Headache, abdominal pain and URTI were the most common AEs, all more frequent with placebo.
+  - No significant laboratory or ECG changes [PMID:23441963].
+  - Individual AEs judged possibly related at 25 mg included agitation, depressed mood and irritability [URL:https://www.alzdiscovery.org/uploads/cognitive_vitality_media/Sceletium_tortuosum_(supplement).pdf].
+- 3-week crossover trial: well tolerated [PMID:25389443]. The 8-day trial reported no side effects [URL:https://www.alzdiscovery.org/uploads/cognitive_vitality_media/Sceletium_tortuosum_(supplement).pdf].
+- Rat toxicology (Zembrin): no mortality or treatment-related adverse effects. NOAEL was 5000 mg/kg bw/day (14-day) and 600 mg/kg bw/day (90-day), the highest doses tested [PMID:25301237].
+- Other preclinical signals with non-Zembrin Sceletium preparations:
+  - Ataxia with an alkaloid fraction in rats. Separately, mesembrine showed no conditioned place preference [PMID:24930358].
+  - In a rat stress model: raised IL-1beta, CRP and PGE2, which the author interpreted as possible intolerance [PMID:20816940].
+  - The higher Zembrin dose (25 mg/kg) lowered cortical glutathione in stressed rats, suggesting a pro-oxidant effect [PMID:40643548].
+- In silico prediction for mesembrine: moderate acute oral toxicity (predicted rat LD50 340-370 mg/kg), low-to-moderate probability of hERG inhibition, and non-mutagenic [PMID:40651754]. These are predictions, not observations.
+- Abuse/recreational use:
+  - Kanna is sold as a "legal high" [PMID:25240931].
+  - Reviews list Sceletium among psychoactive plants used or abused in southern Africa [PMID:38855756] [PMID:24695249].
+  - A 1996 review found no evidence that kougoed or Sceletium alkaloids are hallucinogenic [PMID:8691846].
+- Product quality: ephedrine adulteration and variable hordenine content have been found in commercial kanna [PMID:26821203] [PMID:34750996].
+- A review of herbal sexual enhancers covering Sceletium notes that adverse effects arise mainly with overdose, unstandardized products, or drug combinations [PMID:33066617].
+- Evidence gaps: a bibliometric review notes a lack of toxicology assays, clinical assessments and bioavailability studies [PMID:38576783].
 
 ** Contraindications
-- Avoid inferring safety in pregnancy, lactation, psychiatric illness, or with serotonergic medicines from small healthy-volunteer trials; these populations were not adequately evaluated [PMID:23441963].
+- No formal contraindications are established. The cautions below are based on mechanism or on missing data.
+- Concurrent SSRIs, SNRIs, MAOIs or other serotonergic drugs: SERT inhibition and monoamine release make serotonin toxicity plausible, but it has not been reported [PMID:21798331] [PMID:26615766] [PMID:37309284].
+- Pregnancy and lactation: no human data. Trials enrolled only healthy non-pregnant adults [PMID:23441963]. Toxicology is limited [PMID:38576783].
+- Diagnosed depression, anxiety or bipolar disorder under treatment: no trials in clinical populations [PMID:34333104] [PMID:41771298].
 
 ** Interactions
-- Drugs, supplements, conditions, and relevant laboratory interference are summarized in the structured interaction object. Potential serotonergic interaction with SSRIs, SNRIs, MAOIs, tramadol, or other serotonergic agents is mechanistic, not clinically quantified [PMID:34333104]. No genotype-specific claim is made because no directly relevant pharmacogenomic source was identified.
+*** Drugs
+- SSRIs/SNRIs: serotonin toxicity is theoretical, based on potent SERT inhibition by mesembrine [PMID:21798331] [PMID:31299396]. A review of serotonin syndrome notes that it can arise from interactions between two or more serotonergic agents [PMID:37309284]. The ADDF report advises against combining Zembrin with drugs that alter serotonin uptake or release. It also states that no herb-drug interactions have been reported [URL:https://www.alzdiscovery.org/uploads/cognitive_vitality_media/Sceletium_tortuosum_(supplement).pdf].
+- MAO inhibitors: a Sceletium extract acts as a monoamine-releasing agent with mild MAO-A inhibition [PMID:26615766], and sub-fractions inhibit MAO-B [PMID:36006974]. Combining it with MAOIs is not studied, and serotonin toxicity is theoretical [PMID:37309284].
+- Other serotonergic drugs (e.g., tramadol, triptans, linezolid): the same theoretical additive mechanism applies [PMID:37309284] [PMID:21798331].
+- PDE4 inhibitors (e.g., roflumilast): Zembrin inhibits PDE4 [PMID:21798331], so effects could be additive. This has not been studied [URL:https://www.alzdiscovery.org/uploads/cognitive_vitality_media/Sceletium_tortuosum_(supplement).pdf]. Roflumilast's adverse-effect profile includes GI upset, insomnia and psychiatric signals [PMID:41458197].
+- CYP-metabolized drugs: no human or in vitro hepatic CYP inhibition study of Zembrin or mesembrine was found. Mesembrine and mesembrenone are oxidatively metabolized (demethylation and hydroxylation) in human liver preparations [PMID:25240931]. In adrenal cells, a high-mesembrine extract inhibited steroidogenic CYP17 [PMID:26608706].
+- CNS depressants and alcohol: an alkaloid fraction caused ataxia in rats [PMID:24930358], and traditional tinctures were used for sedation [PMID:8691846]. Additive effects are plausible on mechanistic grounds; there are no human data.
+- Cannabis: historical (Paterson 1789) and contemporary user reports describe synergism and potentiation with smoked cannabis [PMID:8691846].
+- Stimulants/sympathomimetics: some kanna products contain hordenine [PMID:34750996] or are adulterated with ephedrine [PMID:26821203]. This is a product-quality issue, not a property of the standardized extract.
+*** Other supplements
+- No cited interaction studies with supplements in this corpus.
+- Serotonergic supplements (e.g., 5-HTP, St John's wort): additive serotonergic load is possible (mechanistic inference) [PMID:37309284] [PMID:21798331].
+- Rhodiola Rosea: in rats, the EEG profile of Zembrin resembled that of Rhodiola rosea and Ginkgo extracts. This is a pharmacodynamic similarity, not an interaction study [PMID:26608705].
+*** Conditions
+- Pregnancy and lactation, and treated psychiatric illness: see Contraindications.
+- Depression on SSRIs (bone health): in vitro, S. tortuosum extracts promoted osteoblast mineralization, unlike SSRIs. The authors propose it as an adjunct [PMID:42629587]. This is cell data only.
+- Epilepsy: preclinical attenuation of AMPA-mediated hippocampal excitability has been proposed as a basis for anticonvulsant drug leads [PMID:29758341]. No clinical data.
+*** Lab-test interference
+- No immunoassay cross-reactivity data were found.
+- Mesembrine and mesembrenone metabolites can be detected by GC-MS/LC-MS urine screening [PMID:25240931]. Forensic NACE-MS methods can identify kanna alkaloids [PMID:22736358].
+- In vitro adrenal effects (lower cortisol, androgens and aldosterone) [PMID:26608706] have not been shown in humans. Clinical laboratory panels were unchanged over 3 months [PMID:23441963].
 
 ** Genotype notes
-- No directly relevant, clinically validated pharmacogenomic/nutrigenomic source was identified in the sources reviewed.
+No cited pharmacogenomic or nutrigenomic source found.
 
 ** Latest research
-- No high-quality human efficacy trial published in the last 24 months was identified in the searched literature; the principal placebo-controlled safety trial remains small and older [PMID:23441963].
+- [2026-08] In vitro: S. tortuosum extracts promoted osteoblast (SaOS-2) mineralization, in contrast to SSRIs. Mesembrine alone was only a weak inducer [PMID:42629587].
+- [2026-07] Critical review of animal and clinical studies of M. tortuosum and Zembrin: mixed evidence. Studies are small and in clinically irrelevant populations. Large trials in relevant populations are needed [PMID:41771298].
+- [2026-07] Zembrin (12.5 ug/mL) reversed reserpine-induced hypolocomotion and oxidative stress in zebrafish larvae. In silico data suggest stable alkaloid-target complexes [PMID:42451736].
+- [2026-01] ADDF Cognitive Vitality report (updated 2026-01-29): Zembrin may improve some complex cognitive functions and mood, but trials are small and short. It is generally well tolerated. No long-term safety data exist beyond 3 months [URL:https://www.alzdiscovery.org/uploads/cognitive_vitality_media/Sceletium_tortuosum_(supplement).pdf].
+- [2025-10] In silico toxicity profile of mesembrine: predicted rat LD50 340-370 mg/kg (GHS category 4), non-mutagenic, low-to-moderate hERG risk [PMID:40651754].
+- [2025-09] Zembrin showed neuroprotection, and a methanol extract showed neurorestoration, in a 6-OHDA zebrafish model of Parkinson's disease [PMID:40691887].
+- [2025-07] Rat chronic mild stress model: Zembrin 12.5 mg/kg reduced anhedonia- and anxiety-like behavior and PDE4B in males. 25 mg/kg raised IL-10 but lowered cortical glutathione [PMID:40643548].
+- [2025-06] In mice, extracts from two wild chemotypes raised brain noradrenaline and lowered GABA; a commercial extract did not [PMID:40374049].
+- No new human RCT of Zembrin or kanna published between Oct 2024 and Oct 2026 was found in PubMed.
+  - ClinicalTrials.gov lists an 8-week Zembrin RCT (n=120, stress and cognition, Northumbria University) with status "unknown" and no posted results [URL:https://clinicaltrials.gov/study/NCT05471804].
 
 ** Open questions
-- Independent, adequately powered trials and pharmacokinetic/interactions studies are needed; current human evidence is sparse [PMID:23441963; PMID:34333104].
+- Efficacy in clinical anxiety or depressive disorders. All RCTs to date are in healthy volunteers, with n<=60 and duration <=3 months [PMID:41771298] [PMID:34333104].
+- Human pharmacokinetics: alkaloid exposure after 25 mg Zembrin is unknown, and oral bioavailability was poor in mice [PMID:27526669].
+- Whether CYP inhibition or induction occurs. No hepatic CYP or transporter studies were found.
+- Whether serotonin toxicity occurs with SSRIs or MAOIs in practice. No controlled combination data or case reports were found [PMID:37309284].
+- Which alkaloids drive which effects. Mesembrine drove anxiolytic-like effects, but the antidepressant-like effect may need the whole extract [PMID:37660956]. Extract chemotype changes neurochemical effects [PMID:40374049].
+- Long-term (>3 months) safety, abuse liability and safety in pregnancy [URL:https://www.alzdiscovery.org/uploads/cognitive_vitality_media/Sceletium_tortuosum_(supplement).pdf] [PMID:38576783].
+- Industry links: some trial authors are affiliated with the manufacturer (HG&H Pharmaceuticals) [URL:https://www.scirp.org/html/4-2400309_70480.htm]. Independent, adequately powered trials are lacking [PMID:41771298].
+- Regulatory pathways may hinder development of this traditional herbal medicine outside southern Africa [PMID:33588735].
 
 ** Sources
-- PMID:23441963
-- PMID:25389443
-- PMID:34333104
+1. Nell H et al. A randomized, double-blind, parallel-group, placebo-controlled trial of Extract Sceletium tortuosum (Zembrin) in healthy adults. J Altern Complement Med. 2013. PMID:23441963 DOI:10.1089/acm.2012.0185
+2. Chiu S et al. Proof-of-Concept Randomized Controlled Study of Cognition Effects of the Proprietary Extract Sceletium tortuosum (Zembrin) Targeting Phosphodiesterase-4 in Cognitively Healthy Subjects: Implications for Alzheimer's Dementia. Evid Based Complement Alternat Med. 2014. PMID:25389443 DOI:10.1155/2014/682014
+3. Terburg D et al. Acute effects of Sceletium tortuosum (Zembrin), a dual 5-HT reuptake and PDE4 inhibitor, in the human amygdala and its connection to the hypothalamus. Neuropsychopharmacology. 2013. PMID:23903032 DOI:10.1038/npp.2013.183
+4. Reay J et al. Sceletium tortuosum (Zembrin) ameliorates experimentally induced anxiety in healthy volunteers. Hum Psychopharmacol. 2020. PMID:32761980 DOI:10.1002/hup.2753
+5. Hoffman JR et al. Ergogenic Effects of 8 Days of Sceletium Tortuosum Supplementation on Mood, Visual Tracking, and Reaction in Recreationally Trained Men and Women. J Strength Cond Res. 2020. PMID:32740286 DOI:10.1519/JSC.0000000000003693
+6. Dimpfel W et al. Psychophysiological Effects of Zembrin Using Quantitative EEG Source Density in Combination with Eye-Tracking in 60 Healthy Subjects. Neuroscience and Medicine. 2016. DOI:10.4236/nm.2016.73013 URL:https://www.scirp.org/html/4-2400309_70480.htm
+7. Dimpfel W et al. Effect of Zembrin on Brain Electrical Activity in 60 Older Subjects after 6 Weeks of Daily Intake. World J Neurosci. 2017 (sponsor-hosted abstract). URL:https://www.plthealth.com/resources/effect-zembrin-brain-electrical-activity-60-older-subjects-6-weeks-daily-intake-prospective-randomized-double-blind-placebo-controlled-3-armed-study-parallel-design
+8. de Jong M et al. Mesembryanthemum tortuosum and Zembrin: Mixed Evidence from In vivo Animal and Clinical Studies on their Antidepressant and Anxiolytic Effects. Planta Med. 2026. PMID:41771298 DOI:10.1055/a-2809-5144
+9. Olatunji TL et al. Sceletium tortuosum: A review on its phytochemistry, pharmacokinetics, biological and clinical activities. J Ethnopharmacol. 2021. PMID:34333104 DOI:10.1016/j.jep.2021.114476
+10. Harvey AL et al. Pharmacological actions of the South African medicinal and functional food plant Sceletium tortuosum and its principal alkaloids. J Ethnopharmacol. 2011. PMID:21798331 DOI:10.1016/j.jep.2011.07.035
+11. Coetzee DD et al. High-mesembrine Sceletium extract (Trimesemine) is a monoamine releasing agent, rather than only a selective serotonin reuptake inhibitor. J Ethnopharmacol. 2016. PMID:26615766 DOI:10.1016/j.jep.2015.11.034
+12. Murbach TS et al. A toxicological safety assessment of a standardized extract of Sceletium tortuosum (Zembrin) in rats. Food Chem Toxicol. 2014. PMID:25301237 DOI:10.1016/j.fct.2014.09.017
+13. Manda VK et al. Quantification of mesembrine and mesembrenone in mouse plasma using UHPLC-QToF-MS: Application to a pharmacokinetic study. Biomed Chromatogr. 2017. PMID:27526669 DOI:10.1002/bmc.3815
+14. Meyer GM et al. GC-MS, LC-MS(n), LC-high resolution-MS(n), and NMR studies on the metabolism and toxicological detection of mesembrine and mesembrenone, the main alkaloids of the legal high "Kanna" isolated from Sceletium tortuosum. Anal Bioanal Chem. 2015. PMID:25240931 DOI:10.1007/s00216-014-8109-9
+15. Shikanga EA et al. In vitro permeation of mesembrine alkaloids from Sceletium tortuosum across porcine buccal, sublingual, and intestinal mucosa. Planta Med. 2012. PMID:22105579 DOI:10.1055/s-0031-1280367
+16. Makolo F et al. Mesembrine: The archetypal psycho-active Sceletium alkaloid. Phytochemistry. 2019. PMID:31299396 DOI:10.1016/j.phytochem.2019.112061
+17. Krstenansky JL. Mesembrine alkaloids: Review of their occurrence, chemistry, and pharmacology. J Ethnopharmacol. 2017. PMID:27939420 DOI:10.1016/j.jep.2016.12.004
+18. Brendler T et al. Sceletium for Managing Anxiety, Depression and Cognitive Impairment: A Traditional Herbal Medicine in Modern-Day Regulatory Systems. Curr Neuropharmacol. 2021. PMID:33588735 DOI:10.2174/1570159X19666210215124737
+19. Gericke N et al. Sceletium--a review update. J Ethnopharmacol. 2008. PMID:18761074 DOI:10.1016/j.jep.2008.07.043
+20. Manganyi MC et al. A Chewable Cure "Kanna": Biological and Pharmaceutical Properties of Sceletium tortuosum. Molecules. 2021. PMID:33924742 DOI:10.3390/molecules26092557
+21. Loria MJ et al. Effects of Sceletium tortuosum in rats. J Ethnopharmacol. 2014. PMID:24930358 DOI:10.1016/j.jep.2014.06.007
+22. Bennett AC et al. Sceletium tortuosum may delay chronic disease progression via alkaloid-dependent antioxidant or anti-inflammatory action. J Physiol Biochem. 2018. PMID:29520661 DOI:10.1007/s13105-018-0620-6
+23. Bennett AC et al. Immunomodulatory effects of Sceletium tortuosum (Trimesemine) elucidated in vitro: Implications for chronic disease. J Ethnopharmacol. 2018. PMID:29253615 DOI:10.1016/j.jep.2017.12.020
+24. Smith C. The effects of Sceletium tortuosum in an in vivo model of psychological stress. J Ethnopharmacol. 2011. PMID:20816940 DOI:10.1016/j.jep.2010.08.058
+25. Maphanga VB et al. Mesembryanthemum tortuosum L. alkaloids modify anxiety-like behaviour in a zebrafish model. J Ethnopharmacol. 2022. PMID:35134486 DOI:10.1016/j.jep.2022.115068
+26. Luo Y et al. A network pharmacology-based approach to explore the therapeutic potential of Sceletium tortuosum in the treatment of neurodegenerative disorders. PLoS One. 2022. PMID:36006974 DOI:10.1371/journal.pone.0273583
+27. Kaschula CH et al. Differential impact of extracts from distinct Sceletium tortuosum chemotypes on central neurotransmitter concentrations in C57BL/6 mice. J Ethnopharmacol. 2025. PMID:40374049 DOI:10.1016/j.jep.2025.119974
+28. Reddy K et al. Skeletons in the closet? Using a bibliometric lens to visualise phytochemical and pharmacological activities linked to Sceletium, a mood enhancer. Front Plant Sci. 2024. PMID:38576783 DOI:10.3389/fpls.2024.1268101
+29. Schroder HC et al. Mitigation of serotonin-caused suppression of osteoblast function by extracts of the psychoactive indigenous plant Sceletium tortuosum. BMC Complement Med Ther. 2026. PMID:42629587 DOI:10.1186/s12906-026-05540-x
+30. Swart AC et al. Modulation of glucocorticoid, mineralocorticoid and androgen production in H295 cells by Trimesemine, a mesembrine-rich Sceletium extract. J Ethnopharmacol. 2016. PMID:26608706 DOI:10.1016/j.jep.2015.11.033
+31. Dimpfel W et al. Electropharmacogram of Sceletium tortuosum extract based on spectral local field power in conscious freely moving rats. J Ethnopharmacol. 2016. PMID:26608705 DOI:10.1016/j.jep.2015.11.036
+32. Dimpfel W et al. Effect of Zembrin and four of its alkaloid constituents on electric excitability of the rat hippocampus. J Ethnopharmacol. 2018. PMID:29758341 DOI:10.1016/j.jep.2018.05.010
+33. Gericke J et al. Sceletium tortuosum-derived mesembrine significantly contributes to the anxiolytic effect of Zembrin, but its anti-depressant effect may require synergy of multiple plant constituents. J Ethnopharmacol. 2024. PMID:37660956 DOI:10.1016/j.jep.2023.117113
+34. Gericke J et al. An acute dose-ranging evaluation of the antidepressant properties of Sceletium tortuosum (Zembrin) versus escitalopram in the Flinders Sensitive Line rat. J Ethnopharmacol. 2022. PMID:34454055 DOI:10.1016/j.jep.2021.114550
+35. Gericke J et al. Neuro-Inflammatory and Behavioral Changes Are Selectively Reversed by Sceletium tortuosum (Zembrin) and Mesembrine in Male Rats Subjected to Unpredictable Chronic Mild Stress. Cells. 2025. PMID:40643548 DOI:10.3390/cells14131029
+36. Lepule K et al. Neuroprotective and neurorestorative properties of Mesembryanthemum tortuosum in a Parkinson's disease zebrafish larvae model. J Ethnopharmacol. 2025. PMID:40691887 DOI:10.1016/j.jep.2025.120314
+37. Lepule K et al. Zembrin Mitigates Reserpine-Induced Motor Dysfunction and Oxidative Stress in Parkinson's Disease: In Vivo and In Silico Analyses. Molecules. 2026. PMID:42451736 DOI:10.3390/molecules31132369
+38. Nyazema NZ et al. The use and potential abuse of psychoactive plants in southern Africa: an overview of evidence and future potential. Front Pharmacol. 2024. PMID:38855756 DOI:10.3389/fphar.2024.1269247
+39. Niznik L et al. First toxicity profile prediction for mesembrine - archetypal psychoactive Sceletium alkaloid: prediction of key toxicological endpoints important to clinical and forensic toxicology using a multi-faceted in silico approach. Chem Biol Interact. 2025. PMID:40651754 DOI:10.1016/j.cbi.2025.111648
+40. Appley MG et al. Quantification of hordenine in a complex plant matrix by direct analysis in real time-high-resolution mass spectrometry: Application to the "plant of concern" Sceletium tortuosum. Drug Test Anal. 2022. PMID:34750996 DOI:10.1002/dta.3193
+41. Lesiak AD et al. Direct analysis in real time high resolution mass spectrometry as a tool for rapid characterization of mind-altering plant materials and revelation of supplement adulteration--The case of Kanna. Forensic Sci Int. 2016. PMID:26821203 DOI:10.1016/j.forsciint.2015.12.037
+42. Brunetti P et al. Pharmacology of Herbal Sexual Enhancers: A Review of Psychiatric and Neurological Adverse Effects. Pharmaceuticals (Basel). 2020. PMID:33066617 DOI:10.3390/ph13100309
+43. Patnala S et al. Investigations of the phytochemical content of Sceletium tortuosum following the preparation of "Kougoed" by fermentation of plant material. J Ethnopharmacol. 2009. PMID:18996176 DOI:10.1016/j.jep.2008.10.008
+44. Zhao J et al. 1H-NMR and UPLC-MS metabolomics: Functional tools for exploring chemotypic variation in Sceletium tortuosum from two provinces in South Africa. Phytochemistry. 2018. PMID:29783186 DOI:10.1016/j.phytochem.2018.03.013
+45. Patnala S et al. HPLC analysis of mesembrine-type alkaloids in Sceletium plant material used as an African traditional medicine. J Pharm Pharm Sci. 2010. PMID:21486531 DOI:10.18433/j3dk5f
+46. Smith MT et al. Psychoactive constituents of the genus Sceletium N.E.Br. and other Mesembryanthemaceae: a review. J Ethnopharmacol. 1996. PMID:8691846 DOI:10.1016/0378-8741(95)01342-3
+47. Haasbroek-Pheiffer A et al. Permeation of Phytochemicals of Selected Psychoactive Medicinal Plants across Excised Sheep Respiratory and Olfactory Epithelial Tissues. Pharmaceutics. 2023. PMID:37242666 DOI:10.3390/pharmaceutics15051423
+48. Ujvary I. Psychoactive natural products: overview of recent developments. Ann Ist Super Sanita. 2014. PMID:24695249 DOI:10.4415/ANN_14_01_04
+49. Viljoen JM et al. Formulation of Medicated Chewing Gum Containing Sceletium tortuosum and Process Optimization Utilizing the SeDeM Diagram Expert System. AAPS PharmSciTech. 2021. PMID:33712901 DOI:10.1208/s12249-021-01961-8
+50. Reddy K et al. Mass Spectrometry Metabolomics and Feature-Based Molecular Networking Reveals Population-Specific Chemistry in Some Species of the Sceletium Genus. Front Nutr. 2022. PMID:35425789 DOI:10.3389/fnut.2022.819753
+51. Patnala S et al. Medicinal use of Sceletium: Characterization of Phytochemical Components of Sceletium Plant Species using HPLC with UV and Electrospray Ionization--Tandem Mass Spectroscopy. J Pharm Pharm Sci. 2015. PMID:26626243 DOI:10.18433/j3330x
+52. Patnala S et al. A capillary zone electrophoresis method for the assay and quality control of mesembrine in Sceletium tablets. J Pharm Biomed Anal. 2008. PMID:18280080 DOI:10.1016/j.jpba.2008.01.002
+53. Roscher J et al. Forensic analysis of mesembrine alkaloids in Sceletium tortuosum by nonaqueous capillary electrophoresis mass spectrometry. Electrophoresis. 2012. PMID:22736358 DOI:10.1002/elps.201100683
+54. Mikkelsen N et al. Serotonin syndrome-A focused review. Basic Clin Pharmacol Toxicol. 2023. PMID:37309284 DOI:10.1111/bcpt.13912
+55. Huang B et al. A real-world disproportionality analysis of roflumilast using the US food and drug administration adverse event reporting system data. Front Drug Saf Regul. 2025. PMID:41458197 DOI:10.3389/fdsfr.2025.1721656
+56. Alzheimer's Drug Discovery Foundation. Cognitive Vitality Report: Sceletium tortuosum (supplement). Last updated 2026-01-29. URL:https://www.alzdiscovery.org/uploads/cognitive_vitality_media/Sceletium_tortuosum_(supplement).pdf
+57. ClinicalTrials.gov. NCT05471804: Psychological Effects of 8 Weeks Supplementation With Sceletium Tortuosum Extract (Zembrin). Northumbria University. Status unknown. URL:https://clinicaltrials.gov/study/NCT05471804
+58. Carpenter JM et al. The effects of Sceletium tortuosum (L.) N.E. Br. extract fraction in the chick anxiety-depression model. J Ethnopharmacol. 2016. PMID:27553978 DOI:10.1016/j.jep.2016.08.019
+59. Maphanga VB et al. Screening selected medicinal plants for potential anxiolytic activity using an in vivo zebrafish model. Psychopharmacology (Berl). 2020. PMID:32840669 DOI:10.1007/s00213-020-05642-5

@@ -3,23 +3,49 @@
   "supplement": "Alpha-GPC",
   "slug": "alpha-gpc",
   "aliases": [
-    "Alpha-glycerylphosphorylcholine",
+    "L-alpha-glycerylphosphorylcholine",
+    "L-α-GPC",
+    "α-GPC",
+    "A-GPC",
+    "GPC",
+    "glycerophosphocholine",
+    "choline alfoscerate",
     "choline alphoscerate",
-    "\u03b1-GPC"
+    "Gliatilin",
+    "Gliatamin",
+    "Cereton"
   ],
   "category": "nootropic",
   "rx_status": "otc",
   "evidence_certainty_overall": "low",
   "edges": [
     {
+      "with": "donepezil",
+      "with_kind": "drug",
+      "kind": "synergy",
+      "severity": "moderate",
+      "mechanism": "Cholinesterase inhibition plus choline precursor loading raises brain acetylcholine more than either alone; add-on alpha-GPC 1200 mg/d slowed cognitive, functional and behavioural decline vs donepezil alone.",
+      "evidence": "ASCOMALVA double-blind RCT (interim, n=113), Korean RCT (n=119), MA of 4 RCTs (cognition MD 1.72); a Korean CDM cohort found no benefit in AChEI users; low certainty",
+      "citations": [
+        "PMID:24898643",
+        "PMID:22959283",
+        "PMID:28035924",
+        "PMID:38875437",
+        "PMID:36683513",
+        "PMID:39512703"
+      ]
+    },
+    {
       "with": "cholinesterase inhibitors",
       "with_kind": "drug-class",
-      "kind": "caution",
+      "kind": "synergy",
       "severity": "moderate",
-      "mechanism": "Choline precursor may overlap pharmacologically with cholinergic therapy; direct interaction trials are lacking.",
-      "evidence": "Choline precursor may overlap pharmacologically with cholinergic therapy; direct interaction trials are lacking.",
+      "mechanism": "Same rationale as donepezil (precursor loading + reduced ACh breakdown); additive cholinergic effects expected for rivastigmine/galantamine though only donepezil was tested clinically.",
+      "evidence": "Clinical data limited to donepezil; extrapolation to class is mechanistic; combination safety not systematically reported",
       "citations": [
-        "PMID:39683633"
+        "PMID:24898643",
+        "PMID:24156263",
+        "PMID:36683513"
       ]
     },
     {
@@ -27,15 +53,269 @@
       "with_kind": "drug-class",
       "kind": "caution",
       "severity": "moderate",
-      "mechanism": "Opposing cholinergic pharmacology could affect intended effects; no direct \u03b1-GPC interaction trial identified.",
-      "evidence": "Opposing cholinergic pharmacology could affect intended effects; no direct \u03b1-GPC interaction trial identified.",
+      "mechanism": "Opposing pharmacology: alpha-GPC reverses scopolamine-induced amnesia and partly restores brain ACh in rats; anticholinergic burden independently associated with dementia risk and may blunt any benefit.",
+      "evidence": "Animal studies plus MA of anticholinergic burden; no human interaction study; very low certainty",
       "citations": [
+        "PMID:1662399",
+        "PMID:1409797",
+        "PMID:33933505"
+      ]
+    },
+    {
+      "with": "scopolamine",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Alpha-GPC antagonised scopolamine amnesia and scopolamine-induced fall in hippocampal/cortical ACh in rats; may reduce scopolamine's central effects.",
+      "evidence": "Preclinical (rat) only",
+      "citations": [
+        "PMID:1662399",
+        "PMID:1409797"
+      ]
+    },
+    {
+      "with": "pyridostigmine",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "One month of GPC 1200 mg/d did not restore pyridostigmine potentiation of GHRH-induced GH in anorexia nervosa; no adverse interaction reported.",
+      "evidence": "Small human study (n=6 patients); very low certainty",
+      "citations": [
+        "PMID:12952362"
+      ]
+    },
+    {
+      "with": "nimodipine",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Co-administered for 12 months in vascular cognitive impairment; no efficacy gain and good overall safety, adherence to nimodipine low.",
+      "evidence": "Pilot RCT CONIVaD (n=62); low certainty",
+      "citations": [
+        "PMID:33855653"
+      ]
+    },
+    {
+      "with": "stroke history / cerebrovascular disease",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Prescribed alpha-GPC associated with higher 10-year incident stroke (matched aHR 1.43, dose-response); proposed TMAO mechanism. Confounding by indication likely; an MCI cohort showed lower stroke risk in non-progressors.",
+      "evidence": "Korean nationwide cohorts (n=12,008,977; n=508,107); observational; low certainty",
+      "citations": [
+        "PMID:34817582",
+        "PMID:40155153",
+        "PMID:37883346"
+      ]
+    },
+    {
+      "with": "atherosclerotic cardiovascular disease",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "GPC-derived choline is converted by gut microbes to TMA/TMAO; GPC promoted atherosclerosis in ApoE-/- mice; plasma TMAO associated with MACCE (HR 1.67) and mortality in MA.",
+      "evidence": "Mouse study, human crossover PK showing TMAO rise, TMAO-outcome MAs; human GPC outcome data lacking; very low certainty",
+      "citations": [
+        "PMID:34948275",
+        "PMID:34287673",
+        "PMID:29020409",
+        "PMID:21475195"
+      ]
+    },
+    {
+      "with": "pregnancy",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Food-level intake (<=203.7 mg/day) judged safe by EFSA including pregnant/lactating women; pharmacological doses (600-1200 mg/d) unstudied in pregnancy. Maternal NOAEL 1000 mg/kg in rats.",
+      "evidence": "Regulatory novel-food opinion and animal teratogenicity data",
+      "citations": [
+        "PMID:42131868",
+        "PMID:39577616"
+      ]
+    },
+    {
+      "with": "plasma TMAO",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "True physiological rise: water-soluble choline supplements including GPC rapidly increase plasma TMAO (not seen with egg-PC); one RCT found no significant rise at 480 mg choline-equivalent.",
+      "evidence": "Human crossover/PK studies (n=6-12)",
+      "citations": [
+        "PMID:34287673",
+        "PMID:36840817",
+        "PMID:38490741"
+      ]
+    },
+    {
+      "with": "plasma choline and betaine",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Alpha-GPC raises plasma free choline (peak 0.25-4 h depending on route) and betaine; relevant when measuring choline-pathway biomarkers.",
+      "evidence": "Human PK studies",
+      "citations": [
+        "PMID:34287673",
+        "PMID:31040642",
+        "PMID:1428296",
+        "PMID:22673596"
+      ]
+    },
+    {
+      "with": "growth hormone",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Acute cholinergic stimulation of GH: GH rose 60 min after 1000 mg GPC and GHRH-stimulated GH response was augmented; no post-exercise GH difference at 315-630 mg.",
+      "evidence": "Small crossover studies; very low certainty",
+      "citations": [
+        "PMID:22673596",
+        "PMID:1577400",
         "PMID:39683633"
+      ]
+    },
+    {
+      "with": "Citicholine",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Overlapping choline donors (duplicate choline and TMAO load); alpha-GPC yields higher plasma choline than citicoline and was superior on SCAG in dementia MA; no combination study. Stacking concern is mechanistic inference.",
+      "evidence": "PK comparison, rat transporter study, MA of 3 RCTs; mechanistic inference for combination",
+      "citations": [
+        "PMID:1428296",
+        "PMID:21195433",
+        "PMID:41426989",
+        "PMID:34287673"
+      ]
+    },
+    {
+      "with": "Trimethylglycine (TMG)",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Mechanistic inference: GPC-derived choline is oxidised to betaine, and betaine supplementation produced a borderline TMAO rise; both feed the choline-betaine-TMA/TMAO pathway.",
+      "evidence": "Human PK/supplementation studies; no combination study; mechanistic inference",
+      "citations": [
+        "PMID:34287673",
+        "PMID:38876040",
+        "PMID:21475195"
+      ]
+    },
+    {
+      "with": "Acetyl-L-Carnitine",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Mechanistic inference: carnitine is also converted by gut microbiota to TMAO, so stacking adds TMAO precursor load. In a donepezil add-on RCT, the acetyl-L-carnitine/ginkgo arm performed worse than the alpha-GPC arm.",
+      "evidence": "Human tracer study for carnitine-TMAO; head-to-head RCT arm comparison; mechanistic inference for combination",
+      "citations": [
+        "PMID:30530985",
+        "PMID:38875437"
+      ]
+    },
+    {
+      "with": "huperzine A",
+      "with_kind": "drug",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Mechanistic inference: huperzine A is a natural acetylcholinesterase inhibitor with RCT evidence in AD; the ChE-I plus choline-precursor rationale from ASCOMALVA would apply. No combination study.",
+      "evidence": "Mechanistic inference from huperzine MA and ASCOMALVA",
+      "citations": [
+        "PMID:24086396",
+        "PMID:24898643"
+      ]
+    },
+    {
+      "with": "APOE e4",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "APOE e4 non-carriers had better word-recall response to 1200 mg/d choline alfoscerate than carriers in amnestic MCI.",
+      "evidence": "Single open-label study (n=50); very low certainty",
+      "citations": [
+        "PMID:29927403"
       ]
     }
   ],
   "citations": [
+    "PMID:11589921",
+    "PMID:12637119",
+    "PMID:12952362",
+    "PMID:1409797",
+    "PMID:1428296",
+    "PMID:1577400",
+    "PMID:1662399",
+    "PMID:20032953",
+    "PMID:21195433",
+    "PMID:21414376",
+    "PMID:21475195",
+    "PMID:22673596",
+    "PMID:22959283",
+    "PMID:24086396",
+    "PMID:24156263",
+    "PMID:24898643",
+    "PMID:26402001",
+    "PMID:26582972",
+    "PMID:28035924",
+    "PMID:28222577",
+    "PMID:28521701",
+    "PMID:29020409",
+    "PMID:29927403",
+    "PMID:30530985",
+    "PMID:31040642",
+    "PMID:31280435",
+    "PMID:32508323",
+    "PMID:33855653",
+    "PMID:33933505",
+    "PMID:34207484",
+    "PMID:34287673",
+    "PMID:34817582",
+    "PMID:34948275",
+    "PMID:35006557",
+    "PMID:35719710",
+    "PMID:36212684",
+    "PMID:36235623",
+    "PMID:36683513",
+    "PMID:36840817",
+    "PMID:36950691",
+    "PMID:37109211",
+    "PMID:37229544",
+    "PMID:37883346",
+    "PMID:38391922",
+    "PMID:38490741",
+    "PMID:38696157",
+    "PMID:38875437",
+    "PMID:38876040",
+    "PMID:38929542",
     "PMID:39300341",
-    "PMID:39683633"
+    "PMID:39510189",
+    "PMID:39512703",
+    "PMID:39548376",
+    "PMID:39577616",
+    "PMID:39683633",
+    "PMID:39703111",
+    "PMID:39898924",
+    "PMID:40036805",
+    "PMID:40095622",
+    "PMID:40126282",
+    "PMID:40155153",
+    "PMID:40842650",
+    "PMID:41362980",
+    "PMID:41426989",
+    "PMID:41467376",
+    "PMID:41524941",
+    "PMID:42054337",
+    "PMID:42131868",
+    "PMID:42133414",
+    "PMID:42196986",
+    "PMID:42199923",
+    "PMID:42278899",
+    "PMID:42361543",
+    "URL:https://api.aifa.gov.it/aifa-bdf-eif-be/1.0.0/formadosaggio/ricerca?query=gliatilin",
+    "URL:https://clinicaltrials.gov/study/NCT05041790",
+    "URL:https://clinicaltrials.gov/study/NCT05050604",
+    "URL:https://clinicaltrials.gov/study/NCT05257902",
+    "URL:https://clinicaltrials.gov/study/NCT05383183",
+    "URL:https://clinicaltrials.gov/study/NCT07267845"
   ]
 }

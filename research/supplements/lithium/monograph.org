@@ -1,0 +1,37 @@
+* Lithium
+:PROPERTIES:
+:ID: supp-lithium
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: Lithium | lithium orotate (supplement form) | lithium carbonate (prescription)
+:CATEGORY: mineral
+:RX_STATUS: rx
+:RESEARCHED_AT: 2026-10-13
+:END:
+** Identity & forms
+- Lithium is a monovalent alkali metal; prescription lithium carbonate is an established mood stabilizer, while OTC low-dose forms have no approved disease-treatment indication [URL:https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=lithium%20carbonate].
+** Mechanisms
+- At therapeutic exposure lithium modulates intracellular signaling including GSK-3; neuroprotective hypotheses remain under study [PMID:38253184].
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | Certainty | Citations |
+|---------+--------------------+-----------+-------------+-----------+-----------|
+| Principal studied outcome | Systematic review/RCT or official product label | Bipolar disorder: effective prescription treatment (outside supplement evidence). MCI: 2026 pilot RCT (n=80), no coprimary endpoint met significance; verbal memory slope difference 0.69 points/year (95% CI 0.01–1.37; exploratory) [URL:https://jamanetwork.com/journals/jamaneurology/fullarticle/2845746]. | See outcome summary above; no extrapolation to unstudied endpoints | very-low | [URL:https://jamanetwork.com/journals/jamaneurology/fullarticle/2845746] [URL:https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=lithium%20carbonate] [PMID:38253184] |
+| Hard clinical outcomes / prevention | Human outcome evidence sparse or absent in sources reviewed | Not established | No reliable effect estimate | very low | [URL:https://jamanetwork.com/journals/jamaneurology/fullarticle/2845746] [URL:https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=lithium%20carbonate] [PMID:38253184] |
+** Dosing in trials
+- MCI pilot used daily low-dose lithium carbonate, individualized titration, 2 years; investigational doses should not be generalized to OTC lithium salts [URL:https://jamanetwork.com/journals/jamaneurology/fullarticle/2845746].
+** Safety & adverse effects
+- Narrow therapeutic index at prescription doses; tremor, GI symptoms, renal and thyroid effects, toxicity with dehydration/renal impairment [URL:https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=lithium%20carbonate].
+** Contraindications
+- Renal disease, dehydration/sodium depletion, pregnancy considerations; prescription label monitoring is required.
+** Interactions
+- NSAIDs, thiazide diuretics, ACE inhibitors/ARBs can raise lithium; monitor lithium, kidney and thyroid function [URL:https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=lithium%20carbonate].
+- Structured high-priority interactions are represented in interactions.json; absence of an edge is not proof of no interaction.
+** Genotype notes
+- No cited pharmacogenomic/nutrigenomic source was identified for a supplement-specific genotype effect; no genotype claim made.
+** Latest research
+- 2026 MCI pilot: none of six coprimary endpoints statistically significant; modest, exploratory memory difference and balanced serious adverse events [URL:https://jamanetwork.com/journals/jamaneurology/fullarticle/2845746].
+** Open questions
+- Which formulations, populations, and durations produce clinically meaningful outcomes rather than biomarker-only changes?
+- Are there long-term benefits or harms beyond the relatively short human trials available?
+** Sources
+- [URL:https://jamanetwork.com/journals/jamaneurology/fullarticle/2845746] [URL:https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=lithium%20carbonate] [PMID:38253184]

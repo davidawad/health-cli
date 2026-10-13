@@ -1,0 +1,50 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Metformin ER",
+  "slug": "metformin-er",
+  "aliases": [
+    "Metformin extended-release",
+    "metformin hydrochloride ER"
+  ],
+  "category": "rx",
+  "rx_status": "rx",
+  "evidence_certainty_overall": "moderate",
+  "edges": [
+    {
+      "with": "alcohol",
+      "with_kind": "food",
+      "kind": "caution",
+      "severity": "major",
+      "mechanism": "Alcohol can potentiate metformin effects on lactate metabolism and increase lactic acidosis risk.",
+      "evidence": "ER prescribing label.",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529"
+      ]
+    },
+    {
+      "with": "vitamin B12",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Metformin can lower B12; label recommends periodic measurement.",
+      "evidence": "ER prescribing label.",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529"
+      ]
+    },
+    {
+      "with": "Heme Iron (Proferrin)",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Iron treatment may be relevant if metformin-associated B12 deficiency causes anemia; no direct pharmacokinetic interaction established.",
+      "evidence": "Metformin label documents B12-related anemia risk; direct pair evidence lacking.",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529"
+      ]
+    }
+  ],
+  "citations": [
+    "URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529"
+  ]
+}

@@ -1,0 +1,37 @@
+* Spermidine
+:PROPERTIES:
+:ID: supp-spermidine
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: Spermidine | wheat germ extract
+:CATEGORY: longevity
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+** Identity & forms
+- Spermidine is a naturally occurring polyamine present in foods; supplements commonly use wheat-germ extract [PMID:2792725].
+** Mechanisms
+- Polyamine involved in cellular growth and autophagy regulation; proposed longevity effects are mostly preclinical [PMID:2792725].
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | Certainty | Citations |
+|---------+--------------------+-----------+-------------+-----------+-----------|
+| Principal studied outcome | Systematic review/RCT or official product label | Cognition: SmartAge phase 2b RCT (n=100) using 0.9 mg/day for 12 months showed no significant mnemonic discrimination effect (difference −0.03, 95% CI −0.11 to 0.05) and no secondary endpoint benefit [URL:https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2792725]. Longevity claims unproven. | See outcome summary above; no extrapolation to unstudied endpoints | very-low | [URL:https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2792725] [PMID:41098596] |
+| Hard clinical outcomes / prevention | Human outcome evidence sparse or absent in sources reviewed | Not established | No reliable effect estimate | very low | [URL:https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2792725] [PMID:41098596] |
+** Dosing in trials
+- Human RCT studied 0.9 mg/day from wheat germ extract for 12 months [URL:https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2792725].
+** Safety & adverse effects
+- In trial, adverse events balanced; sample size and duration insufficient for rare or long-term risks [URL:https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2792725].
+** Contraindications
+- No established clinical contraindications; wheat allergy may matter for source-specific products.
+** Interactions
+- No established clinical drug interactions identified.
+- Structured high-priority interactions are represented in interactions.json; absence of an edge is not proof of no interaction.
+** Genotype notes
+- No cited pharmacogenomic/nutrigenomic source was identified for a supplement-specific genotype effect; no genotype claim made.
+** Latest research
+- 2025 review of cognitive aging summarizes only four intervention trials and notes limited human evidence; preclinical claims should not be presented as demonstrated benefit [PMID:41098596].
+** Open questions
+- Which formulations, populations, and durations produce clinically meaningful outcomes rather than biomarker-only changes?
+- Are there long-term benefits or harms beyond the relatively short human trials available?
+** Sources
+- [URL:https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2792725] [PMID:41098596]

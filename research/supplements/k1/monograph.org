@@ -1,0 +1,37 @@
+* K1
+:PROPERTIES:
+:ID: supp-k1
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: Phylloquinone | vitamin K1 | phytonadione
+:CATEGORY: vitamin
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+** Identity & forms
+- NIH ODS identifies phylloquinone as the dietary K1 form, a cofactor for gamma-carboxylation of coagulation and bone proteins [URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/].
+** Mechanisms
+- Vitamin K participates in vitamin K-dependent carboxylation of prothrombin, osteocalcin, and matrix Gla protein [URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/].
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | Certainty | Citations |
+|---------+--------------------+-----------+-------------+-----------+-----------|
+| Principal studied outcome | Systematic review/RCT or official product label | Bone outcomes: mixed; older trials found some benefit but later trials show no consistent BMD/fracture benefit. CV calcification: no proven prevention. | See outcome summary above; no extrapolation to unstudied endpoints | moderate | [URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/] [DOI:10.1302/2046-3758.1312.BJR-2024-0053.R1] |
+| Hard clinical outcomes / prevention | Human outcome evidence sparse or absent in sources reviewed | Not established | No reliable effect estimate | very low | [URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/] [DOI:10.1302/2046-3758.1312.BJR-2024-0053.R1] |
+** Dosing in trials
+- Adult adequate intake: 120 mcg/day men, 90 mcg/day women; trials used 500 mcg/day phylloquinone for 3 years, or 1 mg/day for 12 months [URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/].
+** Safety & adverse effects
+- Dietary quantities have low toxicity; no UL established. Vitamin K can seriously antagonize warfarin and related vitamin K antagonists [URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/].
+** Contraindications
+- Warfarin and other VKAs; keep intake consistent and monitor INR.
+** Interactions
+- NIH ODS reports warfarin/VKA antagonism; no specific genotype evidence found [URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/].
+- Structured high-priority interactions are represented in interactions.json; absence of an edge is not proof of no interaction.
+** Genotype notes
+- No cited pharmacogenomic/nutrigenomic source was identified for a supplement-specific genotype effect; no genotype claim made.
+** Latest research
+- 2024-12-11: The 2024 RCT meta-analysis on vitamin K and BMD found heterogeneous, site-dependent effects; it does not establish fracture prevention [DOI:10.1302/2046-3758.1312.BJR-2024-0053.R1].
+** Open questions
+- Which formulations, populations, and durations produce clinically meaningful outcomes rather than biomarker-only changes?
+- Are there long-term benefits or harms beyond the relatively short human trials available?
+** Sources
+- [URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/] [DOI:10.1302/2046-3758.1312.BJR-2024-0053.R1]

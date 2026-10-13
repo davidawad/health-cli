@@ -1,0 +1,41 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Heme Iron (Proferrin)",
+  "slug": "heme-iron-proferrin",
+  "aliases": [
+    "Heme iron polypeptide",
+    "HIP",
+    "Proferrin"
+  ],
+  "category": "mineral",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "low",
+  "edges": [
+    {
+      "with": "levothyroxine",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Oral iron can bind/reduce absorption of levothyroxine; separate administration per drug labeling.",
+      "evidence": "Established oral iron interaction described in product labeling; HIP-specific clinical data limited.",
+      "citations": [
+        "PMID:31944128"
+      ]
+    },
+    {
+      "with": "hemochromatosis",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Additional iron can worsen iron loading in iron-overload disorders.",
+      "evidence": "Iron supplementation is inappropriate absent deficiency; iron overload risk recognized in oral iron review.",
+      "citations": [
+        "PMID:31944128"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:31944128",
+    "PMID:41300263"
+  ]
+}

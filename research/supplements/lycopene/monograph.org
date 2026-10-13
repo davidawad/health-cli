@@ -1,0 +1,37 @@
+* Lycopene
+:PROPERTIES:
+:ID: supp-lycopene
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: Lycopene | tomato carotenoid
+:CATEGORY: botanical
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+** Identity & forms
+- Lycopene is a dietary, fat-soluble carotenoid abundant in tomatoes; supplements include synthetic and tomato-derived forms [PMID:37496241].
+** Mechanisms
+- Carotenoid antioxidant activity and effects on oxidative biomarkers are proposed mechanisms; biomarker changes do not prove disease prevention [PMID:37496241].
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | Certainty | Citations |
+|---------+--------------------+-----------+-------------+-----------+-----------|
+| Principal studied outcome | Systematic review/RCT or official product label | Cardiovascular risk factors: 2023 GRADE-style meta-analysis of 34 studies found no significant pooled changes in lipids, glucose, BP, inflammation or weight; MDA decreased [PMID:37496241]. Prostate cancer prevention: RCT evidence does not establish reduced incidence [URL:https://www.wcrf.org/wp-content/uploads/2024/10/prostate-cancer-slr.pdf]. | See outcome summary above; no extrapolation to unstudied endpoints | low | [PMID:37496241] [PMID:41369612] [URL:https://www.wcrf.org/wp-content/uploads/2024/10/prostate-cancer-slr.pdf] |
+| Hard clinical outcomes / prevention | Human outcome evidence sparse or absent in sources reviewed | Not established | No reliable effect estimate | very low | [PMID:37496241] [PMID:41369612] [URL:https://www.wcrf.org/wp-content/uploads/2024/10/prostate-cancer-slr.pdf] |
+** Dosing in trials
+- Trials used variable tomato foods/extracts or supplements, often 5–30 mg/day for weeks to months; no standardized evidence-based dose [PMID:37496241].
+** Safety & adverse effects
+- Food exposure is customary; supplement trials report few short-term harms, but long-term high-dose safety is less characterized.
+** Contraindications
+- No established formal contraindications; caution with products containing other active ingredients.
+** Interactions
+- Possible additive BP-lowering is theoretical; clinical interaction data limited.
+- Structured high-priority interactions are represented in interactions.json; absence of an edge is not proof of no interaction.
+** Genotype notes
+- No cited pharmacogenomic/nutrigenomic source was identified for a supplement-specific genotype effect; no genotype claim made.
+** Latest research
+- 2025-11: 2025 umbrella review reports possible BP effects in tomato-derived intervention evidence, contrasting with the null pooled BP result in the 2023 GRADE review; composition and intervention heterogeneity remain substantial [PMID:41369612] [PMID:37496241].
+** Open questions
+- Which formulations, populations, and durations produce clinically meaningful outcomes rather than biomarker-only changes?
+- Are there long-term benefits or harms beyond the relatively short human trials available?
+** Sources
+- [PMID:37496241] [PMID:41369612] [URL:https://www.wcrf.org/wp-content/uploads/2024/10/prostate-cancer-slr.pdf]

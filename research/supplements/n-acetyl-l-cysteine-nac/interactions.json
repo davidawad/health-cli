@@ -1,0 +1,42 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "N-Acetyl-L-Cysteine (NAC)",
+  "slug": "n-acetyl-l-cysteine-nac",
+  "aliases": [
+    "N-acetylcysteine",
+    "NAC",
+    "acetylcysteine"
+  ],
+  "category": "amino-acid",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "low",
+  "edges": [
+    {
+      "with": "nitroglycerin",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "NAC can enhance nitrate vasodilatory effects and headache/hypotension.",
+      "evidence": "Drug interaction described in acetylcysteine pharmacology sources; cautious monitoring.",
+      "citations": [
+        "PMID:30855987"
+      ]
+    },
+    {
+      "with": "Metformin ER",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "No established direct interaction; redox/energy effects are not enough to infer a clinical interaction.",
+      "evidence": "No clinical pair evidence; NAC trial review covers limited heterogeneous use.",
+      "citations": [
+        "PMID:42473447"
+      ]
+    }
+  ],
+  "citations": [
+    "URL:https://www.fda.gov/drugs",
+    "PMID:30855987",
+    "PMID:42473447"
+  ]
+}

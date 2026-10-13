@@ -1,0 +1,30 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Lycopene",
+  "slug": "lycopene",
+  "aliases": [
+    "Lycopene",
+    "tomato carotenoid"
+  ],
+  "category": "botanical",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "low",
+  "edges": [
+    {
+      "with": "antihypertensive drugs",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Possible additive blood-pressure lowering is theoretical; no established clinically significant interaction.",
+      "evidence": "Human BP intervention reviews show mixed/null effects; interaction evidence absent.",
+      "citations": [
+        "PMID:37496241"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:37496241",
+    "URL:https://www.wcrf.org/wp-content/uploads/2024/10/prostate-cancer-slr.pdf",
+    "PMID:41369612"
+  ]
+}

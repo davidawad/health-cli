@@ -1,0 +1,30 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Spermidine",
+  "slug": "spermidine",
+  "aliases": [
+    "Spermidine",
+    "wheat germ extract"
+  ],
+  "category": "longevity",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "very-low",
+  "edges": [
+    {
+      "with": "N-Acetyl-L-Cysteine (NAC)",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "No clinically established interaction; concurrent autophagy/redox mechanistic claims are preclinical only.",
+      "evidence": "Human evidence for spermidine remains limited and no interaction studies identified.",
+      "citations": [
+        "PMID:41098596"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:2792725",
+    "URL:https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2792725",
+    "PMID:41098596"
+  ]
+}

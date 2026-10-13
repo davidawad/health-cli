@@ -1,0 +1,28 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Lysine",
+  "slug": "lysine",
+  "aliases": [
+    "L-lysine",
+    "lysine hydrochloride"
+  ],
+  "category": "amino-acid",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "very-low",
+  "edges": [
+    {
+      "with": "aminoglycosides",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Potential renal competition/toxicity interaction is unconfirmed; avoid inferring safety in renal impairment.",
+      "evidence": "Clinical interaction evidence is insufficient; source review documents sparse human evidence.",
+      "citations": [
+        "PMID:30855987"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:30855987"
+  ]
+}

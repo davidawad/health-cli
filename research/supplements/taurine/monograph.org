@@ -1,0 +1,37 @@
+* Taurine
+:PROPERTIES:
+:ID: supp-taurine
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: 2-aminoethanesulfonic acid | taurine
+:CATEGORY: amino-acid
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+** Identity & forms
+- Taurine is a sulfur-containing amino sulfonic acid present in food and tissues; it is not incorporated into proteins [PMID:41369612].
+** Mechanisms
+- Functions in bile salt conjugation, osmoregulation, calcium handling and neural signaling; clinical supplementation mechanisms remain under investigation [PMID:41369612].
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | Certainty | Citations |
+|---------+--------------------+-----------+-------------+-----------+-----------|
+| Principal studied outcome | Systematic review/RCT or official product label | Blood pressure/metabolic markers: small trials/meta-analyses suggest modest improvements but heterogeneous populations and surrogate outcomes. Exercise: 2025 acute-dose meta-analysis found small effect g=0.25 (0.10–0.39), high heterogeneity [DOI:10.1111/sms.70123]. | See outcome summary above; no extrapolation to unstudied endpoints | low | [DOI:10.1111/sms.70123] [URL:https://pmc.ncbi.nlm.nih.gov/articles/PMC12178789/] |
+| Hard clinical outcomes / prevention | Human outcome evidence sparse or absent in sources reviewed | Not established | No reliable effect estimate | very low | [DOI:10.1111/sms.70123] [URL:https://pmc.ncbi.nlm.nih.gov/articles/PMC12178789/] |
+** Dosing in trials
+- Trials often used 1–6 g/day for several weeks; acute exercise studies used single varied doses, not a validated chronic regimen [DOI:10.1111/sms.70123].
+** Safety & adverse effects
+- Short trials generally tolerated; long-term high-dose safety and interactions less well characterized.
+** Contraindications
+- No established contraindications; caution in significant kidney disease due to limited dose safety evidence.
+** Interactions
+- Potential additive BP reduction with antihypertensives is plausible; evidence insufficient for defined interaction.
+- Structured high-priority interactions are represented in interactions.json; absence of an edge is not proof of no interaction.
+** Genotype notes
+- No cited pharmacogenomic/nutrigenomic source was identified for a supplement-specific genotype effect; no genotype claim made.
+** Latest research
+- 2025-08: 2025 acute-dose review pooled 23 RCTs (308 participants), effect g=0.25; task-specific effects and heterogeneity mean clinical significance uncertain [DOI:10.1111/sms.70123].
+** Open questions
+- Which formulations, populations, and durations produce clinically meaningful outcomes rather than biomarker-only changes?
+- Are there long-term benefits or harms beyond the relatively short human trials available?
+** Sources
+- [DOI:10.1111/sms.70123] [URL:https://pmc.ncbi.nlm.nih.gov/articles/PMC12178789/]

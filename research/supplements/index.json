@@ -1,0 +1,872 @@
+[
+  {
+    "slug": "17-alpha-estradiol-transdermal",
+    "name": "17α-E2 (transdermal)",
+    "category": "hormone",
+    "rx_status": "rx",
+    "certainty": "low",
+    "n_edges": 13,
+    "n_citations": 28,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "acarbose",
+    "name": "Acarbose",
+    "category": "rx",
+    "rx_status": "rx",
+    "certainty": "high",
+    "n_edges": 24,
+    "n_citations": 42,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "acetyl-l-carnitine",
+    "name": "Acetyl-L-Carnitine",
+    "category": "amino-acid",
+    "rx_status": "otc",
+    "certainty": "low",
+    "n_edges": 18,
+    "n_citations": 78,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "alpha-gpc",
+    "name": "Alpha-GPC",
+    "category": "nootropic",
+    "rx_status": "otc",
+    "certainty": "low",
+    "n_edges": 17,
+    "n_citations": 79,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "apigenin",
+    "name": "Apigenin",
+    "category": "botanical",
+    "rx_status": "otc",
+    "certainty": "very-low",
+    "n_edges": 22,
+    "n_citations": 61,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "ashwagandha",
+    "name": "Ashwagandha",
+    "category": "botanical",
+    "rx_status": "otc",
+    "certainty": "low",
+    "n_edges": 21,
+    "n_citations": 40,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "aspirin",
+    "name": "Aspirin",
+    "category": "rx",
+    "rx_status": "otc",
+    "certainty": "high",
+    "n_edges": 25,
+    "n_citations": 72,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "astaxanthin",
+    "name": "Astaxanthin",
+    "category": "other",
+    "rx_status": "otc",
+    "certainty": "low",
+    "n_edges": 12,
+    "n_citations": 38,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "b-complex",
+    "name": "B Complex",
+    "category": "vitamin",
+    "rx_status": "otc",
+    "certainty": "moderate",
+    "n_edges": 18,
+    "n_citations": 49,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "b12-methylcobalamin",
+    "name": "B12 methylcobalamin",
+    "category": "vitamin",
+    "rx_status": "otc",
+    "certainty": "moderate",
+    "n_edges": 22,
+    "n_citations": 60,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "bacopa-monieri",
+    "name": "Bacopa Monieri",
+    "category": "botanical",
+    "rx_status": "otc",
+    "certainty": "low",
+    "n_edges": 22,
+    "n_citations": 98,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "berberine",
+    "name": "Berberine",
+    "category": "botanical",
+    "rx_status": "otc",
+    "certainty": "moderate",
+    "n_edges": 20,
+    "n_citations": 57,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "beta-alanine",
+    "name": "Beta Alanine",
+    "category": "amino-acid",
+    "rx_status": "otc",
+    "certainty": "moderate",
+    "n_edges": 15,
+    "n_citations": 60,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "boron",
+    "name": "Boron",
+    "category": "mineral",
+    "rx_status": "otc",
+    "certainty": "very-low",
+    "n_edges": 14,
+    "n_citations": 42,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "bpc-157",
+    "name": "BPC-157",
+    "category": "peptide",
+    "rx_status": "research-chemical",
+    "certainty": "very-low",
+    "n_edges": 21,
+    "n_citations": 86,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "caffeine",
+    "name": "Caffeine",
+    "category": "other",
+    "rx_status": "otc",
+    "certainty": "moderate",
+    "n_edges": 25,
+    "n_citations": 80,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "calcium-alpha-ketoglutarate-ca-akg",
+    "name": "Calcium Alpha-Ketoglutarate (Ca-AKG)",
+    "category": "longevity",
+    "rx_status": "otc",
+    "certainty": "very-low",
+    "n_edges": 13,
+    "n_citations": 47,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "cerebrolysin",
+    "name": "Cerebrolysin",
+    "category": "peptide",
+    "rx_status": "rx",
+    "certainty": "low",
+    "n_edges": 14,
+    "n_citations": 79,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "citicholine",
+    "name": "Citicholine",
+    "category": "nootropic",
+    "rx_status": "otc",
+    "certainty": "low",
+    "n_edges": 24,
+    "n_citations": 87,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "cocoa-flavanols",
+    "name": "Cocoa Flavanols",
+    "category": "botanical",
+    "rx_status": "otc",
+    "certainty": "moderate",
+    "n_edges": 14,
+    "n_citations": 43,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "collagen",
+    "name": "Collagen",
+    "category": "other",
+    "rx_status": "otc",
+    "certainty": "low",
+    "n_edges": 19,
+    "n_citations": 71,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "coq10",
+    "name": "CoQ10",
+    "category": "other",
+    "rx_status": "otc",
+    "certainty": "moderate",
+    "n_edges": 10,
+    "n_citations": 41,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "creatine",
+    "name": "Creatine",
+    "category": "other",
+    "rx_status": "otc",
+    "certainty": "moderate",
+    "n_edges": 17,
+    "n_citations": 73,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "curcumin",
+    "name": "Curcumin",
+    "category": "botanical",
+    "rx_status": "otc",
+    "certainty": "low",
+    "n_edges": 25,
+    "n_citations": 64,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "dexedrine",
+    "name": "Dexedrine",
+    "category": "rx",
+    "rx_status": "controlled",
+    "certainty": "high",
+    "n_edges": 24,
+    "n_citations": 73,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "dhea",
+    "name": "DHEA",
+    "category": "hormone",
+    "rx_status": "otc",
+    "certainty": "low",
+    "n_edges": 23,
+    "n_citations": 60,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "epa-dha-dpa",
+    "name": "EPA/DHA/DPA",
+    "category": "other",
+    "rx_status": "otc",
+    "certainty": "moderate",
+    "n_edges": 19,
+    "n_citations": 64,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "essential-capsules",
+    "name": "Essential Capsules",
+    "category": "other",
+    "rx_status": "otc",
+    "certainty": "very-low",
+    "n_edges": 24,
+    "n_citations": 70,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "essential-softgels",
+    "name": "Essential Softgels",
+    "category": "other",
+    "rx_status": "otc",
+    "certainty": "low",
+    "n_edges": 19,
+    "n_citations": 75,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "evoo",
+    "name": "EVOO",
+    "category": "other",
+    "rx_status": "otc",
+    "certainty": "moderate",
+    "n_edges": 20,
+    "n_citations": 134,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "fisetin",
+    "name": "Fisetin",
+    "category": "longevity",
+    "rx_status": "otc",
+    "certainty": "very-low",
+    "n_edges": 20,
+    "n_citations": 61,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "garlic",
+    "name": "Garlic",
+    "category": "botanical",
+    "rx_status": "otc",
+    "certainty": "low",
+    "n_edges": 21,
+    "n_citations": 60,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "garlic-kyolic",
+    "name": "Garlic (Kyolic)",
+    "category": "botanical",
+    "rx_status": "otc",
+    "certainty": "low",
+    "n_edges": 20,
+    "n_citations": 60,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "genistein",
+    "name": "Genistein",
+    "category": "botanical",
+    "rx_status": "otc",
+    "certainty": "low",
+    "n_edges": 18,
+    "n_citations": 60,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "ginger-root",
+    "name": "Ginger Root",
+    "category": "botanical",
+    "rx_status": "otc",
+    "certainty": "moderate",
+    "n_edges": 20,
+    "n_citations": 60,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "ginseng-panax",
+    "name": "Ginseng (Panax)",
+    "category": "botanical",
+    "rx_status": "otc",
+    "certainty": "low",
+    "n_edges": 20,
+    "n_citations": 79,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "glucosamine-sulphate-2kcl",
+    "name": "Glucosamine Sulphate 2KCL",
+    "category": "other",
+    "rx_status": "otc",
+    "certainty": "low",
+    "n_edges": 16,
+    "n_citations": 59,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "glycine",
+    "name": "Glycine",
+    "category": "amino-acid",
+    "rx_status": "otc",
+    "certainty": "low",
+    "n_edges": 17,
+    "n_citations": 60,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "gos",
+    "name": "GOS",
+    "category": "probiotic-prebiotic",
+    "rx_status": "otc",
+    "certainty": "low",
+    "n_edges": 17,
+    "n_citations": 72,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "green-tea-extract",
+    "name": "Green Tea Extract",
+    "category": "botanical",
+    "rx_status": "otc",
+    "certainty": "low",
+    "n_edges": 24,
+    "n_citations": 84,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "heme-iron-proferrin",
+    "name": "Heme Iron (Proferrin)",
+    "category": "mineral",
+    "rx_status": "otc",
+    "certainty": "low",
+    "n_edges": 24,
+    "n_citations": 47,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "hyaluronic-acid",
+    "name": "Hyaluronic Acid",
+    "category": "other",
+    "rx_status": "otc",
+    "certainty": "low",
+    "n_edges": 20,
+    "n_citations": 48,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "inulin",
+    "name": "inulin",
+    "category": "probiotic-prebiotic",
+    "rx_status": "otc",
+    "certainty": "low",
+    "n_edges": 22,
+    "n_citations": 71,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "iodine-potassium-iodide",
+    "name": "Iodine (potassium iodide)",
+    "category": "mineral",
+    "rx_status": "otc",
+    "certainty": "moderate",
+    "n_edges": 20,
+    "n_citations": 60,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "k1",
+    "name": "K1",
+    "category": "vitamin",
+    "rx_status": "otc",
+    "certainty": "moderate",
+    "n_edges": 22,
+    "n_citations": 88,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "k2-mk-7",
+    "name": "K2 MK-7",
+    "category": "vitamin",
+    "rx_status": "otc",
+    "certainty": "low",
+    "n_edges": 19,
+    "n_citations": 90,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "k2-mk4",
+    "name": "K2-MK4",
+    "category": "vitamin",
+    "rx_status": "otc",
+    "certainty": "low",
+    "n_edges": 21,
+    "n_citations": 61,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "l-theanine",
+    "name": "L-Theanine",
+    "category": "amino-acid",
+    "rx_status": "otc",
+    "certainty": "low",
+    "n_edges": 16,
+    "n_citations": 70,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "l-tyrosine",
+    "name": "L-Tyrosine",
+    "category": "amino-acid",
+    "rx_status": "otc",
+    "certainty": "low",
+    "n_edges": 21,
+    "n_citations": 52,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "lithium",
+    "name": "Lithium",
+    "category": "mineral",
+    "rx_status": "otc",
+    "certainty": "low",
+    "n_edges": 24,
+    "n_citations": 144,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "lsd",
+    "name": "LSD",
+    "category": "other",
+    "rx_status": "controlled",
+    "certainty": "low",
+    "n_edges": 18,
+    "n_citations": 80,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "lycopene",
+    "name": "Lycopene",
+    "category": "other",
+    "rx_status": "otc",
+    "certainty": "low",
+    "n_edges": 20,
+    "n_citations": 90,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "lysine",
+    "name": "Lysine",
+    "category": "amino-acid",
+    "rx_status": "otc",
+    "certainty": "low",
+    "n_edges": 21,
+    "n_citations": 144,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "magnesium",
+    "name": "Magnesium",
+    "category": "mineral",
+    "rx_status": "otc",
+    "certainty": "moderate",
+    "n_edges": 21,
+    "n_citations": 60,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "melatonin",
+    "name": "Melatonin",
+    "category": "hormone",
+    "rx_status": "otc",
+    "certainty": "moderate",
+    "n_edges": 24,
+    "n_citations": 38,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "metformin-er",
+    "name": "Metformin ER",
+    "category": "rx",
+    "rx_status": "rx",
+    "certainty": "moderate",
+    "n_edges": 24,
+    "n_citations": 42,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "n-acetyl-l-cysteine-ginger-curcumin",
+    "name": "NAC, Ginger, Curcumin",
+    "category": "botanical",
+    "rx_status": "otc",
+    "certainty": "low",
+    "n_edges": 24,
+    "n_citations": 74,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "n-acetyl-l-cysteine-nac",
+    "name": "N-Acetyl-L-Cysteine (NAC)",
+    "category": "amino-acid",
+    "rx_status": "otc",
+    "certainty": "low",
+    "n_edges": 21,
+    "n_citations": 84,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "nicotinamide-riboside",
+    "name": "Nicotinamide Riboside",
+    "category": "longevity",
+    "rx_status": "otc",
+    "certainty": "low",
+    "n_edges": 21,
+    "n_citations": 47,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "nmn",
+    "name": "NMN",
+    "category": "longevity",
+    "rx_status": "otc",
+    "certainty": "low",
+    "n_edges": 17,
+    "n_citations": 87,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "probutyrate",
+    "name": "ProButyrate",
+    "category": "other",
+    "rx_status": "otc",
+    "certainty": "low",
+    "n_edges": 22,
+    "n_citations": 133,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "quatrefolic-5-mthf",
+    "name": "Quatrefolic (5-MTHF)",
+    "category": "vitamin",
+    "rx_status": "otc",
+    "certainty": "moderate",
+    "n_edges": 22,
+    "n_citations": 92,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "quercetin",
+    "name": "Quercetin",
+    "category": "botanical",
+    "rx_status": "otc",
+    "certainty": "low",
+    "n_edges": 25,
+    "n_citations": 63,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "rapamycin",
+    "name": "Rapamycin",
+    "category": "rx",
+    "rx_status": "rx",
+    "certainty": "moderate",
+    "n_edges": 24,
+    "n_citations": 37,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "rhodiola-rosea",
+    "name": "Rhodiola Rosea",
+    "category": "botanical",
+    "rx_status": "otc",
+    "certainty": "low",
+    "n_edges": 22,
+    "n_citations": 77,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "selenium",
+    "name": "Selenium",
+    "category": "mineral",
+    "rx_status": "otc",
+    "certainty": "moderate",
+    "n_edges": 20,
+    "n_citations": 75,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "spermidine",
+    "name": "Spermidine",
+    "category": "longevity",
+    "rx_status": "otc",
+    "certainty": "low",
+    "n_edges": 18,
+    "n_citations": 40,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "sulforaphane-glucosinolate-broccomax",
+    "name": "Sulforaphane Glucosinolate (BroccoMax)",
+    "category": "botanical",
+    "rx_status": "otc",
+    "certainty": "low",
+    "n_edges": 21,
+    "n_citations": 61,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "taurine",
+    "name": "Taurine",
+    "category": "amino-acid",
+    "rx_status": "otc",
+    "certainty": "low",
+    "n_edges": 22,
+    "n_citations": 149,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "tongkat-ali",
+    "name": "Tongkat Ali",
+    "category": "botanical",
+    "rx_status": "otc",
+    "certainty": "low",
+    "n_edges": 23,
+    "n_citations": 70,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "trans-resveratrol",
+    "name": "Trans-resveratrol",
+    "category": "longevity",
+    "rx_status": "otc",
+    "certainty": "low",
+    "n_edges": 21,
+    "n_citations": 63,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "tributryn",
+    "name": "Tributryn",
+    "category": "probiotic-prebiotic",
+    "rx_status": "otc",
+    "certainty": "very-low",
+    "n_edges": 16,
+    "n_citations": 53,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "trimethylglycine-tmg",
+    "name": "Trimethylglycine (TMG)",
+    "category": "amino-acid",
+    "rx_status": "otc",
+    "certainty": "low",
+    "n_edges": 20,
+    "n_citations": 89,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "turmeric",
+    "name": "Turmeric",
+    "category": "botanical",
+    "rx_status": "otc",
+    "certainty": "low",
+    "n_edges": 23,
+    "n_citations": 86,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "urolithin-a",
+    "name": "Urolithin A",
+    "category": "longevity",
+    "rx_status": "otc",
+    "certainty": "low",
+    "n_edges": 17,
+    "n_citations": 60,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "vitamin-b1",
+    "name": "Vitamin B1",
+    "category": "vitamin",
+    "rx_status": "otc",
+    "certainty": "moderate",
+    "n_edges": 21,
+    "n_citations": 160,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "vitamin-b12",
+    "name": "Vitamin B12",
+    "category": "vitamin",
+    "rx_status": "otc",
+    "certainty": "moderate",
+    "n_edges": 23,
+    "n_citations": 84,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "vitamin-b2",
+    "name": "Vitamin B2",
+    "category": "vitamin",
+    "rx_status": "otc",
+    "certainty": "moderate",
+    "n_edges": 21,
+    "n_citations": 78,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "vitamin-b6",
+    "name": "Vitamin B6",
+    "category": "vitamin",
+    "rx_status": "otc",
+    "certainty": "moderate",
+    "n_edges": 22,
+    "n_citations": 133,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "vitamin-c",
+    "name": "Vitamin C",
+    "category": "vitamin",
+    "rx_status": "otc",
+    "certainty": "moderate",
+    "n_edges": 17,
+    "n_citations": 40,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "vitamin-d-3",
+    "name": "Vitamin D-3",
+    "category": "vitamin",
+    "rx_status": "otc",
+    "certainty": "moderate",
+    "n_edges": 23,
+    "n_citations": 65,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "vitamin-e",
+    "name": "Vitamin E",
+    "category": "vitamin",
+    "rx_status": "otc",
+    "certainty": "moderate",
+    "n_edges": 22,
+    "n_citations": 60,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "viviscal",
+    "name": "Viviscal",
+    "category": "other",
+    "rx_status": "otc",
+    "certainty": "low",
+    "n_edges": 20,
+    "n_citations": 41,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "yeast-rice-garlic",
+    "name": "Yeast Rice + Garlic",
+    "category": "botanical",
+    "rx_status": "otc",
+    "certainty": "moderate",
+    "n_edges": 25,
+    "n_citations": 82,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "zeaxanthin-lutein",
+    "name": "Zeaxanthin + Lutein",
+    "category": "other",
+    "rx_status": "otc",
+    "certainty": "moderate",
+    "n_edges": 23,
+    "n_citations": 43,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "zembrin",
+    "name": "Zembrin",
+    "category": "botanical",
+    "rx_status": "otc",
+    "certainty": "very-low",
+    "n_edges": 12,
+    "n_citations": 59,
+    "researched_at": "2026-10-13"
+  },
+  {
+    "slug": "zinc",
+    "name": "Zinc",
+    "category": "mineral",
+    "rx_status": "otc",
+    "certainty": "moderate",
+    "n_edges": 22,
+    "n_citations": 44,
+    "researched_at": "2026-10-13"
+  }
+]

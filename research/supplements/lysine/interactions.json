@@ -4,25 +4,421 @@
   "slug": "lysine",
   "aliases": [
     "L-lysine",
-    "lysine hydrochloride"
+    "L-lysine hydrochloride",
+    "L-lysine monohydrochloride",
+    "lysine HCl",
+    "Lys"
   ],
   "category": "amino-acid",
   "rx_status": "otc",
-  "evidence_certainty_overall": "very-low",
+  "evidence_certainty_overall": "low",
   "edges": [
+    {
+      "with": "L-Arginine",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Arginine and lysine compete for cellular and intestinal transport (arginine-lysine antagonism); arginine undermines the HSV rationale for lysine, while excess lysine effects in rats were normalized by arginine. Deliberately co-administered in anxiety trials.",
+      "evidence": "Human tracer study (n=5), in vitro and rat data; low certainty",
+      "citations": [
+        "PMID:32187681",
+        "PMID:17513444",
+        "PMID:6262023",
+        "PMID:30488372"
+      ]
+    },
+    {
+      "with": "calcium supplements",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Lysine increased intestinal 47Ca absorption and blunted calciuria after a Ca load; lysine plus calcium strongly stimulated GLP-1 via CaSR in rats.",
+      "evidence": "Small human mechanistic study and rat study; very low certainty",
+      "citations": [
+        "PMID:1486246",
+        "PMID:40899781"
+      ]
+    },
     {
       "with": "aminoglycosides",
       "with_kind": "drug-class",
       "kind": "caution",
-      "severity": "minor",
-      "mechanism": "Potential renal competition/toxicity interaction is unconfirmed; avoid inferring safety in renal impairment.",
-      "evidence": "Clinical interaction evidence is insufficient; source review documents sparse human evidence.",
+      "severity": "moderate",
+      "mechanism": "Lysine and aminoglycosides are each nephrotoxic at high doses in rats and toxicity was additive; lysine shares apical proximal-tubule uptake with gentamicin. No human data.",
+      "evidence": "Rat and cell studies; very low certainty",
       "citations": [
-        "PMID:30855987"
+        "PMID:6425441",
+        "PMID:8429116",
+        "PMID:6798129"
+      ]
+    },
+    {
+      "with": "lutetium Lu 177 dotatate",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Label mandates IV L-lysine/L-arginine (18-25 g each) to reduce renal radiation dose; amino-acid co-infusion causes metabolic acidosis and transient hyperkalemia. Oral supplements are not a substitute.",
+      "evidence": "FDA label, post-authorisation safety study (n=41), clinical series; moderate certainty for IV setting",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=72d1a024-00b7-418a-b36e-b2cb48f2ab55",
+        "PMID:41978231",
+        "PMID:29488080",
+        "PMID:12483404"
+      ]
+    },
+    {
+      "with": "antidiabetic agents",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Lysine acutely lowers postprandial glucose (-44% glucose AUC with glucose load; -9.1% at 60 min after mixed drink) and raises glucagon; no effect on insulin sensitivity in older adults.",
+      "evidence": "Acute crossover studies (n=7-13); no interaction study; low certainty",
+      "citations": [
+        "PMID:19553295",
+        "PMID:28592515",
+        "PMID:25324894"
+      ]
+    },
+    {
+      "with": "antihypertensives",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "One RCT reported SBP falling from 146 to 129 mmHg with lysine in hypertensive adults; kidney-protective, diuretic effects in salt-sensitive rat model; possible additive BP lowering.",
+      "evidence": "Single small RCT plus animal/pilot human data; very low certainty",
+      "citations": [
+        "PMID:32153847",
+        "PMID:35835746"
+      ]
+    },
+    {
+      "with": "Zinc",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Lysine and zinc are both proposed HSV symptomatic remedies; an open-label lysine/zinc/herbal product was associated with cold-sore resolution.",
+      "evidence": "Open-label pilot (n=30) and narrative review; very low certainty",
+      "citations": [
+        "PMID:15989381",
+        "PMID:37376614"
+      ]
+    },
+    {
+      "with": "Vitamin C",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Ascorbate is a cofactor for lysyl hydroxylase, which converts collagen lysine to hydroxylysine; ascorbate raised lysyl hydroxylase activity 3-fold in fibroblasts.",
+      "evidence": "In vitro and review; mechanistic only",
+      "citations": [
+        "PMID:41980618",
+        "PMID:6265920"
+      ]
+    },
+    {
+      "with": "Collagen",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Lysine/hydroxylysine residues form collagen cross-links; collagen biosynthesis depends on lysine modification. No combined supplementation trial.",
+      "evidence": "Biochemical reviews; mechanistic only",
+      "citations": [
+        "PMID:22708567",
+        "PMID:41009362"
+      ]
+    },
+    {
+      "with": "Vitamin D-3",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Narrative review proposes combined lysine, calcium and vitamin D for muscle/bone in cereal-based diets; untested.",
+      "evidence": "Narrative review only; very low certainty",
+      "citations": [
+        "PMID:33290094"
+      ]
+    },
+    {
+      "with": "Heme Iron (Proferrin)",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Dietary lysine (1.5%) did not alter iron or copper bioavailability in rats; no human interaction expected.",
+      "evidence": "Rat study; very low certainty",
+      "citations": [
+        "PMID:26968817"
+      ]
+    },
+    {
+      "with": "chronic kidney disease",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Human case of Fanconi syndrome and tubulointerstitial nephritis progressing to chronic renal failure after oral lysine; dose-related nephrotoxicity in rats.",
+      "evidence": "Case report and animal data; very low certainty",
+      "citations": [
+        "PMID:8840955",
+        "PMID:6425441"
+      ]
+    },
+    {
+      "with": "glutaric aciduria type 1",
+      "with_kind": "condition",
+      "kind": "contraindicated",
+      "severity": "major",
+      "mechanism": "Treatment is a low-lysine diet to limit neurotoxic glutaric/3-hydroxyglutaric acids; supplementation counteracts therapy.",
+      "evidence": "Evidence-based guideline and review; moderate certainty",
+      "citations": [
+        "PMID:36221165",
+        "PMID:33000154"
+      ]
+    },
+    {
+      "with": "pyridoxine-dependent epilepsy (ALDH7A1)",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Managed with lysine-restricted diet +/- arginine to reduce alpha-AASA/P6C; supplemental lysine opposes therapy.",
+      "evidence": "Cohort studies and review; low certainty",
+      "citations": [
+        "PMID:40680317",
+        "PMID:26026794",
+        "PMID:33000154"
+      ]
+    },
+    {
+      "with": "hyperlysinemia (AASS deficiency)",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Inborn defect of lysine degradation; adding lysine raises an already elevated substrate.",
+      "evidence": "Systematic case review; very low certainty",
+      "citations": [
+        "PMID:38991296"
+      ]
+    },
+    {
+      "with": "lysinuric protein intolerance",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Low mealtime doses normalize plasma lysine without hyperammonemia, but 0.55-1.1 mmol/kg doses caused profuse diarrhea and IV loads occasionally raised ammonia; specialist use only.",
+      "evidence": "Cohort (n=27, 12 mo) and small studies; low certainty",
+      "citations": [
+        "PMID:17224331",
+        "PMID:12870174",
+        "PMID:10831173"
+      ]
+    },
+    {
+      "with": "hypercholesterolemia / gallbladder disease",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Lysine(+methionine)-rich diets raised cholesterol in rabbits and lysine raised LDL-C on low-protein diets in rats; review advises caution in cardiovascular or gallbladder disease. 1 g/d had no lipid effect in humans.",
+      "evidence": "Animal data, review, one human RCT; very low certainty",
+      "citations": [
+        "PMID:30881246",
+        "PMID:15539285",
+        "PMID:3155291",
+        "PMID:30488372",
+        "PMID:22818869"
+      ]
+    },
+    {
+      "with": "low-protein diet",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Adverse effects of excess lysine in rats (weight loss, lower albumin, higher LDL-C) were confined mainly to low-protein diets; excess intake can cause amino-acid imbalance.",
+      "evidence": "Rat study and review; very low certainty",
+      "citations": [
+        "PMID:30488372",
+        "PMID:38740261"
+      ]
+    },
+    {
+      "with": "breastfeeding",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "No data on high-dose lysine during lactation; probably low risk, alternative may be preferred for newborn/preterm infants.",
+      "evidence": "LactMed monograph; very low certainty",
+      "citations": [
+        "PMID:40587650"
+      ]
+    },
+    {
+      "with": "plasma amino acid profile / 2-aminoadipic acid",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Supplemental lysine raises plasma lysine (~3-fold after a load) and plasma/urine 2-AAA, and shifts arginine/lysine ratios; can confound metabolomic biomarker interpretation (true physiological change, not assay artifact).",
+      "evidence": "Human acute studies; moderate certainty for direction",
+      "citations": [
+        "PMID:19553295",
+        "PMID:41721626",
+        "PMID:32187681"
+      ]
+    },
+    {
+      "with": "serum potassium / acid-base",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "moderate",
+      "mechanism": "IV lysine/arginine causes metabolic acidosis and K+ rise (mean +0.60 mmol/L at 4 h); 75 g IV lysine produced K+ 6.3-6.8 mmol/L. Not shown with oral supplement doses.",
+      "evidence": "Clinical studies in radionuclide therapy; moderate certainty (IV only)",
+      "citations": [
+        "PMID:41978231",
+        "PMID:29488080",
+        "PMID:12483404"
       ]
     }
   ],
   "citations": [
-    "PMID:30855987"
+    "DOI:10.1002/edm2.70168",
+    "DOI:10.1002/j.1552-4604.1993.tb03905.x",
+    "DOI:10.1002/jimd.12233",
+    "DOI:10.1002/jimd.12566",
+    "DOI:10.1007/s00259-002-0982-3",
+    "DOI:10.1007/s00726-019-02697-3",
+    "DOI:10.1007/s11033-018-4492-1",
+    "DOI:10.1016/0021-9150(83)90057-6",
+    "DOI:10.1016/j.clinthera.2012.06.019",
+    "DOI:10.1016/j.jare.2024.05.014",
+    "DOI:10.1016/j.jtemb.2016.02.005",
+    "DOI:10.1016/j.matbio.2026.102007",
+    "DOI:10.1016/j.metabol.2006.09.011",
+    "DOI:10.1016/j.metabol.2025.156423",
+    "DOI:10.1016/j.seizure.2024.06.020",
+    "DOI:10.1016/j.tjnut.2024.04.034",
+    "DOI:10.1016/j.ymgme.2003.11.015",
+    "DOI:10.1016/j.ymgme.2015.05.011",
+    "DOI:10.1016/j.ymgme.2025.109170",
+    "DOI:10.1016/s0026-0495(00)80038-4",
+    "DOI:10.1016/s0026-0495(03)00089-1",
+    "DOI:10.1016/s0272-6386(96)90476-x",
+    "DOI:10.1016/s0955-2863(98)00091-6",
+    "DOI:10.1038/s10038-019-0620-6",
+    "DOI:10.1038/s41467-022-31670-0",
+    "DOI:10.1038/s41467-025-64892-z",
+    "DOI:10.1042/EBC20180051",
+    "DOI:10.1042/bse0520113",
+    "DOI:10.1073/pnas.0402550101",
+    "DOI:10.1073/pnas.78.5.2879",
+    "DOI:10.1080/07315724.1997.10718644",
+    "DOI:10.1080/1028415031000079685",
+    "DOI:10.1080/10284150500162937",
+    "DOI:10.1080/1028415X.2026.2742265",
+    "DOI:10.1080/10408398.2020.1855101",
+    "DOI:10.1093/bbb/zbaf124",
+    "DOI:10.1093/infdis/145.1.129",
+    "DOI:10.1093/jac/12.5.489",
+    "DOI:10.1093/jn/132.12.3744",
+    "DOI:10.1093/jn/137.6.1642S",
+    "DOI:10.1093/jn/137.6.1662S",
+    "DOI:10.1093/jn/nxaa112",
+    "DOI:10.1093/jn/nxaa218",
+    "DOI:10.1093/jn/nxaa231",
+    "DOI:10.1097/MNH.0000000000000994",
+    "DOI:10.1111/jne.70172",
+    "DOI:10.1159/000237979",
+    "DOI:10.1159/000250926",
+    "DOI:10.1177/156482650402500202",
+    "DOI:10.1177/156482650402500203",
+    "DOI:10.1177/156482650802900302",
+    "DOI:10.1186/1741-7015-9-40",
+    "DOI:10.1186/1743-7075-11-49",
+    "DOI:10.1186/s12889-023-16468-z",
+    "DOI:10.1186/s12917-015-0594-3",
+    "DOI:10.1186/s13550-018-0370-z",
+    "DOI:10.1186/s40168-025-02217-4",
+    "DOI:10.1186/s40795-017-0187-6",
+    "DOI:10.1681/ASN.2013090967",
+    "DOI:10.2174/0113892037381647250526073248",
+    "DOI:10.2220/biomedres.28.85",
+    "DOI:10.3390/ijms26188791",
+    "DOI:10.3390/toxins17120592",
+    "DOI:10.3390/v15061314",
+    "DOI:10.3945/ajcn.2008.27381",
+    "DOI:10.3945/jn.117.252213",
+    "PMID:10831173",
+    "PMID:12468617",
+    "PMID:12483404",
+    "PMID:12722988",
+    "PMID:12870174",
+    "PMID:1486246",
+    "PMID:15050971",
+    "PMID:15159538",
+    "PMID:15214256",
+    "PMID:15214257",
+    "PMID:15539285",
+    "PMID:15989381",
+    "PMID:16117182",
+    "PMID:16330570",
+    "PMID:17224331",
+    "PMID:17510493",
+    "PMID:17513440",
+    "PMID:17513444",
+    "PMID:18947029",
+    "PMID:19553295",
+    "PMID:21501494",
+    "PMID:22708567",
+    "PMID:22818869",
+    "PMID:24652795",
+    "PMID:25324894",
+    "PMID:26026794",
+    "PMID:26573523",
+    "PMID:26968817",
+    "PMID:28592515",
+    "PMID:29488080",
+    "PMID:30488372",
+    "PMID:30661148",
+    "PMID:30881246",
+    "PMID:3115841",
+    "PMID:3117869",
+    "PMID:31213652",
+    "PMID:31324706",
+    "PMID:3155291",
+    "PMID:32153847",
+    "PMID:32187681",
+    "PMID:33000154",
+    "PMID:33000161",
+    "PMID:33000163",
+    "PMID:33290094",
+    "PMID:35835746",
+    "PMID:36221165",
+    "PMID:37376614",
+    "PMID:37582714",
+    "PMID:38639736",
+    "PMID:38735574",
+    "PMID:38740261",
+    "PMID:38991296",
+    "PMID:40587650",
+    "PMID:40626529",
+    "PMID:40680317",
+    "PMID:40899781",
+    "PMID:41009362",
+    "PMID:41167553",
+    "PMID:41224764",
+    "PMID:41316428",
+    "PMID:41441627",
+    "PMID:41721626",
+    "PMID:41978231",
+    "PMID:41980618",
+    "PMID:42848007",
+    "PMID:6153847",
+    "PMID:6262023",
+    "PMID:6265920",
+    "PMID:640102",
+    "PMID:6411098",
+    "PMID:6419679",
+    "PMID:6423612",
+    "PMID:6425441",
+    "PMID:6798129",
+    "PMID:8429116",
+    "PMID:8840955",
+    "PMID:9013429",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=72d1a024-00b7-418a-b36e-b2cb48f2ab55"
   ]
 }

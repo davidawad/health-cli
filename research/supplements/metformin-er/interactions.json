@@ -4,32 +4,242 @@
   "slug": "metformin-er",
   "aliases": [
     "Metformin extended-release",
-    "metformin hydrochloride ER"
+    "metformin XR",
+    "metformin hydrochloride ER",
+    "Glucophage XR",
+    "Glumetza",
+    "Fortamet",
+    "biguanide"
   ],
   "category": "rx",
   "rx_status": "rx",
   "evidence_certainty_overall": "moderate",
   "edges": [
     {
-      "with": "alcohol",
-      "with_kind": "food",
-      "kind": "caution",
+      "with": "severe renal impairment (eGFR <30)",
+      "with_kind": "condition",
+      "kind": "contraindicated",
       "severity": "major",
-      "mechanism": "Alcohol can potentiate metformin effects on lactate metabolism and increase lactic acidosis risk.",
-      "evidence": "ER prescribing label.",
+      "mechanism": "Metformin is renally cleared by tubular secretion and accumulates as kidney function falls, raising lactic acidosis risk. The label contraindicates eGFR <30, advises against starting at eGFR 30-45, and says to reassess below 45.",
+      "evidence": "Label; community cohort (n=75,413): acidosis HR 2.07 only at eGFR <30, no excess at 30-59; SR of CKD data",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529",
+        "PMID:29868840",
+        "PMID:25536258"
+      ]
+    },
+    {
+      "with": "metabolic acidosis / diabetic ketoacidosis",
+      "with_kind": "condition",
+      "kind": "contraindicated",
+      "severity": "major",
+      "mechanism": "Acute or chronic metabolic acidosis, including DKA, is a label contraindication because of lactic acidosis risk.",
+      "evidence": "Prescribing label",
       "citations": [
         "URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529"
       ]
     },
     {
-      "with": "vitamin B12",
-      "with_kind": "lab-test",
-      "kind": "monitor",
-      "severity": "moderate",
-      "mechanism": "Metformin can lower B12; label recommends periodic measurement.",
-      "evidence": "ER prescribing label.",
+      "with": "hepatic impairment",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Reduced lactate clearance; hepatic impairment is linked to lactic acidosis cases and use is not recommended.",
+      "evidence": "Prescribing label; no PK studies in hepatic impairment",
       "citations": [
         "URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529"
+      ]
+    },
+    {
+      "with": "acute hypoxic states / surgery (e.g., acute heart failure, sepsis)",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Hypoxia raises lactate production; the label lists hypoxic states, surgery and procedures as lactic acidosis risk factors.",
+      "evidence": "Prescribing label; 97% of 559 published lactic acidosis cases had independent risk factors",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529",
+        "PMID:31372935"
+      ]
+    },
+    {
+      "with": "iodinated contrast media",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "major",
+      "mechanism": "Contrast-induced kidney injury can cause metformin accumulation. Stop at or before contrast if eGFR is 30-60, with liver disease, alcoholism or heart failure, or with intra-arterial contrast; recheck eGFR at 48 h.",
+      "evidence": "Label; guideline review found conflicting recommendations based on level IV-V evidence",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529",
+        "PMID:20032157"
+      ]
+    },
+    {
+      "with": "alcohol",
+      "with_kind": "food",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Alcohol potentiates metformin's effect on lactate metabolism; excessive intake is a lactic acidosis risk factor.",
+      "evidence": "Prescribing label",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529"
+      ]
+    },
+    {
+      "with": "carbonic anhydrase inhibitors (topiramate, zonisamide, acetazolamide)",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Cause non-anion-gap hyperchloremic metabolic acidosis and may increase lactic acidosis risk with metformin.",
+      "evidence": "Prescribing label (Table 2)",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529"
+      ]
+    },
+    {
+      "with": "dolutegravir",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "OCT2 inhibition reduces renal tubular secretion of metformin. Metformin AUC rose 79% with 50 mg daily and 145% with 50 mg twice daily; exposure was lower in obese women with HIV.",
+      "evidence": "Label; PK study in healthy volunteers (n=30); PK study in obese women with HIV (n=15)",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529",
+        "PMID:26974526",
+        "PMID:40468972"
+      ]
+    },
+    {
+      "with": "ranolazine",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "OCT2/MATE inhibition. Ranolazine 1000 mg twice daily raised metformin AUC 1.79-fold; the authors advise not exceeding 1700 mg/d metformin.",
+      "evidence": "Label; two phase 1 PK studies in T2D",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529",
+        "PMID:27128216"
+      ]
+    },
+    {
+      "with": "cimetidine",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Inhibits hepatic OCT1 and renal OCT2. Metformin AUC +24% in healthy adults; pharmacovigilance and PBPK lactic acidosis signal in renal failure.",
+      "evidence": "Label; clinical DDI study (n=16); FAERS disproportionality + PBPK",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529",
+        "PMID:40098288",
+        "PMID:37948503"
+      ]
+    },
+    {
+      "with": "vandetanib",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Label-listed OCT2/MATE inhibitor that may raise metformin exposure and lactic acidosis risk.",
+      "evidence": "Prescribing label only",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529"
+      ]
+    },
+    {
+      "with": "insulin and insulin secretagogues (sulfonylureas)",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Additive glucose lowering; a lower insulin or sulfonylurea dose may be needed. Severe hypoglycemia was 2.2% with glimepiride added to metformin in GRADE.",
+      "evidence": "Label; large RCT (GRADE, n=5047)",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529",
+        "PMID:36129996"
+      ]
+    },
+    {
+      "with": "B12 methylcobalamin",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "moderate",
+      "mechanism": "Metformin impairs calcium-dependent ileal B12 absorption (deficiency OR 2.45; serum B12 about -64 pmol/L). B12 supplementation corrects levels; the label recommends B12 checks every 2-3 years.",
+      "evidence": "Label; MAs of observational studies and RCTs; small RCT of oral B12 in metformin users",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529",
+        "PMID:25502588",
+        "PMID:30615306",
+        "PMID:41754978",
+        "PMID:40850508"
+      ]
+    },
+    {
+      "with": "B Complex",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Without B vitamins or folic acid, metformin raised homocysteine (MD +2.02 umol/L); with them homocysteine fell (MD -0.74).",
+      "evidence": "MA of RCTs (12 publications)",
+      "citations": [
+        "PMID:27941660"
+      ]
+    },
+    {
+      "with": "calcium",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Oral calcium reversed the metformin-induced fall in holotranscobalamin by counteracting calcium-dependent ileal membrane antagonism.",
+      "evidence": "Small comparative study (n=21)",
+      "citations": [
+        "PMID:10977010"
+      ]
+    },
+    {
+      "with": "Berberine",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Berberine inhibits OCT1/OCT2/MATE1-mediated metformin transport and changes metformin PK in rats. Glucose lowering is additive.",
+      "evidence": "In vitro and rat PK studies; low-quality RCT MA of berberine with oral hypoglycemics; no human PK study",
+      "citations": [
+        "PMID:25359200",
+        "PMID:30428337",
+        "PMID:23118793"
+      ]
+    },
+    {
+      "with": "Acarbose",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Complementary mechanisms (alpha-glucosidase inhibition plus hepatic/gut actions): the combination lowered FBG, 2-h glucose and HbA1c more than either alone. Watch GI tolerability and hypoglycemia.",
+      "evidence": "MA of RCTs (mostly Chinese); comparative MA",
+      "citations": [
+        "PMID:28588669",
+        "PMID:25961824"
+      ]
+    },
+    {
+      "with": "Rapamycin",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Metformin offset rapamycin-induced glucose intolerance in female HET3 mice; ITP mice on both drugs lived at least as long as on rapamycin alone.",
+      "evidence": "Mouse study only; no human data",
+      "citations": [
+        "PMID:29579736"
+      ]
+    },
+    {
+      "with": "Magnesium",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Metformin use is associated with hypomagnesemia (OR 3.72), possibly from GI loss and TRPM6 effects; check Mg if symptomatic.",
+      "evidence": "Cohort study (n=1106); case and narrative review",
+      "citations": [
+        "PMID:38599521",
+        "PMID:40613016"
       ]
     },
     {
@@ -37,14 +247,113 @@
       "with_kind": "supplement",
       "kind": "monitor",
       "severity": "minor",
-      "mechanism": "Iron treatment may be relevant if metformin-associated B12 deficiency causes anemia; no direct pharmacokinetic interaction established.",
-      "evidence": "Metformin label documents B12-related anemia risk; direct pair evidence lacking.",
+      "mechanism": "No PK interaction is known. Metformin-associated B12 deficiency can cause anemia; evaluate anemia before attributing it to iron deficiency.",
+      "evidence": "Label hematologic monitoring advice; small MA of iron-deficiency anemia in metformin users",
       "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529",
+        "PMID:40535375"
+      ]
+    },
+    {
+      "with": "resistance and aerobic exercise training",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Metformin activates AMPK and blunts mTORC1 and mitochondrial adaptations. In older adults it reduced lean mass and thigh muscle gains with resistance training and attenuated VO2max and insulin-sensitivity gains with aerobic training.",
+      "evidence": "RCTs: MASTERS (n=94) and aerobic training trial (n=53)",
+      "citations": [
+        "PMID:31557380",
+        "PMID:30548390",
+        "PMID:40695624"
+      ]
+    },
+    {
+      "with": "pregnancy",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Crosses into the fetal environment. Added to insulin in T2D pregnancy it improved glycemia but raised small-for-gestational-age risk (RR 1.96). Neurodevelopment and malformation MAs are reassuring.",
+      "evidence": "RCT (MiTy, n=502) with child follow-up; MAs",
+      "citations": [
+        "PMID:32946820",
+        "PMID:36746160",
+        "PMID:38460832",
+        "PMID:41628713",
         "URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529"
+      ]
+    },
+    {
+      "with": "18F-FDG PET/CT",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "moderate",
+      "mechanism": "Metformin causes intense diffuse bowel (mainly colonic) FDG uptake that can obscure abdominal lesions. Stopping for 48 h reduces it, but distal colon uptake persists with holds under 72 h.",
+      "evidence": "Prospective study; RCT (n=90) of 24- vs 48-h holds; retrospective cohorts",
+      "citations": [
+        "PMID:17786437",
+        "PMID:30106348",
+        "PMID:32815120",
+        "PMID:27392947"
+      ]
+    },
+    {
+      "with": "SLC22A1 / ATM / SLC2A2 variants",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "ATM rs11212617 is associated with treatment success (OR 1.35); SLC22A1 reduced-function variants affect PK in some studies but not HbA1c response in GoDARTS; SLC2A2 rs8192675 C allele gives a larger glucose fall.",
+      "evidence": "GWAS with replication meta-analysis; cohort studies; SR; not used clinically",
+      "citations": [
+        "PMID:21186350",
+        "PMID:22453232",
+        "PMID:19336679",
+        "PMID:37550919",
+        "PMID:30413829"
       ]
     }
   ],
   "citations": [
-    "URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529"
+    "URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529",
+    "PMID:29868840",
+    "PMID:25536258",
+    "PMID:31372935",
+    "PMID:20032157",
+    "PMID:26974526",
+    "PMID:40468972",
+    "PMID:27128216",
+    "PMID:40098288",
+    "PMID:37948503",
+    "PMID:36129996",
+    "PMID:25502588",
+    "PMID:30615306",
+    "PMID:41754978",
+    "PMID:40850508",
+    "PMID:27941660",
+    "PMID:10977010",
+    "PMID:25359200",
+    "PMID:30428337",
+    "PMID:23118793",
+    "PMID:28588669",
+    "PMID:25961824",
+    "PMID:29579736",
+    "PMID:38599521",
+    "PMID:40613016",
+    "PMID:40535375",
+    "PMID:31557380",
+    "PMID:30548390",
+    "PMID:40695624",
+    "PMID:32946820",
+    "PMID:36746160",
+    "PMID:38460832",
+    "PMID:41628713",
+    "PMID:17786437",
+    "PMID:30106348",
+    "PMID:32815120",
+    "PMID:27392947",
+    "PMID:21186350",
+    "PMID:22453232",
+    "PMID:19336679",
+    "PMID:37550919",
+    "PMID:30413829"
   ]
 }

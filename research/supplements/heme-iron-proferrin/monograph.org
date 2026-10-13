@@ -3,35 +3,216 @@
 :ID: supp-heme-iron-proferrin
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: Heme iron polypeptide | HIP | Proferrin
+:ALIASES: Heme iron polypeptide | HIP | Proferrin | Proferrin-ES | Proferrin Forte | Proferrin Clear | haem iron | heme-bound iron
 :CATEGORY: mineral
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
+
 ** Identity & forms
-- Proferrin is a branded heme iron polypeptide (HIP), a bovine hemoglobin-derived iron product; products and elemental iron content vary [PMID:31944128].
+- Heme iron polypeptide (HIP) is partially proteolyzed hemoglobin, about 93% heme iron and 7% non-heme iron [PMID:41984398]. Colorado Biolabs makes it from USDA-edible bovine red blood cells by enzymatic digestion and ultrafiltration [URL:https://proferrin.com/faq/].
+- Products: Proferrin ES (tablet) and Proferrin Clear (capsule) each contain 10.5 mg elemental iron as HIP. Proferrin Forte contains 12 mg iron as HIP plus 1 mg folic acid [URL:https://www.proferrin.com/] [URL:https://proferrin.com/faq/].
+- Proferrin was the HIP product in a bariatric-surgery RCT [PMID:37801789]. Heme plus non-heme combinations (e.g. Hemofer, 18 mg/day) [PMID:8145004] and heme-bound iron (Optifer) [PMID:30613538] are related products, and they dominate the heme-vs-non-heme trial base [PMID:39708071].
+- Porcine heme-iron concentrates are used as food fortificants [PMID:27314581]. The bovine origin matters to people avoiding animal products [URL:https://proferrin.com/faq/].
+
 ** Mechanisms
-- Provides heme-bound iron for absorption and hemoglobin synthesis; comparative superiority over ferrous salts is not established [PMID:31944128].
+- Separate uptake pathways:
+  - Heme is probably absorbed intact (receptor-mediated endocytosis or HCP1; no receptor proven) and degraded by heme oxygenase in the enterocyte [PMID:41984398] [PMID:40647237].
+  - Non-heme iron uses DMT1. Both forms exit through ferroportin, which hepcidin controls [PMID:24994858].
+- Food heme iron utilization was not affected by iron status or detectable hepcidin; ferrous sulfate utilization was [PMID:20980658]. Twelve weeks of ferrous sulfate down-regulated non-heme but not heme absorption [PMID:11010941].
+- Ferrous sulfate did not compete with heme absorption. The fraction of heme absorbed fell as the dose rose from 0.5 to 50 mg [PMID:22935997].
+- Tea, bran and ascorbic acid had no appreciable effect on heme absorption [PMID:4038429]. Calcium inhibits both heme and non-heme forms [PMID:1984335] [PMID:21795430].
+- Polyphenols inhibited heme transport dose-dependently in Caco-2 cells, and ascorbic acid offset this only at low concentrations [PMID:22417433].
+- Heme absorption is proposed to resist inflammation-driven hepcidin, which was the rationale for an infant trial in a high-inflammation setting [PMID:38641845]. In rodents, HIP corrected anemia as well as ferrous sulfate [PMID:41984398].
+- In the gut lumen, 8 mg heme iron raised fecal N-nitroso compounds, while 35 mg ferrous iron did not [PMID:12750250]. N-nitrosation and lipoperoxidation are the leading proposed colorectal mechanisms [PMID:21209396].
+
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | Certainty | Citations |
-|---------+--------------------+-----------+-------------+-----------+-----------|
-| Principal studied outcome | Systematic review/RCT or official product label | Iron deficiency anemia: oral iron is effective in general; HIP-specific evidence is limited. 2025 pediatric RCT found no Hb benefit vs ferrous salts, though some iron markers favored HIP [PMID:31944128] [PMID:41300263]. | See outcome summary above; no extrapolation to unstudied endpoints | low | [PMID:31944128] [PMID:41300263] |
-| Hard clinical outcomes / prevention | Human outcome evidence sparse or absent in sources reviewed | Not established | No reliable effect estimate | very low | [PMID:31944128] [PMID:41300263] |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Hb/iron status vs non-heme iron (all populations) | SR/MA of 13 RCTs (mostly low-dose heme+non-heme combinations) | Possible benefit only in iron-deficient/anemic children; no difference elsewhere | Children: Hb MD +1.06 g/dL (95% CI 0.34-1.78); other subgroups NS | very low | [PMID:39708071] |
+| Infant IDA (HIP vs ferrous sulfate, 10 mg/d, 84 d) | RCT n=208 (Gambia) | No difference in primary outcomes (Hb, ferritin); secondary iron markers favor HIP | Serum iron +48.4%, TSAT +52.3%, sTfR -9.7% with HIP; anemia 84.6%->47.1% (HIP) vs 83.7%->46.2% (FeSO4) | low | [PMID:40803493] |
+| Total side effects vs non-heme iron | SR/MA of RCTs | Fewer with heme | RR 0.62 (95% CI 0.40-0.96) | very low | [PMID:39708071] [PMID:8145004] |
+| Anemia of CKD (overall) | SR of 3 RCTs (n=161) | No advantage over ferrous or IV iron; lower ferritin; costlier | Hb, TSAT, ESA dose similar | low | [PMID:25953602] |
+| Peritoneal dialysis (HIP vs FeSO4, 6 mo) | RCT n=62 (HEMATOCRIT) | No difference in TSAT; ferritin lower with HIP | Median TSAT 22% vs 20% (P=0.65); cost 7-fold higher | low | [PMID:22962411] |
+| Non-dialysis CKD (HIP vs IV iron sucrose, 6 mo) | RCT n=40 | Hb similar; ferritin much lower with HIP | Hb 117 vs 113 g/L (P=0.37); ferritin 85.5 vs 244 ug/L | very low | [PMID:23514036] |
+| Hemodialysis (switch from IV iron to HIP) | Open 6-mo prospective study n=37 | Hct maintained in most; ferritin fell | 11% dropped out for insufficient iron or intolerance | very low | [PMID:12900815] |
+| Iron deficiency after Roux-en-Y gastric bypass | Small RCT stopped early (n=14) | FeSO4 effective, HIP not | No change in any iron biomarker with HIP | very low | [PMID:28779269] [PMID:22952172] |
+| Pregnancy IDA | Uncontrolled before-after study, heme-bound iron (n=122) | Hb and ferritin increased | Hb 8.4->11.2 g/dL over 3 mo; no comparator | very low | [PMID:30613538] |
+| Blood donors | Double-blind RCT (heme+non-heme 18 mg vs non-heme 60 mg) | Equal iron repletion, fewer side effects with heme | Constipation and total side effects lower (P<0.05, P<0.01) | very low | [PMID:8145004] |
+| Heme-rich foods/fortificants in women and children | Small RCTs | Comparable to iron salts | Body iron +2.7 mg/kg (heme bread) = Fe35 tablets; Hb +1.9 vs +2.0 g/dL (biscuits) | low | [PMID:22951158] [PMID:27314581] |
+| Dietary heme intake and type 2 diabetes (observational) | MA of 11 cohorts plus 3 US cohorts (n=204,615) | Higher risk | RR 1.20 high vs low (GRADE moderate); +16% per 1 mg/d; HR 1.26 top vs bottom quintile | low | [PMID:35107626] [PMID:39138340] |
+| Dietary heme intake and colorectal cancer (observational) | MAs of cohorts | Higher risk, small | Colon RR 1.18 (1.06-1.32); CRC RR 1.14 (1.04-1.24); EPIC-Spain null (HR 0.88) | low | [PMID:21209396] [PMID:23568532] [PMID:38546399] |
+| Dietary heme intake and CVD (observational) | Dose-response MAs | Higher risk | CVD RR 1.07 per 1 mg/d; CVD mortality RR 1.19 high vs low | very low | [PMID:25439662] [PMID:32674239] [PMID:34583608] |
+The diabetes, cancer and CVD rows are observational data on dietary (meat) heme, not on HIP supplements. An umbrella review rated most iron-outcome evidence low or very low quality [PMID:34583608].
+
 ** Dosing in trials
-- Trials have tested varied elemental iron quantities; follow product label and trial indication; dosing cannot be inferred across HIP formulations [PMID:31944128].
+- HIP trials:
+  - CKD: 11 mg three times daily [PMID:23514036], two capsules daily for 6 months [PMID:22962411], or HIP replacing IV iron in hemodialysis [PMID:12900815].
+  - Gastric bypass: 31.5-94.5 mg/d [PMID:28779269] or 60.4 mg/d [PMID:37801789] for 8 weeks.
+  - Infants: 10 mg/d for 84 days [PMID:40803493].
+- Manufacturer guidance: 1-3 Proferrin ES tablets daily in pregnancy. It claims one tablet equals 2-3 ionic-iron tablets, but no trial confirms this ratio [URL:https://proferrin.com/faq/].
+- Hepcidin-based scheduling (ferrous sulfate data; untested for HIP):
+  - Doses >=60 mg raise hepcidin for 24 h and cut next-day absorption by 35-45% [PMID:26289639]. Alternate-day dosing raises fractional absorption [PMID:29032957] [PMID:31413088].
+  - A 6-month RCT found equal ferritin with fewer GI effects on alternate days [PMID:38021373]. A 2025 MA found no Hb difference (MD 0.28 g/dL) [PMID:40841680], and an LMIC pilot RCT favored daily dosing [PMID:41354563].
+  - Whether these schedules matter for low-dose, hepcidin-insensitive heme iron is unknown [PMID:20980658].
+- EFSA: safe level of 40 mg/day total iron for adults (no UL could be set) [PMID:38868106].
+
 ** Safety & adverse effects
-- GI symptoms and iron overload are concerns; accidental overdose can be fatal in children. Long-term HIP-specific safety evidence limited [PMID:31944128].
+- GI effects:
+  - Ferrous sulfate raises GI side effects vs placebo (OR 2.32) [PMID:25700159]. Heme formulations caused fewer total side effects (RR 0.62, very low certainty) [PMID:39708071], including less constipation in blood donors [PMID:8145004].
+  - CKD trials found adverse events similar to comparators [PMID:22962411] [PMID:23514036].
+  - Neither HIP nor ferrous sulfate increased systemic oxidative-stress markers after bariatric surgery [PMID:37801789].
+- Iron overload: haemochromatosis loads the liver, pancreas and heart [PMID:29620054]. C282Y homozygous or compound heterozygous postmenopausal women with high heme intake had geometric mean ferritin 183.9 ug/L [PMID:16399493].
+- Chronic-disease signals from dietary heme (T2D, colorectal cancer, CVD) come from cohorts [PMID:35107626] [PMID:23568532] [PMID:25439662]. Their relevance to 10-12 mg/d HIP in iron-deficient people is unstudied.
+- Acute toxicity in children: iron poisoning is a major cause of unintentional poisoning death in young children. US deaths fell from 29 to 1 after unit-dose packaging [PMID:15939855]. Serious toxicity starts at about 28 mg/kg [PMID:30882955].
+- Pregnancy: oral iron reduces maternal anemia (RR 0.30), with very uncertain adverse-effect data [PMID:39145520] [PMID:39834271]. HIP-specific pregnancy data are uncontrolled [PMID:30613538].
+- Malaria-endemic settings: iron does not raise clinical malaria in children (RR 0.93, high certainty) [PMID:41510785].
+
 ** Contraindications
-- Iron overload/hemochromatosis and iron-replete states; identify deficiency before prolonged use.
+- Hereditary haemochromatosis and other iron-overload states [PMID:29620054] [PMID:16399493]. Iron-replete people should also avoid unmonitored long-term use, because stores rise and stay raised [PMID:11010941]. Only a safe level, not a UL, exists [PMID:38868106].
+- Avoidance of bovine-derived products [URL:https://proferrin.com/faq/].
+- Post-Roux-en-Y iron deficiency: HIP failed where ferrous sulfate worked [PMID:28779269]. Heme absorption fell from 23.9% to 6.2% after surgery [PMID:22952172].
+
 ** Interactions
-- Iron decreases absorption of levothyroxine, tetracyclines, quinolones and bisphosphonates; separate dosing per drug labeling. Vitamin C can enhance nonheme iron absorption, less clearly relevant to heme iron.
-- Structured high-priority interactions are represented in interactions.json; absence of an edge is not proof of no interaction.
+*** Drugs
+- Levothyroxine:
+  - Iron chelates levothyroxine and reduces its absorption [PMID:28153426]. Cases show raised dose needs on ferrous sulfate [PMID:9191742], with the interaction persisting despite 4-h separation [PMID:42438581].
+  - Label: do not take within 4 h of iron [URL:https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/8bc641d8-0185-49b2-9c1f-d886bf5ce098.xml].
+- Fluoroquinolones: ferrous sulfate cut AUC by 73% (norfloxacin), 57% (ciprofloxacin) and 25% (ofloxacin) [PMID:8148225]. Label: ciprofloxacin 2 h before or 6 h after iron [URL:https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/14c3bc33-201d-492e-9aee-a4d84c813a3d.xml].
+- Tetracyclines/doxycycline: concurrent iron seriously impairs absorption [PMID:5483323] [PMID:2054263]. A 2026 case reported treatment failure [PMID:42148617].
+- Levodopa/carbidopa: iron reduces levodopa absorption [PMID:2340448]. The label advises caution because of chelation [URL:https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/9e3c796b-2e68-4bcc-b927-18a58bea4703.xml].
+- Methyldopa: ferrous sulfate cut absorption from 29.1% to 7.9%, and BP rose in 4 of 5 patients [PMID:3356082].
+- Mycophenolate: a 90% AUC drop in healthy volunteers [PMID:11180021] was not seen in transplant RCTs or crossover studies [PMID:14742982] [PMID:16995871].
+- Bisphosphonates: multivalent cations impair alendronate absorption, so wait at least 30 min after the dose [URL:https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/4323d3aa-cbb0-41e2-aba7-7a94a0516993.xml].
+- PPIs: associated with iron deficiency anemia (RR 2.56) [PMID:35255801]. The effect on heme absorption is unknown.
+- The manufacturer claims "no known interactions" [URL:https://proferrin.com/faq/]. Chelation interactions apply to iron generally [PMID:2054263], and no HIP-specific PK studies exist.
+*** Other supplements
+- Calcium:
+  - 165 mg reduced heme and non-heme absorption in single meals [PMID:1984335]. 800 mg cut heme absorption by 37.7% [PMID:21795430].
+  - 600 mg/d for 34 days did not change heme bioavailability [PMID:24290597]. An MA found small acute effects (WMD -5.57%) and no Hb loss [PMID:33758936].
+- Magnesium: magnesium oxide and calcium carbonate in prenatal multivitamins lowered iron absorption [PMID:6823378].
+- Zinc: zinc inhibits non-heme iron at >=1:1 ratios [PMID:22297381], and iron lowers zinc absorption [PMID:14594790]. Heme iron did not inhibit zinc absorption [PMID:7223699].
+- Curcumin and Turmeric: curcumin chelates iron, represses hepcidin and caused iron deficiency in mice [PMID:18815282]. A human case of IDA on high-dose turmeric resolved after stopping it [PMID:30899609]. A formulated curcumin increased iron uptake in vitro [PMID:40613696].
+- Vitamin C: no effect on heme absorption in humans [PMID:4038429]. It offsets low-level polyphenol inhibition in vitro [PMID:22417433]. Tea and polyphenols: tea had little effect on heme absorption in humans [PMID:4038429]. High polyphenol levels inhibited heme transport in vitro [PMID:22417433], and a polyphenol supplement cut non-heme absorption by about 40% [PMID:35320401].
+- Prebiotics: a prebiotic mix raised heme iron bioavailability by 56% [PMID:28485415]. Non-heme iron: does not compete with heme [PMID:22935997]. Combined heme plus non-heme iron increased uptake in vitro [PMID:41595579].
+*** Conditions
+- Haemochromatosis and HFE variants: see Contraindications and Genotype notes.
+- CKD/dialysis: no advantage for HIP, and ferritin is lower [PMID:25953602] [PMID:22962411].
+- Bariatric surgery: poor HIP response [PMID:28779269] [PMID:22952172].
+- Young children in the home: accidental overdose risk [PMID:15939855].
+- T2D risk: dietary heme intake tracks with insulinemia and inflammation markers [PMID:39138340].
+*** Lab-test interference
+- Guaiac fecal occult blood: the manufacturer warns of possible false positives on guaiac tests but not on FIT [URL:https://proferrin.com/faq/]. Ferrous sulfate did not make Hemoccult II tests positive in vivo [PMID:2909440].
+- Black stools reflect unabsorbed iron [PMID:38868106].
+- Serum ferritin: HIP gives lower ferritin than comparators at similar Hb, which complicates interpretation [PMID:25953602] [PMID:23514036].
+
 ** Genotype notes
-- No cited pharmacogenomic/nutrigenomic source was identified for a supplement-specific genotype effect; no genotype claim made.
+- HFE: carriers of H63D or C282Y showed higher T2D odds with rising heme intake (P-interaction 0.029); wild-type women did not [PMID:16306377].
+- C282Y heterozygotes did not absorb heme or non-heme iron more than controls; compound heterozygotes absorbed more non-heme (not heme) iron [PMID:15447900].
+- In C282Y homozygotes, a polyphenol supplement reduced non-heme absorption by about 40% [PMID:35320401].
+
 ** Latest research
-- 2025-11: 2025 RCT of heme iron polypeptide (Proferrin) versus ferrous salts in Gambian children did not show Hb advantage; pediatric setting limits extrapolation [PMID:41300263].
+- [2026-08] HIP (Proferrin) corrected iron-deficiency anemia in rats and mice as well as ferrous sulfate [PMID:41984398].
+- [2026-07] Case: iron-levothyroxine interaction despite 4-h separation, resolved with IV iron [PMID:42438581].
+- [2026-06] Cochrane review, blood donors (38 RCTs): oral iron probably reduces low-Hb deferral (RR 0.39, moderate certainty); GI adverse events RR 1.69 [PMID:42240175].
+- [2026-05] Case report: iron-doxycycline interaction with treatment failure in chronic Q fever [PMID:42148617].
+- [2026-01] Cochrane, malaria-endemic children (40 trials): iron does not raise clinical malaria (RR 0.93) [PMID:41510785].
+- [2026-01] Pilot RCT: daily 60 mg beat 120 mg alternate-day dosing over 14 days [PMID:41354563].
+- [2025-10] Gambian infant RCT (n=208): HIP not superior on Hb or ferritin, better on 5 secondary iron markers [PMID:40803493].
+- [2025-09] RCT: a beef "meat factor" did not improve ferrous sulfate response [PMID:40633767].
+- [2025-08] MA of daily vs alternate-day dosing (11 RCTs): no significant Hb difference; very low certainty [PMID:40841680].
+- [2025-01] MA in non-anaemic pregnancy: oral iron halved anemia risk (RR 0.50) [PMID:39834271].
+- [2024-12] First SR/MA of heme vs non-heme RCTs: side effects RR 0.62; Hb benefit only in anemic children; very low certainty [PMID:39708071].
+
 ** Open questions
-- Which formulations, populations, and durations produce clinically meaningful outcomes rather than biomarker-only changes?
-- Are there long-term benefits or harms beyond the relatively short human trials available?
+- No adequately powered RCT has compared HIP with low-dose or alternate-day ferrous salts in iron-deficient adults.
+- It is unclear why HIP lowers ferritin relative to comparators (absorption, storage or assay) [PMID:25953602].
+- Does HIP keep its advantage under inflammation (CKD, obesity, infection), as the Gambian secondary outcomes suggest [PMID:40803493]?
+- Long-term N-nitrosation and T2D risk from supplemental (not dietary) heme iron [PMID:12750250] [PMID:39138340].
+- No HIP-specific drug-interaction PK studies exist. Several HIP trials are open-label, and the product costs more [PMID:22962411].
+
 ** Sources
-- [PMID:31944128] [PMID:41300263]
+1. He Y et al. Heme Iron Polypeptide Resolves Iron-deficiency Anemia in Rats and Mice. Biol Trace Elem Res. 2026. PMID:41984398 DOI:10.1007/s12011-026-05094-6
+2. Babayev M et al. Impact on oxidative stress of oral, high-dose, iron supplementation for management of iron deficiency after bariatric surgery, a preliminary study. J Trace Elem Med Biol. 2023. PMID:37801789 DOI:10.1016/j.jtemb.2023.127310
+3. Frykman E et al. Side effects of iron supplements in blood donors: superior tolerance of heme iron. J Lab Clin Med. 1994. PMID:8145004
+4. Abdelazim IA et al. Heme-bound iron in treatment of pregnancy-associated iron deficiency anemia. J Family Med Prim Care. 2018. PMID:30613538 DOI:10.4103/jfmpc.jfmpc_271_18
+5. Gallo Ruelas M et al. A comparative analysis of heme vs non-heme iron administration: a systematic review and meta-analysis of randomized controlled trials. Eur J Nutr. 2024. PMID:39708071 DOI:10.1007/s00394-024-03564-y
+6. Quintero-Gutiérrez AG et al. Heme Iron Concentrate and Iron Sulfate Added to Chocolate Biscuits: Effects on Hematological Indices of Mexican Schoolchildren. J Am Coll Nutr. 2016. PMID:27314581 DOI:10.1080/07315724.2015.1060875
+7. Kalman D et al. Dietary Heme Iron: A Review of Efficacy, Safety and Tolerability. Nutrients. 2025. PMID:40647237 DOI:10.3390/nu17132132
+8. Gulec S et al. Mechanistic and regulatory aspects of intestinal iron absorption. Am J Physiol Gastrointest Liver Physiol. 2014. PMID:24994858 DOI:10.1152/ajpgi.00348.2013
+9. Young MF et al. Utilization of iron from an animal-based iron source is greater than that of ferrous sulfate in pregnant and nonpregnant women. J Nutr. 2010. PMID:20980658 DOI:10.3945/jn.110.127209
+10. Roughead ZK et al. Adaptation in iron absorption: iron supplementation reduces nonheme-iron but not heme-iron absorption from food. Am J Clin Nutr. 2000. PMID:11010941 DOI:10.1093/ajcn/72.4.982
+11. Gaitán D et al. Non-heme iron as ferrous sulfate does not interact with heme iron absorption in humans. Biol Trace Elem Res. 2012. PMID:22935997 DOI:10.1007/s12011-012-9496-4
+12. Lynch SR et al. Soy protein products and heme iron absorption in humans. Am J Clin Nutr. 1985. PMID:4038429 DOI:10.1093/ajcn/41.1.13
+13. Hallberg L et al. Calcium: effect of different amounts on nonheme- and heme-iron absorption in humans. Am J Clin Nutr. 1991. PMID:1984335 DOI:10.1093/ajcn/53.1.112
+14. Gaitán D et al. Calcium does not inhibit the absorption of 5 milligrams of nonheme or heme iron at doses less than 800 milligrams in nonpregnant women. J Nutr. 2011. PMID:21795430 DOI:10.3945/jn.111.138651
+15. Ma Q et al. Bioactive dietary polyphenols inhibit heme iron absorption in a dose-dependent manner in human intestinal Caco-2 cells. J Food Sci. 2011. PMID:22417433 DOI:10.1111/j.1750-3841.2011.02184.x
+16. Bah M et al. Haem iron versus ferrous iron salts to treat iron deficiency anaemia in Gambian children: protocol for randomised controlled trial {1}. Trials. 2024. PMID:38641845 DOI:10.1186/s13063-024-08101-0
+17. Cross AJ et al. Haem, not protein or inorganic iron, is responsible for endogenous intestinal N-nitrosation arising from red meat. Cancer Res. 2003. PMID:12750250
+18. Bastide NM et al. Heme iron from meat and risk of colorectal cancer: a meta-analysis and a review of the mechanisms involved. Cancer Prev Res (Phila). 2011. PMID:21209396 DOI:10.1158/1940-6207.CAPR-10-0113
+19. Bah M et al. Heme iron compared with ferrous iron salts to treat iron deficiency anemia in Gambian children: a randomized controlled trial. Am J Clin Nutr. 2025. PMID:40803493 DOI:10.1016/j.ajcnut.2025.07.037
+20. Dull RB et al. Heme iron polypeptide for the management of anaemia of chronic kidney disease. J Clin Pharm Ther. 2015. PMID:25953602 DOI:10.1111/jcpt.12281
+21. Barraclough KA et al. A randomized controlled trial of oral heme iron polypeptide versus oral iron supplementation for the treatment of anaemia in peritoneal dialysis patients: HEMATOCRIT trial. Nephrol Dial Transplant. 2012. PMID:22962411 DOI:10.1093/ndt/gfs372
+22. Nagaraju SP et al. Heme iron polypeptide for the treatment of iron deficiency anemia in non-dialysis chronic kidney disease patients: a randomized controlled trial. BMC Nephrol. 2013. PMID:23514036 DOI:10.1186/1471-2369-14-64
+23. Nissenson AR et al. Clinical evaluation of heme iron polypeptide: sustaining a response to rHuEPO in hemodialysis patients. Am J Kidney Dis. 2003. PMID:12900815 DOI:10.1016/s0272-6386(03)00658-9
+24. Mischler RA et al. Comparison of Oral Iron Supplement Formulations for Normalization of Iron Status Following Roux-EN-y Gastric Bypass Surgery: a Randomized Trial. Obes Surg. 2018. PMID:28779269 DOI:10.1007/s11695-017-2858-4
+25. Ruz M et al. Heme- and nonheme-iron absorption and iron status 12 mo after sleeve gastrectomy and Roux-en-Y gastric bypass in morbidly obese women. Am J Clin Nutr. 2012. PMID:22952172 DOI:10.3945/ajcn.112.039255
+26. Hoppe M et al. Heme iron-based dietary intervention for improvement of iron status in young women. Nutrition. 2013. PMID:22951158 DOI:10.1016/j.nut.2012.04.013
+27. Shahinfar H et al. Dietary iron intake and the risk of type 2 diabetes: a systematic review and dose-response meta-analysis of prospective cohort studies. Eur J Nutr. 2022. PMID:35107626 DOI:10.1007/s00394-022-02813-2
+28. Wang F et al. Integration of epidemiological and blood biomarker analysis links haem iron intake to increased type 2 diabetes risk. Nat Metab. 2024. PMID:39138340 DOI:10.1038/s42255-024-01109-5
+29. Qiao L et al. Intakes of heme iron and zinc and colorectal cancer incidence: a meta-analysis of prospective studies. Cancer Causes Control. 2013. PMID:23568532 DOI:10.1007/s10552-013-0197-x
+30. Rizzolo-Brime L et al. Nitrosyl-heme and Heme Iron Intake from Processed Meats and Risk of Colorectal Cancer in the EPIC-Spain Cohort. Cancer Epidemiol Biomarkers Prev. 2024. PMID:38546399 DOI:10.1158/1055-9965.EPI-24-0211
+31. Fang X et al. Dietary intake of heme iron and risk of cardiovascular disease: a dose-response meta-analysis of prospective cohort studies. Nutr Metab Cardiovasc Dis. 2015. PMID:25439662 DOI:10.1016/j.numecd.2014.09.002
+32. Han M et al. Dietary iron intake and risk of death due to cardiovascular diseases: A systematic review and dose-response meta-analysis of prospective cohort studies. Asia Pac J Clin Nutr. 2020. PMID:32674239 DOI:10.6133/apjcn.202007_29(2).0014
+33. Huang Y et al. Iron intake and multiple health outcomes: Umbrella review. Crit Rev Food Sci Nutr. 2023. PMID:34583608 DOI:10.1080/10408398.2021.1982861
+34. Moretti D et al. Oral iron supplements increase hepcidin and decrease iron absorption from daily or twice-daily doses in iron-depleted young women. Blood. 2015. PMID:26289639 DOI:10.1182/blood-2015-05-642223
+35. Stoffel NU et al. Iron absorption from oral iron supplements given on consecutive versus alternate days and as single morning doses versus twice-daily split dosing in iron-depleted women: two open-label, randomised controlled trials. Lancet Haematol. 2017. PMID:29032957 DOI:10.1016/S2352-3026(17)30182-5
+36. Stoffel NU et al. Iron absorption from supplements is greater with alternate day than with consecutive day dosing in iron-deficient anemic women. Haematologica. 2020. PMID:31413088 DOI:10.3324/haematol.2019.220830
+37. von Siebenthal HK et al. Alternate day versus consecutive day oral iron supplementation in iron-depleted women: a randomized double-blind placebo-controlled study. EClinicalMedicine. 2023. PMID:38021373 DOI:10.1016/j.eclinm.2023.102286
+38. Dhanvijay AD et al. Efficacy of daily versus alternate day oral iron supplementation for management of anaemia among general population: a systematic review and meta-analysis. BMC Pharmacol Toxicol. 2025. PMID:40841680 DOI:10.1186/s40360-025-00984-2
+39. John NM et al. Daily oral iron supplementation produced greater improvements in hematological parameters than alternate day doses - A pilot double-blind randomized control trial in iron-deficient young women. Clin Nutr. 2026. PMID:41354563 DOI:10.1016/j.clnu.2025.11.005
+40. EFSA Panel on Nutrition, Novel Foods and Food Allergens (NDA) et al. Scientific opinion on the tolerable upper intake level for iron. EFSA J. 2024. PMID:38868106 DOI:10.2903/j.efsa.2024.8819
+41. Tolkien Z et al. Ferrous sulfate supplementation causes significant gastrointestinal side-effects in adults: a systematic review and meta-analysis. PLoS One. 2015. PMID:25700159 DOI:10.1371/journal.pone.0117383
+42. Brissot P et al. Haemochromatosis. Nat Rev Dis Primers. 2018. PMID:29620054 DOI:10.1038/nrdp.2018.16
+43. van der A DL et al. HFE genotypes and dietary heme iron: no evidence of strong gene-nutrient interaction on serum ferritin concentrations in middle-aged women. Nutr Metab Cardiovasc Dis. 2006. PMID:16399493 DOI:10.1016/j.numecd.2005.07.008
+44. Tenenbein M. Unit-dose packaging of iron supplements and reduction of iron poisoning in young children. Arch Pediatr Adolesc Med. 2005. PMID:15939855 DOI:10.1001/archpedi.159.6.557
+45. Halil H et al. Minimum ingested iron cut-off triggering serious iron toxicity in children. Pediatr Int. 2019. PMID:30882955 DOI:10.1111/ped.13834
+46. Finkelstein JL et al. Daily oral iron supplementation during pregnancy. Cochrane Database Syst Rev. 2024. PMID:39145520 DOI:10.1002/14651858.CD004736.pub6
+47. Watt A et al. The benefits and harms of oral iron supplementation in non-anaemic pregnant women: a systematic review and meta-analysis. Fam Pract. 2025. PMID:39834271 DOI:10.1093/fampra/cmae079
+48. Itzkovich M et al. Oral iron supplements for children in malaria-endemic areas. Cochrane Database Syst Rev. 2026. PMID:41510785 DOI:10.1002/14651858.CD006589.pub5
+49. Skelin M et al. Factors Affecting Gastrointestinal Absorption of Levothyroxine: A Review. Clin Ther. 2017. PMID:28153426 DOI:10.1016/j.clinthera.2017.01.005
+50. Shakir KM et al. Ferrous sulfate-induced increase in requirement for thyroxine in a patient with primary hypothyroidism. South Med J. 1997. PMID:9191742 DOI:10.1097/00007611-199706000-00011
+51. Ei ZP et al. Unmasking Refractory Hypothyroidism: Persistent Iron-Levothyroxine Interaction Despite Appropriate Dose Separation. Cureus. 2026. PMID:42438581 DOI:10.7759/cureus.112442
+52. Lehto P et al. The effect of ferrous sulphate on the absorption of norfloxacin, ciprofloxacin and ofloxacin. Br J Clin Pharmacol. 1994. PMID:8148225 DOI:10.1111/j.1365-2125.1994.tb04245.x
+53. Neuvonen PJ et al. Interference of iron with the absorption of tetracyclines in man. Br Med J. 1970. PMID:5483323 DOI:10.1136/bmj.4.5734.532
+54. Campbell NR et al. Iron supplements: a common cause of drug interactions. Br J Clin Pharmacol. 1991. PMID:2054263 DOI:10.1111/j.1365-2125.1991.tb05525.x
+55. Potasman I et al. Iron-Doxycycline Interaction Leading to Obvious Treatment Failure in CHRONIC Q FEVER: A CASE REPORT. Isr Med Assoc J. 2026. PMID:42148617
+56. Campbell RR et al. The effect of ferrous sulfate and pH on L-dopa absorption. Can J Physiol Pharmacol. 1990. PMID:2340448 DOI:10.1139/y90-087
+57. Campbell N et al. Alteration of methyldopa absorption, metabolism, and blood pressure control caused by ferrous sulfate and ferrous gluconate. Clin Pharmacol Ther. 1988. PMID:3356082 DOI:10.1038/clpt.1988.47
+58. Morii M et al. Impairment of mycophenolate mofetil absorption by iron ion. Clin Pharmacol Ther. 2000. PMID:11180021 DOI:10.1067/mcp.2000.111480
+59. Mudge DW et al. The effect of oral iron admiinistration on mycophenolate mofetil absorption in renal transplant recipients: a randomized, controlled trial. Transplantation. 2004. PMID:14742982 DOI:10.1097/01.TP.0000100446.44001.00
+60. Ducray PS et al. Absence of an interaction between iron and mycophenolate mofetil absorption. Br J Clin Pharmacol. 2006. PMID:16995871 DOI:10.1111/j.1365-2125.2005.02541.x
+61. Ali MD. Proton Pump Inhibitors' Use and Risk of Iron Deficiency Anaemia: A Systematic Review and Meta-analysis. Curr Rev Clin Exp Pharmacol. 2023. PMID:35255801 DOI:10.2174/2772432817666220307121220
+62. Ríos-Castillo I et al. One-month of calcium supplementation does not affect iron bioavailability: a randomized controlled trial. Nutrition. 2014. PMID:24290597 DOI:10.1016/j.nut.2013.06.007
+63. Abioye AI et al. Calcium Intake and Iron Status in Human Studies: A Systematic Review and Dose-Response Meta-Analysis of Randomized Trials and Crossover Studies. J Nutr. 2021. PMID:33758936 DOI:10.1093/jn/nxaa437
+64. Seligman PA et al. Measurements of iron absorption from prenatal multivitamin--mineral supplements. Obstet Gynecol. 1983. PMID:6823378
+65. Olivares M et al. Acute inhibition of iron bioavailability by zinc: studies in humans. Biometals. 2012. PMID:22297381 DOI:10.1007/s10534-012-9524-z
+66. Troost FJ et al. Iron supplements inhibit zinc but not copper absorption in vivo in ileostomy subjects. Am J Clin Nutr. 2003. PMID:14594790 DOI:10.1093/ajcn/78.5.1018
+67. Solomons NW et al. Studies on the bioavailability of zinc in humans: effects of heme and nonheme iron on the absorption of zinc. Am J Clin Nutr. 1981. PMID:7223699 DOI:10.1093/ajcn/34.4.475
+68. Jiao Y et al. Curcumin, a cancer chemopreventive and chemotherapeutic agent, is a biologically active iron chelator. Blood. 2009. PMID:18815282 DOI:10.1182/blood-2008-05-155952
+69. Smith TJ et al. Iron Deficiency Anemia Due to High-dose Turmeric. Cureus. 2019. PMID:30899609 DOI:10.7759/cureus.3858
+70. Gámez-Fernández MM et al. Co-administration of curcumin forms with supplemental iron: a study of effects on iron absorption and intestinal cellular health. Food Funct. 2025. PMID:40613696 DOI:10.1039/d5fo00658a
+71. Buerkli S et al. The effect of a natural polyphenol supplement on iron absorption in adults with hereditary hemochromatosis. Eur J Nutr. 2022. PMID:35320401 DOI:10.1007/s00394-022-02829-8
+72. Weinborn V et al. Prebiotics increase heme iron bioavailability and do not affect non-heme iron bioavailability in humans. Food Funct. 2017. PMID:28485415 DOI:10.1039/c6fo01833e
+73. Parini F et al. Improved Iron Uptake and Metabolism Through Combined Heme and Non-Heme Iron Supplementation: An In Vitro Study. Biomedicines. 2025. PMID:41595579 DOI:10.3390/biomedicines14010043
+74. McDonnell WM et al. Effect of iron on the guaiac reaction. Gastroenterology. 1989. PMID:2909440 DOI:10.1016/0016-5085(89)90766-x
+75. Qi L et al. HFE genetic variability, body iron stores, and the risk of type 2 diabetes in U.S. women. Diabetes. 2005. PMID:16306377 DOI:10.2337/diabetes.54.12.3567
+76. Hunt JR et al. Iron absorption by heterozygous carriers of the HFE C282Y mutation associated with hemochromatosis. Am J Clin Nutr. 2004. PMID:15447900 DOI:10.1093/ajcn/80.4.924
+77. Geneen LJ et al. Oral or parenteral iron supplementation to reduce deferral, iron deficiency and/or anaemia in blood donors. Cochrane Database Syst Rev. 2026. PMID:42240175 DOI:10.1002/14651858.CD009532.pub3
+78. Hennigar SR et al. Effects of consuming an iron supplement with a meal containing animal or plant-based meat on indicators of iron status and anemia in women of reproductive age with iron deficiency: a randomized, controlled study. Am J Clin Nutr. 2025. PMID:40633767 DOI:10.1016/j.ajcnut.2025.07.002
+79. Colorado Biolabs. Proferrin FAQ (composition, sourcing, dosing, test-interference statements). Manufacturer website. Accessed 2026. URL:https://proferrin.com/faq/
+80. Colorado Biolabs. Proferrin product line (ES, Clear, Forte). Manufacturer website. Accessed 2026. URL:https://www.proferrin.com/
+81. Levothyroxine sodium tablets US prescribing information (A-S Medication Solutions). DailyMed. 2026. URL:https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/8bc641d8-0185-49b2-9c1f-d886bf5ce098.xml
+82. Ciprofloxacin hydrochloride tablets US prescribing information (PD-Rx). DailyMed. 2026. URL:https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/14c3bc33-201d-492e-9aee-a4d84c813a3d.xml
+83. Carbidopa-levodopa tablets US prescribing information (Advagen). DailyMed. 2026. URL:https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/9e3c796b-2e68-4bcc-b927-18a58bea4703.xml
+84. Alendronate sodium tablets US prescribing information (Northstar Rx). DailyMed. 2026. URL:https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/4323d3aa-cbb0-41e2-aba7-7a94a0516993.xml

@@ -3,28 +3,353 @@
   "supplement": "Lycopene",
   "slug": "lycopene",
   "aliases": [
-    "Lycopene",
-    "tomato carotenoid"
+    "lycopene",
+    "all-trans-lycopene",
+    "cis-lycopene",
+    "tomato carotenoid",
+    "tomato oleoresin",
+    "tomato extract",
+    "lactolycopene",
+    "Lyc-O-Mato",
+    "E 160d"
   ],
-  "category": "botanical",
+  "category": "other",
   "rx_status": "otc",
   "evidence_certainty_overall": "low",
   "edges": [
     {
-      "with": "antihypertensive drugs",
+      "with": "orlistat",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Lipase inhibition reduces micellar uptake of fat-soluble hydrocarbon carotenoids; plasma lycopene fell then partly recovered over 4.5 months, while alpha- and beta-carotene fell 45% and 32%; orlistat cut beta-carotene absorption by about one-third.",
+      "evidence": "Small open study (n=6) plus a crossover PK study of beta-carotene; no lycopene PK study; low certainty",
+      "citations": [
+        "PMID:17707976",
+        "PMID:8852391"
+      ]
+    },
+    {
+      "with": "bile acid sequestrants (cholestyramine)",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Impaired intestinal absorption plus cholesterol lowering; cholestyramine lowered serum lycopene by 30% and beta-carotene by 40%.",
+      "evidence": "3-year RCT in 303 hypercholesterolemic subjects; moderate certainty for the biomarker effect",
+      "citations": [
+        "PMID:7627696"
+      ]
+    },
+    {
+      "with": "probucol",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Reduced lipoprotein particle size and competition for VLDL incorporation lowered serum carotenoids by 30-40%.",
+      "evidence": "3-year RCT (n=303); drug rarely used",
+      "citations": [
+        "PMID:7627696"
+      ]
+    },
+    {
+      "with": "statins",
       "with_kind": "drug-class",
       "kind": "monitor",
       "severity": "minor",
-      "mechanism": "Possible additive blood-pressure lowering is theoretical; no established clinically significant interaction.",
-      "evidence": "Human BP intervention reviews show mixed/null effects; interaction evidence absent.",
+      "mechanism": "Statins lower LDL, the main carotenoid carrier, so crude plasma lycopene falls while lipid-adjusted lycopene rises or is unchanged; no loss of lycopene status.",
+      "evidence": "RCT of simvastatin 40 mg (n=80) and an 8-week cohort (n=76); low certainty",
       "citations": [
+        "PMID:20678906",
+        "PMID:17005272"
+      ]
+    },
+    {
+      "with": "ezetimibe",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Ezetimibe inhibits SR-BI/NPC1L1-related transport; lycopene transport fell about 20% in Caco-2 cells.",
+      "evidence": "In vitro only; very low certainty",
+      "citations": [
+        "PMID:16177187"
+      ]
+    },
+    {
+      "with": "antihypertensives",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Lycopene supplements lowered SBP by about 2-6 mmHg in some meta-analyses; this may add to antihypertensive drugs, but a 34-RCT GRADE meta-analysis found no BP effect.",
+      "evidence": "MAs of RCTs with conflicting results; no interaction study; low certainty",
+      "citations": [
+        "PMID:28129549",
+        "PMID:24051501",
+        "PMID:39064656",
         "PMID:37496241"
+      ]
+    },
+    {
+      "with": "Aspirin",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "A water-soluble tomato extract (Fruitflow) inhibits platelet aggregation with about one-third of the effect of daily 75 mg aspirin and no significant additive effect; not demonstrated for lycopene itself.",
+      "evidence": "Crossover RCTs of tomato extract (n=47, n=90); relevant only to aqueous tomato-extract products; low certainty",
+      "citations": [
+        "PMID:27876806",
+        "PMID:16960170"
+      ]
+    },
+    {
+      "with": "Zeaxanthin + Lutein",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Carotenoids compete for micellar incorporation and chylomicron secretion; co-ingesting lutein reduced the postprandial chylomicron response to lycopene, but 3-week plasma status was unaffected.",
+      "evidence": "Human crossover feeding study (n=20) plus review; low certainty; clinical impact likely negligible",
+      "citations": [
+        "PMID:11864859",
+        "PMID:10047699"
+      ]
+    },
+    {
+      "with": "beta-carotene",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Hydrocarbon carotenoids compete for absorption and lipoprotein exchange; high-dose beta-carotene also causes carotenodermia, additive with lycopenemia.",
+      "evidence": "Human feeding studies and review; low certainty",
+      "citations": [
+        "PMID:11864859",
+        "PMID:10047699",
+        "PMID:3421202"
+      ]
+    },
+    {
+      "with": "EVOO",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Dietary fat improves lycopene micellarization and absorption; cooking tomatoes with olive oil raised plasma trans-lycopene 82%; unsaturated fats boost carotenoid bioavailability more than saturated fats.",
+      "evidence": "Small human feeding study plus MA of RCTs; moderate certainty for the bioavailability effect",
+      "citations": [
+        "PMID:15927929",
+        "PMID:34897461"
+      ]
+    },
+    {
+      "with": "dietary fat / fat-containing meal",
+      "with_kind": "food",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Adding avocado (fat) to salsa increased lycopene absorption 4.4-fold; take supplements with a fat-containing meal.",
+      "evidence": "Crossover feeding studies and MA of RCTs; moderate certainty",
+      "citations": [
+        "PMID:15735074",
+        "PMID:34897461"
+      ]
+    },
+    {
+      "with": "olestra",
+      "with_kind": "food",
+      "kind": "avoid",
+      "severity": "minor",
+      "mechanism": "The non-absorbable fat substitute sequesters fat-soluble carotenoids; it lowered serum lycopene below the reference range, which a multivitamin did not prevent; customary use was linked to 4.3-22.4% lower carotenoids.",
+      "evidence": "36-week controlled feeding study plus post-marketing surveillance (n=2535); moderate certainty",
+      "citations": [
+        "PMID:15930452",
+        "PMID:16522910"
+      ]
+    },
+    {
+      "with": "plant sterol/stanol esters",
+      "with_kind": "food",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Plant sterols reduce intestinal cholesterol and carotenoid uptake; serum lycopene fell 14.6% in adults with FH using sterol-ester spread.",
+      "evidence": "26-week open-label follow-up (n=20 adults); low certainty",
+      "citations": [
+        "PMID:15199384"
+      ]
+    },
+    {
+      "with": "Curcumin",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Combining lycopene (anti-proliferative) with curcumin (anti-inflammatory) synergistically attenuated testosterone-induced BPH in rats.",
+      "evidence": "Preclinical only (rat and cell models); very low certainty for humans",
+      "citations": [
+        "PMID:37446563"
+      ]
+    },
+    {
+      "with": "pregnancy",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Lycopene 2 mg/d from 12-20 weeks did not prevent pre-eclampsia but was associated with more preterm labor (10.4% vs 1.2%) and low birthweight (22.1% vs 9.8%); an earlier RCT reported benefit; antioxidant MA showed no preventive benefit.",
+      "evidence": "Conflicting RCTs (n=159, n=251) and a MA of antioxidant RCTs; low certainty",
+      "citations": [
+        "PMID:19527386",
+        "PMID:12767566",
+        "PMID:30111493"
+      ]
+    },
+    {
+      "with": "tomato allergy",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "minor",
+      "mechanism": "Tomato-derived oleoresin or extract products may carry tomato allergens; umbrella review flagged potential allergy.",
+      "evidence": "Umbrella review statement; very low certainty",
+      "citations": [
+        "PMID:33131949"
+      ]
+    },
+    {
+      "with": "PSA (prostate-specific antigen)",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Lycopene may lower serum PSA in BPH or high-baseline-PSA patients; overall MAs show no effect and early falls may be transient and non-specific, so PSA trends during supplementation should be interpreted cautiously.",
+      "evidence": "Small RCTs plus two MAs of RCTs; low certainty",
+      "citations": [
+        "PMID:18156403",
+        "PMID:33355018",
+        "PMID:35031434",
+        "PMID:17571945"
+      ]
+    },
+    {
+      "with": "skin carotenoid score (Veggie Meter / Vegecheck)",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Lycopene intake raises skin carotenoid reflection-spectroscopy scores used as fruit/vegetable intake biomarkers; genotype modifies the response.",
+      "evidence": "RCT (n=80) and case report; low certainty",
+      "citations": [
+        "PMID:38797482",
+        "PMID:35938228"
+      ]
+    },
+    {
+      "with": "ALT (alanine aminotransferase)",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "EFSA based its 0.5 mg/kg bw/d ADI on a non-reversible ALT rise in a 1-year rat study; human carotenoid RCT meta-analysis found no ALT change.",
+      "evidence": "Animal toxicology plus GRADE MA of human RCTs; low certainty",
+      "citations": [
+        "PMID:42005766",
+        "PMID:41437050"
+      ]
+    },
+    {
+      "with": "BCO1 variants (rs12934922, rs6564851, rs7500996)",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "BCO1 SNPs predicted plasma, prostate and skin lycopene/carotenoid responses; multi-SNP scores explain much of the inter-individual variability in absorption.",
+      "evidence": "Secondary analyses of small trials; not validated for dosing; low certainty",
+      "citations": [
+        "PMID:30801647",
+        "PMID:23517913",
+        "PMID:38797482",
+        "PMID:25772008"
       ]
     }
   ],
   "citations": [
+    "PMID:12424334",
+    "PMID:17707976",
+    "PMID:33668703",
+    "URL:https://www.cancer.gov/about-cancer/treatment/cam/hp/prostate-supplements-pdq",
+    "PMID:12176084",
+    "PMID:17571945",
+    "PMID:31591650",
+    "PMID:26561629",
+    "PMID:21543537",
+    "PMID:25620547",
+    "PMID:17391568",
+    "PMID:41848742",
+    "PMID:15309451",
+    "PMID:15735074",
+    "PMID:15927929",
+    "PMID:34897461",
+    "PMID:36615780",
     "PMID:37496241",
-    "URL:https://www.wcrf.org/wp-content/uploads/2024/10/prostate-cancer-slr.pdf",
-    "PMID:41369612"
+    "PMID:30875962",
+    "PMID:24911964",
+    "PMID:40936452",
+    "PMID:35938228",
+    "PMID:36606553",
+    "PMID:42765324",
+    "PMID:28129549",
+    "PMID:24051501",
+    "PMID:39064656",
+    "PMID:41369612",
+    "PMID:33676812",
+    "PMID:21163596",
+    "PMID:32652029",
+    "PMID:42588128",
+    "PMID:21194693",
+    "PMID:20735877",
+    "PMID:33998846",
+    "PMID:41437050",
+    "PMID:42397564",
+    "PMID:42588099",
+    "PMID:28440323",
+    "PMID:40013157",
+    "PMID:22633187",
+    "PMID:41214650",
+    "PMID:35031434",
+    "PMID:33355018",
+    "PMID:18156403",
+    "PMID:36407517",
+    "PMID:40806357",
+    "PMID:31468596",
+    "PMID:40761858",
+    "PMID:11340098",
+    "PMID:28799780",
+    "PMID:34796734",
+    "PMID:33413940",
+    "PMID:33303091",
+    "PMID:42216734",
+    "PMID:40507061",
+    "PMID:11489752",
+    "PMID:40670371",
+    "PMID:11914107",
+    "PMID:3421202",
+    "PMID:19527386",
+    "PMID:12767566",
+    "PMID:30111493",
+    "PMID:42005766",
+    "PMID:41972196",
+    "PMID:33131949",
+    "PMID:8852391",
+    "PMID:7627696",
+    "PMID:20678906",
+    "PMID:17005272",
+    "PMID:16177187",
+    "PMID:27876806",
+    "PMID:16960170",
+    "PMID:11864859",
+    "PMID:10047699",
+    "PMID:15199384",
+    "PMID:15930452",
+    "PMID:16522910",
+    "PMID:37446563",
+    "PMID:40777606",
+    "PMID:28899491",
+    "PMID:38797482",
+    "PMID:25772008",
+    "PMID:30277929",
+    "PMID:30801647",
+    "PMID:23517913",
+    "PMID:40876538",
+    "PMID:42300210",
+    "PMID:41978094",
+    "PMID:40566597"
   ]
 }

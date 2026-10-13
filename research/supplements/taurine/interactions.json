@@ -4,7 +4,9 @@
   "slug": "taurine",
   "aliases": [
     "2-aminoethanesulfonic acid",
-    "taurine"
+    "L-taurine",
+    "tauric acid",
+    "taurine powder"
   ],
   "category": "amino-acid",
   "rx_status": "otc",
@@ -15,27 +17,423 @@
       "with_kind": "drug-class",
       "kind": "monitor",
       "severity": "minor",
-      "mechanism": "Potential additive blood-pressure reduction; direct interaction evidence is lacking.",
-      "evidence": "Small BP trials and meta-analyses evaluate taurine but do not establish drug interactions.",
+      "mechanism": "Taurine lowers BP (about -4 mmHg SBP, -1.4 to -2.5 mmHg DBP in MAs) via H2S and TRPC3-mediated vascular calcium-influx inhibition; additive lowering with antihypertensives is plausible.",
+      "evidence": "MAs of RCTs (20 and 34 RCTs) plus RCTs in prehypertension and T2D; no direct drug-interaction study.",
       "citations": [
-        "URL:https://pmc.ncbi.nlm.nih.gov/articles/PMC12178789/"
+        "PMID:39148075",
+        "PMID:41275513",
+        "PMID:26781281",
+        "PMID:40546935"
       ]
     },
     {
       "with": "Metformin ER",
       "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Taurine modestly lowers FBG, HbA1c and HOMA-IR; it improved metformin plus DPP4-inhibitor therapy in a diabetic mouse model; additive glucose lowering is possible.",
+      "evidence": "MAs of RCTs (low certainty) plus mouse data; no human combination PK or outcome study.",
+      "citations": [
+        "PMID:41275513",
+        "PMID:39796489",
+        "PMID:40410431"
+      ]
+    },
+    {
+      "with": "antidiabetic drugs",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Additive glucose and insulin-resistance lowering (FBG -5.9 mg/dL, HbA1c -0.21%).",
+      "evidence": "MAs of RCTs including T2D trials at 3 g/d; low certainty.",
+      "citations": [
+        "PMID:41275513",
+        "PMID:35769396",
+        "PMID:32472292"
+      ]
+    },
+    {
+      "with": "vigabatrin",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Vigabatrin lowers plasma taurine (67% in animals; low or undetectable in 5 of 6 infants) and taurine deficiency drives its retinal phototoxicity; taurine supplementation was protective in rodents.",
+      "evidence": "Animal study plus infant plasma data; case reports of partial ERG reversal in SSADH deficiency.",
+      "citations": [
+        "PMID:19194884",
+        "PMID:27104484"
+      ]
+    },
+    {
+      "with": "anticonvulsants and CNS depressants",
+      "with_kind": "drug-class",
       "kind": "caution",
       "severity": "minor",
-      "mechanism": "No established pharmacokinetic interaction; combined metabolic effects have not been adequately studied.",
-      "evidence": "No combination outcome trials identified; taurine evidence is heterogeneous.",
+      "mechanism": "Taurine is a GABA-A and glycine-receptor agonist; drowsiness and ataxia occurred in children taking taurine with anticonvulsants.",
+      "evidence": "Uncontrolled pediatric case series (n=25) plus receptor pharmacology.",
       "citations": [
-        "URL:https://pmc.ncbi.nlm.nih.gov/articles/PMC12178789/"
+        "PMID:7039391",
+        "PMID:30892104",
+        "PMID:11559772"
+      ]
+    },
+    {
+      "with": "antipsychotics",
+      "with_kind": "drug-class",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Adjunctive taurine 4 g/d improved BPRS total and psychotic subscale scores in first-episode psychosis on low-dose antipsychotics; no cognitive effect.",
+      "evidence": "Single phase 2 RCT (n=121, 86 analysed).",
+      "citations": [
+        "PMID:27835719"
+      ]
+    },
+    {
+      "with": "Aspirin",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Taurine inhibits platelet activation and aggregation; additive antiplatelet effect is theoretical.",
+      "evidence": "Narrative review of animal and human platelet studies; no clinical bleeding data.",
+      "citations": [
+        "PMID:35160118"
+      ]
+    },
+    {
+      "with": "oral iron (ferrous sulfate)",
+      "with_kind": "drug",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Taurine 1 g/d added to iron sulfate gave additional Hb, RBC and ferritin gains in iron-deficiency anaemia.",
+      "evidence": "Double-blind RCT, n=51 women.",
+      "citations": [
+        "PMID:12431243"
+      ]
+    },
+    {
+      "with": "caffeine",
+      "with_kind": "food",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Co-ingested in energy drinks. A high-volume energy drink raised SBP and QTc (driven by caffeine, not taurine); taurine was pro-arrhythmic in an isolated rabbit heart; caffeine plus taurine raised MAP in humans; combined ergogenic effect on anaerobic capacity and reaction time.",
+      "evidence": "RCT crossover (n=38), small human trials, network MA, ex vivo animal model; review suggests taurine may blunt caffeine effects.",
+      "citations": [
+        "PMID:30805607",
+        "PMID:35304782",
+        "PMID:16699827",
+        "PMID:41032459",
+        "PMID:24615238"
+      ]
+    },
+    {
+      "with": "Beta Alanine",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Beta-alanine competes with taurine at the transporter TauT (SLC6A6) and lowers muscle taurine in mice; in humans 6.4 g/d for 24 weeks did not change muscle taurine.",
+      "evidence": "In vitro, cryo-EM and mouse data; human RCT and MA show no muscle-taurine depletion.",
+      "citations": [
+        "PMID:30612046",
+        "PMID:40789850",
+        "PMID:27444300",
+        "PMID:30552505",
+        "PMID:30980076"
+      ]
+    },
+    {
+      "with": "Creatine",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Taurine plus creatine improved time to exhaustion in heat vs placebo; no added repeated-sprint benefit.",
+      "evidence": "Small single-blind crossover RCT (n=12).",
+      "citations": [
+        "PMID:39972259"
+      ]
+    },
+    {
+      "with": "Magnesium",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Taurine (3 g/d) and magnesium (340 mg/d) each improved endothelial progenitor cell function and lowered oxidative stress; combined effect in hypertensive rats.",
+      "evidence": "Small human study in healthy men plus rat data.",
+      "citations": [
+        "PMID:27412799"
+      ]
+    },
+    {
+      "with": "N-Acetyl-L-Cysteine (NAC)",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "NAC plus taurine as dual antioxidant in CKD; retrospective data show lower uACR and serum creatinine vs standard care.",
+      "evidence": "Open-label RCT (n=69) and retrospective comparative study (n=450); low certainty.",
+      "citations": [
+        "PMID:35598122",
+        "PMID:42730465"
+      ]
+    },
+    {
+      "with": "B Complex",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Taurine raised astrocyte glutathione only with adequate B9; a taurine plus B6/B9/B12 blend improved effortful motivation.",
+      "evidence": "Crossover RCT (n=44) plus in vitro data.",
+      "citations": [
+        "PMID:41889717"
+      ]
+    },
+    {
+      "with": "Vitamin E",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Taurine/diltiazem/vitamin E formula slowed visual-field loss in retinitis pigmentosa.",
+      "evidence": "Double-blind controlled study (n=62); combination, so taurine's own effect cannot be separated.",
+      "citations": [
+        "PMID:12322788"
+      ]
+    },
+    {
+      "with": "Glycine",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Both taurine and glycine activate glycine receptors; additive inhibitory neurotransmission is theoretical.",
+      "evidence": "Receptor pharmacology only.",
+      "citations": [
+        "PMID:11559772"
+      ]
+    },
+    {
+      "with": "chronic kidney disease",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "The kidney regulates taurine pool size and excretion; safety evidence is strong only up to 3 g/d in healthy adults and dosing in advanced CKD is unstudied.",
+      "evidence": "Reviews and OSL risk assessment; no CKD dose-safety trials.",
+      "citations": [
+        "PMID:22580723",
+        "PMID:20804616",
+        "PMID:18325648"
+      ]
+    },
+    {
+      "with": "MELAS",
+      "with_kind": "condition",
+      "kind": "synergy",
+      "severity": "moderate",
+      "mechanism": "Taurine restores taurine modification of mitochondrial tRNA-Leu(UUR); 9-12 g/d reduced stroke-like episode relapse rate (2.22 to 0.72/yr). A 2026 consensus judged efficacy unproven.",
+      "evidence": "Open-label phase III (n=10), case reports, consensus statement.",
+      "citations": [
+        "PMID:29666206",
+        "PMID:23257519",
+        "PMID:41999163"
+      ]
+    },
+    {
+      "with": "cirrhosis",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "2 g/d reduced muscle cramp frequency and severity; 1 g/d did not improve fatigue overall; mild AEs in 11.8%.",
+      "evidence": "Crossover RCT (n=30), open-label RCT (n=220), SR of RCTs.",
+      "citations": [
+        "PMID:30136291",
+        "PMID:42043864",
+        "PMID:39548657"
+      ]
+    },
+    {
+      "with": "heart failure",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Adjunctive taurine may improve NYHA class and LVEF; additive effects with HF drugs on BP and heart rate are possible.",
+      "evidence": "MA subgroup and SR of mostly low-quality studies; small crossover RCT; one HF RCT retracted.",
+      "citations": [
+        "PMID:39148075",
+        "PMID:35855073",
+        "PMID:3888464",
+        "PMID:28118062"
+      ]
+    },
+    {
+      "with": "plasma taurine",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Supplementation raises plasma taurine (Cmax about 1.5 h, t1/2 about 1 h), which confounds use of taurine as an aging biomarker; levels vary with timing of the last dose.",
+      "evidence": "Human PK study and RCTs; biomarker validity disputed in human cohorts.",
+      "citations": [
+        "PMID:22331997",
+        "PMID:26781281",
+        "PMID:40472098"
+      ]
+    },
+    {
+      "with": "SLC6A6 biallelic loss-of-function variants",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Loss of TauT transport causes early-onset retinal dystrophy with low plasma taurine; patients may be candidates for investigational oral taurine.",
+      "evidence": "Multicenter case series (7 affected, 4 families) with functional assays.",
+      "citations": [
+        "PMID:41343195"
       ]
     }
   ],
   "citations": [
-    "PMID:41369612",
+    "PMID:3354491",
+    "PMID:3888464",
+    "PMID:7039391",
+    "PMID:11559772",
+    "PMID:12322788",
+    "PMID:12431243",
+    "PMID:16699827",
+    "PMID:17943882",
+    "PMID:18325648",
+    "PMID:19194884",
+    "PMID:20804616",
+    "PMID:22331997",
+    "PMID:22580723",
+    "PMID:23257519",
+    "PMID:23410665",
+    "PMID:24615238",
+    "PMID:26781281",
+    "PMID:27104484",
+    "PMID:27412799",
+    "PMID:27444300",
+    "PMID:27835719",
+    "PMID:28118062",
+    "PMID:29546641",
+    "PMID:29631391",
+    "PMID:29666206",
+    "PMID:30006901",
+    "PMID:30136291",
+    "PMID:30552505",
+    "PMID:30612046",
+    "PMID:30805607",
+    "PMID:30892104",
+    "PMID:30980076",
+    "PMID:32472292",
+    "PMID:32861603",
+    "PMID:32871172",
+    "PMID:34443494",
+    "PMID:34584225",
+    "PMID:35160118",
+    "PMID:35304782",
+    "PMID:35598122",
+    "PMID:35769396",
+    "PMID:35855073",
+    "PMID:36862943",
+    "PMID:37289866",
+    "PMID:38755142",
+    "PMID:39148075",
+    "PMID:39167563",
+    "PMID:39370837",
+    "PMID:39548657",
+    "PMID:39796489",
+    "PMID:39948152",
+    "PMID:39972259",
+    "PMID:40237914",
+    "PMID:40320621",
+    "PMID:40410431",
+    "PMID:40472098",
+    "PMID:40546935",
+    "PMID:40789850",
+    "PMID:40852891",
+    "PMID:41032459",
+    "PMID:41061678",
+    "PMID:41250277",
+    "PMID:41275513",
+    "PMID:41343195",
+    "PMID:41605371",
+    "PMID:41803812",
+    "PMID:41889717",
+    "PMID:41999163",
+    "PMID:42043864",
+    "PMID:42201902",
+    "PMID:42300946",
+    "PMID:42514298",
+    "PMID:42514394",
+    "PMID:42730465",
+    "PMID:42834262",
+    "DOI:10.1001/jamaophthalmol.2025.4875",
+    "DOI:10.1002/14651858.CD006072.pub2",
+    "DOI:10.1002/ana.21526",
+    "DOI:10.1002/clc.4960080507",
+    "DOI:10.1007/s00394-018-1881-0",
+    "DOI:10.1007/s00726-005-0302-x",
+    "DOI:10.1007/s00726-012-1314-y",
+    "DOI:10.1007/s00726-014-1708-0",
+    "DOI:10.1007/s00726-016-2292-2",
+    "DOI:10.1007/s00726-020-02859-8",
+    "DOI:10.1007/s10142-026-02067-9",
+    "DOI:10.1007/s11906-018-0881-z",
+    "DOI:10.1007/s13730-025-00992-5",
+    "DOI:10.1007/s40279-018-0896-2",
+    "DOI:10.1016/j.clnesp.2026.102920",
+    "DOI:10.1016/j.ejphar.2020.173533",
+    "DOI:10.1016/j.eplepsyres.2013.01.010",
+    "DOI:10.1016/j.fochms.2022.100106",
+    "DOI:10.1016/j.isci.2025.112719",
+    "DOI:10.1016/j.jcjd.2020.05.004",
+    "DOI:10.1016/j.pharep.2018.10.005",
+    "DOI:10.1016/j.yrtph.2008.01.004",
+    "DOI:10.1016/s0387-7604(82)80103-4",
+    "DOI:10.1023/a:1019926122125",
+    "DOI:10.1034/j.1600-0609.2002.02722.x",
+    "DOI:10.1038/hr.2016.86",
+    "DOI:10.1038/s41387-024-00289-z",
+    "DOI:10.1038/s41430-021-01010-4",
+    "DOI:10.1038/s41467-025-62857-w",
+    "DOI:10.1038/s41598-025-03215-0",
+    "DOI:10.1038/s41598-025-89680-z",
+    "DOI:10.1039/d6fo01808d",
+    "DOI:10.1055/s-0036-1583183",
+    "DOI:10.1080/09637486.2025.2499044",
+    "DOI:10.1080/14737175.2019.1593827",
+    "DOI:10.1080/15502783.2023.2171314",
+    "DOI:10.1080/15502783.2025.2566371",
+    "DOI:10.1080/19390211.2016.1267059",
+    "DOI:10.1093/advances/nmy115",
+    "DOI:10.1093/ajcn/47.4.660",
+    "DOI:10.1093/jn/nxy303",
+    "DOI:10.1093/nutrit/nuaf220",
+    "DOI:10.1097/HC9.0000000000000938",
+    "DOI:10.1097/TP.0000000000004987",
+    "DOI:10.1111/acel.70191",
+    "DOI:10.1111/apt.14950",
+    "DOI:10.1111/apt.18398",
+    "DOI:10.1111/ene.70588",
+    "DOI:10.1111/j.1469-7793.2001.t01-1-00741.x",
+    "DOI:10.1111/jce.15458",
+    "DOI:10.1111/jnc.70298",
     "DOI:10.1111/sms.70123",
-    "URL:https://pmc.ncbi.nlm.nih.gov/articles/PMC12178789/"
+    "DOI:10.1126/science.abn9257",
+    "DOI:10.1126/science.adl2116",
+    "DOI:10.1136/jnnp-2018-317964",
+    "DOI:10.11477/mf.1416202748",
+    "DOI:10.1161/HYPERTENSIONAHA.115.06624",
+    "DOI:10.1177/19417381251320095",
+    "DOI:10.1186/1423-0127-17-S1-S4",
+    "DOI:10.1186/s12879-026-13009-y",
+    "DOI:10.1186/s12937-024-00995-5",
+    "DOI:10.12688/wellcomeopenres.17505.3",
+    "DOI:10.1371/journal.pone.0350389",
+    "DOI:10.14740/cr2234",
+    "DOI:10.2169/internalmedicine.51.7529",
+    "DOI:10.3389/fnut.2026.1711478",
+    "DOI:10.3390/jcm11030666",
+    "DOI:10.3390/molecules26164913",
+    "DOI:10.3390/nu17010055",
+    "DOI:10.3390/nu18142229",
+    "DOI:10.3390/nu18142325",
+    "DOI:10.4061/2010/346237",
+    "DOI:10.4062/biomolther.2017.251",
+    "DOI:10.4088/JCP.15m10185"
   ]
 }

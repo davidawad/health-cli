@@ -3,35 +3,217 @@
 :ID: supp-spermidine
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: Spermidine | wheat germ extract
+:ALIASES: spermidine | spermidine trihydrochloride | spermidine-rich wheat germ extract | spermidineLIFE | polyamine supplement | rice germ spermidine (Miricell)
 :CATEGORY: longevity
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
+
 ** Identity & forms
-- Spermidine is a naturally occurring polyamine present in foods; supplements commonly use wheat-germ extract [PMID:2792725].
+- Spermidine is a natural polyamine (with putrescine and spermine). Cells make it, and it also comes from the diet and gut bacteria. Polyamines are needed for normal cell growth [PMID:30923709] [PMID:32634331].
+- Dietary sources are plant-based and fermented foods. Among patients with coronary disease the median intake was 11.5 mg/day [PMID:42000692]. In NHANES, the main dietary sources were vegetables, cereals, legumes, nuts and cheese [PMID:36249217].
+- Supplement forms used in trials:
+  - Spermidine-rich wheat germ extract (TLL The Longevity Labs, spermidineLIFE): 0.9-1.2 mg/day in the Berlin SCD trials [PMID:29315079] [PMID:35616942]. In the EU it is a listed novel food, and its specification was amended by Implementing Regulation (EU) 2020/443 [URL:https://eur-lex.europa.eu/eli/reg_impl/2020/443/oj].
+  - High-purity synthetic spermidine trihydrochloride: 40 mg/day [PMID:39405978]. A 24 mg/day dose is being tested in the POLYCAD trial [PMID:41168834].
+  - Rice germ extract (Miricell): 1.5-3.3 mg/day [PMID:40862848].
+  - Combination "fasting mimetic" products with nicotinamide, PEA and OEA [PMID:39549554] [PMID:41720867].
+  - A topical analogue, N1-methylspermidine, is sold in hair lotions [PMID:29766701].
+- Wheat germ products contain gluten. A retailer listing for spermidineLIFE states it "contains gluten and is not safe for people with gluten intolerances or allergies" [URL:https://www.vitalabo.com/longevity-labs/spermidine-life].
+
 ** Mechanisms
-- Polyamine involved in cellular growth and autophagy regulation; proposed longevity effects are mostly preclinical [PMID:2792725].
+- Autophagy induction. Spermidine extended lifespan in yeast, flies and worms by inhibiting histone acetyltransferases, which induced autophagy [PMID:19801973]. It inhibits the acetyltransferase EP300 and acts as an EP300 inhibitor in human cells [PMID:25526088].
+- Spermidine and resveratrol induce autophagy through different routes: spermidine works independently of SIRT1, while resveratrol needs it. Both converge on the acetylproteome, and they acted synergistically at subthreshold doses in cells [PMID:21339330] [PMID:20157579].
+- eIF5A hypusination. Spermidine is the substrate for hypusination of eIF5A, which is needed to translate the autophagy transcription factor TFEB. This pathway is depleted in old human B cells and restored ex vivo by spermidine [PMID:31474573].
+- In model organisms, fasting- and caloric-restriction-induced autophagy and longevity needed spermidine synthesis and eIF5A hypusination. Fasting raised spermidine levels in human volunteers [PMID:39117797]. Rapamycin-induced autophagy and longevity likewise depended on a surge in spermidine [PMID:39212197].
+- Cardiovascular effects (animal data): oral spermidine extended mouse lifespan, reduced cardiac hypertrophy and preserved diastolic function. It also lowered blood pressure in Dahl salt-sensitive rats. These effects needed cardiomyocyte Atg5 [PMID:27841876] [PMID:28118075].
+- Brain (mouse data): dietary spermidine crossed the blood-brain barrier in mice, increased hippocampal eIF5A hypusination and improved spatial learning [PMID:33852843].
+- Spermine produced from spermidine chelates Fe2+ and inhibits ferroptosis. Polyamine catabolism also produces H2O2 and acrolein [PMID:42444672].
+- Cancer biology: polyamines are needed for tumour growth, and polyamine depletion (ODC inhibition with DFMO) is an established anticancer strategy [PMID:30181570] [PMID:35477776] [PMID:38749882].
+
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | Certainty | Citations |
-|---------+--------------------+-----------+-------------+-----------+-----------|
-| Principal studied outcome | Systematic review/RCT or official product label | Cognition: SmartAge phase 2b RCT (n=100) using 0.9 mg/day for 12 months showed no significant mnemonic discrimination effect (difference −0.03, 95% CI −0.11 to 0.05) and no secondary endpoint benefit [URL:https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2792725]. Longevity claims unproven. | See outcome summary above; no extrapolation to unstudied endpoints | very-low | [URL:https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2792725] [PMID:41098596] |
-| Hard clinical outcomes / prevention | Human outcome evidence sparse or absent in sources reviewed | Not established | No reliable effect estimate | very low | [URL:https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2792725] [PMID:41098596] |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Memory in subjective cognitive decline | Phase 2b RCT (SmartAge, n=100, 12 mo, 0.9 mg/d); phase 2a pilot RCT (n=30) | No effect on primary outcome | Mnemonic discrimination difference -0.03 (95% CI -0.11 to 0.05; P=.47); pilot d=0.77 (CI 0 to 1.53) | low | [PMID:35616942] [PMID:30388439] |
+| Cognition in mild-moderate dementia | Small 3-month nursing-home trial (n=85) | Possible benefit at higher dose | MMSE +2.23 points in mild dementia (p=0.026) | very low | [PMID:33211152] |
+| Brain MRI (cerebral blood flow, white matter) | Exploratory secondary analysis of SmartAge (n=75) | Regional differences only | Precuneus CBF +4.9 ml/100 g/min (CI 1.0-8.9); no change in volume or thickness | very low | [PMID:42858321] |
+| Dementia / cognitive performance (diet) | Cohorts: UK Biobank (n=77,092), NHANES (n=2674) | Inverse association, U-shaped | All-cause dementia HR 0.68 (Q4 vs Q1); low cognition OR 0.48 (Q4) | very low | [PMID:39203912] [PMID:40180050] [PMID:33852843] |
+| All-cause mortality (diet) | Cohorts: Bruneck (n=829), NHANES (n=23,894), UK Biobank (n=184,732), Takayama (n=29,079) | Inverse in 3 Western cohorts; null in Japan | HR per 1-SD 0.76 (0.67-0.86); NHANES HR 0.70; UKB HR 0.82; Takayama not significant | very low | [PMID:29955838] [PMID:36249217] [PMID:39770955] [PMID:37964604] |
+| CVD mortality / incident CVD / BP (diet) | Cohorts; Mendelian randomization | Inverse association | NHANES CVD mortality HR 0.68 (0.51-0.91); UKB incident CVD HR 0.86; lower BP with higher intake | very low | [PMID:36249217] [PMID:39770955] [PMID:27841876] [PMID:41013818] |
+| Plasma polyamines (PK) | Crossover RCT (n=12, 15 mg/d); RCT (n=37, 40 mg/d) | No rise in plasma spermidine | 15 mg/d raised plasma spermine only; 40 mg/d had minimal effect on serum/urine polyamines | moderate | [PMID:37111071] [PMID:39405978] |
+| Hair (anagen phase) | Single RCT (n=100, 90 d, oral spermidine-based supplement) | Benefit | More anagen V-VI follicles; pull test negative vs 68% positive with placebo | very low | [PMID:29214104] |
+| Vaccine response in older adults | Pilot RCT (n=40, 6 mg/d, 13 wk) | Benefit in non-responders | Higher spike IgG and neutralisation; no pooled effect size reported | very low | [PMID:42169618] |
+| Autophagy / cardiometabolic biomarkers | Uncontrolled pilot (n=12); RCT of multi-ingredient product (n=42) | Possible improvement | Beclin-1 +7.3%, hs-CRP -20.8% within-group at 3.3 mg/d; LDL and glucose lower with the combination product | very low | [PMID:40862848] [PMID:41720867] |
+| Liver indices / adiposity (diet) | PREDIMED-Plus longitudinal (n=2664) | Inverse association | Fatty liver index -8.97; HbA1c -0.14% in the highest-intake cluster | very low | [PMID:42455181] |
+| Prostate cancer (diet) | PLCO cohort (n=54,517) | No association | RR 1.00 (0.89-1.12), highest vs lowest quintile | low | [PMID:42591195] |
+| Colorectal neoplasia (diet) | WHI cohort; pooled trial control arms | Conflicting | CRC HR about 0.8 (WHI); adenoma OR 1.39 (1.06-1.83) above median intake | very low | [PMID:26135350] [PMID:22648715] |
+| Short-term safety | RCTs up to 12 months | No signal | AEs balanced; no lab changes at 40 mg/d for 28 d | moderate | [PMID:35616942] [PMID:39405978] [PMID:29315079] |
+
 ** Dosing in trials
-- Human RCT studied 0.9 mg/day from wheat germ extract for 12 months [URL:https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2792725].
+- Wheat germ extract:
+  - 1.2 mg/day for 3 months (safety and pilot memory trials) [PMID:29315079] [PMID:30388439].
+  - 0.9 mg/day for 12 months (SmartAge) [PMID:35616942] [PMID:31039826].
+- Higher-dose supplements:
+  - 15 mg/day for 5 days (PK crossover) [PMID:37111071].
+  - 40 mg/day high-purity spermidine for 7-28 days [PMID:39405978].
+  - 6 mg/day for 13 weeks (vaccine pilot) [PMID:42169618].
+  - 24 mg/day for 48 weeks in older coronary-disease patients (POLYCAD; n=187; completion expected August 2026) [PMID:41168834].
+- Rice germ extract: 1.5 or 3.3 mg/day for 56 days; changes were seen only at 3.3 mg [PMID:40862848].
+- Senekowitsch et al. concluded that supplements below 15 mg/d are unlikely to have short-term effects, because ingested spermidine appears to be converted to spermine before reaching the circulation [PMID:37111071]. Plasma spermidine tracks habitual dietary intake only weakly (+18% per doubling of intake) [PMID:42000692].
+- SmartAge authors called for future trials at higher doses [PMID:35616942].
+
 ** Safety & adverse effects
-- In trial, adverse events balanced; sample size and duration insufficient for rare or long-term risks [URL:https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2792725].
+- Wheat germ extract (1.2 mg/d, 3 months, n=30): no differences from placebo in vital signs, clinical chemistry or haematology. A 28-day mouse study found no tumorigenic or fibrotic changes [PMID:29315079].
+- SmartAge (0.9 mg/d, 12 months, n=100): adverse events balanced between groups [PMID:35616942].
+- High-purity spermidine (40 mg/d, 28 days, n=37 men aged 50-70): no changes in clinical, lipid, chemistry or haematology measures, and no product-related AEs. The trial was industry-funded [PMID:39405978].
+- Vaccine pilot (6 mg/d, 13 weeks) and the rice germ pilot: well tolerated [PMID:42169618] [PMID:40862848].
+- Rat toxicology: acute oral toxicity about 600 mg/kg. The 6-week dietary NOAEL was 1000 ppm (83 mg/kg/day); spermine was more toxic [PMID:9207896].
+- Theoretical cancer concern:
+  - Tumour-derived spermidine suppresses CD8+ T-cell function in mouse models. Giving spermidine made glioblastoma more aggressive in mice [PMID:37276392] [PMID:39561012].
+  - In the Takayama cohort, women showed a suggestive positive association between spermidine intake and cancer mortality (HR 1.38, 0.99-1.93) [PMID:37964604].
+  - Large cohorts found no rise in prostate or colorectal cancer [PMID:42591195] [PMID:26135350].
+- Observational biomarker caveat: higher plasma spermidine was associated with worse brain-aging markers, post-stroke cognitive impairment and post-stroke depression [PMID:36321615] [PMID:39817544] [PMID:40043446]. These are endogenous levels, not supplementation.
+- Conflicts of interest: several of the trial teams (SmartAge, the vaccine pilot and the 40 mg study) have ties to manufacturers [PMID:35616942] [PMID:42169618] [PMID:39405978].
+
 ** Contraindications
-- No established clinical contraindications; wheat allergy may matter for source-specific products.
+- Wheat allergy or coeliac disease: wheat germ products contain gluten [URL:https://www.vitalabo.com/longevity-labs/spermidine-life]. Synthetic or rice-germ forms avoid wheat [PMID:39405978] [PMID:40862848].
+- Active cancer, or treatment that depletes polyamines (eflornithine/DFMO): supplementation works against the therapeutic aim of polyamine depletion [PMID:30181570] [PMID:38749882] [PMID:23340449]. A small trial of a polyamine-reduced diet in men with metastatic prostate cancer was well tolerated [PMID:12653644].
+- Advanced CKD (relative): putrescine and the spermine-derived toxin acrolein accumulate in renal failure [PMID:16554974] [PMID:27758122]. No supplementation safety data exist for CKD.
+- Pregnancy, lactation and children: no human data were found.
+
 ** Interactions
-- No established clinical drug interactions identified.
-- Structured high-priority interactions are represented in interactions.json; absence of an edge is not proof of no interaction.
+*** Drugs
+- Eflornithine (DFMO, Iwilfin): this irreversible ODC inhibitor lowers polyamines and is FDA-approved as maintenance therapy for high-risk neuroblastoma [PMID:39612452] [PMID:37883734]. In the DFMO+sulindac adenoma trial, the drug combination worked in the lower three quartiles of dietary polyamine intake (RR 0.19) but not the top quartile (RR 1.51, CI 0.53-4.29) [PMID:23340449] [PMID:18841250]. Avoid supplements during DFMO therapy.
+- Immune checkpoint inhibitors: mixed signals.
+  - In aged mice, spermidine improved anti-PD-L1 efficacy [PMID:36387057] [PMID:37723019].
+  - Tumour-derived spermidine also acts as a T-cell checkpoint, and blocking polyamine synthesis improved anti-PD-1 responses [PMID:37276392].
+  - There are no human data.
+- Antihypertensives: dietary spermidine is linked to lower BP in humans (observational), and it lowered BP in rats [PMID:27841876] [PMID:28118075]. Any additive effect is theoretical and minor.
+- Rapamycin (mTOR inhibitor): rapamycin-induced autophagy needs endogenous spermidine synthesis (preclinical) [PMID:39212197]. No human combination data exist.
+*** Other supplements
+- Trans-resveratrol: synergistic autophagy induction at subthreshold doses in cells, through SIRT1-dependent and SIRT1-independent routes [PMID:21339330] [PMID:20157579].
+- Curcumin/Turmeric: curcumin also inhibits EP300 and induces autophagy, so effects may be additive (in vitro) [PMID:25526088].
+- Urolithin A: a review describes complementary mitophagy (UroA) and autophagy (spermidine) actions. There are no co-administration trials [PMID:41404767] [PMID:42588134].
+- Fisetin and Berberine: reviewed as complementary to spermidine for functional-food combinations. Direct evidence for combined use is limited [PMID:42588134].
+- Nicotinamide-containing combinations: spermidine plus nicotinamide, PEA and OEA products have been tested in small trials, without spermidine-alone arms [PMID:39549554] [PMID:41720867] [PMID:36678330]. No co-administration data were found for NMN or Nicotinamide Riboside. Both NAD+ precursors and spermidine are under separate anti-aging trials [PMID:38181790].
+*** Conditions
+- Wheat allergy/coeliac disease, cancer, CKD: see Contraindications.
+- History of colorectal adenoma: above-median dietary polyamine intake was associated with adenoma recurrence (OR 1.39) [PMID:22648715]. A WHI analysis found no increase in CRC [PMID:26135350].
+- Hypertension: microbial spermidine synthase genes were more abundant in normotensive people [PMID:41413233].
+*** Lab-test interference
+- Plasma/serum polyamine assays: 15 mg/d raised plasma spermine without changing spermidine [PMID:37111071]. Research biomarkers based on circulating spermidine (MCI/AD, stroke) could be confounded by supplementation [PMID:35487023] [PMID:36321615] [PMID:33439737].
+- No interference with routine clinical chemistry was reported at 40 mg/d [PMID:39405978].
+
 ** Genotype notes
-- No cited pharmacogenomic/nutrigenomic source was identified for a supplement-specific genotype effect; no genotype claim made.
+- ODC1 +316 G>A polymorphism:
+  - ODC1 GG carriers with above-median polyamine intake had higher adenoma odds (OR 1.59, CI 1.00-2.53) [PMID:22648715].
+  - The genotype modified the response to eflornithine/sulindac (P interaction .038) [PMID:20798393].
+- Erythrocyte spermidine is 82% heritable in twins [PMID:39243176].
+- No genotype-guided spermidine supplementation data exist.
+
 ** Latest research
-- 2025 review of cognitive aging summarizes only four intervention trials and notes limited human evidence; preclinical claims should not be presented as demonstrated benefit [PMID:41098596].
+- [2026-10] SmartAge exploratory MRI (n=75): precuneus CBF +4.9 ml/100 g/min and preserved cingulum fractional anisotropy vs placebo. Brain volume was unchanged; the authors call the findings preliminary [PMID:42858321].
+- [2026-08] Review of spermidine, fisetin, berberine and urolithin A: complementary pathways, limited combined-use evidence [PMID:42588134].
+- [2026-07] PLCO (n=54,517): dietary spermidine not associated with prostate cancer incidence (RR 1.00) or prostate cancer mortality [PMID:42591195].
+- [2026-07] PREDIMED-Plus: a rising 1-year spermidine intake was associated with better liver indices and HbA1c [PMID:42455181].
+- [2026-07] Cell Stress: spermine chelates Fe2+ and inhibits ferroptosis, which complements spermidine-driven autophagy [PMID:42444672].
+- [2026-06] Vaccine pilot RCT (n=40, 6 mg/d): reversed immune-senescence markers and raised spike IgG in non-responders [PMID:42169618].
+- [2026-06] POLYCAD baseline: plasma spermidine reflects dietary intake only weakly; muscle levels are unrelated to intake [PMID:42000692].
+- [2026-06] Alzheimer's review: human evidence is limited and inconclusive, and insufficient to support use [PMID:42358231].
+- [2026-04] Brain-aging review: human evidence is encouraging but limited [PMID:42012729].
+- [2026-03] Scoping review: spermidine-eIF5A-TFEB axis during starvation [PMID:41874700].
+- [2026-02] Mimio RCT (n=42): a multi-ingredient spermidine product lowered LDL and fasting glucose [PMID:41720867].
+- [2025-12] Review contrasting urolithin A (mitophagy) with spermidine (autophagy) [PMID:41404767].
+- [2025-10] POLYCAD protocol: 24 mg/d vs placebo for 48 weeks in 187 patients with CAD [PMID:41168834].
+- [2025-10] Rice germ pilot (n=12): Beclin-1 and ULK1 up, hs-CRP down at 3.3 mg/d [PMID:40862848].
+- [2025-09] Mendelian randomization: lower genetically predicted spermidine was associated with CHD [PMID:41013818].
+- [2025-09] Rat study: a bovine thymus fraction raised blood spermidine more than a wheat germ supplement [PMID:40924744].
+- [2025-08] Lubiprostone CKD RCT: raised spermidine through the gut agmatine pathway, with preserved eGFR [PMID:40880481].
+- [2025-07] NHANES (n=2674): higher intake associated with better cognition [PMID:40180050].
+- [2025-01] CATIS: high plasma polyamines predicted post-stroke cognitive impairment [PMID:39817544].
+- [2024-12] 40 mg/d high-purity spermidine RCT: safe, with minimal change in circulating polyamines [PMID:39405978].
+- [2024-12] UK Biobank: nonlinear inverse association of polyamine intake with mortality and CVD [PMID:39770955].
+- [2024-12] Autophagy: a spermidine surge is required for rapamycin-induced autophagy [PMID:39212197].
+
 ** Open questions
-- Which formulations, populations, and durations produce clinically meaningful outcomes rather than biomarker-only changes?
-- Are there long-term benefits or harms beyond the relatively short human trials available?
+- Does oral spermidine raise tissue spermidine in humans at any practical dose, given that plasma spermidine does not rise? [PMID:37111071] [PMID:39405978]
+- Are the mortality/CVD associations causal, or do they reflect healthy diets and residual confounding? [PMID:42591195] [PMID:37964604]
+- Will higher-dose RCTs (e.g. POLYCAD, 24 mg/d) show clinical benefit? [PMID:41168834]
+- Long-term cancer safety, especially in people with existing neoplasia or at high risk.
+- Autophagy-synergy claims with rapamycin, resveratrol and urolithin A have not been tested in humans.
+- Independent replication of the industry-linked hair and memory findings.
+
 ** Sources
-- [URL:https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2792725] [PMID:41098596]
+1. Ramos-Molina B et al. Dietary and Gut Microbiota Polyamines in Obesity- and Age-Related Diseases. Front Nutr. 2019. PMID:30923709 DOI:10.3389/fnut.2019.00024
+2. Madeo F et al. Nutritional Aspects of Spermidine. Annu Rev Nutr. 2020. PMID:32634331 DOI:10.1146/annurev-nutr-120419-015419
+3. Thorup C et al. Spermidine and spermine in elderly patients with coronary artery disease: a cross-sectional study of dietary intake and plasma and skeletal muscle concentrations. Clin Nutr. 2026. PMID:42000692 DOI:10.1016/j.clnu.2026.106651
+4. Wu H et al. The association of dietary spermidine with all-cause mortality and CVD mortality: The U.S. National Health and Nutrition Examination Survey, 2003 to 2014. Front Public Health. 2022. PMID:36249217 DOI:10.3389/fpubh.2022.949170
+5. Schwarz C et al. Safety and tolerability of spermidine supplementation in mice and older adults with subjective cognitive decline. Aging (Albany NY). 2018. PMID:29315079 DOI:10.18632/aging.101354
+6. Schwarz C et al. Effects of Spermidine Supplementation on Cognition and Biomarkers in Older Adults With Subjective Cognitive Decline: A Randomized Clinical Trial. JAMA Netw Open. 2022. PMID:35616942 DOI:10.1001/jamanetworkopen.2022.13875
+7. Keohane P et al. Supplementation of spermidine at 40 mg/day has minimal effects on circulating polyamines: An exploratory double-blind randomized controlled trial in older men. Nutr Res. 2024. PMID:39405978 DOI:10.1016/j.nutres.2024.09.012
+8. Thorup CV et al. POLYamine treatment in elderly patients with Coronary Artery Disease (POLYCAD): study protocol for a Danish randomised, double-blind, placebo-controlled trial of spermidine treatment versus placebo. Trials. 2025. PMID:41168834 DOI:10.1186/s13063-025-09176-z
+9. Bruno G et al. Effects of Spermidine-Rich Rice Germ Extract Supplement on Biomarkers of Healthy Aging and Autophagy-Proof-of-Concept Pilot Study. Altern Ther Health Med. 2025. PMID:40862848
+10. Rhodes CH et al. Absorption, anti-inflammatory, antioxidant, and cardioprotective impacts of a novel fasting mimetic containing spermidine, nicotinamide, palmitoylethanolamide, and oleoylethanolamide: A pilot dose-escalation study in healthy young adult men. Nutr Res. 2024. PMID:39549554 DOI:10.1016/j.nutres.2024.10.006
+11. Grant AD et al. A novel fasting mimetic (Mimio) creates fasting-like benefits to hunger control, oxidative stress, and cardiometabolic health in humans. Sci Rep. 2026. PMID:41720867 DOI:10.1038/s41598-026-38495-7
+12. Marzani B et al. New multi-targeting strategy in hair growth promotion: in vitro and in vivo studies. G Ital Dermatol Venereol. 2018. PMID:29766701 DOI:10.23736/S0392-0488.18.05891-1
+13. Eisenberg T et al. Induction of autophagy by spermidine promotes longevity. Nat Cell Biol. 2009. PMID:19801973 DOI:10.1038/ncb1975
+14. Pietrocola F et al. Spermidine induces autophagy by inhibiting the acetyltransferase EP300. Cell Death Differ. 2015. PMID:25526088 DOI:10.1038/cdd.2014.215
+15. Morselli E et al. Spermidine and resveratrol induce autophagy by distinct pathways converging on the acetylproteome. J Cell Biol. 2011. PMID:21339330 DOI:10.1083/jcb.201008167
+16. Morselli E et al. Autophagy mediates pharmacological lifespan extension by spermidine and resveratrol. Aging (Albany NY). 2009. PMID:20157579 DOI:10.18632/aging.100110
+17. Zhang H et al. Polyamines Control eIF5A Hypusination, TFEB Translation, and Autophagy to Reverse B Cell Senescence. Mol Cell. 2019. PMID:31474573 DOI:10.1016/j.molcel.2019.08.005
+18. Hofer SJ et al. Spermidine is essential for fasting-mediated autophagy and longevity. Nat Cell Biol. 2024. PMID:39117797 DOI:10.1038/s41556-024-01468-x
+19. Hofer SJ et al. A surge in endogenous spermidine is essential for rapamycin-induced autophagy and longevity. Autophagy. 2024. PMID:39212197 DOI:10.1080/15548627.2024.2396793
+20. Eisenberg T et al. Cardioprotection and lifespan extension by the natural polyamine spermidine. Nat Med. 2016. PMID:27841876 DOI:10.1038/nm.4222
+21. Eisenberg T et al. Dietary spermidine for lowering high blood pressure. Autophagy. 2017. PMID:28118075 DOI:10.1080/15548627.2017.1280225
+22. Schroeder S et al. Dietary spermidine improves cognitive function. Cell Rep. 2021. PMID:33852843 DOI:10.1016/j.celrep.2021.108985
+23. Madeo F et al. Polyamine-mediated inhibition of ferroptosis contributes to geroprotection. Cell Stress. 2026. PMID:42444672 DOI:10.15698/cst2026.07.318
+24. Casero RA Jr et al. Polyamine metabolism and cancer: treatments, challenges and opportunities. Nat Rev Cancer. 2018. PMID:30181570 DOI:10.1038/s41568-018-0050-3
+25. Holbert CE et al. Polyamines in cancer: integrating organismal metabolism and antitumour immunity. Nat Rev Cancer. 2022. PMID:35477776 DOI:10.1038/s41568-022-00473-2
+26. Jiang J et al. Eflornithine for treatment of high-risk neuroblastoma. Trends Pharmacol Sci. 2024. PMID:38749882 DOI:10.1016/j.tips.2024.04.005
+27. Wirth M et al. The effect of spermidine on memory performance in older adults at risk for dementia: A randomized controlled trial. Cortex. 2018. PMID:30388439 DOI:10.1016/j.cortex.2018.09.014
+28. Pekar T et al. The positive effect of spermidine in older adults suffering from dementia : First results of a 3-month trial. Wien Klin Wochenschr. 2021. PMID:33211152 DOI:10.1007/s00508-020-01758-y
+29. Schwarz C et al. Effects of Spermidine Supplementation on Vascular Brain Health in Older Individuals with Subjective Cognitive Decline - An Exploratory MRI Analysis. Aging Dis. 2026. PMID:42858321 DOI:10.14336/AD.2026.0559
+30. Qian M et al. Non-Linear Association of Dietary Polyamines with the Risk of Incident Dementia: Results from Population-Based Cohort of the UK Biobank. Nutrients. 2024. PMID:39203912 DOI:10.3390/nu16162774
+31. Ma Y et al. Association between dietary spermidine intake and cognitive performance in older adults: The U.S. National Health and Nutrition Examination Survey, 2011-2014. J Affect Disord. 2025. PMID:40180050 DOI:10.1016/j.jad.2025.03.181
+32. Kiechl S et al. Higher spermidine intake is linked to lower mortality: a prospective population-based study. Am J Clin Nutr. 2018. PMID:29955838 DOI:10.1093/ajcn/nqy102
+33. Han S et al. The Association of Dietary Polyamines with Mortality and the Risk of Cardiovascular Disease: A Prospective Study in UK Biobank. Nutrients. 2024. PMID:39770955 DOI:10.3390/nu16244335
+34. Nagata C et al. Dietary polyamine intake and all-cause and cause-specific mortality in Japanese adults in the Takayama study. Br J Nutr. 2024. PMID:37964604 DOI:10.1017/S0007114523002465
+35. Wang T et al. Analysis of spermidine's effect on coronary heart disease risk using bidirectional Mendelian randomization and LC-MS/MS. Hereditas. 2025. PMID:41013818 DOI:10.1186/s41065-025-00568-4
+36. Senekowitsch S et al. High-Dose Spermidine Supplementation Does Not Increase Spermidine Levels in Blood Plasma and Saliva of Healthy Adults: A Randomized Placebo-Controlled Pharmacokinetic and Metabolomic Study. Nutrients. 2023. PMID:37111071 DOI:10.3390/nu15081852
+37. Rinaldi F et al. A spermidine-based nutritional supplement prolongs the anagen phase of hair follicles in humans: a randomized, placebo-controlled, double-blind study. Dermatol Pract Concept. 2017. PMID:29214104 DOI:10.5826/dpc.0704a05
+38. Alsaleh G et al. Spermidine Mitigates Immune Cell Senescence and Boosts Vaccine Responses in Healthy Older Adults-A Pilot Study. Aging Cell. 2026. PMID:42169618 DOI:10.1111/acel.70545
+39. López-González A et al. Longitudinal association of dietary spermidine with hepatic function indexes and cardiometabolic traits in older adults with metabolic syndrome. Eur J Nutr. 2026. PMID:42455181 DOI:10.1007/s00394-026-03981-1
+40. Wang G et al. Dietary spermidine intake is not associated with prostate cancer incidence or prostate cancer-specific mortality: findings from the prostate, lung, colorectal, and ovarian cancer screening trial. Front Nutr. 2026. PMID:42591195 DOI:10.3389/fnut.2026.1775582
+41. Vargas AJ et al. Dietary polyamine intake and colorectal cancer risk in postmenopausal women. Am J Clin Nutr. 2015. PMID:26135350 DOI:10.3945/ajcn.114.103895
+42. Vargas AJ et al. Dietary polyamine intake and risk of colorectal adenomatous polyps. Am J Clin Nutr. 2012. PMID:22648715 DOI:10.3945/ajcn.111.030353
+43. Wirth M et al. Effects of spermidine supplementation on cognition and biomarkers in older adults with subjective cognitive decline (SmartAge)-study protocol for a randomized controlled trial. Alzheimers Res Ther. 2019. PMID:31039826 DOI:10.1186/s13195-019-0484-1
+44. Til HP et al. Acute and subacute toxicity of tyramine, spermidine, spermine, putrescine and cadaverine in rats. Food Chem Toxicol. 1997. PMID:9207896 DOI:10.1016/s0278-6915(97)00121-x
+45. Hibino S et al. Tumor cell-derived spermidine is an oncometabolite that suppresses TCR clustering for intratumoral CD8(+) T cell activation. Proc Natl Acad Sci U S A. 2023. PMID:37276392 DOI:10.1073/pnas.2305245120
+46. Kay KE et al. Tumor cell-derived spermidine promotes a protumorigenic immune microenvironment in glioblastoma via CD8+ T cell inhibition. J Clin Invest. 2024. PMID:39561012 DOI:10.1172/JCI177824
+47. Wortha SM et al. Association of spermidine plasma levels with brain aging in a population-based study. Alzheimers Dement. 2023. PMID:36321615 DOI:10.1002/alz.12815
+48. He Y et al. High Plasma Polyamine Levels Are Associated With an Increased Risk of Poststroke Cognitive Impairment: A Multicenter Prospective Study From CATIS. J Am Heart Assoc. 2025. PMID:39817544 DOI:10.1161/JAHA.124.037465
+49. He Y et al. Plasma polyamines levels and post-stroke depression in ischemic stroke patients: A multicenter prospective study. Atherosclerosis. 2025. PMID:40043446 DOI:10.1016/j.atherosclerosis.2025.119150
+50. Raj KP et al. Role of dietary polyamines in a phase III clinical trial of difluoromethylornithine (DFMO) and sulindac for prevention of sporadic colorectal adenomas. Br J Cancer. 2013. PMID:23340449 DOI:10.1038/bjc.2013.15
+51. Cipolla B et al. Polyamine-reduced diet in metastatic hormone-refractory prostate cancer (HRPC) patients. Biochem Soc Trans. 2003. PMID:12653644 DOI:10.1042/bst0310384
+52. Igarashi K et al. Polyamines in renal failure. Amino Acids. 2006. PMID:16554974 DOI:10.1007/s00726-006-0264-7
+53. Sindhu KK et al. Uremic toxins: some thoughts on acrolein and spermine. Ren Fail. 2016. PMID:27758122 DOI:10.1080/0886022X.2016.1229990
+54. Shakeel A et al. Iwilfin (eflornithine) approved by the FDA as the first and only oral maintenance therapy for high-risk neuroblastoma in adult and pediatric patients: Narrative review. Medicine (Baltimore). 2024. PMID:39612452 DOI:10.1097/MD.0000000000040662
+55. Oesterheld J et al. Eflornithine as Postimmunotherapy Maintenance in High-Risk Neuroblastoma: Externally Controlled, Propensity Score-Matched Survival Outcome Comparisons. J Clin Oncol. 2024. PMID:37883734 DOI:10.1200/JCO.22.02875
+56. Meyskens FL Jr et al. Difluoromethylornithine plus sulindac for the prevention of sporadic colorectal adenomas: a randomized placebo-controlled, double-blind trial. Cancer Prev Res (Phila). 2008. PMID:18841250 DOI:10.1158/1940-6207.CAPR-08-0042
+57. Castoldi F et al. Spermidine rejuvenates T lymphocytes and restores anticancer immunosurveillance in aged mice. Oncoimmunology. 2022. PMID:36387057 DOI:10.1080/2162402X.2022.2146855
+58. Chamoto K et al. Spermidine - an old molecule with a new age-defying immune function. Trends Cell Biol. 2024. PMID:37723019 DOI:10.1016/j.tcb.2023.08.002
+59. Borsky P et al. Distinct roles of urolithin A and spermidine in mitophagy and autophagy: implications for dietary supplementation. Nutr Res Rev. 2025. PMID:41404767 DOI:10.1017/S0954422425100292
+60. Rzeski W et al. Natural Bioactive Compounds Targeting Key Hallmarks of Aging: Functional Food Potential of Spermidine, Fisetin, Berberine, and Urolithin A. Nutrients. 2026. PMID:42588134 DOI:10.3390/nu18152511
+61. D'Amico A et al. Natural Activators of Autophagy Reduce Oxidative Stress and Muscle Injury Biomarkers in Endurance Athletes: A Pilot Study. Nutrients. 2023. PMID:36678330 DOI:10.3390/nu15020459
+62. Guarente L et al. Human trials exploring anti-aging medicines. Cell Metab. 2024. PMID:38181790 DOI:10.1016/j.cmet.2023.12.007
+63. Ikagawa Y et al. Gut microbiota-derived polyamine pathways associated with mean blood pressure. Hypertens Res. 2026. PMID:41413233 DOI:10.1038/s41440-025-02490-8
+64. Sternberg Z et al. Elevated spermidine serum levels in mild cognitive impairment, a potential biomarker of progression to Alzheimer dementia, a pilot study. J Clin Neurosci. 2022. PMID:35487023 DOI:10.1016/j.jocn.2022.04.028
+65. Amin M et al. Polyamine biomarkers as indicators of human disease. Biomarkers. 2021. PMID:33439737 DOI:10.1080/1354750X.2021.1875506
+66. Zell JA et al. Ornithine decarboxylase-1 polymorphism, chemoprevention with eflornithine and sulindac, and outcomes among colorectal adenoma patients. J Natl Cancer Inst. 2010. PMID:20798393 DOI:10.1093/jnci/djq325
+67. Kaminsky CJ et al. The longevity factor spermidine is part of a highly heritable complex erythrocyte phenotype associated with longevity. Aging Cell. 2024. PMID:39243176 DOI:10.1111/acel.14311
+68. Angelucci F et al. Spermidine in Alzheimer's Disease: Evidence from Animal Models and Human Studies. Degener Neurol Neuromuscul Dis. 2026. PMID:42358231 DOI:10.2147/DNND.S608341
+69. Pandolfi S et al. Spermidine in the aging brain: mechanisms, preclinical evidence, and clinical perspectives. Mol Biol Rep. 2026. PMID:42012729 DOI:10.1007/s11033-026-11827-6
+70. Karimi K et al. Adaptive crosstalk between polyamine metabolism, translation, and autophagy sustains energy homeostasis in mammals during starvation: a scoping review. Amino Acids. 2026. PMID:41874700 DOI:10.1007/s00726-026-03512-6
+71. Surzenko N et al. Nutritional supplement containing a nuclear fraction of bovine thymus gland increases the circulating levels of spermidine. PLoS One. 2025. PMID:40924744 DOI:10.1371/journal.pone.0331813
+72. Watanabe S et al. Lubiprostone in chronic kidney disease: Insights into mitochondrial function and polyamines from a randomized phase 2 clinical trial. Sci Adv. 2025. PMID:40880481 DOI:10.1126/sciadv.adw3934
+73. European Commission. Implementing Regulation (EU) 2020/443 authorising the change of the specifications of the novel food spermidine-rich wheat germ extract (Triticum aestivum). Official Journal of the EU. 2020. URL:https://eur-lex.europa.eu/eli/reg_impl/2020/443/oj
+74. Vitalabo product listing. Longevity Labs spermidineLIFE Original 365+ (ingredients, gluten statement). Retailer webpage. Accessed 2026-10-13. URL:https://www.vitalabo.com/longevity-labs/spermidine-life

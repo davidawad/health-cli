@@ -3,35 +3,204 @@
 :ID: supp-k1
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: Phylloquinone | vitamin K1 | phytonadione
+:ALIASES: Vitamin K1 | phylloquinone | phytonadione | phytomenadione | Mephyton | AquaMephyton | vitamin K
 :CATEGORY: vitamin
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
+
 ** Identity & forms
-- NIH ODS identifies phylloquinone as the dietary K1 form, a cofactor for gamma-carboxylation of coagulation and bone proteins [URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/].
+- Phylloquinone (vitamin K1) is the plant form of vitamin K, a 2-methyl-1,4-naphthoquinone with a phytyl side chain. Menaquinones (K2, MK-n) carry polyisoprenyl side chains and are mostly bacterial. Green leafy vegetables supply most dietary vitamin K in North America [URL:https://nap.nationalacademies.org/read/10026/chapter/7].
+- Reference intakes (IOM 2001): Adequate Intake 120 ug/day for men and 90 ug/day for women. No Tolerable Upper Intake Level was set, because no adverse effects had been reported at higher intakes [URL:https://nap.nationalacademies.org/read/10026/chapter/7].
+- OTC supplements: synthetic K1 in multivitamins and stand-alone products, typically in microgram doses. Prescription phytonadione comes as 5 mg oral tablets and as an injectable emulsion (1 mg/0.5 mL and 10 mg/mL) for IV, IM or SC use [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6c992275-b040-42d0-9eff-570dce4272fe] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e8808230-2c44-44c6-8cab-8f29b6b34051].
+- Absorption: K1 is absorbed in the jejunum and ileum. This depends on bile and pancreatic juice and is enhanced by dietary fat [URL:https://nap.nationalacademies.org/read/10026/chapter/7]. The tablet label says oral phytonadione is adequately absorbed only if bile salts are present [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6c992275-b040-42d0-9eff-570dce4272fe]. A 500 ug tablet gave an AUC about 6 times higher than the same amount of K1 eaten as raw spinach (27.55 vs 4.79 nmol/L.h) [PMID:10356087].
+- K1 vs K2 (separate monographs exist for K2 MK-7 and K2-MK4): K1 and MK-7 both peak in serum about 4 h after intake. MK-7 has a much longer half-life and accumulates 7- to 8-fold with daily dosing [PMID:17158229]. Body stores of vitamin K are low and turn over quickly; K1 is side-chain cleaved and converted to tissue MK-4 via menadione and UBIAD1 [PMID:24489112]. Maternal K1 supplementation raised breast-milk MK-4 [PMID:12064330].
+
 ** Mechanisms
-- Vitamin K participates in vitamin K-dependent carboxylation of prothrombin, osteocalcin, and matrix Gla protein [URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/].
+- Cofactor for gamma-glutamyl carboxylation of vitamin K-dependent proteins (VKDPs): coagulation factors II, VII, IX and X (liver), osteocalcin (bone) and matrix Gla protein (MGP; vessel wall) [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6c992275-b040-42d0-9eff-570dce4272fe] [PMID:29749440]. 17 VKDPs have been identified [PMID:31862867].
+- Vitamin K cycle: vitamin K epoxide reductase (VKOR, gene VKORC1) regenerates the active hydroquinone. Warfarin and other VKAs inhibit VKOR, and large K1 doses act as an antidote [PMID:35748323] [PMID:24489112].
+- Catabolism: CYP4F2 is the hepatic vitamin K1 omega-hydroxylase. The V433M (rs2108622) variant lowers enzyme levels and K1 oxidation [PMID:19297519]. CYP4F2 and CYP4F11 also hydroxylate MK-4 [PMID:24138531].
+- In replete people, phytonadione has almost no pharmacodynamic activity on clotting. Its action shows only in vitamin K deficiency or antagonism, with an onset of 6-10 h orally and an INR improvement within 1-8 h [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6c992275-b040-42d0-9eff-570dce4272fe].
+- Extrahepatic markers respond to supplementation. 500 ug/day lowered %ucOC [PMID:18252784]. 1000 ug/day suppressed %ucOC by 81% in Crohn's disease, with no further suppression at 2000 ug [PMID:25181575]. 10 mg thrice weekly cut dp-ucMGP by 86% in hemodialysis [PMID:35641194].
+
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | Certainty | Citations |
-|---------+--------------------+-----------+-------------+-----------+-----------|
-| Principal studied outcome | Systematic review/RCT or official product label | Bone outcomes: mixed; older trials found some benefit but later trials show no consistent BMD/fracture benefit. CV calcification: no proven prevention. | See outcome summary above; no extrapolation to unstudied endpoints | moderate | [URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/] [DOI:10.1302/2046-3758.1312.BJR-2024-0053.R1] |
-| Hard clinical outcomes / prevention | Human outcome evidence sparse or absent in sources reviewed | Not established | No reliable effect estimate | very low | [URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/] [DOI:10.1302/2046-3758.1312.BJR-2024-0053.R1] |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---|---|---|---|---|---|
+| BMD (K1 alone, replete older adults) | RCTs 200 ug-5 mg/d for 2-4 y; MA of 36 RCTs | Null to small | ECKO 5 mg: LS BMD difference -0.06% (-0.67 to 0.54); 500 ug/d: no difference at any site; MA: no BMD effect after removing high-bias trials | moderate | [PMID:18922041] [PMID:18252784] [PMID:31076817] |
+| BMD (K1 with minerals + vitamin D) | 2 RCTs | Small site-specific benefit | Femoral neck +1.7% vs placebo at 3 y (1 mg/d); ultradistal radius only (200 ug/d) | low | [PMID:14506950] [PMID:17243866] |
+| Clinical fractures | ECKO (5 mg/d); HTA SR; MA | Possible benefit, imprecise | 9 vs 20 fractures; RR 0.46 (0.22-0.99); pooled vitamin K OR 0.72 (0.55-0.95), 0.76 (0.58-1.01) in low-bias trials | low | [PMID:18922041] [PMID:19818211] [PMID:31076817] |
+| Fracture vs dietary K1 intake | MAs of cohorts | Inverse association (observational) | Highest vs lowest RR 0.78 (0.56-0.99); 2025 MA RR 0.83 (0.68-1.01) | very low | [PMID:28445289] [PMID:40947710] |
+| Coronary calcification (community) | RCT 500 ug/d, 3 y | Null overall; benefit in adherent and pre-existing CAC subgroups | Agatston change 27 vs 37 (NS); 6% less progression if CAC >10 | low | [PMID:19386744] [PMID:23719555] |
+| Vascular calcification (hemodialysis) | VitaVasK; iPACK-HD; IV K1 RCT; dialysis MA | Mixed | TAC progression -56%; iPACK-HD null; IV 10 mg: RR 0.45 (0.18-1.15); MA calcification score -0.14 (NS) | low | [PMID:37216675] [PMID:35641194] [PMID:39680321] [PMID:38046003] |
+| Calcification activity (diabetes) | ViKCoVaC post hoc (10 mg/d, 3 mo) | Benefit on PET surrogate | New coronary 18F-NaF lesions OR 0.35 (0.16-0.78) | low | [PMID:34637494] |
+| Vascular calcification (all vitamin K forms) | MAs of RCTs | Small reduction, heterogeneous | VC -9.1% (-17.7 to -0.5); CAC MD -17.37 (-34.18 to -0.56); CKD MA: no imaging change | low | [PMID:30514729] [PMID:37252246] [PMID:36704782] |
+| CV events / mortality | Dialysis MA; cohort IPD | No trial evidence of benefit | No effect on mortality in dialysis RCTs; low circulating K1 linked to mortality HR 1.19 (observational) | very low | [PMID:38046003] [PMID:32359159] [PMID:42851346] |
+| Insulin sensitivity / glycemia | RCTs; MAs | Inconsistent | Men only HOMA-IR benefit at 36 mo; null in postmenopausal women; 2018 MA null; 2026 MA HOMA-IR MD -0.63 | low | [PMID:18697901] [PMID:20881072] [PMID:25782427] [PMID:29523009] [PMID:41599883] |
+| INR stability on VKAs | 4 RCTs; Cochrane; MA | Small improvement in stability; no clinical-outcome benefit | TTR +3.5% (1.1-6.0); fewer INR excursions with 150 ug/d | low | [PMID:23744743] [PMID:24832594] [PMID:27346552] [PMID:17666020] |
+| Reversal of excessive VKA anticoagulation | RCTs (oral, SC, IV) | Effective at lowering INR | Oral 1 mg beats SC: OR 4.32 for therapeutic INR next day | moderate | [PMID:12186515] [PMID:11034038] [PMID:10597763] |
+| Neonatal VKDB prophylaxis | SR; national cohort | Benefit | Late VKDB pooled RR 0.02 (IM vs none); no IM K: bleeding aOR 1.52 | moderate | [PMID:27109090] [PMID:42440325] |
+| Hand osteoarthritis | RCT ancillary (500 ug/d); MR | Null | No radiographic effect; MR OR 0.98 (0.96-1.01) | low | [PMID:18625626] [PMID:35667331] |
+
 ** Dosing in trials
-- Adult adequate intake: 120 mcg/day men, 90 mcg/day women; trials used 500 mcg/day phylloquinone for 3 years, or 1 mg/day for 12 months [URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/].
+- Diet-level supplement: 500 ug/day for 3 years in a multivitamin (with calcium 600 mg and vitamin D 400 IU) [PMID:18252784]. 200 ug/day for 2 years [PMID:17243866].
+- Higher doses: 1 mg/day for 3 years (with minerals and vitamin D) [PMID:14506950], 1 mg/day for 12 months [PMID:20881072] [PMID:25181575], and 5 mg/day for 2-4 years (ECKO) [PMID:18922041]. In the bisphosphonate add-on trial, 1 mg/day for 18 months gave no BMD difference [PMID:37338608].
+- Vascular/CKD: 5 mg orally thrice weekly [PMID:37216675], 10 mg orally thrice weekly [PMID:35641194], 10 mg IV after each hemodialysis [PMID:39680321], and 10 mg/day orally for 3 months in diabetes [PMID:34637494]. The ongoing PASSPORT aortic stenosis trial uses 10 mg/day [PMID:41425110].
+- Warfarin stabilization: 100 ug/day [PMID:17666020], 150 ug/day [PMID:27346552], 200 ug/day [PMID:23953594], or 500 ug/day (open label, needing 6-95% warfarin dose increases) [PMID:17323135].
+- Over-anticoagulation: oral 1-2.5 mg [PMID:12186515] [PMID:11034038]. Dosing tailored to INR and body surface area outperformed fixed doses (68.9% vs 52.8% in range) [PMID:28771671]. A systematic review favored low-dose oral K for asymptomatic warfarin over-anticoagulation, but found no added benefit over simply withholding acenocoumarol [PMID:15257939]. Label doses are 2.5-10 mg, up to 25-50 mg [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6c992275-b040-42d0-9eff-570dce4272fe].
+- Newborn prophylaxis: 0.5-1 mg IM within 1 hour of birth [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e8808230-2c44-44c6-8cab-8f29b6b34051] [PMID:35190810].
+
 ** Safety & adverse effects
-- Dietary quantities have low toxicity; no UL established. Vitamin K can seriously antagonize warfarin and related vitamin K antagonists [URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/].
+- Oral K1: no UL, and no adverse effects have been reported at high intakes [URL:https://nap.nationalacademies.org/read/10026/chapter/7]. ECKO (5 mg/day for up to 4 years) found no excess adverse effects and fewer cancers (3 vs 12) [PMID:18922041]. Dialysis meta-analysis judged vitamin K safe but noted a small serum calcium rise (0.18) [PMID:38046003]. VitaVasK reported no treatment-related adverse events [PMID:37216675].
+- BOXED WARNING (injection): fatal hypersensitivity reactions, including anaphylaxis, occur during and right after IV and IM injection, even with dilution and on first dose. The label says to use SC unless that route is not feasible, and to give IV no faster than 1 mg/min [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e8808230-2c44-44c6-8cab-8f29b6b34051].
+- Incidence: 3 per 10,000 IV doses (95% CI 0.04-11) [PMID:12392385]. Reactions are mostly non-IgE anaphylactoid and linked to the polyethoxylated castor oil or polysorbate solubilizer [PMID:28301903] [PMID:24594861]. Reactions appear dose-related in animal models [PMID:28407450].
+- Other injection risks: benzyl alcohol "gasping syndrome" in neonates; cutaneous reactions (eczematous, scleroderma-like) up to a year later [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e8808230-2c44-44c6-8cab-8f29b6b34051]. Hyperbilirubinemia occurs in newborns at doses above those recommended [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6c992275-b040-42d0-9eff-570dce4272fe].
+- Over-reversal: high-dose K1 can overshoot INR and cause temporary warfarin resistance. 1 mg oral K1 with acenocoumarol increased sub-therapeutic INRs (RR 1.83) [PMID:12152676] [PMID:9801181] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6c992275-b040-42d0-9eff-570dce4272fe].
+
 ** Contraindications
-- Warfarin and other VKAs; keep intake consistent and monitor INR.
+- Hypersensitivity to phytonadione or any formulation component (label contraindication) [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e8808230-2c44-44c6-8cab-8f29b6b34051].
+- Unsupervised supplement use while taking warfarin or other VKAs: this antagonizes anticoagulation. Any use should be at a fixed daily dose with INR monitoring [PMID:17323135] [PMID:24832594].
+- Benzyl alcohol-preserved injection in neonates and infants: use preservative-free products if available [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e8808230-2c44-44c6-8cab-8f29b6b34051].
+
 ** Interactions
-- NIH ODS reports warfarin/VKA antagonism; no specific genotype evidence found [URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/].
-- Structured high-priority interactions are represented in interactions.json; absence of an edge is not proof of no interaction.
+*** Drugs
+- Warfarin and other coumarins: K1 directly antagonizes VKAs, and larger doses can cause temporary resistance [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6c992275-b040-42d0-9eff-570dce4272fe]. Daily low doses (100-200 ug) slightly improved stability (TTR +3.5%), with no proven effect on bleeding or thrombosis [PMID:23744743] [PMID:17666020] [PMID:23953594]. Dietary K1 effects appear mainly above ~150 ug/day, and a stable diet is advised rather than restriction [PMID:26962786]. Plasma K1 varies widely in warfarin users [PMID:25828628].
+- DOACs (apixaban, rivaroxaban, edoxaban, dabigatran) inhibit factor Xa or IIa directly rather than the vitamin K cycle. No vitamin K-mediated interaction is expected, and K1 is not a DOAC reversal agent. INR is unreliable on DOACs [PMID:24861793] [PMID:23023509] [PMID:28476405].
+- Heparin: phytonadione does not counteract heparin [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6c992275-b040-42d0-9eff-570dce4272fe].
+- Antibiotics (N-methylthiotetrazole cephalosporins, cefazolin): these inhibit hepatic K epoxide reductase. Low vitamin K status (TPN) predisposes to hypoprothrombinemia, which 1 mg IV K1 reverses [PMID:3350995] [PMID:3306622] [PMID:2276882]. Antibiotic-related hypoprothrombinemia is a labeled phytonadione indication [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6c992275-b040-42d0-9eff-570dce4272fe].
+- Orlistat: vitamin K fell (non-significantly) in adolescents [PMID:12126214]. One case report describes a raised INR on warfarin, attributed partly to reduced vitamin K absorption [PMID:12659605].
+- Bile acid sequestrants (cholestyramine): there are case reports of vitamin K-deficiency bleeding, including one refractory to concurrent oral K [PMID:12688565] [PMID:40878026].
+- Mineral oil: concern about fat-soluble vitamin malabsorption, but clinical evidence is limited [PMID:17041175].
+- Salicylates: listed on the label as a cause of drug-induced hypoprothrombinemia treatable with phytonadione [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6c992275-b040-42d0-9eff-570dce4272fe].
+*** Other supplements
+- Vitamin E: 1000 IU/day for 12 weeks raised PIVKA-II (1.8 to 5.3 ng/mL in healthy men), which suggests vitamin K antagonism [PMID:15213041]. The IOM calls the E-K antagonism "clearly established" [URL:https://nap.nationalacademies.org/read/10026/chapter/7].
+- K2 MK-7: additive vitamin K load. MK-7 accumulates, and 50 ug/day or more may affect VKA therapy [PMID:17158229].
+- K2-MK4: K1 is a precursor of tissue MK-4 [PMID:24489112] [PMID:12064330], and both are CYP4F2 substrates [PMID:24138531].
+- Vitamin D-3 (with calcium): modest bone synergy. Benefits were seen only for the combinations [PMID:17243866] [PMID:14506950]. In a network MA, vitamin D plus K ranked highest for P1NP and osteocalcin [PMID:40949733].
+*** Conditions
+- Fat malabsorption (obstructive jaundice, celiac disease, IBD, cystic fibrosis, intestinal resection): these raise deficiency risk and are labeled indications [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6c992275-b040-42d0-9eff-570dce4272fe]. In Crohn's disease, 1 mg/day for 12 months corrected %ucOC but did not change spine or hip BMD [PMID:25181575].
+- Hemodialysis/CKD: low intake and status are common [PMID:22648294]. K1 lowers dp-ucMGP more than K2 [PMID:38046003], but calcification and outcome benefit are unproven [PMID:42851346] [PMID:36704782].
+- Liver disease: the label says repeated large doses are not warranted if the response is poor [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6c992275-b040-42d0-9eff-570dce4272fe].
+- Older inpatients: 36% of hip-fracture patients were vitamin K deficient on admission, rising to 64% after surgical fasting [PMID:30618350].
+- Newborns: risk of VKDB, prevented by IM prophylaxis [PMID:35190810] [PMID:27109090].
+*** Lab-test interference
+- PT/INR is insensitive as a vitamin K status marker. Serum K1 below 0.15 ug/L indicates deficiency but reflects recent intake. PIVKA-II reflects hepatic status, VKA exposure, and is also an HCC marker [PMID:31862867]. K1 intake therefore lowers PIVKA-II, while high-dose vitamin E raises it [PMID:15213041].
+- Supplementing lowers %ucOC and dp-ucMGP. These are status markers, not outcomes [PMID:18252784] [PMID:35641194]. In CKD, PIVKA-II but not dp-ucMGP was weakly associated with aortic calcification [PMID:39604863].
+- DOACs falsely raise INR and PT [PMID:28476405] [PMID:24861793].
+
 ** Genotype notes
-- No cited pharmacogenomic/nutrigenomic source was identified for a supplement-specific genotype effect; no genotype claim made.
+- CYP4F2 rs2108622 (V433M): carriers metabolize K1 less [PMID:19297519] and need 8.3% (5.6-11.1%) higher coumarin doses [PMID:23132553]. Higher plasma K1 was seen in carriers [PMID:27462768].
+- VKORC1 -1639G>A confers warfarin sensitivity across vitamin K tertiles [PMID:27462768]. VKORC1 risk alleles were modestly associated with osteopenia/osteoporosis (OR 1.16, 1.01-1.35) [PMID:41597466].
+- No trial has tested genotype-guided K1 supplementation.
+
 ** Latest research
-- 2024-12-11: The 2024 RCT meta-analysis on vitamin K and BMD found heterogeneous, site-dependent effects; it does not establish fracture prevention [DOI:10.1302/2046-3758.1312.BJR-2024-0053.R1].
+- [2026-10] A CKD review concludes that K1 has more consistent (still heterogeneous) imaging evidence than K2, but neither reduces MACE or mortality [PMID:42851346].
+- [2026-09] Swedish cohort of 2.0 million births: no IM vitamin K was associated with intracranial bleeding (aOR 2.91), and non-receipt is rising [PMID:42440325].
+- [2026-08] UK Biobank: higher dietary K1 was associated with lower ASCVD risk (HR Q3 vs Q1 0.90). Higher K2 intake was associated with higher risk, possibly food confounding [PMID:42485745].
+- [2026-08] VitaK-CAC (K2 MK-7 360 ug/day, 2 years): CAC progression slowed (P=.02). This is relevant only as a K2 contrast [PMID:42268593].
+- [2026-01] Glycemic MA of 8 RCTs: FBG SMD -0.22, HbA1c -1.00%, HOMA-IR -0.63 [PMID:41599883].
+- [2026-01] VKORC1 polymorphisms and osteoporosis MA: OR 1.16 [PMID:41597466].
+- [2025-11] PASSPORT RCT design: K1 10 mg/day vs placebo in non-severe calcific aortic stenosis. It has met its recruitment target of 108 [PMID:41425110].
+- [2025-09] Dietary vitamin K and fracture dose-response MA: RR 0.83 (0.68-1.01), with benefit up to 120 ug/day [PMID:40947710].
+- [2025-09] Network MA of supplements on bone turnover markers: vitamin D plus K ranked highest for P1NP [PMID:40949733].
+- [2025-07] ViKCoVaC bone post hoc: K1 10 mg/day had no effect on vertebral 18F-NaF uptake [PMID:40258481].
+- [2025-07] Case of cholestyramine-induced vitamin K deficiency refractory to oral K [PMID:40878026].
+- [2025-03] IV K1 10 mg thrice weekly in hemodialysis: CAC progression 20.8% vs 44% (RR 0.45, NS CI) [PMID:39680321].
+- [2024-12] BMD MA: vitamin K raised lumbar spine BMD and cOC, mainly with K2 [PMID:39657786].
+- [2024-11] PIVKA-II, but not dp-ucMGP, was weakly associated with aortic calcification in CKD [PMID:39604863].
+
 ** Open questions
-- Which formulations, populations, and durations produce clinically meaningful outcomes rather than biomarker-only changes?
-- Are there long-term benefits or harms beyond the relatively short human trials available?
+- Does high-dose K1 (5-10 mg) prevent fractures? ECKO's fracture signal was small and not a primary outcome [PMID:18922041] [PMID:19818211].
+- Will K1 slow aortic valve or vascular calcification in adequately powered trials with clinical endpoints [PMID:41425110] [PMID:42851346]?
+- Is the association of low K1 status with mortality causal [PMID:32359159]?
+- Which patients with unstable INR benefit from low-dose K1 [PMID:23744743] [PMID:24832594]?
+- Is the kidney-transplant mortality association real? A meta-analysis pooling "normal vitamin K status or supplementation" against deficiency or no supplementation gave RR 0.72 (0.60-0.86) [PMID:38125342].
+
 ** Sources
-- [URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/] [DOI:10.1302/2046-3758.1312.BJR-2024-0053.R1]
+1. Garber AK et al. Comparison of phylloquinone bioavailability from food sources or a supplement in human subjects. J Nutr. 1999. PMID:10356087 DOI:10.1093/jn/129.6.1201
+2. Schurgers LJ et al. Vitamin K-containing dietary supplements: comparison of synthetic vitamin K1 and natto-derived menaquinone-7. Blood. 2007. PMID:17158229 DOI:10.1182/blood-2006-08-040709
+3. Shearer MJ et al. Recent trends in the metabolism and cell biology of vitamin K with special reference to vitamin K cycling and MK-4 biosynthesis. J Lipid Res. 2014. PMID:24489112 DOI:10.1194/jlr.R045559
+4. Thijssen HH et al. Menaquinone-4 in breast milk is derived from dietary phylloquinone. Br J Nutr. 2002. PMID:12064330 DOI:10.1079/BJNBJN2001505
+5. Wen L et al. Vitamin K‑dependent proteins involved in bone and cardiovascular health (Review). Mol Med Rep. 2018. PMID:29749440 DOI:10.3892/mmr.2018.8940
+6. Card DJ et al. Laboratory assessment of vitamin K status. J Clin Pathol. 2020. PMID:31862867 DOI:10.1136/jclinpath-2019-205997
+7. Liu S et al. Structural and cellular basis of vitamin K antagonism. J Thromb Haemost. 2022. PMID:35748323 DOI:10.1111/jth.15800
+8. McDonald MG et al. CYP4F2 is a vitamin K1 oxidase: An explanation for altered warfarin dose in carriers of the V433M variant. Mol Pharmacol. 2009. PMID:19297519 DOI:10.1124/mol.109.054833
+9. Edson KZ et al. Cytochrome P450-dependent catabolism of vitamin K: ω-hydroxylation catalyzed by human CYP4F2 and CYP4F11. Biochemistry. 2013. PMID:24138531 DOI:10.1021/bi401208m
+10. Booth SL et al. Effect of vitamin K supplementation on bone loss in elderly men and women. J Clin Endocrinol Metab. 2008. PMID:18252784 DOI:10.1210/jc.2007-2490
+11. O'Connor EM et al. Effect of phylloquinone (vitamin K1) supplementation for 12 months on the indices of vitamin K status and bone health in adult patients with Crohn's disease. Br J Nutr. 2014. PMID:25181575 DOI:10.1017/S0007114514001913
+12. Holden RM et al. Inhibit progression of coronary artery calcification with vitamin K in hemodialysis patients (the iPACK-HD study): a randomized, placebo-controlled multi-center, pilot trial. Nephrol Dial Transplant. 2023. PMID:35641194 DOI:10.1093/ndt/gfac191
+13. Cheung AM et al. Vitamin K supplementation in postmenopausal women with osteopenia (ECKO trial): a randomized controlled trial. PLoS Med. 2008. PMID:18922041 DOI:10.1371/journal.pmed.0050196
+14. Mott A et al. Effect of vitamin K on bone mineral density and fractures in adults: an updated systematic review and meta-analysis of randomised controlled trials. Osteoporos Int. 2019. PMID:31076817 DOI:10.1007/s00198-019-04949-0
+15. Braam LA et al. Vitamin K1 supplementation retards bone loss in postmenopausal women between 50 and 60 years of age. Calcif Tissue Int. 2003. PMID:14506950 DOI:10.1007/s00223-002-2084-4
+16. Bolton-Smith C et al. Two-year randomized controlled trial of vitamin K1 (phylloquinone) and vitamin D3 plus calcium on the bone health of older women. J Bone Miner Res. 2007. PMID:17243866 DOI:10.1359/jbmr.070116
+17. Stevenson M et al. Vitamin K to prevent fractures in older women: systematic review and economic evaluation. Health Technol Assess. 2009. PMID:19818211 DOI:10.3310/hta13450
+18. Hao G et al. Vitamin K intake and the risk of fractures: A meta-analysis. Medicine (Baltimore). 2017. PMID:28445289 DOI:10.1097/MD.0000000000006725
+19. Haghighat MML et al. Dietary Vitamin K Intake and Fracture Risk: A Systematic Review and Dose-Response Meta-Analysis on the Interplay with Vitamin D. Curr Rheumatol Rev. 2026. PMID:40947710 DOI:10.2174/0115733971393704250828112958
+20. Shea MK et al. Vitamin K supplementation and progression of coronary artery calcium in older men and women. Am J Clin Nutr. 2009. PMID:19386744 DOI:10.3945/ajcn.2008.27338
+21. Shea MK et al. Association between circulating vitamin K1 and coronary calcium progression in community-dwelling adults: the Multi-Ethnic Study of Atherosclerosis. Am J Clin Nutr. 2013. PMID:23719555 DOI:10.3945/ajcn.112.056101
+22. Saritas T et al. Vitamin K1 and progression of cardiovascular calcifications in hemodialysis patients: the VitaVasK randomized controlled trial. Clin Kidney J. 2022. PMID:37216675 DOI:10.1093/ckj/sfac184
+23. Macias-Cervantes HE et al. Effect of vitamin K1 supplementation on coronary calcifications in hemodialysis patients: a randomized controlled trial. J Nephrol. 2025. PMID:39680321 DOI:10.1007/s40620-024-02154-9
+24. Andrian T et al. Vitamin K supplementation impact in dialysis patients: a systematic review and meta-analysis of randomized trials. Clin Kidney J. 2023. PMID:38046003 DOI:10.1093/ckj/sfad255
+25. Bellinge JW et al. The effect of vitamin K1 on arterial calcification activity in subjects with diabetes mellitus: a post hoc analysis of a double-blind, randomized, placebo-controlled trial. Am J Clin Nutr. 2022. PMID:34637494 DOI:10.1093/ajcn/nqab306
+26. Lees JS et al. Vitamin K status, supplementation and vascular disease: a systematic review and meta-analysis. Heart. 2019. PMID:30514729 DOI:10.1136/heartjnl-2018-313955
+27. Li T et al. Vitamin K supplementation and vascular calcification: a systematic review and meta-analysis of randomized controlled trials. Front Nutr. 2023. PMID:37252246 DOI:10.3389/fnut.2023.1115069
+28. Geng C et al. Effects of vitamin K supplementation on vascular calcification in chronic kidney disease: A systematic review and meta-analysis of randomized controlled trials. Front Nutr. 2022. PMID:36704782 DOI:10.3389/fnut.2022.1001826
+29. Shea MK et al. Vitamin K status, cardiovascular disease, and all-cause mortality: a participant-level meta-analysis of 3 US cohorts. Am J Clin Nutr. 2020. PMID:32359159 DOI:10.1093/ajcn/nqaa082
+30. Brandenburg V et al. Vitamin K and vascular calcification: from biological plausibility to clinical realism. Clin Kidney J. 2026. PMID:42851346 DOI:10.1093/ckj/sfag249
+31. Yoshida M et al. Effect of vitamin K supplementation on insulin resistance in older men and women. Diabetes Care. 2008. PMID:18697901 DOI:10.2337/dc08-1204
+32. Kumar R et al. Effect of phylloquinone supplementation on glucose homeostasis in humans. Am J Clin Nutr. 2010. PMID:20881072 DOI:10.3945/ajcn.2010.30108
+33. Rasekhi H et al. The effect of vitamin K1 supplementation on sensitivity and insulin resistance via osteocalcin in prediabetic women: a double-blind randomized controlled clinical trial. Eur J Clin Nutr. 2015. PMID:25782427 DOI:10.1038/ejcn.2015.17
+34. Shahdadian F et al. Effect of Vitamin K Supplementation on Glycemic Control: A Systematic Review and Meta-Analysis of Clinical Trials. Horm Metab Res. 2018. PMID:29523009 DOI:10.1055/s-0044-100616
+35. Ahmed SR et al. The Differential Effects of Vitamin K Across Glycaemic Outcomes in Prediabetes and Type 2 Diabetes Mellitus. Nutrients. 2026. PMID:41599883 DOI:10.3390/nu18020269
+36. Lam J et al. Anticoagulation control with daily low-dose vitamin k to reduce clinically adverse outcomes and international normalized ratio variability: a systematic review and meta-analysis. Pharmacotherapy. 2013. PMID:23744743 DOI:10.1002/phar.1302
+37. Mahtani KR et al. Vitamin K for improved anticoagulation control in patients receiving warfarin. Cochrane Database Syst Rev. 2014. PMID:24832594 DOI:10.1002/14651858.CD009917.pub2
+38. Boonyawat K et al. The effect of low-dose oral vitamin K supplementation on INR stability in patients receiving warfarin. A randomised trial. Thromb Haemost. 2016. PMID:27346552 DOI:10.1160/TH16-04-0320
+39. Rombouts EK et al. Daily vitamin K supplementation improves anticoagulant stability. J Thromb Haemost. 2007. PMID:17666020 DOI:10.1111/j.1538-7836.2007.02715.x
+40. Crowther MA et al. Oral vitamin K lowers the international normalized ratio more rapidly than subcutaneous vitamin K in the treatment of warfarin-associated coagulopathy. A randomized, controlled trial. Ann Intern Med. 2002. PMID:12186515 DOI:10.7326/0003-4819-137-4-200208200-00009
+41. Patel RJ et al. Randomized, placebo-controlled trial of oral phytonadione for excessive anticoagulation. Pharmacotherapy. 2000. PMID:11034038 DOI:10.1592/phco.20.15.1159.34585
+42. Raj G et al. Time course of reversal of anticoagulant effect of warfarin by intravenous and subcutaneous phytonadione. Arch Intern Med. 1999. PMID:10597763 DOI:10.1001/archinte.159.22.2721
+43. Sankar MJ et al. Vitamin K prophylaxis for prevention of vitamin K deficiency bleeding: a systematic review. J Perinatol. 2016. PMID:27109090 DOI:10.1038/jp.2016.30
+44. Simatou E et al. Vitamin K Prophylaxis in Newborns and Bleeding in Infancy. JAMA Pediatr. 2026. PMID:42440325 DOI:10.1001/jamapediatrics.2026.2606
+45. Neogi T et al. Vitamin K in hand osteoarthritis: results from a randomised clinical trial. Ann Rheum Dis. 2008. PMID:18625626 DOI:10.1136/ard.2008.094771
+46. Zhao SS et al. Genetically predicted vitamin K levels and risk of osteoarthritis: Mendelian randomization study. Semin Arthritis Rheum. 2022. PMID:35667331 DOI:10.1016/j.semarthrit.2022.152030
+47. Moore AE et al. The additive effect of vitamin K supplementation and bisphosphonate on fracture risk in post-menopausal osteoporosis: a randomised placebo controlled trial. Arch Osteoporos. 2023. PMID:37338608 DOI:10.1007/s11657-023-01288-w
+48. Courtney WA et al. Testing if vitamin K1 reduces the progression of non-severe calcific aortic stenosis: design and rationale of the Prevention of Aortic Stenosis Progression Phylloquinone Ossification Reduction Trial (PASSPORT). Eur Heart J Open. 2025. PMID:41425110 DOI:10.1093/ehjopen/oeaf144
+49. Majeed H et al. Effect of 200μG/day of vitamin K1 on the variability of anticoagulation control in patients on warfarin: a randomized controlled trial. Thromb Res. 2013. PMID:23953594 DOI:10.1016/j.thromres.2013.07.019
+50. Ford SK et al. Prospective study of supplemental vitamin K therapy in patients on oral anticoagulants with unstable international normalized ratios. J Thromb Thrombolysis. 2007. PMID:17323135 DOI:10.1007/s11239-007-0014-z
+51. Kampouraki E et al. Assessment of the efficacy of a novel tailored vitamin K dosing regimen in lowering the International Normalised Ratio in over-anticoagulated patients: a randomised clinical trial. Br J Haematol. 2017. PMID:28771671 DOI:10.1111/bjh.14777
+52. Hand I et al. Vitamin K and the Newborn Infant. Pediatrics. 2022. PMID:35190810 DOI:10.1542/peds.2021-056036
+53. Riegert-Johnson DL et al. The incidence of anaphylaxis following intravenous phytonadione (vitamin K1): a 5-year retrospective review. Ann Allergy Asthma Immunol. 2002. PMID:12392385 DOI:10.1016/S1081-1206(10)62042-X
+54. Britt RB et al. Characterizing the Severe Reactions of Parenteral Vitamin K1. Clin Appl Thromb Hemost. 2018. PMID:28301903 DOI:10.1177/1076029616674825
+55. Mi YN et al. The severe adverse reaction to vitamin k1 injection is anaphylactoid reaction but not anaphylaxis. PLoS One. 2014. PMID:24594861 DOI:10.1371/journal.pone.0090199
+56. Mi YN et al. Finding the optimal dose of vitamin K1 to treat vitamin K deficiency and to avoid anaphylactoid reactions. Fundam Clin Pharmacol. 2017. PMID:28407450 DOI:10.1111/fcp.12290
+57. Ageno W et al. Low dose oral vitamin K to reverse acenocoumarol-induced coagulopathy: a randomized controlled trial. Thromb Haemost. 2002. PMID:12152676
+58. Whitling AM et al. Comparing different routes and doses of phytonadione for reversing excessive anticoagulation. Arch Intern Med. 1998. PMID:9801181 DOI:10.1001/archinte.158.19.2136
+59. Violi F et al. Interaction Between Dietary Vitamin K Intake and Anticoagulation by Vitamin K Antagonists: Is It Really True?: A Systematic Review. Medicine (Baltimore). 2016. PMID:26962786 DOI:10.1097/MD.0000000000002895
+60. Kim YE et al. High intra- and inter-individual variability of plasma vitamin K concentrations in patients with atrial fibrillation under warfarin therapy. Eur J Clin Nutr. 2015. PMID:25828628 DOI:10.1038/ejcn.2015.41
+61. Tsakiris DA et al. Direct oral anticoagulants--interference with laboratory tests and mechanism of action. Semin Hematol. 2014. PMID:24861793 DOI:10.1053/j.seminhematol.2014.03.007
+62. Yeh CH et al. Oral direct factor Xa inhibitors. Circ Res. 2012. PMID:23023509 DOI:10.1161/CIRCRESAHA.112.276741
+63. Ofek F et al. International Normalized Ratio Is Significantly Elevated With Rivaroxaban and Apixaban Drug Therapies: A Retrospective Study. Clin Ther. 2017. PMID:28476405 DOI:10.1016/j.clinthera.2017.04.007
+64. Shearer MJ et al. Mechanism of cephalosporin-induced hypoprothrombinemia: relation to cephalosporin side chain, vitamin K metabolism, and vitamin K status. J Clin Pharmacol. 1988. PMID:3350995 DOI:10.1002/j.1552-4604.1988.tb03106.x
+65. Schentag JJ et al. Determinants of antibiotic-associated hypoprothrombinemia. Pharmacotherapy. 1987. PMID:3306622 DOI:10.1002/j.1875-9114.1987.tb03522.x
+66. Shirakawa H et al. Antibiotic-induced vitamin K deficiency and the role of the presence of intestinal flora. Int J Vitam Nutr Res. 1990. PMID:2276882
+67. McDuffie JR et al. Effects of orlistat on fat-soluble vitamins in obese adolescents. Pharmacotherapy. 2002. PMID:12126214 DOI:10.1592/phco.22.11.814.33627
+68. MacWalter RS et al. Orlistat enhances warfarin effect. Ann Pharmacother. 2003. PMID:12659605 DOI:10.1345/aph.1C122
+69. Vroonhof K et al. Vitamin K deficiency and bleeding after long-term use of cholestyramine. Neth J Med. 2003. PMID:12688565
+70. Sekeramayi TM et al. To Take or Not to Take: A Case of Cholestyramine Induced Vitamin K Deficiency. S D Med. 2025. PMID:40878026
+71. Gal-Ezer S et al. The safety of mineral oil in the treatment of constipation--a lesson from prolonged overdose. Clin Pediatr (Phila). 2006. PMID:17041175 DOI:10.1177/0009922806295285
+72. Booth SL et al. Effect of vitamin E supplementation on vitamin K status in adults with normal coagulation status. Am J Clin Nutr. 2004. PMID:15213041 DOI:10.1093/ajcn/80.1.143
+73. Wei Y et al. Effects of dietary supplements on bone turnover markers in women after menopause: a network meta-analysis. PeerJ. 2025. PMID:40949733 DOI:10.7717/peerj.19882
+74. Cranenburg EC et al. Vitamin K intake and status are low in hemodialysis patients. Kidney Int. 2012. PMID:22648294 DOI:10.1038/ki.2012.191
+75. Bultynck C et al. Prevalence of vitamin K deficiency in older people with hip fracture. Acta Clin Belg. 2020. PMID:30618350 DOI:10.1080/17843286.2018.1564174
+76. Nyvad J et al. PIVKA-II but not dp-ucMGP is associated with aortic calcification in chronic kidney disease. BMC Nephrol. 2024. PMID:39604863 DOI:10.1186/s12882-024-03876-5
+77. Danese E et al. Impact of the CYP4F2 p.V433M polymorphism on coumarin dose requirement: systematic review and meta-analysis. Clin Pharmacol Ther. 2012. PMID:23132553 DOI:10.1038/clpt.2012.184
+78. Pavani A et al. Development of neuro-fuzzy model to explore gene-nutrient interactions modulating warfarin dose requirement. Pharmacogenomics. 2016. PMID:27462768 DOI:10.2217/pgs-2016-0058
+79. Vesa ŞC et al. Association Between VKORC1 Gene Polymorphisms and Osteopenia and Osteoporosis: A Systematic Review and Meta-Analysis. Medicina (Kaunas). 2026. PMID:41597466 DOI:10.3390/medicina62010180
+80. Dupuy M et al. Dietary vitamin K intakes and atherosclerotic cardiovascular disease incidence: Findings from the UK biobank. Atherosclerosis. 2026. PMID:42485745 DOI:10.1016/j.atherosclerosis.2026.120837
+81. Vossen LM et al. Two Years of Menaquinone-7 Supplementation and Coronary Artery Calcification: A Randomized Clinical Trial. JAMA Cardiol. 2026. PMID:42268593 DOI:10.1001/jamacardio.2026.1279
+82. Bellinge JW et al. The effect of oral colchicine and vitamin K1 on bone metabolism in patients with diabetes mellitus: A post-hoc analysis of a 2 × 2 factorial randomized controlled trial with 18F-sodium fluoride positron emission tomography. Bone. 2025. PMID:40258481 DOI:10.1016/j.bone.2025.117492
+83. Xie C et al. Effects of vitamin K supplementation on bone mineral density at different sites and bone metabolism in the middle-aged and elderly population. Bone Joint Res. 2024. PMID:39657786 DOI:10.1302/2046-3758.1312.BJR-2024-0053.R1
+84. Sun Z et al. Effect of vitamin K on improving post‑kidney transplant outcomes: a meta‑analysis. Exp Ther Med. 2024. PMID:38125342 DOI:10.3892/etm.2023.12318
+85. Institute of Medicine. Dietary Reference Intakes for Vitamin A, Vitamin K, ... and Zinc. Chapter 5: Vitamin K. National Academies Press. 2001. URL:https://nap.nationalacademies.org/read/10026/chapter/7 DOI:10.17226/10026
+86. DailyMed. Phytonadione tablets prescribing information (Zydus). U.S. National Library of Medicine. 2024. URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6c992275-b040-42d0-9eff-570dce4272fe
+87. DailyMed. Vitamin K1 (phytonadione injectable emulsion) prescribing information with boxed warning (Hospira). U.S. National Library of Medicine. 2026. URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e8808230-2c44-44c6-8cab-8f29b6b34051
+88. Dentali F et al. Management of coumarin-associated coagulopathy in the non-bleeding patient: a systematic review. Haematologica. 2004. PMID:15257939

@@ -3,35 +3,216 @@
 :ID: supp-taurine
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: 2-aminoethanesulfonic acid | taurine
+:ALIASES: 2-aminoethanesulfonic acid | L-taurine | tauric acid | taurine powder
 :CATEGORY: amino-acid
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
+
 ** Identity & forms
-- Taurine is a sulfur-containing amino sulfonic acid present in food and tissues; it is not incorporated into proteins [PMID:41369612].
+- 2-aminoethanesulfonic acid is a sulfur-containing beta-amino (amino sulfonic) acid. It is not built into proteins and is described as conditionally essential [PMID:42201902] [PMID:42300946]. It is abundant in heart, brain, retina and skeletal muscle [PMID:34443494].
+- Taurine is approved in Japan for treating congestive heart failure [PMID:29631391] [PMID:35160118]. Elsewhere it is sold as an OTC supplement (capsules, powder) and as an energy-drink ingredient [PMID:35855073].
+- Diet and status: taurine comes from animal foods. Vegan diets supply negligible taurine [PMID:3354491]. Vegans had lower plasma taurine (45 vs 58 umol/L) and much lower urinary excretion than omnivores [PMID:3354491]. Plasma taurine correlated only weakly with dietary intake (n=3693), which suggests endogenous synthesis and metabolism dominate [PMID:41250277].
+- Pharmacokinetics: after a 4 g oral dose, Cmax was 86.1 mg/L at 1.5 h, with a plasma half-life of about 1.0 h (n=8) [PMID:22331997].
+- Cellular uptake is via the Na+/Cl- dependent transporter TauT (SLC6A6). TauT also binds beta-alanine and GABA [PMID:30612046] [PMID:40789850].
+- Infant nutrition: taurine is routinely added to preterm formula and parenteral nutrition. In the Cochrane review it increased fat absorption, but no growth benefit was shown [PMID:17943882].
+
 ** Mechanisms
-- Functions in bile salt conjugation, osmoregulation, calcium handling and neural signaling; clinical supplementation mechanisms remain under investigation [PMID:41369612].
+- Calcium handling and vascular tone: in prehypertension, taurine raised plasma H2S and inhibited TRPC3-mediated calcium influx in resistance arteries [PMID:26781281]. In type 2 diabetes it inhibited TRPC6-linked platelet calcium influx [PMID:40546935].
+- Mitochondria: taurine is required for the taurine modification of the wobble base of mitochondrial tRNA-Leu(UUR). This modification is deficient in MELAS m.3243A>G, and taurine supplementation restored it in leukocytes [PMID:29666206] [PMID:23257519]. Antioxidant and mitochondria-protective roles are reviewed in [PMID:34443494].
+- Neuromodulation: taurine is a GABA-A receptor agonist [PMID:30892104] and a full or partial agonist of human glycine receptors (EC50 about 10 times that of glycine) [PMID:11559772]. It hyperpolarizes neurons [PMID:23410665].
+- Anti-inflammatory and antioxidant: lowers MDA and CRP in controlled trials [PMID:34584225]. In T2D trials it lowered the glycation markers pentosidine and methylglyoxal [PMID:32861603].
+- Platelets: inhibits platelet activation and aggregation in animal and human studies (review) [PMID:35160118].
+- Aging biology (mouse/monkey): supplementation reduced senescence, mitochondrial dysfunction, DNA damage and inflammaging, and extended mouse lifespan [PMID:37289866]. Human relevance is disputed (see Latest research) [PMID:40472098] [PMID:41061678].
+
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | Certainty | Citations |
-|---------+--------------------+-----------+-------------+-----------+-----------|
-| Principal studied outcome | Systematic review/RCT or official product label | Blood pressure/metabolic markers: small trials/meta-analyses suggest modest improvements but heterogeneous populations and surrogate outcomes. Exercise: 2025 acute-dose meta-analysis found small effect g=0.25 (0.10–0.39), high heterogeneity [DOI:10.1111/sms.70123]. | See outcome summary above; no extrapolation to unstudied endpoints | low | [DOI:10.1111/sms.70123] [URL:https://pmc.ncbi.nlm.nih.gov/articles/PMC12178789/] |
-| Hard clinical outcomes / prevention | Human outcome evidence sparse or absent in sources reviewed | Not established | No reliable effect estimate | very low | [DOI:10.1111/sms.70123] [URL:https://pmc.ncbi.nlm.nih.gov/articles/PMC12178789/] |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Systolic/diastolic BP | MAs of RCTs (20 RCTs n=808; 34 RCTs; 7 studies n=103); RCTs in prehypertension (n=120) and T2D (n=165) | Decrease | SBP -4.0 mmHg (CI -7.3 to -0.7), DBP -1.4; SBP -4.38 / DBP -2.54 mmHg in 34-RCT MA; prehypertension clinic SBP -7.2 vs -2.6 placebo | moderate | [PMID:39148075] [PMID:41275513] [PMID:30006901] [PMID:26781281] [PMID:40546935] |
+| Heart failure (LVEF, NYHA) | MA subgroup; SR (11 studies, mostly low quality); small crossover RCT (n=14) | Possible benefit | LVEF +4.98% (CI 1.56-8.41); NYHA -0.40; SR found no significant pooled EF effect | low | [PMID:39148075] [PMID:35855073] [PMID:3888464] |
+| Fasting glucose / HbA1c / HOMA-IR | MAs of RCTs (34 RCTs; 25 RCTs; 9 RCTs in obesity; 5 RCTs in diabetes) | Decrease | FBG -5.90 mg/dL, HbA1c -0.21%, HOMA-IR -0.57; HbA1c -0.33% only in obesity | low | [PMID:41275513] [PMID:38755142] [PMID:39796489] [PMID:35769396] |
+| Triglycerides / total and LDL cholesterol | MAs of RCTs | Decrease | TG -14.42 mg/dL, TC -12.41, LDL -5.08 (34 RCTs); TG -18.3 (25 RCTs); no HDL effect | low | [PMID:41275513] [PMID:38755142] [PMID:32871172] |
+| CRP / MDA (inflammation, oxidative stress) | Dose-response MA of controlled trials | Decrease | CRP SMD -1.95; MDA SMD -1.17; no effect on TNF-a or IL-6 | low | [PMID:34584225] [PMID:41275513] |
+| Liver enzymes | MA of RCTs; RCT after liver transplant (n=169) | Decrease | AST -9.65 U/L, ALT -8.26 U/L; post-transplant lower AST, bilirubin, INR | low | [PMID:41275513] [PMID:41605371] |
+| Muscle cramps in cirrhosis | Crossover RCT (n=30 completers); SR of RCTs | Benefit | 2 g/d: 7 fewer cramps per fortnight, lower severity | low | [PMID:30136291] [PMID:39548657] |
+| Fatigue in decompensated cirrhosis | Open-label RCT (n=220) | No overall effect | FAS MD -1.25 (CI -3.55 to 1.05) | moderate | [PMID:42043864] |
+| Endurance / exercise performance | MAs (10 studies; 23 RCTs acute dose, three-level) | Small benefit | Endurance g 0.40 (CI 0.12-0.67); acute g 0.25 (CI 0.10-0.39), GRADE low/very low | low | [PMID:29546641] [PMID:40852891] |
+| Cognition | MA of 7 RCTs (n=402) | No effect | No significant change in cognitive scores | low | [PMID:40320621] [PMID:27835719] |
+| Dementia risk (diet/plasma taurine) | Prospective cohort (n=27,786; 25 y) | No association | Null HRs for all-cause dementia, AD, VaD | low | [PMID:41250277] |
+| MELAS stroke-like episodes | Open-label phase III (n=10, 9-12 g/d) | Benefit (uncontrolled) | Annual relapse rate 2.22 to 0.72; 60% completely free of episodes | very low | [PMID:29666206] [PMID:41999163] |
+| First-episode psychosis (adjunct) | Phase 2 RCT (n=121; 86 analysed) | Symptom benefit; no cognitive effect | BPRS improved (CI 1.8-8.5); MCCB composite null | low | [PMID:27835719] |
+| Intractable childhood epilepsy | Uncontrolled case series (n=25) | Mostly no effect | 1/25 seizure-free; 18/25 no effect | very low | [PMID:7039391] [PMID:23410665] |
+| Preterm infant growth | Cochrane SR (9 trials, n=189) | No growth effect | Fat absorption +4.0% of intake | low | [PMID:17943882] |
+| Human aging / lifespan | Cohort and cross-sectional biomarker studies; no human lifespan RCT | Not established | Taurine did not fall with age in 3 human cohorts; no age association in 137 men | very low | [PMID:37289866] [PMID:40472098] [PMID:41061678] |
+
 ** Dosing in trials
-- Trials often used 1–6 g/day for several weeks; acute exercise studies used single varied doses, not a validated chronic regimen [DOI:10.1111/sms.70123].
+- Range in cardiometabolic RCTs: 0.5-6 g/d for 5-365 days [PMID:38755142]. One meta-analysis found 1.5-3.0 g/d most effective. Courses of 8 weeks or more favored glucose and lipid effects; under 8 weeks favored BP and inflammation [PMID:41275513].
+- Blood pressure: 1.6 g/d for 12 weeks in prehypertension [PMID:26781281]; 2.4 g/d for 12 weeks in T2D [PMID:40546935]; 1-6 g/d across a BP meta-analysis [PMID:30006901].
+- Type 2 diabetes: 3 g/d for 8 weeks [PMID:32472292] [PMID:32861603]. In obesity, 3 g/d gave a larger HbA1c effect than under 3 g/d [PMID:39796489]. Heart-failure studies used 500 mg-6 g/d for 2-48 weeks [PMID:35855073].
+- Exercise: acute 1-6 g with no dose-response, possibly best about 1 h before exercise [PMID:40852891] [PMID:29546641]. The 50 mg/kg dose has been combined with caffeine [PMID:39948152].
+- Liver: 2 g/d for cramps [PMID:30136291]; 1 g/d for fatigue [PMID:42043864]; 2 g/d for 30 days after liver transplant [PMID:41605371].
+- MELAS: 9 or 12 g/d for 52 weeks [PMID:29666206]; 0.25 g/kg/day in early case reports [PMID:23257519].
+- Psychiatry: 4 g/d for 12 weeks as an adjunct in first-episode psychosis [PMID:27835719].
+- Pediatric epilepsy: 0.05-0.3 g/kg/day (case series) [PMID:7039391].
+- Ongoing: 3 g/d for 6 months in a phase II trial with HbA1c and PhenoAge outcomes [PMID:42201902].
+
 ** Safety & adverse effects
-- Short trials generally tolerated; long-term high-dose safety and interactions less well characterized.
+- Observed Safe Level (OSL): the evidence for no adverse effects is strong up to 3 g/d of supplemental taurine. Higher intakes have been tested without harm but are not enough to support long-term safety [PMID:18325648].
+- Meta-analyses found no significant adverse effects versus control (20 and 25 RCTs) [PMID:39148075] [PMID:38755142]. A 2026 review concluded that 1-6 g/d was used in human trials without adverse effects [PMID:42300946].
+- High dose: 9-12 g/d for 52 weeks in MELAS gave no severe adverse events [PMID:29666206].
+- Cirrhosis: mild adverse events in 11.8% on 1 g/d [PMID:42043864]. None were reported with 2 g/d for cramps [PMID:30136291].
+- Pediatric epilepsy series: drowsiness and ataxia in 4 of 25 children on 0.05-0.3 g/kg plus anticonvulsants [PMID:7039391].
+- Energy drinks: a single high-volume energy drink raised SBP and prolonged QTc in young adults. Caffeine, but not taurine or glucuronolactone, raised BP, and the effects could not be attributed to taurine alone [PMID:30805607]. In isolated rabbit hearts, taurine shortened repolarization and increased ventricular arrhythmias. This is preclinical only [PMID:35304782]. The ISSN credits caffeine and carbohydrate, not taurine, as the main ergogenic ingredients [PMID:36862943].
+- Evidence-quality caveat: a 2017 heart-failure RCT (Ahmadian et al.) was retracted in 2026 and should not be counted [PMID:28118062].
+
 ** Contraindications
-- No established contraindications; caution in significant kidney disease due to limited dose safety evidence.
+- No absolute contraindications were identified in the sources reviewed.
+- Advanced chronic kidney disease: the kidney regulates taurine body pool and excretion [PMID:20804616] [PMID:22580723]. Safety data above 3 g/d are limited [PMID:18325648]. This is a precautionary caution rather than a proven harm.
+- Children and adolescents taking high-dose energy drinks: the concern is caffeine-driven BP/QTc effects of the drinks, not taurine per se [PMID:30805607].
+- Seizure disorders on sedating anticonvulsants: drowsiness and ataxia were reported in children [PMID:7039391].
+
 ** Interactions
-- Potential additive BP reduction with antihypertensives is plausible; evidence insufficient for defined interaction.
-- Structured high-priority interactions are represented in interactions.json; absence of an edge is not proof of no interaction.
+*** Drugs
+- Antihypertensives: taurine lowers BP by about 3-4 mmHg systolic in meta-analyses [PMID:39148075] [PMID:41275513], so effects may be additive. No direct drug-interaction trial exists.
+- Antidiabetics (including metformin): taurine modestly lowers FBG, HbA1c and HOMA-IR [PMID:41275513] [PMID:39796489]. In a diabetic mouse model, taurine improved metformin plus DPP4-inhibitor therapy [PMID:40410431]. Monitor glucose; no human interaction trial.
+- Vigabatrin: lowered plasma taurine by 67% in animals, and taurine was low or undetectable in 5 of 6 treated infants. Taurine prevented the drug's retinal phototoxicity in rodents [PMID:19194884]. Case reports describe partial ERG reversal with taurine [PMID:27104484].
+- Anticonvulsants and sedatives: GABA-A and glycine-receptor agonism [PMID:30892104] [PMID:11559772]. Drowsiness and ataxia were reported in children on combined therapy [PMID:7039391].
+- Antipsychotics: adjunctive 4 g/d improved BPRS in first-episode psychosis with no safety signal [PMID:27835719].
+- Antiplatelet drugs (aspirin): taurine inhibits platelet aggregation (review) [PMID:35160118]. Additive bleeding risk is theoretical and not studied clinically.
+- Oral iron (ferrous sulfate): adding 1 g/d taurine gave additive Hb and ferritin gains in iron-deficiency anaemia (RCT, n=51) [PMID:12431243].
+- Lithium: no PubMed-indexed human or animal study of a taurine-lithium clearance interaction was found. This claim is unverified.
+*** Other supplements
+- Beta Alanine: it competes with taurine at TauT [PMID:30612046] [PMID:40789850] and lowered muscle taurine in mice [PMID:27444300]. In humans, 6.4 g/d for 24 weeks did not change muscle taurine [PMID:30552505], and a meta-analysis found no effect on muscle taurine [PMID:30980076].
+- Caffeine: often co-ingested in energy drinks. In a network meta-analysis, caffeine plus taurine improved anaerobic capacity (g 0.46) and reaction time (g 0.75) more than either alone [PMID:41032459]. Caffeine plus taurine pills lowered heart rate and raised mean arterial pressure [PMID:16699827]. A review argues taurine may blunt caffeine's cardiovascular effects [PMID:24615238].
+- Creatine: in a small crossover trial in heat (n=12), taurine plus creatine improved time to exhaustion vs placebo but not repeated sprints [PMID:39972259].
+- Magnesium: taurine 3 g/d or magnesium 340 mg/d each improved endothelial progenitor cell function and oxidative stress in healthy men [PMID:27412799].
+- N-Acetyl-L-Cysteine (NAC): NAC plus taurine has been used in CKD (open-label RCT, n=69; retrospective study, n=450). The retrospective study reported lower uACR [PMID:35598122] [PMID:42730465].
+- B Complex (B6/B9/B12): in astrocytes, taurine raised glutathione only when B9 was adequate. A taurine plus B-vitamin blend improved motivated behavior in an RCT (n=44) [PMID:41889717].
+- Vitamin E: a taurine/diltiazem/vitamin E formula slowed visual-field loss in retinitis pigmentosa (n=62) [PMID:12322788].
+- CoQ10: compared head-to-head (not combined) in adolescent athletes. CoQ10 lowered MDA and cortisol more, and taurine raised IL-10 more [PMID:42514298].
+- Glycine: both are agonists at glycine receptors [PMID:11559772]. Additive inhibitory effects are theoretical.
+*** Conditions
+- MELAS (m.3243A>G): high-dose taurine is supported by an open-label phase III trial and a Japanese clinical review [PMID:29666206] [PMID:39370837]. The 2026 international consensus nonetheless judged supplement efficacy unproven [PMID:41999163].
+- Heart failure: may improve NYHA class and LVEF as an adjunct. The evidence is low quality [PMID:39148075] [PMID:35855073].
+- Cirrhosis: reduces cramps [PMID:30136291]. It did not improve fatigue overall [PMID:42043864].
+- Chronic kidney disease: low urine taurine marks kidney-allograft injury [PMID:39167563]. A mitochondrial-nephropathy dialysis case improved on taurine [PMID:40237914]. Dosing in advanced CKD is unstudied [PMID:22580723].
+- Vegan diet: lower plasma taurine [PMID:3354491].
+*** Lab-test interference
+- No assay artifact was identified. Supplementation raises plasma taurine itself [PMID:26781281] [PMID:30136291], and levels peak about 1.5 h after a dose [PMID:22331997]. Timing relative to the last dose therefore matters when taurine is measured as a putative aging biomarker [PMID:40472098].
+- Physiological shifts that may show on routine labs are lower glucose/HbA1c, lipids, AST/ALT and CRP [PMID:41275513].
+
 ** Genotype notes
-- No cited pharmacogenomic/nutrigenomic source was identified for a supplement-specific genotype effect; no genotype claim made.
+- SLC6A6 (TauT) biallelic loss-of-function variants cause early-onset retinal dystrophy with low plasma taurine (-31.7 umol/L vs carriers). Affected patients may be candidates for investigational oral taurine [PMID:41343195].
+- A 2026 GWAS meta-analysis (n=36,490) found 8 loci for circulating taurine. Mendelian randomization suggested links to hypertension, cancers and brain phenotypes [PMID:42834262].
+- SLC6A6 lies at a dilated-cardiomyopathy GWAS locus [PMID:35855073].
+- MELAS m.3243A>G (mitochondrial DNA): see Conditions [PMID:29666206].
+
 ** Latest research
-- 2025-08: 2025 acute-dose review pooled 23 RCTs (308 participants), effect g=0.25; task-specific effects and heterogeneity mean clinical significance uncertain [DOI:10.1111/sms.70123].
+- [2026-10] Cardiometabolic MA (34 RCTs): FBG -5.90 mg/dL, HbA1c -0.21%, SBP -4.38 mmHg, CRP SMD -1.26; 1.5-3 g/d appeared best [PMID:41275513].
+- [2026-10] GWAS meta-analysis of circulating taurine (n=36,490): 8 loci; phenome-wide MR signals [PMID:42834262].
+- [2026-08] Retrospective NAC plus taurine study in CKD (n=450): uACR -8.6% vs +11.3% with standard care [PMID:42730465].
+- [2026-07] Food Funct review: 1-6 g/d used without adverse effects; calls taurine a healthspan modulator, which is not yet proven in humans [PMID:42300946].
+- [2026-07] RCT in obese men (n=44): exercise plus 3 g/d taurine gave the largest falls in asprosin and body fat [PMID:42514394].
+- [2026-05] Phase II protocol: 3 g/d for 6 months with HbA1c, PhenoAge and BP outcomes (n=80 planned) [PMID:42201902].
+- [2026-05] Open-label RCT in decompensated cirrhosis (n=220): no overall effect on fatigue [PMID:42043864].
+- [2026-04] International MELAS consensus: L-taurine efficacy remains unproven [PMID:41999163].
+- [2026-04] Liver-transplant RCT (n=169): 2 g/d improved AST, bilirubin, INR and length of stay [PMID:41605371].
+- [2026-03] Long-COVID SR/MA (27 trials, n=1030): taurine improved metabolic and inflammatory markers; plasma taurine lower in PASC (SMD -0.35) [PMID:41803812].
+- [2026-03] Taurine plus B6/B9/B12 RCT (n=44): improved effortful motivation [PMID:41889717].
+- [2026-01] SLC6A6 retinopathy series: loss of taurine transport, low plasma taurine [PMID:41343195].
+- [2025-11] Malmo cohort (n=27,786): no link between taurine intake or plasma level and dementia [PMID:41250277].
+- [2025-10] Aging Cell (n=137 men, aged 20-93): circulating taurine was not associated with age, muscle or mitochondrial function [PMID:41061678].
+- [2025-10] Caffeine plus taurine network MA: combination best for anaerobic capacity and reaction time [PMID:41032459].
+- [2025-09] Acute-dose exercise MA (23 RCTs): g 0.25, GRADE low to very low [PMID:40852891].
+- [2025-08] Cryo-EM structures of TauT with taurine, beta-alanine and GABA [PMID:40789850].
+- [2025-06] Science (Fernandez et al.): taurine rose or stayed stable with age in 3 human cohorts, monkeys and mice, so it is not a universal aging biomarker [PMID:40472098].
+- [2025-06] Cognition MA (7 RCTs): no effect [PMID:40320621].
+- [2025-05] T2D RCT (n=165, 2.4 g/d): lower SBP, better vasodilation and PWV [PMID:40546935].
+- [2024-12] Obesity MA (9 RCTs): lower TG, TC and insulin; HbA1c effect only in obesity [PMID:39796489].
+- [2024-11] SR of cirrhosis-cramp RCTs ranks taurine among effective options [PMID:39548657].
+- [2024-10] Review: high-dose taurine for MELAS [PMID:39370837].
+
 ** Open questions
-- Which formulations, populations, and durations produce clinically meaningful outcomes rather than biomarker-only changes?
-- Are there long-term benefits or harms beyond the relatively short human trials available?
+- Does taurine supplementation slow any aging outcome in humans? The Singh 2023 premise of age-related decline was not replicated in human cohorts [PMID:37289866] [PMID:40472098] [PMID:41061678].
+- Hard outcomes (CV events, mortality) are untested. Most RCTs are small, short and use surrogate markers [PMID:35855073] [PMID:41275513].
+- Long-term safety above 3 g/d in healthy adults [PMID:18325648].
+- MELAS efficacy needs a controlled trial [PMID:41999163].
+- Clinical relevance of beta-alanine competition at TauT in humans [PMID:30980076].
+- Dosing in CKD, and whether interactions with lithium or antihypertensives are real (no direct data found).
+
 ** Sources
-- [DOI:10.1111/sms.70123] [URL:https://pmc.ncbi.nlm.nih.gov/articles/PMC12178789/]
+1. Singh P et al. Taurine deficiency as a driver of aging. Science. 2023. PMID:37289866 DOI:10.1126/science.abn9257
+2. Fernandez ME et al. Is taurine an aging biomarker? Science. 2025. PMID:40472098 DOI:10.1126/science.adl2116
+3. Marcangeli V et al. Experimental Evidence Against Taurine Deficiency as a Driver of Aging in Humans. Aging Cell. 2025. PMID:41061678 DOI:10.1111/acel.70191
+4. Chu MHM et al. Taurine supplementation, metabolic health and biological aging in healthcare workers: phase II RCT protocol. PLoS One. 2026. PMID:42201902 DOI:10.1371/journal.pone.0350389
+5. Zhang N et al. Taurine Intake, Plasma Taurine Concentration, and Dementia Risk: Malmo Diet and Cancer Study. J Neurochem. 2025. PMID:41250277 DOI:10.1111/jnc.70298
+6. Zhou S et al. Genome-wide meta-analysis of circulating taurine. Funct Integr Genomics. 2026. PMID:42834262 DOI:10.1007/s10142-026-02067-9
+7. Tzang CC et al. Cardiovascular benefits of taurine: SR and MA. Nutr J. 2024. PMID:39148075 DOI:10.1186/s12937-024-00995-5
+8. Waldron M et al. Oral Taurine on Resting Blood Pressure in Humans: MA. Curr Hypertens Rep. 2018. PMID:30006901 DOI:10.1007/s11906-018-0881-z
+9. Nie Z et al. Oral Taurine Supplementation on Cardiometabolic Risk Factors: MA of RCTs. Nutr Rev. 2026. PMID:41275513 DOI:10.1093/nutrit/nuaf220
+10. Guan L, Miao P. Taurine on obesity, blood pressure and lipid profile: MA of RCTs. Eur J Pharmacol. 2020. PMID:32871172 DOI:10.1016/j.ejphar.2020.173533
+11. Sun Q et al. Taurine Lowers BP and Improves Vascular Function in Prehypertension: RCT. Hypertension. 2016. PMID:26781281 DOI:10.1161/HYPERTENSIONAHA.115.06624
+12. Li Y et al. Taurine ameliorates BP and vascular function in type 2 diabetes: RCT. iScience. 2025. PMID:40546935 DOI:10.1016/j.isci.2025.112719
+13. McGurk KA et al. Taurine in dilated cardiomyopathy and heart failure: SR. Wellcome Open Res. 2022. PMID:35855073 DOI:10.12688/wellcomeopenres.17505.3
+14. Azuma J et al. Taurine in congestive heart failure: double-blind crossover trial. Clin Cardiol. 1985. PMID:3888464 DOI:10.1002/clc.4960080507
+15. Ahmadian M et al. Taurine supplementation in heart failure (RETRACTED 2026). J Diet Suppl. 2017. PMID:28118062 DOI:10.1080/19390211.2016.1267059
+16. Katakawa M et al. Taurine and magnesium supplementation and endothelial progenitor cells in healthy men and SHRs. Hypertens Res. 2016. PMID:27412799 DOI:10.1038/hr.2016.86
+17. Sun Q et al. Long-term taurine on lipid and glycaemic profile in overweight/obesity: SR and MA. Nutrients. 2024. PMID:39796489 DOI:10.3390/nu17010055
+18. Tzang CC et al. Taurine reduces the risk for metabolic syndrome: SR and MA of RCTs. Nutr Diabetes. 2024. PMID:38755142 DOI:10.1038/s41387-024-00289-z
+19. Tao X et al. Taurine supplementation on diabetes mellitus in humans: SR and MA. Food Chem (Oxf). 2022. PMID:35769396 DOI:10.1016/j.fochms.2022.100106
+20. Maleki V et al. Taurine on glycemic control and lipids in T2DM: RCT. Amino Acids. 2020. PMID:32472292 DOI:10.1007/s00726-020-02859-8
+21. Esmaeili F et al. Taurine on metabolic profiles, pentosidine and methylglyoxal in T2DM: RCT. Can J Diabetes. 2021. PMID:32861603 DOI:10.1016/j.jcjd.2020.05.004
+22. Faghfouri AH et al. Inflammatory and oxidative stress biomarkers after taurine: dose-response MA. Eur J Clin Nutr. 2022. PMID:34584225 DOI:10.1038/s41430-021-01010-4
+23. Waldron M et al. Oral taurine dose and endurance performance: MA. Sports Med. 2018. PMID:29546641 DOI:10.1007/s40279-018-0896-2
+24. Deng H et al. Does One Shot Work? Acute single taurine dose and exercise performance: MA. Scand J Med Sci Sports. 2025. PMID:40852891 DOI:10.1111/sms.70123
+25. Deng H et al. Caffeine and taurine: SR and network MA. J Int Soc Sports Nutr. 2025. PMID:41032459 DOI:10.1080/15502783.2025.2566371
+26. Yu P et al. Taurine combined with creatine on repeated sprinting in heat: crossover RCT. Sports Health. 2025. PMID:39972259 DOI:10.1177/19417381251320095
+27. Liu J et al. Taurine combined with caffeine on repeated sprint and cognition in hypoxia: RCT. Sci Rep. 2025. PMID:39948152 DOI:10.1038/s41598-025-89680-z
+28. Cao Q et al. Taurine supplementation on cognitive function: SR and MA of RCTs. Int J Food Sci Nutr. 2025. PMID:40320621 DOI:10.1080/09637486.2025.2499044
+29. Vidot H et al. Oral taurine vs placebo for muscle cramps in chronic liver disease: RCT. Aliment Pharmacol Ther. 2018. PMID:30136291 DOI:10.1111/apt.14950
+30. Roberts AT et al. Management of Muscle Cramps in Cirrhosis: SR of RCTs. Aliment Pharmacol Ther. 2025. PMID:39548657 DOI:10.1111/apt.18398
+31. Sasidharan S et al. RCT of L-taurine for fatigue in decompensated cirrhosis. Hepatol Commun. 2026. PMID:42043864 DOI:10.1097/HC9.0000000000000938
+32. Mottaghi S et al. Taurine and graft function after liver transplantation: RCT. Clin Nutr ESPEN. 2026. PMID:41605371 DOI:10.1016/j.clnesp.2026.102920
+33. Ohsawa Y et al. Taurine for prevention of stroke-like episodes in MELAS: phase III trial. J Neurol Neurosurg Psychiatry. 2019. PMID:29666206 DOI:10.1136/jnnp-2018-317964
+34. Rikimaru M et al. Taurine prevents stroke-like episodes in MELAS. Intern Med. 2012. PMID:23257519 DOI:10.2169/internalmedicine.51.7529
+35. Mancuso M et al. Diagnostic Criteria and Management of MELAS: Consensus Statements. Eur J Neurol. 2026. PMID:41999163 DOI:10.1111/ene.70588
+36. Sunada Y. Taurine for Mitochondrial Diseases (Japanese review). Brain Nerve. 2024. PMID:39370837 DOI:10.11477/mf.1416202748
+37. Oja SS, Saransaari P. Taurine and epilepsy. Epilepsy Res. 2013. PMID:23410665 DOI:10.1016/j.eplepsyres.2013.01.010
+38. Fukuyama Y, Ochiai Y. Taurine for intractable childhood epilepsies. Brain Dev. 1982. PMID:7039391 DOI:10.1016/s0387-7604(82)80103-4
+39. Ochoa-de la Paz L et al. Taurine and GABA receptors. Expert Rev Neurother. 2019. PMID:30892104 DOI:10.1080/14737175.2019.1593827
+40. De Saint Jan D et al. Activation of human alpha1/alpha2 glycine receptors by taurine and GABA. J Physiol. 2001. PMID:11559772 DOI:10.1111/j.1469-7793.2001.t01-1-00741.x
+41. O'Donnell CP et al. Adjunctive Taurine in First-Episode Psychosis: phase 2 RCT. J Clin Psychiatry. 2016. PMID:27835719 DOI:10.4088/JCP.15m10185
+42. Basrai M et al. Energy Drinks Induce Acute Cardiovascular and Metabolic Changes: RCT. J Nutr. 2019. PMID:30805607 DOI:10.1093/jn/nxy303
+43. Jagim AR et al. ISSN position stand: energy drinks and energy shots. J Int Soc Sports Nutr. 2023. PMID:36862943 DOI:10.1080/15502783.2023.2171314
+44. Schaffer SW et al. Taurine and potential interactions with caffeine on cardiovascular function. Amino Acids. 2014. PMID:24615238 DOI:10.1007/s00726-014-1708-0
+45. Ellermann C et al. Caffeine and taurine facilitate ventricular arrhythmias in a whole-heart model. J Cardiovasc Electrophysiol. 2022. PMID:35304782 DOI:10.1111/jce.15458
+46. Bichler A et al. Caffeine plus taurine on short-term memory, heart rate and MAP. Amino Acids. 2006. PMID:16699827 DOI:10.1007/s00726-005-0302-x
+47. Shao A, Hathcock JN. Risk assessment for taurine, L-glutamine and L-arginine. Regul Toxicol Pharmacol. 2008. PMID:18325648 DOI:10.1016/j.yrtph.2008.01.004
+48. Saunders B et al. 24-Week beta-alanine ingestion does not affect muscle taurine. Eur J Nutr. 2020. PMID:30552505 DOI:10.1007/s00394-018-1881-0
+49. Dolan E et al. Systematic risk assessment and MA of oral beta-alanine. Adv Nutr. 2019. PMID:30980076 DOI:10.1093/advances/nmy115
+50. Richter M et al. Competitive inhibitors of the human taurine transporter TauT. Pharmacol Rep. 2019. PMID:30612046 DOI:10.1016/j.pharep.2018.10.005
+51. Horvath DM et al. Taurine and beta-alanine supplementation, TauT and fatigue in mdx mice. Amino Acids. 2016. PMID:27444300 DOI:10.1007/s00726-016-2292-2
+52. Du B et al. Molecular basis of human taurine transporter uptake and inhibition. Nat Commun. 2025. PMID:40789850 DOI:10.1038/s41467-025-62857-w
+53. Ghandforoush-Sattari M et al. Pharmacokinetics of oral taurine in healthy volunteers. J Amino Acids. 2010. PMID:22331997 DOI:10.4061/2010/346237
+54. Laidlaw SA et al. Plasma and urine taurine levels in vegans. Am J Clin Nutr. 1988. PMID:3354491 DOI:10.1093/ajcn/47.4.660
+55. Verner A et al. Taurine supplementation in preterm or low birth weight infants. Cochrane Database Syst Rev. 2007. PMID:17943882 DOI:10.1002/14651858.CD006072.pub2
+56. Wang K et al. Taurine for senescence and inflammation in long COVID: SR and MA. BMC Infect Dis. 2026. PMID:41803812 DOI:10.1186/s12879-026-13009-y
+57. Jammoul F et al. Taurine deficiency causes vigabatrin-induced retinal phototoxicity. Ann Neurol. 2009. PMID:19194884 DOI:10.1002/ana.21526
+58. Horvath GA et al. Eye findings on vigabatrin and taurine in SSADH deficiency. Neuropediatrics. 2016. PMID:27104484 DOI:10.1055/s-0036-1583183
+59. Ullah M et al. Early-Onset Retinopathy with SLC6A6 Variants Impairing Taurine Transport. JAMA Ophthalmol. 2026. PMID:41343195 DOI:10.1001/jamaophthalmol.2025.4875
+60. Jong CJ et al. Role of Taurine in Mitochondria Health (review). Molecules. 2021. PMID:34443494 DOI:10.3390/molecules26164913
+61. Schaffer S, Kim HW. Effects and Mechanisms of Taurine as a Therapeutic Agent. Biomol Ther. 2018. PMID:29631391 DOI:10.4062/biomolther.2017.251
+62. Rosca AE et al. Taurine and derivatives: inhibitory effect on platelet function. J Clin Med. 2022. PMID:35160118 DOI:10.3390/jcm11030666
+63. Beine BJ et al. Taurine supplementation at the crossroads of metabolism, inflammation and aging (review). Food Funct. 2026. PMID:42300946 DOI:10.1039/d6fo01808d
+64. Anlacan VM et al. Taurine plus B6/B9/B12 blend and motivated behaviors: RCT. Front Nutr. 2026. PMID:41889717 DOI:10.3389/fnut.2026.1711478
+65. Saedmocheshi S et al. Aerobic-resistance training plus taurine on asprosin and spexin in obese men: RCT. Nutrients. 2026. PMID:42514394 DOI:10.3390/nu18142325
+66. Alsinani Y et al. CoQ10 vs taurine in adolescent soccer players: RCT. Nutrients. 2026. PMID:42514298 DOI:10.3390/nu18142229
+67. Xiao T et al. Taurine with metformin and DPP4 inhibitor in T2DM (metabolomics and mouse model). Sci Rep. 2025. PMID:40410431 DOI:10.1038/s41598-025-03215-0
+68. Han X, Chesney RW. The role of taurine in renal disorders. Amino Acids. 2012. PMID:22580723 DOI:10.1007/s00726-012-1314-y
+69. Chesney RW et al. Taurine and the renal system. J Biomed Sci. 2010. PMID:20804616 DOI:10.1186/1423-0127-17-S1-S4
+70. Rinaldi A et al. Taurine Deficiency Is a Hallmark of Injured Kidney Allografts. Transplantation. 2024. PMID:39167563 DOI:10.1097/TP.0000000000004987
+71. Yoshida R et al. Taurine in a hemodialysis patient with mitochondrial disease: case report. CEN Case Rep. 2025. PMID:40237914 DOI:10.1007/s13730-025-00992-5
+72. Kumari R et al. NAC plus taurine (Nefrosave) in CKD with diabetes/hypertension: retrospective study. Cardiol Res. 2026. PMID:42730465 DOI:10.14740/cr2234
+73. Sengupta P et al. Low-protein diet with taurine plus NAC in non-diabetic CKD: open-label RCT. J Assoc Physicians India. 2022. PMID:35598122
+74. Sirdah MM et al. Taurine added to iron in iron-deficiency anaemia: RCT. Eur J Haematol. 2002. PMID:12431243 DOI:10.1034/j.1600-0609.2002.02722.x
+75. Pasantes-Morales H et al. Taurine, diltiazem and vitamin E in retinitis pigmentosa. Metab Brain Dis. 2002. PMID:12322788 DOI:10.1023/a:1019926122125

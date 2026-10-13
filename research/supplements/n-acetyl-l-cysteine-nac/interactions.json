@@ -5,38 +5,354 @@
   "aliases": [
     "N-acetylcysteine",
     "NAC",
-    "acetylcysteine"
+    "acetylcysteine",
+    "N-acetyl cysteine",
+    "Acetadote",
+    "GlyNAC (with glycine)"
   ],
   "category": "amino-acid",
   "rx_status": "otc",
   "evidence_certainty_overall": "low",
   "edges": [
     {
-      "with": "nitroglycerin",
+      "with": "nitroglycerin / organic nitrates",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "NAC is a sulfhydryl donor. It potentiates nitrate vasodilation (coronary and temporal artery) and the haemodynamic effects of isosorbide dinitrate, which can cause headache and hypotension.",
+      "evidence": "Crossover study in volunteers (headache score 3 vs 1); coronary and heart-failure studies; RCT in unstable angina (n=200) where NAC plus transdermal nitroglycerin caused intolerable headache in 35%.",
+      "citations": [
+        "PMID:1505148",
+        "PMID:3079676",
+        "PMID:8205670",
+        "PMID:9120179"
+      ]
+    },
+    {
+      "with": "activated charcoal",
       "with_kind": "drug",
       "kind": "monitor",
       "severity": "moderate",
-      "mechanism": "NAC can enhance nitrate vasodilatory effects and headache/hypotension.",
-      "evidence": "Drug interaction described in acetylcysteine pharmacology sources; cautious monitoring.",
+      "mechanism": "Charcoal adsorbs NAC and lowers oral NAC absorption (peak -29%, AUC -39%).",
+      "evidence": "Crossover study in 19 subjects; PK review; FDA label for acetylcysteine solution.",
       "citations": [
-        "PMID:30855987"
+        "PMID:3663288",
+        "PMID:2029805",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5558a5f5-e821-473b-7d8a-5d33d09f0586"
+      ]
+    },
+    {
+      "with": "anticoagulants (warfarin, heparins)",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "NAC lowers the activity of factors II, VII, IX and X (PT/INR up 15-30%) and inhibits platelet aggregation. Bleeding risk may be additive, and NAC can also confound INR monitoring.",
+      "evidence": "RCT in aortic surgery with IV NAC (PT -33%, ADP aggregation down, blood loss linked to low PT); narrative review of 19 studies. No oral-supplement interaction study exists.",
+      "citations": [
+        "PMID:16607076",
+        "PMID:39878294"
+      ]
+    },
+    {
+      "with": "Aspirin",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "NAC inhibited thrombin- and ADP-induced platelet aggregation in vitro at concentrations reachable orally, so antiplatelet effects may be additive.",
+      "evidence": "In vitro study in type-2 diabetes blood plus a surgical RCT; no clinical interaction study; very low certainty.",
+      "citations": [
+        "PMID:21600014",
+        "PMID:16607076"
+      ]
+    },
+    {
+      "with": "prednisone + azathioprine",
+      "with_kind": "drug",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "In IPF, the triple regimen of prednisone, azathioprine and NAC increased death (8 vs 1) and hospitalisation (23 vs 7) compared with placebo.",
+      "evidence": "PANTHER-IPF RCT; the triple-therapy arm was stopped early.",
+      "citations": [
+        "PMID:22607134"
+      ]
+    },
+    {
+      "with": "acetaminophen (paracetamol) overdose",
+      "with_kind": "drug",
+      "kind": "synergy",
+      "severity": "major",
+      "mechanism": "NAC replenishes glutathione to detoxify NAPQI and is the standard antidote. Overdose needs protocol-based medical dosing, not supplement doses.",
+      "evidence": "Cochrane review, RCTs of regimens (SARPO non-inferior 12-h regimen), FDA labels.",
+      "citations": [
+        "PMID:29473717",
+        "PMID:40414507",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=472f158a-5ab9-4308-8e49-1116e6ea3d39"
       ]
     },
     {
       "with": "Metformin ER",
       "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Both are used as insulin sensitizers in PCOS. Head-to-head MAs show similar pregnancy rates, with NAC lowering BMI and testosterone. No data exist on combined use, so effects may overlap.",
+      "evidence": "MAs of RCTs comparing NAC vs metformin; no combination interaction study.",
+      "citations": [
+        "PMID:31749393",
+        "PMID:34592079"
+      ]
+    },
+    {
+      "with": "Glycine",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Glycine and cysteine (from NAC) are both glutathione precursors. GlyNAC corrected GSH deficiency and oxidative stress in older adults in Sekhar trials. A larger 2-week RCT missed its primary GSH end point.",
+      "evidence": "Small RCT (n=24) and pilot; RCT (n=114) null on primary outcome; very low certainty.",
+      "citations": [
+        "PMID:35975308",
+        "PMID:33783984",
+        "PMID:35821844"
+      ]
+    },
+    {
+      "with": "Vitamin E",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Combined antioxidant use (NAC or vitamin E) reduced ROS/p53 and accelerated lung tumour progression in mouse models.",
+      "evidence": "Preclinical (mouse) only; relevance to humans is unknown.",
+      "citations": [
+        "PMID:24477002"
+      ]
+    },
+    {
+      "with": "Vitamin C",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Adding ascorbic acid to NAC gave no additional prevention of contrast-induced nephropathy.",
+      "evidence": "MA of 6 RCTs (n=919).",
+      "citations": [
+        "PMID:28452187"
+      ]
+    },
+    {
+      "with": "NAC, Ginger, Curcumin",
+      "with_kind": "supplement",
       "kind": "caution",
       "severity": "minor",
-      "mechanism": "No established direct interaction; redox/energy effects are not enough to infer a clinical interaction.",
-      "evidence": "No clinical pair evidence; NAC trial review covers limited heterogeneous use.",
+      "mechanism": "The combined product contains NAC, so taking it with standalone NAC duplicates the NAC dose. GI adverse events rose with dose (more GI events at 2,400 mg/d).",
+      "evidence": "Dose-related side-effect trend in an MA; youth RCT GI events 63/98 vs 37/94.",
       "citations": [
-        "PMID:42473447"
+        "PMID:28102488",
+        "PMID:39910268"
+      ]
+    },
+    {
+      "with": "asthma / bronchospasm",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Inhaled acetylcysteine can trigger bronchospasm. Asthma/atopy raises the risk of anaphylactoid reactions to IV NAC.",
+      "evidence": "FDA labels (inhalation solution, Acetadote); systematic review of adverse reactions.",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5558a5f5-e821-473b-7d8a-5d33d09f0586",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=472f158a-5ab9-4308-8e49-1116e6ea3d39",
+        "PMID:19280424"
+      ]
+    },
+    {
+      "with": "prior anaphylactoid reaction to acetylcysteine",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Non-IgE histamine-mediated reactions (rash, angioedema, bronchospasm, hypotension) occurred in 8.2% of IV courses; anaphylaxis 0.1-0.2%.",
+      "evidence": "Large Canadian cohort (6,455 courses); FDA label.",
+      "citations": [
+        "PMID:29423816",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=472f158a-5ab9-4308-8e49-1116e6ea3d39"
+      ]
+    },
+    {
+      "with": "idiopathic pulmonary fibrosis",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "NAC monotherapy did not preserve FVC. Any benefit may be confined to TOLLIP rs3750920 TT carriers.",
+      "evidence": "PANTHER RCT (n=264); post hoc pharmacogenetic analysis.",
+      "citations": [
+        "PMID:24836309",
+        "PMID:26331942"
+      ]
+    },
+    {
+      "with": "TOLLIP rs3750920",
+      "with_kind": "genotype",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "In IPF, NAC was associated with benefit in TT carriers (HR 0.14) and a trend toward harm in CC carriers (HR 3.23).",
+      "evidence": "Post hoc PANTHER analysis replicated in an independent cohort; prospective PRECISIONS trial under way.",
+      "citations": [
+        "PMID:26331942",
+        "PMID:36514019"
+      ]
+    },
+    {
+      "with": "lung cancer or high lung-cancer risk (smokers)",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Antioxidant NAC accelerated lung-tumour progression and induced adenocarcinoma in aged or JunD-deficient mice.",
+      "evidence": "Preclinical only; no human outcome data.",
+      "citations": [
+        "PMID:24477002",
+        "PMID:31578304"
+      ]
+    },
+    {
+      "with": "endurance/resistance training",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "NAC blunted redox-sensitive signalling (mTOR/p70S6K/p38) and delayed strength recovery after eccentric exercise. It does not improve performance.",
+      "evidence": "Crossover RCT (n=10); MA of 7 studies (+0.29%, NS).",
+      "citations": [
+        "PMID:23719546",
+        "PMID:28102488"
+      ]
+    },
+    {
+      "with": "bleeding disorders / major surgery",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Anticoagulant and platelet-inhibiting effects of NAC; low PT values were associated with greater blood loss.",
+      "evidence": "RCT in abdominal aortic aneurysm repair with IV NAC.",
+      "citations": [
+        "PMID:16607076"
+      ]
+    },
+    {
+      "with": "serum creatinine (enzymatic/non-Jaffe)",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "moderate",
+      "mechanism": "NAC falsely lowers creatinine without changing cystatin C, more with non-Jaffe assays and IV dosing. This can mimic renoprotection.",
+      "evidence": "SR of 6 studies (n=199): WMD -3.24 umol/L (non-Jaffe), -31.10 umol/L (IV); Trinder assay study.",
+      "citations": [
+        "PMID:33615065",
+        "PMID:26500003"
+      ]
+    },
+    {
+      "with": "Trinder-based assays (triglycerides, cholesterol, uric acid, HDL/LDL-C)",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "NAC inhibits the peroxidase (Trinder) reaction and gives falsely low results. Inhibition of >=10% occurred at 570-2,900 mg/L, above concentrations expected with therapy.",
+      "evidence": "In vitro study on Roche cobas assays plus a retrospective chart review.",
+      "citations": [
+        "PMID:26500003"
+      ]
+    },
+    {
+      "with": "PT/INR",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "moderate",
+      "mechanism": "NAC raises PT/INR by 15-30% (lower factor II/VII/IX/X activity plus an in vitro effect over time), independent of liver injury.",
+      "evidence": "Narrative review of 19 studies; in vitro studies.",
+      "citations": [
+        "PMID:39878294",
+        "PMID:34549665",
+        "PMID:40663728"
       ]
     }
   ],
   "citations": [
-    "URL:https://www.fda.gov/drugs",
-    "PMID:30855987",
-    "PMID:42473447"
+    "PMID:1505148",
+    "PMID:3079676",
+    "PMID:8205670",
+    "PMID:9120179",
+    "PMID:3663288",
+    "PMID:2029805",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5558a5f5-e821-473b-7d8a-5d33d09f0586",
+    "PMID:16607076",
+    "PMID:39878294",
+    "PMID:21600014",
+    "PMID:22607134",
+    "PMID:29473717",
+    "PMID:40414507",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=472f158a-5ab9-4308-8e49-1116e6ea3d39",
+    "PMID:31749393",
+    "PMID:34592079",
+    "PMID:35975308",
+    "PMID:33783984",
+    "PMID:35821844",
+    "PMID:24477002",
+    "PMID:28452187",
+    "PMID:28102488",
+    "PMID:39910268",
+    "PMID:19280424",
+    "PMID:29423816",
+    "PMID:24836309",
+    "PMID:26331942",
+    "PMID:36514019",
+    "PMID:31578304",
+    "PMID:23719546",
+    "PMID:33615065",
+    "PMID:26500003",
+    "PMID:34549665",
+    "PMID:40663728",
+    "PMID:34171332",
+    "URL:https://www.fda.gov/food/hfp-constituent-updates/fda-issues-response-two-citizen-petitions-nac-dietary-supplements",
+    "PMID:39430194",
+    "PMID:34587244",
+    "PMID:35268089",
+    "PMID:39493366",
+    "PMID:39556483",
+    "PMID:39376972",
+    "PMID:40013897",
+    "PMID:42473447",
+    "PMID:38555190",
+    "PMID:26324807",
+    "PMID:36927162",
+    "PMID:39413571",
+    "PMID:9230243",
+    "PMID:29130810",
+    "PMID:21859972",
+    "PMID:42015439",
+    "PMID:41312470",
+    "PMID:33354859",
+    "PMID:42863801",
+    "PMID:39504621",
+    "PMID:29457216",
+    "PMID:31826654",
+    "PMID:37712506",
+    "PMID:40945815",
+    "PMID:34582562",
+    "PMID:41025421",
+    "PMID:40875537",
+    "PMID:41021585",
+    "PMID:42115982",
+    "PMID:32900213",
+    "PMID:36597797",
+    "PMID:39861414",
+    "PMID:40126496",
+    "PMID:40350672",
+    "PMID:37794966",
+    "PMID:42587287",
+    "PMID:39632267",
+    "PMID:40728675",
+    "PMID:38842239",
+    "PMID:41016625",
+    "PMID:39415242",
+    "PMID:31601129",
+    "PMID:40850738",
+    "PMID:1714011",
+    "PMID:41874704",
+    "PMID:41977262",
+    "PMID:41188701",
+    "PMID:40323204"
   ]
 }

@@ -3,35 +3,212 @@
 :ID: supp-metformin-er
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: Metformin extended-release | metformin hydrochloride ER
+:ALIASES: Metformin extended-release | metformin XR | metformin hydrochloride ER | Glucophage XR | Glumetza | Fortamet | biguanide
 :CATEGORY: rx
 :RX_STATUS: rx
 :RESEARCHED_AT: 2026-10-13
 :END:
+
 ** Identity & forms
-- Prescription biguanide antihyperglycemic, extended-release oral formulation; not a dietary supplement [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529].
+- Prescription biguanide (metformin hydrochloride) in once-daily extended-release (ER/XR) tablets. It is labeled as an adjunct to diet and exercise for glycemic control in adults with type 2 diabetes (T2D); longevity use is off-label [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529].
+- ER products: generic ER tablets (500 mg), Glumetza (500/1000 mg), Fortamet, and Glucophage XR (GelShield diffusion system) [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fb832474-88d9-4e29-95cd-fbc446944cc4] [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8cbcee12-3eb1-4726-9212-5dddc39a3b0f] [PMID:15966755].
+- Label PK: median Tmax 7 h; peak about 20% lower than IR with comparable AUC; food lowers Cmax about 40% and AUC about 25%. About 90% is renally eliminated (tubular secretion) within 24 h; plasma half-life about 6.2 h, blood half-life about 17.6 h [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529].
+- XR 2000 mg once daily gave AUC equivalent to IR 1000 mg twice daily (Tmax 7 vs 3 h), with no accumulation [PMID:15966755]. ER is one way to moderate early GI effects [PMID:38784991].
+
 ** Mechanisms
-- Reduces hepatic glucose production and improves insulin sensitivity; exact molecular mechanism is not fully established [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529].
+- Lowers hepatic glucose production and intestinal glucose absorption and raises peripheral glucose uptake, without changing insulin secretion [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529].
+- Molecular actions depend on concentration and tissue: AMPK-dependent and -independent pathways, complex I inhibition at millimolar gut levels, complex IV / mitochondrial glycerophosphate dehydrogenase inhibition in liver, lysosomal AMPK activation at about 10 uM, and a key role for the gut [PMID:28776086] [PMID:41819225].
+- Aging hypothesis: effects on nutrient sensing, autophagy, mitochondria and senescence. This is mostly preclinical [PMID:32333835] [PMID:34421827].
+- Muscle: raises AMPK signaling and tends to blunt mTORC1 signaling during resistance training [PMID:31557380]. It abolishes the exercise-induced rise in mitochondrial respiration [PMID:30548390] [PMID:40695624].
+- B12 malabsorption reflects calcium-dependent ileal uptake of the B12-intrinsic factor complex [PMID:10977010]. Antiviral effect: proposed host mTOR/translation suppression [PMID:38690892].
+
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | Certainty | Citations |
-|---------+--------------------+-----------+-------------+-----------+-----------|
-| Principal studied outcome | Systematic review/RCT or official product label | Type 2 diabetes: effective glucose-lowering prescription therapy. Prevention/aging indications are not established by ER-label evidence. | See outcome summary above; no extrapolation to unstudied endpoints | moderate | [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529] |
-| Hard clinical outcomes / prevention | Human outcome evidence sparse or absent in sources reviewed | Not established | No reliable effect estimate | very low | [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529] |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Complications/mortality in overweight T2D | RCT (UKPDS 34, n=753, 10.7 y) + 10- and 24-y post-trial follow-up | Benefit | Any diabetes endpoint -32%; all-cause mortality -36%; at 24 y death -20% (CI 5-32), MI -31% | moderate | [PMID:9742977] [PMID:18784090] [PMID:38772405] |
+| CV outcomes in T2D vs diet/placebo | MA of 13 RCTs (UKPDS-dominated); NMA of 453 RCTs | Uncertain | All-cause mortality RR 0.96 (0.84-1.09); MI RR 0.89 (0.75-1.06) | low | [PMID:28770324] [PMID:32598218] |
+| Diabetes prevention (prediabetes) | RCT (DPP, n=3234); Cochrane MA (20 RCTs) | Benefit | -31% at 2.8 y; RR 0.50 vs diet/exercise +/- placebo; HR 0.83 over 21 y; not better than intensive lifestyle | moderate | [PMID:11832527] [PMID:31794067] [PMID:40311647] |
+| All-cause mortality / "geroprotection" | MAs of cohorts; target-trial emulation; critiques | Association only | HR 0.93 vs non-diabetics; HR 0.70 vs sulfonylurea for death before 90 (WHI) | very low | [PMID:28802803] [PMID:25041462] [PMID:40388602] [PMID:40582648] [PMID:42310907] |
+| Muscle hypertrophy with resistance training (age 65+) | RCT (MASTERS, n=94, 1700 mg/d, 14 wk) | Harm (blunting) | Smaller gains in lean mass (p=.003) and thigh muscle (p<.001) vs placebo | low | [PMID:31557380] [PMID:33071237] |
+| Aerobic training adaptations (older adults) | RCT (n=53, 12 wk) | Harm (blunting) | Smaller gains in insulin sensitivity and VO2max | low | [PMID:30548390] |
+| Physical function / frailty (older adults) | RCTs (MET-PREVENT n=72; DEMFOS n=114); 2-y RCT preprint (n=145) | Null to small | Walk speed diff 0.001 m/s; no gain on top of lifestyle; frailty index -0.006/y (preprint) | low | [PMID:40147475] [PMID:42532077] [PMID:42620010] |
+| Body weight (non-diabetic obesity) | MA of 49 RCTs | Small benefit | BMI MD -0.56 kg/m2 (-0.74 to -0.37) | low | [PMID:38468148] |
+| Cancer incidence | MA of 166 observational studies; RCT (MA.32, n=3649, non-diabetic) | Observational benefit; RCT null | Prospective cohorts RR 0.65; MA.32 new cancers HR 1.25 (0.94-1.68); lung cancer HR 0.85 | low | [PMID:38291943] [PMID:35608580] [PMID:37695982] [PMID:42581008] |
+| Dementia / cognition | Network MAs; MA of RCTs | Inconsistent | Observational OR 0.89 (0.80-0.99); null in another NMA; no metformin RCTs with dementia outcomes | very low | [PMID:39716328] [PMID:41126557] [PMID:40193122] |
+| COVID-19 (outpatient) | RCT (COVID-OUT); SR/MAs of RCTs | Acute: little/no effect; long COVID: possible benefit | Long COVID HR 0.59 (0.39-0.89); MA RR 0.6; mortality RR 0.76 (0.30-1.90) | low | [PMID:36070710] [PMID:37302406] [PMID:40433308] [PMID:42250263] |
+| GI tolerability, ER vs IR | MA of 9 RCTs (n=2609); MA of 71 RCTs; MA of 21 cohorts | ER modestly better | Dyspepsia RR 0.58 (0.34-0.98); other GI symptoms similar; HbA1c 0.09% less lowering with ER | low | [PMID:33887354] [PMID:36187122] [PMID:39350158] |
+| Vitamin B12 status | MAs (29 and 31 studies) | Harm | Deficiency OR 2.45 (1.74-3.44); RR 2.09; serum B12 MD -63.7 pmol/L | moderate | [PMID:25502588] [PMID:30615306] [PMID:27130885] |
+| Lactic acidosis | Cochrane MA (347 studies); cohort across eGFR | No excess at eGFR >=30 | 0 cases in 70,490 patient-years; acidosis HR 2.07 only at eGFR <30 | moderate | [PMID:20393934] [PMID:29868840] [PMID:25536258] |
+| Pregnancy / offspring | RCT (MiTy, n=502); MAs | Mostly reassuring; SGA signal | SGA RR 1.96; neurodevelopmental delay RR 1.09 (0.54-2.17); malformations RR 0.83 vs insulin | moderate | [PMID:32946820] [PMID:38460832] [PMID:41628713] [PMID:41354637] |
+| PCOS fertility | MA of 12 RCTs | Benefit | Clinical pregnancy OR 1.57 (1.11-2.23) if continued through first trimester | low | [PMID:40473092] [PMID:37554096] |
+
 ** Dosing in trials
-- ER adult label starts 500 mg once daily with evening meal, titrates weekly as tolerated, max commonly 2000 mg/day depending product labeling [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529].
+- Label (ER): 500 mg once daily with the evening meal, up 500 mg weekly to 2000 mg once daily, swallowed whole. IR users can switch at the same total dose [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529]. Glumetza titrates every 1-2 weeks to the same maximum [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fb832474-88d9-4e29-95cd-fbc446944cc4].
+- Prevention: DPP/DPPOS used IR 850 mg twice daily [PMID:11832527] [PMID:40311647]. Oncology: MA.32 used 850 mg twice daily for 5 years [PMID:35608580]. Pregnancy: MiTy used 1000 mg twice daily with insulin [PMID:32946820].
+- Aging/exercise: MASTERS 1700 mg/d for 14 weeks [PMID:31557380]; MET-PREVENT 500 mg three times daily for 4 months (poorly tolerated) [PMID:40147475]. Weight trials used 500-2550 mg/d [PMID:38468148].
+- TAME (Targeting Aging with Metformin) was proposed as the first trial of aging as an indication [PMID:27304507]. Its goals have been questioned [PMID:30746605].
+
 ** Safety & adverse effects
-- GI effects common; boxed warning lactic acidosis. Label contraindicates eGFR <30, hypersensitivity, metabolic acidosis; can lower B12 [same DailyMed URL].
+- Boxed warning, lactic acidosis: postmarketing cases include deaths, hypothermia, hypotension and resistant bradyarrhythmias. Risk factors are renal impairment, carbonic anhydrase inhibitors, age 65+, contrast studies, surgery, hypoxic states, excess alcohol and hepatic impairment [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529].
+- Measured lactic acidosis incidence is low: upper limit 4.3 per 100,000 patient-years vs 5.4 on other drugs [PMID:20393934]; about 3-10 per 100,000 person-years overall [PMID:25536258]. In 559 published cases, 97% had independent risk factors [PMID:31372935].
+- GI (ER RCTs): diarrhea 10% vs 3% on placebo, nausea/vomiting 7% vs 2%; diarrhea led to stopping in 0.6% [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529]. Observational GI rates are lower with XR than IR [PMID:39350158].
+- Vitamin B12: about 7% fell to subnormal levels in 29-week trials. The label advises annual blood counts and B12 every 2-3 years [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529]. Risk rises with dose and duration [PMID:30615306].
+- B12, other data: long-term use (4+ years) carries 67% higher odds of deficiency than non-use [PMID:40850508]. In non-diabetic people (MA.32), B12 fell within 6 months without anemia [PMID:28447237].
+- Hypoglycemia: low alone, higher with insulin or secretagogues [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529] [PMID:36129996]. Hypomagnesemia: OR 3.72 in a cohort [PMID:38599521] [PMID:40613016].
+- Older adults: hospital admissions 34% vs 8% on placebo in MET-PREVENT [PMID:40147475]. Training adaptations are blunted [PMID:31557380] [PMID:30548390]. In MA.32, grade 3+ non-hematologic toxicity was 21.5% vs 17.5% [PMID:35608580].
+
 ** Contraindications
-- Severe renal impairment, metabolic acidosis/DKA, hypersensitivity; assess renal and hepatic status.
+- eGFR below 30 mL/min/1.73 m2, hypersensitivity, and acute or chronic metabolic acidosis including DKA. Starting at eGFR 30-45 is not recommended. Not recommended in hepatic impairment [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529].
+- A cohort study found excess acidosis only below eGFR 30 [PMID:29868840].
+- Iodinated contrast: stop at or before the procedure if eGFR is 30-60, with liver disease, alcoholism or heart failure, or with intra-arterial contrast; recheck eGFR at 48 h [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529]. Guidelines conflict and rest on level IV-V evidence [PMID:20032157].
+
 ** Interactions
-- Alcohol and carbonic anhydrase inhibitors raise lactic acidosis risk; cationic drugs that reduce clearance (ranolazine, dolutegravir, cimetidine, vandetanib); insulin/secretagogues increase hypoglycemia risk [same DailyMed URL].
-- Structured high-priority interactions are represented in interactions.json; absence of an edge is not proof of no interaction.
+*** Drugs
+- Carbonic anhydrase inhibitors (topiramate, zonisamide, acetazolamide, dichlorphenamide): non-anion-gap acidosis may raise lactic acidosis risk; monitor more often [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529].
+- OCT2/MATE inhibitors (label: ranolazine, vandetanib, dolutegravir, cimetidine) [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529]:
+  - Dolutegravir 50 mg daily raised metformin AUC 79% (145% at 50 mg twice daily) [PMID:26974526]. In obese women with HIV, a 1000 mg cap may underdose [PMID:40468972].
+  - Ranolazine 1000 mg twice daily raised AUC 1.79-fold; the authors advise capping metformin at 1700 mg/d [PMID:27128216].
+  - Cimetidine raised AUC 24%, mainly via hepatic OCT1 [PMID:40098288]. It is a lactic acidosis signal in renal impairment [PMID:37948503].
+- Insulin and sulfonylureas: additive hypoglycemia; the other drug may need a lower dose [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529]. Severe hypoglycemia was 2.2% with glimepiride added to metformin [PMID:36129996].
+- Alcohol potentiates metformin's effect on lactate; avoid excess [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529].
+*** Other supplements
+- B12 methylcobalamin: corrects deficiency. Oral B12 1000 ug/d normalized levels in 3 weeks (RCT, n=50; sucrosomial form, industry-linked) [PMID:41754978] [PMID:25502588].
+- B Complex: without B vitamins or folic acid, metformin raised homocysteine (MD +2.02 umol/L); with them it fell (MD -0.74) [PMID:27941660]. Calcium reversed the holotranscobalamin fall in a small study [PMID:10977010].
+- Berberine: inhibits OCT1/OCT2/MATE1 transport of metformin; exposure rose (IV) or fell (oral) in rats [PMID:25359200] [PMID:30428337]. Added to oral hypoglycemics it improved glycemia in low-quality RCTs [PMID:23118793]. No human PK study was found.
+- Acarbose: the combination lowered FBG, 2-h glucose and HbA1c more than either drug alone [PMID:28588669]. HbA1c effects were similar head-to-head [PMID:25961824].
+- Rapamycin: metformin reduced rapamycin-induced glucose intolerance in female HET3 mice. Mice on both lived at least as long as on rapamycin alone [PMID:29579736]. No human data.
+- Magnesium: hypomagnesemia is associated with use [PMID:38599521] [PMID:40613016]. Heme Iron (Proferrin): no PK interaction known; evaluate anemia, since B12-related anemia is possible [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529] [PMID:40535375].
+*** Conditions
+- Renal or hepatic impairment, hypoxic states, surgery and contrast: see Contraindications.
+- Resistance or aerobic training goals: hypertrophy and aerobic gains are blunted in older adults [PMID:31557380] [PMID:30548390] [PMID:41751275].
+- Pregnancy: label data are insufficient to define birth-defect risk, and metformin may restore ovulation [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529]. MiTy showed excess SGA; offspring outcomes were reassuring at 24 months and 5-11 years [PMID:32946820] [PMID:36746160] [PMID:38876183].
+*** Lab-test interference
+- FDG-PET/CT: intense diffuse bowel (mainly colonic) uptake, OR 95.3 for colon [PMID:17786437]. A 48-h hold cut large-bowel SUVmax (2.63 vs 5.42) [PMID:30106348]. Distal colon uptake persists with holds under 72 h [PMID:32815120] [PMID:27392947].
+- Serum B12 and homocysteine changes are physiological, not assay artifacts [PMID:30615306] [PMID:27941660].
+
 ** Genotype notes
-- No cited pharmacogenomic/nutrigenomic source was identified for a supplement-specific genotype effect; no genotype claim made.
+- SLC22A1 (OCT1): R61C and 420del did not change HbA1c response in GoDARTS (n=1531) [PMID:19336679]. A SR links rs12208357, rs34059508 and G465R to higher exposure and several SNPs to HbA1c response [PMID:37550919]. OCT1/OCT2 variants moderately changed the cimetidine DDI [PMID:40098288].
+- ATM rs11212617: treatment success OR 1.35 in a GWAS [PMID:21186350], replicated (OR 1.25) [PMID:22453232]. SLC2A2 rs8192675 C allele: larger fasting-glucose fall on metformin (2.4 mmol/L) [PMID:30413829]. None is used clinically for dosing.
+
 ** Latest research
-- 2025-02: 2025 ER label continues to specify B12 monitoring and renal contraindications; no recent ER-specific outcome evidence was opened [same DailyMed URL].
+- [2026-08] Lung-cancer MA (29 observational studies): HR 0.85 (0.77-0.94) in T2D [PMID:42581008].
+- [2026-07] DEMFOS RCT (n=114): no added physical-function benefit on top of intensive lifestyle [PMID:42532077].
+- [2026-07] 2-year RCT preprint (n=145, prediabetes): frailty index improved and two epigenetic clocks slowed. Fried score was unchanged once weight loss was excluded [PMID:42620010].
+- [2026-07] COVID-19 MA (4 RCTs): modest, low-to-moderate certainty benefit on hospitalization, ED visits or death [PMID:42250263].
+- [2026-06] SR of 27 cohorts: lower mortality, CVD and dementia; no RCTs [PMID:42310907]. Mechanism review on concentration-dependent actions [PMID:41819225].
+- [2026-03] Pregnancy MA + Mendelian randomization: malformations RR 0.83 vs insulin [PMID:41628713].
+- [2026-02] B12 RCT in metformin users: rapid normalization [PMID:41754978]. GDM MA: neonatal hypoglycemia OR 0.65 [PMID:41354637].
+- [2026-01] Dementia NMA (67 studies): no significant metformin effect [PMID:41126557].
+- [2025-12] PCOS MA: continuing through the first trimester raised clinical pregnancy (OR 1.57) [PMID:40473092]. Dolutegravir PK in obese women [PMID:40468972].
+- [2025-10] All of Us: long-term use linked to B12 deficiency and neuropathy [PMID:40850508].
+- [2025-09] Critical review: "emerging uncertainty" on anti-aging potential [PMID:40582648].
+- [2025-08] Metformin suppresses exercise-adaptation transcription (BCL6B) [PMID:40695624]. Cimetidine DDI: AUC +24% [PMID:40098288].
+- [2025-06] DPP/DPPOS 21 years: diabetes HR 0.83 [PMID:40311647]. WHI target-trial emulation: HR 0.70 for death before 90 vs sulfonylurea [PMID:40388602].
+- [2025-05] WHO-guideline MA: long COVID RR 0.6 (low certainty, single trial) [PMID:40433308].
+- [2025-03] MET-PREVENT: no walk-speed benefit; poorly tolerated [PMID:40147475].
+- [2024-12] Dementia NMA: observational OR 0.89; RCTs neutral [PMID:39716328].
+- [2024-10] Male monkeys (40 months): slowed multi-omic aging clocks [PMID:39270656].
+
 ** Open questions
-- Which formulations, populations, and durations produce clinically meaningful outcomes rather than biomarker-only changes?
-- Are there long-term benefits or harms beyond the relatively short human trials available?
+- Whether metformin slows aging in people without diabetes. No completed aging-indication RCT was found; TAME was proposed in 2016 [PMID:27304507]. Cohort benefits may reflect bias [PMID:40582648] [PMID:33709434].
+- How to reconcile metabolic benefits with blunted exercise adaptations, and whether timing or dose avoids this [PMID:41751275].
+- Whether ER differs from IR in long-term efficacy, B12 loss or exercise effects. No head-to-head aging trials exist.
+- Long-term outcomes after in utero exposure, including the SGA signal [PMID:32946820] [PMID:39042587]. Human relevance of berberine-metformin transporter interactions.
+
 ** Sources
-- [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529]
+1. Abrilla AA et al. Metformin extended-release versus metformin immediate-release for adults with type 2 diabetes mellitus: A systematic review and... Diabetes Res Clin Pract. 2021. PMID:33887354 DOI:10.1016/j.diabres.2021.108824
+2. Nabrdalik K et al. Gastrointestinal adverse events of metformin treatment in patients with type 2 diabetes mellitus: A systematic review, meta-analysis and... Front Endocrinol (Lausanne). 2022. PMID:36187122 DOI:10.3389/fendo.2022.975912
+3. Nabrdalik K et al. Gastrointestinal adverse events of metformin treatment in patients with type 2 diabetes mellitus: a systematic review and meta-analysis... BMC Endocr Disord. 2024. PMID:39350158 DOI:10.1186/s12902-024-01727-w
+4. Timmins P et al. Steady-state pharmacokinetics of a novel extended-release metformin formulation. Clin Pharmacokinet. 2005. PMID:15966755 DOI:10.2165/00003088-200544070-00004
+5. Bailey CJ et al. Metformin: Therapeutic profile in the treatment of type 2 diabetes. Diabetes Obes Metab. 2024. PMID:38784991 DOI:10.1111/dom.15663
+6. Niafar M et al. The role of metformin on vitamin B12 deficiency: a meta-analysis review. Intern Emerg Med. 2015. PMID:25502588 DOI:10.1007/s11739-014-1157-5
+7. Chapman LE et al. Association between metformin and vitamin B(12) deficiency in patients with type 2 diabetes: A systematic review and meta-analysis. Diabetes Metab. 2016. PMID:27130885 DOI:10.1016/j.diabet.2016.03.008
+8. Yang W et al. Associations between metformin use and vitamin B(12) levels, anemia, and neuropathy in patients with diabetes: a meta-analysis. J Diabetes. 2019. PMID:30615306 DOI:10.1111/1753-0407.12900
+9. Sepassi A et al. Associations between long-term metformin use, the risk of vitamin B12 deficiency, and neuropathy: An All of Us research Program study. Diabetes Res Clin Pract. 2025. PMID:40850508 DOI:10.1016/j.diabres.2025.112424
+10. Conti G et al. Rapid Restoration of Circulating Vitamin B12 Levels by Using Oral Sucrosomial(®) Vitamin B12 in Metformin-Associated B12 Deficiency... Pharmaceutics. 2026. PMID:41754978 DOI:10.3390/pharmaceutics18020237
+11. Bauman WA et al. Increased intake of calcium reverses vitamin B12 malabsorption induced by metformin. Diabetes Care. 2000. PMID:10977010 DOI:10.2337/diacare.23.9.1227
+12. Zhang Q et al. Metformin Treatment and Homocysteine: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. Nutrients. 2016. PMID:27941660 DOI:10.3390/nu8120798
+13. Lohmann AE et al. Effects of metformin versus placebo on vitamin B12 metabolism in non-diabetic breast cancer patients in CCTG MA.32. Breast Cancer Res Treat. 2017. PMID:28447237 DOI:10.1007/s10549-017-4265-x
+14. Rubbani A et al. Iron Deficiency Anemia and Oxidative Stress in Type 2 Diabetic Patients on Metformin: A Meta-Analysis. Cureus. 2025. PMID:40535375 DOI:10.7759/cureus.84386
+15. Campbell JM et al. Metformin reduces all-cause mortality and diseases of ageing independent of its effect on diabetes control: A systematic review and... Ageing Res Rev. 2017. PMID:28802803 DOI:10.1016/j.arr.2017.08.003
+16. Bannister CA et al. Can people with type 2 diabetes live longer than those without? A comparison of mortality in people initiated with metformin or... Diabetes Obes Metab. 2014. PMID:25041462 DOI:10.1111/dom.12354
+17. Chan AHY et al. Impact of Metformin on Healthspan-Related Outcomes and Incidence of Diseases of Aging in People with Type 2 Diabetes Mellitus: A... Rejuvenation Res. 2026. PMID:42310907 DOI:10.1177/15491684261462413
+18. Keys MT et al. Emerging uncertainty on the anti-aging potential of metformin. Ageing Res Rev. 2025. PMID:40582648 DOI:10.1016/j.arr.2025.102817
+19. Barzilai N et al. Metformin as a Tool to Target Aging. Cell Metab. 2016. PMID:27304507 DOI:10.1016/j.cmet.2016.05.011
+20. Walton RG et al. Metformin blunts muscle hypertrophy in response to progressive resistance exercise training in older adults: A randomized, double-blind... Aging Cell. 2019. PMID:31557380 DOI:10.1111/acel.13039
+21. Kulkarni AS et al. Metformin alters skeletal muscle transcriptome adaptations to resistance training in older adults. Aging (Albany NY). 2020. PMID:33071237 DOI:10.18632/aging.104096
+22. Konopka AR et al. Metformin inhibits mitochondrial adaptations to aerobic exercise training in older adults. Aging Cell. 2019. PMID:30548390 DOI:10.1111/acel.12880
+23. Bruss MD et al. Metformin suppresses the mitochondrial and transcriptional response to exercise, revealing a conserved BCL6B-associated angiogenic program. J Appl Physiol (1985). 2025. PMID:40695624 DOI:10.1152/japplphysiol.00432.2025
+24. Han SY et al. Metformin for Longevity and Sarcopenia: A Therapeutic Paradox in Aging. Biomedicines. 2026. PMID:41751275 DOI:10.3390/biomedicines14020376
+25. Witham MD et al. Metformin and physical performance in older people with probable sarcopenia and physical prefrailty or frailty in England (MET-PREVENT)... Lancet Healthy Longev. 2025. PMID:40147475 DOI:10.1016/j.lanhl.2025.100695
+26. Nava MLD et al. Metformin added to lifestyle intervention for physical function in older adults with obesity (DEMFOS trial): a randomised controlled trial. Lancet Healthy Longev. 2026. PMID:42532077 DOI:10.1016/j.lanhl.2026.100883
+27. Musi N et al. A Randomized Clinical Trial of Metformin to Reduce Frailty in Older Adults with Glucose Intolerance. medRxiv. 2026. PMID:42620010 DOI:10.64898/2026.07.27.26359055
+28. Yang Y et al. Metformin decelerates aging clock in male monkeys. Cell. 2024. PMID:39270656 DOI:10.1016/j.cell.2024.08.021
+29. Shadyab AH et al. Comparative Effectiveness of Metformin Versus Sulfonylureas on Exceptional Longevity in Women With Type 2 Diabetes: Target Trial Emulation. J Gerontol A Biol Sci Med Sci. 2025. PMID:40388602 DOI:10.1093/gerona/glaf095
+30. Mohammed I et al. A Critical Review of the Evidence That Metformin Is a Putative Anti-Aging Drug That Enhances Healthspan and Extends Lifespan. Front Endocrinol (Lausanne). 2021. PMID:34421827 DOI:10.3389/fendo.2021.718942
+31. Konopka AR et al. Taming expectations of metformin as a treatment to extend healthspan. Geroscience. 2019. PMID:30746605 DOI:10.1007/s11357-019-00057-3
+32. Knowler WC et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med. 2002. PMID:11832527 DOI:10.1056/NEJMoa012512
+33. Knowler WC et al. Long-term effects and effect heterogeneity of lifestyle and metformin interventions on type 2 diabetes incidence over 21 years in the US... Lancet Diabetes Endocrinol. 2025. PMID:40311647 DOI:10.1016/S2213-8587(25)00022-1
+34. UKPDS Group. Effect of intensive blood-glucose control with metformin on complications in overweight patients with type 2 diabetes (UKPDS 34). UK... Lancet. 1998. PMID:9742977
+35. Holman RR et al. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med. 2008. PMID:18784090 DOI:10.1056/NEJMoa0806470
+36. Adler AI et al. Post-trial monitoring of a randomised controlled trial of intensive glycaemic control in type 2 diabetes extended from 10 years to 24... Lancet. 2024. PMID:38772405 DOI:10.1016/S0140-6736(24)00537-3
+37. Griffin SJ et al. Impact of metformin on cardiovascular disease: a meta-analysis of randomised trials among people with type 2 diabetes. Diabetologia. 2017. PMID:28770324 DOI:10.1007/s00125-017-4337-9
+38. Bramante CT et al. Randomized Trial of Metformin, Ivermectin, and Fluvoxamine for Covid-19. N Engl J Med. 2022. PMID:36070710 DOI:10.1056/NEJMoa2201662
+39. Bramante CT et al. Outpatient treatment of COVID-19 and incidence of post-COVID-19 condition over 10 months (COVID-OUT): a multicentre, randomised... Lancet Infect Dis. 2023. PMID:37302406 DOI:10.1016/S1473-3099(23)00299-2
+40. Bramante CT et al. Favorable Antiviral Effect of Metformin on SARS-CoV-2 Viral Load in a Randomized, Placebo-Controlled Clinical Trial of COVID-19. Clin Infect Dis. 2024. PMID:38690892 DOI:10.1093/cid/ciae159
+41. Chowdhury SR et al. Metformin for covid-19: systematic review and meta-analysis of randomised controlled trials. BMJ Med. 2025. PMID:40433308 DOI:10.1136/bmjmed-2024-001126
+42. Tahir T et al. Metformin for COVID-19: An Updated Systematic Review and Meta-Analysis of Randomized Controlled Trials. Rev Med Virol. 2026. PMID:42250263 DOI:10.1002/rmv.70172
+43. O'Connor L et al. Association of metformin use and cancer incidence: a systematic review and meta-analysis. J Natl Cancer Inst. 2024. PMID:38291943 DOI:10.1093/jnci/djae021
+44. Karimi M et al. Association Between Metformin Use and Risk of Lung Cancer in Patients With Type 2 Diabetes: A Systematic Review and Meta-Analysis. Cancer Rep (Hoboken). 2026. PMID:42581008 DOI:10.1002/cnr2.70651
+45. Goodwin PJ et al. Effect of Metformin vs Placebo on Invasive Disease-Free Survival in Patients With Breast Cancer: The MA.32 Randomized Clinical Trial. JAMA. 2022. PMID:35608580 DOI:10.1001/jama.2022.6147
+46. Goodwin PJ et al. Effect of Metformin Versus Placebo on New Primary Cancers in Canadian Cancer Trials Group MA.32: A Secondary Analysis of a Phase III... J Clin Oncol. 2023. PMID:37695982 DOI:10.1200/JCO.23.00296
+47. Seminer A et al. Cardioprotective Glucose-Lowering Agents and Dementia Risk: A Systematic Review and Meta-Analysis. JAMA Neurol. 2025. PMID:40193122 DOI:10.1001/jamaneurol.2025.0360
+48. Kato S et al. Antidiabetic agents and dementia risk in type 2 diabetes: A systematic review and network meta-analysis. Diabetes Obes Metab. 2026. PMID:41126557 DOI:10.1111/dom.70182
+49. Li Z et al. Anti-diabetic agents and the risks of dementia in patients with type 2 diabetes: a systematic review and network meta-analysis of... Alzheimers Res Ther. 2024. PMID:39716328 DOI:10.1186/s13195-024-01645-y
+50. Gordon HG et al. Metformin in pregnancy and childhood neurodevelopmental outcomes: a systematic review and meta-analysis. Am J Obstet Gynecol. 2024. PMID:38460832 DOI:10.1016/j.ajog.2024.02.316
+51. Brinkmann MLS et al. Metformin safety during pregnancy in women with gestational diabetes mellitus: A systematic review and meta-analysis of maternal... Diabet Med. 2026. PMID:41354637 DOI:10.1111/dme.70173
+52. Ji H et al. Impact of metformin use during pregnancy on fetal congenital malformations across 11 organ systems: a meta-analysis and drug-target... Diabetes Res Clin Pract. 2026. PMID:41628713 DOI:10.1016/j.diabres.2026.113118
+53. Cheshire J et al. Preconception and first-trimester metformin on pregnancy outcomes in women with polycystic ovary syndrome: a systematic review and... Am J Obstet Gynecol. 2025. PMID:40473092 DOI:10.1016/j.ajog.2025.05.038
+54. Melin J et al. Metformin and Combined Oral Contraceptive Pills in the Management of Polycystic Ovary Syndrome: A Systematic Review and Meta-analysis. J Clin Endocrinol Metab. 2024. PMID:37554096 DOI:10.1210/clinem/dgad465
+55. Dutta D et al. Long-Term Impact on Offspring (5 to 11 Years of Age) of Metformin Use in Pregnancy in Mothers With Diabetes: A Systematic Review and... Endocr Pract. 2024. PMID:38876183 DOI:10.1016/j.eprac.2024.05.017
+56. Salpeter SR et al. Risk of fatal and nonfatal lactic acidosis with metformin use in type 2 diabetes mellitus. Cochrane Database Syst Rev. 2010. PMID:20393934 DOI:10.1002/14651858.CD002967.pub4
+57. Inzucchi SE et al. Metformin in patients with type 2 diabetes and kidney disease: a systematic review. JAMA. 2014. PMID:25536258 DOI:10.1001/jama.2014.15298
+58. Kuan IHS et al. The Association between Metformin Therapy and Lactic Acidosis. Drug Saf. 2019. PMID:31372935 DOI:10.1007/s40264-019-00854-x
+59. Goergen SK et al. Systematic review of current guidelines, and their evidence base, on risk of lactic acidosis after administration of contrast medium for... Radiology. 2010. PMID:20032157 DOI:10.1148/radiol.09090690
+60. Pradana AD et al. Influence of Solute Carrier Family 22 Member 1 (SLC22A1) Gene Polymorphism on Metformin Pharmacokinetics and HbA1c Levels: A Systematic... Curr Diabetes Rev. 2024. PMID:37550919 DOI:10.2174/1573399820666230807145202
+61. Zhou K et al. Reduced-function SLC22A1 polymorphisms encoding organic cation transporter 1 and glycemic response to metformin: a GoDARTS study. Diabetes. 2009. PMID:19336679 DOI:10.2337/db08-0896
+62. GoDARTS and UKPDS Diabetes Pharmacogenetics Study Group. Common variants near ATM are associated with glycemic response to metformin in type 2 diabetes. Nat Genet. 2011. PMID:21186350 DOI:10.1038/ng.735
+63. van Leeuwen N et al. A gene variant near ATM is significantly associated with metformin treatment response in type 2 diabetes: a replication and... Diabetologia. 2012. PMID:22453232 DOI:10.1007/s00125-012-2537-x
+64. Rathmann W et al. A variant of the glucose transporter gene SLC2A2 modifies the glycaemic response to metformin therapy in recently diagnosed type 2 diabetes. Diabetologia. 2019. PMID:30413829 DOI:10.1007/s00125-018-4759-z
+65. Gontier E et al. High and typical 18F-FDG bowel uptake in patients treated with metformin. Eur J Nucl Med Mol Imaging. 2008. PMID:17786437 DOI:10.1007/s00259-007-0563-6
+66. Hamidizadeh R et al. Metformin Discontinuation prior to FDG PET/CT: A Randomized Controlled Study to Compare 24- and 48-hour Bowel Activity. Radiology. 2018. PMID:30106348 DOI:10.1148/radiol.2018180078
+67. Schreuder N et al. Discontinuation of metformin to prevent metformin-induced high colonic FDG uptake: is 48 h sufficient?. Ann Nucl Med. 2020. PMID:32815120 DOI:10.1007/s12149-020-01509-z
+68. Lee SH et al. Metformin discontinuation less than 72 h is suboptimal for F-18 FDG PET/CT interpretation of the bowel. Ann Nucl Med. 2016. PMID:27392947 DOI:10.1007/s12149-016-1106-7
+69. Kwon M et al. Organic cation transporter-mediated drug-drug interaction potential between berberine and metformin. Arch Pharm Res. 2015. PMID:25359200 DOI:10.1007/s12272-014-0510-6
+70. Shi R et al. Organic cation transporter and multidrug and toxin extrusion 1 co-mediated interaction between metformin and berberine. Eur J Pharm Sci. 2019. PMID:30428337 DOI:10.1016/j.ejps.2018.11.010
+71. Dong H et al. Berberine in the treatment of type 2 diabetes mellitus: a systemic review and meta-analysis. Evid Based Complement Alternat Med. 2012. PMID:23118793 DOI:10.1155/2012/591654
+72. Liu Z et al. Metformin combined with acarbose vs. single medicine in the treatment of type 2 diabetes: A meta-analysis. Exp Ther Med. 2017. PMID:28588669 DOI:10.3892/etm.2017.4333
+73. Gu S et al. Comparison of glucose lowering effect of metformin and acarbose in type 2 diabetes mellitus: a meta-analysis. PLoS One. 2015. PMID:25961824 DOI:10.1371/journal.pone.0126704
+74. Weiss R et al. Metformin reduces glucose intolerance caused by rapamycin treatment in genetically heterogeneous female mice. Aging (Albany NY). 2018. PMID:29579736 DOI:10.18632/aging.101401
+75. Rena G et al. The mechanisms of action of metformin. Diabetologia. 2017. PMID:28776086 DOI:10.1007/s00125-017-4342-z
+76. Bailey CJ et al. Metformin: Antidiabetic actions from cells to tissues. Metabolism. 2026. PMID:41819225 DOI:10.1016/j.metabol.2026.156589
+77. Kulkarni AS et al. Benefits of Metformin in Attenuating the Hallmarks of Aging. Cell Metab. 2020. PMID:32333835 DOI:10.1016/j.cmet.2020.04.001
+78. Li X et al. Metformin and health outcomes: An umbrella review of systematic reviews with meta-analyses. Eur J Clin Invest. 2021. PMID:33709434 DOI:10.1111/eci.13536
+79. GRADE Study Research Group. Glycemia Reduction in Type 2 Diabetes - Glycemic Outcomes. N Engl J Med. 2022. PMID:36129996 DOI:10.1056/NEJMoa2200433
+80. Madsen KS et al. Metformin for prevention or delay of type 2 diabetes mellitus and its associated complications in persons at increased risk for the... Cochrane Database Syst Rev. 2019. PMID:31794067 DOI:10.1002/14651858.CD008558.pub2
+81. Song IH et al. The Effect of Dolutegravir on the Pharmacokinetics of Metformin in Healthy Subjects. J Acquir Immune Defic Syndr. 2016. PMID:26974526 DOI:10.1097/QAI.0000000000000983
+82. Xie W et al. Metformin-Cimetidine Drug Interaction and Risk of Lactic Acidosis in Renal Failure: A Pharmacovigilance-Pharmacokinetic Appraisal. Diabetes Care. 2024. PMID:37948503 DOI:10.2337/dc23-1344
+83. Ailabouni AS et al. Quantitative Contributions of Hepatic and Renal Organic Cation Transporters to the Clinical Pharmacokinetic Cimetidine-Metformin Interaction. Clin Pharmacol Ther. 2025. PMID:40098288 DOI:10.1002/cpt.3639
+84. Zack J et al. Pharmacokinetic drug-drug interaction study of ranolazine and metformin in subjects with type 2 diabetes mellitus. Clin Pharmacol Drug Dev. 2015. PMID:27128216 DOI:10.1002/cpdd.174
+85. Lazarus B et al. Association of Metformin Use With Risk of Lactic Acidosis Across the Range of Kidney Function: A Community-Based Cohort Study. JAMA Intern Med. 2018. PMID:29868840 DOI:10.1001/jamainternmed.2018.0292
+86. Feig DS et al. Metformin in women with type 2 diabetes in pregnancy (MiTy): a multicentre, international, randomised, placebo-controlled trial. Lancet Diabetes Endocrinol. 2020. PMID:32946820 DOI:10.1016/S2213-8587(20)30310-7
+87. Feig DS et al. Outcomes in children of women with type 2 diabetes exposed to metformin versus placebo during pregnancy (MiTy Kids): a 24-month... Lancet Diabetes Endocrinol. 2023. PMID:36746160 DOI:10.1016/S2213-8587(23)00004-9
+88. Yland JJ et al. Perinatal Outcomes Associated With Metformin Use During Pregnancy in Women With Pregestational Type 2 Diabetes Mellitus. Diabetes Care. 2024. PMID:39042587 DOI:10.2337/dc23-2056
+89. van Rensburg R et al. Reduced Metformin Concentrations in Obese Women With Human Immunodeficiency Virus Treated With Dolutegravir. J Infect Dis. 2025. PMID:40468972 DOI:10.1093/infdis/jiaf305
+90. Haber R et al. The impact of metformin on weight and metabolic parameters in patients with obesity: A systematic review and meta-analysis of randomized... Diabetes Obes Metab. 2024. PMID:38468148 DOI:10.1111/dom.15501
+91. Xu EJ et al. Hypomagnesemia With Metformin Use in Diabetes Mellitus: A Case and Narrative Review. Kidney Med. 2025. PMID:40613016 DOI:10.1016/j.xkme.2025.101030
+92. Chen F et al. Associations among diabetes medication use, serum magnesium, and insulin resistance in a cohort of older Puerto Rican adults. Am J Clin Nutr. 2024. PMID:38599521 DOI:10.1016/j.ajcnut.2024.04.005
+93. Tsapas A et al. Comparative Effectiveness of Glucose-Lowering Drugs for Type 2 Diabetes: A Systematic Review and Network Meta-analysis. Ann Intern Med. 2020. PMID:32598218 DOI:10.7326/M20-0864
+94. DailyMed. Metformin hydrochloride extended-release tablets, prescribing information (setid 7cb47c3e). 2026. URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7cb47c3e-6657-4c11-8aa2-ae172e5a8529
+95. DailyMed. GLUMETZA (metformin HCl) extended-release tablets, prescribing information. 2026. URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fb832474-88d9-4e29-95cd-fbc446944cc4
+96. DailyMed. FORTAMET (metformin HCl) extended-release tablets, prescribing information. 2010. URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8cbcee12-3eb1-4726-9212-5dddc39a3b0f

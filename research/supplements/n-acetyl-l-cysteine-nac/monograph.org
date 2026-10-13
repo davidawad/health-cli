@@ -3,35 +3,217 @@
 :ID: supp-n-acetyl-l-cysteine-nac
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: N-acetylcysteine | NAC | acetylcysteine
+:ALIASES: N-acetylcysteine | NAC | acetylcysteine | N-acetyl cysteine | Acetadote | GlyNAC (with glycine)
 :CATEGORY: amino-acid
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
+
 ** Identity & forms
-- NAC is an acetylated cysteine derivative available as OTC oral supplement and as a regulated drug (including IV/ inhaled products depending jurisdiction) [URL:https://www.fda.gov/drugs].
+- Acetylated cysteine prodrug. It started as a mucolytic about 60 years ago, is now standard care for paracetamol (acetaminophen) poisoning, and is on the WHO essential medicines list [PMID:34171332].
+- Regulated US drug forms: Acetadote IV (acetaminophen antidote, 300 mg/kg total) [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=472f158a-5ab9-4308-8e49-1116e6ea3d39]; acetylcysteine solution as an inhaled mucolytic or oral antidote (140 mg/kg load, then 70 mg/kg every 4 h for 17 doses) [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5558a5f5-e821-473b-7d8a-5d33d09f0586].
+- US supplement status: FDA holds that NAC is excluded from the dietary-supplement definition. In 2022 it denied the CRN/NPA citizen petitions but chose enforcement discretion for NAC products labeled as supplements. FDA reported no safety concerns found in its review to date [URL:https://www.fda.gov/food/hfp-constituent-updates/fda-issues-response-two-citizen-petitions-nac-dietary-supplements].
+- Oral PK: peak 0.35-4 mg/L at 1-2 h after 200-400 mg; Vd 0.33-0.47 L/kg; terminal half-life about 6.25 h; excreted mainly as inorganic sulphate [PMID:2029805]. Bioavailability varies by formulation, and clearance falls in advanced CKD [PMID:39430194].
+- GlyNAC is glycine plus NAC, used in ageing trials [PMID:35975308] [PMID:34587244]. In mice, GlyNAC extended lifespan by 24% [PMID:35268089]. This monograph covers NAC alone. The combined product "NAC, Ginger, Curcumin" has its own monograph.
+
 ** Mechanisms
-- Cysteine precursor for glutathione synthesis; reduces disulfide bonds in mucus; pharmacologic antidote replenishes glutathione in acetaminophen poisoning [PMID:30855987].
+- Three conventional mechanisms: (i) reducing disulfide bonds, (ii) directly scavenging ROS, (iii) supplying cysteine for glutathione (GSH) synthesis. A 2021 review argues these do not explain most effects, and proposes conversion of NAC to H2S and sulfane-sulfur species instead [PMID:34171332].
+- Airway: lowers MUC5AC/MUC5B expression and goblet-cell hyperplasia in vitro and in animals, so it acts as both mucolytic and mucoregulator. Human bronchial-tissue data are lacking [PMID:39493366].
+- Paracetamol antidote: replenishes GSH to detoxify the metabolite NAPQI [PMID:29473717].
+- Glutamate modulation is the rationale for psychiatric and addiction use [PMID:39556483] [PMID:39376972].
+- Thiol donor: potentiates organic-nitrate vasodilation [PMID:3079676] [PMID:8205670].
+- Lowers activity of coagulation factors II, VII, IX and X [PMID:39878294]. Inhibits ADP-induced platelet aggregation [PMID:16607076] [PMID:21600014].
+- Redox signalling blunting: in muscle, NAC blunted the post-exercise activation of mTOR/p70S6K/p38 and delayed recovery [PMID:23719546]. In mouse models, NAC (with vitamin E) sped lung-tumour progression through the ROS-p53 axis [PMID:24477002].
+
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | Certainty | Citations |
-|---------+--------------------+-----------+-------------+-----------+-----------|
-| Principal studied outcome | Systematic review/RCT or official product label | Acetaminophen overdose: established antidote under medical care. COPD: trials/meta-analyses suggest possible reduction in exacerbations with inconsistent lung-function/QOL benefit [PMID:42473447]. Psychiatric indications remain investigational. | See outcome summary above; no extrapolation to unstudied endpoints | low | [PMID:42473447] [PMID:30855987] |
-| Hard clinical outcomes / prevention | Human outcome evidence sparse or absent in sources reviewed | Not established | No reliable effect estimate | very low | [PMID:42473447] [PMID:30855987] |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Paracetamol overdose (antidote) | Cochrane SR; RCTs of regimens; FDA label | Benefit (standard of care) | Better than placebo; 2-bag vs 3-bag hepatotoxicity OR 0.88 (0.72-1.08); 12-h SARPO regimen non-inferior | moderate | [PMID:29473717] [PMID:40013897] [PMID:40414507] |
+| COPD / chronic bronchitis exacerbations | Multiple MAs of RCTs | Modest reduction | RR 0.87 (0.79-0.96; 14 RCTs, n=2,856); IRR 0.76 (0.59-0.99) in COPD; one MA (9 RCTs) null | moderate | [PMID:42473447] [PMID:38555190] [PMID:26324807] [PMID:36927162] [PMID:39413571] |
+| COPD lung function / QoL | MAs of RCTs | No effect | FEV1, FVC, SGRQ and GSH not improved | moderate | [PMID:42473447] [PMID:39413571] |
+| Influenza-like illness (older adults) | Single RCT (n=262, 600 mg bid, 6 mo) | Fewer symptomatic episodes | Symptomatic infection 25% vs 79% of seroconverters | low | [PMID:9230243] |
+| Idiopathic pulmonary fibrosis | PANTHER RCT (n=264) | No benefit | FVC change -0.18 vs -0.19 L at 60 wk | high | [PMID:24836309] |
+| Contrast-associated AKI | PRESERVE (n=4,993), ACT (n=2,308), MAs | No benefit in large RCTs | Primary end point OR 1.02 (0.78-1.33); ACT RR 1.00; oral NAC MA OR 1.00 | high | [PMID:29130810] [PMID:21859972] [PMID:42015439] [PMID:41312470] |
+| Bipolar depression | MAs/NMA of RCTs | Small-moderate benefit, fragile | d 0.45 (0.06-0.84; 6 RCTs); NMA SMD -0.37 (-0.74 to -0.01; 8 RCTs) | low | [PMID:33354859] [PMID:42863801] [PMID:39504621] |
+| Depressive symptoms (mixed) | MA of 12 RCTs (n=904) | Small benefit | SMD -0.24 (-0.44 to -0.05) | low | [PMID:39504621] [PMID:29457216] |
+| Schizophrenia (adjunct) | MAs; NMA of 148 RCTs | Inconsistent | Total psychopathology SMD -0.74 (I2 84%); later MA of 8 RCTs (n=594) null | low | [PMID:29457216] [PMID:31826654] [PMID:37712506] [PMID:40945815] |
+| OCD (SSRI augmentation) | MA of 6 RCTs (n=195) | Possible benefit at 5-8 wk only | Y-BOCS borderline (p=0.05) | very low | [PMID:39376972] |
+| Trichotillomania | Cochrane SR | Possible benefit in adults | Response RR 3.5 (1.34-9.17; 1 RCT, n=50); null in youth | low | [PMID:34582562] |
+| Substance craving / cannabis / alcohol | MAs, Cochrane, RCTs | Mostly null | Craving SMD 0.189 (-0.015 to 0.393); cannabis abstinence RR 1.17 (0.73-1.88) | moderate | [PMID:39556483] [PMID:41025421] [PMID:39910268] [PMID:40875537] [PMID:41021585] [PMID:42115982] |
+| Autism irritability/hyperactivity | MA of 5 RCTs | Benefit | ABC irritability MD 4.07 (1.13-7.04) | low | [PMID:32900213] |
+| PCOS hormones/ovulation | MAs of RCTs | Improved hormones; pregnancy unclear | TT SMD -0.25; clinical pregnancy OR 1.55 (0.98-2.47) | low | [PMID:36597797] [PMID:39861414] [PMID:34592079] [PMID:31749393] |
+| Male semen parameters | MAs of RCTs (5 and 3 trials) | Improvement | Total motility MD 9.69% (6.61-12.77) | low | [PMID:40126496] [PMID:40350672] |
+| Ageing biomarkers (GlyNAC) | Small RCT (n=24 older adults); larger 2-wk RCT (n=114) | Benefit in one group; null primary end point in other | GSH/OxS corrected (Sekhar); no GSH-F:GSSG change (Lizzo) | very low | [PMID:35975308] [PMID:35821844] [PMID:33783984] [PMID:34587244] |
+| Insulin resistance | RCTs | Inconsistent | HOMA-IR lower in obese adults (n=40); no change in MASLD (n=60, 2,400 mg/d) | very low | [PMID:37794966] [PMID:42587287] |
+| Exercise performance | MA (7 studies) | No effect | +0.29% (-0.67 to 1.25) | low | [PMID:28102488] [PMID:39632267] |
+| COVID-19 mortality | MAs of RCTs | Possible reduction | OR 0.49 (0.25-0.94; 10 RCTs, I2 67%) | low | [PMID:40728675] |
+| Post-op atrial fibrillation (cardiac surgery) | MA of 15 RCTs | Reduction | RR 0.69 (0.52-0.91) | low | [PMID:38842239] |
+
 ** Dosing in trials
-- Oral COPD studies typically 600–1200 mg/day; psychiatric trials often 1.2–3 g/day, heterogeneous. Overdose treatment uses protocol-based IV/oral medical dosing [PMID:42473447].
+- COPD: 600 mg/d up to >=1,200 mg/d. In one MA, low dose (<=600 mg/d) reduced exacerbations (RR 0.84) and high dose did not (RR 0.88, NS) [PMID:42473447]. An older MA favoured >=1,200 mg/d when airflow obstruction is present [PMID:26324807].
+- Psychiatry: 1,000-3,000 mg/d for 8-24 weeks in depression MAs [PMID:39504621]. Cannabis/AUD youth trials used 1,200 mg twice daily [PMID:39910268] [PMID:41016625]. The PTSD/AUD trial used 2,400 mg/d [PMID:40875537]. Schizophrenia benefit appeared only at >=24 weeks [PMID:31826654].
+- Influenza-like illness: 600 mg twice daily for 6 months [PMID:9230243]. IPF trials: 600 mg three times daily [PMID:36514019].
+- PCOS ovulation induction: 1.8 g/d [PMID:39415242].
+- GlyNAC: 2.4-7.2 g/d (glycine:NAC 1:1) for 2 weeks [PMID:35821844]; 16-24 weeks in Sekhar trials [PMID:35975308] [PMID:33783984].
+- Contrast prophylaxis (ineffective): 1,200 mg twice daily around the procedure [PMID:21859972]; 5 days oral in PRESERVE [PMID:29130810].
+- Paracetamol overdose (medical only): IV 3-bag 150/50/100 mg/kg over 21 h, or 2-bag 200/100 mg/kg over 20 h [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=472f158a-5ab9-4308-8e49-1116e6ea3d39]; 12-h SARPO regimen [PMID:40414507].
+- Sport: typical 5.8 g/d (range 1.2-20 g/d). Side effects tended to rise with dose [PMID:28102488].
+
 ** Safety & adverse effects
-- Oral GI upset; inhaled bronchospasm; IV anaphylactoid reactions. Do not delay emergency overdose treatment.
+- Oral: adverse events similar to placebo in COPD and psychiatric MAs [PMID:42473447] [PMID:29457216]. In a youth trial at 2,400 mg/d, GI events were more common on NAC (63/98 vs 37/94) [PMID:39910268]. Nausea, vomiting and diarrhoea are the usual effects [PMID:2029805].
+- IV anaphylactoid (non-IgE) reactions: 8.2% of 6,455 courses, 75% cutaneous, 95% within the first 5 h [PMID:29423816]; up to 17% in the label's loading-dose study, anaphylaxis 0.1-0.2% [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=472f158a-5ab9-4308-8e49-1116e6ea3d39].
+  - Risk factors: female sex and asthma/atopy [PMID:19280424]. Fewer reactions with 2-bag/SNAP regimens and with high paracetamol levels [PMID:31601129] [PMID:40013897] [PMID:40850738].
+- Inhaled: bronchospasm in asthmatics; stop if it progresses. Also stomatitis, rhinorrhoea, nausea [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5558a5f5-e821-473b-7d8a-5d33d09f0586].
+- IV fluid overload can cause hyponatraemia and seizures, mainly in patients under 40 kg [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=472f158a-5ab9-4308-8e49-1116e6ea3d39].
+- Haemostasis: PT/INR rises 15-30% [PMID:39878294]. Platelet inhibition and greater blood loss with IV NAC in aortic surgery [PMID:16607076].
+- Cancer signal (preclinical only): in mice, NAC accelerated lung tumours [PMID:24477002] and induced lung adenocarcinoma in aged/JunD-deficient mice [PMID:31578304]. No human trial evidence.
+- Exercise: blunted muscle repair signalling and recovery after eccentric exercise (n=10) [PMID:23719546].
+- IPF: triple therapy (prednisone + azathioprine + NAC) raised death (8 vs 1) and hospitalisation [PMID:22607134].
+
 ** Contraindications
-- Caution asthma/bronchospasm and active peptic symptoms; overdose is emergency treatment, not self-care.
+- Prior anaphylactoid reaction to acetylcysteine. Asthma or bronchospasm needs close monitoring, especially with inhaled or IV forms [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5558a5f5-e821-473b-7d8a-5d33d09f0586] [PMID:19280424].
+- Suspected paracetamol overdose needs emergency, protocol-based treatment. Supplement NAC is not a substitute [PMID:29473717].
+- Caution with bleeding disorders or around major surgery [PMID:16607076] [PMID:39878294].
+- Caution in people with lung cancer or at high risk of it, such as heavy smokers (preclinical signal) [PMID:24477002] [PMID:31578304].
+- Pregnancy and lactation: PK data are lacking [PMID:2029805]. The Acetadote label reports limited human data and no adverse fetal effects in animals [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=472f158a-5ab9-4308-8e49-1116e6ea3d39].
+
 ** Interactions
-- May potentiate nitroglycerin vasodilation/headache; caution with anticoagulants based on limited evidence. Activated charcoal may reduce oral antidote absorption.
-- Structured high-priority interactions are represented in interactions.json; absence of an edge is not proof of no interaction.
+*** Drugs
+- Nitroglycerin and other organic nitrates: NAC potentiates nitrate headache and temporal-artery dilation [PMID:1505148] and coronary dilation [PMID:3079676]. It also potentiates the haemodynamic effects of isosorbide dinitrate [PMID:8205670] [PMID:1714011].
+  In unstable angina, combining NAC with nitroglycerin caused intolerable headache in 35% of patients [PMID:9120179].
+- Activated charcoal: lowered oral NAC peak by 29% and AUC by 39% [PMID:3663288]. The label advises lavage before oral NAC if charcoal was given [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5558a5f5-e821-473b-7d8a-5d33d09f0586].
+- Anticoagulants/antiplatelets (warfarin, aspirin): NAC has factor-lowering and platelet-inhibiting effects [PMID:16607076] [PMID:21600014] [PMID:39878294]. Additive bleeding risk is plausible but not studied clinically.
+- Prednisone + azathioprine (IPF): harmful as a triple regimen [PMID:22607134].
+- Metformin: compared head-to-head with NAC in PCOS (similar pregnancy rates; NAC lowered BMI and testosterone). No combination interaction data [PMID:31749393] [PMID:34592079].
+- Carbamazepine: no human interaction study was retrieved, so no claim is made.
+*** Other supplements
+- Glycine: combined as GlyNAC to supply both GSH precursors [PMID:35975308] [PMID:35821844].
+- Vitamin E: in mice, the combination with NAC sped lung-cancer progression [PMID:24477002].
+- Vitamin C: adding ascorbic acid to NAC gave no extra contrast-nephropathy protection [PMID:28452187]. "NAC, Ginger, Curcumin" (combined product): stacking it with NAC duplicates NAC dose. GI events rise with dose [PMID:28102488] [PMID:39910268].
+*** Conditions
+- Asthma: bronchospasm risk with inhaled NAC; higher anaphylactoid risk with IV NAC (see Contraindications).
+- IPF: NAC gave no benefit overall [PMID:24836309]. The effect may depend on TOLLIP genotype (see Genotype notes).
+- Endurance or strength training: NAC may blunt adaptation signalling [PMID:23719546]. It does not improve performance [PMID:28102488].
+- CKD: NAC clearance falls in advanced CKD [PMID:39430194]. Bleeding risk or major surgery: see Contraindications.
+*** Lab-test interference
+- Creatinine: NAC lowers serum creatinine but not cystatin C. The effect is larger with non-Jaffe (enzymatic) assays (WMD -3.24 umol/L) and IV dosing (WMD -31.10 umol/L), which suggests analytic interference [PMID:33615065].
+- Trinder (peroxidase) assays: >=10% inhibition at NAC levels of 570 mg/L (triglycerides), 740 mg/L (cholesterol), 790 mg/L (enzymatic creatinine), 1,100 mg/L (uric acid), 1,760 mg/L (HDL-C) and 2,900 mg/L (LDL-C) [PMID:26500003].
+  These levels are above those expected with therapy, so effects are relevant mainly at high IV concentrations. Only minor creatinine inhibition was seen in patients [PMID:26500003].
+- PT/INR: falsely raised by 15-30% during IV NAC, independent of liver injury [PMID:39878294] [PMID:34549665] [PMID:40663728].
+
 ** Genotype notes
-- No cited pharmacogenomic/nutrigenomic source was identified for a supplement-specific genotype effect; no genotype claim made.
+- TOLLIP rs3750920 (IPF), post hoc PANTHER analysis replicated in a second cohort: NAC reduced the composite end point in TT carriers (HR 0.14, 0.02-0.83) but trended toward harm in CC carriers (HR 3.23, 0.79-13.16) [PMID:26331942].
+- PRECISIONS is a prospective RCT testing 600 mg three times daily in TT carriers (about 25% of IPF patients) [PMID:36514019]. No nutrigenomic data were found for other indications.
+
 ** Latest research
-- 2026-07: 2026 COPD meta-analysis (14 RCTs, n=2,856) reported fewer exacerbations RR 0.87 (0.79–0.96), without significant FEV1/QOL improvement; study supports cautious interpretation [PMID:42473447].
+- [2026-10] Bipolar-depression NMA (22 RCTs): NAC SMD -0.37 across 8 trials; low to very low certainty [PMID:42863801].
+- [2026-08] MASLD RCT (n=60, 2,400 mg/d, 12 wk): no change in MDA, HOMA-IR, steatosis or fibrosis [PMID:42587287].
+- [2026-07] COPD MA (14 RCTs, n=2,856): exacerbations RR 0.87; no FEV1/QoL benefit [PMID:42473447].
+- [2026-05] AUD/PTSD SR (7 RCTs, n=566): no consistent benefit for craving or PTSD [PMID:42115982].
+- [2026-04] Contrast-nephropathy MA (49 studies): neither oral nor IV NAC reduced AKI [PMID:42015439].
+- [2026-03] Parkinson's SR (9 studies, n=196): preliminary motor/DAT-binding signals [PMID:41874704]. Neurology SR across 7 disorders: strongest signal in mild TBI [PMID:41977262].
+- [2025-12] SNAP 12-h regimen: fewer anaphylactoid reactions at all ages [PMID:40850738].
+- [2025-11] CA-AKI NMA (72 RCTs): hydration + oral NAC OR 0.78. This conflicts with the large null RCTs [PMID:41312470]. Post-ERCP pancreatitis MA: RR 0.66 (NS) [PMID:41188701].
+- [2025-09] Youth AUD RCT (n=126): no overall effect; fewer drinks in moderate-severe AUD [PMID:41016625]. Cochrane cannabis review: NAC abstinence RR 1.17 (NS) [PMID:41025421]. Schizophrenia NMA: NAC 2,000 mg/d benefit in several domains [PMID:40945815].
+- [2025-08] PTSD/AUD RCT (n=182): no better than placebo [PMID:40875537]. COVID-19 mortality MA: OR 0.49 [PMID:40728675].
+- [2025-07] In vitro study: NAC raises INR by 0.039 per mmol/L [PMID:40663728].
+- [2025-05] SARPO RCT: 12-h IV regimen non-inferior [PMID:40414507]. Cisplatin hearing-loss MA: null [PMID:40323204].
+- [2025-03] Two-bag vs three-bag MA: adverse events OR 0.24 [PMID:40013897]. Male-infertility MAs: semen parameters improved [PMID:40126496] [PMID:40350672].
+- [2025-02] Youth cannabis RCT (n=192): null without contingency management [PMID:39910268].
+- [2025-01] PCOS MA (22 studies): higher progesterone and endometrial thickness [PMID:39861414]. INR review: 15-30% rise [PMID:39878294].
+- [2024-12] Exercise MA (20 studies): less soreness and lactate [PMID:39632267].
+- [2024-11] Depression MA: SMD -0.24 [PMID:39504621]. Craving MA: null, with possible publication bias [PMID:39556483].
+- [2024-10] Mucolytics in stable COPD MA [PMID:39413571]; mucus-hypersecretion SR [PMID:39493366]; PCOS ovulation-induction RCT (n=230) [PMID:39415242].
+
 ** Open questions
-- Which formulations, populations, and durations produce clinically meaningful outcomes rather than biomarker-only changes?
-- Are there long-term benefits or harms beyond the relatively short human trials available?
+- Can genotype (TOLLIP) or high oxidative-stress phenotypes identify NAC responders in IPF, COPD and ageing? PRECISIONS results are pending.
+- Do GlyNAC findings replicate in larger, independent, longer RCTs with clinical end points?
+- What is the optimal COPD dose? MAs disagree on whether low or high dose works better.
+- Is the preclinical tumour-promotion signal relevant to long-term human supplement use, for example in smokers?
+- Clinically relevant lab artifacts at oral supplement doses (creatinine, INR) remain poorly quantified. What is the long-term regulatory path in the US after FDA enforcement discretion?
+
 ** Sources
-- [PMID:42473447] [PMID:30855987]
+- PMID:34171332 DOI:10.1016/j.pharmthera.2021.107916 - Pedre B et al. Mechanism of action of NAC: H2S and sulfane sulfur. Pharmacol Ther 2021
+- PMID:2029805 DOI:10.2165/00003088-199120020-00004 - Holdiness MR. Clinical pharmacokinetics of N-acetylcysteine. Clin Pharmacokinet 1991
+- PMID:39430194 DOI:10.1016/j.ekir.2024.07.020 - Hernandez-Cruz EY et al. NAC in kidney disease: mechanisms, PK. Kidney Int Rep 2024
+- PMID:39493366 DOI:10.2147/COPD.S474512 - Rogliani P et al. NAC and airway mucus hypersecretion SR. Int J Chron Obstruct Pulmon Dis 2024
+- PMID:42473447 DOI:10.7717/peerj.21448 - Cai X et al. NAC in COPD SR/MA. PeerJ 2026
+- PMID:38555190 DOI:10.1016/j.arbres.2024.03.010 - Papi A et al. NAC in COPD and chronic bronchitis/pre-COPD MAs. Arch Bronconeumol 2024
+- PMID:39413571 DOI:10.1016/j.resinv.2024.10.004 - Ohnishi H et al. Mucolytics in stable COPD SR/MA. Respir Investig 2024
+- PMID:26324807 DOI:10.1183/16000617.00002215 - Cazzola M et al. NAC on chronic bronchitis/COPD exacerbations MA. Eur Respir Rev 2015
+- PMID:36927162 DOI:10.1177/17534666231158563 - Huang C et al. NAC in COPD MA. Ther Adv Respir Dis 2023
+- PMID:9230243 DOI:10.1183/09031936.97.10071535 - De Flora S et al. NAC and influenza-like symptomatology RCT. Eur Respir J 1997
+- PMID:24836309 DOI:10.1056/NEJMoa1401739 - IPF Clinical Research Network (Martinez FJ). Acetylcysteine in IPF (PANTHER). N Engl J Med 2014
+- PMID:22607134 DOI:10.1056/NEJMoa1113354 - IPF Clinical Research Network (Raghu G). Prednisone, azathioprine, NAC for IPF. N Engl J Med 2012
+- PMID:26331942 DOI:10.1164/rccm.201505-1010OC - Oldham JM et al. TOLLIP, MUC5B and response to NAC in IPF. Am J Respir Crit Care Med 2015
+- PMID:36514019 DOI:10.1186/s12890-022-02281-8 - Podolanczuk AJ et al. PRECISIONS trial design. BMC Pulm Med 2022
+- PMID:29473717 DOI:10.1002/14651858.CD003328.pub3 - Chiew AL et al. Interventions for paracetamol overdose. Cochrane Database Syst Rev 2018
+- PMID:40414507 DOI:10.1016/j.jhep.2025.05.008 - Isbister G et al. Shorter acetylcysteine regimen (SARPO) RCT. J Hepatol 2025
+- PMID:40013897 DOI:10.1080/15563650.2025.2456116 - Nakatsu L et al. Two-bag vs three-bag acetylcysteine MA. Clin Toxicol 2025
+- PMID:40850738 DOI:10.1136/emermed-2024-214533 - Humphries C et al. SNAP 12-h regimen across ages. Emerg Med J 2025
+- PMID:29423816 DOI:10.1007/s13181-018-0653-9 - Yarema M et al. Anaphylactoid reactions to IV NAC. J Med Toxicol 2018
+- PMID:31601129 DOI:10.1080/15563650.2019.1675886 - Daoud A et al. Two-bag NAC, antihistamines and anaphylactoid reactions. Clin Toxicol 2020
+- PMID:19280424 DOI:10.1080/15563650802665587 - Sandilands EA et al. Adverse reactions associated with acetylcysteine. Clin Toxicol 2009
+- PMID:29130810 DOI:10.1056/NEJMoa1710933 - Weisbord SD et al. Sodium bicarbonate and acetylcysteine after angiography (PRESERVE). N Engl J Med 2018
+- PMID:21859972 DOI:10.1161/CIRCULATIONAHA.111.038943 - ACT Investigators. Acetylcysteine for contrast-induced nephropathy (ACT). Circulation 2011
+- PMID:42015439 DOI:10.29271/jcpsp.2026.04.508 - Rafique B et al. NAC prophylaxis against contrast nephropathy MA. J Coll Physicians Surg Pak 2026
+- PMID:41312470 DOI:10.3389/fmed.2025.1608626 - Lin IC et al. Saline and NAC strategies for CA-AKI NMA. Front Med 2025
+- PMID:28452187 DOI:10.1111/nep.13068 - Feng Y et al. NAC vs ascorbic acid or both for CIN MA. Nephrology 2018
+- PMID:29457216 DOI:10.1111/acps.12862 - Zheng W et al. NAC for major mental disorders MA. Acta Psychiatr Scand 2018
+- PMID:33354859 DOI:10.1111/bdi.13039 - Nery FG et al. NAC for bipolar depression MA. Bipolar Disord 2021
+- PMID:42863801 DOI:10.1016/j.jad.2026.122618 - Peng TR et al. Mitochondrial modulators for bipolar depression NMA. J Affect Disord 2026
+- PMID:39504621 DOI:10.1016/j.genhosppsych.2024.10.018 - Peng TR et al. NAC for depression updated MA. Gen Hosp Psychiatry 2024
+- PMID:31826654 DOI:10.1177/0004867419893439 - Yolland CO et al. NAC in schizophrenia MA. Aust N Z J Psychiatry 2020
+- PMID:37712506 DOI:10.1002/hup.2880 - Zhang Q et al. Adjunctive NAC for psychotic disorders MA. Hum Psychopharmacol 2024
+- PMID:40945815 DOI:10.1016/j.pnpbp.2025.111495 - Liang CW et al. Glutamatergic modulators for schizophrenia NMA. Prog Neuropsychopharmacol Biol Psychiatry 2025
+- PMID:39376972 DOI:10.3389/fpsyt.2024.1421150 - Eghdami S et al. NAC augmentation in adult OCD MA. Front Psychiatry 2024
+- PMID:34582562 DOI:10.1002/14651858.CD007662.pub3 - Hoffman J et al. Pharmacotherapy for trichotillomania. Cochrane Database Syst Rev 2021
+- PMID:32900213 DOI:10.1177/0004867420952540 - Lee TM et al. NAC in autism spectrum disorder MA. Aust N Z J Psychiatry 2021
+- PMID:39556483 DOI:10.1111/adb.70001 - Winterlind EL et al. NAC for substance use cravings MA. Addict Biol 2024
+- PMID:41025421 DOI:10.1002/14651858.CD008940.pub4 - Spiga F et al. Pharmacotherapies for cannabis use disorder. Cochrane Database Syst Rev 2025
+- PMID:39910268 DOI:10.1038/s41386-025-02061-y - Gray KM et al. NAC for youth cannabis use disorder RCT. Neuropsychopharmacology 2025
+- PMID:40875537 DOI:10.4088/JCP.25m15803 - Back SE et al. NAC for co-occurring PTSD and AUD RCT. J Clin Psychiatry 2025
+- PMID:41021585 DOI:10.47626/1516-4446-2024-3541 - Schuch JB et al. NAC as adjuvant for AUD RCT. Braz J Psychiatry 2025
+- PMID:41016625 DOI:10.1016/j.jaac.2025.09.025 - Squeglia LM et al. NAC for adolescent/young adult AUD RCT. J Am Acad Child Adolesc Psychiatry 2026
+- PMID:42115982 DOI:10.1186/s12888-026-08124-8 - Ahmed MAE et al. NAC for AUD/PTSD SR/MA. BMC Psychiatry 2026
+- PMID:39861414 DOI:10.3390/nu17020284 - Vina I et al. NAC in PCOS SR/MA. Nutrients 2025
+- PMID:36597797 DOI:10.1017/S0007114522003270 - Shahveghar Asl Z et al. NAC on ovulation and sex hormones in PCOS MA. Br J Nutr 2023
+- PMID:31749393 DOI:10.1080/09513590.2019.1689553 - Song Y et al. NAC vs metformin in PCOS MA. Gynecol Endocrinol 2020
+- PMID:34592079 DOI:10.1515/jbcpp-2020-0107 - Devi N et al. NAC as adjuvant in female infertility MA. J Basic Clin Physiol Pharmacol 2020
+- PMID:39415242 DOI:10.1186/s13048-024-01528-8 - Fang YQ et al. NAC in PCOS mice and ovulation-induction RCT. J Ovarian Res 2024
+- PMID:40350672 DOI:10.22514/j.androl.2025.004 - Ma X et al. L-carnitine and NAC for male idiopathic infertility MA. Rev Int Androl 2025
+- PMID:40126496 DOI:10.4081/aiua.2025.13750 - Syarif S et al. NAC and seminal parameters MA. Arch Ital Urol Androl 2025
+- PMID:35975308 DOI:10.1093/gerona/glac135 - Kumar P et al. GlyNAC in older adults RCT. J Gerontol A Biol Sci Med Sci 2023
+- PMID:33783984 DOI:10.1002/ctm2.372 - Kumar P et al. GlyNAC in older adults pilot trial. Clin Transl Med 2021
+- PMID:34587244 DOI:10.1093/jn/nxab309 - Sekhar RV. GlyNAC supplementation review. J Nutr 2021
+- PMID:35821844 DOI:10.3389/fragi.2022.852569 - Lizzo G et al. Glycine and NAC in healthy older adults RCT. Front Aging 2022
+- PMID:35268089 DOI:10.3390/nu14051114 - Kumar P et al. GlyNAC increases lifespan in mice. Nutrients 2022
+- PMID:37794966 DOI:10.3389/fnut.2023.1237869 - Sohouli MH et al. NAC on senescence and obesity complications RCT. Front Nutr 2023
+- PMID:42587287 DOI:10.1186/s12876-026-05157-x - Ramadan AM et al. High-dose NAC in non-diabetic MASLD RCT. BMC Gastroenterol 2026
+- PMID:28102488 DOI:10.1007/s40279-017-0677-3 - Rhodes K et al. Performance and side effects of NAC MA. Sports Med 2017
+- PMID:39632267 DOI:10.1111/jcmm.70198 - Sadowski M et al. NAC on lactate, oxidative stress, muscle damage MA. J Cell Mol Med 2024
+- PMID:23719546 DOI:10.3945/ajcn.112.049163 - Michailidis Y et al. Thiol antioxidant alters muscle signalling after eccentric exercise. Am J Clin Nutr 2013
+- PMID:26500003 DOI:10.1016/j.clinbiochem.2015.10.005 - Genzen JR et al. NAC interference of Trinder-based assays. Clin Biochem 2016
+- PMID:33615065 DOI:10.1016/j.ekir.2020.11.018 - Huang JW et al. NAC effect on serum creatinine and cystatin C SR. Kidney Int Rep 2021
+- PMID:34549665 DOI:10.1080/15563650.2021.1979232 - Minhaj FS et al. In vitro NAC interference with INR. Clin Toxicol 2022
+- PMID:40663728 DOI:10.1097/FTD.0000000000001356 - Nazar M et al. In vitro acetylcysteine effects on INR over time. Ther Drug Monit 2026
+- PMID:39878294 DOI:10.1080/15563650.2025.2451642 - Nazar M et al. Acetylcysteine and PT/INR narrative review. Clin Toxicol 2025
+- PMID:16607076 DOI:10.1097/01.mbc.0000195922.26950.89 - Niemi TT et al. NAC on coagulation and platelets in aortic surgery RCT. Blood Coagul Fibrinolysis 2006
+- PMID:21600014 DOI:10.1186/1475-2840-10-43 - Gibson KR et al. NAC as antiplatelet agent in type-2 diabetes. Cardiovasc Diabetol 2011
+- PMID:1505148 DOI:10.1038/clpt.1992.121 - Iversen HK et al. NAC enhances nitroglycerin-induced headache. Clin Pharmacol Ther 1992
+- PMID:3079676 DOI:10.1161/01.cir.73.1.138 - Winniford MD et al. NAC potentiates nitroglycerin coronary dilatation. Circulation 1986
+- PMID:9120179 DOI:10.1016/s0735-1097(97)00005-3 - Ardissino D et al. Transdermal nitroglycerin and/or NAC in unstable angina RCT. J Am Coll Cardiol 1997
+- PMID:8205670 DOI:10.1161/01.cir.89.6.2595 - Mehra A et al. NAC potentiates isosorbide dinitrate in heart failure. Circulation 1994
+- PMID:1714011 DOI:10.1097/00005344-199106000-00005 - Boesgaard S et al. Oral NAC and nitrate tolerance in stable angina. J Cardiovasc Pharmacol 1991
+- PMID:3663288 DOI:10.1016/0735-6757(87)90166-5 - Ekins BR et al. Activated charcoal and NAC absorption. Am J Emerg Med 1987
+- PMID:24477002 DOI:10.1126/scitranslmed.3007653 - Sayin VI et al. Antioxidants accelerate lung cancer progression in mice. Sci Transl Med 2014
+- PMID:31578304 DOI:10.1172/jci.insight.127647 - Breau M et al. NAC protects from emphysema but induces lung adenocarcinoma in mice. JCI Insight 2019
+- PMID:40728675 DOI:10.1007/s10787-025-01876-x - Kow CS et al. NAC and COVID-19 mortality MA. Inflammopharmacology 2025
+- PMID:40323204 DOI:10.1002/ohn.1272 - Plane J et al. NAC for cisplatin-induced hearing loss MA. Otolaryngol Head Neck Surg 2025
+- PMID:41188701 DOI:10.1186/s12876-025-04382-0 - Hormati A et al. NAC for post-ERCP pancreatitis MA. BMC Gastroenterol 2025
+- PMID:38842239 DOI:10.23736/S2724-5683.24.06482-2 - Hassan AA et al. NAC and postoperative atrial fibrillation MA. Minerva Cardiol Angiol 2025
+- PMID:41874704 DOI:10.1007/s00726-026-03513-5 - Mohammed I et al. NAC and glutathione in Parkinson's disease SR. Amino Acids 2026
+- PMID:41977262 DOI:10.3390/ijms27073076 - Mindreanu R et al. NAC in neurological disorders SR. Int J Mol Sci 2026
+- URL:https://www.fda.gov/food/hfp-constituent-updates/fda-issues-response-two-citizen-petitions-nac-dietary-supplements - FDA. Response to citizen petitions on NAC in dietary supplements (2022)
+- URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=472f158a-5ab9-4308-8e49-1116e6ea3d39 - DailyMed. Acetadote (acetylcysteine) injection label, 2025
+- URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5558a5f5-e821-473b-7d8a-5d33d09f0586 - DailyMed. Acetylcysteine solution (inhalation/oral) label, Hospira

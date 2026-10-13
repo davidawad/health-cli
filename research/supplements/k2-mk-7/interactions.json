@@ -5,21 +5,114 @@
   "aliases": [
     "Menaquinone-7",
     "MK-7",
-    "vitamin K2"
+    "vitamin K2 (MK-7)",
+    "menaquinone 7",
+    "MenaQ7",
+    "natto-derived vitamin K2",
+    "all-trans MK-7"
   ],
   "category": "vitamin",
   "rx_status": "otc",
-  "evidence_certainty_overall": "moderate",
+  "evidence_certainty_overall": "low",
   "edges": [
     {
-      "with": "warfarin",
-      "with_kind": "drug",
+      "with": "vitamin K antagonists (warfarin, acenocoumarol)",
+      "with_kind": "drug-class",
       "kind": "avoid",
       "severity": "major",
-      "mechanism": "Vitamin K antagonizes vitamin K antagonist effect, potentially lowering anticoagulation.",
-      "evidence": "Official NIH ODS warning; established pharmacology.",
+      "mechanism": "MK-7 supplies vitamin K for hepatic carboxylation of clotting factors, which directly antagonizes VKA effect. Its long half-life and accumulation make it more potent than K1.",
+      "evidence": "Volunteer dose-response study: 10-20 ug/day lowered INR in 40-60% of subjects, and 45 ug/day lowered INR by about 40%. PK comparison flags >=50 ug/day. The warfarin label lists vitamin K intake as a cause of reduced INR response.",
       "citations": [
-        "URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/"
+        "PMID:23530987",
+        "PMID:17158229",
+        "PMID:15825811",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cdbbc317-35d3-42ba-94f0-c83891358529"
+      ]
+    },
+    {
+      "with": "INR / prothrombin time (on VKA)",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "major",
+      "mechanism": "True pharmacodynamic lowering of INR in VKA-treated people, not an assay artifact.",
+      "evidence": "Controlled volunteer study with acenocoumarol.",
+      "citations": [
+        "PMID:23530987",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cdbbc317-35d3-42ba-94f0-c83891358529"
+      ]
+    },
+    {
+      "with": "natto (fermented soybean)",
+      "with_kind": "food",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Natto is the richest dietary MK-7 source. It raises serum MK-7 and affects INR in VKA users.",
+      "evidence": "Reviews and observational MA; a low-MK-7 natto (46 ug/day) did not change INR in 10 warfarin patients.",
+      "citations": [
+        "PMID:15825811",
+        "PMID:34406879",
+        "PMID:41393956"
+      ]
+    },
+    {
+      "with": "rivaroxaban (DOACs)",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "DOAC anticoagulation does not depend on vitamin K, so no antagonism is expected. Switching off a VKA improves vitamin K status.",
+      "evidence": "Valkyrie RCT in HD AF patients: rivaroxaban plus MK-7 2000 ug thrice weekly; bleeding not different from rivaroxaban alone except fewer major bleeds than VKA.",
+      "citations": [
+        "PMID:31704740"
+      ]
+    },
+    {
+      "with": "antibiotics",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "May suppress gut menaquinone-producing bacteria. The warfarin label requires INR monitoring when starting or stopping antibiotics.",
+      "evidence": "IOM review of case reports, which are confounded; label guidance.",
+      "citations": [
+        "URL:https://nap.nationalacademies.org/read/10026/chapter/7",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cdbbc317-35d3-42ba-94f0-c83891358529"
+      ]
+    },
+    {
+      "with": "glucose-lowering drugs",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "MK-7 modestly lowers FPG, HbA1c and HOMA-IR, so an additive effect is possible.",
+      "evidence": "RCT in T2D (360 ug/day): FPG ES -0.68, HbA1c ES -0.36. MAs show heterogeneous small effects. No interaction study.",
+      "citations": [
+        "PMID:33159574",
+        "PMID:40054729",
+        "PMID:41599883"
+      ]
+    },
+    {
+      "with": "teriparatide (rhPTH 1-34)",
+      "with_kind": "drug",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Anabolic PTH plus osteocalcin carboxylation.",
+      "evidence": "RCT (n=77): combination improved BMD more than vitamin K2 alone. K2 form not specified.",
+      "citations": [
+        "PMID:39197463"
+      ]
+    },
+    {
+      "with": "Vitamin D-3",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Complementary bone-mineral actions: D raises osteocalcin expression and calcium absorption, and K carboxylates osteocalcin and MGP.",
+      "evidence": "K+D MA: total BMD SMD 0.316 and lower ucOC. AVADEC (720 ug MK-7 + D3) null for valve calcification. Baseline K status did not modify D3 effects.",
+      "citations": [
+        "PMID:32219282",
+        "PMID:35465686",
+        "PMID:42453673",
+        "PMID:40949733"
       ]
     },
     {
@@ -27,15 +120,228 @@
       "with_kind": "supplement",
       "kind": "monitor",
       "severity": "moderate",
-      "mechanism": "Both are vitamin K forms; combined intake changes total vitamin K exposure relevant to VKA therapy.",
-      "evidence": "NIH ODS emphasizes consistent total vitamin K intake.",
+      "mechanism": "Both forms add to total vitamin K, which matters for VKA users. K1 lowered dp-ucMGP more than K2 in dialysis.",
+      "evidence": "Review; dialysis MA (dp-ucMGP SMD -1.64 for K1 vs -0.56 for K2).",
       "citations": [
-        "URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/"
+        "PMID:18841274",
+        "PMID:38046003",
+        "PMID:17158229"
+      ]
+    },
+    {
+      "with": "K2-MK4",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Overlapping vitamin K activity. MK-4 at nutritional doses is poorly bioavailable compared with MK-7, so stacking adds little status but still counts for VKA users.",
+      "evidence": "Bioavailability comparison RCT; review.",
+      "citations": [
+        "PMID:23140417",
+        "PMID:18841274"
+      ]
+    },
+    {
+      "with": "Vitamin E",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "High-dose alpha-tocopherol antagonizes vitamin K-dependent carboxylation.",
+      "evidence": "RCTs: 1000 IU/day raised PIVKA-II. IOM states vitamin E antagonism of vitamin K is established.",
+      "citations": [
+        "PMID:15213041",
+        "URL:https://nap.nationalacademies.org/read/10026/chapter/7"
+      ]
+    },
+    {
+      "with": "calcium",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Often co-formulated. Adding Ca 500 mg + D3 10 ug to 90 ug K2 gave no added BMD benefit.",
+      "evidence": "1-y RCT (n=311).",
+      "citations": [
+        "PMID:32060566",
+        "PMID:33030563"
+      ]
+    },
+    {
+      "with": "EPA/DHA/DPA",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "A fat/n-3 PUFA-containing food matrix may enhance MK-7 absorption.",
+      "evidence": "Small study: a multi-nutrient yogurt (including n-3 PUFA and fish oil) raised plasma MK-7 more than capsules; the effect was not isolated to n-3.",
+      "citations": [
+        "PMID:26908424"
+      ]
+    },
+    {
+      "with": "chronic kidney disease / dialysis",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Functional vitamin K deficiency is common. MK-7 corrects biomarkers but not calcification, stiffness or mortality. One trial showed site-specific radius BMD loss.",
+      "evidence": "Multiple RCTs (RenaKvit, Trevasc-HDK, K4Kidneys) and MAs; moderate certainty of no benefit.",
+      "citations": [
+        "PMID:34476095",
+        "PMID:37705910",
+        "PMID:32817311",
+        "PMID:38046003",
+        "PMID:36460034"
+      ]
+    },
+    {
+      "with": "kidney transplant",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Deficiency is common. MK-7 may slow arterial stiffening.",
+      "evidence": "RCT n=40 (PWV -0.06 vs +0.27 m/s) and single-arm study.",
+      "citations": [
+        "PMID:36695702",
+        "PMID:28756183"
+      ]
+    },
+    {
+      "with": "fat malabsorption",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Vitamin K is poorly absorbed in lipid malabsorption syndromes, so supplement response may be reduced.",
+      "evidence": "IOM DRI review.",
+      "citations": [
+        "URL:https://nap.nationalacademies.org/read/10026/chapter/7"
+      ]
+    },
+    {
+      "with": "PIVKA-II / DCP (HCC tumor marker)",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "moderate",
+      "mechanism": "Vitamin K lowers PIVKA-II, which can mask an elevated HCC marker. The marker should be measured without vitamin K administration.",
+      "evidence": "HCC cohort studies (mostly MK-4/mixed vitamin K) plus MK-7 RCTs showing PIVKA-II decreases.",
+      "citations": [
+        "PMID:1705389",
+        "PMID:1309308",
+        "PMID:35365594",
+        "PMID:38128853"
+      ]
+    },
+    {
+      "with": "dp-ucMGP / ucOC",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Supplementation lowers inactive MGP and undercarboxylated osteocalcin. These are intake/status markers, not outcomes.",
+      "evidence": "Many RCTs.",
+      "citations": [
+        "PMID:25694037",
+        "PMID:23062766",
+        "PMID:33030563"
+      ]
+    },
+    {
+      "with": "VKORC1 rs8050894",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "CC carriers had higher ucOC after K2+/-D3. This is a possible attenuated carboxylation response.",
+      "evidence": "Single small RCT (n=40) in T2D.",
+      "citations": [
+        "PMID:42257367"
       ]
     }
   ],
   "citations": [
-    "URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/",
-    "DOI:10.1302/2046-3758.1312.BJR-2024-0123.R1"
+    "URL:https://nap.nationalacademies.org/read/10026/chapter/7",
+    "PMID:18841274",
+    "PMID:41393956",
+    "PMID:21781006",
+    "PMID:38443482",
+    "PMID:35583412",
+    "PMID:17158229",
+    "PMID:37132123",
+    "PMID:23140417",
+    "PMID:26908424",
+    "PMID:41765411",
+    "PMID:34774554",
+    "PMID:32575901",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cdbbc317-35d3-42ba-94f0-c83891358529",
+    "PMID:22289649",
+    "PMID:26875489",
+    "PMID:23062766",
+    "PMID:31119401",
+    "PMID:35774605",
+    "PMID:42654291",
+    "PMID:33664429",
+    "PMID:30514729",
+    "PMID:25694037",
+    "PMID:24285428",
+    "PMID:37252246",
+    "PMID:42268593",
+    "PMID:26516910",
+    "PMID:38014685",
+    "PMID:35465686",
+    "PMID:30139903",
+    "PMID:34476095",
+    "PMID:37705910",
+    "PMID:31704740",
+    "PMID:38046003",
+    "PMID:36704782",
+    "PMID:31387121",
+    "PMID:33068157",
+    "PMID:37852868",
+    "PMID:40077685",
+    "PMID:32817311",
+    "PMID:37299386",
+    "PMID:26892582",
+    "PMID:36695702",
+    "PMID:28756183",
+    "PMID:35711002",
+    "PMID:36033779",
+    "PMID:39657786",
+    "PMID:23525894",
+    "PMID:33030563",
+    "PMID:27625301",
+    "PMID:32060566",
+    "PMID:31076817",
+    "PMID:40947710",
+    "PMID:41268154",
+    "PMID:40949733",
+    "PMID:40054729",
+    "PMID:41599883",
+    "PMID:38282652",
+    "PMID:33159574",
+    "PMID:39466236",
+    "PMID:40314950",
+    "PMID:35203045",
+    "PMID:39155056",
+    "PMID:26389791",
+    "PMID:42851346",
+    "PMID:39861434",
+    "PMID:19450370",
+    "PMID:38930004",
+    "PMID:28911451",
+    "PMID:34115006",
+    "PMID:38128853",
+    "PMID:30734066",
+    "PMID:36460034",
+    "PMID:23530987",
+    "PMID:15825811",
+    "PMID:34406879",
+    "PMID:39197463",
+    "PMID:32219282",
+    "PMID:42453673",
+    "PMID:15213041",
+    "PMID:22169620",
+    "PMID:41388930",
+    "PMID:1705389",
+    "PMID:1309308",
+    "PMID:35365594",
+    "PMID:42257367",
+    "PMID:21344298",
+    "PMID:41843412",
+    "PMID:42000184",
+    "PMID:41100911"
   ]
 }

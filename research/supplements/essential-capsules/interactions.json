@@ -1,0 +1,59 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Essential Capsules",
+  "slug": "essential-capsules",
+  "aliases": [
+    "Blueprint Essential Capsules",
+    "Essential Capsules by Blueprint"
+  ],
+  "category": "other",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "very-low",
+  "edges": [
+    {
+      "with": "warfarin",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Vitamin E may increase bleeding tendency; exact effect depends on dose and current formulation",
+      "evidence": "Constituent-level interaction; no trial of complete product",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/list-all/"
+      ]
+    },
+    {
+      "with": "biotin-dependent immunoassays",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "major",
+      "mechanism": "Biotin may cause falsely high or low results in streptavidin-biotin assays, including falsely low troponin",
+      "evidence": "FDA safety communication; label record lists biotin",
+      "citations": [
+        "URL:https://www.fda.gov/medical-devices/safety-communications/update-fda-warns-biotin-may-interfere-lab-tests-fda-safety-communication",
+        "URL:https://hellopharmacist.com/drug-supplement-interactions/supplements/essential-capsules-by-blueprint-bryan-johnson-2431781"
+      ]
+    },
+    {
+      "with": "levothyroxine",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Calcium and minerals can reduce levothyroxine absorption if taken together",
+      "evidence": "Ingredient-level label precaution; NIH ODS mineral information",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/list-all/"
+      ]
+    }
+  ],
+  "citations": [
+    "URL:https://blueprint.bryanjohnson.com/en-gb/collections/daily-health-longevity/products/essentials-capsules",
+    "URL:https://blueprint.bryanjohnson.com/en-gb/collections/daily-health-longevity/products/essentials-capsules\n-",
+    "URL:https://blueprint.bryanjohnson.com/products/essentials-capsules",
+    "URL:https://hellopharmacist.com/drug-supplement-interactions/supplements/essential-capsules-by-blueprint-bryan-johnson-2431781",
+    "URL:https://hellopharmacist.com/drug-supplement-interactions/supplements/essential-capsules-by-blueprint-bryan-johnson-2431781\n-",
+    "URL:https://ods.od.nih.gov/factsheets/list-all/",
+    "URL:https://ods.od.nih.gov/factsheets/list-all/\n-",
+    "URL:https://www.fda.gov/medical-devices/safety-communications/update-fda-warns-biotin-may-interfere-lab-tests-fda-safety-communication",
+    "URL:https://www.fda.gov/medical-devices/safety-communications/update-fda-warns-biotin-may-interfere-lab-tests-fda-safety-communication\n"
+  ]
+}

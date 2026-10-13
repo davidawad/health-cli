@@ -1,0 +1,33 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "EVOO",
+  "slug": "evoo",
+  "aliases": [
+    "extra virgin olive oil",
+    "olive oil"
+  ],
+  "category": "other",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "moderate",
+  "edges": [
+    {
+      "with": "antihypertensives",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Possible small additive blood-pressure lowering in dietary intervention studies; clinical interaction not established",
+      "evidence": "Indirect marker evidence only",
+      "citations": [
+        "PMID:37977313"
+      ]
+    }
+  ],
+  "citations": [
+    "DOI:10.1016/j.tjnut.2023.10.028",
+    "DOI:10.1016/j.tjnut.2023.10.028\n-",
+    "PMID:29897866",
+    "PMID:29897866\n-",
+    "PMID:37977313",
+    "PMID:37977313\n"
+  ]
+}

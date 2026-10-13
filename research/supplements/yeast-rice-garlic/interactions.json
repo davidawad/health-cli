@@ -1,0 +1,73 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Yeast Rice + Garlic",
+  "slug": "yeast-rice-garlic",
+  "aliases": [
+    "Red Yeast Rice Odor-free Garlic",
+    "red yeast rice with garlic"
+  ],
+  "category": "botanical",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "moderate",
+  "edges": [
+    {
+      "with": "statins",
+      "with_kind": "drug-class",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Monacolin K is lovastatin; additive statin exposure can increase myopathy and liver injury",
+      "evidence": "Pharmacology and NCCIH safety review",
+      "citations": [
+        "URL:https://www.nccih.nih.gov/health/red-yeast-rice"
+      ]
+    },
+    {
+      "with": "CYP3A4 inhibitors",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "major",
+      "mechanism": "May raise lovastatin-like monacolin exposure and muscle toxicity",
+      "evidence": "NCCIH interaction/safety information",
+      "citations": [
+        "URL:https://www.nccih.nih.gov/health/red-yeast-rice"
+      ]
+    },
+    {
+      "with": "anticoagulants",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Garlic may inhibit platelet function and increase bleeding",
+      "evidence": "NIH ODS garlic fact sheet",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/Garlic-HealthProfessional/"
+      ]
+    },
+    {
+      "with": "liver function tests",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "RYR can cause statin-like hepatotoxicity; monitor for true enzyme elevation",
+      "evidence": "NCCIH describes liver injury risk",
+      "citations": [
+        "URL:https://www.nccih.nih.gov/health/red-yeast-rice"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:35264949",
+    "PMID:35264949\n-",
+    "PMID:38794691",
+    "PMID:38794691\n-",
+    "PMID:39525586",
+    "PMID:39525586\n-",
+    "URL:https://ods.od.nih.gov/factsheets/",
+    "URL:https://ods.od.nih.gov/factsheets/\n-",
+    "URL:https://ods.od.nih.gov/factsheets/Garlic-HealthProfessional/",
+    "URL:https://ods.od.nih.gov/factsheets/Garlic-HealthProfessional/\n-",
+    "URL:https://www.nccih.nih.gov/health/garlic",
+    "URL:https://www.nccih.nih.gov/health/red-yeast-rice",
+    "URL:https://www.nccih.nih.gov/health/red-yeast-rice\n"
+  ]
+}

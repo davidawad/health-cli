@@ -1,0 +1,60 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "NAC, Ginger, Curcumin",
+  "slug": "n-acetyl-l-cysteine-ginger-curcumin",
+  "aliases": [
+    "NAC Ginger Curcumin",
+    "NAC + Ginger + Curcumin",
+    "N-acetylcysteine, ginger and curcumin"
+  ],
+  "category": "botanical",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "low",
+  "edges": [
+    {
+      "with": "anticoagulants",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Ginger and curcumin may add antiplatelet/bleeding effects; direct combination interaction data are limited",
+      "evidence": "Mechanistic and ingredient-level human evidence; avoid overstating clinical interaction",
+      "citations": [
+        "PMID:35623903"
+      ]
+    },
+    {
+      "with": "nitroglycerin",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "NAC can potentiate vasodilation and headache/hypotension with nitroglycerin",
+      "evidence": "Drug-label/pharmacology interaction for NAC",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=acetylcysteine"
+      ]
+    },
+    {
+      "with": "gallstones/biliary obstruction",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Concentrated turmeric may stimulate bile flow; relevance depends on extract and condition",
+      "evidence": "NCCIH turmeric safety summary",
+      "citations": [
+        "URL:https://www.nccih.nih.gov/health/turmeric"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:26324807",
+    "PMID:26324807\n-",
+    "PMID:35623903",
+    "PMID:35623903\n-",
+    "PMID:42021338",
+    "PMID:42021338\n-",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=acetylcysteine",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=acetylcysteine\n-",
+    "URL:https://www.nccih.nih.gov/health/turmeric",
+    "URL:https://www.nccih.nih.gov/health/turmeric\n"
+  ]
+}

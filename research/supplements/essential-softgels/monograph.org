@@ -1,0 +1,49 @@
+* Essential Softgels
+:PROPERTIES:
+:ID: supp-essential-softgels
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: Blueprint Essential Softgels | Advanced Antioxidants
+:CATEGORY: other
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Historical Blueprint product name for the formula now called Advanced Antioxidants. Official page says it contains lutein, zeaxanthin, lycopene, astaxanthin, vitamin K1, K2-MK4 and K2-MK7 in a delayed-release capsule; the old softgel delivery changed [URL:https://blueprint.bryanjohnson.com/products/essential-softgel].
+
+** Mechanisms
+- Lutein and zeaxanthin accumulate in the macula; vitamin K supports gamma-carboxylation of coagulation proteins and bone-associated proteins. Those ingredient mechanisms do not establish efficacy of the product’s exact doses or its combined formula [PMID:23644932; URL:https://blueprint.bryanjohnson.com/products/essential-softgel].
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---------+--------------------+-----------+-------------+-----------------------+-----------|
+| Vision/eye disease prevention | No whole-product RCT identified | Unknown | No product-level effect estimate | very low | [URL:https://blueprint.bryanjohnson.com/products/essential-softgel] |
+| Age-related macular degeneration progression (lutein/zeaxanthin combinations) | Ingredient-level RCT evidence, not this blend | Benefit for selected AREDS2 populations | Formula and doses differ from the product; cannot transfer directly | moderate | [PMID:23644932] |
+| Cardiovascular or longevity outcomes | No whole-product outcome trial identified | Unknown | No product-level estimate | very low | [URL:https://blueprint.bryanjohnson.com/products/essential-softgel] |
+
+** Dosing in trials
+- Current formula page recommends one capsule daily with food and reports 30 servings per container. Current delayed-release capsule is not identical to the former softgel; follow the current label, not historical serving assumptions [URL:https://blueprint.bryanjohnson.com/products/essential-softgel].
+
+** Safety & adverse effects
+- Product includes vitamin K forms and carotenoids; vitamin K can antagonize warfarin. Carotenoids can cause benign skin discoloration at high intake; supplement beta-carotene raises harm in smokers in other formulations, but this product page does not list beta-carotene [URL:https://blueprint.bryanjohnson.com/products/essential-softgel; URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/].
+
+** Contraindications
+- Warfarin use is a major formulation-specific concern because vitamin K intake changes can alter INR; avoid assuming compatibility. Allergy to capsule/excipients is product-specific [URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/].
+
+** Interactions
+- Vitamin K1/K2 can reduce warfarin effect; maintain consistent intake and monitor INR when intake changes [URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/]. Fat-containing meal may aid absorption of fat-soluble components, but no product interaction trial is reported [URL:https://blueprint.bryanjohnson.com/products/essential-softgel].
+
+** Genotype notes
+- No cited pharmacogenomic or nutrigenomic source specific to Essential Softgels was identified in this search; no genotype claim is made.
+
+** Latest research
+- Official page now calls this Advanced Antioxidants and states the only formula change was delivery from softgel to delayed-release capsule; lists seven fat-soluble actives and one-capsule daily use [URL:https://blueprint.bryanjohnson.com/products/essential-softgel]. No product-level RCT located; formula-level human outcomes remain unestablished.
+
+** Open questions
+- Larger, better reported human studies with standardized products, clinically meaningful endpoints and longer follow-up are needed; current gaps are noted above.
+
+** Sources
+- PMID:23644932
+- URL:https://blueprint.bryanjohnson.com/products/essential-softgel
+- URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/

@@ -1,0 +1,48 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Creatine",
+  "slug": "creatine",
+  "aliases": [
+    "creatine monohydrate",
+    "creatine monohydrate powder"
+  ],
+  "category": "other",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "moderate",
+  "edges": [
+    {
+      "with": "caffeine",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Possible attenuation of ergogenic effect and additive GI symptoms at high doses",
+      "evidence": "Mixed small trials/reviews; clinical importance uncertain",
+      "citations": [
+        "PMID:39519498"
+      ]
+    },
+    {
+      "with": "kidney function tests (serum creatinine/eGFR)",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "moderate",
+      "mechanism": "Supplement-derived creatine can increase serum creatinine and lower creatinine-based eGFR without a true fall in filtration",
+      "evidence": "Biochemical mechanism and clinical review",
+      "citations": [
+        "PMID:41199218"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:38417175",
+    "PMID:38417175\n-",
+    "PMID:38582412",
+    "PMID:38582412\n-",
+    "PMID:39519498",
+    "PMID:39519498\n-",
+    "PMID:41199218",
+    "PMID:41199218\n-",
+    "PMID:41388441",
+    "PMID:41388441\n"
+  ]
+}

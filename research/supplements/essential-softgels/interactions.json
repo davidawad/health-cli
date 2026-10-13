@@ -1,0 +1,45 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Essential Softgels",
+  "slug": "essential-softgels",
+  "aliases": [
+    "Blueprint Essential Softgels",
+    "Advanced Antioxidants"
+  ],
+  "category": "other",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "low",
+  "edges": [
+    {
+      "with": "warfarin",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "major",
+      "mechanism": "Vitamin K1/K2 can oppose vitamin K antagonist anticoagulation and alter INR",
+      "evidence": "Established nutrient-drug interaction; official product lists vitamin K1 and K2",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/",
+        "URL:https://blueprint.bryanjohnson.com/products/essential-softgel"
+      ]
+    },
+    {
+      "with": "INR",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Changes in vitamin K intake can change anticoagulation control measured by INR",
+      "evidence": "Clinical monitoring interaction with vitamin K antagonists",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:23644932",
+    "PMID:23644932\n-",
+    "URL:https://blueprint.bryanjohnson.com/products/essential-softgel",
+    "URL:https://blueprint.bryanjohnson.com/products/essential-softgel\n-",
+    "URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/",
+    "URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/\n"
+  ]
+}

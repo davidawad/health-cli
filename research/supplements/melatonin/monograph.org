@@ -3,34 +3,216 @@
 :ID: supp-melatonin
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: N-acetyl-5-methoxytryptamine
-:CATEGORY: other
+:ALIASES: N-acetyl-5-methoxytryptamine | Circadin | prolonged-release melatonin | PR-melatonin | Slenyto | pediatric prolonged-release melatonin (PedPRM) | melatonin gummies
+:CATEGORY: hormone
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
+
 ** Identity & forms
-- Endogenous circadian hormone sold as OTC supplement in some countries; product quality and regulatory status vary. [PMID:28364495] [URL:https://www.nccih.nih.gov/health/sleep-disorders-and-complementary-health-approaches] [URL:https://www.fda.gov/media/169557/download]
+- Endogenous pineal indoleamine hormone (N-acetyl-5-methoxytryptamine), secreted at night. It acts through the G-protein-coupled MT1 and MT2 receptors [PMID:26514204].
+- Regulatory status: OTC dietary supplement in the US and Canada; regulated as a medicine in the UK and EU [PMID:36562403].
+  - UK: Circadin 2 mg prolonged-release is prescription-only (POM) for short-term primary insomnia in adults aged 55 or over [URL:https://www.medicines.org.uk/emc/product/2809/smpc].
+  - Australia: Schedule 4 (prescription). Schedule 3 (pharmacist-only) covers modified-release tablets of 2 mg or less, for adults 55 or over, in packs of no more than 30 [URL:https://www.tga.gov.au/scheduling-decision-final/notice-final-decision-amend-current-poisons-standard-relation-melatonin].
+- Forms: immediate-release tablets, capsules, sublingual products and gummies; adult prolonged-release (Circadin) [PMID:26514204]; pediatric prolonged-release minitablets (PedPRM), studied for 2 years in autism [PMID:31982581].
+- US adult use rose from 0.4% (1999-2000) to 2.1% (2017-2018), and use of more than 5 mg/d from 0.08% to 0.28% [PMID:35103775].
+- Pharmacokinetics: oral bioavailability is about 15% (9-33%), Tmax about 50 min for immediate release, half-life about 45 min. Exposure is altered by age, caffeine, smoking, oral contraceptives, food and fluvoxamine [PMID:26008214].
+- Label accuracy is poor. Canadian products: -83% to +478% of label; more than 71% outside ±10%; 26% contained serotonin [PMID:27855744]. US gummies: only 3 of 25 within ±10%, range 74-347% of label; one contained only CBD. These figures are from secondary reporting of the research letter [PMID:37097362] [URL:https://mdedge.com/content/shocking-data-whats-really-melatonin-gummies].
+  - US children's products (n=110): 0-667% of label, up to 50 mg/serving [PMID:39482109]. EU: 12% of legal-supply-chain products non-compliant [PMID:40572610].
+
 ** Mechanisms
-- Acts at MT1/MT2 receptors to signal circadian timing; timing relative to circadian phase is important. [PMID:28364495] [URL:https://www.nccih.nih.gov/health/sleep-disorders-and-complementary-health-approaches] [URL:https://www.fda.gov/media/169557/download]
+- Chronobiotic: MT1/MT2 signalling in the suprachiasmatic nucleus shifts circadian phase; synthetic agonists (ramelteon, tasimelteon, agomelatine) use the same receptors [PMID:26514204]. Melatonin advanced endogenous melatonin onset by 1.18 h in DSWPD [PMID:21120122].
+- Soporific: effects peaked at about 4 mg in a dose-response MA. Dosing earlier (about 3 h before bed) predicted larger sleep onset latency (SOL) gains [PMID:38888087].
+- Immune: modulates T-cell activation and differentiation (Th17, Treg, memory T cells), partly via calcineurin [PMID:28152213]. Inhibits NF-kB/NLRP3 and upregulates Nrf2/SIRT1, which interferes with mTOR signalling [PMID:30242884].
+- Beta cell: suppresses first-phase insulin secretion. The effect is amplified in MTNR1B rs10830963 risk carriers [PMID:42346809] [PMID:26440713].
+- Coagulation: a single dose lowered FVIII:C and fibrinogen in healthy men [PMID:18289163].
+- Metabolism: 6-hydroxylation mainly by CYP1A2, with minor roles for CYP2C19 and CYP2C9 [PMID:11317475].
+
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---------+--------------------+-----------+-------------+-----------------------+-----------|
-| Jet lag, circadian rhythm disorders, chronic insomnia | Evidence varies by indication | Possible / uncertain | Evidence varies by indication. AASM guideline found very-low-certainty evidence and advised against melatonin for chronic adult insomnia; NCCIH notes possible improvement in sleep-onset latency in some insomnia populations. | low | [PMID:28364495] [URL:https://www.nccih.nih.gov/health/sleep-disorders-and-complementary-health-approaches] [URL:https://www.fda.gov/media/169557/download] |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Sleep onset (primary insomnia, mixed) | MA 19 RCTs; dose-response MA 26 RCTs | Benefit, small | SOL -7.06 min (CI -9.75 to -4.37); TST +8.25 min; quality SMD 0.22; peak about 4 mg | moderate | [PMID:23691095] [PMID:38888087] |
+| Chronic insomnia, adults | SR/MAs; Lancet NMA; AASM guideline | Minimal or no benefit | PR-melatonin sSOL -6.3 min, oSOL -5.05 min; NMA no material benefit; AASM weak recommendation against | low | [PMID:37434463] [PMID:36179487] [PMID:35843245] [PMID:27998379] |
+| Jet lag | Cochrane review (10 RCTs) | Benefit | 9/10 trials positive for 5 or more time zones; NNT 2; 0.5-5 mg at local bedtime | moderate | [PMID:12076414] |
+| Shift work sleep | Cochrane review | Small benefit | Daytime sleep +24 min (CI 9.8-38.9; 7 RCTs); night sleep +17 min | low | [PMID:25113164] |
+| Delayed sleep-wake phase disorder | MA 9 RCTs; RCT n=116 | Benefit | Sleep onset 0.67 h earlier, SOL -23 min; 0.5 mg + scheduling, sleep onset 34 min earlier | moderate | [PMID:21120122] [PMID:29912983] [PMID:26414986] |
+| Pediatric sleep-onset insomnia | MA 7 RCTs (n=387) | Benefit | Sleep onset -0.62 h; SOL -0.36 h; TST +0.38 h | moderate | [PMID:31982807] [PMID:36179487] |
+| Autism / neurodevelopmental sleep | MAs; 2-year PedPRM trial; AAN guideline | Benefit | TST SMD 0.78; SOL SMD 1.23 (I2 above 90%); best at 2-4 mg | moderate | [PMID:36584862] [PMID:40914024] [PMID:31982581] [PMID:32051244] |
+| Dementia sleep | Cochrane review | No benefit | No benefit up to 10 mg | moderate | [PMID:33189083] |
+| Delirium prevention | MA 32 ICU RCTs (n=3895); older inpatient MA; BMJ NMA | Benefit | ICU RR 0.72 (0.58-0.89); older inpatients OR 0.59; agonists OR 0.54 postoperatively | low | [PMID:40662882] [PMID:39587681] [PMID:41690769] |
+| Preoperative anxiety, adults | Cochrane review (27 RCTs) | Benefit vs placebo; similar to benzodiazepines | VAS -11.69 mm (-13.80 to -9.59); vs benzodiazepine MD 0.78 (NS) | moderate | [PMID:33319916] |
+| Pediatric premedication | MA; MAGIC RCT | Mixed | No difference vs midazolam in MA; midazolam superior in MAGIC (stopped early) | low | [PMID:39621359] [PMID:40622250] |
+| GERD symptoms | Small RCTs | Possible adjunct benefit | 3 mg sublingual + omeprazole beat omeprazole alone (FSSG p=.0001) | very low | [PMID:37768310] [PMID:16948779] |
+| Migraine prophylaxis | MA 9 RCTs (n=788); NMA | Benefit vs placebo, inconsistent | Headache days -1.54/month; responder RR 1.38; NMA no difference vs placebo | low | [PMID:41627537] [PMID:41139810] |
+| Blood pressure | Dose-response MA 63 RCTs; CR-melatonin MA | Small decrease | SBP -2.34 mmHg; CR asleep SBP -3.57 (NS) | low | [PMID:41515249] [PMID:35388609] |
+| Glycemia in T2D | MA 8 RCTs; crossover RCT | Conflicting | FBG -12.65 mg/dL, HbA1c -0.79%; but 10 mg for 3 months cut insulin sensitivity 12% | very low | [PMID:39428939] [PMID:35619221] |
+| Cancer adjunct | Cochrane review (30 RCTs, n=5093); MAs | Fatigue benefit; rest uncertain | Probably reduces fatigue; SMD -0.23 (-0.38 if 13 weeks or more); breast RT SMD -0.43 | low | [PMID:40304216] [PMID:39733381] [PMID:42726650] |
+| COVID-19 | MAs; prophylaxis RCT | Uncertain | Mortality RR 0.72 (NS); severe disease OR 0.19 (3 RCTs); no prophylaxis benefit in HCWs | very low | [PMID:37181363] [PMID:40187234] [PMID:35207411] |
+| Cardiac function (CVD) | MA 14 RCTs (n=1027) | Possible benefit | LVEF change +3.95 points (mostly CABG); troponin NS | low | [PMID:42123177] |
+| Benzodiazepine discontinuation | MA 6 RCTs | No benefit | OR 0.72 (0.21-2.41) | low | [PMID:26547856] |
+
 ** Dosing in trials
-- Trials commonly used 0.5-5 mg near bedtime; dose/timing differs for circadian disorders and jet lag. [PMID:28364495] [URL:https://www.nccih.nih.gov/health/sleep-disorders-and-complementary-health-approaches] [URL:https://www.fda.gov/media/169557/download]
+- Sleep onset: 0.5-5 mg. Efficacy peaks at about 4 mg taken about 3 h before bed, compared with the usual 2 mg 30 min before bed [PMID:38888087]. Circadin: 2 mg 1-2 h before bed after food, for up to 13 weeks [URL:https://www.medicines.org.uk/emc/product/2809/smpc].
+- Jet lag: 0.5-5 mg at destination bedtime. 5 mg works faster than 0.5 mg; doses above 5 mg add nothing; 2 mg slow-release is less effective [PMID:12076414].
+- DSWPD: 0.5 mg fast-release 1 h before desired bedtime plus behavioural scheduling [PMID:29912983]. Shift work: 1-10 mg after the night shift [PMID:25113164].
+- Pediatrics: PedPRM 2/5/10 mg nightly for up to 104 weeks [PMID:31982581]. Neuropsychiatric pediatric MA optimum is 2-4 mg, 3 h before bed [PMID:40914024].
+- High dose: 10 mg or more in 79 studies (n=3861) [PMID:34923676]. 10 mg nightly for 3 months in T2D [PMID:35619221].
+
 ** Safety & adverse effects
-- Sleepiness, headache, dizziness, vivid dreams; supplement content may differ from label. Long-term safety evidence limited. [PMID:28364495] [URL:https://www.nccih.nih.gov/health/sleep-disorders-and-complementary-health-approaches] [URL:https://www.fda.gov/media/169557/download]
+- Short-term AEs are mild and transient: drowsiness, headache, dizziness, fatigue, mood swings, nightmares [PMID:31722088] [PMID:30670284]. High-dose MA: no increase in serious AEs (rate ratio 0.88) but more minor AEs (RR 1.40). Only 4 low-bias studies [PMID:34923676]. Somnolence 8.8% vs 1.4% with placebo over 12 weeks [PMID:35207411].
+- Long-term data are scarce; reviewers warn "against complacency" [PMID:36562403]. 2-year PedPRM data show no effect on growth, BMI or Tanner stage [PMID:31982581].
+- Heart failure (HF) signal (AHA Scientific Sessions Nov 2025 abstract, not peer reviewed):
+  - TriNetX insomnia cohort, n=130,828; melatonin use for 12 months or more vs matched non-users. Incident HF 5% vs 3% (HR 1.89); HF hospitalization 19% vs 7%; death 8% vs 4% (HR 2.09) [URL:https://www.acc.org/Latest-in-Cardiology/Articles/2025/11/03/16/19/mon-melatonin-aha-2025].
+  - Exposure came from prescription records in mostly-OTC markets; the study cannot show causation [URL:https://www.sciencemediacentre.org/expert-reaction-to-conference-abstract-on-association-between-long-term-melatonin-supplementation-and-incidence-of-heart-failure-in-patients-with-insomnia/].
+- Later HF analyses: NHANES found no significant association with CVD or HF [PMID:42167796]. A letter critiques confounding [PMID:41764369]. A speculative prolactin mechanism has been proposed [PMID:42394777]. RCTs in cardiac patients show no harm and a possible LVEF gain [PMID:42123177].
+- Glucose: worsened glucose tolerance in MTNR1B carriers [PMID:42346809]; 10 mg/d reduced insulin sensitivity 12% in T2D [PMID:35619221]. Blood pressure: raised 24-h BP (+6.5/+4.9 mmHg) in patients on nifedipine [PMID:10792199].
+- Pediatric overdose surge:
+  - 260,435 pediatric ingestions reported to US poison centers in 2012-2021 (+530%); 5 children ventilated, 2 deaths [PMID:35653284].
+  - About 10,930 ED visits for unsupervised ingestion at age 5 or under in 2019-2022 (7.1% of such medication visits); gummies were the main form [PMID:38451863].
+  - 2026 SR: rising prescribing, extended use and overdoses in young children, with no efficacy data in typical development [PMID:41481289].
+- Daytime dosing causes sleepiness and can delay adaptation [PMID:12076414]. Pregnancy/lactation: no insomnia RCTs; no major signals in trials for other indications [PMID:34730672].
+
 ** Contraindications
-- Caution in pregnancy/lactation, seizure disorders, and conditions/medications affected by sedation or anticoagulation. [PMID:28364495] [URL:https://www.nccih.nih.gov/health/sleep-disorders-and-complementary-health-approaches] [URL:https://www.fda.gov/media/169557/download]
+- Fluvoxamine co-use: avoid (AUC up 17-fold) [PMID:10668847] [URL:https://www.medicines.org.uk/emc/product/2809/smpc].
+- Autoimmune disease: SmPC does not recommend use (no data) [URL:https://www.medicines.org.uk/emc/product/2809/smpc]. Mechanistically plausible given T-cell effects [PMID:28152213].
+- Hepatic impairment, pregnancy and breastfeeding: not recommended per SmPC [URL:https://www.medicines.org.uk/emc/product/2809/smpc]. Human pregnancy data are limited [PMID:34730672].
+- Driving or machinery after dosing, especially with other sedatives [PMID:18763235].
+- Dementia-related sleep disturbance: AASM recommends against [PMID:26414986]. Cochrane found no benefit [PMID:33189083].
+
 ** Interactions
-- Fluvoxamine (CYP1A2 inhibition) can markedly raise melatonin exposure; possible warfarin interaction reports; additive sedation with CNS depressants [URL:https://www.fda.gov/media/169557/download]. [PMID:28364495] [URL:https://www.nccih.nih.gov/health/sleep-disorders-and-complementary-health-approaches] [URL:https://www.fda.gov/media/169557/download]
+*** Drugs
+- Fluvoxamine (CYP1A2): AUC up 17-fold, Cmax up 12-fold [PMID:10668847]. 50-69% inhibition of 6-hydroxylation in vitro [PMID:11317475].
+- Other CYP1A2 inhibitors: 5-methoxypsoralen impairs 6-hydroxylation at clinical concentrations [PMID:24732412]. The SmPC also lists cimetidine, oestrogens and quinolones [URL:https://www.medicines.org.uk/emc/product/2809/smpc]. Inducers (carbamazepine, rifampicin) lower levels.
+- Benzodiazepines and Z-drugs: PR-melatonin plus zolpidem worsened psychomotor, driving and memory impairment. There was no PK change, so the interaction is pharmacodynamic via GABA-A [PMID:18763235]. Melatonin does not help benzodiazepine taper [PMID:26547856].
+- Warfarin: case reports of harm cited in the Cochrane jet-lag review [PMID:12076414]. Melatonin lowers FVIII/fibrinogen [PMID:18289163]. A bleeding review flags it with anticoagulants [PMID:36304597]. Monitor INR.
+- Nifedipine and other calcium-channel blockers: BP and heart rate rose in a crossover RCT [PMID:10792199]. Reviews flag antihypertensive interactions [PMID:30670284].
+- Immunosuppressants: T-cell and calcineurin modulation [PMID:28152213] could theoretically oppose therapy. No clinical study found.
+- Antidiabetics: possible loss of glycemic control [PMID:35619221] [PMID:42346809]. One MA reports improvement [PMID:39428939]. Monitor glucose.
+*** Other supplements
+- Caffeine: 600 mg raised melatonin Cmax by 142% and AUC by 120% (CYP1A2 inhibition). Stronger in non-smokers and *1F/*1F carriers [PMID:14616429]. Caffeine taken 12-24 h earlier had no significant mean effect [PMID:17040215].
+- Magnesium (+ zinc): melatonin-magnesium-zinc improved PSQI by 6.8 points in long-term-care residents (combination product, additive) [PMID:21226679].
+- L-Theanine: 3 mg melatonin beat 200 mg theanine, and both beat placebo, for insomnia in cancer patients. No combination arm [PMID:38846134].
+- Glycine: no effect on plasma melatonin; acts on SCN neuropeptides. Additive sleep effects are untested [PMID:22529837].
+- Rapamycin: preclinical synergy (AKT/mTOR, mitophagy); melatonin reduced rapamycin toxicity to normal cells [PMID:29247557] [PMID:30242884]. No human data.
+*** Conditions
+- Smoking (CYP1A2 induction): exogenous melatonin AUC was about 3-fold higher after quitting (21.07 vs 7.34 nmol/L x h) [PMID:15824912].
+- Alcohol: suppressed endogenous melatonin 15-19% [PMID:17612945]. The SmPC advises avoiding it [URL:https://www.medicines.org.uk/emc/product/2809/smpc].
+- Diabetes / impaired glucose tolerance: see above and Genotype notes [PMID:35619221] [PMID:42346809].
+- Epilepsy: Cochrane draws no conclusions on seizures [PMID:27513702]; a 2024 MA found better sleep latency and seizure severity [PMID:38417212]. Case reports of harm [PMID:12076414]. One case of mild generalized epilepsy in a pediatric MA [PMID:31982807].
+- Heart failure: unresolved observational signal [PMID:42167796]. Young children: overdose and label risk [PMID:38451863] [PMID:37097362].
+*** Lab-test interference
+- No analytical interference found. Physiological effects: worse glucose tolerance on testing in MTNR1B carriers [PMID:26440713]; lower FVIII:C and fibrinogen [PMID:18289163]. Endogenous melatonin clearance is a candidate CYP1A2 phenotype marker [PMID:42063293].
+
 ** Genotype notes
-- No established pharmacogenomic dosing recommendation.
+- CYP1A2*1F: caffeine inhibition was greater in *1F/*1F carriers [PMID:14616429]. *1A/*1A carriers had higher 1.5-h levels [PMID:17040215].
+- MTNR1B rs10830963: melatonin's harmful effect on glucose AUC was 6-fold larger in carriers [PMID:26440713]. In carriers, glucose tolerance worsened 11.7% and first-phase beta-cell responsivity fell 40%, with no effect in non-carriers [PMID:42346809].
+- PER3 VNTR: PER3 4/4 DSWPD patients respond better than 5-allele carriers [PMID:32682347].
+
 ** Latest research
-- 2026-10-13 search cutoff: NCCIH updated sleep-disorder overview notes limits and safety uncertainties [URL:https://www.nccih.nih.gov/health/sleep-disorders-and-complementary-health-approaches]. [PMID:28364495] [URL:https://www.nccih.nih.gov/health/sleep-disorders-and-complementary-health-approaches] [URL:https://www.fda.gov/media/169557/download]
+- [2026-08] Diabetes Care: melatonin impairs glucose tolerance only in MTNR1B risk carriers [PMID:42346809]. Endogenous melatonin clearance correlates with CYP1A2 indices (r=0.57-0.67) [PMID:42063293].
+- [2026-06] Speculative prolactin pathway proposed for the HF signal [PMID:42394777].
+- [2026-05] NHANES: no significant association with CVD or HF [PMID:42167796].
+- [2026-04] Cardiac RCT MA: LVEF change +3.95 points [PMID:42123177].
+- [2026-02] BMJ NMA: melatonin receptor agonists OR 0.54 for postoperative delirium [PMID:41690769].
+- [2026-02] Migraine MA (9 RCTs): -1.54 headache days/month [PMID:41627537].
+- [2026-01] JAMA Netw Open SR: young-child use and overdoses rising [PMID:41481289]. Breast radiotherapy MA: fatigue SMD -0.43 [PMID:42726650].
+- [2025-12] Cardiometabolic MA (63 RCTs): SBP -2.34 mmHg [PMID:41515249]. Pediatric dose MA: 2-4 mg [PMID:40914024].
+- [2025-11] AHA abstract: HF HR 1.89 with long-term use [URL:https://www.acc.org/Latest-in-Cardiology/Articles/2025/11/03/16/19/mon-melatonin-aha-2025].
+- [2025-10] Migraine NMA: no difference from placebo [PMID:41139810].
+- [2025-09] ICU MA: delirium RR 0.72 [PMID:40662882]. A 2025-08 survey of US children's products found 0-667% of label [PMID:39482109].
+- [2025-07] MAGIC RCT favours midazolam [PMID:40622250]. Cancer-related fatigue MA SMD -0.23 [PMID:39733381].
+- [2025-04] Cochrane cancer review: probably reduces fatigue [PMID:40304216]. Severe COVID MA OR 0.19 [PMID:40187234].
+- [2024-11] Older-inpatient delirium MA: OR 0.59 [PMID:39587681].
+
 ** Open questions
-- Best formulation, dose, chronobiologic timing, and long-term safety remain unsettled. [PMID:28364495] [URL:https://www.nccih.nih.gov/health/sleep-disorders-and-complementary-health-approaches] [URL:https://www.fda.gov/media/169557/download]
+- Whether the AHA HF association holds after peer review, active-comparator designs and adjustment for insomnia severity. Long-term cardiovascular RCT data are absent.
+- Multi-year pediatric safety beyond 2 years. Clinical relevance of glucose effects in MTNR1B carriers.
+- Optimal adult dose and timing (about 4 mg, 3 h before bed vs common practice).
+- Warfarin and epilepsy signals rest on case reports; no controlled interaction studies.
+- Product quality (label accuracy, serotonin contamination, child-resistant packaging), and replication of the cancer, COVID and migraine findings.
+
 ** Sources
-- Sateia et al. Clinical practice guideline for pharmacologic treatment of chronic insomnia in adults. J Clin Sleep Med. 2017. PMID:28364495.
-- NCCIH. Sleep Disorders and Complementary Health Approaches: Usefulness and Safety. https://www.nccih.nih.gov/health/sleep-disorders-and-complementary-health-approaches
-- US FDA. Scientific Memorandum: Melatonin. https://www.fda.gov/media/169557/download
+1. Cruz-Sanabria F et al. Optimizing the Time and Dose of Melatonin as a Sleep-Promoting Drug: SR and Dose-Response MA. J Pineal Res. 2024. PMID:38888087 DOI:10.1111/jpi.12985
+2. Ferracioli-Oda E et al. Meta-analysis: melatonin for the treatment of primary sleep disorders. PLoS One. 2013. PMID:23691095 DOI:10.1371/journal.pone.0063773
+3. Choi K et al. Efficacy of melatonin for chronic insomnia: SRs and MAs. Sleep Med Rev. 2022. PMID:36179487 DOI:10.1016/j.smrv.2022.101692
+4. Maruani J et al. Efficacy of melatonin and ramelteon for insomnia disorder in adults: SR and MA. J Sleep Res. 2023. PMID:37434463 DOI:10.1111/jsr.13939
+5. De Crescenzo F et al. Comparative effects of pharmacological interventions for insomnia disorder in adults: NMA. Lancet. 2022. PMID:35843245 DOI:10.1016/S0140-6736(22)00878-9
+6. Sateia MJ et al. Clinical Practice Guideline for the Pharmacologic Treatment of Chronic Insomnia in Adults (AASM). J Clin Sleep Med. 2017. PMID:27998379 DOI:10.5664/jcsm.6470
+7. Herxheimer A, Petrie KJ. Melatonin for the prevention and treatment of jet lag. Cochrane Database Syst Rev. 2002. PMID:12076414 DOI:10.1002/14651858.CD001520
+8. Liira J et al. Pharmacological interventions for sleepiness and sleep disturbances caused by shift work. Cochrane Database Syst Rev. 2014. PMID:25113164 DOI:10.1002/14651858.CD009776.pub2
+9. Sletten TL et al. Efficacy of melatonin with behavioural sleep-wake scheduling for DSWPD: RCT. PLoS Med. 2018. PMID:29912983 DOI:10.1371/journal.pmed.1002587
+10. van Geijlswijk IM et al. The use of exogenous melatonin in delayed sleep phase disorder: a meta-analysis. Sleep. 2010. PMID:21120122 DOI:10.1093/sleep/33.12.1605
+11. Magee M et al. A PERIOD3 VNTR polymorphism modulates melatonin treatment response in DSWPD. J Pineal Res. 2020. PMID:32682347 DOI:10.1111/jpi.12684
+12. Auger RR et al. Clinical Practice Guideline for Intrinsic Circadian Rhythm Sleep-Wake Disorders: 2015 update (AASM). J Clin Sleep Med. 2015. PMID:26414986 DOI:10.5664/jcsm.5100
+13. Nogueira HA et al. Melatonin for sleep disorders in people with autism: SR and MA. Prog Neuropsychopharmacol Biol Psychiatry. 2023. PMID:36584862 DOI:10.1016/j.pnpbp.2022.110695
+14. Malow BA et al. Sleep, Growth, and Puberty After 2 Years of Prolonged-Release Melatonin in Children With ASD. J Am Acad Child Adolesc Psychiatry. 2021. PMID:31982581 DOI:10.1016/j.jaac.2019.12.007
+15. Williams Buckley A et al. Practice guideline: insomnia and disrupted sleep behavior in children and adolescents with ASD (AAN). Neurology. 2020. PMID:32051244 DOI:10.1212/WNL.0000000000009033
+16. Kracht CL et al. Melatonin Use in Young Children: A Systematic Review. JAMA Netw Open. 2026. PMID:41481289 DOI:10.1001/jamanetworkopen.2025.51958
+17. Wei S et al. Efficacy and safety of melatonin for sleep onset insomnia in children and adolescents: MA of RCTs. Sleep Med. 2020. PMID:31982807 DOI:10.1016/j.sleep.2019.02.017
+18. Bruno S et al. Optimizing timing and dose of exogenous melatonin in neuropsychiatric pediatric populations: MA. Sleep Med Rev. 2025. PMID:40914024 DOI:10.1016/j.smrv.2025.102158
+19. Tang BHY et al. Melatonin Use in the ICU: SR and MA. Crit Care Med. 2025. PMID:40662882 DOI:10.1097/CCM.0000000000006767
+20. Luney M et al. Drug interventions to prevent delirium after surgery for older adults: SR and NMA. BMJ. 2026. PMID:41690769 DOI:10.1136/bmj-2025-085539
+21. Liu L et al. Effects of melatonin on prevention of delirium in hospitalized older patients: SR and MA. BMC Pharmacol Toxicol. 2024. PMID:39587681 DOI:10.1186/s40360-024-00816-9
+22. Madsen BK et al. Melatonin for preoperative and postoperative anxiety in adults. Cochrane Database Syst Rev. 2020. PMID:33319916 DOI:10.1002/14651858.CD009861.pub3
+23. Ponde VC et al. Efficacy of melatonin vs midazolam for oral premedication in children: SR and MA. Minerva Pediatr. 2025. PMID:39621359 DOI:10.23736/S2724-5276.24.07519-0
+24. Deery C et al. Melatonin versus midazolam in premedication of anxious children: the MAGIC non-inferiority RCT. Health Technol Assess. 2025. PMID:40622250 DOI:10.3310/CWKF1987
+25. Malekpour H et al. Sublingual Melatonin plus Omeprazole vs Omeprazole Alone in GERD: A Clinical Trial. Turk J Gastroenterol. 2023. PMID:37768310 DOI:10.5152/tjg.2023.23021
+26. Pereira Rde S. Regression of GERD symptoms using melatonin, vitamins and amino acids: comparison with omeprazole. J Pineal Res. 2006. PMID:16948779 DOI:10.1111/j.1600-079X.2006.00359.x
+27. Abouelmagd ME et al. Efficacy and Safety of Melatonin in Migraine Prophylaxis: SR and MA of RCTs. Curr Pain Headache Rep. 2026. PMID:41627537 DOI:10.1007/s11916-025-01461-5
+28. Araujo Gouhie F et al. Melatonin Compared to Other Treatments for Episodic Migraine: SR and NMA. Can J Neurol Sci. 2025. PMID:41139810 DOI:10.1017/cjn.2025.10423
+29. Lee EK et al. Controlled-release oral melatonin for hypertension and nocturnal hypertension: SR and MA. J Clin Hypertens. 2022. PMID:35388609 DOI:10.1111/jch.14482
+30. Mohammadi S et al. Effects of Melatonin Supplementation on Cardiometabolic Risk Factors: SR and Dose-Response MA. Nutrients. 2025. PMID:41515249 DOI:10.3390/nu18010134
+31. Lusardi P et al. Cardiovascular effects of melatonin in hypertensive patients well controlled by nifedipine. Br J Clin Pharmacol. 2000. PMID:10792199 DOI:10.1046/j.1365-2125.2000.00195.x
+32. Yu ZY et al. Melatonin in cancer treatment. Cochrane Database Syst Rev. 2025. PMID:40304216 DOI:10.1002/14651858.CD010145.pub2
+33. Li Y et al. Influence of melatonin supplementation on cancer-related fatigue: MA of RCTs. Clin Transl Oncol. 2025. PMID:39733381 DOI:10.1007/s12094-024-03824-7
+34. Panhwar K et al. Melatonin for Radiotherapy-Induced Fatigue, Anxiety, and Depression in Breast Cancer: SR and MA. Integr Cancer Ther. 2026. PMID:42726650 DOI:10.1177/15347354261490585
+35. Qin J et al. Benefits of melatonin on mortality in severe-to-critical COVID-19: SR and MA of RCTs. Clinics (Sao Paulo). 2025. PMID:40187234 DOI:10.1016/j.clinsp.2025.100638
+36. Huang PY et al. Clinical efficacy of melatonin in COVID-19: SR and MA of RCTs. Front Med. 2023. PMID:37181363 DOI:10.3389/fmed.2023.1171294
+37. García-García I et al. Melatonin in the Prophylaxis of SARS-CoV-2 Infection in Healthcare Workers (MeCOVID): RCT. J Clin Med. 2022. PMID:35207411 DOI:10.3390/jcm11041139
+38. Cohen PA et al. Quantity of Melatonin and CBD in Melatonin Gummies Sold in the US. JAMA. 2023. PMID:37097362 DOI:10.1001/jama.2023.2296
+39. Erland LA, Saxena PK. Melatonin Natural Health Products and Supplements: Serotonin and Variability of Melatonin Content. J Clin Sleep Med. 2017. PMID:27855744 DOI:10.5664/jcsm.6462
+40. Pawar RS et al. A Survey of Melatonin in Dietary Supplement Products Sold in the United States. Drug Test Anal. 2025. PMID:39482109 DOI:10.1002/dta.3823
+41. Vanhee C et al. Validated UHPLC Methods for Melatonin Quantification Reveal Regulatory Violations in EU Online Supplements. Molecules. 2025. PMID:40572610 DOI:10.3390/molecules30122647
+42. Lelak K et al. Pediatric Melatonin Ingestions - United States, 2012-2021. MMWR. 2022. PMID:35653284 DOI:10.15585/mmwr.mm7122a1
+43. Freeman DI et al. Notes from the Field: ED Visits for Unsupervised Pediatric Melatonin Ingestion - US, 2019-2022. MMWR. 2024. PMID:38451863 DOI:10.15585/mmwr.mm7309a5
+44. Li J et al. Trends in Use of Melatonin Supplements Among US Adults, 1999-2018. JAMA. 2022. PMID:35103775 DOI:10.1001/jama.2021.23652
+45. Khan B et al. Melatonin and cardiovascular risk: an NHANES reality check after recent heart failure concerns. Open Heart. 2026. PMID:42167796 DOI:10.1136/openhrt-2026-004108
+46. Savvidis C et al. Melatonin supplementation, hyperprolactinemia, and incident heart failure: a proposed prolactin pathway. World J Exp Med. 2026. PMID:42394777 DOI:10.5493/wjem.v16.i2.120754
+47. Colitta A et al. Navigating Melatonin Safety: Fact, Fiction, and Confounders. J Pineal Res. 2026. PMID:41764369 DOI:10.1111/jpi.70129
+48. Ang SP et al. Melatonin Supplementation and Cardiovascular Outcomes: SR and MA of Randomized Trials. J Clin Med. 2026. PMID:42123177 DOI:10.3390/jcm15093444
+49. Menczel Schrire Z et al. Safety of higher doses of melatonin in adults: SR and MA. J Pineal Res. 2022. PMID:34923676 DOI:10.1111/jpi.12782
+50. Besag FMC et al. Adverse Events Associated with Melatonin for Sleep Disorders: A Systematic Review. CNS Drugs. 2019. PMID:31722088 DOI:10.1007/s40263-019-00680-w
+51. Foley HM, Steel AE. Adverse events associated with oral melatonin: a critical systematic review. Complement Ther Med. 2019. PMID:30670284 DOI:10.1016/j.ctim.2018.11.003
+52. Besag FMC et al. Adverse events in long-term studies of exogenous melatonin. Expert Opin Drug Saf. 2022. PMID:36562403 DOI:10.1080/14740338.2022.2160444
+53. Vine T et al. Melatonin use during pregnancy and lactation: a scoping review. Braz J Psychiatry. 2022. PMID:34730672 DOI:10.1590/1516-4446-2021-2156
+54. Härtter S et al. Increased bioavailability of oral melatonin after fluvoxamine coadministration. Clin Pharmacol Ther. 2000. PMID:10668847 DOI:10.1067/mcp.2000.104071
+55. Härtter S et al. Effects of caffeine intake on the pharmacokinetics of melatonin, a probe drug for CYP1A2 activity. Br J Clin Pharmacol. 2003. PMID:14616429 DOI:10.1046/j.1365-2125.2003.01933.x
+56. Härtter S et al. Effect of caffeine intake 12 or 24 h prior to melatonin and CYP1A2*1F on CYP1A2 phenotyping. Basic Clin Pharmacol Toxicol. 2006. PMID:17040215 DOI:10.1111/j.1742-7843.2006.pto_491.x
+57. Ursing C et al. Influence of cigarette smoking on melatonin levels in man. Eur J Clin Pharmacol. 2005. PMID:15824912 DOI:10.1007/s00228-005-0908-7
+58. Facciolá G et al. Cytochrome P450 isoforms involved in melatonin metabolism in human liver microsomes. Eur J Clin Pharmacol. 2001. PMID:11317475 DOI:10.1007/s002280000245
+59. Harpsøe NG et al. Clinical pharmacokinetics of melatonin: a systematic review. Eur J Clin Pharmacol. 2015. PMID:26008214 DOI:10.1007/s00228-015-1873-4
+60. Papagiannidou E et al. Potential drug interactions with melatonin. Physiol Behav. 2014. PMID:24732412 DOI:10.1016/j.physbeh.2014.04.016
+61. Otmani S et al. Effects of prolonged-release melatonin, zolpidem, and their combination on psychomotor functions and driving. Hum Psychopharmacol. 2008. PMID:18763235 DOI:10.1002/hup.980
+62. Wright A et al. Effect of Melatonin on Benzodiazepine Discontinuation and Sleep Quality: SR and MA. Drugs Aging. 2015. PMID:26547856 DOI:10.1007/s40266-015-0322-5
+63. Rondanelli M et al. Melatonin, magnesium, and zinc on primary insomnia in long-term care residents: RCT. J Am Geriatr Soc. 2011. PMID:21226679 DOI:10.1111/j.1532-5415.2010.03232.x
+64. Kurdi MS et al. Oral Melatonin vs Oral L-theanine for Insomnia in Cancer Patients: RCT. Indian J Palliat Care. 2024. PMID:38846134 DOI:10.25259/IJPC_89_2023
+65. Bannai M et al. The effects of glycine on subjective daytime performance in partially sleep-restricted volunteers. Front Neurol. 2012. PMID:22529837 DOI:10.3389/fneur.2012.00061
+66. Qian J et al. Melatonin Impairs Glucose Tolerance, First-Phase Insulin Secretion; Interaction With MTNR1B. Diabetes Care. 2026. PMID:42346809 DOI:10.2337/dc26-0164
+67. Garaulet M et al. MTNR1B risk variant worsens the deleterious effect of melatonin on glucose tolerance. Metabolism. 2015. PMID:26440713 DOI:10.1016/j.metabol.2015.08.003
+68. Lauritzen ES et al. Three months of melatonin reduces insulin sensitivity in type 2 diabetes: crossover RCT. J Pineal Res. 2022. PMID:35619221 DOI:10.1111/jpi.12809
+69. Abadi RNS et al. Melatonin Supplementation on Glycemic Parameters in Type 2 Diabetes: SR and MA. Curr Pharm Des. 2025. PMID:39428939 DOI:10.2174/0113816128345623241004080849
+70. Brigo F et al. Melatonin as add-on treatment for epilepsy. Cochrane Database Syst Rev. 2016. PMID:27513702 DOI:10.1002/14651858.CD006967.pub4
+71. Liu Z et al. Melatonin as an add-on treatment for epilepsy: SR and MA. Seizure. 2024. PMID:38417212 DOI:10.1016/j.seizure.2024.02.016
+72. Wirtz PH et al. Oral melatonin reduces blood coagulation activity: placebo-controlled study in healthy young men. J Pineal Res. 2008. PMID:18289163 DOI:10.1111/j.1600-079X.2007.00499.x
+73. Hatfield J et al. Dietary supplements and bleeding. Proc (Bayl Univ Med Cent). 2022. PMID:36304597 DOI:10.1080/08998280.2022.2121575
+74. Rupp TL et al. Evening alcohol suppresses salivary melatonin in young adults. Chronobiol Int. 2007. PMID:17612945 DOI:10.1080/07420520701420675
+75. Shen YQ et al. Combination of melatonin and rapamycin for head and neck cancer therapy. J Pineal Res. 2018. PMID:29247557 DOI:10.1111/jpi.12461
+76. Ren W et al. Melatonin signaling in T cells: Functions and applications. J Pineal Res. 2017. PMID:28152213 DOI:10.1111/jpi.12394
+77. Hardeland R. Melatonin and inflammation - Story of a double-edged blade. J Pineal Res. 2018. PMID:30242884 DOI:10.1111/jpi.12525
+78. Liu J et al. MT1 and MT2 Melatonin Receptors: A Therapeutic Perspective. Annu Rev Pharmacol Toxicol. 2016. PMID:26514204 DOI:10.1146/annurev-pharmtox-010814-124742
+79. McCleery J, Sharpley AL. Pharmacotherapies for sleep disturbances in dementia. Cochrane Database Syst Rev. 2020. PMID:33189083 DOI:10.1002/14651858.CD009178.pub4
+80. Yokokawa A et al. Endogenous melatonin partial metabolic clearance as a marker of CYP1A2 activity. Br J Clin Pharmacol. 2026. PMID:42063293 DOI:10.1002/bcp.70589
+81. Circadin 2 mg prolonged-release tablets, SmPC (UK eMC). URL:https://www.medicines.org.uk/emc/product/2809/smpc
+82. TGA. Notice of final decision to amend the Poisons Standard in relation to melatonin. URL:https://www.tga.gov.au/scheduling-decision-final/notice-final-decision-amend-current-poisons-standard-relation-melatonin
+83. ACC news on Nnadi E et al., AHA Scientific Sessions 2025 abstract (melatonin and incident heart failure). URL:https://www.acc.org/Latest-in-Cardiology/Articles/2025/11/03/16/19/mon-melatonin-aha-2025
+84. Science Media Centre. Expert reaction to AHA 2025 melatonin-heart failure abstract. URL:https://www.sciencemediacentre.org/expert-reaction-to-conference-abstract-on-association-between-long-term-melatonin-supplementation-and-incidence-of-heart-failure-in-patients-with-insomnia/

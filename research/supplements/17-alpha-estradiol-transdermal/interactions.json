@@ -1,30 +1,210 @@
 {
   "schema": "supplement-interactions/1",
-  "supplement": "17\u03b1-E2 (transdermal)",
+  "supplement": "17α-E2 (transdermal)",
   "slug": "17-alpha-estradiol-transdermal",
   "aliases": [
-    "17\u03b1-estradiol",
-    "Alfatradiol",
-    "17-alpha-estradiol"
+    "17α-estradiol",
+    "alfatradiol",
+    "17-alpha-estradiol",
+    "17a-E2",
+    "alpha-estradiol",
+    "Ell-Cranell alpha",
+    "Pantostin"
   ],
   "category": "hormone",
-  "rx_status": "otc",
-  "evidence_certainty_overall": "very-low",
+  "rx_status": "rx",
+  "evidence_certainty_overall": "low",
   "edges": [
     {
-      "with": "pregnancy",
+      "with": "finasteride",
+      "with_kind": "drug",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Complementary anti-androgen action in scalp: finasteride inhibits 5α-reductase (DHT formation), while topical 17α-estradiol shifts follicular androgen metabolism toward weaker estrogens/aromatase (its effect is reportedly NOT via 5α-reductase). Commonly co-formulated for androgenetic alopecia.",
+      "evidence": "Retrospective/comparative human AGA studies combining the two (both with minoxidil); topical finasteride outperformed topical 17α-estradiol. Skin-cell metabolism study showing 17α-estradiol does not act via 5α-reductase.",
+      "citations": [
+        "PMID:32363101",
+        "PMID:36897103",
+        "PMID:14528059"
+      ]
+    },
+    {
+      "with": "dutasteride",
+      "with_kind": "drug",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Dual 5α-reductase inhibition complements 17α-estradiol's follicular androgen-to-estrogen shift; used adjunctively in androgenetic alopecia.",
+      "evidence": "Human skin-cell androgen-metabolism study (dutasteride plus 17α-estradiol) and AGA treatment reviews; no dedicated combination efficacy trial.",
+      "citations": [
+        "PMID:14528059",
+        "PMID:41714473"
+      ]
+    },
+    {
+      "with": "minoxidil",
+      "with_kind": "drug",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Additive/complementary topical therapy for female pattern hair loss; different mechanisms (vasodilator/anagen inducer vs weak estrogen).",
+      "evidence": "Retrospective combination study and a randomized trial of estradiol+minoxidil vs minoxidil; head-to-head RCT found minoxidil the stronger agent and combination's added benefit non-significant, with more menstrual irregularity.",
+      "citations": [
+        "PMID:28566902",
+        "PMID:39412172",
+        "PMID:17451383"
+      ]
+    },
+    {
+      "with": "estrogens (HRT / 17β-estradiol / conjugated equine estrogens)",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Overlapping estrogenic activity; 17α-estradiol is itself a component of conjugated equine estrogens and high systemic exposure can isomerize to the potent 17β-estradiol, giving additive estrogenic effect/feminization risk.",
+      "evidence": "Conjugated-equine-estrogen pharmacology reviews; primate study showing dose-dependent feminization via isomerization to 17β-estradiol.",
+      "citations": [
+        "PMID:9421201",
+        "PMID:12943738",
+        "PMID:36897526"
+      ]
+    },
+    {
+      "with": "antiestrogens / SERMs (tamoxifen, fulvestrant, aromatase inhibitors)",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Pharmacodynamic antagonism of estrogen-receptor-mediated effects; ER antagonism opposes hair-cycle and some metabolic actions (though part of 17α-estradiol neuroprotection is non-genomic and tamoxifen-insensitive).",
+      "evidence": "Mouse hair-cycle study (ER antagonist induces anagen), failed topical fulvestrant AGA trials, and cell neuroprotection only partly blocked by tamoxifen.",
+      "citations": [
+        "PMID:8901615",
+        "PMID:17986309",
+        "PMID:8987774"
+      ]
+    },
+    {
+      "with": "Genistein",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Both are weak/phyto-estrogens; co-exposure can be additive on estrogen-sensitive tissue, and phytoestrogens alter the CYP/COMT enzymes that metabolize 17α-estradiol.",
+      "evidence": "Rat study of 17α-estradiol plus genistein inhibiting prostate growth; MCF-7 study showing phytoestrogens modulate 17α-estradiol-metabolizing enzymes.",
+      "citations": [
+        "PMID:21855913",
+        "PMID:18497090"
+      ]
+    },
+    {
+      "with": "Rapamycin",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Mechanistic convergence as geroprotectors: both reduce mTORC1 activity, lower MEK-ERK (eIF4E) signalling and increase cap-independent translation. Overlap is mechanistic, not a tested combination (17α-estradiol effect is male-specific).",
+      "evidence": "Mouse mechanistic studies of shared cap-independent translation and MAPK regulation across rapamycin, acarbose and 17α-estradiol.",
+      "citations": [
+        "PMID:33742521",
+        "PMID:35105357"
+      ]
+    },
+    {
+      "with": "Acarbose",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Co-members of the NIA Interventions Testing Program male-biased lifespan trio; overlapping male-specific glucose-handling, mTORC2 and MAPK mechanisms. Combined lifespan effect not tested.",
+      "evidence": "ITP lifespan studies and mechanistic work on male-specific glucose tolerance/mTORC2 signalling.",
+      "citations": [
+        "PMID:24245565",
+        "PMID:28834262"
+      ]
+    },
+    {
+      "with": "DHEA",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "DHEA is a sex-steroid precursor that can be converted toward estrogens/androgens; theoretical additive hormonal effect with an estrogenic agent. No direct interaction study.",
+      "evidence": "Mechanistic/review inference from estrogen-signalling biology; no co-administration data.",
+      "citations": [
+        "PMID:42142594",
+        "PMID:33065227"
+      ]
+    },
+    {
+      "with": "estrogen-sensitive cancers (breast, endometrial)",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Even a weak estrogen may stimulate estrogen-responsive tissue; 17α-estradiol was carcinogenic in neonatal mice and shows estrogenic activity in some assays (though it inhibits androgen-driven prostate tumor cells).",
+      "evidence": "Neonatal mouse carcinogenicity, uterotrophic/estrogen-responsive cell data, and review of estrogen biology; net precautionary.",
+      "citations": [
+        "PMID:9167998",
+        "PMID:21827856",
+        "PMID:42142594"
+      ]
+    },
+    {
+      "with": "pregnancy and lactation",
       "with_kind": "condition",
       "kind": "avoid",
       "severity": "major",
-      "mechanism": "Potential fetal exposure; safety is not established.",
-      "evidence": "No adequate pregnancy safety data; precaution based on hormonal pharmacology.",
+      "mechanism": "Estrogenic agent with no human safety data; developmental estrogenic toxicity shown in animals. Approved topical label advises against use in pregnancy/breastfeeding.",
+      "evidence": "Ell-Cranell (alfatradiol) product information and neonatal mouse estrogen/carcinogen data.",
       "citations": [
-        "PMID:22879713"
+        "URL:https://www.fachinfo.de/fi/detail/843/Ell-Cranell-R-250-Mikrogramm-ml-Loesung",
+        "PMID:9167998"
+      ]
+    },
+    {
+      "with": "venous thromboembolism (history)",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Estrogens as a class are prothrombotic; any meaningful systemic estrogenic exposure could add thrombotic risk. Direct 17α-estradiol human VTE data are lacking.",
+      "evidence": "Mouse model of chronic estradiol+progesterone increasing experimental arterial/venous thrombosis; class-effect extrapolation.",
+      "citations": [
+        "PMID:28486478"
+      ]
+    },
+    {
+      "with": "estradiol immunoassay",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "17α-estradiol is a near-identical structural epimer of 17β-estradiol; direct (unextracted) clinical estradiol immunoassays are prone to cross-reactivity/positive bias and could over-read estradiol, especially at low concentrations. Magnitude on named clinical analyzers is unquantified.",
+      "evidence": "Steroid immunoassay cross-reactivity analysis (low for most estrogen analogues on one platform) plus studies of direct E2 immunoassay bias/nonspecificity vs LC-MS/MS reference method.",
+      "citations": [
+        "PMID:25071417",
+        "PMID:24334824",
+        "PMID:37272075"
       ]
     }
   ],
   "citations": [
-    "PMID:22879713",
-    "PMID:22879713"
+    "PMID:32363101",
+    "PMID:36897103",
+    "PMID:14528059",
+    "PMID:41714473",
+    "PMID:28566902",
+    "PMID:39412172",
+    "PMID:17451383",
+    "PMID:9421201",
+    "PMID:12943738",
+    "PMID:36897526",
+    "PMID:8901615",
+    "PMID:17986309",
+    "PMID:8987774",
+    "PMID:21855913",
+    "PMID:18497090",
+    "PMID:33742521",
+    "PMID:35105357",
+    "PMID:24245565",
+    "PMID:28834262",
+    "PMID:42142594",
+    "PMID:33065227",
+    "PMID:9167998",
+    "PMID:21827856",
+    "URL:https://www.fachinfo.de/fi/detail/843/Ell-Cranell-R-250-Mikrogramm-ml-Loesung",
+    "PMID:28486478",
+    "PMID:25071417",
+    "PMID:24334824",
+    "PMID:37272075"
   ]
 }

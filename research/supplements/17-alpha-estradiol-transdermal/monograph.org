@@ -3,32 +3,203 @@
 :ID: supp-17-alpha-estradiol-transdermal
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: 17α-estradiol | Alfatradiol | 17-alpha-estradiol
+:ALIASES: 17α-estradiol | alfatradiol | 17-alpha-estradiol | 17a-E2 | alpha-estradiol | Ell-Cranell alpha | Pantostin
 :CATEGORY: hormone
-:RX_STATUS: otc
+:RX_STATUS: rx
 :RESEARCHED_AT: 2026-10-13
 :END:
+
 ** Identity & forms
-- 17α-estradiol (alfatradiol) is a stereoisomer distinct from 17β-estradiol; topical scalp solutions are marketed in some countries. “Transdermal” preparations and compounded systemic products are not interchangeable. [PMID:22879713]
+- 17α-estradiol (alfatradiol; "17α-E2") is the C17 epimer/diastereomer of the potent feminizing hormone 17β-estradiol (17β-E2). It differs only in the stereochemistry at carbon 17, which renders it a very weak classical estrogen (roughly 100-200-fold less transactivating potency) while retaining non-genomic and antioxidant actions [PMID:16024755] [PMID:17512984] [PMID:42142594].
+- RX_STATUS = rx: alfatradiol is an approved topical medicinal product for androgenetic alopecia in several European countries (e.g. Ell-Cranell alpha / Pantostin, 0.025% = 250 µg/mL scalp solution; pharmacy-dispensed in Germany), but it is not FDA-approved for any indication [PMID:22879713] [URL:https://www.fachinfo.de/fi/detail/843/Ell-Cranell-R-250-Mikrogramm-ml-Loesung]. The systemic "longevity"/anti-aging use discussed in geroscience is investigational and has no approved human product; transdermal patch delivery for that use has only been proposed [PMID:36897526].
+- Forms: topical scalp solutions (0.025%, sometimes 0.05%) for alopecia; a sodium-sulfate conjugate used orally in a phase I neuroprotection study [PMID:16024755]; compounded topical foams/solutions combining alfatradiol with finasteride, minoxidil, melatonin, caffeine, etc. for hair loss [PMID:39642029] [PMID:39921912]. 17α-E2 is also a natural minor component of conjugated equine estrogens (Premarin) [PMID:9421201] [PMID:12943738].
+- Nomenclature caution: topical alopecia solutions ("transdermal"/scalp), compounded systemic products, and dietary chow used in rodent lifespan studies are not interchangeable [PMID:42142594].
+
 ** Mechanisms
-- Proposed local effects include inhibition of 5α-reductase and altered androgen metabolism; receptor potency and systemic estrogenic action differ from 17β-estradiol. [PMID:22879713]
+- Weak estrogen-receptor (ER) agonism: binding affinity for ERα has been reported as similar to 17β-E2 in one assay [PMID:15947006], but functional transactivation is far weaker (~1500 vs 100 pg/mL to match 17β-E2 in a yeast ERα reporter) [PMID:15698550] [PMID:16024755]. The alopecia drug label states very low ER affinity [URL:https://www.fachinfo.de/fi/detail/843/Ell-Cranell-R-250-Mikrogramm-ml-Loesung].
+- Androgen metabolism in skin: 17α-E2 reduces dihydrotestosterone (DHT) formation by human hair follicles and induces follicular aromatase, shifting testosterone toward weaker estrogens [PMID:12190948]. A cultured human skin-cell study concluded the alopecia effect is NOT due to 5α-reductase inhibition, contradicting the label's assumed mechanism [PMID:14528059] [URL:https://www.fachinfo.de/fi/detail/843/Ell-Cranell-R-250-Mikrogramm-ml-Loesung].
+- ERα-dependent systemic benefits (male mice): ablation of ERα abolishes 17α-E2's metabolic benefits; 17α-E2 drives genomic ERα binding similar to 17β-E2 [PMID:33289482]. ERβ partially mediates hepatic/anti-fibrotic effects [PMID:37330610] [PMID:36516471].
+- Central/hypothalamic action: 17α-E2 acts on arcuate pro-opiomelanocortin (POMC) neurons to reduce food intake [PMID:29168299]; single-nucleus transcriptomics of aged male rat hypothalamus show it modulates the HPG axis and energy/stress pathways [PMID:40996809]. Benefits are not confined to ERα in glutamatergic/GABAergic neurons [PMID:38776045].
+- Metabolic/somatotropic: raises hepatic IGF1 (GH-dependent) without feminizing the hepatic transcriptome [PMID:32857104]; improves insulin sensitivity, hepatic mTORC2/Akt/FOXO1 and glucose tolerance in males only, dependent on gonadal hormones [PMID:28834262] [PMID:26809497].
+- Shared longevity signalling: like rapamycin and acarbose, 17α-E2 lowers mTORC1 and MEK-ERK-MNK (eIF4E) signalling and increases cap-independent translation, but in males only [PMID:33742521] [PMID:35105357] [PMID:37406767]. It downregulates many pro-inflammatory pathways, though it does NOT lower hepatic NF-κB p65 unlike most other interventions [PMID:39666139].
+- Non-genomic/antioxidant neuroprotection: intercalates into membranes, blocks lipid peroxidation and preserves mitochondria; equipotent to 17β-E2 as a neuroprotectant despite negligible hormonal activity [PMID:17512984] [PMID:15723615] [PMID:8987774]. Activates MAPK/ERK and PI3K-Akt via a membrane ER ("ER-X") [PMID:15947006] [PMID:16024756]. 17α-E2 is also endogenously synthesised in rodent brain [PMID:25446575] [PMID:15947006].
+- Feminization is mild in mice/male primates at research doses but dose-dependent: higher doses in rhesus macaques caused testicular atrophy, raised estrogens and suppressed androgens, partly via isomerization to 17β-E2 [PMID:36897526]; marmosets showed no feminization at tested doses [PMID:39107620].
+
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---------+--------------------+-----------+-------------+-----------------------+-----------|
-| Female pattern hair loss | One 8-month open-label, uncontrolled study (53 women) reported hair count/diameter increases; absence of control and small sample create very-low certainty | Possible / uncertain | One 8-month open-label, uncontrolled study (53 women) reported hair count/diameter increases; absence of control and small sample create very-low certainty. Evidence does not establish systemic transdermal use for aging or longevity. | very-low | [PMID:22879713] |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---|---|---|---|---|---|
+| Female pattern hair loss (topical 0.025%) | Open-label phase IV (n=53, 8 mo); older RCT (n=51); retrospective combos | Stabilises loss / modest gain; weaker than minoxidil or topical finasteride | Significant rise in hair count/diameter vs baseline [22879713]; reduced telogen in 63% vs 37% controls [7398983]; inferior to finasteride 0.5% [32363101] | low | [PMID:22879713] [PMID:7398983] [PMID:17451383] [PMID:32363101] |
+| FPHL, alfatradiol vs minoxidil (head-to-head RCT, women) | RCT (n=103, 6 mo then switch) | Minoxidil superior; alfatradiol only decelerates loss | Minoxidil raised density/thickness (p<0.0001); alfatradiol parameters "nearly unchanged" | moderate | [PMID:17451383] |
+| FPHL, 17α-E2 + minoxidil combination | Retrospective (n=34); RCT of ethinylestradiol+minoxidil (n=43) | Combination improves counts; added benefit over minoxidil not significant | Count/caliber rose (p<0.001) [28566902]; EMX vs MX not significant, more menstrual irregularity [39412172] | low | [PMID:28566902] [PMID:39412172] |
+| AGA overall (guidelines/SR) | EDF S3 guideline; Cochrane FPHL; SRs | Topical estrogens/alfatradiol: efficacy not proven; minoxidil is mainstay | Cochrane: strong support for minoxidil; estrogens not recommendable | moderate | [PMID:29178529] [PMID:27225981] [PMID:21980982] [PMID:38852607] [PMID:12942187] |
+| Male lifespan (mouse, NIA ITP) | ITP multi-site RCTs (UM-HET3) | Extends MALE lifespan only | +12% median at 4.8 ppm [24245565]; +19% at 14.4 ppm 3x dose [27312235]; +19%/+11% when started 16/20 mo [33788371] | moderate (murine) | [PMID:24245565] [PMID:27312235] [PMID:33788371] |
+| Female lifespan (mouse) | ITP RCTs | No effect in females | No median/max lifespan change in females | moderate (murine) | [PMID:24245565] [PMID:27312235] |
+| Age-related metabolic/inflammatory dysfunction (male mice) | Multiple controlled mouse studies | Benefit (male-specific) | ↓adiposity, ↓fasting glucose/insulin/HbA1c, improved clamp; no feminization | low (murine) | [PMID:26809497] [PMID:28834262] [PMID:38197793] |
+| Sarcopenia / late-life physical function (male mice) | Controlled mouse study | Benefit in intact males; absent in females/castrated | Heavier muscle, better grip/rotarod at 25 mo | low (murine) | [PMID:30740872] |
+| Liver fibrosis / hepatic metabolism (male mice) | CCl4 model; ERβ studies | Benefit | ↓collagen synthesis, ↑degradation, ↓TGF-β1/LOXL2/SCD1 | low (murine) | [PMID:36516471] [PMID:37330610] |
+| Neuroprotection (in vitro / rodent) | Cell + rodent models; human phase I (safety only) | Benefit preclinically; no efficacy trial | Equipotent to 17β-E2 vs oxidative/excitotoxic insults | very low | [PMID:17512984] [PMID:8987774] [PMID:25595449] [PMID:16024755] |
+| APOE4-associated aging phenotypes (mice) | Knock-in APOE mouse studies | Benefit in APOE4 males; limited in females | Improved metabolism/brain measures, APOE4-biased | very low (murine) | [PMID:40494894] [PMID:42620424] |
+| Female metabolic benefit | OVX / high-fat / estropause mouse models | Only when estrogen-depleted or obese | Prevents OVX obesity/bone loss; estropause does not unmask broad response | low (murine) | [PMID:33065227] [PMID:42484802] |
+
 ** Dosing in trials
-- Study used topical scalp 0.025% solution once daily for 8 months [PMID:22879713]. [PMID:22879713]
+- Topical alopecia (approved): 0.025% (250 µg/mL) solution, 3 mL once daily to the scalp for ~1 min, reduced to every 2nd-3rd day after improvement; data do not support use beyond 1 year; not for <18 years [URL:https://www.fachinfo.de/fi/detail/843/Ell-Cranell-R-250-Mikrogramm-ml-Loesung] [PMID:22879713]. Some studies used 0.05% [PMID:32363101].
+- Oral (investigational, neuroprotection): 17α-estradiol sodium sulfate in a phase I study reported acceptable safety/pharmacokinetics [PMID:16024755].
+- Mouse lifespan (NIA ITP): dietary 4.8 ppm (≈original dose) and 14.4 ppm (3-fold) chow; benefit persists when started at 16-20 months [PMID:24245565] [PMID:27312235] [PMID:33788371].
+- Non-human primate dosing (tolerability only): rhesus macaques 0.20-0.30 mg/kg/day (higher dose feminizing) [PMID:36897526]; common marmosets 0.37-0.72 mg/kg/day (non-feminizing) [PMID:39107620]. No validated human systemic regimen exists [PMID:42142594].
+
 ** Safety & adverse effects
-- Local itching/irritation; systemic exposure and reproductive/endocrine safety depend on formulation/site/dose and are inadequately characterized. [PMID:22879713]
+- Topical (approved): most frequent is local skin discomfort/unpleasant sensation in nearly 7% of users; post-marketing (frequency unknown) burning, erythema, pruritus, rash, headache, and postmenopausal vaginal bleeding; scalp may become greasier [URL:https://www.fachinfo.de/fi/detail/843/Ell-Cranell-R-250-Mikrogramm-ml-Loesung]. Trials generally reported good tolerability over 6-8 months [PMID:22879713] [PMID:17451383].
+- Systemic estrogenic exposure from scalp use: an older study of topical estrogen on male scalps found no significant change in total urinary estrogens and no gynecomastia over 3-6 months [PMID:1213890]; the alfatradiol label notes no blood-level data after topical use, assumes near-complete absorption, rapid metabolism, and ~3% urinary excretion as estrogen fractions (mostly glucuronide) [URL:https://www.fachinfo.de/fi/detail/843/Ell-Cranell-R-250-Mikrogramm-ml-Loesung].
+- Systemic/high-dose effects (animal): feminization (testicular atrophy, ↑estrogens, ↓androgens/gonadotropins) at higher primate doses [PMID:36897526]; at research doses male mouse fertility, sperm parameters and 17β-E2/estrone were not adversely affected [PMID:35689785]. In females, 17α-E2 accelerated ovarian follicle depletion in long-lived GHRKO mice [PMID:31698046] and did not preserve ovarian reserve/fertility (unlike calorie restriction) [PMID:35032571].
+- Developmental/neonatal risk: neonatal 17α-E2 in mice was a potent estrogen and induced reproductive-tract tumors, i.e. age-dependent estrogenic potency [PMID:9167998].
+- A mouse "resilience" study found some lifespan-extending interventions including 17α-E2 could worsen recovery from certain physiological challenges [PMID:39570905].
+
 ** Contraindications
-- Avoid use in pregnancy; systemic estrogen-sensitive conditions require clinician evaluation. No established safety for compounded systemic/transdermal use. [PMID:22879713]
+*** (summarised under Interactions → Conditions)
+
 ** Interactions
-- No controlled interaction studies; potential additive hormonal effects with other estrogenic/antiandrogenic drugs are theoretical. [PMID:22879713]
+*** Drugs
+- Finasteride / dutasteride (5α-reductase inhibitors): commonly combined topically for AGA; topical finasteride 0.5% outperformed 17α-E2 0.05% (both with minoxidil) [PMID:32363101], and finasteride SRs describe combination with topical estradiol [PMID:36897103]. Mechanistically complementary (5α-reductase inhibition vs follicular androgen-to-estrogen shift); note 17α-E2's effect is reportedly NOT via 5α-reductase [PMID:14528059] [PMID:41714473].
+- Minoxidil: additive/complementary topical combination for FPHL; combinations improved hair counts but head-to-head RCT showed minoxidil alone is the stronger agent and added benefit was not statistically significant [PMID:28566902] [PMID:39412172] [PMID:17451383].
+- Systemic estrogens / HRT (17β-estradiol, conjugated equine estrogens, ethinylestradiol): overlapping estrogenic activity; 17α-E2 is itself a CEE component and high systemic exposure can isomerize to 17β-E2 — additive estrogenic effect/feminization risk [PMID:9421201] [PMID:12943738] [PMID:36897526].
+- Antiestrogens / SERMs (tamoxifen, fulvestrant/ICI 182,780, aromatase inhibitors): pharmacodynamic antagonism of estrogenic/hair-cycle effects — in mice an ER antagonist (not 17α-E2) triggered anagen, and topical fulvestrant failed in human AGA, implying opposing ER-mediated mechanisms; part of 17α-E2 neuroprotection is tamoxifen-insensitive (non-genomic) [PMID:8901615] [PMID:17986309] [PMID:8987774].
+*** Other supplements
+- Genistein: both are weak/phyto-estrogens; co-administration inhibited high-fat-diet-induced prostate growth in rats, and phytoestrogens modulate 17α-E2-metabolising CYP/COMT enzymes in MCF-7 cells — potential additive estrogenic and metabolic interaction [PMID:21855913] [PMID:18497090].
+- Rapamycin: shares the mTORC1 / cap-independent-translation / MAPK longevity mechanisms with 17α-E2 (mechanistic convergence, not a tested combination) [PMID:33742521] [PMID:35105357].
+- Acarbose: co-member of the NIA ITP male-biased lifespan trio; overlapping male-specific glucose/mTORC2 and MAPK mechanisms (combination lifespan not tested) [PMID:24245565] [PMID:28834262].
+- DHEA: a sex-steroid precursor that can be converted toward estrogens/androgens; theoretical additive hormonal effect with an estrogenic agent (mechanistic only, no direct interaction study) [PMID:42142594] [PMID:33065227].
+*** Conditions
+- Estrogen-sensitive cancers (breast, endometrial): even weak estrogens carry theoretical risk; 17α-E2 was carcinogenic neonatally in mice and stimulated some estrogen-responsive processes, though it inhibited androgen-driven prostate tumor cells — net caution advised [PMID:9167998] [PMID:21855913] [PMID:17879940] [PMID:42142594].
+- Pregnancy / breastfeeding: approved topical label advises against use; no specific human data; estrogenic/developmental concern [URL:https://www.fachinfo.de/fi/detail/843/Ell-Cranell-R-250-Mikrogramm-ml-Loesung] [PMID:9167998].
+- Venous thromboembolism history: estrogens as a class are prothrombotic; chronic estradiol+progesterone increased experimental thrombosis in mice — caution with any systemic estrogenic exposure (direct 17α-E2 VTE data lacking) [PMID:28486478].
+- Postmenopausal / estrogen-depleted or obese states (female): the only settings where female mice respond metabolically, implying context-dependent effects [PMID:33065227] [PMID:42484802].
+*** Lab-test interference
+- Estradiol immunoassays: structurally near-identical to 17β-E2, so cross-reactivity on direct (unextracted) clinical estradiol immunoassays is plausible, though a Roche Elecsys Estradiol II study found low cross-reactivity for most estrogen analogues (only estrone >0.5%) [PMID:25071417]. Direct E2 immunoassays show substantial positive bias and nonspecificity versus LC-MS/MS, especially at low (male/pediatric/aromatase-inhibitor) concentrations, and are prone to cross-reactive/heterophile interference [PMID:24334824] [PMID:25159104] [PMID:38357630] [PMID:39844768]. LC-MS/MS is the specific reference method and would distinguish the epimers [PMID:37272075]. No published report directly quantifies 17α-estradiol cross-reactivity on a named clinical analyzer, so interference during topical/systemic use is possible but unconfirmed.
+
 ** Genotype notes
-- No genotype evidence identified.
+- No human pharmacogenomic/nutrigenomic dosing evidence was found. Mechanistic mouse work shows benefits are ERα (Esr1)-dependent [PMID:33289482] and modulated by APOE genotype (APOE4 > APOE3 benefit in males) and by mitochondrial genotype in rats [PMID:40494894] [PMID:36762848] — these are not validated human genotype-guided recommendations.
+
 ** Latest research
-- 2026-10-13 search cutoff: No high-quality recent controlled trial identified in the last 24 months. [PMID:22879713]
+- [2026-08] Metabolomics across six organs/plasma confirm male-biased, lipid-centred metabolic remodeling shared with rapamycin/acarbose/canagliflozin/CR; plasma is only a partial proxy for tissue effects [PMID:40129070] [PMID:42783734] [PMID:42427596].
+- [2026-07] Narrative review frames 17α-E2 as a "mildly feminizing estrogen" with sex-specific metabolic/lifespan benefits, mechanism (genomic vs non-genomic) still unresolved [PMID:42142594].
+- [2026-07] VCD-induced estropause did NOT unmask broad female responsiveness to 17α-E2; all effects ERα-dependent [PMID:42484802].
+- [2026-06] Geroprotector bone study: 17α-E2 (and rapamycin/acarbose) preserved trabecular bone mainly in FEMALE mice, dissociating bone effects from male-biased lifespan [PMID:42367862].
+- [2026 ahead-of-print] Proposed as an acute therapeutic for male volumetric muscle loss [PMID:42684329].
+- [2025-09] Single-nucleus hypothalamic transcriptomics (aged male rats): 17α-E2 attenuates aging-related neuronal stress and activates the HPG axis [PMID:40996809].
+- [2025-06] 17α-E2 improved APOE4-associated aging phenotypes in middle-aged male mice; female benefit limited [PMID:40494894] [PMID:42620424].
+- [2025] Pilot marmoset dosing showed tolerability without feminization, supporting primate translational work [PMID:39107620].
+- [2024] Marmoset/rhesus tolerability plus skeletal-muscle and ERα-neuron mechanistic studies continue the translational effort [PMID:36897526] [PMID:38197793] [PMID:38776045].
+
 ** Open questions
-- Systemic absorption, efficacy by sex, and whether topical findings translate to transdermal systemic delivery are unknown. [PMID:22879713]
+- Does any systemic human benefit exist? All lifespan/metabolic data are rodent (and male-biased); no human efficacy trial has been done, only a phase I safety study of an oral conjugate [PMID:16024755] [PMID:42142594].
+- What non-feminizing dose/route (e.g. transdermal patch) is safe and effective in humans, given dose-dependent feminization in primates via isomerization to 17β-E2 [PMID:36897526] [PMID:39107620]?
+- Is topical alfatradiol genuinely better than placebo for AGA? Guidelines/Cochrane judge efficacy unproven, and its mechanism (5α-reductase inhibition vs aromatase/androgen shift) is unsettled [PMID:27225981] [PMID:29178529] [PMID:14528059] [PMID:12190948].
+- Why are benefits male-specific, and do female-specific effects (bone, OVX metabolism) have clinical relevance [PMID:42367862] [PMID:33065227]?
+- Real-world clinical estradiol-immunoassay interference from 17α-estradiol remains unquantified [PMID:25071417] [PMID:24334824].
+
 ** Sources
-- Kim et al. Efficacy and safety of topical 17α-estradiol solution on female pattern hair loss: phase IV study. PMID:22879713.
+1. Kim JH, et al. The Efficacy and Safety of 17α-Estradiol (Ell-Cranell alpha 0.025%) Solution on Female Pattern Hair Loss. Ann Dermatol. 2012. PMID:22879713 DOI:10.5021/ad.2012.24.3.295
+2. Blume-Peytavi U, et al. Comparison of topical minoxidil and topical alfatradiol in androgenetic alopecia in women. J Dtsch Dermatol Ges. 2007. PMID:17451383 DOI:10.1111/j.1610-0387.2007.06295.x
+3. Orfanos CE, Vogels L. Local therapy of androgenetic alopecia with 17α-estradiol: controlled randomized double-blind study. Dermatologica. 1980. PMID:7398983
+4. Choe SJ, et al. Combination of topical 17α-estradiol and minoxidil on FPHL. Ann Dermatol. 2017. PMID:28566902 DOI:10.5021/ad.2017.29.3.276
+5. Rossi A, et al. Topical finasteride 0.5% vs 17α-estradiol 0.05% in postmenopausal FPHL. Dermatol Pract Concept. 2020. PMID:32363101 DOI:10.5826/dpc.1002a39
+6. Bedair NI, et al. Combined topical estradiol with minoxidil vs minoxidil in FPHL: RCT. Clin Exp Dermatol. 2025. PMID:39412172 DOI:10.1093/ced/llae436
+7. Hoffmann R, et al. 17α-estradiol induces aromatase activity in human anagen hair follicles. Exp Dermatol. 2002. PMID:12190948 DOI:10.1034/j.1600-0625.2002.110413.x
+8. Münster U, et al. Testosterone metabolism in human skin cells; interaction with estradiol and dutasteride. Skin Pharmacol Appl Skin Physiol. 2003. PMID:14528059 DOI:10.1159/000072930
+9. Marianni B, Polonini H. Compatibility of 17-α-estradiol and others in TrichoFoam. Int J Pharm Compd. 2024. PMID:39642029
+10. Kegele CS, et al. Compatibility of 17-α-estradiol and others in Trichosol. Int J Pharm Compd. 2025. PMID:39921912
+11. van Zuuren EJ, et al. Interventions for female pattern hair loss. Cochrane Database Syst Rev. 2016. PMID:27225981 DOI:10.1002/14651858.CD007628.pub4
+12. Kanti V, et al. Evidence-based (S3) guideline for androgenetic alopecia - short version. J Eur Acad Dermatol Venereol. 2018. PMID:29178529 DOI:10.1111/jdv.14624
+13. Blumeyer A, et al. Evidence-based (S3) guideline for androgenetic alopecia. J Dtsch Dermatol Ges. 2011. PMID:21980982 DOI:10.1111/j.1610-0379.2011.07802.x
+14. Alessandrini A, et al. Italian AGA guidelines adapted from EDF/EADV. G Ital Dermatol Venereol. 2020. PMID:33295740 DOI:10.23736/S0392-0488.19.06399-5
+15. Kearney CA, et al. Androgenetic Alopecia in Women: narrative review. Am J Clin Dermatol. 2026. PMID:41714473 DOI:10.1007/s40257-026-01009-2
+16. Rosenthal A, et al. Management of androgenic alopecia: systematic review. J Cosmet Laser Ther. 2024. PMID:38852607 DOI:10.1080/14764172.2024.2362126
+17. Devjani S, et al. Androgenetic Alopecia: Therapy Update. Drugs. 2023. PMID:37166619 DOI:10.1007/s40265-023-01880-x
+18. Scheinfeld N. A review of hormonal therapy for female pattern alopecia. Dermatol Online J. 2008. PMID:18627703
+19. Georgala S, et al. Topical estrogen therapy for androgenetic alopecia in menopausal females. Dermatology. 2004. PMID:15057016 DOI:10.1159/000076497
+20. Orfanos CE, Wüstner H. Penetration and side effects of local estrogen in androgenetic alopecia. Hautarzt. 1975. PMID:1213890
+21. Gassmueller J, et al. Topical fulvestrant has no effect on androgenetic alopecia. Br J Dermatol. 2008. PMID:17986309 DOI:10.1111/j.1365-2133.2007.08276.x
+22. Trüeb RM. New and established methods in therapy of hair diseases. Hautarzt. 2003. PMID:12942187 DOI:10.1007/s00105-003-0558-6
+23. Oh HS, Smart RC. An estrogen receptor pathway regulates telogen-anagen transition. Proc Natl Acad Sci USA. 1996. PMID:8901615 DOI:10.1073/pnas.93.22.12525
+24. Huang M, Zhou X. Appraisal of guidelines for androgenetic alopecia (AGREE II). J Eval Clin Pract. 2015. PMID:26507460 DOI:10.1111/jep.12474
+25. Nobari NN, et al. SR of finasteride single/combination therapy for FPHL. Adv Clin Exp Med. 2023. PMID:36897103 DOI:10.17219/acem/157990
+26. Ohnemus U, et al. Topical estrogen accelerates hair regrowth after chemotherapy alopecia in mice. J Invest Dermatol. 2004. PMID:14962083 DOI:10.1046/j.0022-202X.2003.22120.x
+27. Abadjieva TI. Topical estradiolbenzoate, prednisolon and salicylic acid for AGA in women. Folia Med (Plovdiv). 2000. PMID:11347332
+28. Gendimenico GJ, et al. Topical estrogens: effects on connective tissue in mouse skin. Arch Dermatol Res. 2002. PMID:12115026 DOI:10.1007/s00403-002-0322-2
+29. Harrison DE, et al. Acarbose, 17-α-estradiol, and NDGA extend mouse lifespan preferentially in males. Aging Cell. 2014. PMID:24245565 DOI:10.1111/acel.12170
+30. Strong R, et al. Longer lifespan in male mice (ITP; weak estrogen, etc.). Aging Cell. 2016. PMID:27312235 DOI:10.1111/acel.12496
+31. Harrison DE, et al. 17-α-estradiol late in life extends lifespan in male UM-HET3 mice. Aging Cell. 2021. PMID:33788371 DOI:10.1111/acel.13328
+32. Stout MB, et al. 17α-Estradiol alleviates metabolic/inflammatory dysfunction without feminization. J Gerontol A. 2017. PMID:26809497 DOI:10.1093/gerona/glv309
+33. Steyn FJ, et al. 17α-estradiol acts through hypothalamic POMC neurons to reduce feeding. Aging Cell. 2018. PMID:29168299 DOI:10.1111/acel.12703
+34. Sadagurski M, et al. Anti-aging drugs reduce hypothalamic inflammation in a sex-specific manner. Aging Cell. 2017. PMID:28544365 DOI:10.1111/acel.12590
+35. Garratt M, et al. Sex differences in lifespan extension with acarbose and 17-α estradiol (mTORC2). Aging Cell. 2017. PMID:28834262 DOI:10.1111/acel.12656
+36. Garratt M, et al. Male lifespan extension with 17-α estradiol: sex-specific metabolomics. Aging Cell. 2018. PMID:29806096 DOI:10.1111/acel.12786
+37. Garratt M, et al. 17-α estradiol ameliorates sarcopenia in male mice. Aging Cell. 2019. PMID:30740872 DOI:10.1111/acel.12920
+38. Mann SN, et al. Health benefits of 17α-estradiol are mediated through ERα. eLife. 2020. PMID:33289482 DOI:10.7554/eLife.59616
+39. Sidhom S, et al. 17α-Estradiol modulates IGF1 and hepatic gene expression sex-specifically. J Gerontol A. 2021. PMID:32857104 DOI:10.1093/gerona/glaa215
+40. Mondal SA, et al. Metabolic benefits of 17α-estradiol in liver partially mediated by ERβ. Sci Rep. 2023. PMID:37330610 DOI:10.1038/s41598-023-37007-1
+41. Ali Mondal S, et al. 17α-estradiol attenuates liver fibrosis in male mice. Am J Physiol Endocrinol Metab. 2023. PMID:36516471 DOI:10.1152/ajpendo.00256.2022
+42. Mann SN, et al. 17α-estradiol prevents ovariectomy-mediated obesity and bone loss. Exp Gerontol. 2020. PMID:33065227 DOI:10.1016/j.exger.2020.111113
+43. Debarba LK, et al. 17-α-Estradiol sex-specific effects on neuroinflammation, partly reversed by gonadectomy. J Gerontol A. 2022. PMID:34309657 DOI:10.1093/gerona/glab216
+44. Isola JVV, et al. 17α-estradiol does not adversely affect sperm/fertility in male mice. Geroscience. 2023. PMID:35689785 DOI:10.1007/s11357-022-00601-8
+45. Isola JVV, et al. Mild CR but not 17α-estradiol extends ovarian reserve. Exp Gerontol. 2022. PMID:35032571 DOI:10.1016/j.exger.2021.111669
+46. Isola JVV, et al. 17α-Estradiol promotes ovarian aging in GHRKO mice. Exp Gerontol. 2020. PMID:31698046 DOI:10.1016/j.exger.2019.110769
+47. Stout MB, et al. Tolerability of 17α-estradiol in male rhesus macaques. Geroscience. 2023. PMID:36897526 DOI:10.1007/s11357-023-00767-9
+48. Sathiaseelan R, et al. Dosing tolerability of 17α-estradiol in male marmosets. Geroscience. 2025. PMID:39107620 DOI:10.1007/s11357-024-01311-z
+49. Li L, et al. 17α-estradiol effects on endocrine system: snRNA-seq of hypothalamus. eLife. 2025. PMID:40996809 DOI:10.7554/eLife.100346
+50. Camon C, et al. Systemic metabolic benefits of 17α-estradiol not exclusively via ERα in glut/GABA neurons. Geroscience. 2024. PMID:38776045 DOI:10.1007/s11357-024-01192-2
+51. McGill CJ, et al. Protection against APOE4 phenotypes with 17α-estradiol in middle-aged male mice. Commun Med. 2025. PMID:40494894 DOI:10.1038/s43856-025-00942-3
+52. McGill CJ, et al. 17α-Estradiol confers limited protection against APOE4 phenotypes in female mice. bioRxiv. 2026. PMID:42620424 DOI:10.64898/2026.08.06.743074
+53. Bubak MP, et al. 17α-Estradiol alleviates HFD-induced dysfunction in skeletal muscle. Am J Physiol Endocrinol Metab. 2024. PMID:38197793 DOI:10.1152/ajpendo.00215.2023
+54. Santín-Márquez R, et al. 17α-Estradiol: a mildly feminizing estrogen with sex-specific benefits. Ageing Res Rev. 2026. PMID:42142594 DOI:10.1016/j.arr.2026.103182
+55. Garratt M, Stout MB. Hormone actions controlling sex-specific life-extension. Aging (Albany NY). 2018. PMID:29514132 DOI:10.18632/aging.101396
+56. Shen Z, et al. Cap-independent translation shared by rapamycin, acarbose, and 17α-estradiol. Aging Cell. 2021. PMID:33742521 DOI:10.1111/acel.13345
+57. Wink L, et al. Rapamycin, acarbose and 17α-estradiol share MAPK regulation. Immun Ageing. 2022. PMID:35105357 DOI:10.1186/s12979-022-00264-1
+58. Elmansi AM, et al. NF-κB p65 downregulation shared among most anti-aging interventions. Geroscience. 2025. PMID:39666139 DOI:10.1007/s11357-024-01466-9
+59. Corder KM, et al. Negative effects of lifespan-extending intervention on resilience in mice. PLoS One. 2024. PMID:39570905 DOI:10.1371/journal.pone.0312440
+60. Mau T, et al. Life-span extension drug interventions affect adipose inflammation. J Gerontol A. 2020. PMID:31353414 DOI:10.1093/gerona/glz177
+61. Miller BF, et al. Short-term CR and 17α-estradiol: divergent proteostatic effects. J Gerontol A. 2020. PMID:31074767 DOI:10.1093/gerona/glz113
+62. Watanabe K, et al. Lifespan-extending interventions induce fatty acid oxidation patterns in mouse liver. Commun Biol. 2023. PMID:37481675 DOI:10.1038/s42003-023-05128-y
+63. Greenfield S, et al. Drug-based lifespan extension strongly affects lipids across six organs. Aging Cell. 2025. PMID:40129070 DOI:10.1111/acel.14465
+64. Burns AR, et al. Proteomic changes induced by longevity-promoting interventions. Geroscience. 2024. PMID:37653270 DOI:10.1007/s11357-023-00917-z
+65. Wahl D, et al. Healthy aging interventions reduce repetitive element transcripts. J Gerontol A. 2021. PMID:33257951 DOI:10.1093/gerona/glaa302
+66. Bartke A, et al. Anti-aging interventions affect lifespan variability. Aging (Albany NY). 2019. PMID:31235676 DOI:10.18632/aging.102037
+67. Ewart D, et al. Naturally occurring osteoarthritis in male mice with extended lifespan. Connect Tissue Res. 2020. PMID:31530037 DOI:10.1080/03008207.2019.1635590
+68. Alsabbagh R, et al. Craniofacial tissue aging in HET3 male mice with 17-alpha estradiol. Arch Oral Biol. 2025. PMID:39742550 DOI:10.1016/j.archoralbio.2024.106170
+69. Dall'Ara E, et al. Geroprotective interventions preserve trabecular bone in female mice. bioRxiv. 2026. PMID:42367862 DOI:10.64898/2026.06.15.732373
+70. Janovic SR, et al. VCD-induced estropause fails to enhance responsiveness to 17α-estradiol. Geroscience. 2026. PMID:42484802 DOI:10.1007/s11357-026-02434-1
+71. Call JA, et al. 17α-estradiol as an acute therapeutic in male volumetric muscle loss. Am J Physiol Cell Physiol. 2026. PMID:42684329 DOI:10.1152/ajpcell.00455.2026
+72. Greenfield S, et al. Plasma as proxy for tissue metabolism in lifespan extension. Metabolites. 2026. PMID:42783734 DOI:10.3390/metabo16090609
+73. Badenoch B, et al. Multi-tissue metabolomic signatures converge on ergothioneine. bioRxiv. 2026. PMID:42427596 DOI:10.64898/2026.06.24.734388
+74. Isola JVV, et al. Role of Estrogen Receptor α in Aging and Chronic Disease. Adv Geriatr Med Res. 2023. PMID:37425648 DOI:10.20900/agmr20230005
+75. Gonzalez-Freire M, et al. 17α-Estradiol: a novel therapeutic to target age-related inflammation. J Gerontol A. 2017. PMID:27034507 DOI:10.1093/gerona/glw041
+76. Bartke A, et al. Responses to many anti-aging interventions are sexually dimorphic. World J Mens Health. 2024. PMID:37118966 DOI:10.5534/wjmh.230015
+77. Sathiaseelan R, et al. A genetically heterogeneous rat model with divergent mitochondrial genomes. J Gerontol A. 2023. PMID:36762848 DOI:10.1093/gerona/glad056
+78. Nuss J, et al. Ndufs4(-/-) mice: a testing ground for longevity interventions. Geroscience. 2025. PMID:40467953 DOI:10.1007/s11357-025-01704-8
+79. Pickering AM, et al. Lifespan correlates with immunoproteasome expression. J Clin Invest. 2015. PMID:25866968 DOI:10.1172/JCI80514
+80. Jiang E, et al. Canagliflozin shares mTOR/MAPK mechanisms with other lifespan treatments. Life Sci. 2023. PMID:37406767 DOI:10.1016/j.lfs.2023.121904
+81. Toran-Allerand CD, et al. 17alpha-estradiol: a brain-active estrogen? Endocrinology. 2005. PMID:15947006 DOI:10.1210/en.2004-1616
+82. Toran-Allerand CD. Estrogen and the brain: beyond ER-α, ER-β, and 17β-estradiol. Ann N Y Acad Sci. 2005. PMID:16024756 DOI:10.1196/annals.1347.009
+83. Sievernich A, et al. In vitro bioactivity of 17alpha-estradiol. J Steroid Biochem Mol Biol. 2004. PMID:15698550 DOI:10.1016/j.jsbmb.2004.09.004
+84. Dykens JA, et al. Development of 17alpha-estradiol as a neuroprotective agent: phase I. Ann N Y Acad Sci. 2005. PMID:16024755 DOI:10.1196/annals.1347.008
+85. Simpkins JW, Dykens JA. Mitochondrial mechanisms of estrogen neuroprotection. Brain Res Rev. 2008. PMID:17512984 DOI:10.1016/j.brainresrev.2007.04.007
+86. Simpkins JW, et al. Mitochondria play a central role in estrogen-induced neuroprotection. Curr Drug Targets CNS Neurol Disord. 2005. PMID:15723615 DOI:10.2174/1568007053005073
+87. Green PS, et al. 17 alpha-estradiol exerts neuroprotective effects on SK-N-SH cells. J Neurosci. 1997. PMID:8987774 DOI:10.1523/JNEUROSCI.17-02-00511.1997
+88. Kaur SP, et al. 17α-Estradiol: candidate non-feminizing estrogen for postmenopausal neuronal complications. Steroids. 2015. PMID:25595449 DOI:10.1016/j.steroids.2015.01.004
+89. Hajek RA, et al. During development, 17alpha-estradiol is a potent estrogen and carcinogen. Environ Health Perspect. 1997. PMID:9167998 DOI:10.1289/ehp.97105s3577
+90. Perusquía M, Navarrete E. 17alpha-estradiol is biologically active in uterine tissue (antiuterotrophic). Reprod Biol Endocrinol. 2005. PMID:16042770 DOI:10.1186/1477-7827-3-30
+91. Ayan D, et al. Impact of estradiol structural modifications on estrogenic activity. J Steroid Biochem Mol Biol. 2011. PMID:21827856 DOI:10.1016/j.jsbmb.2011.07.009
+92. Cai LQ, et al. 17α-Estradiol and genistein inhibit high-fat-diet-induced prostate growth in the rat. J Urol. 2011. PMID:21855913 DOI:10.1016/j.juro.2011.05.041
+93. Qiao Y, et al. 17alpha-estradiol inhibits LAPC-4 prostatic tumor growth. Prostate. 2007. PMID:17879940 DOI:10.1002/pros.20656
+94. Ikeda T, et al. 17α-estradiol generated locally in male rat brain regulates GAD65 and anxiety. Neuropharmacology. 2015. PMID:25446575 DOI:10.1016/j.neuropharm.2014.10.019
+95. Wagner J, et al. Phytoestrogens modulate 17alpha-estradiol metabolizing enzymes in MCF-7 cells. Adv Exp Med Biol. 2008. PMID:18497090 DOI:10.1007/978-0-387-69080-3_65
+96. Bhavnani BR. Pharmacokinetics/pharmacodynamics of conjugated equine estrogens. Proc Soc Exp Biol Med. 1998. PMID:9421201 DOI:10.3181/00379727-217-44199
+97. Bhavnani BR. Estrogens and menopause: pharmacology of conjugated equine estrogens. J Steroid Biochem Mol Biol. 2003. PMID:12943738 DOI:10.1016/s0960-0760(03)00220-6
+98. Valéra MC, et al. Chronic estradiol plus progesterone and experimental thrombosis in mouse. PLoS One. 2017. PMID:28486478 DOI:10.1371/journal.pone.0177043
+99. Krasowski MD, et al. Cross-reactivity of steroid hormone immunoassays. BMC Clin Pathol. 2014. PMID:25071417 DOI:10.1186/1472-6890-14-33
+100. Handelsman DJ, et al. Performance of direct estradiol immunoassays with male serum. Clin Chem. 2014. PMID:24334824 DOI:10.1373/clinchem.2013.213363
+101. Ketha H, et al. Estradiol assays - the path ahead. Steroids. 2015. PMID:25159104 DOI:10.1016/j.steroids.2014.08.009
+102. Vierbaum L, et al. EQA of immunoassay-based steroid hormone measurement. Front Mol Biosci. 2024. PMID:38357630 DOI:10.3389/fmolb.2024.1345356
+103. Demirçin EY, et al. Elevated estradiol interference screening (immunoassay). Scand J Clin Lab Invest. 2025. PMID:39844768 DOI:10.1080/00365513.2025.2457113
+104. Handelsman DJ, et al. Evaluation of testosterone, estradiol and progesterone immunoassay calibrators by LC-MS. Clin Chem Lab Med. 2023. PMID:37272075 DOI:10.1515/cclm-2022-1179
+105. Fachinformation Ell-Cranell 250 µg/ml (alfatradiol). 2026. URL:https://www.fachinfo.de/fi/detail/843/Ell-Cranell-R-250-Mikrogramm-ml-Loesung

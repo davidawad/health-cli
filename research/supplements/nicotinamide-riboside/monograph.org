@@ -3,33 +3,217 @@
 :ID: supp-nicotinamide-riboside
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: NR | Nicotinamide riboside | Niagen
+:ALIASES: NR | nicotinamide riboside chloride | NIAGEN | Tru Niagen | NR-E | NRPT (with pterostilbene) | Basis | EH301 | vitamin B3 riboside
 :CATEGORY: longevity
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
+
 ** Identity & forms
-- NAD+ precursor sold as chloride salt; supplement versus pharmaceutical regulation depends on jurisdiction/product. [PMID:37971292] [PMID:38016950]
+- NR is a pyridine-nucleoside form of vitamin B3. It occurs naturally in milk and is phosphorylated by the NRK1/NRK2 kinases, a route to NAD+ that does not depend on Preiss-Handler [PMID:15137942].
+- Commercial forms: NR chloride (NIAGEN) is GRAS for foods, with two New Dietary Ingredient notifications [PMID:31278280]. NR-E is another synthetic high-purity NR [PMID:32715855]. Combination products include NRPT (NR + pterostilbene; Basis/EH301) [PMID:36082508] [PMID:30668199], and "combined metabolic activators" (CMA: NR + N-acetylcysteine + L-serine + L-carnitine) [PMID:34180141].
+- NR, NMN, nicotinamide (NAM) and nicotinic acid (NA) all feed the NAD+ metabolome. NR and NMN behave differently depending on tissue enzymes and nucleotidases [PMID:29249689].
+
 ** Mechanisms
-- Converted through salvage pathways to NAD+, a redox cofactor and substrate for sirtuins/PARPs; increasing blood NAD metabolites is a surrogate, not proof of clinical benefit. [PMID:37971292] [PMID:38016950]
+- Target engagement (NAD metabolome): oral NR raises blood NAD+ dose-dependently. Nicotinic acid adenine dinucleotide (NAAD) is a sensitive biomarker of NR intake [PMID:27721479] [PMID:31278280]. Blood NAD+ plateaus after about 2 weeks, brain NAD rises measurably by 4 weeks, and once-daily dosing is enough [PMID:41858901].
+- Brain: 31P-MRS and downfield 1H-MRS detect higher cerebral NAD after NR [PMID:35235774] [PMID:39044608]. NAD+ also rises in neuron-enriched plasma extracellular vesicles [PMID:36515353].
+- Gut microbiome route: In mice, most oral NR and NMN is deamidated by gut microbes to NA and enters the liver via enterohepatic circulation [PMID:36476934] [PMID:40117359]. In a 65-person human RCT, NR and NMN (but not NAM) raised circulating NAD+ to a similar degree. Ex vivo they generated NA, which supports a Preiss-Handler mechanism [PMID:41540253]. Nicotinic acid riboside (NaR) is an endogenous liver-to-kidney NAD carrier [PMID:40315855].
+- Effects downstream of NAD: NAD is a substrate for sirtuins, PARPs and CD38. Compartmentalization and non-canonical breakdown routes are still poorly understood [PMID:39026037]. Excess NAM is cleared by SAM-dependent methylation to N1-methylnicotinamide and then to 2PY/4PY [PMID:21918528] [PMID:38374343].
+- Anti-inflammatory signatures: Lower circulating cytokines in aged men [PMID:31412242] and in Parkinson's disease (PD) serum and CSF [PMID:35235774]. Lower sputum IL-8 in COPD [PMID:39548320]. Blunted Th17 responses through Nrf2/arginine [PMID:37586364] and SLIT2-ROBO1 signaling [PMID:42048163]. Lower NLRP3 expression in heart failure PBMCs [PMID:36644285] [PMID:32790648].
+- Muscle: in obese men, NR lowered muscle NAMPT protein by 14% with no change in muscle NAD+ or mitochondrial respiration [PMID:31710095]. In BMI-discordant twins, 5 months of NR increased muscle mitochondrial number and changed DNA methylation [PMID:36638183]. Muscle epigenetic age acceleration fell with NR [PMID:42481916].
+- Blood NAD+ as a biomarker: whole-blood NAD+ does not vary with age or lifestyle interventions but rises with NR. Blood NAD+ therefore shows exposure, not "biological age" [PMID:42135539].
+
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---------+--------------------+-----------+-------------+-----------------------+-----------|
-| NAD biomarkers; cardiometabolic, neurological, aging outcomes | Human RCTs reliably raise NAD metabolites, but trials are small/short and have not established improved clinical outcomes | Possible / uncertain | Human RCTs reliably raise NAD metabolites, but trials are small/short and have not established improved clinical outcomes. A 2024 systematic review of NAD supplements found limited heterogeneous efficacy evidence. | low | [PMID:37971292] [PMID:38016950] |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Blood NAD+ (target engagement) | Multiple RCTs; 3-arm precursor RCT | Increase, dose-dependent | +22/51/142% at 100/300/1000 mg/d; ~2-fold at 1-2 g/d; up to 5-fold at 3 g/d; NR ~ NMN > NAM | high | [PMID:31278280] [PMID:38016950] [PMID:41540253] [PMID:36644285] [PMID:29599478] |
+| Brain NAD | Small RCT/PK studies (MRS) | Increase, variable | Cerebral NAD 0.392 to 0.458 mM 4 h after 900 mg | moderate | [PMID:35235774] [PMID:39044608] [PMID:41858901] |
+| Parkinson's disease progression | Phase 3 RCT NOPARK (n=410, 52 wk) | Harm/no benefit | MDS-UPDRS +2.72 vs placebo (CI 0.47-4.98); NMSS +4.22 (CI 1.07-7.37) | moderate | [PMID:42848371] [PMID:35235774] [PMID:38016950] |
+| Insulin sensitivity / glucose metabolism | RCTs with clamps (n=40, n=13) | No effect | No change in clamp-measured insulin sensitivity | moderate | [PMID:29992272] [PMID:32320006] [PMID:36638183] |
+| Muscle mitochondrial function | RCT biopsies; twin study | Mostly null | No respiration change; more mitochondria in twins | low | [PMID:31710095] [PMID:31412242] [PMID:36638183] |
+| Muscle mass/function (older adults) | SR/MA of NR/NMN RCTs; NMA | No benefit | No effect on SMI, grip or gait; NR no fatigue benefit | low | [PMID:40275690] [PMID:42774067] [PMID:35998039] |
+| Walking in PAD | RCT NICE (n=90) | Benefit | 6MWD +17.6 m vs placebo (90% CI 1.8 to inf); +31 m if adherent | low | [PMID:38871717] [PMID:40479886] |
+| Blood pressure / arterial stiffness | Crossover RCT; pilot RCTs; precursor MA | Inconsistent | NR+exercise did not beat exercise for SBP; precursor MA SBP -2.54 mmHg, driven by niacin; CAVI improved in Werner syndrome | low | [PMID:29599478] [PMID:40770531] [PMID:42478598] [PMID:37593976] [PMID:40459998] |
+| Cognition (MCI, SCD, long COVID) | 4 small RCTs | No benefit | No MoCA/RBANS/ECog change; pTau217 -7% vs +18% placebo (one trial) | low | [PMID:37994989] [PMID:42478598] [PMID:39817194] [PMID:41357333] |
+| Heart failure (HFrEF) | Phase 1 RCT (n=30) | Safe; mechanistic only | NAD+ ~2-fold; correlated with PBMC respiration | very low | [PMID:36644285] [PMID:32790648] |
+| Ataxia telangiectasia | Open-label (n=24; 2-yr extension); SR | Improvement | SARA/ICARS improved; IgG +0.52 g/L | very low | [PMID:34515380] [PMID:37899683] [PMID:42387837] |
+| Friedreich's ataxia fitness | 2x2 factorial RCT (n=66) | NR alone NS; NR+exercise benefit | Peak VO2 +0.10 L/min (NS) alone; +0.21 L/min with exercise vs control | low | [PMID:42009009] |
+| COVID-19 | RCT in long COVID (n=58); CMA RCTs | No benefit alone; CMA faster recovery | Long COVID null; CMA recovery 5.7 vs 9.2 d | low | [PMID:41357333] [PMID:34180141] |
+| COPD airway inflammation | RCT (n=40) | Decrease | Sputum IL-8 -52.6% (CI -75.7 to -7.6) | low | [PMID:39548320] |
+| Psoriasis / Th17 immunity | 4-wk RCT (mechanistic endpoints) | Reduced Th17 responsiveness | Clinical skin scores not reported | very low | [PMID:42048163] [PMID:37586364] |
+| Lipids, glucose (precursor class) | MAs of mixed NAD precursors | NR no lipid effect; class raises glucose | Glucose +2.17 mg/dL, HbA1c +0.11% (mostly niacin) | low | [PMID:35303905] [PMID:38915015] [PMID:39111741] |
+| CKD exercise / oxidative stress | Crossover RCT (n=25) | VO2 peak null; biomarkers improved | F2-isoprostanes down; IL-2 up | low | [PMID:37159264] [PMID:39847432] |
+| NAFLD (NRPT) | RCT (n=111) | Liver fat null; ALT/GGT down | Significant only at 1x dose | low | [PMID:36082508] |
+
 ** Dosing in trials
-- Common RCT doses 250-1000 mg/day; phase I Parkinson disease trial studied 3000 mg/day for 4 weeks [PMID:38016950]. [PMID:37971292] [PMID:38016950]
+- Range: 100-3000 mg/d. 1000 mg/d (often 500 mg twice daily) is most common [PMID:31278280] [PMID:29599478] [PMID:42848371].
+- Longest high-quality exposure: 500 mg twice daily for 52 weeks (NOPARK) [PMID:42848371]. In Werner syndrome, 1000 mg/d was given for 26 weeks (crossover) [PMID:40459998].
+- Higher doses: 2000 mg/d in obese men (12 wk) [PMID:29992272], HFrEF [PMID:36644285] and long COVID [PMID:41357333]. 3000 mg/d for 4 weeks in PD (NR-SAFE) [PMID:38016950].
+- Weight-based 300-900 mg/d in Friedreich's ataxia (ages 10-40) [PMID:42009009]. A 1000 mg/d escalating schedule was used in MCI [PMID:37994989].
+- NRPT: 250 mg NR + 50 mg pterostilbene is the standard daily dose, with doses up to 1000/200 mg twice daily in AKI [PMID:32791973].
+- Blood NAD needs about 2 weeks to reach steady state [PMID:41858901].
+
 ** Safety & adverse effects
-- Short-term trials report mostly mild events (GI symptoms, headache, fatigue); long-term safety and effects on disease outcomes are uncertain. [PMID:37971292] [PMID:38016950]
+- Tolerability: In RCTs up to 2-3 g/d for 4-52 weeks, adverse events were no more frequent than with placebo [PMID:31278280] [PMID:29992272] [PMID:38016950]. In NOPARK, serious AEs occurred in 8.3% on NR vs 14.1% on placebo [PMID:42848371]. In long COVID, dropout was higher in the NR arm (32.4% vs 14.3% at 10 weeks) [PMID:41357333].
+- Flushing: no flushing at up to 1000 mg/d [PMID:31278280]. In contrast, nicotinic acid flushes through GPR109A/HCA2-PGD2 [PMID:39322100] and caused flushing plus higher bilirubin in a CMA comparison [PMID:37271226].
+- Clinical worsening in PD: NOPARK found worse MDS-UPDRS and non-motor scores with NR [PMID:42848371].
+- Methylation and homocysteine: NAM clearance uses methyl groups. NR-SAFE found a slight early homocysteine rise, with the methyl donor pool intact [PMID:38016950]. No change in DNA methylation, including in MTHFR variant carriers [PMID:36936793]. NIAGEN did not disturb 1-carbon metabolism [PMID:31278280]. An acute nicotinamide load lowered plasma betaine and raised homocysteine [PMID:21918528].
+- Platelets: NR raised platelet NAD about 10-fold ex vivo without changing platelet function or survival [PMID:31652008]. Its catabolite NAM caused thrombocytopenia in hemodialysis patients [PMID:21270914]. No platelet signal has been reported in NR RCTs, so this is a class concern only.
+- Cardiovascular catabolites: The terminal niacin metabolites 2PY/4PY predicted 3-year MACE (4PY HR 1.89-1.99) and promote VCAM-1 vascular inflammation [PMID:38374343]. High-dose NR raised 4PY and enlarged atherosclerotic plaques in Apoe-/- mice [PMID:40215896]. NR raised NAD catabolites in hypertensive adults [PMID:40770531].
+- Cancer (preclinical): NR increased cancer prevalence and brain metastasis in a triple-negative breast cancer (TNBC) mouse model [PMID:36371959]. NAM/NMN conferred chemoresistance in pancreatic cancer models [PMID:41724424]. Contrary data: NR potentiated gemcitabine [PMID:41349909] and paclitaxel [PMID:32433266] and did not blunt cisplatin [PMID:35875690].
+- Toxicology: NIAGEN was not genotoxic. In 90-day rat studies the LOAEL was 1000 and the NOAEL 300 mg/kg/d, with a target-organ profile (liver, kidney, ovaries, testes) similar to NAM [PMID:26791540]. For NR-E the NOAEL was 500 (male) / 1200 (female) mg/kg/d [PMID:32715855].
+
 ** Contraindications
-- No proven disease-specific contraindication; insufficient evidence for pregnancy/lactation and prolonged use. [PMID:37971292] [PMID:38016950]
+- Parkinson's disease: avoid for disease modification. The phase 3 trial showed worse outcomes than placebo [PMID:42848371].
+- Active cancer, especially during chemotherapy, or a history of TNBC: caution because of preclinical tumor-promotion and chemoresistance data [PMID:36371959] [PMID:41724424].
+- Pregnancy/lactation: no human safety data. Maternal NR benefited offspring in mice [PMID:30673618]. A lactation trial is recruiting [URL:https://clinicaltrials.gov/study/NCT04614714].
+- Dialysis/advanced CKD: the NAM catabolite load is relevant to platelets [PMID:21270914]. An NR CKD trial showed no change in eGFR [PMID:37159264].
+
 ** Interactions
-- Potential interaction concerns with glucose-lowering or cancer therapies are theoretical and inadequately studied; check product stacking with niacin/NAM. [PMID:37971292] [PMID:38016950]
+*** Drugs
+- Chemotherapy (gemcitabine, platinum, taxanes, 5-FU): preclinical data conflict. NAD precursors protected cancer cells [PMID:41724424], yet NR potentiated gemcitabine/paclitaxel [PMID:41349909] [PMID:32433266] and protected against chemotherapy-induced neuropathy [PMID:35875690] [PMID:39128506]. A human CIPN trial was terminated [URL:https://clinicaltrials.gov/study/NCT03642990].
+- PARP inhibitors (olaparib): PARP consumes NAD+. Reduced NR (NRH) increased olaparib cytotoxicity in some ovarian cancer lines (in vitro only) [PMID:40004182].
+- Adoptive T-cell immunotherapy: NR improved CD8+ memory and efficacy in mouse HCC [PMID:42231576].
+- Metformin: combined with NR it rescued mitophagy in POLG astrocytes [PMID:34631714]. In rats, both reduced tissue aging [PMID:39872949]. No human interaction study exists.
+- Antihypertensives: post hoc nighttime BP fell only in participants not taking antihypertensives [PMID:40770531]. The precursor-class BP effect is small [PMID:37593976].
+- Nicotinic acid (Rx niacin): additive B3 load. Niacin, unlike NR, causes flushing and raises glucose/HbA1c [PMID:37271226] [PMID:38915015].
+*** Other supplements
+- NMN: same pathway with comparable blood NAD+ increases, so stacking is redundant and adds to the catabolite (2PY/4PY) load [PMID:41540253] [PMID:38374343]. Combination reviews: [PMID:36678315].
+- Trimethylglycine (TMG): proposed methyl-donor co-supplement to offset NAM methylation [PMID:10985907] [PMID:21918528]. NR trials show only a slight homocysteine rise [PMID:38016950].
+- Trans-resveratrol: in PAD, adding resveratrol to NR gave no added benefit [PMID:38871717]. The analogue pterostilbene is co-formulated in NRPT [PMID:36082508].
+- B Complex: niacin/niacinamide add to total B3 and catabolite load [PMID:38374343]. Flushing comes from nicotinic acid, not NR [PMID:31278280].
+- NAC: co-formulated in CMA (with NR, serine, carnitine). The CMA was positive in COVID, AD and PD cognition, but the trials are multi-ingredient [PMID:34180141] [PMID:36703196] [PMID:39816194].
+- Caffeine: increases NMNAT2. With NR it partly restored NAD in Alzheimer's disease (LOAD) cells (in vitro) [PMID:35730144].
+- Berberine: complementary AMPK/mitochondrial actions (review) [PMID:41516357].
+- CoQ10: compared head-to-head, not combined, in CKD [PMID:37159264].
+*** Conditions
+- Parkinson's disease, active cancer, pregnancy and dialysis: see Contraindications.
+- Ataxia telangiectasia, Werner syndrome and PAD: possible benefit from small trials [PMID:37899683] [PMID:40459998] [PMID:38871717].
+- Established cardiovascular disease: 2PY/4PY-MACE association (observational) [PMID:38374343].
+*** Lab-test interference
+- Whole-blood NAD+ and NAAD rise with NR intake. They reflect exposure, not biological age [PMID:42135539] [PMID:27721479].
+- Homocysteine may rise slightly early in use [PMID:38016950]. Creatinine fell in the Werner syndrome trial [PMID:40459998].
+- No direct assay artifact was found.
+
 ** Genotype notes
-- No validated genotype-guided NR response evidence identified.
+- MTHFR variants: no NR-related change in DNA methylation in carriers (PD trial, n=29) [PMID:36936793].
+- rs10496731 is associated with 2PY/4PY levels and sVCAM-1, so it may affect catabolite exposure (not tested with NR) [PMID:38374343].
+
 ** Latest research
-- 2026-10-13 search cutoff: 2024 systematic review assessed human NAD precursor RCTs and concluded the evidence base remains limited [PMID:37971292]. [PMID:37971292] [PMID:38016950]
+- [2026-10] NOPARK phase 3 (n=410): NR 1 g/d for 52 wk worsened MDS-UPDRS by 2.72 and NMSS by 4.22 vs placebo [PMID:42848371].
+- [2026-09] Fatigue NMA (27 studies): no precursor improved perceived fatigue; NMN improved endurance [PMID:42774067].
+- [2026-08] NR lowered skeletal muscle epigenetic age acceleration; HIIT moved some clocks the opposite way [PMID:42481916].
+- [2026-07] aMCI pilot RCT (n=42): NAD+ doubled; no cognition, CBF or BP benefit [PMID:42478598]. A-T SR: NR improved SARA in open-label studies [PMID:42387837].
+- [2026-06] Blood NAD+ is stable across age and lifestyle but rises with NR [PMID:42135539]. Psoriasis RCT: NR reduced Th17 responses via SLIT2-ROBO1 [PMID:42048163].
+- [2026-06] A-T transcriptomics: NR dampened interferon signatures [PMID:42449929].
+- [2026-06] BREAK-AD (ketones + NR, n=30): fornix myelin preserved [PMID:42344884].
+- [2026-05] Friedreich's ataxia RCT: NR + exercise raised peak VO2 vs control but not vs exercise alone [PMID:42009009].
+- [2026-05] NAM/NMN promoted pancreatic cancer chemoresistance in mice [PMID:41724424].
+- [2026-04] SR (33 human studies): consistent target engagement; clinical effects inconclusive [PMID:41655607].
+- [2026-03] NAD-brain PK: NAD plateaus at about 2 wk; brain NAD up at 4 wk [PMID:41858901].
+- [2026-03] Phase 2 nerve RCT: no prevention of capsaicin axon degeneration [PMID:41502156].
+- [2026-02] NR potentiated gemcitabine in PDAC models [PMID:41349909].
+- [2026-01] NR vs NMN vs NAM RCT: NR ~ NMN, gut conversion to NA [PMID:41540253].
+- [2025-12] NR + exercise in hypertension: no SBP benefit over exercise [PMID:40770531].
+- [2025-11] Long-COVID RCT (2 g/d): NAD+ up 2.6-3.1x; no cognitive benefit [PMID:41357333].
+- [2025-08] Werner syndrome RCT: CAVI improved and ulcers shrank [PMID:40459998].
+- [2025-06] SR/MA: NR/NMN do not preserve muscle mass/function [PMID:40275690].
+- [2025-05] High-dose NR worsened atherosclerosis in Apoe-/- mice [PMID:40215896].
+- [2025-03] Enterohepatic/microbial conversion of NR to NA [PMID:40117359]. CKD: NR lowered oxidative stress [PMID:39847432].
+- [2025-01] SCD/MCI crossover RCT: pTau217 fell; no RBANS effect [PMID:39817194].
+- [2024-12] COPD RCT: sputum IL-8 -52.6% [PMID:39548320].
+
 ** Open questions
-- Long-term safety, tissue-specific NAD effects, and patient-important outcomes are open questions. [PMID:37971292] [PMID:38016950]
+- Why NOPARK showed harm after positive phase 1 signals, and whether the harm generalizes to other neurodegenerative uses [PMID:42848371].
+- Whether NR at supplement doses promotes tumor progression or metastasis in humans [PMID:36371959] [PMID:40926126].
+- Long-term cardiovascular effect of chronically raised 2PY/4PY [PMID:38374343].
+- Whether tissue NAD (not blood) increases in target organs, and which pathway (direct vs microbial NA) dominates [PMID:41540253] [PMID:39026037].
+- Confirmation of PAD, A-T and COPD signals in larger trials (NICE-PAD II planned) [URL:https://clinicaltrials.gov/study/NCT07782671].
+
 ** Sources
-- Gindri et al. Evaluation of safety and effectiveness of NAD in different clinical conditions: a systematic review. Am J Physiol Endocrinol Metab. 2024;326:E417-E427. DOI:10.1152/ajpendo.00242.2023.
-- Brakedal et al. NR-SAFE: randomized double-blind safety trial of high-dose nicotinamide riboside in Parkinson disease. PMID:38016950.
+1. Brakedal B et al. Nicotinamide Riboside for Patients With Early-Stage Parkinson Disease: The NOPARK RCT. JAMA. 2026. PMID:42848371 DOI:10.1001/jama.2026.18828
+2. Brakedal B et al. The NADPARK study: A randomized phase I trial of NR supplementation in Parkinson's disease. Cell Metab. 2022. PMID:35235774 DOI:10.1016/j.cmet.2022.02.001
+3. Berven H et al. NR-SAFE: a randomized, double-blind safety trial of high dose NR in Parkinson's disease. Nat Commun. 2023. PMID:38016950 DOI:10.1038/s41467-023-43514-6
+4. Gaare JJ et al. NR supplementation is not associated with altered methylation homeostasis in Parkinson's disease. iScience. 2023. PMID:36936793 DOI:10.1016/j.isci.2023.106278
+5. Orr ME et al. A randomized placebo-controlled trial of NR in older adults with mild cognitive impairment. Geroscience. 2024. PMID:37994989 DOI:10.1007/s11357-023-00999-9
+6. McDermott MM et al. NR for peripheral artery disease: the NICE randomized clinical trial. Nat Commun. 2024. PMID:38871717 DOI:10.1038/s41467-024-49092-5
+7. Norheim KL et al. Effect of NR on airway inflammation in COPD: a randomized, placebo-controlled trial. Nat Aging. 2024. PMID:39548320 DOI:10.1038/s43587-024-00758-1
+8. Conze D et al. Safety and Metabolism of Long-term Administration of NIAGEN in an RCT of Healthy Overweight Adults. Sci Rep. 2019. PMID:31278280 DOI:10.1038/s41598-019-46120-z
+9. Martens CR et al. Chronic NR supplementation is well-tolerated and elevates NAD+ in healthy middle-aged and older adults. Nat Commun. 2018. PMID:29599478 DOI:10.1038/s41467-018-03421-7
+10. Lin Y et al. NR combined with exercise to treat hypertension in middle-aged and older adults: a pilot RCT. Geroscience. 2025. PMID:40770531 DOI:10.1007/s11357-025-01815-2
+11. Shoji M et al. NR Supplementation Benefits in Patients With Werner Syndrome: Double-Blind Randomized Crossover Trial. Aging Cell. 2025. PMID:40459998 DOI:10.1111/acel.70093
+12. Vreones M et al. Oral NR raises NAD+ and lowers biomarkers of neurodegenerative pathology in plasma neuronal extracellular vesicles. Aging Cell. 2023. PMID:36515353 DOI:10.1111/acel.13754
+13. Wu CY et al. Effects of NR on NAD+ levels, cognition, and symptom recovery in long-COVID: an RCT. EClinicalMedicine. 2025. PMID:41357333 DOI:10.1016/j.eclinm.2025.103633
+14. Remie CME et al. NR supplementation alters body composition and skeletal muscle acetylcarnitine in healthy obese humans. Am J Clin Nutr. 2020. PMID:32320006 DOI:10.1093/ajcn/nqaa072
+15. Martens CR et al. A phase-II randomized controlled pilot study of NR in older adults with amnestic MCI. Alzheimers Dement. 2026. PMID:42478598 DOI:10.1002/alz.71605
+16. Christen S et al. The differential impact of three different NAD+ boosters on circulatory NAD and microbial metabolism in humans. Nat Metab. 2026. PMID:41540253 DOI:10.1038/s42255-025-01421-8
+17. Wang DD et al. Safety and Tolerability of NR in Heart Failure With Reduced Ejection Fraction. JACC Basic Transl Sci. 2022. PMID:36644285 DOI:10.1016/j.jacbts.2022.06.012
+18. Veenhuis SJG et al. NR Improves Ataxia Scores and Immunoglobulin Levels in Ataxia Telangiectasia. Mov Disord. 2021. PMID:34515380 DOI:10.1002/mds.28788
+19. Presterud R et al. Long-Term NR Use Improves Coordination and Eye Movements in Ataxia Telangiectasia. Mov Disord. 2024. PMID:37899683 DOI:10.1002/mds.29645
+20. Han K et al. NAD+ augmentation by NR engages SLIT2/ROBO1 signaling to attenuate Th17 inflammation in psoriasis. JCI Insight. 2026. PMID:42048163 DOI:10.1172/jci.insight.203826
+21. Han K et al. Boosting NAD preferentially blunts Th17 inflammation via arginine biosynthesis and redox control. Cell Rep Med. 2023. PMID:37586364 DOI:10.1016/j.xcrm.2023.101157
+22. Elhassan YS et al. NR Augments the Aged Human Skeletal Muscle NAD+ Metabolome and Induces Anti-inflammatory Signatures. Cell Rep. 2019. PMID:31412242 DOI:10.1016/j.celrep.2019.07.043
+23. Dollerup OL et al. An RCT of NR in obese men: safety, insulin-sensitivity, and lipid-mobilizing effects. Am J Clin Nutr. 2018. PMID:29992272 DOI:10.1093/ajcn/nqy132
+24. Dollerup OL et al. NR does not alter mitochondrial respiration, content or morphology in skeletal muscle from obese men. J Physiol. 2020. PMID:31710095 DOI:10.1113/JP278752
+25. Lapatto HAK et al. NR improves muscle mitochondrial biogenesis, satellite cell differentiation, and gut microbiota in a twin study. Sci Adv. 2023. PMID:36638183 DOI:10.1126/sciadv.add5163
+26. Trammell SA et al. Nicotinamide riboside is uniquely and orally bioavailable in mice and humans. Nat Commun. 2016. PMID:27721479 DOI:10.1038/ncomms12948
+27. Nanga RPR et al. Acute NR supplementation increases human cerebral NAD+ levels in vivo. Magn Reson Med. 2024. PMID:39044608 DOI:10.1002/mrm.30227
+28. Berven H et al. The NAD-brain pharmacokinetic study of NAD augmentation in blood and brain. iScience. 2026. PMID:41858901 DOI:10.1016/j.isci.2026.114764
+29. Tretowicz MM et al. Human whole-blood NAD+ levels do not vary with age or lifestyle interventions. Nat Metab. 2026. PMID:42135539 DOI:10.1038/s42255-026-01537-5
+30. Ahmadi A et al. Randomized crossover clinical trial of CoQ10 and NR in chronic kidney disease. JCI Insight. 2023. PMID:37159264 DOI:10.1172/jci.insight.167274
+31. Ahmadi A et al. A Pilot Trial of NR and CoQ10 on Inflammation and Oxidative Stress in CKD. Clin J Am Soc Nephrol. 2025. PMID:39847432 DOI:10.2215/CJN.0000000624
+32. Szarvas Z et al. Effects of NR on vascular health and cognitive function in older adults with PAD: pilot open-label trial. J Pharmacol Exp Ther. 2025. PMID:40479886 DOI:10.1016/j.jpet.2025.103607
+33. Dellinger RW et al. NR and pterostilbene reduces markers of hepatic inflammation in NAFLD: an RCT. Hepatology. 2023. PMID:36082508 DOI:10.1002/hep.32778
+34. Simic P et al. NRPT increases NAD+ in patients with acute kidney injury: stepwise safety RCT. BMC Nephrol. 2020. PMID:32791973 DOI:10.1186/s12882-020-02006-1
+35. Jensen JB et al. An RCT of NR and pterostilbene in experimental muscle injury in elderly individuals. JCI Insight. 2022. PMID:35998039 DOI:10.1172/jci.insight.158314
+36. Lin KY et al. Individualised exercise and NAD+ precursor supplementation in Friedreich's ataxia: 2x2 factorial RCT. Lancet Neurol. 2026. PMID:42009009 DOI:10.1016/S1474-4422(26)00082-7
+37. Altay O et al. Combined Metabolic Activators Accelerates Recovery in Mild-to-Moderate COVID-19. Adv Sci (Weinh). 2021. PMID:34180141 DOI:10.1002/advs.202101222
+38. Li X et al. The acute effect of different NAD+ precursors included in the combined metabolic activators. Free Radic Biol Med. 2023. PMID:37271226 DOI:10.1016/j.freeradbiomed.2023.05.032
+39. Heikkinen A et al. The Divergent Effects of NR and High-Intensity Exercise Training on Skeletal Muscle Epigenetic Aging. Aging Cell. 2026. PMID:42481916 DOI:10.1111/acel.70638
+40. Thomas S et al. Evaluation of NR in Prevention of Small Nerve Fiber Axon Degeneration and Promotion of Nerve Regeneration. J Peripher Nerv Syst. 2026. PMID:41502156 DOI:10.1111/jns.70101
+41. Yulug B et al. Combined metabolic activators improve cognitive functions in Alzheimer's disease patients: phase-II RCT. Transl Neurodegener. 2023. PMID:36703196 DOI:10.1186/s40035-023-00336-2
+42. Yulug B et al. Multi-omics of improved cognition in Parkinson's disease after combined metabolic activator treatment: phase II RCT. Brain Commun. 2025. PMID:39816194 DOI:10.1093/braincomms/fcae478
+43. Wu CY et al. Cognitive and AD biomarker effects of oral NR in older adults with SCD and MCI. Alzheimers Dement (N Y). 2025. PMID:39817194 DOI:10.1002/trc2.70023
+44. Roy M et al. A combination of ketones and NAD+ precursor preserves white matter integrity in MCI. Alzheimers Dement (N Y). 2026. PMID:42344884 DOI:10.1002/trc2.70278
+45. de la Rubia JE et al. Efficacy and tolerability of EH301 for ALS: a randomized, double-blind, placebo-controlled pilot study. Amyotroph Lateral Scler Frontotemporal Degener. 2019. PMID:30668199 DOI:10.1080/21678421.2018.1536152
+46. Suaste V et al. Dampening of Interferon Gene Signatures by NAD+ Augmentation in Ataxia-Telangiectasia. Int J Mol Sci. 2026. PMID:42449929 DOI:10.3390/ijms27135652
+47. Zhou B et al. Boosting NAD level suppresses inflammatory activation of PBMCs in heart failure. J Clin Invest. 2020. PMID:32790648 DOI:10.1172/JCI138538
+48. Gallagher C et al. NAD+ supplementation for anti-aging and wellness: PRISMA-guided systematic review. Ageing Res Rev. 2026. PMID:41655607 DOI:10.1016/j.arr.2026.103057
+49. Prokopidis K et al. Effect of NMN and NR on Skeletal Muscle Mass and Function: SR and MA. J Cachexia Sarcopenia Muscle. 2025. PMID:40275690 DOI:10.1002/jcsm.13799
+50. Zhong O et al. Effects of NAD+ precursor supplementation on glucose and lipid metabolism in humans: a meta-analysis. Nutr Metab (Lond). 2022. PMID:35303905 DOI:10.1186/s12986-022-00653-9
+51. Lei L et al. Effects of NAD+ precursors on blood pressure, CRP and carotid IMT: MA of RCTs. Eur J Clin Invest. 2023. PMID:37593976 DOI:10.1111/eci.14078
+52. Oliveira-Cruz A et al. Effects of NAD+ Precursors on Metabolic Syndrome Parameters: SR and MA. Horm Metab Res. 2024. PMID:39111741 DOI:10.1055/a-2382-6829
+53. Sohouli MH et al. Glucose metabolism, CRP, and liver enzymes following NAD+ precursor supplementation: SR and meta-regression. Nutr Metab (Lond). 2024. PMID:38915015 DOI:10.1186/s12986-024-00812-0
+54. Gao Y et al. Domain-specific effects of NAD+ precursors on fatigue and functional performance: SR and network MA. Front Nutr. 2026. PMID:42774067 DOI:10.3389/fnut.2026.1890335
+55. Panvino F et al. Pharmacological Treatment of Cerebellar Ataxia in Pediatric Ataxia-Telangiectasia: SR. Eur J Neurol. 2026. PMID:42387837 DOI:10.1111/ene.70683
+56. Yaku K et al. NR and NMN facilitate NAD+ synthesis via enterohepatic circulation. Sci Adv. 2025. PMID:40117359 DOI:10.1126/sciadv.adr1538
+57. Chellappa K et al. NAD precursors cycle between host tissues and the gut microbiome. Cell Metab. 2022. PMID:36476934 DOI:10.1016/j.cmet.2022.11.004
+58. Song WS et al. Nicotinic acid riboside maintains NAD+ homeostasis and ameliorates aging-associated NAD+ decline. Cell Metab. 2025. PMID:40315855 DOI:10.1016/j.cmet.2025.04.007
+59. Bieganowski P et al. Discoveries of NR as a nutrient and conserved NRK genes establish a Preiss-Handler independent route to NAD+. Cell. 2004. PMID:15137942 DOI:10.1016/s0092-8674(04)00416-7
+60. Yoshino J et al. NAD+ Intermediates: The Biology and Therapeutic Potential of NMN and NR. Cell Metab. 2018. PMID:29249689 DOI:10.1016/j.cmet.2017.11.002
+61. Migaud ME et al. Regulation of and challenges in targeting NAD+ metabolism. Nat Rev Mol Cell Biol. 2024. PMID:39026037 DOI:10.1038/s41580-024-00752-w
+62. Zhang J et al. Emerging strategies, applications and challenges of targeting NAD+ in the clinic. Nat Aging. 2025. PMID:40926126 DOI:10.1038/s43587-025-00947-6
+63. Sharma A et al. Potential Synergistic Supplementation of NAD+ Promoting Compounds as a Strategy for Increasing Healthspan. Nutrients. 2023. PMID:36678315 DOI:10.3390/nu15020445
+64. Visalli F et al. Mitochondrial Health Through NR and Berberine: Shared Pathways and Therapeutic Potential. Int J Mol Sci. 2026. PMID:41516357 DOI:10.3390/ijms27010485
+65. Maric T et al. A bioluminescent probe for in vivo monitoring of NR uptake reveals a link between metastasis and NAD+ metabolism. Biosens Bioelectron. 2023. PMID:36371959 DOI:10.1016/j.bios.2022.114826
+66. Wang YJ et al. NAD+ boosting increases atherosclerotic plaques and inflammation in Apoe knockout mice. Atherosclerosis. 2025. PMID:40215896 DOI:10.1016/j.atherosclerosis.2025.119188
+67. Ferrell M et al. A terminal metabolite of niacin promotes vascular inflammation and contributes to cardiovascular disease risk. Nat Med. 2024. PMID:38374343 DOI:10.1038/s41591-023-02793-8
+68. Conze DB et al. Safety assessment of nicotinamide riboside, a form of vitamin B3. Hum Exp Toxicol. 2016. PMID:26791540 DOI:10.1177/0960327115626254
+69. Marinescu AG et al. Safety Assessment of High-Purity, Synthetic NR (NR-E) in a 90-Day Oral Toxicity Study. Int J Toxicol. 2020. PMID:32715855 DOI:10.1177/1091581820927406
+70. Delabie W et al. The senotherapeutic NR raises platelet NAD levels but cannot prevent storage lesion. Transfusion. 2020. PMID:31652008 DOI:10.1111/trf.15556
+71. Shahbazian H et al. Oral nicotinamide reduces serum phosphorus, increases HDL, and induces thrombocytopenia in hemodialysis patients: RCT. Nefrologia. 2011. PMID:21270914 DOI:10.3265/Nefrologia.pre2010.Nov.10734
+72. Ear PH et al. Maternal NR Enhances Postpartum Weight Loss, Juvenile Offspring Development, and Neurogenesis of Adult Offspring. Cell Rep. 2019. PMID:30673618 DOI:10.1016/j.celrep.2019.01.007
+73. Nakazzi F et al. Vitamin B3 derivatives support pancreatic cancer cell survival and chemotherapy resistance. Cancer Lett. 2026. PMID:41724424 DOI:10.1016/j.canlet.2026.218334
+74. Wu Z et al. NR enhances the efficacy of gemcitabine and suppresses PDAC premalignant lesions via SIRT3 activation. Biochem Pharmacol. 2026. PMID:41349909 DOI:10.1016/j.bcp.2025.117585
+75. Hamity MV et al. NR relieves paclitaxel-induced peripheral neuropathy and enhances suppression of tumor growth in rats. Pain. 2020. PMID:32433266 DOI:10.1097/j.pain.0000000000001924
+76. Acklin S et al. NR alleviates cisplatin-induced peripheral neuropathy via SIRT2 activation. Neurooncol Adv. 2022. PMID:35875690 DOI:10.1093/noajnl/vdac101
+77. Sun X et al. NR activates SIRT3 to prevent paclitaxel-induced peripheral neuropathy. Toxicol Appl Pharmacol. 2024. PMID:39128506 DOI:10.1016/j.taap.2024.117066
+78. Lee KJ et al. NAD+ Boosting Through NRH Supplementation Enhances Treatment Efficacy in EOC In Vitro. Int J Mol Sci. 2025. PMID:40004182 DOI:10.3390/ijms26041719
+79. Pang N et al. NR enhances adoptive T cell therapy by promoting memory differentiation and metabolic fitness. Mol Ther. 2026. PMID:42231576 DOI:10.1016/j.ymthe.2026.05.026
+80. Sun WP et al. Excess nicotinamide inhibits methylation-mediated degradation of catecholamines. Hypertens Res. 2012. PMID:21918528 DOI:10.1038/hr.2011.151
+81. McCarty MF et al. Co-administration of equimolar doses of betaine may alleviate the hepatotoxic risk associated with niacin therapy. Med Hypotheses. 2000. PMID:10985907 DOI:10.1054/mehy.1999.1011
+82. Javaid A et al. Niacin-induced flushing: Mechanism, pathophysiology, and future perspectives. Arch Biochem Biophys. 2024. PMID:39322100 DOI:10.1016/j.abb.2024.110163
+83. Chen A et al. NR and Metformin Ameliorate Mitophagy Defect in iPSC-Derived Astrocytes With POLG Mutations. Front Cell Dev Biol. 2021. PMID:34631714 DOI:10.3389/fcell.2021.737304
+84. Geng L et al. A comparative study of metformin and NR in alleviating tissue aging in rats. Life Med. 2023. PMID:39872949 DOI:10.1093/lifemedi/lnac045
+85. Ryu WI et al. NR and caffeine partially restore diminished NAD availability but not altered energy metabolism in Alzheimer's disease. Aging Cell. 2022. PMID:35730144 DOI:10.1111/acel.13658
+86. ClinicalTrials.gov. NCT04614714 (NR and milk volume); NCT03642990 (NR in CIPN, terminated); NCT07782671 (NICE-PAD II). URL:https://clinicaltrials.gov

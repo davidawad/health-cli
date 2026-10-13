@@ -3,32 +3,215 @@
 :ID: supp-l-tyrosine
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: Tyrosine | L-Tyrosine
+:ALIASES: Tyrosine | L-Tyr | Tyr | 4-hydroxyphenylalanine | N-acetyl-L-tyrosine (NALT, related ester form)
 :CATEGORY: amino-acid
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
+
 ** Identity & forms
-- Conditionally essential aromatic amino acid found in foods and supplement powders/capsules. [PMID:26126245]
+- Aromatic, conditionally dispensable amino acid. It is made in the liver from phenylalanine by phenylalanine hydroxylase, and becomes essential in phenylketonuria (PKU) [PMID:39427751] [PMID:42123950].
+- It is the precursor of catecholamines (dopamine, norepinephrine, epinephrine), thyroid hormones and melanin [PMID:35201733] [PMID:17513421] [PMID:21834848].
+- Sold as free-form L-tyrosine powder/capsules. It is also a standard ingredient of PKU protein substitutes [PMID:11157309], energy drinks [PMID:36862943] and multi-ingredient "focus" products [PMID:31771598].
+- Normal serum tyrosine is about 30-120 umol/L. Symptoms of hypertyrosinemia generally do not appear below about 500 umol/L [PMID:35201733].
+
 ** Mechanisms
-- Precursor to dopamine, norepinephrine, epinephrine, and thyroid hormones; conversion depends on enzyme activity and substrate availability. [PMID:26126245]
+- Tyrosine hydroxylase is the rate-limiting enzyme of catecholamine synthesis and is not normally saturated. Raising brain tyrosine increases catecholamine synthesis only in actively firing neurons, and Tyr is preferred over Phe as substrate [PMID:17513421].
+- Brain entry is via the LAT1 (SLC7A5) transporter at the blood-brain barrier. Tyrosine competes there with the other large neutral amino acids (LNAAs), including levodopa [PMID:41067390] [PMID:6694694]. Trials therefore report the plasma Tyr:LNAA ratio: 150 mg/kg raised it 2.5-2.9-fold; 300-400 mg/kg raised it about 8-fold [PMID:21437603] [PMID:24389518] [PMID:31834099].
+- Depletion model (converse evidence): tyrosine/phenylalanine-free amino-acid drinks lower dopamine function in humans. They raise prolactin and impair spatial working memory [PMID:11291999], reduce amphetamine-induced striatal dopamine release on PET [PMID:14583741], and blunt stimulant effects and mania ratings [PMID:11581118].
+- "Depletion-repletion" hypothesis: tyrosine helps cognition mainly when catecholamines are temporarily depleted by acute stress or high demand and neurotransmitter function is intact [PMID:26424423] [PMID:25797188]. Benefit may also depend on baseline dopamine tone, i.e. an inverted-U [PMID:25339925] [PMID:27403851].
+- Thyroid hormones are formed by thyroid peroxidase iodinating tyrosyl residues within thyroglobulin, not free tyrosine. Synthesis is driven by TSH, iodide uptake through NIS, and H2O2 [PMID:28153798] [PMID:36834802]. Iodine supply, not tyrosine, is the nutritional limit [PMID:34960019].
+- Melanogenesis: L-tyrosine and L-DOPA are substrates of melanogenesis and also act as hormone-like regulators of melanocytes [PMID:21834848].
+
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---------+--------------------+-----------+-------------+-----------------------+-----------|
-| Cognitive performance under acute stress | Rapid evidence assessment included 10 RCTs and 4 controlled studies; evidence was insufficient for confident recommendations, with heterogeneous small experiments | Possible / uncertain | Rapid evidence assessment included 10 RCTs and 4 controlled studies; evidence was insufficient for confident recommendations, with heterogeneous small experiments. | low | [PMID:26126245] |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Cognition under acute stress (overall) | Rapid evidence assessment (10 RCTs + 4 CCTs); 2 systematic/narrative reviews | Benefit for cognitive stress; physical not supported | GRADE weak recommendation for cognitive stress only; no pooled ES | low | [PMID:26126245] [PMID:25797188] [PMID:26424423] |
+| Working memory in cold exposure | Small crossover RCTs (n=8-19) | Benefit | Prevented an 18% fall in match-to-sample accuracy and a 14% fall in marksmanship vs placebo in cold | low | [PMID:8029265] [PMID:17078981] [PMID:17585971] |
+| Multitasking / cognitive load | RCTs (n=20-26) | Mostly benefit; one negative | Better WM accuracy in a multitask battery; better 2-back but not 1-back; worse WCST flexibility after 2 g under load | low | [PMID:10548261] [PMID:24379768] [PMID:31521870] |
+| Inhibitory control / task switching | Small within-subject RCTs, largely one lab | Benefit | Better stop-signal efficiency; lower switch costs | very low | [PMID:24433977] [PMID:25598314] [PMID:29980424] |
+| Military field stress | RCTs in cadets (n=21) and SERE school (n=78) | Mixed | Better memory/tracking with 2 g x5/d; at SERE, no effect on most outcomes and higher anger | low | [PMID:10230711] [PMID:25220844] [PMID:38975711] |
+| Cognition in older adults | Dose-ranging crossover RCT (n=17 old/17 young); fMRI RCT (n=24) | Possible harm | Higher doses worsened load-dependent WM (p=0.048); age-dependent worsening of proactive inhibition | low | [PMID:29168741] [PMID:30094335] |
+| Thermoregulation in cold, older adults | 2 small RCTs (n=18-22) | Benefit | Core temp drop -0.07 vs -0.29 C with 150 mg/kg; cutaneous vasoconstriction doubled | low | [PMID:31609301] [PMID:28477375] |
+| Endurance performance (thermoneutral) | SR/MA (8 studies, 10 interventions) | No effect | TTE SMD 0.02; time trial SMD -0.04; GRADE moderate | moderate | [PMID:38290812] [PMID:16089275] |
+| Exercise in heat | 5 crossover RCTs (n=7-8 each) | Mostly null | One positive (80.3 vs 69.2 min to exhaustion); four null for time trial, load carriage, soccer sprints | low | [PMID:21437603] [PMID:24389518] [PMID:26285023] [PMID:31834099] [PMID:39820592] |
+| Endurance under mental fatigue | 1 crossover RCT (n=12, 300 mg/kg) | Benefit | Time to exhaustion +16% (460 vs 399 s); lower RPE slope | very low | [PMID:41818465] |
+| Major depression | 1 double-blind RCT (n=65, 100 mg/kg/d x4 wk) | No effect | No antidepressant activity vs placebo; urinary MHPG increased | low | [PMID:2142699] |
+| ADHD | Open adult trial (n=12); single-blind pediatric (n=7) | No durable effect | Early response in 8/12 adults, lost to tolerance by week 6; no effect in children | very low | [PMID:3300376] [PMID:3284877] [PMID:26938936] |
+| PKU (cognition, growth) | Cochrane SR (3 RCTs, n=56) | No effect beyond raising tyrosine | Blood Tyr MD 23.46 (95% CI 12.87-34.05); no other outcome differed | low | [PMID:33427303] [PMID:9579151] [PMID:8523192] |
+| Blood pressure | Crossover RCT in mild hypertension (n=13, 7.5 g/d x2 wk) | No effect | No BP or plasma NE change | low | [PMID:3891616] [PMID:30363894] |
+| Cocaine dependence | Historically controlled open trial (n=49, 6 g/d) | No effect | Median retention 17 d, same as control | very low | [PMID:8895116] |
+
 ** Dosing in trials
-- Acute studies commonly used 100-150 mg/kg or fixed gram doses before cold, sleep deprivation, or cognitive stress; no chronic dose established. [PMID:26126245]
+- Acute cognitive/stress protocols: 100-150 mg/kg as a single dose about 60-90 min before testing [PMID:10548261] [PMID:8029265]. Some protocols gave two 150 mg/kg doses, 300 mg/kg in total [PMID:17585971] [PMID:25220844]. Fixed doses of 2.0 g were also used [PMID:31521870] [PMID:38975711].
+- A single 150 mg/kg dose raises serum tyrosine as much as two doses [PMID:26285023]. Doses of 300 and 400 mg/kg raise the Tyr:LNAA ratio similarly, so there is a plateau [PMID:31834099].
+- Repeated dosing: 2 g five times daily in a drink during combat training [PMID:10230711]; 100 mg/kg/d for 4 weeks in depression and PKU trials [PMID:2142699] [PMID:9579151] [PMID:8523192]; 2.5 g three times daily in hypertension [PMID:3891616]; 500 mg twice daily in Parkinson's disease on levodopa [PMID:30363894].
+- Older adults reach higher plasma tyrosine than young adults on the same mg/kg dose [PMID:29168741]. Maternal PKU: a single 1.3 g dose normalized plasma tyrosine for at least 3 h [PMID:9497192].
+
 ** Safety & adverse effects
-- Possible nausea, headache, restlessness; safety data for prolonged high-dose use limited. [PMID:26126245]
+- 2026 crossover RCT (30 healthy men, 1-4 g/d for 4 weeks each): no dose-related changes in hematology, biochemistry or electrolytes, and AEs similar to placebo. Authors propose 4 g/d as a 4-week NOAEL. The study was industry-sponsored (Ajinomoto) [PMID:42356406].
+- Acute 150-300 mg/kg doses in healthy adults: heart rate and blood pressure rose during a multitask battery, not clearly attributable to tyrosine [PMID:10548261]. Anger increased under severe stress [PMID:25220844]. No side effects at 6 g/d in cocaine dependence [PMID:8895116]. In depression, adverse effects did not differ from placebo [PMID:2142699]. A 12-week pilot RCT in adolescents with anorexia nervosa reported no side effects [PMID:39548569].
+- Neurocognitive harm signals: dose-dependent working-memory decline in older adults [PMID:29168741], worse proactive inhibition with age [PMID:30094335], and worse cognitive flexibility under load in young adults [PMID:31521870].
+- Chronically high plasma tyrosine is harmful in some settings: corneal lesions and palmoplantar hyperkeratosis in tyrosinemia type II [PMID:39446998]; keratopathy in nitisinone-induced tyrosinemia, controlled below about 600 umol/L [PMID:28879639].
+- PKU: experts warn that extra free tyrosine and high-tyrosine protein substitutes cause large daytime swings in blood tyrosine and may not be safe for the fetus in maternal PKU [PMID:11157309].
+- No regulator-set tolerable upper intake level was found. Long-term (>4 weeks) controlled safety data are absent.
+
 ** Contraindications
-- Avoid unsupervised use with hyperthyroidism or thyroid hormone treatment; phenylketonuria management is specialist-led. [PMID:26126245]
+- Hereditary tyrosinemia types I-III: treatment requires lifelong tyrosine/phenylalanine restriction [PMID:39446998] [PMID:28771246] [PMID:35201733].
+- Nitisinone therapy (HT-1, alkaptonuria): already causes hypertyrosinemia, and is managed with Tyr/Phe restriction [PMID:31503358] [PMID:34736252] [PMID:28879639].
+- Phenelzine: the US label says patients should not take L-tyrosine [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=513a41d0-37d4-4355-8a6d-a2c643bce6fa].
+- Relative contraindications (caution): mania/bipolar disorder (inferred from depletion studies) [PMID:11581118]; melanoma (mechanistic only) [PMID:34869032]; older adults using high acute doses for cognition [PMID:29168741].
+
 ** Interactions
-- Potential additive effects with levodopa and thyroid hormone; monoamine oxidase inhibitor interaction concerns lack robust supplement trial data. Separate from levodopa per drug-specific advice. [PMID:26126245]
+*** Drugs
+- MAO inhibitors (phenelzine, tranylcypromine, isocarboxazid, high-dose selegiline):
+  - The phenelzine (Nardil) label groups L-tyrosine with L-dopa, L-tryptophan and phenylalanine as "related compounds" that may cause hypertensive crisis [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=513a41d0-37d4-4355-8a6d-a2c643bce6fa]. Be precise: the classic MAOI dietary reaction comes from tyramine, a decarboxylated amine that MAO normally clears in the gut and liver. Tyrosine is the amino acid, not tyramine [PMID:30255284] [PMID:35721816].
+  - No published case of tyrosine-MAOI hypertensive crisis was found. The only review claiming none exist has been retracted [PMID:25092999]. Treat the combination as caution based on the label, not as a proven reaction.
+- Levodopa (carbidopa/levodopa):
+  - Levodopa shares intestinal transporters with dietary amino acids [PMID:25073474] and competes with LNAAs at LAT1 [PMID:41067390].
+  - Oral LNAAs at 100 mg/kg reversed the effect of infused levodopa without lowering plasma levodopa [PMID:6694694]. The Sinemet label warns that high-protein diets may impair absorption [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9b17b028-964a-473c-823d-81423535bd66]. Tyrosine itself was not tested in that study. A 7-day RCT of 1 g/d in levodopa-treated PD found no BP benefit and no harm [PMID:30363894].
+- Amphetamines (Dexedrine) and methylphenidate:
+  - Tyrosine availability sets the size of stimulant-evoked dopamine release. Depletion reduced d-amphetamine dopamine release on PET [PMID:14583741] and subjective effects [PMID:10475719]. In rats, exogenous tyrosine potentiated methylphenidate-evoked accumbens dopamine [PMID:1760749]. An additive effect in humans is plausible but unstudied.
+- Nitisinone: additive hypertyrosinemia (see Contraindications) [PMID:31503358].
+- Thyroid hormone (levothyroxine) and antithyroid drugs: no interaction study was found. Free tyrosine is not rate-limiting for hormone synthesis [PMID:28153798]. Twelve months of tyrosine in YARS2 disease caused no thyroid toxicity [PMID:41404429].
+*** Other supplements
+- Caffeine: often co-formulated. Caffeine plus theanine plus tyrosine improved movement accuracy in athletes (industry-funded RCT) [PMID:31771598]. Caffeine and L-tyrosine are the lead military nootropic candidates [PMID:38851246]. ISSN says caffeine is the main active ingredient in energy drinks [PMID:36862943].
+- L-Theanine: in a 3-arm RCT (n=80), neither changed salivary stress markers. Only tyrosine (2 g) reduced Stroop misses [PMID:38975711]. The combination has only been tested within a multi-ingredient product [PMID:31771598].
+- Iodine (potassium iodide): complementary substrates. Iodine, not tyrosine, limits thyroid hormone synthesis, so no additive thyroid effect is expected [PMID:34960019] [PMID:36834802].
+- Lithium: lithium did not correct reduced fibroblast tyrosine uptake in bipolar disorder, whereas clozapine did [PMID:37318540]. Tyrosine depletion is antimanic [PMID:11581118]. Loading tyrosine in mania is theoretically counterproductive (no clinical data).
+- Other LNAA products (BCAAs, LNAA tablets in PKU) compete for the same transporter and lower brain Tyr uptake (LAT1 competition) [PMID:6694694] [PMID:41067390].
+- No cited interaction was found with the other supplements in this batch.
+*** Conditions
+- Phenylketonuria: tyrosine is already in Phe-free protein substitutes. Extra supplementation is not routinely recommended [PMID:33427303] [PMID:11157309]. European guideline targets concern Phe [PMID:28082082] [PMID:42520342].
+- Hereditary tyrosinemia, alkaptonuria on nitisinone: avoid [PMID:39446998] [PMID:34736252].
+- Liver cirrhosis: endogenous tyrosine is already raised [PMID:18653725]. A low Fischer (BCAA:aromatic) ratio tracks encephalopathy grade [PMID:30568347].
+- Mania/bipolar disorder: see Lithium [PMID:11581118].
+- Melanoma (mechanistic caution only): high tyrosine pushed primary melanoma cultures toward MAPK-inhibitor-resistant phenotypes in vitro [PMID:34869032], and Tyr/Phe restriction blocked metastasis in rodents [PMID:3470551]. Human restriction diets produced no tumor response and were poorly tolerated [PMID:3966427] [PMID:12028515].
+- Older adults: possible cognitive worsening with high acute doses [PMID:29168741] [PMID:30094335]. Paradoxically, low endogenous tyrosine is associated with postoperative neurocognitive delay and ICU delirium (observational) [PMID:40518008].
+- Parkinson's disease: the serum Tyr/Phe ratio is low in PD [PMID:27061063]. Separate tyrosine from levodopa doses (see Drugs).
+*** Lab-test interference
+- Plasma amino acids: supplementation raises plasma tyrosine and Tyr:LNAA. The rise is modest at 4 g/d fasting [PMID:42356406] and about 2-fold 2 h after 2.5 g [PMID:3891616]. Take a dosing history when interpreting plasma amino acid profiles or Phe:Tyr ratios in PKU monitoring [PMID:20882350].
+- Tyrosinemia screening: newborn screening uses blood-spot succinylacetone, which is more specific than tyrosine [PMID:28771246] [PMID:28274233]. Adding Tyr and Tyr/Phe improved PPV from 9% to 72% [PMID:40407518]. Elevated tyrosine on expanded screening can detect type II [PMID:18577048].
+- Catecholamine metabolites: tyrosine increased urinary MHPG in a depression RCT [PMID:2142699]. Plasma epinephrine, norepinephrine and dopamine rose after 6.5 g under heat [PMID:24141022]. Biochemical catecholamine testing could be affected; no assay study was found.
+
 ** Genotype notes
-- No genotype-based supplementation evidence located.
+- DRD2 C957T (rs6277): T/T homozygotes benefited more than C/C on stop-signal and N-back tasks (RCT; single lab) [PMID:27403851].
+- Inborn errors: biallelic TAT variants (tyrosinemia II), FAH (type I) and PAH (PKU) change tyrosine handling. In these patients, supplementation is either contraindicated or specialist-directed [PMID:39446998] [PMID:28771246] [PMID:33427303].
+- YARS1/YARS2 (tyrosyl-tRNA synthetase) deficiencies: tyrosine raised in vitro TyrRS activity, and supplementation was associated with clinical gains in case series [PMID:41518087] [PMID:41404429].
+
 ** Latest research
-- 2026-10-13 search cutoff: No compelling new large human efficacy trial identified in the last 24 months; 2015 evidence assessment remains a key synthesis [PMID:26126245]. [PMID:26126245]
+- [2026-09] European PKU guideline infographic summary published [PMID:42520342].
+- [2026-08] Football RCT (n=24, crossover): tyrosine improved Stroop performance; combined with carnosine, incongruent RT was 15% faster [PMID:42676602].
+- [2026-06] 4-week graded-dose safety RCT: up to 4 g/d well tolerated; proposed NOAEL 4 g/d [PMID:42356406].
+- [2026-04] Mentally fatigued cyclists: 300 mg/kg increased time to exhaustion by 16% [PMID:41818465].
+- [2026-04] YARS1 deficiency (n=9): tyrosine plus high-protein diet improved motor skills in 8/9 [PMID:41518087].
+- [2026-04] Pediatric PKU narrative review: diet and protein substitutes remain the cornerstone [PMID:42123950].
+- [2025-12] YARS2 case reports: 12 months of tyrosine well tolerated with no thyroid or cardiac toxicity [PMID:41404429].
+- [2025-11] Tyrosine hydroxylase deficiency guideline: L-dopa, not tyrosine, is first-line treatment [PMID:41215497].
+- [2025-08] Low preoperative serum tyrosine associated with delayed neurocognitive recovery in older surgical patients (AUC 0.73) [PMID:40518008].
+- [2025-07] Military review: caffeine and L-tyrosine are the leading dietary nootropic candidates, but the evidence is weak [PMID:38851246].
+- [2025-05] Dutch HT-1 screening: adding tyrosine-based markers raised PPV to 72% [PMID:40407518].
+- [2025-01] Soccer players in heat (150 mg/kg): no effect on power or decision-making [PMID:39820592].
+- [2024-11] Anorexia nervosa pilot RCT: not feasible to recruit; tyrosine raised blood levels with no side effects [PMID:39548569].
+
 ** Open questions
-- Which stress contexts, if any, produce reproducible benefit remains unclear. [PMID:26126245]
+- No quantitative meta-analysis of cognitive outcomes exists. Trials are small, acute, heterogeneous, and concentrated in a few labs. A tDCS-tyrosine study from one group was retracted [PMID:35659065].
+- Whether chronic dosing gives any benefit, and whether tolerance develops as seen in adult ADD [PMID:3300376].
+- Dose-response and the threshold for harm in older adults [PMID:29168741].
+- Whether the phenelzine label caution reflects any real pressor risk (no data) [PMID:25092999].
+- Long-term safety above 4 g/d [PMID:42356406], and whether high-dose supplementation affects melanoma biology in humans [PMID:34869032].
+
 ** Sources
-- Banderet et al. Tyrosine for mitigating stress and enhancing performance in healthy adults: rapid evidence assessment. PMID:26126245.
+1. Talebi S et al. Nutrition in phenylketonuria. Clin Nutr ESPEN. 2024. PMID:39427751 DOI:10.1016/j.clnesp.2024.09.032
+2. Jones H et al. Nutritional and Therapeutic Strategies in Paediatric Phenylketonuria: A Narrative Literature Review. Nutrients. 2026. PMID:42123950 DOI:10.3390/nu18091347
+3. Adnan M et al. Hypertyrosinemia. StatPearls [Internet]. 2022. PMID:35201733
+4. Fernstrom JD et al. Tyrosine, phenylalanine, and catecholamine synthesis and function in the brain. J Nutr. 2007. PMID:17513421 DOI:10.1093/jn/137.6.1539S
+5. Slominski A et al. L-tyrosine and L-dihydroxyphenylalanine as hormone-like regulators of melanocyte functions. Pigment Cell Melanoma Res. 2012. PMID:21834848 DOI:10.1111/j.1755-148X.2011.00898.x
+6. van Spronsen FJ et al. Phenylketonuria: tyrosine supplementation in phenylalanine-restricted diets. Am J Clin Nutr. 2001. PMID:11157309 DOI:10.1093/ajcn/73.2.153
+7. Jagim AR et al. International society of sports nutrition position stand: energy drinks and energy shots. J Int Soc Sports Nutr. 2023. PMID:36862943 DOI:10.1080/15502783.2023.2171314
+8. Zaragoza J et al. Effects of acute caffeine, theanine and tyrosine supplementation on mental and physical performance in athletes. J Int Soc Sports Nutr. 2019. PMID:31771598 DOI:10.1186/s12970-019-0326-3
+9. Scalise M et al. Crossing the Borders: the amino acid transporter LAT1 (SLC7A5) in the Blood-Brain Barrier. Neurochem Int. 2025. PMID:41067390 DOI:10.1016/j.neuint.2025.106070
+10. Nutt JG et al. The "on-off" phenomenon in Parkinson's disease. Relation to levodopa absorption and transport. N Engl J Med. 1984. PMID:6694694 DOI:10.1056/NEJM198402233100802
+11. Tumilty L et al. Oral tyrosine supplementation improves exercise capacity in the heat. Eur J Appl Physiol. 2011. PMID:21437603 DOI:10.1007/s00421-011-1921-4
+12. Tumilty L et al. Failure of oral tyrosine supplementation to improve exercise performance in the heat. Med Sci Sports Exerc. 2014. PMID:24389518 DOI:10.1249/MSS.0000000000000243
+13. Tumilty L et al. No Influence of Low-, Medium-, or High-Dose Tyrosine on Exercise in a Warm Environment. Med Sci Sports Exerc. 2020. PMID:31834099 DOI:10.1249/MSS.0000000000002245
+14. Harmer CJ et al. Tyrosine depletion attenuates dopamine function in healthy volunteers. Psychopharmacology (Berl). 2001. PMID:11291999 DOI:10.1007/s002130000613
+15. Leyton M et al. Decreasing amphetamine-induced dopamine release by acute phenylalanine/tyrosine depletion: A PET/[11C]raclopride study in healthy men. Neuropsychopharmacology. 2004. PMID:14583741 DOI:10.1038/sj.npp.1300328
+16. McTavish SF et al. Antidopaminergic effects of dietary tyrosine depletion in healthy subjects and patients with manic illness. Br J Psychiatry. 2001. PMID:11581118 DOI:10.1192/bjp.179.4.356
+17. Jongkees BJ et al. Effect of tyrosine supplementation on clinical and healthy populations under stress or cognitive demands--A review. J Psychiatr Res. 2015. PMID:26424423 DOI:10.1016/j.jpsychires.2015.08.014
+18. Hase A et al. Behavioral and cognitive effects of tyrosine intake in healthy human adults. Pharmacol Biochem Behav. 2015. PMID:25797188 DOI:10.1016/j.pbb.2015.03.008
+19. Jongkees BJ et al. People are different: tyrosine's modulating effect on cognitive control in healthy humans may depend on individual differences related to dopamine function. Front Psychol. 2014. PMID:25339925 DOI:10.3389/fpsyg.2014.01101
+20. Colzato LS et al. Effects of l-Tyrosine on working memory and inhibitory control are determined by DRD2 genotypes: A randomized controlled trial. Cortex. 2016. PMID:27403851 DOI:10.1016/j.cortex.2016.06.010
+21. Carvalho DP et al. Thyroid hormone biosynthesis and release. Mol Cell Endocrinol. 2017. PMID:28153798 DOI:10.1016/j.mce.2017.01.038
+22. Köhrle J. Selenium, Iodine and Iron-Essential Trace Elements for Thyroid Hormone Synthesis and Metabolism. Int J Mol Sci. 2023. PMID:36834802 DOI:10.3390/ijms24043393
+23. Sorrenti S et al. Iodine: Its Role in Thyroid Hormone Biosynthesis and Beyond. Nutrients. 2021. PMID:34960019 DOI:10.3390/nu13124469
+24. Attipoe S et al. Tyrosine for Mitigating Stress and Enhancing Performance in Healthy Adult Humans, a Rapid Evidence Assessment of the Literature. Mil Med. 2015. PMID:26126245 DOI:10.7205/MILMED-D-14-00594
+25. Shurtleff D et al. Tyrosine reverses a cold-induced working memory deficit in humans. Pharmacol Biochem Behav. 1994. PMID:8029265 DOI:10.1016/0091-3057(94)90299-2
+26. O'Brien C et al. Dietary tyrosine benefits cognitive and psychomotor performance during body cooling. Physiol Behav. 2007. PMID:17078981 DOI:10.1016/j.physbeh.2006.09.027
+27. Mahoney CR et al. Tyrosine supplementation mitigates working memory decrements during cold exposure. Physiol Behav. 2007. PMID:17585971 DOI:10.1016/j.physbeh.2007.05.003
+28. Thomas JR et al. Tyrosine improves working memory in a multitasking environment. Pharmacol Biochem Behav. 1999. PMID:10548261 DOI:10.1016/s0091-3057(99)00094-5
+29. Colzato LS et al. Working memory reloaded: tyrosine repletes updating in the N-back task. Front Behav Neurosci. 2013. PMID:24379768 DOI:10.3389/fnbeh.2013.00200
+30. Robson A et al. Tyrosine negatively affects flexible-like behaviour under cognitively demanding conditions. J Affect Disord. 2020. PMID:31521870 DOI:10.1016/j.jad.2019.09.031
+31. Colzato LS et al. Eating to stop: tyrosine supplementation enhances inhibitory control but not response execution. Neuropsychologia. 2014. PMID:24433977 DOI:10.1016/j.neuropsychologia.2013.12.027
+32. Steenbergen L et al. Tyrosine promotes cognitive flexibility: evidence from proactive vs. reactive control during task switching performance. Neuropsychologia. 2015. PMID:25598314 DOI:10.1016/j.neuropsychologia.2015.01.022
+33. Stock AK et al. On the effects of tyrosine supplementation on interference control in a randomized, double-blind placebo-control trial. Eur Neuropsychopharmacol. 2018. PMID:29980424 DOI:10.1016/j.euroneuro.2018.05.010
+34. Deijen JB et al. Tyrosine improves cognitive performance and reduces blood pressure in cadets after one week of a combat training course. Brain Res Bull. 1999. PMID:10230711 DOI:10.1016/s0361-9230(98)00163-4
+35. Lieberman HR et al. The catecholamine neurotransmitter precursor tyrosine increases anger during exposure to severe psychological stress. Psychopharmacology (Berl). 2015. PMID:25220844 DOI:10.1007/s00213-014-3727-7
+36. McAllister MJ et al. Impact of L-theanine and L-tyrosine on markers of stress and cognitive performance in response to a virtual reality based active shooter training drill. Stress. 2024. PMID:38975711 DOI:10.1080/10253890.2024.2375588
+37. van de Rest O et al. Dose-Dependent Effects of Oral Tyrosine Administration on Plasma Tyrosine Levels and Cognition in Aging. Nutrients. 2017. PMID:29168741 DOI:10.3390/nu9121279
+38. Bloemendaal M et al. Neuro-Cognitive Effects of Acute Tyrosine Administration on Reactive and Proactive Response Inhibition in Healthy Older Adults. eNeuro. 2018. PMID:30094335 DOI:10.1523/ENEURO.0035-17.2018
+39. Lang JA et al. Oral L-Tyrosine Supplementation Improves Core Temperature Maintenance in Older Adults. Med Sci Sports Exerc. 2020. PMID:31609301 DOI:10.1249/MSS.0000000000002188
+40. Lang JA et al. Oral l-tyrosine supplementation augments the vasoconstriction response to whole-body cooling in older adults. Exp Physiol. 2017. PMID:28477375 DOI:10.1113/EP086329
+41. Solon-Júnior LJF et al. The effect of tyrosine supplementation on whole-body endurance performance in physically active population: A systematic review and meta-analysis including GRADE qualification. J Sports Sci. 2023. PMID:38290812 DOI:10.1080/02640414.2024.2309434
+42. Sutton EE et al. Ingestion of tyrosine: effects on endurance, muscle strength, and anaerobic performance. Int J Sport Nutr Exerc Metab. 2005. PMID:16089275 DOI:10.1123/ijsnem.15.2.173
+43. Coull N et al. Tyrosine Ingestion and Its Effects on Cognitive and Physical Performance in the Heat. Med Sci Sports Exerc. 2016. PMID:26285023 DOI:10.1249/MSS.0000000000000757
+44. Donnan KJ et al. Tyrosine supplementation is ineffective in facilitating soccer players' physical and cognitive performance during high-intensity intermittent exercise in hot conditions. PLoS One. 2025. PMID:39820592 DOI:10.1371/journal.pone.0317486
+45. Solon-Júnior LJF et al. Effects of L-Tyrosine Ingestion on Endurance Performance in Mentally Fatigued Cyclists. Eur J Sport Sci. 2026. PMID:41818465 DOI:10.1002/ejsc.70150
+46. Gelenberg AJ et al. Tyrosine for depression: a double-blind trial. J Affect Disord. 1990. PMID:2142699 DOI:10.1016/0165-0327(90)90017-3
+47. Reimherr FW et al. An open trial of L-tyrosine in the treatment of attention deficit disorder, residual type. Am J Psychiatry. 1987. PMID:3300376 DOI:10.1176/ajp.144.8.1071
+48. Eisenberg J et al. Effect of tyrosine on attention deficit disorder with hyperactivity. J Clin Psychiatry. 1988. PMID:3284877
+49. Bergwerff CE et al. No Tryptophan, Tyrosine and Phenylalanine Abnormalities in Children with Attention-Deficit/Hyperactivity Disorder. PLoS One. 2016. PMID:26938936 DOI:10.1371/journal.pone.0151100
+50. Remmington T et al. Tyrosine supplementation for phenylketonuria. Cochrane Database Syst Rev. 2021. PMID:33427303 DOI:10.1002/14651858.CD001507.pub4
+51. Smith ML et al. Randomised controlled trial of tyrosine supplementation on neuropsychological performance in phenylketonuria. Arch Dis Child. 1998. PMID:9579151 DOI:10.1136/adc.78.2.116
+52. Pietz J et al. Effect of high-dose tyrosine supplementation on brain function in adults with phenylketonuria. J Pediatr. 1995. PMID:8523192 DOI:10.1016/s0022-3476(95)70031-5
+53. Sole MJ et al. Chronic dietary tyrosine supplements do not affect mild essential hypertension. Hypertension. 1985. PMID:3891616 DOI:10.1161/01.hyp.7.4.593
+54. DiFrancisco-Donoghue J et al. Effects of Tyrosine on Parkinson's Disease: A Randomized, Double-Blind, Placebo-Controlled Trial. Mov Disord Clin Pract. 2014. PMID:30363894 DOI:10.1002/mdc3.12082
+55. Galloway GP et al. A historically controlled trial of tyrosine for cocaine dependence. J Psychoactive Drugs. 1996. PMID:8895116 DOI:10.1080/02791072.1996.10472492
+56. Rohr FJ et al. Tyrosine supplementation in the treatment of maternal phenylketonuria. Am J Clin Nutr. 1998. PMID:9497192 DOI:10.1093/ajcn/67.3.473
+57. Matsumoto H et al. Evaluation of the Safety and Tolerability of L-Tyrosine Supplementation in Healthy Adult Men: A Randomized Crossover Trial. Nutrients. 2026. PMID:42356406 DOI:10.3390/nu18122020
+58. Hart M et al. How feasible is nutrition intervention research in eating disorders? Lessons learnt from a pilot parallel randomised controlled trial of tyrosine supplementation in adolescents with anorexia nervosa. J Eat Disord. 2024. PMID:39548569 DOI:10.1186/s40337-024-01134-5
+59. Adam MP et al. Tyrosinemia Type II. GeneReviews [Internet]. 1993. PMID:39446998
+60. White A et al. Nitisinone-Induced Keratopathy in Alkaptonuria: A Challenging Diagnosis Despite Clinical Suspicion. JIMD Rep. 2018. PMID:28879639 DOI:10.1007/8904_2017_56
+61. Chinsky JM et al. Diagnosis and treatment of tyrosinemia type I: a US and Canadian consensus group review and recommendations. Genet Med. 2017. PMID:28771246 DOI:10.1038/gim.2017.101
+62. Hughes JH et al. Dietary restriction of tyrosine and phenylalanine lowers tyrosinemia associated with nitisinone therapy of alkaptonuria. J Inherit Metab Dis. 2020. PMID:31503358 DOI:10.1002/jimd.12172
+63. Teke Kisa P et al. Efficacy of Phenylalanine- and Tyrosine-Restricted Diet in Alkaptonuria Patients on Nitisinone Treatment: Case Series and Review of Literature. Ann Nutr Metab. 2022. PMID:34736252 DOI:10.1159/000519813
+64. Najem A et al. Tyrosine-Dependent Phenotype Switching Occurs Early in Many Primary Melanoma Cultures Limiting Their Translational Value. Front Oncol. 2021. PMID:34869032 DOI:10.3389/fonc.2021.780654
+65. Gillman PK. A reassessment of the safety profile of monoamine oxidase inhibitors: elucidating tired old tyramine myths. J Neural Transm (Vienna). 2018. PMID:30255284 DOI:10.1007/s00702-018-1932-y
+66. Van den Eynde V et al. The Prescriber's Guide to the MAOI Diet-Thinking Through Tyramine Troubles. Psychopharmacol Bull. 2022. PMID:35721816 DOI:10.64719/pb.4434
+67. Hinz M et al. Administration of supplemental L-tyrosine with phenelzine: a clinical literature review. Clin Pharmacol. 2014. PMID:25092999 DOI:10.2147/CPAA.S67271 [RETRACTED]
+68. Camargo SM et al. The molecular mechanism of intestinal levodopa absorption and its possible implications for the treatment of Parkinson's disease. J Pharmacol Exp Ther. 2014. PMID:25073474 DOI:10.1124/jpet.114.216317
+69. McTavish SF et al. Attenuation of some subjective effects of amphetamine following tyrosine depletion. J Psychopharmacol. 1999. PMID:10475719 DOI:10.1177/026988119901300205
+70. Woods SK et al. Exogenous tyrosine potentiates the methylphenidate-induced increase in extracellular dopamine in the nucleus accumbens: a microdialysis study. Brain Res. 1991. PMID:1760749 DOI:10.1016/0006-8993(91)91220-u
+71. Ferrera G et al. Amino acid supplementation in mitochondrial aminoacyl-tRNA synthetase defects: two case reports of tyrosine supplementation in YARS2-associated disease and a review of the literature. Front Pediatr. 2025. PMID:41404429 DOI:10.3389/fped.2025.1699348
+72. Vine CAJ et al. Food for thought: dietary nootropics for the optimisation of military operators' cognitive performance. BMJ Mil Health. 2025. PMID:38851246 DOI:10.1136/military-2024-002706
+73. Tabrisi R et al. Clozapine but not lithium reverses aberrant tyrosine uptake in patients with bipolar disorder. Psychopharmacology (Berl). 2023. PMID:37318540 DOI:10.1007/s00213-023-06397-5
+74. van Spronsen FJ et al. Key European guidelines for the diagnosis and management of patients with phenylketonuria. Lancet Diabetes Endocrinol. 2017. PMID:28082082 DOI:10.1016/S2213-8587(16)30320-5
+75. van Wegberg AMJ et al. European PKU guidelines at a glance: infographics summarising key recommendations. Mol Genet Metab. 2026. PMID:42520342 DOI:10.1016/j.ymgme.2026.110221
+76. Tessari P et al. Phenylalanine and tyrosine kinetics in compensated liver cirrhosis: effects of meal ingestion. Am J Physiol Gastrointest Liver Physiol. 2008. PMID:18653725 DOI:10.1152/ajpgi.00355.2007
+77. Dam G et al. The role of Branched Chain Amino Acids in the treatment of hepatic Encephalopathy. J Clin Exp Hepatol. 2018. PMID:30568347 DOI:10.1016/j.jceh.2018.06.004
+78. Abdallah RM et al. Dietary restriction of tyrosine and phenylalanine: inhibition of metastasis of three rodent tumors. J Natl Cancer Inst. 1987. PMID:3470551
+79. Lawson DH et al. The effect of a phenylalanine and tyrosine restricted diet on elemental balance studies and plasma aminograms of patients with disseminated malignant melanoma. Am J Clin Nutr. 1985. PMID:3966427 DOI:10.1093/ajcn/41.1.73
+80. Harvie MN et al. Acceptability and tolerance of a low tyrosine and phenylalanine diet in patients with advanced cancer -- a pilot study. J Hum Nutr Diet. 2002. PMID:12028515 DOI:10.1046/j.1365-277x.2002.00365.x
+81. Zhang L et al. Preoperative tyrosine is associated with postoperative delayed neurocognitive recovery in elderly: Evidence from two hospitals. Clin Nutr ESPEN. 2025. PMID:40518008 DOI:10.1016/j.clnesp.2025.06.016
+82. Hirayama M et al. Serum Tyrosine-to-Phenylalanine Ratio is Low in Parkinson's Disease. J Parkinsons Dis. 2016. PMID:27061063 DOI:10.3233/JPD-150736
+83. Sharman R et al. Tyrosine monitoring in children with early and continuously treated phenylketonuria: results of an international practice survey. J Inherit Metab Dis. 2010. PMID:20882350 DOI:10.1007/s10545-010-9211-6
+84. Stinton C et al. Newborn screening for Tyrosinemia type 1 using succinylacetone - a systematic review of test accuracy. Orphanet J Rare Dis. 2017. PMID:28274233 DOI:10.1186/s13023-017-0599-z
+85. Bouva MJ et al. Evaluation of the Performance of Newborn Screening for Tyrosinemia Type 1 in The Netherlands: Suggestions for Improvements Using Additional Biomarkers in Addition to Succinylacetone. Int J Neonatal Screen. 2025. PMID:40407518 DOI:10.3390/ijns11020035
+86. Meissner T et al. Richner-Hanhart syndrome detected by expanded newborn screening. Pediatr Dermatol. 2008. PMID:18577048 DOI:10.1111/j.1525-1470.2008.00687.x
+87. Kishore K et al. Tyrosine ameliorates heat induced delay in event related potential P300 and contingent negative variation. Brain Cogn. 2013. PMID:24141022 DOI:10.1016/j.bandc.2013.09.005
+88. Averdunk L et al. Tyrosine supplementation with high-protein diet as a therapeutic strategy for YARS1 deficiency. Genet Med. 2026. PMID:41518087 DOI:10.1016/j.gim.2025.101682
+89. Bilgin S et al. Combined L-carnosine and L-tyrosine supplementation as an ergogenic strategy for physical and cognitive performance under fatigue in professional football players. Front Nutr. 2026. PMID:42676602 DOI:10.3389/fnut.2026.1868802
+90. Bondarenko MS et al. Consensus Guideline for the Diagnosis and Treatment of Tyrosine Hydroxylase (TH) Deficiency. J Inherit Metab Dis. 2025. PMID:41215497 DOI:10.1002/jimd.70106
+91. Cortex editors. RETRACTION NOTICE to "l-Tyrosine administration modulates the effect of transcranial direct current stimulation on working memory in healthy humans" by Bryant J. Jongkees, Roberta Sellaro, Christian Beste, Michael A. Nitsche, Simone Kühn, Lorenza S. Colzato. [Cortex 90 (2017): 103-114]. Cortex. 2022. PMID:35659065 DOI:10.1016/j.cortex.2022.05.001 [retraction notice]
+92. Pfizer/Parke-Davis. NARDIL (phenelzine sulfate) tablets, US prescribing information (DailyMed, effective 2025-06). URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=513a41d0-37d4-4355-8a6d-a2c643bce6fa
+93. Organon. SINEMET (carbidopa and levodopa) tablets, US prescribing information (DailyMed, effective 2026-08). URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9b17b028-964a-473c-823d-81423535bd66

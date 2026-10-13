@@ -3,33 +3,216 @@
 :ID: supp-zinc
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: Zinc | Zinc gluconate | Zinc sulfate | Zinc acetate
+:ALIASES: zinc gluconate | zinc picolinate | zinc acetate | zinc sulfate | zinc citrate | zinc oxide | zinc glycinate | Zn
 :CATEGORY: mineral
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
+
 ** Identity & forms
-- Essential trace element sold as salts; labels should distinguish elemental zinc from salt mass. [URL:https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/] [PMID:23644932]
+- Zinc is an essential trace element that is a cofactor in over 300 enzymatic reactions and in gene regulation and immune modulation [PMID:38999082]. Supplements are salts, and the dose should be read as elemental zinc, not salt mass [PMID:39770891].
+- Gluconate and citrate: fasting fractional absorption (10 mg zinc) was 60.9% for gluconate and 61.3% for citrate, versus 49.9% for oxide. Some people absorbed almost no zinc from oxide [PMID:24259556]. A 2024 review ranks glycinate and gluconate as the best absorbed [PMID:39770891].
+- Picolinate: a small 4-week crossover (n=15, 50 mg/d) found that only picolinate raised hair, urine and erythrocyte zinc. This study is old and used indirect markers [PMID:3630857].
+- Acetate lozenges: the form used in the strongest cold trials [PMID:27378206] [PMID:28515951]. Zinc acetate (Galzin) is also an FDA-approved prescription drug for Wilson disease [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2c4fb943-4b2f-273d-e063-6394a90abb47].
+- Sulfate: used in the leg-ulcer trials [PMID:25202988] and as syrup in paediatric prevention trials [PMID:36994923]. Oxide (80 mg zinc plus 2 mg copper) was used in AREDS [PMID:11594942]. Intranasal gluconate gels are a separate route that carries a risk of anosmia [PMID:16467707].
+- Reference values: WHO dietary reference values are 6.7-15 mg/d. The UL is 25 mg/d (EFSA) or 40 mg/d (US) [PMID:38999082].
 ** Mechanisms
-- Cofactor for hundreds of enzymes and transcription factors; supports nucleic-acid/protein synthesis, immunity, and wound healing. [URL:https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/] [PMID:23644932]
+- Immunity: zinc supports T-cell number and function. Deficiency is common in older adults and is linked to immunosenescence, inflammaging and weaker vaccine responses (reviews) [PMID:34915196] [PMID:40390089].
+- Antiviral (common cold): lozenges act locally in the oropharynx. Benefit seems to depend on lozenge composition, and doses above about 100 mg/d added nothing [PMID:28515951] [PMID:27378206].
+- Copper antagonism: zinc induces enterocyte metallothionein, which binds dietary and secreted copper and carries it out in faeces. This is the therapeutic action in Wilson disease and the cause of zinc-induced copper deficiency [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2c4fb943-4b2f-273d-e063-6394a90abb47] [PMID:42087025].
+- Glucose metabolism: zinc is involved in insulin synthesis, storage and secretion. The beta-cell transporter ZnT8 (SLC30A8) affects how insulin secretion responds to zinc [PMID:42594341] [PMID:25348609].
+- Ionophores: quercetin and EGCG carried zinc across cell and liposome membranes in vitro [PMID:25050823]. This is a laboratory finding only.
+- Gonadal axis: dietary zinc restriction lowered testosterone in young men, and repletion raised it in marginally deficient older men (small studies) [PMID:8875519].
+- Depression: blood zinc is about 1.85 umol/L lower in depressed than non-depressed people, with a gradient by severity (observational) [PMID:23806573].
+- Bone: 50 mg/d raised total and bone-specific alkaline phosphatase (a zinc metalloenzyme) in healthy men [PMID:11787985].
+
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---------+--------------------+-----------+-------------+-----------------------+-----------|
-| Deficiency correction; common cold duration; AMD progression | Replacing deficiency is established | Established benefit | Replacing deficiency is established. Lozenges may modestly shorten colds when started early, with heterogeneous evidence. Zinc plus antioxidants in AREDS reduced advanced AMD risk in high-risk participants; do not generalize to primary prevention. | moderate | [URL:https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/] [PMID:23644932] |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Common cold: treatment | Cochrane 2024 (34 RCTs, n=8526); IPD MA of acetate lozenges; lozenge MA | Benefit for duration | Cochrane MD -2.37 d (-4.21 to -0.53; I2 97%, low certainty); acetate IPD -2.73 d (1.8-3.3) of ~7 d; high-dose lozenges -33% | low | [PMID:38719213] [PMID:27378206] [PMID:28515951] [PMID:22566526] |
+| Common cold: prevention | Cochrane 2024 | Little or no effect | RR 0.93 (0.85-1.01), 9 RCTs | low | [PMID:38719213] |
+| Advanced AMD progression (intermediate AMD) | AREDS RCT (n=3640); Cochrane 2023 | Benefit | AREDS zinc+antioxidants OR 0.72 (99% CI 0.52-0.98); Cochrane zinc vs placebo OR 0.83 (0.70-0.98); 25 mg = 80 mg in AREDS2 | moderate | [PMID:11594942] [PMID:37702300] [PMID:23644932] [PMID:35653117] |
+| AMD primary prevention | SR of RCTs and cohorts | Inconclusive | Cohorts inconsistent | low | [PMID:23652490] |
+| Acute diarrhoea, children >6 mo (LMIC) | Cochrane 2016 (33 RCTs); WHO-commissioned SR 2024 (38 RCTs) | Benefit | Duration -11.5 h (Cochrane), -13.3 h (2024); malnourished -26 h; no benefit <6 mo | moderate | [PMID:27996088] [PMID:39641338] |
+| Preventive zinc in children | Cochrane 2023 (96 RCTs, n=219,584) | Fewer diarrhoea episodes; no mortality effect | Diarrhoea RR 0.91 (0.90-0.93); mortality RR 0.93 (0.84-1.03); height SMD 0.12 | high | [PMID:36994923] |
+| COVID-19 treatment | RCTs: outpatient open-label; double-blind (n=470); open-label inpatient (n=71) | Mixed | A to Z: no symptom benefit; Tunisian RCT death/ICU OR 0.58 (0.33-0.99) | low | [PMID:33576820] [PMID:36367144] [PMID:41076985] |
+| Glycaemic control (T2D/prediabetes) | MAs of RCTs (32 interventions, n=1700; 18 RCTs 2026) | Benefit | FG -14.15 mg/dL; HbA1c -0.55%; HOMA-IR -1.10 | low | [PMID:31161192] [PMID:37870684] [PMID:42594341] |
+| Wound healing: leg ulcers | Cochrane (6 small RCTs) | No benefit | Venous ulcer healing RR 1.22 (0.88-1.68) | low | [PMID:25202988] |
+| Wound healing: diabetic foot ulcer | Single RCT (n=60, under expression of concern) | Possible benefit | Ulcer length -1.5 vs -0.9 cm | very low | [PMID:28395131] [PMID:39164926] |
+| Testosterone / male fertility | Small pre-post studies; FAZST RCT (n=2370) | Rises only when deficient; no fertility benefit | FAZST live birth RD -0.9% (-4.7 to 2.8); DNA fragmentation +2.4% | low | [PMID:8875519] [PMID:31910279] [PMID:16533356] |
+| Depression (adjunct to antidepressants) | MAs of small RCTs; NMA 2025 | Benefit, small trials | SMD -0.36 (-0.67 to -0.04); Zinc+ADT SMD 1.59 vs ADT in NMA | low | [PMID:32885249] [PMID:33641635] [PMID:40314175] |
+| Immune function in older adults | RCT (n=31, nursing home); observational | T-cell gain; pneumonia link observational | Serum zinc +16% vs placebo; more T cells | low | [PMID:26817502] [PMID:17921398] |
+| Hospital length of stay | MA of 8 RCTs (n=1267) | Small benefit | MD -0.43 d (-0.65 to -0.22) | low | [PMID:39435877] |
+| Primary dysmenorrhoea / PMS | MAs of 6 and 4-5 RCTs | Benefit | Pain g -1.54; PMS total g -0.38 | low | [PMID:39683510] [PMID:40737185] |
+| Lipids | MA of 33 interventions; T2D MAs | Overall null; HDL down in healthy; up in T2D | Healthy HDL -0.10 mmol/L (-7%); T2D HDL +4.82 mg/dL | low | [PMID:20034629] [PMID:38224402] |
+
 ** Dosing in trials
-- Trial doses vary by indication. AREDS2 used 25 or 80 mg elemental zinc/day with copper; cold trials often use lozenges, not chronic high-dose tablets. [URL:https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/] [PMID:23644932]
+- Common cold: lozenges giving about 80-92 mg/d of zinc worked as well as 192-207 mg/d, started within 24 h of symptoms [PMID:28515951]. The Cochrane review included gluconate 45-276 mg/d for 4.5-21 days [PMID:38719213].
+- AMD: AREDS used 80 mg zinc (as oxide) plus 2 mg copper with antioxidants [PMID:11594942]. AREDS2 tested 25 mg against 80 mg and found no difference in progression; the 10-year HR for low vs high zinc was 1.04 (0.94-1.14) [PMID:23644932] [PMID:35653117].
+- Childhood diarrhoea: the WHO-commissioned review found lower-dose zinc caused less vomiting than high-dose (RR 0.80) and favoured reducing the dose [PMID:39641338]. Adherence to 10-day courses pools at 63%, and at 35% for 14 days [PMID:41178278].
+- Glycaemia and adult trials: doses are commonly 20-50 mg/d. The 2019 MA found larger fasting-glucose effects with inorganic salts and in diabetes [PMID:31161192].
+- Older adults: 30 mg/d for 3 months raised serum zinc, but not to normal in those starting at or below 60 ug/dL [PMID:26817502]. A pilot trial is comparing 30 vs 60 mg/d [PMID:38450236].
+- COVID-19: 50 mg/d gluconate for 10 days [PMID:33576820]; 90 mg/d acetate for 14 days [PMID:41076985].
+- Wilson disease (prescription): 50 mg three times daily as acetate, taken away from food [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2c4fb943-4b2f-273d-e063-6394a90abb47].
+
 ** Safety & adverse effects
-- Nausea, vomiting, metallic taste; prolonged high doses impair copper absorption and can cause anemia/neutropenia. Adult UL is 40 mg/day total intake. [URL:https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/] [PMID:23644932]
+- GI effects and taste: cold treatment raised non-serious adverse events (RR 1.34, 1.15-1.55) [PMID:38719213]. An earlier MA found more bad taste (RR 1.65) and nausea (RR 1.64) [PMID:22566526]. Zinc raised vomiting in children, both as treatment (RR 1.57) [PMID:27996088] and as prevention (RR 1.29) [PMID:36994923]. FAZST (30 mg/d) found more abdominal pain, nausea and vomiting [PMID:31910279]. The Galzin label lists gastric irritation and post-marketing gastric ulcers [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2c4fb943-4b2f-273d-e063-6394a90abb47].
+- Copper deficiency: a 2026 SR of 37 cases found exposure from supplements, denture creams and coins, at doses of about 50 to over 1500 mg/d.
+  - Anaemia was nearly universal, often with neutropenia, and copper was low in every case. Ring sideroblasts were often mistaken for myelodysplasia [PMID:42087025].
+  - Blood counts recovered after stopping zinc and giving copper. Neurological deficits recovered slowly or incompletely [PMID:42087025].
+  - Case reports: an OTC product caused sideroblastic anaemia with low ceruloplasmin [PMID:38846187]. Denture-cream zinc caused myeloneuropathy that mimicked a paraneoplastic syndrome [PMID:40416147]. 150 mg/d lowered ceruloplasmin ferroxidase and SOD activity in women [PMID:3365292].
+- Intranasal zinc: the "squirt, sniff, burn, anosmia" syndrome was described in 17 patients [PMID:16467707]. Smell loss can be long-lasting or permanent [PMID:15283486], and a Bradford Hill analysis supports causation [PMID:20644061]. Benefit is unproven (pooled RR 0.62, 0.18-2.19) [PMID:20690364].
+- HDL: in healthy people HDL fell by 0.10 mmol/L (about 7%) [PMID:20034629]. In T2D and CKD it rose instead [PMID:38224402] [PMID:41651464].
+- Magnesium: 142 mg/d zinc lowered magnesium absorption and balance [PMID:7836627]. A 2025 case describes refractory hypomagnesaemia [PMID:40270655].
+- Other: sperm DNA fragmentation rose by 2.4% with zinc plus folic acid [PMID:31910279]. Body weight rose by 0.68 kg, which is clinically trivial [PMID:41617950].
+- Upper limits: 40 mg/d (US) and 25 mg/d (EFSA) [PMID:38999082]. Cold-lozenge and AREDS doses exceed these and are meant for time-limited or supervised use [PMID:28515951] [PMID:11594942].
 ** Contraindications
-- Wilson disease treatment is a supervised indication; avoid chronic excess and account for copper status. [URL:https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/] [PMID:23644932]
+- Intranasal zinc products: avoid because of the risk of permanent anosmia [PMID:16467707] [PMID:20644061].
+- Existing copper deficiency, unexplained cytopenias or myelopathy: high-dose zinc should not be continued without checking copper status [PMID:42087025] [PMID:40416147].
+- Long-term intake above the UL without supervision, especially stacked sources (multivitamin plus lozenges plus denture cream) [PMID:38999082] [PMID:42087025].
+- Wilson disease is an indication, not a contraindication. Zinc is used for maintenance under specialist monitoring, but only chelators are recommended for significant liver disease [PMID:40089450] [PMID:31388634].
+- Infants under 6 months with diarrhoea: no benefit and more vomiting [PMID:27996088].
+
 ** Interactions
-- Quinolone/tetracycline antibiotics and penicillamine absorption reduced when co-administered; thiazides increase urinary zinc loss. High intake reduces copper absorption. [URL:https://ods.nih.gov/factsheets/Zinc-HealthProfessional/] [URL:https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/] [PMID:23644932]
+*** Drugs
+- Quinolones: a zinc-containing multivitamin lowered ciprofloxacin AUC from 14.5 to 11.3 ug.h/mL [PMID:2610494]. The ciprofloxacin label advises taking it 2 h before or 6 h after zinc-containing products [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3b3d22dc-df09-4910-8c9b-1204eeedbd68].
+- Tetracyclines: 45 mg zinc as sulfate cut tetracycline absorption by about 30%, with no significant effect on doxycycline [PMID:786686].
+- Penicillamine: the label advises taking it at least 1 h apart from zinc- or iron-containing products, and says mineral supplements may block its response [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f658b20a-269f-4e78-a79b-a56a5ed8dc1b]. The Galzin label found no pharmacodynamic interaction in Wilson patients [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2c4fb943-4b2f-273d-e063-6394a90abb47].
+- Thiazides: urinary zinc excretion rose by 60% on thiazides [PMID:7001863]. It was also raised with hydrochlorothiazide-amiloride [PMID:3595066]. The effect lowers zinc stores rather than being a dosing hazard [PMID:23279674].
+- ACE inhibitors and ARBs: captopril and enalapril lowered monocyte zinc, with more urinary loss on captopril [PMID:9477394] [PMID:2195291]. A systematic review also lists losartan and valsartan [PMID:23279674].
+- PPIs: on long-term PPIs, plasma zinc rose only 37% with supplementation versus 126% in controls [PMID:27957023]. Omeprazole also cut absorption of a zinc sulfate dose [PMID:12546170]. However, short-term omeprazole did not reduce zinc absorption from food [PMID:8568113].
+- Antidiabetic drugs: zinc's glucose-lowering effect could be additive (FG -14 mg/dL) [PMID:31161192] [PMID:42594341].
+*** Other supplements
+- Heme Iron (Proferrin): non-heme iron at Fe:Zn 2:1-3:1 inhibited zinc absorption, but heme iron at 3:1 did not [PMID:7223699] [PMID:3522825]. In the reverse direction, zinc inhibited non-heme iron absorption at Zn:Fe molar ratios of 5:1 and above [PMID:17873388]. In children, adding iron blunted zinc's benefits [PMID:36994923].
+- Calcium (off-list): 468 mg/d extra calcium cut net zinc absorption by about 2 mg/d. A 600 mg CaCO3 dose with a meal halved zinc absorption [PMID:9174476].
+- Magnesium: high-dose zinc (142 mg/d) reduces magnesium absorption [PMID:7836627] [PMID:40270655].
+- Quercetin: acts as a zinc ionophore in vitro [PMID:25050823]. No human outcome data were found.
+- Copper (off-list): zinc antagonises copper, which is why AREDS added 2 mg copper [PMID:11594942] [PMID:42087025].
+- Zeaxanthin + Lutein: the AREDS2 formula with lutein/zeaxanthin replacing beta-carotene is the current standard. Lutein/zeaxanthin vs beta-carotene HR 0.85 for late AMD [PMID:35653117] [PMID:37702300].
+- Vitamin C and Vitamin E: the AREDS antioxidant-plus-zinc arm had the strongest effect [PMID:11594942]. Adding vitamin C to zinc gave no benefit in COVID-19 outpatients [PMID:33576820].
+- Folic acid plus zinc (FAZST): no fertility benefit [PMID:31910279].
+*** Conditions
+- Wilson disease (therapy) [PMID:40089450]. Zinc deficiency risks include CKD [PMID:41651464], older age [PMID:40390089] and malnutrition in children [PMID:27996088].
+- Phytate-rich diets: low-phytate maize did not improve zinc absorption in children [PMID:16400050]. Phytate showed no detectable effect in young children [PMID:26108545].
+- Depression: lower zinc is linked to severity [PMID:23806573].
+*** Lab-test interference
+- Alkaline phosphatase: raised by zinc [PMID:11787985] [PMID:18813411] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2c4fb943-4b2f-273d-e063-6394a90abb47].
+- Serum copper and ceruloplasmin: lowered by zinc [PMID:3365292] [PMID:38846187]. Copper status should be checked during long-term high-dose use [PMID:42087025].
+- HDL cholesterol: lowered in healthy people [PMID:20034629].
+- Serum zinc: rises with supplementation (pooled +2.42 umol/L) [PMID:20034629]. 30 mg/d did not bring all deficient older adults back to normal [PMID:26817502].
+
 ** Genotype notes
-- No genotype note; no cited pharmacogenomic evidence supporting dose selection.
+- SLC30A8 rs13266634 (R325W): after 14 days of zinc acetate, the early insulin response rose 15% in RW/WW carriers, and proinsulin:insulin improved more than in RR homozygotes [PMID:25348609].
+- SLC30A2 rs3008217 explained 6.1% of urinary zinc variation in a GWAS. Higher urinary zinc was associated with cardiometabolic risk [PMID:41325371]. No dosing guidance follows from this.
+
 ** Latest research
-- 2026-10-13 search cutoff: NIH ODS fact sheet (continuously updated) summarizes interaction timing and chronic excess risks [URL:https://ods.nih.gov/factsheets/Zinc-HealthProfessional/]. [URL:https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/] [PMID:23644932]
+- [2026-09] Diabetes MA (18 RCTs): HOMA-IR -1.10; CRP SMD -0.91; LDL +3.46 mg/dL [PMID:42594341]. Prediabetes NMA (378 RCTs): zinc ranked top for lowering 2-h glucose [PMID:42711998].
+- [2026-09] SR of zinc-induced haematological toxicity (37 cases), with copper low in all [PMID:42087025].
+- [2026-06] Oral mucositis MA: zinc mouthwash RR 0.16; systemic zinc borderline (RR 0.52, 0.27-1.01) [PMID:42346271]. Anthropometry MA (41 RCTs): weight +0.68 kg [PMID:41617950].
+- [2026-02] CKD MA: weight +2.52 kg, HDL +8.05 mg/dL, albumin up [PMID:41651464].
+- [2025-12] Inpatient COVID-19 RCT: progression 5.7% vs 23.5% (OR 0.21) [PMID:41076985]. Urinary-zinc GWAS (SLC30A2) [PMID:41325371].
+- [2025-11] Quantile reanalysis: bigger absolute lozenge benefit in longer colds [PMID:41286897]. Diarrhoea adherence MA: 63% for 10-day courses [PMID:41178278].
+- [2025-10] Infant sepsis RCT (n=3153): no mortality benefit [PMID:41066442].
+- [2025-09] Pregnancy MA (77 RCTs): fetal growth restriction RR 0.23 with zinc alone [PMID:40836314]. [2025-08] PMS MA: g -0.38 [PMID:40737185].
+- [2025-05] Immunosenescence review [PMID:40390089]. Depression NMA (zinc+ADT SMD 1.59) [PMID:40314175].
+- [2025-04/03] Cases: denture-cream myeloneuropathy [PMID:40416147] and zinc-induced hypomagnesaemia [PMID:40270655].
+- [2025-02] EASL-ERN Wilson guideline [PMID:40089450]. Hospital-stay MA: -0.43 d [PMID:39435877].
+- [2025-01] AREDS/AREDS2 post hoc: antioxidants slowed GA progression toward the fovea [PMID:39025435].
+- [2024-12] WHO-commissioned diarrhoea SR: favours lower doses [PMID:39641338]. Zinc-form bioavailability review [PMID:39770891].
+- [2024-11] Dysmenorrhoea MA (g -1.54) [PMID:39683510]. T2D lipid MA [PMID:38224402].
+- [2024-10] Sleep SR: possible improvement in sleep quality [PMID:39377022]. Critique of the 2024 Cochrane cold review [PMID:39478818].
 ** Open questions
-- Optimal status biomarkers and benefit in non-deficient populations remain uncertain. [URL:https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/] [PMID:23644932]
+- Which lozenge formulation (free ionic zinc) works best, and why the Cochrane estimates are so heterogeneous [PMID:38719213] [PMID:39478818]. Whether zinc helps COVID-19 or other respiratory infection in replete adults, since the trials conflict [PMID:33576820] [PMID:36367144].
+- Whether zinc causally prevents pneumonia in deficient older adults; a definitive RCT is pending [PMID:38450236]. Long-term glycaemic and hard outcomes, and genotype-guided use [PMID:42594341] [PMID:25348609].
+- The lowest dose that works in AMD, given that 25 mg matched 80 mg [PMID:35653117]. Whether HDL changes in healthy users matter clinically [PMID:20034629].
+
 ** Sources
-- AREDS2 Research Group. Lutein + zeaxanthin and omega-3 fatty acids for AMD: the AREDS2 randomized clinical trial. JAMA. 2013;309:2005-2015. DOI:10.1001/jama.2013.4997.
-- NIH ODS. Zinc: Health Professional Fact Sheet. https://ods.nih.gov/factsheets/Zinc-HealthProfessional/
+1. Schoofs H et al. Zinc Toxicity: Understanding the Limits. Molecules. 2024. PMID:38999082 DOI:10.3390/molecules29133130
+2. Devarshi PP et al. Comparative Absorption and Bioavailability of Various Chemical Forms of Zinc in Humans: A Narrative Review. Nutrients. 2024. PMID:39770891 DOI:10.3390/nu16244269
+3. Wegmüller R et al. Zinc absorption by young adults from supplemental zinc citrate is comparable with that from zinc gluconate and higher than from zinc oxide. J Nutr. 2014. PMID:24259556 DOI:10.3945/jn.113.181487
+4. Barrie SA et al. Comparative absorption of zinc picolinate, zinc citrate and zinc gluconate in humans. Agents Actions. 1987. PMID:3630857 DOI:10.1007/BF01974946
+5. Hemilä H et al. Zinc acetate lozenges for treating the common cold: an individual patient data meta-analysis. Br J Clin Pharmacol. 2016. PMID:27378206 DOI:10.1111/bcp.13057
+6. Hemilä H. Zinc lozenges and the common cold: a meta-analysis comparing zinc acetate and zinc gluconate, and the role of zinc dosage. JRSM Open. 2017. PMID:28515951 DOI:10.1177/2054270417694291
+7. Wilkinson EA. Oral zinc for arterial and venous leg ulcers. Cochrane Database Syst Rev. 2014. PMID:25202988 DOI:10.1002/14651858.CD001273.pub3
+8. Imdad A et al. Zinc supplementation for preventing mortality, morbidity, and growth failure in children aged 6 months to 12 years. Cochrane Database Syst Rev. 2023. PMID:36994923 DOI:10.1002/14651858.CD009384.pub3
+9. Age-Related Eye Disease Study Research Group. A randomized, placebo-controlled, clinical trial of high-dose supplementation with vitamins C and E, beta carotene, and zinc for age-related macular degeneration and vision loss: AREDS report no. 8. Arch Ophthalmol. 2001. PMID:11594942 DOI:10.1001/archopht.119.10.1417
+10. Alexander TH et al. Intranasal zinc and anosmia: the zinc-induced anosmia syndrome. Laryngoscope. 2006. PMID:16467707 DOI:10.1097/01.mlg.0000191549.17796.13
+11. Baarz BR et al. Rebalancing the unbalanced aged immune system - A special focus on zinc. Ageing Res Rev. 2022. PMID:34915196 DOI:10.1016/j.arr.2021.101541
+12. Schulz MT et al. Zinc deficiency as possible link between immunosenescence and age-related diseases. Immun Ageing. 2025. PMID:40390089 DOI:10.1186/s12979-025-00511-1
+13. Dutta A et al. Zinc-Induced Hematologic Toxicities: A Systematic Review of Descriptive Studies. Biol Trace Elem Res. 2026. PMID:42087025 DOI:10.1007/s12011-026-05136-z
+14. Loaiza-Giraldo JP et al. Effects of Zinc Supplementation on Glycemic Control, Insulin Resistance, Inflammation and Oxidative Stress in Diabetes: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. Endocrinol Diabetes Metab. 2026. PMID:42594341 DOI:10.1002/edm2.70264
+15. Maruthur NM et al. Effect of zinc supplementation on insulin secretion: interaction between zinc and SLC30A8 genotype in Old Order Amish. Diabetologia. 2015. PMID:25348609 DOI:10.1007/s00125-014-3419-1
+16. Dabbagh-Bazarbachi H et al. Zinc ionophore activity of quercetin and epigallocatechin-gallate: from Hepa 1-6 cells to a liposome model. J Agric Food Chem. 2014. PMID:25050823 DOI:10.1021/jf5014633
+17. Prasad AS et al. Zinc status and serum testosterone levels of healthy adults. Nutrition. 1996. PMID:8875519 DOI:10.1016/s0899-9007(96)80058-x
+18. Swardfager W et al. Zinc in depression: a meta-analysis. Biol Psychiatry. 2013. PMID:23806573 DOI:10.1016/j.biopsych.2013.05.008
+19. Peretz A et al. Zinc supplementation increases bone alkaline phosphatase in healthy men. J Trace Elem Med Biol. 2001. PMID:11787985 DOI:10.1016/S0946-672X(01)80063-8
+20. Nault D et al. Zinc for prevention and treatment of the common cold. Cochrane Database Syst Rev. 2024. PMID:38719213 DOI:10.1002/14651858.CD014914.pub2
+21. Science M et al. Zinc for the treatment of the common cold: a systematic review and meta-analysis of randomized controlled trials. CMAJ. 2012. PMID:22566526 DOI:10.1503/cmaj.111990
+22. Evans JR et al. Antioxidant vitamin and mineral supplements for slowing the progression of age-related macular degeneration. Cochrane Database Syst Rev. 2023. PMID:37702300 DOI:10.1002/14651858.CD000254.pub5
+23. Age-Related Eye Disease Study 2 Research Group. Lutein + zeaxanthin and omega-3 fatty acids for age-related macular degeneration: the Age-Related Eye Disease Study 2 (AREDS2) randomized clinical trial. JAMA. 2013. PMID:23644932 DOI:10.1001/jama.2013.4997
+24. Chew EY et al. Long-term Outcomes of Adding Lutein/Zeaxanthin and ω-3 Fatty Acids to the AREDS Supplements on Age-Related Macular Degeneration Progression: AREDS2 Report 28. JAMA Ophthalmol. 2022. PMID:35653117 DOI:10.1001/jamaophthalmol.2022.1640
+25. Vishwanathan R et al. A systematic review on zinc for the prevention and treatment of age-related macular degeneration. Invest Ophthalmol Vis Sci. 2013. PMID:23652490 DOI:10.1167/iovs.12-11552
+26. Lazzerini M et al. Oral zinc for treating diarrhoea in children. Cochrane Database Syst Rev. 2016. PMID:27996088 DOI:10.1002/14651858.CD005436.pub5
+27. Ali AA et al. Zinc supplementation for acute and persistent watery diarrhoea in children: A systematic review and meta-analysis. J Glob Health. 2024. PMID:39641338 DOI:10.7189/jogh.14.04212
+28. Thomas S et al. Effect of High-Dose Zinc and Ascorbic Acid Supplementation vs Usual Care on Symptom Length and Reduction Among Ambulatory Patients With SARS-CoV-2 Infection: The COVID A to Z Randomized Clinical Trial. JAMA Netw Open. 2021. PMID:33576820 DOI:10.1001/jamanetworkopen.2021.0369
+29. Ben Abdallah S et al. Twice-Daily Oral Zinc in the Treatment of Patients With Coronavirus Disease 2019: A Randomized Double-Blind Controlled Trial. Clin Infect Dis. 2023. PMID:36367144 DOI:10.1093/cid/ciac807
+30. Gómez-Zorrilla S et al. Zinc adjuvant treatment in SARS-CoV-2: A randomized clinical trial. J Trace Elem Med Biol. 2025. PMID:41076985 DOI:10.1016/j.jtemb.2025.127778
+31. Wang X et al. Zinc supplementation improves glycemic control for diabetes prevention and management: a systematic review and meta-analysis of randomized controlled trials. Am J Clin Nutr. 2019. PMID:31161192 DOI:10.1093/ajcn/nqz041
+32. Nazari M et al. Zinc Supplementation in Individuals with Prediabetes and type 2 Diabetes: a GRADE-Assessed Systematic Review and Dose-Response Meta-analysis. Biol Trace Elem Res. 2024. PMID:37870684 DOI:10.1007/s12011-023-03895-7
+33. Momen-Heravi M et al. The effects of zinc supplementation on wound healing and metabolic status in patients with diabetic foot ulcer: A randomized, double-blind, placebo-controlled trial. Wound Repair Regen. 2017. PMID:28395131 DOI:10.1111/wrr.12537
+34. Anonymous. Expression of Concern: The Effects of Zinc Supplementation on Wound Healing and Metabolic Status in Patients with Diabetic Foot Ulcer: A Randomized, Double-blind, Placebo-controlled Trial. Wound Repair Regen. 2024. PMID:39164926 DOI:10.1111/wrr.13214
+35. Schisterman EF et al. Effect of Folic Acid and Zinc Supplementation in Men on Semen Quality and Live Birth Among Couples Undergoing Infertility Treatment: A Randomized Clinical Trial. JAMA. 2020. PMID:31910279 DOI:10.1001/jama.2019.18714
+36. Ebisch IM et al. Does folic acid and zinc sulphate intervention affect endocrine parameters and sperm characteristics in men?. Int J Androl. 2006. PMID:16533356 DOI:10.1111/j.1365-2605.2005.00598.x
+37. da Silva LEM et al. Zinc supplementation combined with antidepressant drugs for treatment of patients with depression: a systematic review and meta-analysis. Nutr Rev. 2021. PMID:32885249 DOI:10.1093/nutrit/nuaa039
+38. Donig A et al. Zinc as an adjunct to antidepressant medication: a meta-analysis with subgroup analysis for different levels of treatment response to antidepressants. Nutr Neurosci. 2022. PMID:33641635 DOI:10.1080/1028415X.2021.1888205
+39. Cheng YC et al. Comparative efficacy and tolerability of nutraceuticals for depressive disorder: A systematic review and network meta-analysis. Psychol Med. 2025. PMID:40314175 DOI:10.1017/S0033291725000996
+40. Barnett JB et al. Effect of zinc supplementation on serum zinc concentration and T cell proliferation in nursing home elderly: a randomized, double-blind, placebo-controlled trial. Am J Clin Nutr. 2016. PMID:26817502 DOI:10.3945/ajcn.115.115188
+41. Meydani SN et al. Serum zinc and pneumonia in nursing home elderly. Am J Clin Nutr. 2007. PMID:17921398 DOI:10.1093/ajcn/86.4.1167
+42. Atef Abdelsattar Ibrahim H et al. Zinc as a potential prophylactic adjuvant therapy for prolonged hospitalization: A systematic review and meta-analysis of an umbrella of randomized controlled trials. Nutr Clin Pract. 2025. PMID:39435877 DOI:10.1002/ncp.11221
+43. Hsu TJ et al. Efficacy of Zinc Supplementation in the Management of Primary Dysmenorrhea: A Systematic Review and Meta-Analysis. Nutrients. 2024. PMID:39683510 DOI:10.3390/nu16234116
+44. Kim YM et al. Effect of zinc supplementation on premenstrual symptoms: A systematic review and meta-analysis. Women Health. 2025. PMID:40737185 DOI:10.1080/03630242.2025.2539815
+45. Foster M et al. Effects of zinc on plasma lipoprotein cholesterol concentrations in humans: a meta-analysis of randomised controlled trials. Atherosclerosis. 2010. PMID:20034629 DOI:10.1016/j.atherosclerosis.2009.11.038
+46. Khajeh M et al. Effect of Zinc Supplementation on Lipid Profile and Body Composition in Patients with Type 2 Diabetes Mellitus: A GRADE-Assessed Systematic Review and Dose-Response Meta-analysis. Biol Trace Elem Res. 2024. PMID:38224402 DOI:10.1007/s12011-024-04059-x
+47. Pradhan SK et al. Adherence to oral zinc supplementation in the management of acute diarrhoeal disease among under-5 children: A systematic review and meta-analysis. Epidemiol Infect. 2025. PMID:41178278 DOI:10.1017/S0950268825100733
+48. Ortega EF et al. Study protocol for a zinc intervention in the elderly for prevention of pneumonia, a randomized, placebo-controlled, double-blind clinical pilot trial. Front Nutr. 2024. PMID:38450236 DOI:10.3389/fnut.2024.1356594
+49. Stagg MP et al. Zinc-Containing Over-The-Counter Product Causing Sideroblastic Anemia and Neutropenia. Cureus. 2024. PMID:38846187 DOI:10.7759/cureus.59796
+50. Osadchyi V et al. Zinc-Induced Copper Deficiency Myeloneuropathy Masquerading as Paraneoplastic Syndrome: A Case Report. Cureus. 2025. PMID:40416147 DOI:10.7759/cureus.82995
+51. Samman S et al. The effect of zinc supplements on lipoproteins and copper status. Atherosclerosis. 1988. PMID:3365292 DOI:10.1016/0021-9150(88)90175-x
+52. Jafek BW et al. Anosmia after intranasal zinc gluconate use. Am J Rhinol. 2004. PMID:15283486
+53. Davidson TM et al. The Bradford Hill criteria and zinc-induced anosmia: a causality analysis. Arch Otolaryngol Head Neck Surg. 2010. PMID:20644061 DOI:10.1001/archoto.2010.111
+54. D'Cruze H et al. Is intranasal zinc effective and safe for the common cold? A systematic review and meta-analysis. J Prim Health Care. 2009. PMID:20690364
+55. Tan NLX et al. Impact of Zinc Supplementation in Adults With Chronic Kidney Disease: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. Nutr Rev. 2026. PMID:41651464 DOI:10.1093/nutrit/nuaf285
+56. Spencer H et al. Inhibitory effects of zinc on magnesium balance and magnesium absorption in man. J Am Coll Nutr. 1994. PMID:7836627 DOI:10.1080/07315724.1994.10718438
+57. Slosarski M et al. Severe Hypomagnesemia Induced by Postoperative Zinc Supplementation: An Illustrative Demonstration of Electrolyte Homeostasis. Eur J Case Rep Intern Med. 2025. PMID:40270655 DOI:10.12890/2025_005247
+58. Salmani M et al. Effects of Zinc Supplementation on Anthropometric Indices and Adipokines in Adults: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. Biol Trace Elem Res. 2026. PMID:41617950 DOI:10.1007/s12011-025-04965-8
+59. European Association for the Study of the Liver. EASL-ERN Clinical Practice Guidelines on Wilson's disease. J Hepatol. 2025. PMID:40089450 DOI:10.1016/j.jhep.2024.11.007
+60. Camarata MA et al. Zinc Maintenance Therapy for Wilson Disease: A Comparison Between Zinc Acetate and Alternative Zinc Preparations. Hepatol Commun. 2019. PMID:31388634 DOI:10.1002/hep4.1384
+61. Polk RE et al. Effect of ferrous sulfate and multivitamins with zinc on absorption of ciprofloxacin in normal volunteers. Antimicrob Agents Chemother. 1989. PMID:2610494 DOI:10.1128/AAC.33.11.1841
+62. Penttilä O et al. Effect of zinc sulphate on the absorption of tetracycline and doxycycline in man. Eur J Clin Pharmacol. 1975. PMID:786686 DOI:10.1007/BF00614009
+63. Wester PO. Urinary zinc excretion during treatment with different diuretics. Acta Med Scand. 1980. PMID:7001863 DOI:10.1111/j.0954-6820.1980.tb01179.x
+64. Golik A et al. Hydrochlorothiazide-amiloride causes excessive urinary zinc excretion. Clin Pharmacol Ther. 1987. PMID:3595066 DOI:10.1038/clpt.1987.105
+65. Braun LA et al. Pharmaco-nutrient interactions - a systematic review of zinc and antihypertensive therapy. Int J Clin Pract. 2013. PMID:23279674 DOI:10.1111/ijcp.12040
+66. Golik A et al. Effects of captopril and enalapril on zinc metabolism in hypertensive patients. J Am Coll Nutr. 1998. PMID:9477394 DOI:10.1080/07315724.1998.10720459
+67. Golik A et al. Zinc metabolism in patients treated with captopril versus enalapril. Metabolism. 1990. PMID:2195291 DOI:10.1016/0026-0495(90)90098-w
+68. Farrell CP et al. Proton Pump Inhibitors Interfere With Zinc Absorption and Zinc Body Stores. Gastroenterology Res. 2011. PMID:27957023 DOI:10.4021/gr379w
+69. Ozutemiz AO et al. Effect of omeprazole on plasma zinc levels after oral zinc administration. Indian J Gastroenterol. 2002. PMID:12546170
+70. Serfaty-Lacrosniere C et al. Hypochlorhydria from short-term omeprazole treatment does not inhibit intestinal absorption of calcium, phosphorus, magnesium or zinc from food in humans. J Am Coll Nutr. 1995. PMID:8568113 DOI:10.1080/07315724.1995.10718522
+71. Solomons NW et al. Studies on the bioavailability of zinc in humans: effects of heme and nonheme iron on the absorption of zinc. Am J Clin Nutr. 1981. PMID:7223699 DOI:10.1093/ajcn/34.4.475
+72. Solomons NW. Competitive interaction of iron and zinc in the diet: consequences for human nutrition. J Nutr. 1986. PMID:3522825 DOI:10.1093/jn/116.6.927
+73. Olivares M et al. Zinc inhibits nonheme iron bioavailability in humans. Biol Trace Elem Res. 2007. PMID:17873388 DOI:10.1007/BF02698079
+74. Wood RJ et al. High dietary calcium intakes reduce zinc absorption and balance in humans. Am J Clin Nutr. 1997. PMID:9174476 DOI:10.1093/ajcn/65.6.1803
+75. Mazariegos M et al. Zinc absorption in Guatemalan schoolchildren fed normal or low-phytate maize. Am J Clin Nutr. 2006. PMID:16400050 DOI:10.1093/ajcn/83.1.59
+76. Miller LV et al. Zinc Absorption Is Not Related to Dietary Phytate Intake in Infants and Young Children Based on Modeling Combined Data from Multiple Studies. J Nutr. 2015. PMID:26108545 DOI:10.3945/jn.115.213074
+77. Sadighi A et al. The effects of zinc supplementation on serum zinc, alkaline phosphatase activity and fracture healing of bones. Saudi Med J. 2008. PMID:18813411
+78. Sadler MC et al. Genetic determinants of zinc homeostasis and its role in cardiometabolic diseases. PLoS Genet. 2025. PMID:41325371 DOI:10.1371/journal.pgen.1011928
+79. Maria B et al. Evidence-based ranking of diabetes prevention in prediabetes: A comprehensive network meta-analysis of 378 randomised controlled trials. Clin Transl Med. 2026. PMID:42711998 DOI:10.1002/ctm2.70829
+80. Tsao CS et al. The Route of Administration Determines the Efficacy of Zinc in Preventing Radiation-Induced Oral Mucositis: A Systematic Review and Meta-Analysis. Curr Oncol. 2026. PMID:42346271 DOI:10.3390/curroncol33060371
+81. Hemilä H et al. Estimating quantile treatment effect on the original scale of the outcome variable: a case study of common cold treatments. Trials. 2025. PMID:41286897 DOI:10.1186/s13063-025-09265-z
+82. Wadhwa N et al. Zinc as adjunct treatment for clinical severe infection in young infants: A randomized double-blind placebo-controlled trial in India and Nepal. PLoS Med. 2025. PMID:41066442 DOI:10.1371/journal.pmed.1004759
+83. Diao S et al. The Efficacy of Zinc Supplementation Alone or in Combination for Improving Pregnancy and Infant Outcomes: A Systematic Review and Meta-Analysis. J Evid Based Med. 2025. PMID:40836314 DOI:10.1111/jebm.70061
+84. Keenan TDL et al. Oral Antioxidant and Lutein/Zeaxanthin Supplements Slow Geographic Atrophy Progression to the Fovea in Age-Related Macular Degeneration. Ophthalmology. 2025. PMID:39025435 DOI:10.1016/j.ophtha.2024.07.014
+85. Jazinaki MS et al. Effects of zinc supplementation on sleep quality in humans: A systematic review of randomized controlled trials. Health Sci Rep. 2024. PMID:39377022 DOI:10.1002/hsr2.70019
+86. Hemilä H et al. Shortcomings in the Cochrane review on zinc for the common cold (2024). Front Med (Lausanne). 2024. PMID:39478818 DOI:10.3389/fmed.2024.1470004
+87. DailyMed. GALZIN (zinc acetate) capsule label. Eton Pharmaceuticals. URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2c4fb943-4b2f-273d-e063-6394a90abb47
+88. DailyMed. Penicillamine capsule label. Granules Pharmaceuticals. URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f658b20a-269f-4e78-a79b-a56a5ed8dc1b
+89. DailyMed. Ciprofloxacin tablet label. Hikma Pharmaceuticals. URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3b3d22dc-df09-4910-8c9b-1204eeedbd68

@@ -3,15 +3,323 @@
   "supplement": "NMN",
   "slug": "nmn",
   "aliases": [
-    "Nicotinamide mononucleotide"
+    "nicotinamide mononucleotide",
+    "beta-NMN",
+    "β-NMN",
+    "β-nicotinamide mononucleotide",
+    "MIB-626",
+    "NMN-C",
+    "Restorin NMN"
   ],
   "category": "longevity",
   "rx_status": "otc",
   "evidence_certainty_overall": "low",
-  "edges": [],
+  "edges": [
+    {
+      "with": "Nicotinamide Riboside",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Same NAD+ salvage/Preiss-Handler route; NR and NMN raise blood NAD+ comparably, largely via gut-microbial conversion to nicotinic acid. Stacking duplicates effect and adds nicotinamide/methyl-group load without evidence of additive benefit.",
+      "evidence": "Head-to-head human RCT (n=65); mouse tracer study; review of high-dose nicotinamide risks; no combination trial",
+      "citations": [
+        "PMID:41540253",
+        "PMID:40117359",
+        "PMID:32365524"
+      ]
+    },
+    {
+      "with": "Trimethylglycine (TMG)",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Excess nicotinamide is cleared by NNMT using SAM; in rats nicotinamide loading lowered betaine and hepatic DNA methylation. Betaine remethylates homocysteine, providing a rationale for co-supplementation. Human NR trials show only a transient homocysteine rise with intact methyl pool.",
+      "evidence": "Rat and biochemical studies plus human NR RCTs; no NMN+TMG trial; theoretical",
+      "citations": [
+        "PMID:23768418",
+        "PMID:2969042",
+        "PMID:30226369",
+        "PMID:38016950",
+        "PMID:36936793",
+        "PMID:31278280"
+      ]
+    },
+    {
+      "with": "Trans-resveratrol",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Proposed complementary action on the NAD+/SIRT1 axis (precursor supply plus sirtuin activation). The analogous stilbene pterostilbene combined with NR raised NAD+ safely in RCTs.",
+      "evidence": "Review rationale; NR+pterostilbene RCTs; no NMN+resveratrol human data; very low certainty",
+      "citations": [
+        "PMID:36678315",
+        "PMID:29184669",
+        "PMID:32791973",
+        "PMID:42211736"
+      ]
+    },
+    {
+      "with": "Metformin ER",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Metformin inhibits complex I and raises the NADH/NAD+ ratio; NMN reversed NAD-depletion-dependent metformin effects (synthetic lethality, reduced migration) in cancer cells. NMN has no pooled glycaemic effect, so additive hypoglycaemia is unlikely.",
+      "evidence": "In-vitro cancer-cell studies; MA of NMN RCTs for glycaemia; no human interaction study",
+      "citations": [
+        "PMID:30540938",
+        "PMID:42414524",
+        "PMID:39531138"
+      ]
+    },
+    {
+      "with": "B Complex",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Additive nicotinamide (niacin) intake: 300 mg NMN corresponds to ~110 mg nicotinamide (about 5x PRI) versus a 900 mg/d nicotinamide UL.",
+      "evidence": "EFSA novel-food opinion (bioavailability conversion factor 1)",
+      "citations": [
+        "PMID:42125559"
+      ]
+    },
+    {
+      "with": "cytotoxic chemotherapy",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "NAD+ precursors improved mitochondrial function and reduced DNA damage/apoptosis in pancreatic cancer cells, conferring resistance to oxaliplatin, 5-FU and gemcitabine in vitro and in mice; in other models NMN did not impair chemotherapy and protected ovaries/heart from toxicity.",
+      "evidence": "Conflicting preclinical data only; no human interaction data",
+      "citations": [
+        "PMID:41724424",
+        "PMID:39169162",
+        "PMID:40849491",
+        "PMID:36611902",
+        "PMID:38791345"
+      ]
+    },
+    {
+      "with": "NAMPT inhibitors and NAD-depleting anticancer strategies",
+      "with_kind": "drug-class",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "These agents work by starving tumours of NAD+; exogenous NAD+ precursors that bypass NAMPT (or feed NAPRT/Preiss-Handler) would be expected to rescue tumour NAD+ and antagonize them.",
+      "evidence": "Mechanistic reviews and myeloma translational study; theoretical for NMN",
+      "citations": [
+        "PMID:38396769",
+        "PMID:39661983"
+      ]
+    },
+    {
+      "with": "active cancer",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Tumours depend on elevated NAD+; NMN supported pancreatic tumour growth in mice, while other models show tumour suppression and lifelong NMN did not raise tumour burden in mice. Direction is tumour-specific and unknown in humans.",
+      "evidence": "Preclinical studies and reviews; very low certainty",
+      "citations": [
+        "PMID:41724424",
+        "PMID:37175631",
+        "PMID:28780936",
+        "PMID:37173894",
+        "PMID:38979132"
+      ]
+    },
+    {
+      "with": "pregnancy and lactation",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "minor",
+      "mechanism": "No human safety data; EFSA restricted its positive safety conclusion to adults excluding pregnant and lactating women; rat NOAEL based on reproductive-organ effects.",
+      "evidence": "Regulatory precaution",
+      "citations": [
+        "PMID:42125559"
+      ]
+    },
+    {
+      "with": "chronic kidney disease (older adults)",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "In aged (not young) mice NMN increased circulating uremic toxins and kidney inflammation/tubule injury markers; in COVID-19 AKI, 2 g/d MIB-626 was safe but did not improve kidney markers.",
+      "evidence": "Preprint mouse study; small RCT; DKD trial ongoing",
+      "citations": [
+        "PMID:38645109",
+        "PMID:40746868",
+        "PMID:42603990"
+      ]
+    },
+    {
+      "with": "atherosclerotic cardiovascular disease",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "NMN and NR improved lipids and fatty liver yet aggravated atherosclerosis dose-dependently in ApoE-/- mice.",
+      "evidence": "Single mouse study; no human signal",
+      "citations": [
+        "PMID:40143060"
+      ]
+    },
+    {
+      "with": "hemodialysis",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "NMN is catabolized to nicotinamide; direct nicotinamide (500-1000 mg/d) caused thrombocytopenia in hemodialysis RCTs. Not observed with NMN, which raised platelets in ITP.",
+      "evidence": "Extrapolation from nicotinamide RCTs and SR",
+      "citations": [
+        "PMID:21270914",
+        "PMID:33229753",
+        "PMID:42056497"
+      ]
+    },
+    {
+      "with": "antihypertensives",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "NMN modestly lowers diastolic blood pressure (WMD -2.15 mmHg; -7 mmHg with 2 g/d MIB-626), so a small additive effect is possible.",
+      "evidence": "MA of 10 RCTs and one RCT; low certainty",
+      "citations": [
+        "PMID:41901064",
+        "PMID:36740954"
+      ]
+    },
+    {
+      "with": "exercise training adaptation",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "NMN 1200 mg/d abolished the acute rise in muscle mitochondrial content after blood-flow-restriction resistance exercise while suppressing inflammatory signalling; conversely it improved ventilatory-threshold power with endurance training.",
+      "evidence": "Small crossover RCT (n=11) and RCT in runners (n=48)",
+      "citations": [
+        "PMID:41705654",
+        "PMID:34238308"
+      ]
+    },
+    {
+      "with": "urinary/plasma niacin metabolites (2PY, 4PY, N1-methylnicotinamide)",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "NMN dose-dependently raises methylnicotinamide and pyridone catabolites, so niacin-status biomarkers reflect supplement intake.",
+      "evidence": "Human PK studies",
+      "citations": [
+        "PMID:31685720",
+        "PMID:42304075",
+        "PMID:40746868"
+      ]
+    },
+    {
+      "with": "haemoglobin, bilirubin and creatinine",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Within-normal-range shifts after NMN: bilirubin up and creatinine down after single doses; NAD rise associated with higher haemoglobin, RBC and uric acid.",
+      "evidence": "Single-arm study and post hoc RCT analysis",
+      "citations": [
+        "PMID:31685720",
+        "PMID:41162813"
+      ]
+    },
+    {
+      "with": "MTHFR variants",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Theoretical methyl-donor drain from nicotinamide methylation; NR trial found no DNA-methylation disturbance including in MTHFR variant carriers.",
+      "evidence": "One RCT with NR (n=29); no NMN data",
+      "citations": [
+        "PMID:36936793"
+      ]
+    }
+  ],
   "citations": [
+    "PMID:41540253",
+    "PMID:40117359",
+    "PMID:32365524",
+    "PMID:23768418",
+    "PMID:2969042",
+    "PMID:30226369",
+    "PMID:38016950",
+    "PMID:36936793",
+    "PMID:31278280",
+    "PMID:36678315",
+    "PMID:29184669",
+    "PMID:32791973",
+    "PMID:42211736",
+    "PMID:30540938",
+    "PMID:42414524",
+    "PMID:39531138",
+    "PMID:42125559",
+    "PMID:41724424",
+    "PMID:39169162",
+    "PMID:40849491",
+    "PMID:36611902",
+    "PMID:38791345",
+    "PMID:38396769",
+    "PMID:39661983",
+    "PMID:37175631",
+    "PMID:28780936",
+    "PMID:37173894",
+    "PMID:38979132",
+    "PMID:38645109",
+    "PMID:40746868",
+    "PMID:42603990",
+    "PMID:40143060",
+    "PMID:21270914",
+    "PMID:33229753",
+    "PMID:42056497",
+    "PMID:41901064",
+    "PMID:36740954",
+    "PMID:41705654",
+    "PMID:34238308",
+    "PMID:31685720",
+    "PMID:42304075",
+    "PMID:41162813",
+    "PMID:29249689",
+    "PMID:37364580",
+    "PMID:35479740",
+    "PMID:36002548",
+    "PMID:36482258",
+    "PMID:35182418",
+    "PMID:33587977",
+    "PMID:34867355",
+    "PMID:36225528",
+    "PMID:38935229",
+    "PMID:41545110",
+    "URL:https://www.supplysidesj.com/regulatory/anh-npa-ask-fda-reverse-position-nmn-supplements",
+    "URL:https://www.nutritionaloutlook.com/view/fda-responds-to-citizen-petitions-on-nmn-amending-its-position-on-the-ingredient-s-status-as-a-dietary-ingredient",
+    "URL:https://www.nutraingredients.com/Article/2025/12/09/fda-reinstates-ndi-status-of-nmn-with-new-letters-to-ingredient-players",
+    "URL:https://www.npanational.org/news/amid-pressure-from-npa-fda-declares-nmn-lawful-in-dietary-supplements/",
+    "PMID:28068222",
+    "PMID:31131364",
+    "PMID:32694648",
+    "PMID:39894219",
+    "PMID:33199925",
+    "PMID:36897780",
+    "PMID:38430946",
+    "PMID:38921475",
     "PMID:39116016",
+    "PMID:42514320",
+    "PMID:33888596",
+    "PMID:34326206",
+    "PMID:36797393",
     "PMID:40275690",
-    "PMID:39221308"
+    "PMID:39221308",
+    "PMID:36443648",
+    "PMID:38789831",
+    "PMID:35215405",
+    "PMID:35927255",
+    "PMID:42774067",
+    "PMID:42082179",
+    "PMID:41655607",
+    "PMID:40926126",
+    "PMID:37619764",
+    "PMID:33384603",
+    "PMID:42595793",
+    "PMID:41651893",
+    "PMID:42848371",
+    "PMID:42009009",
+    "PMID:38191197"
   ]
 }

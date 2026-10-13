@@ -4,15 +4,336 @@
   "slug": "nicotinamide-riboside",
   "aliases": [
     "NR",
-    "Nicotinamide riboside",
-    "Niagen"
+    "nicotinamide riboside chloride",
+    "NIAGEN",
+    "Tru Niagen",
+    "NR-E",
+    "NRPT",
+    "Basis",
+    "EH301"
   ],
   "category": "longevity",
   "rx_status": "otc",
   "evidence_certainty_overall": "low",
-  "edges": [],
+  "edges": [
+    {
+      "with": "NMN",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Same NAD+ salvage/Preiss-Handler route; NR and NMN raise circulating NAD+ comparably, so stacking is largely redundant and increases total B3 catabolite (2PY/4PY) load.",
+      "evidence": "Head-to-head RCT (n=65) NR vs NMN vs NAM; observational 2PY/4PY-MACE cohorts; review of combination strategies; no RCT of the combination",
+      "citations": [
+        "PMID:41540253",
+        "PMID:38374343",
+        "PMID:36678315"
+      ]
+    },
+    {
+      "with": "Trimethylglycine (TMG)",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Nicotinamide released from NR is cleared by SAM-dependent NNMT methylation; nicotinamide loading lowers plasma betaine and raises homocysteine. Betaine (TMG) co-supplementation has been proposed to replete methyl groups.",
+      "evidence": "Hypothesis paper plus acute nicotinamide-loading study; NR-SAFE showed only a slight early homocysteine rise with intact methyl-donor pool and no DNA-methylation change; no NR+TMG trial",
+      "citations": [
+        "PMID:10985907",
+        "PMID:21918528",
+        "PMID:38016950",
+        "PMID:36936793"
+      ]
+    },
+    {
+      "with": "Metformin ER",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Both proposed geroprotectors (NAD+/sirtuin vs AMPK); combined NR+metformin rescued mitophagy in POLG-mutant astrocytes; NAD-precursor class modestly raises glucose/HbA1c (driven by niacin).",
+      "evidence": "In vitro and rat data only; precursor-class MA; no human interaction study",
+      "citations": [
+        "PMID:34631714",
+        "PMID:39872949",
+        "PMID:38915015"
+      ]
+    },
+    {
+      "with": "Trans-resveratrol",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Proposed complementary SIRT1 activation (resveratrol) plus NAD+ substrate supply (NR); the stilbene analogue pterostilbene is co-formulated with NR (NRPT).",
+      "evidence": "Only head-to-head RCT (NICE, PAD, n=90) found resveratrol added no benefit to NR alone; NRPT RCTs exist but test the combination only",
+      "citations": [
+        "PMID:38871717",
+        "PMID:36082508",
+        "PMID:36678315"
+      ]
+    },
+    {
+      "with": "B Complex",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Niacin/niacinamide in B complexes add to total vitamin B3 load and methylated catabolites; nicotinic acid (not NR) causes GPR109A-mediated flushing.",
+      "evidence": "NR RCT with no flushing; niacin flushing review; CMA comparison showing niacin flushing; observational 2PY/4PY data",
+      "citations": [
+        "PMID:31278280",
+        "PMID:39322100",
+        "PMID:37271226",
+        "PMID:38374343"
+      ]
+    },
+    {
+      "with": "nicotinic acid (niacin, Rx)",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Additive B3/NAD-precursor load; niacin flushes, raises bilirubin acutely and raises glucose/HbA1c, effects not seen with NR.",
+      "evidence": "Human acute metabolomic comparison; MAs of NAD precursors",
+      "citations": [
+        "PMID:37271226",
+        "PMID:38915015",
+        "PMID:35303905"
+      ]
+    },
+    {
+      "with": "PARP inhibitors",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "PARP enzymes consume NAD+; boosting NAD+ could alter PARP-inhibitor activity. Reduced NR (NRH) enhanced olaparib cytotoxicity in some ovarian cancer lines.",
+      "evidence": "In vitro only; direction and clinical relevance unknown",
+      "citations": [
+        "PMID:40004182",
+        "PMID:39026037"
+      ]
+    },
+    {
+      "with": "cytotoxic chemotherapy",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "NAD+ precursors may support tumor-cell mitochondrial function and DNA repair, conferring chemoresistance (NAM/NMN in pancreatic cancer); other models show NR potentiates gemcitabine/paclitaxel and protects against chemotherapy neuropathy without blunting cisplatin.",
+      "evidence": "Conflicting preclinical data; no human outcome data; CIPN trial terminated",
+      "citations": [
+        "PMID:41724424",
+        "PMID:41349909",
+        "PMID:32433266",
+        "PMID:35875690",
+        "PMID:39128506"
+      ]
+    },
+    {
+      "with": "active cancer / triple-negative breast cancer",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "NR supplementation increased cancer prevalence and brain metastasis in a TNBC mouse model; NAD precursors supported pancreatic cancer survival.",
+      "evidence": "Mouse/in vitro data; no human cancer-incidence data",
+      "citations": [
+        "PMID:36371959",
+        "PMID:41724424",
+        "PMID:40926126"
+      ]
+    },
+    {
+      "with": "Parkinson's disease",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "NR was proposed as disease-modifying via neuronal NAD repletion, but 52 weeks of NR 1 g/d worsened MDS-UPDRS (+2.72) and non-motor symptoms (+4.22) vs placebo.",
+      "evidence": "Phase 3 RCT NOPARK (n=410) after positive phase 1 NADPARK/NR-SAFE signals; moderate certainty",
+      "citations": [
+        "PMID:42848371",
+        "PMID:35235774",
+        "PMID:38016950"
+      ]
+    },
+    {
+      "with": "hemodialysis / advanced CKD",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "NR is catabolized to nicotinamide; oral nicotinamide caused dose-related thrombocytopenia in hemodialysis patients. NR did not change eGFR in moderate-severe CKD.",
+      "evidence": "Nicotinamide RCT in hemodialysis; NR crossover RCT in CKD; no NR data in dialysis",
+      "citations": [
+        "PMID:21270914",
+        "PMID:37159264"
+      ]
+    },
+    {
+      "with": "platelet count",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "NR raises platelet NAD ~10-fold ex vivo without changing platelet function; its catabolite nicotinamide lowers platelet counts in dialysis patients.",
+      "evidence": "Ex vivo platelet study; nicotinamide RCT; no platelet signal reported in NR RCTs",
+      "citations": [
+        "PMID:31652008",
+        "PMID:21270914"
+      ]
+    },
+    {
+      "with": "homocysteine",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Methylation-dependent clearance of nicotinamide consumes SAM; a slight early serum homocysteine rise was seen at 3 g/d NR.",
+      "evidence": "Phase 1 RCT NR-SAFE; long-term 8-wk RCT found no 1-carbon dysregulation at <=1 g/d",
+      "citations": [
+        "PMID:38016950",
+        "PMID:31278280",
+        "PMID:21918528"
+      ]
+    },
+    {
+      "with": "whole-blood NAD+ / NAAD tests",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "NR dose-dependently raises whole-blood NAD+ (up to 2-5-fold) and NAAD, so consumer 'NAD age' tests reflect supplement exposure rather than biological age.",
+      "evidence": "Validated LC-MS across 7 cohorts; PK studies",
+      "citations": [
+        "PMID:42135539",
+        "PMID:27721479",
+        "PMID:31278280"
+      ]
+    },
+    {
+      "with": "pregnancy / lactation",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "No human safety data; maternal NR increased lactation and benefited offspring in mice.",
+      "evidence": "Mouse study; human lactation trial recruiting",
+      "citations": [
+        "PMID:30673618",
+        "URL:https://clinicaltrials.gov/study/NCT04614714"
+      ]
+    },
+    {
+      "with": "atherosclerotic cardiovascular disease",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Terminal B3 metabolites 2PY/4PY associated with MACE and VCAM-1 inflammation; high-dose NR raised 4PY and plaque in Apoe-/- mice; NR raises NAD catabolites in humans.",
+      "evidence": "Observational cohorts plus mouse study; no human NR CV outcome trial",
+      "citations": [
+        "PMID:38374343",
+        "PMID:40215896",
+        "PMID:40770531"
+      ]
+    },
+    {
+      "with": "antihypertensives",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Possible small additive BP lowering; post hoc nighttime BP reduction with NR+exercise only in participants not on antihypertensives.",
+      "evidence": "Pilot RCT post hoc; precursor-class MA (effect driven by niacin)",
+      "citations": [
+        "PMID:40770531",
+        "PMID:37593976",
+        "PMID:29599478"
+      ]
+    },
+    {
+      "with": "N-Acetyl-L-Cysteine (NAC)",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Combined metabolic activators (NR + NAC + L-serine + L-carnitine) target NAD+ and glutathione together.",
+      "evidence": "Multi-ingredient RCTs in COVID-19, Alzheimer's and Parkinson's disease; individual contributions not separable",
+      "citations": [
+        "PMID:34180141",
+        "PMID:36703196",
+        "PMID:39816194"
+      ]
+    },
+    {
+      "with": "Caffeine",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Caffeine upregulates NMNAT2; with NR it partially restored NAD availability in LOAD patient-derived cells.",
+      "evidence": "In vitro only; bioenergetic benefits reversed with continued treatment",
+      "citations": [
+        "PMID:35730144"
+      ]
+    },
+    {
+      "with": "Berberine",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Complementary mitochondrial actions: NR (NAD+/sirtuin/UPRmt) and berberine (AMPK/complex I/mitophagy).",
+      "evidence": "Narrative review; no combination trial",
+      "citations": [
+        "PMID:41516357"
+      ]
+    },
+    {
+      "with": "ataxia telangiectasia",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "PARP1 hyperactivation depletes NAD+ in ATM loss; NR improved ataxia scores, IgG and interferon signatures in open-label use.",
+      "evidence": "Open-label studies (n=24, 2-yr extension) and SR; no RCT",
+      "citations": [
+        "PMID:34515380",
+        "PMID:37899683",
+        "PMID:42387837",
+        "PMID:42449929"
+      ]
+    }
+  ],
   "citations": [
-    "PMID:37971292",
-    "PMID:38016950"
+    "PMID:41540253",
+    "PMID:38374343",
+    "PMID:36678315",
+    "PMID:10985907",
+    "PMID:21918528",
+    "PMID:38016950",
+    "PMID:36936793",
+    "PMID:34631714",
+    "PMID:39872949",
+    "PMID:38915015",
+    "PMID:38871717",
+    "PMID:36082508",
+    "PMID:31278280",
+    "PMID:39322100",
+    "PMID:37271226",
+    "PMID:35303905",
+    "PMID:40004182",
+    "PMID:39026037",
+    "PMID:41724424",
+    "PMID:41349909",
+    "PMID:32433266",
+    "PMID:35875690",
+    "PMID:39128506",
+    "PMID:36371959",
+    "PMID:40926126",
+    "PMID:42848371",
+    "PMID:35235774",
+    "PMID:21270914",
+    "PMID:37159264",
+    "PMID:31652008",
+    "PMID:42135539",
+    "PMID:27721479",
+    "PMID:30673618",
+    "URL:https://clinicaltrials.gov/study/NCT04614714",
+    "PMID:40215896",
+    "PMID:40770531",
+    "PMID:37593976",
+    "PMID:29599478",
+    "PMID:34180141",
+    "PMID:36703196",
+    "PMID:39816194",
+    "PMID:35730144",
+    "PMID:41516357",
+    "PMID:34515380",
+    "PMID:37899683",
+    "PMID:42387837",
+    "PMID:42449929"
   ]
 }

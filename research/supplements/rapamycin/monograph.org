@@ -3,34 +3,208 @@
 :ID: supp-rapamycin
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: Sirolimus | Rapamycin
+:ALIASES: Sirolimus | Rapamune | rapamycin (low-dose, intermittent) | nab-sirolimus | Fyarro | mTOR inhibitor | rapalog
 :CATEGORY: rx
 :RX_STATUS: rx
 :RESEARCHED_AT: 2026-10-13
 :END:
+
 ** Identity & forms
-- Sirolimus is an immunosuppressive prescription drug; longevity use in healthy people is off-label and investigational. [PMID:40188830] [PMID:40620657] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85]
+- Sirolimus (rapamycin) is a macrocyclic lactone from Streptomyces hygroscopicus. It is a prescription mTOR-inhibiting immunosuppressant [PMID:15691225] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85].
+- Approved uses: Oral tablets/solution: renal transplant rejection prophylaxis (age >=13) and lymphangioleiomyomatosis (LAM) [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85]. IV nab-sirolimus: approved in the US for malignant PEComa, based on AMPECT [PMID:38427923] [PMID:34637337]. Topical sirolimus (mostly 0.1%): RCT evidence for facial angiofibromas in tuberous sclerosis (799 patients) [PMID:39018447].
+- Longevity use is off-label, usually intermittent low doses (e.g. 5-10 mg weekly), often compounded [PMID:40188830] [PMID:37191826]. Rapalogs include everolimus (RAD001) and temsirolimus. RTB101 is a catalytic TORC1 inhibitor [PMID:33977284] [PMID:29997249].
+- Pharmacokinetics: tmax 1-2 h, oral bioavailability ~14%, blood/plasma ratio ~36 [PMID:10823378]. Half-life ~62 h, with clearance CV 52% between and 26% within people [PMID:10823378]. Weekly dosing in Alzheimer's disease gave a half-life of ~69 h [PMID:41046300]. Metabolized by CYP3A4/5; a P-gp substrate [PMID:11523724] [PMID:27128230].
+
 ** Mechanisms
-- FKBP12 complex inhibits mTORC1; immunosuppression, altered metabolism, wound healing and cell growth effects are clinically important. [PMID:40188830] [PMID:40620657] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85]
+- Rapamycin-FKBP12 allosterically inhibits mTORC1, arresting T- and B-cell cycling [PMID:15691225] [PMID:37142830].
+- Chronic exposure also disrupts mTORC2. In mice this drives hepatic insulin resistance, which is separable from the longevity effect [PMID:22461615].
+- Intermittent dosing or rapalogs spare glucose tolerance, beta-cell function and immune cells in mice [PMID:26463117].
+- Rapamycin and acarbose share mTORC1 suppression and increased cap-independent translation [PMID:33742521].
+- Immune aging: Low-dose TORC1 inhibition raised influenza vaccine titers, lowered PD-1+ T cells and upregulated interferon antiviral genes [PMID:25540326] [PMID:29997249] [PMID:33977284]. Sustained T-cell mTORC1 activity impairs vaccine responses in older people [PMID:40249803].
+- Mouse tissue effects: Reversed periodontal bone loss and inflammation and made the oral microbiome more youthful [PMID:28889220] [PMID:32342860]. Preserved primordial ovarian follicles, with FOXO3a upregulation [PMID:31359237] [PMID:28544226].
+- Human skin: topical use lowered p16INK4A and raised collagen VII [PMID:31761958].
+
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---------+--------------------+-----------+-------------+-----------------------+-----------|
-| Healthy aging/healthspan | No established reduction in morbidity or mortality in healthy adults | Possible / uncertain | No established reduction in morbidity or mortality in healthy adults. PEARL 48-week trial studied intermittent low-dose regimens and exploratory healthspan measures; it was not powered to establish longevity efficacy. | very-low | [PMID:40188830] [PMID:40620657] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85] |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| LAM lung function | Phase 3 RCT (MILES, n=89); ATS/JRS guideline | Benefit (stabilization) | FEV1 slope +1 vs -12 mL/mo; 153 mL difference at 12 mo; decline resumes off drug | high | [PMID:21410393] [PMID:27628078] [PMID:30846465] |
+| LAM survival | 16-y cohort (n=162) | Benefit | Lower 5-y mortality after 2011 (post-MILES) | low | [PMID:34044410] |
+| Malignant PEComa (nab-sirolimus) | Single-arm phase 2 (AMPECT, n=31) | Benefit | ORR 38.7%; median DOR 39.7 mo; OS 53.1 mo; TSC2-mutant 89% response | moderate | [PMID:34637337] [PMID:38427923] |
+| Kidney transplant: cancer and death | IPD MA, 21 RCTs (n=5876) | Fewer cancers, more deaths | Malignancy HR 0.60; NMSC HR 0.44; death HR 1.43 (1.21-1.71) | moderate | [PMID:25422259] |
+| Post-transplant skin cancer | RCTs (n=86; TUMORAPA n=120, 5 y) | Benefit | NMSC 1.31 vs 2.48/patient-yr; new SCC 22% vs 59%; 46% stopped for AEs | moderate | [PMID:22420843] [PMID:30016177] |
+| Mouse lifespan (ITP) | Multi-site ITP | Benefit | Started at 600 d: +14% F / +9% M (90th pct); median +23-26% at higher dose | high (mice) | [PMID:19587680] [PMID:24341993] |
+| Vertebrate lifespan | MA, 911 effect sizes, 8 species | Benefit | Similar to dietary restriction; metformin null; publication bias | moderate (animals) | [PMID:40532901] |
+| Healthspan, healthy adults | 48-wk RCT (PEARL); pilot RCT (n=25); SR (19 studies) | Mostly null | Visceral fat unchanged; lean mass and pain better only in women on 10 mg/wk | low | [PMID:40188830] [PMID:29408453] [PMID:38310895] |
+| Immune function / infections, older adults | Phase 2a (n=264), 2b (n=652), 3 (n=1024) RCTs | Mixed | Vaccine titers +~20%; RTIs 19% vs 28% (OR 0.60) in 2b; phase 3 null (OR 1.07) | moderate | [PMID:25540326] [PMID:29997249] [PMID:33977284] |
+| Function with exercise | RCT (RAPA-EX-01, n=40) | No benefit, possible harm | Chair-stand -2.13 reps (CI -4.61 to 0.34); -3.44 per-protocol | low | [PMID:41985884] |
+| Musculoskeletal aging | SR (14 studies) | Uncertain | Lower bone resorption; reduced exercise protein synthesis | very low | [PMID:35861940] |
+| Alzheimer's disease | Open-label phase 1 (n=10); PK (n=13) | No benefit shown | Not detectable in CSF; CSF p-tau181, GFAP, NfL and HbA1c rose | very low | [PMID:40394335] [PMID:41046300] |
+| Periodontal health | Mouse studies; user survey | Benefit in mice | Partial alveolar bone regrowth in 8 wk in old mice | very low (humans) | [PMID:28889220] [PMID:32342860] [PMID:38839644] |
+| Ovarian aging | Mouse studies; VIBRANT pilot RCT unpublished | Benefit in mice | Primordial follicle preservation | very low (humans) | [PMID:28544226] [PMID:31359237] [URL:https://clinicaltrials.gov/study/NCT05836025] |
+| Skin aging (topical) | Exploratory RCT (n=36; 17 completed) | Benefit (biomarkers) | p16INK4A down (P=0.008); collagen VII up (P=0.0077) | very low | [PMID:31761958] |
+| Dog cardiac function / healthspan | RCTs (n=24, 10 wk; n=17, 6 mo); TRIAD ongoing | Mixed | Echo better at 10 wk; no difference at 6-12 mo | low (dogs) | [PMID:28374166] [PMID:37275618] [PMID:39951177] |
+
 ** Dosing in trials
-- Prescription regimens for approved indications are individualized and therapeutic-drug monitored; PEARL studied 5 or 10 mg weekly for 48 weeks. [PMID:40188830] [PMID:40620657] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85]
+- Label regimens [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85]: Renal transplant after cyclosporine withdrawal: trough 16-24 ng/mL in year 1, then 12-20 ng/mL. Take 4 h after cyclosporine. LAM: trough 5-15 ng/mL. MILES treated for 12 months [PMID:21410393].
+- PEComa: nab-sirolimus 100 mg/m2 IV on days 1 and 8 every 21 days [PMID:34637337].
+- Longevity regimens studied: PEARL: 5 or 10 mg weekly for 48 weeks [PMID:40188830]. RAPA-EX-01: 6 mg weekly for 13 weeks [PMID:41985884]. Pilot in adults 70-95: 1 mg daily for 8 weeks [PMID:29408453]. Alzheimer's disease: 1 mg daily for 8 weeks [PMID:40394335], or 7 mg weekly for 26 weeks [PMID:41046300]. VIBRANT: 5 mg weekly for 12 weeks [URL:https://clinicaltrials.gov/study/NCT05836025].
+- Rapalog immune trials: low-dose RAD001 before vaccination [PMID:25540326]; BEZ235 plus RAD001 for 6 weeks [PMID:29997249]; RTB101 10 mg daily for 16 weeks [PMID:33977284].
+- Dogs: 0.025 mg/kg three times weekly [PMID:37275618].
+- Weekly sirolimus in cancer: the dose needed for a target AUC fell from 90 mg to 16 mg with ketoconazole and to 25 mg with grapefruit juice [PMID:22872575].
+
 ** Safety & adverse effects
-- Stomatitis, infections, dyslipidemia, cytopenias, impaired wound healing, proteinuria, pneumonitis; serious immunosuppressive risks and CYP3A interactions. [PMID:40188830] [PMID:40620657] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85]
+- Boxed warning: infection and lymphoma risk. Excess deaths and hepatic artery thrombosis in liver transplant; fatal bronchial dehiscence in lung transplant [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85].
+- Stomatitis / mouth ulcers: Everolimus trials: 67-70%, grade 3/4 in 8-9%, mostly within 8 weeks [PMID:26759276]. MA high-grade RR 8.84 [PMID:25635371]. Dexamethasone mouthwash cut grade >=2 stomatitis to 2% vs 33% in historical controls [PMID:28314691]. nab-sirolimus: 82.4% [PMID:38427923]. Low-dose off-label users: ulcers mostly mild, transient and not dose-related [PMID:38839644].
+- Hyperlipidemia: Label: hypertriglyceridemia 45%, hypercholesterolemia 43% [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85]. Triglycerides up to 42 mmol/L, reversible on dose reduction [PMID:9603181]. MA RRs 2.22 (triglycerides) and 2.48 (cholesterol) [PMID:27069150]. Lipids also rose in people with age-related diseases on rapalogs [PMID:38310895].
+- Hyperglycemia / insulin resistance: mTORi MA: all-grade RR 2.97 [PMID:27069150]. Everolimus MA: RR 2.60 [PMID:27142123]. Weekly dosing in cancer: 52% [PMID:22872575]. Sirolimus was not a risk factor for new-onset diabetes after transplant [PMID:32506801]. OGTT unchanged on 1 mg/day in older adults [PMID:29408453]; HbA1c rose in an Alzheimer's pilot [PMID:40394335]. Intermittent dosing lessens glucose intolerance in mice [PMID:26463117] [PMID:40704394].
+- Wound healing / fluid: Complications 47% on sirolimus vs 8% on tacrolimus [PMID:15239621]. Lymphocele and dehiscence reviewed in [PMID:22941182]. Peripheral edema 54% at 2 mg/day (label) [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85].
+- Pneumonitis: 14% after late switch vs 0% de novo. Risk factors: low GFR and trough >12 ug/L. It resolved on stopping [PMID:17611248]. MAs: any grade ~10%; severe OR 3.36 [PMID:22909392] [PMID:27067269].
+- Infection: Pneumocystis pneumonia OR 1.90 [PMID:31377892]. Pneumonia OR 2.09 with mTORi monotherapy, but less CMV [PMID:32072714]. Attributable infection risk in cancer: 9.3% [PMID:27791402]. Bacterial infections 27% vs 11% when everolimus replaced mycophenolate [PMID:40231961]. One possibly drug-related pneumonia, and 99 vs 63 minor AEs, in RAPA-EX-01 [PMID:41985884].
+- Cytopenias: Platelets and white cells fall at troughs >15 ng/mL [PMID:10770413]. Lymphopenia 41% on weekly dosing [PMID:22872575]. Low doses lowered hemoglobin, hematocrit and MCV in older adults [PMID:29408453] [PMID:40394335] and MCV in dogs [PMID:28374166].
+- Other: Proteinuria, especially after calcineurin-inhibitor conversion [PMID:17147461]. Angioedema in 15% of renal recipients [PMID:17377381]. Kidney transplant mortality HR 1.43 [PMID:25422259].
+- Low-dose healthy cohorts: AEs similar to placebo in PEARL [PMID:40188830]. No serious rapalog AEs in healthy people (SR) [PMID:38310895] [PMID:37191826].
+
 ** Contraindications
-- Contraindicated with hypersensitivity; major caution in active infection, surgery/wound healing, pregnancy, hepatic impairment, and live vaccines per labeling. [PMID:40188830] [PMID:40620657] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85]
+- Labeled: hypersensitivity only [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85].
+- Pregnancy: fetal harm warning; contraception during use and for 12 weeks after; reversible male azoospermia. Not recommended in liver or lung transplant (same label).
+- Avoid with active serious infection or recent/planned surgery [PMID:15239621] [PMID:22941182], and with interstitial lung disease or significant renal impairment [PMID:17611248].
+
 ** Interactions
-- Strong CYP3A4/P-gp inhibitors or inducers substantially alter exposure; grapefruit may increase levels. Immunosuppressants and live vaccines pose additional risk. Consult current DailyMed label. [PMID:40188830] [PMID:40620657] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85]
+*** Drugs
+- Strong CYP3A4/P-gp inhibitors (ketoconazole, voriconazole, clarithromycin): avoid. Ketoconazole raised AUC ~500% [PMID:22872575] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85]. Diltiazem raised AUC 60% [PMID:11180036].
+- Strong inducers: rifampin cut AUC 82%; avoid [PMID:27128230].
+- Cyclosporine: dose sirolimus 4 h after; sirolimus levels fall when cyclosporine is withdrawn (label). Combined nephrotoxicity, myelosuppression and hyperlipidemia worsen [PMID:11316866] [PMID:15691225].
+- ACE inhibitors: higher angioedema risk; consider an ARB [PMID:38205154] [PMID:25068425] [PMID:17377381].
+- Live vaccines: avoid (label). mTORi regimens kept or improved mRNA vaccine responses in transplant recipients [PMID:35038362].
+- Statins: myopathy warning (label), though lipid treatment is often needed [PMID:27069150].
+*** Other supplements
+- Metformin ER: combination extended ITP mouse lifespan robustly vs historical rapamycin-alone cohorts [PMID:27312235]. Metformin reversed rapamycin glucose intolerance in female mice [PMID:29579736]. No human outcome data.
+- Acarbose: started at 9 months, the combination gave male mice longer lifespan than rapamycin-only cohorts [PMID:36179270] [PMID:33742521].
+- Berberine: raised cyclosporine AUC 19% via CYP3A4, so a sirolimus rise is plausible [PMID:16541194].
+- Curcumin: lowered everolimus AUC ~71% in rats via CYP3A4 activation [PMID:25300360]. Null in the ITP [PMID:22451473].
+- Green Tea Extract: no sirolimus PK study. Herbal teas inhibit CYP3A4 and caused toxic sirolimus levels in one case [PMID:24824478]. Null in the ITP [PMID:22451473].
+- Quercetin: acutely inhibits and chronically induces CYP3A4/P-gp in vitro [PMID:16442130].
+- Trans-resveratrol: overlapping mTOR/AMPK pharmacology [PMID:35893737]; null in the ITP [PMID:22451473]. Melatonin: no clinical interaction found.
+- St John's wort: induces CYP3A4/P-gp and lowered tacrolimus AUC [PMID:31742659] [PMID:14681346]. Grapefruit juice raised sirolimus AUC ~350% [PMID:22872575].
+*** Conditions
+- Diabetes/prediabetes, dyslipidemia, upcoming surgery, ILD, CKD, active infection and pregnancy: see Safety and Contraindications [PMID:27069150] [PMID:17611248].
+- Exercise training in older adults: 6 mg weekly may blunt gains [PMID:41985884].
+*** Lab-test interference
+- Immunoassay and LC-MS/MS troughs are not interchangeable (label) [PMID:11523724].
+- Trough timing and targets: Trough tracks AUC; sample 4-7 days after a dose change [PMID:10823378]. <5 ng/mL is linked to rejection; >15 ng/mL to toxicity [PMID:10770413]. With weekly dosing, a 48-h post-dose sample is best [PMID:41046300].
+- Monitor lipids, glucose/HbA1c, CBC, urine protein and (in LAM) VEGF-D [PMID:27069150] [PMID:29408453] [PMID:17147461] [PMID:21410393].
+
 ** Genotype notes
-- No validated genotype guidance for longevity use.
+- CYP3A5*3/*3 non-expressers have a higher weight-adjusted trough/dose ratio (MD 95.27 ng/mL per mg/kg, 7 studies) and need lower doses [PMID:39171589].
+- ABCB1 variants had no significant effect. Trough-guided dosing compensates [PMID:17192769].
+- No genotype guidance exists for low-dose longevity use.
+
 ** Latest research
-- 2026-10-13 search cutoff: 2025 PEARL report is the longest randomized healthy-aging rapamycin trial yet, but endpoints are exploratory and do not prove longevity benefit [PMID:40188830]. [PMID:40188830] [PMID:40620657] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85]
+- [2026-06] Lamming review: rapamycin is the most reproducible geroprotector in animals, but its human value is unresolved [PMID:42126807].
+- [2026-04] RAPA-EX-01 (n=40): 6 mg weekly did not improve, and may have blunted, exercise gains [PMID:41985884].
+- [2026-02] RECOVAC RCT: everolimus raised zoster antibody titers but also bacterial infections [PMID:40231961].
+- [2025-11] OPTIMIZE (n=379, age >=65): everolimus plus low-dose tacrolimus was not superior [PMID:41201871].
+- [2025-10] Weekly 7 mg in Alzheimer's disease: half-life ~69 h; troughs below immunosuppressive levels [PMID:41046300].
+- [2025-09] JAMA review: mouse median lifespan +249 d (F) and +154 d (M); rapalogs investigational in humans [PMID:40773213].
+- [2025-07] Intermittent dosing preserved exercise adaptations in mice [PMID:40704394].
+- [2025-06] Vertebrate MA: rapamycin, but not metformin, extends lifespan to a degree similar to dietary restriction [PMID:40532901].
+- [2025-05] Alzheimer's pilot: no CSF penetration; biomarkers and HbA1c rose [PMID:40394335].
+- [2025-04] PEARL: 5-10 mg weekly safe over 48 weeks; primary outcome null [PMID:40188830]. Separate study: T-cell mTORC1 impairs vaccine responses in older people [PMID:40249803].
+- [2025-02] TRIAD design: randomized lifespan trial in companion dogs [PMID:39951177].
+- [2024-10] Oral-health survey: mouth ulcers mostly mild [PMID:38839644]. VIBRANT ovarian pilot (n=50) is active, not recruiting, with no published results [URL:https://clinicaltrials.gov/study/NCT05836025].
+
 ** Open questions
-- Long-term benefit-risk, optimal regimen, and whether any biomarker predicts benefit are unresolved. [PMID:40188830] [PMID:40620657] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85]
+- Whether intermittent low-dose use changes morbidity or mortality in humans. No adequately powered trial exists.
+- The dose and interval that separate mTORC1 benefits from mTORC2 harms.
+- Long-term effects on lipids, glucose, red-cell indices and infection in healthy users.
+- Compounded vs generic bioavailability (NCT06550271).
+- VIBRANT and TRIAD outcomes.
+- Whether metformin or acarbose combinations add benefit in humans.
+
 ** Sources
-- Galkin et al. Influence of rapamycin on safety and healthspan metrics after one year: PEARL trial results. PMID:40188830.
-- Roark & Iffland. Rapamycin for longevity: the pros, the cons, and future perspectives. Front Aging. 2025. PMID:40620657.
-- DailyMed. Sirolimus tablet: full prescribing information. Revised February 2026. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85
+1. Moel M et al. Influence of rapamycin on safety and healthspan metrics after one year: PEARL trial results. Aging (Albany NY). 2025. PMID:40188830 DOI:10.18632/aging.206235
+2. Mannick JB et al. mTOR inhibition improves immune function in the elderly. Sci Transl Med. 2014. PMID:25540326 DOI:10.1126/scitranslmed.3009892
+3. Mannick JB et al. TORC1 inhibition enhances immune function and reduces infections in the elderly. Sci Transl Med. 2018. PMID:29997249 DOI:10.1126/scitranslmed.aaq1564
+4. Mannick JB et al. Targeting the biology of ageing with mTOR inhibitors to improve immune function in older adults: phase 2b and phase 3 randomised trials. Lancet Healthy Longev. 2021. PMID:33977284 DOI:10.1016/S2666-7568(21)00062-3
+5. Kraig E et al. A randomized control trial to establish the feasibility and safety of rapamycin treatment in an older human cohort. Exp Gerontol. 2018. PMID:29408453 DOI:10.1016/j.exger.2017.12.026
+6. Kaeberlein TL et al. Evaluation of off-label rapamycin use to promote healthspan in 333 adults. Geroscience. 2023. PMID:37191826 DOI:10.1007/s11357-023-00818-1
+7. Lee DJW et al. Targeting ageing with rapamycin and its derivatives in humans: a systematic review. Lancet Healthy Longev. 2024. PMID:38310895 DOI:10.1016/S2666-7568(23)00258-1
+8. Stanfield B et al. Exercise and Weekly Sirolimus (Rapamycin) in Older Adults: RAPA-EX-01 RCT. J Cachexia Sarcopenia Muscle. 2026. PMID:41985884 DOI:10.1002/jcsm.70274
+9. Gonzales MM et al. Rapamycin treatment for Alzheimer's disease and related dementias: a pilot phase 1 clinical trial. Commun Med (Lond). 2025. PMID:40394335 DOI:10.1038/s43856-025-00904-9
+10. Wallgren HA et al. Pharmacokinetic analysis of intermittent rapamycin administration in early-stage Alzheimer's Disease. Geroscience. 2026. PMID:41046300 DOI:10.1007/s11357-025-01911-3
+11. Hudson J et al. Evaluation of off-label rapamycin use on oral health. Geroscience. 2024. PMID:38839644 DOI:10.1007/s11357-024-01221-0
+12. Chung CL et al. Topical rapamycin reduces markers of senescence and aging in human skin: an exploratory, prospective, randomized trial. Geroscience. 2019. PMID:31761958 DOI:10.1007/s11357-019-00113-y
+13. Mannick JB, Lamming DW. Targeting the biology of aging with mTOR inhibitors. Nat Aging. 2023. PMID:37142830 DOI:10.1038/s43587-023-00416-y
+14. Kritchevsky SB, Cummings SR. Geroscience: A Translational Review. JAMA. 2025. PMID:40773213 DOI:10.1001/jama.2025.11289
+15. Lamming DW. Bench to bedside: is rapamycin headed for the docTOR? Geroscience. 2026. PMID:42126807 DOI:10.1007/s11357-026-02306-8
+16. Ivimey-Cook ER et al. Rapamycin, Not Metformin, Mirrors Dietary Restriction-Driven Lifespan Extension in Vertebrates: A Meta-Analysis. Aging Cell. 2025. PMID:40532901 DOI:10.1111/acel.70131
+17. Lin H et al. The effect of rapamycin and its analogues on age-related musculoskeletal diseases: a systematic review. Aging Clin Exp Res. 2022. PMID:35861940 DOI:10.1007/s40520-022-02190-0
+18. Lin X et al. Sustained mTORC1 activation in activated T cells impairs vaccine responses in older individuals. Sci Adv. 2025. PMID:40249803 DOI:10.1126/sciadv.adt4881
+19. Harrison DE et al. Rapamycin fed late in life extends lifespan in genetically heterogeneous mice. Nature. 2009. PMID:19587680 DOI:10.1038/nature08221
+20. Miller RA et al. Rapamycin-mediated lifespan increase in mice is dose and sex dependent and metabolically distinct from dietary restriction. Aging Cell. 2014. PMID:24341993 DOI:10.1111/acel.12194
+21. Dou X et al. Short-term rapamycin treatment increases ovarian lifespan in young and middle-aged female mice. Aging Cell. 2017. PMID:28544226 DOI:10.1111/acel.12617
+22. Garcia DN et al. Effect of caloric restriction and rapamycin on ovarian aging in mice. Geroscience. 2019. PMID:31359237 DOI:10.1007/s11357-019-00087-x
+23. An JY et al. Rapamycin rejuvenates oral health in aging mice. Elife. 2020. PMID:32342860 DOI:10.7554/eLife.54318
+24. An JY et al. Rapamycin treatment attenuates age-associated periodontitis in mice. Geroscience. 2017. PMID:28889220 DOI:10.1007/s11357-017-9994-6
+25. Coleman AE et al. Test of Rapamycin in Aging Dogs (TRIAD): study design and rationale. Geroscience. 2025. PMID:39951177 DOI:10.1007/s11357-024-01484-7
+26. Urfer SR et al. A randomized controlled trial to establish effects of short-term rapamycin treatment in 24 middle-aged companion dogs. Geroscience. 2017. PMID:28374166 DOI:10.1007/s11357-017-9972-z
+27. Barnett BG et al. Low-dose rapamycin in 17 healthy client-owned dogs: masked, placebo-controlled RCT. Front Vet Sci. 2023. PMID:37275618 DOI:10.3389/fvets.2023.1168711
+28. Strong R et al. Longer lifespan in male mice treated with a weakly estrogenic agonist, an antioxidant, an alpha-glucosidase inhibitor or a Nrf2-inducer. Aging Cell. 2016. PMID:27312235 DOI:10.1111/acel.12496
+29. Strong R et al. Lifespan benefits for the combination of rapamycin plus acarbose and for captopril in genetically heterogeneous mice. Aging Cell. 2022. PMID:36179270 DOI:10.1111/acel.13724
+30. Strong R et al. Evaluation of resveratrol, green tea extract, curcumin, oxaloacetic acid, and MCT oil on life span of genetically heterogeneous mice. J Gerontol A Biol Sci Med Sci. 2013. PMID:22451473 DOI:10.1093/gerona/gls070
+31. Weiss R et al. Metformin reduces glucose intolerance caused by rapamycin treatment in genetically heterogeneous female mice. Aging (Albany NY). 2018. PMID:29579736 DOI:10.18632/aging.101401
+32. Lamming DW et al. Rapamycin-induced insulin resistance is mediated by mTORC2 loss and uncoupled from longevity. Science. 2012. PMID:22461615 DOI:10.1126/science.1215135
+33. Arriola Apelo SI et al. Alternative rapamycin treatment regimens mitigate the impact of rapamycin on glucose homeostasis and the immune system. Aging Cell. 2016. PMID:26463117 DOI:10.1111/acel.12405
+34. Elliehausen CJ et al. Rapamycin Does Not Compromise Exercise-Induced Muscular Adaptations in Female Mice. Aging Cell. 2025. PMID:40704394 DOI:10.1111/acel.70183
+35. Shen Z et al. Cap-independent translation: a shared mechanism for lifespan extension by rapamycin, acarbose, and 17alpha-estradiol. Aging Cell. 2021. PMID:33742521 DOI:10.1111/acel.13345
+36. McCormack FX et al. Efficacy and safety of sirolimus in lymphangioleiomyomatosis (MILES). N Engl J Med. 2011. PMID:21410393 DOI:10.1056/NEJMoa1100391
+37. McCormack FX et al. ATS/JRS Clinical Practice Guidelines: Lymphangioleiomyomatosis Diagnosis and Management. Am J Respir Crit Care Med. 2016. PMID:27628078 DOI:10.1164/rccm.201607-1384ST
+38. Gupta N et al. Analysis of the MILES cohort reveals determinants of disease progression and treatment response in LAM. Eur Respir J. 2019. PMID:30846465 DOI:10.1183/13993003.02066-2018
+39. Harari S et al. Improving Survival in Lymphangioleiomyomatosis: A 16-Year Observational Study. Respiration. 2021. PMID:34044410
+40. Wagner AJ et al. nab-Sirolimus for Patients With Malignant Perivascular Epithelioid Cell Tumors. J Clin Oncol. 2021. PMID:34637337 DOI:10.1200/JCO.21.01728
+41. Wagner AJ et al. Phase II Trial of nab-Sirolimus in Advanced Malignant PEComa (AMPECT): Long-Term Efficacy and Safety Update. J Clin Oncol. 2024. PMID:38427923 DOI:10.1200/JCO.23.02266
+42. Knoll GA et al. Effect of sirolimus on malignancy and survival after kidney transplantation: IPD meta-analysis. BMJ. 2014. PMID:25422259 DOI:10.1136/bmj.g6679
+43. Campbell SB et al. Randomized controlled trial of sirolimus for renal transplant recipients at high risk for nonmelanoma skin cancer. Am J Transplant. 2012. PMID:22420843 DOI:10.1111/j.1600-6143.2012.04004.x
+44. Dantal J et al. Sirolimus for Secondary Prevention of Skin Cancer in Kidney Transplant Recipients: 5-Year Results. J Clin Oncol. 2018. PMID:30016177 DOI:10.1200/JCO.2017.76.6691
+45. Sanders JF et al. Immunosuppression in Older Kidney Transplant Recipients: A Randomized Controlled Trial (OPTIMIZE). J Am Soc Nephrol. 2026. PMID:41201871 DOI:10.1681/ASN.0000000924
+46. Rugo HS et al. Meta-analysis of stomatitis in clinical studies of everolimus. Ann Oncol. 2016. PMID:26759276 DOI:10.1093/annonc/mdv595
+47. Shameem R et al. Incidence and risk of high-grade stomatitis with mTOR inhibitors in cancer patients. Cancer Invest. 2015. PMID:25635371 DOI:10.3109/07357907.2014.1001893
+48. Rugo HS et al. Prevention of everolimus-related stomatitis using dexamethasone mouthwash (SWISH). Lancet Oncol. 2017. PMID:28314691 DOI:10.1016/S1470-2045(17)30109-2
+49. Brattstrom C et al. Hyperlipidemia in renal transplant recipients treated with sirolimus (rapamycin). Transplantation. 1998. PMID:9603181 DOI:10.1097/00007890-199805150-00023
+50. Lew S, Chamberlain RS. Risk of Metabolic Complications in Patients with Solid Tumors Treated with mTOR inhibitors: Meta-analysis. Anticancer Res. 2016. PMID:27069150
+51. Xu KY et al. Risk of hyperglycemia attributable to everolimus in cancer patients: a meta-analysis. Acta Oncol. 2016. PMID:27142123 DOI:10.3109/0284186X.2016.1168939
+52. Xia M et al. Risk factors for new-onset diabetes mellitus after kidney transplantation: SR and MA. J Diabetes Investig. 2021. PMID:32506801 DOI:10.1111/jdi.13317
+53. Iacovelli R et al. Incidence and risk of pulmonary toxicity in patients treated with mTOR inhibitors for malignancy. Acta Oncol. 2012. PMID:22909392 DOI:10.3109/0284186X.2012.705019
+54. Zhang X et al. Risk of mTOR inhibitors induced severe pneumonitis in cancer patients: MA of RCTs. Future Oncol. 2016. PMID:27067269 DOI:10.2217/fon-2016-0020
+55. Weiner SM et al. Pneumonitis associated with sirolimus: clinical characteristics, risk factors and outcome. Nephrol Dial Transplant. 2007. PMID:17611248 DOI:10.1093/ndt/gfm420
+56. Ghadimi M et al. m-TOR inhibitors and risk of Pneumocystis pneumonia after solid organ transplantation: SR and MA. Eur J Clin Pharmacol. 2019. PMID:31377892 DOI:10.1007/s00228-019-02730-0
+57. Wolf S et al. Infections after kidney transplantation: a comparison of mTOR-Is and CNIs. Transpl Infect Dis. 2020. PMID:32072714 DOI:10.1111/tid.13267
+58. Garcia CA, Wu S. Attributable Risk of Infection to mTOR Inhibitors Everolimus and Temsirolimus in the Treatment of Cancer. Cancer Invest. 2016. PMID:27791402 DOI:10.1080/07357907.2016.1242009
+59. Nashan B, Citterio F. Wound healing complications and the use of mTOR inhibitors in kidney transplantation: a critical review. Transplantation. 2012. PMID:22941182 DOI:10.1097/TP.0b013e3182551021
+60. Dean PG et al. Wound-healing complications after kidney transplantation: a prospective, randomized comparison of sirolimus and tacrolimus. Transplantation. 2004. PMID:15239621 DOI:10.1097/01.tp.0000123082.31092.53
+61. Rangan GK. Sirolimus-associated proteinuria and renal dysfunction. Drug Saf. 2006. PMID:17147461 DOI:10.2165/00002018-200629120-00006
+62. Kuypers DR. Benefit-risk assessment of sirolimus in renal transplantation. Drug Saf. 2005. PMID:15691225 DOI:10.2165/00002018-200528020-00006
+63. Jung M et al. Angioedema in patients treated with sirolimus and ACE inhibitor post hematopoietic SCT. Bone Marrow Transplant. 2014. PMID:25068425 DOI:10.1038/bmt.2014.162
+64. Beaini H et al. Sirolimus potentiated angioedema: a case report and review of the literature. Open Med (Wars). 2024. PMID:38205154 DOI:10.1515/med-2023-0884
+65. Mahe E et al. Angioedema in renal transplant recipients on sirolimus. Dermatology. 2007. PMID:17377381 DOI:10.1159/000099584
+66. Mahalati K, Kahan BD. Clinical pharmacokinetics of sirolimus. Clin Pharmacokinet. 2001. PMID:11523724 DOI:10.2165/00003088-200140080-00002
+67. MacDonald A et al. Clinical pharmacokinetics and therapeutic drug monitoring of sirolimus. Clin Ther. 2000. PMID:10823378 DOI:10.1016/s0149-2918(00)89027-x
+68. Kahan BD et al. Therapeutic drug monitoring of sirolimus: correlations with efficacy and toxicity. Clin Transplant. 2000. PMID:10770413 DOI:10.1034/j.1399-0012.2000.140201.x
+69. Cohen EE et al. Phase I studies of sirolimus alone or in combination with pharmacokinetic modulators (ketoconazole, grapefruit juice) in advanced cancer patients. Clin Cancer Res. 2012. PMID:22872575 DOI:10.1158/1078-0432.CCR-12-0110
+70. Bottiger Y et al. Pharmacokinetic interaction between single oral doses of diltiazem and sirolimus in healthy volunteers. Clin Pharmacol Ther. 2001. PMID:11180036 DOI:10.1067/mcp.2001.112513
+71. Tortorici MA et al. The effect of rifampin on the pharmacokinetics of sirolimus in healthy volunteers. Clin Pharmacol Drug Dev. 2014. PMID:27128230 DOI:10.1002/cpdd.40
+72. Podder H et al. Pharmacokinetic interactions augment toxicities of sirolimus/cyclosporine combinations. J Am Soc Nephrol. 2001. PMID:11316866 DOI:10.1681/ASN.V1251059
+73. Nicolussi S et al. Clinical relevance of St. John's wort drug interactions revisited. Br J Pharmacol. 2020. PMID:31742659
+74. Hebert MF et al. Effects of St. John's wort on tacrolimus pharmacokinetics in healthy volunteers. J Clin Pharmacol. 2004. PMID:14681346 DOI:10.1177/0091270003261078
+75. Xin HW et al. The effects of berberine on the pharmacokinetics of cyclosporin A in healthy volunteers. Methods Find Exp Clin Pharmacol. 2006. PMID:16541194 DOI:10.1358/mf.2006.28.1.962774
+76. Hsieh YW et al. Oral intake of curcumin markedly activated CYP 3A4: in vivo and ex-vivo studies. Sci Rep. 2014. PMID:25300360 DOI:10.1038/srep06587
+77. Dufay S et al. Herbal tea extracts inhibit Cytochrome P450 3A4 in vitro. J Pharm Pharmacol. 2014. PMID:24824478 DOI:10.1111/jphp.12270
+78. Pal D, Mitra AK. MDR- and CYP3A4-mediated drug-herbal interactions. Life Sci. 2006. PMID:16442130 DOI:10.1016/j.lfs.2005.12.010
+79. Renders L et al. CYP3A5 genotype markedly influences the pharmacokinetics of tacrolimus and sirolimus in kidney transplant recipients. Clin Pharmacol Ther. 2007. PMID:17192769 DOI:10.1038/sj.clpt.6100039
+80. Park YA et al. Effects of CYP3A5 Genetic Polymorphisms on Weight-adjusted Trough Concentration of Sirolimus: SR and MA. Curr Pharm Des. 2024. PMID:39171589 DOI:10.2174/0113816128324199240730093415
+81. Netti GS et al. mTOR inhibitors improve humoral and cellular response to SARS-CoV-2 BNT162b2 vaccine in kidney transplant recipients. Am J Transplant. 2022. PMID:35038362 DOI:10.1111/ajt.16958
+82. Messchendorp AL et al. Replacing Mycophenolate Mofetil by Everolimus in Kidney Transplant Recipients to Increase Vaccine Immunogenicity (RECOVAC RCT). Clin Infect Dis. 2026. PMID:40231961 DOI:10.1093/cid/ciaf107
+83. Sorrenti V et al. Immunomodulatory and Antiaging Mechanisms of Resveratrol, Rapamycin, and Metformin. Pharmaceuticals (Basel). 2022. PMID:35893737 DOI:10.3390/ph15080912
+84. Afzal UM et al. Topical sirolimus in dermatology: a systematic review. Clin Exp Dermatol. 2024. PMID:39018447 DOI:10.1093/ced/llae275
+85. DailyMed. Sirolimus tablets, full prescribing information (revised 2/2026). URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85
+86. ClinicalTrials.gov. Effect of Rapamycin in Ovarian Aging (VIBRANT pilot), NCT05836025. URL:https://clinicaltrials.gov/study/NCT05836025

@@ -4,64 +4,347 @@
   "slug": "rapamycin",
   "aliases": [
     "Sirolimus",
-    "Rapamycin"
+    "Rapamune",
+    "nab-sirolimus",
+    "Fyarro",
+    "rapamycin (low-dose, intermittent)"
   ],
   "category": "rx",
   "rx_status": "rx",
-  "evidence_certainty_overall": "very-low",
+  "evidence_certainty_overall": "moderate",
   "edges": [
     {
-      "with": "strong CYP3A4 inhibitors",
+      "with": "strong CYP3A4/P-gp inhibitors (ketoconazole, voriconazole, itraconazole, clarithromycin)",
       "with_kind": "drug-class",
       "kind": "avoid",
       "severity": "major",
-      "mechanism": "May markedly increase sirolimus concentrations.",
-      "evidence": "Official prescribing information warns against strong inhibitors.",
+      "mechanism": "Inhibit CYP3A4 first-pass metabolism and P-gp efflux of sirolimus; ketoconazole raised sirolimus AUC ~500%.",
+      "evidence": "Phase I PK study in cancer patients; FDA label says avoid",
       "citations": [
+        "PMID:22872575",
         "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85"
       ]
     },
     {
-      "with": "strong CYP3A4 inducers",
-      "with_kind": "drug-class",
-      "kind": "avoid",
-      "severity": "major",
-      "mechanism": "May markedly decrease sirolimus concentrations.",
-      "evidence": "Official prescribing information warns against strong inducers.",
-      "citations": [
-        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85"
-      ]
-    },
-    {
-      "with": "grapefruit",
+      "with": "grapefruit juice",
       "with_kind": "food",
-      "kind": "caution",
-      "severity": "moderate",
-      "mechanism": "Can inhibit intestinal CYP3A and increase exposure.",
-      "evidence": "Label advises avoiding grapefruit juice.",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Intestinal CYP3A4/P-gp inhibition; grapefruit juice raised sirolimus AUC ~350%. Label: do not take with sirolimus.",
+      "evidence": "Phase I PK study; FDA label",
       "citations": [
+        "PMID:22872575",
         "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85"
+      ]
+    },
+    {
+      "with": "diltiazem",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Moderate CYP3A4 inhibitor; single-dose diltiazem raised sirolimus AUC 60% and Cmax 43% with high inter-individual variability.",
+      "evidence": "Crossover PK study in 18 healthy volunteers",
+      "citations": [
+        "PMID:11180036"
+      ]
+    },
+    {
+      "with": "strong CYP3A4 inducers (rifampin, rifabutin)",
+      "with_kind": "drug-class",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "CYP3A4/P-gp induction; rifampin decreased sirolimus AUC 82% and Cmax 71% (CL/F up ~5-fold).",
+      "evidence": "PK study in healthy volunteers; FDA label",
+      "citations": [
+        "PMID:27128230",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85"
+      ]
+    },
+    {
+      "with": "St John's wort",
+      "with_kind": "supplement",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "PXR activation induces CYP3A4 and P-gp; lowered tacrolimus AUC and caused cyclosporine-related rejection; same pathway clears sirolimus.",
+      "evidence": "Review of clinical interactions plus healthy-volunteer tacrolimus PK study; sirolimus-specific study not found",
+      "citations": [
+        "PMID:31742659",
+        "PMID:14681346",
+        "PMID:27128230"
+      ]
+    },
+    {
+      "with": "cyclosporine",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "major",
+      "mechanism": "Cyclosporine raises sirolimus levels (dose sirolimus 4 h after cyclosporine); sirolimus increases cyclosporine kidney exposure and nephrotoxicity; cyclosporine augments sirolimus myelosuppression and hyperlipidemia.",
+      "evidence": "FDA label, rat PK/PD study, benefit-risk review",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85",
+        "PMID:11316866",
+        "PMID:15691225"
+      ]
+    },
+    {
+      "with": "ACE inhibitors",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "major",
+      "mechanism": "Additive angioedema risk (bradykinin pathway with mTOR inhibition); life-threatening cases reported; consider ARB instead.",
+      "evidence": "FDA label warning; cross-sectional series (15% angioedema on sirolimus); case reports",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85",
+        "PMID:17377381",
+        "PMID:38205154",
+        "PMID:25068425"
       ]
     },
     {
       "with": "live vaccines",
       "with_kind": "drug-class",
       "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Immunosuppression may reduce vaccine response and allow vaccine-strain infection; label advises avoiding live vaccines. Non-live vaccine responses may be preserved or improved with mTOR inhibitors.",
+      "evidence": "FDA label; observational transplant cohorts; RCT in kidney transplant recipients",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85",
+        "PMID:35038362",
+        "PMID:40231961"
+      ]
+    },
+    {
+      "with": "HMG-CoA reductase inhibitors (statins)",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Sirolimus causes hypertriglyceridemia/hypercholesterolemia often requiring statins; label warns of myopathy/rhabdomyolysis with co-use.",
+      "evidence": "FDA label; MA of mTOR inhibitor metabolic toxicity",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85",
+        "PMID:27069150"
+      ]
+    },
+    {
+      "with": "Metformin ER",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Metformin offset rapamycin-induced glucose intolerance in female mice and combination extended ITP mouse lifespan robustly vs historical rapamycin-alone cohorts.",
+      "evidence": "Mouse studies only; no human outcome data",
+      "citations": [
+        "PMID:27312235",
+        "PMID:29579736"
+      ]
+    },
+    {
+      "with": "Acarbose",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Rapamycin plus acarbose started at 9 months gave longer male lifespan than prior rapamycin-only cohorts; both lower mTORC1 and raise cap-independent translation.",
+      "evidence": "ITP mouse studies only",
+      "citations": [
+        "PMID:36179270",
+        "PMID:33742521"
+      ]
+    },
+    {
+      "with": "Berberine",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Berberine inhibits CYP3A4; raised cyclosporine AUC 19% in healthy volunteers, so sirolimus exposure may rise similarly.",
+      "evidence": "Small human PK study with cyclosporine (n=6); extrapolated to sirolimus",
+      "citations": [
+        "PMID:16541194"
+      ]
+    },
+    {
+      "with": "Curcumin",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Curcumin metabolites activated CYP3A4 and reduced everolimus (sirolimus analogue) AUC ~71% in rats; may lower sirolimus exposure.",
+      "evidence": "Rat PK and in vitro study; no human data",
+      "citations": [
+        "PMID:25300360"
+      ]
+    },
+    {
+      "with": "Green Tea Extract",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Herbal tea constituents inhibit CYP3A4 in vitro; a case of toxic sirolimus/cyclosporine levels after herbal tea; green tea extract itself did not extend ITP lifespan.",
+      "evidence": "In vitro and case-level evidence; no green-tea-specific sirolimus PK study",
+      "citations": [
+        "PMID:24824478",
+        "PMID:22451473"
+      ]
+    },
+    {
+      "with": "Quercetin",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Quercetin modulates CYP3A4 and P-gp in vitro (acute inhibition, chronic induction); clinical effect on sirolimus unknown.",
+      "evidence": "In vitro review only",
+      "citations": [
+        "PMID:16442130"
+      ]
+    },
+    {
+      "with": "Trans-resveratrol",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Overlapping mTOR/AMPK pharmacology; no PK interaction study found; resveratrol did not extend ITP lifespan.",
+      "evidence": "Mechanistic review and ITP mouse data",
+      "citations": [
+        "PMID:35893737",
+        "PMID:22451473"
+      ]
+    },
+    {
+      "with": "pregnancy",
+      "with_kind": "condition",
+      "kind": "contraindicated",
       "severity": "major",
-      "mechanism": "Immunosuppression may increase risk from live vaccines and impair vaccine response.",
-      "evidence": "Official label cautions against live vaccines.",
+      "mechanism": "Label: may cause fetal harm; effective contraception during treatment and 12 weeks after; male azoospermia/oligospermia possible.",
+      "evidence": "FDA label",
       "citations": [
         "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85"
+      ]
+    },
+    {
+      "with": "surgery / impaired wound healing",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "mTOR inhibition impairs fibroblast/angiogenic repair; wound complications 47% on sirolimus vs 8% tacrolimus.",
+      "evidence": "RCT in kidney transplant; critical review; label",
+      "citations": [
+        "PMID:15239621",
+        "PMID:22941182",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85"
+      ]
+    },
+    {
+      "with": "interstitial lung disease / renal impairment",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "major",
+      "mechanism": "Non-infectious pneumonitis 14% after late switch; risk with low GFR and troughs >12 ug/L; mTORi MAs show increased severe pneumonitis (OR 3.36).",
+      "evidence": "Single-centre series plus MAs of RCTs",
+      "citations": [
+        "PMID:17611248",
+        "PMID:27067269",
+        "PMID:22909392"
+      ]
+    },
+    {
+      "with": "diabetes / prediabetes",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "mTORC2 disruption causes hepatic insulin resistance; mTORi raise hyperglycemia risk (RR 2.97); HbA1c rose with 1 mg/day in older adults.",
+      "evidence": "MA of RCTs, mouse mechanistic study, open-label pilot",
+      "citations": [
+        "PMID:27069150",
+        "PMID:22461615",
+        "PMID:40394335"
+      ]
+    },
+    {
+      "with": "sirolimus trough level (immunoassay vs LC-MS/MS)",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "moderate",
+      "mechanism": "Chromatographic and immunoassay sirolimus values are not interchangeable; troughs >15 ng/mL associated with hypertriglyceridemia, thrombocytopenia, leukopenia.",
+      "evidence": "FDA label; TDM cohort (n=150); PK review",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85",
+        "PMID:10770413",
+        "PMID:11523724"
+      ]
+    },
+    {
+      "with": "lipid panel",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "True physiological rise in triglycerides and cholesterol (label 45%/43%); reversible on dose reduction.",
+      "evidence": "Label; case series; MA",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85",
+        "PMID:9603181",
+        "PMID:27069150"
+      ]
+    },
+    {
+      "with": "complete blood count",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Decreases in hemoglobin, hematocrit, MCV, platelets and lymphocytes even at low dose.",
+      "evidence": "Pilot RCT in older adults; phase I weekly dosing; open-label AD pilot",
+      "citations": [
+        "PMID:29408453",
+        "PMID:22872575",
+        "PMID:40394335"
+      ]
+    },
+    {
+      "with": "CYP3A5*3/*3 (non-expresser)",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "CYP3A5 non-expressers have higher dose-normalized sirolimus troughs and need lower doses; trough-guided dosing compensates.",
+      "evidence": "MA of 7 studies plus cohort studies",
+      "citations": [
+        "PMID:39171589",
+        "PMID:17192769"
       ]
     }
   ],
   "citations": [
-    "PMID:40188830",
-    "PMID:40620657",
+    "PMID:22872575",
     "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85",
-    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85",
-    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85",
-    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85",
-    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a85ad01-8144-4d9c-e053-2991aa0a4f85"
+    "PMID:11180036",
+    "PMID:27128230",
+    "PMID:31742659",
+    "PMID:14681346",
+    "PMID:11316866",
+    "PMID:15691225",
+    "PMID:17377381",
+    "PMID:38205154",
+    "PMID:25068425",
+    "PMID:35038362",
+    "PMID:40231961",
+    "PMID:27069150",
+    "PMID:27312235",
+    "PMID:29579736",
+    "PMID:36179270",
+    "PMID:33742521",
+    "PMID:16541194",
+    "PMID:25300360",
+    "PMID:24824478",
+    "PMID:22451473",
+    "PMID:16442130",
+    "PMID:35893737",
+    "PMID:15239621",
+    "PMID:22941182",
+    "PMID:17611248",
+    "PMID:27067269",
+    "PMID:22909392",
+    "PMID:22461615",
+    "PMID:40394335",
+    "PMID:10770413",
+    "PMID:11523724",
+    "PMID:9603181",
+    "PMID:29408453",
+    "PMID:39171589",
+    "PMID:17192769"
   ]
 }

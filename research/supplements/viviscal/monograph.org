@@ -3,33 +3,218 @@
 :ID: supp-viviscal
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: Viviscal | AminoMar
+:ALIASES: Viviscal | Viviscal Extra Strength | Viviscal Professional | Viviscal Man | Viviscal Advanced Hair Health | AminoMar | AminoMar C | marine protein supplement (MPS) | marine complex supplement
 :CATEGORY: other
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
+
 ** Identity & forms
-- Marine protein complex supplement marketed for hair thinning; formulas vary by country and product version. [PMID:26903744] [PMID:27506633]
+- Branded oral hair supplement (Lifes2good) built around a proprietary marine protein/collagen complex, "AminoMar" ("AminoMar C" in older formulas). It is sold for temporary or self-perceived hair thinning [PMID:25883641] [PMID:26355631].
+- The original 1990s Finnish formulation was described as "special marine extracts and a silica compound" [PMID:1286738]. The marine complex is described as a proprietary blend of proteins, lipids and glycosaminoglycans from marine sources [PMID:26355631]. In vitro work names its raw components as shark and oyster extracts [PMID:37156114].
+- Formulas differ by product and year. NIH Dietary Supplement Label Database (DSLD) entries list the following per tablet (taken twice daily):
+  - Viviscal Advanced Hair Health (2025 entry): AminoMar 450 mg (collagen type II, oyster extract), vitamin C 59 mg, niacin 12 mg NE, biotin 120 mcg, calcium 60 mg, iron 10 mg, zinc 11 mg, horsetail extract 36.7 mg, millet seed extract 7.5 mg. Allergen statement: "Contains: Fish (shark); Mollusks" [URL:https://api.ods.od.nih.gov/dsld/v9/label/331690].
+  - Viviscal Man (2025 entry): AminoMar 452.9 mg, zinc 8 mg, vitamin C 30 mg, calcium 61 mg, horsetail 24.5 mg, flax seed extract 50 mg [URL:https://api.ods.od.nih.gov/dsld/v9/label/331691].
+  - Viviscal Professional (2020 entry): AminoMar 475 mg (shark cartilage, oyster extract), biotin 100 mcg, vitamin C 20 mg (acerola), calcium 60 mg, apple extract 40 mg, L-methionine 12.5 mg [URL:https://api.ods.od.nih.gov/dsld/v9/label/240219].
+  - Viviscal Extra Strength (2017 entry): AminoMar C 600 mg, vitamin C 60 mg, acerola 240 mg, horsetail 60 mg [URL:https://api.ods.od.nih.gov/dsld/v9/label/70690].
+- At the labelled dose (2 tablets/day), the current women's formula supplies about 240 mcg biotin, 20 mg iron, 22 mg zinc, 118 mg vitamin C and 120 mg calcium [URL:https://api.ods.od.nih.gov/dsld/v9/label/331690]. The tested trial products were not always the current retail formula. One trial named "Viviscal Extra Strength" [PMID:25883641], one "Viviscal Man" [PMID:27506633], and the 2015 extension trial a "new oral supplement" [PMID:26705444].
+- Other marine-protein hair products (e.g., Hairgain, marine protein plus minerals and vitamins) have their own RCTs [PMID:11277343]. Their results should not be pooled with Viviscal's.
+
 ** Mechanisms
-- Nutrients may support normal follicle cycling; no validated mechanism establishes benefit independent of correcting dietary insufficiency. [PMID:26903744] [PMID:27506633]
+- In immortalized and primary human dermal papilla cells, Viviscal and its raw components (AminoMar C, shark and oyster extract) were not cytotoxic. They increased proliferation, alkaline phosphatase and glycosaminoglycan production, and the expression of hair-cycle genes. This was interpreted as anagen activation. It is in vitro only [PMID:37156114].
+- Proposed: supply of amino acids, glycosaminoglycans and micronutrients to the follicle; manufacturer-linked reviews present this without human mechanistic data [PMID:26355631] [PMID:28921826]. Shark-cartilage chondroitin sulfate is partly absorbed orally in humans: plasma CS rose >120% after 4 g, with a peak at 8.7 h [PMID:12801483]. Whether the much smaller amounts in Viviscal reach the follicle is unknown.
+- Components (correcting deficiency, not proven to boost hair in replete people):
+  - Iron, zinc, biotin and vitamins are needed for follicle cycling. Supplementing them is thought to help mainly when a deficiency exists [PMID:30547302] [PMID:41692085] [PMID:39440586].
+  - Vitamin C is the most efficient enhancer of non-heme iron absorption [PMID:15743017]; calcium and polyphenols inhibit it [PMID:35755397].
+  - Horsetail (Equisetum arvense) is a silicon source. Silicon from horsetail tea is absorbed, with serum Cmax about 2.5-2.9 mg/L, and does not accumulate [PMID:34706374]. A hair-growth role for silicon is unproven.
+
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---------+--------------------+-----------+-------------+-----------------------+-----------|
-| Subclinical hair thinning | Two small manufacturer-associated placebo-controlled trials reported improved hair counts/density over 90-180 days; independent replication and comparative efficacy are lacking | Possible / uncertain | Two small manufacturer-associated placebo-controlled trials reported improved hair counts/density over 90-180 days; independent replication and comparative efficacy are lacking. | low | [PMID:26903744] [PMID:27506633] |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Terminal hair count, women with self-perceived thinning (Viviscal itself) | 3 small manufacturer-linked RCTs (n=15, n=60, extension trial) | Benefit reported | Terminal hairs 271 to 610 vs 256 to 242 (placebo) at 180 d in n=15, an implausibly large doubling; P<0.0001 vs placebo at 90 d in n=60 | low | [PMID:23198010] [PMID:25883641] [PMID:26705444] |
+| Hair shedding / fiber diameter, premenopausal women (Viviscal) | Multisite RCT, n=96 (NCT02288858) | Less shedding at 3-6 mo; vellus-like diameter up vs baseline at 6 mo | Not reported numerically in abstract | low | [PMID:26903744] [URL:https://clinicaltrials.gov/study/NCT02288858] |
+| Hair count in men with pattern hair loss (Viviscal Man) | 1 RCT, 6 mo; Bayesian NMA | Benefit in trial; not significant vs placebo in NMA | Total/terminal density P=0.001 in trial; NMA +13.23 terminal hairs/cm2 at 24 wk, not statistically different from placebo; regrowth attenuated after 12 wk | very low | [PMID:27506633] [PMID:36755885] |
+| Androgenetic alopecia in young men (original 1992 product) | 1 RCT vs fish extract, n=40 | Benefit reported | Non-vellus hairs +38% vs +2%; "cure" claimed in 95%, which is not credible as reported | very low | [PMID:1286738] |
+| Commercial hair supplements pooled (incl. Viviscal) | SR/MA, 14 studies, n=967 (2026) | Benefit on surrogate endpoints | Anagen density MD +10.48; telogen density MD -5.91; total hair count NS (p=0.06) | low | [PMID:41954038] |
+| Nutritional supplements for hair loss (any) | SR of 30 studies (JAMA Dermatol 2023) | Possible benefit | Viviscal among products with "highest-quality evidence"; AEs rare and mild | low | [PMID:36449274] |
+| Dietary supplements in AGA | NMA, 19 RCTs, n=1658 (2025/26) | Mixed | Products with significant density gains were Nutrafol, apple extract, tocotrienols, pumpkin seed oil and MK-R7; Viviscal is not named (abstract does not say whether it was included) | low | [PMID:41561175] |
+| Male AGA, OTC options | Bayesian NMA (2025), 9 active comparators | Minoxidil 5% best | Among topical OTC agents, minoxidil 5% twice daily was most effective (24-wk total density) | low | [PMID:40869239] |
+| Biotin alone for hair (component) | Systematic reviews | No benefit without deficiency | Only RCT found no biotin vs placebo difference; benefit only in deficiency or rare disorders | low | [PMID:39148962] [PMID:28879195] |
+| Zinc (component) in alopecia | MAs of serum levels; small open trial | Low zinc associated with AA | AA serum zinc SMD -0.69 (CI -0.99 to -0.39); 9/15 AA patients improved on zinc gluconate (NS) | low | [PMID:39739356] [PMID:28150385] [PMID:20523772] |
+| Iron (component) in female hair loss | Case-control studies; reviews | Inconsistent association | Iron deficiency not more common in FPHL/CTE than controls in 457 women; lower ferritin in FPHL in another series | very low | [PMID:20947203] [PMID:23772161] [PMID:16635664] |
+
 ** Dosing in trials
-- Twice daily in the cited trials, for 3-6 months; trial formulation is not necessarily current retail formulation. [PMID:26903744] [PMID:27506633]
+- All Viviscal RCTs used 1 tablet twice daily for 90-180 days [PMID:25883641] [PMID:27506633] [PMID:26705444] [PMID:23198010]; the 1992 trial used 2 tablets once daily for 6 months [PMID:1286738]. The label directs 1 tablet twice daily with food for 3-6 months [URL:https://api.ods.od.nih.gov/dsld/v9/label/331690].
+- Registered trials (all completed, sponsor- or investigator-site-run): NCT02288858 (n=96, Lifes2good), NCT02297360 (n=60) and NCT02302053 (n=40, Viviscal Professional) [URL:https://clinicaltrials.gov/study/NCT02297360] [URL:https://clinicaltrials.gov/study/NCT02302053].
+- Bayesian NMA data suggest regrowth with Viviscal attenuates after about 12 weeks, so longer use may not add benefit [PMID:36755885]. For context, zinc gluconate 50 mg/day was used in zinc-deficient AA [PMID:20523772], and interference studies used biotin 10 mg/day [PMID:34042535], about 40 times Viviscal's daily biotin.
+
 ** Safety & adverse effects
-- GI symptoms and allergy are possible; marine/fish/shellfish components create allergy concern. [PMID:26903744] [PMID:27506633]
+- Viviscal RCTs reported no treatment-emergent adverse events [PMID:25883641] [PMID:27506633] [PMID:26705444]. Pooled reviews of hair supplements describe AEs as rare and mild [PMID:36449274] [PMID:41954038]. These trials were small and short, and most were run by or funded through the manufacturer or an investigator with disclosed Viviscal ties [PMID:34741573] [PMID:34053595].
+- Allergy (fish and mollusc ingredients):
+  - Labels declare fish (shark) and mollusc (oyster) content [URL:https://api.ods.od.nih.gov/dsld/v9/label/331690].
+  - Fish collagen is a clinically relevant allergen. 21% of 101 fish-allergic patients were sensitized to fish collagen [PMID:32389794]. Fish collagen in gummy tablets caused anaphylaxis in a child [PMID:33178560].
+  - Fish gelatin IgE was found in 3/10 fish-allergic children [PMID:10984381], but a DBPCFC of fish gelatin in 30 fish-allergic patients produced only mild subjective reactions [PMID:15500940]. Shark (cartilaginous fish) causes fewer reactions than bony fish because α-parvalbumin cross-reacts weakly with β-parvalbumin. Tolerance cannot be assumed, since some patients reacted to both [PMID:28117510] [PMID:27236375].
+  - Oyster tropomyosin (Cra g 1) is the main mollusc allergen [PMID:18291306]. Shellfish allergy affects about 0.5-2.5% of people [PMID:27404324]. Fish allergy prevalence is 0-7% depending on diagnostic method [PMID:27613460]; in Europe, self-reported lifetime prevalence is fish 1.4% and shellfish 0.4% [PMID:37405695].
+- Iron:
+  - The label carries the standard warning that accidental iron overdose is a leading cause of fatal poisoning in children under 6 [URL:https://api.ods.od.nih.gov/dsld/v9/label/331690].
+  - Iron is a leading cause of poisoning deaths in young children, and risk rises around a sibling's birth [PMID:12796332]. There is insufficient evidence to recommend iron in hair loss without proven deficiency [PMID:16635664].
+- Zinc (22 mg/day in the women's formula): below the US UL of 40 mg/day but close to the EFSA UL of 25 mg/day. Excess zinc can cause anemia, neutropenia and copper deficiency [PMID:38999082]. Zinc-induced copper deficiency is often missed (7/14 confirmed cases were previously undiagnosed) [PMID:37070154].
+- Biotin is generally nontoxic but interferes with blood tests, which complicates cancer monitoring [PMID:40362760]. Horsetail: at 900 mg/day extract, a diuretic effect equal to hydrochlorothiazide without electrolyte loss [PMID:24723963]. Another trial found BP lowering of -12.6/-8.1 mmHg [PMID:35168030]. Viviscal contains only 25-73 mg/day, so the clinical relevance is likely small.
+
 ** Contraindications
-- Avoid with fish or shellfish allergy; pregnancy/lactation safety is not established. [PMID:26903744] [PMID:27506633]
+- Fish or mollusc/shellfish allergy: the label declares shark and oyster ingredients [URL:https://api.ods.od.nih.gov/dsld/v9/label/331690] [PMID:32389794] [PMID:18291306].
+- Pregnancy, breastfeeding and under-18s: the label states it is not intended for these groups [URL:https://api.ods.od.nih.gov/dsld/v9/label/331690]. No safety data exist.
+- Iron overload (hereditary hemochromatosis): management aims to keep ferritin ≤50 µg/L by phlebotomy [PMID:9867745]. Supplemental iron with vitamin C, which enhances absorption [PMID:15743017], runs counter to this goal.
+
 ** Interactions
-- Potential duplicated nutrients with multivitamins; no well-established drug interactions. Marine ingredient sourcing/formula matters. [PMID:26903744] [PMID:27506633]
+*** Drugs
+- Levothyroxine:
+  - Ferrous sulfate reduced levothyroxine absorption and caused hypothyroidism, which reversed on stopping iron [PMID:9191742]. A 2026 case showed refractory hypothyroidism despite a ≥4 h separation [PMID:42438581].
+  - Calcium carbonate with levothyroxine raised TSH from 1.6 to 2.7 mIU/L [PMID:10838651]. All calcium salts reduced absorption by about 20-25% [PMID:21595516]. Iron and calcium are both listed as absorption inhibitors [PMID:19942153]; vitamin C may increase absorption [PMID:28153426]. Viviscal's iron (20 mg/day) and calcium (120 mg/day) are lower than in these studies.
+- Fluoroquinolones: calcium, iron and probably zinc chelate quinolones and reduce their absorption [PMID:2686430].
+- Tetracyclines: iron and calcium salts can reduce absorption by 50-90%. A 3-hour separation prevents this [PMID:946598].
+- Drugs monitored by immunoassay (thyroid replacement, thyroid cancer follow-up): biotin can cause falsely low TSH and thyroglobulin, which matters when titrating levothyroxine [PMID:34042535].
+- Diuretics/antihypertensives: horsetail is diuretic [PMID:24723963] and BP-lowering [PMID:35168030] at 900 mg/day; an additive effect at Viviscal's dose is theoretical. Hair-loss drugs (minoxidil, finasteride): no interaction studies. Guidelines base AGA treatment on licensed drugs, not supplements [PMID:29178529] [PMID:31677111].
+*** Other supplements
+- Biotin-containing products (B complex, "hair/skin/nail" products): these add to Viviscal's 240 mcg/day. Interference is dose-dependent and shown at 10 mg/day [PMID:34042535] and in high-dose users [PMID:27362288] [PMID:29856977].
+- Zinc: stacking 22 mg/day from Viviscal with a separate zinc product can exceed the UL. Risk of copper deficiency [PMID:38999082] [PMID:37070154].
+- Iron (including heme iron): cumulative iron load. Avoid without documented deficiency [PMID:16635664] [PMID:35755397].
+- Vitamin C enhances non-heme iron absorption in single meals [PMID:15743017], less so over a whole diet [PMID:11124756]. Green tea extract: phenolic-rich green tea extract cut non-heme iron absorption from 12.1% to 8.9% [PMID:11237939].
+- Collagen: duplicates the marine collagen. Fish-skin collagen peptides raised hair diameter in one 24-week RCT (n=114) [PMID:41788055], and fish collagen is an allergen [PMID:32389794].
+*** Conditions
+- Fish/shellfish allergy, iron overload, pregnancy/lactation: see Contraindications.
+- Hair loss with an underlying cause: work-up before supplementing is advised.
+  - Telogen effluvium is associated with low ferritin (SMD -0.57) and low vitamin D (SMD -0.87) [PMID:42077991]. A 2024 case-control study found low zinc [PMID:39107936].
+  - TE is often triggered by physiological stress and usually remits [PMID:33541773] [PMID:31686886]. After bariatric surgery, hair loss (57%) is linked to low zinc, folate and ferritin [PMID:33675022]. GLP-1 RA users have reported hair loss [PMID:41111833].
+- Biotin deficiency: reported in 38% of women complaining of hair loss in one series [PMID:27601860]. Biotin levels did not differ between TE cases and controls in another study [PMID:32308796].
+- Zinc deficiency: oral zinc improved zinc-deficiency TE in 5 patients [PMID:22741940]. Low serum zinc correlated with alopecia areata severity [PMID:37787421].
+- Iron deficiency: the evidence remains contested, and no RCT of iron for hair loss in iron-deficient women exists [PMID:20888064].
+*** Lab-test interference
+- Biotin (240 mcg/day in the women's formula, 200 mcg/day in Professional) is a component-level concern:
+  - Mechanism: biotin causes falsely low results in sandwich assays and falsely high results in competitive assays. This can mimic hyperthyroidism (low TSH with high FT4/FT3) [PMID:32567529].
+  - Other affected assays include troponin I/T, ferritin, vitamin D, B12, PTH, PSA, LH/FSH, estradiol, testosterone and NT-proBNP [PMID:32567529] [PMID:30296442].
+  - Factitious Graves' disease has been reported [PMID:27362288] [PMID:29856977]; the 2026 ETA guideline lists biotin among pharmaceutical interferents [PMID:42466561].
+- Troponin:
+  - FDA (2017, updated 2019) reported a death after a falsely low troponin in a patient taking high-dose biotin [URL:https://www.tctmd.com/news/fda-reminds-clinicians-about-biotin-interference-troponin-tests].
+  - The Roche TnT Gen 5 threshold is >20 ng/mL, with a modelled false-negative AMI risk of 0.026% [PMID:32804676]. The Ortho troponin I threshold is only 2.5 µg/L, which 0.8% of UK samples exceeded [PMID:32936669].
+- Dose context: thyroid assay interference was shown at 10 mg/day, with a peak 2 h post-dose [PMID:34042535]. Biotin is absorbed and excreted rapidly [PMID:26699811]. Newer assays tolerate up to 1200 ng/mL [PMID:32324155] or 1000-3000 ng/mL [PMID:40417451].
+- No study measured serum biotin at Viviscal doses. Interference from Viviscal alone is probably unlikely except on the most sensitive assays. Whether it matters for a given test depends on the assay and the total biotin intake from all products. Tell the laboratory about biotin use.
+
 ** Genotype notes
-- No qualifying nutrigenomic evidence located.
+No cited pharmacogenomic or nutrigenomic source found for Viviscal or its marine complex. HFE hemochromatosis is relevant only through the iron content (see Contraindications) [PMID:9867745].
+
 ** Latest research
-- 2026-10-13 search cutoff: No robust independent human RCT or systematic review published in the last 24 months was identified in this search. [PMID:26903744] [PMID:27506633]
+- [2026-08] ETA guideline on thyroid immunoassay interference: biotin is listed among pharmaceutical interferents. Exclude interference before diagnosing rare disorders [PMID:42466561].
+- [2026-07] Case report: iron-levothyroxine interaction persisted despite ≥4 h dose separation [PMID:42438581].
+- [2026-04] SR/MA of 14 commercial-supplement studies (n=967, incl. Viviscal): better anagen/telogen measures, total hair count not significant. Calls for independent research [PMID:41954038].
+- [2026-03] JAAD clinical review: some adjuncts show modest benefit, but trials are small, heterogeneous and often industry-funded. Independently funded RCTs are needed [PMID:41887578].
+- [2026-03] TE trace-element MA: low ferritin and vitamin D in TE [PMID:42077991].
+- [2026-02] Review "Vitamins and hair: sham or science?": vitamins help in deficiency; benefit in replete people is unproven [PMID:41692085].
+- [2026-01] NMA of 19 AGA supplement RCTs (n=1658): density gains for Nutrafol, apple extract, tocotrienols, pumpkin seed oil and MK-R7; Viviscal is not named in the abstract [PMID:41561175].
+- [2025-08] Male AGA OTC NMA: topical minoxidil 5% was most effective [PMID:40869239].
+- [2025-05] Biotin interference in routine immunoassays: higher biotin in dialysis/ICU patients; newer reagents more tolerant [PMID:40417451].
+- [2025-01] Trace-element MA in alopecia areata: lower zinc (SMD -0.69) and vitamin D [PMID:39739356].
+- [2024-08] Biotin evidence review: no high-quality support for biotin as a hair supplement [PMID:39148962].
+- No independent Viviscal RCT published in the last 24 months was found in PubMed or ClinicalTrials.gov.
+
 ** Open questions
-- Product composition, active component, and durability after discontinuation remain uncertain. [PMID:26903744] [PMID:27506633]
+- No independent, adequately powered RCT of Viviscal exists. All product RCTs are small and manufacturer-linked or from sites with disclosed Viviscal ties [PMID:34741573] [PMID:34053595]. Some reported effects (doubling of terminal hairs, 95% "cure") are implausibly large [PMID:23198010] [PMID:1286738].
+- Which component, if any, drives the effect. The marine complex's activity is shown only in vitro [PMID:37156114], and the micronutrients mainly help deficient users [PMID:41692085].
+- Whether benefit persists after stopping, or continues beyond about 12 weeks [PMID:36755885]. Serum biotin levels at 200-240 mcg/day and the real-world risk of assay interference are also unknown.
+- Allergenicity of the processed shark/oyster complex in fish- or mollusc-allergic people. No challenge data exist for Viviscal itself.
+- Comparative efficacy vs minoxidil, and value as an adjunct to it [PMID:40869239] [PMID:29178529].
+
 ** Sources
-- Park et al. A Marine Protein-based Dietary Supplement for Subclinical Hair Thinning/Loss: Results of a Multisite, Double-blind, Placebo-controlled Clinical Trial. J Clin Aesthet Dermatol. 2016. PMID:26903744.
-- Farris et al. A 6-month randomized placebo-controlled trial of a marine complex supplement for hair growth in men. J Clin Aesthet Dermatol. 2016. PMID:27506633.
+1. Ablon G. A 3-month, randomized, double-blind, placebo-controlled study evaluating the ability of an extra-strength marine protein supplement to promote hair growth and decrease shedding in women with self-perceived thinning hair. Dermatol Res Pract. 2015. PMID:25883641 DOI:10.1155/2015/841570
+2. Hornfeldt CS et al. The Safety and Efficacy of a Sustainable Marine Extract for the Treatment of Thinning Hair: A Summary of New Clinical Research and Results from a Panel Discussion on the Problem of Thinning Hair and Current Treatments. J Drugs Dermatol. 2015. PMID:26355631
+3. Lassus A et al. A comparative study of a new food supplement, ViviScal, with fish extract for the treatment of hereditary androgenic alopecia in young males. J Int Med Res. 1992. PMID:1286738 DOI:10.1177/030006059202000601
+4. Augustyniak A et al. Dietary marine-derived ingredients for stimulating hair cell cycle. Biomed Pharmacother. 2023. PMID:37156114 DOI:10.1016/j.biopha.2023.114838
+5. Ablon G. A 6-month, randomized, double-blind, placebo-controlled study evaluating the ability of a marine complex supplement to promote hair growth in men with thinning hair. J Cosmet Dermatol. 2016. PMID:27506633 DOI:10.1111/jocd.12265
+6. Ablon G et al. A Randomized, Double-blind, Placebo-controlled, Multi-center, Extension Trial Evaluating the Efficacy of a New Oral Supplement in Women with Self-perceived Thinning Hair. J Clin Aesthet Dermatol. 2015. PMID:26705444
+7. Thom E. Efficacy and tolerability of Hairgain in individuals with hair loss: a placebo-controlled, double-blind study. J Int Med Res. 2001. PMID:11277343 DOI:10.1177/147323000102900101
+8. Hornfeldt CS. Growing evidence of the beneficial effects of a marine protein-based dietary supplement for treating hair loss. J Cosmet Dermatol. 2018. PMID:28921826 DOI:10.1111/jocd.12400
+9. Volpi N. Oral absorption and bioavailability of ichthyic origin chondroitin sulfate in healthy male volunteers. Osteoarthritis Cartilage. 2003. PMID:12801483 DOI:10.1016/s1063-4584(03)00051-7
+10. Almohanna HM et al. The Role of Vitamins and Minerals in Hair Loss: A Review. Dermatol Ther (Heidelb). 2019. PMID:30547302 DOI:10.1007/s13555-018-0278-6
+11. Ravipati A et al. Vitamins and hair: Sham or science?. Clin Dermatol. 2026. PMID:41692085 DOI:10.1016/j.clindermatol.2026.02.011
+12. Wang R et al. Micronutrients and Androgenetic Alopecia: A Systematic Review. Mol Nutr Food Res. 2024. PMID:39440586 DOI:10.1002/mnfr.202400652
+13. Teucher B et al. Enhancers of iron absorption: ascorbic acid and other organic acids. Int J Vitam Nutr Res. 2004. PMID:15743017 DOI:10.1024/0300-9831.74.6.403
+14. Piskin E et al. Iron Absorption: Factors, Limitations, and Improvement Methods. ACS Omega. 2022. PMID:35755397 DOI:10.1021/acsomega.2c01833
+15. Waterstradt A et al. Silicon Resorption from Equisetum arvense Tea - A Randomized, Three-Armed Pilot Study. Planta Med. 2022. PMID:34706374 DOI:10.1055/a-1643-5493
+16. Ablon G. A Double-blind, Placebo-controlled Study Evaluating the Efficacy of an Oral Supplement in Women with Self-perceived Thinning Hair. J Clin Aesthet Dermatol. 2012. PMID:23198010
+17. Rizer RL et al. A Marine Protein-based Dietary Supplement for Subclinical Hair Thinning/Loss: Results of a Multisite, Double-blind, Placebo-controlled Clinical Trial. Int J Trichology. 2015. PMID:26903744 DOI:10.4103/0974-7753.171573
+18. Feldman PR et al. Hair regrowth treatment efficacy and resistance in androgenetic alopecia: A systematic review and continuous Bayesian network meta-analysis. Front Med (Lausanne). 2022. PMID:36755885 DOI:10.3389/fmed.2022.998623
+19. Alanazi R et al. Evaluating the Effectiveness of Commercial Oral Supplements for Hair Growth: A Systematic Review and Meta-Analysis. J Cosmet Dermatol. 2026. PMID:41954038 DOI:10.1111/jocd.70817
+20. Drake L et al. Evaluation of the Safety and Effectiveness of Nutritional Supplements for Treating Hair Loss: A Systematic Review. JAMA Dermatol. 2023. PMID:36449274 DOI:10.1001/jamadermatol.2022.4867
+21. Zhou L et al. Effects of dietary supplements on androgenetic alopecia: a systematic review and network meta-analysis. Front Nutr. 2025. PMID:41561175 DOI:10.3389/fnut.2025.1719711
+22. Gupta AK et al. Comparative Effect of Conventional and Non-Conventional Over-the-Counter Treatments for Male Androgenetic Alopecia: A Systematic Review and Network Meta-Analysis. Int J Mol Sci. 2025. PMID:40869239 DOI:10.3390/ijms26167920
+23. Yelich A et al. Biotin for Hair Loss: Teasing Out the Evidence. J Clin Aesthet Dermatol. 2024. PMID:39148962
+24. Patel DP et al. A Review of the Use of Biotin for Hair Loss. Skin Appendage Disord. 2017. PMID:28879195 DOI:10.1159/000462981
+25. Wu R et al. Association Between Serum Trace Elements Level and Alopecia Areata: A Systematic Review and Meta-Analysis. J Cosmet Dermatol. 2025. PMID:39739356 DOI:10.1111/jocd.16740
+26. Jin W et al. Changes of serum trace elements level in patients with alopecia areata: A meta-analysis. J Dermatol. 2017. PMID:28150385 DOI:10.1111/1346-8138.13705
+27. Park H et al. The therapeutic effect and the changed serum zinc level after zinc supplementation in alopecia areata patients who had a low serum zinc level. Ann Dermatol. 2009. PMID:20523772 DOI:10.5021/ad.2009.21.2.142
+28. Olsen EA et al. Iron deficiency in female pattern hair loss, chronic telogen effluvium, and control groups. J Am Acad Dermatol. 2010. PMID:20947203 DOI:10.1016/j.jaad.2009.12.006
+29. Park SY et al. Iron plays a certain role in patterned hair loss. J Korean Med Sci. 2013. PMID:23772161 DOI:10.3346/jkms.2013.28.6.934
+30. Trost LB et al. The diagnosis and treatment of iron deficiency and its potential relationship to hair loss. J Am Acad Dermatol. 2006. PMID:16635664 DOI:10.1016/j.jaad.2005.11.1104
+31. Ylli D et al. Biotin Interference in Assays for Thyroid Hormones, Thyrotropin and Thyroglobulin. Thyroid. 2021. PMID:34042535 DOI:10.1089/thy.2020.0866
+32. Nestor MS et al. Treatment options for androgenetic alopecia: Efficacy, side effects, compliance, financial considerations, and ethics. J Cosmet Dermatol. 2021. PMID:34741573 DOI:10.1111/jocd.14537
+33. Ablon G. Nutraceuticals. Dermatol Clin. 2021. PMID:34053595 DOI:10.1016/j.det.2021.03.006
+34. Kalic T et al. Collagen-An Important Fish Allergen for Improved Diagnosis. J Allergy Clin Immunol Pract. 2020. PMID:32389794 DOI:10.1016/j.jaip.2020.04.063
+35. Ueno R et al. A case of pediatric anaphylaxis caused by gummy tablets containing fish collagen. Asia Pac Allergy. 2020. PMID:33178560 DOI:10.5415/apallergy.2020.10.e35
+36. Sakaguchi M et al. IgE antibody to fish gelatin (type I collagen) in patients with fish allergy. J Allergy Clin Immunol. 2000. PMID:10984381 DOI:10.1067/mai.2000.108499
+37. Hansen TK et al. A randomized, double-blinded, placebo-controlled oral challenge study to evaluate the allergenicity of commercial, food-grade fish gelatin. Food Chem Toxicol. 2004. PMID:15500940 DOI:10.1016/j.fct.2004.08.008
+38. Stephen JN et al. Allergenicity of bony and cartilaginous fish - molecular and immunological properties. Clin Exp Allergy. 2017. PMID:28117510 DOI:10.1111/cea.12892
+39. Kobayashi Y et al. Allergy to fish collagen: Thermostability of collagen and IgE reactivity of patients' sera with extracts of 11 species of bony and cartilaginous fish. Allergol Int. 2016. PMID:27236375 DOI:10.1016/j.alit.2016.04.012
+40. Taylor SL. Molluscan shellfish allergy. Adv Food Nutr Res. 2008. PMID:18291306 DOI:10.1016/S1043-4526(07)00004-6
+41. Khora SS. Seafood-Associated Shellfish Allergy: A Comprehensive Review. Immunol Invest. 2016. PMID:27404324 DOI:10.1080/08820139.2016.1180301
+42. Moonesinghe H et al. Prevalence of fish and shellfish allergy: A systematic review. Ann Allergy Asthma Immunol. 2016. PMID:27613460 DOI:10.1016/j.anai.2016.07.015
+43. Spolidoro GCI et al. Prevalence estimates of eight big food allergies in Europe: Updated systematic review and meta-analysis. Allergy. 2023. PMID:37405695 DOI:10.1111/all.15801
+44. Juurlink DN et al. Iron poisoning in young children: association with the birth of a sibling. CMAJ. 2003. PMID:12796332
+45. Schoofs H et al. Zinc Toxicity: Understanding the Limits. Molecules. 2024. PMID:38999082 DOI:10.3390/molecules29133130
+46. Duncan A et al. Iatrogenic copper deficiency: Risks and cautions with zinc prescribing. Br J Clin Pharmacol. 2023. PMID:37070154 DOI:10.1111/bcp.15749
+47. Sechi A et al. Safety First: A Comprehensive Review of Nutritional Supplements for Hair Loss in Breast Cancer Patients. Nutrients. 2025. PMID:40362760 DOI:10.3390/nu17091451
+48. Carneiro DM et al. Randomized, Double-Blind Clinical Trial to Assess the Acute Diuretic Effect of Equisetum arvense (Field Horsetail) in Healthy Volunteers. Evid Based Complement Alternat Med. 2014. PMID:24723963 DOI:10.1155/2014/760683
+49. Carneiro DM et al. Antihypertensive effect of Equisetum arvense L.: a double-blind, randomized efficacy and safety clinical trial. Phytomedicine. 2022. PMID:35168030 DOI:10.1016/j.phymed.2022.153955
+50. Barton JC et al. Management of hemochromatosis. Hemochromatosis Management Working Group. Ann Intern Med. 1998. PMID:9867745 DOI:10.7326/0003-4819-129-11_part_2-199812011-00003
+51. Shakir KM et al. Ferrous sulfate-induced increase in requirement for thyroxine in a patient with primary hypothyroidism. South Med J. 1997. PMID:9191742 DOI:10.1097/00007611-199706000-00011
+52. Ei ZP et al. Unmasking Refractory Hypothyroidism: Persistent Iron-Levothyroxine Interaction Despite Appropriate Dose Separation. Cureus. 2026. PMID:42438581 DOI:10.7759/cureus.112442
+53. Singh N et al. Effect of calcium carbonate on the absorption of levothyroxine. JAMA. 2000. PMID:10838651 DOI:10.1001/jama.283.21.2822
+54. Zamfirescu I et al. Absorption of levothyroxine when coadministered with various calcium formulations. Thyroid. 2011. PMID:21595516 DOI:10.1089/thy.2010.0296
+55. Liwanpo L et al. Conditions and drugs interfering with thyroxine absorption. Best Pract Res Clin Endocrinol Metab. 2009. PMID:19942153 DOI:10.1016/j.beem.2009.06.006
+56. Skelin M et al. Factors Affecting Gastrointestinal Absorption of Levothyroxine: A Review. Clin Ther. 2017. PMID:28153426 DOI:10.1016/j.clinthera.2017.01.005
+57. Polk RE. Drug-drug interactions with ciprofloxacin and other fluoroquinolones. Am J Med. 1989. PMID:2686430 DOI:10.1016/0002-9343(89)90028-4
+58. Neuvonen PJ. Interactions with the absorption of tetracyclines. Drugs. 1976. PMID:946598 DOI:10.2165/00003495-197611010-00004
+59. Kanti V et al. Evidence-based (S3) guideline for the treatment of androgenetic alopecia in women and in men - short version. J Eur Acad Dermatol Venereol. 2018. PMID:29178529 DOI:10.1111/jdv.14624
+60. Starace M et al. Female Androgenetic Alopecia: An Update on Diagnosis and Management. Am J Clin Dermatol. 2020. PMID:31677111 DOI:10.1007/s40257-019-00479-x
+61. Elston MS et al. Factitious Graves' Disease Due to Biotin Immunoassay Interference-A Case and Review of the Literature. J Clin Endocrinol Metab. 2016. PMID:27362288 DOI:10.1210/jc.2016-1971
+62. Koehler VF et al. Fake news? Biotin interference in thyroid immunoassays. Clin Chim Acta. 2018. PMID:29856977 DOI:10.1016/j.cca.2018.05.053
+63. Cook JD et al. Effect of ascorbic acid intake on nonheme-iron absorption from a complete diet. Am J Clin Nutr. 2001. PMID:11124756 DOI:10.1093/ajcn/73.1.93
+64. Samman S et al. Green tea or rosemary extract added to foods reduces nonheme-iron absorption. Am J Clin Nutr. 2001. PMID:11237939 DOI:10.1093/ajcn/73.3.607
+65. Hwang S et al. Low-Molecular-Weight Collagen Peptide Supplementation Improves Cellulite Severity, Skin Elasticity, and Hair Shaft Diameter: A Clinical Study with Pharmacokinetic Evaluation. J Med Food. 2026. PMID:41788055 DOI:10.1177/1096620X261428336
+66. Ahmed A et al. Association between Serum Trace Elements and Telogen Effluvium: A Systematic Review and Meta-Analysis. Skin Appendage Disord. 2026. PMID:42077991 DOI:10.1159/000550921
+67. Durusu Turkoglu IN et al. A comprehensive investigation of biochemical status in patients with telogen effluvium: Analysis of Hb, ferritin, vitamin B12, vitamin D, thyroid function tests, zinc, copper, biotin, and selenium levels. J Cosmet Dermatol. 2024. PMID:39107936 DOI:10.1111/jocd.16512
+68. Chien Yin GO et al. Telogen Effluvium - a review of the science and current obstacles. J Dermatol Sci. 2021. PMID:33541773 DOI:10.1016/j.jdermsci.2021.01.007
+69. Rebora A. Telogen effluvium: a comprehensive review. Clin Cosmet Investig Dermatol. 2019. PMID:31686886 DOI:10.2147/CCID.S200471
+70. Zhang W et al. Hair Loss After Metabolic and Bariatric Surgery: a Systematic Review and Meta-analysis. Obes Surg. 2021. PMID:33675022 DOI:10.1007/s11695-021-05311-2
+71. Alsuwailem OA et al. Hair Loss Associated With Glucagon-Like Peptide-1 (GLP-1) Receptor Agonist Use: A Systematic Review. Cureus. 2025. PMID:41111833 DOI:10.7759/cureus.92454
+72. Trüeb RM. Serum Biotin Levels in Women Complaining of Hair Loss. Int J Trichology. 2016. PMID:27601860 DOI:10.4103/0974-7753.188040
+73. Abdel Rahman SH et al. Biotin Deficiency in Telogen Effluvium: Fact or Fiction?. J Clin Aesthet Dermatol. 2020. PMID:32308796
+74. Karashima T et al. Oral zinc therapy for zinc deficiency-related telogen effluvium. Dermatol Ther. 2012. PMID:22741940 DOI:10.1111/j.1529-8019.2012.01443.x
+75. Lalosevic J et al. Serum Zinc Concentration in Patients with Alopecia Areata. Acta Derm Venereol. 2023. PMID:37787421 DOI:10.2340/actadv.v103.13358
+76. St Pierre SA et al. Iron deficiency and diffuse nonscarring scalp alopecia in women: more pieces to the puzzle. J Am Acad Dermatol. 2010. PMID:20888064 DOI:10.1016/j.jaad.2009.05.054
+77. Moerman A et al. Sense and nonsense concerning biotin interference in laboratory tests. Acta Clin Belg. 2022. PMID:32567529 DOI:10.1080/17843286.2020.1780770
+78. Li J et al. Comprehensive assessment of biotin interference in immunoassays. Clin Chim Acta. 2018. PMID:30296442 DOI:10.1016/j.cca.2018.10.013
+79. Campi I et al. 2026 ETA guideline on interference in immunoassay measurements used in assessment of thyroid function. Eur Thyroid J. 2026. PMID:42466561 DOI:10.1530/ETJ-26-0011
+80. Mumma B et al. Clinical risk assessment of biotin interference with a high-sensitivity cardiac troponin T assay. Clin Chem Lab Med. 2020. PMID:32804676 DOI:10.1515/cclm-2019-0962
+81. Sanders A et al. Biotin immunoassay interference: A UK-based prevalence study. Ann Clin Biochem. 2021. PMID:32936669 DOI:10.1177/0004563220961759
+82. Peyro Saint Paul L et al. Pharmacokinetics and pharmacodynamics of MD1003 (high-dose biotin) in the treatment of progressive multiple sclerosis. Expert Opin Drug Metab Toxicol. 2016. PMID:26699811 DOI:10.1517/17425255.2016.1136288
+83. Mzougui S et al. Biotin interference: evaluation of a new generation of electrochemiluminescent immunoassays for high-sensitive troponin T and thyroid-stimulating hormone testing. Clin Chem Lab Med. 2020. PMID:32324155 DOI:10.1515/cclm-2020-0214
+84. Chiu KC et al. Biotin interference in routine clinical immunoassays. Pract Lab Med. 2025. PMID:40417451 DOI:10.1016/j.plabm.2025.e00472
+85. Podolsky AS et al. Adjunctive approaches for androgenetic alopecia: A clinical review of nutritional, light-based, topical, and lifestyle interventions. J Am Acad Dermatol. 2026. PMID:41887578 DOI:10.1016/j.jaad.2026.03.061
+86. NIH ODS Dietary Supplement Label Database. Viviscal Advanced Hair Health (Hair Growth Supplement) label, DSLD 331690. 2025. URL:https://api.ods.od.nih.gov/dsld/v9/label/331690
+87. NIH ODS DSLD. Viviscal Man Advanced Hair Health label, DSLD 331691. 2025. URL:https://api.ods.od.nih.gov/dsld/v9/label/331691
+88. NIH ODS DSLD. Viviscal Professional label, DSLD 240219. 2020. URL:https://api.ods.od.nih.gov/dsld/v9/label/240219
+89. NIH ODS DSLD. Viviscal Extra Strength label, DSLD 70690. 2017. URL:https://api.ods.od.nih.gov/dsld/v9/label/70690
+90. ClinicalTrials.gov NCT02288858. Viviscal oral supplement in females with self-perceived thinning hair (n=96; Lifes2good). URL:https://clinicaltrials.gov/study/NCT02288858
+91. ClinicalTrials.gov NCT02297360. Viviscal Extra-Strength in women with thinning hair (n=60). URL:https://clinicaltrials.gov/study/NCT02297360
+92. ClinicalTrials.gov NCT02302053. New Viviscal Professional in females with thinning hair (n=40). URL:https://clinicaltrials.gov/study/NCT02302053
+93. TCTMD. FDA reminds clinicians about biotin interference with troponin tests (report of FDA safety communication update, 5 Nov 2019). URL:https://www.tctmd.com/news/fda-reminds-clinicians-about-biotin-interference-troponin-tests

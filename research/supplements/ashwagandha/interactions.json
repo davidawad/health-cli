@@ -1,0 +1,307 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Ashwagandha",
+  "slug": "ashwagandha",
+  "aliases": [
+    "Withania somnifera",
+    "Indian ginseng",
+    "winter cherry",
+    "KSM-66",
+    "Sensoril",
+    "Shoden",
+    "ashwagandha root extract"
+  ],
+  "category": "botanical",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "low",
+  "edges": [
+    {
+      "with": "thyroid hormone",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Ashwagandha raises T3/T4 and lowers TSH in subclinical hypothyroidism and modestly raises T4 in pooled RCTs; additive effect with levothyroxine possible.",
+      "evidence": "RCT (n=50) plus MA of 23 RCTs; no direct interaction study; low certainty",
+      "citations": [
+        "PMID:28829155",
+        "PMID:41740946"
+      ]
+    },
+    {
+      "with": "hyperthyroidism",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Thyroid-hormone-raising effect; case of painless thyroiditis/thyrotoxicosis resolving on withdrawal; reviews cite thyrotoxicosis risk.",
+      "evidence": "Case report, RCT and reviews; low certainty",
+      "citations": [
+        "PMID:38559552",
+        "PMID:28829155",
+        "PMID:41502355"
+      ]
+    },
+    {
+      "with": "chronic liver disease",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Idiosyncratic cholestatic/mixed herb-induced liver injury; in pre-existing chronic liver disease it precipitated acute-on-chronic liver failure with deaths. BfR and TGA advise avoidance.",
+      "evidence": "Case series (DILIN/Iceland, India), scoping review of 25 patients, regulator advice",
+      "citations": [
+        "PMID:37756041",
+        "PMID:42367407",
+        "PMID:31991029",
+        "PMID:41420287"
+      ]
+    },
+    {
+      "with": "pregnancy",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Regulators (Danish DVFA/DTU, German BfR, Australian TGA label warning) cite possible abortifacient/reproductive effects; human harm evidence weak and one small open-label trial reported no AEs.",
+      "evidence": "Regulatory assessments; systematic review judges teratogenic evidence inconclusive; very low certainty",
+      "citations": [
+        "PMID:41420287",
+        "PMID:40887707",
+        "PMID:41767760",
+        "PMID:38969606"
+      ]
+    },
+    {
+      "with": "lactation",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "minor",
+      "mechanism": "German BfR advises breastfeeding women to avoid ashwagandha supplements because safety data are lacking.",
+      "evidence": "Regulatory precaution only; no human data",
+      "citations": [
+        "PMID:41420287"
+      ]
+    },
+    {
+      "with": "autoimmune disease",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Immunostimulatory activity (TLR activation, NF-kB, pro-inflammatory cytokines) may trigger or flare autoimmune disease.",
+      "evidence": "Scoping review of mostly in vitro/animal plus some human data; low certainty",
+      "citations": [
+        "PMID:41475897"
+      ]
+    },
+    {
+      "with": "immunosuppressants",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Immunostimulatory properties could theoretically counteract immunosuppressive therapy.",
+      "evidence": "Mechanistic inference only; no clinical interaction study",
+      "citations": [
+        "PMID:41475897"
+      ]
+    },
+    {
+      "with": "sedatives/CNS depressants",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "GABA-modulating and sleep-promoting effects may add to benzodiazepines, hypnotics and other CNS depressants.",
+      "evidence": "Preclinical GABA data plus sleep RCT meta-analysis; interaction not studied directly",
+      "citations": [
+        "PMID:29168225",
+        "PMID:39083548"
+      ]
+    },
+    {
+      "with": "antidepressants",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Adverse events reported with Withania plus sertraline, escitalopram, paroxetine and reboxetine; proposed CYP/P-gp inhibition and pharmacodynamic overlap.",
+      "evidence": "Pharmacovigilance retrospective chart review; low certainty",
+      "citations": [
+        "PMID:37829299"
+      ]
+    },
+    {
+      "with": "antidiabetic agents",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Small reduction in fasting glucose may add to glucose-lowering drugs.",
+      "evidence": "MA of 11 RCTs, FBG -3.09 mg/dL; very low certainty",
+      "citations": [
+        "PMID:42641800"
+      ]
+    },
+    {
+      "with": "antihypertensives",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Favorable blood-pressure trends in hypertensive patients; possible additive effect.",
+      "evidence": "Single small RCT (n=60); very low certainty",
+      "citations": [
+        "PMID:42105298"
+      ]
+    },
+    {
+      "with": "hepatotoxic drugs",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Combining with other hepatotoxins adds exposure to idiosyncratic liver injury.",
+      "evidence": "Case series and exposure survey; no combination study",
+      "citations": [
+        "PMID:42367407",
+        "PMID:39102266"
+      ]
+    },
+    {
+      "with": "testosterone",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Ashwagandha raises serum testosterone in men; additive effect with androgen therapy or in hormone-sensitive conditions is unstudied.",
+      "evidence": "MA of RCTs (testosterone +57 ng/dL in men); clinical relevance unknown",
+      "citations": [
+        "PMID:41740946",
+        "PMID:42199854"
+      ]
+    },
+    {
+      "with": "Rhodiola",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Co-implicated in one ashwagandha liver-injury case.",
+      "evidence": "Single case within DILIN series",
+      "citations": [
+        "PMID:31991029"
+      ]
+    },
+    {
+      "with": "Curcumin",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Both are among the six botanicals most frequently reported as hepatotoxic; stacking increases exposure to liver-injury risk.",
+      "evidence": "Exposure survey and case literature; no combination data",
+      "citations": [
+        "PMID:39102266"
+      ]
+    },
+    {
+      "with": "Green Tea Extract",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Both are among the six botanicals most frequently reported as hepatotoxic; stacking increases exposure to liver-injury risk.",
+      "evidence": "Exposure survey and case literature; no combination data",
+      "citations": [
+        "PMID:39102266"
+      ]
+    },
+    {
+      "with": "Kava",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Both are GABA-modulating anxiolytic phytomedicines; additive sedation plausible (kava also hepatotoxic).",
+      "evidence": "Preclinical/clinical systematic review of GABA-modulating herbs; interaction not studied",
+      "citations": [
+        "PMID:29168225"
+      ]
+    },
+    {
+      "with": "Valerian",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Both are GABA-modulating phytomedicines; additive sedation plausible.",
+      "evidence": "Systematic review of GABA-modulating herbs; interaction not studied",
+      "citations": [
+        "PMID:29168225"
+      ]
+    },
+    {
+      "with": "thyroid function tests (TSH, free T4)",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "True physiological shift (T4 up, TSH down), not an assay artifact; may confound thyroid monitoring.",
+      "evidence": "RCT and MA",
+      "citations": [
+        "PMID:28829155",
+        "PMID:41740946"
+      ]
+    },
+    {
+      "with": "liver function tests",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Cholestatic/mixed liver injury typically after 2-12 weeks; check bilirubin/ALP/ALT if jaundice, pruritus or malaise develop.",
+      "evidence": "Case series and scoping review",
+      "citations": [
+        "PMID:31991029",
+        "PMID:42367407"
+      ]
+    },
+    {
+      "with": "serum cortisol",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Lowers serum cortisol (about -1.16 ug/dL); may affect interpretation of cortisol testing.",
+      "evidence": "MA of RCTs",
+      "citations": [
+        "PMID:40746175",
+        "PMID:41740946"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:28829155",
+    "PMID:29168225",
+    "PMID:29770466",
+    "PMID:30463324",
+    "PMID:30854916",
+    "PMID:31991029",
+    "PMID:32540634",
+    "PMID:32818573",
+    "PMID:33338583",
+    "PMID:34254920",
+    "PMID:34559859",
+    "PMID:37756041",
+    "PMID:37829299",
+    "PMID:38003702",
+    "PMID:38559552",
+    "PMID:38732539",
+    "PMID:38969606",
+    "PMID:39083548",
+    "PMID:39102266",
+    "PMID:39348746",
+    "PMID:39599622",
+    "PMID:40746175",
+    "PMID:40887707",
+    "PMID:41063394",
+    "PMID:41249015",
+    "PMID:41420287",
+    "PMID:41454558",
+    "PMID:41475897",
+    "PMID:41502355",
+    "PMID:41644067",
+    "PMID:41740946",
+    "PMID:41767760",
+    "PMID:41987003",
+    "PMID:42105298",
+    "PMID:42199854",
+    "PMID:42356302",
+    "PMID:42367407",
+    "PMID:42529606",
+    "PMID:42641800",
+    "PMID:42738987"
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Vitamin C",
+  "slug": "vitamin-c",
+  "aliases": [
+    "ascorbic acid",
+    "L-ascorbic acid",
+    "ascorbate",
+    "sodium ascorbate",
+    "calcium ascorbate",
+    "Ester-C",
+    "liposomal vitamin C",
+    "IV vitamin C",
+    "pharmacological ascorbate"
+  ],
+  "category": "vitamin",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "moderate",
+  "edges": [
+    {
+      "with": "Iron",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Ascorbate reduces/chelates non-heme iron, increasing absorption",
+      "evidence": "Stable-isotope study (80 mg AA +30% fractional absorption; 500 mg no further gain) and balance RCT; moderate",
+      "citations": [
+        "PMID:37357807",
+        "PMID:2321571"
+      ]
+    },
+    {
+      "with": "hemochromatosis",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Enhanced non-heme iron absorption may exacerbate iron overload",
+      "evidence": "Official fact sheet statement (mechanistic/clinical consensus); low",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"
+      ]
+    },
+    {
+      "with": "G6PD deficiency",
+      "with_kind": "genotype",
+      "kind": "contraindicated",
+      "severity": "major",
+      "mechanism": "Pro-oxidant high-dose (esp. IV) ascorbate causes oxidative hemolysis in G6PD-deficient red cells",
+      "evidence": "Case meta-summary (14 cases, 71% G6PD-deficient), IV label warning, scoping review; low but serious",
+      "citations": [
+        "PMID:35712748",
+        "PMID:32404636",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=388aad52-fc01-4784-9791-1dbc80c69306"
+      ]
+    },
+    {
+      "with": "chronic kidney disease",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "major",
+      "mechanism": "Ascorbate metabolised to oxalate; risk of oxalate nephropathy",
+      "evidence": "Biopsy series (supplement-associated oxalate nephropathy rose to 44% of cases; 49% had CKD), IV label warning; low",
+      "citations": [
+        "PMID:36120391",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=388aad52-fc01-4784-9791-1dbc80c69306"
+      ]
+    },
+    {
+      "with": "kidney stones",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Increased urinary oxalate; supplemental >=1 g/day associated with stones in men",
+      "evidence": "Prospective cohorts (men HR 1.19 for supplemental >=1 g/day; total >=1 g/day HR 1.43) and MA; no association in women; low-moderate",
+      "citations": [
+        "PMID:26463139",
+        "PMID:30178451",
+        "URL:https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"
+      ]
+    },
+    {
+      "with": "statins",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Antioxidant cocktail (incl. vitamin C) blunted HDL2 rise and angiographic benefit of simvastatin-niacin",
+      "evidence": "HATS RCT (n=160) and lipoprotein sub-study; antioxidant mixture not vitamin C alone; low-moderate",
+      "citations": [
+        "PMID:11757504",
+        "PMID:11498460",
+        "URL:https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"
+      ]
+    },
+    {
+      "with": "Niacin",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Antioxidants attenuated HDL2/Lp(A-I) response to niacin+simvastatin",
+      "evidence": "HATS RCT; antioxidant mixture; low-moderate",
+      "citations": [
+        "PMID:11757504",
+        "PMID:11498460"
+      ]
+    },
+    {
+      "with": "antineoplastics",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Antioxidants might protect tumour cells from oxidative chemotherapy/radiation (contested); IV ascorbate also studied as an intended adjunct",
+      "evidence": "Official fact sheet notes controversy; phase II RCTs mixed (pancreatic OS benefit, prostate futility); low",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/",
+        "PMID:39369582",
+        "PMID:39076107"
+      ]
+    },
+    {
+      "with": "bleomycin",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Ascorbic acid inactivates bleomycin in vitro",
+      "evidence": "FDA IV ascorbic acid label (in vitro); very low",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=388aad52-fc01-4784-9791-1dbc80c69306"
+      ]
+    },
+    {
+      "with": "warfarin",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Possible reduced anticoagulant response (mechanism unknown)",
+      "evidence": "Case reports of warfarin resistance reversing on stopping AA; label notes no effect at <=1 g/day for 2 weeks; very low",
+      "citations": [
+        "PMID:23592361",
+        "PMID:38738175",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=388aad52-fc01-4784-9791-1dbc80c69306"
+      ]
+    },
+    {
+      "with": "amphetamine",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Urinary acidification increases renal excretion, lowering serum levels (also fluphenazine)",
+      "evidence": "FDA label statement; low",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=388aad52-fc01-4784-9791-1dbc80c69306"
+      ]
+    },
+    {
+      "with": "Vitamin E",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Co-administration abolished endothelial-function benefit seen with either vitamin alone",
+      "evidence": "Meta-analysis subgroup (C+E SMD 0.12, NS); low",
+      "citations": [
+        "PMID:25919436"
+      ]
+    },
+    {
+      "with": "glucose meter / urine glucose",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "major",
+      "mechanism": "Ascorbate (reducing agent) interferes with redox/electrochemical glucose assays; high IV doses falsely elevate point-of-care readings; urine dipstick glucose false negatives",
+      "evidence": "Case series (POC overestimation 10-200 mg/dL during IV infusion), meter comparison, FDA label, dipstick study; moderate",
+      "citations": [
+        "PMID:25127026",
+        "PMID:36332153",
+        "PMID:32404636",
+        "PMID:29479748",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=388aad52-fc01-4784-9791-1dbc80c69306"
+      ]
+    },
+    {
+      "with": "urine dipstick (hemoglobin, nitrite, bilirubin, leukocyte esterase)",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "moderate",
+      "mechanism": "Reducing agent inhibits peroxidase/diazo reactions, causing false negatives",
+      "evidence": "Laboratory interference study; FDA label; moderate",
+      "citations": [
+        "PMID:29479748",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=388aad52-fc01-4784-9791-1dbc80c69306"
+      ]
+    },
+    {
+      "with": "guaiac fecal occult blood test",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "moderate",
+      "mechanism": "Inhibits pseudoperoxidase reaction of heme causing false-negative results",
+      "evidence": "Case/in vitro study and systematic review recommending withholding before gFOBT; low",
+      "citations": [
+        "PMID:1200528",
+        "PMID:22972722"
+      ]
+    },
+    {
+      "with": "sepsis",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "IV high-dose vitamin C in vasopressor-dependent sepsis increased death/persistent organ dysfunction",
+      "evidence": "LOVIT RCT (RR 1.21) plus null C-EASIE RCT and umbrella review not supporting routine use; moderate",
+      "citations": [
+        "PMID:35704292",
+        "PMID:40269974",
+        "PMID:42384633"
+      ]
+    },
+    {
+      "with": "SLC23A1 rs33972313",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "SVCT1 transporter variant lowers circulating ascorbate (~6 umol/L per allele)",
+      "evidence": "Genetic association meta-analysis >15,000 participants; no dosing evidence; low",
+      "citations": [
+        "PMID:20519558"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:37357807",
+    "PMID:2321571",
+    "URL:https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/",
+    "PMID:35712748",
+    "PMID:32404636",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=388aad52-fc01-4784-9791-1dbc80c69306",
+    "PMID:36120391",
+    "PMID:26463139",
+    "PMID:30178451",
+    "PMID:11757504",
+    "PMID:11498460",
+    "PMID:39369582",
+    "PMID:39076107",
+    "PMID:23592361",
+    "PMID:38738175",
+    "PMID:25919436",
+    "PMID:25127026",
+    "PMID:36332153",
+    "PMID:29479748",
+    "PMID:1200528",
+    "PMID:22972722",
+    "PMID:35704292",
+    "PMID:40269974",
+    "PMID:42384633",
+    "PMID:20519558",
+    "PMID:39861409",
+    "PMID:32901526",
+    "PMID:39774855",
+    "PMID:23440782",
+    "PMID:38082300",
+    "PMID:39803741",
+    "PMID:42761050",
+    "PMID:37791386",
+    "PMID:22492364",
+    "PMID:24792921",
+    "PMID:34280483",
+    "PMID:41739218",
+    "PMID:37111066",
+    "PMID:41815850",
+    "PMID:41210509"
+  ]
+}

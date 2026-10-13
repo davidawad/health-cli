@@ -1,0 +1,170 @@
+* Acarbose
+:PROPERTIES:
+:ID: supp-acarbose
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: Precose | Glucobay | BAY g 5421 | alpha-glucosidase inhibitor | AGI
+:CATEGORY: rx
+:RX_STATUS: rx
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Acarbose is a prescription oral antidiabetic drug. It is a complex oligosaccharide that acts locally in the gut. Less than 2% of an oral dose is absorbed as active drug. About 35% of a 14C-labelled dose is absorbed, mostly as metabolites, and about 51% is excreted in the feces [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=067c0adc-7322-489d-9baa-1d061b37be36].
+- US labelling covers generic tablets (25, 50 and 100 mg). In the label, the maximum dose is 50 mg three times daily for people weighing 60 kg or less, and 100 mg three times daily for people weighing more than 60 kg. Each dose is taken with the first bite of a main meal [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=067c0adc-7322-489d-9baa-1d061b37be36].
+- A modified-release, low-dose acarbose (40 mg) is being developed in a fixed combination with orlistat (EMP16) for obesity. This is investigational [PMID:40769876].
+
+** Mechanisms
+- Acarbose competitively and reversibly inhibits pancreatic alpha-amylase and the alpha-glucoside hydrolases of the intestinal brush border. This delays starch and disaccharide digestion and blunts post-meal rises in glucose. It does not stimulate insulin secretion and does not inhibit lactase [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=067c0adc-7322-489d-9baa-1d061b37be36].
+- Its main molecular target is sucrase-isomaltase. A variant in the SI gene changes the glucose response to acarbose (human pharmacodynamic study) [PMID:39805337].
+- Animal evidence: more starch reaches the colon and is fermented by gut bacteria. In ITP mice, acarbose caused a bloom of Muribaculaceae and raised fecal propionate. Fecal short-chain fatty acids predicted lifespan [PMID:31195972]. A 2026 mouse study found that acarbose redirected microbial carbohydrate use (Parabacteroides distasonis, succinate) and suppressed anaphylaxis [PMID:42120908].
+- Acarbose has been proposed as a calorie-restriction mimetic because it reduces postprandial glucose spikes without lowering food intake. This is a review and hypothesis [PMID:33006707].
+
+** Evidence summary by outcome
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---|---|---|---|---|---|
+| Glycemic control in T2D (HbA1c) vs placebo | Cochrane SR/MA, 30 acarbose RCTs | Benefit | HbA1c -0.8% (95% CI -0.9 to -0.7); FPG -1.1 mmol/L; post-load glucose -2.3 mmol/L; no gain above 50 mg TID | high | [PMID:15846673] |
+| Initial T2D therapy vs metformin | MARCH RCT, n=788, China | Non-inferior | HbA1c -1.11% vs -1.12% at 48 wk (difference 0.01%, 95% CI -0.12 to 0.14) | moderate | [PMID:24622668] |
+| Acarbose vs DPP-4 inhibitors | Network MA, 11,877 participants | Similar glucose lowering; more weight loss | Weight MD -1.23 kg (credible interval -2.08 to -0.33); more GI adverse events | moderate | [PMID:32582019] |
+| Acute postprandial glucose | SR/MA, 66 publications | Benefit | Mean PPG -1.5 mmol/L in diabetes; -0.4 mmol/L without diabetes; relative reduction 43-54% | moderate | [PMID:33658478] |
+| Prevention of T2D in IGT / at-risk people | Cochrane SR 2018 (8 acarbose RCTs); STOP-NIDDM; ACE | Benefit | RR 0.82 (0.75-0.89) vs placebo, 8,008 participants; STOP-NIDDM HR 0.75 (0.63-0.90); ACE rate ratio 0.82 (0.71-0.94) | moderate | [PMID:30592787] [PMID:12086760] [PMID:28917545] [PMID:32641379] |
+| Regression IGT -> normoglycemia | ACE trial | Benefit | Rate ratio 1.16 (1.08-1.25) | moderate | [PMID:32641379] [PMID:12086760] |
+| Major cardiovascular events (CHD + IGT) | ACE RCT, n=6,522, 5 years median | No effect | 5-point MACE HR 0.98 (0.86-1.11) | moderate | [PMID:28917545] |
+| Cardiovascular events (IGT without known CHD) | STOP-NIDDM secondary analysis | Possible benefit | CV events HR 0.51 (0.28-0.95); MI HR 0.09 (0.01-0.72); new hypertension HR 0.66 (0.49-0.89). Few events, not confirmed by ACE | low | [PMID:12876091] |
+| All-cause / CV mortality | Cochrane 2018 (at-risk people); MA of 8 RCTs in T2D | No clear effect | All-cause RR 0.98 (0.82-1.18); CV mortality RR 0.88 (0.71-1.10); T2D MH-OR 0.76 (0.28-2.05) | low | [PMID:30592787] [PMID:34893404] |
+| CV events vs sulfonylurea add-on to metformin | Propensity-matched cohort, Taiwan, 14,306 pairs | Lower risk vs sulfonylureas | Atherosclerotic events HR 0.69 (0.52-0.91); hypoglycemia HR 0.23 | very low | [PMID:30113697] |
+| Lipids | SR/MA, 74 studies | Small benefit | TG -13.4 mg/dL; TC -1.9 mg/dL; no change in LDL/HDL | low | [PMID:37990256] |
+| Inflammation markers | SR/MA, 19 RCTs | Small benefit | TNF-alpha -4.16 pg/mL; adiponectin +0.79 ng/mL; CRP and IL-6 not significant | low | [PMID:38170330] |
+| Weight in non-diabetic overweight/obesity | SR/MA, 7 RCTs, n=269 | Minimal | TG -0.21 mmol/L; BMI not significant | low | [PMID:33421022] |
+| Weight, as add-on to orlistat (EMP16) | Phase 2 RCT, n=240 | Benefit | -7.73% vs -5.78% (MR orlistat) and -5.13% (conventional orlistat) at 6 months | low | [PMID:40769876] |
+| Postprandial hypotension | SR/MA, 4 RCTs, n=202 (glucose disorders); RCT in older adults, n=43 | Mixed | SBP fall attenuated by 9.84 mmHg in MA. In general older adults the SBP fall was attenuated, but there were more PPH events | low | [PMID:34095252] [PMID:40719030] |
+| Post-bariatric hypoglycemia | Crossover RCT, n=11 | No effect on primary outcome | Time below range unchanged vs placebo | very low | [PMID:41810556] |
+| Lifespan (ANIMAL, UM-HET3 mice, ITP) | Multi-site NIA ITP studies | Benefit, sex-dimorphic | Median lifespan +22% in males, +5% in females (2014); +16-17% in males, +4-5% in females at 1,000-2,500 ppm (2019); rapamycin+acarbose exceeded rapamycin alone in males | very low (for humans) | [PMID:24245565] [PMID:30688027] [PMID:36179270] |
+| Human aging / longevity | Pilot trials only (NCT02865499, n=8, completed; NCT02953093 terminated); SR notes acarbose in trial registries | Unknown | No published human aging-outcome data located | very low | [PMID:38966557] [URL:https://clinicaltrials.gov/study/NCT02865499] [URL:https://clinicaltrials.gov/study/NCT02953093] |
+
+** Dosing in trials
+- T2D: Cochrane found no additional HbA1c benefit above 50 mg TID, but more GI adverse effects at higher doses [PMID:15846673]. MARCH used 300 mg/day (100 mg TID) [PMID:24622668] [PMID:40319921].
+- Prevention: STOP-NIDDM used 100 mg TID for about 3.3 years [PMID:12086760] [PMID:12876091]. ACE used 50 mg TID for a median of 5 years [PMID:28917545].
+- Label: start at 25 mg TID (or 25 mg once daily, then titrate), titrate every 4-8 weeks, maximum 100 mg TID (50 mg TID if 60 kg or less) [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=067c0adc-7322-489d-9baa-1d061b37be36].
+- Mouse ITP doses were 400, 1,000 and 2,500 ppm in chow. All three doses extended lifespan [PMID:30688027].
+
+** Safety & adverse effects
+- Gastrointestinal effects dominate. In US placebo-controlled trials (n=1,255), flatulence occurred in 74% vs 29% on placebo, diarrhea in 31% vs 12%, and abdominal pain in 19% vs 9%. Symptoms tended to lessen over time [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=067c0adc-7322-489d-9baa-1d061b37be36]. In STOP-NIDDM, 31% discontinued on acarbose vs 19% on placebo [PMID:12086760]. In ACE, GI disorders led to discontinuation or dose change in 7% vs 5% [PMID:28917545].
+- Hepatotoxicity (FDA label):
+  - In US studies with doses up to 300 mg TID, ALT/AST rose above 3x ULN in 3% vs 1% on placebo. The rises were dose-related, more common in females, and reversible. At doses up to 100 mg TID, rates were similar to placebo.
+  - Postmarketing, 62 cases of transaminases above 500 IU/L were reported (29 with jaundice). Most were at 100 mg TID or more, and 33 of 45 with a recorded weight were under 60 kg. Fulminant hepatitis with fatal outcome has been reported, with unclear causality.
+  - The label advises checking transaminases every 3 months in the first year [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=067c0adc-7322-489d-9baa-1d061b37be36].
+  - LiverTox describes rare clinically apparent acute liver injury [PMID:31643509]. Case reports include ALT 640 U/L that resolved after stopping (RUCAM "probable") [PMID:16317107] [PMID:9517669].
+- Hypoglycemia: acarbose alone should not cause hypoglycemia. It can add to the hypoglycemia risk from insulin or sulfonylureas [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=067c0adc-7322-489d-9baa-1d061b37be36]. A CGM RCT found less time below range with metformin+acarbose than with metformin+sitagliptin [PMID:40178116].
+- Rare events: pneumatosis cystoides intestinalis, ileus/subileus, thrombocytopenia, and skin hypersensitivity (postmarketing) [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=067c0adc-7322-489d-9baa-1d061b37be36]. A PCI case report from 2025 resolved after stopping acarbose [PMID:41000298].
+- Overdose causes GI symptoms, not hypoglycemia [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=067c0adc-7322-489d-9baa-1d061b37be36].
+
+** Contraindications
+Label contraindications are [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=067c0adc-7322-489d-9baa-1d061b37be36]:
+- hypersensitivity
+- diabetic ketoacidosis
+- cirrhosis
+- inflammatory bowel disease
+- colonic ulceration
+- partial intestinal obstruction, or predisposition to obstruction
+- chronic intestinal disease with marked maldigestion or malabsorption
+- conditions that may worsen with increased intestinal gas
+
+Other label cautions [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=067c0adc-7322-489d-9baa-1d061b37be36]:
+- Severe renal impairment (serum creatinine above 2.0 mg/dL): not recommended. With CrCl below 25 mL/min, peak plasma levels are about 5x higher and AUC about 6x higher.
+- Nursing: should not be given.
+- Pregnancy: use only if clearly needed (Category B).
+- Pediatric safety has not been established.
+
+** Interactions
+*** Drugs
+- Insulin and sulfonylureas: additive glucose lowering and a higher risk of hypoglycemia. Hypoglycemic shock has been reported very rarely. Treat hypoglycemia with oral glucose (dextrose), not sucrose, because acarbose inhibits sucrose hydrolysis. Severe cases may need IV glucose or glucagon [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=067c0adc-7322-489d-9baa-1d061b37be36].
+- Digoxin: the evidence is inconsistent.
+  - The label reports lower digoxin bioavailability (Cmax -26%) and says a digoxin dose adjustment may be needed [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=067c0adc-7322-489d-9baa-1d061b37be36].
+  - In a crossover study in healthy volunteers, digoxin AUC and Cmax fell when it was given after acarbose [PMID:9702852].
+  - Another study found no significant pharmacokinetic interaction at 50 mg TID, apart from a higher Cmax [PMID:12389338].
+- Digestive enzyme preparations with carbohydrate-splitting enzymes (amylase, pancreatin) and intestinal adsorbents (charcoal) may reduce the effect of acarbose. Do not co-administer [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=067c0adc-7322-489d-9baa-1d061b37be36].
+- Metformin: effects are additive. Metformin Cmax falls by about 20% but AUC is unchanged, which the label calls of little clinical significance [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=067c0adc-7322-489d-9baa-1d061b37be36].
+- Drugs that raise glucose can cause loss of control: thiazides and other diuretics, corticosteroids, phenothiazines, thyroid products, estrogens/oral contraceptives, phenytoin, nicotinic acid, sympathomimetics, calcium-channel blockers, isoniazid. If these are withdrawn while on sulfonylurea/insulin, watch for hypoglycemia [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=067c0adc-7322-489d-9baa-1d061b37be36].
+- No pharmacokinetic or pharmacodynamic effect on nifedipine, propranolol or ranitidine [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=067c0adc-7322-489d-9baa-1d061b37be36].
+- Orlistat: acarbose added to modified-release orlistat increased weight loss in a phase 2 RCT [PMID:40769876].
+- Rapamycin (ANIMAL): the combination extended male mouse lifespan more than rapamycin alone in earlier cohorts [PMID:36179270].
+*** Other supplements
+- Niacin (nicotinic acid) may raise glucose and weaken glycemic control [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=067c0adc-7322-489d-9baa-1d061b37be36].
+- No cited clinical interaction studies were found for the other supplements in this batch.
+*** Conditions
+- See Contraindications. Low body weight (60 kg or less) is linked to transaminase elevations [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=067c0adc-7322-489d-9baa-1d061b37be36].
+- Postprandial hypotension in older adults: in a general geriatric sample, acarbose attenuated the mean SBP fall but PPH events were more frequent [PMID:40719030].
+*** Lab-test interference
+- The 1,5-anhydroglucitol (1,5-AG) assay is unreliable for monitoring glycemic control during acarbose treatment [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=067c0adc-7322-489d-9baa-1d061b37be36].
+- Small reductions in hematocrit, and low serum calcium and vitamin B6, have been reported. The label considers these spurious or not clinically significant [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=067c0adc-7322-489d-9baa-1d061b37be36].
+
+** Genotype notes
+- Sucrase-isomaltase (SI) 43G>T: in 66 Chinese participants, heterozygous carriers had a 50-68% smaller acarbose-induced reduction in glucose pharmacodynamic parameters than wild type. This is a single small study [PMID:39805337].
+
+** Latest research
+- [2026-06] Mouse study: acarbose redirected gut microbial carbohydrate use, raising P. distasonis and succinate, and suppressed anaphylaxis. A human cohort analysis linked AGI use to lower anaphylaxis incidence [PMID:42120908].
+- [2026-05] Preprint (ANIMAL): acarbose at 1,000 ppm preserved spatial memory in mid-aged and aged UM-HET3 mice, but not in the 5xFAD Alzheimer model [PMID:42094534].
+- [2026-05] HypoBar I crossover RCT (n=11): acarbose 50 mg TID did not reduce time below range in post-bariatric hypoglycemia. Secondary outcomes were exploratory [PMID:41810556].
+- [2026-01] Preprint (ANIMAL, house crickets): intermittent acarbose reduced post-treatment lifespan in females, while rapamycin extended it [PMID:41542057].
+- [2025-10] EMP16 phase 2 RCT (n=240): adding low-dose MR acarbose to orlistat increased 6-month weight loss (-7.73% vs -5.78%) [PMID:40769876].
+- [2025-09] Older-adult RCT (n=43, mean age 77): acarbose attenuated the mean postprandial SBP fall, but PPH events were more frequent [PMID:40719030].
+- [2025-09] Case report of acarbose-induced pneumatosis cystoides intestinalis [PMID:41000298].
+- [2025-06] MARCH sub-analysis: higher baseline glucagon predicted larger HbA1c reductions with acarbose (about -1.3% vs -0.8%) but not with metformin [PMID:40319921].
+- [2025-05] RCT, n=701: metformin+acarbose vs metformin+sitagliptin gave similar time in range, with lower time below range and lower glycemic variability on acarbose [PMID:40178116].
+- [2025-05] Six-month RCT (n=100): acarbose lowered plasma TMAO more than vildagliptin [PMID:40395816].
+- [2025-03] SI 43G>T variant linked to a blunted glucose response to acarbose [PMID:39805337].
+- [2024-09] Taiwan cohort: acarbose use associated with lower gastric cancer risk (adjusted HR 0.43, 0.25-0.74). Observational [PMID:39290170].
+- [2024-09] 3xTg Alzheimer mice on a Western diet (ANIMAL): acarbose improved metabolic health and cognition [PMID:39271570].
+- [2024-06] SR of animal lifespan studies: acarbose is among the most-studied and most promising repurposed cardiometabolic drugs, and is in human aging trial registries [PMID:38966557].
+- [2024-01] SR/MA of 19 RCTs: TNF-alpha reduced and adiponectin increased [PMID:38170330].
+
+** Open questions
+- Whether acarbose's ITP mouse lifespan extension (male-biased) translates to humans. No adequately powered human aging-outcome RCT has reported. The pilot NCT02865499 (n=8) has no located publication, and NCT02953093 was terminated for lack of funding [URL:https://clinicaltrials.gov/study/NCT02865499] [URL:https://clinicaltrials.gov/study/NCT02953093].
+- STOP-NIDDM's CV signal (few events) versus the neutral ACE trial in CHD patients. It is unclear whether there is any macrovascular benefit [PMID:12876091] [PMID:28917545].
+- How generalizable the findings are: MARCH and ACE were conducted in Chinese populations with high-carbohydrate diets [PMID:24622668] [PMID:28917545].
+- Role of the microbiome/SCFA and of SI genotype in variable response [PMID:31195972] [PMID:39805337].
+
+** Sources
+1. Chiasson JL et al. Acarbose for prevention of type 2 diabetes mellitus: the STOP-NIDDM randomised trial. Lancet. 2002. PMID:12086760 DOI:10.1016/S0140-6736(02)08905-5
+2. Chiasson JL et al. Acarbose treatment and the risk of cardiovascular disease and hypertension in patients with impaired glucose tolerance: the STOP-NIDDM trial. JAMA. 2003. PMID:12876091 DOI:10.1001/jama.290.4.486
+3. Holman RR et al. Effects of acarbose on cardiovascular and diabetes outcomes in patients with coronary heart disease and impaired glucose tolerance (ACE). Lancet Diabetes Endocrinol. 2017. PMID:28917545 DOI:10.1016/S2213-8587(17)30309-1
+4. Gerstein HC et al. Impact of acarbose on incident diabetes and regression to normoglycemia ... ACE trial. Diabetes Care. 2020. PMID:32641379 DOI:10.2337/dc19-2046
+5. Moelands SV et al. Alpha-glucosidase inhibitors for prevention or delay of type 2 diabetes mellitus ... Cochrane Database Syst Rev. 2018. PMID:30592787 DOI:10.1002/14651858.CD005061.pub3
+6. Van de Laar FA et al. Alpha-glucosidase inhibitors for type 2 diabetes mellitus. Cochrane Database Syst Rev. 2005. PMID:15846673 DOI:10.1002/14651858.CD003639.pub2
+7. Alssema M et al. Effects of alpha-glucosidase-inhibiting drugs on acute postprandial glucose and insulin responses: SR/MA. Nutr Diabetes. 2021. PMID:33658478 DOI:10.1038/s41387-021-00152-5
+8. Zhang F et al. Acarbose with comparable glucose-lowering but superior weight-loss efficacy to DPP-4 inhibitors: SR and NMA. Front Endocrinol. 2020. PMID:32582019 DOI:10.3389/fendo.2020.00288
+9. Yang W et al. Acarbose compared with metformin as initial therapy in patients with newly diagnosed type 2 diabetes (MARCH). Lancet Diabetes Endocrinol. 2014. PMID:24622668 DOI:10.1016/S2213-8587(13)70021-4
+10. Yousefi M et al. The effect of acarbose on lipid profiles in adults: SR/MA of RCTs. BMC Pharmacol Toxicol. 2023. PMID:37990256 DOI:10.1186/s40360-023-00706-6
+11. Mohammadian A et al. The effect of acarbose on inflammatory cytokines and adipokines in adults: SR/MA of RCTs. Inflammopharmacology. 2024. PMID:38170330 DOI:10.1007/s10787-023-01401-y
+12. Yu AQ et al. The effects of acarbose on non-diabetic overweight and obese patients: a meta-analysis. Adv Ther. 2021. PMID:33421022 DOI:10.1007/s12325-020-01602-9
+13. Mannucci E et al. All-cause mortality and cardiovascular events in patients with type 2 diabetes treated with alpha-glucosidase inhibitors: MA of RCTs. Nutr Metab Cardiovasc Dis. 2022. PMID:34893404 DOI:10.1016/j.numecd.2021.10.010
+14. Hsu PF et al. Cardiovascular benefits of acarbose vs sulfonylureas in patients with type 2 diabetes treated with metformin. J Clin Endocrinol Metab. 2018. PMID:30113697 DOI:10.1210/jc.2018-00040
+15. Wang B et al. Acarbose for postprandial hypotension with glucose metabolism disorders: SR/MA. Front Cardiovasc Med. 2021. PMID:34095252 DOI:10.3389/fcvm.2021.663635
+16. Madden KM et al. The effects of acarbose on the postprandial hypotensive response in older adults. Can J Aging. 2025. PMID:40719030 DOI:10.1017/S0714980825100056
+17. Harrison DE et al. Acarbose, 17-alpha-estradiol, and nordihydroguaiaretic acid extend mouse lifespan preferentially in males. Aging Cell. 2014. PMID:24245565 DOI:10.1111/acel.12170
+18. Harrison DE et al. Acarbose improves health and lifespan in aging HET3 mice. Aging Cell. 2019. PMID:30688027 DOI:10.1111/acel.12898
+19. Strong R et al. Lifespan benefits for the combination of rapamycin plus acarbose and for captopril in genetically heterogeneous mice. Aging Cell. 2022. PMID:36179270 DOI:10.1111/acel.13724
+20. Smith BJ et al. Changes in the gut microbiome and fermentation products concurrent with enhanced longevity in acarbose-treated mice. BMC Microbiol. 2019. PMID:31195972 DOI:10.1186/s12866-019-1494-7
+21. Smith DL Jr et al. Diabetes medications as potential calorie restriction mimetics - a focus on acarbose. Geroscience. 2021. PMID:33006707 DOI:10.1007/s11357-020-00278-x
+22. Barinda AJ et al. Repurposing effect of cardiovascular-metabolic drug to increase lifespan: SR of animal studies and clinical trial progress. Front Pharmacol. 2024. PMID:38966557 DOI:10.3389/fphar.2024.1373458
+23. Moore SJ et al. Acarbose improves cognitive function in a mouse model of normal aging but not Alzheimer's disease. bioRxiv (preprint). 2026. PMID:42094534 DOI:10.64898/2026.04.28.721469
+24. Sonsalla MM et al. Acarbose ameliorates Western diet-induced metabolic and cognitive impairments in the 3xTg mouse model of Alzheimer's disease. Geroscience. 2025. PMID:39271570 DOI:10.1007/s11357-024-01337-3
+25. Liao GY et al. The gerotherapeutic drugs rapamycin, acarbose, and phenylbutyrate extend lifespan and enhance healthy aging in house crickets. Res Sq (preprint). 2026. PMID:41542057 DOI:10.21203/rs.3.rs-7466146/v1
+26. Yakabe K et al. Acarbose redirects gut microbiome utilization of dietary carbohydrates to suppress anaphylaxis in mice. Nat Microbiol. 2026. PMID:42120908 DOI:10.1038/s41564-026-02350-2
+27. Miura T et al. Impairment of absorption of digoxin by acarbose. J Clin Pharmacol. 1998. PMID:9702852 DOI:10.1002/j.1552-4604.1998.tb04474.x
+28. Cohen E et al. Do therapeutic doses of acarbose alter the pharmacokinetics of digoxin? Isr Med Assoc J. 2002. PMID:12389338
+29. Hsiao SH et al. Hepatotoxicity associated with acarbose therapy. Ann Pharmacother. 2006. PMID:16317107 DOI:10.1345/aph.1G336
+30. Diaz-Gutierrez FL et al. Acarbose-induced acute hepatitis. Am J Gastroenterol. 1998. PMID:9517669 DOI:10.1111/j.1572-0241.1998.481_1.x
+31. LiverTox. Acarbose. NIDDK; updated 2021. PMID:31643509
+32. Yuan Y et al. Acarbose-induced pneumatosis cystoides intestinalis. JCEM Case Rep. 2025. PMID:41000298 DOI:10.1210/jcemcr/luaf199
+33. Huang J et al. 43 G>T polymorphism in the sucrase-isomaltase gene ... prevents the glucose-lowering effect of acarbose. Clin Biochem. 2025. PMID:39805337 DOI:10.1016/j.clinbiochem.2025.110875
+34. Cai X et al. Glucose fluctuation with metformin plus acarbose or sitagliptin: multicenter RCT. Chin Med J. 2025. PMID:40178116 DOI:10.1097/CM9.0000000000003477
+35. Holmbäck U et al. The supportive effect of acarbose to orlistat in weight management: phase 2 RCT. Obesity. 2025. PMID:40769876 DOI:10.1002/oby.24369
+36. Yang X et al. Effect of acarbose and vildagliptin on plasma TMAO in T2D: 6-month RCT. Front Endocrinol. 2025. PMID:40395816 DOI:10.3389/fendo.2025.1575087
+37. Lobato CB et al. Acarbose or canagliflozin vs placebo for post-bariatric hypoglycaemia: HypoBar I RCT. Diabetes Obes Metab. 2026. PMID:41810556 DOI:10.1111/dom.70611
+38. Jiang L et al. Baseline glucagon impacts glucose-lowering effects of acarbose but not metformin: MARCH sub-analysis. Diabetes Res Clin Pract. 2025. PMID:40319921 DOI:10.1016/j.diabres.2025.112207
+39. Mao PC et al. Acarbose might be associated with reduced risk of gastric cancer in patients with diabetes mellitus. Pharmacoepidemiol Drug Saf. 2024. PMID:39290170 DOI:10.1002/pds.5762
+40. FDA/DailyMed. Acarbose tablets prescribing information (set id 067c0adc-7322-489d-9baa-1d061b37be36; effective 2026-07-16). URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=067c0adc-7322-489d-9baa-1d061b37be36
+41. ClinicalTrials.gov. Acarbose Anti-aging Effects in Geriatric Subjects (NCT02865499). URL:https://clinicaltrials.gov/study/NCT02865499
+42. ClinicalTrials.gov. Study of Acarbose in Longevity (NCT02953093). URL:https://clinicaltrials.gov/study/NCT02953093

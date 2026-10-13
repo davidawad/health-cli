@@ -1,0 +1,335 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Sulforaphane Glucosinolate (BroccoMax)",
+  "slug": "sulforaphane-glucosinolate-broccomax",
+  "aliases": [
+    "BroccoMax",
+    "Jarrow BroccoMax",
+    "sulforaphane glucosinolate",
+    "SGS",
+    "glucoraphanin",
+    "4-methylsulfinylbutyl glucosinolate",
+    "broccoli seed extract",
+    "broccoli sprout extract",
+    "sulforaphane",
+    "SFN"
+  ],
+  "category": "botanical",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "low",
+  "edges": [
+    {
+      "with": "CYP1A2 substrates",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Dietary broccoli (500 g/d) induced CYP1A2 (caffeine metabolic ratio +19%); SFN itself did not alter CYP1A2 in human hepatocytes, so supplement-level relevance is uncertain.",
+      "evidence": "Human controlled diet study of whole broccoli (n=16) plus in vitro human hepatocytes; low certainty for supplements.",
+      "citations": [
+        "PMID:8625493",
+        "PMID:9288764"
+      ]
+    },
+    {
+      "with": "CYP3A4 substrates",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "SFN decreased CYP3A4 expression/activity in human hepatocytes in vitro; in vivo 450 umol SFN did not change midazolam clearance overall (decrease only in highest-baseline subset).",
+      "evidence": "In vitro plus one human randomized crossover (n=24) largely null; low certainty, likely not clinically important.",
+      "citations": [
+        "PMID:9288764",
+        "PMID:23153560"
+      ]
+    },
+    {
+      "with": "rifampicin",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "SFN is a human PXR antagonist in vitro but did not attenuate rifampicin-induced CYP3A4 induction in vivo.",
+      "evidence": "Human randomized crossover (n=24); no interaction demonstrated.",
+      "citations": [
+        "PMID:23153560"
+      ]
+    },
+    {
+      "with": "UGT1A substrates (glucuronidated drugs)",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Nrf2-mediated induction of UGT1A1/1A8/1A10 could theoretically increase glucuronidation of co-administered drugs.",
+      "evidence": "In vitro (Caco-2) only; theoretical.",
+      "citations": [
+        "PMID:22559738"
+      ]
+    },
+    {
+      "with": "antineoplastics",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Nrf2 activation in tumour cells may upregulate drug-detoxification pathways and contribute to chemoresistance; direction is context-dependent and SFN is also being trialled as a doxorubicin cardioprotectant.",
+      "evidence": "Preclinical/review evidence and ongoing trial; no human outcome data on interference.",
+      "citations": [
+        "PMID:28675319",
+        "URL:https://clinicaltrials.gov/study/NCT03934905"
+      ]
+    },
+    {
+      "with": "antidiabetic agents",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Additive glucose lowering: SFN suppresses hepatic gluconeogenesis via NRF2 and lowered fasting glucose/HbA1c in T2D and fasting glucose modestly in prediabetes.",
+      "evidence": "Human trials of SFN alone (T2D trial; RCT n=74); combination not studied; theoretical additive effect.",
+      "citations": [
+        "PMID:28615356",
+        "PMID:39929977"
+      ]
+    },
+    {
+      "with": "metformin",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Both reduce hepatic glucose output; SFN effect in diabetic animals was of similar magnitude to metformin; additive glucose lowering possible.",
+      "evidence": "Animal comparison plus human SFN-alone data; combination not studied.",
+      "citations": [
+        "PMID:28615356",
+        "PMID:39929977"
+      ]
+    },
+    {
+      "with": "Acarbose",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Theoretical additive glucose lowering (different mechanism: SFN reduces hepatic gluconeogenesis).",
+      "evidence": "Extrapolated from SFN-alone human glycaemic trials; no combination data.",
+      "citations": [
+        "PMID:28615356",
+        "PMID:39929977"
+      ]
+    },
+    {
+      "with": "proton pump inhibitors",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Reduced gastric acidity spared co-delivered myrosinase and increased GR-to-SFN conversion (higher SFN metabolite excretion on omeprazole).",
+      "evidence": "Small human pilot pharmacokinetic study.",
+      "citations": [
+        "PMID:31261930"
+      ]
+    },
+    {
+      "with": "antipsychotics",
+      "with_kind": "drug-class",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Adjunctive SFN with antipsychotics (incl. risperidone) improved negative symptoms/irritability modestly, lowered discontinuation and lipids; no adverse PK interaction reported.",
+      "evidence": "Several small RCTs and a 2025 SR/MA (4 RCTs, n=369); low certainty.",
+      "citations": [
+        "PMID:39832347",
+        "PMID:40133020",
+        "PMID:41184790",
+        "PMID:32347624"
+      ]
+    },
+    {
+      "with": "methylphenidate",
+      "with_kind": "drug",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Adjunctive SFN improved ADHD-RS scores with comparable side-effect frequency.",
+      "evidence": "Single RCT (n=70); very low certainty.",
+      "citations": [
+        "PMID:41604557"
+      ]
+    },
+    {
+      "with": "Vitamin C",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "BroccoMax formulation contains calcium ascorbate; ascorbic acid co-administered with GR in myrosinase bioavailability trial; separate contribution to conversion not quantified.",
+      "evidence": "Label composition and one randomized crossover where both arms received ascorbate; overlap rather than proven synergy.",
+      "citations": [
+        "URL:https://api.ods.od.nih.gov/dsld/v9/label/321953",
+        "PMID:41692762"
+      ]
+    },
+    {
+      "with": "Curcumin",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Both are Nrf2 inducers; combination induced skin NQO1 3.6-fold vs 3.1 (GR) and 3.3 (curcumin).",
+      "evidence": "Small randomized mechanistic trial (n=6/arm); no clinical outcomes.",
+      "citations": [
+        "PMID:40559384"
+      ]
+    },
+    {
+      "with": "mustard seed / raw cruciferous myrosinase sources",
+      "with_kind": "food",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Exogenous plant myrosinase hydrolyses glucoraphanin to sulforaphane, doubling SFN bioavailability from GR-only extract.",
+      "evidence": "Randomized crossover (n=16) and human bioavailability studies.",
+      "citations": [
+        "PMID:41692762",
+        "PMID:26524341"
+      ]
+    },
+    {
+      "with": "hypothyroidism",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Glucosinolate goitrogen concern; SFN itself not the goitrogenic species (goitrin/thiocyanate are), and a 12-wk RCT showed no change in TSH, fT4, thyroglobulin or autoimmunity.",
+      "evidence": "RCT (n=45) and 2024 SR: reassuring, especially with adequate iodine; long-term high-dose data in thyroid disease lacking.",
+      "citations": [
+        "PMID:30735751",
+        "PMID:38612798",
+        "PMID:26946249"
+      ]
+    },
+    {
+      "with": "iodine deficiency",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Goitrogenic glucosinolate breakdown products matter mainly when iodine intake is inadequate.",
+      "evidence": "2024 SR of 123 studies; low-certainty concern.",
+      "citations": [
+        "PMID:38612798",
+        "PMID:26946249"
+      ]
+    },
+    {
+      "with": "pregnancy",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Limited human data (small dose-escalation study in pregnancy hypertension); label advises consulting a professional.",
+      "evidence": "Small uncontrolled/crossover study (n=12 pregnant); label warning.",
+      "citations": [
+        "PMID:33409874",
+        "URL:https://api.ods.od.nih.gov/dsld/v9/label/321953"
+      ]
+    },
+    {
+      "with": "obesity",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Higher BMI associated with lower or altered GR-to-SFN conversion and absorption.",
+      "evidence": "Human pharmacokinetic studies (pilot and RCT n=18).",
+      "citations": [
+        "PMID:31261930",
+        "PMID:30499426"
+      ]
+    },
+    {
+      "with": "GSTM1 null genotype",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "GSTM1-null subjects had slightly higher plasma SFN-metabolite AUC and faster early excretion; prostate gene-expression responses differed by genotype.",
+      "evidence": "Randomized crossover (n=16) and 12-month RCT; significance for outcomes unknown.",
+      "citations": [
+        "PMID:16332662",
+        "PMID:18596959"
+      ]
+    },
+    {
+      "with": "GSTT1 null genotype",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Plasma SFN higher in GSTT1-null individuals; benzene mercapturic acid excretion lower in GSTT1-null regardless of treatment.",
+      "evidence": "Secondary analyses of RCTs (n=105, n=291).",
+      "citations": [
+        "PMID:39028412",
+        "PMID:24913818"
+      ]
+    },
+    {
+      "with": "diabetes",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Glucose-lowering effect (fasting glucose, HbA1c) may change glycaemic control.",
+      "evidence": "Human trials in T2D and prediabetes; low certainty.",
+      "citations": [
+        "PMID:28615356",
+        "PMID:39929977"
+      ]
+    }
+  ],
+  "citations": [
+    "URL:https://api.ods.od.nih.gov/dsld/v9/label/321953",
+    "PMID:26524341",
+    "PMID:39832347",
+    "PMID:22045030",
+    "PMID:39520658",
+    "PMID:25968598",
+    "PMID:41692762",
+    "PMID:21816223",
+    "PMID:33409874",
+    "PMID:31261930",
+    "PMID:30499426",
+    "PMID:16284385",
+    "PMID:39929977",
+    "PMID:42564592",
+    "PMID:24913818",
+    "PMID:19028145",
+    "PMID:40559384",
+    "PMID:38772511",
+    "PMID:33515348",
+    "PMID:41603376",
+    "PMID:28615356",
+    "PMID:9288764",
+    "PMID:22559738",
+    "PMID:25313065",
+    "PMID:41738426",
+    "PMID:28675319",
+    "PMID:40458076",
+    "PMID:35246237",
+    "PMID:34034808",
+    "PMID:36771424",
+    "PMID:36427174",
+    "PMID:32347624",
+    "PMID:31268126",
+    "PMID:38870164",
+    "PMID:24287881",
+    "PMID:38892516",
+    "PMID:38074675",
+    "PMID:25431127",
+    "PMID:40041932",
+    "PMID:31155953",
+    "PMID:22325157",
+    "PMID:41184790",
+    "PMID:42154264",
+    "PMID:20805984",
+    "PMID:40133020",
+    "PMID:41604557",
+    "PMID:34033171",
+    "PMID:33503851",
+    "PMID:41669080",
+    "PMID:39028412",
+    "PMID:42228225",
+    "PMID:30735751",
+    "PMID:38612798",
+    "PMID:26946249",
+    "URL:https://clinicaltrials.gov/study/NCT03934905",
+    "PMID:8625493",
+    "PMID:23153560",
+    "PMID:16332662",
+    "PMID:18596959",
+    "URL:https://clinicaltrials.gov/study/NCT03932136",
+    "URL:https://clinicaltrials.gov/study/NCT07652866"
+  ]
+}

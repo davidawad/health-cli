@@ -1,0 +1,220 @@
+* B Complex
+:PROPERTIES:
+:ID: supp-b-complex
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: B Complex | B-complex | vitamin B complex | B vitamins | B-50 | B-100 | multi-B | stress B formula | methylated B complex
+:CATEGORY: vitamin
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- "B complex" is a combination of the eight water-soluble B vitamins. They act as interrelated coenzymes in energy metabolism, DNA/RNA synthesis and repair, methylation, and neurotransmitter synthesis [PMID:26828517]:
+  - B1 (thiamine)
+  - B2 (riboflavin)
+  - B3 (niacin as nicotinic acid, or niacinamide/nicotinamide)
+  - B5 (pantothenic acid)
+  - B6 (pyridoxine, pyridoxal, pyridoxamine; active form pyridoxal-5'-phosphate)
+  - B7 (biotin)
+  - B9 (folate)
+  - B12 (cobalamin)
+- Folate forms are not interchangeable [PMID:24494987]:
+  - Folic acid is the synthetic, oxidized form used in fortification and most trials.
+  - Folinic acid is another supplemental form.
+  - 5-methyltetrahydrofolate (5-MTHF, "methylfolate") is the natural circulating form. It is claimed to be less likely to mask B12-deficiency anemia and not to depend on MTHFR activity. These claims come from a narrative review, not from outcome RCTs.
+- Products differ widely. Many "B-50"/"B-100" or "stress" formulas supply B6 at 50-100 mg/day. That is far above the EFSA adult UL of 12 mg/day [PMID:37207271]. Biotin content varies, and high-dose biotin is the main source of immunoassay interference [PMID:35953126].
+- Most of the hard-outcome evidence comes from trials of folic acid + B6 + B12 ("homocysteine-lowering B vitamins"), not from full eight-vitamin complexes. Trials of full B complexes are mostly small mood/stress studies [PMID:31527485].
+
+** Mechanisms
+- One-carbon metabolism: folate (as 5-MTHF), B12 (methionine synthase cofactor), B6 (cystathionine beta-synthase) and B2 (FAD, the cofactor of MTHFR) together remethylate or transsulfurate homocysteine [PMID:26828517]. Supplementation lowers plasma total homocysteine:
+  - HOPE-2: about 2.4 umol/L vs placebo rise of 0.8 [PMID:16531613]
+  - CSPPT: 11% relative reduction with 0.8 mg folic acid [PMID:29371246]
+- Brain (human trial data plus mechanistic interpretation):
+  - In the VITACOG MCI trial, B vitamins slowed whole-brain atrophy, and the effect depended on baseline homocysteine [PMID:20838622].
+  - The cognitive benefit appeared only when omega-3 status was good (post hoc) [PMID:26757190].
+  - A 2025 metabolomics re-analysis found lower quinolinic acid, glutamate, alpha-ketoglutarate and glucose with treatment [PMID:40684250].
+- Neurotransmitters: B6 (as PLP) is the cofactor for synthesis of GABA, serotonin and dopamine. The authors of a high-dose B6 RCT proposed enhanced GABAergic inhibition as the mechanism [PMID:35851507] [PMID:42569537]. This is mechanistic interpretation, not proven.
+- Biotin assay artifact: biotin in serum competes for streptavidin in biotin-streptavidin immunoassays [PMID:35953126]:
+  - sandwich formats (e.g. TSH, troponin) read falsely low
+  - competitive formats (e.g. free T4/T3) read falsely high
+- Niacin (nicotinic acid) at pharmacologic doses lowers LDL and raises HDL, causes flushing, and (especially sustained-release forms) can cause hepatotoxicity [PMID:31643504] [PMID:12240702].
+
+** Evidence summary by outcome
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---|---|---|---|---|---|
+| Plasma homocysteine lowering | Large RCTs; MA in CHD | Benefit (biomarker) | HOPE-2 -2.4 vs +0.8 umol/L; CHD MA MD -2.36 umol/L (95% CI -3.09 to -1.62) | high | [PMID:16531613] [PMID:41615824] [PMID:29371246] |
+| Stroke (B6/B9/B12 homocysteine-lowering) | Cochrane MA, 10 RCTs, n=44,224 | Small benefit | RR 0.90 (0.82-0.99) | moderate (Cochrane rated high; benefit depends on fortification status) | [PMID:28816346] [PMID:38432716] [PMID:39155933] |
+| Stroke, primary prevention in hypertensive adults without fortification (folic acid 0.8 mg + enalapril) | CSPPT RCT, n=20,702 | Benefit | HR 0.79 (0.68-0.93) first stroke | moderate | [PMID:25771069] |
+| Stroke, secondary prevention | VITATOPS RCT, n=8,164 | Null/borderline | Composite RR 0.91 (0.82-1.00) | moderate | [PMID:20688574] |
+| Myocardial infarction, all-cause mortality | Cochrane MA, 12 and 11 RCTs | No effect | MI RR 1.02 (0.95-1.10); death RR 1.01 (0.96-1.06) | high | [PMID:28816346] [PMID:16531613] |
+| Major CV events / CV mortality in CHD | MA, 13 studies, n=14,539 | No effect (lower restenosis) | CV mortality RR 0.96 (0.85-1.07); restenosis RR 0.65 (0.44-0.95) | moderate | [PMID:41615824] |
+| Global cognition, older adults | MA, 17 RCTs, n=5,275 | Very small benefit | g 0.11 (0.03-0.19) after excluding outliers/single-blind trials; g 0.42 overall, very low GRADE | moderate | [PMID:40966571] [PMID:34432056] |
+| Cognition where food is folic-acid fortified | MA of RCTs | No effect | SMD 0.03 (-0.06 to 0.13) fortified vs 0.27 (0.13-0.40) non-fortified | low | [PMID:39064642] |
+| Brain atrophy in MCI | VITACOG RCT, n=168 MRI | Benefit | Atrophy 0.76%/y vs 1.08%/y; 53% lower if tHcy >13 umol/L | low (single trial) | [PMID:20838622] [PMID:26757190] |
+| Stress (healthy/at-risk adults, >=3 B vitamins) | MA, 12 RCTs | Small benefit | Stress SMD 0.23 (0.02-0.45) | low | [PMID:31527485] [PMID:21905094] |
+| Depressive symptoms (general/at-risk populations) | MA of B-complex RCTs | Non-significant trend | SMD 0.15 (-0.01 to 0.32) | low | [PMID:31527485] |
+| Anxiety | MA of B-complex RCTs | No effect | SMD 0.03 (-0.13 to 0.20) | low | [PMID:31527485] |
+| Depressive disorder, folate adjunct to antidepressants | Network MA, 192 trials | Possible benefit | Folate + antidepressant SMD 0.64 (0.17-1.10) | low | [PMID:40314175] |
+| Post-stroke major depression | VITATOPS-DEP RCT, n=273 | Benefit | Adjusted HR 0.48 (0.31-0.76) | low | [PMID:20976769] |
+| Methotrexate GI/hepatic toxicity in RA (folic/folinic acid) | SR of 6 RCTs, n=624 | Benefit (protective) | GI AEs RR 0.74 (0.59-0.92); transaminase elevation RR 0.23 (0.15-0.34) | moderate | [PMID:24737913] |
+| Blood pressure (riboflavin alone) | Cochrane 2025, 4 RCTs | Uncertain | SBP MD -1.94 mmHg (-5.74 to 1.86); DBP MD -3.03 (-5.97 to -0.09) | very low | [PMID:41123035] |
+
+** Dosing in trials
+- VITACOG (MCI, 24 months): folic acid 0.8 mg + B12 0.5 mg + B6 20 mg daily [PMID:20838622].
+- HOPE-2 (vascular disease or diabetes, about 5 years): folic acid 2.5 mg + B6 50 mg + B12 1 mg daily [PMID:16531613] [PMID:19228852].
+- VITATOPS (recent stroke/TIA, median 3.4 years): folic acid 2 mg + B6 25 mg + B12 0.5 mg daily [PMID:20688574] [PMID:20976769].
+- CSPPT (hypertension, median 4.5 years): folic acid 0.8 mg + enalapril 10 mg as a single pill [PMID:25771069].
+- Stroke dose-response MA: folic acid <=0.8 mg/d and B12 <=0.4 mg/d appeared most effective in non- or partially fortified regions (RR 0.65, 0.48-0.86) [PMID:38432716].
+- Mood/stress: high-dose B-complex for 90 days in a work-stress RCT (n=60) [PMID:21905094].
+- High-dose single-B mood RCTs:
+  - B6 100 mg/day (pyridoxine) or B12 1,000 ug for 1 month [PMID:42569537] [PMID:35851507].
+  - These B6 doses are about 8x the EFSA UL and are for short durations only.
+- Methotrexate co-therapy: low-dose folic or folinic acid (starting dose <=7 mg/week) [PMID:24737913].
+- Hemodialysis cognition RCT: thiamine 90 mg + folic acid 30 mg daily for 96 weeks [PMID:42059045].
+
+** Safety & adverse effects
+- In large trials, serious adverse events were not increased:
+  - Cochrane: SAE RR 1.07 (1.00-1.14) [PMID:28816346]
+  - VITATOPS: no unexpected serious adverse reactions [PMID:20688574]
+  - HOPE-2: more hospitalisations for unstable angina (RR 1.24, 1.04-1.49) [PMID:16531613]
+- *Vitamin B6 peripheral neuropathy* (main safety concern for high-B6 complexes):
+  - Excess B6 causes a predominantly sensory, axonal neuropathy that tends to improve after the supplement is stopped [PMID:37447150].
+  - EFSA (2023) set the adult UL at 12 mg/day, including pregnancy and lactation. This was based on a reference point of 50 mg/day from a case-control study and vigilance data, with an uncertainty factor of 4 for the inverse dose/time-to-onset relationship [PMID:37207271].
+  - Netherlands: in 2018 the maximum daily dose in supplements was capped at 21 mg/day. Neuropathy reports then fell, but cases at lower doses were still reported. Dose explained only 15% of the variability in plasma B6 [PMID:39888171].
+  - Australia (TGA): products containing >=50 mg pyridoxine are being rescheduled to Schedule 3 (pharmacist only), and products above 100 mg were withdrawn in 2023 [PMID:42503003].
+  - Australian sales data for 2022-2025 show large volumes of >=50 mg products and frequent stacking of several products [PMID:42503003].
+  - B6 neuropathy is among the prominent supplement adverse events in older-adult case reports [PMID:39747809].
+- *Niacin*:
+  - Immediate-release nicotinic acid commonly causes flushing. Sustained-release formulations are associated with hepatotoxicity [PMID:12240702].
+  - LiverTox: high doses and certain formulations cause aminotransferase elevations and clinically apparent acute liver injury, which can be severe or fatal [PMID:31643504].
+  - Observational/mechanistic (2024): the terminal niacin metabolites 2PY and 4PY were associated with 3-year MACE (4PY adjusted HR about 1.9-2.0), and 4PY induced VCAM-1 in mice [PMID:38374343]. Causality in humans is unproven.
+- *Folic acid and B12 deficiency*:
+  - High-dose folic acid can correct the anemia of B12 deficiency while neurological damage progresses ("masking"). It may also worsen B12 status. This evidence is largely correlative [PMID:38987872].
+  - Folic acid product labeling states that doses above 0.1-0.4 mg/day may obscure pernicious anemia [URL:https://api.fda.gov/drug/label.json?search=set_id:%22025fee85-53a8-4161-a806-44fd95d0ca74%22].
+- *Riboflavin*: harmless bright yellow urine. Oral riboflavin 400 mg reliably intensified urine yellow colour in an RCT [PMID:30633139].
+- *Mendelian randomization (genetic-observational, 2025)*: mixed associations of genetically predicted B6, B12 and folate with neuropsychiatric disorders, some protective and some adverse [PMID:39952338]. This is not evidence about supplementation.
+
+** Contraindications
+- Pernicious anemia or untreated B12 deficiency: folic-acid-containing products are labelled as contraindicated or improper as sole therapy because they may obscure the diagnosis [URL:https://api.fda.gov/drug/label.json?search=set_id:%22025fee85-53a8-4161-a806-44fd95d0ca74%22] [PMID:38987872].
+- Existing peripheral neuropathy or prior B6-associated neuropathy: avoid high-B6 products [PMID:37447150] [PMID:37207271].
+- Active liver disease: avoid pharmacologic-dose nicotinic acid, especially sustained-release forms [PMID:31643504] [PMID:12240702].
+- Upcoming immunoassay testing (thyroid, troponin, hormones): disclose high-dose biotin to the laboratory [PMID:31473202].
+
+** Interactions
+*** Drugs
+- Levodopa: per the carbidopa/levodopa label, pyridoxine 10-25 mg orally may reverse levodopa's effects by speeding peripheral decarboxylation, and carbidopa inhibits this action [URL:https://api.fda.gov/drug/label.json?search=set_id:%22015bc056-ee86-4006-ae7c-689b95e566f4%22]. The interaction mainly matters for levodopa without a decarboxylase inhibitor.
+- Methotrexate (low-dose, RA): folic or folinic acid is used intentionally to reduce GI and hepatic toxicity and MTX withdrawal [PMID:24737913].
+- Phenytoin:
+  - Phenytoin lowers serum folate.
+  - Folic acid supplementation in folate-deficient patients can lower phenytoin levels, with possible seizure breakthrough [PMID:8520091].
+  - The phenytoin label lists folic acid among drugs that may decrease phenytoin levels [URL:https://api.fda.gov/drug/label.json?search=set_id:%22035a8d4e-2063-4240-83cb-d7eebcabe301%22].
+- Metformin: higher risk of B12 deficiency (RR 2.09, 1.49-2.93) and lower serum B12 (MD -63.7 pmol/L), depending on dose and duration [PMID:30615306].
+- Proton pump inhibitors: modestly higher odds of B12 deficiency (OR 1.42, 1.16-1.73), with heterogeneous evidence [PMID:37060552].
+- Antiplatelet therapy: in HOPE-2, the stroke benefit was larger in participants not taking antiplatelet or lipid-lowering drugs at enrolment (subgroup analysis) [PMID:19228852].
+
+*** Other supplements
+- Fish oil (omega-3): in VITACOG, the B-vitamin cognitive benefit was seen only with good baseline omega-3 (DHA) status (post hoc) [PMID:26757190].
+- Stacking: taking several B6-containing products is common and can push total intake above ULs [PMID:42503003].
+- Biotin: stand-alone biotin added to a B complex raises the risk of assay interference [PMID:35953126].
+
+*** Conditions
+- Pernicious anemia / B12 deficiency (see Contraindications) [PMID:38987872].
+- Peripheral neuropathy [PMID:37447150].
+- Food folic acid fortification: benefits on stroke and cognition were seen mainly in non-fortified populations [PMID:38432716] [PMID:39064642] [PMID:39155933].
+- Chronic kidney disease on dialysis: an RCT of thiamine + folic acid showed improved cognition [PMID:42059045].
+
+*** Lab-test interference
+- Biotin and biotin-streptavidin immunoassays:
+  - Falsely low TSH and troponin (sandwich formats); falsely high free T4/T3 (competitive formats). This can mimic Graves' disease [PMID:35953126] [PMID:31473202].
+  - Roche hs-cTnT showed a negative bias of 24% at serum biotin 50 ug/L and 97% at 500 ug/L [PMID:30429682].
+  - The US FDA received 92 reports of suspected biotin interference from 2016 [PMID:31473202].
+  - The 2026 ETA thyroid guideline lists biotin as a pharmaceutical interferent [PMID:42466561].
+  - Reviews flag thyroid and troponin tests specifically [PMID:41278416].
+- Riboflavin causes bright yellow urine, a visual change only [PMID:30633139].
+
+** Genotype notes
+- MTHFR C677T in CSPPT [PMID:29371246]:
+  - Homocysteine lowering with 0.8 mg folic acid varied by genotype.
+  - TT carriers had a steeper L-shaped homocysteine-folate curve and needed serum folate of at least about 15 ng/mL to remove the genotype difference in homocysteine.
+  - The trial randomized participants stratified by MTHFR genotype [PMID:25771069].
+- MTHFR and riboflavin: the 2025 Cochrane review planned an MTHFR C677T subgroup analysis, but the overall evidence on riboflavin and blood pressure is very uncertain [PMID:41123035].
+- Claims that 5-MTHF "overcomes" MTHFR polymorphisms come from a narrative review, not outcome trials [PMID:24494987].
+
+** Latest research
+- [2026-08] Depress Anxiety RCT (n=267, 1 month): pyridoxine 100 mg/day reduced DASS depression scores vs placebo or B12 only in participants with at least mild baseline depression (n=58; partial eta-squared 0.20). There was no effect on anxiety or stress. The dose is about 8x the EFSA UL [PMID:42569537].
+- [2026-08] ETA guideline on immunoassay interference in thyroid function testing names biotin among pharmaceutical interferents [PMID:42466561].
+- [2026-07] Australian sales analysis (2022-2025): 16.75% of B6 product units were >=50 mg, and multiple/duplicate purchases were frequent. TGA rescheduling of >=50 mg products to pharmacist-only is pending [PMID:42503003].
+- [2026-04] Hemodialysis RCT (n=215, 96 weeks): thiamine 90 mg + folic acid 30 mg improved ADAS-Cog vs placebo and lowered homocysteine [PMID:42059045].
+- [2026-01] MA in coronary heart disease (13 studies, n=14,539): combined B vitamins lowered homocysteine (MD -2.36 umol/L) and restenosis (RR 0.65), with no effect on MACE or CV mortality [PMID:41615824].
+- [2025-12] Nutr Rev MA (17 RCTs, n=5,275, age >=60): B6/B9/B12 gave a very small benefit on global cognition (g 0.11, high certainty after removing outliers and single-blind trials) [PMID:40966571].
+- [2025-10] Cochrane: riboflavin alone for BP, very low-certainty evidence [PMID:41123035].
+- [2025-09] RCT in cerebral small-vessel-disease cognitive impairment (n=220, 6 months): folic acid 0.8 mg/day improved MoCA and MMSE vs placebo and lowered homocysteine [PMID:40945966].
+- [2025-07] VITACOG metabolomics: B vitamins reprogrammed TCA-cycle and glutamate metabolism [PMID:40684250].
+- [2025-05] Network MA of nutraceuticals for depression: folate as an adjunct to antidepressants SMD 0.64 [PMID:40314175].
+- [2025-02] Dutch pharmacovigilance: after the 21 mg/day cap on B6, reports involving high doses largely disappeared, but low-dose cases persisted [PMID:39888171].
+- [2025-02] Mendelian randomization meta-analysis: heterogeneous B-vitamin associations with neuropsychiatric disorders [PMID:39952338].
+- [2024-08] MA of folic acid for primary stroke prevention: overall RR 0.92 (0.80-1.05); RR 0.78 (0.68-0.89) in non-fortified areas [PMID:39155933].
+- [2024-07] MA: folate-based B-vitamin benefit on cognition only in countries without mandatory fortification [PMID:39064642].
+- [2024-06] Review: excess folic acid may mask or exacerbate B12 deficiency; vigilance advised in at-risk groups [PMID:38987872].
+- [2024-03] MA: combined B vitamins reduced stroke 34% in non-fortified areas, with no benefit in fortified areas [PMID:38432716].
+- [2024-02] Nat Med: niacin terminal metabolites 2PY/4PY were associated with MACE (observational plus mouse mechanistic work) [PMID:38374343].
+
+** Open questions
+- Whether full eight-vitamin B complexes add anything beyond B6/B9/B12 for cognition or vascular outcomes. Most outcome RCTs did not test full complexes.
+- Whether B vitamins delay conversion from MCI to dementia, and whether omega-3 status modifies the effect. VITACOG findings were post hoc and await confirmation [PMID:26757190].
+- The safe chronic B6 dose. Neuropathy is reported below 50 mg/day, and plasma levels correlate poorly with dose [PMID:39888171] [PMID:37207271].
+- Clinical significance of niacin metabolites (4PY) for routine niacin/niacinamide intake [PMID:38374343].
+- Whether genotype-guided (MTHFR) folate dosing improves hard outcomes [PMID:29371246].
+- Not verified: official TGA, FDA and NIH ODS web pages could not be fetched (403/404/timeouts). The TGA scheduling details and the FDA biotin communication are cited via peer-reviewed secondary sources only.
+
+** Sources
+1. Kennedy DO. B Vitamins and the Brain: Mechanisms, Dose and Efficacy--A Review. Nutrients. 2016. PMID:26828517 DOI:10.3390/nu8020068
+2. Scaglione F, et al. Folate, folic acid and 5-methyltetrahydrofolate are not the same thing. Xenobiotica. 2014. PMID:24494987 DOI:10.3109/00498254.2013.845705
+3. Smith AD, et al. Homocysteine-lowering by B vitamins slows the rate of accelerated brain atrophy in mild cognitive impairment: a randomized controlled trial. PLoS One. 2010. PMID:20838622 DOI:10.1371/journal.pone.0012244
+4. Oulhaj A, et al. Omega-3 Fatty Acid Status Enhances the Prevention of Cognitive Decline by B Vitamins in Mild Cognitive Impairment. J Alzheimers Dis. 2016. PMID:26757190 DOI:10.3233/JAD-150777
+5. Kacerova T, et al. Role of B vitamins in modulating homocysteine and metabolic pathways linked to brain atrophy: Metabolomics insights from the VITACOG trial. Alzheimers Dement. 2025. PMID:40684250 DOI:10.1002/alz.70521
+6. Wang Z, et al. B vitamins and prevention of cognitive decline and incident dementia: a systematic review and meta-analysis. Nutr Rev. 2022. PMID:34432056 DOI:10.1093/nutrit/nuab057
+7. Berg J, et al. Efficacy of B Vitamin Supplementation on Global Cognitive Function in Older Adults: A Systematic Review and Meta-analysis. Nutr Rev. 2025. PMID:40966571 DOI:10.1093/nutrit/nuaf155
+8. Zhang L, et al. A Comparative Study Evaluating the Effectiveness of Folate-Based B Vitamin Intervention on Cognitive Function of Older Adults under Mandatory Folic Acid Fortification Policy. Nutrients. 2024. PMID:39064642 DOI:10.3390/nu16142199
+9. Marti-Carvajal AJ, et al. Homocysteine-lowering interventions for preventing cardiovascular events. Cochrane Database Syst Rev. 2017. PMID:28816346 DOI:10.1002/14651858.CD006612.pub5
+10. Zhang N et al. Dosage exploration of combined B-vitamin supplementation in stroke prevention: a meta-analysis and systematic review. Am J Clin Nutr. 2024. PMID:38432716 DOI:10.1016/j.ajcnut.2023.12.021
+11. Yang J et al. Folic acid for the primary prevention of stroke: a systematic review and meta-analysis. Front Nutr. 2024. PMID:39155933 DOI:10.3389/fnut.2024.1288417
+12. Guo L et al. Combined B-vitamin supplementation on homocysteine and vascular outcomes in coronary heart disease: a meta-analysis. Ann Med. 2026. PMID:41615824 DOI:10.1080/07853890.2026.2622208
+13. Lonn E, et al (HOPE 2 Investigators). Homocysteine lowering with folic acid and B vitamins in vascular disease. N Engl J Med. 2006. PMID:16531613 DOI:10.1056/NEJMoa060900
+14. Saposnik G, et al. Homocysteine-lowering therapy and stroke risk, severity, and disability: additional findings from the HOPE 2 trial. Stroke. 2009. PMID:19228852 DOI:10.1161/STROKEAHA.108.529503
+15. VITATOPS Trial Study Group. B vitamins in patients with recent transient ischaemic attack or stroke in the VITATOPS trial. Lancet Neurol. 2010. PMID:20688574 DOI:10.1016/S1474-4422(10)70187-3
+16. Almeida OP, et al. B-vitamins reduce the long-term risk of depression after stroke: The VITATOPS-DEP trial. Ann Neurol. 2010. PMID:20976769 DOI:10.1002/ana.22189
+17. Huo Y, et al. Efficacy of folic acid therapy in primary prevention of stroke among adults with hypertension in China: the CSPPT randomized clinical trial. JAMA. 2015. PMID:25771069 DOI:10.1001/jama.2015.2274
+18. Huang X et al. MTHFR Gene and Serum Folate Interaction on Serum Homocysteine Lowering: Prospect for Precision Folic Acid Treatment. Arterioscler Thromb Vasc Biol. 2018. PMID:29371246 DOI:10.1161/ATVBAHA.117.310211
+19. Young LM, et al. A Systematic Review and Meta-Analysis of B Vitamin Supplementation on Depressive Symptoms, Anxiety, and Stress. Nutrients. 2019. PMID:31527485 DOI:10.3390/nu11092232
+20. Stough C, et al. The effect of 90 day administration of a high dose vitamin B-complex on work stress. Hum Psychopharmacol. 2011. PMID:21905094 DOI:10.1002/hup.1229
+21. Cheng YC, et al. Comparative efficacy and tolerability of nutraceuticals for depressive disorder: A systematic review and network meta-analysis. Psychol Med. 2025. PMID:40314175 DOI:10.1017/S0033291725000996
+22. Ye M et al. Causal relationship between B vitamins and neuropsychiatric disorders: A systematic review and meta-analysis. Neurosci Biobehav Rev. 2025. PMID:39952338 DOI:10.1016/j.neubiorev.2025.106068
+23. Field DT, et al. High-dose Vitamin B6 supplementation reduces anxiety and strengthens visual surround suppression. Hum Psychopharmacol. 2022. PMID:35851507 DOI:10.1002/hup.2852
+24. Field DT et al. High Dose Vitamin B6 Reduces Depression Symptoms. Depress Anxiety. 2026. PMID:42569537 DOI:10.1155/da/8926512
+25. Liu Y et al. Folic acid supplementation improves cognitive function in participants with cerebral small vascular disease-related cognitive impairment: a randomized controlled trial. J Prev Alzheimers Dis. 2026. PMID:40945966 DOI:10.1016/j.tjpad.2025.100369
+26. Xie K et al. Thiamin plus folic acid in the treatment of cognitive impairment in patients undergoing maintenance hemodialysis. Ren Fail. 2026. PMID:42059045 DOI:10.1080/0886022X.2026.2658981
+27. Muhamad R et al. The Role of Vitamin B6 in Peripheral Neuropathy: A Systematic Review. Nutrients. 2023. PMID:37447150 DOI:10.3390/nu15132823
+28. EFSA NDA Panel, Turck D, et al. Scientific opinion on the tolerable upper intake level for vitamin B6. EFSA J. 2023. PMID:37207271 DOI:10.2903/j.efsa.2023.8006
+29. van Hunsel F, et al. Impact of Regulatory Action on Dose Maximalization for Vitamin B6 Dietary Supplements on the Reporting Pattern for Neuropathy. Pharmacoepidemiol Drug Saf. 2025. PMID:39888171 DOI:10.1002/pds.70108
+30. Chan WJ, et al. Vitamin B6: too much, too little, too late? An analysis of sales trends in Australia from 2023 to 2025. Intern Med J. 2026. PMID:42503003 DOI:10.1111/imj.70589
+31. Shahverdian A et al. Dietary Supplement Safety in Older Adults: A Review of Published Case Reports. Sr Care Pharm. 2025. PMID:39747809 DOI:10.4140/TCP.n.2025.32
+32. LiverTox. Niacin. NIDDK; 2020. PMID:31643504
+33. Pieper JA. Understanding niacin formulations. Am J Manag Care. 2002. PMID:12240702
+34. Ferrell M, et al. A terminal metabolite of niacin promotes vascular inflammation and contributes to cardiovascular disease risk. Nat Med. 2024. PMID:38374343 DOI:10.1038/s41591-023-02793-8
+35. Miller JW et al. Excess Folic Acid and Vitamin B12 Deficiency: Clinical Implications? Food Nutr Bull. 2024. PMID:38987872 DOI:10.1177/03795721241229503
+36. Dasgupta A. Immunoassay design and biotin interference. Adv Clin Chem. 2022. PMID:35953126 DOI:10.1016/bs.acc.2022.03.005
+37. Bowen R et al. Best practices in mitigating the risk of biotin interference with laboratory testing. Clin Biochem. 2019. PMID:31473202 DOI:10.1016/j.clinbiochem.2019.08.012
+38. Schrapp A et al. Biotin and high-sensitivity cardiac troponin T assay. Biochem Med (Zagreb). 2018. PMID:30429682 DOI:10.11613/BM.2018.030901
+39. Campi I et al. 2026 ETA guideline on interference in immunoassay measurements used in assessment of thyroid function. Eur Thyroid J. 2026. PMID:42466561 DOI:10.1530/ETJ-26-0011
+40. Shing V et al. Benefits and risks of hair, skin, and nail supplements in older adults. Int J Womens Dermatol. 2025. PMID:41278416 DOI:10.1097/JW9.0000000000000236
+41. Stitely ML et al. Oral Riboflavin to Assess Ureteral Patency During Cystoscopy: A Randomized Clinical Trial. Obstet Gynecol. 2019. PMID:30633139 DOI:10.1097/AOG.0000000000003063
+42. Bradbury KE et al. Riboflavin supplements for blood pressure lowering in adults. Cochrane Database Syst Rev. 2025. PMID:41123035 DOI:10.1002/14651858.CD015464.pub2
+43. Shea B, et al. Folic acid and folinic acid for reducing side effects in patients receiving methotrexate for rheumatoid arthritis. J Rheumatol. 2014. PMID:24737913 DOI:10.3899/jrheum.130738
+44. Lewis DP, et al. Phenytoin-folic acid interaction. Ann Pharmacother. 1995. PMID:8520091 DOI:10.1177/106002809502907-816
+45. Yang W et al. Associations between metformin use and vitamin B12 levels, anemia, and neuropathy in patients with diabetes: a meta-analysis. J Diabetes. 2019. PMID:30615306 DOI:10.1111/1753-0407.12900
+46. Choudhury A et al. Vitamin B12 deficiency and use of proton pump inhibitors: a systematic review and meta-analysis. Expert Rev Gastroenterol Hepatol. 2023. PMID:37060552 DOI:10.1080/17474124.2023.2204229
+47. FDA drug label (openFDA), Carbidopa and Levodopa, set_id 015bc056-ee86-4006-ae7c-689b95e566f4. URL:https://api.fda.gov/drug/label.json?search=set_id:%22015bc056-ee86-4006-ae7c-689b95e566f4%22
+48. FDA drug label (openFDA), Phenytoin Sodium, set_id 035a8d4e-2063-4240-83cb-d7eebcabe301. URL:https://api.fda.gov/drug/label.json?search=set_id:%22035a8d4e-2063-4240-83cb-d7eebcabe301%22
+49. FDA drug label (openFDA), Integra F (iron + folic acid), set_id 025fee85-53a8-4161-a806-44fd95d0ca74. URL:https://api.fda.gov/drug/label.json?search=set_id:%22025fee85-53a8-4161-a806-44fd95d0ca74%22

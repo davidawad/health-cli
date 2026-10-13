@@ -1,0 +1,161 @@
+* Vitamin C
+:PROPERTIES:
+:ID: supp-vitamin-c
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: ascorbic acid | L-ascorbic acid | ascorbate | sodium ascorbate | calcium ascorbate | Ester-C | liposomal vitamin C | IV vitamin C | pharmacological ascorbate
+:CATEGORY: vitamin
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Water-soluble essential vitamin (L-ascorbic acid). The adult RDA is 90 mg/day for men and 75 mg/day for women. People who smoke need 35 mg/day more. The adult UL is 2,000 mg/day (ages 19+, including pregnancy and lactation), and it does not apply to medically supervised treatment [URL:https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/].
+- Supplement forms: ascorbic acid (most common; bioavailability equivalent to food ascorbate), sodium ascorbate, calcium ascorbate and other mineral ascorbates, ascorbic acid with bioflavonoids, and combinations such as Ester-C (calcium ascorbate plus dehydroascorbate, threonate and other metabolites). Head-to-head data on these forms are sparse. One study found no plasma difference between ascorbic acid, Ester-C and ascorbic acid with bioflavonoids. Another found higher leukocyte but equal plasma levels with Ester-C. ODS considers plain ascorbic acid the preferred source [URL:https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/].
+- Alternative oral forms: a 2025 systematic review (13 studies, healthy adults) found more favourable plasma concentrations with alternative forms in 7 studies and better GI tolerability for calcium ascorbate-EC. No study measured tissue retention [PMID:39861409]. In a single-dose crossover study, liposomal vitamin C was 1.77 times more bioavailable (AUC/Cmax) than non-liposomal vitamin C [PMID:32901526]. This is small, short-term pharmacokinetic evidence with no clinical-outcome data.
+- Intravenous (IV) vitamin C is a prescription product (e.g. Ascor). Its label lists a maximum recommended duration of one week and adult nutritional doses of 200 mg/day [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=388aad52-fc01-4784-9791-1dbc80c69306]. "Pharmacological ascorbate" in oncology and sepsis trials uses grams per dose (see Dosing).
+
+** Mechanisms
+- Absorption is saturable. About 70-90% is absorbed at 30-180 mg/day, but less than 50% above 1 g/day. Oral 1.25 g/day gives a mean peak plasma level of about 135 micromol/L. Modelling predicts only about 220 micromol/L even with 3 g every 4 hours [URL:https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/].
+- IV administration can reach plasma concentrations up to about 26,000 micromol/L. These levels are selectively cytotoxic to tumour cells in vitro, possibly via a pro-oxidant (H2O2-generating) mechanism. This is mechanistic and animal evidence [URL:https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/].
+- Enhances non-heme iron absorption (reduction and chelation of Fe3+). In iron-depleted women, 80 mg ascorbic acid increased fractional absorption of a 100 mg iron dose by 30%, and 500 mg gave no further gain [PMID:37357807].
+- It is a reducing agent, so it interferes with redox-based assays (glucose-oxidase/peroxidase strips and meters, urine dipsticks, guaiac) [PMID:29479748][PMID:1200528][URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=388aad52-fc01-4784-9791-1dbc80c69306].
+- Ascorbate is partly metabolised to oxalate. Urinary acidification may precipitate oxalate, urate or cystine stones [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=388aad52-fc01-4784-9791-1dbc80c69306].
+- Proposed anti-inflammatory effects in sepsis were not seen in biomarker data from the LOVIT trial (no discernible anti-inflammatory effect) [PMID:39774855].
+
+** Evidence summary by outcome
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Common cold incidence (general population) | Cochrane SR/MA, 29 comparisons, n=11,306 | No effect | RR 0.97 (0.94-1.00) | high | [PMID:23440782] |
+| Common cold incidence (heavy physical stress) | Cochrane subgroup, 5 RCTs, n=598 | Benefit | RR 0.48 (0.35-0.64) | moderate | [PMID:23440782] |
+| Common cold duration (regular supplementation) | Cochrane, 31 comparisons, 9,745 episodes | Benefit (modest) | -8% adults, -14% children | moderate | [PMID:23440782] |
+| Common cold severity | MA of 15 comparisons/10 RCTs (>=1 g/day) | Benefit (modest) | -15% (9-21%) | moderate | [PMID:38082300][PMID:39803741] |
+| Common cold, therapeutic (started at onset) | Cochrane, 7 comparisons | Inconsistent / no consistent effect | not significant | low | [PMID:23440782][PMID:39803741] |
+| Sepsis on vasopressors (IV, 50 mg/kg q6h) | LOVIT RCT n=872 | Harm signal | death or persistent organ dysfunction RR 1.21 (1.04-1.40) | moderate | [PMID:35704292] |
+| Sepsis mortality (IV, pooled) | 2026 SR/MA 14 RCTs n=1,958; umbrella review 31 SRs | Possible benefit only in single-centre trials | RR 0.70 (0.53-0.93); not seen in multicentre/low-RoB trials | low | [PMID:42761050][PMID:42384633] |
+| Sepsis organ dysfunction (early ED IV 1.5 g q6h) | C-EASIE RCT n=292 | No significant effect | SOFA ratio 0.91 (0.77-1.08) | moderate | [PMID:40269974] |
+| Blood pressure | MA 20 RCTs n=890 (2023); MA 29 RCTs (2012) | Small reduction | SBP -3.0 mmHg (-4.7 to -1.3); SBP -3.84, DBP -1.48 mmHg | low-moderate | [PMID:37791386][PMID:22492364] |
+| Endothelial function (FMD etc.) | MA 44 RCTs; MA of >2-week trials | Improvement | SMD 0.50 (0.34-0.66); SMD 0.25 (0.02-0.49) for chronic oral | low | [PMID:24792921][PMID:25919436] |
+| Serum uric acid | MA 16 RCTs n=1,013; RCT 2026 n=40 | Reduction | significant reduction (pooled WMD not reported in abstract); 600 mg/day lowered SUA | low | [PMID:34280483][PMID:41739218] |
+| Iron absorption (with oral iron) | Stable-isotope study n=34; balance RCT | Increase | +30% FIA with 80 mg; 38% vs 27% apparent absorption with 1.5 g/day | moderate | [PMID:37357807][PMID:2321571] |
+| Metastatic pancreatic cancer (IV 75 g 3x/week + chemo) | Randomised phase II n=36 | Benefit (preliminary) | OS 16 vs 8.3 months, HR 0.46 (90% CI 0.23-0.92) | low | [PMID:39369582] |
+| Metastatic CRPC (IV 1 g/kg + docetaxel) | Placebo-controlled phase II n=47, stopped for futility | No benefit | PSA50 41% vs 33% (P=0.44); OS HR 1.98 (0.85-4.58) | low | [PMID:39076107] |
+| All-cause mortality (oral or IV, mixed populations) | MA 44 RCTs n=26,540 | Possible reduction, not confirmed by TSA | RR 0.87 (0.78-0.97) | low | [PMID:37111066] |
+
+** Dosing in trials
+- Common cold prevention and duration: regular supplementation of at least 0.2 g/day in Cochrane-eligible trials, and at least 1 g/day for severity effects. Two therapeutic trials found 6-8 g/day roughly twice as effective as 3-4 g/day for duration [PMID:23440782][PMID:38082300][PMID:39803741].
+- Blood pressure: median 500 mg/day for a median of 8 weeks (2012 MA). Median 757.5 mg/day for 6 weeks (2023 MA) [PMID:22492364][PMID:37791386].
+- Endothelial function: 500-2,000 mg/day orally in longer trials [PMID:25919436].
+- Uric acid: 600 mg/day for 2 weeks [PMID:41739218].
+- Iron co-administration: 80 mg ascorbic acid was as effective as 500 mg [PMID:37357807].
+- Sepsis (IV): 50 mg/kg every 6 h for up to 96 h (LOVIT) [PMID:35704292]. 1.5 g every 6 h for 4 days (C-EASIE) [PMID:40269974]. The umbrella review's monotherapy signal was at 25-100 mg/kg/day, started within 24 h, for 3-4 days [PMID:42384633].
+- Oncology (IV): 75 g three times weekly (pancreatic) [PMID:39369582]. 1 g/kg (prostate) [PMID:39076107].
+
+** Safety & adverse effects
+- Oral: low toxicity. High doses cause diarrhoea, nausea, abdominal cramps and other GI upset. The adult UL is 2,000 mg/day [URL:https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/].
+- Kidney stones (oral): in three US cohorts (156,735 women, 40,536 men), total vitamin C of at least 1,000 mg/day was associated with stones in men (HR 1.43, 1.15-1.79). Supplemental intake of at least 1,000 mg/day also carried risk in men (HR 1.19, 1.01-1.40). Neither was associated with stones in women [PMID:26463139]. A meta-analysis of 4 studies likewise found an association in men but not women [PMID:30178451].
+- Oxalate nephropathy: in a single-centre biopsy series, supplement-associated oxalate nephropathy rose from 0% to 44% of cases during the COVID-19 pandemic, linked to vitamin C and other supplements. Many patients had pre-existing CKD (49%) or diabetes (57%) [PMID:36120391]. The IV label warns of acute and chronic oxalate nephropathy with prolonged high doses [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=388aad52-fc01-4784-9791-1dbc80c69306].
+- Hemolysis in G6PD deficiency: a meta-summary of 14 case reports found 71.4% had G6PD deficiency. Doses were 1-200 g/day and 57.1% were IV, with AKI, DIC and methemoglobinemia also reported [PMID:35712748]. The label recommends a reduced dose and monitoring of hemoglobin [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=388aad52-fc01-4784-9791-1dbc80c69306].
+- IV high-dose harms: a scoping review of 74 studies (2,801 recipients) found no consistent excess harm vs placebo in double-blind RCTs. It did report cases of oxalate nephropathy, hypernatremia, hemolysis in G6PD deficiency and glucometer error [PMID:32404636]. LOVIT reported one severe hypoglycaemic episode and one anaphylaxis event in the vitamin C arm [PMID:35704292]. A 2026 systematic review names oxalate nephropathy and G6PD hemolysis as the major risks and suggests pre-screening [PMID:41815850].
+- Iron overload: in hereditary hemochromatosis, chronic high doses may exacerbate iron overload [URL:https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/].
+
+** Contraindications
+- G6PD deficiency: avoid high-dose (especially IV) vitamin C; risk of severe hemolysis [PMID:35712748][URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=388aad52-fc01-4784-9791-1dbc80c69306].
+- Hereditary hemochromatosis / iron overload: avoid chronic high doses [URL:https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/].
+- Renal impairment, history of oxalate stones or hyperoxaluria: higher risk of oxalate nephropathy [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=388aad52-fc01-4784-9791-1dbc80c69306][URL:https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/][PMID:36120391].
+- Septic shock on vasopressors: IV vitamin C monotherapy is not supported (LOVIT harm signal) [PMID:35704292][PMID:42384633].
+
+** Interactions
+*** Drugs
+- Statins plus niacin (HATS): an antioxidant cocktail (vitamins E and C, beta-carotene, selenium) blunted the HDL2 response to simvastatin-niacin (HDL2-C +42% vs 0%) and attenuated angiographic benefit [PMID:11757504][PMID:11498460]. ODS advises lipid monitoring [URL:https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/].
+- Chemotherapy and radiotherapy: controversial. Antioxidants might protect tumour cells from radiation and agents such as cyclophosphamide, chlorambucil, carmustine, busulfan, thiotepa and doxorubicin, but this evidence is contested [URL:https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/]. Bleomycin is inactivated by ascorbic acid in vitro [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=388aad52-fc01-4784-9791-1dbc80c69306]. By contrast, IV ascorbate has been studied as an intended chemotherapy adjunct (see Evidence) [PMID:39369582][PMID:39076107].
+- Warfarin: case reports describe warfarin resistance (subtherapeutic INR) that resolved after ascorbic acid was stopped [PMID:23592361][PMID:38738175]. The IV label notes no effect at up to 1,000 mg/day for 2 weeks and advises standard INR monitoring [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=388aad52-fc01-4784-9791-1dbc80c69306].
+- Amphetamine, fluphenazine and other urine-pH-sensitive drugs: urinary acidification may lower serum levels [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=388aad52-fc01-4784-9791-1dbc80c69306].
+- Certain antibiotics (erythromycin, kanamycin, streptomycin, doxycycline, lincomycin): the IV label states decreased activity [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=388aad52-fc01-4784-9791-1dbc80c69306].
+- Levothyroxine: a pilot RCT (n=11) of 1 g/day in hypothyroid patients needing high-dose levothyroxine found a signal of TSH and symptom improvement. It had severe baseline imbalance, so treat as hypothesis-generating [PMID:41210509].
+- Aluminium antacids and estrogens (ethinylestradiol): older reports exist, but no abstract or full text could be opened, so no claim is made.
+
+*** Other supplements
+- Iron: synergy. It increases non-heme iron absorption, and 80 mg is enough [PMID:37357807][PMID:2321571]. This is undesirable in iron overload (see Conditions).
+- Antioxidant combinations: combining vitamins C and E abolished the endothelial-function benefit seen with either alone (SMD 0.12, NS) [PMID:25919436]. Antioxidant mixtures blunted HDL response to niacin [PMID:11498460].
+- Niacin: see HATS above [PMID:11757504].
+
+*** Conditions
+- Hemochromatosis / iron overload: avoid high doses [URL:https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/].
+- G6PD deficiency: hemolysis with high-dose or IV use [PMID:35712748][PMID:32404636].
+- Kidney stones (especially men) and hyperoxaluria; chronic kidney disease: oxalate risk [PMID:26463139][PMID:30178451][PMID:36120391].
+- Sepsis/septic shock: IV monotherapy is not recommended outside trials [PMID:35704292][PMID:42384633][PMID:40269974].
+- Gout/hyperuricemia: a modest SUA-lowering effect may be relevant [PMID:34280483][PMID:41739218].
+
+*** Lab-test interference
+- Point-of-care glucose meters: during and after IV vitamin C (66 mg/kg/h in burn patients), all 7 patients had falsely elevated POC glucose, with discrepancies of 10-200 mg/dL. The authors advise avoiding POC glucose testing during and after infusion [PMID:25127026]. Susceptibility varies by meter [PMID:36332153]. The label says to delay redox-based tests until 24 h after infusion [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=388aad52-fc01-4784-9791-1dbc80c69306].
+- Urine dipsticks: ascorbic acid causes false-negative glucose, hemoglobin (blood), nitrite and bilirubin results. The size of the interference varies between dipstick brands [PMID:29479748].
+- Guaiac fecal occult blood test: ascorbic acid inhibits the pseudoperoxidase reaction, giving false negatives [PMID:1200528]. A systematic review advises withholding it before guaiac FOBT [PMID:22972722].
+
+** Genotype notes
+- SLC23A1 (SVCT1) rs33972313: each minor allele was associated with about 6 micromol/L lower circulating ascorbate (-5.98; 95% CI -8.23 to -3.73) in pooled data from more than 15,000 participants [PMID:20519558]. No genotype-guided dosing evidence exists.
+- G6PD deficiency (an inherited enzymopathy) raises hemolysis risk with high doses [PMID:35712748].
+
+** Latest research
+- [2026-09] Updated meta-analysis (14 RCTs, n=1,958) of IV vitamin C in sepsis: 28-day mortality RR 0.70 (0.53-0.93). The benefit was driven by single-centre trials and absent in multicentre low-risk-of-bias trials [PMID:42761050].
+- [2026-07] Umbrella review of 31 SRs: HAT and vitamin C plus thiamine combinations do not reduce mortality. There is a possible monotherapy signal (started within 24 h, 25-100 mg/kg/day), but routine use is not supported [PMID:42384633].
+- [2026-02] HesperidrinC crossover RCT (n=40): 600 mg/day vitamin C, but not hesperidin, lowered serum uric acid without changing urinary excretion [PMID:41739218].
+- [2026-01] Systematic review of high-dose IV vitamin C: no support for routine use in sepsis; the oncology role is exploratory. It highlights oxalate nephropathy and G6PD hemolysis [PMID:41815850].
+- [2025-10] Pilot RCT (n=11) in hypothyroid patients on high-dose levothyroxine: possible symptom and TSH benefit; very small and imbalanced [PMID:41210509].
+- [2025-04] C-EASIE RCT (n=292): early ED IV vitamin C did not significantly reduce organ dysfunction in sepsis [PMID:40269974].
+- [2025-01] LOVIT biomarker sub-study: no sepsis subtype benefited, harm varied by subtype, and there was no discernible anti-inflammatory effect [PMID:39774855].
+- [2025-01] Hemilä review: 6-8 g/day therapeutic dosing may outperform 3-4 g/day for cold duration (2 trials) [PMID:39803741].
+- [2025-01] SR of alternative oral forms (liposomal, calcium ascorbate-EC): some PK advantages, limited outcome data [PMID:39861409].
+- [2024-11] Randomised phase II trial in metastatic pancreatic cancer: IV ascorbate plus gemcitabine/nab-paclitaxel gave OS of 16 vs 8.3 months [PMID:39369582].
+- [2024-08] Placebo-controlled phase II in mCRPC: IV vitamin C plus docetaxel was futile, with a numerically worse OS [PMID:39076107].
+- [2024-04] Case report of warfarin resistance attributed to ascorbic acid [PMID:38738175].
+
+** Open questions
+- Whether IV vitamin C monotherapy benefits any sepsis subgroup (early, non-shock, deficient) given LOVIT harm and single-centre-driven benefit.
+- Whether the pancreatic cancer phase II survival signal replicates in adequately powered phase III trials.
+- Long-term effects of oral supplementation on blood pressure and cardiovascular events (trials are short).
+- Clinical relevance of liposomal and other enhanced forms beyond plasma pharmacokinetics.
+- Stone risk threshold in men and the role of baseline oxalate handling.
+- Aluminium-antacid and estrogen interactions remain unverified here (sources not accessible).
+
+** Sources
+1. Hemilä H et al. Vitamin C for preventing and treating the common cold. Cochrane Database Syst Rev. 2013. PMID:23440782 DOI:10.1002/14651858.CD000980.pub4
+2. Hemilä H et al. Vitamin C reduces the severity of common colds: a meta-analysis. BMC Public Health. 2023. PMID:38082300 DOI:10.1186/s12889-023-17229-8
+3. Hemilä H et al. Vitamin C for the common cold and pneumonia. Pol Arch Intern Med. 2025. PMID:39803741 DOI:10.20452/pamw.16926
+4. Lamontagne F et al. Intravenous Vitamin C in Adults with Sepsis in the Intensive Care Unit (LOVIT). N Engl J Med. 2022. PMID:35704292 DOI:10.1056/NEJMoa2200644
+5. Cai B et al. Intravenous vitamin C as micronutrient therapy in patients with sepsis or septic shock: updated SR/MA of RCTs. Front Nutr. 2026. PMID:42761050 DOI:10.3389/fnut.2026.1905726
+6. Vera-Ponce VJ et al. Monotherapy or combinations? IV vitamin C in sepsis and septic shock: umbrella review of 31 SRs. PLoS One. 2026. PMID:42384633 DOI:10.1371/journal.pone.0351072
+7. Vandervelden S et al. Early administration of vitamin C in patients with sepsis or septic shock in emergency departments. Crit Care. 2025. PMID:40269974 DOI:10.1186/s13054-025-05383-x
+8. Rynne J et al. Sepsis subtypes and differential treatment response to vitamin C. Intensive Care Med. 2025. PMID:39774855 DOI:10.1007/s00134-024-07733-9
+9. Xu C et al. Association of Oral or Intravenous Vitamin C Supplementation with Mortality: SR/MA. Nutrients. 2023. PMID:37111066 DOI:10.3390/nu15081848
+10. Lbban E et al. Vitamin C supplementation showed greater effects on SBP in hypertensive and diabetic patients: updated SR/MA. Int J Food Sci Nutr. 2023. PMID:37791386 DOI:10.1080/09637486.2023.2264549
+11. Juraschek SP et al. Effects of vitamin C supplementation on blood pressure: MA of RCTs. Am J Clin Nutr. 2012. PMID:22492364 DOI:10.3945/ajcn.111.027995
+12. Ashor AW et al. Effect of vitamin C on endothelial function in health and disease: SR/MA. Atherosclerosis. 2014. PMID:24792921 DOI:10.1016/j.atherosclerosis.2014.04.004
+13. Ashor AW et al. Effect of vitamin C and vitamin E supplementation on endothelial function: SR/MA. Br J Nutr. 2015. PMID:25919436 DOI:10.1017/S0007114515000227
+14. Liu XX et al. Association between oral vitamin C supplementation and serum uric acid: MA of RCTs. Complement Ther Med. 2021. PMID:34280483 DOI:10.1016/j.ctim.2021.102761
+15. Enderle J et al. Effect of vitamin C and hesperidin on serum uric acid (HesperidrinC trial). Eur J Nutr. 2026. PMID:41739218 DOI:10.1007/s00394-026-03905-z
+16. Ferraro PM et al. Total, dietary, and supplemental vitamin C intake and risk of incident kidney stones. Am J Kidney Dis. 2016. PMID:26463139 DOI:10.1053/j.ajkd.2015.09.005
+17. Jiang K et al. Ascorbic acid supplements and kidney stones incidence among men and women: SR/MA. Urol J. 2019. PMID:30178451 DOI:10.22037/uj.v0i0.4275
+18. von Siebenthal HK et al. Effect of dietary factors and time of day on iron absorption from oral iron supplements in iron deficient women. Am J Hematol. 2023. PMID:37357807 DOI:10.1002/ajh.26987
+19. Hunt JR et al. Ascorbic acid: effect on ongoing iron absorption and status in iron-depleted young women. Am J Clin Nutr. 1990. PMID:2321571 DOI:10.1093/ajcn/51.4.649
+20. Bodeker KL et al. A randomized trial of pharmacological ascorbate, gemcitabine, and nab-paclitaxel for metastatic pancreatic cancer. Redox Biol. 2024. PMID:39369582 DOI:10.1016/j.redox.2024.103375
+21. Paller CJ et al. High-dose IV vitamin C combined with docetaxel in mCRPC: randomized placebo-controlled phase II. Cancer Res Commun. 2024. PMID:39076107 DOI:10.1158/2767-9764.CRC-24-0225
+22. Alangari A et al. Clinical benefits and risks of high-dose intravenous vitamin C: a systematic review. J Med Life. 2026. PMID:41815850 DOI:10.25122/jml-2025-0176
+23. Sartor Z et al. The effects of intravenous vitamin C on point-of-care glucose monitoring. J Burn Care Res. 2015. PMID:25127026 DOI:10.1097/BCR.0000000000000142
+24. Albloui F et al. Effect of hematocrit, galactose and ascorbic acid on the blood glucose readings of three point-of-care glucometers. Scand J Clin Lab Invest. 2022. PMID:36332153
+25. Juneja D et al. Vitamin C-induced hemolysis: meta-summary and review of literature. Indian J Crit Care Med. 2022. PMID:35712748 DOI:10.5005/jp-journals-10071-24111
+26. Yanase F et al. Harm of IV high-dose vitamin C therapy in adult patients: a scoping review. Crit Care Med. 2020. PMID:32404636 DOI:10.1097/CCM.0000000000004396
+27. Konrad G et al. Are medication restrictions before FOBT necessary? Systematic review. Can Fam Physician. 2012. PMID:22972722
+28. Jaffe RM et al. False-negative stool occult blood tests caused by ingestion of ascorbic acid. Ann Intern Med. 1975. PMID:1200528 DOI:10.7326/0003-4819-83-6-824
+29. Unic A et al. Ascorbic acid - a black hole of urine chemistry screening. J Clin Lab Anal. 2018. PMID:29479748 DOI:10.1002/jcla.22390
+30. Gao P et al. Ascorbic acid-induced warfarin resistance after breast cancer surgery: case report and literature review. Front Pharmacol. 2024. PMID:38738175 DOI:10.3389/fphar.2024.1390996
+31. Sattar A et al. Possible warfarin resistance due to interaction with ascorbic acid. Am J Health Syst Pharm. 2013. PMID:23592361 DOI:10.2146/ajhp110704
+32. Brown BG et al. Simvastatin and niacin, antioxidant vitamins, or the combination for the prevention of coronary disease (HATS). N Engl J Med. 2001. PMID:11757504 DOI:10.1056/NEJMoa011090
+33. Cheung MC et al. Antioxidant supplements block the response of HDL to simvastatin-niacin therapy. Arterioscler Thromb Vasc Biol. 2001. PMID:11498460 DOI:10.1161/hq0801.095151
+34. Timpson NJ et al. Genetic variation at the SLC23A1 locus is associated with circulating L-ascorbic acid. Am J Clin Nutr. 2010. PMID:20519558 DOI:10.3945/ajcn.2010.29438
+35. Calder PC et al. Enhanced vitamin C delivery: SR of alternative supplement forms in healthy adults. Nutrients. 2025. PMID:39861409 DOI:10.3390/nu17020279
+36. Gopi S et al. Evaluation and clinical comparison of liposomal and non-liposomal ascorbic acid bioavailability. J Liposome Res. 2021. PMID:32901526 DOI:10.1080/08982104.2020.1820521
+37. Agha A et al. Vitamin C supplementation in patients with hypothyroidism requiring high-dose levothyroxine: pilot study. Front Endocrinol. 2025. PMID:41210509 DOI:10.3389/fendo.2025.1679835
+38. Fong P et al. Increased rates of supplement-associated oxalate nephropathy during COVID-19 pandemic. Kidney Int Rep. 2022. PMID:36120391 DOI:10.1016/j.ekir.2022.09.002
+39. NIH Office of Dietary Supplements. Vitamin C - Health Professional Fact Sheet (updated 2025-07-31; read via web.archive.org snapshot because ods.od.nih.gov returned 403). URL:https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/
+40. FDA label, ASCOR (ascorbic acid injection), DailyMed set 388aad52-fc01-4784-9791-1dbc80c69306. URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=388aad52-fc01-4784-9791-1dbc80c69306

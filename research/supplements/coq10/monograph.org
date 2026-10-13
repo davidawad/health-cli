@@ -1,0 +1,150 @@
+* CoQ10
+:PROPERTIES:
+:ID: supp-coq10
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: Coenzyme Q10 | ubiquinone | ubiquinol | ubidecarenone | CoQ10 | Q10
+:CATEGORY: other
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+** Identity & forms
+- Coenzyme Q10 (ubiquinone, ubidecarenone) is a fat-soluble molecule sold as a non-prescription nutritional supplement [PMID:35608922] [PMID:9621803].
+- It exists in all human cell membranes in two interconvertible forms: oxidized ubiquinone and reduced ubiquinol [PMID:41789786].
+- Bioavailability depends heavily on formulation. In a 14-person crossover of seven 100 mg products, the best-absorbed were soft-gel capsules of either ubiquinone or ubiquinol. Carrier matrix and additives such as vitamin C changed absorption, and individuals varied widely in response [PMID:30153575].
+- Ubiquinol vs ubiquinone: a 12-subject crossover (2026) found a cocrystal ubiquinol soft gel had higher bioavailability than a ubiquinone reference. The baseline-corrected Cmax ratio was 2.20 (90% CI 1.59-3.04) and the AUC0-t ratio was 2.01 (1.51-2.70) [PMID:41789786]. This is a single small, formulation-specific comparison and does not show a general superiority of ubiquinol across products. The 2019 crossover found the top ubiquinone and ubiquinol soft gels comparable [PMID:30153575].
+- Raising plasma levels does not necessarily raise tissue levels. In older adults, 400 mg/day for 12 weeks increased plasma CoQ10 but not muscle or mitochondrial CoQ10 [PMID:41604113].
+
+** Mechanisms
+- Electron carrier in the mitochondrial respiratory chain, coenzyme for mitochondrial enzymes, and antioxidant. It may stabilise calcium-dependent ion channels in heart muscle (background rationale in the Cochrane review) [PMID:35608922].
+- Myocardial CoQ10 levels are low in heart failure and correlate with severity. This is the rationale for Q-SYMBIO [PMID:25282031].
+- Statins lower circulating CoQ10. Across placebo-controlled RCTs the weighted mean difference (WMD) was -0.44 umol/L, seen with atorvastatin, simvastatin, rosuvastatin and pravastatin and with both lipophilic and hydrophilic statins [PMID:26192349]. A 2018 update (12 RCTs, n=1776) gave a standardized mean difference (SMD) of -2.12, unrelated to statin intensity or duration [PMID:30414615]. This is the proposed basis for statin-associated muscle symptoms (SAMS), but it is not proven to be causal.
+- CoQ10 is chemically similar to vitamin K, which was proposed to explain a reduced warfarin response [PMID:9621803]. In vitro (rat and human liver microsomes), CoQ10 activated warfarin hydroxylation. The authors predicted about a 32% (S) and 17% (R) increase in warfarin clearance with 100 mg CoQ10 (mechanistic/in vitro extrapolation) [PMID:15853759].
+- Ubiquinol supplementation (300 mg/day, 6 weeks) improved an index of oxidative phosphorylation coupling efficiency in muscle but did not change exercise tolerance [PMID:42249931].
+
+** Evidence summary by outcome
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Heart failure: all-cause mortality / HF hospitalisation | Cochrane SR (11 RCTs, n=1573); Q-SYMBIO RCT (n=420); 2024 MA of 33 RCTs | Benefit | Cochrane: mortality RR 0.58 (0.35-0.95; 1 trial), HF hospitalisation RR 0.62 (0.49-0.78; 2 trials). Q-SYMBIO MACE HR 0.50 (0.32-0.80). 2024 MA: mortality RR 0.64 (0.48-0.85), HF hospitalisation RR 0.50 (0.37-0.67) | moderate (mortality signal rests largely on one 420-patient trial) | [PMID:35608922] [PMID:25282031] [PMID:39462324] |
+| Heart failure: LVEF, exercise capacity, NYHA | Cochrane SR; 2024 MAs | Small or uncertain benefit | Cochrane LVEF MD +1.77% (0.09-3.44, very low certainty). 6MWT inconclusive (Cochrane) vs +31.7 m (19.96-43.43) in 2024 MA. Ubiquinol-focused MA: no significant LVEF change | low | [PMID:35608922] [PMID:39462324] [PMID:39049769] |
+| Statin-associated muscle symptoms (pain) | 4 MAs of small RCTs, conflicting | Conflicting | 2018 MA (12 RCTs, n=575): pain WMD -1.60 (-1.75 to -1.44). 2020 MA (7 RCTs, n=321): WMD -0.42 (-1.47 to 0.62), no effect on statin continuation (RR 0.99). 2025 MA (7 RCTs, n=389): WMD -0.96 (-1.88 to -0.03). No effect on CK | low | [PMID:30371340] [PMID:32179207] [PMID:41158831] |
+| Blood pressure, primary hypertension | Cochrane SR (2 pooled RCTs, n=50) | No clinically significant effect | SBP -3.68 mmHg (-8.86 to 1.49); DBP -2.03 (-4.86 to 0.81) | moderate (per Cochrane) | [PMID:26935713] |
+| Blood pressure, cardiometabolic disease | GRADE-assessed dose-response MA (26 studies, n=1831) | Modest SBP reduction | SBP -4.77 mmHg (-6.57 to -2.97). U-shaped dose-response, largest at about 100-200 mg/day | moderate (SBP), low (DBP) | [PMID:36130103] |
+| Migraine prophylaxis (frequency) | MAs of 4-6 RCTs; 2026 network MA (14 RCTs) | Benefit on frequency | -1.52 attacks/month (-2.40 to -0.65); -1.87 (-2.69 to -1.05); network MA -1.91 (-2.51 to -1.00). No consistent effect on severity | low to moderate | [PMID:33402403] [PMID:30727862] [PMID:42707444] |
+| Female fertility (diminished ovarian reserve, IVF/ICSI) | MA of 6 RCTs (n=1529); 2026 RCT (n=100) | Benefit on surrogate and pregnancy outcomes in MA | Clinical pregnancy OR 1.84 (1.33-2.53); oocytes +1.30; miscarriage OR 0.38 (0.15-0.98). 2026 RCT: more oocytes, but pregnancy rates not different | low | [PMID:39129455] [PMID:41800295] |
+| Male infertility | SR/MA of 50 RCTs (2025); network MA (2025) | Improves sperm parameters; no proven effect on pregnancy/live birth | CoQ10 improved motility; no supplement improved pregnancy or live birth (GRADE low/very low). NMA: CoQ10 gave the largest sperm-concentration gain | low (sperm), very low (live birth) | [PMID:40431450] [PMID:40813743] |
+| Primary mitochondrial disease | Cochrane SR (12 trials) | No clinically meaningful benefit shown | One high-dose CoQ10 trial (n=30): no clinically meaningful improvement | very low | [PMID:22513923] |
+| Primary CoQ10 deficiency (genetic) | GeneReviews expert overview | Standard targeted therapy | High-dose oral CoQ10 is the targeted treatment (no RCT effect size) | low | [PMID:28125198] |
+| Parkinson's disease progression | QE3 phase III RCT (n=600); MA of 5 RCTs (n=981) | No benefit (futility) | UPDRS worsening 6.9 (placebo) vs 7.5 (1200 mg) vs 8.0 (2400 mg). MA total UPDRS SMD -0.05 (ns) | high | [PMID:24664227] [PMID:26553164] |
+| Exercise-induced muscle damage / performance | GRADE dose-response MA (28 RCTs, n=830); RCTs 2025-2026 | Lower damage markers; little or no performance effect | CK -50.64 IU/L; LDH -52.10 IU/L; MDA -0.73 umol/L. Older adults on HIIT: better chair-stand only. 400 mg/12 wk: no change in VO2max or mitochondrial function | low | [PMID:38479900] [PMID:41470903] [PMID:41604113] [PMID:42249931] |
+| Glycemic control | MA of 39 RCTs (2026); umbrella review of 8 MAs (2026) | Small FBG reduction; HbA1c inconsistent | FBG -7.33 mg/dL (-10.67 to -3.99); HbA1c -0.12% (-0.28 to 0.03, ns) | very low | [PMID:41630501] [PMID:41859772] |
+| Depressive symptoms | MA of 5 RCTs (n=474, 2026) | Benefit | SMD -0.68 (-1.02 to -0.33); fatigue ns | low | [PMID:41294251] |
+| CV mortality in elderly (combined with selenium) | KiSel-10 RCT (n=443) | Benefit (combination only) | CV mortality 5.9% vs 12.6% over 5.2 years | low (single trial, combination, selenium-deficient population) | [PMID:22626835] [PMID:40563319] |
+
+** Dosing in trials
+- Heart failure (Q-SYMBIO): 100 mg three times daily (300 mg/day) for 2 years on top of standard therapy [PMID:25282031].
+- SAMS: 100-600 mg/day for 30-90 days [PMID:41158831].
+- Blood pressure: greatest SBP reduction at about 100-200 mg/day (dose-response MA) [PMID:36130103].
+- Parkinson's (QE3): 1200 or 2400 mg/day (with vitamin E 1200 IU/day) for up to 16 months. Well tolerated [PMID:24664227].
+- Exercise/ageing: 400 mg/day for 12 weeks [PMID:41604113]. Ubiquinol 300 mg/day for 6 weeks [PMID:42249931]. Each additional 100 mg/day was associated with further lowering of CK and LDH [PMID:38479900].
+- Warfarin interaction RCT: 100 mg/day for 4 weeks [PMID:12772396]. Doxorubicin co-administration trial: 300 mg/day [PMID:41261512].
+- Formulation matters (soft gel, lipid carrier) [PMID:30153575].
+
+** Safety & adverse effects
+- Observed safe level (OSL) risk assessment: safety evidence is strong up to 1200 mg/day. Higher doses have been tested without adverse effects, but the data are insufficient for confident conclusions. GI effects such as nausea showed no dose-response between 60 and 1200 mg/day [PMID:16814438].
+- No serious side effects reported. Mild insomnia or digestive upset may occur [URL:https://www.nccih.nih.gov/health/coenzyme-q10]. NCI PDQ lists mild insomnia at 100 mg/day or more, plus nausea, dizziness, headache and fatigue [URL:https://www.cancer.gov/about-cancer/treatment/cam/hp/coenzyme-q10-pdq].
+- 1200-2400 mg/day for 16 months was safe and well tolerated in early Parkinson's disease [PMID:24664227]. Q-SYMBIO reported long-term 300 mg/day as safe [PMID:25282031]. In the 2021 Cochrane review, adverse-event risk was inconclusive (RR 0.70, 0.45-1.10) [PMID:35608922].
+
+** Contraindications
+- No absolute contraindications identified in the cited sources.
+- Caution during cytotoxic chemotherapy or radiotherapy. In an observational breast cancer cohort (SWOG S0221), any antioxidant use (including CoQ10) before and during chemotherapy was associated with a borderline higher recurrence hazard: adjHR 1.41 (0.98-2.04) [PMID:31855498]. NCCIH notes CoQ10 "may not be compatible with some types of cancer treatment" [URL:https://www.nccih.nih.gov/health/coenzyme-q10].
+
+** Interactions
+*** Drugs
+- Warfarin: case reports of reduced warfarin response that resolved after CoQ10 was stopped [PMID:9621803]. In vitro, CoQ10 increased warfarin hydroxylation, with a predicted clearance increase [PMID:15853759]. However, a randomized double-blind crossover in 24 stable patients (100 mg/day, 4 weeks) found no change in INR or warfarin dose [PMID:12772396]. NCI PDQ and NCCIH both flag the interaction [URL:https://www.cancer.gov/about-cancer/treatment/cam/hp/coenzyme-q10-pdq] [URL:https://www.nccih.nih.gov/health/coenzyme-q10]. Assessment: monitor INR when starting or stopping.
+- Statins: statins lower plasma CoQ10 [PMID:26192349] [PMID:30414615]. Co-supplementation for SAMS has conflicting evidence [PMID:30371340] [PMID:32179207] [PMID:41158831], and NCCIH concludes the overall evidence does not support it [URL:https://www.nccih.nih.gov/health/coenzyme-q10].
+- Antihypertensives: possible additive modest SBP lowering in cardiometabolic patients [PMID:36130103]. The effect was not clinically significant in primary hypertension [PMID:26935713]. This interaction is theoretical; no interaction trials were found.
+- Insulin / glucose-lowering drugs: NCCIH lists a possible interaction with insulin [URL:https://www.nccih.nih.gov/health/coenzyme-q10]. MAs show a small fasting-glucose reduction [PMID:41630501].
+- Chemotherapy (antineoplastics): antioxidant-efficacy concern (observational) [PMID:31855498] [URL:https://www.cancer.gov/about-cancer/treatment/cam/hp/coenzyme-q10-pdq]. Doxorubicin specifically: a phase I crossover found no clinically significant pharmacokinetic interaction at 300 mg/day, but it was very small (n=6) and closed early [PMID:41261512]. NCI PDQ describes small studies of reduced anthracycline cardiotoxicity [URL:https://www.cancer.gov/about-cancer/treatment/cam/hp/coenzyme-q10-pdq].
+*** Other supplements
+- Selenium: combined selenium + CoQ10 for 5 years in selenium-deficient Swedish elderly reduced CV mortality (5.9% vs 12.6%) and NT-proBNP [PMID:22626835]. A 10-year sex-stratified follow-up (2025) found greater benefit in women [PMID:40563319]. Evidence comes from the combination; neither component was tested alone.
+- No cited interaction with Vitamin D-3 or other batch supplements was found.
+*** Conditions
+- Heart failure: adjunct with moderate-certainty mortality and hospitalisation benefit [PMID:35608922] [PMID:39462324]. Not a guideline-standard therapy; NCCIH calls the evidence inconclusive [URL:https://www.nccih.nih.gov/health/coenzyme-q10].
+- Primary CoQ10 deficiency: high-dose oral CoQ10 is the targeted therapy [PMID:28125198].
+- Active cancer treatment: see Contraindications [PMID:31855498].
+- Parkinson's disease: no disease-modifying benefit [PMID:24664227].
+*** Lab-test interference
+- No cited assay interference found. Statins and supplementation change plasma CoQ10 levels themselves [PMID:26192349] [PMID:36130103].
+
+** Genotype notes
+- Primary CoQ10 deficiency is a group of genetic disorders (defects in CoQ10 biosynthesis genes), managed with high-dose oral CoQ10 [PMID:28125198]. No cited pharmacogenomic source on response to supplementation in the general population was found.
+
+** Latest research
+- [2026-08] Network MA (14 RCTs, 791 participants): CoQ10 reduced migraine frequency by -1.91 attacks/month vs placebo. It was not superior to other supplements and did not reduce severity or duration [PMID:42707444].
+- [2026-09] RCT, healthy males (n=54): ubiquinol 300 mg/day for 6 weeks raised plasma CoQ10 and improved a coupling-efficiency index, with no change in exercise tolerance or VO2 kinetics [PMID:42249931].
+- [2026-03] RCT, poor ovarian responders (n=100): CoQ10 increased oocyte yield and peak E2, but chemical and clinical pregnancy rates did not differ [PMID:41800295].
+- [2026-03] Crossover PK (n=12): cocrystal ubiquinol had about 2x the AUC of a ubiquinone reference [PMID:41789786].
+- [2026-03] Umbrella review of 8 MAs: CoQ10 lowered fasting glucose. HbA1c, HOMA-IR and insulin results were inconsistent [PMID:41859772].
+- [2026-02] MA of 39 RCTs: FBG -7.33 mg/dL; HbA1c effect non-significant; very low certainty [PMID:41630501].
+- [2026-01] RCT, older adults (n=40, 400 mg/day for 12 weeks): plasma CoQ10 rose, but muscle and mitochondrial CoQ10, mitochondrial function, VO2max and glucose homeostasis were unchanged [PMID:41604113].
+- [2026-01] MA of 5 RCTs: depressive symptoms SMD -0.68; no effect on fatigue [PMID:41294251].
+- [2025-12] RCT, adults aged 65-75 doing HIIT (n=38): CoQ10 improved chair-stand outcomes only [PMID:41470903].
+- [2025-11] Phase I crossover: 300 mg/day CoQ10 did not change doxorubicin pharmacokinetics (n=6; closed early) [PMID:41261512].
+- [2025-10] SAMS MA (7 RCTs, n=389): pain WMD -0.96 (-1.88 to -0.03), a marginal benefit [PMID:41158831].
+- [2025-09] Network MA, male infertility: CoQ10 gave the largest sperm-concentration gain [PMID:40813743].
+- [2025-06] KiSel-10 10-year follow-up: selenium + CoQ10 CV survival benefit, larger in women [PMID:40563319].
+- [2025-05] SR/MA of 50 RCTs, male infertility: CoQ10 improved motility, with no effect on pregnancy or live birth for any supplement [PMID:40431450].
+- [2024-10] HF MA of 33 RCTs: mortality RR 0.64, HF hospitalisation RR 0.50 (GRADE moderate) [PMID:39462324].
+- [2024-08] DOR IVF/ICSI MA of 6 RCTs: clinical pregnancy OR 1.84 [PMID:39129455].
+
+** Open questions
+- Heart-failure benefit rests mainly on Q-SYMBIO (n=420). No large, independent confirmatory outcome trial was found.
+- SAMS: pooled results flip with trial selection. No trials of adequate size used objective statin-rechallenge designs.
+- Clinical relevance of ubiquinol vs ubiquinone given poor plasma-to-tissue transfer [PMID:41604113].
+- Whether CoQ10 compromises chemotherapy or radiotherapy efficacy in humans (observational signal only).
+- Pregnancy and lactation safety: no cited source was found.
+- The warfarin interaction is inconsistent: case reports conflict with a small null RCT.
+
+** Sources
+1. Xu J et al. Efficacy and safety of coenzyme Q10 in heart failure: a meta-analysis of randomized controlled trials. BMC Cardiovasc Disord. 2024. PMID:39462324 DOI:10.1186/s12872-024-04232-z
+2. Al Saadi T et al. Coenzyme Q10 for heart failure. Cochrane Database Syst Rev. 2021. PMID:35608922 DOI:10.1002/14651858.CD008684.pub3
+3. Mortensen SA et al. The effect of coenzyme Q10 on morbidity and mortality in chronic heart failure: results from Q-SYMBIO. JACC Heart Fail. 2014. PMID:25282031 DOI:10.1016/j.jchf.2014.06.008
+4. Qazi SU et al. Evaluating the efficacy of ubiquinol in heart failure patients: a systematic review and meta-analysis. Future Cardiol. 2024. PMID:39049769 DOI:10.1080/14796678.2024.2352308
+5. Kovacic S et al. Effects of coenzyme Q10 supplementation on myopathy in statin-treated patients: a systematic review and meta-analysis. J Nutr Sci. 2025. PMID:41158831 DOI:10.1017/jns.2025.10043
+6. Qu H et al. Effects of Coenzyme Q10 on Statin-Induced Myopathy: An Updated Meta-Analysis of RCTs. J Am Heart Assoc. 2018. PMID:30371340 DOI:10.1161/JAHA.118.009835
+7. Kennedy C et al. Effect of Coenzyme Q10 on statin-associated myalgia and adherence to statin therapy: SR and MA. Atherosclerosis. 2020. PMID:32179207 DOI:10.1016/j.atherosclerosis.2020.03.006
+8. Banach M et al. Statin therapy and plasma coenzyme Q10 concentrations: SR and MA of placebo-controlled trials. Pharmacol Res. 2015. PMID:26192349 DOI:10.1016/j.phrs.2015.07.008
+9. Qu H et al. The effect of statin treatment on circulating coenzyme Q10 concentrations: an updated MA of RCTs. Eur J Med Res. 2018. PMID:30414615 DOI:10.1186/s40001-018-0353-6
+10. Ho MJ et al. Blood pressure lowering efficacy of coenzyme Q10 for primary hypertension. Cochrane Database Syst Rev. 2016. PMID:26935713 DOI:10.1002/14651858.CD007435.pub3
+11. Zhao D et al. Dose-Response Effect of Coenzyme Q10 Supplementation on Blood Pressure among Patients with Cardiometabolic Disorders (GRADE-assessed SR/MA). Adv Nutr. 2022. PMID:36130103 DOI:10.1093/advances/nmac100
+12. Sazali S et al. Coenzyme Q10 supplementation for prophylaxis in adult patients with migraine: a meta-analysis. BMJ Open. 2021. PMID:33402403 DOI:10.1136/bmjopen-2020-039358
+13. Parohan M et al. Effect of coenzyme Q10 supplementation on clinical features of migraine: SR and dose-response MA. Nutr Neurosci. 2020. PMID:30727862 DOI:10.1080/1028415X.2019.1572940
+14. Peng J et al. Nutritional supplements for migraine prevention: network meta-analysis, trial sequential analysis, and meta-regression. Front Nutr. 2026. PMID:42707444 DOI:10.3389/fnut.2026.1911863
+15. Parkinson Study Group QE3 Investigators (Beal MF et al.). A randomized clinical trial of high-dosage coenzyme Q10 in early Parkinson disease: no evidence of benefit. JAMA Neurol. 2014. PMID:24664227 DOI:10.1001/jamaneurol.2014.131
+16. Negida A et al. Coenzyme Q10 for Patients with Parkinson's Disease: SR and MA. CNS Neurol Disord Drug Targets. 2016. PMID:26553164 DOI:10.2174/1871527314666150821103306
+17. Pfeffer G et al. Treatment for mitochondrial disorders. Cochrane Database Syst Rev. 2012. PMID:22513923 DOI:10.1002/14651858.CD004426.pub3
+18. Salviati L et al. Primary Coenzyme Q10 Deficiency Overview. GeneReviews. 2017 (updated 2023). PMID:28125198
+19. Lin G et al. Clinical evidence of coenzyme Q10 pretreatment for women with diminished ovarian reserve undergoing IVF/ICSI: SR and MA. Ann Med. 2024. PMID:39129455 DOI:10.1080/07853890.2024.2389469
+20. Michaelsen MP et al. The Effect of Dietary Supplements on Male Infertility in Terms of Pregnancy, Live Birth, and Sperm Parameters: SR and MA. Nutrients. 2025. PMID:40431450 DOI:10.3390/nu17101710
+21. Niu C et al. Effects of Carnitine and Coenzyme Q10 on Sperm Quality and Pregnancy Rates in Men with Unexplained Infertility: SR and network MA. Reprod Sci. 2025. PMID:40813743 DOI:10.1007/s43032-025-01958-9
+22. Abdelrahman MA et al. Coenzyme Q10 Impact on Ovarian Reserve Measures and ICSI Outcomes in Women with Poor Ovarian Response: RCT. Drug Des Devel Ther. 2026. PMID:41800295 DOI:10.2147/DDDT.S583321
+23. Talebi S et al. The effects of coenzyme Q10 supplementation on biomarkers of exercise-induced muscle damage, physical performance, and oxidative stress: GRADE-assessed SR and dose-response MA. Clin Nutr ESPEN. 2024. PMID:38479900 DOI:10.1016/j.clnesp.2024.01.015
+24. Bagheri N et al. Effects of Coenzyme Q10 Supplementation on Physical Function Adaptations to HIIT in Older Adults. Nutrients. 2025. PMID:41470903 DOI:10.3390/nu17243959
+25. Schmucker M et al. Coenzyme Q10 supplementation raises plasma levels without improving mitochondrial function in older adults. Geroscience. 2026. PMID:41604113 DOI:10.1007/s11357-025-02068-9
+26. Acton JP et al. Effect of six weeks ubiquinol supplementation on mitochondrial respiratory function and exercise capacity in healthy males. Eur J Appl Physiol. 2026. PMID:42249931 DOI:10.1007/s00421-026-06275-w
+27. Collares LDN et al. The effects of coenzyme Q10 supplementation on glycemic control in diabetic and non-diabetic individuals: SR and MA. Crit Rev Food Sci Nutr. 2026. PMID:41630501 DOI:10.1080/10408398.2026.2624477
+28. Musazadeh V et al. Effects of Coenzyme Q10 Supplementation on Glycemic Control Biomarkers: An Umbrella Review of MAs of RCTs. Endocrinol Diabetes Metab. 2026. PMID:41859772 DOI:10.1002/edm2.70182
+29. Lopez-Lluch G et al. Bioavailability of coenzyme Q10 supplements depends on carrier lipids and solubilization. Nutrition. 2019. PMID:30153575 DOI:10.1016/j.nut.2018.05.020
+30. Mei X et al. Randomized crossover study of systemic bioavailability of a novel cocrystal ubiquinol formulation vs ubiquinone in healthy adults. Clin Pharmacol Drug Dev. 2026. PMID:41789786 DOI:10.1002/cpdd.70042
+31. Hathcock JN, Shao A. Risk assessment for coenzyme Q10 (Ubiquinone). Regul Toxicol Pharmacol. 2006. PMID:16814438 DOI:10.1016/j.yrtph.2006.05.006
+32. Landbo C, Almdal TP. [Interaction between warfarin and coenzyme Q10]. Ugeskr Laeger. 1998. PMID:9621803
+33. Engelsen J et al. [Effect of Coenzyme Q10 and Ginkgo biloba on warfarin dosage in patients on long-term warfarin treatment: randomized crossover trial]. Ugeskr Laeger. 2003. PMID:12772396
+34. Zhou Q et al. Effect of coenzyme Q10 on warfarin hydroxylation in rat and human liver microsomes. Curr Drug Metab. 2005. PMID:15853759 DOI:10.2174/1389200053586091
+35. Greenlee H et al. Phase I randomized, placebo-controlled, cross-over dose-finding study of CoQ10 on doxorubicin pharmacokinetics during breast cancer treatment. Integr Cancer Ther. 2025. PMID:41261512 DOI:10.1177/15347354251388014
+36. Alehagen U et al. Cardiovascular mortality and NT-proBNP reduced after combined selenium and coenzyme Q10 supplementation: 5-year RCT among elderly Swedish citizens. Int J Cardiol. 2013. PMID:22626835 DOI:10.1016/j.ijcard.2012.04.156
+37. Alehagen U et al. Selenium and Coenzyme Q10 Supplementation and Sex Differences in Cardiovascular Mortality. Antioxidants (Basel). 2025. PMID:40563319 DOI:10.3390/antiox14060685
+38. Magalhaes PLM et al. Effects of Coenzyme Q10 Supplementation on Depressive Symptoms and Fatigue: SR and MA of RCTs. J Clin Psychopharmacol. 2026. PMID:41294251 DOI:10.1097/JCP.0000000000002112
+39. Ambrosone CB et al. Dietary Supplement Use During Chemotherapy and Survival Outcomes of Patients With Breast Cancer (SWOG S0221). J Clin Oncol. 2020. PMID:31855498 DOI:10.1200/JCO.19.01203
+40. NCCIH. Coenzyme Q10. URL:https://www.nccih.nih.gov/health/coenzyme-q10
+41. National Cancer Institute. Coenzyme Q10 (PDQ) - Health Professional Version. URL:https://www.cancer.gov/about-cancer/treatment/cam/hp/coenzyme-q10-pdq

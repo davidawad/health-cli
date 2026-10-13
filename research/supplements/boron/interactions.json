@@ -1,0 +1,246 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Boron",
+  "slug": "boron",
+  "aliases": [
+    "boron",
+    "B",
+    "boric acid",
+    "borate",
+    "sodium tetraborate (borax)",
+    "calcium fructoborate",
+    "CFB",
+    "boron citrate",
+    "boron glycinate",
+    "boron aspartate"
+  ],
+  "category": "mineral",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "very-low",
+  "edges": [
+    {
+      "with": "pregnancy",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Developmental toxicity is the critical endpoint for the boron UL (rat NOAEL 9.6 mg B/kg/day). Higher maternal serum boron is associated with smaller newborns. EFSA excluded pregnant and lactating women from its calcium fructoborate approval.",
+      "evidence": "Animal developmental toxicity, one observational birth cohort, and regulatory exclusion. Human occupational data are reassuring. Avoid supplemental boron beyond diet.",
+      "citations": [
+        "URL:https://www.nationalacademies.org/read/10026/chapter/15",
+        "PMID:27502898",
+        "PMID:34257728",
+        "PMID:32170343",
+        "PMID:37351904"
+      ]
+    },
+    {
+      "with": "lactation",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "EFSA excluded lactating women from its calcium fructoborate approval. The IOM UL (20 mg/day) still applies.",
+      "evidence": "Regulatory precaution; no human outcome data.",
+      "citations": [
+        "URL:https://www.nationalacademies.org/read/10026/chapter/15",
+        "PMID:34257728"
+      ]
+    },
+    {
+      "with": "chronic kidney disease",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Boron is cleared almost entirely by the kidneys, unchanged (half-life about 21 h). Serum boron is above control levels before haemodialysis, and boron is readily dialysable. Accumulation is expected when GFR is reduced.",
+      "evidence": "Pharmacokinetic studies and small haemodialysis cohorts; no supplementation trials in CKD.",
+      "citations": [
+        "PMID:10050928",
+        "PMID:8931348",
+        "PMID:9252976",
+        "PMID:16198928"
+      ]
+    },
+    {
+      "with": "hormone-sensitive cancers",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Boron supplementation shifted serum estradiol and testosterone and lowered SHBG in small human studies. This may matter for estrogen- or androgen-sensitive tumours. Observational data link higher dietary boron with lower prostate and lung cancer risk, so the direction of any clinical effect is unknown.",
+      "evidence": "Theoretical; based on small metabolic and uncontrolled hormone studies. No outcome data.",
+      "citations": [
+        "PMID:3678698",
+        "PMID:21129941",
+        "PMID:15010890",
+        "PMID:18343880"
+      ]
+    },
+    {
+      "with": "estrogens / menopausal hormone therapy",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Boron raised serum 17beta-estradiol in postmenopausal women. Boron deprivation blunted the estradiol and copper rise in women on estrogen therapy. Additive estrogenic exposure is possible.",
+      "evidence": "Metabolic-ward studies, n of about 12-14; clinical significance unknown (very low certainty).",
+      "citations": [
+        "PMID:3678698",
+        "PMID:7889883"
+      ]
+    },
+    {
+      "with": "testosterone / androgens",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "An uncontrolled 1-week study of 10 mg/day reported lower SHBG and higher free testosterone. A 7-week placebo-controlled trial at 2.5 mg/day found no effect.",
+      "evidence": "Conflicting very small studies; theoretical additive effect only.",
+      "citations": [
+        "PMID:21129941",
+        "PMID:7889885"
+      ]
+    },
+    {
+      "with": "Magnesium",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Boron reduced urinary magnesium and calcium loss, more so on a low-Mg diet. Boron's effect on calcium excretion depended on Mg status. Combined Mg plus boron improved bone markers more than either alone in ovariectomised rats.",
+      "evidence": "Small human metabolic-ward studies (one found no modification of Mg-deprivation effects) plus animal data; very low certainty.",
+      "citations": [
+        "PMID:3678698",
+        "PMID:9062533",
+        "PMID:15724868",
+        "PMID:41075129"
+      ]
+    },
+    {
+      "with": "Vitamin D-3",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "25(OH)D rose after 1 week of 10 mg/day boron. Boron improved Ca/Mg/P balance in vitamin D-deficient rats. This suggests a possible complementary effect on vitamin D-dependent mineral metabolism.",
+      "evidence": "One uncontrolled study (n=8) plus rat data; very low certainty.",
+      "citations": [
+        "PMID:21129941",
+        "PMID:7889882"
+      ]
+    },
+    {
+      "with": "Calcium",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Boron reduced urinary calcium excretion in postmenopausal women on low-Mg diets. Calcium fructoborate supplies a small amount of calcium (about 4.7% by weight).",
+      "evidence": "Small metabolic-ward studies; direction depended on Mg status.",
+      "citations": [
+        "PMID:3678698",
+        "PMID:9062533",
+        "PMID:34257728"
+      ]
+    },
+    {
+      "with": "boron-containing products (stacked supplements, high-boron mineral water)",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Boron from multiple sources adds up. The IOM UL is 20 mg/day for adults, lower for children; the EFSA ADI is 0.16 mg/kg bw/day. Accidental poisoning from a dietary supplement has been reported.",
+      "evidence": "Regulatory upper limits and case reports.",
+      "citations": [
+        "URL:https://www.nationalacademies.org/read/10026/chapter/15",
+        "PMID:34257728",
+        "PMID:42478460"
+      ]
+    },
+    {
+      "with": "boric acid (topical/vaginal/antiseptic products) taken orally",
+      "with_kind": "drug",
+      "kind": "contraindicated",
+      "severity": "major",
+      "mechanism": "Oral ingestion of boric acid in gram quantities causes GI toxicity, and fatalities have occurred. Boric acid products are not for oral use.",
+      "evidence": "Toxicology review and case reports.",
+      "citations": [
+        "PMID:33485927",
+        "PMID:41120974"
+      ]
+    },
+    {
+      "with": "children",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "ULs are much lower in children (3 mg at 1-3 y, 6 mg at 4-8 y, 11 mg at 9-13 y); no UL was set for infants. Paediatric boric acid ingestion is a recognised hazard.",
+      "evidence": "Official ULs (extrapolated by body weight) and case report.",
+      "citations": [
+        "URL:https://www.nationalacademies.org/read/10026/chapter/15",
+        "PMID:41120974"
+      ]
+    },
+    {
+      "with": "male infertility",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Boron causes dose-dependent testicular toxicity in rats, mice and dogs (rat NOAEL 17.5 mg B/kg/day). Highly exposed human workers showed no reproductive effects.",
+      "evidence": "Animal toxicology; human occupational studies negative. Relevant only at doses well above the UL.",
+      "citations": [
+        "PMID:32170343",
+        "PMID:37351904"
+      ]
+    },
+    {
+      "with": "blood/urine boron",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Plasma or blood boron (ICP-MS/ICP-OES) rises with supplementation and confirms exposure in suspected toxicity. Correlation with symptoms is uncertain.",
+      "evidence": "Case report and cohort/biomonitoring data; this is monitoring, not assay interference.",
+      "citations": [
+        "PMID:41120974",
+        "PMID:38244065",
+        "PMID:12428176"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:10050928",
+    "PMID:11248136",
+    "PMID:12428176",
+    "PMID:15010890",
+    "PMID:15724868",
+    "PMID:16198928",
+    "PMID:18343880",
+    "PMID:21129941",
+    "PMID:21607703",
+    "PMID:23153742",
+    "PMID:24940052",
+    "PMID:25906949",
+    "PMID:26770156",
+    "PMID:27502898",
+    "PMID:32170343",
+    "PMID:32540741",
+    "PMID:33485927",
+    "PMID:34257728",
+    "PMID:34677681",
+    "PMID:35183882",
+    "PMID:3678698",
+    "PMID:36808295",
+    "PMID:37351904",
+    "PMID:38244065",
+    "PMID:39458975",
+    "PMID:40792045",
+    "PMID:41075129",
+    "PMID:41120974",
+    "PMID:41463367",
+    "PMID:41683210",
+    "PMID:41886026",
+    "PMID:42185672",
+    "PMID:42478460",
+    "PMID:42579050",
+    "PMID:7889882",
+    "PMID:7889883",
+    "PMID:7889885",
+    "PMID:7889887",
+    "PMID:8931348",
+    "PMID:9062533",
+    "PMID:9252976",
+    "URL:https://www.nationalacademies.org/read/10026/chapter/15"
+  ]
+}

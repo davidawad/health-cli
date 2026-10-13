@@ -1,0 +1,153 @@
+* Cocoa Flavanols
+:PROPERTIES:
+:ID: supp-cocoa-flavanols
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: cocoa flavanols | cocoa extract | cocoa flavan-3-ols | (-)-epicatechin | procyanidins | CocoaVia | Theobroma cacao extract | flavanol-rich cocoa
+:CATEGORY: botanical
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+** Identity & forms
+- Cocoa flavanols are flavan-3-ols from the cacao bean (/Theobroma cacao/): the monomers (-)-epicatechin and (+)-catechin, plus oligomeric and polymeric procyanidins. Trials attribute much of the acute vascular effect to (-)-epicatechin [PMID:16418281].
+- Standardized extract used in COSMOS (Mars Edge, sold commercially as CocoaVia): 500 mg/d cocoa flavanols including 80 mg/d (-)-epicatechin [PMID:35294962] [PMID:35288332]. It also delivered about 50 mg/d theobromine and about 15 mg/d caffeine [PMID:35294962].
+- Food forms (cocoa powder, dark chocolate) vary widely in flavanol content because of processing, and they bring sugar, fat, methylxanthines and heavy metals with them. Short-term trials used 30 to 1218 mg/d flavanols delivered in 1.4 to 105 g/d of cocoa product [PMID:28439881]. Alkalized (Dutch-processed) cocoa has been used as a low-flavanol placebo [PMID:40614481].
+- Regulatory: EFSA (2012) accepted the claim "Cocoa flavanols help maintain endothelium-dependent vasodilation, which contributes to normal blood flow" at 200 mg/d cocoa flavanols, an amount it says 2.5 g of high-flavanol cocoa powder or 10 g of high-flavanol dark chocolate can provide [DOI:10.2903/j.efsa.2012.2809]. In the US these products are sold as dietary supplements (OTC).
+** Mechanisms
+- Nitric oxide and endothelial function (human acute study plus ex vivo work): flavanol-rich cocoa raised circulating NO species and FMD. Plasma (-)-epicatechin and epicatechin-7-O-glucuronide independently predicted the response, NOS inhibition abolished the effect, and pure (-)-epicatechin reproduced it [PMID:16418281].
+- Absorption and metabolism (human crossover): monomers are absorbed and appear as glucuronidated, sulfated and methylated epicatechin. Procyanidins mostly reach the colon, where gut microbiota convert them to 5-(3',4'-dihydroxyphenyl)-gamma-valerolactone. This conversion varies a lot between individuals [PMID:25546356].
+- Inflammation: in a 2-year COSMOS ancillary study, cocoa extract lowered hsCRP and raised IFN-gamma [PMID:40966617]. A meta-analysis of food-based cocoa trials found lower MDA and higher NO, with no consistent effect on CRP, IL-6 or TNF-alpha [PMID:38925412].
+- Platelets: a meta-analysis of RCTs reports beneficial effects on platelet function and arterial stiffness (PWV, AIx) [PMID:32126803]. In a small RCT, 100 g of dark chocolate (but not milk or white chocolate) inhibited collagen-induced platelet aggregation [PMID:12944249]. In contrast, a 12-week RCT of up to 2000 mg/d flavanols found no change in platelet function in healthy adults [PMID:26537937].
+- Methylxanthines: cocoa contains small amounts of caffeine and larger amounts of theobromine [PMID:30372004]. The COSMOS authors suggest these may add to the vascular and CNS effects [PMID:35294962].
+** Evidence summary by outcome
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Blood pressure (short term) | Cochrane SR/MA, 35 RCTs/40 comparisons, n=1804; 2025 flavan-3-ol MA, 145 RCTs | Benefit (small) | SBP -1.76 mmHg, DBP -1.76 mmHg (Cochrane); flavan-3-ols office -2.8/-2.0 mmHg; about -4 to -5.9 mmHg SBP when BP is elevated | moderate | [PMID:28439881] [PMID:40126033] [PMID:38931273] |
+| Incident hypertension (long term) | COSMOS RCT, n=8905 free of hypertension, median 3.4 y | Null overall | HR 0.96 (0.88-1.05); subgroup with SBP <120: HR 0.76 (0.64-0.90) | moderate | [PMID:40832703] |
+| Endothelial function (FMD) | MAs of RCTs; EFSA opinion | Benefit | FMD +1.17% (dose-response MA); +2.0% acute, +1.7% chronic (2025 MA); cocoa +1.68% (2025 whole-food MA) | moderate | [PMID:31524216] [PMID:40126033] [PMID:40972869] [DOI:10.2903/j.efsa.2012.2809] |
+| Microvascular function | SR, 19 RCTs (vote counting) | Possible benefit, inconsistent | Vasodilator responses improved mainly after acute intake in healthy people | low | [PMID:40217225] |
+| Total CVD events | COSMOS RCT, n=21,442, median 3.6 y | Non-significant trend | HR 0.90 (0.78-1.02); per-protocol HR 0.85 (0.72-0.99); win-ratio reanalysis WR 0.84 (0.72-0.99) | moderate | [PMID:35294962] [PMID:41849087] |
+| CVD death | COSMOS (secondary endpoint) | Benefit (secondary) | HR 0.73 (0.54-0.98); all-cause death HR 0.89 (0.77-1.03) | low | [PMID:35294962] [PMID:40568979] |
+| Global cognition, older adults | COSMOS-Mind (n=2262, 3 y); COSMOS-Clinic (n=573, 2 y) | Null | z 0.03 (-0.02 to 0.08); clinic -0.01 SU (-0.08 to 0.05) | moderate | [PMID:36102337] [PMID:38070683] |
+| MCI/dementia incidence | COSMOS-Mind | Null (low power) | No difference | low | [PMID:37035889] |
+| Memory in people with low habitual flavanol intake or poor diet | COSMOS-Web (n=3562); subgroups | Possible benefit in subgroups only | Prespecified primary endpoint null; memory improved in lower tertiles of diet quality and flavanol intake | low | [PMID:37252983] [PMID:38070683] |
+| Cognition, MCI (small RCT) | CoCoA RCT, n=90, 8 wk | Benefit | Faster Trail Making A/B and better verbal fluency at about 990 and 520 mg/d vs 45 mg/d | low | [PMID:22892813] |
+| Acute cognition (young adults) | Crossover RCTs, 2024-2025 | Mostly null | No effect at 415-623 mg; one RCT (n=18) found better Stroop performance under fatigue at 500 mg | low | [PMID:40614481] [PMID:39607519] [PMID:40493074] |
+| Insulin sensitivity | MA, 19 RCTs, n=1131 | Benefit (biomarkers) | HOMA-IR -0.93; fasting insulin -2.33 uIU/mL | low | [PMID:27683874] [PMID:22892813] |
+| Incident type 2 diabetes | COSMOS, n=18,381 | Null | HR 1.04 (0.91-1.20) | moderate | [PMID:37816167] |
+| Lipids | MAs of RCTs | Small benefit | TG -0.10 mmol/L, HDL +0.06 mmol/L; LDL -9.47 mg/dL (cocoa foods) | low | [PMID:27683874] [PMID:38931273] |
+| Inflammaging (hsCRP) | COSMOS ancillary, n=598, 2 y | Benefit (biomarker) | hsCRP -8.4%/y (-14.1 to -2.3); IFN-gamma +6.8%/y | low | [PMID:40966617] [PMID:38925412] |
+| Epigenetic aging clocks | COSMOS ancillary, n=958, 2 y | Null | No effect on 5 clocks | moderate | [PMID:41803341] |
+| Neurodegeneration blood biomarkers | COSMOS-Clinic, n~500 | Null | NfL +0.5%, NT1 -0.7%, oAbeta -5.9% (all NS) | low | [PMID:42775737] |
+| AMD | COSMOS ancillary | Null overall | HR 0.87 (0.71-1.08); first 2 y HR 0.77 (0.59-1.01) | low | [PMID:40146119] |
+| Venous thromboembolism | COSMOS ancillary | Null | HR 0.88 (0.72-1.08) | low | [PMID:41651011] |
+| Fractures | COSMOS ancillary | Null | aHR 1.03 (0.95-1.12) | moderate | [PMID:39964350] |
+| Walking performance in PAD | COCOA-PAD pilot RCT, n=44 | Possible benefit | 6-min walk +42.6 m at 2.5 h post-dose; +18.0 m (NS) at 24 h | low | [PMID:32078436] |
+** Dosing in trials
+- COSMOS and its ancillary studies: 500 mg/d cocoa flavanols including 80 mg (-)-epicatechin, given as capsules (with about 50 mg theobromine and 15 mg caffeine/d), median 3.6 y [PMID:35294962] [PMID:35288332].
+- BP trials: 30 to 1218 mg/d flavanols (mean 670 mg) for 2 to 18 weeks [PMID:28439881]. Flavan-3-ol MA mean intake 586 mg/d; BP lowering was dose-related to epicatechin only in cocoa studies [PMID:40126033].
+- FMD: dose-response MA suggests an inverted U, with the optimum around 710 mg total flavanols / 95 mg (-)-epicatechin [PMID:31524216]. EFSA claim dose: 200 mg/d [DOI:10.2903/j.efsa.2012.2809].
+- Higher-dose safety: up to 2000 mg/d for 12 weeks was well tolerated in healthy adults [PMID:26537937]. An ongoing pilot is testing 500 vs 1000 mg cocoa extract for migraine [URL:https://clinicaltrials.gov/study/NCT06808230].
+- PAD: 15 g cocoa with 75 mg epicatechin/d as a beverage for 6 months [PMID:32078436]. COCOA-PAD II (ongoing) uses about 500 mg flavanols/80 mg epicatechin capsules [URL:https://clinicaltrials.gov/study/NCT04794530].
+** Safety & adverse effects
+- Generally well tolerated. In the Cochrane review, GI complaints or nausea occurred in 1% of active vs 0.4% of control participants [PMID:28439881]. In the 2025 flavan-3-ol MA, adverse events were minor and infrequent (0.4%) [PMID:40126033].
+- COSMOS: "no safety concerns." Self-reported nausea was slightly more common with cocoa extract (HR 1.06; 1.02-1.11), while self-reported migraine was lower (HR 0.85; 0.78-0.93), as were other headaches and flu-like symptoms (HR 0.95 each) [PMID:35294962].
+- Up to 2000 mg/d for 12 weeks: adverse events were mild and did not differ from control, with no clinically relevant metabolic changes [PMID:26537937].
+- Caffeine/theobromine: the COSMOS extract had modest methylxanthine content (about 50 mg theobromine and 15 mg caffeine/d), and the trial excluded people reporting extreme caffeine sensitivity [PMID:35294962]. Chocolate foods contain small amounts of caffeine and larger amounts of theobromine [PMID:30372004]. The total depends on product and dose; check the label.
+- Heavy metals (cocoa foods): an FDA survey of US retail products found Cd 0.004-3.15 mg/kg and Pb up to 0.38 mg/kg. Both correlated with % cocoa solids, and Cd was higher in products of Latin American origin [PMID:29310543]. In 2023, Consumer Reports found detectable lead and cadmium in all 48 cocoa/chocolate products tested, with 16 of 48 above California MADL-based thresholds (Pb 0.5 ug/d, Cd 4.1 ug/d). Some cocoa powders were high in lead, while no milk chocolate bar exceeded either threshold [URL:https://www.consumerreports.org/media-room/press-releases/2023/10/consumer-reports-urges-hersheys-to-get-heavy-metals-out-of-chocolate-products]. No published abstract reports heavy-metal levels for standardized cocoa-extract capsules. The 2024 SR found that none of 33 cocoa trials mentioned heavy-metal contamination risk [PMID:38925412].
+- Migraine: chocolate is a patient-reported trigger for about 13.9% (7.0-21.0%) of people with migraine. This comes from observational data with very high heterogeneity, and the authors advise individualized diaries rather than universal avoidance [PMID:42662243]. In contrast, the RCT data from COSMOS show fewer self-reported migraines with cocoa extract [PMID:35294962].
+- Lactation: low maternal chocolate intake is not considered problematic, but extreme amounts can affect the infant because the methylxanthines pass into milk [PMID:30372004].
+** Contraindications
+- No absolute contraindications are established in the cited trials. Cautions:
+  - Extreme caffeine sensitivity (the COSMOS exclusion criterion) [PMID:35294962].
+  - MAOI therapy, where large amounts of chocolate or caffeine may cause hypertensive reactions [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=40483372-448f-4284-976c-8462ef256661].
+  - Pregnancy and young children: avoid high-cadmium or high-lead cocoa food products [URL:https://www.consumerreports.org/media-room/press-releases/2023/10/consumer-reports-urges-hersheys-to-get-heavy-metals-out-of-chocolate-products].
+  - COSMOS safety exclusions included renal failure/dialysis and cirrhosis, so there are no long-term trial data in those groups [PMID:35294962].
+** Interactions
+*** Drugs
+- MAOIs (phenelzine and others): the phenelzine label warns "Excessive amounts of caffeine and chocolate may also cause hypertensive reactions" [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=40483372-448f-4284-976c-8462ef256661]. The risk with standardized extracts (low caffeine) is probably smaller but has not been studied.
+- Anticoagulants/antiplatelets (theoretical): cocoa products show antiplatelet effects in some RCTs [PMID:32126803] [PMID:12944249], but up to 2000 mg/d flavanols for 12 weeks did not change platelet function in healthy adults [PMID:26537937]. COSMOS found no increase in VTE (HR 0.88) [PMID:41651011]. No clinical bleeding interaction data were found.
+- Antihypertensives: the BP-lowering effect is additive in principle. It is largest in hypertensive participants (about -4 to -5.9 mmHg SBP) [PMID:28439881] [PMID:40126033]. A clinically significant interaction has not been reported.
+- Antidiabetic drugs: flavanols improve insulin-sensitivity biomarkers [PMID:27683874], but they did not change T2D incidence in COSMOS [PMID:37816167]. Risk of additive hypoglycemia appears low.
+- Stimulants and caffeine-containing products: these add to the theobromine and caffeine in cocoa products [PMID:35294962] [PMID:30372004]. Co-ingesting 415 mg flavanols with 215 mg caffeine had no acute cognitive interaction, positive or negative [PMID:39607519].
+*** Other supplements
+- Multivitamin: in the COSMOS 2x2 factorial design there was no cocoa x MVM interaction on cognition [PMID:36102337].
+- Fish Oil (Omega-3): in the 12-month CANN RCT (n=259, people with SCI/MCI), DHA-rich fish oil plus 500 mg/d flavan-3-ols from dark chocolate did not improve cognition. Executive function and alertness declined relative to control, and glucose rose slightly; this shows no evidence of a beneficial synergy [PMID:37315924].
+- Ashwagandha, Vitamin C, CoQ10, Vitamin D-3, other batch supplements: no cited interaction source found.
+*** Conditions
+- Hypertension: greater BP reduction in hypertensive than normotensive participants [PMID:28439881] [PMID:40126033].
+- Migraine: possible trigger for some people with chocolate foods [PMID:42662243], although RCT data with the extract show fewer self-reported migraines [PMID:35294962].
+- Pregnancy and childhood: heavy-metal exposure from cocoa foods [PMID:29310543] [URL:https://www.consumerreports.org/media-room/press-releases/2023/10/consumer-reports-urges-hersheys-to-get-heavy-metals-out-of-chocolate-products].
+- Caffeine sensitivity [PMID:35294962].
+- Lactation: methylxanthines pass into breast milk at high intakes [PMID:30372004].
+*** Lab-test interference
+- No cited assay interference. Flavanol intake can be tracked with urinary biomarkers (e.g., gamma-valerolactone metabolites) [PMID:37252983] [PMID:40568979].
+** Genotype notes
+No cited pharmacogenomic or nutrigenomic source found. Note that gut-microbial production of valerolactone metabolites varies widely between individuals [PMID:25546356].
+** Latest research
+- [2026-09] COSMOS-Clinic: cocoa extract did not change 2-year NfL, NT1-tau or oligomeric Abeta [PMID:42775737].
+- [2026-08] SR/MA: chocolate is a patient-reported migraine trigger in 13.9% of people with migraine, with very high heterogeneity [PMID:42662243].
+- [2026-03] COSMOS win-ratio reanalysis: hierarchical CVD composite WR 0.84 (0.72-0.99), net treatment benefit -0.54% [PMID:41849087].
+- [2026-03] COSMOS (Nat Med): cocoa extract had no effect on five epigenetic clocks over 2 y [PMID:41803341].
+- [2026-02] COSMOS: VTE HR 0.88 (0.72-1.08), not significant [PMID:41651011].
+- [2025-11] Whole-food FMD meta-analysis: cocoa +1.68% FMD [PMID:40972869].
+- [2025-10] Flavan-3-ol MA (145 RCTs): office BP -2.8/-2.0 mmHg, FMD +1.7% chronic; dose-related to epicatechin in cocoa studies [PMID:40126033].
+- [2025-08] COSMOS: no overall effect on incident hypertension (HR 0.96); HR 0.76 in people with SBP <120 [PMID:40832703].
+- [2025-08] COSMOS: hsCRP -8.4%/y vs placebo [PMID:40966617].
+- [2025-07] Biomarker-based COSMOS subcohort reanalysis (Mars-affiliated authors): CVD mortality HR 0.44 (0.20-0.97) and major CVD HR 0.48 when adherence and background diet were accounted for. About 33% of the active arm did not reach expected biomarker levels [PMID:40568979].
+- [2025-06] Acute RCTs: no effect on cognitive control at 415-623 mg [PMID:40614481]; better Stroop performance under exercise fatigue at 500 mg (n=18) [PMID:40493074].
+- [2025-05] COSMOS: no effect on AMD overall (HR 0.87) [PMID:40146119] or fractures (aHR 1.03) [PMID:39964350].
+- [2025-04] SR: microvascular benefits are less consistent than conduit-artery benefits [PMID:40217225].
+- [2024-11] RCT: no acute cognitive effect of cocoa flavanols plus caffeine [PMID:39607519].
+- [2024-06] MAs: cocoa lowered SBP -2.52 and LDL -9.47 mg/dL [PMID:38931273]; lowered MDA and raised NO, with no consistent CRP effect [PMID:38925412].
+- [2024-01] COSMOS-Clinic: no effect on 2-year cognition [PMID:38070683].
+** Open questions
+- Does cocoa extract reduce hard CVD events? The COSMOS primary endpoint was null and the CVD-death benefit is a secondary finding. Supportive reanalyses (per-protocol, win ratio, biomarker-based) partly involve industry-affiliated authors, and all trials were Mars-supported [PMID:35294962] [PMID:41849087] [PMID:40568979].
+- Who benefits cognitively? Signals are limited to people with low habitual flavanol intake or poor diet quality [PMID:37252983] [PMID:38070683].
+- Optimal dose and the relative roles of epicatechin, procyanidins and theobromine [PMID:31524216] [PMID:35294962].
+- Heavy-metal content of standardized extract capsules (no published data found).
+- Migraine: ongoing pilot RCT of 500 and 1000 mg [URL:https://clinicaltrials.gov/study/NCT06808230]. PAD: COCOA-PAD II [URL:https://clinicaltrials.gov/study/NCT04794530].
+** Sources
+1. Sesso HD et al. Effect of cocoa flavanol supplementation for the prevention of cardiovascular disease events: COSMOS. Am J Clin Nutr. 2022. PMID:35294962 DOI:10.1093/ajcn/nqac055
+2. Rist PM et al. Design and baseline characteristics of participants in COSMOS. Contemp Clin Trials. 2022. PMID:35288332 DOI:10.1016/j.cct.2022.106728
+3. Ogata S et al. Cocoa flavanol supplementation and prevention of CVD: win ratio analysis of COSMOS. Eur J Epidemiol. 2026. PMID:41849087 DOI:10.1007/s10654-026-01382-6
+4. Ottaviani JI et al. The overlooked impact of background diet and adherence in nutrition trials. Food Funct. 2025. PMID:40568979 DOI:10.1039/d5fo01134e
+5. Baker LD et al. Effects of cocoa extract and a multivitamin on cognitive function (COSMOS-Mind). Alzheimers Dement. 2023. PMID:36102337 DOI:10.1002/alz.12767
+6. Sachs BC et al. Impact of MVM and cocoa extract on incidence of MCI and dementia (COSMOS-Mind). Alzheimers Dement. 2023. PMID:37035889 DOI:10.1002/alz.13078
+7. Vyas CM et al. Effect of cocoa extract supplementation on cognitive function: COSMOS clinic subcohort. Am J Clin Nutr. 2024. PMID:38070683 DOI:10.1016/j.ajcnut.2023.10.031
+8. Brickman AM et al. Dietary flavanols restore hippocampal-dependent memory in older adults with lower diet quality (COSMOS-Web). PNAS. 2023. PMID:37252983 DOI:10.1073/pnas.2216932120
+9. Rist PM et al. Effect of a multivitamin and cocoa flavanol extract on NfL, NT1 and oligomeric Abeta in COSMOS-clinic. J Alzheimers Dis. 2026. PMID:42775737 DOI:10.1177/13872877261489739
+10. Li J et al. Cocoa extract supplementation and risk of type 2 diabetes: COSMOS. Diabetes Care. 2023. PMID:37816167 DOI:10.2337/dc23-1012
+11. Hamaya R et al. Long-term effect of cocoa extract supplementation on incident hypertension. Hypertension. 2025. PMID:40832703 DOI:10.1161/HYPERTENSIONAHA.125.25209
+12. Li S et al. Effects of 2-year cocoa extract supplementation on inflammaging biomarkers: COSMOS. Age Ageing. 2025. PMID:40966617 DOI:10.1093/ageing/afaf269
+13. Li S et al. Effects of daily MVM and cocoa extract on epigenetic aging clocks in COSMOS. Nat Med. 2026. PMID:41803341 DOI:10.1038/s41591-026-04239-3
+14. Christen WG et al. Cocoa flavanol supplementation and risk of AMD: COSMOS ancillary. JAMA Ophthalmol. 2025. PMID:40146119 DOI:10.1001/jamaophthalmol.2025.0353
+15. Park SJ et al. Effects of cocoa extract and multivitamin supplementation on VTE in COSMOS. Thromb Haemost. 2026. PMID:41651011 DOI:10.1055/a-2806-3554
+16. Crandall CJ et al. Effects of cocoa extract and MVM on self-reported fractures in COSMOS. J Bone Miner Res. 2025. PMID:39964350 DOI:10.1093/jbmr/zjaf030
+17. Ried K et al. Effect of cocoa on blood pressure. Cochrane Database Syst Rev. 2017. PMID:28439881 DOI:10.1002/14651858.CD008893.pub3
+18. Lagou V et al. Impact of flavan-3-ols on blood pressure and endothelial function: SR/MA of RCTs. Eur J Prev Cardiol. 2025. PMID:40126033 DOI:10.1093/eurjpc/zwaf173
+19. Sun Y et al. Dose-response relationship between cocoa flavanols and human endothelial function: SR/MA. Food Funct. 2019. PMID:31524216 DOI:10.1039/c9fo01747j
+20. Arisi TOP et al. Effects of cocoa consumption on cardiometabolic risk markers: MA of RCTs. Nutrients. 2024. PMID:38931273 DOI:10.3390/nu16121919
+21. Behzadi M et al. Effect of dark chocolate/cocoa on oxidative stress and inflammation: GRADE-assessed SR and dose-response MA. Complement Ther Med. 2024. PMID:38925412 DOI:10.1016/j.ctim.2024.103061
+22. Richardson S et al. Cocoa flavanols and peripheral and cerebral microvascular function: SR. Nutr J. 2025. PMID:40217225 DOI:10.1186/s12937-025-01121-9
+23. Trinquet NM et al. Effects of whole foods and dietary patterns on FMD: SR/MA of RCTs. Am J Clin Nutr. 2025. PMID:40972869 DOI:10.1016/j.ajcnut.2025.09.020
+24. Lin X et al. Cocoa flavanol intake and biomarkers for cardiometabolic health: SR/MA of RCTs. J Nutr. 2016. PMID:27683874 DOI:10.3945/jn.116.237644
+25. Jafari Azad B et al. Cocoa products intake on arterial stiffness and platelet count and function: SR and dose-response MA. Crit Rev Food Sci Nutr. 2021. PMID:32126803 DOI:10.1080/10408398.2020.1733484
+26. Innes AJ et al. Dark chocolate inhibits platelet aggregation in healthy volunteers. Platelets. 2003. PMID:12944249 DOI:10.1080/0953710031000123681
+27. Ottaviani JI et al. Safety and efficacy of cocoa flavanol intake in healthy adults: randomized, controlled, double-masked trial. Am J Clin Nutr. 2015. PMID:26537937 DOI:10.3945/ajcn.115.116178
+28. Desideri G et al. Cocoa flavanol consumption in elderly subjects with MCI: the CoCoA study. Hypertension. 2012. PMID:22892813 DOI:10.1161/HYPERTENSIONAHA.112.193060
+29. Altinok A et al. Acute effects of cocoa flavanols on cognitive control and response inhibition. Nutrition. 2025. PMID:40614481 DOI:10.1016/j.nut.2025.112860
+30. Akyurek EG et al. Concurrent consumption of cocoa flavanols and caffeine does not acutely modulate working memory and attention. Eur J Nutr. 2024. PMID:39607519 DOI:10.1007/s00394-024-03514-8
+31. Tsukamoto H et al. A single intake of flavanol-rich cocoa improves inhibitory executive process under cognitive fatigue during aerobic exercise. Psychopharmacology. 2025. PMID:40493074 DOI:10.1007/s00213-025-06826-7
+32. Schroeter H et al. (-)-Epicatechin mediates beneficial effects of flavanol-rich cocoa on vascular function in humans. PNAS. 2006. PMID:16418281 DOI:10.1073/pnas.0510168103
+33. Wiese S et al. Comparative biokinetics and metabolism of pure monomeric, dimeric, and polymeric flavan-3-ols in humans. Mol Nutr Food Res. 2015. PMID:25546356 DOI:10.1002/mnfr.201400422
+34. Abt E et al. Cadmium and lead in cocoa powder and chocolate products in the US market. Food Addit Contam Part B. 2018. PMID:29310543 DOI:10.1080/19393210.2017.1420700
+35. Alzahrani H. Assessment of chocolate, cheese, and caffeine as migraine triggers: SR/MA. J Nutr Metab. 2026. PMID:42662243 DOI:10.1155/jnme/4693275
+36. LactMed. Chocolate. Drugs and Lactation Database. NICHD. 2024. PMID:30372004
+37. McDermott MM et al. Cocoa to improve walking performance in older people with PAD: COCOA-PAD pilot RCT. Circ Res. 2020. PMID:32078436 DOI:10.1161/CIRCRESAHA.119.315600
+38. EFSA NDA Panel. Scientific Opinion on the substantiation of a health claim related to cocoa flavanols and maintenance of normal endothelium-dependent vasodilation. EFSA J. 2012. DOI:10.2903/j.efsa.2012.2809
+39. Phenelzine sulfate tablets, prescribing information (DailyMed/FDA label). URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=40483372-448f-4284-976c-8462ef256661
+40. Consumer Reports. Press release on lead and cadmium in chocolate products (Oct 2023). URL:https://www.consumerreports.org/media-room/press-releases/2023/10/consumer-reports-urges-hersheys-to-get-heavy-metals-out-of-chocolate-products
+41. ClinicalTrials.gov NCT06808230. Cocoa Flavanols for Migraine: A Pilot Study. URL:https://clinicaltrials.gov/study/NCT06808230
+42. ClinicalTrials.gov NCT04794530. COCOA-PAD II Trial. URL:https://clinicaltrials.gov/study/NCT04794530
+43. Vauzour D et al. A combined DHA-rich fish oil and cocoa flavanols intervention does not improve cognition or brain structure in older adults with memory complaints: CANN RCT. Am J Clin Nutr. 2023. PMID:37315924 DOI:10.1016/j.ajcnut.2023.06.008

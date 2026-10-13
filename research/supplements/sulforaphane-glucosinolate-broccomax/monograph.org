@@ -1,0 +1,244 @@
+* Sulforaphane Glucosinolate (BroccoMax)
+:PROPERTIES:
+:ID: supp-sulforaphane-glucosinolate-broccomax
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: BroccoMax | Jarrow BroccoMax | sulforaphane glucosinolate | SGS | glucoraphanin | 4-methylsulfinylbutyl glucosinolate | broccoli seed extract | broccoli sprout extract | sulforaphane | SFN
+:CATEGORY: botanical
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- *Product.* BroccoMax (Jarrow Formulas) is a broccoli seed extract. The current NIH Dietary Supplement Label Database (DSLD) entry lists 35 mg "Sulforaphane Glucosinolate" (glucoraphanin) per 2 delayed-release veggie capsules, "in a proprietary blend containing myrosinase enzyme". Other ingredients include calcium ascorbate. The suggested use is 2 capsules once daily for adults [URL:https://api.ods.od.nih.gov/dsld/v9/label/321953]. The label calls it a "Sulforaphane Generator 35 mg" and says the active myrosinase converts SGS to sulforaphane in the small intestine. An earlier, now off-market DSLD version listed SGS "standardized to 3.5%" with no myrosinase noted [URL:https://api.ods.od.nih.gov/dsld/v9/label/321953]. 35 mg of glucoraphanin is roughly 80 µmol. That figure is derived from molecular weight (~437 g/mol) and is not stated on the label.
+- *Glucoraphanin vs sulforaphane.* Glucoraphanin (GR) is a water-soluble glucosinolate that is relatively inert and stable. Sulforaphane (SFN) is the reactive isothiocyanate formed when myrosinase hydrolyses GR. Free SFN is hard to deliver in a stable, enriched form [PMID:26524341]. The products used in trials fall into four groups:
+  1. GR-only extracts, which have no active myrosinase and depend on gut-microbial conversion.
+  2. GR plus active myrosinase products. These include BroccoMax, Avmacol [PMID:39832347], sprout or seed powders, and "activated" extracts.
+  3. Pre-hydrolysed SFN-rich beverages [PMID:22045030].
+  4. Stabilised SFN. Examples are the alpha-cyclodextrin complex SFX-01 (Sulforadex) [PMID:39520658] and a "stabilized free sulforaphane" at 60 mg/day [PMID:25968598].
+- *Conversion and bioavailability.*
+  - Sprouts or seeds with intact plant myrosinase gave 3- to 4-fold more bioavailable SFN than GR without active myrosinase [PMID:26524341].
+  - In a 2026 randomised crossover (n=16), adding mustard-seed myrosinase to broccoli seed GR roughly doubled SFN bioavailability (39.8% vs 18.6%). Conversion in the first 8 h rose from 8.0% to 25.4% [PMID:41692762].
+  - Broccoli supplements without myrosinase gave "dramatically lower" SFN and erucin bioavailability than fresh sprouts, and peaks came later [PMID:21816223].
+  - In 6 women, an activated (myrosinase) extract gave a higher AUC than a non-activated one (3559 vs 2172 nM) [PMID:33409874].
+  - Gastric acidity appears to reduce myrosinase-dependent conversion. Conversion was higher on omeprazole and with enteric coating, and greater body mass correlated with lower conversion [PMID:31261930].
+  - Daily broccoli intake interacted with BMI to change SFN absorption [PMID:30499426].
+  - In the Qidong trials, interindividual differences in bioavailability were "striking" [PMID:16284385].
+- *Gut microbiome.*
+  - In a 2025 prediabetes RCT, people who responded had more of a Bacteroides-encoded regulator needed for GR-to-SFN conversion, and its abundance correlated with serum SFN [PMID:39929977].
+  - Four bacterial GR-converting genes correlated with conversion [PMID:41692762].
+  - A 2026 exploratory analysis (n=38) found that diet and microbiome "types" shaped how much SFN versus inert SFN-nitrile was produced [PMID:42564592].
+
+** Mechanisms
+- *Nrf2/Keap1 activation and phase II induction.*
+  - SFN induces glutathione S-transferases and other cytoprotective enzymes [PMID:24913818].
+  - In humans, oral SFN from broccoli sprout homogenate raised GSTM1, GSTP1, NQO1 and HO-1 mRNA in nasal lavage cells in a dose-dependent way [PMID:19028145].
+  - Oral GR (450 mg/day) raised NQO1 mRNA in skin biopsies 3.1-fold [PMID:40559384].
+  - In non-dialysis CKD, 400 µg/day SFN raised NRF2 and NQO1 mRNA [PMID:38772511].
+  - A systematic review of human trials still judged the evidence that phytochemicals (including SFN) activate Nrf2 in humans as limited, with many studies at high or unclear risk of bias [PMID:33515348].
+  - A 2026 pilot found no change in Nrf2-target mRNA in circulating extracellular vesicles after GR-rich soup [PMID:41603376].
+- *Hepatic gluconeogenesis.* SFN suppressed hepatic glucose production via NRF2 nuclear translocation and lower gluconeogenic enzyme expression. This was shown in cells and diabetic animals (mechanistic/animal evidence) [PMID:28615356].
+- *Effects on xenobiotic metabolism.*
+  - In primary human hepatocytes (in vitro), SFN induced GSTA1/2, decreased CYP3A4 mRNA and activity, and left CYP1A2 unchanged [PMID:9288764].
+  - In Caco-2 cells (in vitro), SFN induced UGT1A1/1A8/1A10 [PMID:22559738].
+  - Human data are summarised under Interactions.
+- *Other proposed mechanisms.*
+  - HDAC inhibition and antioxidant/anti-inflammatory actions have been cited as rationales in schizophrenia and autism trials [PMID:39832347][PMID:25313065].
+  - In Hi-Myc mice, SFN lowered fatty acid synthesis enzymes (ACC1, FASN) in prostate tumours (animal) [PMID:41738426].
+- *Nrf2 in established cancer.* Reviewers caution that Nrf2 activation in cancer cells may cause chemoresistance. Whether it helps or harms depends on context [PMID:28675319].
+
+** Evidence summary by outcome
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---|---|---|---|---|---|
+| Autism spectrum disorder: core/behavioural symptoms | SR/MA of 6 RCTs (2025); NMA 2022; RCTs n=40-108 | Small benefit, inconsistent | Total symptoms SMD -0.27 (95% CI -0.42 to -0.12); aberrant behaviour SMD -0.43; hyperactivity SMD -0.58; irritability not significant. Singh 2014: ABC -34% vs <3.3% placebo. Larger/paediatric RCTs mixed or null on caregiver scales | low | [PMID:40458076] [PMID:35246237] [PMID:25313065] [PMID:34034808] [PMID:36771424] [PMID:36427174] |
+| ASD irritability (adjunct to risperidone) | RCT n=60 | Benefit | ABC irritability improved vs placebo (P=0.001) | low | [PMID:32347624] |
+| Glycaemic control, type 2 diabetes | Axelsson 2017 clinical trial in obese dysregulated T2D (plus mechanistic work) | Benefit | Fasting glucose and HbA1c reduced (magnitude not given in abstract) | low | [PMID:28615356] |
+| Prediabetes fasting glucose | RCT n=74, 12 wk (2025) | Small benefit; primary endpoint missed | FBG -0.2 mmol/L (95% CI -0.44 to -0.01) vs prespecified -0.3; responder subgroup -0.4 mmol/L | low | [PMID:39929977] |
+| Detoxification of airborne pollutants (urinary mercapturic acids) | RCTs in Qidong, China (n=50-291) | Benefit (biomarker) | Benzene mercapturic acid +61%, acrolein +23% (12 wk, n=291); +63% at the highest dose only (dose-finding n=170); 20-50% increases with GR- or SFN-rich beverages | moderate (biomarker), very low (clinical outcomes) | [PMID:24913818] [PMID:31268126] [PMID:22045030] [PMID:38870164] |
+| Aflatoxin-DNA adducts | RCT n=200 | No overall effect | No difference between arms (P=0.68); inverse correlation with SFN metabolite excretion | low | [PMID:16284385] |
+| Nasal allergic response to diesel exhaust particles | Clinical trial n=29 | Benefit | Nasal WBC -54% after 4 days of 100 µmol SFN | low | [PMID:24287881] |
+| Cancer risk (dietary broccoli) | SR/MA of observational studies (2024) | Inverse association | Cohort RR 0.89 (0.82-0.96); case-control OR 0.64 | low (dietary broccoli, not supplement) | [PMID:38892516] |
+| Cancer treatment/chemoprevention biomarkers | SR of 8 RCTs (2023); prostate, lung RCTs | Mixed; biomarker signals | Prostate BCR: primary PSA-slope endpoint missed; PSA doubling time 28.9 vs 15.5 mo. Lung (former smokers): Ki-67 -20% vs +65% placebo, histopathology unchanged. Prostate biopsy RCT: no HDAC/tissue biomarker change. BroccoMax 4-wk RCT: lower tumour c-Myc/FASN/Ki-67 | low | [PMID:38074675] [PMID:25968598] [PMID:25431127] [PMID:40041932] [PMID:31155953] [PMID:41738426] |
+| Cardiometabolic (lipids, BP, endothelium) | Small RCTs; secondary outcomes in schizophrenia MA | Possible lipid improvement; no BP/FMD effect | Broccoli sprout powder 10 g/d lowered TG and oxLDL/LDL (4 wk). Schizophrenia MA: lower LDL, TG, TC. Hypertension: no FMD or BP change | low | [PMID:22325157] [PMID:41184790] [PMID:42154264] [PMID:20805984] |
+| Schizophrenia negative symptoms (adjunct) | SR/MA of 4 RCTs, n=369 (2025); RCTs 2025 | Modest benefit | Negative symptoms MD -1.06 at 12 wk (not sustained); general psychopathology MD -1.5; discontinuation RR 0.68; no cognitive benefit | low | [PMID:41184790] [PMID:39832347] [PMID:40133020] [PMID:42154264] |
+| ADHD (adjunct to methylphenidate) | Single RCT n=70 (2025) | Benefit | Large Cohen's d (~1.0-1.4) on ADHD-RS | very low | [PMID:41604557] |
+| Depression after cardiac interventions | Single RCT n=66 | Benefit | Response 30% vs 6.7% | very low | [PMID:34033171] |
+| Cognition (healthy older adults; MCI risk) | RCT n=144 (12 wk); pilot RCT n=26 (42 mo, 2026) | Possible benefit | Processing speed and working memory improved. GR 30 mg/d: MPI group×time P=0.012; endpoint P=0.079 | very low | [PMID:33503851] [PMID:41669080] |
+| Subarachnoid haemorrhage (SFX-01) | RCT n=105 | No benefit | No difference in vasospasm or mRS | low | [PMID:39028412] |
+| NAFLD liver enzymes | RCT n=32 (2026) | No effect | No significant change | very low | [PMID:42228225] |
+
+** Dosing in trials
+- *BroccoMax label:* 35 mg SGS with myrosinase per 2 delayed-release capsules, once daily [URL:https://api.ods.od.nih.gov/dsld/v9/label/321953]. The 2026 BroccoMax prostate trial gave 4 capsules twice daily for 4 weeks [PMID:41738426].
+- *Autism:* 50-150 µmol SFN/day for 18 weeks in ages 13-27 [PMID:25313065]; 50 µmol (≤45 kg) or 100 µmol (>45 kg) with risperidone [PMID:32347624].
+- *Pollutant detoxification:* 600 µmol GR + 40 µmol SFN daily for 12 weeks [PMID:24913818]. The benefit appeared at the dose that produced ~25 µmol/day of urinary SFN metabolites [PMID:31268126]. A diesel-exhaust challenge study used 100 µmol SFN/day for 4 days [PMID:24287881].
+- *Cancer:*
+  - Recurrent prostate cancer: 200 µmol/day SFN-rich extract [PMID:25431127].
+  - Pre-biopsy prostate: 200 µmol/day BSE [PMID:31155953].
+  - Prostate biochemical recurrence: 60 mg/day stabilised SFN for 6 months [PMID:25968598].
+  - Former smokers (lung): ~95 µmol/day for 12 months [PMID:40041932].
+- *Schizophrenia:* Avmacol Extra Strength 1,700 mg/day for 24 weeks [PMID:39832347].
+- *ADHD:* 30 mg/day with methylphenidate [PMID:41604557].
+- *Cognition/MCI:* GR 30 mg/day for 42 months [PMID:41669080].
+- *Skin NQO1:* GR 450 mg (1 mmol)/day [PMID:40559384].
+- *CKD:* 400 µg/day SFN [PMID:38772511].
+- *SFX-01 (stabilised synthetic SFN):* 300-600 mg/day (46.2-92.4 mg SFN) in phase 1 [PMID:39520658]; 300 mg twice daily for 28 days after SAH [PMID:39028412].
+- Doses are reported in incompatible units (mg GR, µmol GR, µmol SFN, mg product) and conversion efficiency varies widely. Nominal doses therefore do not translate directly into SFN exposure [PMID:41692762][PMID:21816223].
+
+** Safety & adverse effects
+- *Gastrointestinal effects are the most consistent adverse effect.*
+  - Prediabetes RCT: GI side effects, no severe adverse events [PMID:39929977].
+  - SFX-01 phase 1: treatment-emergent AEs in 94% of participants, mostly mild treatment-related GI events [PMID:39520658].
+  - SAH RCT: nausea 16.7% vs 2.0% on placebo [PMID:39028412].
+- *Paediatric autism trials:* SFN was well tolerated. Side effects were rare insomnia, irritability and intolerance of taste/smell, and clinical laboratory tests confirmed safety [PMID:34034808]. A 108-child multicentre RCT reported SFN as safe and well tolerated [PMID:36427174].
+- *Across cancer RCTs:* no significant AE differences from controls [PMID:38074675]. There were no grade 3 events at 200 µmol/day [PMID:25431127] and no severe AEs over 12 months [PMID:40041932].
+- *Schizophrenia RCTs:* discontinuation was lower with SFN than placebo (RR 0.68) [PMID:41184790].
+- *Thyroid/goitrogen concern.*
+  - In a 12-week RCT of an SFN+GR-rich beverage (45 women), TSH, free T4, thyroglobulin and thyroid autoimmunity were unchanged [PMID:30735751].
+  - A 2024 systematic review of 123 studies concluded that brassica intake, particularly with adequate iodine, poses no adverse thyroid effects in humans [PMID:38612798].
+  - Goitrin (from progoitrin) and thiocyanate (from indole glucosinolates), rather than SFN, are the goitrogenic species. Broccoli contains little goitrin [PMID:26946249].
+  - Data on long-term, high-dose concentrated extracts in people with iodine deficiency or existing thyroid disease are lacking.
+- *Long-term data:* the longest controlled exposures are 12 months [PMID:40041932] and 42 months in a small pilot [PMID:41669080]. Both reported no severe AEs, but the samples are small.
+
+** Contraindications
+- No absolute contraindication was identified in the cited sources.
+- *Label cautions:* consult a professional before use if pregnant, nursing, under 18, taking medication, or with a medical condition [URL:https://api.ods.od.nih.gov/dsld/v9/label/321953].
+- *Pregnancy:* data are limited to a small bioavailability and dose-escalation study in pregnancy hypertension [PMID:33409874].
+- *Active cancer treatment:* use is theoretically uncertain because Nrf2 activation may promote chemoresistance [PMID:28675319]. Conversely, SFN is being studied as a cardioprotectant during doxorubicin therapy [URL:https://clinicaltrials.gov/study/NCT03934905].
+
+** Interactions
+*** Drugs
+- *CYP1A2 substrates (e.g. caffeine, theophylline):*
+  - 500 g/day of dietary broccoli for 12 days raised the caffeine metabolic ratio (a CYP1A2 marker) by 19%. This was whole broccoli, not an SFN supplement [PMID:8625493].
+  - In human hepatocytes, SFN itself did not affect CYP1A2 [PMID:9288764].
+  - Clinical relevance at supplement doses is unknown.
+- *CYP3A4 substrates:*
+  - SFN decreased CYP3A4 in human hepatocytes in vitro [PMID:9288764].
+  - In a human crossover RCT (n=24), 450 µmol SFN did not change midazolam (CYP3A) clearance overall. CYP3A4 activity fell only in the subset with the highest baseline activity. SFN did not block rifampicin induction [PMID:23153560].
+  - Overall: low likelihood of a clinically important effect.
+- *Drugs cleared by glucuronidation (UGT1A substrates):* SFN induced UGT1A1/1A8/1A10 in Caco-2 cells (in vitro only) [PMID:22559738]. There are no human data.
+- *Antineoplastic chemotherapy:* Nrf2 activation may contribute to chemoresistance in tumour cells. This is a theoretical, preclinical concern [PMID:28675319]. Trials testing SFN alongside doxorubicin are ongoing [URL:https://clinicaltrials.gov/study/NCT03934905].
+- *Glucose-lowering agents (metformin, acarbose, others):*
+  - SFN lowered fasting glucose and HbA1c in T2D [PMID:28615356] and modestly lowered fasting glucose in prediabetes [PMID:39929977]. It could theoretically add to glucose-lowering drugs.
+  - In diabetic animals, the effect was similar in magnitude to metformin [PMID:28615356].
+  - No human data on the combination were found.
+- *Proton pump inhibitors (omeprazole):* in a pilot study, conversion of GR to SFN with co-delivered myrosinase was higher on omeprazole, which suggests a pharmacokinetic effect on the supplement [PMID:31261930].
+- *Antipsychotics:* SFN has been added to antipsychotics in schizophrenia RCTs with lower discontinuation and favourable lipid changes [PMID:39832347][PMID:40133020][PMID:41184790]. It has also been added to risperidone in ASD [PMID:32347624]. No adverse pharmacokinetic interaction was reported.
+- *Methylphenidate:* combined use as an adjunct in ADHD, with side-effect frequencies comparable to placebo [PMID:41604557].
+
+*** Other supplements
+- *Vitamin C:* BroccoMax contains calcium ascorbate [URL:https://api.ods.od.nih.gov/dsld/v9/label/321953]. Ascorbic acid was given with GR in both arms of the 2026 myrosinase trial [PMID:41692762]. The cited sources do not quantify its separate contribution to conversion.
+- *Curcumin:* combining GR and curcumin induced skin NQO1 3.6-fold, versus 3.1-fold for GR alone and 3.3-fold for curcumin alone (n=6 per arm) [PMID:40559384].
+- *Myrosinase sources (mustard seed powder, raw cruciferous sprouts):* these increase SFN yield from GR-only extracts [PMID:41692762][PMID:26524341].
+- No cited interaction with other supplements in this batch (Acarbose aside, see Drugs).
+
+*** Conditions
+- *Hypothyroidism / iodine deficiency:* reassuring human data (see Safety) [PMID:30735751][PMID:38612798][PMID:26946249].
+- *Obesity / higher BMI:* reduced and less predictable conversion of GR to SFN [PMID:31261930][PMID:30499426].
+- *Diabetes / prediabetes:* glucose-lowering effects warrant glucose monitoring when combined with therapy [PMID:28615356][PMID:39929977].
+- *Pregnancy:* limited data [PMID:33409874].
+- *Paediatric use:* label caution [URL:https://api.ods.od.nih.gov/dsld/v9/label/321953]. Paediatric ASD RCTs reported good tolerability [PMID:34034808][PMID:36427174].
+
+*** Lab-test interference
+- No cited assay interference was found.
+- SFN may genuinely change measured glucose/HbA1c [PMID:28615356] and lipids [PMID:41184790]. These are physiological effects, not assay artefacts.
+
+** Genotype notes
+- *GSTM1:* in a randomised 3-phase crossover, GSTM1-null subjects had slightly higher plasma SFN-metabolite AUC and faster early urinary excretion than GSTM1-positive subjects [PMID:16332662]. In a 12-month broccoli-diet RCT, gene expression in the prostate differed by GSTM1 genotype [PMID:18596959]. Daily broccoli consumption interacted with BMI but not with GSTM1 genotype in isothiocyanate absorption [PMID:30499426].
+- *GSTT1:* plasma SFN was higher in GSTT1-null patients given SFX-01 [PMID:39028412]. In the Qidong trial, benzene-mercapturic acid excretion was higher in GSTT1-positive than null participants, irrespective of study arm [PMID:24913818].
+- *GSTP1:* polymorphisms did not affect SFN or erucin metabolism [PMID:21816223].
+- *Microbiome "genotype":* the abundance of Bacteroides GR-conversion genes predicted SFN levels and glycaemic response [PMID:39929977][PMID:41692762].
+
+** Latest research
+- [2026-09] Nrf2-activator schizophrenia MA (16 RCTs): SFN lowered discontinuation and TC/LDL/TG, with no other significant efficacy outcomes [PMID:42154264].
+- [2026-08] Exploratory analysis (n=38): pre-intervention diet and gut microbiome community type shaped SFN versus inert SFN-nitrile production after broccoli sprouts [PMID:42564592].
+- [2026-06] RCT in women with NAFLD (n=32): broccoli sprout extract 1 g/day with or without Pilates for 8 weeks did not change liver enzymes [PMID:42228225].
+- [2026-02] Randomised crossover (n=16): mustard-seed myrosinase doubled SFN bioavailability from broccoli seed GR (39.8% vs 18.6%) [PMID:41692762].
+- [2026-02] BroccoMax prostate cancer RCT (n=41, 4 weeks): lower tumour c-Myc, ACC1, FASN and Ki-67, but no change in acetyl-CoA or free fatty acids [PMID:41738426].
+- [2026-01] 42-month pilot RCT (n=26): GR 30 mg/day improved memory performance index over time (P=0.012) in people at risk of AD/MCI, with a marginal endpoint result [PMID:41669080].
+- [2026-01] Crossover pilot (n=9): GR-rich soup did not change Nrf2-target mRNA in circulating extracellular vesicles [PMID:41603376].
+- [2025-11] Schizophrenia SR/MA (4 RCTs, n=369): modest negative-symptom benefit at 12 weeks, no cognitive benefit [PMID:41184790].
+- [2025-11] ADHD RCT (n=70): SFN 30 mg/day added to methylphenidate improved ADHD-RS with large effect sizes [PMID:41604557].
+- [2025-08] SAH RCT (SFX-01, n=105): no effect on vasospasm or outcome; nausea more frequent [PMID:39028412].
+- [2025-06] Phase II RCT in former smokers (n=43, 12 months): bronchial Ki-67 index fell (-20% vs +65% on placebo), histopathology unchanged [PMID:40041932].
+- [2025-05] Skin NQO1 RCT (n=18): oral GR and/or curcumin induced NQO1 roughly 3-fold in skin biopsies [PMID:40559384].
+- [2025-04] ASD SR/MA (6 RCTs): total-symptom SMD -0.27; adverse events similar to placebo [PMID:40458076].
+- [2025-04] RCT in chronic schizophrenia (24 weeks): reduced PANSS negative symptoms, no MCCB cognitive effect [PMID:40133020].
+- [2025-03] Prediabetes RCT (n=74): fasting glucose -0.2 mmol/L, primary endpoint missed; microbiome-defined responders [PMID:39929977].
+- [2025-01] Schizophrenia RCT (n=77 analysed): Avmacol 1,700 mg/day reduced PANSS negative symptoms (d=0.8 at 24 weeks) [PMID:39832347].
+- [2025-01] SFX-01 phase 1: GI AEs common but mild; urinary recovery <1-41% [PMID:39520658].
+- [2024-08] CKD RCT: SFN 400 µg/day raised NRF2/NQO1 mRNA and improved glucose, phosphate and triglycerides [PMID:38772511].
+- [2024-06] SR of air-pollution supplement trials: SFN showed potential benefit, but trials are few [PMID:38870164].
+- [2024-05] Broccoli and cancer SR/MA: cohort RR 0.89 [PMID:38892516].
+- [2024-04] Brassica and thyroid SR: no adverse thyroid effect in humans with adequate iodine [PMID:38612798].
+- [2024-02] ASD multicentre RCT (n=108): clinician-rated scales improved, caregiver-rated scales did not [PMID:36427174].
+
+** Open questions
+- Which product type gives reliable SFN exposure? GR-only, GR plus myrosinase (as in BroccoMax), and stabilised SFN differ several-fold, and how the microbiome and BMI modify conversion is unresolved [PMID:41692762][PMID:39929977].
+- No pharmacokinetic study of BroccoMax at its labelled dose was found. Its 35 mg (~80 µmol) GR dose is below many trial doses, but its myrosinase content may raise conversion.
+- Do the autism and schizophrenia signals hold up in larger, longer, adequately powered trials with consistent outcome scales? Several are registered or ongoing [URL:https://clinicaltrials.gov/study/NCT03932136][URL:https://clinicaltrials.gov/study/NCT07652866].
+- Do the pollutant-detoxification biomarker gains translate into clinical outcomes?
+- Is long-term Nrf2 activation safe in people with existing or treated cancer [PMID:28675319]?
+- Are there clinically relevant CYP/UGT interactions at chronic high doses? Human data are limited to CYP3A (null) [PMID:23153560] and dietary broccoli on CYP1A2 [PMID:8625493].
+
+** Sources
+1. NIH Office of Dietary Supplements, Dietary Supplement Label Database. Jarrow Formulas BroccoMax (label 321953). Accessed 2026-10-13. URL:https://api.ods.od.nih.gov/dsld/v9/label/321953
+2. Fahey JW et al. Sulforaphane Bioavailability from Glucoraphanin-Rich Broccoli: Control by Active Endogenous Myrosinase. PLoS One. 2015. PMID:26524341 DOI:10.1371/journal.pone.0140963
+3. Huang J et al. Efficacy and Safety of Sulforaphane Added to Antipsychotics for the Treatment of Negative Symptoms of Schizophrenia: A Randomized Controlled Trial. J Clin Psychiatry. 2025. PMID:39832347 DOI:10.4088/JCP.24m15272
+4. Kensler TW et al. Modulation of the metabolism of airborne pollutants by glucoraphanin-rich and sulforaphane-rich broccoli sprout beverages in Qidong, China. Carcinogenesis. 2012. PMID:22045030 DOI:10.1093/carcin/bgr229
+5. Clack G et al. A Phase 1 Randomized, Placebo-Controlled Study Evaluating the Safety, Tolerability, and Pharmacokinetics of Enteric-Coated Stabilized Sulforaphane (SFX-01) in Male Participants. Adv Ther. 2025. PMID:39520658 DOI:10.1007/s12325-024-03018-1
+6. Cipolla BG et al. Effect of Sulforaphane in Men with Biochemical Recurrence after Radical Prostatectomy. Cancer Prev Res (Phila). 2015. PMID:25968598 DOI:10.1158/1940-6207.CAPR-14-0459
+7. Mastaloudis A et al. Exogenous myrosinase from mustard seed increases bioavailability of sulforaphane from a glucoraphanin-rich broccoli seed extract in a randomized clinical study. Sci Rep. 2026. PMID:41692762 DOI:10.1038/s41598-026-39389-4
+8. Clarke JD et al. Bioavailability and inter-conversion of sulforaphane and erucin in human subjects consuming broccoli sprouts or broccoli supplement in a cross-over study design. Pharmacol Res. 2011. PMID:21816223 DOI:10.1016/j.phrs.2011.07.005
+9. Langston-Cox AG et al. Sulforaphane Bioavailability and Effects on Blood Pressure in Women with Pregnancy Hypertension. Reprod Sci. 2021. PMID:33409874 DOI:10.1007/s43032-020-00439-5
+10. Fahey JW et al. Bioavailability of Sulforaphane Following Ingestion of Glucoraphanin-Rich Broccoli Sprout and Seed Extracts with Active Myrosinase: A Pilot Study of the Effects of Proton Pump Inhibitor Administration. Nutrients. 2019. PMID:31261930 DOI:10.3390/nu11071489
+11. Charron CS et al. Absorption and metabolism of isothiocyanates formed from broccoli glucosinolates: effects of BMI and daily consumption in a randomised clinical trial. Br J Nutr. 2018. PMID:30499426 DOI:10.1017/S0007114518002921
+12. Kensler TW et al. Effects of glucosinolate-rich broccoli sprouts on urinary levels of aflatoxin-DNA adducts and phenanthrene tetraols in a randomized clinical trial in He Zuo township, Qidong, People's Republic of China. Cancer Epidemiol Biomarkers Prev. 2005. PMID:16284385 DOI:10.1158/1055-9965.EPI-05-0368
+13. Dwibedi C et al. Effect of broccoli sprout extract and baseline gut microbiota on fasting blood glucose in prediabetes: a randomized, placebo-controlled trial. Nat Microbiol. 2025. PMID:39929977 DOI:10.1038/s41564-025-01932-w
+14. Alexiev A et al. The Gut Microbiome and Diet Interact to Dictate Personalized Response to Broccoli Sprout Consumption. Food Sci Nutr. 2026. PMID:42564592 DOI:10.1002/fsn3.72211
+15. Egner PA et al. Rapid and sustainable detoxication of airborne pollutants by broccoli sprout beverage: results of a randomized clinical trial in China. Cancer Prev Res (Phila). 2014. PMID:24913818 DOI:10.1158/1940-6207.CAPR-14-0103
+16. Riedl MA et al. Oral sulforaphane increases Phase II antioxidant enzymes in the human upper airway. Clin Immunol. 2009. PMID:19028145 DOI:10.1016/j.clim.2008.10.007
+17. Chien AL et al. Oral Glucoraphanin and Curcumin Supplements Modulate Key Cytoprotective Enzymes in the Skin of Healthy Human Subjects: A Randomized Trial. Metabolites. 2025. PMID:40559384 DOI:10.3390/metabo15060360
+18. Ribeiro M et al. Sulforaphane upregulates the mRNA expression of NRF2 and NQO1 in non-dialysis patients with chronic kidney disease. Free Radic Biol Med. 2024. PMID:38772511 DOI:10.1016/j.freeradbiomed.2024.05.034
+19. Clifford T et al. The effect of dietary phytochemicals on nuclear factor erythroid 2-related factor 2 (Nrf2) activation: a systematic review of human intervention trials. Mol Biol Rep. 2021. PMID:33515348 DOI:10.1007/s11033-020-06041-x
+20. Mitra N et al. Effect of Glucoraphanin on the Abundance of Nrf2 Regulated Genes Within Circulating Small Extracellular Vesicles: A Pilot Dietary Intervention. Mol Nutr Food Res. 2026. PMID:41603376 DOI:10.1002/mnfr.70397
+21. Axelsson AS et al. Sulforaphane reduces hepatic glucose production and improves glucose control in patients with type 2 diabetes. Sci Transl Med. 2017. PMID:28615356 DOI:10.1126/scitranslmed.aah4477
+22. Mahéo K et al. Inhibition of cytochromes P-450 and induction of glutathione S-transferases by sulforaphane in primary human and rat hepatocytes. Cancer Res. 1997. PMID:9288764
+23. Wang M et al. Effects of phytochemicals sulforaphane on uridine diphosphate-glucuronosyltransferase expression as well as cell-cycle arrest and apoptosis in human colon cancer Caco-2 cells. Chin J Physiol. 2012. PMID:22559738 DOI:10.4077/CJP.2012.BAA085
+24. Singh K et al. Sulforaphane treatment of autism spectrum disorder (ASD). Proc Natl Acad Sci U S A. 2014. PMID:25313065 DOI:10.1073/pnas.1416940111
+25. Hahm ER et al. Bench-to-Bedside Evaluation of Sulforaphane/BroccoMax® on Fatty Acid Synthesis in Prostate Cancer. Cancer Prev Res (Phila). 2026. PMID:41738426 DOI:10.1158/1940-6207.CAPR-25-0488
+26. Catanzaro E et al. Nrf2: a potential therapeutic target for naturally occurring anticancer drugs? Expert Opin Ther Targets. 2017. PMID:28675319 DOI:10.1080/14728222.2017.1351549
+27. Wang R et al. The effect of sulforaphane on autism spectrum disorder: systematic review and meta-analysis. EXCLI J. 2025. PMID:40458076 DOI:10.17179/excli2025-8239
+28. Siafis S et al. Pharmacological and dietary-supplement treatments for autism spectrum disorder: a systematic review and network meta-analysis. Mol Autism. 2022. PMID:35246237 DOI:10.1186/s13229-022-00488-4
+29. Zimmerman AW et al. Randomized controlled trial of sulforaphane and metabolite discovery in children with Autism Spectrum Disorder. Mol Autism. 2021. PMID:34034808 DOI:10.1186/s13229-021-00447-5
+30. Magner M et al. Sulforaphane Treatment in Children with Autism: A Prospective Randomized Double-Blind Study. Nutrients. 2023. PMID:36771424 DOI:10.3390/nu15030718
+31. Ou J et al. Efficacy of Sulforaphane in Treatment of Children with Autism Spectrum Disorder: A Randomized Double-Blind Placebo-Controlled Multi-center Trial. J Autism Dev Disord. 2024. PMID:36427174 DOI:10.1007/s10803-022-05784-9
+32. Momtazmanesh S et al. Sulforaphane as an adjunctive treatment for irritability in children with autism spectrum disorder: A randomized, double-blind, placebo-controlled clinical trial. Psychiatry Clin Neurosci. 2020. PMID:32347624 DOI:10.1111/pcn.13016
+33. Chen JG et al. Dose-dependent detoxication of the airborne pollutant benzene in a randomized trial of broccoli sprout beverage in Qidong, China. Am J Clin Nutr. 2019. PMID:31268126 DOI:10.1093/ajcn/nqz122
+34. Ilaghi M et al. Dietary supplementations to mitigate the cardiopulmonary effects of air pollution toxicity: A systematic review of clinical trials. PLoS One. 2024. PMID:38870164 DOI:10.1371/journal.pone.0304402
+35. Heber D et al. Sulforaphane-rich broccoli sprout extract attenuates nasal allergic response to diesel exhaust particles. Food Funct. 2014. PMID:24287881 DOI:10.1039/c3fo60277j
+36. Baladia E et al. Broccoli Consumption and Risk of Cancer: An Updated Systematic Review and Meta-Analysis of Observational Studies. Nutrients. 2024. PMID:38892516 DOI:10.3390/nu16111583
+37. ElKhalifa D et al. Efficacy and tolerability of sulforaphane in the therapeutic management of cancers: a systematic review of randomized controlled trials. Front Oncol. 2023. PMID:38074675 DOI:10.3389/fonc.2023.1251895
+38. Alumkal JJ et al. A phase II study of sulforaphane-rich broccoli sprout extracts in men with recurrent prostate cancer. Invest New Drugs. 2015. PMID:25431127 DOI:10.1007/s10637-014-0189-z
+39. Yuan JM et al. Randomized Phase II Clinical Trial of Sulforaphane in Former Smokers at High Risk for Lung Cancer. Cancer Prev Res (Phila). 2025. PMID:40041932 DOI:10.1158/1940-6207.CAPR-24-0386
+40. Zhang Z et al. Sulforaphane Bioavailability and Chemopreventive Activity in Men Presenting for Biopsy of the Prostate Gland: A Randomized Controlled Trial. Nutr Cancer. 2020. PMID:31155953 DOI:10.1080/01635581.2019.1619783
+41. Bahadoran Z et al. Broccoli sprouts powder could improve serum triglyceride and oxidized LDL/LDL-cholesterol ratio in type 2 diabetic patients: a randomized double-blind placebo-controlled clinical trial. Diabetes Res Clin Pract. 2012. PMID:22325157 DOI:10.1016/j.diabres.2012.01.009
+42. Kassar O et al. Efficacy and safety of sulforaphane in schizophrenia: a systematic review and meta-analysis of randomized controlled trials. BMC Psychiatry. 2025. PMID:41184790 DOI:10.1186/s12888-025-07515-7
+43. Okazaki M et al. Efficacy and safety of Nrf2 activators for schizophrenia: a systematic review and meta-analysis. Eur Arch Psychiatry Clin Neurosci. 2026. PMID:42154264 DOI:10.1007/s00406-026-02264-4
+44. Christiansen B et al. Ingestion of broccoli sprouts does not improve endothelial function in humans with hypertension. PLoS One. 2010. PMID:20805984 DOI:10.1371/journal.pone.0012461
+45. Chen H et al. Effects of sulforaphane on negative symptoms and cognitive impairments in chronic schizophrenia patients: A randomized double-blind trial. J Psychiatr Res. 2025. PMID:40133020 DOI:10.1016/j.jpsychires.2025.03.023
+46. Ghannadi F et al. Sulforaphane Adjunct to Methylphenidate for Attention-deficit/Hyperactivity Disorder: A Randomized, Double-blind, Placebo-controlled Trial. Clin Neuropharmacol. 2025. PMID:41604557 DOI:10.1097/WNF.0000000000000658
+47. Ghazizadeh-Hashemi F et al. Efficacy and safety of sulforaphane for treatment of mild to moderate depression in patients with history of cardiac interventions: A randomized, double-blind, placebo-controlled clinical trial. Psychiatry Clin Neurosci. 2021. PMID:34033171 DOI:10.1111/pcn.13276
+48. Nouchi R et al. Brain Training and Sulforaphane Intake Interventions Separately Improve Cognitive Performance in Healthy Older Adults, Whereas a Combination of These Interventions Does Not Have More Beneficial Effects: Evidence from a Randomized Controlled Trial. Nutrients. 2021. PMID:33503851 DOI:10.3390/nu13020352
+49. Shimizu S et al. Efficacy of 42-month oral administration of glucoraphanin in preventing cognitive decline in individuals at elevated risk of dementia, including those with mild cognitive impairment: a randomized, double-blind, placebo-controlled pilot study. Front Nutr. 2026. PMID:41669080 DOI:10.3389/fnut.2026.1740494
+50. Zolnourian A et al. A Randomised Controlled Trial of SFX-01 After Subarachnoid Haemorrhage - The SAS Study. Transl Stroke Res. 2025. PMID:39028412 DOI:10.1007/s12975-024-01278-1
+51. Ghorbanian K et al. Effects of Broccoli Sprout Supplementation and Pilates Training on Liver Enzymes in Women with Nonalcoholic Fatty Liver Disease: A Double-Blind, Randomized Controlled Trial. Plant Foods Hum Nutr. 2026. PMID:42228225 DOI:10.1007/s11130-026-01515-y
+52. Chartoumpekis DV et al. Broccoli sprout beverage is safe for thyroid hormonal and autoimmune status: Results of a 12-week randomized trial. Food Chem Toxicol. 2019. PMID:30735751 DOI:10.1016/j.fct.2019.02.004
+53. Galanty A et al. Do Brassica Vegetables Affect Thyroid Function?-A Comprehensive Systematic Review. Int J Mol Sci. 2024. PMID:38612798 DOI:10.3390/ijms25073988
+54. Felker P et al. Concentrations of thiocyanate and goitrin in human plasma, their precursor concentrations in brassica vegetables, and associated potential risk for hypothyroidism. Nutr Rev. 2016. PMID:26946249 DOI:10.1093/nutrit/nuv110
+55. ClinicalTrials.gov. NCT03934905: Protective Effects of the Nutritional Supplement Sulforaphane on Doxorubicin-Associated Cardiac Dysfunction. Accessed 2026-10-13. URL:https://clinicaltrials.gov/study/NCT03934905
+56. Kall MA et al. Effects of dietary broccoli on human in vivo drug metabolizing enzymes: evaluation of caffeine, oestrone and chlorzoxazone metabolism. Carcinogenesis. 1996. PMID:8625493 DOI:10.1093/carcin/17.4.793
+57. Poulton EJ et al. Sulforaphane is not an effective antagonist of the human pregnane X-receptor in vivo. Toxicol Appl Pharmacol. 2013. PMID:23153560 DOI:10.1016/j.taap.2012.10.029
+58. Gasper AV et al. Glutathione S-transferase M1 polymorphism and metabolism of sulforaphane from standard and high-glucosinolate broccoli. Am J Clin Nutr. 2005. PMID:16332662 DOI:10.1093/ajcn/82.6.1283
+59. Traka M et al. Broccoli consumption interacts with GSTM1 to perturb oncogenic signalling pathways in the prostate. PLoS One. 2008. PMID:18596959 DOI:10.1371/journal.pone.0002568
+60. ClinicalTrials.gov. NCT03932136: Decreasing Risk of Psychosis by Sulforaphane (DROPS Trial). Accessed 2026-10-13. URL:https://clinicaltrials.gov/study/NCT03932136
+61. ClinicalTrials.gov. NCT07652866: Mechanisms of Sulforaphane Supplementation in Alleviating Negative Symptoms and Cognitive Impairment in Schizophrenia. Accessed 2026-10-13. URL:https://clinicaltrials.gov/study/NCT07652866

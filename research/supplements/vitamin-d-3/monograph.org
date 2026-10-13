@@ -1,0 +1,196 @@
+* Vitamin D-3
+:PROPERTIES:
+:ID: supp-vitamin-d-3
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: Vitamin D3 | cholecalciferol | colecalciferol | vitamin D | D3
+:CATEGORY: vitamin
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Vitamin D3 (cholecalciferol) is the form made in skin and the form used in most large modern trials (VITAL, D-Health, DO-HEALTH, D2d) [PMID:30415629] [PMID:35026158] [PMID:33170239] [PMID:31173679]. Vitamin D2 (ergocalciferol) is the plant/fungal form, and is also sold as a prescription product [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0d230fd8-2ea7-4dd6-a506-5f7804e539fc].
+- D3 vs D2: a 2012 meta-analysis of RCTs found D3 raised serum 25(OH)D more than D2. The difference was clear with bolus dosing and disappeared with daily dosing [PMID:22552031]. A 2024 meta-analysis (20 comparisons) found that even with daily dosing measured by LC-MS/MS, D2 raised total 25(OH)D 10.39 nmol/L less than D3 (95% CI -14.62 to -6.16). Body mass index was the strongest modifier, and the difference was lost at BMI >25 kg/m2 [PMID:37865222].
+- D2 lowers circulating 25(OH)D3, and D3 lowers 25(OH)D2, by a similar amount. In one RCT, D2 lowered day-28 25(OH)D3 by 13.2 nmol/L versus placebo [PMID:30658603].
+- Other forms: calcifediol (25(OH)D3) and calcitriol (1,25(OH)2D3, prescription). A 2024 international consensus prefers oral cholecalciferol for supplementation and limits calcitriol to disorders where the active metabolite is not made adequately [PMID:38676447].
+- Reference intakes (US IOM 2011): RDA 600 IU/day for ages 1-70 years and in pregnancy/lactation, and 800 IU/day above age 70. A serum 25(OH)D of at least 50 nmol/L (20 ng/mL) is sufficient for practically everyone, and there "may be reason for concern" above 125 nmol/L (50 ng/mL) [URL:https://www.nationalacademies.org/read/13050/chapter/2].
+
+** Mechanisms
+- Vitamin D is hydroxylated in the liver (CYP2R1, a 25-hydroxylase) to 25(OH)D, the circulating status marker. It is then converted by 1-alpha-hydroxylase to calcitriol, which acts on the vitamin D receptor. Vitamin D binding protein (GC gene) carries the metabolites [PMID:28575224] [PMID:39337491].
+- The classic action is calcium homeostasis. Vitamin D increases intestinal calcium absorption, renal calcium reabsorption and bone resorption, which is why excess causes hypercalcemia [PMID:34774245].
+- CYP24A1 breaks down vitamin D metabolites. Granulomatous disease (for example sarcoidosis) can overexpress 1-alpha-hydroxylase outside the kidney, so supplements can produce hypercalcemia with high calcitriol (review and case report) [PMID:39337491] [PMID:36221396].
+- Proposed effects outside bone (immune, beta-cell, telomere maintenance) rest mainly on mechanistic and observational data. Their size in trials is described below [PMID:41707752] [PMID:38676447].
+
+** Evidence summary by outcome
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---|---|---|---|---|---|
+| Fractures (general, mostly replete population) | 2026 SR/MA of 69 RCTs (153,902 people); VITAL; D-Health | Null | D alone RR 1.00 (0.95-1.06), 36 trials; D+calcium RR 0.91 (0.84-0.99), judged not clinically meaningful; VITAL total fractures HR 0.98 (0.89-1.08) | high | [PMID:42161415] [PMID:35939577] [PMID:37011645] |
+| Falls | 2026 SR/MA; MA of intermittent/bolus dosing | Null; bolus possibly harmful | Little to no effect; bolus dosing falls RR 1.06 (0.99-1.15) | moderate | [PMID:42161415] [PMID:37120684] [PMID:38828942] |
+| Hip fracture in healthy older women | MA of 7 RCTs (2024) | Possible harm (signal) | RR 1.34 (1.06-1.70) | low | [PMID:38997531] |
+| Stress fractures (military recruits) | 1 large RCT (Ca 2000 mg + D 800 IU); SR | Benefit (combined with calcium) | 20% fewer stress fractures (5.3% vs 6.6%); RR 0.77 (0.62-0.95) | low | [PMID:18433305] [PMID:31268835] |
+| Bone mineral density (older adults) | DO-HEALTH | Small benefit at total hip only | Total hip aBMD +0.0035 g/cm2; no effect at spine or femoral neck | moderate | [PMID:38613445] |
+| Invasive cancer incidence | VITAL; D-Health | Null | VITAL HR 0.96 (0.88-1.06); D-Health HR 1.02 (0.95-1.10) | high | [PMID:30415629] [PMID:40096917] |
+| Cancer mortality | IPD MA of 14 RCTs; 2019 MA | Possible small benefit with daily dosing only | Overall RR 0.94 (0.86-1.02); daily dosing RR 0.88 (0.78-0.98); bolus RR 1.07 (0.91-1.24) | low | [PMID:37004841] [PMID:31405892] [PMID:35026158] |
+| Major cardiovascular events | VITAL; D-Health; DO-HEALTH | Null or small | VITAL HR 0.97 (0.85-1.12); D-Health HR 0.91 (0.81-1.01) | moderate | [PMID:30415629] [PMID:37380191] [PMID:38199870] |
+| All-cause mortality | MA of 52 RCTs; D-Health; Endocrine Society SR | Null overall; very small reduction claimed for age >75 | RR 0.98 (0.95-1.02); D-Health HR 1.04 (0.93-1.18) | moderate | [PMID:31405892] [PMID:35026158] [PMID:38828942] |
+| Autoimmune disease | VITAL (2000 IU/d, 5.3 y) plus 2-y follow-up | Benefit during treatment that faded after stopping | HR 0.78 (0.61-0.99); HR 0.98 (0.83-1.17) at 7 y | low | [PMID:35082139] [PMID:38272846] |
+| Acute respiratory infection | Jolliffe SR/MA 2025 (40 RCTs, 61,589 people) | Null to very small | OR 0.94 (0.88-1.00); small-trial/publication bias | moderate | [PMID:39993397] [PMID:33798465] [PMID:39808630] |
+| Type 2 diabetes in prediabetes | D2d; IPD MA of 3 RCTs | Modest benefit | D2d HR 0.88 (0.75-1.04); IPD HR 0.85 (0.75-0.96), 3-y ARR 3.3% | moderate | [PMID:31173679] [PMID:36745886] [PMID:38828942] |
+| Depressive symptoms | Dose-response MA of 31 RCTs; MA of 18 RCTs | Small benefit; heterogeneous; fades in longer trials | SMD -0.32 per 1000 IU/d; primary depression SMD -0.15 (-0.26 to -0.04) | low | [PMID:39552387] [PMID:37852593] |
+| Cognitive decline / dementia | VITAL cognition substudies; DO-HEALTH; observational cohorts | Null in RCTs; inverse association in cohorts | VITAL MD 0.01 (-0.01 to 0.02) SD/y; cohort HR 0.60 (observational) | low | [PMID:34853363] [PMID:33170239] [PMID:36874594] [PMID:38296029] [PMID:41001202] |
+| Telomere length / biological aging | VITAL telomere substudy; D-Health; DO-HEALTH epigenetic clocks | Mixed | VITAL: 0.14 kb less LTL attrition over 4 y; D-Health (monthly bolus): no effect; DO-HEALTH: vitamin D effect only additive on PhenoAge | low | [PMID:40409468] [PMID:37702332] [PMID:39900648] |
+| Muscle mass / sarcopenia | DO-HEALTH | Null | No effect on ALMI or incident sarcopenia | moderate | [PMID:39565152] |
+| MS disease activity after clinically isolated syndrome | D-Lay MS RCT (100,000 IU every 2 weeks) | Benefit on composite (MRI-driven) | HR 0.66 (0.50-0.87); relapse HR 0.69 (0.42-1.16) | low | [PMID:40063041] |
+
+** Dosing in trials
+- VITAL: 2000 IU/day D3 for a median of 5.3 years in adults aged 50/55 and older [PMID:30415629].
+- DO-HEALTH: 2000 IU/day D3 for 3 years in adults aged 70 and older [PMID:33170239].
+- D-Health: 60,000 IU once a month for up to 5 years. Achieved 25(OH)D was 115 vs 77 nmol/L [PMID:35026158].
+- D2d: 4000 IU/day. Achieved 25(OH)D was 54.3 ng/mL vs 28.8 ng/mL [PMID:31173679]. Prediabetes trials also used 20,000 IU/week [PMID:36745886].
+- Annual bolus: 500,000 IU cholecalciferol once a year (Sanders). Levels rose to about 120 nmol/L at 1 month [PMID:20460620].
+- Military: 800 IU D3 plus 2000 mg calcium daily during 8 weeks of training [PMID:18433305].
+- D-Lay MS: 100,000 IU every 2 weeks for 24 months [PMID:40063041].
+- Endocrine Society 2024 guideline: for people over 50 in whom vitamin D is indicated, it suggests daily rather than intermittent high doses. It suggests against empiric doses above the DRI in healthy adults under 75 and against routine 25(OH)D testing. It states that optimal doses and target 25(OH)D levels for disease prevention are unclear [PMID:38828931].
+
+** Safety & adverse effects
+- Upper limits (IOM 2011): 4000 IU/day from age 9 years, including pregnancy and lactation. Lower limits apply in infants and children: 1000 IU (0-6 months), 1500 IU (6-12 months), 2500 IU (1-3 years) and 3000 IU (4-8 years) [URL:https://www.nationalacademies.org/read/13050/chapter/2].
+- Toxicity: hypervitaminosis D is rare and usually comes from misuse of high-dose OTC products or prescription errors. It shows up as hypercalcemia [PMID:32491799]. Susceptibility varies between people, partly through CYP24A1 variants, and hypercalcemia can be refractory to standard treatment [PMID:39337491].
+- At usual trial doses, large RCTs did not find excess hypercalcemia or other adverse events in VITAL [PMID:30415629]. D-Health found no difference in hypercalcemia or kidney stones [PMID:34337905]. In the prediabetes IPD meta-analysis, adverse-event rate ratios had wide confidence intervals: kidney stones 1.17 (0.69-1.99), hypercalcemia 2.34 (0.83-6.66), hypercalciuria 1.65 (0.83-3.28) [PMID:36745886].
+- Kidney stones with calcium: in the WHI, calcium 1000 mg plus D3 400 IU/day increased kidney stones (HR 1.17, 1.02-1.34) [PMID:16481635]. In a separate trial of vitamin D and calcium in older women, hypercalciuria occurred in 30.6% and hypercalcemia in 8.8%. Neither was dose-related, and hypercalciuria was equally common with placebo [PMID:24937025].
+- High-dose bolus harm: annual 500,000 IU increased falls (IRR 1.15, 1.02-1.30) and fractures (IRR 1.26, 1.00-1.59) [PMID:20460620]. A meta-analysis of intermittent or single high doses found a borderline increase in falls with D3 [PMID:37120684]. The 2024 Endocrine Society systematic review concluded that high-dose intermittent dosing may increase falls compared with daily dosing [PMID:38828942]. In D-Health, monthly 60,000 IU did not increase fractures [PMID:37011645], but falls rose in people with BMI <25 (OR 1.25, 1.09-1.43) [PMID:34337905]. D-Health exploratory analyses also hinted at higher cancer mortality after year 2 (HR 1.24, 1.01-1.54), and the authors suggested precaution with this regimen in vitamin D-replete people [PMID:35026158].
+
+** Contraindications
+- Hypercalcemia or hypervitaminosis D (label contraindication for prescription ergocalciferol) [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0d230fd8-2ea7-4dd6-a506-5f7804e539fc].
+- Sarcoidosis and other granulomatous disease: extrarenal 1-alpha-hydroxylase activity can cause hypercalcemia. There is a case report of hypercalcemia with acute kidney injury after a year of cholecalciferol [PMID:36221396] [PMID:39337491]. Major trials excluded people with sarcoidosis, hypercalcemia, hyperparathyroidism or kidney stones [PMID:37380191].
+- Primary hyperparathyroidism: a meta-analysis (11 studies, 388 patients) found that supplementing deficient patients lowered PTH without causing hypercalcemia or hypercalciuria. This supports caution with monitoring rather than absolute avoidance [PMID:33453021].
+
+** Interactions
+*** Drugs
+- Thiazide diuretics: thiazides reduce urinary calcium excretion. With vitamin D (labels for ergocalciferol in hypoparathyroidism, and calcitriol) they can cause hypercalcemia, and thiazide hypercalcemia can unmask hyperparathyroidism [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=261398eb-80b8-4c3d-9d2b-3a8004347a75] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0d230fd8-2ea7-4dd6-a506-5f7804e539fc] [PMID:34774245].
+- Digoxin/digitalis: hypercalcemia can precipitate arrhythmias in people taking digitalis (calcitriol label) [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=261398eb-80b8-4c3d-9d2b-3a8004347a75].
+- Orlistat: in adolescents taking orlistat, vitamin D levels fell after 1 month despite a multivitamin [PMID:12126214]. Mineral oil also interferes with absorption of fat-soluble vitamins [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0d230fd8-2ea7-4dd6-a506-5f7804e539fc].
+- Cholestyramine (bile acid sequestrants): reduces intestinal absorption of fat-soluble vitamins, per the calcitriol label [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=261398eb-80b8-4c3d-9d2b-3a8004347a75].
+- Enzyme-inducing anticonvulsants: phenytoin and phenobarbital speed up metabolism of 25(OH)D3 (label) [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=261398eb-80b8-4c3d-9d2b-3a8004347a75]. In a meta-analysis, carbamazepine users had 25(OH)D about 4.0 ng/mL lower [PMID:34847425].
+- Corticosteroids: they inhibit calcium absorption, which is functional antagonism with vitamin D (label) [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=261398eb-80b8-4c3d-9d2b-3a8004347a75]. Conversely, glucocorticoids are used to treat vitamin D intoxication [PMID:39337491].
+- Calcitriol and other active vitamin D analogues: the calcitriol label says to withhold pharmacological doses of vitamin D during calcitriol therapy because of additive hypercalcemia [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=261398eb-80b8-4c3d-9d2b-3a8004347a75].
+*** Other supplements
+- Calcium: when combined with vitamin D, kidney stones increased (WHI) [PMID:16481635]. For fractures, the combination gave RR 0.91 (0.84-0.99) but with absolute benefit judged not meaningful [PMID:42161415]. Stress fractures fell in military recruits [PMID:18433305]. The calcitriol label warns against uncontrolled extra calcium [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=261398eb-80b8-4c3d-9d2b-3a8004347a75].
+- Magnesium: in an RCT, magnesium supplementation raised 25(OH)D3 when baseline 25(OH)D was about 30 ng/mL and lowered it at higher baselines [PMID:30541089]. In a small RCT in people with overweight or obesity, magnesium plus vitamin D raised 25(OH)D more than vitamin D alone [PMID:35576873].
+- Vitamin K2: the proposed rationale is that vitamin K-dependent proteins direct calcium to bone rather than arteries. This is mechanistic only; combined MK-7 plus D3 did not slow aortic valve or coronary calcification in the AVADEC trial (narrative review) [PMID:42654291].
+- Boron: a narrative review claims boron "beneficially impacts" vitamin D use. No human RCT on this interaction was found, so the evidence is very weak [PMID:26770156].
+- Fish Oil (Omega-3): commonly co-tested (VITAL, DO-HEALTH). There was no clinical interaction, but the factorial arms appeared additive for autoimmune disease in VITAL and for PhenoAge in DO-HEALTH [PMID:35082139] [PMID:39900648].
+- Stacking with other vitamin D-containing products (multivitamins, fortified foods) adds to total intake, which matters relative to the 4000 IU/day UL [URL:https://www.nationalacademies.org/read/13050/chapter/2].
+*** Conditions
+- Sarcoidosis/granulomatous disease, hypercalcemia, primary hyperparathyroidism: see Contraindications.
+- History of kidney stones: an exclusion criterion in D-Health. Stone risk rose with calcium plus D in the WHI [PMID:37380191] [PMID:16481635].
+- Obesity: smaller 25(OH)D response, and the D2 vs D3 difference shrinks at BMI >25 [PMID:37865222].
+- Chronic kidney disease: the calcitriol label notes that hypercalcemia can raise creatinine, and that magnesium antacids cause hypermagnesemia in dialysis patients on calcitriol. Activation of native D3 depends on renal 1-alpha-hydroxylation [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=261398eb-80b8-4c3d-9d2b-3a8004347a75].
+*** Lab-test interference
+- 25(OH)D immunoassays: older immunoassays overestimated 25(OH)D3 and detected less than 50% of 25(OH)D2 compared with HPLC. People taking D2 may therefore appear falsely low, and assay-specific decision limits are needed [PMID:16390606]. Assay design (binding-protein capture, cross-reactivity with 3-epi-25(OH)D3, heterophile antibody interference) affects accuracy [PMID:24887958]. Lack of standardization still makes it hard to compare 25(OH)D thresholds across studies [PMID:38676447]. LC-MS/MS measures D2 and D3 metabolites separately [PMID:37865222].
+
+** Genotype notes
+- GC (vitamin D binding protein) and CYP2R1 (25-hydroxylase) variants modify how much 25(OH)D rises with supplementation:
+  - In an antenatal cholecalciferol RCT, achieved 25(OH)D was associated with CYP2R1 rs10741657 (beta -5.2 nmol/L) and GC rs2282679 (beta +4.2 nmol/L) [PMID:28575224].
+  - In a prediabetes RCT (1600 IU/day for 24 weeks), CYP2R1 rs12794714 AA and GC rs4588 GA carriers had smaller 25(OH)D3 increases [PMID:40114038].
+- VDR SNPs were not associated with tibial bone measures in British Army recruits [PMID:40324208].
+- CYP24A1 variants may predispose to vitamin D toxicity (review) [PMID:39337491].
+- No cited evidence supports genotype-guided dosing for clinical outcomes.
+
+** Latest research
+- [2026-08] A narrative review of omega-3, D3 and K2 reports that combined MK-7 plus D3 did not slow valve or coronary calcification in AVADEC, and calls the K2 rationale biologically plausible but unconfirmed in humans [PMID:42654291].
+- [2026-05] A BMJ SR/MA of 69 RCTs (153,902 people) found vitamin D alone has no effect on any fracture (RR 1.00, high certainty). Combined calcium plus D gave RR 0.91, with little to no clinically meaningful benefit for fractures or falls [PMID:42161415].
+- [2026-05] A mini-review of vitamin D for diabetes prevention notes that the IPD meta-analysis showed a 15% relative risk reduction, with greater benefit at low baseline 25(OH)D or BMI <30 [PMID:41707752].
+- [2025-09] A dose-response meta-analysis of observational studies found the lowest vs highest vitamin D category had RR 1.49 for dementia. That works out to a 1.2% lower risk per 10 nmol/L, which is not causal evidence [PMID:41001202].
+- [2025-08] DO-HEALTH found 2000 IU/day D3 did not reduce incident vertebral fractures over 3 years [PMID:40492704].
+- [2025-07] VITAL telomere substudy: 2000 IU/day D3 reduced leukocyte telomere attrition by 0.14 kb over 4 years [PMID:40409468].
+- [2025-06] A British Army recruit RCT found no association of 25(OH)D or VDR SNPs with tibial density or microarchitecture [PMID:40324208].
+- [2025-06] D-Health cancer incidence: HR 1.02 (0.95-1.10). The authors call this convincing evidence of no effect on cancer incidence [PMID:40096917].
+- [2025-04] D-Lay MS RCT: 100,000 IU every 2 weeks reduced disease activity after clinically isolated syndrome (HR 0.66), driven by MRI outcomes. Relapse did not differ significantly [PMID:40063041].
+- [2025-04] Jolliffe updated SR/MA of acute respiratory infections: OR 0.94 (0.88-1.00), no longer statistically significant [PMID:39993397].
+- [2025-04] DO-HEALTH: no effect of D3 on muscle mass or incident sarcopenia [PMID:39565152].
+- [2025-03] DO-HEALTH epigenetic clocks: omega-3 slowed several clocks. Vitamin D contributed only an additive effect on PhenoAge [PMID:39900648].
+- [2025-01] A critical meta-analysis of respiratory infections found that benefit is confined to small trials. Trials of 248 or more participants gave SOR 0.98 (0.94-1.03) [PMID:39808630].
+- [2024-11] A meta-analysis of healthy older adults found no reduction in total fractures and a higher hip fracture risk in women (RR 1.34) [PMID:38997531].
+- [2024-11] A dose-response MA of depression (31 RCTs) found SMD -0.32 per 1000 IU/day, attenuating in trials longer than 24 weeks [PMID:39552387].
+- [2024-09] An international consensus ("Controversies in Vitamin D") says optimal 25(OH)D is still debated and assay standardization is lacking, and prefers cholecalciferol [PMID:38676447].
+- [2024-07] Endocrine Society guideline: empiric vitamin D is suggested for ages 1-18, adults over 75, pregnancy and high-risk prediabetes. It suggests against doses above the DRI in healthy adults under 75 and against routine 25(OH)D testing, and sets no target level [PMID:38828931] [PMID:38828942].
+- [2024-07] DO-HEALTH: a small total-hip BMD benefit only [PMID:38613445].
+- [2024-06] VITAL 2-year post-trial follow-up: the autoimmune benefit of vitamin D faded (HR 0.98 at 7 years) [PMID:38272846].
+- [2024-04] UK Biobank cohort: regular vitamin D use was associated with lower Alzheimer's disease risk (HR 0.83). This is observational [PMID:38296029].
+- [2024-02] DO-HEALTH: no reduction in major cardiovascular events (aHR 1.37, 0.88-2.14) [PMID:38199870].
+
+** Open questions
+- What 25(OH)D target, if any, matters for prevention outside bone? The 2024 Endocrine Society guideline declined to set one [PMID:38828931], while other consensus groups still debate higher targets [PMID:38676447].
+- Is the cancer-mortality benefit real and specific to daily dosing [PMID:37004841], given that D-Health's monthly bolus pointed the other way [PMID:35026158]?
+- Does vitamin D benefit people who are truly deficient? Most large trials enrolled largely replete participants [PMID:38676447].
+- Is the hip fracture signal in healthy older women real [PMID:38997531]? Is the falls signal with bolus dosing at normal BMI real [PMID:34337905]?
+- Do the telomere effects (VITAL) translate into clinical aging outcomes, given null results with monthly bolus dosing (D-Health) [PMID:40409468] [PMID:37702332]?
+- No RCT evidence links vitamin D supplementation to dementia prevention. Cohort associations may be confounded [PMID:34853363] [PMID:38296029].
+
+** Sources
+1. Manson JE et al. Vitamin D Supplements and Prevention of Cancer and Cardiovascular Disease. N Engl J Med. 2019. PMID:30415629 DOI:10.1056/NEJMoa1809944
+2. Neale RE et al. The D-Health Trial: a randomised controlled trial of the effect of vitamin D on mortality. Lancet Diabetes Endocrinol. 2022. PMID:35026158 DOI:10.1016/S2213-8587(21)00345-4
+3. Bischoff-Ferrari HA et al. Effect of Vitamin D Supplementation, Omega-3 Fatty Acid Supplementation, or a Strength-Training Exercise Program on Clinical Outcomes in Older Adults: The DO-HEALTH Randomized Clinical Trial. JAMA. 2020. PMID:33170239 DOI:10.1001/jama.2020.16909
+4. Pittas AG et al. Vitamin D Supplementation and Prevention of Type 2 Diabetes. N Engl J Med. 2019. PMID:31173679 DOI:10.1056/NEJMoa1900906
+5. DailyMed. Ergocalciferol capsules prescribing information (contraindications, drug interactions). U.S. National Library of Medicine. URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0d230fd8-2ea7-4dd6-a506-5f7804e539fc
+6. Tripkovic L et al. Comparison of vitamin D2 and vitamin D3 supplementation in raising serum 25-hydroxyvitamin D status: a systematic review and meta-analysis. Am J Clin Nutr. 2012. PMID:22552031 DOI:10.3945/ajcn.111.031070
+7. van den Heuvel EG et al. Comparison of the Effect of Daily Vitamin D2 and Vitamin D3 Supplementation on Serum 25-Hydroxyvitamin D Concentration (Total 25(OH)D, 25(OH)D2, and 25(OH)D3) and Importance of Body Mass Index: A Systematic Review and Meta-Analysis. Adv Nutr. 2024. PMID:37865222 DOI:10.1016/j.advnut.2023.09.016
+8. Hammami MM et al. Vitamin-D2 treatment-associated decrease in 25(OH)D3 level is a reciprocal phenomenon: a randomized controlled trial. BMC Endocr Disord. 2019. PMID:30658603 DOI:10.1186/s12902-019-0337-8
+9. Giustina A et al. Consensus Statement on Vitamin D Status Assessment and Supplementation: Whys, Whens, and Hows. Endocr Rev. 2024. PMID:38676447 DOI:10.1210/endrev/bnae009
+10. Institute of Medicine. Dietary Reference Intakes for Calcium and Vitamin D (Report Brief/Summary). National Academies Press. 2011. URL:https://www.nationalacademies.org/read/13050/chapter/2
+11. Moon RJ et al. Response to Antenatal Cholecalciferol Supplementation Is Associated With Common Vitamin D-Related Genetic Variants. J Clin Endocrinol Metab. 2017. PMID:28575224 DOI:10.1210/jc.2017-00682
+12. Aberger S et al. Targeting Calcitriol Metabolism in Acute Vitamin D Toxicity-A Comprehensive Review and Clinical Insight. Int J Mol Sci. 2024. PMID:39337491 DOI:10.3390/ijms251810003
+13. Lecoq AL et al. Drug-Related Hypercalcemia. Endocrinol Metab Clin North Am. 2021. PMID:34774245 DOI:10.1016/j.ecl.2021.08.001
+14. Mio K et al. Hypercalcemia worsened after vitamin D supplementation in a sarcoidosis patient: A case report. Medicine (Baltimore). 2022. PMID:36221396 DOI:10.1097/MD.0000000000030883
+15. Amrein K et al. Mini-review. Vitamin D for the prevention of type 2 diabetes: Evidence and implications. Metabolism. 2026. PMID:41707752 DOI:10.1016/j.metabol.2026.156566
+16. Massé O et al. Calcium, vitamin D, or combined supplementation to prevent fractures and falls: systematic review and meta-analysis. BMJ. 2026. PMID:42161415 DOI:10.1136/bmj-2025-088050
+17. LeBoff MS et al. Supplemental Vitamin D and Incident Fractures in Midlife and Older Adults. N Engl J Med. 2022. PMID:35939577 DOI:10.1056/NEJMoa2202106
+18. Waterhouse M et al. The effect of monthly vitamin D supplementation on fractures: a tertiary outcome from the population-based, double-blind, randomised, placebo-controlled D-Health trial. Lancet Diabetes Endocrinol. 2023. PMID:37011645 DOI:10.1016/S2213-8587(23)00063-3
+19. Myung SK et al. Effects of intermittent or single high-dose vitamin D supplementation on risk of falls and fractures: a systematic review and meta-analysis. Osteoporos Int. 2023. PMID:37120684 DOI:10.1007/s00198-023-06761-3
+20. Shah VP et al. A Systematic Review Supporting the Endocrine Society Clinical Practice Guidelines on Vitamin D. J Clin Endocrinol Metab. 2024. PMID:38828942 DOI:10.1210/clinem/dgae312
+21. de Souza MM et al. Vitamin D Supplementation and the Incidence of Fractures in the Elderly Healthy Population: A Meta-analysis of Randomized Controlled Trials. J Gen Intern Med. 2024. PMID:38997531 DOI:10.1007/s11606-024-08933-1
+22. Lappe J et al. Calcium and vitamin d supplementation decreases incidence of stress fractures in female navy recruits. J Bone Miner Res. 2008. PMID:18433305 DOI:10.1359/jbmr.080102
+23. Sivakumar G et al. Vitamin D Supplementation in Military Personnel: A Systematic Review of Randomized Controlled Trials. Sports Health. 2019. PMID:31268835 DOI:10.1177/1941738119857717
+24. Kistler-Fischbacher M et al. Effects of vitamin D3, omega-3s, and a simple strength training exercise program on bone health: the DO-HEALTH randomized controlled trial. J Bone Miner Res. 2024. PMID:38613445 DOI:10.1093/jbmr/zjae054
+25. Neale RE et al. The effect of vitamin D supplementation on cancer incidence in the randomised controlled D-Health Trial: Implications for policy and practice. J Steroid Biochem Mol Biol. 2025. PMID:40096917 DOI:10.1016/j.jsbmb.2025.106738
+26. Kuznia S et al. Efficacy of vitamin D(3) supplementation on cancer mortality: Systematic review and individual patient data meta-analysis of randomised controlled trials. Ageing Res Rev. 2023. PMID:37004841 DOI:10.1016/j.arr.2023.101923
+27. Zhang Y et al. Association between vitamin D supplementation and mortality: systematic review and meta-analysis. BMJ. 2019. PMID:31405892 DOI:10.1136/bmj.l4673
+28. Thompson B et al. Vitamin D supplementation and major cardiovascular events: D-Health randomised controlled trial. BMJ. 2023. PMID:37380191 DOI:10.1136/bmj-2023-075230
+29. Gaengler S et al. Effects of vitamin D, omega-3 and a simple strength exercise programme in cardiovascular disease prevention: The DO-HEALTH randomized controlled trial. J Nutr Health Aging. 2024. PMID:38199870 DOI:10.1016/j.jnha.2024.100037
+30. Hahn J et al. Vitamin D and marine omega 3 fatty acid supplementation and incident autoimmune disease: VITAL randomized controlled trial. BMJ. 2022. PMID:35082139 DOI:10.1136/bmj-2021-066452
+31. Costenbader KH et al. Vitamin D and Marine n-3 Fatty Acids for Autoimmune Disease Prevention: Outcomes Two Years After Completion of a Double-Blind, Placebo-Controlled Trial. Arthritis Rheumatol. 2024. PMID:38272846 DOI:10.1002/art.42811
+32. Jolliffe DA et al. Vitamin D supplementation to prevent acute respiratory infections: systematic review and meta-analysis of stratified aggregate data. Lancet Diabetes Endocrinol. 2025. PMID:39993397 DOI:10.1016/S2213-8587(24)00348-6
+33. Jolliffe DA et al. Vitamin D supplementation to prevent acute respiratory infections: a systematic review and meta-analysis of aggregate data from randomised controlled trials. Lancet Diabetes Endocrinol. 2021. PMID:33798465 DOI:10.1016/S2213-8587(21)00051-6
+34. Autier P et al. Vitamin D, acute respiratory infections, and Covid-19: The curse of small-size randomised trials. A critical review with meta-analysis of randomised trials. PLoS One. 2025. PMID:39808630 DOI:10.1371/journal.pone.0303316
+35. Pittas AG et al. Vitamin D and Risk for Type 2 Diabetes in People With Prediabetes : A Systematic Review and Meta-analysis of Individual Participant Data From 3 Randomized Clinical Trials. Ann Intern Med. 2023. PMID:36745886 DOI:10.7326/M22-3018
+36. Ghaemi S et al. The effect of vitamin D supplementation on depression: a systematic review and dose-response meta-analysis of randomized controlled trials. Psychol Med. 2024. PMID:39552387 DOI:10.1017/S0033291724001697
+37. Wang R et al. The effect of vitamin D supplementation on primary depression: A meta-analysis. J Affect Disord. 2024. PMID:37852593 DOI:10.1016/j.jad.2023.10.021
+38. Kang JH et al. Effect of vitamin D on cognitive decline: results from two ancillary studies of the VITAL randomized trial. Sci Rep. 2021. PMID:34853363 DOI:10.1038/s41598-021-02485-8
+39. Ghahremani M et al. Vitamin D supplementation and incident dementia: Effects of sex, APOE, and baseline cognitive status. Alzheimers Dement (Amst). 2023. PMID:36874594 DOI:10.1002/dad2.12404
+40. Chen LJ et al. The associations of serum vitamin D status and vitamin D supplements use with all-cause dementia, Alzheimer's disease, and vascular dementia: a UK Biobank based prospective cohort study. Am J Clin Nutr. 2024. PMID:38296029 DOI:10.1016/j.ajcnut.2024.01.020
+41. Huang Y et al. Association of vitamin D with risk of dementia: a dose-response meta-analysis of observational studies. Front Neurol. 2025. PMID:41001202 DOI:10.3389/fneur.2025.1649841
+42. Zhu H et al. Vitamin D(3) and marine ω-3 fatty acids supplementation and leukocyte telomere length: 4-year findings from the VITamin D and OmegA-3 TriaL (VITAL) randomized controlled trial. Am J Clin Nutr. 2025. PMID:40409468 DOI:10.1016/j.ajcnut.2025.05.003
+43. Rahman ST et al. Effects of Vitamin D Supplementation on Telomere Length: An Analysis of Data from the Randomised Controlled D-Health Trial. J Nutr Health Aging. 2023. PMID:37702332 DOI:10.1007/s12603-023-1948-3
+44. Bischoff-Ferrari HA et al. Individual and additive effects of vitamin D, omega-3 and exercise on DNA methylation clocks of biological aging in older adults from the DO-HEALTH trial. Nat Aging. 2025. PMID:39900648 DOI:10.1038/s43587-024-00793-y
+45. Eggimann AK et al. Effect of vitamin D, omega-3 supplementation, or a home exercise program on muscle mass and sarcopenia: DO-HEALTH trial. J Am Geriatr Soc. 2025. PMID:39565152 DOI:10.1111/jgs.19266
+46. Thouvenot E et al. High-Dose Vitamin D in Clinically Isolated Syndrome Typical of Multiple Sclerosis: The D-Lay MS Randomized Clinical Trial. JAMA. 2025. PMID:40063041 DOI:10.1001/jama.2025.1604
+47. Sanders KM et al. Annual high-dose oral vitamin D and falls and fractures in older women: a randomized controlled trial. JAMA. 2010. PMID:20460620 DOI:10.1001/jama.2010.594
+48. Demay MB et al. Vitamin D for the Prevention of Disease: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2024. PMID:38828931 DOI:10.1210/clinem/dgae290
+49. Asif A et al. Vitamin D Toxicity. StatPearls [Internet]. 2023. PMID:32491799
+50. Waterhouse M et al. Vitamin D supplementation and risk of falling: outcomes from the randomized, placebo-controlled D-Health Trial. J Cachexia Sarcopenia Muscle. 2021. PMID:34337905 DOI:10.1002/jcsm.12759
+51. Jackson RD et al. Calcium plus vitamin D supplementation and the risk of fractures. N Engl J Med. 2006. PMID:16481635 DOI:10.1056/NEJMoa055218
+52. Gallagher JC et al. Incidence of hypercalciuria and hypercalcemia during vitamin D and calcium supplementation in older women. Menopause. 2014. PMID:24937025 DOI:10.1097/GME.0000000000000270
+53. Song A et al. Safety and efficacy of common vitamin D supplementation in primary hyperparathyroidism and coexistent vitamin D deficiency and insufficiency: a systematic review and meta-analysis. J Endocrinol Invest. 2021. PMID:33453021 DOI:10.1007/s40618-020-01473-5
+54. DailyMed. Calcitriol capsules prescribing information (drug interactions, precautions). U.S. National Library of Medicine. URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=261398eb-80b8-4c3d-9d2b-3a8004347a75
+55. McDuffie JR et al. Effects of orlistat on fat-soluble vitamins in obese adolescents. Pharmacotherapy. 2002. PMID:12126214 DOI:10.1592/phco.22.11.814.33627
+56. LoPinto-Khoury C et al. Impact of carbamazepine on vitamin D levels: A meta-analysis. Epilepsy Res. 2021. PMID:34847425 DOI:10.1016/j.eplepsyres.2021.106829
+57. Dai Q et al. Magnesium status and supplementation influence vitamin D status and metabolism: results from a randomized trial. Am J Clin Nutr. 2018. PMID:30541089 DOI:10.1093/ajcn/nqy274
+58. Cheung MM et al. The effect of combined magnesium and vitamin D supplementation on vitamin D status, systemic inflammation, and blood pressure: A randomized double-blinded controlled trial. Nutrition. 2022. PMID:35576873 DOI:10.1016/j.nut.2022.111674
+59. Fang SC et al. Beyond Bone Health: Exploring the "Heart-Brain-Bone" Axis Modulated by Lipid-Soluble Nutrients (Omega-3, Vitamin D3, and Vitamin K2). Nutrients. 2026. PMID:42654291 DOI:10.3390/nu18162711
+60. Pizzorno L et al. Nothing Boring About Boron. Integr Med (Encinitas). 2015. PMID:26770156
+61. Glendenning P et al. Current assays overestimate 25-hydroxyvitamin D3 and underestimate 25-hydroxyvitamin D2 compared with HPLC: need for assay-specific decision limits and metabolite-specific assays. Ann Clin Biochem. 2006. PMID:16390606 DOI:10.1258/000456306775141650
+62. Farrell CJ et al. Impact of assay design on test performance: lessons learned from 25-hydroxyvitamin D. Clin Chem Lab Med. 2014. PMID:24887958 DOI:10.1515/cclm-2014-0111
+63. Ni P et al. Effect of CYP2R1 and GC gene polymorphisms on serum 25(OH)D response to vitamin D(3) supplementation in prediabetes. Eur J Clin Nutr. 2025. PMID:40114038 DOI:10.1038/s41430-024-01564-z
+64. O'Leary TJ et al. Vitamin D and tibial bone density, geometry, and microarchitecture in male military recruits: an observational study and randomized controlled trial. J Bone Miner Res. 2025. PMID:40324208 DOI:10.1093/jbmr/zjaf064
+65. Kistler-Fischbacher M et al. Effects of vitamin D3, omega-3s, and a simple home exercise program on incident vertebral fractures: the DO-HEALTH randomized controlled trial. J Bone Miner Res. 2025. PMID:40492704 DOI:10.1093/jbmr/zjaf058

@@ -1,0 +1,190 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "CoQ10",
+  "slug": "coq10",
+  "aliases": [
+    "Coenzyme Q10",
+    "ubiquinone",
+    "ubiquinol",
+    "ubidecarenone",
+    "Q10"
+  ],
+  "category": "other",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "moderate",
+  "edges": [
+    {
+      "with": "warfarin",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Structural similarity to vitamin K; in vitro activation of warfarin hydroxylation (predicted ~17-32% higher clearance) may reduce anticoagulant response.",
+      "evidence": "Case reports of reduced warfarin response reversing on CoQ10 withdrawal; in vitro microsome data; a small randomized double-blind crossover RCT (n=24, 100 mg/day) found no INR/dose change. Flagged by NCI PDQ and NCCIH.",
+      "citations": [
+        "PMID:9621803",
+        "PMID:15853759",
+        "PMID:12772396",
+        "URL:https://www.cancer.gov/about-cancer/treatment/cam/hp/coenzyme-q10-pdq",
+        "URL:https://www.nccih.nih.gov/health/coenzyme-q10"
+      ]
+    },
+    {
+      "with": "statins",
+      "with_kind": "drug-class",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Statins lower circulating CoQ10 (all statins studied, lipophilic and hydrophilic); repletion proposed for statin-associated muscle symptoms.",
+      "evidence": "MAs of placebo-controlled RCTs consistently show statin-induced CoQ10 lowering; MAs of CoQ10 for SAMS conflict (2018 and 2025 positive, 2020 null; no effect on CK or statin adherence). NCCIH: evidence does not support use for statin muscle pain. Low certainty.",
+      "citations": [
+        "PMID:26192349",
+        "PMID:30414615",
+        "PMID:30371340",
+        "PMID:32179207",
+        "PMID:41158831",
+        "URL:https://www.nccih.nih.gov/health/coenzyme-q10"
+      ]
+    },
+    {
+      "with": "antihypertensives",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Possible additive modest systolic BP lowering.",
+      "evidence": "Dose-response MA: SBP -4.77 mmHg in cardiometabolic patients (moderate certainty); Cochrane found no clinically significant BP effect in primary hypertension. No direct interaction trials; theoretical.",
+      "citations": [
+        "PMID:36130103",
+        "PMID:26935713"
+      ]
+    },
+    {
+      "with": "insulin",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Small fasting-glucose lowering could add to glucose-lowering therapy.",
+      "evidence": "NCCIH lists a possible interaction with insulin; MA of 39 RCTs shows FBG -7.33 mg/dL, HbA1c non-significant (very low certainty).",
+      "citations": [
+        "URL:https://www.nccih.nih.gov/health/coenzyme-q10",
+        "PMID:41630501"
+      ]
+    },
+    {
+      "with": "antineoplastics",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Antioxidant activity could theoretically reduce oxidative cytotoxicity of chemotherapy/radiotherapy.",
+      "evidence": "Observational SWOG S0221 breast cancer cohort: antioxidant use (incl. CoQ10) before and during chemo associated with higher recurrence hazard (adjHR 1.41, 0.98-2.04). NCI PDQ notes no long-term efficacy outcome data; NCCIH says it may not be compatible with some cancer treatments.",
+      "citations": [
+        "PMID:31855498",
+        "URL:https://www.cancer.gov/about-cancer/treatment/cam/hp/coenzyme-q10-pdq",
+        "URL:https://www.nccih.nih.gov/health/coenzyme-q10"
+      ]
+    },
+    {
+      "with": "doxorubicin",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Proposed protection against anthracycline cardiotoxicity vs antioxidant-efficacy concern; no pharmacokinetic interaction detected.",
+      "evidence": "Phase I crossover (n=6, 300 mg/day, closed early): no clinically significant change in doxorubicin PK. NCI PDQ: small studies suggest reduced cardiotoxicity. Very low certainty.",
+      "citations": [
+        "PMID:41261512",
+        "URL:https://www.cancer.gov/about-cancer/treatment/cam/hp/coenzyme-q10-pdq"
+      ]
+    },
+    {
+      "with": "Selenium",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Complementary roles in cellular redox/selenoprotein and mitochondrial function; combined repletion in selenium-deficient elderly.",
+      "evidence": "KiSel-10 RCT (n=443, elderly Swedes low in selenium): combined selenium + CoQ10 lowered CV mortality (5.9% vs 12.6%) and NT-proBNP over 5.2 years; 10-year follow-up suggests greater benefit in women. Single trial, combination only; low certainty.",
+      "citations": [
+        "PMID:22626835",
+        "PMID:40563319"
+      ]
+    },
+    {
+      "with": "heart failure",
+      "with_kind": "condition",
+      "kind": "synergy",
+      "severity": "moderate",
+      "mechanism": "Myocardial CoQ10 deficiency correlates with HF severity; adjunct to standard therapy.",
+      "evidence": "Cochrane (moderate certainty): mortality RR 0.58, HF hospitalisation RR 0.62; Q-SYMBIO MACE HR 0.50; 2024 MA mortality RR 0.64. Benefit relies largely on one trial; NCCIH considers evidence inconclusive.",
+      "citations": [
+        "PMID:35608922",
+        "PMID:25282031",
+        "PMID:39462324",
+        "URL:https://www.nccih.nih.gov/health/coenzyme-q10"
+      ]
+    },
+    {
+      "with": "primary coenzyme Q10 deficiency",
+      "with_kind": "condition",
+      "kind": "synergy",
+      "severity": "major",
+      "mechanism": "Genetic CoQ10 biosynthesis defects; high-dose oral CoQ10 is the targeted replacement therapy.",
+      "evidence": "GeneReviews expert overview (no RCT).",
+      "citations": [
+        "PMID:28125198"
+      ]
+    },
+    {
+      "with": "active cancer treatment",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Antioxidant use during cytotoxic therapy may compromise treatment efficacy.",
+      "evidence": "Observational association with recurrence (SWOG S0221); NCI PDQ and NCCIH caution.",
+      "citations": [
+        "PMID:31855498",
+        "URL:https://www.cancer.gov/about-cancer/treatment/cam/hp/coenzyme-q10-pdq",
+        "URL:https://www.nccih.nih.gov/health/coenzyme-q10"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:35608922",
+    "PMID:9621803",
+    "PMID:41789786",
+    "PMID:30153575",
+    "PMID:41604113",
+    "PMID:25282031",
+    "PMID:26192349",
+    "PMID:30414615",
+    "PMID:15853759",
+    "PMID:42249931",
+    "PMID:39462324",
+    "PMID:39049769",
+    "PMID:30371340",
+    "PMID:32179207",
+    "PMID:41158831",
+    "PMID:26935713",
+    "PMID:36130103",
+    "PMID:33402403",
+    "PMID:30727862",
+    "PMID:42707444",
+    "PMID:39129455",
+    "PMID:41800295",
+    "PMID:40431450",
+    "PMID:40813743",
+    "PMID:22513923",
+    "PMID:28125198",
+    "PMID:24664227",
+    "PMID:26553164",
+    "PMID:38479900",
+    "PMID:41470903",
+    "PMID:41630501",
+    "PMID:41859772",
+    "PMID:41294251",
+    "PMID:22626835",
+    "PMID:40563319",
+    "PMID:12772396",
+    "PMID:41261512",
+    "PMID:16814438",
+    "URL:https://www.nccih.nih.gov/health/coenzyme-q10",
+    "URL:https://www.cancer.gov/about-cancer/treatment/cam/hp/coenzyme-q10-pdq",
+    "PMID:31855498"
+  ]
+}

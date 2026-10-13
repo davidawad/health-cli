@@ -1,0 +1,173 @@
+* Ashwagandha
+:PROPERTIES:
+:ID: supp-ashwagandha
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: Withania somnifera | Indian ginseng | winter cherry | KSM-66 | Sensoril | Shoden | ashwagandha root extract
+:CATEGORY: botanical
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Withania somnifera (L.) Dunal (Solanaceae), an Ayurvedic "Rasayana" herb sold mainly as root or root-and-leaf extracts [PMID:33338583] [PMID:34254920].
+- Main bioactives are withanolides (steroidal lactones), e.g. withaferin A, withanolide A, withanoside IV and 12-deoxywithastramonolide. Human plasma Cmax after oral products is low (0.1-49.5 ng/mL) and varies widely by product and dose [PMID:39599622].
+- Branded extracts used in trials:
+  - KSM-66: root extract, used e.g. at 300 mg twice daily in a pregnancy trial [PMID:41767760].
+  - Sensoril: aqueous root-and-leaf extract, 500 mg/d in the STAR strength trial [PMID:30463324]. Its OECD-guideline toxicology package found no genotoxicity and a rat NOAEL of 4000 mg/kg/day [PMID:41987003].
+  - Shoden: high-withanolide-glycoside extract (120 mg/d for sleep; 21 mg withanolide glycosides/day in aging men) [PMID:32540634] [PMID:30854916].
+- Withanolide content differs between preparations, and hormonal effects in a meta-analysis varied with withanolide dose [PMID:41740946]. Extract variability prevents a consensus on the best preparation or dose [PMID:34254920].
+
+** Mechanisms
+- HPA-axis modulation: lowers serum cortisol in RCT meta-analyses [PMID:40746175] [PMID:41740946]. Reviews propose central regulation of the HPA, thyroid and gonadal axes rather than direct receptor binding [PMID:41454558].
+- GABAergic and serotonergic activity in preclinical models [PMID:29168225] [PMID:34254920]. A meta-analysis reported higher serotonin (MD +31.75 ng/mL) [PMID:41740946].
+- Thyroid axis: raises T3/T4 and lowers TSH in subclinical hypothyroidism (RCT) [PMID:28829155]. Pooled RCT data show a modest T4 rise without TSH/T3 change [PMID:41740946]. Mechanistic reviews: [PMID:38003702] [PMID:41454558].
+- Gonadal axis: raises testosterone in men (meta-analysis) [PMID:41740946]. A review reports higher LH/FSH in men [PMID:38003702].
+- Immune: classed among the 15 herbs with the strongest multi-level evidence of immunostimulatory activity (TLR, NF-kB, pro-inflammatory cytokines). This is mostly in vitro and animal data [PMID:41475897].
+- Hepatotoxicity is proposed to involve CYP450-mediated reactive intermediates and oxidative stress. This mechanism is hypothetical, from a critical review [PMID:41502355].
+
+** Evidence summary by outcome
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Perceived stress | SR/MA of RCTs (9 RCTs, n=558; 22 RCTs dose-response MA; 6 RCTs PSS MA) | Benefit, inconsistent | PSS MD -4.72 (95% CI -8.45 to -0.99); one MA found no significant PSS effect (SMD -0.36, CI -1.19 to 0.47) | low | [PMID:39348746] [PMID:40746175] [PMID:41644067] |
+| Anxiety | SR/MA of RCTs | Benefit | HAM-A MD -2.19 (CI -3.83 to -0.55) in 9 RCTs; MD -5.96 (CI -10.34 to -1.59; I2=98%) in 5 RCTs of anxiety/insomnia | low | [PMID:39348746] [PMID:39083548] [PMID:41644067] |
+| Serum cortisol | SR/MA of RCTs | Decrease | -1.16 ug/dL (CI -1.64 to -0.69); SMD -1.18 across 23 RCTs | moderate | [PMID:40746175] [PMID:41740946] [PMID:39348746] |
+| Depressive symptoms | Dose-response MA of RCTs | Benefit | SMD -5.68 (CI -8.43 to -2.94); implausibly large SMDs suggest heterogeneity/reporting problems | very low | [PMID:41644067] |
+| Sleep | SR/MA (5 RCTs, n=400); later MA; RCTs | Benefit, small | Overall sleep SMD -0.59 (CI -0.75 to -0.42); larger in insomnia, >=600 mg/d, >=8 wk | low | [PMID:34559859] [PMID:39083548] [PMID:32818573] [PMID:32540634] |
+| Exercise performance (overall/aerobic) | Three-level MA (13 RCTs, n=599) | Benefit | g 0.47 (CI 0.25-0.69), prediction interval crosses zero; aerobic endurance g 0.54 | low | [PMID:42356302] |
+| Muscle strength with resistance training | MA (3 RCTs, n=161) | Possible benefit, fragile | 1-RM bench SMD 0.60; lower-body 0.52; lost significance under HKSJ; GRADE low | low | [PMID:42738987] [PMID:42199854] [PMID:30463324] |
+| Testosterone (men) | MA of RCTs | Increase | MD +57.43 ng/dL in men, no effect in women; SMD 0.33 (CI 0.13-0.54) in a separate MA | low | [PMID:41740946] [PMID:42199854] [PMID:30854916] |
+| Male fertility / semen parameters | Single RCT vs pentoxifylline (5 g/d root, n=100); narrative SR | Improvement vs baseline; no difference vs pentoxifylline | Sperm count +12.5%, motility +21.4% within-group | very low | [PMID:29770466] [PMID:41249015] |
+| Cognition | SR/MA (20 RCTs, n=1249) | Benefit | Memory SMD 0.52; attention/processing speed SMD 0.29 | low | [PMID:42199854] |
+| Thyroid function | 1 RCT in subclinical hypothyroidism; MA of hormones | T4 up, TSH down in hypothyroid patients; pooled: T4 +0.61 ug/dL, no TSH/T3 effect | See direction | low | [PMID:28829155] [PMID:41740946] |
+| Fasting glucose / HbA1c | SR/dose-response MA (11 RCTs, n=667) | Small FBG decrease; HbA1c inconclusive | FBG WMD -3.09 mg/dL (CI -5.61 to -0.58); HbA1c -0.05% (CI -0.47 to 0.36) | very low | [PMID:42641800] |
+| Body weight / body fat | SR/MA | No effect | Not significant | low | [PMID:42199854] [PMID:42738987] |
+
+** Dosing in trials
+- Stress/anxiety: root or root-and-leaf extracts at 125-600 mg/d for 8 weeks are typical. An aqueous root-and-leaf extract reduced stress at 125, 250 and 500 mg/d [PMID:38732539]. 300 mg twice daily was used in a hypertension-comorbid stress RCT [PMID:42105298].
+- Dose-response: stress effects showed linear and non-linear associations with dose [PMID:41644067].
+- Sleep: >=600 mg/d and >=8 weeks gave larger effects in subgroup analysis [PMID:34559859]. 120 mg/d Shoden for 6 weeks improved actigraphic sleep [PMID:32540634].
+- Exercise: 500-600 mg/d is the dose range with the most supporting evidence [PMID:42356302]. 500 mg/d Sensoril was used for 12 weeks [PMID:30463324].
+- Subclinical hypothyroidism: 600 mg/d root extract for 8 weeks [PMID:28829155].
+- Male infertility: 5 g/d root powder for 90 days [PMID:29770466].
+- Longest prospective safety data: a standardized root extract for 12 months (observational, n=191) [PMID:41063394].
+
+** Safety & adverse effects
+- Short-term trials report mostly mild, transient adverse events [PMID:39348746] [PMID:34559859].
+  - An 8-week RCT in 80 healthy adults (300 mg twice daily) found no changes in hematology, biochemistry, liver tests or thyroid hormones [PMID:33338583].
+  - A 12-month observational study (n=191) reported 18 mild AEs and no clinically significant ALT/AST change. Cortisol fell and testosterone rose [PMID:41063394].
+- Hepatotoxicity (idiosyncratic herb-induced liver injury, HILI):
+  - Iceland/US DILIN series: 5 cases. Jaundice after 2-12 weeks latency, cholestatic or mixed injury (R 1.4-3.3), prolonged pruritus. Liver tests normalized in 1-5 months; no liver failure [PMID:31991029].
+  - India series: 8 single-ingredient cases. In patients with pre-existing chronic liver disease it caused acute-on-chronic liver failure, and all 3 such patients died. Chemical analysis found no adulterants [PMID:37756041].
+  - 2026 scoping review: 13 publications, 25 patients. Mostly cholestatic/mixed injury, usually recovering after stopping. One transplant and 3 deaths, all in patients with cirrhosis [PMID:42367407].
+  - RUCAM-assessed case (2026): probable HILI after only 3 days of use [PMID:42529606].
+  - Ashwagandha is one of the 6 botanicals most often reported as hepatotoxic in the US [PMID:39102266].
+- Thyroid: case report of painless thyroiditis/thyrotoxicosis that resolved after stopping [PMID:38559552]. A critical review also cites thyrotoxicosis and adrenal suppression [PMID:41502355].
+- Regulatory actions (summarized from a 2025/2026 regulatory review [PMID:41420287] and an editorial [PMID:38969606]):
+  - Denmark: banned ashwagandha in food supplements in 2023, based on a 2020 DTU risk assessment that cited effects on sex hormones/reproduction, thyroid, immune system, CNS and possible abortifacient effects. Sweden said the Danish assessment can also apply there.
+  - EU: in June 2024 the EU Heads of Food Safety Agencies recommended a prioritized Article 8 procedure, which could lead to an EU ban.
+  - Germany: BfR (Sept 2024) advised that children, pregnant and breastfeeding women, and people with liver disease avoid ashwagandha supplements.
+  - Australia: TGA issued a Feb 2024 liver-injury advisory after 12 reports. It also requires a pregnancy label warning on some products.
+  - Critics argue the DTU report relied on leaf/berry and solvent-extract data [PMID:38969606].
+- Reproductive/developmental: a 2025 systematic and ethnobotanical review judged teratogenic/abortifacient claims inconclusive and traced them to secondary citations [PMID:40887707]. An open-label 12-week trial in 70 second-trimester pregnant women (300 mg twice daily) reported no adverse events [PMID:41767760]. Both are small or industry-adjacent, so human pregnancy safety data remain limited.
+
+** Contraindications
+- Pre-existing chronic liver disease or cirrhosis: case series show decompensation and deaths [PMID:37756041] [PMID:42367407]. BfR and TGA advise against use [PMID:41420287].
+- Pregnancy and breastfeeding: advised against by German BfR and restricted by label warnings in Australia. Denmark's ban cited abortifacient concerns. Human evidence of harm is weak, though [PMID:41420287] [PMID:40887707].
+- Hyperthyroidism or thyroiditis: the herb can raise thyroid hormones, and thyrotoxicosis has been reported [PMID:28829155] [PMID:38559552].
+- Autoimmune disease: immunostimulatory properties may flare autoimmune skin disease. This is mainly preclinical data plus a clinical expert review [PMID:41475897].
+
+** Interactions
+*** Drugs
+- Thyroid hormone (levothyroxine): additive raises in T3/T4 and lowering of TSH are possible [PMID:28829155] [PMID:41740946]. Check thyroid tests. No direct interaction study exists.
+- Immunosuppressants: the herb's immunostimulatory activity [PMID:41475897] could theoretically oppose immunosuppression. This is inferred from mechanism; no clinical interaction study was found.
+- Sedatives/CNS depressants (benzodiazepines, hypnotics): GABA-modulating activity [PMID:29168225] and sleep-promoting effects [PMID:39083548] could be additive. This is mechanistic only.
+- Antidepressants (SSRIs/SNRIs): a pharmacovigilance chart review found adverse events with Withania plus sertraline, escitalopram, paroxetine and reboxetine. Proposed mechanisms are CYP/P-gp inhibition and pharmacodynamic overlap [PMID:37829299].
+- Antidiabetics: small FBG reduction (very low certainty) [PMID:42641800]. A possible additive glucose-lowering effect is minor.
+- Antihypertensives: one RCT in hypertensive patients reported favorable BP trends [PMID:42105298]. A possible additive effect is minor and poorly quantified.
+- Hepatotoxic drugs: combining risk factors for liver injury is not studied. A clinical review notes ashwagandha among the commonest botanical hepatotoxins [PMID:39102266] [PMID:42367407].
+- Testosterone/androgen therapy and hormone-sensitive conditions: ashwagandha raises testosterone in men [PMID:41740946]. Clinical significance with exogenous hormones is unknown.
+*** Other supplements
+- Rhodiola: co-implicated in one DILIN liver-injury case [PMID:31991029].
+- Other potentially hepatotoxic botanicals (turmeric/curcumin, green tea extract, Garcinia cambogia, black cohosh, red yeast rice): stacking adds liver-injury exposure [PMID:39102266].
+- GABAergic/sedating herbs (kava, valerian, passionflower): additive sedation is plausible (mechanistic) [PMID:29168225].
+- No cited interaction with other supplements in this batch.
+*** Conditions
+- Chronic liver disease, pregnancy, breastfeeding, hyperthyroidism, autoimmune disease: see Contraindications.
+- Subclinical hypothyroidism: may normalize indices [PMID:28829155]. This means thyroid tests may shift during use.
+*** Lab-test interference
+- No assay artifact was found. Ashwagandha causes true physiological changes in thyroid tests (T4 up, TSH down) [PMID:28829155] [PMID:41740946], cortisol (down) [PMID:40746175] and testosterone/DHEA-S (up) [PMID:30854916]. Liver enzymes and bilirubin should be checked if symptoms of liver injury appear [PMID:42367407].
+
+** Genotype notes
+No cited pharmacogenomic or nutrigenomic source found.
+
+** Latest research
+- [2026-08] Resistance-training MA (3 RCTs, n=161): strength gains (bench SMD 0.60) are fragile under HKSJ adjustment; GRADE low. No effect on body fat [PMID:42738987].
+- [2026-08] Glycemia dose-response MA (11 RCTs, n=667): FBG -3.09 mg/dL; HbA1c inconclusive; very low certainty [PMID:42641800].
+- [2026-07] RUCAM-assessed case of probable cholestatic HILI after 3 days of use [PMID:42529606].
+- [2026-06] Three-level exercise MA (13 RCTs): g 0.47 overall, most consistent for aerobic endurance; prediction interval crosses zero [PMID:42356302].
+- [2026-05] Scoping review of ashwagandha liver injury (25 patients): cholestatic/mixed pattern, deaths only in patients with cirrhosis [PMID:42367407].
+- [2026-05] Cognition/physical MA (20 RCTs, n=1249): memory SMD 0.52; testosterone SMD 0.33; strength benefit only in active people [PMID:42199854].
+- [2026-05] Phase III RCT in stressed hypertensive patients (n=60): lower anxiety and cortisol; favorable BP trends [PMID:42105298].
+- [2026-04] Sensoril toxicology package: not genotoxic; rat NOAEL 4000 mg/kg/day [PMID:41987003].
+- [2026-02] Hormone MA (23 RCTs, n=1706): cortisol SMD -1.18; T4 +0.61 ug/dL; no TSH/T3 change; testosterone +57 ng/dL in men [PMID:41740946].
+- [2026-02] Mental-health dose-response MA (22 RCTs): reduces stress, anxiety and depression, with a dose-response for stress [PMID:41644067].
+- [2026-02] Open-label RCT in pregnancy (n=70): no AEs; Hb improved [PMID:41767760].
+- [2025-12] Regulatory review: Danish 2023 ban, EU HoA Article 8 recommendation (2024), BfR and TGA warnings [PMID:41420287].
+- [2025-12] Scoping review lists ashwagandha among the most strongly supported immunostimulatory herbs that may flare autoimmune skin disease [PMID:41475897].
+- [2025-10] 12-month observational safety study (n=191): no clinically significant liver-enzyme change [PMID:41063394].
+- [2025-08] Cortisol vs PSS MA: cortisol -1.16 ug/dL, no significant PSS effect [PMID:40746175].
+- [2025-08] Systematic/ethnobotanical review: evidence for teratogenic or abortifacient effects is inconclusive [PMID:40887707].
+- [2024-09] Stress/anxiety MA (9 RCTs, n=558): PSS MD -4.72; HAM-A MD -2.19 [PMID:39348746].
+- [2024-07] Anxiety/insomnia MA (5 RCTs): HAM-A MD -5.96, high heterogeneity [PMID:39083548].
+
+** Open questions
+- Incidence and risk factors for hepatotoxicity. It is unknown whether risk differs by extract (root vs leaf, solvent) or by withanolide/withaferin A content.
+- Long-term (>12 months) safety from randomized data. Most trials are small, short, Indian-sited and often industry-funded.
+- Whether thyroid hormone changes are clinically meaningful in euthyroid users, and how they interact with levothyroxine.
+- Pregnancy and lactation safety. Human data are limited to one small open-label trial.
+- Pharmacokinetic herb-drug interactions (CYP/P-gp) in humans. No controlled human interaction studies were found.
+- The very large SMDs in some mental-health MAs suggest pooling or reporting problems. Effect sizes need confirmation in independent, preregistered trials.
+- Outcome of the pending EU Article 8 procedure.
+
+** Sources
+1. Arumugam V et al. Effects of Ashwagandha (Withania Somnifera) on stress and anxiety: A systematic review and meta-analysis. Explore (NY). 2024. PMID:39348746 DOI:10.1016/j.explore.2024.103062
+2. Fatima K et al. Safety and efficacy of Withania somnifera for anxiety and insomnia: Systematic review and meta-analysis. Hum Psychopharmacol. 2024. PMID:39083548 DOI:10.1002/hup.2911
+3. Fornalik M et al. Hormonal Modulation with Withania somnifera: Systematic Review and Meta-Analysis of Randomized-controlled Trials. Planta Med. 2026. PMID:41740946 DOI:10.1055/a-2802-8363
+4. Alsanie SA et al. Effects of ashwagandha on mental health in adults: systematic review and dose-response meta-analysis of RCTs. Complement Ther Med. 2026. PMID:41644067 DOI:10.1016/j.ctim.2026.103325
+5. Albalawi AA. Dual impact of Ashwagandha: Significant cortisol reduction but no effects on perceived stress - SR and MA. Nutr Health. 2025. PMID:40746175 DOI:10.1177/02601060251363647
+6. Li X et al. Effects of Withania somnifera Supplementation on Exercise Performance: SR and Three-Level MA. Nutrients. 2026. PMID:42356302 DOI:10.3390/nu18121915
+7. Zhu X et al. Effects of Withania somnifera on cognitive and physical function in adults: SR and MA. Front Pharmacol. 2026. PMID:42199854 DOI:10.3389/fphar.2026.1799467
+8. Lee JC et al. Adjunctive Ashwagandha Supplementation and Resistance-Training Adaptations in Healthy Adults: SR and MA. Nutrients. 2026. PMID:42738987 DOI:10.3390/nu18172815
+9. Farrin N et al. Effects of Ashwagandha supplementation on fasting blood glucose and HbA1c: SR and dose-response MA. Diabetes Res Clin Pract. 2026. PMID:42641800 DOI:10.1016/j.diabres.2026.113529
+10. Cheah KL et al. Effect of Ashwagandha extract on sleep: A systematic review and meta-analysis. PLoS One. 2021. PMID:34559859 DOI:10.1371/journal.pone.0257843
+11. Bjornsson HK et al. Ashwagandha-induced liver injury: A case series from Iceland and the US Drug-Induced Liver Injury Network. Liver Int. 2020. PMID:31991029 DOI:10.1111/liv.14393
+12. Philips CA et al. Ashwagandha-induced liver injury - A case series from India and literature review. Hepatol Commun. 2023. PMID:37756041 DOI:10.1097/HC9.0000000000000270
+13. McIntyre D et al. Ashwagandha-Associated Liver Injury: A Scoping Review of Clinical Characteristics and Safety Considerations. Cureus. 2026. PMID:42367407 DOI:10.7759/cureus.109764
+14. Perez Perez S et al. Ashwagandha-Induced Herb-Induced Liver Injury Assessed With the Updated 2016 RUCAM. Case Reports Hepatol. 2026. PMID:42529606 DOI:10.1155/crhe/8417352
+15. Patwardhan B et al. Danish ban on Ashwagandha: Truth, evidence, ethics, and regulations. J Ayurveda Integr Med. 2024. PMID:38969606 DOI:10.1016/j.jaim.2024.101028
+16. Brendler T et al. Ashwagandha: Is It Safe? Part 1: A Regulatory Review. Phytother Res. 2026. PMID:41420287 DOI:10.1002/ptr.70151
+17. Kumar A et al. Potential Adverse Effects of Ashwagandha: A Critical Review of Preclinical and Clinical Evidence. Phytother Res. 2026. PMID:41502355 DOI:10.1002/ptr.70158
+18. Likhitsup A et al. Estimated Exposure to 6 Potentially Hepatotoxic Botanicals in US Adults. JAMA Netw Open. 2024. PMID:39102266 DOI:10.1001/jamanetworkopen.2024.25822
+19. Sharma AK et al. Efficacy and Safety of Ashwagandha Root Extract in Subclinical Hypothyroid Patients: A Double-Blind RCT. J Altern Complement Med. 2018. PMID:28829155 DOI:10.1089/acm.2017.0183
+20. Hayashi M et al. Painless Thyroiditis by Withania somnifera (Ashwagandha). Cureus. 2024. PMID:38559552 DOI:10.7759/cureus.55352
+21. Verma N et al. Safety of Ashwagandha Root Extract: A Randomized, Placebo-Controlled study in Healthy Volunteers. Complement Ther Med. 2021. PMID:33338583 DOI:10.1016/j.ctim.2020.102642
+22. Salve J et al. Safety of 12-Months Administration of Ashwagandha Standardized Root Extract in Healthy Adults: A Prospective, Observational Study. Phytother Res. 2026. PMID:41063394 DOI:10.1002/ptr.70096
+23. Tallon MJ et al. A Systematic and Ethnobotanical Review of Ashwagandha's Teratogenic and Abortifacient Potentials. Phytother Res. 2026. PMID:40887707 DOI:10.1002/ptr.70079
+24. Ajgaonkar A et al. Efficacy and safety of Ashwagandha root extract in pregnant women: a prospective, randomized, open-label, 12-week study. Front Glob Womens Health. 2026. PMID:41767760 DOI:10.3389/fgwh.2026.1767865
+25. Siwek M et al. Retrospective chart review of adverse events of interactions between adaptogens and antidepressant drugs. Front Pharmacol. 2023. PMID:37829299 DOI:10.3389/fphar.2023.1271776
+26. Lopresti AL et al. A Randomized, Double-Blind, Placebo-Controlled, Crossover Study Examining the Hormonal and Vitality Effects of Ashwagandha in Aging, Overweight Males. Am J Mens Health. 2019. PMID:30854916 DOI:10.1177/1557988319835985
+27. Nasimi Doost Azgomi R et al. Comparative evaluation of Withania somnifera with pentoxifylline on sperm parameters in idiopathic male infertility. Andrologia. 2018. PMID:29770466 DOI:10.1111/and.13041
+28. Roy D et al. Effects of Ashwagandha on Reproductive Health: A Systematic Review of Sex-Specific Hormonal and Fertility Outcomes. Phytother Res. 2026. PMID:41249015 DOI:10.1002/ptr.70128
+29. Pattojoshi A et al. Safety and efficacy of ashwagen in stress and anxiety with hypertension and associated cardiometabolic risk factors: an RCT. Stress. 2026. PMID:42105298 DOI:10.1080/10253890.2026.2669544
+30. Pandit S et al. Effects of Withania somnifera Extract in Chronically Stressed Adults: A Randomized Controlled Trial. Nutrients. 2024. PMID:38732539 DOI:10.3390/nu16091293
+31. Weiner JD et al. Identifying immunostimulatory herbal supplements that may flare autoimmune skin diseases: a systematic scoping review. Lupus Sci Med. 2025. PMID:41475897 DOI:10.1136/lupus-2025-001803
+32. Savage K et al. GABA-modulating phytomedicines for anxiety: A systematic review of preclinical and clinical evidence. Phytother Res. 2018. PMID:29168225 DOI:10.1002/ptr.5940
+33. Langade D et al. Clinical evaluation of ashwagandha root extract on sleep in healthy volunteers and insomnia patients: double-blind RCT. J Ethnopharmacol. 2021. PMID:32818573 DOI:10.1016/j.jep.2020.113276
+34. Deshpande A et al. A randomized, double blind, placebo controlled study of ashwagandha extract on sleep quality in healthy adults. Sleep Med. 2020. PMID:32540634 DOI:10.1016/j.sleep.2020.03.012
+35. Vollmer G, Brendler T. Evaluation of Potential Hormonal Activities of Ashwagandha (Withania somnifera). Phytother Res. 2026. PMID:41454558 DOI:10.1002/ptr.70155
+36. Wicinski M et al. Can Ashwagandha Benefit the Endocrine System? - A Review. Int J Mol Sci. 2023. PMID:38003702 DOI:10.3390/ijms242216513
+37. Speers AB et al. Effects of Withania somnifera on Stress and the Stress-Related Neuropsychiatric Disorders Anxiety, Depression, and Insomnia. Curr Neuropharmacol. 2021. PMID:34254920 DOI:10.2174/1570159X19666210712151556
+38. Speers AB et al. Quantifying Withanolides in Plasma: Pharmacokinetic Studies and Analytical Methods. Nutrients. 2024. PMID:39599622 DOI:10.3390/nu16223836
+39. Ziegenfuss TN et al. Effects of an Aqueous Extract of Withania somnifera on Strength Training Adaptations and Recovery: The STAR Trial. Nutrients. 2018. PMID:30463324 DOI:10.3390/nu10111807
+40. Summan M et al. Safety Evaluation of an Aqueous Root and Leaf Extract of Ashwagandha (Withania somnifera). Phytother Res. 2026. PMID:41987003 DOI:10.1002/ptr.70314

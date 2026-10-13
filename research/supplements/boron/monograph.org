@@ -1,0 +1,180 @@
+* Boron
+:PROPERTIES:
+:ID: supp-boron
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: boron | B | boric acid | borate | sodium tetraborate (borax) | calcium fructoborate | CFB | boron citrate | boron glycinate | boron aspartate
+:CATEGORY: mineral
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Boron is a trace metalloid ingested mainly from fruit, vegetables, nuts, wine and drinking water. Fruit, wine and nuts were key dietary determinants of urinary boron in one cohort [PMID:34677681]. Typical Western intake is about 1-1.35 mg/day [PMID:11248136].
+- Inorganic borates (boric acid, sodium tetraborate/borax, sodium pentaborate) exist in the body almost entirely as undissociated boric acid because of its high pKa [PMID:32170343]. Oral boric acid is readily and almost completely absorbed, distributes in body water and is not metabolised [PMID:10050928].
+- Supplement forms used in human trials:
+  - Calcium fructoborate (CFB): a sugar-borate ester with at most 2.9% boron, about 4.7% calcium and 84.2% fructose. It hydrolyses fully under simulated GI conditions, so EFSA assessed it as boron [PMID:34257728]. Proponents argue that sugar-borate complexes act partly as "microbiota-accessible" boron. This is a hypothesis from a review with a CFB-industry author [PMID:41463367].
+  - Boron citrate [PMID:35183882, PMID:40792045]
+  - Boric acid [PMID:40792045]
+  - Sodium tetraborate decahydrate [PMID:12428176]
+  - Boron glycinate and aspartate chelates are sold commercially, but no trial using them specifically was found. Assume they behave like other borates once hydrolysed. This is an inference, not a cited fact.
+- Regulatory status: the US Institute of Medicine (IOM) set neither an EAR, RDA nor AI for boron, because a clear human biological function has not been established [URL:https://www.nationalacademies.org/read/10026/chapter/15]. Human essentiality remains unproven according to a 2026 critical review [PMID:42579050].
+
+** Mechanisms
+- Boric acid forms reversible complexes with cis-diol molecules. This is the hypothesised basis for its interactions with NAD+-, S-adenosylmethionine- and glycoconjugate-related pathways (mechanistic) [PMID:10050928, PMID:42579050].
+- Steroid hormones: one hypothesis is that boron uncouples steroid hormones from blood transport proteins. In the uncontrolled study by Naghii et al. (n=8 men), SHBG fell within 6 h of 10 mg boron; after 1 week, free testosterone rose and estradiol fell [PMID:21129941]. In postmenopausal women eating a low-boron diet, 3 mg/day boron raised serum 17beta-estradiol and testosterone [PMID:3678698].
+- Mineral metabolism: in metabolic-ward studies of postmenopausal women, 3 mg/day boron reduced urinary calcium and magnesium excretion [PMID:3678698]. The direction of the calcium effect depended on magnesium status [PMID:9062533]. Plasma boron rose only 1.5-fold with a 9-fold intake increase, and excretion matched intake, suggesting homeostatic control [PMID:9062533].
+- Vitamin D: in vitamin D-deficient rats, supplemental boron increased apparent calcium, magnesium and phosphorus balance (animal) [PMID:7889882]. In the small human study by Naghii et al., 25(OH)D rose after 1 week [PMID:21129941].
+- Inflammation: hsCRP and TNF-alpha fell after boron supplementation in the uncontrolled study [PMID:21129941]. CFB lowered CRP, fibrinogen and ESR in a pilot RCT [PMID:21607703].
+- Gut microbiota: boric acid in drinking water changed gut microbiota composition in mice (animal, pilot) [PMID:39458975].
+
+** Evidence summary by outcome
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---|---|---|---|---|---|
+| Knee discomfort / osteoarthritis symptoms | 1 RCT of CFB 110 mg twice daily, n=60, 14 days, industry-run; 1 small RCT of 6 mg/day boron, n=20 | Benefit | WOMAC difference vs placebo -13.73 (day 14, P<0.0001); MPQ -8.9. In the older trial, 50% vs 10% improved | very low | [PMID:24940052] [PMID:7889887] |
+| Inflammatory markers (CRP, fibrinogen, ESR, TNF-alpha) | Pilot RCT of CFB in knee OA (n=60 completers, 2 weeks); uncontrolled n=8 study; active-controlled CFB trial in stable angina | Reduction | hsCRP -39.7% at 60 days with CFB in angina (no placebo arm); other studies report P-values only | very low | [PMID:21607703] [PMID:21129941] [PMID:23153742] |
+| Testosterone (men) | 1 placebo-controlled trial (2.5 mg/day, 7 weeks, n=19 bodybuilders); 1 uncontrolled 1-week study (10 mg/day, n=8) | Null in the controlled trial; higher free T in the uncontrolled study | No effect on total or free testosterone, lean mass or strength vs placebo | very low | [PMID:7889885] [PMID:21129941] |
+| Estradiol / sex steroids (postmenopausal women) | Metabolic-ward studies, n=12-13 | Inconsistent: up on a low-B diet, down when Mg was low in a later study | Not quantified in abstracts | very low | [PMID:3678698] [PMID:15724868] [PMID:7889883] |
+| Bone health (BMD, fracture) | Narrative review of 11 small human studies (594 subjects); mineral-balance studies; no fracture RCTs | Possible benefit (surrogate markers only) | Reduced urinary Ca/Mg loss; no BMD effect size available | very low | [PMID:32540741] [PMID:3678698] [PMID:9062533] |
+| Magnesium metabolism | Metabolic-ward studies | Less urinary Mg; boron did not change the response to Mg deprivation | Not quantified | very low | [PMID:3678698] [PMID:15724868] |
+| Vitamin D status | Uncontrolled n=8 study; rat data | Increase in 25(OH)D | Not quantified | very low | [PMID:21129941] [PMID:7889882] |
+| Kidney stones (nephrolithiasis) | RCT, n=60, 8 weeks, boric acid or boron citrate 10 mg/day vs placebo | No benefit | IRR for stone number 1.09 (95% CI 0.65-1.85) and 1.30 (0.79-2.13) | low | [PMID:40792045] |
+| Stone passage after ESWL | RCT vs tamsulosin (no placebo), n=200 randomised | Similar to tamsulosin | Expulsion 46.6% vs 38.7% (reported as not significant) | very low | [PMID:36808295] |
+| Primary dysmenorrhoea | 1 RCT, n=113, 10 mg/day | Less pain severity and duration | P<0.05; no effect size in abstract | very low | [PMID:25906949] |
+| COVID-19 adjunct | Pilot RCT, n=40, boron citrate 5 mg twice daily | Some improvement in clinical and inflammatory markers | P-values only | very low | [PMID:35183882] |
+| Coagulation (factor VIIa) | Crossover RCT, n=15, acute 11.6 mg | Null | No change | low | [PMID:12428176] |
+| Mortality / cancer (observational) | Cohorts and case-control studies | Mixed: lower risk of lung and prostate cancer and of death in kidney transplant recipients with higher intake; higher mortality in women with higher plasma B | e.g. HR 0.51 per doubling of urinary B in kidney transplant recipients; HR 1.11 in women (German cohort) | very low | [PMID:18343880] [PMID:15010890] [PMID:34677681] [PMID:38244065] |
+
+Overall: no systematic review or meta-analysis of boron supplementation was found. All human trials are small and short, and many are industry-linked or come from one or two research groups. A 2026 critical review concluded that human data are insufficient to justify dietary recommendations or supplementation [PMID:41683210].
+
+** Dosing in trials
+- 3 mg/day boron (metabolic-ward studies in postmenopausal women) [PMID:3678698, PMID:9062533]. A narrative review proposed 3 mg/day for bone support [PMID:32540741].
+- 2.5 mg/day for 7 weeks (bodybuilders) [PMID:7889885]. 6 mg/day (osteoarthritis) [PMID:7889887].
+- 10 mg/day: for 1 week [PMID:21129941]; peri-menstrually for 2 cycles [PMID:25906949]; for 8 weeks as boric acid or boron citrate [PMID:40792045]. 10 mg twice daily for 2 weeks [PMID:36808295].
+- Acute single dose of 11.6 mg (sodium tetraborate) [PMID:12428176].
+- CFB 110 mg twice daily (220 mg/day, roughly 6 mg boron or less) for 14 days [PMID:24940052, PMID:34257728]. EFSA approved CFB at up to 220 mg/day (at most 6.4 mg boron) for adults, excluding pregnancy and lactation [PMID:34257728].
+- Upper limits:
+  - IOM UL 20 mg boron/day for adults ≥19 y, including pregnancy and lactation. Lower ULs apply to younger groups: 17 mg (14-18 y), 11 mg (9-13 y), 6 mg (4-8 y) and 3 mg (1-3 y). No UL was set for infants (food and formula only) [URL:https://www.nationalacademies.org/read/10026/chapter/15].
+  - The IOM UL derivation was 9.6 mg/kg/day ÷ 30 = 0.3 mg/kg/day. The NOAEL of 9.6 mg/kg/day came from rat developmental toxicity (lower fetal weight). The uncertainty factor of 30 combined 10 for animal-to-human and 3 for intraspecies variation [URL:https://www.nationalacademies.org/read/10026/chapter/15].
+  - EFSA's limits are lower: an ADI of 0.16 mg/kg bw/day [PMID:34257728], and an adult UL of 10 mg/day as cited in [PMID:32540741].
+- A narrative review noted that no beneficial effects have been reported at intakes above 3 mg/day [PMID:26770156].
+
+** Safety & adverse effects
+- At trial doses (≤20 mg/day), no serious adverse events were reported in the RCTs whose abstracts were read [PMID:21607703, PMID:36808295, PMID:40792045].
+- Acute toxicity (mostly boric acid ingestion or skin exposure):
+  - Fatalities have occurred after oral ingestion and after skin exposure, particularly through damaged skin. Effects include gastrointestinal and skin toxicity. Excretion is mainly urinary [PMID:33485927].
+  - A child who ingested an estimated 2.7-8.1 g boric acid had a plasma boron of 16.5 mg/L. He developed nausea, vomiting and headache and recovered with IV hydration; the authors advise hyperhydration and monitoring for ingestions over 3 g [PMID:41120974].
+  - A 2026 report described accidental boron poisoning from a dietary supplement. The abstract has no details, so the dose and mechanism could not be verified [PMID:42478460].
+- Reproductive and developmental toxicity (animal):
+  - In rats, mice and dogs, boron causes dose-dependent testicular toxicity. The male fertility NOAEL in rats is 17.5 mg B/kg/day [PMID:32170343].
+  - The developmental NOAEL in rats is 9.6 mg B/kg/day [PMID:32170343].
+  - The EU classifies boric acid and borates as reproductive toxicants, category 1B [PMID:37351904].
+- Human reproductive data: boron-mining and -processing workers in China and Türkiye had daily boron exposures up to about 41-47 mg/day without reported reproductive or developmental effects. Their blood boron levels stayed well below the rat NOAEL-equivalent levels [PMID:37351904, PMID:32170343].
+- Genotoxicity and carcinogenicity: the overall picture suggests borates are not genotoxic, and a 2-year mouse study found no carcinogenicity [PMID:33485927].
+- Pharmacokinetics: elimination half-life is about 21 h in humans, with unchanged renal excretion [PMID:10050928].
+- Observational mortality signal: in a German cohort, higher plasma boron was associated with higher all-cause mortality in women (HR 1.11 per 5 µg/L; only 27 female deaths) but not in men [PMID:38244065].
+
+** Contraindications
+- Pregnancy and lactation (supplemental use): the IOM UL of 20 mg/day nominally applies in pregnancy [URL:https://www.nationalacademies.org/read/10026/chapter/15]. However:
+  - The critical toxicity endpoint is developmental [URL:https://www.nationalacademies.org/read/10026/chapter/15].
+  - EFSA excluded pregnant and lactating women from its CFB authorisation [PMID:34257728].
+  - In an Argentine cohort, higher serum boron in the third trimester was associated with shorter and lighter newborns (0.9 cm and 120 g per 100 µg/L) [PMID:27502898].
+  - Renal boron clearance is higher in pregnancy (68.3 vs 54.3 mL/min/1.73 m²) [PMID:11248136].
+  - Conclusion: avoid supplemental boron beyond dietary intake.
+- Children: ULs are much lower (3-11 mg/day) [URL:https://www.nationalacademies.org/read/10026/chapter/15]. Accidental boric acid ingestion is a recognised hazard [PMID:41120974].
+- Hormone-sensitive conditions (e.g. breast, uterine or prostate cancer; endometriosis): boron can shift circulating estradiol and testosterone [PMID:3678698, PMID:21129941]. Caution is therefore theoretical; no outcome data exist. Observational studies link higher dietary boron with lower prostate and lung cancer risk [PMID:15010890, PMID:18343880], so the direction of any clinical effect is unknown.
+- Chronic kidney disease / dialysis: boron is cleared almost entirely by the kidneys [PMID:10050928]. In long-term haemodialysis patients, serum boron was above control levels before a session and below them afterwards [PMID:8931348]. Boron is efficiently dialysable (dialysance about 139 mL/min) [PMID:9252976]. A review covers renal effects of acute and chronic boron exposure [PMID:16198928]. Expect accumulation when GFR is reduced.
+- Boric acid products (antiseptic powders and vaginal products) are not for oral use. Oral ingestion has caused deaths [PMID:33485927].
+
+** Interactions
+*** Drugs
+- Estrogen / menopausal hormone therapy:
+  - Boron supplementation raised serum 17beta-estradiol in postmenopausal women [PMID:3678698].
+  - In women taking estrogen therapy, boron deprivation blunted the estrogen-induced rise in estradiol and plasma copper [PMID:7889883].
+  - Effect is possibly additive; the clinical significance is unknown (metabolic-ward studies, n≤14). Classified as "caution" (minor).
+- Testosterone or other androgen therapy: free testosterone rose and SHBG fell in an uncontrolled study [PMID:21129941]. This is a theoretical additive effect only.
+- Tamsulosin: in the ESWL trial, boron was compared with tamsulosin, not combined with it. No interaction data [PMID:36808295].
+- No pharmacokinetic drug interactions were identified. Boron is not metabolised [PMID:10050928].
+*** Other supplements
+- Magnesium:
+  - Boron reduced urinary Mg loss, more so on a low-Mg diet [PMID:3678698].
+  - The direction of boron's effect on calcium excretion depended on Mg intake [PMID:9062533].
+  - Boron did not change the response to Mg deprivation [PMID:15724868].
+  - Combined Mg plus boron outperformed either alone on bone markers in ovariectomised rats (animal) [PMID:41075129].
+  - Classified as a plausible complementary effect ("synergy", minor).
+- Vitamin D-3: 25(OH)D rose after 1 week of boron in n=8 men [PMID:21129941]. Boron improved mineral balance in vitamin D-deficient rats [PMID:7889882]. Classified as "synergy" (minor; very low certainty).
+- Calcium: CFB contains about 4.7% calcium [PMID:34257728], a negligible amount at 220 mg/day. Boron reduced urinary calcium in some studies [PMID:3678698].
+- Stacking boron sources (multivitamins, bone formulas, CFB, high-boron mineral water): total intake should be kept below the 20 mg/day UL [URL:https://www.nationalacademies.org/read/10026/chapter/15]. EFSA's ADI is 0.16 mg/kg/day [PMID:34257728].
+*** Conditions
+- Pregnancy, chronic kidney disease, and hormone-sensitive cancers: see Contraindications.
+*** Lab-test interference
+- No cited assay interference was found.
+- Blood and urine boron can be measured by ICP-MS/ICP-OES to confirm exposure [PMID:41120974, PMID:38244065].
+- Changes in SHBG, estradiol, testosterone and 25(OH)D after supplementation reflect reported physiological changes, not assay artefacts [PMID:21129941, PMID:3678698].
+
+** Genotype notes
+No cited pharmacogenomic or nutrigenomic source found.
+
+** Latest research
+- [2026-08] A critical narrative review found no indispensable boron-dependent human pathway. It identified small samples, short trials, heterogeneous formulations and surrogate endpoints as constraints, and called for speciation-resolved dosing and adequately powered RCTs [PMID:42579050].
+- [2026-05] A case report described accidental boron poisoning from a dietary supplement. Details are not available in the abstract [PMID:42478460].
+- [2026-05] A handbook review summarised possible roles in bone, osteoarthritis, hormones and inflammation. Boron is not classified as an essential nutrient [PMID:42185672].
+- [2026-03] A review of biological effects of boron in animals and humans (no abstract available) [PMID:41886026].
+- [2026-01] A critical review of lithium, silicon and boron concluded that human data are insufficient to justify dietary recommendations or supplementation [PMID:41683210].
+- [2025-12] A review (one author employed by a CFB manufacturer) proposed a dual framework of plasma-accessible boron vs microbiota-accessible boron complexes. This is a hypothesis [PMID:41463367].
+- [2025-10] Combined magnesium plus boron improved BMD, 25(OH)D and bone markers in ovariectomised rats more than either alone (animal) [PMID:41075129].
+- [2025-10] A paediatric boric acid ingestion case (plasma B 16.5 mg/L) resolved with hydration [PMID:41120974].
+- [2025-08] In an RCT (n=60, 8 weeks), 10 mg/day boric acid or boron citrate did not reduce kidney stone number or size vs placebo [PMID:40792045].
+- [2024-10] Boron compounds altered gut microbiota composition in mice (pilot study) [PMID:39458975].
+- [2024-01] In a German population cohort (n=863), higher plasma boron was associated with higher mortality in women only. The signal was imprecise [PMID:38244065].
+
+** Open questions
+- Do boron supplements improve BMD or reduce fractures? No RCT with hard skeletal outcomes was found [PMID:32540741].
+- Are the short-term osteoarthritis symptom benefits of CFB reproducible in independent, longer, adequately powered trials [PMID:24940052, PMID:21607703]?
+- Are the hormone effects real and consistent? Results differ between the uncontrolled study and the placebo-controlled trial [PMID:21129941, PMID:7889885, PMID:15724868].
+- What is the clinical meaning of the female mortality signal [PMID:38244065] vs the protective associations [PMID:34677681]?
+- Is boron essential to humans at all [PMID:42579050]? Do different chemical forms differ in effect [PMID:41463367]?
+
+** Sources
+1. Institute of Medicine (Food and Nutrition Board). Dietary Reference Intakes for Vitamin A, Vitamin K, Arsenic, Boron, ... Chapter 13: Arsenic, Boron, Nickel, Silicon, and Vanadium. National Academies Press. 2001. URL:https://www.nationalacademies.org/read/10026/chapter/15
+2. EFSA NDA Panel (Turck D et al.). Safety of calcium fructoborate as a novel food pursuant to Regulation (EU) 2015/2283. EFSA J. 2021. PMID:34257728 DOI:10.2903/j.efsa.2021.6661
+3. Pietrzkowski Z et al. Short-term efficacy of calcium fructoborate on subjects with knee discomfort: a comparative, double-blind, placebo-controlled clinical study. Clin Interv Aging. 2014. PMID:24940052 DOI:10.2147/CIA.S64590
+4. Scorei R et al. A double-blind, placebo-controlled pilot study to evaluate the effect of calcium fructoborate on systemic inflammation and dyslipidemia markers for middle-aged people with primary osteoarthritis. Biol Trace Elem Res. 2011. PMID:21607703 DOI:10.1007/s12011-011-9083-0
+5. Newnham RE. Essentiality of boron for healthy bones and joints. Environ Health Perspect. 1994. PMID:7889887 DOI:10.1289/ehp.94102s783
+6. Naghii MR et al. Comparative effects of daily and weekly boron supplementation on plasma steroid hormones and proinflammatory cytokines. J Trace Elem Med Biol. 2011. PMID:21129941 DOI:10.1016/j.jtemb.2010.10.001
+7. Green NR, Ferrando AA. Plasma boron and the effects of boron supplementation in males. Environ Health Perspect. 1994. PMID:7889885 DOI:10.1289/ehp.94102s773
+8. Nielsen FH et al. Effect of dietary boron on mineral, estrogen, and testosterone metabolism in postmenopausal women. FASEB J. 1987. PMID:3678698
+9. Hunt CD et al. Metabolic responses of postmenopausal women to supplemental dietary boron and aluminum during usual and low magnesium intake. Am J Clin Nutr. 1997. PMID:9062533 DOI:10.1093/ajcn/65.3.803
+10. Nielsen FH. The alteration of magnesium, calcium and phosphorus metabolism by dietary magnesium deprivation in postmenopausal women is not affected by dietary boron deprivation. Magnes Res. 2004. PMID:15724868
+11. Nielsen FH. Biochemical and physiologic consequences of boron deprivation in humans. Environ Health Perspect. 1994. PMID:7889883 DOI:10.1289/ehp.94102s759
+12. Dupre JN et al. Effects of dietary boron in rats fed a vitamin D-deficient diet. Environ Health Perspect. 1994. PMID:7889882 DOI:10.1289/ehp.94102s755
+13. Rondanelli M et al. Pivotal role of boron supplementation on bone health: a narrative review. J Trace Elem Med Biol. 2020. PMID:32540741 DOI:10.1016/j.jtemb.2020.126577
+14. Pizzorno L. Nothing Boring About Boron. Integr Med (Encinitas). 2015. PMID:26770156
+15. Militaru C et al. Oral resveratrol and calcium fructoborate supplementation in subjects with stable angina pectoris. Nutrition. 2013. PMID:23153742 DOI:10.1016/j.nut.2012.07.006
+16. Nikkhah S et al. Effects of boron supplementation on the severity and duration of pain in primary dysmenorrhea. Complement Ther Clin Pract. 2015. PMID:25906949 DOI:10.1016/j.ctcp.2015.03.005
+17. Akbari N et al. Possible therapeutic effects of boron citrate and oleoylethanolamide supplementation in patients with COVID-19. J Trace Elem Med Biol. 2022. PMID:35183882 DOI:10.1016/j.jtemb.2022.126945
+18. Wallace JM et al. Boron supplementation and activated factor VII in healthy men. Eur J Clin Nutr. 2002. PMID:12428176 DOI:10.1038/sj.ejcn.1601455
+19. Vousoughi G et al. The Effect of Boron Supplementation on Kidney Stones in Patients With Nephrolithiasis: A Double-Blind Randomized Controlled Trial. Food Sci Nutr. 2025. PMID:40792045 DOI:10.1002/fsn3.70777
+20. Jalali S et al. A Comparison of Boron Supplement and Tamsulosin as Medical Expulsive Therapy for Urinary Stones After ESWL. Biol Trace Elem Res. 2023. PMID:36808295 DOI:10.1007/s12011-023-03597-0
+21. Hadrup N et al. Toxicity of boric acid, borax and other boron containing compounds: A review. Regul Toxicol Pharmacol. 2021. PMID:33485927 DOI:10.1016/j.yrtph.2021.104873
+22. Bolt HM et al. Effects of boron compounds on human reproduction. Arch Toxicol. 2020. PMID:32170343 DOI:10.1007/s00204-020-02700-x
+23. Duydu Y et al. What can we learn from epidemiological studies on chronic boron exposure? Crit Rev Toxicol. 2023. PMID:37351904 DOI:10.1080/10408444.2023.2222151
+24. Murray FJ. A comparative review of the pharmacokinetics of boric acid in rodents and humans. Biol Trace Elem Res. 1998. PMID:10050928 DOI:10.1007/BF02783146
+25. Igra AM et al. Boron exposure through drinking water during pregnancy and birth size. Environ Int. 2016. PMID:27502898 DOI:10.1016/j.envint.2016.07.017
+26. Pahl MV et al. The effect of pregnancy on renal clearance of boron in humans. Toxicol Sci. 2001. PMID:11248136 DOI:10.1093/toxsci/60.2.252
+27. Pahl MV et al. Boron and the kidney. J Ren Nutr. 2005. PMID:16198928 DOI:10.1053/j.jrn.2005.05.001
+28. Usuda K et al. Hemodialysis effect on serum boron level in the patients with long term hemodialysis. Sci Total Environ. 1996. PMID:8931348 DOI:10.1016/s0048-9697(96)05271-0
+29. Usuda K et al. Boron diffusion across the dialysis membrane during hemodialysis. Miner Electrolyte Metab. 1997. PMID:9252976
+30. Kremer D et al. Boron Intake and decreased risk of mortality in kidney transplant recipients. Eur J Nutr. 2022. PMID:34677681 DOI:10.1007/s00394-021-02702-0
+31. Stürmer P et al. Plasma boron concentrations and risk of all-cause mortality in the general population. Eur J Nutr. 2024. PMID:38244065 DOI:10.1007/s00394-023-03319-1
+32. Mahabir S et al. Dietary boron and hormone replacement therapy as risk factors for lung cancer in women. Am J Epidemiol. 2008. PMID:18343880 DOI:10.1093/aje/kwn021
+33. Cui Y et al. Dietary boron intake and prostate cancer risk. Oncol Rep. 2004. PMID:15010890
+34. Spacco G et al. Unintentional boric acid exposure: a case report and boron level monitoring. BMC Pediatr. 2025. PMID:41120974 DOI:10.1186/s12887-025-06254-8
+35. Voß M et al. Accidental Boron Poisoning From a Dietary Supplement. Dtsch Arztebl Int. 2026. PMID:42478460 DOI:10.3238/arztebl.m2026.0043
+36. Tuzcu M et al. Boron as a Context-Dependent System-Level Modulator: Mechanisms and Implications in Chronic Diseases. Biol Trace Elem Res. 2026. PMID:42579050 DOI:10.1007/s12011-026-05298-w
+37. Kuru-Yaşar R, Yarat A. The Role of Boron in the Diet and as a Dietary Supplement. Handb Exp Pharmacol. 2026. PMID:42185672 DOI:10.1007/164_2026_811
+38. Hong C et al. The Biological Effects of Boron in Animals and Humans. Biol Trace Elem Res. 2026. PMID:41886026 DOI:10.1007/s12011-026-05062-0
+39. Melenikioti E et al. Dietary Lithium, Silicon, and Boron: An Updated Critical Review. Nutrients. 2026. PMID:41683210 DOI:10.3390/nu18030386
+40. Biţă A et al. Boron Bioavailability Revisited: From Plasma-Accessible Species to Microbiota-Accessible Complexes. Biomolecules. 2025. PMID:41463367 DOI:10.3390/biom15121711
+41. Atteia HH. Combined Supplementation of Magnesium and Boron Ameliorate Menopause-Associated Osteogenic Disturbances in Ovariectomized Rats. Biol Trace Elem Res. 2026. PMID:41075129 DOI:10.1007/s12011-025-04870-0
+42. Sentürk NB et al. The Potential Role of Boron in the Modulation of Gut Microbiota Composition: An In Vivo Pilot Study. Pharmaceuticals (Basel). 2024. PMID:39458975 DOI:10.3390/ph17101334

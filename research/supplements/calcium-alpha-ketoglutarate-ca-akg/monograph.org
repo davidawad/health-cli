@@ -1,0 +1,176 @@
+* Calcium Alpha-Ketoglutarate (Ca-AKG)
+:PROPERTIES:
+:ID: supp-calcium-alpha-ketoglutarate-ca-akg
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: Ca-AKG | CaAKG | AKG-Ca | calcium alpha-ketoglutarate | calcium 2-oxoglutarate | calcium 2-oxopentanedioate | alpha-ketoglutaric acid calcium salt | alpha-ketoglutarate | AKG | 2-oxoglutarate | 2-OG | Rejuvant (AKG-based formulation)
+:CATEGORY: longevity
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Alpha-ketoglutarate (AKG; 2-oxoglutarate) is an endogenous intermediate of the tricarboxylic acid (TCA, Krebs) cycle and the carbon skeleton of glutamate [PMID:34952764] [PMID:9527195].
+- Ca-AKG is its calcium salt, calcium 2-oxopentanedioate, C5H4CaO5, MW 184.16 [URL:https://pubchem.ncbi.nlm.nih.gov/compound/3018235]. From the formula, calcium is about 21.8% of anhydrous Ca-AKG by mass (40.08/184.16). So 1 g supplies about 0.22 g elemental calcium and 2 g about 0.44 g. Hydrated forms contain somewhat less. This is a calculation from the formula, not a figure measured in a trial.
+- The 2020 mouse lifespan study used pure calcium 2-oxoglutarate at 2% (w/w) of the diet [PMID:32877690].
+- Other AKG salts that have been studied in humans: ornithine alpha-ketoglutarate (OKG) for burns and pressure ulcers [PMID:10890617] [PMID:19621198], L-arginine alpha-ketoglutarate (AAKG) in sports supplements [PMID:16928472], and intravenous or parenteral AKG in surgical settings [PMID:1969067] [PMID:9527195]. Results from these salts cannot be assumed to apply to oral Ca-AKG.
+- Commercial products include sustained- or delayed-release Ca-AKG, which is the form used in the ABLE RCT [PMID:37217632], and Rejuvant, an AKG-plus-vitamins formulation [PMID:34847066] [PMID:42166733].
+- Ketoanalogue products for CKD, which are calcium salts of essential amino-acid keto-acids, are a different product. They are mentioned here only as evidence for a calcium-salt effect [PMID:39340710].
+
+** Mechanisms
+- *TCA cycle and nitrogen metabolism:* AKG is a Krebs-cycle intermediate. It takes part in amino-acid synthesis and nitrogen and ammonia balance [PMID:34952764] [PMID:36934991].
+- *Cofactor for 2-OG-dependent dioxygenases:* About 60 Fe(II)/2-oxoglutarate-dependent oxygenases use AKG as a co-substrate. In animals they catalyse hydroxylations and N-demethylations, including collagen prolyl hydroxylation, transcriptional regulation and nucleic-acid modification and repair. Some are drug targets for anemia (HIF prolyl hydroxylases) [PMID:29494239].
+  - TET DNA demethylases use AKG as a cofactor. In middle-aged mice, AKG increased DNA demethylation at the Prdm16 promoter [PMID:31691468]. In rodent CKD models, AKG's anti-calcification effect depended partly on TET2 [PMID:40383231].
+  - Jumonji-C (JmjC) histone demethylases also depend on 2-OG [PMID:29494239]. In aged mice, AKG reduced H3K9me3 and H3K27me3 in bone-marrow MSCs and improved bone mass [PMID:33154378]. These are animal and mechanistic data.
+- *Energy sensing and TOR (C. elegans):* AKG binds and inhibits ATP synthase subunit beta, lowers ATP and oxygen use, raises autophagy, and extends worm lifespan through a TOR-dependent route that mimics dietary restriction [PMID:24828042]. In mice given CaAKG, mTORC1 signalling did not fall in the tissues tested [PMID:32877690].
+- *Inflammation (mice):* CaAKG lowered systemic inflammatory cytokines and induced IL-10 in T cells of female mice [PMID:32877690]. After myocardial infarction in mice, AKG reduced infarct size through FTO-dependent anti-inflammatory macrophage polarisation [PMID:40817969].
+- *Possible harm signal (mice):* In high-fat-fed Ldlr-/- mice, AKG acting through its receptor OXGR1 expanded granulocyte-monocyte progenitors and worsened atherosclerotic plaque inflammation [PMID:41931905]. AKG biology depends on context.
+- *Age-related decline:* AKG levels change with fasting, exercise and aging [PMID:32877690]. Circulating AKG was lower in 10-month-old than in 2-month-old mice [PMID:31691468]. The 2020 Cell Metabolism paper repeats a report that human plasma AKG falls about 10-fold between ages 40 and 80, citing a 2008 review [PMID:32877690] [PMID:18802218]. I could not open the primary human data behind that figure, so treat it as unverified. Human follicular-fluid AKG tended to be lower with age [PMID:33450127]. A 2025-26 multi-organ metabolic aging atlas in mice identified AKG among metabolic drivers in its organ clocks [PMID:41297544].
+
+** Evidence summary by outcome
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Lifespan (mice) | Animal: 2 cohorts of C57BL/6 mice, 2% CaAKG diet from 18 months of age | Benefit (females); not significant (males) | Female median lifespan +16.6% (cohort 1) and +10.5% (cohort 2). Male median +9.6% and +12.8%, not significant. Control diet had no added calcium. | Not graded (animal) | [PMID:32877690] |
+| Frailty/healthspan (mice) | Same mouse study | Benefit, both sexes | Frailty fell more than lifespan rose ("compression of morbidity"). Cytokines lower. | Not graded (animal) | [PMID:32877690] |
+| Lifespan (C. elegans) | Animal | Benefit | Lifespan extended; ATP synthase/TOR dependent | Not graded (animal) | [PMID:24828042] |
+| DNA-methylation (epigenetic) age, humans | Retrospective uncontrolled case series, n=42, Rejuvant (AKG + vitamins), about 7 months | Apparent decrease | Mean TruAge clock about 8 years lower (p=6.5e-12). No placebo. Testing company had a service agreement with the manufacturer, and an author advised the manufacturer. | Very low | [PMID:34847066] |
+| Epigenetic age, humans (cross-sectional) | Self-selected cohort of 4,260 users of saliva epigenetic tests | Association | Delayed-release Ca-AKG + vitamin product linked to lower age residual after adjustment. Plain AKG: smaller, not significant. Longitudinal subset not significant after correction. Healthy-user bias acknowledged. | Very low | [PMID:42166733] |
+| Epigenetic age, humans (RCT) | ABLE RCT, NCT05706389: 1 g/day sustained-release Ca-AKG vs placebo, 6 months, n=120 aged 40-60 | Pending | No efficacy results published; completion listed as 2027-01 | No data | [PMID:37217632] [PMID:40819772] [URL:https://clinicaltrials.gov/study/NCT05706389] |
+| Bone turnover / BMD (postmenopausal osteopenia) | Single double-blind RCT, n=76, 6 months: 6 g AKG + 1.68 g Ca/day vs 1.68 g Ca/day | Benefit on CTX; BMD not significant | CTX down 37% at 24 weeks, a significant difference between groups. Lumbar BMD +1.6% from baseline in the AKG-Ca arm; between-group difference 0.9%, not significant | Low | [PMID:17896582] |
+| Bone (aged rodents) | Animal | Benefit | More bone mass; less age-related bone loss | Not graded (animal) | [PMID:33154378] |
+| Amino-acid metabolism / phosphate in hemodialysis | Uncontrolled 1-year clinical study: AKG + calcium carbonate | Improvement in surrogates | Plasma urea fell; several amino acids and branched-chain keto-acids rose; hyperphosphatemia improved | Very low | [PMID:8893139] |
+| Postoperative muscle catabolism | Small clinical study of AKG added to parenteral nutrition | Benefit on surrogate | Prevented the post-surgical fall in muscle protein synthesis and free glutamine | Very low | [PMID:1969067] |
+| Renal blood flow after cardiac surgery (IV AKG) | Small RCT, n=22, IV infusion | Increased RBF; GFR unchanged | RBF 297% vs 125% of pre-op value | Very low (IV, not oral Ca-AKG) | [PMID:9527195] |
+| Burn wound healing (OKG, not Ca-AKG) | Double-blind RCT, n=47, enteral OKG 20 g/day | Benefit | Healing 60±7 vs 90±12 days | Low (different salt) | [PMID:10890617] |
+| Pressure-ulcer healing (OKG) | RCT, n=160; Cochrane 2024 SR | Uncertain | Benefit only in a post-hoc subgroup (≤8 cm2). Cochrane rates OKG evidence very low certainty | Very low | [PMID:19621198] [PMID:38345088] [PMID:41587302] |
+| Exercise performance (AAKG, not Ca-AKG) | RCT, n=35, 12 g/day AAKG for 8 weeks | Mixed | 1RM bench and Wingate peak power improved; body composition and aerobic capacity unchanged | Low (different salt) | [PMID:16928472] |
+| Muscle / sarcopenia | Narrative review; D-galactose mouse model | Benefit in animals | Not quantified in humans | Very low | [PMID:39599754] [PMID:41228408] |
+
+Overall: AKG has a credible mechanistic and animal basis for an anti-aging effect. The largest mammalian lifespan signal comes from one mouse study, whose authors held a related patent and equity in a company selling AKG [PMID:32877690]. The human evidence for biological aging is a single uncontrolled retrospective series and one cross-sectional association. The case series had disclosed manufacturer ties [PMID:34847066] [PMID:42166733]. No placebo-controlled human efficacy result for Ca-AKG on aging outcomes had been published as of 2026-10. Overall certainty for the primary use (healthy aging or biological-age reduction) is *very low*. A 2022 review by the group running ABLE also says no recent human studies show AKG treats aging or age-related disease [PMID:34952764].
+
+** Dosing in trials
+- ABLE RCT: 1 g/day sustained-release Ca-AKG for 6 months [PMID:37217632]. Supplement adherence was above 90% [PMID:42789532].
+- NCT07114536 (China, completed 2025-11, n=34): 2 g/day Ca-AKG (0.5 g tablets, 2 twice daily) for 12 weeks; primary outcome PhenoAge. No results posted [URL:https://clinicaltrials.gov/study/NCT07114536].
+- NCT07269704 (US, open-label, n=17): 2 g/day Ca-AKG for 7 days before eye surgery; outcome was aqueous-humor AKG [URL:https://clinicaltrials.gov/study/NCT07269704].
+- Planned trial NCT07861867: 1 g/day Ca-AKG for 24 weeks on neurovascular coupling in older adults [URL:https://clinicaltrials.gov/study/NCT07861867].
+- Bone RCT: 6 g AKG with 1.68 g calcium daily for 6 months [PMID:17896582].
+- Mice: 2% (w/w) of diet from 18 months of age [PMID:32877690].
+- OKG: 10 g/day for pressure ulcers [PMID:19621198]; 20 g/day enterally for burns [PMID:10890617]. AAKG: 12 g/day [PMID:16928472].
+- Calcium load: at the ABLE dose, Ca-AKG adds roughly 0.2 g/day of elemental calcium (calculated from the formula [URL:https://pubchem.ncbi.nlm.nih.gov/compound/3018235]). Multi-gram doses add 0.4-1.7 g/day. That amount is comparable to the 1,000 mg/day calcium dose that raised kidney-stone risk in WHI [PMID:16481635].
+
+** Safety & adverse effects
+- Human safety data for oral Ca-AKG are limited to small, short trials. The 2020 mouse paper notes AKG has been used in human clinical studies without associated adverse effects [PMID:32877690]. In the 6-month bone RCT, 6 g AKG plus calcium caused no reported safety problems, but that abstract gives no adverse-event data [PMID:17896582].
+- OKG at 20 g/day enterally was safe and well tolerated in burn patients [PMID:10890617]. In the OKG pressure-ulcer RCT, serious adverse events were similar between arms (15 vs 13 patients) and none were judged treatment-related [PMID:19621198]. AAKG at 12 g/day for 8 weeks appeared safe and well tolerated [PMID:16928472].
+- In mice, lifelong 2% CaAKG produced no significant adverse changes on the measures reported [PMID:32877690].
+- Calcium-related risks apply to the calcium part of the salt:
+  - In WHI, 1,000 mg/day calcium carbonate plus 400 IU vitamin D3 increased kidney stones [PMID:16481635].
+  - A patient-level meta-analysis found calcium supplements without vitamin D associated with more myocardial infarction (HR 1.31, 95% CI 1.02-1.67) [PMID:20671013]. This is contested, and the IOM found the extraskeletal evidence inconclusive [PMID:21118827].
+  - High calcium intake, especially with alkali, can cause calcium-alkali (milk-alkali) syndrome: hypercalcemia, metabolic alkalosis and renal impairment [PMID:33732556].
+- Theoretical or animal concerns:
+  - AKG worsened atherosclerotic plaque inflammation in hyperlipidemic mice [PMID:41931905].
+  - AKG and 2-OG enzymes are involved in cancer-cell behaviour and epigenetics [PMID:36934991] [PMID:29494239]. Long-term human oncologic safety has not been studied.
+
+** Contraindications
+- No formal contraindications have been established. None of these has been tested in Ca-AKG trials. Based on the calcium content, caution is reasonable in:
+  - existing hypercalcemia or hyperparathyroidism [PMID:33732556] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00f67e1a-6999-4295-9c9f-fcb1ce9711b8]
+  - history of calcium-containing kidney stones [PMID:16481635]
+  - advanced CKD or dialysis, where any calcium-salt load changes serum calcium and phosphate and should be managed within renal care [PMID:39340710] [PMID:8893139]
+- Pregnancy, lactation and children: no human safety data were found. The ABLE trial enrolled only adults aged 40-60 [PMID:37217632].
+
+** Interactions
+*** Drugs
+- *Levothyroxine / thyroid hormone:* The FDA label lists calcium carbonate among phosphate binders that may bind levothyroxine. It advises taking levothyroxine at least 4 hours apart, because absorption may fall and cause hypothyroidism [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=008de8fd-150f-4022-8ccb-c8bfa94875c7]. Ca-AKG-specific data are absent; the risk is inferred from its calcium.
+- *Fluoroquinolones (e.g., ciprofloxacin):* Take ciprofloxacin at least 2 hours before or 6 hours after products containing calcium, iron or zinc [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0c355077-7361-41d0-9e82-eb31beaf5daa].
+- *Tetracyclines (e.g., doxycycline):* Antacids containing calcium impair tetracycline absorption [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00b2aa98-dea2-90c3-e063-6294a90a35d6].
+- *Bisphosphonates (e.g., alendronate):* Calcium supplements interfere with alendronate absorption [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=09765234-01bc-40f7-b9bb-c167056f3909].
+- *Thiazide diuretics:* Thiazides reduce urinary calcium excretion and may raise serum calcium. Added calcium from Ca-AKG increases hypercalcemia risk [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00f67e1a-6999-4295-9c9f-fcb1ce9711b8] [PMID:33732556].
+- No AKG-specific pharmacokinetic drug-interaction studies were found.
+
+*** Other supplements
+- *Vitamin D-3:* In long-term RCTs, vitamin D raised the risk of hypercalcemia (RR 1.54, 95% CI 1.09-2.18) and hypercalciuria (RR 1.64, 95% CI 1.06-2.53) [PMID:27604776]. Combined calcium and vitamin D increased kidney stones in WHI [PMID:16481635]. Stacking Ca-AKG adds to the calcium load.
+- *Calcium (other supplements, calcium antacids):* Doses add up. For stones and cardiovascular signals, see Safety [PMID:16481635] [PMID:20671013].
+- *Other AKG salts (OKG, AAKG, AKG in pre-workout products):* They overlap in AKG content [PMID:16928472] [PMID:10890617].
+- *Rejuvant-type formulations:* These combine AKG with vitamins [PMID:34847066], so check for duplicate vitamin intake.
+
+*** Conditions
+- Hypercalcemia or hyperparathyroidism; history of kidney stones; CKD or dialysis. See Contraindications.
+- Atherosclerotic cardiovascular disease: there is a mouse harm signal for AKG [PMID:41931905] and a contested human signal for calcium supplements and MI [PMID:20671013]. A mouse study also reported AKG protecting against myocardial infarction [PMID:40817969], so the direction is uncertain.
+
+*** Lab-test interference
+- No direct assay interference was found for AKG. Calcium salts can raise measured serum calcium; ketoanalogue calcium salts raised serum calcium in a CKD meta-analysis [PMID:39340710]. Serum calcium should be interpreted with supplement use in mind.
+- Epigenetic-clock tests are the main outcome in AKG marketing and trials. Results come from proprietary clocks with sizeable error; for example, the 9-CpG clock had a mean absolute error of 5.4 years [PMID:42166733].
+
+** Genotype notes
+No cited pharmacogenomic or nutrigenomic source found.
+
+** Latest research
+- [2026-09] ABLE trial operations paper: 120 adults aged 40-60 (59 AKG, 61 placebo) on 1 g/day for 6 months. Supplement adherence was above 90% and dropout 17%. Efficacy results are still unpublished [PMID:42789532].
+- [2026-06] Cross-sectional study of 4,260 saliva epigenetic-test users: a delayed-release Ca-AKG + vitamin product was associated with lower epigenetic age residual; plain AKG was not significant. Healthy-user bias acknowledged [PMID:42166733].
+- [2026-06] In Ldlr-/- mice on a high-fat diet, AKG worsened atherosclerotic plaque inflammation through OXGR1 [PMID:41931905].
+- [2026-02] Multi-organ metabolic atlas of mouse aging identified AKG among metabolic drivers of aging in organ clocks (online 2025-11) [PMID:41297544].
+- [2025-11] NCT07114536 (2 g/day Ca-AKG vs placebo for 12 weeks; PhenoAge) listed as completed with n=34. No results posted [URL:https://clinicaltrials.gov/study/NCT07114536].
+- [2025-10] AKG improved muscle mass, endurance and grip in D-galactose-aged mice [PMID:41228408].
+- [2025-08] ABLE recruitment: 467 people expressed interest and 120 enrolled; biological age exceeded chronological age in 80.2% [PMID:40819772].
+- [2025-08] AKG reduced infarct size after MI in mice through FTO-mediated macrophage polarisation [PMID:40817969].
+- [2025-08] AKG reduced vascular calcification in CKD rodents, partly through TET2/NLRP3 [PMID:40383231].
+- [2024-11] Narrative review of AKG and skeletal muscle: promising preclinical findings, but large clinical trials are lacking [PMID:39599754].
+- [2024-11] Meta-analysis of ketoanalogues (calcium keto-acid salts, not Ca-AKG) in CKD: GFR preserved, serum calcium higher [PMID:39340710].
+- [2024-02] Cochrane review of nutrition for pressure ulcers: evidence for OKG on healing is very uncertain [PMID:38345088].
+- Ongoing or registered trials: AEGIS (NCT07031128, AKG around CABG, n=250, recruiting) [URL:https://clinicaltrials.gov/study/NCT07031128]; AKG for abdominal aortic aneurysm (NCT04723888, n=300, recruiting) [URL:https://clinicaltrials.gov/study/NCT04723888]; ABLE (NCT05706389, active, not recruiting) [URL:https://clinicaltrials.gov/study/NCT05706389].
+
+** Open questions
+- Does Ca-AKG change any validated clinical or functional aging outcome in humans? ABLE and NCT07114536 results are needed.
+- Do the mouse lifespan gains (female-predominant) replicate in independent labs such as the NIA Interventions Testing Program, given the original authors' financial interests and the calcium-free control diet [PMID:32877690]?
+- Oral bioavailability of AKG and dose-response in humans; whether sustained-release forms matter [PMID:42166733].
+- How large and how real is the human age-related plasma AKG decline? The 10-fold figure is cited second-hand [PMID:32877690].
+- Long-term cardiovascular and oncologic safety, given the opposing mouse atherosclerosis findings [PMID:41931905] [PMID:40817969] and AKG's role in cancer epigenetics [PMID:36934991].
+- How much of any effect comes from calcium versus AKG?
+
+** Sources
+1. Asadi Shahmirzadi A et al. Alpha-Ketoglutarate, an Endogenous Metabolite, Extends Lifespan and Compresses Morbidity in Aging Mice. Cell Metab. 2020. PMID:32877690 DOI:10.1016/j.cmet.2020.08.004
+2. Chin RM et al. The metabolite alpha-ketoglutarate extends lifespan by inhibiting ATP synthase and TOR. Nature. 2014. PMID:24828042 DOI:10.1038/nature13264
+3. Demidenko O et al. Rejuvant, a potential life-extending compound formulation with alpha-ketoglutarate and vitamins, conferred an average 8 year reduction in biological aging... Aging (Albany NY). 2021. PMID:34847066 DOI:10.18632/aging.203736
+4. Sandalova E et al. Alpha-ketoglutarate supplementation and BiologicaL agE in middle-aged adults (ABLE)-intervention study protocol. Geroscience. 2023. PMID:37217632 DOI:10.1007/s11357-023-00813-6
+5. Lim ZM et al. Recruitment evaluation of a gerotherapeutic randomized controlled trial testing alpha-ketoglutarate in biologically older, middle-aged adults (ABLE). Exp Gerontol. 2025. PMID:40819772 DOI:10.1016/j.exger.2025.112867
+6. Lu JK et al. Optimizing accelerometer implementation in a gerotherapeutic trial: ABLE. PLOS Digit Health. 2026. PMID:42789532 DOI:10.1371/journal.pdig.0001691
+7. Pabis K et al. Supplements and Drugs Are Associated With Biological Age in a Cohort of Exceptionally Healthy Individuals. Aging Cell. 2026. PMID:42166733 DOI:10.1111/acel.70517
+8. Filip RS et al. Alpha-ketoglutarate decreases serum levels of CTX in postmenopausal women with osteopenia: six-month study. Int J Vitam Nutr Res. 2007. PMID:17896582 DOI:10.1024/0300-9831.77.2.89
+9. Gyanwali B et al. Alpha-Ketoglutarate dietary supplementation to improve health in humans. Trends Endocrinol Metab. 2022. PMID:34952764 DOI:10.1016/j.tem.2021.11.003
+10. Naeini SH et al. Alpha-ketoglutarate as a potent regulator for lifespan and healthspan: Evidences and perspectives. Exp Gerontol. 2023. PMID:36934991 DOI:10.1016/j.exger.2023.112154
+11. Harrison AP, Pierzynowski SG. Biological effects of 2-oxoglutarate ... viewed from a healthy ageing perspective. J Physiol Pharmacol. 2008. PMID:18802218
+12. Tian Q et al. Dietary alpha-ketoglutarate promotes beige adipogenesis and prevents obesity in middle-aged mice. Aging Cell. 2020. PMID:31691468 DOI:10.1111/acel.13059
+13. Islam MS et al. 2-Oxoglutarate-Dependent Oxygenases. Annu Rev Biochem. 2018. PMID:29494239 DOI:10.1146/annurev-biochem-061516-044724
+14. Wang Y et al. Alpha-ketoglutarate ameliorates age-related osteoporosis via regulating histone methylations. Nat Commun. 2020. PMID:33154378 DOI:10.1038/s41467-020-19360-1
+15. Pilley SE et al. A metabolic atlas of mouse aging. Cell Metab. 2026. PMID:41297544 DOI:10.1016/j.cmet.2025.10.016
+16. Zhao J et al. Alpha-ketoglutarate accelerates granulocyte-monocyte progenitor differentiation and atherosclerotic plaque inflammation via oxoglutarate receptor 1. Redox Biol. 2026. PMID:41931905 DOI:10.1016/j.redox.2026.104134
+17. Fu M et al. The metabolite alpha-ketoglutarate inhibits vascular calcification partially through modulation of the TET2/NLRP3 inflammasome signaling pathway. Kidney Int. 2025. PMID:40383231 DOI:10.1016/j.kint.2025.04.016
+18. Lin Z et al. Alpha-ketoglutarate protects against myocardial infarction via FTO-mediated anti-inflammatory macrophage activation. Basic Res Cardiol. 2025. PMID:40817969 DOI:10.1007/s00395-025-01135-8
+19. Zhang Y et al. Alpha-Ketoglutarate Ameliorates Sarcopenia in D-Galactose-Induced Aging Mice. Nutrients. 2025. PMID:41228408 DOI:10.3390/nu17213336
+20. Xu M et al. Impact of Alpha-Ketoglutarate on Skeletal Muscle Health and Exercise Performance: A Narrative Review. Nutrients. 2024. PMID:39599754 DOI:10.3390/nu16223968
+21. Zhang Z et al. Alpha-ketoglutarate delays age-related fertility decline in mammals. Aging Cell. 2021. PMID:33450127 DOI:10.1111/acel.13291
+22. Riedel E et al. alpha-Ketoglutarate application in hemodialysis patients improves amino acid metabolism. Nephron. 1996. PMID:8893139 DOI:10.1159/000189319
+23. Wernerman J et al. Alpha-ketoglutarate and postoperative muscle catabolism. Lancet. 1990. PMID:1969067 DOI:10.1016/0140-6736(90)90811-i
+24. Jeppsson A et al. Renal effects of alpha-ketoglutarate early after coronary operations. Ann Thorac Surg. 1998. PMID:9527195 DOI:10.1016/s0003-4975(97)01337-4
+25. Meaume S et al. Efficacy and safety of ornithine alpha-ketoglutarate in heel pressure ulcers in elderly patients: RCT. J Nutr Health Aging. 2009. PMID:19621198 DOI:10.1007/s12603-009-0173-z
+26. Coudray-Lucas C et al. Ornithine alpha-ketoglutarate improves wound healing in severe burn patients. Crit Care Med. 2000. PMID:10890617 DOI:10.1097/00003246-200006000-00012
+27. Langer G et al. Nutritional interventions for preventing and treating pressure ulcers. Cochrane Database Syst Rev. 2024. PMID:38345088 DOI:10.1002/14651858.CD003216.pub3
+28. Yildirim D, Akin E. Does Nutrition Intervention Prevent and Heal Pressure Injury? A Systematic Review of RCTs. Adv Skin Wound Care. 2026. PMID:41587302 DOI:10.1097/ASW.0000000000000398
+29. Campbell B et al. Pharmacokinetics, safety, and effects on exercise performance of L-arginine alpha-ketoglutarate in trained adult men. Nutrition. 2006. PMID:16928472 DOI:10.1016/j.nut.2006.06.003
+30. Chen CH et al. Efficacy and safety of ketoanalogue supplementation combined with protein-restricted diets in advanced CKD: SR/MA. J Nephrol. 2024. PMID:39340710 DOI:10.1007/s40620-024-02065-9
+31. Jackson RD et al. (WHI) Calcium plus vitamin D supplementation and the risk of fractures. N Engl J Med. 2006. PMID:16481635 DOI:10.1056/NEJMoa055218
+32. Ross AC et al. The 2011 report on dietary reference intakes for calcium and vitamin D from the IOM. J Clin Endocrinol Metab. 2011. PMID:21118827 DOI:10.1210/jc.2010-2704
+33. Malihi Z et al. Hypercalcemia, hypercalciuria, and kidney stones in long-term studies of vitamin D supplementation: SR/MA. Am J Clin Nutr. 2016. PMID:27604776 DOI:10.3945/ajcn.116.134981
+34. Zayed RF et al. Calcium-Alkali Syndrome: Historical Review, Pathophysiology and Post-Modern Update. Cureus. 2021. PMID:33732556 DOI:10.7759/cureus.13291
+35. Bolland MJ et al. Effect of calcium supplements on risk of myocardial infarction and cardiovascular events: meta-analysis. BMJ. 2010. PMID:20671013 DOI:10.1136/bmj.c3691
+36. PubChem CID 3018235, calcium 2-oxopentanedioate. URL:https://pubchem.ncbi.nlm.nih.gov/compound/3018235
+37. FDA label, levothyroxine sodium tablets (DailyMed). URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=008de8fd-150f-4022-8ccb-c8bfa94875c7
+38. FDA label, ciprofloxacin tablets (DailyMed). URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0c355077-7361-41d0-9e82-eb31beaf5daa
+39. FDA label, doxycycline (DailyMed). URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00b2aa98-dea2-90c3-e063-6294a90a35d6
+40. FDA label, lisinopril and hydrochlorothiazide (DailyMed). URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00f67e1a-6999-4295-9c9f-fcb1ce9711b8
+41. FDA label, alendronate (DailyMed). URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=09765234-01bc-40f7-b9bb-c167056f3909
+42. ClinicalTrials.gov NCT05706389 (ABLE). URL:https://clinicaltrials.gov/study/NCT05706389
+43. ClinicalTrials.gov NCT07114536. URL:https://clinicaltrials.gov/study/NCT07114536
+44. ClinicalTrials.gov NCT07269704. URL:https://clinicaltrials.gov/study/NCT07269704
+45. ClinicalTrials.gov NCT07861867. URL:https://clinicaltrials.gov/study/NCT07861867
+46. ClinicalTrials.gov NCT07031128 (AEGIS). URL:https://clinicaltrials.gov/study/NCT07031128
+47. ClinicalTrials.gov NCT04723888. URL:https://clinicaltrials.gov/study/NCT04723888

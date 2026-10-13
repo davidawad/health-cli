@@ -1,0 +1,44 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Garlic (Kyolic)",
+  "slug": "garlic-kyolic",
+  "aliases": [
+    "aged garlic extract",
+    "Kyolic"
+  ],
+  "category": "botanical",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "low",
+  "edges": [
+    {
+      "with": "warfarin",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "major",
+      "mechanism": "Garlic preparations may increase bleeding when combined with anticoagulant therapy.",
+      "evidence": "Official NCCIH safety summary.",
+      "citations": [
+        "URL:https://www.nccih.nih.gov/health/garlic"
+      ]
+    },
+    {
+      "with": "Garlic",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Aged garlic is a garlic preparation; duplicated exposure has uncertain incremental effect and can increase garlic adverse effects.",
+      "evidence": "Ingredient overlap; no direct combination trial.",
+      "citations": [
+        "PMID:30619868",
+        "URL:https://www.nccih.nih.gov/health/garlic"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:30619868",
+    "PMID:40084199",
+    "PMID:30619868",
+    "PMID:40084199",
+    "URL:https://www.nccih.nih.gov/health/garlic"
+  ]
+}

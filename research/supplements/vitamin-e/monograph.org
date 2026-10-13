@@ -1,0 +1,50 @@
+* Vitamin E
+:PROPERTIES:
+:ID: supp-vitamin-e
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: alpha-tocopherol
+:CATEGORY: vitamin
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Vitamin E denotes eight fat-soluble tocopherol/tocotrienol compounds; alpha-tocopherol is the form maintained in human plasma. Supplements use natural RRR- or synthetic all-rac-alpha-tocopherol. [URL:https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/]
+
+** Mechanisms
+- Proposed biological activity and the best-established physiological context are described above; clinical mechanisms remain uncertain where outcome evidence is limited. ["URL:https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/"]
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | Certainty | Citations |
+|---|---|---|---|---|---|
+| Primary studied clinical/biomarker outcomes | Systematic review/meta-analysis or RCT synthesis | Randomized-trial meta-analysis in 142,219 generally healthy participants found no mortality effect (RR 1.01, 95% CI 0.97–1.05) at 23–800 IU/day | See narrative | low | URL:https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/; PMID:25398301 |
+| Long-term clinical outcomes | Evidence insufficient or mixed | No established benefit | Not established | very low | URL:https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/; PMID:25398301 |
+
+** Dosing in trials
+- Trials span 23–800 IU/day, commonly 400 IU/day; take with food containing fat for absorption. [URL:https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/]
+
+** Safety & adverse effects
+- High supplemental doses may cause hemorrhagic stroke/bleeding; adult supplemental UL 1,000 mg/day. [URL:https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/]
+
+** Contraindications
+- Hemorrhagic disorders and perioperative use warrant caution because of anticoagulant effects. [URL:https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/]
+
+** Interactions
+- Warfarin/antiplatelet drugs: increased bleeding potential; low vitamin K intake may amplify. Antioxidant combinations may blunt statin+niacin HDL response. No routine assay interference established. [URL:https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/]
+
+** Genotype notes
+- No cited pharmacogenomic or nutrigenomic source was identified in the sources reviewed; no genotype-specific claim is made.
+
+** Latest research
+- 2025–2026 literature: 2025 NHANES cohort reported dietary intake associations with CVD; observational findings do not establish benefit from supplements. [PMID:39790118]
+
+** Open questions
+- Whether findings translate into durable patient-important outcomes, optimal formulation/dose, and long-term safety remains uncertain. [URL:https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/; PMID:25398301]
+
+** Sources
+- URL:https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/
+- PMID:25398301
+- URL:https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/
+- PMID:25398301
+- PMID:39790118

@@ -1,0 +1,50 @@
+* Garlic (Kyolic)
+:PROPERTIES:
+:ID: supp-garlic-kyolic
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: aged garlic extract | Kyolic
+:CATEGORY: botanical
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Kyolic is a branded aged garlic extract (AGE), produced by prolonged aging and standardized in some trials to S-allylcysteine; this evidence is product-specific. [PMID:30619868]
+
+** Mechanisms
+- Proposed biological activity and the best-established physiological context are described above; clinical mechanisms remain uncertain where outcome evidence is limited. ["PMID:30619868"]
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | Certainty | Citations |
+|---|---|---|---|---|---|
+| Primary studied clinical/biomarker outcomes | Systematic review/meta-analysis or RCT synthesis | In 12-week RCT among uncontrolled hypertension, 1.2 g/day AGE was studied for BP and vascular markers | See narrative | low | PMID:30619868; PMID:40084199 |
+| Long-term clinical outcomes | Evidence insufficient or mixed | No established benefit | Not established | very low | PMID:30619868; PMID:40084199 |
+
+** Dosing in trials
+- Trials: 1.2 g/day AGE (1.2 mg S-allylcysteine) for 12 weeks; a 2025 trial compared 1.2 and 2.4 g/day. [PMID:30619868] [PMID:40084199]
+
+** Safety & adverse effects
+- Garlic-associated GI symptoms and possible bleeding risk apply; product-specific long-term safety evidence limited. [URL:https://www.nccih.nih.gov/health/garlic]
+
+** Contraindications
+- Caution with anticoagulants/antiplatelets and around surgery. [URL:https://www.nccih.nih.gov/health/garlic]
+
+** Interactions
+- May add to blood-pressure-lowering effects and bleeding tendency; monitor with anticoagulants. [PMID:30619868] [URL:https://www.nccih.nih.gov/health/garlic]
+
+** Genotype notes
+- No cited pharmacogenomic or nutrigenomic source was identified in the sources reviewed; no genotype-specific claim is made.
+
+** Latest research
+- 2025–2026 literature: 2025 randomized trial studied 1.2 or 2.4 g/day Kyolic AGE in 75 recreational endurance athletes. [PMID:40084199]
+
+** Open questions
+- Whether findings translate into durable patient-important outcomes, optimal formulation/dose, and long-term safety remains uncertain. [PMID:30619868; PMID:40084199]
+
+** Sources
+- PMID:30619868
+- PMID:40084199
+- PMID:30619868
+- PMID:40084199
+- URL:https://www.nccih.nih.gov/health/garlic

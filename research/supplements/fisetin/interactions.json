@@ -1,0 +1,30 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Fisetin",
+  "slug": "fisetin",
+  "aliases": [
+    "3,3\u2032,4\u2032,7-tetrahydroxyflavone"
+  ],
+  "category": "longevity",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "low",
+  "edges": [
+    {
+      "with": "warfarin",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Potential CYP/enzyme or hemostatic interaction has not been clinically established; medication interaction evidence is insufficient.",
+      "evidence": "No direct clinical interaction evidence; precaution only.",
+      "citations": [
+        "PMID:42796982"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:39434114",
+    "PMID:42796982",
+    "PMID:42796982",
+    "PMID:39434114"
+  ]
+}

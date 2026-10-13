@@ -1,0 +1,51 @@
+* DHEA
+:PROPERTIES:
+:ID: supp-dhea
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: dehydroepiandrosterone
+:CATEGORY: hormone
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- DHEA is a steroid prohormone converted to androgens and estrogens in peripheral tissues. Oral and intravaginal prasterone are distinct exposures; prescription status varies by formulation and jurisdiction. [PMID:40616152]
+
+** Mechanisms
+- Proposed biological activity and the best-established physiological context are described above; clinical mechanisms remain uncertain where outcome evidence is limited. ["PMID:40616152"]
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | Certainty | Citations |
+|---|---|---|---|---|---|
+| Primary studied clinical/biomarker outcomes | Systematic review/meta-analysis or RCT synthesis | RCT synthesis finds systemic 50 mg/day does not reliably improve cognition; trials of vaginal prasterone show local GSM symptom benefits | See narrative | low | PMID:40616152; PMID:37788418 |
+| Long-term clinical outcomes | Evidence insufficient or mixed | No established benefit | Not established | very low | PMID:40616152; PMID:37788418 |
+
+** Dosing in trials
+- 50 mg/day orally in cognitive RCTs; vaginal prasterone 6.5 mg/day is a prescription product. [PMID:37788418] [PMID:41589851]
+
+** Safety & adverse effects
+- Acne and androgenic effects reported; long-term hormone-sensitive cancer and cardiovascular safety remain uncertain. [PMID:25879093]
+
+** Contraindications
+- Avoid unsupervised use in hormone-sensitive malignancy; this is precautionary given conversion to sex steroids. [PMID:40616152]
+
+** Interactions
+- May alter sex-steroid assays/levels and interact pharmacodynamically with estrogenic or androgenic therapies; no established routine lab assay interference. [PMID:40616152]
+
+** Genotype notes
+- No cited pharmacogenomic or nutrigenomic source was identified in the sources reviewed; no genotype-specific claim is made.
+
+** Latest research
+- 2025–2026 literature: 2025 meta-analysis quantified increases in testosterone and estradiol after oral supplementation. [PMID:40616152]
+
+** Open questions
+- Whether findings translate into durable patient-important outcomes, optimal formulation/dose, and long-term safety remains uncertain. [PMID:40616152; PMID:37788418]
+
+** Sources
+- PMID:40616152
+- PMID:37788418
+- PMID:40616152
+- PMID:37788418
+- PMID:41589851
+- PMID:25879093

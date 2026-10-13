@@ -1,0 +1,43 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Vitamin E",
+  "slug": "vitamin-e",
+  "aliases": [
+    "alpha-tocopherol"
+  ],
+  "category": "vitamin",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "low",
+  "edges": [
+    {
+      "with": "warfarin",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "major",
+      "mechanism": "High supplemental alpha-tocopherol may impair coagulation and potentiate anticoagulation.",
+      "evidence": "Official NIH ODS interaction summary.",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/"
+      ]
+    },
+    {
+      "with": "Vitamin K2-MK4",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Vitamin E can antagonize vitamin-K-dependent coagulation, while MK-4 alters vitamin K exposure; net anticoagulation effect may be clinically relevant.",
+      "evidence": "Mechanistic interaction; clinical outcome evidence limited.",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/",
+        "URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/"
+      ]
+    }
+  ],
+  "citations": [
+    "URL:https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/",
+    "PMID:25398301",
+    "URL:https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/",
+    "PMID:25398301",
+    "PMID:39790118"
+  ]
+}

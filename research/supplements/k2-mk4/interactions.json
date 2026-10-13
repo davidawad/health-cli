@@ -1,0 +1,34 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "K2-MK4",
+  "slug": "k2-mk4",
+  "aliases": [
+    "menaquinone-4",
+    "menatetrenone"
+  ],
+  "category": "vitamin",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "low",
+  "edges": [
+    {
+      "with": "warfarin",
+      "with_kind": "drug",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Vitamin K can reduce warfarin anticoagulant effect; changes in intake require INR monitoring.",
+      "evidence": "Official NIH ODS vitamin K fact sheet.",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:30734066",
+    "PMID:16801507",
+    "PMID:30734066",
+    "PMID:16801507",
+    "URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/",
+    "PMID:30734066",
+    "PMID:16801507"
+  ]
+}

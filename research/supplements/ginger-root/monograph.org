@@ -1,0 +1,51 @@
+* Ginger Root
+:PROPERTIES:
+:ID: supp-ginger-root
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: Zingiber officinale
+:CATEGORY: botanical
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Ginger root is rhizome of Zingiber officinale, used as food, powder, extracts and standardized gingerols/shogaols. [PMID:38261398]
+
+** Mechanisms
+- Proposed biological activity and the best-established physiological context are described above; clinical mechanisms remain uncertain where outcome evidence is limited. ["PMID:38261398"]
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | Certainty | Citations |
+|---|---|---|---|---|---|
+| Primary studied clinical/biomarker outcomes | Systematic review/meta-analysis or RCT synthesis | Meta-analysis of 27 RCTs (n=1,309) found small changes in weight (−1.52 kg) and BMI (−0.58 kg/m²), with low/very-low certainty | See narrative | low | PMID:38261398; PMID:41123858 |
+| Long-term clinical outcomes | Evidence insufficient or mixed | No established benefit | Not established | very low | PMID:38261398; PMID:41123858 |
+
+** Dosing in trials
+- Trials often used 1.2–2 g/day powder for 4–12 weeks; effective body-mass dose-response estimate ~2 g/day. [PMID:39053695] [PMID:38261398]
+
+** Safety & adverse effects
+- Heartburn, abdominal discomfort, diarrhea and mouth/throat irritation; supplement safety data in pregnancy less robust than food use. [PMID:39343171]
+
+** Contraindications
+- Caution with gallstone disease and bleeding-risk medicines; pregnancy evidence is specific to nausea and products/doses. [PMID:39343171]
+
+** Interactions
+- Possible additive antiplatelet effect; may lower glucose or blood pressure, so monitor when combined with corresponding drugs (interaction evidence limited). [PMID:41123858]
+
+** Genotype notes
+- No cited pharmacogenomic or nutrigenomic source was identified in the sources reviewed; no genotype-specific claim is made.
+
+** Latest research
+- 2025–2026 literature: 2025 dose-response meta-analysis of 29 RCTs evaluated oxidative and inflammatory biomarkers. [PMID:41123858]
+
+** Open questions
+- Whether findings translate into durable patient-important outcomes, optimal formulation/dose, and long-term safety remains uncertain. [PMID:38261398; PMID:41123858]
+
+** Sources
+- PMID:38261398
+- PMID:41123858
+- PMID:38261398
+- PMID:41123858
+- PMID:39053695
+- PMID:39343171

@@ -1,0 +1,50 @@
+* K2-MK4
+:PROPERTIES:
+:ID: supp-k2-mk4
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: menaquinone-4 | menatetrenone
+:CATEGORY: vitamin
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Vitamin K2 includes menaquinones; MK-4 (menatetrenone) is a short-chain form distinct from MK-7. Prescription high-dose menatetrenone has been used for osteoporosis in Japan. [PMID:30734066]
+
+** Mechanisms
+- Proposed biological activity and the best-established physiological context are described above; clinical mechanisms remain uncertain where outcome evidence is limited. ["PMID:30734066"]
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | Certainty | Citations |
+|---|---|---|---|---|---|
+| Primary studied clinical/biomarker outcomes | Systematic review/meta-analysis or RCT synthesis | MK-4 evidence for fracture prevention is mixed and geographically concentrated; recent reviews report possible bone-marker/BMD effects but uncertain fracture benefit | See narrative | low | PMID:30734066; PMID:16801507 |
+| Long-term clinical outcomes | Evidence insufficient or mixed | No established benefit | Not established | very low | PMID:30734066; PMID:16801507 |
+
+** Dosing in trials
+- Osteoporosis trials often used 45 mg/day menatetrenone, far above nutritional supplement doses; not interchangeable with low-dose products. [PMID:30734066]
+
+** Safety & adverse effects
+- Generally tolerated in trials; high-dose safety and long-term benefit evidence remain uncertain. [PMID:30734066]
+
+** Contraindications
+- Vitamin K antagonists are contraindicated with inconsistent vitamin K intake because anticoagulation can be reduced. [URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/]
+
+** Interactions
+- Warfarin: antagonizes anticoagulant effect; maintain consistent vitamin K intake and monitor INR. [URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/]
+
+** Genotype notes
+- No cited pharmacogenomic or nutrigenomic source was identified in the sources reviewed; no genotype-specific claim is made.
+
+** Latest research
+- 2025–2026 literature: 2024/2025 systematic reviews continue to assess vitamin K forms and bone outcomes, while high-quality fracture evidence remains limited. [PMID:16801507]
+
+** Open questions
+- Whether findings translate into durable patient-important outcomes, optimal formulation/dose, and long-term safety remains uncertain. [PMID:30734066; PMID:16801507]
+
+** Sources
+- PMID:30734066
+- PMID:16801507
+- PMID:30734066
+- PMID:16801507
+- URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/

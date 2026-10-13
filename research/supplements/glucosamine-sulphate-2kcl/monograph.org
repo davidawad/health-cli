@@ -1,0 +1,50 @@
+* Glucosamine Sulphate 2KCL
+:PROPERTIES:
+:ID: supp-glucosamine-sulphate-2kcl
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: glucosamine sulfate potassium chloride
+:CATEGORY: other
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Glucosamine sulfate 2KCl is a crystalline glucosamine sulfate formulation stabilized with potassium chloride; products and salt forms differ. [PMID:38581640]
+
+** Mechanisms
+- Proposed biological activity and the best-established physiological context are described above; clinical mechanisms remain uncertain where outcome evidence is limited. ["PMID:38581640"]
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | Certainty | Citations |
+|---|---|---|---|---|---|
+| Primary studied clinical/biomarker outcomes | Systematic review/meta-analysis or RCT synthesis | 2024 review of 25 RCTs found structural joint-space signal for glucosamine sulfate but not consistent symptom benefit; 2025 network review included heterogeneous SYSADOAs and concluded pooled pain/function benefit | See narrative | low | PMID:38581640; PMID:40425393 |
+| Long-term clinical outcomes | Evidence insufficient or mixed | No established benefit | Not established | very low | PMID:38581640; PMID:40425393 |
+
+** Dosing in trials
+- Common studied dose is 1,500 mg/day oral glucosamine sulfate, typically for months; formulations are not dose-equivalent by label mass. [PMID:38581640]
+
+** Safety & adverse effects
+- Usually mild GI effects; allergy concern with shellfish-derived products; safety review generally favorable. [PMID:38581640]
+
+** Contraindications
+- Caution in shellfish allergy depending on source and with diabetes due to glucose monitoring uncertainty. [PMID:38581640]
+
+** Interactions
+- Warfarin interaction reports indicate increased INR/bleeding; monitor INR. [URL:https://www.nccih.nih.gov/health/glucosamine-and-chondroitin-for-osteoarthritis]
+
+** Genotype notes
+- No cited pharmacogenomic or nutrigenomic source was identified in the sources reviewed; no genotype-specific claim is made.
+
+** Latest research
+- 2025–2026 literature: 2025 network meta-analysis searched through January 2025 and assessed supplement interventions for OA. [PMID:40425393]
+
+** Open questions
+- Whether findings translate into durable patient-important outcomes, optimal formulation/dose, and long-term safety remains uncertain. [PMID:38581640; PMID:40425393]
+
+** Sources
+- PMID:38581640
+- PMID:40425393
+- PMID:38581640
+- PMID:40425393
+- URL:https://www.nccih.nih.gov/health/glucosamine-and-chondroitin-for-osteoarthritis

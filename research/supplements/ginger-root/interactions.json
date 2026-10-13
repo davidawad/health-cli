@@ -1,0 +1,32 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Ginger Root",
+  "slug": "ginger-root",
+  "aliases": [
+    "Zingiber officinale"
+  ],
+  "category": "botanical",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "low",
+  "edges": [
+    {
+      "with": "anticoagulants",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Potential additive platelet inhibition and bleeding risk; clinical evidence is limited.",
+      "evidence": "Safety evidence from human reviews.",
+      "citations": [
+        "PMID:41123858"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:38261398",
+    "PMID:41123858",
+    "PMID:38261398",
+    "PMID:41123858",
+    "PMID:39053695",
+    "PMID:39343171"
+  ]
+}

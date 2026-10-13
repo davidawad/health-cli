@@ -3,7 +3,13 @@
   "supplement": "Glucosamine Sulphate 2KCL",
   "slug": "glucosamine-sulphate-2kcl",
   "aliases": [
-    "glucosamine sulfate potassium chloride"
+    "glucosamine sulfate potassium chloride",
+    "glucosamine sulphate 2KCl",
+    "GS-KCl",
+    "GSPC",
+    "glucosamine sulfate",
+    "D-glucosamine sulphate",
+    "regular glucosamine sulfate (rGS)"
   ],
   "category": "other",
   "rx_status": "otc",
@@ -13,19 +19,253 @@
       "with": "warfarin",
       "with_kind": "drug",
       "kind": "monitor",
-      "severity": "major",
-      "mechanism": "Case reports and safety references describe increased INR/bleeding with glucosamine; monitor INR.",
-      "evidence": "Official NCCIH interaction warning.",
+      "severity": "moderate",
+      "mechanism": "Raised INR, bleeding and bruising reported with glucosamine or glucosamine-chondroitin; most WHO cases resolved on withdrawal. Glucosamine did not inhibit CYP2C9/2C19 in volunteers, so the mechanism is unknown.",
+      "evidence": "Case report plus 20 FDA MedWatch and 21 WHO spontaneous reports; negative human CYP phenotyping study; low certainty",
       "citations": [
-        "URL:https://www.nccih.nih.gov/health/glucosamine-and-chondroitin-for-osteoarthritis"
+        "PMID:18363538",
+        "PMID:20668444"
+      ]
+    },
+    {
+      "with": "anticoagulants and antiplatelets",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Extrapolated from warfarin INR/bleeding reports; no data for DOACs or antiplatelets.",
+      "evidence": "Pharmacovigilance for warfarin only; very low certainty",
+      "citations": [
+        "PMID:18363538"
+      ]
+    },
+    {
+      "with": "ACE inhibitors / ARBs / potassium-sparing diuretics",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "2KCl-stabilized glucosamine sulfate delivers roughly 200-280 mg potassium per daily dose, usually unlabelled; additive potassium load with drugs that raise serum potassium.",
+      "evidence": "Product potassium assay and RCT showing serum K+ rise vs NaCl form; interaction itself unstudied; low certainty",
+      "citations": [
+        "PMID:20118652",
+        "PMID:20649060"
+      ]
+    },
+    {
+      "with": "antidiabetic drugs",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Hexosamine-pathway concern from animal data; human studies mostly show no glycemic change, and data in diabetes are limited.",
+      "evidence": "SR of 11 human studies, narrative review, 24-month T2DM cohort; low certainty",
+      "citations": [
+        "PMID:21251987",
+        "PMID:16569816",
+        "PMID:42732213"
+      ]
+    },
+    {
+      "with": "NSAIDs (ibuprofen, celecoxib)",
+      "with_kind": "drug-class",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Additive analgesia; GS plus celecoxib showed synergistic NF-kB inhibition in OA chondrocytes in vitro.",
+      "evidence": "NMA (glucosamine + ibuprofen pain SMD -2.27, moderate quality); in vitro study",
+      "citations": [
+        "PMID:39685902",
+        "PMID:34445685"
+      ]
+    },
+    {
+      "with": "Chondroitin Sulfate",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Common combination; complementary glycosaminoglycan substrates. Clinical added benefit is inconsistent (GAIT moderate-severe subgroup and LEGS JSN positive; Roman-Blas RCT negative).",
+      "evidence": "Large RCTs and MAs; low certainty",
+      "citations": [
+        "PMID:16495392",
+        "PMID:24395557",
+        "PMID:27477804",
+        "PMID:35024906",
+        "PMID:38581640"
+      ]
+    },
+    {
+      "with": "EPA/DHA/DPA",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Glucosamine plus omega-3 ranked highest for knee OA pain reduction in a network MA.",
+      "evidence": "NMA of 30 RCTs (SMD -2.59, moderate quality per CINeMA); few trials",
+      "citations": [
+        "PMID:39685902"
+      ]
+    },
+    {
+      "with": "potassium supplements",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Additive potassium from the KCl stabilizer.",
+      "evidence": "Product assay; inferred interaction; low certainty",
+      "citations": [
+        "PMID:20118652"
+      ]
+    },
+    {
+      "with": "hyperkalemia / chronic kidney disease / dialysis",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Potassium from KCl salt can be about 20% of a hemodialysis patient's daily potassium allowance; serum K+ rises versus NaCl form.",
+      "evidence": "Product assay and small RCT; low certainty",
+      "citations": [
+        "PMID:20118652",
+        "PMID:20649060"
+      ]
+    },
+    {
+      "with": "shellfish allergy / atopy",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Hypersensitivity reactions dominate spontaneous ADR reports; allergic reactions are the commonest post-marketing AE with non-pharmaceutical-grade products.",
+      "evidence": "Pharmacovigilance (263/366 ADRs hypersensitivity) and post-marketing SR; shellfish status of cases unknown; low certainty",
+      "citations": [
+        "PMID:31597786",
+        "PMID:40095377"
+      ]
+    },
+    {
+      "with": "glaucoma / ocular hypertension",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Possible rise in intraocular pressure (34% vs 12.5% with >=2 mmHg rise in one RCT, mainly older patients); FinnGen POAG HR 2.35.",
+      "evidence": "Two small conflicting RCTs plus biobank and pharmacovigilance data; low certainty",
+      "citations": [
+        "PMID:27768119",
+        "PMID:31104873",
+        "PMID:38031296"
+      ]
+    },
+    {
+      "with": "diabetes / insulin resistance",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Studies including insulin-resistant or glucose-intolerant subjects more often detected glycemic effects; long-term T2DM cohort showed no HbA1c change.",
+      "evidence": "SR and cohort; low certainty",
+      "citations": [
+        "PMID:21251987",
+        "PMID:42732213"
+      ]
+    },
+    {
+      "with": "Alzheimer's disease",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Brain hyperglycosylation as disease driver; oral glucosamine impaired cognition in AD mice and EHR use was associated with faster progression and worse survival.",
+      "evidence": "Animal plus retrospective EHR data; very low certainty",
+      "citations": [
+        "PMID:42265388"
+      ]
+    },
+    {
+      "with": "INR",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "True pharmacodynamic rise in INR in warfarin-treated patients, not assay interference.",
+      "evidence": "Pharmacovigilance and case report",
+      "citations": [
+        "PMID:18363538"
+      ]
+    },
+    {
+      "with": "serum potassium",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Small physiological rise with the KCl salt form (within normal range in healthy OA patients).",
+      "evidence": "RCT GS-KCl vs GS-NaCl (n=90)",
+      "citations": [
+        "PMID:20649060"
+      ]
+    },
+    {
+      "with": "fasting glucose / HbA1c",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Generally unchanged; check in insulin-resistant users.",
+      "evidence": "SR and 24-month cohort",
+      "citations": [
+        "PMID:21251987",
+        "PMID:42732213"
       ]
     }
   ],
   "citations": [
+    "PMID:11214126",
+    "PMID:12374520",
+    "PMID:12681956",
+    "PMID:15846645",
+    "PMID:15855241",
+    "PMID:16168682",
+    "PMID:16495392",
+    "PMID:16569816",
+    "PMID:17353133",
+    "PMID:17681803",
+    "PMID:18283204",
+    "PMID:18295513",
+    "PMID:18363538",
+    "PMID:18821708",
+    "PMID:20118652",
+    "PMID:20649060",
+    "PMID:20668444",
+    "PMID:20847017",
+    "PMID:21251987",
+    "PMID:24395557",
+    "PMID:24714520",
+    "PMID:25589511",
+    "PMID:27477804",
+    "PMID:27768119",
+    "PMID:28332780",
+    "PMID:28754801",
+    "PMID:31088786",
+    "PMID:31104873",
+    "PMID:31126594",
+    "PMID:31278997",
+    "PMID:31597786",
+    "PMID:31908149",
+    "PMID:31988063",
+    "PMID:32253185",
+    "PMID:33116279",
+    "PMID:33846938",
+    "PMID:34445685",
+    "PMID:35024906",
+    "PMID:36029480",
+    "PMID:36145069",
+    "PMID:38031296",
     "PMID:38581640",
-    "PMID:40425393",
-    "PMID:38581640",
-    "PMID:40425393",
-    "URL:https://www.nccih.nih.gov/health/glucosamine-and-chondroitin-for-osteoarthritis"
+    "PMID:38842441",
+    "PMID:39126538",
+    "PMID:39685902",
+    "PMID:40005447",
+    "PMID:40095377",
+    "PMID:40169583",
+    "PMID:40504933",
+    "PMID:40647198",
+    "PMID:40806074",
+    "PMID:40879960",
+    "PMID:41271412",
+    "PMID:41712318",
+    "PMID:42171606",
+    "PMID:42265388",
+    "PMID:42558409",
+    "PMID:42643227",
+    "PMID:42732213"
   ]
 }

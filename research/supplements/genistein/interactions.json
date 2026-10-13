@@ -3,7 +3,13 @@
   "supplement": "Genistein",
   "slug": "genistein",
   "aliases": [
-    "soy isoflavone"
+    "genistein aglycone",
+    "genistin (glucoside)",
+    "4',5,7-trihydroxyisoflavone",
+    "soy isoflavone",
+    "Bonistein",
+    "synthetic genistein",
+    "isoflavone phytoestrogen"
   ],
   "category": "botanical",
   "rx_status": "otc",
@@ -14,18 +20,289 @@
       "with_kind": "drug",
       "kind": "monitor",
       "severity": "moderate",
-      "mechanism": "Soy foods/isoflavones can impair levothyroxine absorption when co-administered; separate intake and monitor thyroid status.",
-      "evidence": "NIH ODS interaction guidance.",
+      "mechanism": "Soy protein supplements co-ingested with levothyroxine reduced its absorption in case reports. A crossover PK study of 60 mg isoflavones taken at the same time showed no change in Cmax/AUC.",
+      "evidence": "Case report, PK crossover (n=12), systematic and narrative reviews; low certainty",
       "citations": [
-        "URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/"
+        "PMID:11421567",
+        "PMID:26125285",
+        "PMID:33801406",
+        "PMID:37633413"
+      ]
+    },
+    {
+      "with": "subclinical hypothyroidism",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Thyroid peroxidase inhibition. 16 mg soy phytoestrogens raised progression to overt hypothyroidism (rate ratio 3.6), but a 66 mg dose did not.",
+      "evidence": "Two crossover RCTs with conflicting results; low certainty",
+      "citations": [
+        "PMID:21325465",
+        "PMID:30254609",
+        "PMID:12060828"
+      ]
+    },
+    {
+      "with": "iodine deficiency",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Iodine deficiency greatly increases soy isoflavones' antithyroid (TPO-inhibiting) effect.",
+      "evidence": "Animal and human review evidence; low certainty",
+      "citations": [
+        "PMID:12060828"
+      ]
+    },
+    {
+      "with": "Iodine (potassium iodide)",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Iodine sufficiency protects against the goitrogenic effect of soy isoflavones.",
+      "evidence": "Review of animal and human data; low certainty",
+      "citations": [
+        "PMID:12060828"
+      ]
+    },
+    {
+      "with": "TSH",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "True physiological change, not an assay artifact: soy raises TSH slightly (+0.248 mIU/L) without changing fT3/fT4. Genistein 54 mg/d for 3 years had no effect.",
+      "evidence": "MA of 18 RCTs; 3-year RCT; moderate certainty",
+      "citations": [
+        "PMID:30850697",
+        "PMID:20357174",
+        "PMID:40604928"
+      ]
+    },
+    {
+      "with": "tamoxifen",
+      "with_kind": "drug",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Genistein, an ER agonist, cancelled tamoxifen's inhibition of ER+ MCF-7 tumor growth in mice. S-equol did not change tamoxifen PK in humans.",
+      "evidence": "Mouse xenograft studies; human PK with equol only; no clinical outcome data; very low certainty",
+      "citations": [
+        "PMID:22266527",
+        "PMID:41359041",
+        "PMID:41514586"
+      ]
+    },
+    {
+      "with": "aromatase inhibitors",
+      "with_kind": "drug-class",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Dietary genistein reversed letrozole's inhibition of aromatase-expressing tumor growth in mice in a dose-dependent way. S-equol did not change anastrozole/letrozole/exemestane PK.",
+      "evidence": "Mouse xenograft; human PK with equol only; narrative review; very low certainty",
+      "citations": [
+        "PMID:18632754",
+        "PMID:41359041",
+        "PMID:41514586"
+      ]
+    },
+    {
+      "with": "estrogen receptor-positive breast cancer",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Weak estrogenic/ER-beta agonist activity. Animal MA showed mixed tumor effects. Cohorts of dietary soy show lower recurrence (HR 0.74), but supplement safety in survivors is not established.",
+      "evidence": "Animal MA, observational MAs, regulator-linked review; low certainty",
+      "citations": [
+        "PMID:39480044",
+        "PMID:38070485",
+        "PMID:30382332",
+        "PMID:40871649",
+        "PMID:28168353"
+      ]
+    },
+    {
+      "with": "long-term high-dose use with intact uterus",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Soy isoflavone tablets at 150 mg/d for 5 years raised endometrial hyperplasia (3.37% vs 0%). Pure genistein at 54 mg/d did not change endometrial thickness up to 3 years.",
+      "evidence": "Single 5-year RCT plus MA of estrogenicity (no ET effect); low certainty",
+      "citations": [
+        "PMID:15237003",
+        "PMID:39433088",
+        "PMID:18796517"
+      ]
+    },
+    {
+      "with": "warfarin",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Subtherapeutic INR with soy milk in one case (possible-probable causality). The proposed mechanism is altered transport/metabolism. Genistein did not activate haemostatic markers.",
+      "evidence": "Single case report involving soy food, not genistein; very low certainty",
+      "citations": [
+        "PMID:12452752",
+        "PMID:18410952"
+      ]
+    },
+    {
+      "with": "CYP3A4/CYP2C9 substrates",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Genistein noncompetitively inhibits CYP3A4 and CYP2C9 only at micromolar levels above usual plasma levels. A red clover isoflavone supplement did not change CYP1A2/2C9/2D6/3A4 probe PK. Soy may induce CYP3A via PXR in models.",
+      "evidence": "In vitro and human probe-drug study; interaction unlikely to be clinically relevant",
+      "citations": [
+        "PMID:27312150",
+        "PMID:33197178",
+        "PMID:27440109"
+      ]
+    },
+    {
+      "with": "antidiabetic agents",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Genistein lowers fasting glucose (-4 to -6 mg/dL) and HOMA-IR, which may add to glucose-lowering drugs.",
+      "evidence": "MAs of RCTs; low certainty",
+      "citations": [
+        "PMID:28159061",
+        "PMID:40134817",
+        "PMID:23824420"
+      ]
+    },
+    {
+      "with": "antihypertensives",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Genistein lowered SBP by 8.32 mmHg in an MA and lowered BP in metabolic syndrome, so it may add to antihypertensive drugs.",
+      "evidence": "MA of 21 RCTs with high heterogeneity; low certainty",
+      "citations": [
+        "PMID:40134817",
+        "PMID:23824420"
+      ]
+    },
+    {
+      "with": "Vitamin D-3",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Hypothesized CYP24 inhibition raising vitamin D was not confirmed: genistein 90 mg/d added nothing to calcium plus D3 for 25(OH)D, PTH or bone markers. D3 plus calcium was background therapy in the genistein bone trials.",
+      "evidence": "RCT (n=150) and bone RCT co-intervention; no interaction",
+      "citations": [
+        "PMID:36919425",
+        "PMID:17577003"
+      ]
+    },
+    {
+      "with": "red clover / other isoflavone supplements",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Isoflavone exposure adds up across soy, red clover and combination products. BfR notes that EFSA's safety conclusions do not cover all supplement use.",
+      "evidence": "Regulatory review, combination-product RCT, PK study; very low certainty",
+      "citations": [
+        "PMID:28168353",
+        "PMID:40131516",
+        "PMID:33197178"
+      ]
+    },
+    {
+      "with": "equol-producer phenotype",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "A gut-microbial metabotype (1/3 to 1/2 of people) that modifies adipose gene-expression responses to high-genistein isoflavone supplements.",
+      "evidence": "Crossover RCT with transcriptomics plus review; exploratory",
+      "citations": [
+        "PMID:25332325",
+        "PMID:31527435"
+      ]
+    },
+    {
+      "with": "ESR2 (ER-beta cx Tsp509I) genotype",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "HDL-cholesterol response to isoflavones (genistein:daidzein 2:1) differed by ER-beta-cx genotype (AA only).",
+      "evidence": "Single crossover RCT subgroup analysis; exploratory",
+      "citations": [
+        "PMID:16522905"
+      ]
+    },
+    {
+      "with": "bone turnover markers",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Genistein lowers resorption markers (CTX, pyridinolines) and raises bone ALP/osteocalcin. These are true changes that affect interpretation of markers during osteoporosis care.",
+      "evidence": "RCTs and MA of 73 RCTs; moderate certainty",
+      "citations": [
+        "PMID:18796517",
+        "PMID:39708251",
+        "PMID:12369794"
       ]
     }
   ],
   "citations": [
-    "PMID:40134817",
+    "PMID:11279159",
+    "PMID:11421567",
+    "PMID:12060828",
+    "PMID:12369794",
+    "PMID:12452752",
+    "PMID:12727580",
+    "PMID:15237003",
+    "PMID:15243277",
+    "PMID:15943224",
+    "PMID:16522905",
+    "PMID:17577003",
+    "PMID:18410952",
+    "PMID:18632754",
+    "PMID:18796517",
+    "PMID:19034051",
+    "PMID:20357174",
+    "PMID:21325465",
+    "PMID:22266527",
+    "PMID:22433977",
+    "PMID:22648714",
+    "PMID:23824420",
+    "PMID:23899172",
+    "PMID:24323914",
+    "PMID:25332325",
+    "PMID:26125285",
+    "PMID:27312150",
+    "PMID:27327802",
+    "PMID:27440109",
+    "PMID:28159061",
+    "PMID:28168353",
+    "PMID:28647291",
+    "PMID:30254609",
+    "PMID:30382332",
+    "PMID:30850697",
+    "PMID:31527435",
+    "PMID:33197178",
+    "PMID:33801406",
+    "PMID:34047372",
+    "PMID:36329553",
+    "PMID:36513449",
+    "PMID:36919425",
+    "PMID:37167726",
+    "PMID:37252752",
+    "PMID:37633413",
+    "PMID:37875614",
+    "PMID:38070485",
+    "PMID:38825560",
     "PMID:39433088",
+    "PMID:39480044",
+    "PMID:39708251",
+    "PMID:40131516",
     "PMID:40134817",
-    "PMID:39433088",
-    "URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/"
+    "PMID:40157603",
+    "PMID:40604928",
+    "PMID:40663878",
+    "PMID:40718787",
+    "PMID:40871649",
+    "PMID:41359041",
+    "PMID:41483829",
+    "PMID:41514586"
   ]
 }

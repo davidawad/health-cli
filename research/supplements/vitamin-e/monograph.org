@@ -3,48 +3,205 @@
 :ID: supp-vitamin-e
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: alpha-tocopherol
+:ALIASES: alpha-tocopherol | d-alpha-tocopherol | RRR-alpha-tocopherol | dl-alpha-tocopherol | all-rac-alpha-tocopheryl acetate | mixed tocopherols | tocotrienols | tocotrienol-rich fraction (TRF)
 :CATEGORY: vitamin
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Vitamin E denotes eight fat-soluble tocopherol/tocotrienol compounds; alpha-tocopherol is the form maintained in human plasma. Supplements use natural RRR- or synthetic all-rac-alpha-tocopherol. [URL:https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/]
+- "Vitamin E" covers eight fat-soluble compounds: four tocopherols and four tocotrienols (alpha, beta, gamma, delta) [PMID:34785321] [PMID:25225959].
+- Only alpha-tocopherol meets the human requirement. The hepatic alpha-tocopherol transfer protein (alpha-TTP, gene TTPA) selects it and secretes it into lipoproteins. Non-alpha forms are preferentially broken down [PMID:34699937] [PMID:34563650].
+- Natural vs synthetic:
+  - Natural-source vitamin E is RRR-alpha-tocopherol ("d-alpha"). Synthetic all-rac-alpha-tocopherol ("dl-alpha") is an equal mix of 8 stereoisomers.
+  - In a deuterium-labelled head-to-head study, natural vitamin E had roughly twice the availability of synthetic vitamin E. The plasma RRR:all-rac ratio was about 2:1, higher than the officially accepted 1.36:1 [PMID:9537614].
+  - Trials used different forms. SELECT used all-rac-alpha-tocopheryl acetate [PMID:21990298]. HOPE and the Women's Health Study used natural-source vitamin E [PMID:10639540] [PMID:15998891].
+- Mixed tocopherols and tocotrienols: supplements may add gamma-/delta-tocopherol or a palm-derived tocotrienol-rich fraction (TRF). Gamma- and delta-tocopherol and the tocotrienols are metabolized more extensively than alpha-tocopherol [PMID:34785321].
+- Reference intakes (US IOM 2000):
+  - RDA 15 mg/day alpha-tocopherol for adult men and women. The RDA counts only the 2R-stereoisomeric forms (RRR, and the RSR, RRS and RSS isomers in synthetic products). Other tocopherols and the tocotrienols do not count.
+  - UL 1,000 mg/day of any form of supplemental alpha-tocopherol, based on an increased tendency to hemorrhage [URL:https://www.nationalacademies.org/read/9810/chapter/8].
+- Deficiency is rare. It is mainly seen in fat malabsorption and in familial ataxia with vitamin E deficiency (AVED), which is caused by TTPA mutations [PMID:34563650] [PMID:34699937].
 
 ** Mechanisms
-- Proposed biological activity and the best-established physiological context are described above; clinical mechanisms remain uncertain where outcome evidence is limited. ["URL:https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/"]
+- Chain-breaking lipid-soluble antioxidant in membranes and lipoproteins [PMID:34699937].
+- Platelet inhibition: oral alpha-tocopherol at 400-1200 IU/d raised platelet alpha-tocopherol content. This correlated with inhibition of PMA-induced aggregation through protein kinase C, an effect not reproduced by another lipophilic antioxidant (BHT) [PMID:8921785].
+- Vitamin K antagonism: 1000 IU/d RRR-alpha-tocopherol for 12 weeks raised PIVKA-II (under-carboxylated prothrombin), a marker of poor vitamin K status, in adults not taking anticoagulants [PMID:15213041]. Proposed bleeding mechanisms combine this effect with platelet inhibition [PMID:25225959].
+- Catabolism: CYP4F2 omega-hydroxylation starts vitamin E breakdown to carboxychromanols and CEHC. The long-chain metabolites (13'-COOH) inhibit COX-1/-2 and 5-lipoxygenase in experimental models [PMID:34785321] [PMID:20861217].
+- Pharmacogenomic hypothesis: haptoglobin 2-2 protein binds free hemoglobin poorly, which increases oxidative stress. This is the proposed basis for a vitamin E benefit restricted to diabetic Hp 2-2 carriers [PMID:22939808] [PMID:39474248].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | Certainty | Citations |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
 |---|---|---|---|---|---|
-| Primary studied clinical/biomarker outcomes | Systematic review/meta-analysis or RCT synthesis | Randomized-trial meta-analysis in 142,219 generally healthy participants found no mortality effect (RR 1.01, 95% CI 0.97–1.05) at 23–800 IU/day | See narrative | low | URL:https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/; PMID:25398301 |
-| Long-term clinical outcomes | Evidence insufficient or mixed | No established benefit | Not established | very low | URL:https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/; PMID:25398301 |
+| All-cause mortality | USPSTF SR (9 RCTs, n=107,772); Cochrane antioxidant MA; dose-response MAs | Null to slight harm at high dose | USPSTF OR 1.02 (0.97-1.07); Cochrane low-bias trials RR 1.03 (1.00-1.05); Miller: +39/10,000 at >=400 IU/d; Abner (57 RCTs) RR 1.00 (0.98-1.02) | moderate | [PMID:35727272] [PMID:22419320] [PMID:15537682] [PMID:21235492] |
+| Major cardiovascular events | HOPE, WHS, PHS II, USPSTF | Null | HOPE RR 1.05 (0.95-1.16); WHS RR 0.93 (0.82-1.05) but CV death RR 0.76 (0.59-0.98); PHS II HR 1.01 (0.90-1.13); USPSTF OR 0.96 (0.90-1.04) | high | [PMID:10639540] [PMID:15998891] [PMID:18997197] [PMID:35727272] |
+| Heart failure | HOPE-TOO (7-y median); WHS primary prevention | Harm in high-risk patients; null in healthy women | HOPE HF RR 1.13 (1.01-1.26), HF hospitalization RR 1.21 (1.00-1.47); WHS HR 0.93 (0.71-1.21) | moderate | [PMID:15769967] [PMID:22438520] |
+| Hemorrhagic stroke | MA of 9 RCTs (n=118,765); PHS II; ATBC; 2024 MA | Increase | RR 1.22 (1.00-1.48), 1 extra per 1250 treated; PHS II HR 1.74 (1.04-2.91) | moderate | [PMID:21051774] [PMID:18997197] [PMID:8127329] [PMID:37698992] |
+| Ischemic stroke | Same MA; 2024 MA (16 RCTs) | Small decrease (only with co-antioxidants in 2024 MA) | RR 0.90 (0.82-0.99); E alone null, E+antioxidants RR 0.91 (0.84-0.99) | low | [PMID:21051774] [PMID:37698992] |
+| Prostate cancer | SELECT (n=35,533, 400 IU/d all-rac) | Increase | HR 1.17 (99% CI 1.004-1.36), +1.6 cases/1000 person-years; +63% in men with low baseline selenium | moderate | [PMID:21990298] [PMID:19066370] [PMID:24563519] |
+| Total cancer incidence | HOPE-TOO, WHS, USPSTF | Null | HOPE RR 0.94 (0.84-1.06); WHS RR 1.01 (0.94-1.08); USPSTF OR 1.02 (0.98-1.08) | high | [PMID:15769967] [PMID:15998891] [PMID:35727272] |
+| MASH histology (adults, non-diabetic) | PIVENS (800 IU/d); 2024-2025 MAs; 300 mg/d RCT | Benefit on steatohepatitis, not fibrosis (fibrosis signal inconsistent) | PIVENS 43% vs 19% improved; MASH resolution RR 1.9 (1.20-3.02); fibrosis MD -0.23 (-0.51 to 0.05); 300 mg RCT 29.3% vs 14.1% | moderate | [PMID:20427778] [PMID:39150005] [PMID:40895855] [PMID:39970876] |
+| MASLD liver enzymes / clinical outcomes | Cochrane 2024 (16 RCTs, n=1066); pediatric MA; cohort | ALT/AST lower; hard outcomes unknown | ALT MD -9.29 U/L (moderate); mortality RR 3.45 (0.57-20.86, very low); cohort death/transplant aHR 0.30 (observational) | low | [PMID:39412049] [PMID:41199412] [PMID:30506586] |
+| Pediatric NAFLD | TONIC (800 IU/d, n=173) | Primary null; secondary benefit | Sustained ALT response 26% vs 17% (P=.26); NASH resolution 58% vs 28% | low | [PMID:21521847] |
+| Alzheimer's functional decline | TEAM-AD (2000 IU/d, n=613); Cochrane | Slower functional decline; no cognitive benefit | ADCS-ADL 3.15 points less decline (~6.2 months delay); ADAS-Cog MD -1.81 (-3.75 to 0.13) | moderate | [PMID:24381967] [PMID:28418065] [PMID:9110909] |
+| MCI to AD progression | ADCS trial (n=769) | Null | HR 1.02 (0.74-1.41) | moderate | [PMID:15829527] [PMID:28418065] |
+| AMD progression (as part of AREDS formula) | AREDS; Cochrane 2023 | Benefit of combination; E alone not shown | Antioxidants+zinc OR 0.72 (99% CI 0.52-0.98); E alone RR 1.36 (0.31-6.05, very low) | moderate | [PMID:11594942] [PMID:37702300] |
+| Pre-eclampsia / pregnancy outcomes | Cochrane (21 trials, n=22,129; mostly with vitamin C) | Null; term PROM increased | Pre-eclampsia RR 0.91 (0.79-1.06); abruption RR 0.64 (0.44-0.93); term PROM RR 1.77 (1.37-2.28) | moderate | [PMID:26343254] |
+| Chemotherapy-induced neuropathy | MA of 8 RCTs (n=488) | Benefit, small trials | CIPN RR 0.31 (0.14-0.65); cisplatin RR 0.28 | low | [PMID:34148036] |
+| Diabetic neuropathy (tocotrienol-rich) | MA of 5 RCTs (n=660) | Small NCV gain | Sural NCV +1.77 m/s (0.80-2.74); HbA1c unchanged | low | [PMID:41528693] |
+| Glycemia / lipids (tocotrienols) | MAs of RCTs | Small HbA1c fall; HDL rise only | TRF HbA1c -0.23% (-0.44 to -0.02); HDL-C +0.146 mmol/L, LDL-C null | low | [PMID:37321474] [PMID:32951713] |
+| CV events in diabetic Hp 2-2 carriers | MAs of trial subgroups | Benefit only in Hp 2-2 | OR 0.66 (0.48-0.90); OR 0.66 (0.45-0.95) | low | [PMID:22939808] [PMID:29731659] |
 
 ** Dosing in trials
-- Trials span 23–800 IU/day, commonly 400 IU/day; take with food containing fat for absorption. [URL:https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/]
+- Cardiovascular/cancer prevention: 400 IU/d natural source (HOPE, 4.5-7 y) [PMID:10639540] [PMID:15769967]; 600 IU natural source on alternate days (WHS, 10.1 y) [PMID:15998891]; 400 IU every other day (PHS II, 8 y) [PMID:18997197]; 50 mg/d (ATBC) [PMID:8127329].
+- SELECT: 400 IU/d all-rac-alpha-tocopheryl acetate, planned for 7-12 years [PMID:19066370].
+- MASH: 800 IU/d for 96 weeks (PIVENS, TONIC) [PMID:20427778] [PMID:21521847]; 300 mg/d in a Chinese RCT [PMID:39970876]. Cochrane-included trials used 298-1000 IU/d for up to 24 months [PMID:39412049]. A cohort used 800 IU/d for >=2 years [PMID:30506586].
+- Alzheimer's disease: 2000 IU/d (TEAM-AD, Sano trial) [PMID:24381967] [PMID:9110909]. MCI: 2000 IU/d for 3 years [PMID:15829527].
+- AREDS: 400 IU/d with vitamin C 500 mg, beta-carotene 15 mg, and zinc 80 mg with copper 2 mg [PMID:11594942].
+- Chemotherapy neuropathy: 600 mg/d [PMID:34148036]. Tocotrienols: TRF 250-400 mg/d for type 2 diabetes [PMID:37321474]; >=200 mg/d for HDL effects [PMID:32951713].
+- Dose-response: Miller's MA linked doses above 150 IU/d with higher mortality [PMID:15537682]. Abner's MA found no dose relationship up to 5,500 IU/d [PMID:21235492].
 
 ** Safety & adverse effects
-- High supplemental doses may cause hemorrhagic stroke/bleeding; adult supplemental UL 1,000 mg/day. [URL:https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/]
+- Bleeding is the defining toxicity and is the basis of the UL [URL:https://www.nationalacademies.org/read/9810/chapter/8].
+  - Hemorrhagic stroke risk rises by 22% in RCT MAs [PMID:21051774], with HR 1.74 in PHS II [PMID:18997197] and excess hemorrhagic-stroke deaths in ATBC [PMID:8127329]. USPSTF lists hemorrhagic stroke as a possible serious harm [PMID:35727272].
+  - Gingival bleeding was highest with alpha-tocopherol plus aspirin: 33.4% vs 25.8% of probed sites (ATBC substudy) [PMID:9920356].
+  - Occult GI bleeding during MASLD treatment: in a prospective series on 200-800 IU/d, iron deficiency developed in 11 of 20 patients (55%) after a median 11 weeks and anemia in 6. A GI bleeding source was found in 75% of fully investigated patients, and diabetes increased the risk [PMID:39960325].
+  - Coagulopathy: a 2025 case had prolonged INR and APTT after vitamin E overdose in a patient with prior biliopancreatic diversion. It reversed after stopping vitamin E and giving vitamin K [PMID:40499949].
+- Heart failure: risk rose in high-risk patients (HOPE-TOO) [PMID:15769967]. No rise was seen in healthy women (WHS) [PMID:22438520].
+- Prostate cancer: 17% relative increase in SELECT [PMID:21990298].
+- Mortality: the Cochrane review judged vitamin E to increase mortality in low-bias trials (RR 1.03) [PMID:22419320]. Other pooled analyses found no effect [PMID:21235492] [PMID:35727272]. USPSTF recommends against vitamin E for CVD or cancer prevention (grade D) [PMID:35727271].
+- Pregnancy: combined antioxidant regimens raised term prelabour rupture of membranes and self-reported abdominal pain [PMID:26343254].
+- Inhalation: vitamin E acetate was found in BAL fluid of 48 of 51 (94%) EVALI patients, mostly linked to THC vaping products, and in no healthy comparators [PMID:31860793]. This is a non-oral hazard.
+- Short-term trials at 800-2000 IU/d reported no excess of serious adverse events [PMID:20427778] [PMID:24381967] [PMID:28418065].
 
 ** Contraindications
-- Hemorrhagic disorders and perioperative use warrant caution because of anticoagulant effects. [URL:https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/]
+- History of hemorrhagic stroke or intracranial bleeding, and active bleeding: high-dose vitamin E raises hemorrhagic stroke risk [PMID:21051774] [PMID:18997197].
+- Bleeding disorders, vitamin K deficiency, and fat malabsorption or bariatric diversion (impaired vitamin K): vitamin E can unmask coagulopathy [PMID:40499949] [PMID:15213041].
+- Heart failure or high-risk vascular disease/diabetes: HOPE-TOO heart-failure signal [PMID:15769967].
+- Men at risk of prostate cancer: high-dose supplementation should be avoided, especially with low selenium status [PMID:21990298] [PMID:24563519].
+- Inhalation of vitamin E acetate (vaping products) [PMID:31860793].
 
 ** Interactions
-- Warfarin/antiplatelet drugs: increased bleeding potential; low vitamin K intake may amplify. Antioxidant combinations may blunt statin+niacin HDL response. No routine assay interference established. [URL:https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/]
+*** Drugs
+- Warfarin and other vitamin K antagonists: evidence is mixed.
+  - A small RCT (n=21) found no INR change [PMID:8629604].
+  - High-dose vitamin E antagonizes vitamin K (PIVKA-II rise) [PMID:15213041], and reviews list warfarin among plausible interactions at >=300 mg/d [PMID:25225959] [PMID:40065887].
+  - Check INR when starting or stopping high doses.
+- Aspirin and antiplatelet agents: additive bleeding. Gingival bleeding was highest with alpha-tocopherol plus aspirin [PMID:9920356], and alpha-tocopherol inhibits platelet aggregation [PMID:8921785].
+- Simvastatin plus niacin (HATS):
+  - An antioxidant cocktail of vitamins E and C, beta-carotene and selenium blunted the HDL2 rise (42% vs 0%) and weakened the angiographic benefit [PMID:11757504] [PMID:11498460].
+  - However, 1200 IU/d RRR-alpha-tocopherol alone for 2 years did not change HDL subfractions in statin-treated patients with CAD [PMID:17234730]. The interaction is therefore attributed to the cocktail, not clearly to vitamin E.
+- Cyclosporine, tamoxifen: high-dose vitamin E may alter their activity. This comes from a mechanistic and clinical review; data are limited [PMID:25225959].
+- Orlistat: reduced acute alpha-tocopherol absorption in adolescents, though serum levels were maintained with a multivitamin [PMID:12126214].
+*** Other supplements
+- Selenium: in SELECT the combination did not raise prostate cancer risk significantly (HR 1.05) [PMID:21990298]. Vitamin E alone raised risk mainly in men with low selenium status [PMID:24563519].
+- Vitamin C and other antioxidants:
+  - The E plus antioxidant combinations were the ones linked to hemorrhagic stroke in a 2024 MA [PMID:37698992].
+  - The antioxidant cocktail blunted simvastatin-niacin HDL effects [PMID:11498460].
+  - E plus C in pregnancy raised term PROM [PMID:26343254].
+- K1: high-dose vitamin E antagonizes vitamin K [PMID:15213041], and vitamin K reversed vitamin E-associated coagulopathy [PMID:40499949].
+- Zinc (AREDS formula): combined antioxidants plus zinc slowed AMD progression, which was not shown for vitamin E alone [PMID:11594942] [PMID:37702300].
+- Other bleeding-prone supplements (e.g. fish oil, garlic, ginkgo): no retrieved clinical interaction study. Stacking is a theoretical concern from vitamin E's platelet and vitamin K effects [PMID:25225959].
+*** Conditions
+- Hemorrhagic stroke history, bleeding disorders, malabsorption, heart failure, prostate cancer risk: see Contraindications.
+- MASLD/MASH treated with vitamin E: monitor ferritin and hemoglobin in the first months, especially with diabetes [PMID:39960325].
+- Type 2 diabetes with Hp 2-2 genotype: possible CV benefit (see Genotype notes) [PMID:29731659].
+*** Lab-test interference
+- No analytic assay artifact was found. True physiological effects include a raised PIVKA-II [PMID:15213041] and, with excess intake or low vitamin K, prolonged PT/INR and APTT [PMID:40499949].
+- Ferritin, MCV and hemoglobin may fall from occult GI blood loss [PMID:39960325]. Serum ALT/AST fall in MASLD [PMID:39412049].
 
 ** Genotype notes
-- No cited pharmacogenomic or nutrigenomic source was identified in the sources reviewed; no genotype-specific claim is made.
+- Haptoglobin (HP) 1/2 polymorphism:
+  - In diabetic Hp 2-2 carriers, vitamin E was associated with fewer CV events in MAs of trial subgroups (OR 0.66, 0.48-0.90; and OR 0.66, 0.45-0.95). No benefit was seen in other Hp types [PMID:22939808] [PMID:29731659].
+  - A 2024 SR (5 RCTs) found no HDL-level change but improved HDL function only in Hp 2-2 diabetes [PMID:39474248].
+  - In the LURIC cohort, plasma gamma-tocopherol interacted with HP genotype for mortality in diabetes (P interaction 0.021) [PMID:39882297].
+  - These data are post hoc or observational and have not been tested in a prospective genotype-stratified trial.
+- CYP4F2:
+  - In vitro, W12G raised and V433M (rs2108622) lowered tocopherol omega-hydroxylase activity [PMID:20861217].
+  - In ATBC, rs2108622 and two other vitamin E-related SNPs did not modify the serum alpha-tocopherol-prostate cancer association [PMID:35197557].
+- TTPA mutations cause AVED, a monogenic deficiency state [PMID:34563650].
 
 ** Latest research
-- 2025–2026 literature: 2025 NHANES cohort reported dietary intake associations with CVD; observational findings do not establish benefit from supplements. [PMID:39790118]
+- [2026-01] Diabetic neuropathy MA (5 RCTs, n=660): tocotrienol-rich vitamin E raised sural NCV by 1.77 m/s, with no change in amplitude or HbA1c [PMID:41528693].
+- [2025-11] Pediatric MASLD MA (11 RCTs, n=665): ALT -5.23 U/L, AST -3.00 U/L, HOMA-IR -0.82 [PMID:41199412].
+- [2025-11] NHANES/UK Biobank cohorts: highest tertile of dietary vitamin E intake had lower all-cause mortality (HR 0.68 NHANES; 0.93 UK Biobank). The relationship was non-linear, and these are dietary, observational data [PMID:41706672].
+- [2025-07] MASH MA (3 RCTs): ALT MD -12.27 U/L; fibrosis improvement OR 1.96 (1.25-3.09); MASH resolution not significant (OR 1.71) [PMID:40895855].
+- [2025-06] Case report: reversible coagulopathy (raised INR/APTT) from vitamin E excess after bariatric diversion [PMID:40499949].
+- [2025-02] Multicentre Chinese RCT (n=124, non-diabetic MASH): 300 mg/d improved histology (29.3% vs 14.1%), including fibrosis stage [PMID:39970876].
+- [2025-02] Prospective MASLD series: 55% developed iron deficiency on vitamin E, with a GI bleeding source in 75% of those fully investigated [PMID:39960325].
+- [2025-02] Narrative review of high-dose supplementation risks: bleeding with warfarin/aspirin, hemorrhagic stroke, mortality [PMID:40065887].
+- [2024-12] Adult MASLD MA (7 RCTs): MASH resolution RR 1.9; no fibrosis effect (MD -0.23) [PMID:39150005].
+- [2024-10] Cochrane NAFLD review (16 RCTs, n=1066): ALT -9.29 U/L (moderate certainty); mortality and liver outcomes very uncertain or unreported [PMID:39412049].
+- [2024-10] SR of Hp genotype-stratified RCTs: vitamin E improved HDL function only in Hp 2-2 diabetes [PMID:39474248].
+- [2024-10] LURIC cohort: HP genotype x gamma-tocopherol interaction for mortality in diabetes [PMID:39882297].
 
 ** Open questions
-- Whether findings translate into durable patient-important outcomes, optimal formulation/dose, and long-term safety remains uncertain. [URL:https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/; PMID:25398301]
+- Whether the MASH histology benefit translates into fewer liver events or deaths. The only outcome data are observational [PMID:30506586] [PMID:39412049]. The 2024 EASL-EASD-EASO guideline does not list vitamin E among recommended MASH-targeted drugs [PMID:38851997].
+- Whether lower doses (300 mg/d) keep the efficacy while reducing bleeding and prostate risk [PMID:39970876].
+- Whether natural RRR vs synthetic all-rac forms, or mixed tocopherols, change harm signals. SELECT used all-rac acetate, while HOPE used a natural source [PMID:9537614] [PMID:21990298].
+- Prospective genotype-guided (Hp 2-2) trials [PMID:29731659].
+- Whether the TEAM-AD functional benefit replicates. Cochrane evidence rests on single trials [PMID:28418065].
+- The clinical significance of the warfarin interaction at common supplement doses [PMID:8629604] [PMID:15213041].
+- Tocotrienol efficacy beyond small, short, often industry-linked trials [PMID:37321474] [PMID:41528693].
 
 ** Sources
-- URL:https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/
-- PMID:25398301
-- URL:https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/
-- PMID:25398301
-- PMID:39790118
+1. Klein EA et al. Vitamin E and the risk of prostate cancer: the Selenium and Vitamin E Cancer Prevention Trial (SELECT). JAMA. 2011. PMID:21990298 DOI:10.1001/jama.2011.1437
+2. Lippman SM et al. Effect of selenium and vitamin E on risk of prostate cancer and other cancers: SELECT. JAMA. 2009. PMID:19066370 DOI:10.1001/jama.2008.864
+3. Kristal AR et al. Baseline selenium status and effects of selenium and vitamin E supplementation on prostate cancer risk. J Natl Cancer Inst. 2014. PMID:24563519 DOI:10.1093/jnci/djt456
+4. HOPE Study Investigators (Yusuf S et al.). Vitamin E supplementation and cardiovascular events in high-risk patients. N Engl J Med. 2000. PMID:10639540 DOI:10.1056/NEJM200001203420302
+5. Lonn E et al. Effects of long-term vitamin E supplementation on cardiovascular events and cancer: a randomized controlled trial (HOPE-TOO). JAMA. 2005. PMID:15769967 DOI:10.1001/jama.293.11.1338
+6. Sesso HD et al. Vitamins E and C in the prevention of cardiovascular disease in men: the Physicians' Health Study II. JAMA. 2008. PMID:18997197 DOI:10.1001/jama.2008.600
+7. Lee IM et al. Vitamin E in the primary prevention of cardiovascular disease and cancer: the Women's Health Study. JAMA. 2005. PMID:15998891 DOI:10.1001/jama.294.1.56
+8. Chae CU et al. Vitamin E supplementation and the risk of heart failure in women. Circ Heart Fail. 2012. PMID:22438520 DOI:10.1161/CIRCHEARTFAILURE.111.963793
+9. ATBC Cancer Prevention Study Group. The effect of vitamin E and beta carotene on the incidence of lung cancer and other cancers in male smokers. N Engl J Med. 1994. PMID:8127329 DOI:10.1056/NEJM199404143301501
+10. O'Connor EA et al. Vitamin and Mineral Supplements for the Primary Prevention of Cardiovascular Disease and Cancer: Updated Evidence Report and Systematic Review for the USPSTF. JAMA. 2022. PMID:35727272 DOI:10.1001/jama.2021.15650
+11. US Preventive Services Task Force (Mangione CM et al.). Vitamin, Mineral, and Multivitamin Supplementation to Prevent Cardiovascular Disease and Cancer: Recommendation Statement. JAMA. 2022. PMID:35727271 DOI:10.1001/jama.2022.8970
+12. Miller ER 3rd et al. Meta-analysis: high-dosage vitamin E supplementation may increase all-cause mortality. Ann Intern Med. 2005. PMID:15537682 DOI:10.7326/0003-4819-142-1-200501040-00110
+13. Bjelakovic G et al. Antioxidant supplements for prevention of mortality in healthy participants and patients with various diseases. Cochrane Database Syst Rev. 2012. PMID:22419320 DOI:10.1002/14651858.CD007176.pub2
+14. Abner EL et al. Vitamin E and all-cause mortality: a meta-analysis. Curr Aging Sci. 2011. PMID:21235492 DOI:10.2174/1874609811104020158
+15. Schurks M et al. Effects of vitamin E on stroke subtypes: meta-analysis of randomised controlled trials. BMJ. 2010. PMID:21051774 DOI:10.1136/bmj.c5702
+16. Maggio E et al. Vitamin E supplementation (alone or with other antioxidants) and stroke: a meta-analysis. Nutr Rev. 2024. PMID:37698992 DOI:10.1093/nutrit/nuad114
+17. Sanyal AJ et al. Pioglitazone, vitamin E, or placebo for nonalcoholic steatohepatitis (PIVENS). N Engl J Med. 2010. PMID:20427778 DOI:10.1056/NEJMoa0907929
+18. Lavine JE et al. Effect of vitamin E or metformin for treatment of nonalcoholic fatty liver disease in children and adolescents: the TONIC RCT. JAMA. 2011. PMID:21521847 DOI:10.1001/jama.2011.520
+19. Wen H et al. Vitamin E for people with non-alcoholic fatty liver disease. Cochrane Database Syst Rev. 2024. PMID:39412049 DOI:10.1002/14651858.CD015033.pub2
+20. Chee NM et al. Vitamin E improves serum markers and histology in adults with MASLD: Systematic review and meta-analysis. J Gastroenterol Hepatol. 2024. PMID:39150005 DOI:10.1111/jgh.16723
+21. Hussaini H et al. Efficacy and Safety of Vitamin E in Adults With MASH: A Systematic Review and Meta-Analysis of RCTs. Cureus. 2025. PMID:40895855 DOI:10.7759/cureus.88949
+22. Song Y et al. Vitamin E (300 mg) in the treatment of MASH: A multi-center, randomized, double-blind, placebo-controlled study. Cell Rep Med. 2025. PMID:39970876 DOI:10.1016/j.xcrm.2025.101939
+23. Vilar-Gomez E et al. Vitamin E Improves Transplant-Free Survival and Hepatic Decompensation Among Patients With NASH and Advanced Fibrosis. Hepatology. 2020. PMID:30506586 DOI:10.1002/hep.30368
+24. EASL, EASD, EASO. EASL-EASD-EASO Clinical Practice Guidelines on the management of MASLD. J Hepatol. 2024. PMID:38851997 DOI:10.1016/j.jhep.2024.04.031
+25. Pam P et al. Effect of vitamin E on cardiometabolic factors in paediatric MASLD: a systematic review with meta-analysis. Br J Nutr. 2026. PMID:41199412 DOI:10.1017/S0007114525105400
+26. Podszun MC et al. Development of Subtle Iron Deficiency During Vitamin E Treatment For MASLD. J Diet Suppl. 2025. PMID:39960325 DOI:10.1080/19390211.2025.2465414
+27. Dysken MW et al. Effect of vitamin E and memantine on functional decline in Alzheimer disease: the TEAM-AD VA cooperative randomized trial. JAMA. 2014. PMID:24381967 DOI:10.1001/jama.2013.282834
+28. Petersen RC et al. Vitamin E and donepezil for the treatment of mild cognitive impairment. N Engl J Med. 2005. PMID:15829527 DOI:10.1056/NEJMoa050151
+29. Sano M et al. A controlled trial of selegiline, alpha-tocopherol, or both as treatment for Alzheimer's disease. N Engl J Med. 1997. PMID:9110909 DOI:10.1056/NEJM199704243361704
+30. Farina N et al. Vitamin E for Alzheimer's dementia and mild cognitive impairment. Cochrane Database Syst Rev. 2017. PMID:28418065 DOI:10.1002/14651858.CD002854.pub5
+31. Age-Related Eye Disease Study Research Group. A randomized, placebo-controlled trial of high-dose supplementation with vitamins C and E, beta carotene, and zinc for AMD and vision loss: AREDS report no. 8. Arch Ophthalmol. 2001. PMID:11594942 DOI:10.1001/archopht.119.10.1417
+32. Evans JR, Lawrenson JG. Antioxidant vitamin and mineral supplements for slowing the progression of age-related macular degeneration. Cochrane Database Syst Rev. 2023. PMID:37702300 DOI:10.1002/14651858.CD000254.pub5
+33. Brown BG et al. Simvastatin and niacin, antioxidant vitamins, or the combination for the prevention of coronary disease (HATS). N Engl J Med. 2001. PMID:11757504 DOI:10.1056/NEJMoa011090
+34. Cheung MC et al. Antioxidant supplements block the response of HDL to simvastatin-niacin therapy in patients with coronary artery disease and low HDL. Arterioscler Thromb Vasc Biol. 2001. PMID:11498460 DOI:10.1161/hq0801.095151
+35. Singh U et al. High-dose alpha-tocopherol therapy does not affect HDL subfractions in patients with coronary artery disease on statin therapy. Clin Chem. 2007. PMID:17234730 DOI:10.1373/clinchem.2006.078865
+36. Booth SL et al. Effect of vitamin E supplementation on vitamin K status in adults with normal coagulation status. Am J Clin Nutr. 2004. PMID:15213041 DOI:10.1093/ajcn/80.1.143
+37. Kim JM, White RH. Effect of vitamin E on the anticoagulant response to warfarin. Am J Cardiol. 1996. PMID:8629604 DOI:10.1016/s0002-9149(97)89357-5
+38. Liede KE et al. Increased tendency towards gingival bleeding caused by joint effect of alpha-tocopherol supplementation and acetylsalicylic acid. Ann Med. 1998. PMID:9920356 DOI:10.3109/07853899709002602
+39. Podszun M, Frank J. Vitamin E-drug interactions: molecular basis and clinical relevance. Nutr Res Rev. 2014. PMID:25225959 DOI:10.1017/S0954422414000146
+40. Kaye AD et al. Vitamin E (alpha-Tocopherol): Emerging Clinical Role and Adverse Risks of Supplementation in Adults. Cureus. 2025. PMID:40065887 DOI:10.7759/cureus.78679
+41. Green TD et al. Reversible coagulopathy associated with vitamin E excess. BMJ Case Rep. 2025. PMID:40499949 DOI:10.1136/bcr-2025-265116
+42. Freedman JE et al. alpha-tocopherol inhibits aggregation of human platelets by a protein kinase C-dependent mechanism. Circulation. 1996. PMID:8921785 DOI:10.1161/01.cir.94.10.2434
+43. Vardi M et al. Haptoglobin genotype and cardiovascular outcomes in diabetes mellitus and the effect of vitamin E treatment: meta-analysis. Eur J Intern Med. 2012. PMID:22939808 DOI:10.1016/j.ejim.2012.04.009
+44. Asleh R et al. Meta-analysis of the association of the haptoglobin genotype with cardiovascular outcomes and the pharmacogenomic interactions with vitamin E supplementation. Pharmgenomics Pers Med. 2018. PMID:29731659 DOI:10.2147/PGPM.S159454
+45. Delgado GE et al. Haptoglobin polymorphism, vitamin E and mortality: the Ludwigshafen Risk and Cardiovascular Health Study. BMJ Nutr Prev Health. 2024. PMID:39882297 DOI:10.1136/bmjnph-2024-001061
+46. Zheng PP et al. Impact of Vitamin E Supplementation on HDL in Patients With Haptoglobin Genotype-Stratified Diabetes: A Systematic Review of RCTs. J Diabetes Res. 2024. PMID:39474248 DOI:10.1155/2024/6645595
+47. Bardowell SA et al. Common variants of cytochrome P450 4F2 exhibit altered vitamin E-omega-hydroxylase specific activity. J Nutr. 2010. PMID:20861217 DOI:10.3945/jn.110.128579
+48. Lawrence WR et al. A 28-year prospective analysis of serum vitamin E, vitamin E-related genetic variation and risk of prostate cancer. Prostate Cancer Prostatic Dis. 2022. PMID:35197557 DOI:10.1038/s41391-022-00511-y
+49. Burton GW et al. Human plasma and tissue alpha-tocopherol concentrations in response to supplementation with deuterated natural and synthetic vitamin E. Am J Clin Nutr. 1998. PMID:9537614 DOI:10.1093/ajcn/67.4.669
+50. Traber MG, Head B. Vitamin E: How much is enough, too much and why! Free Radic Biol Med. 2021. PMID:34699937 DOI:10.1016/j.freeradbiomed.2021.10.028
+51. Arai H, Kono N. alpha-Tocopherol transfer protein (alpha-TTP). Free Radic Biol Med. 2021. PMID:34563650 DOI:10.1016/j.freeradbiomed.2021.09.021
+52. Jiang Q. Metabolism of natural forms of vitamin E and biological actions of vitamin E metabolites. Free Radic Biol Med. 2022. PMID:34785321 DOI:10.1016/j.freeradbiomed.2021.11.012
+53. Phang SCW et al. Effects of Tocotrienol-Rich Fraction Supplementation in Patients with Type 2 Diabetes: SR and MA of RCTs. Adv Nutr. 2023. PMID:37321474 DOI:10.1016/j.advnut.2023.06.006
+54. Zuo S et al. The effects of tocotrienol supplementation on lipid profile: A meta-analysis of randomized controlled trials. Complement Ther Med. 2020. PMID:32951713 DOI:10.1016/j.ctim.2020.102450
+55. Rumbold A et al. Vitamin E supplementation in pregnancy. Cochrane Database Syst Rev. 2015. PMID:26343254 DOI:10.1002/14651858.CD004069.pub3
+56. Blount BC et al. Vitamin E Acetate in Bronchoalveolar-Lavage Fluid Associated with EVALI. N Engl J Med. 2020. PMID:31860793 DOI:10.1056/NEJMoa1916433
+57. Miao H et al. Protective Effects of Vitamin E on Chemotherapy-Induced Peripheral Neuropathy: A Meta-Analysis of RCTs. Ann Nutr Metab. 2021. PMID:34148036 DOI:10.1159/000515620
+58. Alhajaji R et al. Effectiveness of vitamin E in the treatment of diabetic neuropathy: systematic review and meta-analysis. Hormones (Athens). 2026. PMID:41528693 DOI:10.1007/s42000-025-00753-0
+59. McDuffie JR et al. Effects of orlistat on fat-soluble vitamins in obese adolescents. Pharmacotherapy. 2002. PMID:12126214 DOI:10.1592/phco.22.11.814.33627
+60. Wang S et al. Dietary vitamin E intake, life expectancy, and mortality risk among adults in the United Kingdom and the United States. Int J Surg. 2026. PMID:41706672 DOI:10.1097/JS9.0000000000004067
+61. Institute of Medicine. Dietary Reference Intakes for Vitamin C, Vitamin E, Selenium, and Carotenoids, Chapter 6: Vitamin E. National Academies Press. 2000. URL:https://www.nationalacademies.org/read/9810/chapter/8

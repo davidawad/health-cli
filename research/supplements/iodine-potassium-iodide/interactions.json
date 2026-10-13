@@ -3,40 +3,332 @@
   "supplement": "Iodine (potassium iodide)",
   "slug": "iodine-potassium-iodide",
   "aliases": [
+    "potassium iodide",
+    "KI",
     "iodide",
-    "KI"
+    "iodine",
+    "SSKI",
+    "iOSAT",
+    "ThyroShield"
   ],
   "category": "mineral",
   "rx_status": "otc",
-  "evidence_certainty_overall": "low",
+  "evidence_certainty_overall": "moderate",
   "edges": [
     {
-      "with": "ACE inhibitors",
+      "with": "antithyroid drugs (methimazole, propylthiouracil)",
       "with_kind": "drug-class",
       "kind": "monitor",
       "severity": "moderate",
-      "mechanism": "KI supplies potassium and can contribute to hyperkalemia with ACE inhibitors.",
-      "evidence": "NIH ODS lists this interaction.",
+      "mechanism": "High-dose iodine has an additive antithyroid effect and could cause hypothyroidism; conversely excess iodine may reduce antithyroid-drug effectiveness in hyperthyroid Graves' disease. Deliberate KI + methimazole co-therapy speeds FT4 control.",
+      "evidence": "NIH ODS interaction statement; narrative review; RCT (n=134) of MMI+KI showing faster normalization without thionamide resistance",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/",
+        "PMID:11396708",
+        "PMID:19912243"
+      ]
+    },
+    {
+      "with": "Lithium",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Lithium and excess iodide both inhibit thyroid hormone release (synergistic in rats); KI 250 mg qid in lithium-treated patients raised TSH, causing hypothyroidism in 2/10 and Jod-Basedow hyperthyroidism in 1/10. Iodine status modifies lithium thyroid risk.",
+      "evidence": "Small human pharmacology study (n=10), rat study, review; low certainty",
+      "citations": [
+        "PMID:576345",
+        "PMID:946343",
+        "PMID:16968542"
+      ]
+    },
+    {
+      "with": "amiodarone",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Amiodarone is 37% iodine by weight and releases large iodine loads; ~20% develop hypo- or hyperthyroidism (pooled hypothyroidism prevalence 14%). Additional iodide after amiodarone thyrotoxicosis induced subclinical hypothyroidism.",
+      "evidence": "Clinical review, SR/MA (29 records, n=14,143), small SSKI challenge study",
+      "citations": [
+        "PMID:33159436",
+        "PMID:35026394",
+        "PMID:1331165",
+        "PMID:11396708"
+      ]
+    },
+    {
+      "with": "ACE inhibitors",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Potassium iodide supplies potassium; with ACE inhibitors raises risk of hyperkalemia. Relevant mainly at pharmacological KI doses (mg), negligible at microgram nutritional doses.",
+      "evidence": "NIH ODS interaction statement; no controlled study",
       "citations": [
         "URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/"
       ]
     },
     {
-      "with": "thyroid disorders",
+      "with": "angiotensin receptor blockers",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Potassium-retaining mechanism shared with ACE inhibitors; hyperkalemia risk with pharmacological KI doses is extrapolated (ARBs not named by ODS).",
+      "evidence": "Extrapolation from NIH ODS statements on ACE inhibitors/K-sparing diuretics",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/"
+      ]
+    },
+    {
+      "with": "potassium-sparing diuretics (spironolactone, amiloride)",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Additive potassium load from KI with renal potassium retention increases hyperkalemia risk.",
+      "evidence": "NIH ODS interaction statement",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/"
+      ]
+    },
+    {
+      "with": "levothyroxine",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Iodine does not replace thyroid hormone in established hypothyroidism; in L-thyroxine-treated pregnant women 150 mcg/day iodine did not improve maternal FT4/FT3 and neonatal TSH was 33% higher.",
+      "evidence": "Non-randomized cohort (n=92); clinical review",
+      "citations": [
+        "PMID:27387243",
+        "PMID:40900603"
+      ]
+    },
+    {
+      "with": "iodinated contrast media",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Large additional iodine load; 11.5% developed thyroid dysfunction after contrast in a prospective cohort; neonates most vulnerable. Additive with supplemental iodine in susceptible people.",
+      "evidence": "Prospective cohort (n=122), SRs, Endocrine Reviews",
+      "citations": [
+        "PMID:38700099",
+        "PMID:38870258",
+        "PMID:42340805",
+        "PMID:33112287"
+      ]
+    },
+    {
+      "with": "Genistein",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Genistein inactivates thyroid peroxidase; soy antithyroid effects are greatly increased by iodine deficiency and countered by adequate iodine. Soy raised TSH by 0.248 mIU/L without FT3/FT4 change in RCT MA.",
+      "evidence": "Mechanistic/animal review plus MA of RCTs (18 articles); low certainty",
+      "citations": [
+        "PMID:12060828",
+        "PMID:30850697"
+      ]
+    },
+    {
+      "with": "Kelp",
+      "with_kind": "supplement",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Stacking kelp/seaweed or other iodine-containing products with KI raises total intake above the UL; kelp iodine content is highly variable and has caused transient hyperthyroidism.",
+      "evidence": "Product survey, case report, review",
+      "citations": [
+        "PMID:30266075",
+        "PMID:31517826",
+        "PMID:39510448"
+      ]
+    },
+    {
+      "with": "autoimmune thyroiditis (Hashimoto's)",
       "with_kind": "condition",
       "kind": "caution",
       "severity": "moderate",
-      "mechanism": "Excess iodine can provoke thyroid dysfunction, with susceptibility in thyroid disease.",
-      "evidence": "Official NIH ODS safety summary.",
+      "mechanism": "Failure to escape the Wolff-Chaikoff effect causes iodine-induced hypothyroidism; high-dose OTC iodine caused severe hypothyroidism in Hashimoto's; adverse effects at intakes safe for others.",
+      "evidence": "Reviews, case series, NIH ODS",
       "citations": [
-        "URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/"
+        "URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/",
+        "PMID:11396709",
+        "PMID:23529350",
+        "PMID:33914231"
+      ]
+    },
+    {
+      "with": "nodular thyroid disease with heart disease",
+      "with_kind": "condition",
+      "kind": "contraindicated",
+      "severity": "major",
+      "mechanism": "Jod-Basedow (iodine-induced hyperthyroidism) in autonomous nodules; arrhythmia/chest pain risk.",
+      "evidence": "FDA KI labels (iOSAT, ThyroShield) contraindication; review",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ea98aef8-93b6-4fac-be35-eb17a1a04a92",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=186aadd3-2cb6-4de4-99b1-2371613e248d",
+        "PMID:11396708"
+      ]
+    },
+    {
+      "with": "Graves' disease history or nodular goiter",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Iodine-induced hyperthyroidism in euthyroid patients previously treated for Graves' disease and in nodular goiter; population iodization increased hyperthyroidism incidence.",
+      "evidence": "Reviews; Danish population register",
+      "citations": [
+        "PMID:11396708",
+        "PMID:39510448",
+        "PMID:16849408"
+      ]
+    },
+    {
+      "with": "dermatitis herpetiformis / hypocomplementemic vasculitis / iodine allergy",
+      "with_kind": "condition",
+      "kind": "contraindicated",
+      "severity": "major",
+      "mechanism": "Increased risk of iodide hypersensitivity reactions (rash, angioedema, fever with arthralgia).",
+      "evidence": "FDA KI labels",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ea98aef8-93b6-4fac-be35-eb17a1a04a92",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=186aadd3-2cb6-4de4-99b1-2371613e248d"
+      ]
+    },
+    {
+      "with": "pregnancy",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Requirements rise (RDA 220 mcg), but high maternal doses (e.g., 12.5 mg/day) suppress fetal thyroid causing congenital hypothyroidism and goiter; repeat KI dosing should be avoided.",
+      "evidence": "Case reports, Cochrane SR, FDA label, NIH ODS",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ea98aef8-93b6-4fac-be35-eb17a1a04a92",
+        "PMID:22841183",
+        "PMID:27006474",
+        "PMID:28260263"
+      ]
+    },
+    {
+      "with": "neonates (under 1 month)",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Immature thyroid fails to escape Wolff-Chaikoff; KI label advises thyroid function check after KI; contrast-induced hypothyroidism common in neonates.",
+      "evidence": "FDA label; SR in children",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ea98aef8-93b6-4fac-be35-eb17a1a04a92",
+        "PMID:42340805"
+      ]
+    },
+    {
+      "with": "iodine deficiency",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Deficiency triples radiation-related thyroid cancer risk (RR 3.2) and amplifies goitrogens; correction lowers TSH/Tg in pregnancy, but rapid repletion can unmask autonomy.",
+      "evidence": "Case-control study (Chernobyl), MA, review",
+      "citations": [
+        "PMID:15900042",
+        "PMID:42359139",
+        "PMID:11396708"
+      ]
+    },
+    {
+      "with": "radioactive iodine uptake scan / 131I therapy",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "major",
+      "mechanism": "Stable iodine from supplements, kelp or contrast competes with radioiodine and lowers thyroidal uptake; a low-iodine diet (<=50 mcg/day for 4-14 days) is used before RAI.",
+      "evidence": "Reviews, prospective study (n=65), NIH ODS",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/",
+        "PMID:26118628",
+        "PMID:34534327"
+      ]
+    },
+    {
+      "with": "thyroid function tests (TSH, FT4, thyroglobulin)",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Physiological (not assay) changes: supplementation lowers Tg and TSH in deficiency; excess raises TSH or causes hyperthyroidism.",
+      "evidence": "MA and reviews",
+      "citations": [
+        "PMID:42359139",
+        "PMID:38870258",
+        "PMID:42567091"
+      ]
+    },
+    {
+      "with": "DUOX2 variants",
+      "with_kind": "genotype",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Biallelic DUOX2 mutations plus in-utero iodine excess (maternal seaweed) produced delayed-onset congenital hypothyroidism missed by newborn screening.",
+      "evidence": "Single case report",
+      "citations": [
+        "PMID:23239635"
       ]
     }
   ],
   "citations": [
-    "URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/",
+    "PMID:11396708",
+    "PMID:11396709",
+    "PMID:12060828",
+    "PMID:1331165",
+    "PMID:15900042",
+    "PMID:16849408",
+    "PMID:16968542",
+    "PMID:19912243",
+    "PMID:22841183",
+    "PMID:23239635",
+    "PMID:23529350",
+    "PMID:24088547",
+    "PMID:26118628",
+    "PMID:27006474",
+    "PMID:27387243",
+    "PMID:28260263",
+    "PMID:29030199",
+    "PMID:30266075",
+    "PMID:30272528",
+    "PMID:30721111",
+    "PMID:30850697",
+    "PMID:31517826",
+    "PMID:31689890",
+    "PMID:32320029",
+    "PMID:33112287",
+    "PMID:33112293",
+    "PMID:33123091",
+    "PMID:33159436",
+    "PMID:33914231",
+    "PMID:34534327",
+    "PMID:35026394",
+    "PMID:36018544",
+    "PMID:37622183",
+    "PMID:37966688",
+    "PMID:38700099",
+    "PMID:38870258",
+    "PMID:38989660",
+    "PMID:39510448",
+    "PMID:39736330",
+    "PMID:40096706",
+    "PMID:40252729",
+    "PMID:40296843",
+    "PMID:40390018",
+    "PMID:40487487",
     "PMID:40633808",
-    "URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/",
-    "PMID:40633808"
+    "PMID:40900603",
+    "PMID:41374057",
+    "PMID:41675569",
+    "PMID:41915209",
+    "PMID:42124075",
+    "PMID:42340805",
+    "PMID:42359139",
+    "PMID:42567091",
+    "PMID:42720098",
+    "PMID:576345",
+    "PMID:8498398",
+    "PMID:946343",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=186aadd3-2cb6-4de4-99b1-2371613e248d",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ea98aef8-93b6-4fac-be35-eb17a1a04a92",
+    "URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/"
   ]
 }

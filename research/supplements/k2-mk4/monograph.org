@@ -3,48 +3,172 @@
 :ID: supp-k2-mk4
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: menaquinone-4 | menatetrenone
+:ALIASES: menaquinone-4 | MK-4 | menatetrenone | vitamin K2 (MK-4) | Glakay
 :CATEGORY: vitamin
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Vitamin K2 includes menaquinones; MK-4 (menatetrenone) is a short-chain form distinct from MK-7. Prescription high-dose menatetrenone has been used for osteoporosis in Japan. [PMID:30734066]
+- Menaquinone-4 (MK-4) is a short-chain vitamin K2 with four isoprene units. Menatetrenone is the synthetic drug form, chemically identical to MK-4 [PMID:16801507] [PMID:23140417].
+- Regulatory status differs by country. In Japan, menatetrenone is a prescription osteoporosis drug given at 45 mg/day (15 mg capsules three times daily). The same 45 mg/day regimen has been trialled in China [PMID:19082528] [PMID:24426779] [PMID:23702931]. Elsewhere MK-4 is sold over the counter as a supplement, usually at microgram to low-milligram doses. RX_STATUS is recorded as otc for the supplement; the 45 mg/day regimen is prescription-only in Japan.
+- Dietary MK-4 comes mostly from animal foods. The body also makes it from phylloquinone (K1): K1 is cleaved to menadione in the intestine, and the prenyltransferase UBIAD1 then converts menadione to MK-4 in tissues [PMID:20953171] [PMID:24085302]. MK-4 is the main vitamin K form in the human brain [PMID:40339909].
+- Pharmacokinetics compared with MK-7: a nutritional single dose of MK-4 (420 ug) was undetectable in serum, and 60 ug/day for 7 days did not raise serum MK-4. MK-7 at the same doses was well absorbed and accumulated [PMID:23140417]. MK-7 has a much longer half-life than K1 [PMID:17158229]. This is why MK-4 trials use milligram doses.
+- Absorption depends on fat. For a 15 mg menatetrenone dose, AUC0-24 roughly tripled when meal fat rose from 8.8 g to 34.9 g, with a plateau above about 35 g [PMID:8877895].
+- Reference intakes: EFSA sets adequate intakes for phylloquinone only (70 ug/day for adults). It judged the evidence on menaquinones insufficient to set any value for them [PMID:32625486]. The US ODS says no normal ranges for menaquinones are available, and vitamin K has no tolerable upper intake level [URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/] [URL:https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions.aspx].
 
 ** Mechanisms
-- Proposed biological activity and the best-established physiological context are described above; clinical mechanisms remain uncertain where outcome evidence is limited. ["PMID:30734066"]
+- MK-4 is a cofactor for gamma-glutamyl carboxylation of vitamin K-dependent proteins. These include clotting factors, osteocalcin (OC) and matrix Gla protein (MGP) [PMID:39125301] [PMID:37252246].
+- Osteocalcin carboxylation: 45 mg/day lowered serum undercarboxylated OC (ucOC) within 2 weeks while total OC stayed stable [PMID:12720050]. A dose of 1.5 mg/day also lowered ucOC [PMID:23702931]. In meta-analyses the effect on ucOC is the most consistent finding [PMID:30734066] [PMID:41268154].
+- Nuclear receptor signalling: MK-4 activates the steroid and xenobiotic receptor (SXR/PXR) more strongly than phylloquinone, in a reporter assay. This is a proposed non-carboxylation pathway in bone [PMID:14585304] [PMID:39125301].
+- Vascular: carboxylated MGP inhibits arterial calcification. Vitamin K supplementation lowers dp-ucMGP (inactive MGP) [PMID:37252246] [PMID:30514729].
+- Endogenous MK-4 synthesis by UBIAD1 is not inhibited by warfarin [PMID:20953171]. It needs intermediates of cholesterol synthesis, and atorvastatin lowered kidney MK-4 formation by about 45% in mice [PMID:30753659].
+- Proposed anti-HCC activity includes suppression of VEGF-mediated angiogenesis. Combined with an ACE inhibitor, MK-4 lowered serum VEGF in a small clinical study [PMID:19501932].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | Certainty | Citations |
-|---|---|---|---|---|---|
-| Primary studied clinical/biomarker outcomes | Systematic review/meta-analysis or RCT synthesis | MK-4 evidence for fracture prevention is mixed and geographically concentrated; recent reviews report possible bone-marker/BMD effects but uncertain fracture benefit | See narrative | low | PMID:30734066; PMID:16801507 |
-| Long-term clinical outcomes | Evidence insufficient or mixed | No established benefit | Not established | very low | PMID:30734066; PMID:16801507 |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Vertebral fracture (osteoporosis, 45 mg/d) | SR/MA (Su 2019, 18 RCTs, n=8882); OF study (n=4378); Cockayne 2006 | Uncertain; large trial null | Placebo-controlled RR 0.87 (0.64-1.20); Cockayne OR 0.40 (0.25-0.65) from 7 small Japanese trials; OF study null in full analysis set | low | [PMID:30734066] [PMID:19082528] [PMID:16801507] |
+| Any clinical fracture (postmenopausal/osteoporotic, all vitamin K forms) | Mott 2019 SR/MA (36 studies) | Possible small benefit | OR 0.72 (0.55-0.95); low-risk-of-bias trials only OR 0.76 (0.58-1.01) | low | [PMID:31076817] |
+| Hip / nonvertebral fracture | Cockayne 2006 MA | Benefit reported, integrity concerns | Hip OR 0.23 (0.12-0.47); nonvertebral OR 0.19 (0.11-0.35); trials from a later-retracted author group contributed | very low | [PMID:16801507] [PMID:31076817] [PMID:19499964] [PMID:12110423] |
+| Fractures in postmenopausal women (vitamin K2 pooled) | Huang 2015 (19 RCTs, n=6759); Ma 2022 (16 RCTs) | Non-significant overall; significant only after excluding the OF study | Huang RR 0.63 (p=0.08), 0.50 after exclusion; Ma RR 0.96, 0.43 after exclusion | low | [PMID:25516361] [PMID:36033779] |
+| Lumbar spine BMD (osteoporosis) | SR/MA of RCTs | Small increase | MD +0.05 g/cm2 (0.01-0.09) vs placebo; long-term lumbar WMD +2.17% (1.59-2.76) | low | [PMID:30734066] [PMID:35711002] [PMID:39657786] |
+| BMD in non-osteoporotic Western women | Double-blind RCT (n=381, 45 mg/d, 12 mo); 3-y RCT (n=325) | Null for DXA BMD; geometry/BMC benefit in one trial | No change in BMD or bone turnover; femoral neck BMC and width preserved | moderate | [PMID:19113922] [PMID:17287908] |
+| Add-on to bisphosphonate | RCT (n=105, MK-4 45 mg/d, 18 mo) | Null | No BMD or turnover-marker difference vs placebo | low | [PMID:37338608] |
+| ucOC / carboxylation markers | SR/MA; RCTs | Decrease ucOC; increase OC | ucOC WMD -1.54 (-2.44 to -0.64); ucOC/OC MD -21.78% | moderate | [PMID:41268154] [PMID:30734066] [PMID:12720050] |
+| Glucocorticoid-induced bone loss | Small RCTs | Prevents lumbar BMD loss over 8-10 wk | Similar to alfacalcidol | very low | [PMID:14712427] |
+| Vascular calcification / arterial stiffness | Vitamin K MA (mixed forms); MK-4 single-arm study | Possible slowing with vitamin K overall; no MK-4-specific benefit shown | CAC MD -17.37 (-34.18 to -0.56) in all-form MA; MK-4 45 mg/d: CAC +14%/y, baPWV unchanged | very low | [PMID:37252246] [PMID:30514729] [PMID:27175730] |
+| Insulin sensitivity / glycaemia | MAs of vitamin K RCTs (K1, MK-4, MK-7) | Inconsistent | 2017 MA: no effect on HOMA-IR; 2026 MA: FBG SMD -0.22, HOMA-IR MD -0.63 | very low | [PMID:28496349] [PMID:41599883] [PMID:21868771] |
+| HCC recurrence after curative therapy | Double-blind RCT (n=548); MAs | Phase III null; MAs of small trials positive | Yoshida HR 1.150 (0.843-1.570), stopped for futility; MA recurrence OR 0.41-0.55 | low | [PMID:21574174] [PMID:41388930] [PMID:41930200] [PMID:23191943] |
+| HCC incidence in viral cirrhosis | Small RCT (n=40 women) | Benefit reported | RR 0.20 (0.04-0.91) | very low | [PMID:15265851] |
 
 ** Dosing in trials
-- Osteoporosis trials often used 45 mg/day menatetrenone, far above nutritional supplement doses; not interchangeable with low-dose products. [PMID:30734066]
+- Japanese osteoporosis regimen: 45 mg/day menatetrenone (15 mg three times daily after meals), often with calcium, for 1-3 years [PMID:10750566] [PMID:19082528] [PMID:17287908].
+- Combination regimens: 45 mg/day with alfacalcidol 0.75 ug/day [PMID:11180916], with oral bisphosphonate plus calcium/vitamin D [PMID:37338608], and with risedronate (JOINT-03 design) [PMID:23828145].
+- Low-dose nutritional MK-4: 1.5 mg/day for 12 months lowered ucOC and prevented forearm BMD loss in a 48-woman RCT [PMID:23702931]. Doses of 60-420 ug did not raise serum MK-4 [PMID:23140417].
+- HCC trials: 45 mg/day after resection or ablation [PMID:16400650]. The phase III trial tested 45 and 90 mg/day [PMID:21574174]. With sorafenib, 45 mg/day was used [PMID:33481328].
+- Other settings: 45 mg/day in cirrhosis-related bone loss [PMID:12003435], after pelvic radiotherapy [PMID:39849242], and in an open-label CAC study [PMID:27175730].
+- Taking doses with fat-containing meals increases absorption [PMID:8877895].
 
 ** Safety & adverse effects
-- Generally tolerated in trials; high-dose safety and long-term benefit evidence remain uncertain. [PMID:30734066]
+- Pharmacological doses are generally well tolerated, but adverse events are more frequent than with placebo. Su 2019 found AEs RR 1.47 (1.07-2.02) and adverse drug reactions RR 1.29 (1.07-1.56), with no difference in serious AEs [PMID:30734066]. Zhou 2022 found an adverse-reaction RR of 1.33 (1.11-1.59) and no serious events [PMID:35711002]. Ma 2022 found no difference (RR 1.03) [PMID:36033779].
+- In the OF study (n=4378), skin and skin-appendage lesions were significantly more common with menatetrenone [PMID:19818211] [PMID:19082528].
+- Coagulation: MK-4 is a functional vitamin K and reverses warfarin anticoagulation. In Japan, vitamin K2 is used to reverse warfarin-related coagulopathy [PMID:25636520].
+- No tolerable upper intake level has been set for vitamin K [URL:https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions.aspx]. MK-4-specific long-term safety data beyond 3 years are sparse [PMID:17287908].
+- Research integrity: some menatetrenone fracture trials and a meta-analysis by one research group were retracted in 2018 [PMID:19499964] [PMID:12110423]. A 2019 update noted that the integrity of some earlier evidence had been questioned [PMID:31076817].
 
 ** Contraindications
-- Vitamin K antagonists are contraindicated with inconsistent vitamin K intake because anticoagulation can be reduced. [URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/]
+- Vitamin K antagonist therapy (warfarin, acenocoumarol, phenprocoumon): MK-4 antagonises the anticoagulant effect. Prior warfarin use was an exclusion criterion in JOINT-03 [PMID:23828145]. Even microgram doses of MK-7 lowered INR [PMID:23530987]. Anticoagulated patients are advised to keep vitamin K intake consistent [URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/].
+- HCC surveillance that relies on PIVKA-II/DCP: vitamin K lowers DCP and can mask this tumour marker (see Lab-test interference) [PMID:1309308].
 
 ** Interactions
-- Warfarin: antagonizes anticoagulant effect; maintain consistent vitamin K intake and monitor INR. [URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/]
+*** Drugs
+- Warfarin and other VKAs (major): vitamin K reverses VKA-induced coagulopathy [PMID:25636520]. Low-dose MK-7 (10-45 ug) lowered INR in a dose-dependent way in healthy volunteers taking acenocoumarol [PMID:23530987]. Supplements supplying 50 ug/day or more of MK-7 may interfere with anticoagulation [PMID:17158229]. No equivalent MK-4 dose-response study was found, so the size of the effect at supplement doses is inferred. Pharmacological 45 mg/day doses would be expected to antagonise warfarin strongly.
+- Low-dose vitamin K for INR stability: Cochrane found insufficient data (2 trials, 100 participants, using vitamin K1 150-175 ug) [PMID:24832594]. This does not apply to MK-4.
+- Warfarin depletes tissue MK-4: users had 68-79% lower postmortem brain MK-4 [PMID:40339909].
+- Bisphosphonates: an add-on to bisphosphonate gave no extra BMD benefit in an RCT [PMID:37338608]. JOINT-03 was designed to test MK-4 plus risedronate [PMID:23828145].
+- Glucocorticoids: MK-4 prevented prednisolone-induced lumbar BMD loss over 8 weeks, comparable to alfacalcidol [PMID:14712427].
+- Statins: atorvastatin lowered renal MK-4 synthesis in mice [PMID:30753659]. In dialysis patients, the highest PIVKA-II was seen with a statin plus a proton pump inhibitor [PMID:34774554]. Clinical relevance is unknown.
+- Sorafenib: adding 45 mg/day MK-4 raised objective response (27.3% vs 4.5%) and PFS (HR 0.44) in a small phase II HCC trial [PMID:33481328].
+- ACE inhibitors (perindopril): combining with MK-4 reduced cumulative HCC recurrence. Neither drug alone did [PMID:19501932].
+- Orlistat and fat malabsorption: orlistat produced a non-significant fall in vitamin K [PMID:12126214]. MK-4 absorption depends on dietary fat [PMID:8877895].
+*** Other supplements
+- Vitamin E: 1000 IU/day RRR-alpha-tocopherol for 12 weeks raised PIVKA-II (for example from 1.7 to 11.9 ng/mL) in adults not taking anticoagulants. This indicates vitamin K antagonism [PMID:15213041]. High-vitamin E diets lowered extrahepatic MK-4 and phylloquinone in rats [PMID:16857056]. The two vitamins share omega-hydroxylation and PXR pathways [PMID:14585304].
+- Vitamin D-3 and active vitamin D: combining menatetrenone with alfacalcidol raised lumbar BMD more than either alone in a small RCT [PMID:11180916]. A review describes possible synergy [PMID:39125301]. However, MK-4 added to calcium plus vitamin D3 had no BMD effect in North American women [PMID:19113922]. The calcium rise seen with alfacalcidol was attenuated when MK-4 was added [PMID:14712427].
+- K1: phylloquinone is a precursor of tissue MK-4 via menadione and UBIAD1 [PMID:20953171] [PMID:24085302]. K1 1 mg/day and MK-4 45 mg/day gave similar ucOC lowering and null BMD results [PMID:19113922]. Both add to the total vitamin K load in VKA users.
+- K2 MK-7: MK-7 has much higher bioavailability and a longer half-life at nutritional doses [PMID:23140417] [PMID:17158229]. In dialysis, uptake of MK-4 into lipoproteins was better preserved than uptake of MK-7 [PMID:34774554].
+- Calcium: most menatetrenone fracture trials co-administered calcium [PMID:19082528] [PMID:24426779].
+*** Conditions
+- Chronic kidney disease/dialysis: vitamin K transport and MK-4 kidney synthesis are disturbed [PMID:34774554].
+- Liver cirrhosis/HCC: MK-4 prevented lumbar BMD loss in women with viral cirrhosis [PMID:12003435]. HCC chemoprevention evidence is conflicting [PMID:21574174] [PMID:41388930].
+- Fat malabsorption: reduced absorption is expected [PMID:8877895].
+*** Lab-test interference
+- PIVKA-II/DCP (HCC marker): intravenous MK-4 lowers DCP in HCC patients with the same kinetics as in vitamin K deficiency, then DCP rebounds within 7-10 days [PMID:1309308]. DCP should be interpreted with knowledge of vitamin K intake.
+- ucOC and the ucOC/OC ratio: these fall markedly with MK-4 (by 82.3% in one RCT), so they reflect intake rather than bone status [PMID:24426779] [PMID:12720050].
+- INR/PT in VKA users: falls with vitamin K intake (a true pharmacodynamic effect) [PMID:23530987].
+- Total osteocalcin: rises with MK-4 [PMID:41268154] [PMID:10750566].
 
 ** Genotype notes
-- No cited pharmacogenomic or nutrigenomic source was identified in the sources reviewed; no genotype-specific claim is made.
+- VKORC1 risk alleles (rs9923231, rs9934438) were modestly associated with osteopenia/osteoporosis (OR 1.16, 1.01-1.35; 6 studies, n=7335) [PMID:41597466]. No study tested whether VKORC1 genotype modifies the response to MK-4.
 
 ** Latest research
-- 2025–2026 literature: 2024/2025 systematic reviews continue to assess vitamin K forms and bone outcomes, while high-quality fracture evidence remains limited. [PMID:16801507]
+- [2026-08] VitaK-CAC RCT (MK-7 360 ug/day, 2 y, n=180): slower CAC progression than placebo (p=0.02). This is a comparator for MK-4, which lacks such data [PMID:42268593].
+- [2026-03] HCC MA (11 studies, n=688): vitamin K improved PFS (HR 0.62) and recurrence (HR 0.26) but not overall survival (HR 0.77, 0.58-1.01) [PMID:41930200].
+- [2026-01] Glycaemia MA (8 RCTs): FBG SMD -0.22, HbA1c MD -1.00%, HOMA-IR MD -0.63. Quality was moderate [PMID:41599883].
+- [2026-01] VKORC1 polymorphism MA: OR 1.16 for osteopenia/osteoporosis [PMID:41597466].
+- [2026-01] Dietary vitamin K and fracture MA (6 cohorts, n=93,776): RR 0.83 (0.68-1.01); risk fell up to 120 ug/day [PMID:40947710].
+- [2025-12] HCC MA with trial sequential analysis (11 studies, n=1030): lower recurrence and mortality at 1-3 y. The large phase III trial was null [PMID:41388930] [PMID:21574174].
+- [2025-11] Bone turnover MA (9 RCTs, n=2570): OC MD +1.86, ucOC WMD -1.54, CTX -0.09; NTX unchanged [PMID:41268154].
+- [2025-05] Rush MAP autopsy study: warfarin users had 68-79% lower brain MK-4. Cognitive diagnosis did not differ [PMID:40339909].
+- [2025-01] Uterine cancer radiotherapy cohort (n=34): 45 mg/day menatetrenone prevented BMD loss in irradiated vertebrae [PMID:39849242].
+- [2024-12] Vitamin K BMD MA: lumbar spine BMD increased (p=0.035), driven by carboxylation changes rather than total OC [PMID:39657786].
 
 ** Open questions
-- Whether findings translate into durable patient-important outcomes, optimal formulation/dose, and long-term safety remains uncertain. [PMID:30734066; PMID:16801507]
+- Whether the Japanese fracture benefit is real after excluding retracted or high-risk-of-bias trials. The largest trial (OF study) was null in its full analysis set [PMID:19082528] [PMID:31076817].
+- Whether nutritional (microgram) MK-4 doses have any clinical effect, given that they do not raise serum MK-4 [PMID:23140417].
+- Dose-response for warfarin interaction with MK-4 specifically (data mostly MK-7/K1).
+- Whether MK-4 slows vascular calcification. Existing positive data are for mixed vitamin K forms or MK-7 [PMID:37252246] [PMID:42268593].
+- Whether HCC recurrence benefit in small trials survives in high-quality RCTs [PMID:21574174].
+- Clinical significance of the vitamin E-vitamin K antagonism at common supplement doses [PMID:15213041].
 
 ** Sources
-- PMID:30734066
-- PMID:16801507
-- PMID:30734066
-- PMID:16801507
-- URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/
+1. Cockayne S et al. Vitamin K and the prevention of fractures: systematic review and meta-analysis of randomized controlled trials. Arch Intern Med. 2006. PMID:16801507 DOI:10.1001/archinte.166.12.1256
+2. Mott A et al. Effect of vitamin K on bone mineral density and fractures in adults: an updated systematic review and meta-analysis of randomised controlled trials. Osteoporos Int. 2019. PMID:31076817 DOI:10.1007/s00198-019-04949-0
+3. Su S et al. The efficacy and safety of menatetrenone in the management of osteoporosis: a systematic review and meta-analysis of randomized controlled trials. Osteoporos Int. 2019. PMID:30734066 DOI:10.1007/s00198-019-04853-7
+4. Huang ZB et al. Does vitamin K2 play a role in the prevention and treatment of osteoporosis for postmenopausal women: a meta-analysis of randomized controlled trials. Osteoporos Int. 2015. PMID:25516361 DOI:10.1007/s00198-014-2989-6
+5. Ma ML et al. Efficacy of vitamin K2 in the prevention and treatment of postmenopausal osteoporosis: A systematic review and meta-analysis of randomized controlled trials. Front Public Health. 2022. PMID:36033779 DOI:10.3389/fpubh.2022.979649
+6. Zhou M et al. Efficacy and safety of vitamin K2 for postmenopausal women with osteoporosis at a long-term follow-up: meta-analysis and systematic review. J Bone Miner Metab. 2022. PMID:35711002 DOI:10.1007/s00774-022-01342-6
+7. Stevenson M et al. Vitamin K to prevent fractures in older women: systematic review and economic evaluation. Health Technol Assess. 2009. PMID:19818211 DOI:10.3310/hta13450
+8. Xie C et al. Effects of vitamin K supplementation on bone mineral density at different sites and bone metabolism in the middle-aged and elderly population. Bone Joint Res. 2024. PMID:39657786 DOI:10.1302/2046-3758.1312.BJR-2024-0053.R1
+9. Zhang Z et al. The effect of vitamin K2 supplementation on bone turnover biochemical markers in postmenopausal osteoporosis patients: a systematic review and meta-analysis. Front Endocrinol (Lausanne). 2025. PMID:41268154 DOI:10.3389/fendo.2025.1703116
+10. Haghighat MML et al. Dietary Vitamin K Intake and Fracture Risk: A Systematic Review and Dose-Response Meta-Analysis on the Interplay with Vitamin D. Curr Rheumatol Rev. 2026. PMID:40947710 DOI:10.2174/0115733971393704250828112958
+11. Shiraki M et al. Vitamin K2 (menatetrenone) effectively prevents fractures and sustains lumbar bone mineral density in osteoporosis. J Bone Miner Res. 2000. PMID:10750566 DOI:10.1359/jbmr.2000.15.3.515
+12. Inoue T et al. Randomized controlled study on the prevention of osteoporotic fractures (OF study): a phase IV clinical study of 15-mg menatetrenone capsules. J Bone Miner Metab. 2009. PMID:19082528 DOI:10.1007/s00774-008-0008-8
+13. Jiang Y et al. Menatetrenone versus alfacalcidol in the treatment of Chinese postmenopausal women with osteoporosis: a multicenter, randomized, double-blinded, double-dummy, positive drug-controlled clinical trial. Clin Interv Aging. 2014. PMID:24426779 DOI:10.2147/CIA.S54107
+14. Binkley N et al. Vitamin K treatment reduces undercarboxylated osteocalcin but does not alter bone turnover, density, or geometry in healthy postmenopausal North American women. J Bone Miner Res. 2009. PMID:19113922 DOI:10.1359/jbmr.081254
+15. Knapen MH et al. Vitamin K2 supplementation improves hip bone geometry and bone strength indices in postmenopausal women. Osteoporos Int. 2007. PMID:17287908 DOI:10.1007/s00198-007-0337-9
+16. Moore AE et al. The additive effect of vitamin K supplementation and bisphosphonate on fracture risk in post-menopausal osteoporosis: a randomised placebo controlled trial. Arch Osteoporos. 2023. PMID:37338608 DOI:10.1007/s11657-023-01288-w
+17. Tanaka S et al. Design of a randomized clinical trial of concurrent treatment with vitamin K2 and risedronate compared to risedronate alone in osteoporotic patients: Japanese Osteoporosis Intervention Trial-03 (JOINT-03). J Bone Miner Metab. 2014. PMID:23828145 DOI:10.1007/s00774-013-0491-4
+18. Koitaya N et al. Low-dose vitamin K2 (MK-4) supplementation for 12 months improves bone metabolism and prevents forearm bone loss in postmenopausal Japanese women. J Bone Miner Metab. 2014. PMID:23702931 DOI:10.1007/s00774-013-0472-7
+19. Miki T et al. Vitamin K(2) (menaquinone 4) reduces serum undercarboxylated osteocalcin level as early as 2 weeks in elderly women with established osteoporosis. J Bone Miner Metab. 2003. PMID:12720050 DOI:10.1007/s007740300025
+20. Iwamoto J et al. Effect of combined administration of vitamin D3 and vitamin K2 on bone mineral density of the lumbar spine in postmenopausal women with osteoporosis. J Orthop Sci. 2000. PMID:11180916 DOI:10.1007/s007760070003
+21. Yonemura K et al. Protective effect of vitamins K2 and D3 on prednisolone-induced loss of bone mineral density in the lumbar spine. Am J Kidney Dis. 2004. PMID:14712427 DOI:10.1053/j.ajkd.2003.09.013
+22. Shiomi S et al. Vitamin K2 (menatetrenone) for bone loss in patients with cirrhosis of the liver. Am J Gastroenterol. 2002. PMID:12003435 DOI:10.1111/j.1572-0241.2002.05618.x
+23. Kaneyasu Y et al. Suppressive effect of vitamin K(2) (menatetrenone) against bone mineral density loss after radiotherapy in uterine cancer patients. Jpn J Radiol. 2025. PMID:39849242 DOI:10.1007/s11604-025-01733-5
+24. Sato T et al. Comparison of menaquinone-4 and menaquinone-7 bioavailability in healthy women. Nutr J. 2012. PMID:23140417 DOI:10.1186/1475-2891-11-93
+25. Uematsu T et al. Effect of dietary fat content on oral bioavailability of menatetrenone in humans. J Pharm Sci. 1996. PMID:8877895 DOI:10.1021/js9600641
+26. Nakagawa K et al. Identification of UBIAD1 as a novel human menaquinone-4 biosynthetic enzyme. Nature. 2010. PMID:20953171 DOI:10.1038/nature09464
+27. Hirota Y et al. Menadione (vitamin K3) is a catabolic product of oral phylloquinone (vitamin K1) in the intestine and a circulating precursor of tissue menaquinone-4 (vitamin K2) in rats. J Biol Chem. 2013. PMID:24085302 DOI:10.1074/jbc.M113.477356
+28. Landes N et al. Homologous metabolic and gene activating routes for vitamins E and K. Mol Aspects Med. 2003. PMID:14585304 DOI:10.1016/s0098-2997(03)00029-3
+29. Aaseth JO et al. The Importance of Vitamin K and the Combination of Vitamins K and D for Calcium Metabolism and Bone Health: A Review. Nutrients. 2024. PMID:39125301 DOI:10.3390/nu16152420
+30. Booth SL et al. Effect of vitamin E supplementation on vitamin K status in adults with normal coagulation status. Am J Clin Nutr. 2004. PMID:15213041 DOI:10.1093/ajcn/80.1.143
+31. Tovar A et al. Extrahepatic tissue concentrations of vitamin K are lower in rats fed a high vitamin E diet. Nutr Metab (Lond). 2006. PMID:16857056 DOI:10.1186/1743-7075-3-29
+32. Choi HJ et al. Vitamin K2 supplementation improves insulin sensitivity via osteocalcin metabolism: a placebo-controlled trial. Diabetes Care. 2011. PMID:21868771 DOI:10.2337/dc11-0551
+33. Suksomboon N et al. Effect of vitamin K supplementation on insulin sensitivity: a meta-analysis. Diabetes Metab Syndr Obes. 2017. PMID:28496349 DOI:10.2147/DMSO.S137571
+34. Ahmed SR et al. The Differential Effects of Vitamin K Across Glycaemic Outcomes in Prediabetes and Type 2 Diabetes Mellitus. Nutrients. 2026. PMID:41599883 DOI:10.3390/nu18020269
+35. Ikari Y et al. Impact of menaquinone-4 supplementation on coronary artery calcification and arterial stiffness: an open label single arm study. Nutr J. 2016. PMID:27175730 DOI:10.1186/s12937-016-0175-8
+36. Li T et al. Vitamin K supplementation and vascular calcification: a systematic review and meta-analysis of randomized controlled trials. Front Nutr. 2023. PMID:37252246 DOI:10.3389/fnut.2023.1115069
+37. Lees JS et al. Vitamin K status, supplementation and vascular disease: a systematic review and meta-analysis. Heart. 2019. PMID:30514729 DOI:10.1136/heartjnl-2018-313955
+38. Kaesler N et al. Altered vitamin K biodistribution and metabolism in experimental and human chronic kidney disease. Kidney Int. 2022. PMID:34774554 DOI:10.1016/j.kint.2021.10.029
+39. Habu D et al. Role of vitamin K2 in the development of hepatocellular carcinoma in women with viral cirrhosis of the liver. JAMA. 2004. PMID:15265851 DOI:10.1001/jama.292.3.358
+40. Mizuta T et al. The effect of menatetrenone, a vitamin K2 analog, on disease recurrence and survival in patients with hepatocellular carcinoma after curative treatment: a pilot study. Cancer. 2006. PMID:16400650 DOI:10.1002/cncr.21667
+41. Yoshida H et al. Effect of vitamin K2 on the recurrence of hepatocellular carcinoma. Hepatology. 2011. PMID:21574174 DOI:10.1002/hep.24430
+42. Riaz IB et al. Role of vitamin K2 in preventing the recurrence of hepatocellular carcinoma after curative treatment: a meta-analysis of randomized controlled trials. BMC Gastroenterol. 2012. PMID:23191943 DOI:10.1186/1471-230X-12-170
+43. de Moraes FCA et al. Vitamin K2 Supplementation and Clinical Outcomes in Hepatocellular Carcinoma Patients: A Meta-Analysis with Trial Sequential Analysis. Nutr Cancer. 2026. PMID:41388930 DOI:10.1080/01635581.2025.2600102
+44. Guo L et al. The role of vitamin K in the prognosis of patients with hepatocellular carcinoma: a systematic review and meta-analysis. Front Oncol. 2026. PMID:41930200 DOI:10.3389/fonc.2026.1765445
+45. Haruna Y et al. Efficacy and safety of sorafenib plus vitamin K treatment for hepatocellular carcinoma: A phase II, randomized study. Cancer Med. 2021. PMID:33481328 DOI:10.1002/cam4.3674
+46. Yoshiji H et al. Combination of vitamin K2 and angiotensin-converting enzyme inhibitor ameliorates cumulative recurrence of hepatocellular carcinoma. J Hepatol. 2009. PMID:19501932 DOI:10.1016/j.jhep.2009.04.011
+47. Furukawa M et al. Changes of plasma des-gamma-carboxy prothrombin levels in patients with hepatocellular carcinoma in response to vitamin K. Cancer. 1992. PMID:1309308 DOI:10.1002/1097-0142(19920101)69:1<31::aid-cncr2820690108>3.0.co;2-6
+48. Schurgers LJ et al. Vitamin K-containing dietary supplements: comparison of synthetic vitamin K1 and natto-derived menaquinone-7. Blood. 2007. PMID:17158229 DOI:10.1182/blood-2006-08-040709
+49. Theuwissen E et al. Effect of low-dose supplements of menaquinone-7 (vitamin K2 ) on the stability of oral anticoagulant treatment: dose-response relationship in healthy volunteers. J Thromb Haemost. 2013. PMID:23530987 DOI:10.1111/jth.12203
+50. Mahtani KR et al. Vitamin K for improved anticoagulation control in patients receiving warfarin. Cochrane Database Syst Rev. 2014. PMID:24832594 DOI:10.1002/14651858.CD009917.pub2
+51. Hifumi T et al. Vitamin K2 for the reversal of warfarin-related coagulopathy. Am J Emerg Med. 2015. PMID:25636520 DOI:10.1016/j.ajem.2015.01.002
+52. Shea MK et al. Warfarin Treatment is Associated With Lower Postmortem Brain Vitamin K Concentrations in Older Adults. J Nutr. 2025. PMID:40339909 DOI:10.1016/j.tjnut.2025.04.035
+53. Harshman SG et al. Atorvastatin Decreases Renal Menaquinone-4 Formation in C57BL/6 Male Mice. J Nutr. 2019. PMID:30753659 DOI:10.1093/jn/nxy290
+54. McDuffie JR et al. Effects of orlistat on fat-soluble vitamins in obese adolescents. Pharmacotherapy. 2002. PMID:12126214 DOI:10.1592/phco.22.11.814.33627
+55. Vesa ŞC et al. Association Between VKORC1 Gene Polymorphisms and Osteopenia and Osteoporosis: A Systematic Review and Meta-Analysis. Medicina (Kaunas). 2026. PMID:41597466 DOI:10.3390/medicina62010180
+56. Vossen LM et al. Two Years of Menaquinone-7 Supplementation and Coronary Artery Calcification: A Randomized Clinical Trial. JAMA Cardiol. 2026. PMID:42268593 DOI:10.1001/jamacardio.2026.1279
+57. EFSA NDA Panel, Turck D et al. Dietary reference values for vitamin K. EFSA J. 2017. PMID:32625486 DOI:10.2903/j.efsa.2017.4780
+58. Iwamoto J et al. Efficacy of menatetrenone (vitamin K2) against non-vertebral and hip fractures in patients with neurological diseases: meta-analysis of three randomized, controlled trials. Clin Drug Investig. 2009. PMID:19499964 DOI:10.2165/00044011-200929070-00005 RETRACTED (2018).
+59. Sato Y et al. Amelioration of osteoporosis by menatetrenone in elderly female Parkinson's disease patients with vitamin D deficiency. Bone. 2002. PMID:12110423 DOI:10.1016/s8756-3282(02)00783-4 RETRACTED (2018).
+60. NIH Office of Dietary Supplements. Vitamin K - Health Professional Fact Sheet; ODS Frequently Asked Questions (nutrients without a UL). URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/ URL:https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions.aspx

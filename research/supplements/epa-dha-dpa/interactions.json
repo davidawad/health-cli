@@ -4,42 +4,325 @@
   "slug": "epa-dha-dpa",
   "aliases": [
     "omega-3 fatty acids",
+    "n-3 PUFA",
+    "long-chain omega-3",
+    "fish oil",
+    "algal oil",
     "eicosapentaenoic acid",
     "docosahexaenoic acid",
-    "docosapentaenoic acid"
+    "docosapentaenoic acid",
+    "icosapent ethyl",
+    "Vascepa",
+    "omega-3-acid ethyl esters",
+    "Lovaza",
+    "Omacor",
+    "omega-3 carboxylic acids"
   ],
   "category": "other",
   "rx_status": "otc",
-  "evidence_certainty_overall": "low",
+  "evidence_certainty_overall": "moderate",
   "edges": [
-    {
-      "with": "atrial fibrillation",
-      "with_kind": "condition",
-      "kind": "caution",
-      "severity": "moderate",
-      "mechanism": "High-dose EPA/DHA showed increased incident AF especially in high-CVD-risk populations.",
-      "evidence": "Meta-analysis of 34 trials.",
-      "citations": [
-        "PMID:41445624"
-      ]
-    },
     {
       "with": "warfarin",
       "with_kind": "drug",
       "kind": "monitor",
       "severity": "moderate",
-      "mechanism": "High-dose omega-3 treatment may add bleeding tendency; monitor clinical bleeding.",
-      "evidence": "Meta-analysis found increased total bleeding with EPA monotherapy.",
+      "mechanism": "Omega-3s may reduce platelet aggregation/thromboxane A2 and factor VII; additive anticoagulant effect possible. No PK interaction: icosapent ethyl 4 g/d did not change R-/S-warfarin exposure or INR.",
+      "evidence": "Phase 1 PK/PD study (n=25, null); case report of INR 2.8->4.3 after fish oil doubled to 2 g/d; FDA labels advise periodic monitoring.",
       "citations": [
-        "PMID:34505026"
+        "PMID:24760401",
+        "PMID:14742793",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=21cfa4ce-0b05-47ed-b268-339eb1b83b75",
+        "PMID:22300597"
+      ]
+    },
+    {
+      "with": "antiplatelet agents",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Additive effects on hemostasis; in REDUCE-IT bleeding with icosapent ethyl was greater with concomitant aspirin or clopidogrel.",
+      "evidence": "FDA Vascepa label (bleeding 12% vs 10%, serious 3% vs 2%); RCT MA: bleeding related to EPA dose, not background antiplatelet use.",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9c1a2828-1583-4414-ab22-a60480e8e508",
+        "PMID:38742535",
+        "PMID:30415628"
+      ]
+    },
+    {
+      "with": "anticoagulants",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Prolonged bleeding time (within normal limits) reported with omega-3s; labels advise monitoring with anticoagulants or other drugs affecting coagulation.",
+      "evidence": "FDA labels (Vascepa, Lovaza); MA of 11 RCTs: no overall bleeding excess (RR 1.09) but ~50% relative (0.6% absolute) increase with high-dose purified EPA.",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9c1a2828-1583-4414-ab22-a60480e8e508",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=21cfa4ce-0b05-47ed-b268-339eb1b83b75",
+        "PMID:38742535"
+      ]
+    },
+    {
+      "with": "atrial fibrillation",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Dose-dependent increase in incident AF (EPA-mediated in OMEMI; possibly vagal); more symptomatic recurrences in paroxysmal/persistent AF with Lovaza.",
+      "evidence": "MAs of RCTs: HR 1.25 overall, +11% per 1 g/d; OR 1.43 only at >1.5 g/d in high-CV-risk patients; FDA labels warn.",
+      "citations": [
+        "PMID:42517224",
+        "PMID:34612056",
+        "PMID:37515843",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=21cfa4ce-0b05-47ed-b268-339eb1b83b75",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9c1a2828-1583-4414-ab22-a60480e8e508"
+      ]
+    },
+    {
+      "with": "fish or shellfish allergy",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Products are derived from fish oil; residual fish protein could theoretically trigger reactions. Highly refined oils were tolerated in a small pilot challenge study; algal oil avoids fish source.",
+      "evidence": "FDA label warnings (Vascepa, Lovaza); pilot oral challenge study, 6/6 finned-fish-allergic patients tolerated fish oil.",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9c1a2828-1583-4414-ab22-a60480e8e508",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=21cfa4ce-0b05-47ed-b268-339eb1b83b75",
+        "PMID:18926060"
+      ]
+    },
+    {
+      "with": "active bleeding or high bleeding risk",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Antithrombotic effect of omega-3s; risk concentrated with high-dose purified EPA.",
+      "evidence": "RCT MA (n=120,643) and REDUCE-IT label data; absolute excess small.",
+      "citations": [
+        "PMID:38742535",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9c1a2828-1583-4414-ab22-a60480e8e508"
+      ]
+    },
+    {
+      "with": "hepatic impairment",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Label recommends periodic ALT/AST monitoring in hepatic impairment during omega-3-acid ethyl ester therapy.",
+      "evidence": "FDA Lovaza label only.",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=21cfa4ce-0b05-47ed-b268-339eb1b83b75"
+      ]
+    },
+    {
+      "with": "pregnancy",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Omega-3 LCPUFA reduce preterm and early preterm birth but increase prolonged gestation (>42 wk) and possibly large-for-gestational-age infants; benefit mainly with low baseline status.",
+      "evidence": "Cochrane (26 RCTs): PTB RR 0.89, early PTB RR 0.58, prolonged gestation RR 1.61; ORIP null in replete women; ADORE dose effect in low-DHA women.",
+      "citations": [
+        "PMID:30480773",
+        "PMID:31509674",
+        "PMID:34308309"
+      ]
+    },
+    {
+      "with": "FADS Indel rs66698963",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "FADS1 insertion allele increases arachidonic acid synthesis; high-dose DHA reduced early preterm birth in I-carriers but increased prolonged gestation in D/D.",
+      "evidence": "Post hoc genotype analysis of ADORE RCT (n=761); needs prospective confirmation.",
+      "citations": [
+        "PMID:42848825"
+      ]
+    },
+    {
+      "with": "statins",
+      "with_kind": "drug-class",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Positive EPA outcome trials were statin add-on; icosapent ethyl CV indication is adjunct to maximally tolerated statin.",
+      "evidence": "REDUCE-IT, JELIS, RESPECT-EPA; FDA Vascepa label.",
+      "citations": [
+        "PMID:30415628",
+        "PMID:17398308",
+        "PMID:38873793",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9c1a2828-1583-4414-ab22-a60480e8e508"
+      ]
+    },
+    {
+      "with": "antihypertensives",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Small additive blood-pressure lowering (about -2.6/-1.6 mmHg at 2-3 g/d).",
+      "evidence": "Dose-response MA of 71 RCTs.",
+      "citations": [
+        "PMID:35647665"
+      ]
+    },
+    {
+      "with": "Vitamin E",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Both listed as supplements that may interfere with hemostasis; stacking could add bleeding tendency.",
+      "evidence": "Narrative review; anecdotal cases only, controlled data insufficient.",
+      "citations": [
+        "PMID:22300597"
+      ]
+    },
+    {
+      "with": "Garlic",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Garlic and fish oil both reported to reduce platelet aggregation; theoretical additive bleeding risk.",
+      "evidence": "Narrative review; anecdotal cases only.",
+      "citations": [
+        "PMID:22300597"
+      ]
+    },
+    {
+      "with": "Ginger Root",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Ginger and fish oil both proposed to affect hemostasis; theoretical additive bleeding risk.",
+      "evidence": "Narrative review; anecdotal cases only.",
+      "citations": [
+        "PMID:22300597"
+      ]
+    },
+    {
+      "with": "Ginkgo biloba",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Ginkgo and fish oil both proposed to affect platelet function; anecdotal hemorrhage reports with ginkgo.",
+      "evidence": "Narrative review; anecdotal cases only.",
+      "citations": [
+        "PMID:22300597"
+      ]
+    },
+    {
+      "with": "Vitamin D-3",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "No interaction on AF or depression in VITAL factorial; additive slowing of PhenoAge epigenetic clock with vitamin D and exercise in DO-HEALTH.",
+      "evidence": "Large factorial RCTs (VITAL, DO-HEALTH post hoc).",
+      "citations": [
+        "PMID:33724323",
+        "PMID:34932079",
+        "PMID:39900648"
+      ]
+    },
+    {
+      "with": "LDL cholesterol",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "True physiological rise with DHA-containing products (DHA +7.23 mg/dL vs placebo; Lovaza +44.5% in severe HTG); EPA alone does not raise LDL-C.",
+      "evidence": "MA of monotherapy RCTs; EFSA opinion (~3% rise at 2-6 g/d); Lovaza label requires LDL monitoring.",
+      "citations": [
+        "PMID:21975919",
+        "PMID:42016086",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=21cfa4ce-0b05-47ed-b268-339eb1b83b75"
+      ]
+    },
+    {
+      "with": "triglycerides",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Intended near-linear dose-dependent TG reduction via reduced hepatic VLDL-TG production.",
+      "evidence": "Dose-response MA of 90 RCTs; FDA labels.",
+      "citations": [
+        "PMID:37264945",
+        "PMID:28797250",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=21cfa4ce-0b05-47ed-b268-339eb1b83b75"
+      ]
+    },
+    {
+      "with": "omega-3 index / EPA:AA ratio",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "RBC EPA+DHA (% of fatty acids) and EPA/AA ratio rise with supplementation; used as exposure/adherence markers and proposed risk targets (<4% vs >8%).",
+      "evidence": "Cohort-derived risk estimates; trial use of EPA/AA ratio; MA of 96 trials on blood fatty-acid response.",
+      "citations": [
+        "PMID:28511049",
+        "PMID:38873793",
+        "PMID:41568426"
       ]
     }
   ],
   "citations": [
-    "PMID:41445624",
-    "PMID:39076869",
-    "URL:https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+    "PMID:14742793",
+    "PMID:17398308",
+    "PMID:18926060",
+    "PMID:21975919",
+    "PMID:22300597",
+    "PMID:24760401",
+    "PMID:25604397",
+    "PMID:27827947",
+    "PMID:28511049",
+    "PMID:28797250",
+    "PMID:29289538",
+    "PMID:29652551",
+    "PMID:30146932",
+    "PMID:30415628",
+    "PMID:30415637",
+    "PMID:30480773",
+    "PMID:31383846",
+    "PMID:31509674",
+    "PMID:32114706",
+    "PMID:33190147",
+    "PMID:33191772",
+    "PMID:33315722",
+    "PMID:33724323",
+    "PMID:34308309",
     "PMID:34505026",
-    "PMID:41445624"
+    "PMID:34612056",
+    "PMID:34932079",
+    "PMID:35082139",
+    "PMID:35647665",
+    "PMID:35762321",
+    "PMID:35900212",
+    "PMID:37264945",
+    "PMID:37468189",
+    "PMID:37515843",
+    "PMID:38468309",
+    "PMID:38742535",
+    "PMID:38800667",
+    "PMID:38869144",
+    "PMID:38873793",
+    "PMID:38922552",
+    "PMID:39306009",
+    "PMID:39357585",
+    "PMID:39564892",
+    "PMID:39617283",
+    "PMID:39639295",
+    "PMID:39900648",
+    "PMID:40148153",
+    "PMID:40169548",
+    "PMID:40974959",
+    "PMID:41010527",
+    "PMID:41156531",
+    "PMID:41201837",
+    "PMID:41461240",
+    "PMID:41542352",
+    "PMID:41568426",
+    "PMID:41773213",
+    "PMID:41851014",
+    "PMID:42016086",
+    "PMID:42144851",
+    "PMID:42315445",
+    "PMID:42517224",
+    "PMID:42848825",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=21cfa4ce-0b05-47ed-b268-339eb1b83b75",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9c1a2828-1583-4414-ab22-a60480e8e508"
   ]
 }

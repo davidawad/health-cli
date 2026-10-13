@@ -4,7 +4,10 @@
   "slug": "k2-mk4",
   "aliases": [
     "menaquinone-4",
-    "menatetrenone"
+    "MK-4",
+    "menatetrenone",
+    "vitamin K2 (MK-4)",
+    "Glakay"
   ],
   "category": "vitamin",
   "rx_status": "otc",
@@ -15,20 +18,318 @@
       "with_kind": "drug",
       "kind": "avoid",
       "severity": "major",
-      "mechanism": "Vitamin K can reduce warfarin anticoagulant effect; changes in intake require INR monitoring.",
-      "evidence": "Official NIH ODS vitamin K fact sheet.",
+      "mechanism": "MK-4 is a functional vitamin K that restores carboxylation of clotting factors and antagonises warfarin; vitamin K2 is used in Japan to reverse warfarin coagulopathy. Prior warfarin use excluded from MK-4 trials.",
+      "evidence": "Case report of K2 reversal; MK-7 dose-response in VKA-treated volunteers (10-45 ug lowered INR); ODS advises consistent vitamin K intake; no MK-4-specific dose-response study",
       "citations": [
+        "PMID:25636520",
+        "PMID:23530987",
+        "PMID:17158229",
+        "PMID:23828145",
         "URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/"
+      ]
+    },
+    {
+      "with": "vitamin K antagonists (acenocoumarol, phenprocoumon)",
+      "with_kind": "drug-class",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Pharmacodynamic antagonism of VKA anticoagulation; INR fall and loss of anticoagulant control.",
+      "evidence": "Volunteer acenocoumarol study with MK-7; extrapolated to MK-4",
+      "citations": [
+        "PMID:23530987",
+        "PMID:17158229"
+      ]
+    },
+    {
+      "with": "warfarin (tissue MK-4 depletion)",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Long-term warfarin use associated with 68-79% lower brain MK-4 concentrations; clinical significance unknown.",
+      "evidence": "Autopsy cohort (n=381); observational",
+      "citations": [
+        "PMID:40339909"
+      ]
+    },
+    {
+      "with": "bisphosphonates",
+      "with_kind": "drug-class",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Proposed complementary action (carboxylation of osteocalcin plus antiresorptive); combination tested in JOINT-03.",
+      "evidence": "RCT (n=105) found no additive BMD or turnover effect of MK-4 45 mg/d; low certainty",
+      "citations": [
+        "PMID:37338608",
+        "PMID:23828145"
+      ]
+    },
+    {
+      "with": "glucocorticoids",
+      "with_kind": "drug-class",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "MK-4 prevented prednisolone-induced lumbar BMD loss, comparable to alfacalcidol.",
+      "evidence": "Small RCT (n=60, 8 weeks); very low certainty",
+      "citations": [
+        "PMID:14712427"
+      ]
+    },
+    {
+      "with": "statins",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "MK-4 synthesis from menadione uses mevalonate-pathway intermediates; atorvastatin lowered renal MK-4 formation ~45% in mice; statin plus PPI associated with highest PIVKA-II in dialysis patients.",
+      "evidence": "Animal study and post hoc dialysis cohort; clinical relevance unknown",
+      "citations": [
+        "PMID:30753659",
+        "PMID:34774554"
+      ]
+    },
+    {
+      "with": "sorafenib",
+      "with_kind": "drug",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Menatetrenone 45 mg/d added to sorafenib increased objective response (27.3% vs 4.5%) and PFS (HR 0.44) in HCC.",
+      "evidence": "Open-label phase II RCT (n=44); very low certainty",
+      "citations": [
+        "PMID:33481328"
+      ]
+    },
+    {
+      "with": "ACE inhibitors (perindopril)",
+      "with_kind": "drug-class",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Combination with MK-4 suppressed VEGF and reduced cumulative HCC recurrence; neither agent alone did.",
+      "evidence": "Small clinical study (n=87); very low certainty",
+      "citations": [
+        "PMID:19501932"
+      ]
+    },
+    {
+      "with": "orlistat",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Fat malabsorption reduces absorption of fat-soluble vitamin K; MK-4 absorption is fat-dependent.",
+      "evidence": "Pilot study (non-significant vitamin K fall); PK study of dietary fat",
+      "citations": [
+        "PMID:12126214",
+        "PMID:8877895"
+      ]
+    },
+    {
+      "with": "Vitamin E",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "High-dose alpha-tocopherol antagonises vitamin K (raised PIVKA-II) and lowered extrahepatic MK-4 in rats; shared omega-hydroxylation/PXR pathways.",
+      "evidence": "Two 12-week RCTs of 1000 IU/d (PIVKA-II rise); rat feeding study; mechanistic review",
+      "citations": [
+        "PMID:15213041",
+        "PMID:16857056",
+        "PMID:14585304"
+      ]
+    },
+    {
+      "with": "Vitamin D-3",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Vitamin D drives calcium absorption while vitamin K carboxylates osteocalcin/MGP; alfacalcidol plus menatetrenone raised lumbar BMD more than either alone; MK-4 attenuated alfacalcidol-induced serum calcium rise.",
+      "evidence": "Small Japanese RCTs positive; null RCT in North American women on calcium + D3; review; low certainty",
+      "citations": [
+        "PMID:11180916",
+        "PMID:14712427",
+        "PMID:39125301",
+        "PMID:19113922"
+      ]
+    },
+    {
+      "with": "K1",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Phylloquinone is converted to MK-4 via menadione and UBIAD1; additive vitamin K load relevant for VKA users. K1 1 mg and MK-4 45 mg had similar ucOC effects.",
+      "evidence": "Mechanistic (human enzyme, rat tracer) and RCT data",
+      "citations": [
+        "PMID:20953171",
+        "PMID:24085302",
+        "PMID:19113922"
+      ]
+    },
+    {
+      "with": "K2 MK-7",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "MK-7 has far higher bioavailability and longer half-life at nutritional doses than MK-4; combined use adds vitamin K activity relevant to VKA therapy.",
+      "evidence": "Human PK comparison; volunteer anticoagulation studies",
+      "citations": [
+        "PMID:23140417",
+        "PMID:17158229",
+        "PMID:23530987"
+      ]
+    },
+    {
+      "with": "Calcium",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Calcium was co-administered in most menatetrenone fracture trials; the OF study compared calcium alone vs calcium plus menatetrenone.",
+      "evidence": "Large open-label RCT null on primary endpoint; low certainty",
+      "citations": [
+        "PMID:19082528",
+        "PMID:24426779"
+      ]
+    },
+    {
+      "with": "chronic kidney disease / dialysis",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Uremic lipoprotein transport and renal MK-4 synthesis are disturbed; functional vitamin K deficiency common.",
+      "evidence": "Translational study with dialysis patients",
+      "citations": [
+        "PMID:34774554"
+      ]
+    },
+    {
+      "with": "hepatocellular carcinoma / viral cirrhosis",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "MK-4 45-90 mg/d studied for HCC chemoprevention; small trials and MAs positive, phase III RCT null; also preserves BMD in cirrhosis.",
+      "evidence": "Phase III RCT (n=548) null; MAs of small trials; low certainty",
+      "citations": [
+        "PMID:21574174",
+        "PMID:41388930",
+        "PMID:15265851",
+        "PMID:12003435"
+      ]
+    },
+    {
+      "with": "fat malabsorption",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Menatetrenone absorption tripled with higher meal fat; malabsorption expected to reduce exposure.",
+      "evidence": "Human PK crossover study",
+      "citations": [
+        "PMID:8877895"
+      ]
+    },
+    {
+      "with": "PIVKA-II / des-gamma-carboxy prothrombin (DCP)",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "moderate",
+      "mechanism": "Vitamin K (MK-4) lowers DCP in HCC patients with deficiency-like kinetics, with rebound after 7-10 days, potentially masking this HCC tumour marker.",
+      "evidence": "Clinical pharmacodynamic study",
+      "citations": [
+        "PMID:1309308",
+        "PMID:15213041"
+      ]
+    },
+    {
+      "with": "undercarboxylated osteocalcin (ucOC)",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "MK-4 rapidly lowers ucOC and ucOC/OC (up to ~82%) and raises total OC; markers reflect recent intake.",
+      "evidence": "RCTs and MAs",
+      "citations": [
+        "PMID:12720050",
+        "PMID:24426779",
+        "PMID:41268154"
+      ]
+    },
+    {
+      "with": "INR / prothrombin time",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "major",
+      "mechanism": "In VKA-treated patients vitamin K intake lowers INR (true pharmacodynamic effect).",
+      "evidence": "Volunteer acenocoumarol study",
+      "citations": [
+        "PMID:23530987"
+      ]
+    },
+    {
+      "with": "VKORC1 variants",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "VKORC1 risk alleles modestly associated with osteopenia/osteoporosis; effect on MK-4 response untested.",
+      "evidence": "MA of 6 studies (n=7335); OR 1.16",
+      "citations": [
+        "PMID:41597466"
       ]
     }
   ],
   "citations": [
-    "PMID:30734066",
+    "PMID:10750566",
+    "PMID:11180916",
+    "PMID:12003435",
+    "PMID:12110423",
+    "PMID:12126214",
+    "PMID:12720050",
+    "PMID:1309308",
+    "PMID:14585304",
+    "PMID:14712427",
+    "PMID:15213041",
+    "PMID:15265851",
+    "PMID:16400650",
     "PMID:16801507",
+    "PMID:16857056",
+    "PMID:17158229",
+    "PMID:17287908",
+    "PMID:19082528",
+    "PMID:19113922",
+    "PMID:19499964",
+    "PMID:19501932",
+    "PMID:19818211",
+    "PMID:20953171",
+    "PMID:21574174",
+    "PMID:21868771",
+    "PMID:23140417",
+    "PMID:23191943",
+    "PMID:23530987",
+    "PMID:23702931",
+    "PMID:23828145",
+    "PMID:24085302",
+    "PMID:24426779",
+    "PMID:24832594",
+    "PMID:25516361",
+    "PMID:25636520",
+    "PMID:27175730",
+    "PMID:28496349",
+    "PMID:30514729",
     "PMID:30734066",
-    "PMID:16801507",
-    "URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/",
-    "PMID:30734066",
-    "PMID:16801507"
+    "PMID:30753659",
+    "PMID:31076817",
+    "PMID:32625486",
+    "PMID:33481328",
+    "PMID:34774554",
+    "PMID:35711002",
+    "PMID:36033779",
+    "PMID:37252246",
+    "PMID:37338608",
+    "PMID:39125301",
+    "PMID:39657786",
+    "PMID:39849242",
+    "PMID:40339909",
+    "PMID:40947710",
+    "PMID:41268154",
+    "PMID:41388930",
+    "PMID:41597466",
+    "PMID:41599883",
+    "PMID:41930200",
+    "PMID:42268593",
+    "PMID:8877895",
+    "URL:https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions.aspx",
+    "URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/"
   ]
 }

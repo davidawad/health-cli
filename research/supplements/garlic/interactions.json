@@ -3,40 +3,340 @@
   "supplement": "Garlic",
   "slug": "garlic",
   "aliases": [
-    "Allium sativum"
+    "Allium sativum",
+    "garlic powder",
+    "garlic tablets",
+    "allicin",
+    "allicin-standardized garlic",
+    "garlic oil",
+    "Kwai",
+    "odourless garlic"
   ],
   "category": "botanical",
   "rx_status": "otc",
   "evidence_certainty_overall": "low",
   "edges": [
     {
+      "with": "Saquinavir",
+      "with_kind": "drug",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Garlic supplements reduced saquinavir AUC 51%, trough 49% and Cmax 54%, with incomplete recovery after a 10-day washout; ex vivo data implicate increased intestinal P-gp/MRP2 efflux.",
+      "evidence": "Open-label PK study in 10 healthy volunteers plus ex vivo mechanistic work and review; moderate certainty for PK effect",
+      "citations": [
+        "PMID:11740713",
+        "PMID:21104925",
+        "PMID:17918162"
+      ]
+    },
+    {
+      "with": "HIV protease inhibitors",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Possible reduced exposure via intestinal efflux/first-pass changes (often described as CYP3A4 induction, but probe phenotyping showed no CYP3A4 change); short-term garlic did not significantly alter single-dose ritonavir.",
+      "evidence": "Human PK studies (n=10 each), probe-phenotyping RCT, ex vivo data; low certainty outside saquinavir",
+      "citations": [
+        "PMID:12580992",
+        "PMID:11740713",
+        "PMID:21104925",
+        "PMID:12235448"
+      ]
+    },
+    {
       "with": "warfarin",
       "with_kind": "drug",
-      "kind": "caution",
-      "severity": "major",
-      "mechanism": "Garlic preparations may increase bleeding when combined with anticoagulant therapy.",
-      "evidence": "Official NCCIH safety summary.",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Antiplatelet activity may add to anticoagulation; case reports of over-anticoagulation (warfarin, fluindione), but a crossover RCT found no change in warfarin PK/INR and AGE did not increase bleeding in 48 warfarin patients.",
+      "evidence": "Case reports, systematic reviews, crossover RCT (n=12), pilot RCT of AGE (n=48); low certainty",
       "citations": [
-        "URL:https://www.nccih.nih.gov/health/garlic"
+        "PMID:18516070",
+        "PMID:16484565",
+        "PMID:19719333",
+        "PMID:17918162"
+      ]
+    },
+    {
+      "with": "anticoagulants",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Additive effect on hemostasis; garlic among supplements most strongly associated with surgical bleeding.",
+      "evidence": "Narrative reviews and case reports; low certainty",
+      "citations": [
+        "PMID:36304597",
+        "PMID:22300597",
+        "PMID:17918162"
+      ]
+    },
+    {
+      "with": "antiplatelet agents",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "AGE inhibits ADP-induced aggregation and garlic oil modestly reduces adrenaline-induced aggregation; additive with aspirin/P2Y12 inhibitors plausible, though dietary doses did not impair platelet function tests.",
+      "evidence": "Small human platelet trials and reviews; no clinical outcome study; low certainty",
+      "citations": [
+        "PMID:11053504",
+        "PMID:17365851",
+        "PMID:17959943",
+        "PMID:22300597"
+      ]
+    },
+    {
+      "with": "surgery / neuraxial anesthesia",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Bleeding risk (spinal epidural hematoma case); ASA/AANA advise stopping herbal products 1-2 weeks before elective surgery.",
+      "evidence": "Case report, perioperative reviews; low certainty",
+      "citations": [
+        "PMID:38613937",
+        "PMID:11448284",
+        "PMID:36304597",
+        "PMID:2352608"
+      ]
+    },
+    {
+      "with": "bleeding disorders",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Qualitative platelet dysfunction reported with heavy garlic intake; additive to underlying hemostatic defects.",
+      "evidence": "Case report and review; very low certainty",
+      "citations": [
+        "PMID:2352608",
+        "PMID:22300597"
+      ]
+    },
+    {
+      "with": "isoniazid",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Garlic extract lowered isoniazid Cmax ~65% and AUC ~55% in rabbits; rifampicin unaffected.",
+      "evidence": "Single animal PK study; no human data; very low certainty",
+      "citations": [
+        "PMID:16699292"
+      ]
+    },
+    {
+      "with": "CYP2E1 substrates",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Garlic oil inhibited CYP2E1 by 22-39% and diallyl sulfide reduced chlorzoxazone hydroxylation in volunteers.",
+      "evidence": "Probe-drug phenotyping studies in healthy young and older adults; moderate certainty for the PK effect, clinical relevance uncertain",
+      "citations": [
+        "PMID:12235448",
+        "PMID:15974642",
+        "PMID:11530830"
+      ]
+    },
+    {
+      "with": "docetaxel",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "CYP3A substrate; garlic 600 mg twice daily did not significantly change clearance overall, but exposure rose markedly in CYP3A5*1A/*1A carriers (n=3).",
+      "evidence": "PK study in 10 patients with metastatic breast cancer; very low certainty",
+      "citations": [
+        "PMID:16899612"
+      ]
+    },
+    {
+      "with": "antihypertensives",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Additive BP lowering (SBP about -4 to -9 mmHg in hypertensive adults).",
+      "evidence": "Multiple MAs of RCTs; moderate certainty for BP effect, no interaction trials",
+      "citations": [
+        "PMID:26764326",
+        "PMID:41393949",
+        "PMID:40580481"
+      ]
+    },
+    {
+      "with": "antidiabetic agents",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Small additive glucose lowering (FBG -2.76 mg/dL, HbA1c -0.53%); a chlorpropamide interaction is reported.",
+      "evidence": "GRADE MA of 27 RCTs; interaction review; low certainty",
+      "citations": [
+        "PMID:42398591",
+        "PMID:38892625",
+        "PMID:19719333"
       ]
     },
     {
       "with": "Garlic (Kyolic)",
       "with_kind": "supplement",
       "kind": "caution",
-      "severity": "minor",
-      "mechanism": "Aged garlic is a garlic preparation; duplicated exposure has uncertain incremental effect and can increase garlic adverse effects.",
-      "evidence": "Ingredient overlap; no direct combination trial.",
+      "severity": "moderate",
+      "mechanism": "Duplicate garlic exposure: aged garlic extract also inhibits ADP-induced platelet aggregation and lowers SBP/LDL, so antiplatelet and BP effects are additive; treat combined use as a single garlic exposure for bleeding and perioperative purposes.",
+      "evidence": "AGE platelet trial, AGE dose-response MA, perioperative review; low certainty",
       "citations": [
-        "PMID:30619868",
-        "URL:https://www.nccih.nih.gov/health/garlic"
+        "PMID:11053504",
+        "PMID:40628369",
+        "PMID:38613937"
+      ]
+    },
+    {
+      "with": "EPA/DHA/DPA",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Complementary lipid effects: garlic lowered LDL and fish oil lowered TG, and the combination offset the fish-oil LDL rise; both appear in reviews of supplements affecting hemostasis.",
+      "evidence": "Single 12-week RCT (n=50) plus review; low certainty",
+      "citations": [
+        "PMID:9022529",
+        "PMID:22300597"
+      ]
+    },
+    {
+      "with": "Vitamin E",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Both reviewed as supplements that may interfere with hemostasis; stacking is a theoretical additive bleeding risk.",
+      "evidence": "Narrative review; very low certainty",
+      "citations": [
+        "PMID:22300597"
+      ]
+    },
+    {
+      "with": "Ginger Root",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Both reviewed as supplements that may interfere with hemostasis; stacking is a theoretical additive bleeding risk.",
+      "evidence": "Narrative review; very low certainty",
+      "citations": [
+        "PMID:22300597"
+      ]
+    },
+    {
+      "with": "Turmeric",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Turmeric associated with bleeding in anticoagulated patients; garlic associated with surgical bleeding; additive exposure inferred.",
+      "evidence": "Narrative review; very low certainty",
+      "citations": [
+        "PMID:36304597"
+      ]
+    },
+    {
+      "with": "garlic / Allium allergy",
+      "with_kind": "condition",
+      "kind": "contraindicated",
+      "severity": "moderate",
+      "mechanism": "IgE-mediated allergy (alliin lyase major allergen, heat labile; powder retains raw-garlic proteins); urticaria, angioedema, anaphylaxis reported.",
+      "evidence": "Case reports and review; low certainty",
+      "citations": [
+        "PMID:39022755",
+        "PMID:17918162"
+      ]
+    },
+    {
+      "with": "topical application of raw garlic",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Volatile organosulfur compounds cause chemical (mostly second-degree) burns on skin and mucosa.",
+      "evidence": "Systematic review of 39 cases",
+      "citations": [
+        "PMID:33571752"
+      ]
+    },
+    {
+      "with": "breastfeeding",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Garlic flavours breast milk and alters infant nursing behaviour.",
+      "evidence": "Controlled study in mother-infant dyads; low certainty",
+      "citations": [
+        "PMID:8108198",
+        "PMID:17918162"
+      ]
+    },
+    {
+      "with": "platelet aggregation tests",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "True pharmacological inhibition (ADP Km roughly doubled after AGE) may alter aggregometry; dietary raw garlic did not change PFA-100/Multiplate/TEG.",
+      "evidence": "Small human studies; low certainty",
+      "citations": [
+        "PMID:11053504",
+        "PMID:17959943"
       ]
     }
   ],
   "citations": [
+    "PMID:2352608",
+    "PMID:8108198",
+    "PMID:8582091",
+    "PMID:9022529",
+    "PMID:10975959",
+    "PMID:11053504",
+    "PMID:11448284",
+    "PMID:11530830",
+    "PMID:11697022",
+    "PMID:11740713",
+    "PMID:12235448",
+    "PMID:12580992",
+    "PMID:15974642",
+    "PMID:16484565",
+    "PMID:16699292",
+    "PMID:16856110",
+    "PMID:16899612",
+    "PMID:17325296",
+    "PMID:17365851",
+    "PMID:17918162",
+    "PMID:17951430",
+    "PMID:17959943",
+    "PMID:18516070",
+    "PMID:18554422",
+    "PMID:19555517",
+    "PMID:19719333",
+    "PMID:21104925",
+    "PMID:22280901",
+    "PMID:22300597",
+    "PMID:22651380",
+    "PMID:24681077",
+    "PMID:25386977",
+    "PMID:25557383",
+    "PMID:26522661",
+    "PMID:26764326",
+    "PMID:29937536",
+    "PMID:30049636",
+    "PMID:30155945",
+    "PMID:30949665",
+    "PMID:31511230",
+    "PMID:31660038",
+    "PMID:33571752",
+    "PMID:35402472",
+    "PMID:36304597",
+    "PMID:36351465",
+    "PMID:36576698",
+    "PMID:37517570",
+    "PMID:38613937",
+    "PMID:38892625",
+    "PMID:39022755",
     "PMID:39113105",
-    "URL:https://www.nccih.nih.gov/health/garlic",
-    "URL:https://www.nccih.nih.gov/health/garlic",
-    "PMID:39113105"
+    "PMID:39275211",
+    "PMID:39437887",
+    "PMID:40580481",
+    "PMID:40628369",
+    "PMID:40770379",
+    "PMID:41273868",
+    "PMID:41393949",
+    "PMID:42398591",
+    "PMID:42527229"
   ]
 }

@@ -3,28 +3,320 @@
   "supplement": "Fisetin",
   "slug": "fisetin",
   "aliases": [
-    "3,3\u2032,4\u2032,7-tetrahydroxyflavone"
+    "3,3',4',7-tetrahydroxyflavone",
+    "fisetin flavonol",
+    "FF-20",
+    "Hybrid-FENUMAT fisetin",
+    "Rhus succedanea extract"
   ],
   "category": "longevity",
   "rx_status": "otc",
-  "evidence_certainty_overall": "low",
+  "evidence_certainty_overall": "very-low",
   "edges": [
+    {
+      "with": "CYP2C8 substrates (e.g. paclitaxel)",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Fisetin and its metabolite geraldol selectively, reversibly and non-competitively inhibit CYP2C8 in human liver microsomes (Ki 4.1 uM and 11.5 uM).",
+      "evidence": "In vitro HLM only; no human interaction study",
+      "citations": [
+        "PMID:29454704"
+      ]
+    },
+    {
+      "with": "CYP2C9 substrates (e.g. NSAIDs, sulfonylureas)",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Fisetin competitively inhibits CYP2C9-mediated diclofenac 4'-hydroxylation (Ki <=2.2 uM).",
+      "evidence": "Recombinant enzyme study; clinical relevance unknown",
+      "citations": [
+        "PMID:19074529"
+      ]
+    },
     {
       "with": "warfarin",
       "with_kind": "drug",
       "kind": "caution",
-      "severity": "minor",
-      "mechanism": "Potential CYP/enzyme or hemostatic interaction has not been clinically established; medication interaction evidence is insufficient.",
-      "evidence": "No direct clinical interaction evidence; precaution only.",
+      "severity": "moderate",
+      "mechanism": "CYP2C9 inhibition (main clearance of S-warfarin) plus antiplatelet/antithrombotic activity of fisetin could raise bleeding risk; monitor INR.",
+      "evidence": "Mechanistic in vitro and rat data; no clinical case or interaction study",
       "citations": [
-        "PMID:42796982"
+        "PMID:19074529",
+        "PMID:1776142",
+        "PMID:25372471"
+      ]
+    },
+    {
+      "with": "antiplatelet agents",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Fisetin inhibits arachidonic-acid/collagen/ADP-induced platelet aggregation via thromboxane synthesis inhibition and TP receptor antagonism; oral fisetin protected rats from arterial thrombosis. Additive bleeding plausible.",
+      "evidence": "In vitro rabbit platelets and rat thrombosis model; very low certainty",
+      "citations": [
+        "PMID:1776142",
+        "PMID:25372471",
+        "PMID:38735483"
+      ]
+    },
+    {
+      "with": "thrombolytics (rt-PA)",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Fisetin was co-administered with rt-PA in acute ischemic stroke with lower NIHSS in delayed-treatment strata; bleeding outcomes not reported in abstract despite antiplatelet activity.",
+      "evidence": "One double-blind RCT (China); very low certainty",
+      "citations": [
+        "PMID:31434498",
+        "PMID:1776142"
+      ]
+    },
+    {
+      "with": "taxanes (paclitaxel, cabazitaxel)",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Preclinical synergy with paclitaxel and cabazitaxel; CYP2C8 inhibition could increase paclitaxel exposure. Direction of net clinical effect unknown.",
+      "evidence": "Cell and xenograft studies plus HLM inhibition; no human data",
+      "citations": [
+        "PMID:26884726",
+        "PMID:27765854",
+        "PMID:29454704"
+      ]
+    },
+    {
+      "with": "anthracyclines (doxorubicin)",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Synergistic lymphoma cell killing with doxorubicin in vitro and in mice; fisetin attenuated doxorubicin-induced vascular senescence in mice.",
+      "evidence": "Preclinical only",
+      "citations": [
+        "PMID:39929420",
+        "PMID:42144546"
+      ]
+    },
+    {
+      "with": "platinum agents (cisplatin)",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Fisetin sensitized renal carcinoma cells to cisplatin (CDK6/PI3K/Akt/mTOR) and reduced cisplatin peripheral neuropathy in rats.",
+      "evidence": "Preclinical only",
+      "citations": [
+        "PMID:38426151",
+        "PMID:40167901"
+      ]
+    },
+    {
+      "with": "capecitabine",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "100 mg/day fisetin was given alongside chemotherapy in a small CRC RCT (IL-8 reduced); additive pro-apoptotic effects in capecitabine-resistant cells.",
+      "evidence": "1 small RCT (n=37) without detailed safety reporting plus cell data",
+      "citations": [
+        "PMID:29541713",
+        "PMID:38748229"
+      ]
+    },
+    {
+      "with": "OAT1 substrates",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Fisetin completely inhibited OAT1-mediated para-aminohippurate uptake at 50 uM and is itself an OAT1 substrate; renal clearance of OAT1 substrates could be altered.",
+      "evidence": "In vitro transporter study",
+      "citations": [
+        "PMID:25002746"
+      ]
+    },
+    {
+      "with": "P-glycoprotein substrates",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Fisetin is a weak P-gp inhibitor in KB-C2 cells, did not reverse P-gp-mediated daunomycin resistance in MCF-7/ADR cells, and its own biliary excretion is P-gp mediated.",
+      "evidence": "In vitro and rat data; low relevance expected",
+      "citations": [
+        "PMID:16327165",
+        "PMID:16114498",
+        "PMID:29862816"
+      ]
+    },
+    {
+      "with": "antidiabetic drugs",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Fasting glucose, insulin and HOMA-IR decreased with 200 mg/day fisetin in obese men; additive glucose lowering possible.",
+      "evidence": "1 small RCT; very low certainty",
+      "citations": [
+        "PMID:42218768"
+      ]
+    },
+    {
+      "with": "Quercetin",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Related senolytic flavonol with overlapping CYP2C9 inhibition and antiplatelet activity; own high-dose safety and drug-interaction concerns. Combination not studied.",
+      "evidence": "In vitro data and safety review; no combination study",
+      "citations": [
+        "PMID:19074529",
+        "PMID:1776142",
+        "PMID:29127724"
+      ]
+    },
+    {
+      "with": "EPA/DHA/DPA",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "n-3 fatty acids affect haemostasis without increasing clinically significant bleeding; stacking with fisetin's antiplatelet activity is untested.",
+      "evidence": "Review of n-3 bleeding data plus preclinical fisetin data",
+      "citations": [
+        "PMID:24472372",
+        "PMID:1776142"
+      ]
+    },
+    {
+      "with": "Garlic",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Garlic is flagged in perioperative antithrombotic management; combined antiplatelet load with fisetin is theoretical.",
+      "evidence": "Clinical review plus preclinical fisetin data",
+      "citations": [
+        "PMID:38735483",
+        "PMID:25372471"
+      ]
+    },
+    {
+      "with": "Ginger Root",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Ginger is flagged in perioperative antithrombotic management; combined antiplatelet load with fisetin is theoretical.",
+      "evidence": "Clinical review plus preclinical fisetin data",
+      "citations": [
+        "PMID:38735483",
+        "PMID:25372471"
+      ]
+    },
+    {
+      "with": "active cancer chemotherapy",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Preclinical chemosensitization and CYP2C8 inhibition make net effect on efficacy/toxicity unpredictable; use only within trials.",
+      "evidence": "Reviews of preclinical data; one small human RCT",
+      "citations": [
+        "PMID:40074915",
+        "PMID:29454704",
+        "PMID:29541713"
+      ]
+    },
+    {
+      "with": "bleeding disorders / perioperative period",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Antiplatelet and antithrombotic activity of fisetin in vitro and in rats.",
+      "evidence": "Preclinical; no human bleeding data",
+      "citations": [
+        "PMID:1776142",
+        "PMID:25372471",
+        "PMID:38735483"
+      ]
+    },
+    {
+      "with": "pregnancy and lactation",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "minor",
+      "mechanism": "No human safety data; long-term safety and PK not established.",
+      "evidence": "Absence of data (review)",
+      "citations": [
+        "PMID:39384074",
+        "PMID:41538057"
+      ]
+    },
+    {
+      "with": "INR (in warfarin users)",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Not an assay artifact: possible true INR rise via CYP2C9 inhibition and antiplatelet effect.",
+      "evidence": "Mechanistic inference",
+      "citations": [
+        "PMID:19074529"
       ]
     }
   ],
   "citations": [
+    "PMID:16114498",
+    "PMID:16327165",
+    "PMID:1776142",
+    "PMID:19074529",
+    "PMID:21840301",
+    "PMID:23121441",
+    "PMID:24472372",
+    "PMID:25002746",
+    "PMID:25372471",
+    "PMID:26884726",
+    "PMID:27765854",
+    "PMID:28273655",
+    "PMID:29127724",
+    "PMID:29454704",
+    "PMID:29541713",
+    "PMID:29862816",
+    "PMID:30279143",
+    "PMID:30616998",
+    "PMID:31434498",
+    "PMID:31542391",
+    "PMID:32686219",
+    "PMID:33802381",
+    "PMID:34375437",
+    "PMID:34699859",
+    "PMID:35953721",
+    "PMID:36304817",
+    "PMID:36857968",
+    "PMID:37679434",
+    "PMID:37762460",
+    "PMID:38041783",
+    "PMID:38062873",
+    "PMID:38382678",
+    "PMID:38426151",
+    "PMID:38716552",
+    "PMID:38735483",
+    "PMID:38748229",
+    "PMID:38956196",
+    "PMID:39004102",
+    "PMID:39384074",
     "PMID:39434114",
-    "PMID:42796982",
-    "PMID:42796982",
-    "PMID:39434114"
+    "PMID:39823170",
+    "PMID:39929420",
+    "PMID:40074915",
+    "PMID:40167901",
+    "PMID:40208387",
+    "PMID:40274471",
+    "PMID:41538057",
+    "PMID:41683255",
+    "PMID:41835341",
+    "PMID:42144546",
+    "PMID:42218768",
+    "PMID:42308222",
+    "PMID:42633989",
+    "URL:https://clinicaltrials.gov/study/NCT03430037",
+    "URL:https://clinicaltrials.gov/study/NCT03675724",
+    "URL:https://clinicaltrials.gov/study/NCT04210986",
+    "URL:https://clinicaltrials.gov/study/NCT04537299",
+    "URL:https://clinicaltrials.gov/study/NCT04771611",
+    "URL:https://clinicaltrials.gov/study/NCT05416515",
+    "URL:https://clinicaltrials.gov/study/NCT06796374",
+    "URL:https://clinicaltrials.gov/study/NCT07279714"
   ]
 }

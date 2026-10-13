@@ -3,48 +3,184 @@
 :ID: supp-genistein
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: soy isoflavone
+:ALIASES: genistein aglycone | genistin (glucoside) | 4',5,7-trihydroxyisoflavone | soy isoflavone | Bonistein | synthetic genistein | isoflavone phytoestrogen
 :CATEGORY: botanical
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Genistein is a soy isoflavone phytoestrogen; supplements may contain purified aglycone or soy extracts, which are not equivalent to soy foods. [PMID:40134817]
+- Genistein is the main isoflavone phytoestrogen of soybeans. It occurs in foods mostly as the glucoside genistin and is sold either as purified genistein aglycone or as part of mixed soy (or red clover) isoflavone extracts [PMID:40157603] [PMID:28168353].
+- Category: classed as botanical because it is a plant-derived isoflavone and is mostly consumed in soy extracts. Note that some trial products are chemically synthesized: Bonistein is 99.4% synthetic genistein aglycone [PMID:15943224].
+- Forms used in trials:
+  - Pure genistein aglycone, 54 mg/d: used in the Italian (Marini/Squadrito group) trial program on bone, hot flushes, endothelium and metabolic syndrome [PMID:17577003] [PMID:12369794] [PMID:23824420].
+  - Mixed soy isoflavone extracts: these contain genistein, daidzein and glycitein in varying ratios, so results do not transfer directly to pure genistein. Median dose in estrogenicity trials was 75 mg/d total isoflavones [PMID:39433088].
+  - Products differ in total dose and in the proportions of individual isoflavones. This, plus large differences between people in isoflavone metabolism, is proposed to explain inconsistent trial results [PMID:40157603].
+- Pharmacokinetics (single 30-300 mg doses of synthetic aglycone): Tmax 4-6 h, terminal half-life 7.5-10.2 h. AUC is dose-linear up to 300 mg, while absorption rate saturates above 150 mg [PMID:15943224].
+- Equol is a gut-bacterial metabolite of daidzein, not of genistein. Only about one third to one half of people make it [PMID:31527435]. It matters for mixed soy extracts more than for pure genistein.
 
 ** Mechanisms
-- Proposed biological activity and the best-established physiological context are described above; clinical mechanisms remain uncertain where outcome evidence is limited. ["PMID:40134817"]
+- Estrogen receptor-beta preference: genistein and daidzein act as ER-beta-selective agonists at physiological concentrations. They recruit coregulators to ER-beta more than to ER-alpha, which supports the description of isoflavones as natural SERMs [PMID:11279159] [PMID:40157603].
+- Weak clinical estrogenicity: a 2025 meta-analysis of 40 RCTs in postmenopausal women found no effect on endometrial thickness, vaginal maturation index, FSH or estradiol (high-to-moderate certainty) [PMID:39433088].
+- Bone: genistein lowered resorption markers (urinary pyridinoline/deoxypyridinoline) and raised formation markers (bone ALP, osteocalcin), whereas HRT lowered both. This suggests a different, partly anabolic profile [PMID:12369794]. At 3 years it also lowered RANKL and raised osteoprotegerin [PMID:18796517].
+- Endothelium: raised nitrites/nitrates (+21 umol/L) and lowered endothelin-1 (-7 pg/mL) versus placebo over 1 year [PMID:12727580].
+- Thyroid: genistein inactivates thyroid peroxidase in vitro and in rats, but serum thyroid hormones stayed normal. Iodine deficiency greatly increases soy's antithyroid effect, and iodine supplementation protects against it [PMID:12060828].
+- Drug metabolism: in human liver microsomes genistein inhibits CYP3A4 (Ki 23 umol/L) and CYP2C9 (Ki 36 umol/L) noncompetitively. These concentrations are above usual plasma levels [PMID:27312150]. Soy components may also activate PXR and induce CYP3A in models [PMID:27440109].
+- Also reported: a hypothesized inhibition of CYP24 that would raise vitamin D, which was not confirmed in an RCT [PMID:36919425].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | Certainty | Citations |
-|---|---|---|---|---|---|
-| Primary studied clinical/biomarker outcomes | Systematic review/meta-analysis or RCT synthesis | 2025 meta-analysis of 21 RCTs (1,859 participants) found changes in LDL-C (−11.14 mg/dL) and systolic BP (−8.32 mmHg), with substantial heterogeneity | See narrative | low | PMID:40134817; PMID:39433088 |
-| Long-term clinical outcomes | Evidence insufficient or mixed | No established benefit | Not established | very low | PMID:40134817; PMID:39433088 |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Hot flash frequency (soy isoflavone extracts) | SR/MA of 17 RCTs; MA of 62 RCTs; Cochrane (43 RCTs) | Modest benefit, heterogeneous | Frequency -20.6% (CI -28.4 to -12.9), severity -26.2%; daily flushes MD -1.31 (all phytoestrogens), -0.79 (soy isoflavones); Cochrane: no conclusive evidence overall | low | [PMID:22433977] [PMID:27327802] [PMID:24323914] |
+| Hot flashes (pure genistein 54 mg/d) | RCTs (n=90; n=389 with 236 symptomatic) | Benefit | -24% vs placebo at 12 mo (EPT flush score -54%); -56.4% from baseline at 12 mo, no further gain at 24 mo | low | [PMID:15243277] [PMID:19034051] |
+| Menopausal symptom scores (recent MAs) | SR/MA 2024 (5 RCTs) and 2025 (12 studies) | Mixed; no vasomotor effect in recent MAs | Overall g -0.25; no significant effect on hot flushes or vasomotor symptoms; depression SMD -0.41 to g -0.72 | low | [PMID:40718787] [PMID:38825560] |
+| BMD, postmenopausal (isoflavones) | SR/MA of 63 RCTs (n=9026) | Small increase | Lumbar spine +0.0175 g/cm2; femoral neck +0.0172 g/cm2; larger with >=12 mo and genistein >=50 mg/d | moderate | [PMID:37875614] [PMID:39708251] |
+| BMD, osteopenic women (genistein aglycone 54 mg/d) | RCT n=389, 24 mo; 3-y extension; earlier RCT vs HRT | Increase | Spine difference 0.10 g/cm2 (CI 0.08-0.12); femoral neck 0.062 g/cm2; no fracture data | low | [PMID:17577003] [PMID:18796517] [PMID:12369794] |
+| BMD in glucocorticoid-induced osteoporosis | RCT vs alendronate (n=200, 24 mo) | Similar to alendronate | No between-group difference in spine or femoral neck BMD; no placebo arm | low | [PMID:37167726] |
+| Endothelial function (FMD) | RCTs (n=79 healthy; n=20 with MetS) | Improvement | FMD +5.5% (CI 3.9-7.0) vs placebo, similar to estrogen/progestin | low | [PMID:12727580] [PMID:23899172] |
+| Lipids, BP (pure genistein) | SR/MA 2025 (21 RCTs, n=1859) | Decrease | LDL-C -11.14 mg/dL; TC -9.38 mg/dL; SBP -8.32 mmHg; DBP -3.57 mmHg; no TG/HDL/CRP effect; high heterogeneity | low | [PMID:40134817] [PMID:23824420] |
+| Fasting glucose / insulin resistance | MA of 7 RCTs (n=670); 2025 MA; RCTs in MetS and NAFLD | Decrease | FBG -6.35 mg/dL; HOMA-IR -0.74 (2017); FBG -3.98 mg/dL, HOMA-IR -0.56 (2025) | low | [PMID:28159061] [PMID:40134817] [PMID:23824420] [PMID:28647291] |
+| Cognition | SR/MA 2026 (16 RCTs pooled); pilot RCT in prodromal AD (n=24) | Small benefit | Composite effect 0.25 (CI 0.04-0.45); memory 0.33 | low | [PMID:41483829] [PMID:36329553] |
+| Thyroid function (healthy / euthyroid) | MA of 18 RCTs; 3-y genistein RCT | No hormone change; tiny TSH rise with soy | TSH +0.248 mIU/L, fT3/fT4 unchanged; genistein 54 mg/d had no effect on TSH, fT3, fT4 or antibodies | moderate | [PMID:30850697] [PMID:20357174] |
+| Breast density / breast safety | 3-y genistein RCT; 2-y isoflavone RCT in premenopausal women | No increase | No change in mammographic density (genistein); fibroglandular tissue fell with isoflavones 136.6 mg/d | low | [PMID:18796517] [PMID:36513449] |
+| Breast cancer recurrence (dietary isoflavones, observational) | MAs of cohorts | Inverse association | Recurrence HR 0.74 (0.60-0.92); ER+ HR 0.82; pre-diagnosis OS HR 0.84 | low | [PMID:38070485] [PMID:30382332] [PMID:22648714] |
 
 ** Dosing in trials
-- Trials commonly used purified genistein/isoflavones in varied doses; a 2024 review found median 75 mg/day total soy isoflavones, not pure genistein. [PMID:39433088]
+- Pure genistein aglycone 54 mg/d for 1-3 years, usually with calcium and vitamin D3, was used for bone, hot flushes, thyroid, endothelium and metabolic syndrome [PMID:17577003] [PMID:18796517] [PMID:23824420].
+- Isoflavone extracts for hot flashes: median 54 mg/d (aglycone equivalents) for 6 weeks to 12 months. Products with >18.8 mg genistein were more than twice as effective on flash frequency [PMID:22433977]. The Cochrane review noted that extracts with >30 mg/d genistein consistently reduced flushes [PMID:24323914].
+- Bone: benefit seen in subgroups with >=12 months' duration and >=50 mg/d genistein [PMID:37875614].
+- Higher doses: 90 mg/d for 12 weeks [PMID:36919425]; 120 mg/d for 12 months in prodromal Alzheimer's disease [PMID:36329553]; 250 mg/d for 8 weeks in NAFLD [PMID:28647291].
+- Very high dose: 160 mg/kg/day for 12 months in children with Sanfilippo syndrome showed no clinical efficacy [PMID:34047372].
+- Single doses up to 300 mg of synthetic aglycone were well tolerated [PMID:15943224].
 
 ** Safety & adverse effects
-- GI symptoms possible; long-term isolated supplement safety less established than food exposure. [PMID:39433088]
+- Gastrointestinal effects: 19% vs 8% with placebo (P=0.002) over 24 months at 54 mg/d, with more dropouts in the genistein arm [PMID:17577003]. Other trials at the same dose found no excess adverse events [PMID:23824420] [PMID:18796517].
+- Endometrium:
+  - Pure genistein 54 mg/d did not change endometrial thickness or vaginal maturation over 1-3 years [PMID:19034051] [PMID:17577003] [PMID:18796517].
+  - A 5-year RCT of soy isoflavone tablets at 150 mg/d (n=376) found endometrial hyperplasia in 3.37% vs 0% with placebo, with no malignancy [PMID:15237003].
+  - Pooled estrogenicity data showed no effect on endometrial thickness [PMID:39433088]. The Cochrane review found no endometrial or vaginal stimulation with up to 2 years of use [PMID:24323914].
+- Breast: genistein did not raise mammographic density over 3 years, BRCA1/2 expression was preserved, and sister chromatid exchange fell [PMID:18796517]. A 2025 review argues that, based on in vitro, animal and clinical data, harmful proliferative effects of isoflavones on the breast at relevant doses cannot be excluded [PMID:40871649].
+- Animal tumor data: a meta-analysis of 30 animal studies found that isoflavones reduced tumor volume and weight but increased tumor area. The authors advise caution with supplements in hormone-dependent cancers [PMID:39480044].
+- EFSA (2015) risk assessment, as summarized by German BfR scientists:
+  - In healthy postmenopausal women, human studies did not support adverse effects of isolated isoflavones on the breast, uterus or thyroid.
+  - This does not amount to a general safety statement for supplements, especially in women with undetected precancerous breast lesions.
+  - EFSA has rejected all submitted isoflavone health claims [PMID:28168353].
+- Thyroid: see Contraindications and Interactions. In subclinical hypothyroidism, 16 mg phytoestrogens raised progression to overt hypothyroidism (rate ratio 3.6) [PMID:21325465]. A 66 mg dose did not [PMID:30254609].
+- Haemostasis: 12 months at 54 mg/d lowered D-dimer and did not change PAI-1 or prothrombin fragment 1+2 [PMID:18410952].
 
 ** Contraindications
-- Caution in individuals with thyroid disease or hormone-sensitive conditions due to pharmacologic uncertainty; RCT aggregate does not show estrogenic biomarker changes. [PMID:39433088]
+- Estrogen receptor-positive breast cancer, particularly during tamoxifen or aromatase-inhibitor therapy. Dietary genistein cancelled the effects of tamoxifen and letrozole in mouse xenografts [PMID:22266527] [PMID:18632754]. Reviews advise caution with soy during AI therapy [PMID:41514586]. Human cohort data on dietary soy do not show harm [PMID:38070485] [PMID:30382332]. Overall this is a precaution, applied mainly to supplements rather than food.
+- Uterus intact with long-term high-dose isoflavone use: endometrial hyperplasia signal at 150 mg/d over 5 years [PMID:15237003].
+- Subclinical hypothyroidism or iodine deficiency: caution, with thyroid testing [PMID:21325465] [PMID:12060828].
+- Undiagnosed breast lesions: BfR notes that possible adverse effects cannot be excluded [PMID:28168353].
 
 ** Interactions
-- Soy foods/isoflavones can affect levothyroxine absorption when taken together; separate administration and monitor TSH. [URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/]
+*** Drugs
+- Levothyroxine: case reports describe soy protein supplements taken with levothyroxine reducing its absorption, which resolved when doses were separated [PMID:11421567]. A crossover PK study found 60 mg soy isoflavones given at the same time did not change levothyroxine Cmax or AUC (ratios 1.02/0.99) [PMID:26125285]. Reviews find limited evidence of reduced absorption and little clinical impact [PMID:33801406] [PMID:37633413]. Separating doses and checking TSH is a pragmatic approach.
+- Tamoxifen: low-dose dietary genistein cancelled tamoxifen's inhibition of MCF-7 tumors in mice [PMID:22266527]. In a human PK study, S-equol supplement 10 mg/d did not change tamoxifen AUC [PMID:41359041]. This was equol, not genistein.
+- Aromatase inhibitors (letrozole, anastrozole, exemestane): genistein reversed letrozole's inhibition of tumor growth in mice in a dose-dependent way [PMID:18632754]. S-equol did not change AI exposure (PK only) [PMID:41359041]. A 2025 review lists soy among foods requiring caution [PMID:41514586].
+- CYP3A4/CYP2C9 substrates: genistein inhibits these enzymes in vitro only at supraphysiological levels [PMID:27312150]. A red clover isoflavone supplement (120 mg/d) did not change caffeine, tolbutamide, dextromethorphan or alprazolam PK in women [PMID:33197178]. Soy may induce CYP3A via PXR in models [PMID:27440109]. Clinically relevant interactions appear unlikely.
+- Warfarin: one case of subtherapeutic INR with soy milk, rated possible to probable [PMID:12452752]. This involved soy protein food, not purified genistein. Genistein did not activate haemostasis markers [PMID:18410952].
+- Antidiabetic drugs: additive glucose lowering is possible (FBG -4 to -6 mg/dL) [PMID:28159061] [PMID:40134817].
+- Antihypertensives: genistein lowered SBP by 8.32 mmHg in a meta-analysis and lowered BP in a metabolic syndrome RCT, so additive effects are possible [PMID:40134817] [PMID:23824420].
+*** Other supplements
+- Iodine (potassium iodide): iodine sufficiency protects against soy's antithyroid effect, while iodine deficiency increases it [PMID:12060828].
+- Vitamin D-3: in an RCT, adding genistein 90 mg/d to calcium plus vitamin D3 gave no extra change in 25(OH)D, PTH or bone markers [PMID:36919425]. Calcium and vitamin D3 were background therapy in the genistein bone trials [PMID:17577003].
+- Other isoflavone or phytoestrogen products (red clover, soy extracts, combinations with black cohosh): isoflavone exposure adds up across products. Combination products have been trialled [PMID:40131516] [PMID:33197178] [PMID:28168353].
+*** Conditions
+- ER+ breast cancer, subclinical hypothyroidism, iodine deficiency, long-term use with an intact uterus: see Contraindications.
+- Metabolic syndrome: the largest lipid and BP effects were seen in this group [PMID:23824420] [PMID:40134817].
+*** Lab-test interference
+- No assay artifact was found. Soy causes a small true TSH rise (+0.248 mIU/L) [PMID:30850697]. In an NHANES cross-sectional analysis, urinary phytoestrogens were associated with lower central thyroid hormone sensitivity [PMID:40604928].
+- Genistein shifts bone turnover markers (CTX and pyridinolines down, bone ALP up) [PMID:18796517] [PMID:39708251]. It does not change FSH or estradiol in postmenopausal women [PMID:39433088].
 
 ** Genotype notes
-- No cited pharmacogenomic or nutrigenomic source was identified in the sources reviewed; no genotype-specific claim is made.
+- Equol-producer phenotype is a gut microbial metabotype that only one third to one half of people have [PMID:31527435]. In an RCT of about 100 mg/d isoflavones, equol producers and nonproducers showed opposite changes in adipose-tissue gene expression after a high-genistein supplement, and inflammation genes went up in producers and down in nonproducers [PMID:25332325].
+- ESR2 genotype: in a crossover RCT (50 mg/d isoflavones, genistein:daidzein 2:1), the HDL-cholesterol response differed by ER-beta-cx Tsp509I genotype (effect only in AA). There was no overall lipid or glucose effect [PMID:16522905].
+- These are exploratory nutrigenomic findings. No pharmacogenomic dosing guidance exists.
 
 ** Latest research
-- 2025–2026 literature: 2025 systematic review/meta-analysis of purified genistein RCTs reported cardiovascular risk-factor changes. [PMID:40134817]
+- [2026-01] Cognition MA (37 studies, 16 RCTs pooled): composite effect 0.25 and memory 0.33 with isoflavones [PMID:41483829].
+- [2025-12] Narrative review of nutrition during aromatase-inhibitor therapy lists soy among foods needing caution. The evidence is preclinical [PMID:41514586].
+- [2025-12] PK crossover study (n=24): S-equol 10 mg/d did not change anastrozole, letrozole, exemestane or tamoxifen exposure [PMID:41359041].
+- [2025-08] Review argues that population studies show no convincing breast cancer link but harmful isoflavone effects cannot be excluded [PMID:40871649].
+- [2025-07] Perimenopause MA (12 studies): overall symptom g -0.25; no effect on hot flushes or vasomotor symptoms [PMID:40718787].
+- [2025-07] Secondary analysis of a vegan diet plus soybeans RCT: severe hot flashes fell 92%. The reduction was predicted by daidzein intake, not genistein [PMID:40663878].
+- [2025-07] NHANES cross-sectional study: urinary phytoestrogens associated with reduced thyroid hormone sensitivity [PMID:40604928].
+- [2025-03] Pure-genistein CV risk MA (21 RCTs): LDL-C -11.14 mg/dL, SBP -8.32 mmHg, FBG -3.98 mg/dL [PMID:40134817].
+- [2025-03] Expert perspective: isoflavone safety concerns largely refuted, but benefits inconsistent because of product and metabolic variability [PMID:40157603].
+- [2025-03] RCT of a black cohosh + soy isoflavone + lignan combination: MRS total -48%. Genistein's contribution cannot be isolated [PMID:40131516].
+- [2024-12] Bone turnover MA (73 RCTs): isoflavones lowered CTX and pyridinoline [PMID:39708251].
+- [2024-10] Estrogenicity MA (40 RCTs): no effect on endometrial thickness, VMI, FSH or estradiol [PMID:39433088].
+- [2024-10] Animal MA of hormone-dependent cancers: isoflavones lowered tumor volume but raised tumor area. Authors advise caution with supplements [PMID:39480044].
 
 ** Open questions
-- Whether findings translate into durable patient-important outcomes, optimal formulation/dose, and long-term safety remains uncertain. [PMID:40134817; PMID:39433088]
+- Whether the large BMD gains in the single-group Italian genistein aglycone program translate into fewer fractures. No fracture endpoint exists, and independent replication is lacking [PMID:17577003] [PMID:37875614].
+- Why pure-genistein trials report larger vasomotor and metabolic effects than mixed-isoflavone meta-analyses and recent MAs [PMID:40718787] [PMID:40157603].
+- Safety of supplements during tamoxifen or aromatase-inhibitor therapy in humans. Current evidence is mouse xenografts and observational dietary data [PMID:18632754] [PMID:38070485].
+- Endometrial safety beyond 3 years for pure genistein, given the 5-year hyperplasia signal with high-dose soy tablets [PMID:15237003].
+- Thyroid effects at supplement doses in people with low iodine intake or subclinical hypothyroidism [PMID:21325465] [PMID:12060828].
+- Whether equol-producer status or ESR2 genotype should guide use [PMID:25332325] [PMID:16522905].
+- Guideline position: NAMS 2023 does not recommend soy foods, soy extracts or equol for vasomotor symptoms (Level II) [PMID:37252752].
 
 ** Sources
-- PMID:40134817
-- PMID:39433088
-- PMID:40134817
-- PMID:39433088
-- URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/
+1. Taku K et al. Extracted or synthesized soybean isoflavones reduce menopausal hot flash frequency and severity: systematic review and meta-analysis of randomized controlled trials. Menopause. 2012. PMID:22433977 DOI:10.1097/gme.0b013e3182410159
+2. Lethaby A et al. Phytoestrogens for menopausal vasomotor symptoms. Cochrane Database Syst Rev. 2013. PMID:24323914 DOI:10.1002/14651858.CD001395.pub4
+3. Franco OH et al. Use of Plant-Based Therapies and Menopausal Symptoms: A Systematic Review and Meta-analysis. JAMA. 2016. PMID:27327802 DOI:10.1001/jama.2016.8012
+4. Luan H et al. Effects of soy isoflavones on menopausal symptoms in perimenopausal women: a systematic review and meta-analysis. PeerJ. 2025. PMID:40718787 DOI:10.7717/peerj.19715
+5. Gençtürk N et al. The effect of soy isoflavones given to women in the climacteric period on menopausal symptoms and quality of life: Systematic review and meta-analysis of randomized controlled trials. Explore (NY). 2024. PMID:38825560 DOI:10.1016/j.explore.2024.05.010
+6. NAMS Advisory Panel. The 2023 nonhormone therapy position statement of The North American Menopause Society. Menopause. 2023. PMID:37252752 DOI:10.1097/GME.0000000000002200
+7. Crisafulli A et al. Effects of genistein on hot flushes in early postmenopausal women: a randomized, double-blind EPT- and placebo-controlled study. Menopause. 2004. PMID:15243277 DOI:10.1097/01.gme.0000109314.11228.e5
+8. D'Anna R et al. Effects of the phytoestrogen genistein on hot flushes, endometrium, and vaginal epithelium in postmenopausal women: a 2-year randomized, double-blind, placebo-controlled study. Menopause. 2009. PMID:19034051 DOI:10.1097/gme.0b013e318186d7e2
+9. Kahleova H et al. Isoflavones and changes in body weight and severe hot flashes in postmenopausal women: A secondary analysis of a randomized clinical trial. Maturitas. 2025. PMID:40663878 DOI:10.1016/j.maturitas.2025.108661
+10. Pokushalov E et al. Assessing the combined effects of Black Cohosh, Soy Isoflavones, and SDG Lignans on menopausal symptoms: a randomized, double-blind, placebo-controlled clinical trial. Eur J Nutr. 2025. PMID:40131516 DOI:10.1007/s00394-025-03588-y
+11. Inpan R et al. Isoflavone intervention and its impact on bone mineral density in postmenopausal women: a systematic review and meta-analysis of randomized controlled trials. Osteoporos Int. 2024. PMID:37875614 DOI:10.1007/s00198-023-06944-y
+12. Inpan R et al. Effects of isoflavone interventions on bone turnover markers and factors regulating bone metabolism in postmenopausal women: a systematic review and meta-analysis of randomized controlled trials. Arch Osteoporos. 2024. PMID:39708251 DOI:10.1007/s11657-024-01467-3
+13. Marini H et al. Effects of the phytoestrogen genistein on bone metabolism in osteopenic postmenopausal women: a randomized trial. Ann Intern Med. 2007. PMID:17577003 DOI:10.7326/0003-4819-146-12-200706190-00005
+14. Marini H et al. Breast safety and efficacy of genistein aglycone for postmenopausal bone loss: a follow-up study. J Clin Endocrinol Metab. 2008. PMID:18796517 DOI:10.1210/jc.2008-1087
+15. Morabito N et al. Effects of genistein and hormone-replacement therapy on bone loss in early postmenopausal women: a randomized double-blind placebo-controlled study. J Bone Miner Res. 2002. PMID:12369794 DOI:10.1359/jbmr.2002.17.10.1904
+16. Squadrito F et al. Effects of genistein aglycone in glucocorticoid induced osteoporosis: A randomized clinical trial in comparison with alendronate. Biomed Pharmacother. 2023. PMID:37167726 DOI:10.1016/j.biopha.2023.114821
+17. Squadrito F et al. Effect of genistein on endothelial function in postmenopausal women: a randomized, double-blind, controlled study. Am J Med. 2003. PMID:12727580 DOI:10.1016/s0002-9343(03)00059-7
+18. Irace C et al. Genistein and endothelial function in postmenopausal women with metabolic syndrome. Eur J Clin Invest. 2013. PMID:23899172 DOI:10.1111/eci.12139
+19. Squadrito F et al. Genistein in the metabolic syndrome: results of a randomized clinical trial. J Clin Endocrinol Metab. 2013. PMID:23824420 DOI:10.1210/jc.2013-1180
+20. Feng H et al. Improvement of Cardiovascular Risk Factors by Genistein Supplementation: A Systematic Review and Meta-Analysis in Diverse Population-Based RCTs. J Nutr Metab. 2025. PMID:40134817 DOI:10.1155/jnme/1827252
+21. Liu Y et al. The effect of genistein on glucose control and insulin sensitivity in postmenopausal women: A meta-analysis. Maturitas. 2017. PMID:28159061 DOI:10.1016/j.maturitas.2016.12.004
+22. Amanat S et al. Genistein supplementation improves insulin resistance and inflammatory state in non-alcoholic fatty liver patients: A randomized, controlled trial. Clin Nutr. 2018. PMID:28647291 DOI:10.1016/j.clnu.2017.05.028
+23. Viscardi G et al. Effect of Soy Isoflavones on Measures of Estrogenicity: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. Adv Nutr. 2025. PMID:39433088 DOI:10.1016/j.advnut.2024.100327
+24. Unfer V et al. Endometrial effects of long-term treatment with phytoestrogens: a randomized, double-blind, placebo-controlled study. Fertil Steril. 2004. PMID:15237003 DOI:10.1016/j.fertnstert.2003.11.041
+25. Lu LW et al. Soy isoflavones decrease fibroglandular breast tissue measured by magnetic resonance imaging in premenopausal women: A 2-year randomized double-blind placebo controlled clinical trial. Clin Nutr ESPEN. 2022. PMID:36513449 DOI:10.1016/j.clnesp.2022.10.007
+26. Chakravarti B et al. A Systematic Review and Meta-Analysis of the Effects of Dietary Isoflavones on Female Hormone-Dependent Cancers for Benefit-Risk Evaluation. Phytother Res. 2024. PMID:39480044 DOI:10.1002/ptr.8358
+27. Qiu S et al. Soy and isoflavones consumption and breast cancer survival and recurrence: a systematic review and meta-analysis. Eur J Nutr. 2019. PMID:30382332 DOI:10.1007/s00394-018-1853-4
+28. van Die MD et al. Phytonutrients and outcomes following breast cancer: a systematic review and meta-analysis of observational studies. JNCI Cancer Spectr. 2024. PMID:38070485 DOI:10.1093/jncics/pkad104
+29. Nechuta SJ et al. Soy food intake after diagnosis of breast cancer and survival: an in-depth analysis of combined evidence from cohort studies of US and Chinese women. Am J Clin Nutr. 2012. PMID:22648714 DOI:10.3945/ajcn.112.035972
+30. Bennetau-Pelissero C. Soy and Isoflavones: Revisiting Their Potential Links to Breast Cancer Risk. Nutrients. 2025. PMID:40871649 DOI:10.3390/nu17162621
+31. Popescu R et al. Nutritional Impact on Breast Cancer in Menopausal and Post-Menopausal Patients Treated with Aromatase Inhibitors. Cancers (Basel). 2025. PMID:41514586 DOI:10.3390/cancers18010073
+32. Du M et al. Low-dose dietary genistein negates the therapeutic effect of tamoxifen in athymic nude mice. Carcinogenesis. 2012. PMID:22266527 DOI:10.1093/carcin/bgs017
+33. Ju YH et al. Dietary genistein negates the inhibitory effect of letrozole on the growth of aromatase-expressing estrogen-dependent human breast cancer cells (MCF-7Ca) in vivo. Carcinogenesis. 2008. PMID:18632754 DOI:10.1093/carcin/bgn161
+34. Sambe T et al. Lack of effects of S-equol-containing supplement on the pharmacokinetics of oral hormone therapy drugs for breast cancer. Cancer Chemother Pharmacol. 2025. PMID:41359041 DOI:10.1007/s00280-025-04852-y
+35. Otun J et al. Systematic Review and Meta-analysis on the Effect of Soy on Thyroid Function. Sci Rep. 2019. PMID:30850697 DOI:10.1038/s41598-019-40647-x
+36. Bitto A et al. Genistein aglycone does not affect thyroid function: results from a three-year, randomized, double-blind, placebo-controlled trial. J Clin Endocrinol Metab. 2010. PMID:20357174 DOI:10.1210/jc.2009-2779
+37. Sathyapalan T et al. The effect of soy phytoestrogen supplementation on thyroid status and cardiovascular risk markers in patients with subclinical hypothyroidism: a randomized, double-blind, crossover study. J Clin Endocrinol Metab. 2011. PMID:21325465 DOI:10.1210/jc.2010-2255
+38. Sathyapalan T et al. The Effect of Phytoestrogen on Thyroid in Subclinical Hypothyroidism: Randomized, Double Blind, Crossover Study. Front Endocrinol (Lausanne). 2018. PMID:30254609 DOI:10.3389/fendo.2018.00531
+39. Doerge DR et al. Goitrogenic and estrogenic activity of soy isoflavones. Environ Health Perspect. 2002. PMID:12060828 DOI:10.1289/ehp.02110s3349
+40. Li Z et al. Urinary phytoestrogen levels and reduced thyroid hormone sensitivity: a cross-sectional analysis of NHANES 2007-2010. Eur J Med Res. 2025. PMID:40604928 DOI:10.1186/s40001-025-02800-3
+41. Wiesner A et al. Levothyroxine Interactions with Food and Dietary Supplements-A Systematic Review. Pharmaceuticals (Basel). 2021. PMID:33801406 DOI:10.3390/ph14030206
+42. Gatta E et al. Interference or Noninterference Between Soy and Levothyroxine: That Is the Question. A Narrative Review of Literature. Endocr Pract. 2023. PMID:37633413 DOI:10.1016/j.eprac.2023.08.009
+43. Persiani S et al. Evaluation of Levothyroxine Bioavailability after Oral Administration of a Fixed Combination of Soy Isoflavones in Post-menopausal Female Volunteers. Drug Res (Stuttg). 2016. PMID:26125285 DOI:10.1055/s-0035-1555784
+44. Bell DS et al. Use of soy protein supplement and resultant need for increased dose of levothyroxine. Endocr Pract. 2001. PMID:11421567 DOI:10.4158/EP.7.3.193
+45. Lehmann L et al. Isoflavone-containing dietary supplements [German]. Bundesgesundheitsblatt Gesundheitsforschung Gesundheitsschutz. 2017. PMID:28168353 DOI:10.1007/s00103-016-2497-2
+46. An J et al. Estrogen receptor beta-selective transcriptional activity and recruitment of coregulators by phytoestrogens. J Biol Chem. 2001. PMID:11279159 DOI:10.1074/jbc.M100953200
+47. Messina M et al. Perspective: Isoflavones-Intriguing Molecules but Much Remains to Be Learned about These Soybean Constituents. Adv Nutr. 2025. PMID:40157603 DOI:10.1016/j.advnut.2025.100418
+48. Mayo B et al. Equol: A Bacterial Metabolite from The Daidzein Isoflavone and Its Presumed Beneficial Health Effects. Nutrients. 2019. PMID:31527435 DOI:10.3390/nu11092231
+49. van der Velpen V et al. Isoflavone supplement composition and equol producer status affect gene expression in adipose tissue: a double-blind, randomized, placebo-controlled crossover trial in postmenopausal women. Am J Clin Nutr. 2014. PMID:25332325 DOI:10.3945/ajcn.114.088484
+50. Hall WL et al. Soy-isoflavone-enriched foods and markers of lipid and glucose metabolism in postmenopausal women: interactions with genotype and equol production. Am J Clin Nutr. 2006. PMID:16522905 DOI:10.1093/ajcn.83.3.592
+51. Ronis MJ. Effects of soy containing diet and isoflavones on cytochrome P450 enzyme expression and activity. Drug Metab Rev. 2016. PMID:27440109 DOI:10.1080/03602532.2016.1206562
+52. Kopečná-Zapletalová M et al. Interaction of isoflavonoids with human liver microsomal cytochromes P450: inhibition of CYP enzyme activities. Xenobiotica. 2017. PMID:27312150 DOI:10.1080/00498254.2016.1195028
+53. Chen L et al. No Clinically Relevant Pharmacokinetic Interactions of a Red Clover Dietary Supplement with Cytochrome P450 Enzymes in Women. J Agric Food Chem. 2020. PMID:33197178 DOI:10.1021/acs.jafc.0c05856
+54. Cambria-Kiely JA. Effect of soy milk on warfarin efficacy. Ann Pharmacother. 2002. PMID:12452752 DOI:10.1345/aph.1C160
+55. Ullmann U et al. Safety, tolerability, and pharmacokinetics of single ascending doses of synthetic genistein (Bonistein) in healthy volunteers. Adv Ther. 2005. PMID:15943224 DOI:10.1007/BF02850186
+56. Ghosh A et al. High dose genistein in Sanfilippo syndrome: A randomised controlled trial. J Inherit Metab Dis. 2021. PMID:34047372 DOI:10.1002/jimd.12407
+57. Viña J et al. Genistein effect on cognition in prodromal Alzheimer's disease patients. The GENIAL clinical trial. Alzheimers Res Ther. 2022. PMID:36329553 DOI:10.1186/s13195-022-01097-2
+58. Till L et al. Systematic review and meta-analysis of isoflavone interventions on cognitive function. Neurosci Biobehav Rev. 2026. PMID:41483829 DOI:10.1016/j.neubiorev.2025.106533
+59. Pérez-Alonso M et al. Genistein supplementation has no effects on vitamin D levels in healthy Spanish postmenopausal women. Int J Vitam Nutr Res. 2024. PMID:36919425 DOI:10.1024/0300-9831/a000781
+60. Trifiletti A et al. Haemostatic effects of phytoestrogen genistein in postmenopausal women. Thromb Res. 2008. PMID:18410952 DOI:10.1016/j.thromres.2008.02.009

@@ -3,49 +3,208 @@
 :ID: supp-dhea
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: dehydroepiandrosterone
+:ALIASES: dehydroepiandrosterone | prasterone | Intrarosa | DHEA-S | DHEAS | dehydroepiandrosterone sulfate | androstenolone
 :CATEGORY: hormone
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- DHEA is a steroid prohormone converted to androgens and estrogens in peripheral tissues. Oral and intravaginal prasterone are distinct exposures; prescription status varies by formulation and jurisdiction. [PMID:40616152]
+- Dehydroepiandrosterone (DHEA) is made mainly by the zona reticularis of the adrenal cortex. With its sulfate ester (DHEA-S) it is the most abundant circulating steroid. It is a precursor that peripheral tissues convert into androgens and estrogens [PMID:40943486] [PMID:41485982]. Levels fall steeply with age ("adrenopause") [PMID:40943486].
+- Oral DHEA (US): sold over the counter as a dietary supplement [PMID:11144700] [PMID:37788418]. It is on the World Anti-Doping Agency prohibited list, because oral dosing can produce dose-dependent and, in women, supraphysiological rises in androgens [PMID:20122454] [PMID:18417762]. Rules outside the US vary. No PubMed-indexed source on country-by-country prescription or controlled status was retrieved, so none is claimed here.
+- Prasterone is the pharmaceutical name for synthetic DHEA:
+  - Intrarosa: 6.5 mg vaginal insert, given once daily at bedtime. FDA-approved for moderate-to-severe dyspareunia due to menopausal vulvar and vaginal atrophy (VVA) [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ada639d4-bac0-2ad0-e053-2a95a90afce7]. In the EU it is approved for VVA [PMID:31290076].
+  - Oral prasterone (100-200 mg/d) was studied in systemic lupus erythematosus (SLE). FDA did not approve the lupus labeling. Prasterone got orphan status for preventing glucocorticoid-related bone loss in SLE [PMID:17090740].
+- Pharmacokinetics:
+  - Oral: in women whose adrenals were suppressed with dexamethasone, 50 mg restored baseline DHEA-S, while 100 mg gave supraphysiological DHEA-S and raised androgens [PMID:9626121].
+  - Vaginal: 6.5 mg/d prasterone raised serum DHEA, testosterone and estradiol slightly. LC-MS/MS levels stayed within the normal postmenopausal range [PMID:26972555] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ada639d4-bac0-2ad0-e053-2a95a90afce7].
 
 ** Mechanisms
-- Proposed biological activity and the best-established physiological context are described above; clinical mechanisms remain uncertain where outcome evidence is limited. ["PMID:40616152"]
+- Intracrine conversion: tissue enzymes (3beta-HSD, 17beta-HSD, 5alpha-reductase, aromatase) turn DHEA into testosterone, DHT, estrone and estradiol inside target cells. The active steroids then leave as glucuronide or sulfate conjugates. This is why serum testosterone and estradiol can understate tissue exposure [PMID:26972555] [PMID:41485982].
+- Systemic sex-steroid rise with oral dosing:
+  - Postmenopausal women (MA of 21 studies): estradiol +7.86 pg/mL and testosterone +24.31 ng/dL [PMID:40616152].
+  - All populations (MA of 42 publications): testosterone +28.02 ng/dL, larger in women and at doses >50 mg/d [PMID:33045358].
+- Bone: in older adults, the hip-BMD gains from DHEA were explained by the rise in serum estradiol, not by DHEA-S itself [PMID:18812486]. Preclinical work shows effects on osteoblasts and on the RANKL/OPG balance [PMID:39767687].
+- Neurosteroid actions: DHEA and DHEA-S modulate GABA-A, NMDA and sigma-1 receptors (preclinical/mechanistic) [PMID:40943486]. In Addison's disease, mood benefit in men without any change in testosterone suggests a direct central effect [PMID:11134123].
+- Glucocorticoid axis: a meta-analysis found lower serum cortisol (WMD -53.6 nmol/L across 10 arms) [PMID:34342920].
+- HSD3B1 genotype: the HSD3B1(1245C) "adrenal-permissive" allele makes a 3beta-HSD1 protein that resists breakdown. This increases peripheral conversion of DHEA to potent androgens [PMID:32565196].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | Certainty | Citations |
-|---|---|---|---|---|---|
-| Primary studied clinical/biomarker outcomes | Systematic review/meta-analysis or RCT synthesis | RCT synthesis finds systemic 50 mg/day does not reliably improve cognition; trials of vaginal prasterone show local GSM symptom benefits | See narrative | low | PMID:40616152; PMID:37788418 |
-| Long-term clinical outcomes | Evidence insufficient or mixed | No established benefit | Not established | very low | PMID:40616152; PMID:37788418 |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Vulvovaginal atrophy / dyspareunia (vaginal prasterone 6.5 mg) | MA of 5 RCTs (n=1611); AHRQ-style SR (46 RCTs); phase III RCT; FDA label | Benefit | Dryness MD -0.23 (95% CI -0.35 to -0.11); dyspareunia MD -0.40 (-0.66 to -0.15); phase III pain -0.36 units vs placebo | moderate | [PMID:41589851] [PMID:39250810] [PMID:26731686] |
+| Vaginal prasterone vs vaginal estradiol | Open-label RCT (n=172) | Similar on dyspareunia; estradiol better on objective signs | Dyspareunia improved 92% vs 82%, OR 2.87 (1.00-8.25) | low | [PMID:41903372] |
+| Vaginal DHEA in cancer survivors | RCT (n=464) vs plain moisturizer | No difference on primary endpoint at 12 wk; FSFI better at 6.5 mg | Not significant at 12 wk (6.5 mg p=0.08) | low | [PMID:28921241] |
+| Sexual function, peri/postmenopausal women (systemic DHEA) | Cochrane (28 RCTs); Mayo SR/MA (23 RCTs) | Small or no benefit | SMD 0.31 (0.07-0.55) Cochrane; SMD 0.35 (-0.02 to 0.73) Mayo; oral-only SMD 0.11 (-0.13 to 0.35) | low | [PMID:25879093] [PMID:25279571] |
+| Menopausal symptoms / quality of life (systemic) | Cochrane | No QoL benefit; symptoms uncertain | QoL SMD 0.16 (-0.03 to 0.34) | moderate | [PMID:25879093] [PMID:42328990] |
+| Adrenal insufficiency (women): HRQOL | MA of 10 RCTs; 12-mo RCT (n=106) | Small benefit | HRQOL ES 0.21 (0.08-0.33); femoral-neck BMD and lean mass gains, no effect on fatigue/cognition/sex | low | [PMID:19773400] [PMID:18000094] [PMID:11134123] |
+| Female sexual function in hypopituitarism (Sheehan syndrome) | Crossover RCT (n=28) | Benefit | FSFI improved vs placebo (p=0.006) | low | [PMID:35481572] |
+| Bone mineral density, older adults | MA of RCTs; 2-y NEJM RCT; 1-2 y RCTs | Small benefit in women only | Hip BMD SMD 0.5 in women; spine +1.7% at 1 y (women); no effect in men | low | [PMID:31237150] [PMID:17050889] [PMID:19321570] [PMID:18812486] |
+| Body composition, strength, physical function (older adults) | SR (8 studies, n=661); NEJM RCT | Mostly null | No effect on body composition, VO2peak, strength or QoL over 2 y; leg strength gain only with exercise in frail women | moderate | [PMID:21649617] [PMID:17050889] [PMID:20863330] |
+| IVF poor responders: live birth | Cochrane 2024 (28 RCTs) | Little or no difference | Live birth/ongoing pregnancy OR 1.30 (0.95-1.76), 9 RCTs, n=1433 | moderate | [PMID:38837771] |
+| IVF/DOR: oocyte yield, endometrium | MAs of RCTs (2023-2025) | Small increase | Oocytes WMD 0.60 (0.07-1.13); endometrial thickness MD 0.93 mm; CPR OR 1.34 (low QoE); NMA CPR OR 1.92 | low | [PMID:39332623] [PMID:39980032] [PMID:37464357] [PMID:41185971] |
+| Depressive symptoms | MA of 12 RCTs (n=742) | Benefit | SMD -0.28 (-0.45 to -0.11); GRADE very low | very low | [PMID:32930419] |
+| Cognition (postmenopausal women) | SR of 4 RCTs | No benefit | Only one 4-week crossover was positive | low | [PMID:37788418] |
+| SLE (oral prasterone) | Cochrane (7 RCTs, n=842) | Small HRQOL gain; disease activity inconsistent | PGA +11.5 mm/100; acne RR 2.2 | moderate | [PMID:17943841] |
+| Erectile dysfunction | Single small RCT (n=40) | Possible benefit | Higher IIEF domain scores; underpowered | very low | [PMID:10096389] |
+| HDL cholesterol | Dose-response MA (23 articles) | Decrease (women) | HDL -3.1 mg/dL overall; -5.1 mg/dL in women; TC/LDL/TG unchanged | low | [PMID:32675010] |
+| Fasting glucose | MA (14 publications) | Small decrease | FPG WMD -2.19 mg/dL; insulin/HOMA-IR unchanged | low | [PMID:33220623] |
+| Pulmonary arterial hypertension | Crossover RCT (n=26) | Null primary | No effect on RV longitudinal strain; some secondary benefits | low | [PMID:42446134] |
 
 ** Dosing in trials
-- 50 mg/day orally in cognitive RCTs; vaginal prasterone 6.5 mg/day is a prescription product. [PMID:37788418] [PMID:41589851]
+- Adrenal insufficiency: 50 mg/d oral micronized DHEA for 12 weeks to 12 months [PMID:11134123] [PMID:18000094]. 50 mg restored physiological DHEA-S in women whose adrenals were suppressed; 100 mg was supraphysiological [PMID:9626121]. Hypopituitary women: 25 mg twice daily [PMID:35481572].
+- Older adults: 50 mg/d for 6 months to 2 years, usually with calcium and vitamin D in both arms [PMID:17050889] [PMID:19321570] [PMID:20863330].
+- Doses >=50 mg/d gave larger rises in testosterone and, in women aged >=60, in estradiol [PMID:40616152] [PMID:33045358].
+- IVF/DOR: pretreatment in trials typically ran for weeks to months before stimulation. The optimal regimen is not established [PMID:38837771] [PMID:39980032].
+- Menopause (systemic): 60 mg/d for 3 months in a 2026 comparative trial [PMID:42328990].
+- Depression and schizophrenia trials: up to 100 mg/d in divided doses; schizophrenia trials added DHEA to antipsychotics [PMID:12578430] [PMID:32930419].
+- Lupus (oral prasterone): 100-200 mg/d, which produced supraphysiological hormone levels [PMID:17090740].
+- Vaginal prasterone (Intrarosa): 6.5 mg insert nightly [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ada639d4-bac0-2ad0-e053-2a95a90afce7]. Alternative regimens studied: 3.25 mg [PMID:29164377]; daily for 4 weeks then twice weekly [PMID:41903372].
 
 ** Safety & adverse effects
-- Acne and androgenic effects reported; long-term hormone-sensitive cancer and cardiovascular safety remain uncertain. [PMID:25879093]
+- Androgenic effects are the main dose-related adverse events:
+  - Cochrane menopause review: androgenic side effects (mainly acne) OR 3.77 (1.36-10.4) [PMID:25879093].
+  - Cochrane lupus review: acne RR 2.2 (1.65-2.83) [PMID:17943841].
+  - Prasterone in SLE also caused hirsutism. Hematuria, hypertension and creatinine rises were reported [PMID:17090740].
+  - Older women in the Addison trial reached supraphysiological DHEA-S and had mild androgenic effects [PMID:18000094].
+  - High-dose use by female athletes is expected to cause hirsutism, acne and alopecia [PMID:20122454].
+- Serious events: 2-year trials in older adults found no major adverse effects [PMID:17050889]. A meta-analysis of postmenopausal women found no effect on serious adverse events [PMID:25279571]. Trials were short and too small to detect rare harms.
+- Lipids: HDL fell in women (-5.1 mg/dL) [PMID:32675010]. No liver-enzyme change was found [PMID:34342920].
+- Psychiatric: case reports describe mania starting during DHEA use, including a severe case with homicidal threats [PMID:11144700].
+- Hormone-sensitive cancers:
+  - Pooled prospective data link higher endogenous DHEA, DHEA-S, testosterone and estradiol to higher postmenopausal breast cancer risk [PMID:11959894]. This is observational evidence about endogenous levels, not supplement trials.
+  - A 2025 review argues that animal data show DHEA suppresses mammary tumors and that the association in humans reflects adrenal stress activation [PMID:40812951].
+  - The adrenal-permissive HSD3B1 allele, which increases androgen production from DHEA, is linked to worse outcomes in advanced prostate cancer on androgen deprivation [PMID:32565196].
+  - No trial has been powered for cancer outcomes.
+- Vaginal prasterone:
+  - The most common adverse reaction was vaginal discharge (>=2%), plus abnormal Pap smear in the 52-week trial [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ada639d4-bac0-2ad0-e053-2a95a90afce7].
+  - Discharge was about 6% in phase III [PMID:26731686].
+  - Label warning: estrogen is a metabolite, and the product has not been studied in women with breast cancer [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ada639d4-bac0-2ad0-e053-2a95a90afce7].
+- Anorexia nervosa: DHEA monotherapy did not improve BMD. One study suggested harm to BMD in younger adolescents with open physes [PMID:35460091].
+- Mendelian randomization: genetically higher DHEA-S was linked to shorter lifespan in men (-1.15 years per log unit) and showed no association in women. This argues against assuming DHEA is a longevity agent [PMID:40450423].
 
 ** Contraindications
-- Avoid unsupervised use in hormone-sensitive malignancy; this is precautionary given conversion to sex steroids. [PMID:40616152]
+- Current or past breast cancer or other estrogen-dependent cancer: estrogen is a metabolite of prasterone, and systemic DHEA raises estradiol [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ada639d4-bac0-2ad0-e053-2a95a90afce7] [PMID:40616152]. Vaginal DHEA has been studied in survivors, but only in small or short trials [PMID:29164377] [PMID:35343852].
+- Prostate cancer or other androgen-sensitive disease: DHEA is converted to testosterone and DHT [PMID:32565196] [PMID:33045358]. This is precautionary.
+- Undiagnosed abnormal genital bleeding: a label contraindication for vaginal prasterone [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ada639d4-bac0-2ad0-e053-2a95a90afce7].
+- Bipolar disorder or a history of mania: case reports of DHEA-associated mania [PMID:11144700].
+- Hyperandrogenic states (for example PCOS, hirsutism, acne-prone women): androgenic adverse effects are dose-related [PMID:25879093].
+- Adolescents with open growth plates (anorexia nervosa data) [PMID:35460091].
+- Competitive athletes subject to anti-doping rules [PMID:20122454].
+- Guidelines: the Endocrine Society recommends against routine DHEA use in women, including women with adrenal insufficiency or hypopituitarism [PMID:25279570]. The primary adrenal insufficiency guideline lists only glucocorticoid and mineralocorticoid replacement as standard therapy [PMID:26760044].
 
 ** Interactions
-- May alter sex-steroid assays/levels and interact pharmacodynamically with estrogenic or androgenic therapies; no established routine lab assay interference. [PMID:40616152]
+*** Drugs
+- Estrogen therapy, oral contraceptives and progestins: additive or opposing hormonal effects are possible [PMID:17090740]. Systemic DHEA raises estradiol by about 8 pg/mL in postmenopausal women [PMID:40616152]. Combining DHEA with oral contraceptives changed bone results in anorexia nervosa [PMID:35460091].
+- Testosterone and other androgens: additive androgen exposure [PMID:17090740] [PMID:33045358].
+- Aromatase inhibitors: with vaginal DHEA, estradiol did not rise in women taking AIs, but DHEA-S and testosterone rose in a dose-dependent way [PMID:29164377]. In a 10-patient pilot study, serum estradiol stayed low on AIs [PMID:35343852]. Systemic oral DHEA with AIs has not been studied.
+- 5-alpha-reductase inhibitors (finasteride, dutasteride): potential interaction through the DHEA-to-DHT pathway [PMID:17090740]. This is theoretical.
+- Glucocorticoids and hydrocortisone replacement: glucocorticoids suppress endogenous DHEA-S and reduce its value as a diagnostic marker [PMID:39657727]. Prasterone was studied for bone protection in lupus patients on chronic glucocorticoids [PMID:17090740].
+- Antidiabetic drugs: small fall in fasting glucose (-2.2 mg/dL) [PMID:33220623]. Clinically minor.
+- Antipsychotics and antidepressants: DHEA was added to antipsychotics in schizophrenia trials [PMID:12578430]. Mania case reports call for caution in bipolar disorder [PMID:11144700].
+*** Other supplements
+- Ashwagandha: an RCT found an 18% greater rise in DHEA-S and 14.7% greater rise in testosterone versus placebo [PMID:30854916]. Combined with DHEA this could add to androgen exposure and confuse DHEA-S monitoring. No combination study exists.
+- CoQ10: both are used as IVF adjuvants for poor ovarian response. A network MA ranked CoQ10 best for live birth and DHEA strongly for implantation and oocyte number [PMID:37464357]. A DOR MA found combined supplement use correlated with better ovarian markers [PMID:41185971]. Evidence for any additive effect is low quality.
+- Vitamin D-3 (with calcium): given as background in both arms of DHEA bone trials. Spine BMD gains in women occurred on top of it [PMID:19321570] [PMID:20863330]. No interaction was tested.
+*** Conditions
+- Breast, endometrial and prostate cancer, bipolar disorder, hyperandrogenism, adolescents with open physes, undiagnosed genital bleeding: see Contraindications.
+- Adrenal insufficiency: DHEA is an optional add-on to glucocorticoid and mineralocorticoid replacement, not a substitute [PMID:26760044] [PMID:19773400].
+- Dyslipidemia or cardiovascular risk in women: HDL falls [PMID:32675010].
+*** Lab-test interference
+- Testosterone immunoassays: DHEA-S cross-reacts in many direct testosterone immunoassays, including Abbott Architect, Roche Elecsys/E170, Beckman Access and Immulite. In the Architect assay, measured testosterone rose 0.12 nmol/L in serum for every 1 umol/L of DHEA-S [PMID:16704754] [PMID:17362583]. Supplemented women with high DHEA-S may show falsely high testosterone; LC-MS/MS avoids this. Package-insert cross-reactivity varies by platform [PMID:25071417].
+- True rises in measured hormones: DHEA-S, testosterone, estradiol and estrone rise and SHBG falls [PMID:18812486] [PMID:40616152]. Interpret sex-hormone panels in light of supplement use.
+- Adrenal insufficiency work-up: DHEA-S is used to screen for adrenal insufficiency. Low DHEA-S plus low cortisol predicted AI in 72% of patients [PMID:39657727], and a sex- and age-adjusted DHEA-S index had a negative predictive value of 98% [PMID:42591062]. Exogenous DHEA would raise DHEA-S and could mask a low result. This is inferred; no study tested it directly.
+- Anti-doping urine tests: DHEA is detected by carbon isotope-ratio mass spectrometry when urinary DHEA exceeds 100 ng/mL [PMID:18417762].
 
 ** Genotype notes
-- No cited pharmacogenomic or nutrigenomic source was identified in the sources reviewed; no genotype-specific claim is made.
+- HSD3B1 rs1047303 (1245A>C): the adrenal-permissive 1245C allele makes a stable 3beta-HSD1 enzyme. This increases conversion of DHEA to potent androgens and is linked to worse outcomes in androgen-sensitive prostate cancer [PMID:32565196]. No study has tested whether genotype changes the response to supplemental DHEA.
 
 ** Latest research
-- 2025–2026 literature: 2025 meta-analysis quantified increases in testosterone and estradiol after oral supplementation. [PMID:40616152]
+- [2026-08] Sex- and age-adjusted DHEA-S index for suspected adrenal insufficiency: sensitivity 93%, NPV 98% in prospective validation [PMID:42591062].
+- [2026-07] EDIPHY crossover RCT in PAH (n=26): no effect on RV longitudinal strain; DHEA raised DHEA-S and testosterone; well tolerated [PMID:42446134].
+- [2026-07] Vaginal DHEA MA (5 RCTs, n=1611): dryness MD -0.23, dyspareunia MD -0.40 vs placebo [PMID:41589851].
+- [2026-06] Oral DHEA 60 mg/d vs Femarelle (n=70): similar climacteric score reductions; within-group urinary and FSFI gains with DHEA [PMID:42328990].
+- [2026-05] Open-label RCT of vaginal DHEA vs estradiol (n=172): dyspareunia improved 92% vs 82%; estradiol better on objective atrophy signs [PMID:41903372].
+- [2026-04] Review of DHEA/DHEA-S anti-aging mechanisms (antioxidant, anti-inflammatory, intracrine) in older people [PMID:41485982].
+- [2025-12] DOR supplement MA (16 studies): supplements including DHEA lowered FSH and raised AMH, AFC and oocytes; CoQ10 outperformed DHEA [PMID:41185971].
+- [2025-10] Mendelian randomization: genetically higher DHEA-S linked to shorter lifespan in men, null in women [PMID:40450423].
+- [2025-09] Review of DHEA/DHEA-S neurosteroid and intracrine mechanisms and the evidence for vaginal and oral use [PMID:40943486].
+- [2025-08] Single-center cohort (n=1135): DHEA-S AUROC 0.81 for adrenal insufficiency, lower after recent glucocorticoid use [PMID:39657727].
+- [2025-07] MA (21 studies) in postmenopausal women: estradiol +7.86 pg/mL, testosterone +24.31 ng/dL, larger at >=50 mg/d [PMID:40616152].
+- [2025-05] Pilot cohort (n=34): vaginal DHEA reduced stress urinary incontinence episodes in women with VVA (uncontrolled) [PMID:40068355].
+- [2025-03] DOR MA (38 RCTs, POSEIDON criteria): DHEA increased oocytes (WMD 0.60); only testosterone improved live birth [PMID:39332623].
+- [2025-02] IVF/ICSI MA (16 RCTs, n=1973): endometrial thickness +0.93 mm, CPR OR 1.34, low QoE; live birth inconclusive [PMID:39980032].
+- [2025] Review: animal data show DHEA suppresses mammary tumors; it proposes cortisol rather than DHEA as the harmful factor behind the breast cancer association [PMID:40812951].
+- [2024-10] Ann Intern Med SR of GSM therapies: vaginal DHEA may improve dryness and dyspareunia (low COE); systemic DHEA may give no benefit [PMID:39250810].
 
 ** Open questions
-- Whether findings translate into durable patient-important outcomes, optimal formulation/dose, and long-term safety remains uncertain. [PMID:40616152; PMID:37788418]
+- Long-term (>2 years) safety of oral DHEA for breast, endometrial and prostate cancer and for cardiovascular events. No trial was powered for these.
+- Whether the small HRQOL benefit in women with adrenal insufficiency is clinically meaningful, and who benefits most. There are few recent RCTs.
+- The DHEA effect on live birth in poor responders. Cochrane finds little difference, while surrogate outcomes (oocytes, endometrium) improve.
+- Variable content and purity of OTC products, and dose titration by DHEA-S target versus fixed dose.
+- Whether the HSD3B1 genotype changes androgenic response or risk with supplemental DHEA.
+- Safety of systemic DHEA with aromatase inhibitors, and long-term endometrial and breast safety of vaginal prasterone in cancer survivors.
+- How much immunoassay testosterone overestimation inflates reported androgen rises in older trials, compared with LC-MS/MS.
 
 ** Sources
-- PMID:40616152
-- PMID:37788418
-- PMID:40616152
-- PMID:37788418
-- PMID:41589851
-- PMID:25879093
+1. He S et al. Impact of DHEA supplementation on testosterone and estradiol levels in postmenopausal women: a meta-analysis of randomized controlled trials assessing dose and duration effects. Diabetol Metab Syndr. 2025. PMID:40616152 DOI:10.1186/s13098-025-01770-0
+2. Li Y et al. A dose-response and meta-analysis of dehydroepiandrosterone (DHEA) supplementation on testosterone levels: perinatal prediction of randomized clinical trials. Exp Gerontol. 2020. PMID:33045358 DOI:10.1016/j.exger.2020.111110
+3. Scheffers CS et al. Dehydroepiandrosterone for women in the peri- or postmenopausal phase. Cochrane Database Syst Rev. 2015. PMID:25879093 DOI:10.1002/14651858.CD011066.pub2
+4. Elraiyah T et al. The benefits and harms of systemic dehydroepiandrosterone (DHEA) in postmenopausal women with normal adrenal function: a systematic review and meta-analysis. J Clin Endocrinol Metab. 2014. PMID:25279571 DOI:10.1210/jc.2014-2261
+5. Wierman ME et al. Androgen therapy in women: a reappraisal: an Endocrine Society clinical practice guideline. J Clin Endocrinol Metab. 2014. PMID:25279570 DOI:10.1210/jc.2014-2260
+6. Bornstein SR et al. Diagnosis and Treatment of Primary Adrenal Insufficiency: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2016. PMID:26760044 DOI:10.1210/jc.2015-1710
+7. Alkatib AA et al. A systematic review and meta-analysis of randomized placebo-controlled trials of DHEA treatment effects on quality of life in women with adrenal insufficiency. J Clin Endocrinol Metab. 2009. PMID:19773400 DOI:10.1210/jc.2009-0672
+8. Gurnell EM et al. Long-term DHEA replacement in primary adrenal insufficiency: a randomized, controlled trial. J Clin Endocrinol Metab. 2008. PMID:18000094 DOI:10.1210/jc.2007-1134
+9. Hunt PJ et al. Improvement in mood and fatigue after dehydroepiandrosterone replacement in Addison's disease in a randomized, double blind trial. J Clin Endocrinol Metab. 2000. PMID:11134123 DOI:10.1210/jcem.85.12.7022
+10. Nair KS et al. DHEA in elderly women and DHEA or testosterone in elderly men. N Engl J Med. 2006. PMID:17050889 DOI:10.1056/NEJMoa054629
+11. Lin H et al. A systematic review and meta-analysis of randomized placebo-controlled trials of DHEA supplementation of bone mineral density in healthy adults. Gynecol Endocrinol. 2019. PMID:31237150 DOI:10.1080/09513590.2019.1616175
+12. Baker WL et al. Effect of dehydroepiandrosterone on muscle strength and physical function in older adults: a systematic review. J Am Geriatr Soc. 2011. PMID:21649617 DOI:10.1111/j.1532-5415.2011.03410.x
+13. Weiss EP et al. Dehydroepiandrosterone replacement therapy in older adults: 1- and 2-y effects on bone. Am J Clin Nutr. 2009. PMID:19321570 DOI:10.3945/ajcn.2008.27265
+14. Jankowski CM et al. Increases in bone mineral density in response to oral dehydroepiandrosterone replacement in older adults appear to be mediated by serum estrogens. J Clin Endocrinol Metab. 2008. PMID:18812486 DOI:10.1210/jc.2007-2614
+15. Kenny AM et al. Dehydroepiandrosterone combined with exercise improves muscle strength and physical function in frail older women. J Am Geriatr Soc. 2010. PMID:20863330 DOI:10.1111/j.1532-5415.2010.03019.x
+16. Qin Y et al. Effects of dehydroepiandrosterone (DHEA) supplementation on the lipid profile: a systematic review and dose-response meta-analysis of randomized controlled trials. Nutr Metab Cardiovasc Dis. 2020. PMID:32675010 DOI:10.1016/j.numecd.2020.05.015
+17. Wang X et al. The influence of dehydroepiandrosterone (DHEA) on fasting plasma glucose, insulin levels and insulin resistance (HOMA-IR) index: a systematic review and dose response meta-analysis of randomized controlled trials. Complement Ther Med. 2020. PMID:33220623 DOI:10.1016/j.ctim.2020.102583
+18. Chen H et al. Effects of dehydroepiandrosterone (DHEA) supplementation on cortisol, leptin, adiponectin, and liver enzyme levels: a systematic review and meta-analysis of randomised clinical trials. Int J Clin Pract. 2021. PMID:34342920 DOI:10.1111/ijcp.14698
+19. Peixoto C et al. Dehydroepiandrosterone for depressive symptoms: a systematic review and meta-analysis of randomized controlled trials. J Neurosci Res. 2020. PMID:32930419 DOI:10.1002/jnr.24721
+20. Sultana F et al. Effect of dehydroepiandrosterone therapy on cognitive performance among postmenopausal women: a systematic review of randomized clinical trial data. Menopause. 2023. PMID:37788418 DOI:10.1097/GME.0000000000002251
+21. Mandal S et al. DHEA on Sexual Function in Sheehan Syndrome: A Randomized Double-Blind Placebo-Controlled Crossover Trial. J Clin Endocrinol Metab. 2022. PMID:35481572 DOI:10.1210/clinem/dgac260
+22. Reiter WJ et al. Dehydroepiandrosterone in the treatment of erectile dysfunction: a prospective, double-blind, randomized, placebo-controlled study. Urology. 1999. PMID:10096389 DOI:10.1016/s0090-4295(98)00571-8
+23. Naik S et al. Androgens (dehydroepiandrosterone or testosterone) for women undergoing assisted reproduction. Cochrane Database Syst Rev. 2024. PMID:38837771 DOI:10.1002/14651858.CD009749.pub3
+24. Conforti A et al. Therapeutic management in women with a diminished ovarian reserve: a systematic review and meta-analysis of randomized controlled trials. Fertil Steril. 2025. PMID:39332623 DOI:10.1016/j.fertnstert.2024.09.038
+25. Li X et al. The auxiliary effect of oral nutritional supplements on fertility in women with diminished ovarian reserve: a systematic review and meta-analysis. Ann Med. 2025. PMID:41185971 DOI:10.1080/07853890.2025.2583330
+26. Huang L et al. Administration of dehydroepiandrosterone improves endometrial thickness in women undergoing IVF/ICSI: a systematic review and meta-analysis. J Ovarian Res. 2025. PMID:39980032 DOI:10.1186/s13048-024-01581-3
+27. Zhu F et al. TEAS, DHEA, CoQ10, and GH for poor ovarian response undergoing IVF-ET: a systematic review and network meta-analysis. Reprod Biol Endocrinol. 2023. PMID:37464357 DOI:10.1186/s12958-023-01119-0
+28. Lemos MJ et al. Intravaginal dehydroepiandrosterone for the treatment of vulvovaginal atrophy: a systematic review and meta-analysis. Menopause. 2026. PMID:41589851 DOI:10.1097/GME.0000000000002736
+29. Danan ER et al. Hormonal Treatments and Vaginal Moisturizers for Genitourinary Syndrome of Menopause: A Systematic Review. Ann Intern Med. 2024. PMID:39250810 DOI:10.7326/ANNALS-24-00610
+30. Labrie F et al. Efficacy of intravaginal dehydroepiandrosterone (DHEA) on moderate to severe dyspareunia and vaginal dryness, symptoms of vulvovaginal atrophy, and of the genitourinary syndrome of menopause. Menopause. 2016. PMID:26731686 DOI:10.1097/GME.0000000000000571
+31. Martel C et al. Serum steroid concentrations remain within normal postmenopausal values in women receiving daily 6.5mg intravaginal prasterone for 12 weeks. J Steroid Biochem Mol Biol. 2016. PMID:26972555 DOI:10.1016/j.jsbmb.2016.03.016
+32. Barton DL et al. Systemic and local effects of vaginal dehydroepiandrosterone (DHEA): NCCTG N10C1 (Alliance). Support Care Cancer. 2018. PMID:29164377 DOI:10.1007/s00520-017-3960-9
+33. Barton DL et al. Evaluating the efficacy of vaginal dehydroepiandosterone for vaginal symptoms in postmenopausal cancer survivors: NCCTG N10C1 (Alliance). Support Care Cancer. 2018. PMID:28921241 DOI:10.1007/s00520-017-3878-2
+34. Mension E et al. Safety of prasterone in breast cancer survivors treated with aromatase inhibitors: the VIBRA pilot study. Climacteric. 2022. PMID:35343852 DOI:10.1080/13697137.2022.2050208
+35. Strandberg M et al. Effects of vaginal dehydroepiandrosterone and estradiol on dyspareunia, a symptom of vulvovaginal atrophy in postmenopausal women - a randomized controlled trial. Maturitas. 2026. PMID:41903372 DOI:10.1016/j.maturitas.2026.108924
+36. Long CY et al. Comparative Study of Dehydroepiandrosterone versus Femarelle on Menopausal Systemic and Genitourinary Syndrome. Gynecol Obstet Invest. 2026. PMID:42328990 DOI:10.1159/000552775
+37. Misasi G et al. Effects of vaginal DHEA on stress urinary incontinence in postmenopausal women with vulvovaginal atrophy. Maturitas. 2025. PMID:40068355 DOI:10.1016/j.maturitas.2025.108232
+38. Heo YA. Prasterone: A Review in Vulvovaginal Atrophy. Drugs Aging. 2019. PMID:31290076 DOI:10.1007/s40266-019-00693-6
+39. Kocis P. Prasterone. Am J Health Syst Pharm. 2006. PMID:17090740 DOI:10.2146/ajhp060100
+40. Crosbie D et al. Dehydroepiandrosterone for systemic lupus erythematosus. Cochrane Database Syst Rev. 2007. PMID:17943841 DOI:10.1002/14651858.CD005114.pub2
+41. Lin J et al. Dehydroepiandrosterone status and efficacy of dehydroepiandrosterone supplementation for bone health in anorexia nervosa: a systematic review and meta-analysis. Int J Eat Disord. 2022. PMID:35460091 DOI:10.1002/eat.23714
+42. Dean CE. Prasterone (DHEA) and mania. Ann Pharmacother. 2000. PMID:11144700 DOI:10.1345/aph.10115
+43. Strous RD et al. Dehydroepiandrosterone augmentation in the management of negative, depressive, and anxiety symptoms in schizophrenia. Arch Gen Psychiatry. 2003. PMID:12578430 DOI:10.1001/archpsyc.60.2.133
+44. Warner MH et al. Dehydroepiandrosterone sulphate interferes with the Abbott Architect direct immunoassay for testosterone. Ann Clin Biochem. 2006. PMID:16704754 DOI:10.1258/000456306776865034
+45. Middle JG. Dehydroepiandrostenedione sulphate interferes in many direct immunoassays for testosterone. Ann Clin Biochem. 2007. PMID:17362583 DOI:10.1258/000456307780118082
+46. Krasowski MD et al. Cross-reactivity of steroid hormone immunoassays: clinical significance and two-dimensional molecular similarity prediction. BMC Clin Pathol. 2014. PMID:25071417 DOI:10.1186/1472-6890-14-33
+47. Han AJ et al. Performance of Dehydroepiandrosterone Sulfate and Baseline Cortisol in Assessing Adrenal Insufficiency. J Clin Endocrinol Metab. 2025. PMID:39657727 DOI:10.1210/clinem/dgae855
+48. Vega-Beyhart A et al. Development and validation of a sex- and age-adjusted dehydroepiandrosterone sulfate index for suspected adrenal insufficiency. Eur J Endocrinol. 2026. PMID:42591062 DOI:10.1093/ejendo/lvag120
+49. Naelitz BD, Sharifi N. Through the Looking-Glass: Reevaluating DHEA Metabolism Through HSD3B1 Genetics. Trends Endocrinol Metab. 2020. PMID:32565196 DOI:10.1016/j.tem.2020.05.006
+50. Key T et al. Endogenous sex hormones and breast cancer in postmenopausal women: reanalysis of nine prospective studies. J Natl Cancer Inst. 2002. PMID:11959894 DOI:10.1093/jnci/94.8.606
+51. Chatterton RT Jr. Dehydroepiandrosterone (DHEA) in relation to breast cancer. Vitam Horm. 2025. PMID:40812951 DOI:10.1016/bs.vh.2024.11.002
+52. Sanders R et al. Effects of Dehydroepiandrosterone in Pulmonary Hypertension (EDIPHY): A Randomized, Double-Blind, Placebo-Controlled Crossover Trial. Ann Am Thorac Soc. 2026. PMID:42446134 DOI:10.1093/annalsats/aaoag195
+53. Schooling CM, Zhao JV. Dehydroepiandrosterone sulfate on lifespan in men and women using Mendelian randomization. Nutr Metab Cardiovasc Dis. 2025. PMID:40450423 DOI:10.1016/j.numecd.2025.104128
+54. Nawata H et al. Anti-aging effects of the adrenal androgens dehydroepiandrosterone and dehydroepiandrosterone sulfate: mechanisms of action and beneficial effects in older people. Endocr J. 2026. PMID:41485982 DOI:10.1507/endocrj.EJ25-0483
+55. Lin HY et al. The Sex Hormone Precursors Dehydroepiandrosterone (DHEA) and Its Sulfate Ester Form (DHEAS): Molecular Mechanisms and Actions on Human Body. Int J Mol Sci. 2025. PMID:40943486 DOI:10.3390/ijms26178568
+56. Mohamad NV et al. Dehydroepiandrosterone and Bone Health: Mechanisms and Insights. Biomedicines. 2024. PMID:39767687 DOI:10.3390/biomedicines12122780
+57. Arlt W et al. Oral dehydroepiandrosterone for adrenal androgen replacement: pharmacokinetics and peripheral conversion to androgens and estrogens in young healthy females after dexamethasone suppression. J Clin Endocrinol Metab. 1998. PMID:9626121 DOI:10.1210/jcem.83.6.4850
+58. Lopresti AL et al. A Randomized, Double-Blind, Placebo-Controlled, Crossover Study Examining the Hormonal and Vitality Effects of Ashwagandha (Withania somnifera) in Aging, Overweight Males. Am J Mens Health. 2019. PMID:30854916 DOI:10.1177/1557988319835985
+59. Mareck U et al. Detection of dehydroepiandrosterone misuse by means of gas chromatography-combustion-isotope ratio mass spectrometry. Eur J Mass Spectrom. 2007. PMID:18417762 DOI:10.1255/ejms.900
+60. Hahner S, Allolio B. Dehydroepiandrosterone to enhance physical performance: myth and reality. Endocrinol Metab Clin North Am. 2010. PMID:20122454 DOI:10.1016/j.ecl.2009.10.008
+61. FDA. INTRAROSA (prasterone) vaginal insert, prescribing information (DailyMed setid ada639d4-bac0-2ad0-e053-2a95a90afce7, version published 2026-08-03). URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ada639d4-bac0-2ad0-e053-2a95a90afce7

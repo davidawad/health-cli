@@ -3,48 +3,203 @@
 :ID: supp-garlic-kyolic
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: aged garlic extract | Kyolic
+:ALIASES: aged garlic extract | AGE | Kyolic | Kyolic aged garlic extract | S-allyl cysteine | S-allylcysteine | SAC
 :CATEGORY: botanical
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Kyolic is a branded aged garlic extract (AGE), produced by prolonged aging and standardized in some trials to S-allylcysteine; this evidence is product-specific. [PMID:30619868]
+- Aged garlic extract (AGE) is made by aging raw garlic (Allium sativum L.) in an alcoholic solution for more than 10 months [PMID:40171136] [PMID:39882336]. Kyolic is the branded AGE used in many of the trials [PMID:30619868] [PMID:11053504].
+- AGE is rich in sulfur-containing amino acids, which have pharmacokinetic profiles different from allicin-type garlic compounds:
+  - S-allylcysteine (SAC), the usual standardization and compliance marker.
+  - S-1-propenylcysteine (S1PC), S-methylcysteine (SMC) and S-allylmercaptocysteine (SAMC) [PMID:40171136] [PMID:40171135].
+- Pharmacokinetics (mostly rat data): SAC, S1PC and SMC are well absorbed (bioavailability 88.0-95.8%) and excreted in urine in N-acetylated form. SAMC is not detected in plasma [PMID:40171136]. Plasma SAC was used as a compliance marker in a coronary-calcium trial [PMID:15475033].
+- Forms used in trials:
+  - Capsules/tablets of AGE powder: 1.2 g/d (1.2 mg SAC) and 2.4 g/d (2.4 mg SAC) [PMID:26869811] [PMID:40084199].
+  - Liquid Kyolic: 4-10 mL/d [PMID:15475033] [PMID:16484565] [PMID:11053504].
+  - Fixed combinations: AGE plus B vitamins, folic acid and L-arginine [PMID:19573556], or AGE plus CoQ10 [PMID:22923934].
+- "Aged black garlic" extracts are a different product class: a low-dose SAC (0.25 mg/d) black-garlic extract was tested in grade I hypertension [PMID:37686723]. Evidence for AGE should not be assumed to transfer to raw garlic, garlic powder or garlic oil, or the reverse [PMID:32143889].
 
 ** Mechanisms
-- Proposed biological activity and the best-established physiological context are described above; clinical mechanisms remain uncertain where outcome evidence is limited. ["PMID:30619868"]
+- Blood pressure / vascular tone: mechanisms proposed in reviews include more nitric oxide and hydrogen sulfide signalling and less vascular inflammation [PMID:32010325] [PMID:40171135]. An optimized black-garlic SAC extract raised blood nitric oxide and lowered ACE activity [PMID:37686723]. A single dose of AGE improved microvascular reactivity without a rise in urinary thiosulfate (H2S marker), which argues against an H2S-only mechanism [PMID:35505122].
+- Anti-atherosclerotic: in preclinical work, SAC/S1PC reduce oxidized-LDL accumulation, endothelial dysfunction and macrophage-driven inflammation [PMID:40171135]. AGE modulates macrophage phagocytosis, ROS production and polarization (experimental data) [PMID:39882336].
+- Platelets: in humans, AGE inhibits ADP-induced aggregation, roughly doubling the ADP K(M), with no change in thromboxane B2 [PMID:11053504]. It also selectively inhibits platelet adhesion to fibrinogen and collagen in a dose-dependent way [PMID:11238801].
+- Immune: AGE increases proliferation of gamma-delta T cells and NK cells [PMID:22280901] [PMID:26764332] and lowers IL-6 and TNF-alpha in obesity [PMID:29576354]. In a mouse lung-injury model, AGE inhibited NF-kB-dependent cytokines [PMID:42300751].
+- Lipids: reviews describe less de novo cholesterol synthesis and absorption, more LDL uptake, better HDL biogenesis, and gut-microbiota/TMAO effects [PMID:41273868].
+- Gut microbiota: prebiotic activity. Kyolic increased microbial richness and diversity, with more Lactobacillus and Clostridia [PMID:30619868].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | Certainty | Citations |
-|---|---|---|---|---|---|
-| Primary studied clinical/biomarker outcomes | Systematic review/meta-analysis or RCT synthesis | In 12-week RCT among uncontrolled hypertension, 1.2 g/day AGE was studied for BP and vascular markers | See narrative | low | PMID:30619868; PMID:40084199 |
-| Long-term clinical outcomes | Evidence insufficient or mixed | No established benefit | Not established | very low | PMID:30619868; PMID:40084199 |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Systolic BP (aged garlic) | Dose-response GRADE MA of 19 aged-garlic trials (2025) | Decrease | SBP WMD -2.49 mmHg (95% CI -4.02 to -0.95); DBP not significant | low | [PMID:40628369] |
+| BP in uncontrolled hypertension (Kyolic) | Ried RCTs (n=50, 79, 88, 49), 12 wk | Decrease | SBP -10.2 (n=50); -11.8 at 1.2 g/d (dose-response); -5.0 overall, -11.5/-6.3 in responders (AGE at Heart); -10/-5.4 (GarGIC) | low | [PMID:20594781] [PMID:23169470] [PMID:26869811] [PMID:30619868] |
+| BP (all garlic preparations) | MA of 108 RCTs (n=7137); MA of 10 RCTs in hypertension (2025) | Decrease | SBP -3.71 (CI -5.07 to -2.36), DBP -1.97; in hypertensives SBP -4.21, DBP -3.13 | moderate | [PMID:40580481] [PMID:41393949] [PMID:26764326] [PMID:32010325] |
+| Coronary artery calcium progression | Small RCTs (n=19-104), 1 y; AGE alone or AGE+supplements | Slower progression | CAC +7.5% vs +22.2% (pilot); OR 2.95 for less progression (n=104); AGE+CoQ10 OR 3.99 | low | [PMID:15475033] [PMID:32349742] [PMID:19573556] [PMID:22923934] |
+| Low-attenuation (soft) coronary plaque | RCTs with CCTA: MetS (n=55), diabetes (n=66 analysed) | Regression | %LAP -1.5% vs +0.2% (beta -1.61); significant LAP regression in diabetes; total plaque unchanged | low | [PMID:26764322] [PMID:32010322] |
+| Arterial stiffness / endothelial function | RCTs (PWV, CAVI, EndoPAT AI, FMD); SR of 10 garlic RCTs | Improvement, inconsistent | AI75 improved 21.6%; CAVI -0.71 vs -0.13; FMD +44% (n=15); AGE+CoQ10 PWV -1.21 m/s | low | [PMID:32010328] [PMID:32010327] [PMID:16041725] [PMID:22858191] [PMID:32143889] |
+| Microcirculation | RCTs, 2.4 g/d for 1 y (n=122, 93); acute crossover (n=28) | Improvement | PORH +21.6% (CI 3.2-40.0) vs placebo; faster StO2 upslope (d=0.50) | low | [PMID:31518044] [PMID:33590955] [PMID:35505122] |
+| Cold/flu severity | 1 RCT of AGE (n=120, 2.56 g/d, 90 d); Cochrane review (other garlic) | Lower severity; incidence unchanged | 21% fewer symptoms, 61% fewer suboptimal days, 58% fewer missed work/school days | low | [PMID:22280901] [PMID:26764332] [PMID:25386977] |
+| Inflammatory markers | AGE RCT in obesity; garlic MAs | Decrease | Lower IL-6 and TNF-alpha (AGE); garlic MA CRP -0.61 mg/L, IL-6 -0.73, TNF -0.26 | low | [PMID:29576354] [PMID:30949665] [PMID:40580481] |
+| LDL / total cholesterol | Aged-garlic MA; all-garlic MA | Small decrease | Aged garlic LDL -4.41 mg/dL (CI -8.28 to -0.54), TC NS; all garlic TC -10.21, LDL -5.90 mg/dL | low | [PMID:40628369] [PMID:40580481] [PMID:41273868] |
+| Gut microbiota | 1 RCT (GarGIC, n=49) | Higher richness/diversity | More Lactobacillus and Clostridia at 3 mo | very low | [PMID:30619868] |
+| Glycemia | Garlic dose-response MA (27 RCTs, n=1619) | Small decrease | FBG -2.76 mg/dL; HbA1c -0.53% | low | [PMID:42398591] [PMID:40580481] |
+| Aerobic fitness | 1 RCT in athletes (n=75) | Improvement | Higher VO2max and lactate threshold, lower PWV vs placebo (no pooled estimate) | very low | [PMID:40084199] |
+| Adiponectin (metabolic syndrome) | Crossover RCT, 1.2 g/d | Increase | P=0.027 | very low | [PMID:23533302] |
+| Periodontitis | RCT (n=201, 18 mo) | Improvement | Pocket depth 1.06 vs 1.50 mm (placebo) | very low | [PMID:33293771] |
 
 ** Dosing in trials
-- Trials: 1.2 g/day AGE (1.2 mg S-allylcysteine) for 12 weeks; a 2025 trial compared 1.2 and 2.4 g/day. [PMID:30619868] [PMID:40084199]
+- Blood pressure: 1.2 g/d AGE powder (1.2 mg SAC) for 12 weeks was the best-supported dose in the Ried dose-response trial. 0.6 mg SAC was ineffective and 2.4 mg was borderline [PMID:23169470]. 1.2 g/d was used in the AGE at Heart and GarGIC trials [PMID:26869811] [PMID:30619868], and 960 mg (2.4 mg SAC) in the first trial [PMID:20594781].
+- Meta-regression of 10 garlic RCTs found SAC dose negatively correlated with BP effect, with an optimal range of 0.5-1.5 mg SAC [PMID:41393949].
+- Coronary plaque/calcium and microcirculation: 2.4 g/d for about 1 year [PMID:26764322] [PMID:32349742] [PMID:31518044]. The pilot used 4 mL/d liquid AGE alongside statins [PMID:15475033].
+- Combination products: AGE 250 mg plus B12 100 ug, folic acid 300 ug, B6 12.5 mg and L-arginine 100 mg/d [PMID:19573556]. AGE 1200 mg plus CoQ10 120 mg/d [PMID:22923934].
+- Immune: 2.56 g/d for 90 days over a cold/flu season [PMID:22280901].
+- Athletes: 1.2 g/d vs 2.4 g/d for 12 weeks [PMID:40084199].
+- Platelet studies: 5 mL/d liquid for 13 weeks [PMID:11053504]; dose-finding at 2.4-7.2 g/d [PMID:11238801].
+- With warfarin: 5 mL twice daily for 12 weeks [PMID:16484565].
 
 ** Safety & adverse effects
-- Garlic-associated GI symptoms and possible bleeding risk apply; product-specific long-term safety evidence limited. [URL:https://www.nccih.nih.gov/health/garlic]
+- Tolerability in Kyolic trials is high, with 92-93% acceptability [PMID:20594781] [PMID:23169470]. The controlled aging process was developed partly because tolerance of raw garlic is low [PMID:37686723]. No side effects were reported in either arm of a 1-year 2.4 g/d trial [PMID:32349742].
+- Garlic meta-analysis (10 RCTs): adverse reactions were slightly but not significantly more frequent with garlic. GI discomfort and bad breath were the most common [PMID:41393949].
+- Garlic in general (case reports and reviews):
+  - Breath and body odour.
+  - Allergic reactions: contact dermatitis, urticaria, angioedema, pemphigus, anaphylaxis.
+  - Burns from fresh garlic applied to skin.
+  - Altered platelet function with possible bleeding [PMID:17918162].
+- Bleeding:
+  - AGE inhibits platelet aggregation and adhesion [PMID:11053504] [PMID:11238801]. Pooled RCT evidence on garlic and platelet aggregation is inconsistent (6 of 12 trials positive) [PMID:36222178].
+  - Case report: unexplained heavy bleeding during spinal surgery after about 12 g/d of raw garlic, treated with DDAVP and cryoprecipitate [PMID:27782907].
+  - AGE did not increase bleeding in patients on blood-thinning medication in AGE at Heart [PMID:26869811] or in the warfarin RCT [PMID:16484565].
+- Pregnancy: a Cochrane review (one trial, 100 women) found insufficient evidence on garlic for preventing pre-eclampsia (RR 0.78, CI 0.31-1.93). Odour was more common (RR 8.50) and no serious harms were reported [PMID:16856110]. No AGE-specific pregnancy data were found.
+- Evidence quality caveat: most AGE trials are small and several are manufacturer-supported. A 2024 AGE blood-pressure meta-analysis [PMID:39437887] was retracted in 2026 [PMID:42527229] and should not be relied on.
 
 ** Contraindications
-- Caution with anticoagulants/antiplatelets and around surgery. [URL:https://www.nccih.nih.gov/health/garlic]
+- Known garlic/Allium allergy [PMID:17918162].
+- Active bleeding or bleeding disorders: this is a caution inferred from antiplatelet activity [PMID:11053504] [PMID:11238801].
+- Elective surgery: anesthesia societies (ASA/AANA) advise stopping herbal medicines 1-2 weeks before elective surgery. Garlic is among the herbs most often used before surgery [PMID:38613937] [PMID:27782907].
+- No absolute contraindication specific to AGE was found in the retrieved literature.
 
 ** Interactions
-- May add to blood-pressure-lowering effects and bleeding tendency; monitor with anticoagulants. [PMID:30619868] [URL:https://www.nccih.nih.gov/health/garlic]
+*** Drugs
+- Warfarin:
+  - Pilot RCT (n=48, 5 mL AGE twice daily for 12 wk): no increase in bleeding vs placebo in closely monitored patients [PMID:16484565].
+  - Crossover study in healthy men: garlic (not AGE) did not change warfarin PK or INR [PMID:18516070].
+  - Case reports describe garlic enhancing warfarin/fluindione effects [PMID:17918162].
+  - In warfarin-treated AF patients, frequent use of herbs in food (garlic was the most common) was associated with less time in the therapeutic INR range [PMID:21558883].
+  - Net: monitor INR, especially when starting or stopping.
+- Antiplatelet drugs:
+  - In 10 patients with type 2 diabetes, AGE 600 mg plus cilostazol 100 mg did not enhance antiplatelet activity beyond either agent alone [PMID:21713089].
+  - In men with CAD already on aspirin and a statin, AGE improved FMD with no reported safety signal [PMID:16041725].
+  - AGE's own ADP-pathway inhibition [PMID:11053504] means additive effects with P2Y12 inhibitors are plausible but unstudied.
+- Other anticoagulants (DOACs, heparins): no interaction studies. Caution is based on antiplatelet pharmacodynamics and perioperative guidance [PMID:38613937] [PMID:17918162].
+- HIV protease inhibitors:
+  - Garlic caplets (not AGE) cut saquinavir AUC by 51% and Cmax by 54%; levels were only 60-70% of baseline after a 10-day washout [PMID:11740713].
+  - Garlic extract induced duodenal P-gp to 131% without changing CYP3A4 [PMID:20933082].
+  - Short-term garlic did not significantly change single-dose ritonavir PK (AUC -17%) [PMID:12580992].
+- CYP effects:
+  - Garlic oil reduced CYP2E1 activity (chlorzoxazone) by 39% in young adults and about 22% in elderly adults [PMID:12235448] [PMID:15974642].
+  - Garlic extract did not alter CYP2D6 (dextromethorphan) or CYP3A4 (alprazolam) [PMID:12891227], CYP3A4 by erythromycin breath test, or simvastatin/pravastatin AUC [PMID:20933082].
+  - None of these studies used AGE. AGE-specific human CYP data were not found.
+- Antihypertensives: AGE lowered SBP further when added to existing antihypertensive drugs [PMID:20594781] [PMID:23169470], as did a black-garlic SAC extract [PMID:37686723]. Additive effect; monitor BP.
+- Antidiabetic drugs: modest FBG/HbA1c reductions with garlic [PMID:42398591]. AGE improved blood glucose in a 1-year trial [PMID:32349742]. Minor additive effect.
+*** Other supplements
+- Garlic (other garlic preparations): duplicate organosulfur exposure with additive antiplatelet effects and garlic adverse effects (odour, GI, allergy, bleeding) [PMID:11053504] [PMID:17918162] [PMID:36222178].
+- CoQ10: AGE+CoQ10 combination trials found slower CAC progression, lower CRP and better PWV/endothelial function. Because the product was fixed, the individual contributions cannot be separated [PMID:22923934] [PMID:22858191].
+- B Complex (B6, B12, folic acid) with L-arginine: the combination slowed CAC progression, lowered homocysteine and improved vascular function [PMID:19573556] [PMID:23453866] [PMID:29140808].
+- B12 methylcobalamin: vitamin B12 status influenced BP responsiveness to Kyolic in about 17% of patients [PMID:30619868] [PMID:32010325].
+- Other antiplatelet botanicals and foods (ginkgo, cocoa/cacao, grape, flaxseed, tomato): an SR of RCTs found inhibition of platelet aggregation for these plants as well as garlic, so stacking could add to bleeding risk [PMID:36380973] [PMID:38613937].
+*** Conditions
+- Uncontrolled hypertension: the best-studied population. Benefit was seen when SBP was >=140 mmHg, with no significant change below 140 [PMID:20594781].
+- Perioperative period and bleeding disorders: see Contraindications [PMID:38613937] [PMID:27782907].
+- Garlic allergy: avoid [PMID:17918162].
+- Pregnancy: insufficient evidence [PMID:16856110].
+*** Lab-test interference
+- No assay artifact was found. AGE causes true physiological changes in platelet aggregation tests (ADP, collagen, epinephrine thresholds) [PMID:11053504] [PMID:11238801].
+- INR was not changed by garlic in healthy subjects [PMID:18516070], but INR should still be monitored on warfarin [PMID:21558883].
+- CRP, IL-6, TNF-alpha, adiponectin and homocysteine may fall or rise as true effects [PMID:30949665] [PMID:23533302] [PMID:19573556].
 
 ** Genotype notes
-- No cited pharmacogenomic or nutrigenomic source was identified in the sources reviewed; no genotype-specific claim is made.
+- In a crossover study, garlic did not change warfarin PK/PD overall. The authors noted some evidence of a VKORC1 (not CYP2C9) genotype-dependent interaction that needs further study [PMID:18516070]. No AGE-specific pharmacogenomic data were found.
 
 ** Latest research
-- 2025–2026 literature: 2025 randomized trial studied 1.2 or 2.4 g/day Kyolic AGE in 75 recreational endurance athletes. [PMID:40084199]
+- [2026-07] Retraction of the 2024 AGE blood-pressure meta-analysis (Prostaglandins Other Lipid Mediat) [PMID:42527229]. Its results (SBP -4.03 mmHg in 9 RCTs) [PMID:39437887] should not be cited as evidence.
+- [2026-07] Garlic glycemic dose-response MA (27 RCTs, n=1619): FBG -2.76 mg/dL and HbA1c -0.53%; insulin/HOMA-IR not significant [PMID:42398591].
+- [2026-07] Mouse ARDS model: AGE plus low-dose dexamethasone suppressed NF-kB and lung injury more than either alone (preclinical) [PMID:42300751].
+- [2026-01] Updated garlic CV-risk MA (108 RCTs, n=7137): SBP -3.71, TC -10.21 mg/dL, CRP -1.6 mg/L; no effect on apoB, IL-6 or weight [PMID:40580481].
+- [2025-11] Garlic-for-hypertension MA (10 RCTs): SBP -4.21, DBP -3.13 mmHg. GI discomfort and breath odour were the most common AEs, and SAC dose was negatively correlated with effect [PMID:41393949].
+- [2025-11] Review of garlic cholesterol mechanisms, including gut microbiota and TMAO [PMID:41273868].
+- [2025-07] Aged-garlic GRADE dose-response MA (19 trials): SBP -2.49 mmHg and LDL -4.41 mg/dL; DBP/HDL not significant [PMID:40628369].
+- [2025-03] Reviews of AGE sulfur-compound pharmacokinetics and anti-atherosclerotic mechanisms [PMID:40171136] [PMID:40171135].
+- [2025-02] Kyolic RCT in middle-aged endurance athletes (n=75): VO2max, lactate threshold and PWV improved vs placebo [PMID:40084199].
+- [2025-01] Review of experimental evidence that AGE modulates macrophage function [PMID:39882336].
 
 ** Open questions
-- Whether findings translate into durable patient-important outcomes, optimal formulation/dose, and long-term safety remains uncertain. [PMID:30619868; PMID:40084199]
+- Whether AGE's effects on BP, CAC and plaque translate into fewer cardiovascular events. No outcome trials exist.
+- Independent replication: most Kyolic trials are small, single-group or manufacturer-linked, and one AGE meta-analysis was retracted.
+- Effects of AGE alone vs AGE combinations (CoQ10, B vitamins/arginine) on atherosclerosis.
+- AGE-specific human CYP/P-gp interaction data. Existing studies used garlic caplets, garlic oil or other extracts.
+- Bleeding risk with DOACs, P2Y12 inhibitors and dual antiplatelet therapy.
+- Durability of the cold/flu severity benefit; only one AGE RCT exists.
+- The non-linear dose-response for SAC in hypertension.
 
 ** Sources
-- PMID:30619868
-- PMID:40084199
-- PMID:30619868
-- PMID:40084199
-- URL:https://www.nccih.nih.gov/health/garlic
+1. Saadh MJ et al. Effects of aged garlic extract on blood pressure in hypertensive patients: A systematic review and meta-analysis of randomized controlled trials (RETRACTED). Prostaglandins Other Lipid Mediat. 2024. PMID:39437887 DOI:10.1016/j.prostaglandins.2024.106914
+2. Saadh MJ et al. Retraction notice to "Effects of aged garlic extract on blood pressure in hypertensive patients". Prostaglandins Other Lipid Mediat. 2026. PMID:42527229 DOI:10.1016/j.prostaglandins.2026.107100
+3. Bashiri S et al. The Effect of Aged Garlic Supplementation on Blood Pressure and Lipid Profile: A Dose-Response GRADE-Assessed SR and MA of RCTs. Phytother Res. 2025. PMID:40628369 DOI:10.1002/ptr.70032
+4. Behrouz V et al. Effects of Garlic Supplementation on Cardiovascular Risk Factors in Adults: A Comprehensive Updated SR and MA of RCTs. Nutr Rev. 2026. PMID:40580481 DOI:10.1093/nutrit/nuaf090
+5. Tang Y et al. Meta-analysis on the safety and efficacy of long-term garlic consumption as an adjunctive treatment for hypertension. Front Nutr. 2025. PMID:41393949 DOI:10.3389/fnut.2025.1656809
+6. Ried K. Garlic Lowers Blood Pressure in Hypertensive Individuals, Regulates Serum Cholesterol, and Stimulates Immunity: An Updated Meta-analysis and Review. J Nutr. 2016. PMID:26764326 DOI:10.3945/jn.114.202192
+7. Ried K. Garlic lowers blood pressure in hypertensive subjects, improves arterial stiffness and gut microbiota: A review and meta-analysis. Exp Ther Med. 2020. PMID:32010325 DOI:10.3892/etm.2019.8374
+8. Ried K et al. Aged garlic extract lowers blood pressure in patients with treated but uncontrolled hypertension: a randomised controlled trial. Maturitas. 2010. PMID:20594781 DOI:10.1016/j.maturitas.2010.06.001
+9. Ried K et al. Aged garlic extract reduces blood pressure in hypertensives: a dose-response trial. Eur J Clin Nutr. 2013. PMID:23169470 DOI:10.1038/ejcn.2012.178
+10. Ried K et al. The effect of aged garlic extract on blood pressure and other cardiovascular risk factors in uncontrolled hypertensives: the AGE at Heart trial. Integr Blood Press Control. 2016. PMID:26869811 DOI:10.2147/IBPC.S93335
+11. Ried K et al. The Effect of Kyolic Aged Garlic Extract on Gut Microbiota, Inflammation, and Cardiovascular Markers in Hypertensives: The GarGIC Trial. Front Nutr. 2018. PMID:30619868 DOI:10.3389/fnut.2018.00122
+12. Ried K et al. Kyolic aged garlic extract improves aerobic fitness in middle-aged recreational endurance athletes: a randomized double-blind placebo-controlled 3 month trial. Exp Ther Med. 2025. PMID:40084199 DOI:10.3892/etm.2025.12836
+13. Serrano JCE et al. Antihypertensive Effects of an Optimized Aged Garlic Extract in Subjects with Grade I Hypertension and Antihypertensive Drug Therapy: A Randomized, Triple-Blind Controlled Trial. Nutrients. 2023. PMID:37686723 DOI:10.3390/nu15173691
+14. Budoff MJ et al. Inhibiting progression of coronary calcification using Aged Garlic Extract in patients receiving statin therapy: a preliminary study. Prev Med. 2004. PMID:15475033 DOI:10.1016/j.ypmed.2004.04.012
+15. Budoff MJ et al. Aged garlic extract supplemented with B vitamins, folic acid and L-arginine retards the progression of subclinical atherosclerosis: a randomized clinical trial. Prev Med. 2009. PMID:19573556 DOI:10.1016/j.ypmed.2009.06.018
+16. Ahmadi N et al. Aged garlic extract with supplement is associated with increase in brown adipose, decrease in white adipose tissue and predict lack of progression in coronary atherosclerosis. Int J Cardiol. 2013. PMID:23453866 DOI:10.1016/j.ijcard.2013.01.182
+17. Zeb I et al. Randomized trial evaluating the effect of aged garlic extract with supplements versus placebo on adipose tissue surrogates for coronary atherosclerosis progression. Coron Artery Dis. 2018. PMID:29140808 DOI:10.1097/MCA.0000000000000587
+18. Zeb I et al. Aged garlic extract and coenzyme Q10 have favorable effect on inflammatory markers and coronary atherosclerosis progression: A randomized clinical trial. J Cardiovasc Dis Res. 2012. PMID:22923934 DOI:10.4103/0975-3583.98883
+19. Larijani VN et al. Beneficial effects of aged garlic extract and coenzyme Q10 on vascular elasticity and endothelial function: the FAITH randomized clinical trial. Nutrition. 2013. PMID:22858191 DOI:10.1016/j.nut.2012.03.016
+20. Wlosinska M et al. The effect of aged garlic extract on the atherosclerotic process - a randomized double-blind placebo-controlled trial. BMC Complement Med Ther. 2020. PMID:32349742 DOI:10.1186/s12906-020-02932-5
+21. Matsumoto S et al. Aged Garlic Extract Reduces Low Attenuation Plaque in Coronary Arteries of Patients with Metabolic Syndrome in a Prospective Randomized Double-Blind Study. J Nutr. 2016. PMID:26764322 DOI:10.3945/jn.114.202424
+22. Shaikh K et al. Aged garlic extract reduces low attenuation plaque in coronary arteries of patients with diabetes: A randomized, double-blind, placebo-controlled study. Exp Ther Med. 2020. PMID:32010322 DOI:10.3892/etm.2019.8371
+23. Wlosinska M et al. Aged garlic extract preserves cutaneous microcirculation in patients with increased risk for cardiovascular diseases: A double-blinded placebo-controlled study. Int Wound J. 2019. PMID:31518044 DOI:10.1111/iwj.13220
+24. Lindstedt S et al. Successful improved peripheral tissue perfusion was seen in patients with atherosclerosis after 12 months of treatment with aged garlic extract. Int Wound J. 2021. PMID:33590955 DOI:10.1111/iwj.13570
+25. Leitao R et al. Improved microvascular reactivity after aged garlic extract intake is not mediated by hydrogen sulfide in older adults at risk for cardiovascular disease: a randomized clinical trial. Eur J Nutr. 2022. PMID:35505122 DOI:10.1007/s00394-022-02895-y
+26. Gruenwald J et al. Effects of aged garlic extract on arterial elasticity in a placebo-controlled clinical trial using EndoPAT technology. Exp Ther Med. 2020. PMID:32010328 DOI:10.3892/etm.2019.8378
+27. Hamal S et al. Short-term impact of aged garlic extract on endothelial function in diabetes: A randomized, double-blind, placebo-controlled trial. Exp Ther Med. 2020. PMID:32010327 DOI:10.3892/etm.2019.8377
+28. Williams MJ et al. Aged garlic extract improves endothelial function in men with coronary artery disease. Phytother Res. 2005. PMID:16041725 DOI:10.1002/ptr.1663
+29. Emamat H et al. The effect of garlic on vascular function: A systematic review of randomized clinical trials. Clin Nutr. 2020. PMID:32143889 DOI:10.1016/j.clnu.2020.02.016
+30. Nantz MP et al. Supplementation with aged garlic extract improves both NK and gammadelta-T cell function and reduces the severity of cold and flu symptoms: a randomized, double-blind, placebo-controlled nutrition intervention. Clin Nutr. 2012. PMID:22280901 DOI:10.1016/j.clnu.2011.11.019
+31. Percival SS. Aged Garlic Extract Modifies Human Immunity. J Nutr. 2016. PMID:26764332 DOI:10.3945/jn.115.210427
+32. Xu C et al. Aged garlic extract supplementation modifies inflammation and immunity of adults with obesity: A randomized, double-blind, placebo-controlled clinical trial. Clin Nutr ESPEN. 2018. PMID:29576354 DOI:10.1016/j.clnesp.2017.11.010
+33. Lissiman E et al. Garlic for the common cold. Cochrane Database Syst Rev. 2014. PMID:25386977 DOI:10.1002/14651858.CD006206.pub4
+34. Gomez-Arbelaez D et al. Aged garlic extract improves adiponectin levels in subjects with metabolic syndrome: a double-blind, placebo-controlled, randomized, crossover study. Mediators Inflamm. 2013. PMID:23533302 DOI:10.1155/2013/285795
+35. Darooghegi Mofrad M et al. Garlic Supplementation Reduces Circulating C-reactive Protein, Tumor Necrosis Factor, and Interleukin-6 in Adults: A SR and MA of RCTs. J Nutr. 2019. PMID:30949665 DOI:10.1093/jn/nxy310
+36. Alsanie SA et al. Effects of garlic supplementation on glycemic indices in adults: a GRADE-assessed SR and dose-response MA of RCTs. Diabetes Res Clin Pract. 2026. PMID:42398591 DOI:10.1016/j.diabres.2026.113407
+37. Liang N et al. Roles of garlic and its bioactive compounds in modulating cholesterol metabolism. Phytomedicine. 2025. PMID:41273868 DOI:10.1016/j.phymed.2025.157543
+38. Zini A et al. Beneficial effect of aged garlic extract on periodontitis: a randomized controlled double-blind clinical study. J Clin Biochem Nutr. 2020. PMID:33293771 DOI:10.3164/jcbn.20-52
+39. Rahman K et al. Dietary supplementation with aged garlic extract inhibits ADP-induced platelet aggregation in humans. J Nutr. 2000. PMID:11053504 DOI:10.1093/jn/130.11.2662
+40. Steiner M et al. Aged garlic extract, a modulator of cardiovascular risk factors: a dose-finding study on the effects of AGE on platelet functions. J Nutr. 2001. PMID:11238801 DOI:10.1093/jn/131.3.980S
+41. Mollahosseini M et al. A systematic review of randomized controlled trials related to the effects of garlic supplementation on platelet aggregation. Phytother Res. 2022. PMID:36222178 DOI:10.1002/ptr.7556
+42. Nouruzi S et al. Platelet Aggregation Inhibition: An Evidence-Based Systematic Review on the Role of Herbs for Primary Prevention Based on RCTs. Iran J Med Sci. 2022. PMID:36380973 DOI:10.30476/IJMS.2021.91328.2247
+43. Macan H et al. Aged garlic extract may be safe for patients on warfarin therapy. J Nutr. 2006. PMID:16484565 DOI:10.1093/jn/136.3.793S
+44. Mohammed Abdul MI et al. Pharmacodynamic interaction of warfarin with cranberry but not with garlic in healthy subjects. Br J Pharmacol. 2008. PMID:18516070 DOI:10.1038/bjp.2008.210
+45. Chan HT et al. Effect of herbal consumption on time in therapeutic range of warfarin therapy in patients with atrial fibrillation. J Cardiovasc Pharmacol. 2011. PMID:21558883 DOI:10.1097/FJC.0b013e31821cd888
+46. Mateen AA et al. Pharmacodynamic interaction study of Allium sativum (garlic) with cilostazol in patients with type II diabetes mellitus. Indian J Pharmacol. 2011. PMID:21713089 DOI:10.4103/0253-7613.81514
+47. Piscitelli SC et al. The effect of garlic supplements on the pharmacokinetics of saquinavir. Clin Infect Dis. 2002. PMID:11740713 DOI:10.1086/324351
+48. Hajda J et al. Garlic extract induces intestinal P-glycoprotein, but exhibits no effect on intestinal and hepatic CYP3A4 in humans. Eur J Pharm Sci. 2010. PMID:20933082 DOI:10.1016/j.ejps.2010.09.016
+49. Markowitz JS et al. Effects of garlic (Allium sativum L.) supplementation on cytochrome P450 2D6 and 3A4 activity in healthy volunteers. Clin Pharmacol Ther. 2003. PMID:12891227 DOI:10.1016/S0009-9236(03)00148-6
+50. Gurley BJ et al. Cytochrome P450 phenotypic ratios for predicting herb-drug interactions in humans. Clin Pharmacol Ther. 2002. PMID:12235448 DOI:10.1067/mcp.2002.126913
+51. Gurley BJ et al. Clinical assessment of effects of botanical supplementation on cytochrome P450 phenotypes in the elderly: St John's wort, garlic oil, Panax ginseng and Ginkgo biloba. Drugs Aging. 2005. PMID:15974642 DOI:10.2165/00002512-200522060-00006
+52. Gallicano K et al. Effect of short-term administration of garlic supplements on single-dose ritonavir pharmacokinetics in healthy volunteers. Br J Clin Pharmacol. 2003. PMID:12580992 DOI:10.1046/j.1365-2125.2003.01736.x
+53. Borrelli F et al. Garlic (Allium sativum L.): adverse effects and drug interactions in humans. Mol Nutr Food Res. 2007. PMID:17918162 DOI:10.1002/mnfr.200700072
+54. Woodbury A et al. Garlic-Induced Surgical Bleeding: How Much Is Too Much? A A Case Rep. 2016. PMID:27782907 DOI:10.1213/XAA.0000000000000403
+55. Elvir Lazo OL et al. Use of herbal medication in the perioperative period: Potential adverse drug interactions. J Clin Anesth. 2024. PMID:38613937 DOI:10.1016/j.jclinane.2024.111473
+56. Meher S et al. Garlic for preventing pre-eclampsia and its complications. Cochrane Database Syst Rev. 2006. PMID:16856110 DOI:10.1002/14651858.CD006065
+57. Nakamoto M et al. Pharmacokinetics of sulfur-containing compounds in aged garlic extract: S-allylcysteine, S-1-propenylcysteine, S-methylcysteine, S-allylmercaptocysteine and others (Review). Exp Ther Med. 2025. PMID:40171136 DOI:10.3892/etm.2025.12852
+58. Miki S et al. Anti-atherosclerotic effect of aged garlic extract: Mode of action and therapeutic benefits (Review). Exp Ther Med. 2025. PMID:40171135 DOI:10.3892/etm.2025.12854
+59. Karasaki K. Effects of aged garlic extract on macrophage functions: a short review of experimental evidence (Review). Biomed Rep. 2025. PMID:39882336 DOI:10.3892/br.2025.1925
+60. Nakazawa S et al. Aged garlic extract suppressed macrophage-mediated inflammation in acute respiratory distress syndrome. Food Funct. 2026. PMID:42300751 DOI:10.1039/d6fo00337k

@@ -3,41 +3,351 @@
   "supplement": "DHEA",
   "slug": "dhea",
   "aliases": [
-    "dehydroepiandrosterone"
+    "dehydroepiandrosterone",
+    "prasterone",
+    "Intrarosa",
+    "DHEA-S",
+    "DHEAS",
+    "dehydroepiandrosterone sulfate",
+    "androstenolone"
   ],
   "category": "hormone",
   "rx_status": "otc",
   "evidence_certainty_overall": "low",
   "edges": [
     {
-      "with": "hormone-sensitive cancers",
-      "with_kind": "condition",
+      "with": "estrogen therapy",
+      "with_kind": "drug-class",
       "kind": "caution",
       "severity": "moderate",
-      "mechanism": "DHEA is converted to testosterone and estradiol and can raise circulating sex steroids.",
-      "evidence": "Meta-analysis of RCTs.",
+      "mechanism": "Oral DHEA is aromatized to estrogens (estradiol +7.86 pg/mL in postmenopausal women); additive estrogen exposure with HT; potential additive/antagonistic effects listed for estrogens.",
+      "evidence": "MA of 21 studies plus drug review; no direct interaction trial; low certainty",
       "citations": [
-        "PMID:40616152"
+        "PMID:40616152",
+        "PMID:17090740"
       ]
     },
     {
-      "with": "estrogen therapy",
+      "with": "oral contraceptives and progestins",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Potential additive or antagonistic sex-steroid effects; DHEA plus oral contraceptives altered bone outcomes in anorexia nervosa.",
+      "evidence": "Drug review; SR of RCTs in anorexia nervosa; very low certainty",
+      "citations": [
+        "PMID:17090740",
+        "PMID:35460091"
+      ]
+    },
+    {
+      "with": "testosterone and androgens",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "DHEA raises testosterone (WMD +28 ng/dL, larger >50 mg/d and in women); additive androgenic exposure and adverse effects.",
+      "evidence": "Dose-response MA of RCTs plus drug review",
+      "citations": [
+        "PMID:33045358",
+        "PMID:17090740"
+      ]
+    },
+    {
+      "with": "aromatase inhibitors",
       "with_kind": "drug-class",
       "kind": "monitor",
       "severity": "moderate",
-      "mechanism": "Potential additive sex-steroid exposure; direct interaction trials are limited.",
-      "evidence": "Mechanistic, based on observed hormone increases.",
+      "mechanism": "Vaginal DHEA did not raise estradiol in women on AIs but raised DHEA-S and testosterone; systemic oral DHEA with AIs unstudied and could supply aromatase substrate.",
+      "evidence": "Secondary analysis of RCT (n=345) and 10-patient pilot",
       "citations": [
-        "PMID:40616152"
+        "PMID:29164377",
+        "PMID:35343852"
+      ]
+    },
+    {
+      "with": "5-alpha-reductase inhibitors",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "DHEA is converted to DHT via 5-alpha-reductase; potential pharmacodynamic interaction with finasteride/dutasteride.",
+      "evidence": "Theoretical, drug-monograph review",
+      "citations": [
+        "PMID:17090740"
+      ]
+    },
+    {
+      "with": "glucocorticoids",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Exogenous glucocorticoids suppress endogenous DHEA-S and reduce its diagnostic accuracy for adrenal insufficiency; prasterone was trialed for bone protection in glucocorticoid-treated SLE.",
+      "evidence": "Cohort (n=1135) and drug review",
+      "citations": [
+        "PMID:39657727",
+        "PMID:17090740"
+      ]
+    },
+    {
+      "with": "antidiabetic agents",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Small reduction in fasting plasma glucose (WMD -2.19 mg/dL) without insulin/HOMA-IR change.",
+      "evidence": "MA of 14 publications; low certainty",
+      "citations": [
+        "PMID:33220623"
+      ]
+    },
+    {
+      "with": "antipsychotics and antidepressants",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "DHEA has neurosteroid activity and has been used as antipsychotic augmentation; case reports of DHEA-associated mania.",
+      "evidence": "Small RCT and case reports",
+      "citations": [
+        "PMID:12578430",
+        "PMID:11144700"
+      ]
+    },
+    {
+      "with": "Ashwagandha",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Ashwagandha raised DHEA-S 18% and testosterone 14.7% vs placebo; stacking may add androgen exposure and confound DHEA-S monitoring.",
+      "evidence": "Single crossover RCT of ashwagandha; no combination study",
+      "citations": [
+        "PMID:30854916"
+      ]
+    },
+    {
+      "with": "CoQ10",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Both used as IVF adjuvants in poor/diminished ovarian response; network MA ranks both above control; DOR MA found combined supplement use correlated with better ovarian markers.",
+      "evidence": "Network MA and MA of mostly low-quality studies",
+      "citations": [
+        "PMID:37464357",
+        "PMID:41185971"
+      ]
+    },
+    {
+      "with": "Vitamin D-3",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Vitamin D3 plus calcium was background in both arms of DHEA bone trials; spine BMD gains in older women occurred on this background (interaction not tested).",
+      "evidence": "RCTs with co-administration; very low certainty for interaction",
+      "citations": [
+        "PMID:19321570",
+        "PMID:20863330"
+      ]
+    },
+    {
+      "with": "breast cancer (current or past)",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Estrogen is a metabolite of prasterone; systemic DHEA raises estradiol; higher endogenous DHEA/DHEA-S/estradiol associated with postmenopausal breast cancer risk.",
+      "evidence": "FDA label warning; MA of RCTs; pooled prospective cohorts",
+      "citations": [
+        "PMID:40616152",
+        "PMID:11959894"
+      ]
+    },
+    {
+      "with": "prostate cancer",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "DHEA is converted to testosterone/DHT; adrenal-permissive HSD3B1 allele that increases DHEA-to-androgen flux is linked to worse outcomes in advanced prostate cancer.",
+      "evidence": "Mechanistic and genetic-association review; precautionary",
+      "citations": [
+        "PMID:32565196",
+        "PMID:33045358"
+      ]
+    },
+    {
+      "with": "bipolar disorder / history of mania",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Case reports of mania (including severe) with onset during DHEA use.",
+      "evidence": "Case reports; very low certainty",
+      "citations": [
+        "PMID:11144700"
+      ]
+    },
+    {
+      "with": "hyperandrogenism (PCOS, hirsutism, acne)",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Androgenic adverse effects (mainly acne) OR 3.77 vs placebo in menopausal women; acne RR 2.2 in SLE.",
+      "evidence": "Cochrane reviews",
+      "citations": [
+        "PMID:25879093",
+        "PMID:17943841"
+      ]
+    },
+    {
+      "with": "adolescents with open physes (anorexia nervosa)",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "DHEA monotherapy did not improve BMD and one study suggested detrimental BMD effects in younger adolescents with open physes.",
+      "evidence": "SR of 7 RCTs",
+      "citations": [
+        "PMID:35460091"
+      ]
+    },
+    {
+      "with": "low HDL / cardiovascular risk in women",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "DHEA lowered HDL-C (-5.1 mg/dL in women), TC/LDL/TG unchanged.",
+      "evidence": "Dose-response MA of RCTs; low certainty",
+      "citations": [
+        "PMID:32675010"
+      ]
+    },
+    {
+      "with": "adrenal insufficiency",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "DHEA is an optional adjunct, not a substitute for glucocorticoid/mineralocorticoid replacement; HRQOL benefit small; guidelines advise against routine use.",
+      "evidence": "MA of 10 RCTs and Endocrine Society guidelines",
+      "citations": [
+        "PMID:19773400",
+        "PMID:26760044",
+        "PMID:25279570"
+      ]
+    },
+    {
+      "with": "testosterone immunoassay",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "moderate",
+      "mechanism": "DHEA-S cross-reacts in many direct testosterone immunoassays (Abbott Architect, Roche Elecsys, Beckman Access, Immulite), falsely raising measured testosterone in DHEA users; LC-MS/MS avoids this.",
+      "evidence": "Spiking studies and UK NEQAS external quality assessment",
+      "citations": [
+        "PMID:16704754",
+        "PMID:17362583",
+        "PMID:25071417"
+      ]
+    },
+    {
+      "with": "DHEA-S (adrenal insufficiency screening)",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "moderate",
+      "mechanism": "Exogenous DHEA raises serum DHEA-S, which is used as a screening marker for adrenal insufficiency and could mask a low value (inferred).",
+      "evidence": "Diagnostic cohorts of DHEA-S for AI; masking inferred, not directly studied",
+      "citations": [
+        "PMID:39657727",
+        "PMID:42591062"
+      ]
+    },
+    {
+      "with": "estradiol and sex-hormone panels",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "True increases in estradiol, estrone, testosterone and DHEA-S and decreased SHBG with oral DHEA; vaginal DHEA 6.5 mg/d raised DHEA-S, testosterone and estradiol in cancer survivors.",
+      "evidence": "RCTs and MA",
+      "citations": [
+        "PMID:40616152",
+        "PMID:18812486",
+        "PMID:29164377"
+      ]
+    },
+    {
+      "with": "anti-doping urine testing",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "moderate",
+      "mechanism": "DHEA is WADA-prohibited; urinary DHEA >100 ng/mL triggers isotope-ratio MS confirmation of exogenous steroid.",
+      "evidence": "Anti-doping laboratory data and review",
+      "citations": [
+        "PMID:18417762",
+        "PMID:20122454"
+      ]
+    },
+    {
+      "with": "HSD3B1 rs1047303 (1245C)",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Adrenal-permissive allele yields stable 3beta-HSD1 and greater conversion of DHEA to potent androgens; response to supplemental DHEA untested.",
+      "evidence": "Mechanistic/genetic review",
+      "citations": [
+        "PMID:32565196"
       ]
     }
   ],
   "citations": [
-    "PMID:40616152",
+    "PMID:9626121",
+    "PMID:10096389",
+    "PMID:11134123",
+    "PMID:11144700",
+    "PMID:11959894",
+    "PMID:12578430",
+    "PMID:16704754",
+    "PMID:17050889",
+    "PMID:17090740",
+    "PMID:17362583",
+    "PMID:17943841",
+    "PMID:18000094",
+    "PMID:18417762",
+    "PMID:18812486",
+    "PMID:19321570",
+    "PMID:19773400",
+    "PMID:20122454",
+    "PMID:20863330",
+    "PMID:21649617",
+    "PMID:25071417",
+    "PMID:25279570",
+    "PMID:25279571",
+    "PMID:25879093",
+    "PMID:26731686",
+    "PMID:26760044",
+    "PMID:26972555",
+    "PMID:28921241",
+    "PMID:29164377",
+    "PMID:30854916",
+    "PMID:31237150",
+    "PMID:31290076",
+    "PMID:32565196",
+    "PMID:32675010",
+    "PMID:32930419",
+    "PMID:33045358",
+    "PMID:33220623",
+    "PMID:34342920",
+    "PMID:35343852",
+    "PMID:35460091",
+    "PMID:35481572",
+    "PMID:37464357",
     "PMID:37788418",
+    "PMID:38837771",
+    "PMID:39250810",
+    "PMID:39332623",
+    "PMID:39657727",
+    "PMID:39767687",
+    "PMID:39980032",
+    "PMID:40068355",
+    "PMID:40450423",
     "PMID:40616152",
-    "PMID:37788418",
+    "PMID:40812951",
+    "PMID:40943486",
+    "PMID:41185971",
+    "PMID:41485982",
     "PMID:41589851",
-    "PMID:25879093"
+    "PMID:41903372",
+    "PMID:42328990",
+    "PMID:42446134",
+    "PMID:42591062"
   ]
 }

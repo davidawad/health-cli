@@ -3,48 +3,174 @@
 :ID: supp-glucosamine-sulphate-2kcl
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: glucosamine sulfate potassium chloride
+:ALIASES: glucosamine sulfate potassium chloride | glucosamine sulphate 2KCl | GS-KCl | GSPC | glucosamine sulfate | D-glucosamine sulphate | regular glucosamine sulfate (rGS)
 :CATEGORY: other
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Glucosamine sulfate 2KCl is a crystalline glucosamine sulfate formulation stabilized with potassium chloride; products and salt forms differ. [PMID:38581640]
+- Glucosamine is an amino-monosaccharide sold mainly for osteoarthritis (OA). Products come in three main forms that differ in molecular form, formulation and dosing [PMID:28332780]:
+  - Glucosamine sulfate stabilized with potassium chloride (2KCl, "GS-K") or sodium chloride (GS-Na). This "regular" glucosamine sulfate (rGS) is the usual OTC supplement form [PMID:40806074] [PMID:20649060].
+  - Patented crystalline glucosamine sulfate (pCGS; Rotta/Rottapharm-Meda, later Mylan/Viatris, "Dona"). It is sold as a prescription-grade drug in many countries and given as one 1500 mg daily dose [PMID:28332780] [PMID:16168682].
+  - Glucosamine hydrochloride (GH), common in US supplements and in GAIT/MOVES-type chondroitin combinations [PMID:28332780] [PMID:25589511].
+- Potassium content: sulfated imported products contained 197-280 mg potassium per daily dose, versus 0.165-3 mg in hydrochloride/N-acetylglucosamine products. The potassium comes from the KCl stabilizer and is rarely stated on labels [PMID:20118652]. The 2KCl form is sodium-free, unlike GS-NaCl [PMID:20649060].
+- The two sulfate forms dissociate in gastric fluid. A 2025 pilot crossover PK study (n=10) found no significant AUC/Cmax advantage of crystalline over regular (KCl/NaCl-stabilized) sulfate [PMID:40806074].
+- Most positive trials, and the Cochrane "Rotta preparation" subgroup, used pCGS. Pooled non-Rotta preparations did not beat placebo for pain [PMID:15846645]. Results from pCGS therefore cannot simply be applied to 2KCl supplements.
 
 ** Mechanisms
-- Proposed biological activity and the best-established physiological context are described above; clinical mechanisms remain uncertain where outcome evidence is limited. ["PMID:38581640"]
+- Pharmacokinetics (pCGS): oral 1500 mg once daily raises plasma glucosamine about 30-fold, to a steady-state peak near 10 uM. PK is linear from 750 to 1500 mg but less than dose-proportional at 3000 mg. Tentative half-life is about 15 h [PMID:16168682].
+- Joint exposure: after 14 days of 1500 mg pCGS in 12 OA patients, synovial glucosamine was about 4.3 uM (median), correlated with plasma (about 7.2 uM) [PMID:17353133]. In horses, synovial levels were higher after glucosamine sulfate than after hydrochloride at equal doses (oral bioavailability 9.4% vs 6.1%) [PMID:18295513].
+- Anti-inflammatory signaling (in vitro): glucosamine sulfate inhibited IL-1beta-induced NF-kB activation, COX-2 expression and PGE2 release in human OA chondrocytes [PMID:12681956]. Prescription-grade GS plus celecoxib showed additive NF-kB-mediated anti-inflammatory effects in vitro [PMID:34445685].
+- Hexosamine pathway / glucose metabolism: animal work raised concern that glucosamine alters insulin sensitivity through the hexosamine biosynthetic pathway. Human data are mixed (see Evidence) [PMID:21251987]. A 2026 mechanistic study identified endogenous glucosamine as a link between hyperglycemia and O-GlcNAc-dependent mTORC1 activation in islets and kidney [PMID:42171606].
+- Longevity models: D-glucosamine extended lifespan in C. elegans and in ageing C57BL/6 mice through impaired glycolysis, AMPK activation and mitohormesis [PMID:24714520]. There are no human lifespan data.
+- Glycosylation and neurodegeneration: in AD mouse models oral glucosamine worsened cognition, consistent with hyperglycosylation as a disease driver [PMID:42265388].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | Certainty | Citations |
-|---|---|---|---|---|---|
-| Primary studied clinical/biomarker outcomes | Systematic review/meta-analysis or RCT synthesis | 2024 review of 25 RCTs found structural joint-space signal for glucosamine sulfate but not consistent symptom benefit; 2025 network review included heterogeneous SYSADOAs and concluded pooled pain/function benefit | See narrative | low | PMID:38581640; PMID:40425393 |
-| Long-term clinical outcomes | Evidence insufficient or mixed | No established benefit | Not established | very low | PMID:38581640; PMID:40425393 |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Knee OA pain | Umbrella review (19 SR/MAs, 2026); Cochrane; network MA; IPD MA | Small benefit at most; null in independent/non-Rotta trials | VAS pain SMD -0.36 (WOMAC pain NS); NMA -0.4 cm on 10 cm VAS (CrI -0.7 to -0.1), below MCID; IPD MA of 5 independent RCTs (n=1625): no benefit | low | [PMID:42643227] [PMID:20847017] [PMID:28754801] [PMID:15846645] |
+| Knee OA pain, pCGS ("Rotta") only | Cochrane subgroup (10 RCTs) | Benefit, likely inflated by sponsor bias | Pain SMD -1.31 (-1.99 to -0.64) vs non-Rotta SMD -0.15 (-0.35 to 0.05) | low | [PMID:15846645] [PMID:20847017] |
+| Physical function (knee) | Umbrella review; long-term NMA | No clear benefit, or minimal | WOMAC function NS; long-term function SMD -0.17 (-0.28 to -0.07) | low | [PMID:42643227] [PMID:33846938] |
+| Radiographic joint space narrowing (knee) | Two 3-yr pCGS RCTs; MAs; GAIT/LEGS | Possible slowing with pCGS; null in independent trials | JSN SMD -0.32 (umbrella); 3-yr JSW -0.06 vs -0.31 mm placebo; progression RR 0.46 (0.28-0.73); GAIT and LEGS single-agent arms NS | low | [PMID:42643227] [PMID:11214126] [PMID:12374520] [PMID:15855241] [PMID:18821708] [PMID:24395557] [PMID:38581640] |
+| Total knee replacement | Follow-up of 2 RCTs (n=275) | Fewer TKR after pCGS | 6.3% vs 14.5%, RR 0.43 (0.20-0.92); retrospective, sponsor-linked | very low | [PMID:17681803] |
+| Hip OA | RCT (n=222, 2 yr); IPD MA | No benefit | WOMAC pain MD -1.54 (CI -5.43 to 2.36); JSN NS | moderate | [PMID:18283204] [PMID:28754801] |
+| Glucosamine + chondroitin (knee) | GAIT, LEGS, MOVES, Roman-Blas RCT; MAs | Inconsistent; GAIT subgroup and MOVES positive, placebo-controlled RCT null/negative | GAIT overall +6.5 pts vs placebo (P=0.09); LEGS JSN MD 0.10 mm; MOVES non-inferior to celecoxib; combo worse than placebo in mITT (8.7 mm VAS) | low | [PMID:16495392] [PMID:24395557] [PMID:25589511] [PMID:27477804] [PMID:35024906] |
+| GS-KCl vs GS-NaCl | RCT (n=90, 16 wk) | Equivalent | No WOMAC/SF-36 difference; serum K+ rose more with KCl but stayed normal | very low | [PMID:20649060] |
+| All-cause/CVD mortality and CVD events | Prospective cohorts (UK Biobank, ~0.47-0.5 M) | Inverse associations, probably confounded | All-cause HR 0.85 (0.82-0.89); CVD events HR 0.85 (0.80-0.90); Beijing claims cohort in OA: CVD HR 1.10 (1.08-1.11) | very low | [PMID:32253185] [PMID:31088786] [PMID:36145069] [PMID:36029480] |
+| Fasting glucose / insulin sensitivity | SR of 11 human studies; 2-yr cohort in T2DM | Mostly no effect; signal in insulin-resistant subjects | HbA1c difference 0.06% (-0.15 to 0.28) over 24 mo | low | [PMID:21251987] [PMID:16569816] [PMID:42732213] |
+| Intraocular pressure | 2 small RCTs; biobank/pharmacovigilance | Possible rise, mainly in older adults | 34.1% vs 12.5% had a >=2 mmHg rise at 3 mo; second RCT null; FinnGen POAG HR 2.35 | low | [PMID:27768119] [PMID:31104873] [PMID:38031296] |
+| Adverse events (overall) | Cochrane; MAs; umbrella | Similar to placebo | RR 0.97 (0.88-1.08) | moderate | [PMID:15846645] [PMID:42643227] [PMID:38581640] |
 
 ** Dosing in trials
-- Common studied dose is 1,500 mg/day oral glucosamine sulfate, typically for months; formulations are not dose-equivalent by label mass. [PMID:38581640]
+- Standard: 1500 mg/day glucosamine sulfate, once daily (pCGS, LEGS, Rozendaal hip trial) or 500 mg three times daily (GAIT) [PMID:11214126] [PMID:24395557] [PMID:18283204] [PMID:16495392].
+- Duration: symptom trials run 6 months. Structure trials run 2-3 years [PMID:12374520] [PMID:18821708].
+- KCl form: 1500 mg/day GS-K was compared with GS-Na for 16 weeks [PMID:20649060]. A daily dose of KCl-stabilized product delivers about 200-280 mg potassium [PMID:20118652].
+- Combinations: glucosamine 1500 mg with chondroitin 1200 mg is the most common combined dose across 146 studies [PMID:40647198]. MOVES used GH 500 mg plus CS 400 mg three times daily [PMID:25589511].
+- Real-world: 1500 mg/day oral pCGS for 1 year gave functional gains similar to two PRP injections in a propensity-matched comparison [PMID:39126538].
+- Doses above 1500 mg: plasma exposure was less than dose-proportional at 3000 mg [PMID:16168682].
 
 ** Safety & adverse effects
-- Usually mild GI effects; allergy concern with shellfish-derived products; safety review generally favorable. [PMID:38581640]
+- In RCTs adverse events match placebo, mostly mild GI complaints [PMID:15846645] [PMID:16495392] [PMID:42643227].
+- Post-marketing data: allergic reactions and GI disorders are the commonest AEs with non-pharmaceutical-grade glucosamine/chondroitin [PMID:40095377].
+- Hypersensitivity: 263 of 366 Australian ADR reports (72%) for glucosamine/chondroitin were hypersensitivity reactions, 43 of them severe. Shellfish allergy status was unknown. The authors call for shellfish/atopy labelling [PMID:31597786].
+- Potassium: serum K+ rose significantly with GS-KCl versus GS-NaCl (within normal range) [PMID:20649060]. The potassium load may equal about 20% of the daily potassium allowance in hemodialysis [PMID:20118652].
+- Intraocular pressure: one RCT found a significant IOP rise after 3 months, more often in older patients [PMID:27768119]. A 6-month RCT of pCGS found no change [PMID:31104873]. UK Biobank, FAERS and FinnGen analyses linked use to higher IOP and glaucoma [PMID:38031296].
+- Glucose: no consistent worsening of glycemia in humans, including a 24-month T2DM cohort [PMID:21251987] [PMID:42732213].
+- Liver: no hepatotoxicity signal was found in the retrieved sources. In UK Biobank patients with T2DM and MASLD, non-users had more major adverse liver outcomes than regular users (HR 1.36, observational) [PMID:38842441].
+- Alzheimer's disease: a 2026 EHR analysis associated glucosamine with faster AD progression and worse survival in patients with AD [PMID:42265388]. This contrasts with the UK Biobank's inverse association between glucosamine and type 2 diabetes in people without dementia [PMID:31988063].
+- Cardiovascular: UK Biobank cohorts show lower CVD risk with use [PMID:31088786] [PMID:41712318]. A Chinese claims cohort of OA patients showed higher CVD risk with a dose-response by adherence (adherent HR 1.68) [PMID:36145069].
 
 ** Contraindications
-- Caution in shellfish allergy depending on source and with diabetes due to glucose monitoring uncertainty. [PMID:38581640]
+- Hyperkalemia, advanced CKD or dialysis, and potassium-restricted diets: KCl-stabilized products add potassium that is often unlabelled [PMID:20118652] [PMID:20649060]. Prefer potassium-free forms or monitor.
+- Known hypersensitivity, and caution in shellfish allergy or atopy given the hypersensitivity signal in pharmacovigilance [PMID:31597786] [PMID:40095377].
+- Glaucoma or ocular hypertension: caution and monitor IOP [PMID:27768119] [PMID:38031296].
+- Diagnosed Alzheimer's disease: caution, based on one 2026 EHR association plus animal data [PMID:42265388].
 
 ** Interactions
-- Warfarin interaction reports indicate increased INR/bleeding; monitor INR. [URL:https://www.nccih.nih.gov/health/glucosamine-and-chondroitin-for-osteoarthritis]
+*** Drugs
+- Warfarin: case report plus 20 FDA MedWatch and 21 WHO reports of raised INR, bleeding or bruising. Most WHO cases resolved after stopping glucosamine, and one MedWatch report described an intracranial bleed [PMID:18363538]. Glucosamine did not inhibit CYP2C9/2C19 in healthy volunteers, so the mechanism is unknown [PMID:20668444]. Monitor INR when starting or changing doses.
+- Other anticoagulants/antiplatelets: no direct data. The warfarin bleeding reports [PMID:18363538] justify caution.
+- Potassium-raising drugs (ACE inhibitors, ARBs, potassium-sparing diuretics, potassium supplements): additive potassium load from the KCl salt is plausible but unstudied. This is inferred from the potassium content data [PMID:20118652] [PMID:20649060].
+- Antidiabetic drugs: human studies show no consistent glycemic effect, but data in diabetes are limited, so glucose monitoring is suggested [PMID:16569816] [PMID:21251987].
+- NSAIDs/celecoxib: possible additive analgesia. In an NMA, glucosamine plus ibuprofen reduced pain (SMD -2.27, moderate quality) [PMID:39685902]. Celecoxib plus GS was synergistic in vitro [PMID:34445685]. No harmful interaction was reported.
+*** Other supplements
+- Chondroitin sulfate: the most common combination. Evidence for benefit beyond glucosamine alone is inconsistent [PMID:16495392] [PMID:24395557] [PMID:27477804] [PMID:38581640]. Warfarin INR reports often involved combined glucosamine-chondroitin products [PMID:18363538].
+- EPA/DHA/DPA: glucosamine plus omega-3 ranked highest for pain reduction in an NMA (SMD -2.59, CI -4.42 to -0.75, moderate quality per CINeMA) [PMID:39685902].
+- Potassium-containing supplements: additive potassium with the 2KCl form [PMID:20118652].
+- No cited interaction with other supplements in this corpus.
+*** Conditions
+- Hyperkalemia/CKD, shellfish allergy/atopy, glaucoma, Alzheimer's disease: see Contraindications.
+- Diabetes or insulin resistance: studies that included subjects with impaired glucose tolerance or insulin resistance were more likely to detect glycemic effects [PMID:21251987].
+*** Lab-test interference
+- No analytical assay interference was found. Expect true physiological changes: INR rises in warfarin users [PMID:18363538], a small serum potassium rise with the KCl form [PMID:20649060], and a possible IOP rise [PMID:27768119]. Fasting glucose/HbA1c are mostly unchanged [PMID:42732213].
 
 ** Genotype notes
-- No cited pharmacogenomic or nutrigenomic source was identified in the sources reviewed; no genotype-specific claim is made.
+No cited pharmacogenomic or nutrigenomic source found. (UK Biobank analyses found that polygenic risk scores for T2D and heart failure did not modify the associations [PMID:31988063] [PMID:41712318]. This is not a pharmacogenomic effect.)
 
 ** Latest research
-- 2025–2026 literature: 2025 network meta-analysis searched through January 2025 and assessed supplement interventions for OA. [PMID:40425393]
+- [2026-09] 24-month cohort of KOA plus T2DM (n=409): glucosamine did not change HbA1c (+0.06%) or FBG versus non-SYSADOA users [PMID:42732213].
+- [2026-08] Umbrella review (19 SR/MAs): VAS pain SMD -0.36, JSN SMD -0.32, both at or below MCID. No function benefit; most reviews were low quality [PMID:42643227].
+- [2026-08] UK Biobank prediabetes/diabetes cohort (n=54,096): CVD HR 0.94 (0.91-0.96) with habitual use [PMID:41712318].
+- [2026-07] NMA of adjuncts for KOA: celecoxib ranked first for pain; CS+GH ranked second on WOMAC total; low/very low certainty [PMID:42558409].
+- [2026-06] Hyperglycosylation drives AD in mice; oral glucosamine worsened cognition; EHR data linked use to faster AD progression [PMID:42265388].
+- [2026-05] Glucosamine links hyperglycemia to mTORC1 activation in islets and kidney (mechanistic) [PMID:42171606].
+- [2025-11] UK Biobank: users were less likely to have albuminuria (OR 0.81). Mendelian randomization found no causal effect [PMID:41271412].
+- [2025-10] UK Biobank: habitual use associated with lower sepsis risk (HR 0.87) and lower 28-day post-sepsis mortality (HR 0.79) [PMID:40504933].
+- [2025-08] Propensity-matched UK Biobank: lower risk of 7 NCDs, e.g. heart failure HR 0.88 and colorectal cancer HR 0.86 [PMID:40879960].
+- [2025-07] Pilot crossover PK (n=10): no significant PK advantage of crystalline over KCl/NaCl-stabilized glucosamine sulfate [PMID:40806074].
+- [2025-06] SR of 146 human studies: glucosamine/chondroitin generally well tolerated; 1500/1200 mg most common dose [PMID:40647198].
+- [2025-04] Post-marketing SR: allergic reactions and GI disorders were the commonest AEs with non-pharmaceutical-grade glucosamine [PMID:40095377].
+- [2025-04] UK Biobank T2DM cohort: microvascular complications HR 0.89, nephropathy HR 0.87 [PMID:40169583].
+- [2025-02] SYSADOA MA (21 RCTs): pain SMD 0.38 within 3 months versus placebo; non-inferior to active drugs [PMID:40005447].
+- [2024-12] NMA of glucosamine combinations (30 RCTs, n=5265): only combinations with omega-3, ibuprofen or CS+MSM exceeded the MCID [PMID:39685902].
 
 ** Open questions
-- Whether findings translate into durable patient-important outcomes, optimal formulation/dose, and long-term safety remains uncertain. [PMID:38581640; PMID:40425393]
+- Whether 2KCl (regular) glucosamine sulfate performs like pCGS clinically. The only head-to-head PK data come from one n=10 pilot [PMID:40806074]. The pCGS-only benefit seen in Cochrane may reflect sponsor bias rather than formulation [PMID:15846645] [PMID:20847017].
+- Whether the structural effect (JSN) is reproducible outside the two sponsor-linked 3-year trials [PMID:11214126] [PMID:12374520] [PMID:18821708].
+- Whether the cohort associations with mortality, CVD and other outcomes are causal or reflect selection bias from prevalent-user designs [PMID:36029480]. New-user designs or RCTs are needed.
+- Clinical significance of the potassium load in CKD or alongside RAAS inhibitors. No outcome studies exist [PMID:20118652].
+- IOP and glaucoma risk, given conflicting small RCTs and biobank signals [PMID:27768119] [PMID:31104873] [PMID:38031296].
+- Safety in Alzheimer's disease, given the conflict between EHR/animal harm signals and UK Biobank inverse associations [PMID:42265388].
+- Guideline divergence: ESCEO recommends pharmaceutical-grade crystalline GS as background therapy, while OARSI strongly recommends against all glucosamine formulations [PMID:33116279] [PMID:31126594] [PMID:31278997]. ACR/AF 2019 lists no glucosamine recommendation among its endorsed therapies [PMID:31908149].
 
 ** Sources
-- PMID:38581640
-- PMID:40425393
-- PMID:38581640
-- PMID:40425393
-- URL:https://www.nccih.nih.gov/health/glucosamine-and-chondroitin-for-osteoarthritis
+1. Li Y et al. Glucosamine for knee osteoarthritis: an umbrella review. Front Nutr. 2026. PMID:42643227 DOI:10.3389/fnut.2026.1806413
+2. Rabade A et al. Evaluation of efficacy and safety of glucosamine sulfate, chondroitin sulfate, and their combination regimen in the management of knee osteoarthritis: SR and MA. Inflammopharmacology. 2024. PMID:38581640 DOI:10.1007/s10787-024-01460-9
+3. Baden KER et al. The Safety and Efficacy of Glucosamine and/or Chondroitin in Humans: A Systematic Review. Nutrients. 2025. PMID:40647198 DOI:10.3390/nu17132093
+4. Park YB, Kim JH. Effectiveness and Safety of SYSADOAs Used in Eastern and Western Regions for the Treatment of Knee Osteoarthritis: SR and MA. Medicina (Kaunas). 2025. PMID:40005447 DOI:10.3390/medicina61020331
+5. Sumsuzzman DM et al. Comparative Efficacy of Glucosamine-Based Combination Therapies in Alleviating Knee Osteoarthritis Pain: SR and Network MA. J Clin Med. 2024. PMID:39685902 DOI:10.3390/jcm13237444
+6. Chen K et al. Network meta-analysis of metformin, probiotics, krill oil, celecoxib, and glucosamine/chondroitin in the treatment of knee osteoarthritis. Front Med (Lausanne). 2026. PMID:42558409 DOI:10.3389/fmed.2026.1862817
+7. Meng Z et al. Efficacy and safety of the combination of glucosamine and chondroitin for knee osteoarthritis: SR and MA. Arch Orthop Trauma Surg. 2023. PMID:35024906 DOI:10.1007/s00402-021-04326-9
+8. Runhaar J et al. Subgroup analyses of the effectiveness of oral glucosamine for knee and hip osteoarthritis: SR and IPD MA from the OA trial bank. Ann Rheum Dis. 2017. PMID:28754801 DOI:10.1136/annrheumdis-2017-211149
+9. Wandel S et al. Effects of glucosamine, chondroitin, or placebo in patients with osteoarthritis of hip or knee: network meta-analysis. BMJ. 2010. PMID:20847017 DOI:10.1136/bmj.c4675
+10. Towheed TE et al. Glucosamine therapy for treating osteoarthritis. Cochrane Database Syst Rev. 2005. PMID:15846645 DOI:10.1002/14651858.CD002946.pub2
+11. Yang W et al. The Efficacy and Safety of Disease-Modifying Osteoarthritis Drugs for Knee and Hip Osteoarthritis: SR and Network MA. J Gen Intern Med. 2021. PMID:33846938 DOI:10.1007/s11606-021-06755-z
+12. Poolsup N et al. Glucosamine long-term treatment and the progression of knee osteoarthritis: SR of RCTs. Ann Pharmacother. 2005. PMID:15855241 DOI:10.1345/aph.1E576
+13. Clegg DO et al. Glucosamine, chondroitin sulfate, and the two in combination for painful knee osteoarthritis (GAIT). N Engl J Med. 2006. PMID:16495392 DOI:10.1056/NEJMoa052771
+14. Sawitzke AD et al. The effect of glucosamine and/or chondroitin sulfate on the progression of knee osteoarthritis: a report from GAIT. Arthritis Rheum. 2008. PMID:18821708 DOI:10.1002/art.23973
+15. Fransen M et al. Glucosamine and chondroitin for knee osteoarthritis: a double-blind RCT evaluating single and combination regimens (LEGS). Ann Rheum Dis. 2015. PMID:24395557 DOI:10.1136/annrheumdis-2013-203954
+16. Hochberg MC et al. Combined chondroitin sulfate and glucosamine for painful knee osteoarthritis: a non-inferiority trial versus celecoxib (MOVES). Ann Rheum Dis. 2016. PMID:25589511 DOI:10.1136/annrheumdis-2014-206792
+17. Roman-Blas JA et al. Combined Treatment With Chondroitin Sulfate and Glucosamine Sulfate Shows No Superiority Over Placebo in Knee Osteoarthritis. Arthritis Rheumatol. 2017. PMID:27477804 DOI:10.1002/art.39819
+18. Reginster JY et al. Long-term effects of glucosamine sulphate on osteoarthritis progression: a randomised, placebo-controlled clinical trial. Lancet. 2001. PMID:11214126 DOI:10.1016/S0140-6736(00)03610-2
+19. Pavelka K et al. Glucosamine sulfate use and delay of progression of knee osteoarthritis: a 3-year RCT. Arch Intern Med. 2002. PMID:12374520 DOI:10.1001/archinte.162.18.2113
+20. Rozendaal RM et al. Effect of glucosamine sulfate on hip osteoarthritis: a randomized trial. Ann Intern Med. 2008. PMID:18283204 DOI:10.7326/0003-4819-148-4-200802190-00005
+21. Bruyere O et al. Total joint replacement after glucosamine sulphate treatment in knee osteoarthritis: mean 8-year observation of patients from two 3-year RCTs. Osteoarthritis Cartilage. 2008. PMID:17681803 DOI:10.1016/j.joca.2007.06.011
+22. Wangroongsub Y et al. Comparable clinical outcomes between glucosamine sulfate-potassium chloride and glucosamine sulfate sodium chloride in knee osteoarthritis: a randomized, double-blind study. J Med Assoc Thai. 2010. PMID:20649060
+23. Amarase C et al. Comparison of functional performance outcomes between oral patented crystalline glucosamine sulfate and platelet-rich plasma among knee OA patients. Aging Clin Exp Res. 2024. PMID:39126538 DOI:10.1007/s40520-024-02814-7
+24. Bannuru RR et al. OARSI guidelines for the non-surgical management of knee, hip, and polyarticular osteoarthritis. Osteoarthritis Cartilage. 2019. PMID:31278997 DOI:10.1016/j.joca.2019.06.011
+25. Kolasinski SL et al. 2019 American College of Rheumatology/Arthritis Foundation Guideline for the Management of Osteoarthritis of the Hand, Hip, and Knee. Arthritis Care Res (Hoboken). 2020. PMID:31908149 DOI:10.1002/acr.24131
+26. Bruyere O et al. An updated algorithm recommendation for the management of knee osteoarthritis from ESCEO. Semin Arthritis Rheum. 2019. PMID:31126594 DOI:10.1016/j.semarthrit.2019.04.008
+27. Arden NK et al. Non-surgical management of knee osteoarthritis: comparison of ESCEO and OARSI 2019 guidelines. Nat Rev Rheumatol. 2021. PMID:33116279 DOI:10.1038/s41584-020-00523-9
+28. Saengnipanthkul S et al. Differentiation of patented crystalline glucosamine sulfate from other glucosamine preparations will optimize osteoarthritis treatment. Int J Rheum Dis. 2019. PMID:28332780 DOI:10.1111/1756-185X.13068
+29. Chang C et al. Does Salt Form Matter? A Pilot Randomized, Double-Blind, Crossover PK Comparison of Crystalline and Regular Glucosamine Sulfate. Nutrients. 2025. PMID:40806074 DOI:10.3390/nu17152491
+30. Persiani S et al. Glucosamine oral bioavailability and plasma pharmacokinetics after increasing doses of crystalline glucosamine sulfate in man. Osteoarthritis Cartilage. 2005. PMID:16168682 DOI:10.1016/j.joca.2005.07.009
+31. Persiani S et al. Synovial and plasma glucosamine concentrations in osteoarthritic patients following oral crystalline glucosamine sulphate. Osteoarthritis Cartilage. 2007. PMID:17353133 DOI:10.1016/j.joca.2007.01.019
+32. Meulyzer M et al. Comparison of pharmacokinetics of glucosamine and synovial fluid levels following glucosamine sulphate or hydrochloride. Osteoarthritis Cartilage. 2008. PMID:18295513 DOI:10.1016/j.joca.2008.01.006
+33. Asahina Y et al. Safety assessment regarding use of glucosamine sulfate by patients whose dietary potassium intake is restricted. Yakugaku Zasshi. 2010. PMID:20118652 DOI:10.1248/yakushi.130.271
+34. Ma H et al. Association of habitual glucosamine use with risk of cardiovascular disease: prospective study in UK Biobank. BMJ. 2019. PMID:31088786 DOI:10.1136/bmj.l1628
+35. Li ZH et al. Associations of regular glucosamine use with all-cause and cause-specific mortality: a large prospective cohort study. Ann Rheum Dis. 2020. PMID:32253185 DOI:10.1136/annrheumdis-2020-217176
+36. Yu H et al. Glucosamine Use Is Associated with a Higher Risk of Cardiovascular Diseases in Patients with Osteoarthritis. Nutrients. 2022. PMID:36145069 DOI:10.3390/nu14183694
+37. Zhang Z et al. Association of Habitual Glucosamine Use with Cardiovascular Disease among Individuals with Prediabetes and Diabetes (UK Biobank). J Integr Complement Med. 2026. PMID:41712318 DOI:10.1177/27683605261418094
+38. Cheng ZJ et al. Association of habitual glucosamine use with risk of microvascular complications among individuals with type 2 diabetes (UK Biobank). Nutr Diabetes. 2025. PMID:40169583 DOI:10.1038/s41387-025-00369-8
+39. Hayward SJ et al. Association between glucosamine use and albuminuria in the UK: a cohort and Mendelian randomisation study. BMJ Open. 2025. PMID:41271412 DOI:10.1136/bmjopen-2024-096344
+40. Xu S et al. Habitual Glucosamine Use and Risk of Sepsis: A 16-Year Follow-Up Study. Crit Care Med. 2025. PMID:40504933 DOI:10.1097/CCM.0000000000006742
+41. He J et al. Regular glucosamine supplementation and risk of age-related chronic diseases: a propensity score-matched cohort study. Aging Clin Exp Res. 2025. PMID:40879960 DOI:10.1007/s40520-025-03171-9
+42. Suissa K et al. Glucosamine and lower mortality and cancer incidence: Selection bias in the observational studies. Pharmacoepidemiol Drug Saf. 2022. PMID:36029480 DOI:10.1002/pds.5535
+43. Ma H et al. Glucosamine Use, Inflammation, and Genetic Susceptibility, and Incidence of Type 2 Diabetes (UK Biobank). Diabetes Care. 2020. PMID:31988063 DOI:10.2337/dc19-1836
+44. Shen Y et al. Habitual use of glucosamine and adverse liver outcomes among patients with type 2 diabetes and MASLD. Liver Int. 2024. PMID:38842441 DOI:10.1111/liv.16001
+45. Hawkinson TR et al. Hyperglycosylation is a metabolic driver of Alzheimer's disease. Nat Metab. 2026. PMID:42265388 DOI:10.1038/s42255-026-01538-4
+46. Dostrovsky NR et al. The effect of glucosamine on glucose metabolism in humans: a systematic review of the literature. Osteoarthritis Cartilage. 2011. PMID:21251987 DOI:10.1016/j.joca.2011.01.007
+47. Stumpf JL, Lin SW. Effect of glucosamine on glucose control. Ann Pharmacother. 2006. PMID:16569816 DOI:10.1345/aph.1E658
+48. Tawansareewattana Y et al. The effects of 2-year SYSADOA treatment on glycemic level in patients with comorbid primary knee osteoarthritis and type 2 diabetes. J Diabetes Metab Disord. 2026. PMID:42732213 DOI:10.1007/s40200-026-02069-1
+49. Riahi Y et al. Glucosamine links hyperglycemia to mTORC1 activation and glucose toxicity in diabetes. JCI Insight. 2026. PMID:42171606 DOI:10.1172/jci.insight.197331
+50. Lehrer S et al. Effect of Glucosamine on Intraocular Pressure and Risk of Developing Glaucoma. J Glaucoma. 2024. PMID:38031296 DOI:10.1097/IJG.0000000000002340
+51. Yuenyongviwat V et al. Effect of glucosamine sulfate on intraocular pressure in patients with knee osteoarthritis: a prospective RCT. J Fr Ophtalmol. 2019. PMID:31104873 DOI:10.1016/j.jfo.2019.03.005
+52. Esfandiari H et al. Effect of glucosamine on intraocular pressure: a randomized clinical trial. Eye (Lond). 2017. PMID:27768119 DOI:10.1038/eye.2016.221
+53. Hoban C et al. Hypersensitive adverse drug reactions to glucosamine and chondroitin preparations in Australia between 2000 and 2011. Postgrad Med J. 2020. PMID:31597786 DOI:10.1136/postgradmedj-2019-136957
+54. Honvo G et al. Safety of Anti-osteoarthritis Medications: A Systematic Literature Review of Post-marketing Surveillance Studies. Drugs. 2025. PMID:40095377 DOI:10.1007/s40265-025-02162-4
+55. Knudsen JF, Sokol GH. Potential glucosamine-warfarin interaction resulting in increased INR: case report and review of the literature and MedWatch database. Pharmacotherapy. 2008. PMID:18363538 DOI:10.1592/phco.28.4.540
+56. Rosenborg S et al. Clinically significant CYP2C inhibition by noscapine but not by glucosamine. Clin Pharmacol Ther. 2010. PMID:20668444 DOI:10.1038/clpt.2010.107
+57. Largo R et al. Glucosamine inhibits IL-1beta-induced NFkappaB activation in human osteoarthritic chondrocytes. Osteoarthritis Cartilage. 2003. PMID:12681956 DOI:10.1016/s1063-4584(03)00028-1
+58. Cheleschi S et al. A Combination of Celecoxib and Glucosamine Sulfate Has Anti-Inflammatory and Chondroprotective Effects: In Vitro Study on Human OA Chondrocytes. Int J Mol Sci. 2021. PMID:34445685 DOI:10.3390/ijms22168980
+59. Weimer S et al. D-Glucosamine supplementation extends life span of nematodes and of ageing mice. Nat Commun. 2014. PMID:24714520 DOI:10.1038/ncomms4563

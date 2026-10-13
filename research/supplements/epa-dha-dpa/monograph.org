@@ -1,0 +1,50 @@
+* EPA/DHA/DPA
+:PROPERTIES:
+:ID: supp-epa-dha-dpa
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: omega-3 fatty acids | eicosapentaenoic acid | docosahexaenoic acid | docosapentaenoic acid
+:CATEGORY: other
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Long-chain omega-3 polyunsaturated fatty acids include EPA, DHA, and DPA; fish oil and algal oils differ in composition and formulations. Prescription EPA products are distinct from OTC mixed oils. [URL:https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/]
+
+** Mechanisms
+- Proposed biological activity and the best-established physiological context are described above; clinical mechanisms remain uncertain where outcome evidence is limited. ["PMID:41445624"]
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | Certainty | Citations |
+|---|---|---|---|---|---|
+| Primary studied clinical/biomarker outcomes | Systematic review/meta-analysis or RCT synthesis | Meta-analysis of 38 RCTs (149,051 people) found modest reduction in several cardiovascular outcomes, stronger for EPA-only than EPA+DHA; AF increased (RR 1.26) | See narrative | low | PMID:41445624; PMID:39076869 |
+| Long-term clinical outcomes | Evidence insufficient or mixed | No established benefit | Not established | very low | PMID:41445624; PMID:39076869 |
+
+** Dosing in trials
+- Trials use ~0.5–4 g/day EPA+DHA; prescription icosapent ethyl is 4 g/day. DPA is usually present as a minor constituent, not separately dosed. [PMID:41445624] [URL:https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/]
+
+** Safety & adverse effects
+- GI effects; high-dose therapy associated with atrial fibrillation; possible bleeding at high purified EPA exposure. [PMID:34505026] [PMID:41445624]
+
+** Contraindications
+- Caution with atrial fibrillation history and high-dose regimens. [PMID:41445624]
+
+** Interactions
+- Anticoagulants/antiplatelets: monitor bleeding at pharmacologic doses; may lower triglycerides with lipid-lowering therapy. [PMID:34505026]
+
+** Genotype notes
+- No cited pharmacogenomic or nutrigenomic source was identified in the sources reviewed; no genotype-specific claim is made.
+
+** Latest research
+- 2025–2026 literature: 2025 meta-analysis across 34 trials found dose and baseline CVD risk modified observed AF association. [PMID:41445624]
+
+** Open questions
+- Whether findings translate into durable patient-important outcomes, optimal formulation/dose, and long-term safety remains uncertain. [PMID:41445624; PMID:39076869]
+
+** Sources
+- PMID:41445624
+- PMID:39076869
+- URL:https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/
+- PMID:34505026
+- PMID:41445624

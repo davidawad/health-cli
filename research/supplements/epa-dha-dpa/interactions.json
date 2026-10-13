@@ -1,0 +1,45 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "EPA/DHA/DPA",
+  "slug": "epa-dha-dpa",
+  "aliases": [
+    "omega-3 fatty acids",
+    "eicosapentaenoic acid",
+    "docosahexaenoic acid",
+    "docosapentaenoic acid"
+  ],
+  "category": "other",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "low",
+  "edges": [
+    {
+      "with": "atrial fibrillation",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "High-dose EPA/DHA showed increased incident AF especially in high-CVD-risk populations.",
+      "evidence": "Meta-analysis of 34 trials.",
+      "citations": [
+        "PMID:41445624"
+      ]
+    },
+    {
+      "with": "warfarin",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "High-dose omega-3 treatment may add bleeding tendency; monitor clinical bleeding.",
+      "evidence": "Meta-analysis found increased total bleeding with EPA monotherapy.",
+      "citations": [
+        "PMID:34505026"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:41445624",
+    "PMID:39076869",
+    "URL:https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+    "PMID:34505026",
+    "PMID:41445624"
+  ]
+}

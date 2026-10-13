@@ -1,0 +1,50 @@
+* Genistein
+:PROPERTIES:
+:ID: supp-genistein
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: soy isoflavone
+:CATEGORY: botanical
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Genistein is a soy isoflavone phytoestrogen; supplements may contain purified aglycone or soy extracts, which are not equivalent to soy foods. [PMID:40134817]
+
+** Mechanisms
+- Proposed biological activity and the best-established physiological context are described above; clinical mechanisms remain uncertain where outcome evidence is limited. ["PMID:40134817"]
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | Certainty | Citations |
+|---|---|---|---|---|---|
+| Primary studied clinical/biomarker outcomes | Systematic review/meta-analysis or RCT synthesis | 2025 meta-analysis of 21 RCTs (1,859 participants) found changes in LDL-C (−11.14 mg/dL) and systolic BP (−8.32 mmHg), with substantial heterogeneity | See narrative | low | PMID:40134817; PMID:39433088 |
+| Long-term clinical outcomes | Evidence insufficient or mixed | No established benefit | Not established | very low | PMID:40134817; PMID:39433088 |
+
+** Dosing in trials
+- Trials commonly used purified genistein/isoflavones in varied doses; a 2024 review found median 75 mg/day total soy isoflavones, not pure genistein. [PMID:39433088]
+
+** Safety & adverse effects
+- GI symptoms possible; long-term isolated supplement safety less established than food exposure. [PMID:39433088]
+
+** Contraindications
+- Caution in individuals with thyroid disease or hormone-sensitive conditions due to pharmacologic uncertainty; RCT aggregate does not show estrogenic biomarker changes. [PMID:39433088]
+
+** Interactions
+- Soy foods/isoflavones can affect levothyroxine absorption when taken together; separate administration and monitor TSH. [URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/]
+
+** Genotype notes
+- No cited pharmacogenomic or nutrigenomic source was identified in the sources reviewed; no genotype-specific claim is made.
+
+** Latest research
+- 2025–2026 literature: 2025 systematic review/meta-analysis of purified genistein RCTs reported cardiovascular risk-factor changes. [PMID:40134817]
+
+** Open questions
+- Whether findings translate into durable patient-important outcomes, optimal formulation/dose, and long-term safety remains uncertain. [PMID:40134817; PMID:39433088]
+
+** Sources
+- PMID:40134817
+- PMID:39433088
+- PMID:40134817
+- PMID:39433088
+- URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/

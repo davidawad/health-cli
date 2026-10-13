@@ -1,0 +1,31 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Genistein",
+  "slug": "genistein",
+  "aliases": [
+    "soy isoflavone"
+  ],
+  "category": "botanical",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "low",
+  "edges": [
+    {
+      "with": "levothyroxine",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Soy foods/isoflavones can impair levothyroxine absorption when co-administered; separate intake and monitor thyroid status.",
+      "evidence": "NIH ODS interaction guidance.",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:40134817",
+    "PMID:39433088",
+    "PMID:40134817",
+    "PMID:39433088",
+    "URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/"
+  ]
+}

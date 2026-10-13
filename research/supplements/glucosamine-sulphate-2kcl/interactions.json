@@ -1,0 +1,31 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Glucosamine Sulphate 2KCL",
+  "slug": "glucosamine-sulphate-2kcl",
+  "aliases": [
+    "glucosamine sulfate potassium chloride"
+  ],
+  "category": "other",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "low",
+  "edges": [
+    {
+      "with": "warfarin",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "major",
+      "mechanism": "Case reports and safety references describe increased INR/bleeding with glucosamine; monitor INR.",
+      "evidence": "Official NCCIH interaction warning.",
+      "citations": [
+        "URL:https://www.nccih.nih.gov/health/glucosamine-and-chondroitin-for-osteoarthritis"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:38581640",
+    "PMID:40425393",
+    "PMID:38581640",
+    "PMID:40425393",
+    "URL:https://www.nccih.nih.gov/health/glucosamine-and-chondroitin-for-osteoarthritis"
+  ]
+}

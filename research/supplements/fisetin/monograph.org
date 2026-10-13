@@ -1,0 +1,49 @@
+* Fisetin
+:PROPERTIES:
+:ID: supp-fisetin
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: 3,3′,4′,7-tetrahydroxyflavone
+:CATEGORY: longevity
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Fisetin is a plant flavonol found in strawberries and other produce; concentrated supplements are marketed for senolytic effects. [PMID:42796982]
+
+** Mechanisms
+- Proposed biological activity and the best-established physiological context are described above; clinical mechanisms remain uncertain where outcome evidence is limited. ["PMID:39434114"]
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | Certainty | Citations |
+|---|---|---|---|---|---|
+| Primary studied clinical/biomarker outcomes | Systematic review/meta-analysis or RCT synthesis | Senolytic, antioxidant and anti-inflammatory effects are primarily preclinical | See narrative | low | PMID:39434114; PMID:42796982 |
+| Long-term clinical outcomes | Evidence insufficient or mixed | No established benefit | Not established | very low | PMID:39434114; PMID:42796982 |
+
+** Dosing in trials
+- No established evidence-based dose; research protocols vary and no validated OTC regimen exists. [PMID:42796982]
+
+** Safety & adverse effects
+- Human long-term safety and pharmacokinetics are inadequately characterized; potential drug-metabolism interactions remain theoretical. [PMID:42796982]
+
+** Contraindications
+- No clinical contraindication set established; avoid treating preclinical hypotheses as proven therapy. [PMID:42796982]
+
+** Interactions
+- Potential interactions with anticoagulants or drug-metabolizing enzymes are theoretical; clinical interaction studies are lacking. [PMID:42796982]
+
+** Genotype notes
+- No cited pharmacogenomic or nutrigenomic source was identified in the sources reviewed; no genotype-specific claim is made.
+
+** Latest research
+- 2025–2026 literature: 2024 phase 2 STOP-Sepsis protocol describes testing fisetin in hospitalized older adults; protocol reports no efficacy result. [PMID:39434114]
+
+** Open questions
+- Whether findings translate into durable patient-important outcomes, optimal formulation/dose, and long-term safety remains uncertain. [PMID:39434114; PMID:42796982]
+
+** Sources
+- PMID:39434114
+- PMID:42796982
+- PMID:42796982
+- PMID:39434114

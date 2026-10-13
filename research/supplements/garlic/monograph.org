@@ -1,0 +1,49 @@
+* Garlic
+:PROPERTIES:
+:ID: supp-garlic
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: Allium sativum
+:CATEGORY: botanical
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Garlic (Allium sativum) preparations include fresh garlic, powder, oils and aged extracts; processing changes sulfur compounds and bioavailability. [URL:https://www.nccih.nih.gov/health/garlic]
+
+** Mechanisms
+- Proposed biological activity and the best-established physiological context are described above; clinical mechanisms remain uncertain where outcome evidence is limited. ["PMID:39113105"]
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | Certainty | Citations |
+|---|---|---|---|---|---|
+| Primary studied clinical/biomarker outcomes | Systematic review/meta-analysis or RCT synthesis | Meta-analysis of RCTs reports possible lipid improvement, but preparations and trials vary; clinical event reduction is unproven | See narrative | low | PMID:39113105; URL:https://www.nccih.nih.gov/health/garlic |
+| Long-term clinical outcomes | Evidence insufficient or mixed | No established benefit | Not established | very low | PMID:39113105; URL:https://www.nccih.nih.gov/health/garlic |
+
+** Dosing in trials
+- Trials commonly use garlic powder or aged extract for weeks to months; products are not interchangeable. [URL:https://www.nccih.nih.gov/health/garlic]
+
+** Safety & adverse effects
+- Breath/body odor, heartburn, abdominal upset; supplements may increase bleeding. [URL:https://www.nccih.nih.gov/health/garlic]
+
+** Contraindications
+- Caution before surgery and in bleeding disorders. [URL:https://www.nccih.nih.gov/health/garlic]
+
+** Interactions
+- May increase bleeding with anticoagulants/antiplatelets; can reduce saquinavir exposure. [URL:https://www.nccih.nih.gov/health/garlic]
+
+** Genotype notes
+- No cited pharmacogenomic or nutrigenomic source was identified in the sources reviewed; no genotype-specific claim is made.
+
+** Latest research
+- 2025–2026 literature: 2024 meta-analysis of RCTs evaluated garlic and dyslipidemia; no newer robust outcome trial identified. [PMID:39113105]
+
+** Open questions
+- Whether findings translate into durable patient-important outcomes, optimal formulation/dose, and long-term safety remains uncertain. [PMID:39113105; URL:https://www.nccih.nih.gov/health/garlic]
+
+** Sources
+- PMID:39113105
+- URL:https://www.nccih.nih.gov/health/garlic
+- URL:https://www.nccih.nih.gov/health/garlic
+- PMID:39113105

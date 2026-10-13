@@ -1,0 +1,42 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Iodine (potassium iodide)",
+  "slug": "iodine-potassium-iodide",
+  "aliases": [
+    "iodide",
+    "KI"
+  ],
+  "category": "mineral",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "low",
+  "edges": [
+    {
+      "with": "ACE inhibitors",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "KI supplies potassium and can contribute to hyperkalemia with ACE inhibitors.",
+      "evidence": "NIH ODS lists this interaction.",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/"
+      ]
+    },
+    {
+      "with": "thyroid disorders",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Excess iodine can provoke thyroid dysfunction, with susceptibility in thyroid disease.",
+      "evidence": "Official NIH ODS safety summary.",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/"
+      ]
+    }
+  ],
+  "citations": [
+    "URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/",
+    "PMID:40633808",
+    "URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/",
+    "PMID:40633808"
+  ]
+}

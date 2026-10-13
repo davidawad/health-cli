@@ -1,0 +1,49 @@
+* Iodine (potassium iodide)
+:PROPERTIES:
+:ID: supp-iodine-potassium-iodide
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: iodide | KI
+:CATEGORY: mineral
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Iodine is an essential component of thyroid hormones T4 and T3. Potassium iodide (KI) supplies iodide; supplement dose is expressed as micrograms iodine. [URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/]
+
+** Mechanisms
+- Proposed biological activity and the best-established physiological context are described above; clinical mechanisms remain uncertain where outcome evidence is limited. ["URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/"]
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | Certainty | Citations |
+|---|---|---|---|---|---|
+| Primary studied clinical/biomarker outcomes | Systematic review/meta-analysis or RCT synthesis | Supplementation corrects deficiency and supports thyroid hormone synthesis; excess can trigger hypo- or hyperthyroidism | See narrative | low | URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/; PMID:40633808 |
+| Long-term clinical outcomes | Evidence insufficient or mixed | No established benefit | Not established | very low | URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/; PMID:40633808 |
+
+** Dosing in trials
+- Adult RDA 150 mcg/day; trials/clinical use depend on deficiency and life stage. Adult UL 1,100 mcg/day. [URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/]
+
+** Safety & adverse effects
+- Excess may cause goiter, thyroiditis, hypo- or hyperthyroidism; susceptible thyroid disease increases risk. [URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/]
+
+** Contraindications
+- Thyroid disorders and pregnancy require avoiding excess and considering iodine status. [URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/]
+
+** Interactions
+- KI with ACE inhibitors or potassium-sparing diuretics can cause hyperkalemia; antithyroid drugs may interact. [URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/]
+
+** Genotype notes
+- No cited pharmacogenomic or nutrigenomic source was identified in the sources reviewed; no genotype-specific claim is made.
+
+** Latest research
+- 2025–2026 literature: 2025 systematic review/meta-analysis evaluated thyroid function under mild-to-moderate iodine deficiency. [PMID:40633808]
+
+** Open questions
+- Whether findings translate into durable patient-important outcomes, optimal formulation/dose, and long-term safety remains uncertain. [URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/; PMID:40633808]
+
+** Sources
+- URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/
+- PMID:40633808
+- URL:https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/
+- PMID:40633808

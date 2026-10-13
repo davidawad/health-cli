@@ -1,0 +1,43 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "DHEA",
+  "slug": "dhea",
+  "aliases": [
+    "dehydroepiandrosterone"
+  ],
+  "category": "hormone",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "low",
+  "edges": [
+    {
+      "with": "hormone-sensitive cancers",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "DHEA is converted to testosterone and estradiol and can raise circulating sex steroids.",
+      "evidence": "Meta-analysis of RCTs.",
+      "citations": [
+        "PMID:40616152"
+      ]
+    },
+    {
+      "with": "estrogen therapy",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Potential additive sex-steroid exposure; direct interaction trials are limited.",
+      "evidence": "Mechanistic, based on observed hormone increases.",
+      "citations": [
+        "PMID:40616152"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:40616152",
+    "PMID:37788418",
+    "PMID:40616152",
+    "PMID:37788418",
+    "PMID:41589851",
+    "PMID:25879093"
+  ]
+}

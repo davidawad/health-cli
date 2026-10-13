@@ -1,0 +1,42 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Garlic",
+  "slug": "garlic",
+  "aliases": [
+    "Allium sativum"
+  ],
+  "category": "botanical",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "low",
+  "edges": [
+    {
+      "with": "warfarin",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "major",
+      "mechanism": "Garlic preparations may increase bleeding when combined with anticoagulant therapy.",
+      "evidence": "Official NCCIH safety summary.",
+      "citations": [
+        "URL:https://www.nccih.nih.gov/health/garlic"
+      ]
+    },
+    {
+      "with": "Garlic (Kyolic)",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Aged garlic is a garlic preparation; duplicated exposure has uncertain incremental effect and can increase garlic adverse effects.",
+      "evidence": "Ingredient overlap; no direct combination trial.",
+      "citations": [
+        "PMID:30619868",
+        "URL:https://www.nccih.nih.gov/health/garlic"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:39113105",
+    "URL:https://www.nccih.nih.gov/health/garlic",
+    "URL:https://www.nccih.nih.gov/health/garlic",
+    "PMID:39113105"
+  ]
+}

@@ -3,48 +3,208 @@
 :ID: supp-trimethylglycine-tmg
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: trimethylglycine | TMG | betaine | anhydrous betaine
-:CATEGORY: other
+:ALIASES: trimethylglycine | TMG | betaine | glycine betaine | betaine anhydrous | Cystadane
+:CATEGORY: amino-acid
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Trimethylglycine (betaine) is a dietary methyl donor found in foods such as beets and grains; it is distinct from betaine hydrochloride, a gastric acidifier. Supplemental research generally uses anhydrous betaine. [PMID:3610948]
+- N,N,N-trimethylglycine (glycine betaine) is an N-methylated amino acid. It acts both as an osmolyte and as a methyl donor in the methionine cycle, mainly in liver and kidney [PMID:15321791] [PMID:20446114].
+- Dietary sources: richest are wheat bran/germ, spinach and marine invertebrates [PMID:15321791]. Cereal foods are the main source in Western diets [PMID:24128557]. Mean intake across 28 observational studies was about 182 mg/d [PMID:39270852].
+- Endogenous betaine comes from choline oxidation. Supplemental choline (1 g/d) raises plasma betaine [PMID:22172554] [PMID:41687879].
+- Forms: OTC supplements are betaine anhydrous powder or capsules sold as "TMG". The prescription form, betaine anhydrous for oral solution (Cystadane), is FDA-approved to lower homocysteine in homocystinuria (CBS deficiency, MTHFR deficiency, cobalamin cofactor defects) [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=31a684d0-cd98-4e46-b43a-ccbd17c41559].
+- EU: authorized as a novel food. EFSA set a safe added intake of 6 mg/kg bw/day (about 400 mg/d for adults) on top of diet [PMID:32625349] [PMID:32626284].
+- Not the same as betaine hydrochloride, a gastric acidifier that transiently lowers gastric pH [PMID:23980906].
 
 ** Mechanisms
-- Betaine-homocysteine methyltransferase transfers a methyl group from betaine to homocysteine, regenerating methionine, predominantly in liver and kidney. [PMID:3610948]
+- BHMT pathway: betaine-homocysteine methyltransferase transfers one methyl group from betaine to homocysteine, forming methionine and dimethylglycine (DMG) [PMID:16197300] [PMID:24022817]. BHMT handles up to 50% of hepatic homocysteine metabolism [PMID:21093336]. It runs parallel to folate/B12-dependent methionine synthase, and the two pathways are interlinked [PMID:15941890] [PMID:40806080].
+- Betaine is a stronger determinant of the post-methionine-load homocysteine rise than folate or B6. The association is strongest when folate status is low [PMID:15550695] [PMID:14699020] [PMID:16197300].
+- Supplementation raises plasma betaine, DMG and methionine [PMID:33764214]. DMG rose 16.5-fold in prediabetes, consistent with DMG dehydrogenase being rate limiting [PMID:29860335]. Supplementation also shifts other one-carbon metabolites, e.g. sarcosine, SAH and MTA [PMID:40944155].
+- Osmolyte role: taken up via the betaine/GABA transporter BGT1. It protects renal medullary, hepatic and brain cells against hypertonic stress [PMID:24795654].
+- Preclinical: exercise raises betaine, which binds TBK1 and has geroprotective effects in mice [PMID:40570836]. Proposed anti-steatotic, mitochondrial and anti-inflammatory actions come mostly from animal work [PMID:33818349] [PMID:42792248] [PMID:39647584].
+- Lipids: the mechanism of the LDL rise in humans is unclear [PMID:15916468].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---|---|---|---|---|---|
-| Plasma homocysteine | Meta-analysis of randomized trials | decrease | Pooled reduction in healthy adults; dose dependent | moderate | PMID:3610948 |
-| Lipids | Meta-analysis of RCTs | increase in LDL/total cholesterol | Several mg/dL increase in total cholesterol; potential offset to homocysteine change | low | PMID:3610948 |
-| Homocysteine in active adults | Randomized crossover trial | decrease | 17.04 to 15.44 µmol/L; TMAO change nonsignificant | low | PMID:38876040 |
-| Clinical cardiovascular events | No outcome RCT evidence established | unknown | No demonstrated patient-important outcome benefit | very low | PMID:3610948 |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Fasting plasma homocysteine (healthy adults) | MA of 5 RCTs (>=4 g/d, 6-24 wk); later SR/MA; dose-ranging RCT | Decrease | -1.23 umol/L (CI -1.61 to -0.85); WMD -1.30 umol/L; -12/-15/-20% at 1.5/3/6 g/d | moderate | [PMID:23997720] [PMID:33764214] [PMID:14652361] |
+| Post-methionine-load homocysteine | RCTs | Decrease (larger than fasting effect) | -23% to -40% rise at 1.5-6 g/d; AUC -221 umol*24h/L vs placebo | moderate | [PMID:14652361] [PMID:12730412] [PMID:11849459] |
+| Total / LDL cholesterol | SR/MA of RCTs; pooled RCTs | Increase at >=4 g/d | TC +14.1 mg/dL, LDL +10.3 mg/dL; LDL +0.36 mmol/L at 6 g/d; TC +0.34 mmol/L; no rise at <4 g/d | moderate | [PMID:33764214] [PMID:31809615] [PMID:15916468] |
+| Triglycerides | Pooled RCTs; SR/MA | Small increase at 6 g/d; null in MA | TG +0.14 mmol/L (6 g/d); MA no effect | low | [PMID:15916468] [PMID:33764214] |
+| Cardiovascular events | No betaine outcome RCTs; homocysteine-lowering B-vitamin trials | Unknown | B-vitamin Hcy lowering: MI RR ~1.0, stroke RR 0.90 | very low | [PMID:28816346] |
+| Body composition | Two SR/MAs of RCTs (conflicting) | Null overall; possible fat-mass decrease | BM/FM/FFM NS; other MA: FM -2.53 kg, %BF -2.44 | low | [PMID:34743773] [PMID:31623137] [PMID:34477469] |
+| Maximal strength / power | SR/MA (17 RCTs, n=317); Bayesian NMA | Small benefit | Strength SMD 0.47 (CI 0.04-0.89); CMJ +3.72 cm (CrI 1.24-6.18), very low certainty | low | [PMID:39514262] [PMID:42821324] [PMID:28426517] [PMID:34663363] |
+| Endurance performance | Single crossover RCTs | Possible small benefit | 60 km TT -1.4 min (ES 0.48) | very low | [PMID:40944155] [PMID:32516959] |
+| NAFLD/NASH histology | RCT (20 g/d x 12 mo, n=55) | No significant benefit | No change in NAS or fibrosis; may limit steatosis worsening; a combination product (betaine glucuronate) reduced steatosis 25% | low | [PMID:19824078] [PMID:11569700] [PMID:10994156] |
+| MASLD liver enzymes | Uncontrolled pilot trials (1-8 g/d) | ALT/AST decrease (no placebo) | Significant at 2, 4, 8 g/d; not at 1 g/d | very low | [PMID:40758380] |
+| Glycemia / insulin sensitivity | RCT in prediabetes (n=27); SR/MA | No meaningful effect | Clamp unchanged; FBG NS in MA | low | [PMID:29860335] [PMID:33764214] |
+| Inflammatory markers | SR/MA (6 RCTs, n=277) | Mostly null | IL-1b -0.65 pg/mL (I2 95%); CRP, IL-6, TNF NS | low | [PMID:37733077] |
+| Homocystinuria (Rx use) | Crossover RCT (n=6); case series; registries; guidelines | Large tHcy decrease | Mean tHcy 203 -> 81 umol/L with combined therapy; -29% in RoCH; -47 umol/L after diet optimization | moderate | [PMID:6877313] [PMID:15017331] [PMID:35358327] [PMID:30871635] [PMID:27778219] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=31a684d0-cd98-4e46-b43a-ccbd17c41559] |
 
 ** Dosing in trials
-- Trials commonly gave 1.5–6 g/day; one recent crossover study tested betaine in healthy active males (dose per report). A 12-week Chinese trial combined 1 g/day betaine with B vitamins; this does not isolate TMG. [PMID:36717385, PMID:38876040]
+- Homocysteine in healthy adults: 1.5-6 g/d for 6 wk lowers fasting tHcy dose-dependently [PMID:14652361]. MAs pooled >=4 g/d trials [PMID:23997720]. Doses <4 g/d may lower Hcy without the lipid rise [PMID:33764214].
+- Sport: 2.5-5 g/d, usually split doses, for 1-14 weeks [PMID:37409757] [PMID:30064450] [PMID:33663545] [PMID:20642826]. 3 g/d for 2 weeks in cyclists [PMID:40944155].
+- Pharmacokinetics: absorption is rapid (Tmax ~0.9 h). Elimination half-life is ~14 h after a single dose and ~41 h with repeated dosing; only ~4% is excreted in urine [PMID:12534635]. Serum betaine returns to baseline within about 4 days of stopping [PMID:35276860].
+- NASH/MASLD: 20 g/d for 12 months [PMID:19824078]; 1-8 g/d in pilots [PMID:40758380].
+- Homocystinuria (label): 6 g/d (3 g twice daily) for ages >=3 years. Under 3 years: start at 100 mg/kg/day, titrated weekly [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=31a684d0-cd98-4e46-b43a-ccbd17c41559]. 6 g/d was the classic regimen in pyridoxine non-responders [PMID:6877313]. 250 mg/kg/day gave no extra tHcy lowering over 100 mg/kg/day in CBS/cblC patients [PMID:36376887]. Registry doses commonly exceed 6 g/d [PMID:35358327].
 
 ** Safety & adverse effects
-- Can increase total/LDL cholesterol; nausea, diarrhea and fishy body odor are reported with high doses. TMAO may rise in some participants, with uncertain clinical meaning. [PMID:3610948, PMID:38876040]
+- Healthy-population trials report mostly mild GI symptoms. About 35% had mild, transient GI symptoms in the MASLD pilots [PMID:40758380]. No liver or kidney function changes were seen at 4 g/d for 6 months [PMID:20978525].
+- Lipids: at >=4-6 g/d, LDL and total cholesterol rise, which could offset any homocysteine benefit [PMID:15916468] [PMID:33764214] [PMID:12399266] [PMID:29860335]. Long-term 4 g/d in young healthy adults showed no net lipid change [PMID:20978525]. EFSA found LDL increases at 4 g/d in overweight subjects with metabolic syndrome [PMID:32625349].
+- Hypermethioninemia and cerebral edema in CBS deficiency: the Cystadane label warns that betaine may worsen hypermethioninemia, and cerebral edema has been reported. Advice: monitor methionine and keep it below 1,000 umol/L [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=31a684d0-cd98-4e46-b43a-ccbd17c41559]. Postmarketing cases occurred 2 weeks to 6 months after starting, with methionine of 1,000-3,000 uM, and resolved on discontinuation [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=31a684d0-cd98-4e46-b43a-ccbd17c41559].
+  - Case and review evidence: a child with dietary non-adherence reached methionine ~3,000 umol/L and developed massive edema [PMID:11857551]. A review of 19 patients implicates methionine rather than betaine itself; no edema was seen below 559 umol/L [PMID:32154053].
+- Rx safety registries: 130 patients, median 6.8 years of use, no new risk even above 6 g/d [PMID:35358327]. RoCH (n=125): drug-related AEs were bad taste, headache and one interstitial lung disease [PMID:30871635]. Label postmarketing AEs include body odor, GI upset, glossitis, hair loss and behavioural changes [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=31a684d0-cd98-4e46-b43a-ccbd17c41559].
+- TMAO: betaine is a TMAO precursor. Supplementation produced a non-significant TMAO rise (P=.053) [PMID:38876040]. Betaine and TMAO predicted CVD risk in a metabolomics cohort [PMID:21475195].
+- Pregnancy/lactation: limited data. The label reports no identified drug-associated risk in published cases [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=31a684d0-cd98-4e46-b43a-ccbd17c41559]. Lactation trials are ongoing [URL:https://clinicaltrials.gov/study/NCT04633044] [URL:https://clinicaltrials.gov/study/NCT07243678].
 
 ** Contraindications
-- Use caution in pre-existing hypercholesterolemia and renal/hepatic disorders because outcomes and handling in these groups are not established. Do not confuse TMG with betaine HCl. [PMID:3610948]
+- The label lists none [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=31a684d0-cd98-4e46-b43a-ccbd17c41559].
+- CBS deficiency (classical homocystinuria): use only under specialist care with dietary methionine restriction and methionine monitoring [PMID:32154053] [PMID:27778219]. Betaine is an adjunct to diet, not a replacement [PMID:11857551]. Doses >100 mg/kg/day may harm patients with pre-existing hypermethioninemia [PMID:36376887].
+- Hypercholesterolemia or high ASCVD risk: use caution with >=4 g/d because of the LDL rise [PMID:33764214] [PMID:15916468].
 
 ** Interactions
-- Folate, B12 and B6 participate in parallel homocysteine pathways; combination trials cannot attribute changes to betaine alone. Check lipids if using sustained gram doses; no validated assay interference established. [PMID:36717385, PMID:38876040]
+*** Drugs
+- Metformin (incl. ER): lowers B12, and long-term use raises B12-deficiency risk [PMID:20488910] [PMID:26900641]. It raises Hcy (+2.02 umol/L) when B vitamins are not co-supplemented [PMID:27941660]. No study tested betaine with metformin; any offset is theoretical.
+- Fibrates (bezafibrate): cause abnormal urinary betaine loss linked to higher homocysteine [PMID:19653086].
+- Lipid-lowering therapy: betaine's LDL increase at >=4 g/d may partly counter statin goals (inferred) [PMID:33764214].
+- Hydroxocobalamin/pyridoxine/folate in inborn errors: betaine is combined with these under guidelines, e.g. first-line in MTHFR deficiency [PMID:27905001] [PMID:42231716].
+*** Other supplements
+- Folate (incl. 5-MTHF): parallel remethylation pathway. Folic acid raises plasma betaine by up to 15% [PMID:15941890]. Betaine-Hcy associations are strongest at low folate status [PMID:15550695]. Folic acid lowered fasting Hcy more than betaine and did not raise lipids [PMID:12730412] [PMID:15916468].
+- Vitamin B12: methionine synthase cofactor. Betaine is used with hydroxocobalamin in cbl defects [PMID:27905001]. A 12-week RCT of low-dose folate/B6/B12 plus 1 g betaine lowered Hcy by 10.1% [PMID:36717385].
+- Vitamin B6: required for transsulfuration (CBS), whereas betaine works through remethylation. B6 deficiency raises post-load Hcy [PMID:8690790]. Betaine added to folate+B6 cut post-load Hcy a further 18% in CKD [PMID:11849459].
+- B Complex: combined regimens lower Hcy [PMID:36717385] [PMID:11849459]. Methyl donors (betaine HCl + B vitamins + folate) prevented the GAA-induced Hcy rise [PMID:23351309].
+- Choline (incl. Alpha-GPC, citicoline): choline is the betaine precursor. 2.6 g/d choline as PC lowered Hcy 18% but raised TG [PMID:16002808] [PMID:15916468]. 1 g/d choline raised betaine [PMID:22172554]. Both are TMAO precursors [PMID:21475195].
+- Creatine: betaine did not raise muscle PCr or add to creatine's strength effect [PMID:21744011]. Creatine lowers GAA but not Hcy [PMID:26311810].
+*** Conditions
+- CBS deficiency: see Safety and Contraindications.
+- MTHFR deficiency and cblC: betaine is guideline-recommended [PMID:27905001] [PMID:42231716].
+- Chronic kidney disease/dialysis: betaine did not lower fasting Hcy beyond folate [PMID:10081520] [PMID:11849459]. It is mainly cleared by metabolism [PMID:12534635]. DMG accumulation predicts mortality in CHD (association only) [PMID:24671904].
+- NAFLD/MASLD: an RCT was null on histology [PMID:19824078]. An uncontrolled pilot showed ALT falls [PMID:40758380]. Reviewers have called for re-evaluation [PMID:33132631]. A placebo-controlled MASH trial is planned [URL:https://clinicaltrials.gov/study/NCT07276204].
+*** Lab-test interference
+- No assay artifact was found. Betaine causes true physiological changes: Hcy falls [PMID:23997720]; methionine and DMG rise [PMID:33764214] [PMID:29860335]; plasma betaine rises about 3.5-fold [PMID:38876040]; LDL/TC rise [PMID:31809615].
+- The label notes betaine concentrations are not correlated with homocysteine response [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=31a684d0-cd98-4e46-b43a-ccbd17c41559].
 
 ** Genotype notes
-- A 2024 randomized crossover study reported betaine concentrations increased more among MTHFR C677T T-allele carriers than CC participants; this biomarker subgroup finding does not establish genotype-guided clinical benefit. [PMID:38876040]
+- MTHFR C677T (rs1801133): in a 2024 crossover RCT, T-allele carriers had larger serum betaine increases than CC [PMID:38876040]. A CrossFit RCT found no genotype x dose interaction for performance [PMID:37409757]. No genotype-guided clinical benefit is established.
+- BHMT: upstream/intronic SNPs (rs41272270, rs16876512, rs6875201) correlate with hepatic BHMT activity [PMID:21093336]. Coding variants (G199S, Q239R, Q406H) did not alter Hcy [PMID:11073719]. G742A was not associated with CAD in an MA [PMID:22339686].
+- BHMT rs3733890 reduced responsiveness to phosphatidylcholine [PMID:41415850].
+- An exploratory GWAS linked BHMT, DMGDH and SLC6A12 to serum betaine/DMG [PMID:40871658].
+- Severe MTHFR deficiency (inborn error, distinct from C677T) is a labelled Rx indication [PMID:27905001].
 
-** Latest research (last 24 months)
-- 2024 randomized crossover: betaine lowered homocysteine in healthy active men, while TMAO rose nonsignificantly; betaine response differed by MTHFR C677T allele. [PMID:38876040]
+** Latest research
+- [2026-10] 8-week RCT, 3 g/d in overweight premenopausal women: higher PBMC citrate synthase and plasma catalase activity [PMID:42841999].
+- [2026-10] Bayesian NMA of 119 trials: betaine CMJ +3.72 cm; most comparisons very low certainty [PMID:42821324].
+- [2026-09] MASLD review: preclinical effects are consistent, but clinical efficacy is not established [PMID:42792248].
+- [2026-07] Revised remethylation-disorder guideline: betaine is first-line in MTHFR deficiency [PMID:42231716].
+- [2026-03] PREDIMED-Plus cohort (n=6610): dietary choline/betaine and 2-year cognitive change [PMID:41825530].
+- [2026-02] Controlled feeding RCT: plasma betaine tracks dietary choline intake [PMID:41687879].
+- [2025-12] Choline-form response depends on CHDH/BHMT/PEMT variants [PMID:41415850].
+- [2025-08] MASLD pilots (Hepatology): ALT/AST and CK18 fell at 2-8 g/d; LDL unchanged; no placebo arm [PMID:40758380].
+- [2025-08] Cyclists' crossover RCT (3 g/d): 60 km TT 1.4 min faster [PMID:40944155].
+- [2025-08] GWAS of choline/betaine/DMG [PMID:40871658].
+- [2025-07] Review of folate-choline methyl shuttling [PMID:40806080].
+- [2025-06] Cell: betaine as an exercise mimetic inhibiting TBK1 (mouse/human omics) [PMID:40570836].
+- [2025-01] E-HOD registry (n=311): tHcy was similar at high vs low betaine doses; poor adherence was common [PMID:40095936].
+- [2024-12] Aging review [PMID:39647584].
+- [2024-11] Exercise MA: strength SMD 0.47 [PMID:39514262].
+- [2024-11] Critical review: marketing outpaces RCT evidence [PMID:39270852].
 
 ** Open questions
-- Do homocysteine changes translate to clinical benefit? Clarify long-term lipid and TMAO effects and which baseline phenotypes benefit.
+- Whether betaine's Hcy lowering produces any clinical benefit, given that B-vitamin Hcy-lowering trials largely failed [PMID:28816346], and whether the LDL rise offsets it [PMID:15916468].
+- Whether dose-dependent lipid effects persist below 4 g/d long term [PMID:33764214] [PMID:20978525].
+- Whether the ALT improvements in MASLD hold up under placebo control and translate into histology [PMID:40758380] [PMID:19824078].
+- Clinical relevance of TMAO and DMG increases [PMID:38876040] [PMID:24671904].
+- Observational betaine intake-mortality data are inconsistent [PMID:31915809].
+- Translation of mouse geroprotection to humans [PMID:40570836].
 
 ** Sources
-- Olthof MR et al. Betaine supplementation decreases plasma homocysteine in healthy adult participants: a meta-analysis. J Nutr. 2005. [https://pubmed.ncbi.nlm.nih.gov/16177261/]
-- Betaine supplementation modulates betaine concentration by MTHFR genotype... randomized crossover. 2024. [https://pubmed.ncbi.nlm.nih.gov/38876040/]
-- Effects of low-dose B vitamins plus betaine in Chinese adults: randomized trial. [https://pubmed.ncbi.nlm.nih.gov/36717385/]
+1. McRae MP. Betaine supplementation decreases plasma homocysteine in healthy adult participants: a meta-analysis. J Chiropr Med. 2013. PMID:23997720 DOI:10.1016/j.jcm.2012.11.001
+2. Ashtary-Larky D et al. Effects of betaine supplementation on cardiovascular markers: A systematic review and Meta-analysis. Crit Rev Food Sci Nutr. 2022. PMID:33764214 DOI:10.1080/10408398.2021.1902938
+3. Zawieja EE et al. Betaine Supplementation Moderately Increases Total Cholesterol Levels: A Systematic Review and Meta-Analysis. J Diet Suppl. 2021. PMID:31809615 DOI:10.1080/19390211.2019.1699223
+4. Olthof MR et al. Effect of homocysteine-lowering nutrients on blood lipids: results from four randomised, placebo-controlled studies in healthy humans. PLoS Med. 2005. PMID:15916468 DOI:10.1371/journal.pmed.0020135
+5. Steenge GR et al. Betaine supplementation lowers plasma homocysteine in healthy men and women. J Nutr. 2003. PMID:12730412 DOI:10.1093/jn/133.5.1291
+6. Olthof MR et al. Low dose betaine supplementation leads to immediate and long term lowering of plasma homocysteine in healthy men and women. J Nutr. 2003. PMID:14652361 DOI:10.1093/jn/133.12.4135
+7. Schwab U et al. Betaine supplementation decreases plasma homocysteine concentrations but does not affect body weight, body composition, or resting energy expenditure in human subjects. Am J Clin Nutr. 2002. PMID:12399266 DOI:10.1093/ajcn/76.5.961
+8. Schwab U et al. Long-term effect of betaine on risk factors associated with the metabolic syndrome in healthy subjects. Eur J Clin Nutr. 2011. PMID:20978525 DOI:10.1038/ejcn.2010.230
+9. Grizales AM et al. Metabolic Effects of Betaine: A Randomized Clinical Trial of Betaine Supplementation in Prediabetes. J Clin Endocrinol Metab. 2018. PMID:29860335 DOI:10.1210/jc.2018-00507
+10. Ashtary-Larky D et al. Betaine supplementation fails to improve body composition: a systematic review and meta-analysis. Br J Nutr. 2022. PMID:34743773 DOI:10.1017/S0007114521004062
+11. Gao X et al. Effect of Betaine on Reducing Body Fat-A Systematic Review and Meta-Analysis of Randomized Controlled Trials. Nutrients. 2019. PMID:31623137 DOI:10.3390/nu11102480
+12. Zawieja E et al. Effects of chronic betaine supplementation on exercise performance: Systematic review and meta-analysis. J Sports Sci. 2024. PMID:39514262 DOI:10.1080/02640414.2024.2423578
+13. Sun R et al. Effects of dietary supplements on lower-limb power and jump performance in physically active individuals and athletes: a systematic review and Bayesian network meta-analysis. J Int Soc Sports Nutr. 2026. PMID:42821324 DOI:10.1080/15502783.2026.2740221
+14. Xu J et al. Effects of betaine supplementation on inflammatory markers: a systematic review and meta-analysis of randomised controlled trials. Int J Food Sci Nutr. 2023. PMID:37733077 DOI:10.1080/09637486.2023.2257906
+15. Abdelmalek MF et al. Betaine for nonalcoholic fatty liver disease: results of a randomized placebo-controlled trial. Hepatology. 2009. PMID:19824078 DOI:10.1002/hep.23239
+16. Lim AS et al. Pilot trials of oral betaine in participants with metabolic dysfunction-associated steatotic liver disease and elevated alanine aminotransferase. Hepatology. 2026. PMID:40758380 DOI:10.1097/HEP.0000000000001477
+17. Miglio F et al. Efficacy and safety of oral betaine glucuronate in non-alcoholic steatohepatitis. A double-blind, randomized, parallel-group, placebo-controlled prospective clinical study. Arzneimittelforschung. 2000. PMID:10994156 DOI:10.1055/s-0031-1300279
+18. Abdelmalek MF et al. Betaine, a promising new agent for patients with nonalcoholic steatohepatitis: results of a pilot study. Am J Gastroenterol. 2001. PMID:11569700 DOI:10.1111/j.1572-0241.2001.04129.x
+19. Schwahn BC et al. Cystathionine beta synthase deficiency and brain edema associated with methionine excess under betaine supplementation: Four new cases and a review of the evidence. JIMD Rep. 2020. PMID:32154053 DOI:10.1002/jmd2.12092
+20. Yaghmai R et al. Progressive cerebral edema associated with high methionine levels and betaine therapy in a patient with cystathionine beta-synthase (CBS) deficiency. Am J Med Genet. 2002. PMID:11857551 DOI:10.1002/ajmg.10186
+21. Mütze U et al. Postauthorization safety study of betaine anhydrous. J Inherit Metab Dis. 2022. PMID:35358327 DOI:10.1002/jimd.12499
+22. Valayannopoulos V et al. Betaine anhydrous in homocystinuria: results from the RoCH registry. Orphanet J Rare Dis. 2019. PMID:30871635 DOI:10.1186/s13023-019-1036-2
+23. Morris AAM et al. Cystathionine β-Synthase Deficiency in the E-HOD Registry-Part II: Dietary and Pharmacological Treatment. J Inherit Metab Dis. 2025. PMID:40095936 DOI:10.1002/jimd.12844
+24. Morris AA et al. Guidelines for the diagnosis and management of cystathionine beta-synthase deficiency. J Inherit Metab Dis. 2017. PMID:27778219 DOI:10.1007/s10545-016-9979-0
+25. Imbard A et al. Efficacy and pharmacokinetics of betaine in CBS and cblC deficiencies: a cross-over randomized controlled trial. Orphanet J Rare Dis. 2022. PMID:36376887 DOI:10.1186/s13023-022-02567-4
+26. Schwahn BC et al. Pharmacokinetics of oral betaine in healthy subjects and patients with homocystinuria. Br J Clin Pharmacol. 2003. PMID:12534635 DOI:10.1046/j.1365-2125.2003.01717.x
+27. Zawieja E et al. Betaine supplementation modulates betaine concentration by methylenetetrahydrofolate reductase genotype, but has no effect on amino acid profile in healthy active males: A randomized placebo-controlled cross-over study. Nutr Res. 2024. PMID:38876040 DOI:10.1016/j.nutres.2024.05.003
+28. Nikrandt G et al. Decoding Betaine: A Critical Analysis of Therapeutic Potential Compared with Marketing Hype-A Narrative Review. J Nutr. 2024. PMID:39270852 DOI:10.1016/j.tjnut.2024.08.030
+29. Zawieja E et al. Betaine and aging: A narrative review of findings, possible mechanisms, research perspectives, and practical recommendations. Ageing Res Rev. 2025. PMID:39647584 DOI:10.1016/j.arr.2024.102634
+30. Geng L et al. Systematic profiling reveals betaine as an exercise mimetic for geroprotection. Cell. 2025. PMID:40570836 DOI:10.1016/j.cell.2025.06.001
+31. Nieman DC et al. Betaine Supplementation Improves 60 km Cycling Time Trial Performance and One-Carbon Metabolism in Cyclists During Recovery. Nutrients. 2025. PMID:40944155 DOI:10.3390/nu17172765
+32. Zawieja E et al. Betaine supplementation improves CrossFit performance and increases testosterone levels, but has no influence on Wingate power: randomized crossover trial. J Int Soc Sports Nutr. 2023. PMID:37409757 DOI:10.1080/15502783.2023.2231411
+33. Wallace JM et al. Choline supplementation and measures of choline and betaine status: a randomised, controlled trial in postmenopausal women. Br J Nutr. 2012. PMID:22172554 DOI:10.1017/S000711451100674X
+34. Olthof MR et al. Choline supplemented as phosphatidylcholine decreases fasting and postmethionine-loading plasma homocysteine concentrations in healthy men. Am J Clin Nutr. 2005. PMID:16002808 DOI:10.1093/ajcn.82.1.111
+35. Melse-Boonstra A et al. Betaine concentration as a determinant of fasting total homocysteine concentrations and the effect of folic acid supplementation on betaine concentrations. Am J Clin Nutr. 2005. PMID:15941890 DOI:10.1093/ajcn/81.6.1378
+36. Holm PI et al. Betaine and folate status as cooperative determinants of plasma homocysteine in humans. Arterioscler Thromb Vasc Biol. 2005. PMID:15550695 DOI:10.1161/01.ATV.0000151283.33976.e6
+37. Holm PI et al. Betaine as a determinant of postmethionine load total plasma homocysteine before and after B-vitamin supplementation. Arterioscler Thromb Vasc Biol. 2004. PMID:14699020 DOI:10.1161/01.ATV.0000114569.54976.31
+38. McGregor DO et al. Betaine supplementation decreases post-methionine hyperhomocysteinemia in chronic renal failure. Kidney Int. 2002. PMID:11849459 DOI:10.1046/j.1523-1755.2002.00199.x
+39. van Guldener C et al. Effect of folic acid and betaine on fasting and postmethionine-loading plasma homocysteine and methionine levels in chronic haemodialysis patients. J Intern Med. 1999. PMID:10081520 DOI:10.1046/j.1365-2796.1999.00430.x
+40. Singh RH et al. Cystathionine beta-synthase deficiency: effects of betaine supplementation after methionine restriction in B6-nonresponsive homocystinuria. Genet Med. 2004. PMID:15017331 DOI:10.1097/01.gim.0000117334.84388.f4
+41. Wilcken DE et al. Homocystinuria--the effects of betaine in the treatment of patients not responsive to pyridoxine. N Engl J Med. 1983. PMID:6877313 DOI:10.1056/NEJM198308253090802
+42. Zhang Q et al. Metformin Treatment and Homocysteine: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. Nutrients. 2016. PMID:27941660 DOI:10.3390/nu8120798
+43. de Jager J et al. Long term treatment with metformin in patients with type 2 diabetes and risk of vitamin B-12 deficiency: randomised placebo controlled trial. BMJ. 2010. PMID:20488910 DOI:10.1136/bmj.c2181
+44. Aroda VR et al. Long-term Metformin Use and Vitamin B12 Deficiency in the Diabetes Prevention Program Outcomes Study. J Clin Endocrinol Metab. 2016. PMID:26900641 DOI:10.1210/jc.2015-3754
+45. EFSA NDA Panel. Safety of betaine as a novel food pursuant to Regulation (EU) 2015/2283. EFSA J. 2019. PMID:32626284 DOI:10.2903/j.efsa.2019.5658
+46. EFSA NDA Panel. Safety of betaine as a novel food pursuant to Regulation (EC) No 258/97. EFSA J. 2017. PMID:32625349 DOI:10.2903/j.efsa.2017.5057
+47. Martí-Carvajal AJ et al. Homocysteine-lowering interventions for preventing cardiovascular events. Cochrane Database Syst Rev. 2017. PMID:28816346 DOI:10.1002/14651858.CD006612.pub5
+48. Ostojic SM et al. Co-administration of methyl donors along with guanidinoacetic acid reduces the incidence of hyperhomocysteinaemia compared with guanidinoacetic acid administration alone. Br J Nutr. 2013. PMID:23351309 DOI:10.1017/S0007114512005879
+49. Peters BA et al. Low-Dose Creatine Supplementation Lowers Plasma Guanidinoacetate, but Not Plasma Homocysteine, in a Double-Blind, Randomized, Placebo-Controlled Trial. J Nutr. 2015. PMID:26311810 DOI:10.3945/jn.115.216739
+50. del Favero S et al. Creatine but not betaine supplementation increases muscle phosphorylcreatine content and strength performance. Amino Acids. 2012. PMID:21744011 DOI:10.1007/s00726-011-0972-5
+51. Craig SA. Betaine in human nutrition. Am J Clin Nutr. 2004. PMID:15321791 DOI:10.1093/ajcn/80.3.539
+52. Ross AB et al. Cereal foods are the major source of betaine in the Western diet--analysis of betaine and free choline in cereal foods and updated assessments of betaine intake. Food Chem. 2014. PMID:24128557 DOI:10.1016/j.foodchem.2013.08.122
+53. Kempson SA et al. The betaine/GABA transporter and betaine: roles in brain, kidney, and liver. Front Physiol. 2014. PMID:24795654 DOI:10.3389/fphys.2014.00159
+54. Ubbink JB et al. The effect of a subnormal vitamin B-6 status on homocysteine metabolism. J Clin Invest. 1996. PMID:8690790 DOI:10.1172/JCI118763
+55. Ueland PM. Choline and betaine in health and disease. J Inherit Metab Dis. 2011. PMID:20446114 DOI:10.1007/s10545-010-9088-4
+56. Ueland PM et al. Betaine: a key modulator of one-carbon metabolism and homocysteine status. Clin Chem Lab Med. 2005. PMID:16197300 DOI:10.1515/CCLM.2005.187
+57. Obeid R. The metabolic burden of methyl donor deficiency with focus on the betaine homocysteine methyltransferase pathway. Nutrients. 2013. PMID:24022817 DOI:10.3390/nu5093481
+58. Bortz J et al. The Shuttling of Methyl Groups Between Folate and Choline Pathways. Nutrients. 2025. PMID:40806080 DOI:10.3390/nu17152495
+59. Feng Q et al. Betaine-homocysteine methyltransferase: human liver genotype-phenotype correlation. Mol Genet Metab. 2011. PMID:21093336 DOI:10.1016/j.ymgme.2010.10.010
+60. Heil SG et al. Betaine-homocysteine methyltransferase (BHMT): genomic sequencing and relevance to hyperhomocysteinemia and vascular disease in humans. Mol Genet Metab. 2000. PMID:11073719 DOI:10.1006/mgme.2000.3078
+61. Singh PR et al. Folate gene polymorphisms MTR A2756G, MTRR A66G, and BHMT G742A and risk for coronary artery disease: a meta-analysis. Genet Test Mol Biomarkers. 2012. PMID:22339686 DOI:10.1089/gtmb.2011.0237
+62. Louck LE et al. A Genome-Wide Association Study of Circulating Serum Choline, Betaine, Dimethylglycine, and Their Ratios. Nutrients. 2025. PMID:40871658 DOI:10.3390/nu17162630
+63. Butt N et al. Common genetic polymorphisms define one-carbon metabolite responses to different forms of choline in healthy adult males. Front Nutr. 2025. PMID:41415850 DOI:10.3389/fnut.2025.1620538
+64. Waldman HS et al. Effects of Betaine Supplementation on Markers of Metabolic Flexibility, Body Composition, and Anaerobic Performance in Active College-Age Females. J Diet Suppl. 2023. PMID:34477469 DOI:10.1080/19390211.2021.1973644
+65. Cholewa JM et al. The effects of chronic betaine supplementation on body composition and performance in collegiate females: a double-blind, randomized, placebo controlled trial. J Int Soc Sports Nutr. 2018. PMID:30064450 DOI:10.1186/s12970-018-0243-x
+66. Moro T et al. Betaine Supplementation Does Not Improve Muscle Hypertrophy or Strength Following 6 Weeks of Cross-Fit Training. Nutrients. 2020. PMID:32516959 DOI:10.3390/nu12061688
+67. Nobari H et al. The effects of 14-week betaine supplementation on endocrine markers, body composition and anthropometrics in professional youth soccer players: a double blind, randomized, placebo-controlled trial. J Int Soc Sports Nutr. 2021. PMID:33663545 DOI:10.1186/s12970-021-00417-5
+68. Nobari H et al. Effects of chronic betaine supplementation on performance in professional young soccer players during a competitive season: a double blind, randomized, placebo-controlled trial. J Int Soc Sports Nutr. 2021. PMID:34663363 DOI:10.1186/s12970-021-00464-y
+69. Lee EC et al. Ergogenic effects of betaine supplementation on strength and power performance. J Int Soc Sports Nutr. 2010. PMID:20642826 DOI:10.1186/1550-2783-7-27
+70. Ismaeel A. Effects of Betaine Supplementation on Muscle Strength and Power: A Systematic Review. J Strength Cond Res. 2017. PMID:28426517 DOI:10.1519/JSC.0000000000001959
+71. Chen W et al. Effects of betaine on non-alcoholic liver disease. Nutr Res Rev. 2022. PMID:33818349 DOI:10.1017/S0954422421000056
+72. Mukherjee S. Role of betaine in liver disease-worth revisiting or has the die been cast?. World J Gastroenterol. 2020. PMID:33132631 DOI:10.3748/wjg.v26.i38.5745
+73. Radosavljevic T et al. Betaine in Metabolic Dysfunction-Associated Steatotic Liver Disease: Mechanisms of Action and Therapeutic Potential. Antioxidants (Basel). 2026. PMID:42792248 DOI:10.3390/antiox15091209
+74. Machek SB et al. Human Serum Betaine and Associated Biomarker Concentrations Following a 14 Day Supplemental Betaine Loading Protocol and during a 28 Day Washout Period: A Pilot Investigation. Nutrients. 2022. PMID:35276860 DOI:10.3390/nu14030498
+75. Olivieri G et al. First Revision of the Guidelines for the Diagnosis and Management of Remethylation Disorders. J Inherit Metab Dis. 2026. PMID:42231716 DOI:10.1002/jimd.70177
+76. Huemer M et al. Guidelines for diagnosis and management of the cobalamin-related remethylation disorders cblC, cblD, cblE, cblF, cblG, cblJ and MTHFR deficiency. J Inherit Metab Dis. 2017. PMID:27905001 DOI:10.1007/s10545-016-9991-4
+77. Zawieja E et al. Betaine supplementation modulates mitochondrial and redox-related adaptations in premenopausal women with overweight: a randomized controlled trial. Eur J Nutr. 2026. PMID:42841999 DOI:10.1007/s00394-026-04131-3
+78. Trujillo-Gonzalez I et al. Choline and betaine concentrations in plasma discriminate levels of dietary choline intake in healthy adults: analysis of a double-blind randomized crossover controlled feeding study. Am J Clin Nutr. 2026. PMID:41687879 DOI:10.1016/j.ajcnut.2026.101236
+79. Vázquez-Lorente H et al. Dietary Choline and Betaine Intake and 2-year Changes in Cognitive Function in Older Adults With Overweight or Obesity and Metabolic Syndrome: A Prospective Cohort Analysis. Am J Clin Nutr. 2026. PMID:41825530 DOI:10.1016/j.ajcnut.2026.101265
+80. Lu XT et al. Effects of low-dose B vitamins plus betaine supplementation on lowering homocysteine concentrations among Chinese adults with hyperhomocysteinemia: a randomized, double-blind, controlled preliminary clinical trial. Eur J Nutr. 2023. PMID:36717385 DOI:10.1007/s00394-023-03087-y
+81. Lever M et al. Fibrates may cause an abnormal urinary betaine loss which is associated with elevations in plasma homocysteine. Cardiovasc Drugs Ther. 2009. PMID:19653086 DOI:10.1007/s10557-009-6188-1
+82. Wang Z et al. Gut flora metabolism of phosphatidylcholine promotes cardiovascular disease. Nature. 2011. PMID:21475195 DOI:10.1038/nature09922
+83. Yang JJ et al. Associations of choline-related nutrients with cardiometabolic and all-cause mortality: results from 3 prospective cohort studies of blacks, whites, and Chinese. Am J Clin Nutr. 2020. PMID:31915809 DOI:10.1093/ajcn/nqz318
+84. Svingen GF et al. Elevated plasma dimethylglycine is a risk marker of mortality in patients with coronary heart disease. Eur J Prev Cardiol. 2015. PMID:24671904 DOI:10.1177/2047487314529351
+85. Yago MR et al. Gastric reacidification with betaine HCl in healthy volunteers with rabeprazole-induced hypochlorhydria. Mol Pharm. 2013. PMID:23980906 DOI:10.1021/mp4003738
+86. U.S. FDA/DailyMed. CYSTADANE (betaine anhydrous for oral solution) prescribing information, Recordati Rare Diseases. URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=31a684d0-cd98-4e46-b43a-ccbd17c41559
+87. ClinicalTrials.gov. NCT07276204: Betaine vs. Placebo for Serologically Diagnosed MASH (not yet recruiting). URL:https://clinicaltrials.gov/study/NCT07276204
+88. ClinicalTrials.gov. NCT04633044: Maternal Betaine Supplementation During Breastfeeding (active, not recruiting). URL:https://clinicaltrials.gov/study/NCT04633044
+89. ClinicalTrials.gov. NCT07243678: Pharmacokinetic Assessment of Betaine Supplementation in Lactating Mothers (active, not recruiting). URL:https://clinicaltrials.gov/study/NCT07243678

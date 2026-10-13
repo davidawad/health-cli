@@ -3,43 +3,373 @@
   "supplement": "Vitamin B2",
   "slug": "vitamin-b2",
   "aliases": [
-    "Vitamin B2",
     "riboflavin",
-    "riboflavin-5-phosphate",
-    "FMN",
-    "FAD"
+    "vitamin B2",
+    "riboflavin-5'-phosphate",
+    "riboflavin 5'-phosphate sodium",
+    "flavin mononucleotide (FMN)",
+    "R5P",
+    "lactoflavin"
   ],
   "category": "vitamin",
   "rx_status": "otc",
   "evidence_certainty_overall": "moderate",
   "edges": [
     {
+      "with": "Vitamin B6",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Pyridoxine/pyridoxamine 5'-phosphate oxidase (PNPO) that forms PLP is FMN-dependent; plasma PLP falls stepwise with worsening riboflavin status independent of B6 intake, especially in older adults and MTHFR 677TT carriers.",
+      "evidence": "Large cross-sectional cohorts (n>5000 combined) plus mechanistic review; no RCT of co-supplementation on clinical outcomes",
+      "citations": [
+        "PMID:32805038",
+        "PMID:36264281",
+        "URL:https://lpi.oregonstate.edu/mic/vitamins/riboflavin"
+      ]
+    },
+    {
+      "with": "Quatrefolic (5-MTHF)",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Riboflavin (FAD) is the MTHFR cofactor upstream of 5-MTHF formation; in MTHFR 677TT, riboflavin lowers homocysteine and 5-MTHF bypasses the enzyme. Complementary routes for one-carbon support; folate, not riboflavin, lowered homocysteine in elderly with low riboflavin status.",
+      "evidence": "Genotype-stratified RCTs of riboflavin; RCT of L-methylfolate vs folinic acid; low certainty for added benefit of combining",
+      "citations": [
+        "PMID:16380544",
+        "PMID:38056998",
+        "PMID:12209373",
+        "PMID:27720779"
+      ]
+    },
+    {
+      "with": "Vitamin B12",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Methionine synthase reductase requires FMN and FAD to regenerate methylcobalamin for B12-dependent methionine synthase.",
+      "evidence": "Mechanistic (biochemistry review); no clinical interaction trial",
+      "citations": [
+        "URL:https://lpi.oregonstate.edu/mic/vitamins/riboflavin"
+      ]
+    },
+    {
+      "with": "B Complex",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Riboflavin is a standard B-complex/multivitamin component; stacking adds to total dose and intensifies yellow urine and urinary flavin excretion (B1+B2 100 mg each raised urinary B2 ~20-fold).",
+      "evidence": "Reference monograph; small RCT measuring urinary B2",
+      "citations": [
+        "URL:https://lpi.oregonstate.edu/mic/vitamins/riboflavin",
+        "PMID:40507089"
+      ]
+    },
+    {
+      "with": "Heme Iron (Proferrin)",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Riboflavin cofactors are needed for iron mobilisation from ferritin for erythropoiesis; correcting low riboflavin status improves hemoglobin and the response of iron-deficiency anemia to iron. No study used heme iron specifically.",
+      "evidence": "RCT in UK women (RIBOFEM); RCT in anemic pregnant women with iron-folate; review",
+      "citations": [
+        "PMID:21525198",
+        "PMID:18806105",
+        "PMID:39540254",
+        "URL:https://lpi.oregonstate.edu/mic/vitamins/riboflavin"
+      ]
+    },
+    {
+      "with": "Magnesium",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Complementary migraine preventives (mitochondrial energy vs neuronal excitability); both recommended individually by CHS and Level B by AAN/AHS. Fixed riboflavin+magnesium+Q10 combination reduced migraine burden but not migraine days; riboflavin 400 mg+Mg+feverfew did not beat riboflavin 25 mg.",
+      "evidence": "Guidelines; 2 combination RCTs; MAs of single agents; low certainty for additive effect",
+      "citations": [
+        "PMID:22683887",
+        "PMID:22529203",
+        "PMID:25916335",
+        "PMID:15447697",
+        "PMID:26752497"
+      ]
+    },
+    {
+      "with": "CoQ10",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Both target mitochondrial energy metabolism in migraine; CoQ10 was strongly recommended by CHS and Level C by AAN/AHS. Combination with riboflavin and magnesium reduced migraine intensity and HIT-6.",
+      "evidence": "Guidelines, CoQ10 RCT and MAs, network MA 2026, combination RCT; low certainty for additive effect",
+      "citations": [
+        "PMID:22683887",
+        "PMID:15728298",
+        "PMID:33402403",
+        "PMID:42707444",
+        "PMID:25916335"
+      ]
+    },
+    {
+      "with": "tricyclic antidepressants",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Imipramine and amitriptyline (structural riboflavin analogues) inhibit flavokinase and riboflavin-to-FAD conversion in rat tissues; possible reduced riboflavin status with long-term use.",
+      "evidence": "Animal/in vitro data; no human outcome data",
+      "citations": [
+        "PMID:6262379",
+        "URL:https://lpi.oregonstate.edu/mic/vitamins/riboflavin"
+      ]
+    },
+    {
+      "with": "phenothiazines (chlorpromazine)",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Chlorpromazine inhibits flavokinase, doubles urinary riboflavin loss and accelerates tissue FAD depletion in riboflavin-deficient rats; inhibits renal tubular riboflavin transport.",
+      "evidence": "Animal and isolated tubule studies; no human outcome data",
+      "citations": [
+        "PMID:6262379",
+        "PMID:6626265",
+        "PMID:11078692"
+      ]
+    },
+    {
+      "with": "probenecid",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Riboflavin is secreted by renal organic-anion transport; probenecid inhibits tubular riboflavin secretion (rabbit tubules) and its effect on renal riboflavin clearance was studied in humans.",
+      "evidence": "Human PK study (1970) and in vitro tubule perfusion; clinical significance unknown",
+      "citations": [
+        "PMID:5440673",
+        "PMID:11078692"
+      ]
+    },
+    {
+      "with": "phenobarbital",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Long-term use may increase hepatic destruction of riboflavin, raising deficiency risk.",
+      "evidence": "Reference monograph statement; low certainty",
+      "citations": [
+        "URL:https://lpi.oregonstate.edu/mic/vitamins/riboflavin"
+      ]
+    },
+    {
+      "with": "doxorubicin",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Adriamycin (doxorubicin) and the antimalarial quinacrine inhibit conversion of riboflavin to FMN/FAD; some anticancer and antimicrobial drugs increase renal riboflavin excretion.",
+      "evidence": "Reference monograph and review; mechanistic",
+      "citations": [
+        "URL:https://lpi.oregonstate.edu/mic/vitamins/riboflavin",
+        "PMID:3319474"
+      ]
+    },
+    {
+      "with": "antihypertensives",
+      "with_kind": "drug-class",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "In MTHFR 677TT patients already on antihypertensives, riboflavin 1.6 mg/d lowered SBP further (5.6 mmHg vs placebo; 6-13 mmHg across trials).",
+      "evidence": "Genotype-targeted RCTs; Cochrane review across genotypes very uncertain",
+      "citations": [
+        "PMID:23608654",
+        "PMID:19952781",
+        "PMID:22277556",
+        "PMID:41123035"
+      ]
+    },
+    {
+      "with": "MTHFR C677T TT genotype",
+      "with_kind": "genotype",
+      "kind": "synergy",
+      "severity": "moderate",
+      "mechanism": "FAD-dependent MTHFR variant; riboflavin lowers homocysteine (~22%) and blood pressure only in TT homozygotes; TT with deficient riboflavin status has OR 3.0 for hypertension.",
+      "evidence": "Genotype-stratified RCTs, 4-y follow-up, population cohort (JINGO), case-control; low certainty",
+      "citations": [
+        "PMID:16380544",
+        "PMID:23608654",
+        "PMID:19952781",
+        "PMID:33172445",
+        "PMID:40738729"
+      ]
+    },
+    {
+      "with": "riboflavin transporter deficiency (SLC52A2/SLC52A3; Brown-Vialetto-Van Laere)",
+      "with_kind": "condition",
+      "kind": "synergy",
+      "severity": "major",
+      "mechanism": "Defective RFVT2/RFVT3 transport causes flavin deficiency with motor/cranial neuronopathy and deafness; high-dose riboflavin is lifesaving and should be started empirically; outcome depends on time to treatment.",
+      "evidence": "Case series and SR (90.4% responsive, n=94); natural-history review",
+      "citations": [
+        "PMID:26973221",
+        "PMID:23107375",
+        "PMID:42046426",
+        "PMID:42759448",
+        "PMID:33087424"
+      ]
+    },
+    {
+      "with": "multiple acyl-CoA dehydrogenase deficiency (ETFDH, riboflavin-responsive)",
+      "with_kind": "condition",
+      "kind": "synergy",
+      "severity": "major",
+      "mechanism": "ETF:QO (ETFDH) and FAD synthase (FLAD1) defects are partly corrected by pharmacological riboflavin restoring flavoprotein activity.",
+      "evidence": "Case series; SR of IMDs (MADD type 3 93.1% responsive, n=536; type 1 not responsive)",
+      "citations": [
+        "PMID:17584774",
+        "PMID:42046426",
+        "PMID:35734957",
+        "PMID:38228875"
+      ]
+    },
+    {
       "with": "migraine",
       "with_kind": "condition",
       "kind": "synergy",
       "severity": "minor",
-      "mechanism": "Multiple RCTs/meta-analyses suggest riboflavin can reduce migraine frequency/duration.",
-      "evidence": "Systematic reviews of clinical trials.",
+      "mechanism": "400 mg/d for >=3 months reduces attack frequency (WMD -1.39/month); AAN/AHS Level B, CHS strong recommendation; pediatric evidence inconsistent.",
+      "evidence": "Multiple SR/MAs of RCTs, guidelines; moderate certainty in adults",
       "citations": [
+        "PMID:41769676",
         "PMID:33779525",
-        "PMID:41769676"
+        "PMID:9484373",
+        "PMID:22529203",
+        "PMID:22683887",
+        "PMID:18984840"
       ]
     },
     {
-      "with": "urine fluorescence assays",
+      "with": "urine fluorescence-based immunoassays (drugs-of-abuse FPIA)",
       "with_kind": "lab-test",
       "kind": "lab-interference",
       "severity": "minor",
-      "mechanism": "Riboflavin is fluorescent and may interfere with some laboratory measurements based on fluorescence.",
-      "evidence": "NIH ODS fact sheet.",
+      "mechanism": "Riboflavin is a urinary fluorophore; 200-400 mg doses raised background fluorescence causing MX BKG errors on Abbott TDx drugs-of-abuse assays within hours, clearing ~60 h after stopping; no false negatives seen.",
+      "evidence": "Forensic toxicology case study (2 subjects)",
       "citations": [
+        "PMID:9846401"
+      ]
+    },
+    {
+      "with": "urine fluorescence spectroscopy / urinalysis colour",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Vitamin B2 was the only tested substance altering the urine fluorescence spectrum; high doses produce bright-yellow urine (flavinuria).",
+      "evidence": "Experimental study of vitamins/foods; reference monographs",
+      "citations": [
+        "PMID:38605494",
+        "URL:https://lpi.oregonstate.edu/mic/vitamins/riboflavin",
+        "URL:https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/"
+      ]
+    },
+    {
+      "with": "EGRAC riboflavin status assay in G6PD deficiency",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "EGRAC cannot be used to assess riboflavin status in glucose-6-phosphate dehydrogenase deficiency; results are also sensitive to methodological variation.",
+      "evidence": "ODS fact sheet; methodological study",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/",
+        "PMID:19102813"
+      ]
+    },
+    {
+      "with": "neonatal phototherapy",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Riboflavin is photolabile; prolonged phototherapy can deplete riboflavin and accentuate the postnatal decline of PLP.",
+      "evidence": "Observational neonatal study; ODS",
+      "citations": [
+        "PMID:4040702",
         "URL:https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/"
       ]
     }
   ],
   "citations": [
+    "DOI:10.2903/j.efsa.2013.3357",
+    "DOI:10.2903/j.efsa.2017.4919",
+    "PMID:11078692",
+    "PMID:12209373",
+    "PMID:12791609",
+    "PMID:15447697",
+    "PMID:15728298",
+    "PMID:16380544",
+    "PMID:17584774",
+    "PMID:18806105",
+    "PMID:18984840",
+    "PMID:19102813",
+    "PMID:19649688",
+    "PMID:19740970",
+    "PMID:19952781",
+    "PMID:20929961",
+    "PMID:21110228",
+    "PMID:21525198",
+    "PMID:22277556",
+    "PMID:22529203",
+    "PMID:22683887",
+    "PMID:23107375",
+    "PMID:23608654",
+    "PMID:25916335",
+    "PMID:26752497",
+    "PMID:26973221",
+    "PMID:27720779",
+    "PMID:29629048",
+    "PMID:31331668",
+    "PMID:32805038",
+    "PMID:33087424",
+    "PMID:33172445",
+    "PMID:3319474",
+    "PMID:33402403",
     "PMID:33779525",
+    "PMID:35734957",
+    "PMID:36264281",
+    "PMID:37367854",
+    "PMID:37606529",
+    "PMID:38056998",
+    "PMID:38228875",
+    "PMID:38605494",
+    "PMID:39388181",
+    "PMID:39404918",
+    "PMID:39540254",
+    "PMID:39681212",
+    "PMID:39853578",
+    "PMID:40168907",
+    "PMID:40307217",
+    "PMID:4040702",
+    "PMID:40411246",
+    "PMID:40507089",
+    "PMID:40738729",
+    "PMID:41123035",
+    "PMID:41615582",
+    "PMID:41768514",
     "PMID:41769676",
+    "PMID:41826699",
+    "PMID:42046426",
+    "PMID:42067935",
+    "PMID:42231330",
+    "PMID:42707444",
+    "PMID:42759448",
+    "PMID:5440673",
+    "PMID:6262379",
+    "PMID:6626265",
+    "PMID:7828189",
+    "PMID:8363468",
+    "PMID:8604671",
+    "PMID:9484373",
+    "PMID:9846401",
+    "URL:https://clinicaltrials.gov/study/NCT02463513",
+    "URL:https://clinicaltrials.gov/study/NCT04723836",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=13cefc46-337c-41a3-b113-106bfe553bbb",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f82cfe92-1a24-11e3-8ffd-0800200c9a66",
+    "URL:https://lpi.oregonstate.edu/mic/vitamins/riboflavin",
+    "URL:https://nap.nationalacademies.org/read/6015/chapter/7",
     "URL:https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/"
   ]
 }

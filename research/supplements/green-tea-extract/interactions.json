@@ -6,8 +6,11 @@
     "green tea extract",
     "GTE",
     "Camellia sinensis extract",
+    "green tea catechins",
     "EGCG",
-    "epigallocatechin gallate"
+    "epigallocatechin gallate",
+    "Polyphenon E",
+    "Teavigo"
   ],
   "category": "botanical",
   "rx_status": "otc",
@@ -16,42 +19,385 @@
     {
       "with": "nadolol",
       "with_kind": "drug",
-      "kind": "caution",
-      "severity": "moderate",
-      "mechanism": "Green tea can reduce nadolol plasma exposure, likely via intestinal uptake transport inhibition.",
-      "evidence": "Human pharmacokinetic evidence summarized in review.",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Green tea/EGCG competitively inhibits intestinal OATP1A2 uptake of nadolol; nadolol AUC fell about 85% with 700 mL/day tea and its BP effect was blunted; a single cup cut AUC to 0.37 and the effect persisted 1 h later.",
+      "evidence": "Human crossover PK studies (n=10-13), case report of therapeutic failure, reviews; moderate certainty",
       "citations": [
-        "PMID:32140423"
+        "PMID:24419562",
+        "PMID:29480324",
+        "PMID:32320490",
+        "PMID:37951784"
       ]
     },
     {
-      "with": "iron",
+      "with": "lisinopril",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Green tea extract (~300 mg EGCG) impaired intestinal absorption of lisinopril: AUC ratio 0.34, Cmax ratio 0.29; renal clearance unchanged.",
+      "evidence": "Single human crossover PK study (n=10); no outcome data; low certainty",
+      "citations": [
+        "PMID:33048477",
+        "PMID:39748104"
+      ]
+    },
+    {
+      "with": "atorvastatin",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Green tea extract 300-600 mg lowered atorvastatin AUC 22-24% and Cmax 24-25%; OATP1B1/1B3 uptake inhibition in vitro.",
+      "evidence": "Human crossover PK (n=12) plus in vitro transporter data; low certainty",
+      "citations": [
+        "PMID:31997084",
+        "PMID:26426900"
+      ]
+    },
+    {
+      "with": "rosuvastatin",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Extract with 800 mg EGCG/day for 14 days lowered rosuvastatin AUC about 20%; single 300 mg EGCG lowered AUC 19% but effect disappeared after 10-day pretreatment.",
+      "evidence": "Two human PK studies with partly conflicting results; low certainty",
+      "citations": [
+        "PMID:35399656",
+        "PMID:28533679"
+      ]
+    },
+    {
+      "with": "warfarin",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Green tea is a vitamin K source; heavy intake (0.5-1 gallon/day) lowered INR from 3.79 to 1.14 with recovery after stopping. Listed among foods/herbs interacting with warfarin.",
+      "evidence": "Case report and systematic review; low certainty (applies mainly to large tea volumes)",
+      "citations": [
+        "PMID:10332534",
+        "PMID:32478963"
+      ]
+    },
+    {
+      "with": "bortezomib",
+      "with_kind": "drug",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "EGCG and other 1,2-benzenediol polyphenols bind boronic-acid proteasome inhibitors and abolish bortezomib antitumor activity; in mice antagonism required EGCG plasma levels above 200 uM.",
+      "evidence": "Preclinical in vitro and xenograft data; no human outcome data; low certainty",
+      "citations": [
+        "PMID:19190249",
+        "PMID:39119616",
+        "PMID:21400028"
+      ]
+    },
+    {
+      "with": "fexofenadine",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "EGCG inhibits OATP1A2-mediated uptake; green tea extract lowered fexofenadine AUC by 70%.",
+      "evidence": "Human crossover PK study (n=10); low certainty",
+      "citations": [
+        "PMID:35678032"
+      ]
+    },
+    {
+      "with": "raloxifene",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Green tea lowered raloxifene AUC to about 0.60 of baseline after acute and chronic intake, likely via intestinal transporter inhibition.",
+      "evidence": "Human PK study (n=16); low certainty",
+      "citations": [
+        "PMID:37639334"
+      ]
+    },
+    {
+      "with": "tacrolimus",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Heavy home-made green tea intake was associated with a supratherapeutic tacrolimus trough (18.3 ng/mL) that normalized after stopping.",
+      "evidence": "Single case report; very low certainty",
+      "citations": [
+        "PMID:42226872"
+      ]
+    },
+    {
+      "with": "Metformin ER",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Green tea and EGCG inhibit OCT1, OCT2, MATE1 and MATE2-K transport of metformin in vitro; human relevance unknown.",
+      "evidence": "In vitro only; very low certainty",
+      "citations": [
+        "PMID:26426900"
+      ]
+    },
+    {
+      "with": "Dexedrine",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Caffeine in many extracts (often undeclared) adds sympathetic and BP effects to amphetamine; combined stimulant effects are poorly characterized.",
+      "evidence": "Product analysis and review of caffeine stimulant cardiovascular effects; very low certainty",
+      "citations": [
+        "PMID:16506807",
+        "PMID:32033367"
+      ]
+    },
+    {
+      "with": "Caffeine",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Extracts contain variable caffeine (28-183 mg per unit in one survey); additive intake against the 400 mg/day adult reference; caffeine also raises EGCG exposure.",
+      "evidence": "Product analysis, human PK study, systematic review; moderate certainty",
+      "citations": [
+        "PMID:16506807",
+        "PMID:19734672",
+        "PMID:28438661"
+      ]
+    },
+    {
+      "with": "L-Theanine",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Theanine plus caffeine (both tea constituents) produced small acute improvements in attention and mood vs placebo.",
+      "evidence": "Systematic review and MA of RCTs; low certainty",
+      "citations": [
+        "PMID:40314930"
+      ]
+    },
+    {
+      "with": "Heme Iron (Proferrin)",
       "with_kind": "supplement",
       "kind": "caution",
       "severity": "minor",
-      "mechanism": "Tea polyphenols reduce nonheme iron absorption when consumed together.",
-      "evidence": "Human nutrition studies summarized in NIH sources.",
+      "mechanism": "Tea has little appreciable effect on heme-iron absorption in vivo, but EGCG and green tea extract inhibit heme-iron transfer dose-dependently in Caco-2 cells; separating doses is prudent.",
+      "evidence": "Clinical case report/review and in vitro data; low certainty",
       "citations": [
-        "URL:https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/"
+        "PMID:8647516",
+        "PMID:11029010",
+        "PMID:22417433"
       ]
     },
     {
-      "with": "liver disease",
+      "with": "non-heme iron supplements (ferrous salts)",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Tea polyphenols chelate non-heme iron; tea with a meal cut iron absorption by 37%, halved by a 1-h gap; tea blocked response to oral ferrous salts.",
+      "evidence": "Stable-isotope controlled trial, case reports, review; moderate certainty",
+      "citations": [
+        "PMID:29046302",
+        "PMID:8647516",
+        "PMID:39263133"
+      ]
+    },
+    {
+      "with": "Quatrefolic (5-MTHF)",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Green tea extract lowered folic acid AUC 27-40% and catechins inhibit folate uptake and DHFR in vitro; 720-800 mg EGCG/day did not lower serum folate in 30 days. No data for 5-MTHF specifically.",
+      "evidence": "Human PK with folic acid, in vitro data, small clinical safety study; very low certainty for 5-MTHF",
+      "citations": [
+        "PMID:18551467",
+        "PMID:17117344",
+        "PMID:15781612",
+        "PMID:40077973"
+      ]
+    },
+    {
+      "with": "Ashwagandha",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Both are among the 6 most frequently reported hepatotoxic botanicals in the US; stacking adds idiosyncratic liver-injury exposure.",
+      "evidence": "Population survey and DILI reviews; low certainty",
+      "citations": [
+        "PMID:39102266",
+        "PMID:39136211"
+      ]
+    },
+    {
+      "with": "Turmeric",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Turmeric liver injury, like green tea injury, is hepatocellular and strongly linked to HLA-B*35:01; both are among the most reported hepatotoxic botanicals.",
+      "evidence": "DILIN case series and population survey; low certainty",
+      "citations": [
+        "PMID:36252717",
+        "PMID:32892374",
+        "PMID:39102266"
+      ]
+    },
+    {
+      "with": "Curcumin",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Shared HLA-B*35:01-linked hepatocellular injury phenotype with turmeric/curcumin products; stacking hepatotoxic botanicals adds risk.",
+      "evidence": "DILIN case series and population survey; low certainty",
+      "citations": [
+        "PMID:36252717",
+        "PMID:39102266"
+      ]
+    },
+    {
+      "with": "chronic liver disease",
       "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Idiosyncratic hepatocellular injury with jaundice, 8% transplant in DILIN; USP labeling advises not to use with a liver problem.",
+      "evidence": "DILIN series, USP review, LiverTox; moderate certainty",
+      "citations": [
+        "PMID:32892374",
+        "PMID:32140423",
+        "PMID:31643260"
+      ]
+    },
+    {
+      "with": "HLA-B*35:01",
+      "with_kind": "genotype",
       "kind": "caution",
       "severity": "major",
-      "mechanism": "Concentrated green tea extract is associated with rare hepatocellular injury; underlying liver disease increases consequence.",
-      "evidence": "Systematic toxicology review and LiverTox.",
+      "mechanism": "Carried by 72% of DILIN green tea liver-injury cases vs 11-12% of controls, suggesting immune-mediated idiosyncratic injury.",
+      "evidence": "Case-control genetic analysis within DILIN; NCCIH notes 5-15% carrier frequency; moderate certainty",
+      "citations": [
+        "PMID:32892374",
+        "PMID:42092331",
+        "URL:https://www.nccih.nih.gov/health/green-tea"
+      ]
+    },
+    {
+      "with": "fasting-state dosing",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Bolus doses on an empty stomach markedly increase EGCG bioavailability and are linked to hepatotoxicity; calorie restriction potentiated EGCG liver injury in mice; USP label says take with food.",
+      "evidence": "Human PK, toxicology reviews, animal data; moderate certainty",
       "citations": [
         "PMID:32140423",
-        "URL:https://www.ncbi.nlm.nih.gov/books/NBK547925/"
+        "PMID:32438698",
+        "PMID:29580974",
+        "PMID:33584288"
+      ]
+    },
+    {
+      "with": "ALT/AST (liver panel)",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "High-dose extract (843 mg EGCG/day) raised ALT 5.4 U/L and AST 3.8 U/L; 6.7% had ALT elevation; true hepatotoxic effect rather than assay artifact.",
+      "evidence": "Large RCT (MGTT); high certainty",
+      "citations": [
+        "PMID:28765194",
+        "PMID:26051348"
+      ]
+    },
+    {
+      "with": "pregnancy",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Extracts may contain substantial undeclared caffeine; caffeine reference intake in pregnancy is 300 mg/day; no adequate safety data for high-dose extracts.",
+      "evidence": "Caffeine systematic review and NCCIH advice; low certainty",
+      "citations": [
+        "PMID:28438661",
+        "PMID:16506807",
+        "URL:https://www.nccih.nih.gov/health/green-tea"
       ]
     }
   ],
   "citations": [
-    "PMID:28927846",
+    "PMID:10332534",
+    "PMID:11029010",
+    "PMID:15781612",
+    "PMID:16506807",
+    "PMID:17117344",
+    "PMID:18484782",
+    "PMID:18551467",
+    "PMID:19190249",
+    "PMID:19734672",
+    "PMID:21400028",
+    "PMID:21715508",
+    "PMID:22027055",
+    "PMID:22417433",
+    "PMID:23235664",
+    "PMID:23426037",
+    "PMID:24419562",
+    "PMID:24861099",
+    "PMID:25873370",
+    "PMID:26051348",
+    "PMID:26426900",
+    "PMID:26701796",
+    "PMID:27188915",
+    "PMID:27189593",
+    "PMID:27806972",
+    "PMID:28053292",
+    "PMID:28209333",
+    "PMID:28438661",
+    "PMID:28533679",
+    "PMID:28765194",
+    "PMID:28904061",
+    "PMID:29046302",
+    "PMID:29228755",
+    "PMID:29466429",
+    "PMID:29480324",
+    "PMID:29580974",
+    "PMID:31643260",
+    "PMID:31997084",
+    "PMID:32033367",
+    "PMID:32118296",
     "PMID:32140423",
-    "URL:https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
-    "URL:https://www.ncbi.nlm.nih.gov/books/NBK547925/"
+    "PMID:32320490",
+    "PMID:32434539",
+    "PMID:32438698",
+    "PMID:32478963",
+    "PMID:32625874",
+    "PMID:32670385",
+    "PMID:32892374",
+    "PMID:33048477",
+    "PMID:33584288",
+    "PMID:34400337",
+    "PMID:35213393",
+    "PMID:35399656",
+    "PMID:35678032",
+    "PMID:36178169",
+    "PMID:36252717",
+    "PMID:36678191",
+    "PMID:36704803",
+    "PMID:37639334",
+    "PMID:37951784",
+    "PMID:39102266",
+    "PMID:39119616",
+    "PMID:39136211",
+    "PMID:39263133",
+    "PMID:39350601",
+    "PMID:39497467",
+    "PMID:39748104",
+    "PMID:39809182",
+    "PMID:39942757",
+    "PMID:40077973",
+    "PMID:40314930",
+    "PMID:40326418",
+    "PMID:40433816",
+    "PMID:40497293",
+    "PMID:40832777",
+    "PMID:40885603",
+    "PMID:41515260",
+    "PMID:41943479",
+    "PMID:42092331",
+    "PMID:42226872",
+    "PMID:42228178",
+    "PMID:42475234",
+    "PMID:42504634",
+    "PMID:8647516",
+    "URL:https://www.nccih.nih.gov/health/green-tea"
   ]
 }

@@ -3,44 +3,216 @@
 :ID: supp-bacopa-monieri
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: Bacopa Monieri | Bacopa monnieri | Brahmi | water hyssop
+:ALIASES: Bacopa monnieri | Bacopa monniera | Brahmi | water hyssop | CDRI-08 | KeenMind | Synapsa | BacoMind | Bacognize | Bacumen
 :CATEGORY: botanical
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Bacopa monnieri (often written Bacopa monnieri, common name Brahmi) is an aquatic herb. Trials use extracts standardized to bacosides, but extraction and standardization differ. [PMID:38671841]
+- Bacopa monnieri (L.) Wettst. (traditionally placed in Scrophulariaceae) is a creeping wetland herb [PMID:18478974]. Ayurveda classes it as a "Medhya Rasayana" (intellect promoter) and uses it for memory, anxiety, insomnia and epilepsy [PMID:36943953] [PMID:28588366] [PMID:40507208].
+- Main bioactives are dammarane-type triterpenoid saponins (bacosides). "Bacoside A" is a mixture of bacoside A3, bacopaside II, the jujubogenin isomer of bacopasaponin C (bacopaside X) and bacopasaponin C [PMID:15688952] [PMID:29676230]. Wild Indian samples contained 0.05-0.85% (w/w) of each, so bacoside content varies widely [PMID:15688952].
+- Branded extracts used in trials: CDRI-08 (marketed as KeenMind; Synapsa is a product name with no trial found by that name): >=55% bacosides [PMID:27401287]. Used at 300 mg/d (2 x 150 mg) for 90 days [PMID:18683852] [PMID:11498727], 320-640 mg acutely [PMID:23281132] [PMID:23788517], and in children with ADHD-type symptoms [PMID:35041248]. BacoMind: an enriched, multi-marker extract; 300-450 mg/d in adults [PMID:17442556] [PMID:20590480] and 225 mg/d in children [PMID:24682000]. Bacognize: 150 mg twice daily [PMID:27803728]. Bacumen: 300 mg/d [PMID:41091332].
+- Traditional forms include Brahmi vati tablets [PMID:39631219], ghee-based Brahmi Ghrita [PMID:42102930], freeze-dried decoction [PMID:41836921] and juice-based "Brahmi essence" [PMID:34063409].
+- Authenticity: a qPCR barcode assay found that 60% of Bacopa/Brahmi-labelled products were adulterated (Bacopa absent or reduced) [PMID:41008247].
+- Pharmacokinetics: human data are minimal. After 12 weeks of Brahmi essence, jujubogenin and pseudojujubogenin aglycones appeared in feces [PMID:34063409]. Poor solubility and permeability have prompted phospholipid complexes and nano-formulations [PMID:27590125] [PMID:42353204].
 
 ** Mechanisms
-- Bacosides have antioxidant, cholinergic and synaptic signaling effects in preclinical models; human cognitive mechanism is not established. [PMID:38671841]
+- Cholinergic: a 12-week RCT in elderly adults reduced plasma AChE activity [PMID:23320031]. In animal models the herb reverses scopolamine (anticholinergic) amnesia [PMID:19757037] and is reported to have anticholinesterase activity comparable to donepezil, rivastigmine and galantamine [PMID:28588366].
+- Amyloid and oxidative stress: lowered cortical Abeta 1-40/1-42 by up to 60% in PSAPP mice, without changing fibrillar plaque area [PMID:16914834]. Metal-reducing, ROS-scavenging and lipoxygenase-inhibiting activity [PMID:17604373]. Bacosides act via antioxidant enzymes and AMPA/NMDA/GABA receptor regulation [PMID:29676230].
+- GABAergic and serotonergic: restores GABA-A/B receptor expression in epileptic rats [PMID:22364254] and modulates GABA-A subunit genes in alcohol-withdrawal anxiety models [PMID:30841457]. Serotonergic actions are reviewed in [PMID:26413131]. BacoMind inhibited COMT, prolyl endopeptidase and PARP and antagonized 5-HT6/5-HT2A receptors in vitro [PMID:27761079].
+- Stress axis: a single 320-640 mg dose lowered salivary cortisol during a multitasking stressor [PMID:23788517]. A systematic review of human HPA-axis trials found the plant data inconsistent overall [PMID:33650944].
+- Vascular and smooth muscle: endothelial NO-dependent vasodilation and hypotension in rats (bacoside A3, bacopaside II) [PMID:21762768]. Calcium-channel antagonism in gut and vascular smooth muscle [PMID:10433473]. In a 3-month open-label study, serum BDNF did not change, but pCREB rose and NF-kB p65 phosphorylation fell [PMID:37032999].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---|---|---|---|---|---|
-| Memory / cognition in healthy adults | Small RCTs and meta-analyses | possible delayed recall benefit | Older trials suggest modest memory effects; outcome heterogeneity and extract differences limit estimates | low | PMID:38671841 |
-| Mild cognitive impairment | Triple-blind placebo RCT | mixed | 62 participants, 160 mg extract for 2 months: no clear overall cognitive or sleep benefit; some subdomains changed | low | PMID:38538390 |
-| Working memory | 2026 network meta-analysis | possible benefit at higher doses | High-dose category ranked favorably, but indirect comparisons and unusually large effects require replication | very low | PMID:41678913 |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Cognition, healthy adults (attention speed) | MA of 9 RCTs (n=518), >=12 wk | Benefit | Trail B -17.9 ms (95% CI -24.6 to -11.2); choice RT -10.6 ms | low | [PMID:24252493] |
+| Memory free recall, healthy adults | SR of 6 RCTs (300-450 mg/d, 12 wk) | Benefit, inconsistent | Improved 9 of 17 free-recall tests; little effect in other domains | low | [PMID:22747190] [PMID:23043278] |
+| Working / short-term memory | NMA of 29 RCTs (n=2107), Bacopa vs Ginkgo | Benefit at >=600 mg/d | SMD 2.03 vs placebo (CI 1.28-2.78); implausibly large, indirect | very low | [PMID:41678913] |
+| Cognition, healthy older adults | NMA of 25 RCTs (n=1861); RCTs | Possible benefit (executive, language) | Ranking only (SUCRA 91-93%); delayed recall gains in single RCTs | low | [PMID:41640686] [PMID:18611150] [PMID:20590480] |
+| Cognition, newest RCTs | 12-wk RCT (Bacumen, n=101); SR of 7 RCTs | Null | No difference in verbal learning, attention or working memory | moderate | [PMID:41091332] [PMID:41575193] [PMID:23354535] |
+| Acute cognition | Crossover RCTs | Mixed | Benefits at 1-2 h with 320 mg CDRI-08; none with 300 mg (other extract) | very low | [PMID:23281132] [PMID:12404571] |
+| Anxiety / stress | RCTs, secondary outcomes | Possible reduction | State anxiety down in 2 RCTs; trend or null in others; stress reactivity lower (p=0.03) | low | [PMID:11498727] [PMID:18611150] [PMID:41091332] [PMID:12093601] |
+| Generalized anxiety / depression (Brahmi vati) | Open RCTs vs escitalopram (n=50 each) | Comparable to escitalopram | HARS/HDRS changes similar; polyherbal co-therapy, unblinded | very low | [PMID:39626587] [PMID:39631219] |
+| ADHD symptoms, children | 1 RCT (n=112), 1 open-label, SRs | Behaviour null in RCT; cognitive and executive signals | Mean d 0.42 across child studies | low | [PMID:35041248] [PMID:24682000] [PMID:27912958] [PMID:35592415] [PMID:40362791] |
+| Alzheimer dementia / MCI | SR of 5 RCTs (all high RoB); MCI RCT (n=62) | No proven difference vs placebo or donepezil | MoCA difference only at 2 mo (p=0.029) | very low | [PMID:35612544] [PMID:38538390] |
+| Age-associated memory impairment | RCT (125 mg twice daily, 12 wk) | Benefit | Logical memory, paired-associate learning improved | low | [PMID:20703343] |
+| Parkinson disease | Pilot RCT (n=20); SR | Emotional-function benefit only | Grade B for emotional symptoms; no motor effect | very low | [PMID:36800346] [PMID:42489905] |
+| Sleep | MCI RCT; child RCT | Null to small | PSQI unchanged; sleep routine improved in children | very low | [PMID:38538390] [PMID:35041248] |
 
 ** Dosing in trials
-- Trials typically used standardized extracts around  של 300–600 mg/day for 8–12 weeks; some MCI study used 160 mg/day. Extract bacoside standardization varies, so mass is not directly comparable. [PMID:38538390, PMID:41678913]
+- Adults, chronic: 300-450 mg/d of standardized extract (often 50-55% bacosides) for at least 12 weeks [PMID:22747190] [PMID:24252493]. Effects emerge by 5-12 weeks, with maximal effects at 12 weeks [PMID:11498727].
+- Higher dose: >=600 mg/d ranked best for working memory in an NMA [PMID:41678913]. 300 vs 600 mg/d was tested in elderly adults [PMID:23320031].
+- Children: 225 mg/d BacoMind for 6 months [PMID:24682000]. CDRI-08 was dosed for 14-16 weeks in boys aged 6-14 [PMID:26633481] [PMID:35041248].
+- Brahmi vati: 500 mg three times daily for 60 days, combined with other Ayurvedic preparations [PMID:39626587].
+- Longest planned trial: 12 months of 300 mg/d CDRI-08 (ARCLI) [PMID:22390677].
+- GI effects are the main reason people stop [PMID:20590480] [PMID:37032999].
 
 ** Safety & adverse effects
-- GI effects (nausea, cramping, diarrhea), fatigue and increased bowel movements are common; may cause bradycardia or thyroid effects based on limited evidence. [PMID:38671841]
+- GI effects are the most consistent adverse events: increased stool frequency, abdominal cramps and nausea vs placebo [PMID:20590480]. More digestive complaints and headaches with Bacumen (p=0.024) [PMID:41091332]. 11% stopped early for nausea or diarrhea in an open-label study [PMID:37032999]. Mild GI events in a phase I dose-escalation study [PMID:17442556]; stomach upset in elderly adults [PMID:18611150].
+- Children: mild side effects in 2.3% of participants across trials [PMID:27912958].
+- Toxicology: BacoMind rat LD50 was 2400 mg/kg and the 90-day NOAEL 500 mg/kg [PMID:17560704]. It was not clastogenic in human lymphocytes [PMID:18478974].
+- Liver: LiverTox reports that Bacopa has not been linked to liver-enzyme elevations or clinically apparent liver injury [PMID:38718157]. The only case found was severe hepatitis after a multi-product Ayurvedic regimen. "Brahmi tablets" (Bacopa or Eclipta) scored as a possible secondary cause, but psoralen-containing Bakuchi was the probable cause [PMID:19841509]. In Brahmi vati trials, liver tests stayed normal [PMID:39631219] [PMID:39626587].
+- Thyroid: Bacopa raised serum T4 by 41% in male mice [PMID:12065164] and reversed pesticide-induced hypothyroidism in female mice [PMID:41169277]. No human thyroid data were found. Reviews advise caution in hyperthyroidism [PMID:40507208].
+- Male fertility (animal data conflict): Brahmi 250 mg/kg/d for 28-56 days reversibly suppressed spermatogenesis and fertility in mice, without changing testosterone [PMID:19041444]. CDRI-08 at 40-80 mg/kg improved sperm quality in mice [PMID:27401287] [PMID:29054405]. No human data were found.
+- Heavy metals and contamination: Bacopa accumulates metals. Wild Indian samples held 1.3-6.7 mg/kg Cd and 1.5-22 mg/kg Pb, and most exceeded limits for medicinal raw material [PMID:23824547]. 20% of South-Asian Ayurvedic products in Boston stores contained Pb, Hg or As [PMID:15598918]. 20.7% of Ayurvedic medicines sold online did too, including US-made products [PMID:18728265]. Case reports describe severe pediatric lead poisoning [PMID:41244251], fatal adult lead toxicity [PMID:40978857] and arsenic poisoning [PMID:37492071] from Ayurvedic products. Another analysis found metal levels in Bacopa extracts within permissible limits [PMID:27030208]. Product source and testing matter.
+- Calcium: serum calcium rose but stayed within the normal range in a 6-week RCT [PMID:27803728].
 
 ** Contraindications
-- Caution with bradycardia, thyroid disease, GI disorders, pregnancy/lactation and cholinergic therapy; clinical interaction data are sparse. [PMID:38671841]
+- Pregnancy and lactation: safety data are lacking [PMID:40507208]. No teratogenicity signal was found in experimental studies [PMID:28588366].
+- Hyperthyroidism: animal T4-raising effect [PMID:12065164] [PMID:40507208].
+- Active GI disease (e.g., peptic ulcer, IBS-D, obstruction): dose-related GI effects [PMID:20590480] [PMID:41091332]. Calcium-antagonist spasmolytic and cholinergic actions [PMID:10433473] [PMID:23320031].
+- Bradycardia, asthma/COPD and urinary obstruction: these are theoretical cholinergic concerns based on AChE suppression [PMID:23320031]. No clinical reports were found.
 
 ** Interactions
-- Potential additive cholinergic effects with cholinesterase inhibitors and anticholinergic medicines; possible thyroid hormone effects and CYP enzyme modulation are mostly mechanistic/preclinical. No established assay interference. [PMID:38671841]
+*** Drugs
+- Cholinesterase inhibitors (donepezil, rivastigmine, galantamine): additive cholinergic effect is possible because Bacopa lowers AChE [PMID:23320031] [PMID:28588366]. Head-to-head trials vs donepezil reported no major safety issues [PMID:35612544].
+- Muscarinic agonists (cevimeline, pilocarpine, bethanechol): one case of suspected cholinergic toxicity (sweating, nausea, tachycardia) with cevimeline plus a Bacopa/phosphatidylserine supplement [PMID:35765109].
+- Anticholinergic drugs (scopolamine, oxybutynin, tricyclics): pharmacodynamic opposition. Bacopa reverses scopolamine amnesia in rodents [PMID:19757037] [PMID:26677075]. Clinical relevance is unknown.
+- Sedatives/CNS depressants (benzodiazepines, alcohol, hypnotics): GABAergic and anxiolytic actions [PMID:22364254] [PMID:30841457]. Traditional use is as a calming agent [PMID:36943953]. Additive effects are theoretical. Bacopa also eased diazepam-induced amnesia in rodents [PMID:19757037].
+- CYP3A4 substrates: In vitro, the extract (not isolated bacosides) inhibited CYP2C19 (Ki 9.5 ug/mL), CYP2C9, CYP1A2 and CYP3A4. Estimated gut concentrations would cut CYP3A4/2C9/2C19 activity to <10% [PMID:24566323]. In rats, 31 mg/kg/d for 7 days raised carbamazepine AUC 4-fold [PMID:24015255]. Another in vitro study found only weak inhibition (CYP2C9 IC50 185 ug/mL) [PMID:27030208]. No human probe-drug study was found. CYP2C19/2C9/1A2 substrates (e.g., clopidogrel, PPIs, warfarin, clozapine) carry the same unproven in vitro signal [PMID:24566323].
+- P-gp substrates (digoxin): rat digoxin AUC rose 1.3-fold [PMID:24015255]. Bacopaside II inhibited P-gp in vitro [PMID:25869246].
+- Antidepressants/serotonergic drugs: a pharmacovigilance series reported one serotonin syndrome after Bacopa was added to SSRI/SNRI therapy [PMID:30659561]. Chart review cases included agomelatine (hyperhidrosis) and moclobemide (MI) [PMID:37829299]. Bacopa potentiated citalopram in one study [PMID:33436817].
+- Thyroid hormone (levothyroxine): T4 rose in mice [PMID:12065164]. Check TFTs. No human data.
+- Antihypertensives/calcium-channel blockers: vasodilator and calcium-antagonist actions [PMID:21762768] [PMID:10433473]. A 320-640 mg dose did not change cardiovascular measures in humans [PMID:23281132]. Phenytoin: in mice, Bacopa reversed phenytoin cognitive impairment without reducing anticonvulsant effect [PMID:10940574].
+*** Other supplements
+- Citicholine and Alpha-GPC (choline donors): cholinergic overlap. Choline/phosphatidylserine-plus-Bacopa combinations were neuroprotective in preclinical models only [PMID:37762339] [PMID:41751239]. Watch for additive cholinergic GI effects [PMID:20590480].
+- Ashwagandha: often co-formulated [PMID:39683490] [PMID:39631219]. Both may raise T4 [PMID:12065164] [PMID:28829155], and both are adaptogens in antidepressant AE reports [PMID:37829299].
+- Caffeine: CYP1A2 metabolizes ~95% of caffeine [PMID:29514871]. Bacopa inhibits CYP1A2 in vitro [PMID:24566323], so caffeine exposure could rise (theoretical). A Bacopa-ginseng-coffee-fruit formula was tolerated [PMID:38512715].
+- L-Theanine: both are studied for ADHD and attention [PMID:40362791]. No interaction study was found; additive calming is theoretical.
+- Rhodiola Rosea: both appear among cognition supplements with low-certainty evidence [PMID:34370563]. Rhodiola was reported in herb-psychotropic adverse interactions [PMID:30659561]. No direct Bacopa-Rhodiola data were found. Ginkgo: a 4-week Ginkgo-Bacopa combination showed no cognitive effect [PMID:14994318].
+*** Conditions
+- Pregnancy/lactation, hyperthyroidism, GI disease, male fertility planning: see Contraindications and Safety [PMID:19041444] [PMID:40507208].
+- Children: products may contain lead [PMID:41244251] [PMID:15598918]. Choose third-party-tested products.
+*** Lab-test interference
+- No assay artifact found. Physiological changes are possible in thyroid tests (animal T4 rise) [PMID:12065164], plasma AChE (lower) [PMID:23320031] and serum calcium (small rise) [PMID:27803728]. Measure blood lead if a contaminated Ayurvedic product is suspected [PMID:40978857].
 
-** Latest research (last 24 months)
-- 2024 RCT in mild cognitive impairment found no consistent total cognition or sleep benefit after 2 months, with selected attention/verbal fluency signals. 2026 network meta-analysis suggests cognitive effects but relies on indirect, heterogeneous comparisons. [PMID:38538390, PMID:41678913]
+** Genotype notes
+No cited pharmacogenomic or nutrigenomic source found for Bacopa itself. A case report notes that CYP polymorphisms may modify herb-drug interactions [PMID:35765109]. CYP1A2 variants change caffeine clearance [PMID:29514871].
+
+** Latest research
+- [2026-09] PRISMA-based AD review: bacosides act on cholinergic, amyloid, tau/GSK-3beta, BDNF and NF-kB pathways; clinical gains are modest [PMID:42616216]. A pharmacology review of the same month [PMID:42852756].
+- [2026-08] Ayurveda insomnia review (2016-2026 literature): standardized ashwagandha has the most rigorous sleep data; Bacopa sleep claims rest on weaker evidence [PMID:42739755] [PMID:41830548].
+- [2026-07] SR of plant therapies in Parkinson disease: Bacopa improved emotional symptoms (Grade B) [PMID:42489905].
+- [2026-06] Node-resolved Ayurvedic SR/MA (49 reports): Bacopa dominates the cognition evidence, but heterogeneity and small-study effects limit confidence [PMID:42359794]. Neuroprotection appraisal flags bioavailability and formulation problems [PMID:42353204].
+- [2026-05] 1H-MRS pilot: Brahmi Ghrita partly reversed age-related cingulate metabolite changes (n=9/arm) [PMID:42102930].
+- [2026-04] NMA of 29 RCTs (n=2107): >=600 mg/d Bacopa ranked first for working memory vs Ginkgo [PMID:41678913].
+- [2026-02] SR of 7 RCTs: no Bacopa benefit on processing speed, attention or working memory [PMID:41575193]. Protocols published for an aMCI RCT [PMID:41740144] and an elderly decoction RCT [PMID:41836921]. Preclinical Bacopa-phosphatidylserine-choline study [PMID:41751239].
+- [2026-01] NMA in healthy older adults: Bacopa compound ranked high for executive and language function [PMID:41640686].
+- [2025-12] Bacumen RCT (n=101, 12 wk): cognition null; less stress reactivity and fatigue; more GI AEs [PMID:41091332].
+- [2025-10] Pediatric lead-poisoning case from an Ayurvedic product (BLL 123 ug/dL) [PMID:41244251]. ASD review flags heavy-metal accumulation as a drawback [PMID:40769392].
+- [2025-09] qPCR authentication: 60% of Bacopa products were adulterated [PMID:41008247].
+- [2025-08] Fatal lead toxicity from Ayurvedic supplements [PMID:40978857].
+- [2025-07] RCT in 180 boys: Brahmi raised the total memory score by 9.3%, equivalent to Centella [PMID:40609195].
+- [2025-06] Review: generally non-toxic; caution in hyperthyroidism and pregnancy [PMID:40507208].
+- [2025-04] ADHD supplement SR: Bacopa consistently improved inattention and hyperactivity, but cannot replace stimulants [PMID:40362791].
+- [2024-11] Brahmi vati RCTs vs escitalopram in MDD and GAD; normal LFTs [PMID:39631219] [PMID:39626587]. Bacopa-ginseng-coffee-fruit RCT improved delayed recall [PMID:38512715]. Schizophrenia SR (preclinical) [PMID:39498770].
 
 ** Open questions
-- Replicate effects with preregistered trials using chemically characterized extracts, clinically meaningful outcomes and adequate follow-up.
+- Whether effects persist with independently funded, preregistered, adequately powered trials. Recent RCTs are null on primary cognitive endpoints [PMID:41091332] [PMID:41575193].
+- Human pharmacokinetics of bacosides and clinically relevant CYP/P-gp interactions. No human probe-drug study was found [PMID:24566323] [PMID:24015255].
+- Thyroid and male reproductive effects in humans [PMID:12065164] [PMID:19041444].
+- Extract equivalence, adulteration and heavy-metal testing standards [PMID:41008247] [PMID:23824547].
+- Efficacy in MCI/AD with clinically meaningful outcomes [PMID:35612544] [PMID:41740144].
+- Long-term (12-month) data from ARCLI [PMID:22390677]. Pediatric ADHD efficacy beyond secondary outcomes [PMID:35041248] [PMID:29165401].
 
 ** Sources
-- Delfan M et al. Bacopa monnieri in mild cognitive impairment: randomized placebo-controlled trial. Explore. 2024. [https://pubmed.ncbi.nlm.nih.gov/38538390/]
-- Neto LJV et al. Investigating neuroprotective and cognitive-enhancing effects of Bacopa monnieri: systematic review. Antioxidants. 2024. [https://pubmed.ncbi.nlm.nih.gov/38671841/]
-- Bacopa monnieri and Ginkgo cognitive effects: network meta-analysis. Phytomedicine. 2026. [https://pubmed.ncbi.nlm.nih.gov/41678913/]
+1. Deb DD et al. In vitro safety evaluation and anticlastogenic effect of BacoMind on human lymphocytes. Biomed Environ Sci. 2008. PMID:18478974 DOI:10.1016/S0895-3988(08)60002-1
+2. Walker EA et al. Bacopa monnieri. StatPearls. 2023. PMID:36943953
+3. Chaudhari KS et al. Neurocognitive Effect of Nootropic Drug Brahmi (Bacopa monnieri) in Alzheimer's Disease. Ann Neurosci. 2017. PMID:28588366 DOI:10.1159/000475900
+4. Gościniak A et al. Bacopa monnieri: Preclinical and Clinical Evidence of Neuroactive Effects, Safety of Use and the Search for Improved Bioavailability. Nutrients. 2025. PMID:40507208 DOI:10.3390/nu17111939
+5. Deepak M et al. Quantitative determination of the major saponin mixture bacoside A in Bacopa monnieri by HPLC. Phytochem Anal. 2005. PMID:15688952 DOI:10.1002/pca.805
+6. Sekhar VC et al. Insights Into the Molecular Aspects of Neuroprotective Bacoside A and Bacopaside I. Curr Neuropharmacol. 2019. PMID:29676230 DOI:10.2174/1570159X16666180419123022
+7. Patel SK et al. Effect of standardized extract of Bacopa monnieri (CDRI-08) on testicular functions in adult male mice. J Ethnopharmacol. 2017. PMID:27401287 DOI:10.1016/j.jep.2016.07.026
+8. Stough C et al. Examining the nootropic effects of a special extract of Bacopa monniera on human cognitive functioning: 90 day double-blind placebo-controlled randomized trial. Phytother Res. 2008. PMID:18683852 DOI:10.1002/ptr.2537
+9. Stough C et al. The chronic effects of an extract of Bacopa monniera (Brahmi) on cognitive function in healthy human subjects. Psychopharmacology (Berl). 2001. PMID:11498727 DOI:10.1007/s002130100815
+10. Downey LA et al. An acute, double-blind, placebo-controlled crossover study of 320 mg and 640 mg doses of a special extract of Bacopa monnieri (CDRI 08) on sustained cognitive performance. Phytother Res. 2013. PMID:23281132 DOI:10.1002/ptr.4864
+11. Benson S et al. An acute, double-blind, placebo-controlled cross-over study of 320 mg and 640 mg doses of Bacopa monnieri (CDRI 08) on multitasking stress reactivity and mood. Phytother Res. 2014. PMID:23788517 DOI:10.1002/ptr.5029
+12. Kean JD et al. Effects of Bacopa monnieri (CDRI 08®) in a population of males exhibiting inattention and hyperactivity aged 6 to 14 years: A randomized, double-blind, placebo-controlled trial. Phytother Res. 2022. PMID:35041248 DOI:10.1002/ptr.7372
+13. Pravina K et al. Safety evaluation of BacoMind in healthy volunteers: a phase I study. Phytomedicine. 2007. PMID:17442556 DOI:10.1016/j.phymed.2007.03.010
+14. Morgan A et al. Does Bacopa monnieri improve memory performance in older persons? Results of a randomized, placebo-controlled, double-blind trial. J Altern Complement Med. 2010. PMID:20590480 DOI:10.1089/acm.2009.0342
+15. Dave UP et al. An open-label study to elucidate the effects of standardized Bacopa monnieri extract in the management of symptoms of attention-deficit hyperactivity disorder in children. Adv Mind Body Med. 2014. PMID:24682000
+16. Kumar N et al. Efficacy of Standardized Extract of Bacopa monnieri (Bacognize®) on Cognitive Functions of Medical Students: A Six-Week, Randomized Placebo-Controlled Trial. Evid Based Complement Alternat Med. 2016. PMID:27803728 DOI:10.1155/2016/4103423
+17. Lopresti AL et al. The Effects of a Bacopa monnieri Extract (Bacumen(®)) on Cognition, Stress, and Fatigue in Healthy Adults: A Randomized, Double-Blind, Placebo-Controlled Trial. Clin Drug Investig. 2025. PMID:41091332 DOI:10.1007/s40261-025-01492-1
+18. Sarhyal A et al. Efficacy of Brahmi vati and Aswagandharista in major depressive disorder: A randomized controlled trial. J Ayurveda Integr Med. 2024. PMID:39631219 DOI:10.1016/j.jaim.2024.101022
+19. Singh AD et al. Neurometabolite changes in cingulate cortex regions in healthy Indian population and effect of Bacopa monnieri intervention: a H(1) MRS study. Neurochem Int. 2026. PMID:42102930 DOI:10.1016/j.neuint.2026.106163
+20. Pradeep HLNR et al. Effects of Bacopa monnieri herbal supplement on aging and neurocognitive functions, including neurophysiological assessments, in relation to constitution (Prakriti) in healthy adults: clinical trial protocol. Front Med (Lausanne). 2026. PMID:41836921 DOI:10.3389/fmed.2026.1702773
+21. Minale G et al. Characterization of Metabolites in Plasma, Urine and Feces of Healthy Participants after Taking Brahmi Essence for Twelve Weeks Using LC-ESI-QTOF-MS Metabolomic Approach. Molecules. 2021. PMID:34063409 DOI:10.3390/molecules26102944
+22. Biltes R et al. Exploiting Marker Genes for Reliable Botanical Authentication of Bacopa monnieri Products. Foods. 2025. PMID:41008247 DOI:10.3390/foods14183275
+23. Saoji SD et al. The role of phospholipid as a solubility- and permeability-enhancing excipient for the improved delivery of the bioactive phytoconstituents of Bacopa monnieri. Eur J Pharm Sci. 2017. PMID:27590125 DOI:10.1016/j.ejps.2016.08.056
+24. Olajide AT et al. From Tradition to Translation: A Critical Appraisal of Bacopa monnieri for Neuroprotection from Preclinical and Clinical Perspectives and Challenges in Utilization. Int J Mol Sci. 2026. PMID:42353204 DOI:10.3390/ijms27125488
+25. Peth-Nui T et al. Effects of 12-Week Bacopa monnieri Consumption on Attention, Cognitive Processing, Working Memory, and Functions of Both Cholinergic and Monoaminergic Systems in Healthy Elderly Volunteers. Evid Based Complement Alternat Med. 2012. PMID:23320031 DOI:10.1155/2012/606424
+26. Saraf MK et al. Scopolamine induced amnesia is reversed by Bacopa monniera through participation of kinase-CREB pathway. Neurochem Res. 2010. PMID:19757037 DOI:10.1007/s11064-009-0051-4
+27. Holcomb LA et al. Bacopa monniera extract reduces amyloid levels in PSAPP mice. J Alzheimers Dis. 2006. PMID:16914834 DOI:10.3233/jad-2006-9303
+28. Dhanasekaran M et al. Neuroprotective mechanisms of ayurvedic antidementia botanical Bacopa monniera. Phytother Res. 2007. PMID:17604373 DOI:10.1002/ptr.2195
+29. Mathew J et al. Decreased GABA receptor in the cerebral cortex of epileptic rats: effect of Bacopa monnieri and Bacoside-A. J Biomed Sci. 2012. PMID:22364254 DOI:10.1186/1423-0127-19-25
+30. Gupta GL et al. Bacopa monnieri abrogates alcohol abstinence-induced anxiety-like behavior by regulating biochemical and Gabra1, Gabra4, Gabra5 gene expression of GABA(A) receptor signaling pathway in rats. Biomed Pharmacother. 2019. PMID:30841457 DOI:10.1016/j.biopha.2019.01.048
+31. Rajan KE et al. Molecular and Functional Characterization of Bacopa monniera: A Retrospective Review. Evid Based Complement Alternat Med. 2015. PMID:26413131 DOI:10.1155/2015/945217
+32. Dethe S et al. Elucidation of Molecular Mechanism(s) of Cognition Enhancing Activity of Bacomind(®): A Standardized Extract of Bacopa Monnieri. Pharmacogn Mag. 2016. PMID:27761079 DOI:10.4103/0973-1296.191464
+33. Lopresti AL et al. Modulation of the hypothalamic-pituitary-adrenal (HPA) axis by plants and phytonutrients: a systematic review of human trials. Nutr Neurosci. 2022. PMID:33650944 DOI:10.1080/1028415X.2021.1892253
+34. Kamkaew N et al. Bacopa monnieri and its constituents is hypotensive in anaesthetized rats and vasodilator in various artery types. J Ethnopharmacol. 2011. PMID:21762768 DOI:10.1016/j.jep.2011.06.045
+35. Dar A et al. Calcium antagonistic activity of Bacopa monniera on vascular and intestinal smooth muscles of rabbit and guinea-pig. J Ethnopharmacol. 1999. PMID:10433473 DOI:10.1016/s0378-8741(98)00240-2
+36. Keegan AP et al. Bacopa monnieri supplementation has no effect on serum brain-derived neurotrophic factor levels but beneficially modulates nuclear factor kappa B and cyclic AMP response element-binding protein levels in healthy elderly subjects. J Clin Transl Res. 2023. PMID:37032999
+37. Kongkeaw C et al. Meta-analysis of randomized controlled trials on cognitive effects of Bacopa monnieri extract. J Ethnopharmacol. 2014. PMID:24252493 DOI:10.1016/j.jep.2013.11.008
+38. Pase MP et al. The cognitive-enhancing effects of Bacopa monnieri: a systematic review of randomized, controlled human clinical trials. J Altern Complement Med. 2012. PMID:22747190 DOI:10.1089/acm.2011.0367
+39. Neale C et al. Cognitive effects of two nutraceuticals Ginseng and Bacopa benchmarked against modafinil: a review and comparison of effect sizes. Br J Clin Pharmacol. 2013. PMID:23043278 DOI:10.1111/bcp.12002
+40. Tiemtad P et al. Comparative effects of Bacopa monnieri and Ginkgo biloba on cognitive functions: A systematic review and network meta-analysis. Phytomedicine. 2026. PMID:41678913 DOI:10.1016/j.phymed.2026.157915
+41. Feng X et al. The effect of plant active substances on cognitive function in healthy older adults: a systematic review and network meta-analysis of randomized controlled trials. Front Pharmacol. 2025. PMID:41640686 DOI:10.3389/fphar.2025.1672171
+42. Calabrese C et al. Effects of a standardized Bacopa monnieri extract on cognitive performance, anxiety, and depression in the elderly: a randomized, double-blind, placebo-controlled trial. J Altern Complement Med. 2008. PMID:18611150 DOI:10.1089/acm.2008.0018
+43. Marsh A et al. The efficacy of nutritional phytochemical compounds in improving cognition. Int J Neuropsychopharmacol. 2026. PMID:41575193 DOI:10.1093/ijnp/pyag003
+44. Sathyanarayanan V et al. Brahmi for the better? New findings challenging cognition and anti-anxiety effects of Brahmi (Bacopa monniera) in healthy adults. Psychopharmacology (Berl). 2013. PMID:23354535 DOI:10.1007/s00213-013-2978-z
+45. Nathan PJ et al. The acute effects of an extract of Bacopa monniera (Brahmi) on cognitive function in healthy normal subjects. Hum Psychopharmacol. 2001. PMID:12404571 DOI:10.1002/hup.306
+46. Roodenrys S et al. Chronic effects of Brahmi (Bacopa monnieri) on human memory. Neuropsychopharmacology. 2002. PMID:12093601 DOI:10.1016/S0893-133X(01)00419-5
+47. Gonugade VB et al. Efficacy of ayurveda medications, Brahmi vati and Saraswatarista, in generalized anxiety disorder- a randomized controlled trial. J Ayurveda Integr Med. 2024. PMID:39626587 DOI:10.1016/j.jaim.2024.101033
+48. Kean JD et al. A systematic review of the Ayurvedic medicinal herb Bacopa monnieri in child and adolescent populations. Complement Ther Med. 2016. PMID:27912958 DOI:10.1016/j.ctim.2016.09.002
+49. Dutta T et al. Phytotherapy for Attention Deficit Hyperactivity Disorder (ADHD): A Systematic Review and Meta-analysis. Front Pharmacol. 2022. PMID:35592415 DOI:10.3389/fphar.2022.827411
+50. Al Shahab S et al. Efficiency of Different Supplements in Alleviating Symptoms of ADHD with or Without the Use of Stimulants: A Systematic Review. Nutrients. 2025. PMID:40362791 DOI:10.3390/nu17091482
+51. Basheer A et al. Use of Bacopa monnieri in the Treatment of Dementia Due to Alzheimer Disease: Systematic Review of Randomized Controlled Trials. Interact J Med Res. 2022. PMID:35612544 DOI:10.2196/38542
+52. Delfan M et al. Evaluating the effects of Bacopa monnieri on cognitive performance and sleep quality of patients with mild cognitive impairment: A triple-blinded, randomized, placebo-controlled trial. Explore (NY). 2024. PMID:38538390 DOI:10.1016/j.explore.2024.02.008
+53. Raghav S et al. Randomized controlled trial of standardized Bacopa monniera extract in age-associated memory impairment. Indian J Psychiatry. 2006. PMID:20703343 DOI:10.4103/0019-5545.31555
+54. Santos AFD et al. Bacopa monnieri in Patients with Parkinson's Disease: A Pilot Study. J Med Food. 2023. PMID:36800346 DOI:10.1089/jmf.2022.0106
+55. Sukmueng N et al. Plant-derived therapies in Parkinson's disease: a systematic review of clinical evidence. J Neural Transm (Vienna). 2026. PMID:42489905 DOI:10.1007/s00702-026-03239-4
+56. Kean JD et al. A Randomized Controlled Trial Investigating the Effects of a Special Extract of Bacopa monnieri (CDRI 08) on Hyperactivity and Inattention in Male Children and Adolescents: BACHI Study Protocol (ANZCTRN12612000827831). Nutrients. 2015. PMID:26633481 DOI:10.3390/nu7125507
+57. Stough CK et al. A randomized controlled trial investigating the effect of Pycnogenol and Bacopa CDRI08 herbal medicines on cognitive, cardiovascular, and biochemical functioning in cognitively healthy elderly people: the Australian Research Council Longevity Intervention (ARCLI) study protocol (ANZCTR12611000487910). Nutr J. 2012. PMID:22390677 DOI:10.1186/1475-2891-11-11
+58. Joshua Allan J et al. Safety evaluation of a standardized phytochemical composition extracted from Bacopa monnieri in Sprague--Dawley rats. Food Chem Toxicol. 2007. PMID:17560704 DOI:10.1016/j.fct.2007.04.010
+59. LiverTox: Clinical and Research Information on Drug-Induced Liver Injury. Bacopa monnieri. LiverTox: Clinical and Research Information on Drug-Induced Liver Injury. 2012. PMID:38718157
+60. Teschke R et al. Severe hepatotoxicity by Indian Ayurvedic herbal products: a structured causality assessment. Ann Hepatol. 2009. PMID:19841509
+61. Kar A et al. Relative efficacy of three medicinal plant extracts in the alteration of thyroid hormone concentrations in male mice. J Ethnopharmacol. 2002. PMID:12065164 DOI:10.1016/s0378-8741(02)00048-x
+62. Chourasiya S et al. Unveiling the intriguing potential of Bacopa monnieri extract in alleviating cypermethrin-induced hypothyroidism and oxidative stress in female mice. Toxicol Res. 2025. PMID:41169277 DOI:10.1007/s43188-025-00309-9
+63. Singh A et al. Evaluation of antifertility potential of Brahmi in male mouse. Contraception. 2009. PMID:19041444 DOI:10.1016/j.contraception.2008.07.023
+64. Patel SK et al. Standardized extract of Bacopa monnieri (CDRI-08): Effect on germ cell dynamics and possible mechanisms of its beneficial action on spermatogenesis and sperm quality in male mice. Biochem Biophys Res Commun. 2017. PMID:29054405 DOI:10.1016/j.bbrc.2017.10.089
+65. Srikanth Lavu RV et al. Trace metals accumulation in Bacopa monnieri and their bioaccessibility. Planta Med. 2013. PMID:23824547 DOI:10.1055/s-0032-1328713
+66. Saper RB et al. Heavy metal content of ayurvedic herbal medicine products. JAMA. 2004. PMID:15598918 DOI:10.1001/jama.292.23.2868
+67. Saper RB et al. Lead, mercury, and arsenic in US- and Indian-manufactured Ayurvedic medicines sold via the Internet. JAMA. 2008. PMID:18728265 DOI:10.1001/jama.300.8.915
+68. Cericola G et al. Case Report: Severe lead poisoning due to exposure to ayurvedic herbal medicine. Front Pediatr. 2025. PMID:41244251 DOI:10.3389/fped.2025.1692561
+69. Gryguc-Saxanoff A. Fatal Lead Toxicity From Ayurvedic Supplements in a Patient With Parkinson's Disease. Cureus. 2025. PMID:40978857 DOI:10.7759/cureus.90515
+70. Hardin J et al. Severe arsenic poisoning due to Ayurvedic supplements. Clin Case Rep. 2023. PMID:37492071 DOI:10.1002/ccr3.7733
+71. Kar A et al. Safety assessment of selected medicinal food plants used in Ayurveda through CYP450 enzyme inhibition study. J Sci Food Agric. 2017. PMID:27030208 DOI:10.1002/jsfa.7739
+72. Acquarulo B et al. Suspected cholinergic toxicity due to cevimeline hydrochloride and Bacopa monnieri interaction: a case report. J Med Case Rep. 2022. PMID:35765109 DOI:10.1186/s13256-022-03479-4
+73. Pandareesh MD et al. Cognition Enhancing and Neuromodulatory Propensity of Bacopa monniera Extract Against Scopolamine Induced Cognitive Impairments in Rat Hippocampus. Neurochem Res. 2016. PMID:26677075 DOI:10.1007/s11064-015-1780-1
+74. Ramasamy S et al. Inhibition of human cytochrome P450 enzymes by Bacopa monnieri standardized extract and constituents. Molecules. 2014. PMID:24566323 DOI:10.3390/molecules19022588
+75. Singh R et al. Evaluation of memory enhancing clinically available standardized extract of Bacopa monniera on P-glycoprotein and cytochrome P450 3A in Sprague-Dawley rats. PLoS One. 2013. PMID:24015255 DOI:10.1371/journal.pone.0072517
+76. Singh R et al. In vitro effects of standardized extract of Bacopa monniera and its five individual active constituents on human P-glycoprotein activity. Xenobiotica. 2015. PMID:25869246 DOI:10.3109/00498254.2015.1017752
+77. Woroń J et al. Unwanted effects of psychotropic drug interactions with medicinal products and diet supplements containing plant extracts. Psychiatr Pol. 2018. PMID:30659561 DOI:10.12740/PP/OnlineFirst/80998
+78. Siwek M et al. Harder, better, faster, stronger? Retrospective chart review of adverse events of interactions between adaptogens and antidepressant drugs. Front Pharmacol. 2023. PMID:37829299 DOI:10.3389/fphar.2023.1271776
+79. Brimson JM et al. The effectiveness of Bacopa monnieri (Linn.) Wettst. as a nootropic, neuroprotective, or antidepressant supplement: analysis of the available clinical data. Sci Rep. 2021. PMID:33436817 DOI:10.1038/s41598-020-80045-2
+80. Vohora D et al. Protection from phenytoin-induced cognitive deficit by Bacopa monniera, a reputed Indian nootropic plant. J Ethnopharmacol. 2000. PMID:10940574 DOI:10.1016/s0378-8741(99)00213-5
+81. Borgonetti V et al. Novel Combination of Choline with Withania somnifera (L.) Dunal, and Bacopa monnieri (L.) Wetts Reduced Oxidative Stress in Microglia Cells, Promoting Neuroprotection. Int J Mol Sci. 2023. PMID:37762339 DOI:10.3390/ijms241814038
+82. Sasia C et al. Combined Bacopa, Phosphatidylserine, and Choline Protect Against Stress-Induced Neurotoxicity. Biomedicines. 2026. PMID:41751239 DOI:10.3390/biomedicines14020340
+83. D'Elia M et al. Impact of a Withania somnifera and Bacopa monnieri Formulation on SH-SY5Y Human Neuroblastoma Cells Metabolism Through NMR Metabolomic. Nutrients. 2024. PMID:39683490 DOI:10.3390/nu16234096
+84. Sharma AK et al. Efficacy and Safety of Ashwagandha Root Extract in Subclinical Hypothyroid Patients: A Double-Blind, Randomized Placebo-Controlled Trial. J Altern Complement Med. 2018. PMID:28829155 DOI:10.1089/acm.2017.0183
+85. Nehlig A. Interindividual Differences in Caffeine Metabolism and Factors Driving Caffeine Consumption. Pharmacol Rev. 2018. PMID:29514871 DOI:10.1124/pr.117.014407
+86. Best T et al. Neurocognitive effects a combined polyphenolic-rich herbal extract in healthy middle-aged adults - a randomised, double-blind, placebo-controlled study. Nutr Neurosci. 2024. PMID:38512715 DOI:10.1080/1028415X.2024.2325227
+87. Crawford C et al. Dietary Supplement Ingredients for Optimizing Cognitive Performance Among Healthy Adults: A Systematic Review. J Altern Complement Med. 2021. PMID:34370563 DOI:10.1089/acm.2021.0135
+88. Nathan PJ et al. Effects of a combined extract of Ginkgo biloba and Bacopa monniera on cognitive function in healthy humans. Hum Psychopharmacol. 2004. PMID:14994318 DOI:10.1002/hup.544
+89. Kumawat A et al. Bacopa monnieri and Alzheimer's disease: mechanistic convergence, cognitive outcomes and translational perspectives. Inflammopharmacology. 2026. PMID:42616216 DOI:10.1007/s10787-026-02369-1
+90. Sivamaruthi BS et al. Phytochemical Composition, Pharmacological Activities, and Clinical Evidence of Bacopa monnieri in Cognitive and Memory Enhancement. Curr Pharm Des. 2026. PMID:42852756 DOI:10.2174/0113816128496771260919124515
+91. Vendrame M et al. Ayurveda Treatments for Insomnia: A Narrative Review. J Clin Med. 2026. PMID:42739755 DOI:10.3390/jcm15176750
+92. Thisanjula MD et al. Bacopa monnieri-A Functional Leafy Vegetable and Medicinal Herb: A Comprehensive Review of Scientific Evidence and Proposed Mechanisms Underlying Its Influence on Circadian Rhythm. J Med Food. 2026. PMID:41830548 DOI:10.1177/1096620X261425916
+93. Baune BT et al. Ayurvedic Dravya-Based Herbal Products for Cognition, Stress, Sleep, and Psychiatric Symptoms: A Node-Resolved Systematic Review and Meta-Analysis. J Integr Complement Med. 2026. PMID:42359794 DOI:10.1177/27683605261461431
+94. Dwivedi A et al. Efficacy of Bacopa monnieri (Linn.) on Cognitive Function and Alterations in Blood Metabolites in Patients With Amnestic Mild Cognitive Impairment and Early Alzheimer Disease: Protocol for an Exploratory Double-Blind, Randomized, Placebo-Controlled Trial. JMIR Res Protoc. 2026. PMID:41740144 DOI:10.2196/82891
+95. Indika NR et al. Exploring the therapeutic potential of Bacopa monnieri in autism spectrum disorder: A comprehensive review. Fitoterapia. 2025. PMID:40769392 DOI:10.1016/j.fitote.2025.106788
+96. Verma J et al. Comparative efficacy of Medhya Rasayana,Bacopa monnieri, and Centella asiatica in enhancing memory and IQ of 8-10 year-old healthy boys: A prakriti-based double-blind, randomized controlled trial. J Ayurveda Integr Med. 2025. PMID:40609195 DOI:10.1016/j.jaim.2025.101164
+97. Ayilara GO et al. Effectiveness of Bacopa Monnieri (Brahmi) in the management of schizophrenia: a systematic review. Nutr Neurosci. 2025. PMID:39498770 DOI:10.1080/1028415X.2024.2421782
+98. Kean JD et al. Systematic Overview of Bacopa monnieri (L.) Wettst. Dominant Poly-Herbal Formulas in Children and Adolescents. Medicines (Basel). 2017. PMID:29165401 DOI:10.3390/medicines4040086

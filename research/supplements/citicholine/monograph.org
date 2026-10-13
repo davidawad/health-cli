@@ -3,44 +3,211 @@
 :ID: supp-citicholine
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: Citicholine | citicoline | cytidine diphosphate-choline | CDP-choline
+:ALIASES: Citicholine | citicoline | CDP-choline | cytidine 5'-diphosphocholine | cytidine diphosphate choline | Cognizin | choline cytidine 5'-pyrophosphate
 :CATEGORY: nootropic
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Citicoline (CDP-choline) is an intermediate in phosphatidylcholine synthesis and is marketed as a nutritional supplement; in some countries it has been used as a medicine. [PMID:27234918]
+- Citicoline (CDP-choline, cytidine 5'-diphosphocholine) is the endogenous intermediate of the Kennedy (CDP-choline) pathway of phosphatidylcholine synthesis [PMID:11796739] [PMID:24504829].
+- Regulatory status differs by country. In the US and EU it is sold as a supplement / novel food ingredient. In many other countries it is a prescription or registered medicine (oral, IV, IM): it is "approved in some countries" for acute ischemic stroke [PMID:22691567] and was approved for TBI in 59 countries when COBRIT was run [PMID:23168823]. It is on national essential-medicine lists in several CIS countries [PMID:41467376]. RX_STATUS here reflects the US/EU supplement market; in those other countries it is an Rx drug.
+- EU: authorised as a novel food ingredient (Decision 2014/423/EU). Limits are 500 mg/day in food supplements and 250 mg/serving (max 1000 mg/day) in foods for special medical purposes. Products are aimed at adults and not intended for children [URL:https://www.legislation.gov.uk/eudn/2014/423/introduction].
+- Cognizin is a branded citicoline from Kyowa Hakko. It was used in the healthy-adult memory RCT (500 mg/d) [PMID:33978188], the adolescent attention RCT (250-500 mg/d) [PMID:26179181] and 31P-MRS studies [PMID:18816480].
+- Ophthalmic forms include an oral solution [PMID:36639525] and 2% eye drops, alone or with vitamin B12 [PMID:31725734] [PMID:32180131].
 
 ** Mechanisms
-- Oral citicoline is metabolized to choline and cytidine/uridine, precursors for phospholipid and acetylcholine synthesis; mechanistic plausibility does not prove clinical efficacy. [PMID:36678257]
+- After oral intake citicoline is hydrolysed in the gut wall and liver. A 14C study (300 mg) found near-complete absorption (<1% in faeces), plasma radioactivity peaks at 1 h and 24 h, and elimination mainly as CO2 [PMID:6412727]. In humans, oral doses raise plasma choline in a dose-related way and plasma uridine by 70-120%, and cytidine is undetectable. This suggests uridine plus choline are the circulating precursors [PMID:10974208].
+- Proposed effects: membrane phosphatidylcholine restoration, reduced phospholipase A2 activation and lipid peroxidation, restored Na+/K+-ATPase, extra choline for acetylcholine, and raised dopamine release / tyrosine hydroxylase activity [PMID:11796739] [PMID:39221499]. A critical review says no adequate mechanistic description yet exists [PMID:24504829].
+- Brain bioenergetics: 6 weeks of 500 or 2000 mg/d Cognizin raised frontal phosphocreatine (+7%) and beta-NTP (+14%) on 31P-MRS in 16 healthy adults (uncontrolled) [PMID:18816480].
+- Preclinical stroke MA (14 studies, 522 animals): infarct volume fell 27.8% and neurological deficit improved 20.2% [PMID:22845688].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
 |---|---|---|---|---|---|
-| Acute ischemic stroke | Meta-analysis of placebo-controlled RCTs | no clear benefit | Large ICTUS trial and pooled evidence did not demonstrate meaningful recovery benefit | moderate | PMID:27234918 |
-| Dementia / cognitive impairment | Systematic review/meta-analysis | possible benefit; uncertain | Seven small heterogeneous studies; effect estimates limited | low | PMID:36678257 |
-| Healthy cognitive enhancement | Small RCTs | uncertain | No robust, consistent evidence for durable clinically meaningful benefit | very low | PMID:36678257 |
+| Acute ischemic stroke, functional recovery | ICTUS RCT (n=2298); Cochrane 2020 (10 RCTs, 4281 pts) | Null | ICTUS global recovery OR 1.03 (0.86-1.25); Cochrane mortality RR 0.94 (0.83-1.07), dependence RR 1.11 (0.97-1.26) | moderate | [PMID:22691567] [PMID:32860632] |
+| Acute ischemic stroke (sponsor-led MA, older IPD pool) | MA of 10 DB RCTs; IPD pool of 4 oral trials | Benefit claimed | Independence OR 1.56 (1.12-2.16) random effects; OR 1.27 in recent trials | low | [PMID:27234918] [PMID:12468781] |
+| Acute stroke, neurological / functional scores | 2023 MA (15 studies, 8357 pts); 2024-25 NMAs | Null to unclear | NIHSS<1 OR 1.05 (0.87-1.27); mRS<1 OR 1.36 (0.99-1.87); NMAs rank citicoline below other agents | low | [PMID:37109211] [PMID:39834702] [PMID:39575393] [PMID:40255575] |
+| Intracerebral hemorrhage | Pilot DB RCT (n=38) | Possible benefit, imprecise | Independence OR 5.38 (0.55-52) | very low | [PMID:16490951] |
+| Traumatic brain injury | COBRIT (n=1213, 2000 mg/d x 90 d); MAs | Null in the large RCT; benefit in sponsor MA | COBRIT global OR 0.98 (0.83-1.15); sponsor MA independence RR 1.18 (1.05-1.33); independent MA GOS OR 0.96 | moderate | [PMID:23168823] [PMID:36836726] [PMID:27539610] [PMID:28039682] |
+| Vascular cognitive impairment / post-stroke cognition | Open-label RCT (n=347, 12 mo); IDEALE (n=349, non-random controls) | Possible benefit | Attention-executive OR 1.72 vs usual care; MMSE stable vs decline | low | [PMID:23406981] [PMID:23403474] [PMID:21164117] |
+| Dementia / MCI cognition | SR/MA of 7 studies (2023); Cochrane 2005 (14 trials) | Possible benefit, biased evidence | Pooled SMD 0.56 (0.37-0.75) to 1.57; poor quality, risk of bias | low | [PMID:36678257] [PMID:15846601] |
+| AD add-on to AChEI / memantine | Retrospective cohorts; SR of 2 cohorts | Possible small MMSE benefit | MMSE +0.7 to +1 point vs AChEI alone; no ADL difference | very low | [PMID:28035929] [PMID:33459645] [PMID:32538854] [PMID:33484469] |
+| Memory, healthy older adults with AAMI | Cognizin RCT (n=100, 500 mg/d, 12 wk); Spiers RCT | Small benefit | Composite memory +3.78 vs +0.72; episodic memory P=0.0025; benefit only in poor-memory subgroup (Spiers) | low | [PMID:33978188] [PMID:8624220] |
+| EU memory health claim | EFSA NDA 2024 | Not established | Cause-and-effect not established | moderate | [PMID:38966137] |
+| Attention, healthy adolescents | RCT (n=75, 250-500 mg/d, 28 d) | Benefit | Attention P=0.02; psychomotor speed P=0.03 | low | [PMID:26179181] |
+| ADHD (children) | Pilot crossover RCT (ages 7-12) | Null | No difference vs placebo | very low | [PMID:38976279] |
+| Glaucoma progression | 3-y eyedrop RCT (n=80); SR (10 studies, 424 pts) | Possible slowing (RCT), null (SR) | 10-2 MD -0.41 vs -2.22 dB/3 y; RNFL loss 1.86 vs 2.99 um; SR no IOP/MD/RNFL difference | low | [PMID:32541370] [PMID:37768938] |
+| Glaucoma vision QoL and electrophysiology | Multicentre placebo-controlled RCT (oral solution); small RCTs | Benefit | Composite VFQ-25 P=0.041; PERG/VEP amplitude gains | low | [PMID:36639525] [PMID:41517474] |
+| Cocaine use (bipolar I) | DB RCT (n=130) | Benefit early, fading | Lower odds of cocaine-positive urine; effect faded over time | low | [PMID:25998279] [PMID:17873684] [PMID:21769048] |
+| Methamphetamine / alcohol use | DB RCTs (n=60; n=62) | Null on use | No reduction in methamphetamine or alcohol use; mood better in MA trial | low | [PMID:22974472] [PMID:30457668] [PMID:41394525] |
+| Depression (adjunct) | DB RCT with citalopram (n=50) | Benefit | Higher remission; HDRS better at weeks 2-6 | very low | [PMID:28085707] [PMID:22974472] |
+| Schizophrenia negative symptoms (adjunct) | DB RCT with risperidone; NMA | Possible benefit | PANSS negative better; NMA "promising", low-very low certainty | very low | [PMID:29901250] [PMID:39026098] |
+| Parkinson's disease (add-on to levodopa) | Multicentre DB RCT (n=474, 1000 mg/d IM); SR of 7 studies | Benefit | MCID on MDS-UPDRS OR 2.06 (1.06-3.99); UPDRS-III -2.97 vs -0.13 | low | [PMID:42561742] [PMID:33279231] |
+| Autism (children) | Open-label RCT (n=101, IM) | Null | No GARS/M-CHAT difference | very low | [PMID:40576847] |
 
 ** Dosing in trials
-- Studies commonly used 500–2,000 mg/day orally or parenterally; acute stroke trials used IV/oral schedules over weeks. Indication and route vary. [PMID:27234918, PMID:36678257]
+- Acute stroke: 1000 mg q12h IV for 3 days, then oral, for 6 weeks (ICTUS) [PMID:22691567] [URL:https://clinicaltrials.gov/study/NCT00331890]. Oral 500-2000 mg/d in earlier trials [PMID:12468781] [PMID:32860632].
+- TBI: 1000 mg twice daily enteral/oral for 90 days (COBRIT) [URL:https://clinicaltrials.gov/study/NCT00545662]. 1000 mg/d for 90 days in a 2026 pilot RCT [PMID:42679920].
+- Cognition: 1000 mg/d for 12 months after stroke [PMID:23406981]; 1000 mg/d added to AChEI [PMID:28035929]; 500 mg/d (Cognizin) in healthy older adults [PMID:33978188]; 1000-2000 mg/d in the Spiers trial [PMID:8624220].
+- Glaucoma: 2% eye drops three times daily for 3 years [PMID:32541370]; oral solution in cycles [PMID:36639525].
+- Psychiatry / addiction: titrated to 2000 mg/d [PMID:30457668] [PMID:22974472]; 200 mg/d adjunct to citalopram [PMID:28085707].
+- Parkinson's: 1000 mg/d IM, two 6-week cycles over 24 weeks [PMID:42561742]; 1200 mg/d oral in older trials [PMID:2289218].
 
 ** Safety & adverse effects
-- Generally tolerated in trials; possible headache, GI upset, insomnia/restlessness. Long-term safety data for high doses remain limited. [PMID:36678257]
+- Large RCTs found no safety signal: ICTUS showed no differences in safety variables [PMID:22691567], and COBRIT showed none in 1213 TBI patients [PMID:23168823]. The Cochrane review found little or no difference in serious cardiovascular AEs (RR 1.04, 0.84-1.29) but rated harms data as low quality [PMID:32860632].
+- AEs reported with AChEI combinations were self-limiting excitability, gastric intolerance and headache [PMID:32538854]. In an amphetamine NMA citicoline was among the most tolerable options (dropout RR 0.69) [PMID:41394525].
+- No mood worsening in bipolar trials [PMID:25998279] [PMID:17873684].
+- One pediatric case report describes recurrent suicidality on rechallenge with citicoline plus phosphatidylserine during methylphenidate treatment [PMID:41562580].
+- EFSA judged citicoline safe at proposed novel-food uses (up to 1000 mg/day across foods) [URL:https://www.legislation.gov.uk/eudn/2014/423/introduction].
+- TMAO: water-soluble choline salts and alpha-GPC raise TMAO quickly in a crossover study, whereas egg phosphatidylcholine does not [PMID:34287673]. A 4-week trial of ~400 mg/d choline did not change TMAO [PMID:29764315]. No citicoline-specific TMAO study was found. Choline metabolites may be a "two-edged sword" in stroke risk [PMID:40054542] [PMID:38128611].
 
 ** Contraindications
-- Hypersensitivity is a contraindication; caution with bipolar activation/insomnia and pregnancy due to inadequate trial evidence. [PMID:36678257]
+- The EU novel food authorisation says it is not intended for children [URL:https://www.legislation.gov.uk/eudn/2014/423/introduction]. Pediatric trials (ADHD, autism, amblyopia) are small [PMID:38976279] [PMID:40576847] [PMID:24618483].
+- No pregnancy or lactation trial data were found; a search returned no relevant studies.
+- Cholinergic/dopaminergic activity suggests caution when combined with stimulants in children (single case report) [PMID:41562580].
 
 ** Interactions
-- May potentiate levodopa effects through increased dopamine synthesis/release; monitor if combined. No established lab-test interference. [PMID:36678257]
+*** Drugs
+- Levodopa: citicoline allowed levodopa dose cuts of up to 50% in older trials [PMID:33279231] [PMID:2289218]. It gave added motor benefit in a 2026 RCT on stable PD medication [PMID:42561742]. Watch for additive dopaminergic effects.
+- Cholinesterase inhibitors (donepezil, rivastigmine, galantamine) and memantine: combination studies are mostly retrospective and suggest small additive MMSE benefits with no new safety signals [PMID:28035929] [PMID:27587069] [PMID:33484469] [PMID:33459645] [PMID:32538854].
+- Anticholinergic drugs: no direct study found. MCI reviews advise reducing anticholinergic load [PMID:41562827], which would also be expected to oppose a cholinergic precursor (inference).
+- SSRIs (citalopram): adjunct improved depression scores [PMID:28085707].
+- Antipsychotics (risperidone): adjunct improved negative symptoms with no extra extrapyramidal effects [PMID:29901250].
+- Stimulants (methylphenidate): case report of suicidality with citicoline plus phosphatidylserine [PMID:41562580].
+- Amantadine: added nothing to amantadine alone in a TBI RCT [PMID:41027417].
+- rtPA / thrombolysis: ICTUS tracked symptomatic ICH after rtPA and found no safety differences [PMID:22691567]. Benefit in the sponsor MA was mainly in non-rtPA patients [PMID:27234918].
+*** Other supplements
+- Alpha-GPC (choline alfoscerate): duplicative choline source. Alpha-GPC raised plasma choline more than IM citicoline [PMID:1428296] and beat citicoline on SCAG in a dementia MA [PMID:41426989]. Both are reviewed together as choline supplements [PMID:36950691].
+- Caffeine: a citicoline-caffeine beverage improved attention and reaction time in healthy adults [PMID:25046515].
+- Cerebrolysin: combined use in severe TBI showed a nonsignificant trend [PMID:41409218] [PMID:38748062].
+- Acetyl-L-Carnitine and N-Acetyl-L-Cysteine (NAC): proposed synergy on complementary pathways (review only) [PMID:42136265].
+- EPA/DHA/DPA: DHA plus citicoline improved visual-field indices in glaucoma [PMID:36294916].
+- CoQ10: combined for glaucoma neuroprotection (review, mouse OHT) [PMID:36590976] [PMID:40430513].
+- Vitamin B12: in combined eye drops for type 1 diabetes retinopathy (pilot) [PMID:32180131].
+- Bacopa Monieri and L-Theanine: grouped with citicoline in a narrative "brain health triad" stacking review. No clinical interaction data exist [PMID:42074246].
+- Lithium: citicoline and lithium each protected retinal ganglion cells after optic-nerve crush in rats, and the combination was no better than lithium alone [PMID:16876158]. No human data.
+*** Conditions
+- Bipolar disorder: well tolerated without mood destabilisation in RCTs [PMID:25998279] [PMID:17873684].
+- Parkinson's disease: additive to dopaminergic therapy (see Drugs).
+- Glaucoma: adjunct to IOP-lowering therapy only. It does not lower IOP [PMID:37768938] [PMID:32541370].
+*** Lab-test interference
+- No assay interference was found. Citicoline causes true rises in plasma choline and uridine [PMID:10974208] and may raise TMAO (as other water-soluble choline sources do) [PMID:34287673].
 
-** Latest research (last 24 months)
-- 2024 network meta-analysis of acute ischemic stroke neuroprotectants included citicoline but pooled mixed designs and does not overcome prior large null placebo-controlled RCT evidence. [PMID:39575393, PMID:27234918]
+** Genotype notes
+- APOE: in an open study of 82 first-degree relatives of AD patients, citicoline 1000 mg/d for 3 months gave greater cognitive benefit in APOE4 non-carriers than in carriers [PMID:34870911]. In a cerebrovascular cohort, 24.6% were APOE4 carriers, but no carrier-specific effect was reported [PMID:37489128].
+- No cited pharmacogenomic source on CHKA/PCYT1A variants and citicoline response was found.
+
+** Latest research
+- [2026-09] Pilot triple-blind RCT (n=60) in mild-to-moderate TBI: 1000 mg/d for 90 days gave higher MMSE (25.2 vs 21.5), Barthel and GOS-E scores [PMID:42679920].
+- [2026-08] SR/MA of vascular dementia RCTs: only one citicoline trial qualified, and most trials predate 2013 [PMID:42635820].
+- [2026-07] Multicentre DB RCT of add-on citicoline in PD (n=474): MCID OR 2.06, better UPDRS-III, AEs 22.1% vs 27.1% [PMID:42561742].
+- [2026-05] Review proposes NAC + ALCAR + citicoline synergy [PMID:42136265].
+- [2026-04] Narrative review places citicoline in a Bacopa/L-theanine-based nootropic framework [PMID:42074246].
+- [2026-03] SR of citicoline in ophthalmology: possible benefit in amblyopia, glaucoma and NAION, but no consensus on dose [PMID:42179665].
+- [2025-12] 12-month placebo-controlled study of oral solution in OAG: PERG/VEP amplitudes improved [PMID:41517474].
+- [2025-12] Dementia MA: alpha-GPC outperformed citicoline on SCAG (WMD -3.92) [PMID:41426989].
+- [2025-12] Retrospective TBI cohort: citicoline + Cerebrolysin showed a nonsignificant trend [PMID:41409218].
+- [2025-11] Case report: suicidality with citicoline + phosphatidylserine on methylphenidate [PMID:41562580].
+- [2025-10] Citicoline-amantadine TBI RCT: no gain over amantadine alone [PMID:41027417].
+- [2025-06] Open-label RCT in autism: no benefit [PMID:40576847].
+- [2025-04] Dose NMA in ischemic stroke (13 studies) found the lowest mortality with 2000 mg/d (mixed-quality studies) [PMID:40255575].
+- [2025-03] Review of choline metabolism in stroke: choline and its metabolites (TMAO) can both protect and harm [PMID:40054542].
+- [2024-10] SR of cholinergic agents for psychostimulant use disorder: citicoline among few with a positive cocaine trial [PMID:39432105].
+- Ongoing: 2% eyedrop glaucoma RCT (n=1000) [URL:https://clinicaltrials.gov/study/NCT05710198]; CITADEL post-delirium [URL:https://clinicaltrials.gov/study/NCT07804498]; youth alcohol use disorder [URL:https://clinicaltrials.gov/study/NCT05870111].
 
 ** Open questions
-- Clarify whether any defined cognitive impairment phenotype benefits and whether outcomes persist beyond treatment.
+- Does any stroke subgroup (non-rtPA, late presentation) truly benefit, given the null ICTUS and Cochrane results [PMID:22691567] [PMID:32860632] versus sponsor MAs [PMID:27234918]?
+- Will the large 2% eyedrop RCT confirm slower glaucoma progression [URL:https://clinicaltrials.gov/study/NCT05710198] [PMID:32541370]?
+- Are healthy-adult memory benefits replicable outside sponsor-funded trials? EFSA rejected the claim [PMID:33978188] [PMID:38966137].
+- Does long-term citicoline raise TMAO, and does it matter clinically [PMID:34287673] [PMID:40054542]?
+- How should the evidence be read given heavy manufacturer involvement (Ferrer, Kyowa) [PMID:16490951] [PMID:27234918] [PMID:33978188]?
 
 ** Sources
-- Dávalos A et al. Citicoline for acute ischemic stroke: systematic review and meta-analysis of randomized double-blind placebo-controlled trials. 2016. [https://pubmed.ncbi.nlm.nih.gov/27234918/]
-- Is Citicoline Effective in Preventing and Slowing Down Dementia? Systematic review/meta-analysis. 2023. [https://pubmed.ncbi.nlm.nih.gov/36678257/]
-- Efficacy analysis of neuroprotective drugs in acute ischemic stroke: network meta-analysis. 2024. [https://pubmed.ncbi.nlm.nih.gov/39575393/]
+1. Adibhatla RM et al. Citicoline: neuroprotective mechanisms in cerebral ischemia. J Neurochem. 2002. PMID:11796739 DOI:10.1046/j.0022-3042.2001.00697.x
+2. Grieb P et al. Neuroprotective properties of citicoline: facts, doubts and unresolved issues. CNS Drugs. 2014. PMID:24504829 DOI:10.1007/s40263-014-0144-8
+3. Dávalos A et al. Citicoline in the treatment of acute ischaemic stroke: an international, randomised, multicentre, placebo-controlled study (ICTUS trial). Lancet. 2012. PMID:22691567 DOI:10.1016/S0140-6736(12)60813-7
+4. Zafonte RD et al. Effect of citicoline on functional and cognitive status among patients with traumatic brain injury: Citicoline Brain Injury Treatment Trial (COBRIT). JAMA. 2012. PMID:23168823 DOI:10.1001/jama.2012.13256
+5. Alexandrova EG et al. Use of nootropics in Alzheimer's disease: An analysis of regulatory positions and drug policies in the countries of the Commonwealth of Independent States. Int J Risk Saf Med. 2026. PMID:41467376 DOI:10.1177/09246479251410817
+6. Nakazaki E et al. Citicoline and Memory Function in Healthy Older Adults: A Randomized, Double-Blind, Placebo-Controlled Clinical Trial. J Nutr. 2021. PMID:33978188 DOI:10.1093/jn/nxab119
+7. McGlade E et al. The Effect of Citicoline Supplementation on Motor Speed and Attention in Adolescent Males. J Atten Disord. 2019. PMID:26179181 DOI:10.1177/1087054715593633
+8. Silveri MM et al. Citicoline enhances frontal lobe bioenergetics as measured by phosphorus magnetic resonance spectroscopy. NMR Biomed. 2008. PMID:18816480 DOI:10.1002/nbm.1281
+9. Rossetti L et al. The effect of citicoline oral solution on quality of life in patients with glaucoma: the results of an international, multicenter, randomized, placebo-controlled cross-over trial. Graefes Arch Clin Exp Ophthalmol. 2023. PMID:36639525 DOI:10.1007/s00417-022-05947-5
+10. Carnevale C et al. Human vitreous concentrations of citicoline following topical application of citicoline 2% ophthalmic solution. PLoS One. 2019. PMID:31725734 DOI:10.1371/journal.pone.0224982
+11. Parravano M et al. Citicoline and Vitamin B(12) Eye Drops in Type 1 Diabetes: Results of a 3-year Pilot Study Evaluating Morpho-Functional Retinal Changes. Adv Ther. 2020. PMID:32180131 DOI:10.1007/s12325-020-01284-3
+12. Dinsdale JR et al. Pharmacokinetics of 14C CDP-choline. Arzneimittelforschung. 1983. PMID:6412727
+13. Wurtman RJ et al. Effect of oral CDP-choline on plasma choline and uridine levels in humans. Biochem Pharmacol. 2000. PMID:10974208 DOI:10.1016/s0006-2952(00)00436-6
+14. Cavalu S et al. Unveiling citicoline's mechanisms and clinical relevance in the treatment of neuroinflammatory disorders. FASEB J. 2024. PMID:39221499 DOI:10.1096/fj.202400823R
+15. Bustamante A et al. Citicoline in pre-clinical animal models of stroke: a meta-analysis shows the optimal neuroprotective profile and the missing steps for jumping into a stroke clinical trial. J Neurochem. 2012. PMID:22845688 DOI:10.1111/j.1471-4159.2012.07891.x
+16. Martí-Carvajal AJ et al. Citicoline for treating people with acute ischemic stroke. Cochrane Database Syst Rev. 2020. PMID:32860632 DOI:10.1002/14651858.CD013066.pub2
+17. Secades JJ et al. Citicoline for Acute Ischemic Stroke: A Systematic Review and Formal Meta-analysis of Randomized, Double-Blind, and Placebo-Controlled Trials. J Stroke Cerebrovasc Dis. 2016. PMID:27234918 DOI:10.1016/j.jstrokecerebrovasdis.2016.04.010
+18. Dávalos A et al. Oral citicoline in acute ischemic stroke: an individual patient data pooling analysis of clinical trials. Stroke. 2002. PMID:12468781 DOI:10.1161/01.str.0000038691.03334.71
+19. Sagaro GG et al. Choline-Containing Phospholipids in Stroke Treatment: A Systematic Review and Meta-Analysis. J Clin Med. 2023. PMID:37109211 DOI:10.3390/jcm12082875
+20. Wang Y et al. Comparative efficacy of neuroprotective agents for improving neurological function and prognosis in acute ischemic stroke: a network meta-analysis. Front Neurosci. 2024. PMID:39834702 DOI:10.3389/fnins.2024.1530987
+21. Li M et al. Efficacy analysis of neuroprotective drugs in patients with acute ischemic stroke based on network meta-analysis. Front Pharmacol. 2024. PMID:39575393 DOI:10.3389/fphar.2024.1475021
+22. Zhao X et al. The efficacy of different doses of citicoline in improving the prognosis of patients with acute ischemic stroke based on network meta-analysis. Front Pharmacol. 2025. PMID:40255575 DOI:10.3389/fphar.2025.1529647
+23. Secades JJ et al. Citicoline in intracerebral haemorrhage: a double-blind, randomized, placebo-controlled, multi-centre pilot study. Cerebrovasc Dis. 2006. PMID:16490951 DOI:10.1159/000091547
+24. Secades JJ et al. Citicoline for the Management of Patients with Traumatic Brain Injury in the Acute Phase: A Systematic Review and Meta-Analysis. Life (Basel). 2023. PMID:36836726 DOI:10.3390/life13020369
+25. El Sayed I et al. A meta-analysis of the effect of different neuroprotective drugs in management of patients with traumatic brain injury. Neurosurg Rev. 2018. PMID:27539610 DOI:10.1007/s10143-016-0775-y
+26. Meshkini A et al. Citicoline for traumatic brain injury: a systematic review & meta-analysis. J Inj Violence Res. 2017. PMID:28039682 DOI:10.5249/jivr.v9i1.843
+27. Alvarez-Sabín J et al. Long-term treatment with citicoline may improve poststroke vascular cognitive impairment. Cerebrovasc Dis. 2013. PMID:23406981 DOI:10.1159/000346602
+28. Cotroneo AM et al. Effectiveness and safety of citicoline in mild vascular cognitive impairment: the IDEALE study. Clin Interv Aging. 2013. PMID:23403474 DOI:10.2147/CIA.S38420
+29. Alvarez-Sabín J et al. Citicoline in vascular cognitive impairment and vascular dementia after stroke. Stroke. 2011. PMID:21164117 DOI:10.1161/STROKEAHA.110.606509
+30. Bonvicini M et al. Is Citicoline Effective in Preventing and Slowing Down Dementia?-A Systematic Review and a Meta-Analysis. Nutrients. 2023. PMID:36678257 DOI:10.3390/nu15020386
+31. Fioravanti M et al. Cytidinediphosphocholine (CDP-choline) for cognitive and behavioural disturbances associated with chronic cerebral disorders in the elderly. Cochrane Database Syst Rev. 2005. PMID:15846601 DOI:10.1002/14651858.CD000269.pub3
+32. Gareri P et al. The Citicholinage Study: Citicoline Plus Cholinesterase Inhibitors in Aged Patients Affected with Alzheimer's Disease Study. J Alzheimers Dis. 2017. PMID:28035929 DOI:10.3233/JAD-160808
+33. Castagna A et al. A Retrospective Study on the Benefits of Combined Citicoline, Memantine, and Acetylcholinesterase Inhibitor Treatments in Older Patients Affected with Alzheimer's Disease. J Alzheimers Dis. 2021. PMID:33459645 DOI:10.3233/JAD-201211
+34. Piamonte BLC et al. Effects of Citicoline as an Adjunct Treatment for Alzheimer's Disease: A Systematic Review. J Alzheimers Dis. 2020. PMID:32538854 DOI:10.3233/JAD-200378
+35. Castagna A et al. The CITIMERIVA Study: CITIcoline plus MEmantina plus RIVAstigmine in Older Patients Affected with Alzheimer's Disease. Clin Drug Investig. 2021. PMID:33484469 DOI:10.1007/s40261-020-00996-2
+36. Spiers PA et al. Citicoline improves verbal memory in aging. Arch Neurol. 1996. PMID:8624220 DOI:10.1001/archneur.1996.00550050071026
+37. EFSA Panel on Nutrition, Novel Foods and Food allergens (NDA) 'Citicoline' and support of the memory function: Evaluation of a health claim pursuant to Article 13(5) of Regulation (EC) No 1924/2006. EFSA J. 2024. PMID:38966137 DOI:10.2903/j.efsa.2024.8861
+38. Hübner IB et al. Use of Citicoline in Attention-Deficit/Hyperactivity Disorder: A Pilot Study. Clin Neuropharmacol. 2024. PMID:38976279 DOI:10.1097/WNF.0000000000000602
+39. Rossetti L et al. Can Treatment With Citicoline Eyedrops Reduce Progression in Glaucoma? The Results of a Randomized Placebo-controlled Clinical Trial. J Glaucoma. 2020. PMID:32541370 DOI:10.1097/IJG.0000000000001565
+40. Prinz J et al. Efficacy of citicoline as a supplement in glaucoma patients: A systematic review. PLoS One. 2023. PMID:37768938 DOI:10.1371/journal.pone.0291836
+41. Parisi V et al. Citicoline Oral Solution Induces Functional Enhancement and Synaptic Plasticity in Patients with Open-Angle Glaucoma. J Clin Med. 2025. PMID:41517474 DOI:10.3390/jcm15010223
+42. Brown ES et al. A Randomized, Double-Blind, Placebo-Controlled Trial of Citicoline for Cocaine Dependence in Bipolar I Disorder. Am J Psychiatry. 2015. PMID:25998279 DOI:10.1176/appi.ajp.2015.14070857
+43. Brown ES et al. A randomized, placebo-controlled trial of citicoline add-on therapy in outpatients with bipolar disorder and cocaine dependence. J Clin Psychopharmacol. 2007. PMID:17873684 DOI:10.1097/JCP.0b013e31814db4c4
+44. Licata SC et al. Effects of daily treatment with citicoline: a double-blind, placebo-controlled study in cocaine-dependent volunteers. J Addict Med. 2011. PMID:21769048 DOI:10.1097/ADM.0b013e3181d80c93
+45. Brown ES et al. A randomized, double-blind, placebo-controlled trial of citicoline for bipolar and unipolar depression and methamphetamine dependence. J Affect Disord. 2012. PMID:22974472 DOI:10.1016/j.jad.2012.05.006
+46. Brown ES et al. A Randomized, Double-Blind, Placebo-Controlled Trial of Citicoline in Patients with Alcohol Use Disorder. Alcohol Clin Exp Res. 2019. PMID:30457668 DOI:10.1111/acer.13928
+47. Khalili M et al. Management of Amphetamine and Methamphetamine Use Disorders: A Systematic Review and Network Meta-analysis of Randomized Trials. Int J Ment Health Addict. 2025. PMID:41394525 DOI:10.1007/s11469-024-01379-w
+48. Roohi-Azizi M et al. Citicoline Combination Therapy for Major Depressive Disorder: A Randomized, Double-Blind, Placebo-Controlled Trial. Clin Neuropharmacol. 2017. PMID:28085707 DOI:10.1097/WNF.0000000000000185
+49. Ghajar A et al. Citicoline (CDP-choline) add-on therapy to risperidone for treatment of negative symptoms in patients with stable schizophrenia: A double-blind, randomized placebo-controlled trial. Hum Psychopharmacol. 2018. PMID:29901250 DOI:10.1002/hup.2662
+50. Fornaro M et al. Nutraceuticals and phytoceuticals in the treatment of schizophrenia: a systematic review and network meta-analysis "Nutra NMA SCZ". Mol Psychiatry. 2025. PMID:39026098 DOI:10.1038/s41380-024-02645-y
+51. Marano M et al. Efficacy of citicoline as an add-on therapy in Parkinson's disease: a randomized, double-blind trial. Parkinsonism Relat Disord. 2026. PMID:42561742 DOI:10.1016/j.parkreldis.2026.108911
+52. Que DS et al. Citicoline as Adjuvant Therapy in Parkinson's Disease: A Systematic Review. Clin Ther. 2021. PMID:33279231 DOI:10.1016/j.clinthera.2020.11.009
+53. Zare S et al. Effects of Citicoline in Children with Autism Spectrum Disorder: A Randomized, Open-label Clinical Trial. J Autism Dev Disord. 2025. PMID:40576847 DOI:10.1007/s10803-025-06936-3
+54. Bavali Oleyayi MS et al. Effect of citicoline on cognitive function and functional recovery in patients with mild-to-moderate traumatic brain injury: a randomized placebo-controlled trial. Neuroscience. 2026. PMID:42679920 DOI:10.1016/j.neuroscience.2026.08.058
+55. Eberhardt R et al. Citicoline in the treatment of Parkinson's disease. Clin Ther. 1990. PMID:2289218
+56. Subasi Turgut F et al. Recurrent Suicidality Following Rechallenge with Phosphatidylserine and Citicoline in a Pediatric ADHD Patient Treated with Methylphenidate: A Cautionary Case Report. Psychiatry Clin Psychopharmacol. 2025. PMID:41562580 DOI:10.5152/pcp.2025.251257
+57. Böckmann KA et al. Differential metabolism of choline supplements in adult volunteers. Eur J Nutr. 2022. PMID:34287673 DOI:10.1007/s00394-021-02637-6
+58. Lemos BS et al. Effects of Egg Consumption and Choline Supplementation on Plasma Choline and Trimethylamine-N-Oxide in a Young Population. J Am Coll Nutr. 2018. PMID:29764315 DOI:10.1080/07315724.2018.1466213
+59. Yu M et al. Choline metabolism in ischemic stroke: An underappreciated "two-edged sword". Pharmacol Res. 2025. PMID:40054542 DOI:10.1016/j.phrs.2025.107685
+60. Louck LE et al. The Relationship of Circulating Choline and Choline-Related Metabolite Levels with Health Outcomes: A Scoping Review of Genome-Wide Association Studies and Mendelian Randomization Studies. Adv Nutr. 2024. PMID:38128611 DOI:10.1016/j.advnut.2023.100164
+61. Pawar PV et al. Effectiveness of the addition of citicoline to patching in the treatment of amblyopia around visual maturity: a randomized controlled trial. Indian J Ophthalmol. 2014. PMID:24618483 DOI:10.4103/0301-4738.128586
+62. Castagna A et al. The CITIRIVAD Study: CITIcoline plus RIVAstigmine in Elderly Patients Affected with Dementia Study. Clin Drug Investig. 2016. PMID:27587069 DOI:10.1007/s40261-016-0454-3
+63. Mangalagiu AG et al. Pharmacological Management of Mild Cognitive Impairment: From Symptomatic Treatment to Disease Modification-A Narrative Review. NeuroSci. 2025. PMID:41562827 DOI:10.3390/neurosci7010002
+64. Badre DSEM et al. Citicoline-Amantadine Trial in Traumatic Brain Injury: A Prospective Randomized Study. J Neurotrauma. 2026. PMID:41027417 DOI:10.1177/08977151251375914
+65. Gatti G et al. A comparative study of free plasma choline levels following intramuscular administration of L-alpha-glycerylphosphorylcholine and citicoline in normal volunteers. Int J Clin Pharmacol Ther Toxicol. 1992. PMID:1428296
+66. Sagaro GG et al. Comparison of the effects of choline alphoscerate and citicoline in patients with dementia disorders: a systematic review and meta-analysis. Front Neurol. 2025. PMID:41426989 DOI:10.3389/fneur.2025.1649661
+67. Kansakar U et al. Choline supplements: An update. Front Endocrinol (Lausanne). 2023. PMID:36950691 DOI:10.3389/fendo.2023.1148166
+68. Bruce SE et al. Improvements in concentration, working memory and sustained attention following consumption of a natural citicoline-caffeine beverage. Int J Food Sci Nutr. 2014. PMID:25046515 DOI:10.3109/09637486.2014.940286
+69. Schlager P et al. Combined citicoline and Cerebrolysin for neuroprotection in traumatic brain injury: a retrospective cohort analysis. Front Neurol. 2025. PMID:41409218 DOI:10.3389/fneur.2025.1684981
+70. Grgac I et al. Neuroprotective and neuroregenerative drugs after severe traumatic brain injury : A narrative review from a clinical perspective. Wien Klin Wochenschr. 2024. PMID:38748062 DOI:10.1007/s00508-024-02367-9
+71. Alborghetti M et al. N-acetylcysteine, Acetyl-L-carnitine, and Citicoline: A Potential Synergism in Neurological and Psychiatric Disorders. Curr Neuropharmacol. 2026. PMID:42136265 DOI:10.2174/011570159X403105251105014447
+72. Anton A et al. The Effect of Oral Citicoline and Docosahexaenoic Acid on the Visual Field of Patients with Glaucoma: A Randomized Trial. Life (Basel). 2022. PMID:36294916 DOI:10.3390/life12101481
+73. Martucci A et al. Combined use of coenzyme Q10 and citicoline: A new possibility for patients with glaucoma. Front Med (Lausanne). 2022. PMID:36590976 DOI:10.3389/fmed.2022.1020993
+74. Matamoros JA et al. Citicoline and Coenzyme Q10: Therapeutic Agents for Glial Activation Reduction in Ocular Hypertension. Pharmaceuticals (Basel). 2025. PMID:40430513 DOI:10.3390/ph18050694
+75. Cipriano GL et al. Phytochemical and Fungal Bioactive Compounds in the "Brain Health Triad": A Narrative Review on Neurostimulating, Neurotrophic, and Neuroprotective Synergy. Int J Mol Sci. 2026. PMID:42074246 DOI:10.3390/ijms27083607
+76. Schuettauf F et al. Citicoline and lithium rescue retinal ganglion cells following partial optic nerve crush in the rat. Exp Eye Res. 2006. PMID:16876158 DOI:10.1016/j.exer.2006.05.021
+77. Selezneva ND et al. [Citicoline in the treatment of cognitive impairment in first-degree relatives of AD patients: the influence of the ApoE genotype]. Zh Nevrol Psikhiatr Im S S Korsakova. 2021. PMID:34870911 DOI:10.17116/jnevro202112110230
+78. Almeria M et al. Citicoline May Prevent Cognitive Decline in Patients with Cerebrovascular Disease. Clin Interv Aging. 2023. PMID:37489128 DOI:10.2147/CIA.S409994
+79. Cheng T et al. Pharmacological interventions targeting cognition and related clinical outcomes in vascular dementia: a systematic review and meta-analysis of randomized controlled trials. Eur J Clin Pharmacol. 2026. PMID:42635820 DOI:10.1007/s00228-026-04158-9
+80. Icel E et al. The Use of Citicoline in Ophthalmology: A systematic review. Beyoglu Eye J. 2026. PMID:42179665 DOI:10.14744/bej.2026.93709
+81. Salloum N et al. Exploring the efficacy of cholinergic agents for the treatment of psychostimulant use disorder: a systematic review. Psychopharmacology (Berl). 2024. PMID:39432105 DOI:10.1007/s00213-024-06696-5
+82. Commission Implementing Decision 2014/423/EU authorising citicoline as a novel food ingredient (citing EFSA Journal 2013;11(10):3421). URL:https://www.legislation.gov.uk/eudn/2014/423/introduction
+83. ClinicalTrials.gov. ICTUS: International Citicoline Trial on Acute Stroke (NCT00331890). URL:https://clinicaltrials.gov/study/NCT00331890
+84. ClinicalTrials.gov. Study of Citicoline for the Treatment of Traumatic Brain Injury (COBRIT) (NCT00545662). URL:https://clinicaltrials.gov/study/NCT00545662
+85. ClinicalTrials.gov. Efficacy of Citicoline Eye Drops 2% on Visual Field Preservation in Open Angle Glaucoma (NCT05710198). URL:https://clinicaltrials.gov/study/NCT05710198
+86. ClinicalTrials.gov. CITADEL: Effectiveness of Citicoline in Preventing Cognitive Decline After Delirium (NCT07804498). URL:https://clinicaltrials.gov/study/NCT07804498
+87. ClinicalTrials.gov. Citicoline in Youth Alcohol Use Disorder (NCT05870111). URL:https://clinicaltrials.gov/study/NCT05870111

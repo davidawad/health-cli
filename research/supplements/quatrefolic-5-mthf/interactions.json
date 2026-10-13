@@ -7,7 +7,10 @@
     "5-MTHF",
     "L-methylfolate",
     "levomefolate",
-    "calcium L-5-methyltetrahydrofolate"
+    "(6S)-5-methyltetrahydrofolate glucosamine salt",
+    "Metafolin",
+    "calcium L-methylfolate",
+    "Deplin"
   ],
   "category": "vitamin",
   "rx_status": "otc",
@@ -18,21 +21,35 @@
       "with_kind": "drug",
       "kind": "caution",
       "severity": "major",
-      "mechanism": "Folate may antagonize methotrexate in cancer treatment; folate is also prescribed alongside low-dose methotrexate in some inflammatory diseases, so regimen context matters.",
-      "evidence": "Official NIH ODS and label/guideline information.",
+      "mechanism": "Methotrexate is a DHFR inhibitor that competes with reduced folates for cellular transport; folate products may reduce its efficacy in neoplastic disease, whereas folic/folinic acid is directed in RA/psoriasis/pJIA to cut toxicity.",
+      "evidence": "FDA label; Cochrane review in RA (transaminase elevation RR 0.23, withdrawal RR 0.39, efficacy preserved); no 5-MTHF-specific trial",
       "citations": [
-        "URL:https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aafd97c1-3a0a-42b2-845a-a9db9bb7d876",
+        "PMID:23728635"
       ]
     },
     {
-      "with": "Vitamin B12",
-      "with_kind": "supplement",
-      "kind": "monitor",
-      "severity": "moderate",
-      "mechanism": "High folate can mask hematologic manifestations of B12 deficiency while neurologic damage progresses.",
-      "evidence": "NIH ODS safety information.",
+      "with": "capecitabine",
+      "with_kind": "drug",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Reduced folate stabilizes the FdUMP-thymidylate synthase complex, increasing fluorouracil effect and toxicity; label instructs avoiding folic acid/folate-analog products unless directed.",
+      "evidence": "FDA label; prospective CRC cohort: folic acid supplement use HR 1.81 for toxicity",
       "citations": [
-        "URL:https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0b59e98c-5b34-4b93-90f6-20526f4d4f88",
+        "PMID:38070682",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=13eb8bf0-5227-455c-9660-b02abee04676"
+      ]
+    },
+    {
+      "with": "fluorouracil",
+      "with_kind": "drug",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Same thymidylate-synthase mechanism as capecitabine (its prodrug): folates potentiate fluorouracil toxicity; fatal enterocolitis reported with leucovorin plus weekly 5-FU in elderly patients.",
+      "evidence": "FDA capecitabine label drug-interaction section",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0b59e98c-5b34-4b93-90f6-20526f4d4f88"
       ]
     },
     {
@@ -40,10 +57,210 @@
       "with_kind": "drug",
       "kind": "monitor",
       "severity": "moderate",
-      "mechanism": "Folate supplementation may reduce serum phenytoin concentrations; anticonvulsants can also lower folate.",
-      "evidence": "NIH ODS interaction summary.",
+      "mechanism": "Phenytoin lowers folate; folate supplementation can increase phenytoin metabolism and lower serum levels (breakthrough seizures), and alters time to steady state.",
+      "evidence": "Pharmacokinetic studies and review; medical-food label",
       "citations": [
-        "URL:https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
+        "PMID:1628589",
+        "PMID:8520091",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=13eb8bf0-5227-455c-9660-b02abee04676"
+      ]
+    },
+    {
+      "with": "carbamazepine",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Enzyme-inducing antiepileptics lower serum folate; supplementation is used to correct deficiency.",
+      "evidence": "Cross-sectional comparison (carbamazepine, phenobarbital vs valproate); scoping review; label",
+      "citations": [
+        "PMID:9073038",
+        "PMID:41066307",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=13eb8bf0-5227-455c-9660-b02abee04676"
+      ]
+    },
+    {
+      "with": "valproate",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Teratogenic antifolate-related NTD risk; guidelines advise avoiding valproate in people who could become pregnant and >=0.4 mg/day folic acid with any antiseizure drug, though folic acid did not lower malformation risk in a meta-analysis of women with epilepsy.",
+      "evidence": "AAN/AES/SMFM 2024 guideline; AAN 2009 practice parameter; observational SR",
+      "citations": [
+        "PMID:38748979",
+        "PMID:19398680",
+        "PMID:39326214"
+      ]
+    },
+    {
+      "with": "sulfasalazine",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Inhibits intestinal folate absorption, predisposing to folate deficiency.",
+      "evidence": "Clinical absorption study in ulcerative colitis",
+      "citations": [
+        "PMID:6117796"
+      ]
+    },
+    {
+      "with": "trimethoprim",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Weak DHFR inhibitor; 400 mg/day for 7 days lowered serum folate vs placebo.",
+      "evidence": "RCT in healthy volunteers",
+      "citations": [
+        "PMID:26566149",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=13eb8bf0-5227-455c-9660-b02abee04676"
+      ]
+    },
+    {
+      "with": "pyrimethamine",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Antifolate (DHFR inhibitor) affecting human folate metabolism; high-dose folic acid may antagonize antimalarial antifolate efficacy, whereas 5-MTHF bypasses DHFR and is proposed as non-antagonizing.",
+      "evidence": "Clinical metabolic study; review of malaria-in-pregnancy data",
+      "citations": [
+        "PMID:5800521",
+        "PMID:24126794",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=13eb8bf0-5227-455c-9660-b02abee04676"
+      ]
+    },
+    {
+      "with": "Metformin ER",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Long-term metformin lowers vitamin B12 and raises homocysteine; label lists decreased serum folate. Folate may then mask emerging B12 deficiency.",
+      "evidence": "4-year RCT (B12); medical-food label",
+      "citations": [
+        "PMID:20488910",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=13eb8bf0-5227-455c-9660-b02abee04676"
+      ]
+    },
+    {
+      "with": "SSRIs",
+      "with_kind": "drug-class",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "L-methylfolate 15 mg/day augments antidepressant response (proposed via monoamine synthesis/methylation).",
+      "evidence": "SR/MA (response RR 1.25, SMD -0.38) and sequential RCTs; low certainty",
+      "citations": [
+        "PMID:34794190",
+        "PMID:23212058"
+      ]
+    },
+    {
+      "with": "Vitamin B12",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "moderate",
+      "mechanism": "Methionine synthase requires B12 to demethylate 5-MTHF; without B12, folate is trapped as 5-MTHF. Co-supplementation is recommended to avoid masking deficiency.",
+      "evidence": "Mechanistic review; narrative clinical review; homocysteine NMA",
+      "citations": [
+        "PMID:3927946",
+        "PMID:38987872",
+        "PMID:39960689"
+      ]
+    },
+    {
+      "with": "B12 methylcobalamin",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Combined methylfolate plus methylcobalamin lowers homocysteine via methionine synthase.",
+      "evidence": "Hemodialysis RCT (800 ug + 1000 ug, 3 months); genotype-stratified RCT with P5P",
+      "citations": [
+        "PMID:41580678",
+        "PMID:38892484"
+      ]
+    },
+    {
+      "with": "B Complex",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Folate plus B6 and B12 combinations lower homocysteine more than single agents.",
+      "evidence": "Network MA of RCTs in healthy adults",
+      "citations": [
+        "PMID:39960689"
+      ]
+    },
+    {
+      "with": "Vitamin B6",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Pyridoxal-5-phosphate supports transsulfuration of homocysteine; combined with methylfolate and methylcobalamin it lowered homocysteine.",
+      "evidence": "RCT (methylfolate+P5P+methylcobalamin); NMA",
+      "citations": [
+        "PMID:38892484",
+        "PMID:39960689"
+      ]
+    },
+    {
+      "with": "Vitamin B2",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Riboflavin (FAD) is the MTHFR cofactor; supplementation raises SAM and modifies BP in MTHFR 677TT carriers.",
+      "evidence": "RCT metabolite analysis; JINGO cohort analysis",
+      "citations": [
+        "PMID:32330571",
+        "PMID:33172445"
+      ]
+    },
+    {
+      "with": "Trimethylglycine (TMG)",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Betaine remethylates homocysteine through BHMT, independently of folate/B12; additive with low-dose B vitamins.",
+      "evidence": "MA of 5 RCTs (-1.23 umol/L at >=4 g/d); RCT with B vitamins plus betaine",
+      "citations": [
+        "PMID:23997720",
+        "PMID:36717385"
+      ]
+    },
+    {
+      "with": "vitamin B12 deficiency",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "major",
+      "mechanism": "High folate corrects the megaloblastic anemia while neurological damage progresses; high folate with low B12 is linked to anemia, cognitive impairment and worse MMA/homocysteine. Higher 5-MTHF was also linked to anemia in low-B12 seniors.",
+      "evidence": "NHANES analyses; clinical reviews; medical-food label",
+      "citations": [
+        "PMID:17209196",
+        "PMID:19726595",
+        "PMID:20357042",
+        "PMID:38987872",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=13eb8bf0-5227-455c-9660-b02abee04676"
+      ]
+    },
+    {
+      "with": "colorectal adenoma history",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "1 mg/day folic acid increased advanced/multiple adenomas and sessile serrated lesions in an RCT; pooled trials null; relevance to 5-MTHF unknown.",
+      "evidence": "RCT and long-term follow-up; pooled RCTs",
+      "citations": [
+        "PMID:17551129",
+        "PMID:31401653",
+        "PMID:21170989"
+      ]
+    },
+    {
+      "with": "bipolar disorder",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Label warns of possible mood elevation when used in depression in patients at risk of bipolar disorder.",
+      "evidence": "Medical-food label; small open registry",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=13eb8bf0-5227-455c-9660-b02abee04676",
+        "PMID:27794238"
       ]
     },
     {
@@ -51,16 +268,121 @@
       "with_kind": "genotype",
       "kind": "monitor",
       "severity": "minor",
-      "mechanism": "Variant reduces folate availability in some settings; evidence supporting specific 5-MTHF supplementation benefit is inconclusive.",
-      "evidence": "NIH ODS genetics summary.",
+      "mechanism": "TT genotype lowers folate response to folic acid and raises homocysteine at low folate; 5-MTHF bypasses MTHFR, but genotype-guided benefit is unproven and ACMG advises against routine testing.",
+      "evidence": "MA of intervention studies; RCTs; ACMG guideline",
       "citations": [
-        "URL:https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
+        "PMID:26497154",
+        "PMID:12486865",
+        "PMID:26630680",
+        "PMID:23288205"
+      ]
+    },
+    {
+      "with": "serum/RBC folate assays",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Supplementation causes true rises; serum folate reflects recent intake, RBC folate about 4 months; immunoassay and microbiological values are not interchangeable; 5-MTHF degrades in stored samples.",
+      "evidence": "Laboratory review; method comparison; trial report",
+      "citations": [
+        "PMID:30228213",
+        "PMID:23007069",
+        "PMID:41544303"
       ]
     }
   ],
   "citations": [
-    "PMID:2409100",
-    "PMID:25914100",
-    "URL:https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
+    "PMID:12486865",
+    "PMID:12600857",
+    "PMID:14988450",
+    "PMID:1628589",
+    "PMID:16365081",
+    "PMID:1677062",
+    "PMID:16825690",
+    "PMID:17209196",
+    "PMID:17551129",
+    "PMID:17991654",
+    "PMID:19398680",
+    "PMID:19726595",
+    "PMID:20357042",
+    "PMID:20488910",
+    "PMID:20608755",
+    "PMID:21170989",
+    "PMID:22067790",
+    "PMID:22230384",
+    "PMID:23007069",
+    "PMID:23212058",
+    "PMID:23288205",
+    "PMID:23352552",
+    "PMID:23456769",
+    "PMID:23482308",
+    "PMID:23728635",
+    "PMID:23997720",
+    "PMID:24126794",
+    "PMID:24494987",
+    "PMID:24813065",
+    "PMID:25771069",
+    "PMID:26376686",
+    "PMID:26497154",
+    "PMID:26566149",
+    "PMID:26630680",
+    "PMID:26662928",
+    "PMID:27008238",
+    "PMID:27794238",
+    "PMID:28289280",
+    "PMID:28600398",
+    "PMID:28816346",
+    "PMID:29371246",
+    "PMID:29442609",
+    "PMID:30228213",
+    "PMID:31401653",
+    "PMID:31673504",
+    "PMID:32330571",
+    "PMID:33172445",
+    "PMID:34450256",
+    "PMID:34641555",
+    "PMID:34794190",
+    "PMID:36034319",
+    "PMID:36156660",
+    "PMID:36717385",
+    "PMID:37526713",
+    "PMID:37965303",
+    "PMID:38056998",
+    "PMID:38070682",
+    "PMID:38748979",
+    "PMID:38783413",
+    "PMID:38824900",
+    "PMID:38892484",
+    "PMID:38987872",
+    "PMID:3927946",
+    "PMID:39326214",
+    "PMID:39339754",
+    "PMID:39466653",
+    "PMID:39540679",
+    "PMID:39844190",
+    "PMID:39960689",
+    "PMID:40314175",
+    "PMID:40455102",
+    "PMID:41066307",
+    "PMID:41161371",
+    "PMID:41277701",
+    "PMID:41398893",
+    "PMID:41544303",
+    "PMID:41580678",
+    "PMID:41718012",
+    "PMID:41737528",
+    "PMID:41971363",
+    "PMID:42673811",
+    "PMID:42716224",
+    "PMID:42738962",
+    "PMID:42739064",
+    "PMID:5800521",
+    "PMID:6117796",
+    "PMID:7796091",
+    "PMID:8520091",
+    "PMID:9073038",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0b59e98c-5b34-4b93-90f6-20526f4d4f88",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=13eb8bf0-5227-455c-9660-b02abee04676",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aafd97c1-3a0a-42b2-845a-a9db9bb7d876"
   ]
 }

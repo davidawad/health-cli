@@ -3,43 +3,212 @@
 :ID: supp-bpc-157
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: BPC-157 | body protection compound 157 | pentadecapeptide
+:ALIASES: BPC-157 | BPC 157 | body protection compound 157 | body protective compound-157 | stable gastric pentadecapeptide | Bepecin | PL 14736 | PL-10 | PCO-02 | BPC-157 acetate | GEPPPGKPADDAGLV
 :CATEGORY: peptide
 :RX_STATUS: research-chemical
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Synthetic 15-amino-acid peptide described as a gastric-derived sequence; marketed in unapproved products. Human formulation, purity and route standardization are unresolved. [URL:https://www.fda.gov/media/193773/download]
+- Synthetic 15-amino-acid peptide (GEPPPGKPADDAGLV, MW ~1419), described as a partial sequence of a "body protection compound" found in human gastric juice. It is reported to be stable in gastric juice [PMID:17186181] [PMID:28035768].
+- Development codes include PL-10, PLD-116 and PL 14736 (Pliva, Croatia) and Bepecin [PMID:17713731] [URL:https://www.fda.gov/media/193343/download]. FDA treats the free base and the acetate salt as two different bulk drug substances. Nomenclature is inconsistent and does not follow USAN/INN/IUPAC conventions [URL:https://www.fda.gov/media/193343/download].
+- It is not a component of any approved medicine in any country, and no USP, European, Japanese or International Pharmacopoeia monograph exists [URL:https://www.fda.gov/media/193343/download].
+- Products on the US market include oral capsules (250-500 ug), oral and nasal sprays, and injectable vials (5-10 mg). Some are sold as "dietary supplements" and others as "research use only" products [URL:https://www.fda.gov/media/193343/download]. Gray-market sale online is widespread [PMID:42437212] [PMID:42757290] [PMID:41966639].
+- Pharmaceutical development is rudimentary. There is no validated formulation, no BCS or permeability data, and no completed phase II trial [PMID:42198317].
+- Evidence base: of 235 PubMed records for BPC-157 retrieved on 2026-10-13, 175 (~74%) are co-authored by one Zagreb group (Sikiric P) [URL:https://pubmed.ncbi.nlm.nih.gov/?term=%28BPC-157+OR+%22BPC+157%22+OR+BPC157+OR+%22body+protection+compound%22+OR+%22pentadecapeptide+BPC%22%29+AND+Sikiric+P%5Bau%5D]. Independent replication is limited.
 
 ** Mechanisms
-- Preclinical reports propose angiogenic, nitric-oxide and cytoprotective signaling effects; these are predominantly animal/cell findings and do not establish human benefit. [PMID:38613439]
+All mechanistic data are preclinical (cell culture, rodents, chick CAM), plus one human ex vivo vessel study.
+- VEGFR2: BPC-157 raised VEGFR2 (but not VEGF-A) expression, promoted VEGFR2 internalization and activated VEGFR2-Akt-eNOS. It increased vessel density in CAM/tube assays and blood-flow recovery in rat hind-limb ischaemia [PMID:27847966]. Angiogenesis/VEGF modulation has also been seen in healing muscle and tendon, but there was no direct angiogenic effect in cell culture [PMID:20388964].
+- Nitric oxide system: Endothelium-dependent, NO-mediated vasodilation of rat aorta through Src-Caveolin-1-eNOS [PMID:33051481]. Human internal mammary artery rings (n=12 patients): concentration-dependent relaxation, attenuated by L-NAME [PMID:42123221]. The Zagreb group frames BPC-157 as a modulator of the NO system that counteracts both L-NAME and L-arginine effects [PMID:23755725] [PMID:29358856].
+- FAK-paxillin: in rat tendon fibroblasts it increased outgrowth, survival under H2O2 and migration, with dose-dependent FAK and paxillin phosphorylation [PMID:21030672].
+- Growth hormone receptor: dose- and time-dependent upregulation of GH receptor in tendon fibroblasts. This potentiated GH-induced proliferation through JAK2 [PMID:25415472].
+- Other proposed pathways: FBXO22-dependent stabilization of BACH1 in endothelial cells (2026) [PMID:41606641]. egr-1 induction and granulation tissue/collagen organization [PMID:17628536]. KLF4 upregulation in radiation liver injury [PMID:36228773]. VEGF-A/VEGFR1-AKT/p38 signalling in gastric mucosa [PMID:33376304]. Gene-expression shifts (Egr1, Akt1, Vegfr2, Nos3) in hippocampal ischaemia [PMID:32558293].
+- Neurotransmitter systems (rodent): Altered regional brain serotonin synthesis [PMID:15531385]. Interactions with dopamine agonists and antagonists [PMID:9547930] [PMID:10499368]. A review argues for neurotransmitter-like actions [PMID:38675421]. In vitro, BPC-157 is a weak reversible competitive acetylcholinesterase inhibitor [PMID:42278509].
+- FDA's 2026 evaluation states that no molecular target has been identified, dose-response relationships are not established, and the mechanism remains poorly understood [URL:https://www.fda.gov/media/193343/download].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---|---|---|---|---|---|
-| Musculoskeletal healing | Preclinical review; sparse uncontrolled human reports | unknown | No reliable controlled human effect estimate | very low | PMID:38613439 |
-| Inflammatory bowel disease | Small exploratory human study reports | uncertain | Insufficient controlled published evidence | very low | URL:https://www.fda.gov/media/193773/download |
-| Safety | Small human exposures and FDA review | unknown | Safety monitoring limited; short animal studies signal possible coagulation/liver effects | very low | URL:https://www.fda.gov/media/193773/download |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Knee pain (mixed causes) | Retrospective uncontrolled phone survey (n=16; intra-articular BPC-157 +/- TB4) | Reported benefit | 14/16 "relief"; no validated scales, no control | very low | [PMID:34324435] [PMID:41476424] [PMID:40756949] |
+| Interstitial cystitis | Single-arm pilot (n=12; 10 mg intravesical injection) | Reported benefit | 10/12 reported complete resolution; no control or blinding | very low | [PMID:39325560] [PMID:40789979] |
+| Ulcerative colitis | 1 RCT reported only as a 2005 meeting abstract (n=53, 80 mg enema x 2 wk) | No clear benefit | DAI -3.2 vs -1.6; between-group difference CI crossed zero | very low | [URL:https://www.fda.gov/media/193343/download] |
+| Musculoskeletal healing (tendon, ligament, muscle, bone) | SRs/scoping reviews of mostly rodent studies (36 studies: 35 preclinical, 1 clinical) | Benefit in animals | Not quantifiable; no human controlled data | very low | [PMID:40756949] [PMID:42578445] [PMID:40789979] [PMID:30915550] |
+| GI injury / IBD models | Rodent studies and reviews | Benefit in animals | Not applicable | very low | [PMID:7815358] [PMID:29358856] [PMID:32445447] |
+| Ischaemia-reperfusion injury | Critical review of rodent IRI models (2026) | Benefit in animals | Not pooled (heterogeneous) | very low | [PMID:42794771] [PMID:42204242] [PMID:40005408] |
+| CNS injury (TBI, spinal cord) | Rodent studies | Benefit in animals | Not applicable | very low | [PMID:19931318] [PMID:31266512] [PMID:34380875] |
+| Human safety | 5 small exposures (~80 people given BPC-157 in total); FAERS reports | No serious AEs reported; monitoring poor | Not estimable | very low | [URL:https://www.fda.gov/media/193343/download] [PMID:40131143] |
 
 ** Dosing in trials
-- Exploratory human research reported rectal enema, intra-articular, intravesical and IV routes; FDA briefing lists heterogeneous doses and very small cohorts. No established safe/effective dose. [URL:https://www.fda.gov/media/193773/download]
+- No dose is established as safe or effective in humans [PMID:42198317] [PMID:41476424].
+- Human exposures summarized by FDA [URL:https://www.fda.gov/media/193343/download]: Rectal enema up to 2 mg/kg daily x 8 days (n=24 healthy subjects). 80 mg enema daily x 2 weeks (UC). 2-4 mg intra-articular x 1-2 doses (knee pain). 10 mg intravesical (interstitial cystitis). 10 mg then 20 mg IV infusions (n=2).
+- IV pilot: 10 mg in 250 mL saline over 1 h on day 1 and 20 mg on day 2 in 2 adults who had used IV BPC-157 before [PMID:40131143].
+- Registered trials: Oral PCO-02 (Bepecin) 1-6 mg single dose or 3 mg every 8 h x 2 weeks. Phase 1, Mexico, status unknown, no results [URL:https://clinicaltrials.gov/study/NCT02637284]. SC daily x 14 days for grade II hamstring strain. Phase 2 RCT, n=120, recruiting 2026 [URL:https://clinicaltrials.gov/study/NCT07437547]. Rotator cuff repair RCT, not yet recruiting [URL:https://clinicaltrials.gov/study/NCT07803250]. Single-arm 500 ug "peptide gummy" study [URL:https://clinicaltrials.gov/study/NCT07752381].
+- Animal regimens typically use 10 ug/kg or 10 ng/kg i.p., per-orally in drinking water, or topically [PMID:20225319] [PMID:18668315]. Human-equivalent doses have not been validated.
+- Pharmacokinetics (animals) [PMID:36588717]: t1/2 <30 min (5.3 min in dogs, 15.2 min in rats IV) [URL:https://www.fda.gov/media/193343/download]. IM bioavailability 14-19% (rat) and 45-51% (dog). Rapid breakdown to small peptides and amino acids; excreted in urine and bile.
+- Human PK: BPC-157 was mostly undetectable in plasma after rectal enema. No human oral, SC or nasal PK data exist [URL:https://www.fda.gov/media/193343/download].
 
 ** Safety & adverse effects
-- FDA review notes limited toxicology; repeat-dose animal studies raised coagulation and liver signals, longer duration studies unavailable. Adverse event reports exist but attribution uncertain. Product quality and immunogenicity risks are inadequately characterized. [URL:https://www.fda.gov/media/193773/download]
+- Human data are minimal: under 30 subjects across 3 uncontrolled pilots, plus abstract-only enema studies [PMID:42198317] [URL:https://www.fda.gov/media/193343/download]. The IV pilot (n=2) reported no changes in cardiac, hepatic, renal, thyroid or glucose markers [PMID:40131143]. The enema studies most often reported headache and flatulence [URL:https://www.fda.gov/media/193343/download].
+- FDA FAERS search through Dec 2025 found 3 reports, all with injectables [URL:https://www.fda.gov/media/193343/download]: Injection-site redness and swelling (with co-injected thymosin). Dyspnoea leading to an ER visit. Diffuse hyperpigmentation and gingival darkening that recurred on rechallenge with a "research purposes only" BPC-157/TB-500 blend. The human foods complaint system (HFCS) held 3 further confounded reports.
+- Nonclinical toxicology (Xu 2020, IM dosing) [PMID:32334036] [URL:https://www.fda.gov/media/193343/download]: No acute toxicity at 20 mg/kg in rats or 10 mg/kg in dogs. Negative in Ames, chromosome aberration and micronucleus tests. No embryo-fetal toxicity in rats at up to 4 mg/kg. FDA's re-analysis of the 28-day studies flagged aPTT shortening (rats) and prolongation (dogs), and liver-associated signals (raised ALT, glucose, triglycerides). No carcinogenicity, full reproductive-cycle, or longer-term studies exist, and none use the marketed routes.
+- Immunogenicity and quality: FDA considers BPC-157 not well characterized. Peptide-related impurities and aggregates could raise immunogenicity risk, especially for SC and nasal routes [URL:https://www.fda.gov/media/193343/download]. Before the nominations were withdrawn, FDA had listed BPC-157 among bulk substances that "may present significant safety risks" (immunogenicity, impurities, limited safety data) [URL:https://www.fda.gov/drugs/human-drug-compounding/certain-bulk-drug-substances-use-compounding-may-present-significant-safety-risks].
+- Gray-market purity: No peer-reviewed purity survey of BPC-157 products was found. Falsified internet peptide drugs in Belgium had 5-75% purity, variable content, and arsenic/lead above parenteral limits [PMID:30029448]. BPC-157 has been identified in confiscated vials [PMID:28035768]. Reviews flag contamination, sterility, mislabelling and dosing errors [PMID:42437212] [PMID:42757290] [PMID:40756949] [PMID:42160466].
+- Angiogenesis and theoretical cancer concern: The drug's pro-angiogenic actions [PMID:27847966] [PMID:41606641] raise a theoretical concern about tumour growth. Critics list pathological angiogenesis and carcinogenesis as potential risks [PMID:42757290] [PMID:40005999] [PMID:40789979]. The Zagreb group disputes this and argues for "controlled" angiogenesis [PMID:40573323] [PMID:41155565]. Another group proposes BPC-157 for cancer cachexia [PMID:29898649]. No human or carcinogenicity data resolve the question [URL:https://www.fda.gov/media/193343/download].
 
 ** Contraindications
-- No approved indication or established safety. Avoid treating research chemical use as equivalent to licensed medicine; special uncertainty applies to pregnancy, lactation, liver/coagulation disorders and injectable use. [URL:https://www.fda.gov/media/193773/download]
+None are formally established, because there is no approved label. The following are precautionary:
+- Active or prior malignancy: pro-angiogenic mechanism and no carcinogenicity studies [PMID:27847966] [PMID:42757290] [URL:https://www.fda.gov/media/193343/download].
+- Pregnancy and lactation: only one IM rat embryo-fetal study; no human data [PMID:32334036] [URL:https://www.fda.gov/media/193343/download].
+- Bleeding or clotting disorders, and perioperative use: aPTT changes in 28-day animal studies [URL:https://www.fda.gov/media/193343/download]. Rodent data also show effects on bleeding and platelet function [PMID:21840572] [PMID:31976029].
+- Competitive athletes: prohibited at all times under WADA S0 [URL:https://www.wada-ama.org/en/prohibited-list?item-id=5027] [URL:https://nsa.gov.cz/wp-content/uploads/2025/11/3_Priloha-I_en.pdf].
+- Injection of unregulated "research use only" products: sterility, impurity and immunogenicity risk [URL:https://www.fda.gov/media/193343/download] [PMID:42437212].
 
 ** Interactions
-- Potential coagulation and liver effects create theoretical risk with anticoagulants, antiplatelets and hepatotoxic drugs; direct interaction studies are absent. No validated lab-test interference established. [URL:https://www.fda.gov/media/193773/download]
+*** Drugs
+No human interaction studies exist. All entries below are theoretical or extrapolated from rodent studies.
+- Anticoagulants (heparin, warfarin): In rats, BPC-157 shortened bleeding time and reduced thrombocytopenia under heparin or warfarin [PMID:21840572] [PMID:25897838]. It is proposed to counteract both haemorrhage and thrombosis [PMID:41901308]. FDA flagged aPTT changes in rats and dogs [URL:https://www.fda.gov/media/193343/download]. Possible pharmacodynamic opposition or INR/aPTT perturbation is unquantified.
+- Antiplatelets (aspirin, clopidogrel, cilostazol): in rats, BPC-157 largely restored platelet aggregation inhibited by these drugs [PMID:31976029] [PMID:21840572]. This could theoretically blunt antiplatelet efficacy.
+- Gastric injury from antiplatelets and NSAIDs: BPC-157 reduced clopidogrel- and NSAID-induced gastric injury in rodents [PMID:33376304] [PMID:22950504] [PMID:28839430].
+- NO-related vasodilators (nitrates, PDE5 inhibitors): NO-mediated vasorelaxation in rat and human arteries [PMID:33051481] [PMID:42123221] suggests a possible additive hypotensive effect. This is mechanistic only.
+- Dopaminergic drugs (rodent): Counteracted amphetamine stereotypy, haloperidol catalepsy and haloperidol-induced supersensitivity [PMID:9547930] [PMID:10499368]. Reversed vascular "occlusion-like" syndromes induced by neuroleptics and amphetamine [PMID:37375736]. Opposed antipsychotic- and metoclopramide-induced QTc prolongation [PMID:28797793].
+- Serotonergic drugs (SSRIs, MAOIs): attenuated pargyline + L-tryptophan serotonin syndrome in rats [PMID:15840402] and altered brain 5-HT synthesis [PMID:15531385]. Clinical relevance is unknown.
+- Opioids: counteracted haloperidol-enhanced morphine analgesia in mice [PMID:20388962].
+- Antidepressants and anxiolytics: antidepressant- and anxiolytic-like effects in rodents [PMID:10791689] [PMID:11742568].
+- Cholinesterase inhibitors: weak in vitro AChE inhibition [PMID:42278509]. A theoretical additive effect has not been studied in vivo.
+- Corticosteroids: opposed corticosteroid-impaired tendon and muscle healing in rats [PMID:16583442] [PMID:20190676].
+- Lithium, magnesium and insulin overdose: protective in rodent toxicity models [PMID:34829735] [PMID:28210905] [PMID:20388953]. There is no evidence of benefit in human poisoning.
+*** Other supplements
+- TB-500 (thymosin beta-4 fragment), often co-injected: In a 2026 rat study the combination gave no additive tendon benefit [PMID:42542926]. The only rechallenge-positive FAERS case involved a BPC-157/TB-500 blend [URL:https://www.fda.gov/media/193343/download]. TB-500 is also prohibited in sport [PMID:41476424].
+- Aspirin, Lithium and Magnesium: rodent data only (see Drugs) [PMID:31976029] [PMID:34829735] [PMID:28210905].
+- No cited interaction found with other corpus supplements, including Cerebrolysin.
+*** Conditions
+- Malignancy, pregnancy and lactation, coagulation disorders, competitive sport: see Contraindications.
+- Ulcerative colitis: approved therapies exist. FDA judged the evidence inadequate for BPC-157 in UC, a serious disease [URL:https://www.fda.gov/media/193343/download].
+*** Lab-test interference
+- Anti-doping tests: BPC-157 and its metabolites are detectable in urine (LOD 0.1 ng/mL) [PMID:28035768] [PMID:37959764] and in dried blood spots [PMID:42328738]. A positive test is a true finding, not an artefact.
+- Coagulation and liver tests: aPTT and ALT changes in animal studies [URL:https://www.fda.gov/media/193343/download]. A creatinine decrease was seen in dogs [PMID:32334036]. No human assay interference has been documented.
 
-** Latest research (last 24 months)
-- 2026 FDA Pharmacy Compounding Advisory Committee briefing described small heterogeneous human exposures and limited safety data; identified potential coagulation/liver signals in 28-day animal studies. [URL:https://www.fda.gov/media/193773/download]
+** Genotype notes
+No cited pharmacogenomic or nutrigenomic source found.
+
+** Latest research
+- [2026-09] Critical review of rodent ischaemia-reperfusion studies: consistent antioxidant, NO and VEGFR2-related protection, but short follow-up, single doses and unclear risk of bias. BPC-157 is "hypothesis-generating", not an established therapy [PMID:42794771].
+- [2026-08] Scoping review of 6 sports peptides: 67% of publications were preclinical. Human benefits are "unsubstantiated"; not recommended as an adjunct to orthopaedic care [PMID:42578445].
+- [2026-08] Sports Med review of approved vs gray-market peptides: scarce human safety data; placebo effects amplified by social media [PMID:41966639]. Similar reviews on pain and ageing [PMID:42635865] [PMID:42021992].
+- [2026-07] FDA PCAC briefing: FDA staff recommended against adding BPC-157 to the 503A bulks list. Reasons: poor characterization, immunogenicity, aPTT and liver signals in animals, no UC efficacy [URL:https://www.fda.gov/media/193343/download] [URL:https://www.fda.gov/advisory-committees/advisory-committee-calendar/july-23-24-2026-meeting-pharmacy-compounding-advisory-committee-07232026].
+- [2026-07] The committee nonetheless voted 8-6 (1 abstention) to recommend listing for UC. The vote is non-binding, and FDA rulemaking is pending [URL:https://www.raps.org/resource/fda-advisory-committee-backs-two-controversial-peptides.html].
+- [2026-07] Randomized rat Achilles study (n=32): BPC-157 improved histology; no additive benefit with TB-500 [PMID:42542926].
+- [2026-07] Review of "biohacking" peptides flags contamination, impurities and carcinogenesis [PMID:42757290]. A compounding-pharmacy analysis reviews the PCAC recommendations on synthetic peptides [PMID:42752426].
+- [2026-06] Gray-market peptide review: products of uncertain identity, purity, potency and sterility [PMID:42437212].
+- [2026-05] Human internal mammary artery rings: endothelium/NO-dependent vasorelaxation [PMID:42123221].
+- [2026-05] Biopharmaceutical review: no validated formulation; PK-PD disconnect (t1/2 <30 min vs prolonged effects) [PMID:42198317].
+- [2026-05] JBJS Rev structured review: BPC-157 remains investigational, with product-quality and antidoping concerns [PMID:42160466].
+- [2026-05] In vitro: BPC-157 is a reversible competitive AChE inhibitor [PMID:42278509].
+- [2026-03] Review of BPC-157 in tissue repair and pain: human data limited to small pilots [PMID:41898733].
+- [2026-02] Phase 2 hamstring-strain RCT registered (n=120, SC x 14 d) [URL:https://clinicaltrials.gov/study/NCT07437547].
+- [2026-01] Proposed mechanism: BPC-157 binds FBXO22 and stabilizes BACH1, promoting angiogenesis [PMID:41606641].
+- [2026-01] AJSM primer: the knee case series has major methodological flaws; dosing is unknown [PMID:41476424].
+- [2025-11] HSS J systematic review (36 studies, 35 preclinical): promising animal data, no clinical safety data [PMID:40756949].
+- [2025-09] IV safety pilot (n=2, 10-20 mg): no adverse effects [PMID:40131143].
+- [2025-08] Narrative review "Regeneration or Risk?": only 3 human pilots; treat as investigational [PMID:40789979].
+- [2025-06] Zagreb group rebuttal of tumorigenesis and NO-toxicity speculation [PMID:40573323].
+- [2025-01] Literature and patent review raises possible toxicity concerns [PMID:40005999]. It states WADA no longer lists BPC-157, which conflicts with the 2026 List naming it under S0 [URL:https://nsa.gov.cz/wp-content/uploads/2025/11/3_Priloha-I_en.pdf].
+- [2024-10] Interstitial cystitis pilot (n=12, compounded 503A product) [PMID:39325560].
 
 ** Open questions
-- Determine molecular identity, formulation quality, pharmacokinetics, immunogenicity, dose-ranging, controlled efficacy, and long-term toxicity before therapeutic conclusions.
+- Does BPC-157 work in humans? Adequately powered, blinded RCTs are needed. The first (hamstring, rotator cuff) were only registered in 2026.
+- Human PK by realistic routes (SC, oral, nasal) and the PK-PD disconnect.
+- Long-term toxicity, carcinogenicity and tumour-promotion risk, given the pro-angiogenic mechanism.
+- Coagulation effects (aPTT signals) and interactions with anticoagulants and antiplatelets in humans.
+- Immunogenicity and the impurity/aggregate profile of compounded and gray-market products. No independent peer-reviewed product-quality survey was found.
+- Independent replication outside one research group.
+- Final FDA decision on the 503A bulks list after the July 2026 PCAC vote.
 
 ** Sources
-- FDA. July 23–24, 2026 Pharmacy Compounding Advisory Committee meeting, BPC-157 briefing. [https://www.fda.gov/media/193773/download]
-- Pavlovic R et al. Emerging Use of BPC-157 in Orthopaedic Sports Medicine: A Systematic Review. 2025. [https://pubmed.ncbi.nlm.nih.gov/38613439/]
+1. Sikiric P et al. Stable gastric pentadecapeptide BPC 157 in trials for inflammatory bowel disease (PL-10, PLD-116, PL 14736, Pliva, Croatia). Full and distended stomach, and vascular response. Inflammopharmacology. 2006. PMID:17186181 DOI:10.1007/s10787-006-1531-7
+2. Cox HD et al. Detection and in vitro metabolism of the confiscated peptides BPC 157 and MGF R23H. Drug Test Anal. 2017. PMID:28035768 DOI:10.1002/dta.2152
+3. Vuksic T et al. Stable gastric pentadecapeptide BPC 157 in trials for inflammatory bowel disease (PL-10, PLD-116, PL14736, Pliva, Croatia) heals ileoileal anastomosis in the rat. Surg Today. 2007. PMID:17713731 DOI:10.1007/s00595-006-3498-9
+4. US FDA. FDA Briefing Document: BPC-157-Related Bulk Drug Substances (BPC-157 (free base) and BPC-157 acetate). Pharmacy Compounding Advisory Committee, July 23-24, 2026. URL:https://www.fda.gov/media/193343/download
+5. Hailu KT et al. Unregulated Peptide Use in the Age of Biohacking: Digital Promotion, Gray-Market Access, and Emerging Public Health Risks. Cureus. 2026. PMID:42437212 DOI:10.7759/cureus.110657
+6. Moiz A et al. Dangers of Injectable Peptides and Other Unregulated "Biohacking" Drugs. Mo Med. 2026. PMID:42757290
+7. Mendias CL et al. Safety and Efficacy of Approved and Unapproved Peptide Therapies for Musculoskeletal Injuries and Athletic Performance. Sports Med. 2026. PMID:41966639 DOI:10.1007/s40279-026-02437-0
+8. Mateescu DM et al. BPC-157 as an Investigational Peptide Therapeutic: Biopharmaceutical Challenges, Formulation Strategies, and Translational Development Barriers. Pharmaceutics. 2026. PMID:42198317 DOI:10.3390/pharmaceutics18050625
+9. PubMed search, BPC-157 records co-authored by Sikiric P (175 of 235 total BPC-157 records), run 2026-10-13. URL:https://pubmed.ncbi.nlm.nih.gov/?term=%28BPC-157+OR+%22BPC+157%22+OR+BPC157+OR+%22body+protection+compound%22+OR+%22pentadecapeptide+BPC%22%29+AND+Sikiric+P%5Bau%5D
+10. Hsieh MJ et al. Therapeutic potential of pro-angiogenic BPC157 is associated with VEGFR2 activation and up-regulation. J Mol Med (Berl). 2017. PMID:27847966 DOI:10.1007/s00109-016-1488-y
+11. Brcic L et al. Modulatory effect of gastric pentadecapeptide BPC 157 on angiogenesis in muscle and tendon healing. J Physiol Pharmacol. 2009. PMID:20388964
+12. Hsieh MJ et al. Modulatory effects of BPC 157 on vasomotor tone and the activation of Src-Caveolin-1-endothelial nitric oxide synthase pathway. Sci Rep. 2020. PMID:33051481 DOI:10.1038/s41598-020-74022-y
+13. Yildirim AK et al. Endothelium-Dependent Nitric Oxide-Mediated Vasorelaxant Effects of BPC 157 in Human Internal Mammary Artery. J Clin Med. 2026. PMID:42123221 DOI:10.3390/jcm15093488
+14. Sikiric P et al. Stable gastric pentadecapeptide BPC 157-NO-system relation. Curr Pharm Des. 2014. PMID:23755725 DOI:10.2174/13816128113190990411
+15. Duzel A et al. Stable gastric pentadecapeptide BPC 157 in the treatment of colitis and ischemia and reperfusion in rats: New insights. World J Gastroenterol. 2017. PMID:29358856 DOI:10.3748/wjg.v23.i48.8465
+16. Chang CH et al. The promoting effect of pentadecapeptide BPC 157 on tendon healing involves tendon outgrowth, cell survival, and cell migration. J Appl Physiol (1985). 2011. PMID:21030672 DOI:10.1152/japplphysiol.00945.2010
+17. Chang CH et al. Pentadecapeptide BPC 157 enhances the growth hormone receptor expression in tendon fibroblasts. Molecules. 2014. PMID:25415472 DOI:10.3390/molecules191119066
+18. Zhang J et al. BPC157 drives angiogenesis through FBXO22-dependent stabilization of BACH1. Cell Commun Signal. 2026. PMID:41606641 DOI:10.1186/s12964-026-02694-6
+19. Tkalcević VI et al. Enhancement by PL 14736 of granulation and collagen organization in healing wounds and the potential role of egr-1 expression. Eur J Pharmacol. 2007. PMID:17628536 DOI:10.1016/j.ejphar.2007.05.072
+20. Huang BS et al. Pentadecapeptide BPC 157 efficiently reduces radiation-induced liver injury and lipid accumulation through Kruppel-like factor 4 upregulation both in vivo and in vitro. Life Sci. 2022. PMID:36228773 DOI:10.1016/j.lfs.2022.121072
+21. Wu H et al. Clopidogrel-Induced Gastric Injury in Rats is Attenuated by Stable Gastric Pentadecapeptide BPC 157. Drug Des Devel Ther. 2020. PMID:33376304 DOI:10.2147/DDDT.S284163
+22. Vukojević J et al. The effect of pentadecapeptide BPC 157 on hippocampal ischemia/reperfusion injuries in rats. Brain Behav. 2020. PMID:32558293 DOI:10.1002/brb3.1726
+23. Tohyama Y et al. Effects of pentadecapeptide BPC157 on regional serotonin synthesis in the rat brain: alpha-methyl-L-tryptophan autoradiographic measurements. Life Sci. 2004. PMID:15531385 DOI:10.1016/j.lfs.2004.08.010
+24. Jelovac N et al. A novel pentadecapeptide, BPC 157, blocks the stereotypy produced acutely by amphetamine and the development of haloperidol-induced supersensitivity to amphetamine. Biol Psychiatry. 1998. PMID:9547930 DOI:10.1016/s0006-3223(97)00277-1
+25. Jelovac N et al. Pentadecapeptide BPC 157 attenuates disturbances induced by neuroleptics: the effect on catalepsy and gastric ulcers in mice and rats. Eur J Pharmacol. 1999. PMID:10499368 DOI:10.1016/s0014-2999(99)00486-0
+26. Sikiric P et al. The Stable Gastric Pentadecapeptide BPC 157 Pleiotropic Beneficial Activity and Its Possible Relations with Neurotransmitter Activity. Pharmaceuticals (Basel). 2024. PMID:38675421 DOI:10.3390/ph17040461
+27. Jelińska J et al. BPC-157 and Its Novel Hybrid Analogs as Inhibitors of Acetylcholinesterase. Int J Mol Sci. 2026. PMID:42278509 DOI:10.3390/ijms27114984
+28. Lee E et al. Intra-Articular Injection of BPC 157 for Multiple Types of Knee Pain. Altern Ther Health Med. 2021. PMID:34324435
+29. Mayfield CK et al. Injectable Peptide Therapy: A Primer for Orthopaedic and Sports Medicine Physicians. Am J Sports Med. 2026. PMID:41476424 DOI:10.1177/03635465251357593
+30. Vasireddi N et al. Emerging Use of BPC-157 in Orthopaedic Sports Medicine: A Systematic Review. HSS J. 2025. PMID:40756949 DOI:10.1177/15563316251355551
+31. Lee E et al. Effect of BPC-157 on Symptoms in Patients with Interstitial Cystitis: A Pilot Study. Altern Ther Health Med. 2024. PMID:39325560
+32. McGuire FP et al. Regeneration or Risk? A Narrative Review of BPC-157 for Musculoskeletal Healing. Curr Rev Musculoskelet Med. 2025. PMID:40789979 DOI:10.1007/s12178-025-09990-7
+33. Tewari K et al. Peptide Supplements and Their Therapeutic Applications in Sports Medicine. Am J Sports Med. 2026. PMID:42578445 DOI:10.1177/03635465261464420
+34. Gwyer D et al. Gastric pentadecapeptide body protection compound BPC 157 and its role in accelerating musculoskeletal soft tissue healing. Cell Tissue Res. 2019. PMID:30915550 DOI:10.1007/s00441-019-03016-8
+35. Veljaca M et al. BPC-15 reduces trinitrobenzene sulfonic acid-induced colonic damage in rats. J Pharmacol Exp Ther. 1995. PMID:7815358
+36. Park JM et al. BPC 157 Rescued NSAID-cytotoxicity Via Stabilizing Intestinal Permeability and Enhancing Cytoprotection. Curr Pharm Des. 2020. PMID:32445447 DOI:10.2174/1381612826666200523180301
+37. Demirtaş H et al. BPC 157 in Rodent Ischemia-Reperfusion Injury: A Critical Review of Preclinical Evidence. Int J Mol Sci. 2026. PMID:42794771 DOI:10.3390/ijms27188344
+38. Yıldırım AK et al. Protective effects of BPC 157 in rats with experimentally induced lower extremity ischemia-reperfusion injury. Sci Rep. 2026. PMID:42204242 DOI:10.1038/s41598-026-55449-1
+39. Demirtaş H et al. Protective Effects of BPC 157 on Liver, Kidney, and Lung Distant Organ Damage in Rats with Experimental Lower-Extremity Ischemia-Reperfusion Injury. Medicina (Kaunas). 2025. PMID:40005408 DOI:10.3390/medicina61020291
+40. Tudor M et al. Traumatic brain injury in mice and pentadecapeptide BPC 157 effect. Regul Pept. 2010. PMID:19931318 DOI:10.1016/j.regpep.2009.11.012
+41. Perovic D et al. Stable gastric pentadecapeptide BPC 157 can improve the healing course of spinal cord injury and lead to functional recovery in rats. J Orthop Surg Res. 2019. PMID:31266512 DOI:10.1186/s13018-019-1242-6
+42. Vukojevic J et al. Pentadecapeptide BPC 157 and the central nervous system. Neural Regen Res. 2022. PMID:34380875 DOI:10.4103/1673-5374.320969
+43. Lee E et al. Safety of Intravenous Infusion of BPC157 in Humans: A Pilot Study. Altern Ther Health Med. 2025. PMID:40131143
+44. ClinicalTrials.gov NCT02637284. Phase I pilot study of PCO-02 (Bepecin, BPC-157) in healthy volunteers, Mexico. Status unknown; no results. URL:https://clinicaltrials.gov/study/NCT02637284
+45. ClinicalTrials.gov NCT07437547. Randomized, double-blind, placebo-controlled phase 2 trial of BPC 157 for acute grade II hamstring strain (n=120, recruiting). URL:https://clinicaltrials.gov/study/NCT07437547
+46. ClinicalTrials.gov NCT07803250. Impact of BPC-157 on recovery from rotator cuff repair surgery (University of Arkansas; not yet recruiting). URL:https://clinicaltrials.gov/study/NCT07803250
+47. ClinicalTrials.gov NCT07752381. Peptide gummies (BPC-157 500 ug) on inflammation, performance and recovery (single-arm; completed). URL:https://clinicaltrials.gov/study/NCT07752381
+48. Cerovecki T et al. Pentadecapeptide BPC 157 (PL 14736) improves ligament healing in the rat. J Orthop Res. 2010. PMID:20225319 DOI:10.1002/jor.21107
+49. Novinscak T et al. Gastric pentadecapeptide BPC 157 as an effective therapy for muscle crush injury in the rat. Surg Today. 2008. PMID:18668315 DOI:10.1007/s00595-007-3706-2
+50. He L et al. Pharmacokinetics, distribution, metabolism, and excretion of body-protective compound 157, a potential drug for treating various wounds, in rats and dogs. Front Pharmacol. 2022. PMID:36588717 DOI:10.3389/fphar.2022.1026182
+51. Xu C et al. Preclinical safety evaluation of body protective compound-157, a potential drug for treating various wounds. Regul Toxicol Pharmacol. 2020. PMID:32334036 DOI:10.1016/j.yrtph.2020.104665
+52. US FDA. Certain Bulk Drug Substances for Use in Compounding that May Present Significant Safety Risks (BPC-157 listed under nominated-but-withdrawn, formerly category 2). Accessed 2026-10-13. URL:https://www.fda.gov/drugs/human-drug-compounding/certain-bulk-drug-substances-use-compounding-may-present-significant-safety-risks
+53. Janvier S et al. Impurity profiling of the most frequently encountered falsified polypeptide drugs on the Belgian market. Talanta. 2018. PMID:30029448 DOI:10.1016/j.talanta.2018.06.023
+54. Villegas Meza AD et al. Injectable Peptides in Sports Medicine: A Structured Narrative Review of Evidence, Safety, and Antidoping Implications. JBJS Rev. 2026. PMID:42160466 DOI:10.2106/JBJS.RVW.26.00027
+55. Józwiak M et al. Multifunctionality and Possible Medical Application of the BPC 157 Peptide-Literature and Patent Review. Pharmaceuticals (Basel). 2025. PMID:40005999 DOI:10.3390/ph18020185
+56. Sikiric P et al. Stable Gastric Pentadecapeptide BPC 157 as a Therapy and Safety Key: A Special Beneficial Pleiotropic Effect Controlling and Modulating Angiogenesis and the NO-System. Pharmaceuticals (Basel). 2025. PMID:40573323 DOI:10.3390/ph18060928
+57. Sikiric P et al. BPC 157 Therapy: Targeting Angiogenesis and Nitric Oxide's Cytotoxic and Damaging Actions, but Maintaining, Promoting, or Recovering Their Essential Protective Functions. Comment on Józwiak et al. Multifunctionality and Possible Medical Application of the BPC 157 Peptide-Literature and Patent Review. Pharmaceuticals 2025, 18, 185. Pharmaceuticals (Basel). 2025. PMID:41155565 DOI:10.3390/ph18101450
+58. Kang EA et al. BPC157 as Potential Agent Rescuing from Cancer Cachexia. Curr Pharm Des. 2018. PMID:29898649 DOI:10.2174/1381612824666180614082950
+59. Stupnisek M et al. Pentadecapeptide BPC 157 reduces bleeding time and thrombocytopenia after amputation in rats treated with heparin, warfarin or aspirin. Thromb Res. 2012. PMID:21840572 DOI:10.1016/j.thromres.2011.07.035
+60. Konosic S et al. Intragastric Application of Aspirin, Clopidogrel, Cilostazol, and BPC 157 in Rats: Platelet Aggregation and Blood Clot. Oxid Med Cell Longev. 2019. PMID:31976029 DOI:10.1155/2019/9084643
+61. World Anti-Doping Agency. Prohibited List, S0 Non-approved substances (BPC-157 entry; URL as cited by the FDA 2026 briefing; WADA site blocks automated retrieval). URL:https://www.wada-ama.org/en/prohibited-list?item-id=5027
+62. World Anti-Doping Agency. The 2026 Prohibited List, International Standard (in force 1 January 2026), copy hosted by the Czech National Sports Agency; S0 names BPC-157. URL:https://nsa.gov.cz/wp-content/uploads/2025/11/3_Priloha-I_en.pdf
+63. Stupnisek M et al. Pentadecapeptide BPC 157 Reduces Bleeding and Thrombocytopenia after Amputation in Rats Treated with Heparin, Warfarin, L-NAME and L-Arginine. PLoS One. 2015. PMID:25897838 DOI:10.1371/journal.pone.0123454
+64. Sikiric P et al. Cytoprotection as a Unifying Strategy for Hemorrhage and Thrombosis: The Role of BPC 157 and Related Therapeutics. Pharmaceuticals (Basel). 2026. PMID:41901308 DOI:10.3390/ph19030463
+65. Sikiric P et al. Toxicity by NSAIDs. Counteraction by stable gastric pentadecapeptide BPC 157. Curr Pharm Des. 2013. PMID:22950504 DOI:10.2174/13816128130111
+66. Drmic D et al. Celecoxib-induced gastrointestinal, liver and brain lesions in rats, counteraction by BPC 157 or L-arginine, aggravation by L-NAME. World J Gastroenterol. 2017. PMID:28839430 DOI:10.3748/wjg.v23.i29.5304
+67. Strbe S et al. Innate Vascular Failure by Application of Neuroleptics, Amphetamine, and Domperidone Rapidly Induced Severe Occlusion/Occlusion-like Syndromes in Rats and Stable Gastric Pentadecapeptide BPC 157 as Therapy. Pharmaceuticals (Basel). 2023. PMID:37375736 DOI:10.3390/ph16060788
+68. Strinic D et al. BPC 157 counteracts QTc prolongation induced by haloperidol, fluphenazine, clozapine, olanzapine, quetiapine, sulpiride, and metoclopramide in rats. Life Sci. 2017. PMID:28797793 DOI:10.1016/j.lfs.2017.08.006
+69. Boban Blagaic A et al. Gastric pentadecapeptide BPC 157 effective against serotonin syndrome in rats. Eur J Pharmacol. 2005. PMID:15840402 DOI:10.1016/j.ejphar.2005.02.033
+70. Boban Blagaic A et al. Gastric pentadecapeptide BPC 157 counteracts morphine-induced analgesia in mice. J Physiol Pharmacol. 2009. PMID:20388962
+71. Sikiric P et al. The antidepressant effect of an antiulcer pentadecapeptide BPC 157 in Porsolt's test and chronic unpredictable stress in rats. A comparison with antidepressants. J Physiol Paris. 2000. PMID:10791689 DOI:10.1016/s0928-4257(00)00148-0
+72. Sikiric P et al. Anxiolytic effect of BPC-157, a gastric pentadecapeptide: shock probe/burying test and light/dark test. Acta Pharmacol Sin. 2001. PMID:11742568
+73. Krivic A et al. Achilles detachment in rat and stable gastric pentadecapeptide BPC 157: Promoted tendon-to-bone healing and opposed corticosteroid aggravation. J Orthop Res. 2006. PMID:16583442 DOI:10.1002/jor.20096
+74. Pevec D et al. Impact of pentadecapeptide BPC 157 on muscle healing impaired by systemic corticosteroid application. Med Sci Monit. 2010. PMID:20190676
+75. Strbe S et al. Over-Dose Lithium Toxicity as an Occlusive-like Syndrome in Rats and Gastric Pentadecapeptide BPC 157. Biomedicines. 2021. PMID:34829735 DOI:10.3390/biomedicines9111506
+76. Medvidovic-Grubisic M et al. Hypermagnesemia disturbances in rats, NO-related: pentadecapeptide BPC 157 abrogates, L-NAME and L-arginine worsen. Inflammopharmacology. 2017. PMID:28210905 DOI:10.1007/s10787-017-0323-6
+77. Ilic S et al. Over-dose insulin and stable gastric pentadecapeptide BPC 157. Attenuated gastric ulcers, seizures, brain lesions, hepatomegaly, fatty liver, breakdown of liver glycogen, profound hypoglycemia and calcification in rats. J Physiol Pharmacol. 2009. PMID:20388953
+78. Biçer O et al. Effects of BPC-157 and TB-500 on Achilles tendon healing in rats: A histopathological and biomechanical study. Jt Dis Relat Surg. 2026. PMID:42542926 DOI:10.52312/jdrs.2026.2951
+79. Tian T et al. Stable Isotope Labeling-Based Nontargeted Strategy for Characterization of the In Vitro Metabolic Profile of a Novel Doping BPC-157 in Doping Control by UHPLC-HRMS. Molecules. 2023. PMID:37959764 DOI:10.3390/molecules28217345
+80. Mazzarino M et al. Rapid and harmonized analytical workflow for the determination of peptidic and non-peptidic doping agents in dried and liquid blood matrices. Analyst. 2026. PMID:42328738 DOI:10.1039/d6an00455e
+81. Luansritisakul C et al. Peptides in Regenerative Medicine: A Comprehensive Review of Clinical Applications in Tissue Repair and Chronic Pain Management. Curr Pain Headache Rep. 2026. PMID:42635865 DOI:10.1007/s11916-026-01542-z
+82. Mavrych V et al. Therapeutic peptides in gerontology: mechanisms and applications for healthy aging. Front Aging. 2026. PMID:42021992 DOI:10.3389/fragi.2026.1790247
+83. US FDA. July 23-24, 2026: Meeting of the Pharmacy Compounding Advisory Committee (agenda, briefing documents). URL:https://www.fda.gov/advisory-committees/advisory-committee-calendar/july-23-24-2026-meeting-pharmacy-compounding-advisory-committee-07232026
+84. Eglovitch JS. FDA advisory committee backs two controversial peptides. Regulatory Focus (RAPS). 23 July 2026. URL:https://www.raps.org/resource/fda-advisory-committee-backs-two-controversial-peptides.html
+85. Willis J et al. Synthetic Peptides in Pharmacy Compounding: Analysis of PCAC Recommendations and Industry Safety Standards. Int J Pharm Compd. 2026. PMID:42752426
+86. Yuan C et al. From Regeneration to Analgesia: The Role of BPC-157 in Tissue Repair and Pain Management. Int J Mol Sci. 2026. PMID:41898733 DOI:10.3390/ijms27062876

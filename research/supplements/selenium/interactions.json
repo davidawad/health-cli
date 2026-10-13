@@ -3,53 +3,351 @@
   "supplement": "Selenium",
   "slug": "selenium",
   "aliases": [
-    "selenium",
     "Se",
     "selenomethionine",
+    "L-selenomethionine",
     "selenium yeast",
-    "sodium selenite"
+    "Se-yeast",
+    "sodium selenite",
+    "sodium selenate",
+    "selenium nanoparticles"
   ],
   "category": "mineral",
   "rx_status": "otc",
   "evidence_certainty_overall": "moderate",
   "edges": [
     {
-      "with": "Warfarin",
+      "with": "Vitamin E",
+      "with_kind": "supplement",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "In SELECT, vitamin E 400 IU/d alone raised prostate cancer risk (HR 1.17); selenium 200 ug/d plus vitamin E gave no benefit (HR 1.05). Vitamin E harm concentrated in men with low selenium status; neither agent prevented dementia.",
+      "evidence": "Large RCT (n=35,533) plus case-cohort and PREADViSE analyses; high certainty of no benefit",
+      "citations": [
+        "PMID:21990298",
+        "PMID:19066370",
+        "PMID:24563519",
+        "PMID:28319243"
+      ]
+    },
+    {
+      "with": "Iodine (potassium iodide)",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Selenium drives deiodinase-mediated T4 metabolism; in combined severe iodine and selenium deficiency, selenium alone may worsen hypothyroidism, so iodine should be corrected first. No synergy on thyroid function in mild deficiency.",
+      "evidence": "Field studies, expert review and RCT in older New Zealanders; low certainty",
+      "citations": [
+        "PMID:8427203",
+        "PMID:12487769",
+        "PMID:19692495"
+      ]
+    },
+    {
+      "with": "Zinc",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Zn/Se co-supplementation raised RMR and selenium levels but not thyroid function or zinc levels; both minerals take part in thyroid hormone metabolism.",
+      "evidence": "Single small RCT plus review; very low certainty",
+      "citations": [
+        "PMID:37513551",
+        "PMID:12487769"
+      ]
+    },
+    {
+      "with": "CoQ10",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "moderate",
+      "mechanism": "Combined Se-yeast 200 ug/d and CoQ10 200 mg/d for 4 years reduced cardiovascular mortality in low-selenium elderly Swedes (HR 0.51) and raised SELENOP; effect persisted for 10-12 years.",
+      "evidence": "Single RCT (n=443) with long follow-up; hypothesis-generating; low certainty",
+      "citations": [
+        "PMID:26624886",
+        "PMID:29641571",
+        "PMID:40563319",
+        "PMID:38960007"
+      ]
+    },
+    {
+      "with": "myo-inositol",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Myo-inositol plus selenium lowered TSH more than selenium alone in Hashimoto thyroiditis with subclinical hypothyroidism; no added effect on TPOAb.",
+      "evidence": "MA of 3 studies (n=288) and network MA; low certainty",
+      "citations": [
+        "PMID:42122912",
+        "PMID:39698034"
+      ]
+    },
+    {
+      "with": "Brazil nuts",
+      "with_kind": "food",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Very selenium-rich food; 2 nuts/day match 100 ug SeMet. Regular Brazil-nut eaters plus supplement users may exceed the UL (EFSA 255 ug/d; US 400 ug/d).",
+      "evidence": "RCT and EFSA risk assessment",
+      "citations": [
+        "PMID:18258628",
+        "PMID:36698500",
+        "PMID:18193397"
+      ]
+    },
+    {
+      "with": "cisplatin",
       "with_kind": "drug",
       "kind": "monitor",
       "severity": "minor",
-      "mechanism": "Possible changes in anticoagulant response have been reported; evidence is inconsistent.",
-      "evidence": "Official NIH ODS interaction review.",
+      "mechanism": "Antioxidant selenium may reduce cisplatin nephrotoxicity, myelosuppression and (preclinically) GPX4-mediated ototoxicity; whether antitumor efficacy is preserved in humans is unproven.",
+      "evidence": "Small RCTs with mixed results, Cochrane insufficient evidence, preclinical data; very low certainty",
       "citations": [
-        "URL:https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/"
+        "PMID:24475439",
+        "PMID:9197929",
+        "PMID:15251161",
+        "PMID:16856073",
+        "PMID:41698483"
       ]
     },
     {
-      "with": "Vitamin E",
-      "with_kind": "supplement",
-      "kind": "caution",
-      "severity": "minor",
-      "mechanism": "Large prevention trials combined selenium and vitamin E; SELECT found no cancer prevention and signals of harm for some endpoints.",
-      "evidence": "RCT evidence does not support assuming beneficial synergy.",
-      "citations": [
-        "PMID:20068209"
-      ]
-    },
-    {
-      "with": "Thyroid disease",
+      "with": "radiotherapy",
       "with_kind": "condition",
       "kind": "monitor",
       "severity": "minor",
-      "mechanism": "Selenium is incorporated in thyroid hormone deiodinases; RCT antibody changes do not establish clinical benefit.",
-      "evidence": "NIH ODS review of thyroid trials.",
+      "mechanism": "In selenium-deficient patients, selenite reduced radiation-induced diarrhea; no overall survival or recurrence benefit; selenium-replete patients did not benefit.",
+      "evidence": "Phase 3 RCT (n=81) and systematic review; low certainty",
       "citations": [
-        "URL:https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/"
+        "PMID:20133068",
+        "PMID:39374898"
+      ]
+    },
+    {
+      "with": "statins",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Statins may impair Sec-tRNA isopentenylation and thus selenoprotein synthesis (hypothesis); selenium + CoQ10 did not improve statin myopathy beyond CoQ10.",
+      "evidence": "Hypothesis paper and 2 small RCTs; very low certainty",
+      "citations": [
+        "PMID:15031036",
+        "PMID:23458201",
+        "PMID:23301875"
+      ]
+    },
+    {
+      "with": "simvastatin-niacin",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "An antioxidant cocktail containing selenium (with vitamins E, C and beta-carotene) blunted the HDL2 rise and attenuated angiographic and clinical benefit of simvastatin-niacin (HATS).",
+      "evidence": "RCT (n=160) and lipoprotein substudy; selenium-specific contribution unknown; low certainty",
+      "citations": [
+        "PMID:11757504",
+        "PMID:11498460"
+      ]
+    },
+    {
+      "with": "levothyroxine",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Selenium lowers TPOAb in levothyroxine-treated and TSH in untreated Hashimoto patients; thyroid tests may shift.",
+      "evidence": "MAs of RCTs; moderate certainty for antibody lowering",
+      "citations": [
+        "PMID:27702392",
+        "PMID:38243784"
+      ]
+    },
+    {
+      "with": "antithyroid drugs (methimazole)",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Adding selenium 200 ug/d to antithyroid drugs did not change Graves remission or quality of life.",
+      "evidence": "Multicentre RCT GRASS (n=430); moderate certainty",
+      "citations": [
+        "PMID:41384622"
+      ]
+    },
+    {
+      "with": "type 2 diabetes",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Selenium supplementation in replete populations increases T2D risk (RCT RR 1.11; NPC HR 1.55); Mendelian randomization concordant.",
+      "evidence": "MAs of RCTs/observational data, RCT secondary analyses, MR; moderate certainty",
+      "citations": [
+        "PMID:29974401",
+        "PMID:17620655",
+        "PMID:27530657",
+        "PMID:29788239"
+      ]
+    },
+    {
+      "with": "high baseline selenium status",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "U-shaped risk: in men with high baseline toenail selenium, supplementation raised high-grade prostate cancer by 91%; 300 ug/d for 5 years raised all-cause mortality (HR 1.59).",
+      "evidence": "SELECT case-cohort, Denmark PRECISE RCT and reviews; low-moderate certainty",
+      "citations": [
+        "PMID:24563519",
+        "PMID:29454039",
+        "PMID:22381456",
+        "PMID:31388899"
+      ]
+    },
+    {
+      "with": "squamous cell skin cancer history",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Selenium yeast 200 ug/d increased SCC (HR 1.25) and total NMSC in patients with prior skin cancer.",
+      "evidence": "RCT (NPC, n=1312) and dose-response MA; moderate certainty",
+      "citations": [
+        "PMID:14519754",
+        "PMID:40674897"
+      ]
+    },
+    {
+      "with": "Hashimoto thyroiditis",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Selenium lowers TPOAb (SMD -0.96) and modestly TSH; clinical benefit uncertain.",
+      "evidence": "MAs of RCTs; Cochrane review of clinical outcomes inconclusive",
+      "citations": [
+        "PMID:38243784",
+        "PMID:40898469",
+        "PMID:23744563"
+      ]
+    },
+    {
+      "with": "Graves orbitopathy",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Selenium 100 ug twice daily improved QoL and slowed progression in mild GO; MAs show CAS reduction with inconsistent QoL effects; EUGOGO lists selenium for mild active GO in selenium-deficient areas.",
+      "evidence": "RCT (n=159), 2 MAs, guideline; low certainty",
+      "citations": [
+        "PMID:21591944",
+        "PMID:42355878",
+        "PMID:39138905",
+        "PMID:34297684"
+      ]
+    },
+    {
+      "with": "thyroid autoantibody tests (TPOAb/TgAb)",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "True physiological reduction (not an assay artifact) of TPOAb/TgAb during supplementation may change interpretation of serial antibody results.",
+      "evidence": "MAs of RCTs",
+      "citations": [
+        "PMID:38243784",
+        "PMID:40898469"
+      ]
+    },
+    {
+      "with": "GPX1 Pro198Leu (rs1050450)",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Genotype modified selenium status, GPx activity and DNA-damage response to Brazil-nut selenium.",
+      "evidence": "Small human intervention studies; very low certainty",
+      "citations": [
+        "PMID:21208780",
+        "PMID:26661784"
+      ]
+    },
+    {
+      "with": "SELENOP rs3877899/rs7579",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Variants alter plasma SELENOP isoform ratios and glucose/cholesterol responses to Brazil nuts.",
+      "evidence": "Small human studies; very low certainty",
+      "citations": [
+        "PMID:19453253",
+        "PMID:28501922"
       ]
     }
   ],
   "citations": [
-    "PMID:20068209",
-    "PMID:24401833",
-    "URL:https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/"
+    "PMID:10867031",
+    "PMID:11498460",
+    "PMID:11757504",
+    "PMID:12487769",
+    "PMID:14519754",
+    "PMID:15031036",
+    "PMID:15251161",
+    "PMID:16856073",
+    "PMID:17284630",
+    "PMID:17620655",
+    "PMID:18193397",
+    "PMID:18258628",
+    "PMID:19066370",
+    "PMID:19453253",
+    "PMID:19692495",
+    "PMID:19942156",
+    "PMID:20133068",
+    "PMID:20142570",
+    "PMID:20661819",
+    "PMID:21208780",
+    "PMID:21591944",
+    "PMID:21990298",
+    "PMID:22381456",
+    "PMID:22705420",
+    "PMID:23301875",
+    "PMID:23458201",
+    "PMID:23744563",
+    "PMID:24475439",
+    "PMID:24563519",
+    "PMID:25974694",
+    "PMID:26624886",
+    "PMID:26661784",
+    "PMID:27428731",
+    "PMID:27530657",
+    "PMID:27702392",
+    "PMID:28319243",
+    "PMID:28501922",
+    "PMID:29376219",
+    "PMID:29454039",
+    "PMID:29641571",
+    "PMID:29788239",
+    "PMID:29974401",
+    "PMID:30280459",
+    "PMID:31388899",
+    "PMID:33053149",
+    "PMID:33650299",
+    "PMID:34297684",
+    "PMID:36067902",
+    "PMID:36480969",
+    "PMID:36698500",
+    "PMID:37513551",
+    "PMID:38243784",
+    "PMID:38960007",
+    "PMID:39138905",
+    "PMID:39260819",
+    "PMID:39374898",
+    "PMID:39698034",
+    "PMID:39900786",
+    "PMID:40563319",
+    "PMID:40674897",
+    "PMID:40690813",
+    "PMID:40898469",
+    "PMID:41073938",
+    "PMID:41106613",
+    "PMID:41384622",
+    "PMID:41677203",
+    "PMID:41698483",
+    "PMID:41825095",
+    "PMID:42122912",
+    "PMID:42355878",
+    "PMID:42681987",
+    "PMID:8427203",
+    "PMID:8825978",
+    "PMID:8971064",
+    "PMID:9197929"
   ]
 }

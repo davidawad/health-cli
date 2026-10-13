@@ -3,10 +3,16 @@
   "supplement": "Bacopa Monieri",
   "slug": "bacopa-monieri",
   "aliases": [
-    "Bacopa Monieri",
     "Bacopa monnieri",
+    "Bacopa monniera",
     "Brahmi",
-    "water hyssop"
+    "water hyssop",
+    "CDRI-08",
+    "KeenMind",
+    "Synapsa",
+    "BacoMind",
+    "Bacognize",
+    "Bacumen"
   ],
   "category": "botanical",
   "rx_status": "otc",
@@ -17,38 +23,376 @@
       "with_kind": "drug-class",
       "kind": "caution",
       "severity": "moderate",
-      "mechanism": "Potential additive cholinergic activity may alter heart rate or GI effects; clinical interaction data are limited.",
-      "evidence": "Mechanistic/clinical safety review, low certainty.",
+      "mechanism": "Bacopa suppressed plasma AChE in a 12-week human RCT and shows anticholinesterase activity in animals; additive cholinergic effects (GI upset, bradycardia) are possible with donepezil/rivastigmine/galantamine.",
+      "evidence": "Human RCT (AChE marker) plus preclinical/review data; trials vs donepezil reported no major safety issues; low certainty",
       "citations": [
-        "PMID:38671841"
+        "PMID:23320031",
+        "PMID:28588366",
+        "PMID:35612544"
       ]
     },
     {
-      "with": "thyroid disease",
-      "with_kind": "condition",
+      "with": "muscarinic agonists (cevimeline, pilocarpine, bethanechol)",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Suspected cholinergic toxicity (hyperhidrosis, nausea, tachycardia) after a Bacopa/phosphatidylserine supplement was added to cevimeline; pharmacodynamic cholinergic overlap and possible CYP-mediated reduced clearance.",
+      "evidence": "Single case report; very low certainty",
+      "citations": [
+        "PMID:35765109",
+        "PMID:23320031"
+      ]
+    },
+    {
+      "with": "anticholinergic drugs",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Pharmacodynamic opposition: Bacopa reverses scopolamine-induced amnesia and lowers AChE in rodents; could blunt or be blunted by anticholinergic therapy.",
+      "evidence": "Animal data only; no clinical reports",
+      "citations": [
+        "PMID:19757037",
+        "PMID:26677075"
+      ]
+    },
+    {
+      "with": "sedatives / CNS depressants",
+      "with_kind": "drug-class",
       "kind": "caution",
       "severity": "minor",
-      "mechanism": "Animal and limited human reports suggest possible thyroid hormone modulation; clinical relevance uncertain.",
-      "evidence": "Review of limited evidence.",
+      "mechanism": "GABAergic modulation and traditional anxiolytic/calming use suggest possible additive sedation with benzodiazepines, hypnotics or alcohol.",
+      "evidence": "Preclinical GABA-receptor data and clinical reviews; no human interaction study",
       "citations": [
-        "PMID:38671841"
+        "PMID:22364254",
+        "PMID:30841457",
+        "PMID:36943953"
       ]
     },
     {
-      "with": "bradycardia",
+      "with": "CYP3A4 substrates",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Extract competitively inhibits CYP3A4 in vitro (Ki 14.5 ug/mL; predicted >90% gut inhibition at 300 mg/d); in rats 7-day pretreatment raised carbamazepine AUC 4-fold and down-regulated hepatic/intestinal CYP3A.",
+      "evidence": "In vitro and rat PK; another in vitro study found weak inhibition; no human probe study",
+      "citations": [
+        "PMID:24566323",
+        "PMID:24015255",
+        "PMID:27030208"
+      ]
+    },
+    {
+      "with": "CYP2C19 / CYP2C9 / CYP1A2 substrates",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Non-competitive in vitro inhibition of CYP2C19 (Ki 9.5 ug/mL), CYP2C9 (Ki 12.5) and CYP1A2 (Ki 25.1) by whole extract; bacosides alone negligible.",
+      "evidence": "In vitro only; conflicting in vitro data; no human study",
+      "citations": [
+        "PMID:24566323",
+        "PMID:27030208"
+      ]
+    },
+    {
+      "with": "P-glycoprotein substrates (e.g., digoxin)",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Bacopa extract and bacopaside II inhibit P-gp in vitro; rat pretreatment reduced intestinal P-gp and raised digoxin AUC 1.3-fold.",
+      "evidence": "In vitro and rat PK; no human data",
+      "citations": [
+        "PMID:25869246",
+        "PMID:24015255"
+      ]
+    },
+    {
+      "with": "antidepressants (SSRIs/SNRIs/MAOIs)",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Pharmacovigilance: one serotonin syndrome after Bacopa was added to antidepressant therapy; chart-review adverse events with agomelatine and moclobemide; serotonergic activity and CYP/P-gp inhibition proposed.",
+      "evidence": "Case series / pharmacovigilance; very low certainty",
+      "citations": [
+        "PMID:30659561",
+        "PMID:37829299",
+        "PMID:33436817"
+      ]
+    },
+    {
+      "with": "thyroid hormone",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Bacopa extract raised serum T4 by 41% in mice; additive effect with levothyroxine is theoretical.",
+      "evidence": "Animal data only; no human data",
+      "citations": [
+        "PMID:12065164",
+        "PMID:40507208"
+      ]
+    },
+    {
+      "with": "antihypertensives / calcium-channel blockers",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Endothelial NO-mediated vasodilation and calcium-channel antagonism; hypotensive in anaesthetized rats; acute human doses did not change cardiovascular measures.",
+      "evidence": "Animal/in vitro plus null acute human data",
+      "citations": [
+        "PMID:21762768",
+        "PMID:10433473",
+        "PMID:23281132"
+      ]
+    },
+    {
+      "with": "hyperthyroidism",
       "with_kind": "condition",
       "kind": "caution",
       "severity": "moderate",
-      "mechanism": "Potential cholinergic activity may add to slow heart rate; clinical evidence limited.",
-      "evidence": "Safety precaution based on pharmacology.",
+      "mechanism": "Thyroid-stimulating (T4-raising) effect in mice; reviews advise caution in hyperthyroidism.",
+      "evidence": "Animal data and expert review",
       "citations": [
-        "PMID:38671841"
+        "PMID:12065164",
+        "PMID:40507208"
+      ]
+    },
+    {
+      "with": "pregnancy and lactation",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "No human safety data; reviews advise caution. Ayurvedic products may also be contaminated with lead.",
+      "evidence": "Absence of data; review-level precaution",
+      "citations": [
+        "PMID:40507208",
+        "PMID:15598918"
+      ]
+    },
+    {
+      "with": "male fertility / conception planning",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Brahmi 250 mg/kg/d reversibly suppressed spermatogenesis and fertility in mice; a standardized CDRI-08 extract improved sperm quality in mice. No human data.",
+      "evidence": "Conflicting animal data",
+      "citations": [
+        "PMID:19041444",
+        "PMID:27401287"
+      ]
+    },
+    {
+      "with": "gastrointestinal disorders",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Dose-related nausea, abdominal cramps, increased stool frequency and diarrhea are the most consistent adverse effects; cholinergic and smooth-muscle actions.",
+      "evidence": "Multiple RCTs and open-label study",
+      "citations": [
+        "PMID:20590480",
+        "PMID:41091332",
+        "PMID:37032999"
+      ]
+    },
+    {
+      "with": "heavy metal exposure (Ayurvedic products)",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Bacopa accumulates Cd and Pb; ~20% of Ayurvedic products contained Pb, Hg or As; severe and fatal lead poisoning cases from Ayurvedic supplements. Use third-party-tested products, especially for children.",
+      "evidence": "Product surveys and case reports",
+      "citations": [
+        "PMID:23824547",
+        "PMID:15598918",
+        "PMID:18728265",
+        "PMID:41244251",
+        "PMID:40978857"
+      ]
+    },
+    {
+      "with": "Caffeine",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Bacopa inhibits CYP1A2 in vitro; CYP1A2 metabolizes ~95% of caffeine, so caffeine exposure could rise. A Bacopa-ginseng-coffee-fruit formula was tolerated.",
+      "evidence": "Theoretical (in vitro + PK review)",
+      "citations": [
+        "PMID:24566323",
+        "PMID:29514871",
+        "PMID:38512715"
+      ]
+    },
+    {
+      "with": "Alpha-GPC",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Choline donor plus Bacopa AChE suppression: theoretical additive cholinergic effects (GI upset); choline-Bacopa combinations neuroprotective only in preclinical models.",
+      "evidence": "Preclinical combination studies; no human interaction data",
+      "citations": [
+        "PMID:37762339",
+        "PMID:41751239",
+        "PMID:23320031"
+      ]
+    },
+    {
+      "with": "Citicholine",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Choline donor plus Bacopa AChE suppression: theoretical additive cholinergic effects; choline-Bacopa combinations studied only preclinically.",
+      "evidence": "Preclinical combination studies; no human interaction data",
+      "citations": [
+        "PMID:37762339",
+        "PMID:41751239",
+        "PMID:23320031"
+      ]
+    },
+    {
+      "with": "Ashwagandha",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Frequently co-formulated; both may raise T4 (Bacopa in mice, ashwagandha in human RCT); both implicated in adaptogen-antidepressant adverse event reports.",
+      "evidence": "Animal + human thyroid data; pharmacovigilance; no combination safety trial",
+      "citations": [
+        "PMID:12065164",
+        "PMID:28829155",
+        "PMID:37829299",
+        "PMID:39683490"
+      ]
+    },
+    {
+      "with": "L-Theanine",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Both studied for attention/ADHD; no interaction study found; additive calming effect is theoretical.",
+      "evidence": "No direct evidence",
+      "citations": [
+        "PMID:40362791"
+      ]
+    },
+    {
+      "with": "Rhodiola Rosea",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Both are adaptogens in cognitive stacks; Rhodiola and Bacopa each appear in herb-psychotropic adverse interaction reports; no direct Bacopa-Rhodiola data.",
+      "evidence": "No direct evidence; pharmacovigilance of each herb separately",
+      "citations": [
+        "PMID:34370563",
+        "PMID:30659561"
+      ]
+    },
+    {
+      "with": "thyroid function tests",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Physiological (not assay) change: possible T4 rise based on mouse data.",
+      "evidence": "Animal data only",
+      "citations": [
+        "PMID:12065164"
       ]
     }
   ],
   "citations": [
+    "PMID:10433473",
+    "PMID:10940574",
+    "PMID:11498727",
+    "PMID:12065164",
+    "PMID:12093601",
+    "PMID:12404571",
+    "PMID:14994318",
+    "PMID:15598918",
+    "PMID:15688952",
+    "PMID:16914834",
+    "PMID:17442556",
+    "PMID:17560704",
+    "PMID:17604373",
+    "PMID:18478974",
+    "PMID:18611150",
+    "PMID:18683852",
+    "PMID:18728265",
+    "PMID:19041444",
+    "PMID:19757037",
+    "PMID:19841509",
+    "PMID:20590480",
+    "PMID:20703343",
+    "PMID:21762768",
+    "PMID:22364254",
+    "PMID:22390677",
+    "PMID:22747190",
+    "PMID:23043278",
+    "PMID:23281132",
+    "PMID:23320031",
+    "PMID:23354535",
+    "PMID:23788517",
+    "PMID:23824547",
+    "PMID:24015255",
+    "PMID:24252493",
+    "PMID:24566323",
+    "PMID:24682000",
+    "PMID:25869246",
+    "PMID:26413131",
+    "PMID:26633481",
+    "PMID:26677075",
+    "PMID:27030208",
+    "PMID:27401287",
+    "PMID:27590125",
+    "PMID:27761079",
+    "PMID:27803728",
+    "PMID:27912958",
+    "PMID:28588366",
+    "PMID:28829155",
+    "PMID:29054405",
+    "PMID:29165401",
+    "PMID:29514871",
+    "PMID:29676230",
+    "PMID:30659561",
+    "PMID:30841457",
+    "PMID:33436817",
+    "PMID:33650944",
+    "PMID:34063409",
+    "PMID:34370563",
+    "PMID:35041248",
+    "PMID:35592415",
+    "PMID:35612544",
+    "PMID:35765109",
+    "PMID:36800346",
+    "PMID:36943953",
+    "PMID:37032999",
+    "PMID:37492071",
+    "PMID:37762339",
+    "PMID:37829299",
+    "PMID:38512715",
     "PMID:38538390",
-    "PMID:38671841",
-    "PMID:41678913"
+    "PMID:38718157",
+    "PMID:39498770",
+    "PMID:39626587",
+    "PMID:39631219",
+    "PMID:39683490",
+    "PMID:40362791",
+    "PMID:40507208",
+    "PMID:40609195",
+    "PMID:40769392",
+    "PMID:40978857",
+    "PMID:41008247",
+    "PMID:41091332",
+    "PMID:41169277",
+    "PMID:41244251",
+    "PMID:41575193",
+    "PMID:41640686",
+    "PMID:41678913",
+    "PMID:41740144",
+    "PMID:41751239",
+    "PMID:41830548",
+    "PMID:41836921",
+    "PMID:42102930",
+    "PMID:42353204",
+    "PMID:42359794",
+    "PMID:42489905",
+    "PMID:42616216",
+    "PMID:42739755",
+    "PMID:42852756"
   ]
 }

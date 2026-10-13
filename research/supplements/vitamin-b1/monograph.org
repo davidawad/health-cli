@@ -3,44 +3,207 @@
 :ID: supp-vitamin-b1
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: Vitamin B1 | thiamin | thiamine | thiamine hydrochloride | benfotiamine
+:ALIASES: thiamine | thiamin | aneurine | thiamine hydrochloride | thiamine mononitrate | benfotiamine | sulbutiamine | allithiamine | fursultiamine (TTFD) | thiamine diphosphate (TDP/TPP)
 :CATEGORY: vitamin
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Thiamin (vitamin B1) is water soluble; common supplements include thiamin hydrochloride, thiamin mononitrate, and lipid-soluble benfotiamine. [URL:https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/]
+- Thiamine is an essential water-soluble B vitamin. Adult RDAs are 1.2 mg/d for men and 1.1 mg/d for women, and no tolerable upper intake level was set [PMID:23193625].
+- Thiamine hydrochloride and thiamine mononitrate are the water-soluble salts used in supplements, fortification and injections [PMID:22305197] [PMID:35734514]. Oral thiamine HCl is absorbed by an active, saturable carrier and by passive diffusion. High blood levels are reached quickly at 100-1500 mg doses, with exposure rising less than proportionally to dose [PMID:22305197].
+- Benfotiamine (S-benzoylthiamine O-monophosphate) is a lipid-soluble S-acyl prodrug. Compared with thiamine HCl, it gave about 11-fold higher plasma thiamine bioavailability and about 2-fold higher erythrocyte TDP in humans [PMID:24399744]. In mice it raised blood and liver thiamine but not brain thiamine [PMID:18549472].
+- Sulbutiamine (isobutyryl thiamine disulfide) is a lipophilic disulfide developed in Japan for beriberi. It crosses the blood-brain barrier and is marketed for asthenia and as a "nootropic" [PMID:32399290] [PMID:28755683].
+- Allithiamine is a disulfide thiamine formed enzymatically in crushed garlic and other Allium bulbs. Fursultiamine (thiamine tetrahydrofurfuryl disulfide, TTFD) is its synthetic counterpart [PMID:15328496].
 
 ** Mechanisms
-- Thiamin diphosphate is a cofactor for pyruvate dehydrogenase, alpha-ketoglutarate dehydrogenase, branched-chain ketoacid dehydrogenase and transketolase, linking carbohydrate metabolism and energy production. [URL:https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/]
+- Thiamine is converted in cells to thiamine diphosphate (TDP). TDP is the cofactor for pyruvate dehydrogenase, alpha-ketoglutarate dehydrogenase, branched-chain keto-acid dehydrogenase and transketolase, which link glucose metabolism to ATP production and the pentose phosphate pathway [PMID:40647310] [PMID:33354793].
+- Deficiency causes beriberi (cardiac "wet" and neuropathic "dry" forms), Wernicke encephalopathy and Korsakoff syndrome. In regions that rely on milled rice, infantile beriberi is a public-health problem [PMID:30151974] [PMID:41684754].
+- Transport: SLC19A2 (THTR-1) and SLC19A3 (THTR-2) carry thiamine into cells. THTR-2 is the main intestinal transporter [PMID:26528626] [PMID:39738067]. OCT1 (SLC22A1) is a high-capacity hepatic thiamine transporter, and metformin competitively inhibits it [PMID:24961373].
+- Benfotiamine activates transketolase, which diverts glycolytic intermediates into the pentose phosphate pathway. This was proposed to protect against hyperglycemic microvascular damage [PMID:41571333].
+- In sepsis and shock, thiamine is proposed to restore pyruvate dehydrogenase flux and lower lactate. Pooled RCTs show only a small lactate reduction (MD -0.34 mmol/L) [PMID:39307094].
+- Magnesium is a cofactor for thiamine-dependent enzymes. Low magnesium was linked to a delayed transketolase and clinical response to thiamine in Wernicke-Korsakoff syndrome [PMID:4420329].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---|---|---|---|---|---|
-| Thiamin deficiency / beriberi | Clinical treatment evidence | benefit | Replacement treats deficiency; untreated deficiency can cause neurologic/cardiac disease | high | URL:https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/ |
-| Critical illness mortality | Systematic review of RCTs | uncertain | Meta-analysis does not establish consistent mortality benefit | low | PMID:39307094 |
-| Diabetic neuropathy (benfotiamine) | Short RCTs | possible symptom benefit | Short-term symptom scores improved in some trials; long-term outcomes unclear | low | PMID:17383958 |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Wernicke encephalopathy (treatment/prevention) | Cochrane SR; 2 dose-ranging RCTs (n=393 at-risk, n=127 symptomatic); guidelines; SR of case series | Benefit vs untreated is established clinically; no dose was superior | No difference between 100 mg/d and 300-1500 mg/d parenteral regimens on cognition/neurology; Cochrane: RCT evidence insufficient for dose/route/duration | low (dose); high (need to treat) | [PMID:23818100] [PMID:35428992] [PMID:20642790] [PMID:38306946] |
+| Mortality in sepsis/critical illness (IV thiamine) | SR/MA of 35 RCTs (n=3494); component NMA of 43 RCTs | No mortality benefit | RR 0.89 (0.75-1.06); shock duration -11.4 h; SOFA -1.29; ICU stay +0.40 d | low | [PMID:39307094] [PMID:34750650] |
+| Septic shock: RRT, in-hospital mortality | MAs of 6-9 small RCTs (n=438-520) | Possible benefit | RRT RR 0.48 (0.31-0.74); in-hospital mortality RR 0.80 (0.65-0.99) in one MA, OR 0.78 (NS) in another | very low | [PMID:41277404] [PMID:41863966] |
+| Sepsis: vitamin C + thiamine + hydrocortisone | Large RCTs (VICTAS n=501; VITAMINS n=216) | No benefit | VICTAS vent/vasopressor-free days median diff -1 d (-4 to 2); VITAMINS vasopressor-free time diff -0.6 h | moderate | [PMID:33620405] [PMID:31950979] [PMID:34750650] |
+| Chronic heart failure (LVEF, NT-proBNP, function) | MAs of 6-8 RCTs (n=274-384) | No consistent benefit | LVEF WMD +1.65% (-1.10 to 4.41); NYHA, 6MWT, NT-proBNP NS | low | [PMID:38940395] [PMID:35842069] [PMID:37126872] |
+| HF on long-term furosemide | Small RCT (n=30) then open label | Improvement | LVEF 0.27 to 0.33 after 7 weeks | very low | [PMID:7733128] [PMID:26899752] |
+| Acute heart failure dyspnea | RCT (n=130) | No benefit | Only 1 of several dyspnea measures differed | low | [PMID:31060559] |
+| Diabetic peripheral neuropathy (benfotiamine) | RCTs: BENDIP 6 wk (n=165); BOND 12 mo (n=57); B-vitamin MA (13 RCTs) | Short-term symptom benefit; no long-term structural benefit | BENDIP NSS improved (PP p=0.033; ITT p=0.055); BOND corneal nerve fibre length NS; B-vitamin MNSI-Q MD -1.44 | low | [PMID:18473286] [PMID:41571333] [PMID:42452619] |
+| Diabetic kidney disease (albuminuria) | 2 RCTs | Inconsistent | Thiamine 300 mg/d lowered UAE (n=40); benfotiamine 900 mg/d had no effect (n=82) | low | [PMID:19057893] [PMID:20413516] |
+| Alzheimer disease/MCI (benfotiamine) | Phase IIa RCT (n=70, 12 mo); phase 2 trial ongoing | Possible slowing | ADAS-Cog 43% less decline (p=0.125); CDR worsening 77% lower (p=0.034) | very low | [PMID:33074237] [PMID:38809849] |
+| Alcohol consumption in AUD (benfotiamine) | RCT (n=120, 24 wk) | Neutral overall; possible benefit in women (subgroup) | Both arms reduced drinking | very low | [PMID:23992649] |
+| Chronic fatigue in quiescent IBD | Crossover RCT (n=40), 600-1800 mg/d | Benefit | IBD-F -4.5 vs +0.75 points (p=0.0003) | low | [PMID:33210299] |
+| Thiamine deficiency after bariatric surgery | MA (41 studies) | Prevalence (not an intervention effect) | 7% pre-op; 19% at 3 mo, 9% at 6 mo, 6% at 1 y | moderate | [PMID:38095772] [PMID:35776243] |
 
 ** Dosing in trials
-- RDA is 1.1 mg/day women and 1.2 mg/day men; trials in critical illness use IV regimens, while benfotiamine neuropathy studies often use 300–600 mg/day. Dose depends strongly on deficiency/clinical indication. [URL:https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/]
+- Wernicke encephalopathy: guidelines recommend 200 mg IV three times daily, given before any carbohydrate [PMID:20642790]. Case reports often use 500 mg IV three times daily [PMID:38306946]. An RCT found no advantage of 500 mg three times daily over 100 mg three times daily [PMID:35428992].
+- Prevention in at-risk alcohol misuse: 100 mg once daily to 300 mg three times daily parenterally for 3 days performed similarly [PMID:35428992].
+- Sepsis trials: 100 mg IV every 6 h (VICTAS) or 200 mg IV every 12 h (VITAMINS), combined with vitamin C and hydrocortisone [PMID:33620405] [PMID:31950979].
+- Heart failure: 200 mg/d IV for 1 week, then 200 mg/d oral for 6 weeks [PMID:7733128]. 500 mg/d thiamine mononitrate for 90 days (THIAMINE-HF) [PMID:35734514]. 25-50 mg/d in children taking diuretics [PMID:41872295].
+- Benfotiamine: 300-600 mg/d for diabetic neuropathy [PMID:18473286] [PMID:41571333]. 900 mg/d was used for nephropathy [PMID:20413516]. The Alzheimer phase 2 trial tests 600 or 1200 mg/d for 72 weeks [PMID:38809849] [URL:https://clinicaltrials.gov/study/NCT06223360].
+- Sulbutiamine: 400 mg/d in an open MS-fatigue study [PMID:28755683].
+- High-dose oral thiamine: 600-1800 mg/d for IBD fatigue [PMID:33210299]. 300 mg/d for diabetic microalbuminuria [PMID:19057893]. 90 mg/d plus folic acid for 96 weeks in hemodialysis [PMID:42059045].
+- Refeeding risk: thiamine plus multivitamin for all at-risk patients [PMID:40090863] [PMID:32115791].
 
 ** Safety & adverse effects
-- No established tolerable upper intake level due to low toxicity; rare allergic reactions reported with parenteral administration. [URL:https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/]
+- Oral thiamine has very low toxicity, and no UL has been set [PMID:23193625]. High oral doses (up to 1800 mg/d) caused only mild side effects in RCTs [PMID:33210299]. Benfotiamine 600 mg/d for 12 months had AE rates similar to placebo [PMID:41571333].
+- Parenteral thiamine: In a prospective series of 989 patients given a 100 mg IV bolus, 1.1% had reactions. These were almost all local irritation, with 1 case of generalized pruritus [PMID:2757284]. In 8606 IV push doses, there was no anaphylaxis and 0.30% had injection-site reactions [PMID:31932197]. In 463 doses of 500 mg IV push, there was no anaphylaxis [PMID:35491726]. Anaphylactic shock with cardiac arrest after a thiamine infusion has been reported, so resuscitation facilities should be available [PMID:23853017].
+- Sulbutiamine: a case report described escalating, dependence-like use that disrupted bipolar disorder care [PMID:16861144]. Its RCT evidence base is sparse [PMID:32399290].
+- Combining vitamin C with thiamine in sepsis was associated with higher mortality in an older, comorbid cluster in an observational analysis (hypothesis-generating) [PMID:39614357].
 
 ** Contraindications
-- No common oral contraindication identified; parenteral thiamin requires clinical administration because hypersensitivity can occur. [URL:https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/]
+- Known hypersensitivity to thiamine, especially for IV use [PMID:23853017] [PMID:2757284].
+- No absolute oral contraindication was identified. Withholding thiamine from at-risk patients is the greater documented hazard [PMID:20642790] [PMID:41684754].
 
 ** Interactions
-- Loop diuretics and chronic alcohol use can contribute to thiamin depletion; thiamin status can be affected by severe malnutrition. No common direct drug interaction or lab assay interference established. [URL:https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/]
+*** Drugs
+- Loop diuretics (furosemide, torasemide): these increase urinary thiamine loss and may inhibit cellular uptake [PMID:26899752]. Furosemide was the drug most often reported in FAERS thiamine-deficiency cases [PMID:41864862]. Furosemide dose predicted worsening TPP effect in children [PMID:41872295]. A stable outpatient cohort had a deficiency prevalence below 11.6% [PMID:26923517].
+- Metformin: it is a substrate and inhibitor of THTR-2 and competitively inhibits OCT1-mediated thiamine uptake [PMID:26528626] [PMID:24961373]. It is predicted to reach intestinal concentrations high enough to inhibit THTR-2 [PMID:31764942]. It ranked second among drugs in FAERS thiamine-deficiency reports [PMID:41864862]. Human clinical depletion data are limited.
+- Fedratinib (JAK2 inhibitor): it potently inhibits THTR-2. Wernicke encephalopathy halted its early development [PMID:25063672] [PMID:39738067]. It shows a FAERS signal [PMID:41864862].
+- 5-fluorouracil: Wernicke encephalopathy after 5-FU chemotherapy has been reported [PMID:19654964]. Low thiamine predicted neurological symptoms in patients on GI-cancer chemotherapy [PMID:31657715]. 5-FU is among the top five FAERS signals [PMID:41864862].
+- IV glucose/dextrose: EFNS advises giving thiamine before carbohydrate [PMID:20642790]. The evidence that a single glucose load precipitates Wernicke encephalopathy is limited to case reports; prolonged glucose without thiamine is the risk [PMID:22104258]. In 120 encounters of intoxicated veterans given dextrose before thiamine, there were no cases [PMID:40873301]. Treatment of hypoglycemia should not be delayed [PMID:22104258].
+- GLP-1 receptor agonists (semaglutide): 6 published cases of Wernicke encephalopathy followed prolonged vomiting and rapid weight loss [PMID:42399213].
+*** Other supplements
+- Green Tea Extract and tea/coffee polyphenols: tannic acid inactivates thiamine in vitro, and ascorbic acid blocks this reaction [PMID:910744]. Polyphenols alter intestinal thiamine transport in experimental models [PMID:20392307]. Clinical relevance at usual intakes is unquantified.
+- Magnesium: hypomagnesemia may cause thiamine-refractory Wernicke-Korsakoff syndrome [PMID:4420329]. Trialists recommend correcting magnesium as well [PMID:35428992].
+- Vitamin C: no benefit when combined with thiamine in sepsis RCTs [PMID:33620405] [PMID:31950979]. It protects thiamine from tannin inactivation in vitro [PMID:910744].
+- B Complex: combination B-vitamin regimens appeared more effective than single agents for diabetic neuropathy, though not significantly in most interaction tests [PMID:42452619].
+*** Conditions
+- Alcohol use disorder: this is the main cause of Wernicke-Korsakoff syndrome [PMID:35428992] [PMID:23818100]. Guidelines advise parenteral thiamine for all at-risk patients admitted to emergency departments [PMID:20642790].
+- Bariatric and other GI surgery: Pooled deficiency prevalence is 27% after surgery [PMID:35776243]. Wernicke encephalopathy typically appears 4-12 weeks post-op with vomiting [PMID:17353468]. Mortality ranged from 0.3% in bariatric cohorts to 40% in oncologic cohorts [PMID:42453365]. EFNS advises monitoring status for at least 6 months [PMID:20642790].
+- Refeeding syndrome: thiamine deficiency is part of the ASPEN severe-RS definition [PMID:32115791]. AuSPEN recommends thiamine for all at-risk patients [PMID:40090863].
+- Diabetes: lower circulating thiamine than controls (SMD -0.97) [PMID:37094704].
+- Pediatric Wernicke encephalopathy: 37% of cases had received parenteral nutrition without thiamine [PMID:39997622].
+- Heart failure on diuretics: see Drugs above.
+*** Lab-test interference
+- No assay artifact is known. Whole-blood TDP by HPLC is the preferred status test; about 90% of blood thiamine is TDP [PMID:18356241] [PMID:42778271]. Plasma thiamine reflects recent intake only [PMID:42778271].
+- Draw blood before giving thiamine, because supplementation raises all thiamine analytes [PMID:20642790] [PMID:41571333].
+- The erythrocyte transketolase activity coefficient (ETKAC) is a functional marker, but cut-offs lack harmonization [PMID:33354793].
+- TDP expressed in nmol/L can mislead in anemia or polycythemia. A hemoglobin-normalized reference interval is 249-531 ng/g Hb [PMID:42833437].
+- No biomarker reliably predicted individual clinical response in infants [PMID:38974350].
 
-** Latest research (last 24 months)
-- 2024 systematic review/meta-analysis of IV thiamine RCTs in critically ill patients reflects continued uncertainty on patient-important outcomes. [PMID:39307094]
+** Genotype notes
+- SLC19A2 (THTR-1): biallelic mutations cause thiamine-responsive megaloblastic anemia with diabetes and deafness (Rogers syndrome) [PMID:10391221].
+- SLC19A3 (THTR-2): mutations cause biotin-thiamine-responsive basal ganglia disease. Crises recurred on biotin alone but not after thiamine was added [PMID:23742248]. Common SLC19A3 variants were associated with protection from severe retinopathy/nephropathy in type 1 diabetes [PMID:26718501]. SLC19A3 haplotypes were associated with glycemic indices in type 2 diabetes and altered the in vitro response to metformin [PMID:40243602].
+- Cryo-EM structures show metformin and fedratinib binding THTR-1/THTR-2. These are the structural basis of drug-nutrient interactions [PMID:39738067].
+
+** Latest research
+- [2026-10] Reference interval for hemoglobin-normalized whole-blood TDP: 249-531 ng/g Hb. Using it reclassified 11.3% of routine samples [PMID:42833437].
+- [2026-07] SR of 6 cases of Wernicke encephalopathy after semaglutide for obesity, several with poor outcomes [PMID:42399213].
+- [2026-07] B-vitamin MA for diabetic neuropathy (13 RCTs, n=834): MNSI improvements below the MCID; no effect on generic pain scores [PMID:42452619].
+- [2026-07] Methods review: whole-blood TDP and ETKAC are the reliable status markers; plasma thiamine is not [PMID:42778271].
+- [2026-06] Critical-care review (18 RCTs, 9 MAs since 2023): very-high-dose micronutrients without prior deficiency are not beneficial [PMID:42273945].
+- [2026-06] SR of Wernicke encephalopathy after GI procedures (13 studies, n=1036): vomiting is the main trigger, and atypical presentations are common [PMID:42453365].
+- [2026-04] Hemodialysis RCT (n=215, 96 wk): thiamine 90 mg plus folic acid improved ADAS-Cog [PMID:42059045].
+- [2026-03] FAERS 2004-2024: 1046 drug-related thiamine-deficiency cases. Top signals were furosemide, metformin, fedratinib, metronidazole and 5-FU [PMID:41864862].
+- [2026-03] Pediatric RCT (n=45) in children on diuretics: 25-50 mg/d did not change TPP effect or LVEF [PMID:41872295].
+- [2026-03] Sepsis MA (9 RCTs, n=520): less RRT, no short-term mortality effect [PMID:41863966].
+- [2026-02] Clinical review of thiamine indications in hospitalized patients [PMID:41684754].
+- [2026-01] BOND RCT: benfotiamine 600 mg/d for 12 months gave no benefit on DSPN morphometric or clinical measures [PMID:41571333].
+- [2025-11] Septic shock MA (6 RCTs): in-hospital mortality RR 0.80, RRT RR 0.48 [PMID:41277404].
+- [2025-08] VA cohort: no Wernicke encephalopathy after dextrose-before-thiamine in intoxicated patients [PMID:40873301].
+- [2025-05] RCT (n=43): B1+B2 100 mg each reduced perceived stress and improved sleep, but not anxiety [PMID:40507089].
+- [2025-03] AuSPEN refeeding consensus: thiamine for all at-risk patients [PMID:40090863].
+- [2025-03] Cardiac surgery RCT (n=64): vitamin C plus B1 lowered myocardial injury markers vs vitamin C alone [PMID:40290059].
+- [2025-03] SLC19A3 haplotypes associated with metabolic traits and metformin response [PMID:40243602].
+- [2024-12] Cryo-EM structures of SLC19A2/A3 with metformin and fedratinib [PMID:39738067].
+- [2024-12] Maternal thiamine 10 mg/d improved infant language processing in Cambodia (RCT, n=335) [PMID:39699595].
+- [2024-11] Septic cluster analysis: thiamine alone was associated with lower mortality in severe clusters; C+B1 may harm older patients [PMID:39614357].
 
 ** Open questions
-- Define which critical-illness subgroups benefit and whether oral benfotiamine changes long-term neuropathy outcomes.
+- What are the optimal dose, route and duration for Wernicke encephalopathy treatment and prophylaxis? RCT evidence remains insufficient [PMID:23818100] [PMID:35428992].
+- Does thiamine benefit septic patients with documented deficiency? Exploratory subgroups suggest it might [PMID:41863966] [PMID:42273945].
+- Does high-dose thiamine help heart-failure patients with confirmed deficiency or heavy diuretic use? A larger trial was recommended [PMID:35734514] [PMID:38940395].
+- Is benfotiamine effective in early Alzheimer disease? BenfoTeam has an estimated completion of 2027 [URL:https://clinicaltrials.gov/study/NCT06223360] [PMID:33074237].
+- Does long-term metformin cause clinically meaningful thiamine depletion in humans [PMID:31764942]?
+- What are harmonized ETKAC and TDP cut-offs [PMID:33354793] [PMID:42833437]?
+- What is the efficacy and abuse liability of sulbutiamine in RCTs [PMID:32399290] [PMID:16861144]?
 
 ** Sources
-- NIH ODS. Thiamin: Health Professional Fact Sheet. [https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/]
-- Karimi E et al. Effect of intravenous thiamine administration on critically ill patients: systematic review and meta-analysis. 2024. [https://pubmed.ncbi.nlm.nih.gov/39307094/]
-- Stracke H et al. Benfotiamine in diabetic polyneuropathy (BENDIP). Exp Clin Endocrinol Diabetes. 2008. [https://pubmed.ncbi.nlm.nih.gov/17383958/]
+1. Institute of Medicine. Dietary Reference Intakes for Thiamin, Riboflavin, Niacin, Vitamin B6, Folate, Vitamin B12, Pantothenic Acid, Biotin, and Choline. National Academies Press. 1998. PMID:23193625 DOI:10.17226/6015
+2. Smithline HA et al. Pharmacokinetics of high-dose oral thiamine hydrochloride in healthy subjects. BMC Clin Pharmacol. 2012. PMID:22305197 DOI:10.1186/1472-6904-12-4
+3. Xie F et al. Pharmacokinetic study of benfotiamine and the bioavailability assessment compared to thiamine hydrochloride. J Clin Pharmacol. 2014. PMID:24399744 DOI:10.1002/jcph.261
+4. Volvert ML et al. Benfotiamine has different mechanisms of action and a different pharmacological profile than lipid-soluble thiamine disulfide derivatives. BMC Pharmacol. 2008. PMID:18549472 DOI:10.1186/1471-2210-8-10
+5. Starling-Soares B et al. Role of the Synthetic B1 Vitamin Sulbutiamine on Health. J Nutr Metab. 2020. PMID:32399290 DOI:10.1155/2020/9349063
+6. Sevim S et al. Sulbutiamine shows promising results in reducing fatigue in patients with multiple sclerosis. Mult Scler Relat Disord. 2017. PMID:28755683 DOI:10.1016/j.msard.2017.05.010
+7. Lonsdale D. Thiamine tetrahydrofurfuryl disulfide: a little known therapeutic agent. Med Sci Monit. 2004. PMID:15328496
+8. Kazmierczak-Baranska J et al. Thiamine (Vitamin B1)-An Essential Health Regulator. Nutrients. 2025. PMID:40647310 DOI:10.3390/nu17132206
+9. Jones KS et al. Erythrocyte transketolase activity coefficient (ETKAC) assay protocol for the assessment of thiamine status. Ann N Y Acad Sci. 2021. PMID:33354793 DOI:10.1111/nyas.14547
+10. Whitfield KC et al. Thiamine deficiency disorders: diagnosis, prevalence, and a roadmap for global control programs. Ann N Y Acad Sci. 2018. PMID:30151974 DOI:10.1111/nyas.13919
+11. Rosewarne RE et al. Thiamine Use in Hospitalized Patients: A Clinical Review. J Nutr Metab. 2026. PMID:41684754 DOI:10.1155/jnme/7143046
+12. Liang X et al. Metformin Is a Substrate and Inhibitor of the Human Thiamine Transporter, THTR-2 (SLC19A3). Mol Pharm. 2015. PMID:26528626 DOI:10.1021/acs.molpharmaceut.5b00501
+13. Li P et al. Substrate transport and drug interaction of human thiamine transporters SLC19A2/A3. Nat Commun. 2024. PMID:39738067 DOI:10.1038/s41467-024-55359-8
+14. Chen L et al. OCT1 is a high-capacity thiamine transporter that regulates hepatic steatosis and is a target of metformin. Proc Natl Acad Sci U S A. 2014. PMID:24961373 DOI:10.1073/pnas.1314939111
+15. Ziegler D et al. Effects of benfotiamine over 12 months in type 2 diabetes patients with symptomatic polyneuropathy (BOND study). BMJ Open Diabetes Res Care. 2026. PMID:41571333 DOI:10.1136/bmjdrc-2025-005773
+16. Nakanishi N et al. Effect of intravenous thiamine administration on critically ill patients: SR and MA of RCTs. Clin Nutr. 2024. PMID:39307094 DOI:10.1016/j.clnu.2024.09.002
+17. Traviesa DC. Magnesium deficiency: a possible cause of thiamine refractoriness in Wernicke-Korsakoff encephalopathy. J Neurol Neurosurg Psychiatry. 1974. PMID:4420329 DOI:10.1136/jnnp.37.8.959
+18. Day E et al. Thiamine for prevention and treatment of Wernicke-Korsakoff Syndrome in people who abuse alcohol. Cochrane Database Syst Rev. 2013. PMID:23818100 DOI:10.1002/14651858.CD004033.pub3
+19. Dingwall KM et al. What is the optimum thiamine dose to treat or prevent Wernicke's encephalopathy or Wernicke-Korsakoff syndrome? Results of a randomized controlled trial. Alcohol Clin Exp Res. 2022. PMID:35428992 DOI:10.1111/acer.14843
+20. Galvin R et al. EFNS guidelines for diagnosis, therapy and prevention of Wernicke encephalopathy. Eur J Neurol. 2010. PMID:20642790 DOI:10.1111/j.1468-1331.2010.03153.x
+21. Cantu-Weinstein A et al. Diagnosis and treatment of Wernicke's encephalopathy: A systematic literature review. Gen Hosp Psychiatry. 2024. PMID:38306946 DOI:10.1016/j.genhosppsych.2024.01.005
+22. Fujii T et al. Effect of adjunctive vitamin C, glucocorticoids, and vitamin B1 on longer-term mortality in sepsis: SR and component NMA. Intensive Care Med. 2022. PMID:34750650 DOI:10.1007/s00134-021-06558-0
+23. Wang G et al. Thiamin supplementation on mitigating kidney injury and mortality in septic shock: SR and MA of RCTs. Nutr Clin Pract. 2026. PMID:41277404 DOI:10.1002/ncp.70073
+24. Xu X et al. Efficacy of thiamine (vitamin B1) in sepsis and septic shock: A meta-analysis of RCTs. Clinics (Sao Paulo). 2026. PMID:41863966 DOI:10.1016/j.clinsp.2026.100901
+25. Sevransky JE et al. Effect of Vitamin C, Thiamine, and Hydrocortisone on Ventilator- and Vasopressor-Free Days in Patients With Sepsis: The VICTAS RCT. JAMA. 2021. PMID:33620405 DOI:10.1001/jama.2020.24505
+26. Fujii T et al. Effect of Vitamin C, Hydrocortisone, and Thiamine vs Hydrocortisone Alone in Septic Shock: The VITAMINS RCT. JAMA. 2020. PMID:31950979 DOI:10.1001/jama.2019.22176
+27. He S et al. Role of Thiamine Supplementation in the Treatment of Chronic Heart Failure: An Updated MA of RCTs. Clin Cardiol. 2024. PMID:38940395 DOI:10.1002/clc.24309
+28. Xu M et al. The effects of thiamine supplementation on patients with heart failure: SR and MA of RCTs. Complement Ther Med. 2022. PMID:35842069 DOI:10.1016/j.ctim.2022.102853
+29. Syed ARS et al. Does thiamine supplementation affect heart failure? SR and MA of RCTs. Heart Lung. 2023. PMID:37126872 DOI:10.1016/j.hrtlng.2023.04.011
+30. Shimon I et al. Improved left ventricular function after thiamine supplementation in CHF patients receiving long-term furosemide. Am J Med. 1995. PMID:7733128 DOI:10.1016/s0002-9343(99)80349-0
+31. Katta N et al. Does Long-Term Furosemide Therapy Cause Thiamine Deficiency in Patients with Heart Failure? A Focused Review. Am J Med. 2016. PMID:26899752 DOI:10.1016/j.amjmed.2016.01.037
+32. Smithline HA et al. Supplemental thiamine for the treatment of acute heart failure syndrome: an RCT. BMC Complement Altern Med. 2019. PMID:31060559 DOI:10.1186/s12906-019-2506-8
+33. Wong EKC et al. High-Dose Thiamine Supplementation in Older Patients With Heart Failure: Pilot RCT Crossover (THIAMINE-HF). CJC Open. 2022. PMID:35734514 DOI:10.1016/j.cjco.2022.02.007
+34. Sumboonnanonda R et al. Impact of thiamin supplementation on TPP effect and cardiac function in pediatric heart disease patients on diuretics: an RCT. Sci Rep. 2026. PMID:41872295 DOI:10.1038/s41598-026-45100-4
+35. Teigen LM et al. Prevalence of thiamine deficiency in a stable heart failure outpatient cohort on loop diuretic therapy. Clin Nutr. 2016. PMID:26923517 DOI:10.1016/j.clnu.2016.02.011
+36. Stracke H et al. Benfotiamine in diabetic polyneuropathy (BENDIP): results of a randomised, double blind, placebo-controlled clinical study. Exp Clin Endocrinol Diabetes. 2008. PMID:18473286 DOI:10.1055/s-2008-1065351
+37. Mandra EV et al. Vitamin B Supplementation for Diabetic Peripheral Neuropathy: A Review and Meta-Analysis. J Clin Med. 2026. PMID:42452619 DOI:10.3390/jcm15135156
+38. Rabbani N et al. High-dose thiamine therapy for patients with type 2 diabetes and microalbuminuria: a randomised pilot study. Diabetologia. 2009. PMID:19057893 DOI:10.1007/s00125-008-1224-4
+39. Alkhalaf A et al. A double-blind RCT on benfotiamine treatment in patients with diabetic nephropathy. Diabetes Care. 2010. PMID:20413516 DOI:10.2337/dc09-2241
+40. Gibson GE et al. Benfotiamine and Cognitive Decline in Alzheimer's Disease: Results of a Randomized Placebo-Controlled Phase IIa Clinical Trial. J Alzheimers Dis. 2020. PMID:33074237 DOI:10.3233/JAD-200896
+41. Feldman HH et al. Protocol for a seamless phase 2A-2B RCT of benfotiamine in early Alzheimer's disease (BenfoTeam). PLoS One. 2024. PMID:38809849 DOI:10.1371/journal.pone.0302998
+42. Manzardo AM et al. Double-blind, randomized placebo-controlled clinical trial of benfotiamine for severe alcohol dependence. Drug Alcohol Depend. 2013. PMID:23992649 DOI:10.1016/j.drugalcdep.2013.07.035
+43. Bager P et al. Randomised clinical trial: high-dose oral thiamine versus placebo for chronic fatigue in quiescent IBD. Aliment Pharmacol Ther. 2021. PMID:33210299 DOI:10.1111/apt.16166
+44. Karimi Behnagh A et al. Pre- and Post-surgical Prevalence of Thiamine Deficiency in Bariatric Surgery: SR and MA. Obes Surg. 2024. PMID:38095772 DOI:10.1007/s11695-023-06896-6
+45. Bahardoust M et al. B1 Vitamin Deficiency After Bariatric Surgery, Prevalence, and Symptoms: SR and MA. Obes Surg. 2022. PMID:35776243 DOI:10.1007/s11695-022-06178-7
+46. Singh S et al. Wernicke encephalopathy after obesity surgery: a systematic review. Neurology. 2007. PMID:17353468 DOI:10.1212/01.wnl.0000256812.29648.86
+47. Abu-Qasem H et al. Wernicke encephalopathy in non-alcoholic patients following gastrointestinal procedures: a systematic review. Front Surg. 2026. PMID:42453365 DOI:10.3389/fsurg.2026.1802386
+48. Xie K et al. RCT of thiamin plus folic acid for cognitive impairment in maintenance hemodialysis. Ren Fail. 2026. PMID:42059045 DOI:10.1080/0886022X.2026.2658981
+49. da Silva JSV et al. ASPEN Consensus Recommendations for Refeeding Syndrome. Nutr Clin Pract. 2020. PMID:32115791 DOI:10.1002/ncp.10474
+50. Matthews-Rensch K et al. AuSPEN: Consensus statements on refeeding syndrome. Nutr Diet. 2025. PMID:40090863 DOI:10.1111/1747-0080.70003
+51. Wrenn KD et al. A toxicity study of parenteral thiamine hydrochloride. Ann Emerg Med. 1989. PMID:2757284 DOI:10.1016/s0196-0644(89)80215-x
+52. McLaughlin K et al. Safety of intravenous push thiamine administration at a tertiary academic medical center. J Am Pharm Assoc. 2020. PMID:31932197 DOI:10.1016/j.japh.2019.12.005
+53. Aldhaeefi M et al. Evaluation of the safety of 500 mg intravenous push thiamine. Sci Prog. 2022. PMID:35491726 DOI:10.1177/00368504221096539
+54. Juel J et al. Anaphylactic shock and cardiac arrest caused by thiamine infusion. BMJ Case Rep. 2013. PMID:23853017 DOI:10.1136/bcr-2013-009648
+55. Douzenis A et al. Sulbutiamine, an 'innocent' over the counter drug, interferes with therapeutic outcome of bipolar disorder. World J Biol Psychiatry. 2006. PMID:16861144 DOI:10.1080/15622970500492616
+56. Legouis D et al. Differential effects of thiamine and ascorbic acid in clusters of septic patients identified by latent variable analysis. Crit Care. 2024. PMID:39614357 DOI:10.1186/s13054-024-05188-4
+57. Du X et al. Adverse events associated with drug-related thiamine deficiency: A pharmacovigilance study. JPEN J Parenter Enteral Nutr. 2026. PMID:41864862 DOI:10.1002/jpen.70085
+58. Vora B et al. Drug-nutrient interactions: discovering prescription drug inhibitors of the thiamine transporter ThTR-2 (SLC19A3). Am J Clin Nutr. 2020. PMID:31764942 DOI:10.1093/ajcn/nqz255
+59. Zhang Q et al. The JAK2 inhibitor fedratinib inhibits thiamine uptake: a putative mechanism for Wernicke's encephalopathy. Drug Metab Dispos. 2014. PMID:25063672 DOI:10.1124/dmd.114.058883
+60. Cho IJ et al. A case of Wernicke's encephalopathy following fluorouracil-based chemotherapy. J Korean Med Sci. 2009. PMID:19654964 DOI:10.3346/jkms.2009.24.4.747
+61. Iimura Y et al. Potential thiamine deficiency and neurological symptoms in patients receiving chemotherapy for gastrointestinal cancer. Int J Clin Pharmacol Ther. 2020. PMID:31657715 DOI:10.5414/CP203602
+62. Schabelman E et al. Glucose before thiamine for Wernicke encephalopathy: a literature review. J Emerg Med. 2012. PMID:22104258 DOI:10.1016/j.jemermed.2011.05.076
+63. Jasti J et al. Prevalence of Wernicke's Encephalopathy When Receiving Dextrose Before Thiamine: A National Study of Veterans. Acad Emerg Med. 2025. PMID:40873301 DOI:10.1111/acem.70131
+64. Bidesie J et al. Wernicke's Encephalopathy Following Semaglutide Treatment for Obesity: A Systematic PRISMA Review. Obesity (Silver Spring). 2026. PMID:42399213 DOI:10.1002/oby.70256
+65. Rungruangsak K et al. Chemical interactions between thiamin and tannic acid. I. Kinetics, oxygen dependence and inhibition by ascorbic acid. Am J Clin Nutr. 1977. PMID:910744 DOI:10.1093/ajcn/30.10.1680
+66. Martel F et al. Effect of polyphenols on the intestinal and placental transport of some bioactive compounds. Nutr Res Rev. 2010. PMID:20392307 DOI:10.1017/S0954422410000053
+67. Ziegler D et al. Association between diabetes and thiamine status - A systematic review and meta-analysis. Metabolism. 2023. PMID:37094704 DOI:10.1016/j.metabol.2023.155565
+68. Oudman E et al. Pediatric Wernicke Encephalopathy: A Systematic Review. Pediatr Rep. 2025. PMID:39997622 DOI:10.3390/pediatric17010015
+69. Lu J et al. Rapid HPLC measurement of thiamine and its phosphate esters in whole blood. Clin Chem. 2008. PMID:18356241 DOI:10.1373/clinchem.2007.099077
+70. Jones KS et al. Assessment of thiamine status in humans. Methods Enzymol. 2026. PMID:42778271 DOI:10.1016/bs.mie.2026.06.018
+71. Guihaire S et al. Hemoglobin-normalized thiamine diphosphate (vitamin B1) in whole blood: Reference intervals and clinical implications. Clin Biochem. 2026. PMID:42833437 DOI:10.1016/j.clinbiochem.2026.111215
+72. Hess SY et al. Erythrocyte transketolase, whole blood ThDP and human milk thiamine to identify children responding to thiamine: Lao Thiamine Study. Curr Dev Nutr. 2024. PMID:38974350 DOI:10.1016/j.cdnut.2024.103786
+73. Labay V et al. Mutations in SLC19A2 cause thiamine-responsive megaloblastic anaemia associated with diabetes mellitus and deafness. Nat Genet. 1999. PMID:10391221 DOI:10.1038/10372
+74. Alfadhel M et al. Biotin-responsive basal ganglia disease should be renamed biotin-thiamine-responsive basal ganglia disease. Orphanet J Rare Dis. 2013. PMID:23742248 DOI:10.1186/1750-1172-8-83
+75. Porta M et al. Variation in SLC19A3 and Protection From Microvascular Damage in Type 1 Diabetes. Diabetes. 2016. PMID:26718501 DOI:10.2337/db15-1247
+76. Szabo E et al. Genetic Variants of the Human Thiamine Transporter (SLC19A3, THTR2)-Potential Relevance in Metabolic Diseases. Int J Mol Sci. 2025. PMID:40243602 DOI:10.3390/ijms26072972
+77. Blaauw R et al. Micronutrient trials in critical illness - new evidence since 2023. Curr Opin Crit Care. 2026. PMID:42273945 DOI:10.1097/MCC.0000000000001396
+78. Tao Y et al. Impact of Vitamin B1 and Vitamin B2 Supplementation on Anxiety, Stress, and Sleep Quality: An RCT. Nutrients. 2025. PMID:40507089 DOI:10.3390/nu17111821
+79. Saetang M et al. Effect of Combined Vitamin C and Thiamine Therapy on Myocardial and Inflammatory Markers in Cardiac Surgery: An RCT. Nutrients. 2025. PMID:40290059 DOI:10.3390/nu17061006
+80. Baldwin DA et al. Language processing in breastfed infants at risk of thiamine deficiency benefits from maternal thiamine supplementation. Dev Psychol. 2025. PMID:39699595 DOI:10.1037/dev0001829
+81. ClinicalTrials.gov. A Trial to Evaluate the Safety and Efficacy of Benfotiamine in Patients With Early Alzheimer's Disease (BenfoTeam), NCT06223360. URL:https://clinicaltrials.gov/study/NCT06223360

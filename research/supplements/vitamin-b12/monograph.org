@@ -3,46 +3,210 @@
 :ID: supp-vitamin-b12
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: Vitamin B12 | cobalamin | cyanocobalamin | methylcobalamin | hydroxocobalamin | adenosylcobalamin
+:ALIASES: cobalamin | cyanocobalamin | hydroxocobalamin | methylcobalamin | mecobalamin | adenosylcobalamin | cobamamide | vitamin B-12
 :CATEGORY: vitamin
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Cobalamin forms include cyanocobalamin, methylcobalamin, adenosylcobalamin and hydroxocobalamin. Supplements and fortified foods are important sources for people with low animal-food intake or impaired absorption. [URL:https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/]
+- Vitamin B12 (cobalamin) is a cobalt-containing corrinoid (cyanocobalamin injection is 4.34% cobalt). It is found only in animal-source foods; with normal absorption, dietary deficiency has been reported only in strict vegetarians [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cdd4fd12-e214-43a6-b560-d56fc0d87190].
+- Cyanocobalamin: the stable synthetic form. It is used in most OTC tablets, US injections and the large homocysteine trials [PMID:20424250] [PMID:25411293].
+- Hydroxocobalamin: the usual UK intramuscular (IM) form. After loading, many patients with malabsorption are maintained on 1000 ug IM every 2 months, but up to half need more frequent dosing [PMID:38987879]. High-dose IV hydroxocobalamin is a cyanide antidote [PMID:33444605].
+- Methylcobalamin (mecobalamin) and adenosylcobalamin are the two intracellular coenzyme forms [PMID:33881359]. NICE accepts oral cyanocobalamin, methylcobalamin or adenosylcobalamin for dietary deficiency [URL:https://www.nice.org.uk/guidance/ng239/chapter/Recommendations]. The corpus has a separate "B12 methylcobalamin" item; this monograph covers B12 generally. No head-to-head RCT showing that one oral form is clinically superior was retrieved.
+- Routes: oral, sublingual, IM and nasal. A 2025 meta-analysis (16 studies, n=6098) found no difference between oral, sublingual and IM routes in serum B12 rise (pooled +402.6 pg/mL) or homocysteine fall (-4.83 umol/L). I2 was >80% [PMID:41487531].
 
 ** Mechanisms
-- B12 is a cofactor for methionine synthase and methylmalonyl-CoA mutase, supporting DNA synthesis, red-cell formation and neurologic function. [URL:https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/]
+- B12 is the cofactor for two enzymes [PMID:33881359] [PMID:39367523]: methionine synthase (methylcobalamin), which remethylates homocysteine using 5-methyl-THF; methylmalonyl-CoA mutase (adenosylcobalamin). Deficiency therefore raises total homocysteine (tHcy) and methylmalonic acid (MMA).
+- Absorption: food B12 is released by acid/pepsin, then binds haptocorrin and intrinsic factor (IF), and is absorbed in the ileum by a calcium-dependent IF receptor (cubilin). In blood it circulates on transcobalamin (holoTC, "active B12") and on haptocorrin (holoHC, taken up only by liver) [PMID:33881359] [PMID:29040465] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cdd4fd12-e214-43a6-b560-d56fc0d87190].
+- High oral doses bypass IF through passive absorption. In older adults with mild deficiency, 647-1032 ug/day oral cyanocobalamin was needed for 80-90% of the maximal MMA reduction [PMID:15911731]. After injection, 50-98% of a 100-1000 ug dose appears in urine within 48 h [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cdd4fd12-e214-43a6-b560-d56fc0d87190].
+- Folate interaction: folic acid >0.1 mg/day can correct the anemia of B12 deficiency but not the neurologic damage [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cdd4fd12-e214-43a6-b560-d56fc0d87190]. In NHANES, high folate with low B12 was linked to anemia, cognitive impairment (OR 2.6) and higher tHcy/MMA [PMID:17209196] [PMID:18056804]. Mechanisms are reviewed in [PMID:40315282].
+- Nitrous oxide oxidizes cobalamin and inactivates methionine synthase. Functional deficiency occurs even when serum B12 is normal [PMID:37371921].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---|---|---|---|---|---|
-| Confirmed deficiency | Clinical replacement evidence | benefit | Prevents/treats megaloblastic anemia and neurologic manifestations | high | URL:https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/ |
-| Cognition in nondeficient older adults | Systematic review/meta-analysis | very small benefit or null | 2025 meta-analysis reports a very small pooled benefit across B vitamins; not B12-specific proof | moderate | PMID:40966571 |
-| Neuropathy in deficiency | Systematic review and RCT evidence | benefit | Replacement benefits clinically evident deficiency; oral and IM can both work in studied contexts | moderate | PMID:12143585 |
-| Cognitive enhancement without deficiency | RCT meta-analysis | null/uncertain | No consistent benefit established in nondeficient adults | moderate | PMID:33809274 |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---+---+---+---+---+---|
+| Correcting deficiency: oral vs IM | Cochrane SR (3 RCTs, n=153); 2025 MA; OB12 non-inferiority RCT | Oral about equal to IM | 1000 ug/d oral about equal to IM; 2000 ug/d oral MD +680 pg/mL vs IM; OB12 non-inferior at 8 wk, not at 52 wk (73.6% vs 80.4% normal) | low | [PMID:29543316] [PMID:41487531] [PMID:32819927] |
+| Hematologic/neurologic response in deficiency | RCT, 2 mg/d oral vs 1 mg IM (n=33) | Benefit, equal by route | Correction "indistinguishable"; MMA 169 vs 265 nmol/L at 4 mo | low | [PMID:9694707] |
+| Cognition, no overt deficiency | SR/MA (16 RCTs, n=6276); MA of 11 trials (n=22,000) | Null | Global cognition z difference 0.00 (-0.05 to 0.06) | high | [PMID:33809274] [PMID:24965307] [PMID:39655146] |
+| Global cognition, older adults (B vitamins) | SR/MA (17 RCTs, n=5275); 2022 MA | Small benefit, heterogeneous | g 0.42 (I2 93%, GRADE very low); MMSE MD 0.14 | very low | [PMID:40966571] [PMID:34432056] |
+| Brain atrophy/cognition in MCI with high tHcy (VITACOG) | RCT (n=266; 168 MRI) | Benefit only if baseline tHcy high | Atrophy 0.76% vs 1.08%/y; 53% slower if tHcy >13 umol/L | low | [PMID:20838622] [PMID:23690582] [PMID:21780182] |
+| Depressive symptoms | SR/MA of RCTs | Null | SMD -0.01 (-0.08 to 0.05) | moderate | [PMID:33809274] [PMID:39655146] |
+| Stroke (homocysteine lowering) | Cochrane (15 RCTs, n=71,422) | Small benefit | RR 0.90 (0.82-0.99) | moderate | [PMID:28816346] |
+| MI / all-cause mortality | Cochrane; 2025 MA in CHD | Null | MI RR 1.02 (0.95-1.10); death RR 1.01 (0.96-1.06) | high | [PMID:28816346] [PMID:41615824] |
+| Diabetic nephropathy (DIVINe: 1 mg cyanocobalamin + folate + B6) | RCT (n=238) | Harm | GFR -16.5 vs -10.7 mL/min/1.73m2 (MD -5.8); vascular composite HR 2.0 (1.0-4.0) | moderate | [PMID:20424250] |
+| Osteoporotic fracture (B-PROOF) | RCT (n=2919) + extended follow-up | Null | HR 0.84 (0.58-1.21); follow-up HR 0.99 | moderate | [PMID:25411293] [PMID:32800386] |
+| Cancer with B12 + folic acid | B-PROOF secondary/follow-up | Possible harm signal | Overall HR 1.25 (1.00-1.53); colorectal HR 1.77 (1.08-2.90) | low | [PMID:30341095] [PMID:25411293] |
+| Diabetic neuropathy on metformin | RCT (1000 ug/d methylcobalamin, 1 y, n=90); MA of mecobalamin | Benefit | Improved VPT, pain, SNCV; response RR 1.17 (mostly high-risk-of-bias trials) | low | [PMID:33513879] [PMID:32716261] |
+| Child growth/cognition | Cochrane 2026 (16 RCTs, n=4083) | Null for function | Cognition SMD 0.09 (-0.10 to 0.28); deficiency RR 0.27 | low | [PMID:42227307] |
+| Pregnancy outcomes | Cochrane 2024 (5 RCTs, n=984) | Uncertain | Maternal deficiency RR 0.38; low birthweight RR 1.50 (0.93-2.43) | very low | [PMID:38189492] |
+| Capecitabine hand-foot syndrome (methylcobalamin) | Phase 3 RCT (n=234) | Benefit | Grade >=2: 14.5% vs 29.1% | moderate | [PMID:40935571] |
+| Early ALS (50 mg IM methylcobalamin twice weekly) | RCT (n=130) | Benefit | ALSFRS-R +1.97 points at 16 wk | low | [PMID:35532908] |
 
 ** Dosing in trials
-- RDA is 2.4 µg/day in adults. Deficiency treatment regimens commonly use high oral doses (e.g. 1,000–2,000 µg/day) or intramuscular therapy depending on cause/severity. [URL:https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/]
+- Reference intake in pregnancy and lactation is 4 ug/day (FNB value cited on the label) [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cdd4fd12-e214-43a6-b560-d56fc0d87190].
+- Malabsorption: NICE advises at least 1 mg/day orally. IM is considered for neurological features or rapidly deteriorating conditions [URL:https://www.nice.org.uk/guidance/ng239/chapter/Recommendations]. A US review agrees: oral is non-inferior, and IM is for severe or neurologic cases [PMID:40961307]. Oral-vs-IM RCTs used 1000-2000 ug/day [PMID:29543316] [PMID:9694707].
+- After total gastrectomy: oral mecobalamin 500-1500 ug/day normalized serum B12 in most patients, but studies were short and mostly non-randomized [PMID:42287473].
+- Homocysteine trials: VITACOG: B12 0.5 mg + folic acid 0.8 mg + B6 20 mg [PMID:20838622]. B-PROOF: B12 500 ug + folic acid 400 ug [PMID:25411293]. DIVINe: cyanocobalamin 1 mg + folic acid 2.5 mg + B6 25 mg [PMID:20424250].
+- Across trials, regimens ranged from 0.02-1 mg/day orally to 1-5 mg/week IM, for about 4 weeks to 7 years [PMID:42197057].
+- Vegans have lower serum B12/holoTC and higher tHcy than omnivores [PMID:39373282]. In pregnant vegetarians, 250 vs 50 ug/day methylcobalamin gave a slightly higher infant mental DQ [PMID:41850742].
 
 ** Safety & adverse effects
-- No UL established; generally low toxicity. Rare acneiform eruptions and hypersensitivity are reported. Check methylmalonic acid when serum B12 borderline and interpretation is needed. [URL:https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/]
+- Oral B12 has a wide margin of safety: very low-quality evidence suggests oral is as safe as IM [PMID:29543316]. A 2026 review found no consistent benefit in people without deficiency and advises against routine testing in people without risk factors [PMID:42197057].
+- Hypersensitivity: the label reports anaphylaxis and deaths after parenteral B12 [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cdd4fd12-e214-43a6-b560-d56fc0d87190]. In a UK series (n=29) there were 8 anaphylaxis cases (4 to hydroxocobalamin, 4 to cyanocobalamin). Some patients tolerated the alternative form, and one reacted to PEG in an oral product [PMID:37898177].
+- Label warnings when treating severe megaloblastic anemia [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cdd4fd12-e214-43a6-b560-d56fc0d87190]: hypokalemia and sudden death (monitor potassium for 48 h); early pulmonary edema/CHF; peripheral thrombosis and polycythemia vera.
+- Acne/rosacea: case reports describe acneiform or rosacea-fulminans eruptions with high-dose B6+B12 that resolved on stopping [PMID:1834437] [PMID:11763399]. A dermatology review lists acne, rosacea and cobalt or injection-site reactions [PMID:25559140]. Paradoxically, an uncontrolled series (n=13) reported that IM hydroxocobalamin acutely reduced rosacea erythema [PMID:35783562].
+- Renal impairment: In DIVINe, B vitamins with 1 mg cyanocobalamin sped GFR loss and doubled vascular events [PMID:20424250]. Spence hypothesizes that cyanide/thiocyanate from cyanocobalamin accumulates at GFR <50, and suggests methylcobalamin or hydroxocobalamin instead. This idea is untested in trials [PMID:23449527] [PMID:26597770]. A meta-analysis found cardiovascular benefit from B vitamins only with normal renal function [PMID:37850302].
+- Hip fracture (observational, Nurses' Health Study): combined B6 >=35 mg/d plus B12 >=20 ug/d was associated with RR 1.47 (1.15-1.89) [PMID:31074816].
+- Cancer: High serum B12 marks cancer, mostly diagnosed within 1 year (SIR 6.27 at >800 pmol/L in people not receiving B12), which suggests reverse causation [PMID:24249744]. Mendelian randomization suggests genetically higher B12 is associated with lung cancer (OR 1.08/SD) and colorectal cancer (OR 1.22/SD) [PMID:30499135] [PMID:37605270]. B-PROOF showed a cancer signal (see table) [PMID:30341095].
+- Mortality: each +100 pmol/L serum B12 was associated with HR 1.04 for all-cause mortality in 22 cohorts [PMID:38252787]. The hypervitaminosis-B12 mortality risk was confined to chronically ill and hospitalized groups, and is likely artefactual [PMID:40647287].
+- Pregnancy: in a Nepal RCT, maternal B12 had a negative effect on early infant motor scores, more pronounced when mothers were already replete [PMID:41461260].
 
 ** Contraindications
-- Caution in cobalt allergy; cyanocobalamin-specific considerations may apply in rare cyanide metabolism disorders. Treat suspected neurologic deficiency promptly. [URL:https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/]
+- Hypersensitivity to cobalamin or cobalt [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cdd4fd12-e214-43a6-b560-d56fc0d87190] [PMID:37898177].
+- Early Leber hereditary optic neuropathy: the label warns of severe, swift optic atrophy with cyanocobalamin. B12 deficiency is also more common in LHON carriers (21% vs 5-7%) [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cdd4fd12-e214-43a6-b560-d56fc0d87190] [PMID:35945620].
+- Diabetic nephropathy or CKD: avoid high-dose cyanocobalamin-containing B-vitamin regimens [PMID:20424250] [PMID:23449527].
+- Folic acid alone should not be given for undiagnosed macrocytic anemia, because it masks B12 neuropathy [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cdd4fd12-e214-43a6-b560-d56fc0d87190] [PMID:17209196].
 
 ** Interactions
-- Metformin and proton-pump inhibitors/H2 blockers can impair B12 status with long-term use; nitrous oxide can inactivate B12. Chloramphenicol may blunt hematologic response. [URL:https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/]
+*** Drugs
+- Metformin (corpus: Metformin ER): RCT (850 mg three times daily for 4.3 y): B12 -19% vs placebo, deficiency +7.2 percentage points, NNH 13.8 [PMID:20488910]. DPPOS: OR 1.13 per year of use [PMID:26900641]. Meta-analyses: deficiency OR 2.45 / RR 2.09 / OR 2.95; dose- and duration-dependent [PMID:25502588] [PMID:30615306] [PMID:36628003]. Children: no significant decline (2026 MA) [PMID:42144864]. Guidance: ADA Standards since 2017 recommend periodic B12 measurement, especially with anemia or neuropathy [PMID:31955662] [PMID:41358900]. MHRA (2022) calls low B12 a common side effect, advises testing if symptomatic and periodic monitoring if risk factors are present [URL:https://www.gov.uk/drug-safety-update/metformin-and-reduced-vitamin-b12-levels-new-advice-for-monitoring-patients-at-risk].
+- PPIs and H2RAs: Case-control study (25,956 cases): >=2 years of PPI use OR 1.65 (1.58-1.73); H2RA OR 1.25 (1.17-1.34) [PMID:24327038]. Meta-analysis OR 1.42 (1.16-1.73) [PMID:37060552]. A 2025 meta-analysis of 6 studies found no serum B12 difference [PMID:40823471]. NICE lists both classes as risk factors [URL:https://www.nice.org.uk/guidance/ng239/chapter/Recommendations].
+- Nitrous oxide: In recreational users, total B12 was low in only 42%, but tHcy was raised in about 80% [PMID:37371921]. Adolescent myeloneuropathy series and review [PMID:42474763]. US poison-center cases rose 1332% from 2003 to 2024 [PMID:41396044]. NICE: test tHcy or MMA first [URL:https://www.nice.org.uk/guidance/ng239/chapter/Recommendations].
+- Colchicine causes B12 malabsorption [PMID:5677718]. The label also lists para-aminosalicylic acid and heavy alcohol use [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cdd4fd12-e214-43a6-b560-d56fc0d87190].
+- NICE also lists phenobarbital, primidone, topiramate and pregabalin as risk-factor medicines [URL:https://www.nice.org.uk/guidance/ng239/chapter/Recommendations].
+- Capecitabine: methylcobalamin halved grade >=2 hand-foot syndrome. Capecitabine dose reductions were 7.7% vs 13.7% (not significant) [PMID:40935571].
+*** Other supplements
+- B12 methylcobalamin and B Complex: these duplicate cobalamin dosing. High combined B6+B12 intake is associated with hip fracture and with acneiform/rosacea eruptions [PMID:31074816] [PMID:1834437] [PMID:11763399].
+- Vitamin B6: co-component of VITACOG and DIVINe [PMID:20838622] [PMID:20424250]. High-dose combinations carry the fracture and skin signals above [PMID:31074816].
+- Quatrefolic (5-MTHF)/folate: Additive lowering of tHcy [PMID:24965307]. High folate can mask or worsen B12 deficiency [PMID:17209196] [PMID:18056804] [PMID:40315282]. TCN2 776GG carriers with folate >800 ug/d had higher odds of neuropathy [PMID:27733392].
+- EPA/DHA/DPA: in VITACOG, B vitamins slowed cognitive decline only when omega-3 status was good [PMID:26757190].
+- Trimethylglycine (TMG): betaine remethylates homocysteine by a B12-independent route; >=4 g/d lowered tHcy by 1.23 umol/L (MA) [PMID:23997720].
+- Vitamin C: the 1974 claim that ascorbate destroys food B12 [PMID:4479087] was not reproduced with standard assays [PMID:1274888].
+*** Conditions
+- Autoimmune gastritis/pernicious anemia: lifelong replacement is needed; oral >=1 mg/day is acceptable [URL:https://www.nice.org.uk/guidance/ng239/chapter/Recommendations]. 10-year incidence of gastric NET was 18% and of adenocarcinoma 9% [PMID:41101382].
+- Gastrectomy/bariatric surgery [PMID:42287473]; vegan diet [PMID:39373282]; CKD/diabetic nephropathy [PMID:20424250]; LHON [PMID:35945620].
+*** Lab-test interference
+- Recent B12 intake raises serum B12. Draw samples before treatment and ask about OTC B12 use [URL:https://www.nice.org.uk/guidance/ng239/chapter/Recommendations].
+- IF antibody radioassay: falsely positive for 24 h after a 1 mg injection, and unreliable when serum B12 >3500 pg/mL [PMID:6465096].
+- Anti-IF antibodies can make competitive-binding B12 assays falsely normal while MMA/tHcy are raised [PMID:37987415].
+- No test is a gold standard. Total B12 includes inactive holoHC; holoTC, MMA and tHcy each have pitfalls [PMID:39367523] [PMID:24942828].
+- Hydroxocobalamin at antidote levels interferes with 27 of 77 analytes [PMID:33444605].
+- Label: most antibiotics, methotrexate and pyrimethamine invalidate folate/B12 diagnostic assays [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cdd4fd12-e214-43a6-b560-d56fc0d87190].
 
-** Latest research (last 24 months)
-- 2025 meta-analysis of older-adult RCTs found a very small high-certainty pooled effect of B vitamins B6/B9/B12 on global cognition; it does not establish isolated B12 benefit. [PMID:40966571]
+** Genotype notes
+- FUT2 (rs601338 non-secretor): GWAS association with serum B12 [PMID:19303062]. The effect acts through holoHC, not holoTC, so it mainly shifts the test value rather than function [PMID:29040465].
+- CUBN rs1801222: AA genotype OR 2.43 for metformin-induced B12 deficiency, replicated in DPPOS [PMID:41537778].
+- TCN2 776C>G: GG genotype neuropathy OR 3.33, rising to 6.9 with high folate intake [PMID:27733392].
+- MTR/MTRR (with MTHFR): methylfolate + P5P + methylcobalamin lowered tHcy by 30% (48% in homozygotes) in a small RCT (n=54) [PMID:38892484]. No genotype-guided B12 dosing data were found.
+
+** Latest research
+- [2026-09] Gastrectomy scoping review: oral mecobalamin is biochemically non-inferior to parenteral [PMID:42287473].
+- [2026-07] Adolescent N2O myeloneuropathy: 92% had raised tHcy/MMA, but only 45% had low B12 [PMID:42474763].
+- [2026-06] Cochrane review in children: less deficiency, no cognition or growth effect [PMID:42227307].
+- [2026-05] Review: no consistent benefit without deficiency [PMID:42197057]. Pediatric metformin MA: no significant decline [PMID:42144864].
+- [2026-04] CUBN rs1801222 identified as a risk factor for metformin-induced deficiency [PMID:41537778]. US N2O misuse up 1332% [PMID:41396044].
+- [2026-03] MATCOBIND pregnancy RCT [PMID:41850742].
+- [2026-02] Nepal RCT: negative infant motor effect [PMID:41461260].
+- [2026-01] ADA Standards of Care 2026, section 9 [PMID:41358900].
+- [2025-12] Atrophic gastritis/pernicious anemia cohort: 10-year incidence of gastric NET 18%, adenocarcinoma 9% [PMID:41101382].
+- [2025-12] Route MA: no difference [PMID:41487531]. Cognition MA: g 0.42, very low certainty [PMID:40966571]. CHD MA: no effect on MACE [PMID:41615824].
+- [2025-09] Methylcobalamin prevented capecitabine hand-foot syndrome (BMJ) [PMID:40935571]. AFP review [PMID:40961307].
+- [2025-08] PPI MA: null [PMID:40823471].
+- [2025-06] Hypervitaminosis B12 mortality MA [PMID:40647287].
+- [2025-01] Biomarker interpretation review [PMID:39367523].
+- [2024-12] Vegan functional B12 MA [PMID:39373282].
+- [2024-11] MA: no effect on memory or depression [PMID:39655146].
 
 ** Open questions
-- Define screening and treatment strategies for subclinical deficiency and separate benefits of repletion from supplementation in replete people.
+- Whether methyl-, hydroxo- or adenosylcobalamin beats cyanocobalamin clinically, including in renal impairment.
+- Whether high B12 causes cancer or only marks it (MR and B-PROOF signals).
+- The optimal metformin screening interval, and whether supplementation prevents neuropathy.
+- Whether VITACOG-type benefit in MCI with high tHcy reduces dementia incidence.
+- Long-term oral maintenance in pernicious anemia, given OB12's 52-week shortfall.
 
 ** Sources
-- NIH ODS. Vitamin B12: Health Professional Fact Sheet. [https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/]
-- Efficacy of B Vitamin Supplementation on Global Cognitive Function in Older Adults: systematic review/meta-analysis. 2025. [https://pubmed.ncbi.nlm.nih.gov/40966571/]
-- Vitamin B12 supplementation for growth, development, and cognition in children. Cochrane review. 2026. [https://pubmed.ncbi.nlm.nih.gov/42227307/]
-- Vitamin B12 supplementation and cognitive function, depressive symptoms, fatigue: systematic review/meta-analysis. [https://pubmed.ncbi.nlm.nih.gov/33809274/]
+1. DailyMed. Cyanocobalamin Injection, USP (Bluepoint Laboratories) prescribing information. US National Library of Medicine. Accessed 2026-10-13. URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cdd4fd12-e214-43a6-b560-d56fc0d87190
+2. House AA et al. Effect of B-vitamin therapy on progression of diabetic nephropathy: a randomized controlled trial. JAMA. 2010. PMID:20424250 DOI:10.1001/jama.2010.490
+3. van Wijngaarden JP et al. Effect of daily vitamin B-12 and folic acid supplementation on fracture incidence in elderly individuals with an elevated plasma homocysteine concentration: B-PROOF, a randomized controlled trial. Am J Clin Nutr. 2014. PMID:25411293 DOI:10.3945/ajcn.114.090043
+4. Wolffenbuttel BHR et al. A Brief Overview of the Diagnosis and Treatment of Cobalamin (B12) Deficiency. Food Nutr Bull. 2024. PMID:38987879 DOI:10.1177/03795721241229500
+5. Dang S et al. Hydroxocobalamin interference in routine laboratory tests: Development of a protocol for identifying samples and reporting results from patients treated with Cyanokit(TM). Clin Biochem. 2021. PMID:33444605 DOI:10.1016/j.clinbiochem.2021.01.001
+6. Sobczyńska-Malefora A et al. Vitamin B(12) status in health and disease: a critical review. Diagnosis of deficiency and insufficiency - clinical and laboratory pitfalls. Crit Rev Clin Lab Sci. 2021. PMID:33881359 DOI:10.1080/10408363.2021.1885339
+7. National Institute for Health and Care Excellence. Vitamin B12 deficiency in over 16s: diagnosis and management (NG239), Recommendations. 2024. Accessed 2026-10-13. URL:https://www.nice.org.uk/guidance/ng239/chapter/Recommendations
+8. Mazur M et al. Efficacy of sublingual and oral vitamin B12 versus intramuscular administration: insights from a systematic review and meta-analysis. Front Pharmacol. 2025. PMID:41487531 DOI:10.3389/fphar.2025.1602976
+9. Harrington DJ et al. The application and interpretation of laboratory biomarkers for the evaluation of vitamin B12 status. Ann Clin Biochem. 2025. PMID:39367523 DOI:10.1177/00045632241292432
+10. Velkova A et al. The FUT2 secretor variant p.Trp154Ter influences serum vitamin B12 concentration via holo-haptocorrin, but not holo-transcobalamin, and is associated with haptocorrin glycosylation. Hum Mol Genet. 2017. PMID:29040465 DOI:10.1093/hmg/ddx369
+11. Eussen SJ et al. Oral cyanocobalamin supplementation in older people with vitamin B12 deficiency: a dose-finding trial. Arch Intern Med. 2005. PMID:15911731 DOI:10.1001/archinte.165.10.1167
+12. Morris MS et al. Folate and vitamin B-12 status in relation to anemia, macrocytosis, and cognitive impairment in older Americans in the age of folic acid fortification. Am J Clin Nutr. 2007. PMID:17209196 DOI:10.1093/ajcn/85.1.193
+13. Selhub J et al. In vitamin B12 deficiency, higher serum folate is associated with increased total homocysteine and methylmalonic acid concentrations. Proc Natl Acad Sci U S A. 2007. PMID:18056804 DOI:10.1073/pnas.0709487104
+14. Castillo LF et al. New Insights into Folate-Vitamin B(12) Interactions. Annu Rev Nutr. 2025. PMID:40315282 DOI:10.1146/annurev-nutr-120524-043056
+15. Ménétrier T et al. Vitamin B12 Status in Recreational Users of Nitrous Oxide: A Systematic Review Focusing on the Prevalence of Laboratory Abnormalities. Antioxidants (Basel). 2023. PMID:37371921 DOI:10.3390/antiox12061191
+16. Wang H et al. Oral vitamin B(12) versus intramuscular vitamin B(12) for vitamin B(12) deficiency. Cochrane Database Syst Rev. 2018. PMID:29543316 DOI:10.1002/14651858.CD004655.pub3
+17. Sanz-Cuesta T et al. Oral versus intramuscular administration of vitamin B12 for vitamin B12 deficiency in primary care: a pragmatic, randomised, non-inferiority clinical trial (OB12). BMJ Open. 2020. PMID:32819927 DOI:10.1136/bmjopen-2019-033687
+18. Kuzminski AM et al. Effective treatment of cobalamin deficiency with oral cobalamin. Blood. 1998. PMID:9694707
+19. Markun S et al. Effects of Vitamin B12 Supplementation on Cognitive Function, Depressive Symptoms, and Fatigue: A Systematic Review, Meta-Analysis, and Meta-Regression. Nutrients. 2021. PMID:33809274 DOI:10.3390/nu13030923
+20. Clarke R et al. Effects of homocysteine lowering with B vitamins on cognitive aging: meta-analysis of 11 trials with cognitive data on 22,000 individuals. Am J Clin Nutr. 2014. PMID:24965307 DOI:10.3945/ajcn.113.076349
+21. Alzahrani H. Assessment of Vitamin B12 Efficacy on Cognitive Memory Function and Depressive Symptoms: A Systematic Review and Meta-Analysis. Cureus. 2024. PMID:39655146 DOI:10.7759/cureus.73350
+22. Berg J et al. Efficacy of B Vitamin Supplementation on Global Cognitive Function in Older Adults: A Systematic Review and Meta-analysis. Nutr Rev. 2025. PMID:40966571 DOI:10.1093/nutrit/nuaf155
+23. Wang Z et al. B vitamins and prevention of cognitive decline and incident dementia: a systematic review and meta-analysis. Nutr Rev. 2022. PMID:34432056 DOI:10.1093/nutrit/nuab057
+24. Smith AD et al. Homocysteine-lowering by B vitamins slows the rate of accelerated brain atrophy in mild cognitive impairment: a randomized controlled trial. PLoS One. 2010. PMID:20838622 DOI:10.1371/journal.pone.0012244
+25. Douaud G et al. Preventing Alzheimer's disease-related gray matter atrophy by B-vitamin treatment. Proc Natl Acad Sci U S A. 2013. PMID:23690582 DOI:10.1073/pnas.1301816110
+26. de Jager CA et al. Cognitive and clinical outcomes of homocysteine-lowering B-vitamin treatment in mild cognitive impairment: a randomized controlled trial. Int J Geriatr Psychiatry. 2012. PMID:21780182 DOI:10.1002/gps.2758
+27. Martí-Carvajal AJ et al. Homocysteine-lowering interventions for preventing cardiovascular events. Cochrane Database Syst Rev. 2017. PMID:28816346 DOI:10.1002/14651858.CD006612.pub5
+28. Guo L et al. Combined B-vitamin supplementation on homocysteine and vascular outcomes in coronary heart disease: a meta-analysis. Ann Med. 2026. PMID:41615824 DOI:10.1080/07853890.2026.2622208
+29. Oliai Araghi S et al. Long-term effects of folic acid and vitamin-B12 supplementation on fracture risk and cardiovascular disease: Extended follow-up of the B-PROOF trial. Clin Nutr. 2021. PMID:32800386 DOI:10.1016/j.clnu.2020.07.033
+30. Oliai Araghi S et al. Folic Acid and Vitamin B12 Supplementation and the Risk of Cancer: Long-term Follow-up of the B Vitamins for the Prevention of Osteoporotic Fractures (B-PROOF) Trial. Cancer Epidemiol Biomarkers Prev. 2019. PMID:30341095 DOI:10.1158/1055-9965.EPI-17-1198
+31. Didangelos T et al. Vitamin B12 Supplementation in Diabetic Neuropathy: A 1-Year, Randomized, Double-Blind, Placebo-Controlled Trial. Nutrients. 2021. PMID:33513879 DOI:10.3390/nu13020395
+32. Sawangjit R et al. Efficacy and Safety of Mecobalamin on Peripheral Neuropathy: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. J Altern Complement Med. 2020. PMID:32716261 DOI:10.1089/acm.2020.0068
+33. Larvie DY et al. Vitamin B12 supplementation for growth, development, and cognition in children. Cochrane Database Syst Rev. 2026. PMID:42227307 DOI:10.1002/14651858.CD015264.pub2
+34. Finkelstein JL et al. Vitamin B12 supplementation during pregnancy for maternal and child health outcomes. Cochrane Database Syst Rev. 2024. PMID:38189492 DOI:10.1002/14651858.CD013823.pub2
+35. Xia Y et al. Effect of methylcobalamin on capecitabine induced hand-foot syndrome in patients with HER2 negative early breast cancer: multicentre, double blind, randomised, placebo controlled, phase 3 trial. BMJ. 2025. PMID:40935571 DOI:10.1136/bmj-2025-084290
+36. Oki R et al. Efficacy and Safety of Ultrahigh-Dose Methylcobalamin in Early-Stage Amyotrophic Lateral Sclerosis: A Randomized Clinical Trial. JAMA Neurol. 2022. PMID:35532908 DOI:10.1001/jamaneurol.2022.0901
+37. Patel H et al. Vitamin B12 Deficiency: Common Questions and Answers. Am Fam Physician. 2025. PMID:40961307
+38. Rogaczewski P et al. Oral vitamin B₁₂ after total gastrectomy for gastric cancer: mapping the evidence. Gastric Cancer. 2026. PMID:42287473 DOI:10.1007/s10120-026-01745-8
+39. Yepes-Calderón M et al. Vitamin B(12) Supplementation: Is More Always Better?. Nutrients. 2026. PMID:42197057 DOI:10.3390/nu18101597
+40. Niklewicz A et al. A systematic review and meta-analysis of functional vitamin B12 status among adult vegans. Nutr Bull. 2024. PMID:39373282 DOI:10.1111/nbu.12712
+41. Nagpal J et al. Maternal supplementation of vitamin B(12) in predominantly vegetarian pregnant women improves their vitamin B(12) status and the neurodevelopment of their infants: the MATCOBIND multicentric double-blind randomised control trial. BMJ Paediatr Open. 2026. PMID:41850742 DOI:10.1136/bmjpo-2025-004112
+42. El Rhermoul FZ et al. Vitamin B(12) Hypersensitivity: A Retrospective Multicenter Study. J Allergy Clin Immunol Pract. 2024. PMID:37898177 DOI:10.1016/j.jaip.2023.10.037
+43. Sherertz EF. Acneiform eruption due to "megadose" vitamins B6 and B12. Cutis. 1991. PMID:1834437
+44. Jansen T et al. Rosacea fulminans triggered by high-dose vitamins B6 and B12. J Eur Acad Dermatol Venereol. 2001. PMID:11763399 DOI:10.1046/j.1468-3083.2001.00308.x
+45. Brescoll J et al. A review of vitamin B12 in dermatology. Am J Clin Dermatol. 2015. PMID:25559140 DOI:10.1007/s40257-014-0107-3
+46. Huang YW et al. Hydroxocobalamin: An Effective Treatment for Flushing and Persistent Erythema in Rosacea. J Clin Aesthet Dermatol. 2022. PMID:35783562
+47. Spence JD. B vitamin therapy for homocysteine: renal function and vitamin B12 determine cardiovascular outcomes. Clin Chem Lab Med. 2013. PMID:23449527 DOI:10.1515/cclm-2012-0465
+48. Spence JD. Metabolic vitamin B12 deficiency: a missed opportunity to prevent dementia and stroke. Nutr Res. 2016. PMID:26597770 DOI:10.1016/j.nutres.2015.10.003
+49. Miao Y et al. The effect of B-vitamins on the prevention and treatment of cardiovascular diseases: a systematic review and meta-analysis. Nutr Rev. 2024. PMID:37850302 DOI:10.1093/nutrit/nuad127
+50. Meyer HE et al. Association of High Intakes of Vitamins B6 and B12 From Food and Supplements With Risk of Hip Fracture Among Postmenopausal Women in the Nurses' Health Study. JAMA Netw Open. 2019. PMID:31074816 DOI:10.1001/jamanetworkopen.2019.3591
+51. Arendt JF et al. Elevated plasma vitamin B12 levels as a marker for cancer: a population-based cohort study. J Natl Cancer Inst. 2013. PMID:24249744 DOI:10.1093/jnci/djt315
+52. Fanidi A et al. Is high vitamin B12 status a cause of lung cancer?. Int J Cancer. 2019. PMID:30499135 DOI:10.1002/ijc.32033
+53. Kim JY et al. An atlas of associations between 14 micronutrients and 22 cancer outcomes: Mendelian randomization analyses. BMC Med. 2023. PMID:37605270 DOI:10.1186/s12916-023-03018-y
+54. Liu K et al. The origin of vitamin B12 levels and risk of all-cause, cardiovascular and cancer specific mortality: A systematic review and dose-response meta-analysis. Arch Gerontol Geriatr. 2024. PMID:38252787 DOI:10.1016/j.archger.2023.105230
+55. Valdez-Martínez E et al. The Controversial Issue of Hypervitaminosis B12 as Prognostic Factor of Mortality: Global Lessons from a Systematic Review and Meta-Analysis. Nutrients. 2025. PMID:40647287 DOI:10.3390/nu17132184
+56. Kvestad I et al. The Effect of Vitamin B-12 Supplementation During Pregnancy on Early Motor Performance: Secondary Analyses From a Double-Blinded Randomized Controlled Trial. J Nutr. 2026. PMID:41461260 DOI:10.1016/j.tjnut.2025.101305
+57. Zibold J et al. Vitamin B12 in Leber hereditary optic neuropathy mutation carriers: a prospective cohort study. Orphanet J Rare Dis. 2022. PMID:35945620 DOI:10.1186/s13023-022-02453-z
+58. de Jager J et al. Long term treatment with metformin in patients with type 2 diabetes and risk of vitamin B-12 deficiency: randomised placebo controlled trial. BMJ. 2010. PMID:20488910 DOI:10.1136/bmj.c2181
+59. Aroda VR et al. Long-term Metformin Use and Vitamin B12 Deficiency in the Diabetes Prevention Program Outcomes Study. J Clin Endocrinol Metab. 2016. PMID:26900641 DOI:10.1210/jc.2015-3754
+60. Niafar M et al. The role of metformin on vitamin B12 deficiency: a meta-analysis review. Intern Emerg Med. 2015. PMID:25502588 DOI:10.1007/s11739-014-1157-5
+61. Yang W et al. Associations between metformin use and vitamin B(12) levels, anemia, and neuropathy in patients with diabetes: a meta-analysis. J Diabetes. 2019. PMID:30615306 DOI:10.1111/1753-0407.12900
+62. Kakarlapudi Y et al. Effect of Metformin on Vitamin B12 Deficiency in Patients With Type 2 Diabetes Mellitus and Factors Associated With It: A Meta-Analysis. Cureus. 2022. PMID:36628003 DOI:10.7759/cureus.32277
+63. Tahir EA et al. The Impact of Metformin on Vitamin B12 Levels in Children and Adolescents: A Systematic Review and Single-Arm Meta-Analysis. Endocrinol Diabetes Metab. 2026. PMID:42144864 DOI:10.1002/edm2.70232
+64. Runeberg HA et al. Evaluation of Vitamin B(12) Monitoring in Veterans With Type 2 Diabetes on Metformin Therapy. J Pharm Pract. 2021. PMID:31955662 DOI:10.1177/0897190019899260
+65. American Diabetes Association Professional Practice Committee for Diabetes. 9. Pharmacologic Approaches to Glycemic Treatment: Standards of Care in Diabetes-2026. Diabetes Care. 2026. PMID:41358900 DOI:10.2337/dc26-S009
+66. MHRA. Metformin and reduced vitamin B12 levels: new advice for monitoring patients at risk. Drug Safety Update. 20 June 2022. URL:https://www.gov.uk/drug-safety-update/metformin-and-reduced-vitamin-b12-levels-new-advice-for-monitoring-patients-at-risk
+67. Lam JR et al. Proton pump inhibitor and histamine 2 receptor antagonist use and vitamin B12 deficiency. JAMA. 2013. PMID:24327038 DOI:10.1001/jama.2013.280490
+68. Choudhury A et al. Vitamin B12 deficiency and use of proton pump inhibitors: a systematic review and meta-analysis. Expert Rev Gastroenterol Hepatol. 2023. PMID:37060552 DOI:10.1080/17474124.2023.2204229
+69. Parnham O et al. Association Between Long-Term Proton Pump Inhibitor Therapy and Vitamin B12 Status: A Systematic Review and Meta-Analysis. Cureus. 2025. PMID:40823471 DOI:10.7759/cureus.90038
+70. Cohen-Vig L et al. Recreational nitrous oxide-related myeloneuropathy in adolescents: a multicenter retrospective case series and systematic literature review. Eur J Pediatr. 2026. PMID:42474763 DOI:10.1007/s00431-026-07258-x
+71. Temple C et al. Trends in nitrous oxide abuse and misuse: a 22-year analysis of United States poison center data. Clin Toxicol (Phila). 2026. PMID:41396044 DOI:10.1080/15563650.2025.2596142
+72. Webb DI et al. Mechanism of vitamin B12 malabsorption in patients receiving colchicine. N Engl J Med. 1968. PMID:5677718 DOI:10.1056/NEJM196810172791602
+73. Sawaengsri H et al. Transcobalamin 776C→G polymorphism is associated with peripheral neuropathy in elderly individuals with high folate intake. Am J Clin Nutr. 2016. PMID:27733392 DOI:10.3945/ajcn.116.139030
+74. Oulhaj A et al. Omega-3 Fatty Acid Status Enhances the Prevention of Cognitive Decline by B Vitamins in Mild Cognitive Impairment. J Alzheimers Dis. 2016. PMID:26757190 DOI:10.3233/JAD-150777
+75. McRae MP. Betaine supplementation decreases plasma homocysteine in healthy adult participants: a meta-analysis. J Chiropr Med. 2013. PMID:23997720 DOI:10.1016/j.jcm.2012.11.001
+76. Herbert V et al. Destruction of vitamin B12 by ascorbic acid. JAMA. 1974. PMID:4479087
+77. Newmark HL et al. Stability of vitamin B12 in the presence of ascorbic acid. Am J Clin Nutr. 1976. PMID:1274888 DOI:10.1093/ajcn/29.6.645
+78. Christenson RV et al. Incidence and risk of gastric neuroendocrine tumors and adenocarcinoma in patients with atrophic gastritis/pernicious anemia. J Gastrointest Surg. 2025. PMID:41101382 DOI:10.1016/j.gassur.2025.102253
+79. Muckerheide MM et al. Studies on a radioassay for intrinsic factor antibody: comparison of methods and false positive results due to elevated serum B12 levels. Am J Clin Pathol. 1984. PMID:6465096 DOI:10.1093/ajcp/82.3.300
+80. Ghammad W et al. [Pernicious anemia with false normal vitamin B12 levels caused by intrinsic factor antibodies interference: a case report]. Ann Biol Clin (Paris). 2023. PMID:37987415 DOI:10.1684/abc.2023.1834
+81. Devalia V et al. Guidelines for the diagnosis and treatment of cobalamin and folate disorders. Br J Haematol. 2014. PMID:24942828 DOI:10.1111/bjh.12959
+82. Tanaka T et al. Genome-wide association study of vitamin B6, vitamin B12, folate, and homocysteine blood concentrations. Am J Hum Genet. 2009. PMID:19303062 DOI:10.1016/j.ajhg.2009.02.011
+83. Baldwin FD et al. Identification of a genetic risk factor for metformin-induced vitamin B(12) deficiency. Diabetologia. 2026. PMID:41537778 DOI:10.1007/s00125-025-06655-5
+84. Pokushalov E et al. Effect of Methylfolate, Pyridoxal-5'-Phosphate, and Methylcobalamin (Soloways(TM)) Supplementation on Homocysteine and Low-Density Lipoprotein Cholesterol Levels in Patients with Methylenetetrahydrofolate Reductase, Methionine Synthase, and Methionine Synthase Reductase Polymorphisms: A Randomized Controlled Trial. Nutrients. 2024. PMID:38892484 DOI:10.3390/nu16111550

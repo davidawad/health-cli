@@ -5,7 +5,12 @@
   "aliases": [
     "Heme iron polypeptide",
     "HIP",
-    "Proferrin"
+    "Proferrin",
+    "Proferrin-ES",
+    "Proferrin Forte",
+    "Proferrin Clear",
+    "haem iron",
+    "heme-bound iron"
   ],
   "category": "mineral",
   "rx_status": "otc",
@@ -14,28 +19,347 @@
     {
       "with": "levothyroxine",
       "with_kind": "drug",
-      "kind": "monitor",
+      "kind": "caution",
       "severity": "moderate",
-      "mechanism": "Oral iron can bind/reduce absorption of levothyroxine; separate administration per drug labeling.",
-      "evidence": "Established oral iron interaction described in product labeling; HIP-specific clinical data limited.",
+      "mechanism": "Iron binds levothyroxine in the gut and reduces its absorption; separate doses by at least 4 h and recheck TSH when starting or stopping iron.",
+      "evidence": "Case reports (including persistence despite 4-h separation, 2026), review, and US label; no HIP-specific study",
       "citations": [
-        "PMID:31944128"
+        "PMID:28153426",
+        "PMID:9191742",
+        "PMID:42438581",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/8bc641d8-0185-49b2-9c1f-d886bf5ce098.xml"
       ]
     },
     {
-      "with": "hemochromatosis",
-      "with_kind": "condition",
+      "with": "fluoroquinolones",
+      "with_kind": "drug-class",
       "kind": "avoid",
-      "severity": "major",
-      "mechanism": "Additional iron can worsen iron loading in iron-overload disorders.",
-      "evidence": "Iron supplementation is inappropriate absent deficiency; iron overload risk recognized in oral iron review.",
+      "severity": "moderate",
+      "mechanism": "Iron chelates quinolones; ferrous sulfate reduced AUC by 73% (norfloxacin), 57% (ciprofloxacin) and 25% (ofloxacin). Give ciprofloxacin 2 h before or 6 h after iron.",
+      "evidence": "Crossover PK trials in healthy volunteers plus US label; HIP-specific data absent",
       "citations": [
-        "PMID:31944128"
+        "PMID:8148225",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/14c3bc33-201d-492e-9aee-a4d84c813a3d.xml"
+      ]
+    },
+    {
+      "with": "tetracyclines",
+      "with_kind": "drug-class",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Iron-tetracycline chelation seriously impairs absorption of tetracycline, oxytetracycline, methacycline and doxycycline; a 2026 case reported doxycycline treatment failure.",
+      "evidence": "Human PK studies, review and case report",
+      "citations": [
+        "PMID:5483323",
+        "PMID:2054263",
+        "PMID:42148617"
+      ]
+    },
+    {
+      "with": "levodopa",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Iron salts chelate levodopa/carbidopa and reduce bioavailability; label advises caution with co-administration.",
+      "evidence": "Animal absorption model plus label statement",
+      "citations": [
+        "PMID:2340448",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/9e3c796b-2e68-4bcc-b927-18a58bea4703.xml",
+        "PMID:2054263"
+      ]
+    },
+    {
+      "with": "methyldopa",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Ferrous sulfate/gluconate reduced methyldopa absorption (29.1% to 7.9%) and raised BP in 4 of 5 treated hypertensive patients.",
+      "evidence": "Randomized crossover in 12 volunteers plus small patient series",
+      "citations": [
+        "PMID:3356082"
+      ]
+    },
+    {
+      "with": "mycophenolate mofetil",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "A 90% fall in mycophenolic acid AUC with co-administered iron in healthy Japanese volunteers was not reproduced in transplant RCTs or a crossover trial.",
+      "evidence": "Conflicting PK studies; RCT evidence suggests no clinically relevant interaction",
+      "citations": [
+        "PMID:11180021",
+        "PMID:14742982",
+        "PMID:16995871"
+      ]
+    },
+    {
+      "with": "bisphosphonates",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Multivalent cations (including iron) impair oral alendronate absorption; take other oral products at least 30 min after the dose.",
+      "evidence": "US label",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/4323d3aa-cbb0-41e2-aba7-7a94a0516993.xml"
+      ]
+    },
+    {
+      "with": "proton pump inhibitors",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Long-term PPI use is associated with iron deficiency anemia (RR 2.56), probably by impairing non-heme iron absorption; the effect on heme iron is not established.",
+      "evidence": "Meta-analysis of observational studies",
+      "citations": [
+        "PMID:35255801"
+      ]
+    },
+    {
+      "with": "calcium",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Calcium is the only dietary factor that inhibits heme as well as non-heme iron absorption: 165 mg reduced absorption in meals and 800 mg cut 5 mg heme-iron absorption by 37.7%. Chronic 600 mg/d did not change heme bioavailability, and the MA found no Hb reduction.",
+      "evidence": "Isotope absorption studies, RCT and meta-analysis",
+      "citations": [
+        "PMID:1984335",
+        "PMID:21795430",
+        "PMID:24290597",
+        "PMID:33758936"
+      ]
+    },
+    {
+      "with": "Magnesium",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Magnesium oxide (with calcium carbonate) in prenatal multivitamin-mineral products lowered iron absorption; separate dosing.",
+      "evidence": "Crossover absorption study (non-heme iron); not tested with HIP",
+      "citations": [
+        "PMID:6823378"
+      ]
+    },
+    {
+      "with": "Zinc",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Zinc inhibits non-heme iron absorption at Zn:Fe >=1:1 (10 mg Fe), and iron supplements lower zinc absorption. Heme iron did not inhibit zinc absorption, so the interaction is mainly relevant to the non-heme component or co-taken iron salts.",
+      "evidence": "Human absorption studies",
+      "citations": [
+        "PMID:22297381",
+        "PMID:14594790",
+        "PMID:7223699"
+      ]
+    },
+    {
+      "with": "Curcumin",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Curcumin is an iron chelator that repressed hepcidin and induced iron deficiency in mice with marginal iron status. A formulated curcumin increased iron uptake in vitro, so the effect may depend on formulation.",
+      "evidence": "Animal and in-vitro data; one human turmeric case",
+      "citations": [
+        "PMID:18815282",
+        "PMID:40613696",
+        "PMID:30899609"
+      ]
+    },
+    {
+      "with": "Turmeric",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "A human case of iron-deficiency anemia on high-dose turmeric extract despite iron supplementation resolved after stopping turmeric; mechanism is iron chelation in the gut.",
+      "evidence": "Case report plus animal mechanism",
+      "citations": [
+        "PMID:30899609",
+        "PMID:18815282"
+      ]
+    },
+    {
+      "with": "Vitamin C",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Ascorbic acid (100-1000 mg) did not change heme-iron absorption in humans but enhances non-heme iron. In vitro it offsets low-level polyphenol inhibition of heme transport, so it gives little added benefit for HIP.",
+      "evidence": "Human radio-iron study and Caco-2 data",
+      "citations": [
+        "PMID:4038429",
+        "PMID:22417433"
+      ]
+    },
+    {
+      "with": "tea/polyphenols",
+      "with_kind": "food",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Tea had no appreciable effect on heme iron absorption in humans, but high polyphenol concentrations (EGCG, grape seed, green tea) inhibited heme transport in Caco-2 cells. Tea strongly inhibits non-heme iron.",
+      "evidence": "Human single-meal study, in vitro, polyphenol supplement trial",
+      "citations": [
+        "PMID:4038429",
+        "PMID:22417433",
+        "PMID:35320401"
+      ]
+    },
+    {
+      "with": "prebiotic fibre mix",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Daily prebiotic-enriched yogurt for 12 days increased heme iron bioavailability by 56% without changing non-heme iron.",
+      "evidence": "Small randomized isotope study in 24 women",
+      "citations": [
+        "PMID:28485415"
+      ]
+    },
+    {
+      "with": "hereditary haemochromatosis",
+      "with_kind": "condition",
+      "kind": "contraindicated",
+      "severity": "major",
+      "mechanism": "Hepcidin deficiency causes systemic iron overload in the liver, pancreas and heart; supplemental iron adds to the load. C282Y-homozygous or compound-heterozygous women with high heme intake had the highest ferritin.",
+      "evidence": "Disease review; population study",
+      "citations": [
+        "PMID:29620054",
+        "PMID:16399493"
+      ]
+    },
+    {
+      "with": "HFE C282Y/H63D",
+      "with_kind": "genotype",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "An HFE-variant x heme-intake interaction was found for T2D risk (P=0.029). Compound heterozygotes absorb more non-heme iron, but C282Y heterozygotes do not absorb heme iron more than controls.",
+      "evidence": "Nested case-control, isotope absorption study",
+      "citations": [
+        "PMID:16306377",
+        "PMID:15447900",
+        "PMID:16399493"
+      ]
+    },
+    {
+      "with": "young children (accidental ingestion)",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "major",
+      "mechanism": "Iron poisoning is a major cause of unintentional poisoning death in young children; serious toxicity from about 28 mg/kg. Unit-dose packaging cut US deaths from 29 to 1.",
+      "evidence": "Poison-center pre/post data; clinical series",
+      "citations": [
+        "PMID:15939855",
+        "PMID:30882955"
+      ]
+    },
+    {
+      "with": "chronic kidney disease / dialysis",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "HIP gave no advantage over oral ferrous sulfate or IV iron sucrose for Hb or TSAT and gave consistently lower ferritin, at 7-fold higher cost than ferrous sulfate.",
+      "evidence": "3 RCTs (SR), HEMATOCRIT RCT",
+      "citations": [
+        "PMID:25953602",
+        "PMID:22962411",
+        "PMID:23514036"
+      ]
+    },
+    {
+      "with": "Roux-en-Y gastric bypass",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Post-RYGB iron deficiency did not respond to HIP but did to ferrous sulfate; heme-iron absorption fell from 23.9% to 6.2% after surgery.",
+      "evidence": "Small RCT stopped early; prospective isotope study",
+      "citations": [
+        "PMID:28779269",
+        "PMID:22952172"
+      ]
+    },
+    {
+      "with": "type 2 diabetes risk",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Higher dietary heme intake is associated with T2D (RR 1.20; +16% per 1 mg/d; HR 1.26 top vs bottom quintile) and with adverse insulinemia and inflammatory profiles. Not shown for HIP supplements in iron-deficient people.",
+      "evidence": "Observational cohort meta-analysis and pooled US cohorts",
+      "citations": [
+        "PMID:35107626",
+        "PMID:39138340"
+      ]
+    },
+    {
+      "with": "guaiac fecal occult blood test",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "The manufacturer states that heme iron polypeptide may give false-positive guaiac (peroxidase) tests but not FIT, which is specific to human hemoglobin. Oral ferrous sulfate did not make Hemoccult II tests positive in vivo.",
+      "evidence": "Manufacturer statement; human study of non-heme iron",
+      "citations": [
+        "URL:https://proferrin.com/faq/",
+        "PMID:2909440"
+      ]
+    },
+    {
+      "with": "serum ferritin",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "HIP-treated patients have lower ferritin than those on ferrous or IV iron at similar Hb/TSAT, so ferritin trends may understate response or reflect lower stores. Interpret alongside TSAT and Hb.",
+      "evidence": "CKD RCTs and SR",
+      "citations": [
+        "PMID:25953602",
+        "PMID:23514036",
+        "PMID:22962411"
       ]
     }
   ],
   "citations": [
-    "PMID:31944128",
-    "PMID:41300263"
+    "PMID:28153426",
+    "PMID:9191742",
+    "PMID:42438581",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/8bc641d8-0185-49b2-9c1f-d886bf5ce098.xml",
+    "PMID:8148225",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/14c3bc33-201d-492e-9aee-a4d84c813a3d.xml",
+    "PMID:5483323",
+    "PMID:2054263",
+    "PMID:42148617",
+    "PMID:2340448",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/9e3c796b-2e68-4bcc-b927-18a58bea4703.xml",
+    "PMID:3356082",
+    "PMID:11180021",
+    "PMID:14742982",
+    "PMID:16995871",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/4323d3aa-cbb0-41e2-aba7-7a94a0516993.xml",
+    "PMID:35255801",
+    "PMID:1984335",
+    "PMID:21795430",
+    "PMID:24290597",
+    "PMID:33758936",
+    "PMID:6823378",
+    "PMID:22297381",
+    "PMID:14594790",
+    "PMID:7223699",
+    "PMID:18815282",
+    "PMID:40613696",
+    "PMID:30899609",
+    "PMID:4038429",
+    "PMID:22417433",
+    "PMID:35320401",
+    "PMID:28485415",
+    "PMID:29620054",
+    "PMID:16399493",
+    "PMID:16306377",
+    "PMID:15447900",
+    "PMID:15939855",
+    "PMID:30882955",
+    "PMID:25953602",
+    "PMID:22962411",
+    "PMID:23514036",
+    "PMID:28779269",
+    "PMID:22952172",
+    "PMID:35107626",
+    "PMID:39138340",
+    "URL:https://proferrin.com/faq/",
+    "PMID:2909440"
   ]
 }

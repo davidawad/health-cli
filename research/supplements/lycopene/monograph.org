@@ -3,35 +3,216 @@
 :ID: supp-lycopene
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: Lycopene | tomato carotenoid
-:CATEGORY: botanical
+:ALIASES: lycopene | all-trans-lycopene | cis-lycopene | tomato carotenoid | tomato oleoresin | tomato extract | lactolycopene | Lyc-O-Mato | E 160d
+:CATEGORY: other
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
+
 ** Identity & forms
-- Lycopene is a dietary, fat-soluble carotenoid abundant in tomatoes; supplements include synthetic and tomato-derived forms [PMID:37496241].
+- Lycopene is a red, linear hydrocarbon carotenoid with no provitamin A activity [PMID:12424334] [PMID:17707976]. Tomatoes and tomato products are the main dietary source [PMID:33668703] [URL:https://www.cancer.gov/about-cancer/treatment/cam/hp/prostate-supplements-pdq].
+- Supplement forms: synthetic crystalline lycopene [PMID:12176084], tomato oleoresin extracts (e.g. Lyc-O-Mato) [PMID:17571945] and whey-protein-bound lactolycopene [PMID:31591650]. Trials also use tomato paste, juice, sauce and puree. The NCI PDQ notes that US FDA has accepted GRAS determinations for lycopene-containing products [URL:https://www.cancer.gov/about-cancer/treatment/cam/hp/prostate-supplements-pdq].
+- Isomers: foods contain mostly all-trans-lycopene, but human plasma and tissues contain a large share of cis-isomers [PMID:26561629] [PMID:12424334]. A 14C dose given as 92% all-trans was 50% trans and 38% 5-cis within 24 h [PMID:21543537].
+- Cis-rich sources absorb better: tetra-cis-rich tangerine tomato juice gave 47.7% vs 5.0% fractional absorption from red juice (8.5-fold) [PMID:25620547]. A heat-induced cis-rich sauce also beat an all-trans-rich sauce [PMID:17391568].
+- Pharmacokinetics: about 23% of a 10 mg 13C dose was absorbed; plasma half-life about 5.3 d (all-trans) and 8.8 d (cis) [PMID:26561629]. Lycopene or its metabolites persisted in skin for up to 42 d [PMID:21543537]. Adipose tissue holds about two-thirds of body stores [PMID:41848742].
+- Supplement vs food: 20 mg/d synthetic tablets gave plasma responses comparable to tomato soup and higher than tomato juice, with effective half-lives of about 5 d (all-E) and 9 d (5-Z) [PMID:15309451].
+- Fat raises bioavailability: avocado added to salsa increased lycopene absorption 4.4-fold [PMID:15735074], and cooking tomatoes with olive oil raised plasma trans-lycopene 82% [PMID:15927929]. In an RCT meta-analysis, more fat improved carotenoid bioavailability, with unsaturated fats (SMD 0.90) beating saturated fats (SMD 0.27) [PMID:34897461].
+
 ** Mechanisms
-- Carotenoid antioxidant activity and effects on oxidative biomarkers are proposed mechanisms; biomarker changes do not prove disease prevention [PMID:37496241].
+- Singlet-oxygen quenching and antioxidant activity [PMID:36615780]. In RCT meta-analyses lycopene lowered MDA [PMID:37496241].
+- Metabolism: cleaved mainly eccentrically by BCO2. Whether native lycopene or its lycopenals, lycopenols and lycopenoic acids mediate effects is unknown [PMID:33668703].
+- Androgen axis: preclinical studies show null or inhibitory effects on androgen metabolism and signaling in prostate cancer models [PMID:30875962]. Lycopene also affects IGF signaling and cell-cycle progression in vitro [URL:https://www.cancer.gov/about-cancer/treatment/cam/hp/prostate-supplements-pdq].
+- Vascular: lycopene improved endothelium-dependent vasodilation in statin-treated patients without changing endothelium-independent or basal NO responses [PMID:24911964]. FMD gains in a 2025 RCT occurred without changes in oxidative-stress or NO markers [PMID:40936452].
+- Photoprotection: carotenoid deposition in skin [PMID:21543537] [PMID:35938228] raises minimal erythema dose (MED) and lowers MMP-1 and ICAM-1 [PMID:36606553].
+- Plasma microRNAs: in a 2026 RCT, lycopene in tomato juice changed 5 miRNAs compared with lycopene-depleted juice [PMID:42765324].
+
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | Certainty | Citations |
-|---------+--------------------+-----------+-------------+-----------+-----------|
-| Principal studied outcome | Systematic review/RCT or official product label | Cardiovascular risk factors: 2023 GRADE-style meta-analysis of 34 studies found no significant pooled changes in lipids, glucose, BP, inflammation or weight; MDA decreased [PMID:37496241]. Prostate cancer prevention: RCT evidence does not establish reduced incidence [URL:https://www.wcrf.org/wp-content/uploads/2024/10/prostate-cancer-slr.pdf]. | See outcome summary above; no extrapolation to unstudied endpoints | low | [PMID:37496241] [PMID:41369612] [URL:https://www.wcrf.org/wp-content/uploads/2024/10/prostate-cancer-slr.pdf] |
-| Hard clinical outcomes / prevention | Human outcome evidence sparse or absent in sources reviewed | Not established | No reliable effect estimate | very low | [PMID:37496241] [PMID:41369612] [URL:https://www.wcrf.org/wp-content/uploads/2024/10/prostate-cancer-slr.pdf] |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Systolic BP | Several MAs; umbrella review; GRADE MA | Benefit, inconsistent | Lycopene SBP -5.66 mmHg; -4.95 mmHg (>12 mg/d); -1.95 mmHg (2024 MA); null in 34-RCT GRADE MA. Umbrella review rates BP certainty high (tomato-derived) | low | [PMID:28129549] [PMID:24051501] [PMID:39064656] [PMID:37496241] [PMID:41369612] |
+| BP, tomato extract vs synthetic lycopene | Network MA (11 RCTs) | Benefit only for standardized tomato extract | STE SBP -5.89 mmHg; -8.09/-4.25 in hypertension; synthetic lycopene inconsistent | low | [PMID:33676812] |
+| LDL / total cholesterol | MAs of RCTs | Inconsistent | LDL -10.35 mg/dL only at >=25 mg/d (2011); tomato LDL -0.22 mmol/L; no effect in 43-study and 34-study MAs | low | [PMID:21163596] [PMID:28129549] [PMID:32652029] [PMID:37496241] |
+| Endothelial function (FMD) | 2026 SR/MA (4 studies, n=182); RCTs | Benefit, fragile | FMD MD +1.36% (CI 0.20-2.51), not significant after excluding 1 study; one null RCT | low | [PMID:42588128] [PMID:40936452] [PMID:21194693] [PMID:24911964] [PMID:20735877] |
+| Fasting glucose | SR/MA (11 arms, n=750) | Possible small decrease | SMD -0.15 (CI -0.31 to 0.00); T2D subgroup -0.37 | low | [PMID:36615780] |
+| Inflammation (CRP, IL-6) | MA of carotenoid RCTs | IL-6 decrease | Lycopene IL-6 WMD -1.08 pg/mL; no CRP effect in 34-RCT MA | low | [PMID:33998846] [PMID:37496241] |
+| Liver enzymes / MASLD | GRADE MA of carotenoids; 2026 tomato RCTs | Null (enzymes); less liver fat with tomato foods | ALT -2.25 IU/L (NS); CAP -33 vs -12 dB/m (functional sauce) | low | [PMID:41437050] [PMID:42397564] [PMID:42588099] |
+| Prostate cancer incidence | MAs of cohorts and case-control studies; MA of RCTs | Inverse association; RCTs null | RR 0.88 (diet and blood); -1% per 2 mg/d; RCT incidence RR 0.92 (0.66-1.29) | low | [PMID:28440323] [PMID:40013157] [PMID:22633187] [PMID:41214650] |
+| PSA | 2 MAs of RCTs | No overall effect | WMD -0.12 ng/mL; -0.60 ug/L overall; -3.74 if baseline >=6.5 | low | [PMID:35031434] [PMID:33355018] |
+| BPH | Small RCTs; SR | Possible benefit | 15 mg/d x 6 mo: PSA down and no prostate growth vs placebo; pooled BPH incidence RR 0.95 (NS) | very low | [PMID:18156403] [PMID:36407517] [PMID:22633187] |
+| Semen quality | SR/MA (4 studies, n=151); RCTs | Small benefit | Concentration SMD 0.33; no effect on total/progressive motility or DNA damage | low | [PMID:40806357] [PMID:31591650] [PMID:31468596] |
+| UV erythema / photoaging | SR/MA (21 trials); 2025 RCT MA | Benefit for erythema; photoaging null | Higher MED, less Δa* (2024); no significant MED/R2 benefit (2025) | low | [PMID:36606553] [PMID:40761858] [PMID:11340098] |
+| CVD / stroke / mortality | MAs of observational studies; MR | Inverse association, not causal in MR | Stroke HR 0.74; CVD 0.86; MR OR for stroke 1.04 per unit lycopene | very low | [PMID:28799780] [PMID:34796734] [PMID:33413940] |
+| Oral submucous fibrosis | MA (7 RCTs, n=758); umbrella review | Benefit | Mouth opening MD +3.15 mm; GRADE low/very low | low | [PMID:33303091] [PMID:42216734] |
+| Mental health | SR of 6 RCTs | No effect | Not confirmed | very low | [PMID:40507061] |
+
 ** Dosing in trials
-- Trials used variable tomato foods/extracts or supplements, often 5–30 mg/day for weeks to months; no standardized evidence-based dose [PMID:37496241].
+- Cardiovascular: 1.44-75 mg/d (43 studies) [PMID:32652029]. Effects on SBP were larger above 12 mg/d [PMID:24051501], and on LDL only at >=25 mg/d [PMID:21163596]. The umbrella review proposes 5-30 mg/d [PMID:41369612].
+- Endothelial: 6 or 15 mg/d for 8 wk [PMID:21194693]; 7 mg/d for 2 mo [PMID:24911964]; 15-26.7 mg/d as juice for 12 wk [PMID:40936452].
+- Prostate: 15 mg twice daily for 3 wk before prostatectomy [PMID:11489752]; 30 mg/d for 4 mo [PMID:17571945]; 15 mg/d for 6 mo [PMID:18156403] and 25 mg/d for 8 wk [PMID:36407517] in BPH. Across prostate trials, 8-45 mg/d for 3 wk to 2 y was reported safe [URL:https://www.cancer.gov/about-cancer/treatment/cam/hp/prostate-supplements-pdq].
+- Sperm: 14 mg/d lactolycopene for 12 wk [PMID:31591650]; 25 mg/d for 12 wk [PMID:31468596].
+- Skin: about 16 mg/d (40 g tomato paste with olive oil) for 10 wk; benefit seen at week 10 but not week 4 [PMID:11340098].
+- Other: 15 mg/d with periodontal therapy [PMID:40670371].
+- Plasma levels plateau after about 4 wk of 15 mg/d [PMID:11914107]. Take with a fat-containing meal [PMID:34897461].
+
 ** Safety & adverse effects
-- Food exposure is customary; supplement trials report few short-term harms, but long-term high-dose safety is less characterized.
+- Generally well tolerated. In prostate trials, adverse effects were mostly mild GI symptoms, which in one study resolved when lycopene was taken with meals [URL:https://www.cancer.gov/about-cancer/treatment/cam/hp/prostate-supplements-pdq]. No adverse effects were attributed to 30 mg/d for 4 mo [PMID:17571945]. All supplements in a photoaging MA were safe over <=24 wk [PMID:40761858].
+- Carotenodermia/lycopenemia: benign orange-red skin discoloration, mainly on palms and soles, that reverses when intake falls [PMID:35938228]. It was reported during 15 mg/d supplementation [PMID:11914107]. In a 42-day feeding study, definite carotenodermia appeared only in the 30 mg/d beta-carotene arm, not with 180 g/d tomato juice [PMID:3421202].
+- Pregnancy: an RCT of 2 mg/d from early pregnancy found no reduction in pre-eclampsia (18.2% vs 18.3%). Preterm labor (10.4% vs 1.2%) and low birthweight (22.1% vs 9.8%) were more common with lycopene [PMID:19527386]. An earlier RCT reported less pre-eclampsia (8.6% vs 17.7%) [PMID:12767566]. An antioxidant MA found no benefit for prevention [PMID:30111493].
+- Toxicology: rat 13-week NOAEL for synthetic lycopene formulations was 3000 mg/kg/d [PMID:12176084]. EFSA's ADI is 0.5 mg/kg bw/d, based on an ALT rise in a 1-year rat study; JECFA's ADI is "not specified" [PMID:42005766]. In EFSA's 2026 exposure assessment the highest P95 (maximum-level scenario) was 2.52 mg/kg bw/d in toddlers, and novel-food use in supplements added substantially for supplement users [PMID:41972196].
+- Causality: Mendelian randomization found no causal protection against CHD or ischemic stroke from genetically higher lycopene [PMID:33413940] [PMID:34796734].
+
 ** Contraindications
-- No established formal contraindications; caution with products containing other active ingredients.
+- No absolute contraindications have been established.
+- Pregnancy: avoid supplemental lycopene. The RCT signal for preterm labor and low birthweight is unreplicated but unresolved [PMID:19527386] [PMID:30111493].
+- Known tomato allergy, if the product is tomato-derived: the umbrella review flags allergy [PMID:33131949].
+
 ** Interactions
-- Possible additive BP-lowering is theoretical; clinical interaction data limited.
-- Structured high-priority interactions are represented in interactions.json; absence of an edge is not proof of no interaction.
+*** Drugs
+- Orlistat: plasma lycopene fell, then partly rebounded, over 4.5 mo (n=6). Alpha- and beta-carotene fell 45% and 32% [PMID:17707976]. Orlistat cut beta-carotene absorption by about one-third [PMID:8852391]. Clinical relevance for lycopene is unquantified.
+- Bile acid sequestrants (cholestyramine): lowered serum lycopene 30% and beta-carotene 40% over 3 y [PMID:7627696].
+- Probucol: lowered carotenoids 30-40% [PMID:7627696].
+- Statins: simvastatin lowered crude plasma carotenoids by lowering LDL. Lipid-adjusted lycopene rose [PMID:20678906] or did not change [PMID:17005272]. Interpret raw levels relative to lipids.
+- Ezetimibe: reduced lycopene transport about 20% in Caco-2 cells (in vitro only) [PMID:16177187].
+- Antihypertensives: an additive SBP reduction is possible but small and inconsistent [PMID:28129549] [PMID:37496241].
+- Antiplatelets/aspirin: a water-soluble tomato extract (Fruitflow) inhibits platelet aggregation, with about one-third of the effect of 75 mg aspirin and no additive effect [PMID:27876806] [PMID:16960170]. This is not shown for lycopene itself.
+*** Other supplements
+- Beta-carotene and lutein (Zeaxanthin + Lutein): adding a second carotenoid lowered the chylomicron response to the first, but 3-wk plasma status was unaffected [PMID:11864859]. Competition occurs in micelles and lipoproteins [PMID:10047699].
+- EVOO and other dietary fats: increase absorption [PMID:15927929] [PMID:34897461] [PMID:15735074].
+- Plant sterol esters: serum lycopene fell 14.6% in adults [PMID:15199384]. Olestra lowered serum lycopene below the reference range, and a multivitamin did not prevent it [PMID:15930452]. Customary olestra snack use was linked to 4.3-22.4% lower carotenoids [PMID:16522910].
+- Curcumin: synergistic in a rat BPH model (preclinical only) [PMID:37446563].
+- Saw palmetto and selenium combinations: studied in BPH [PMID:40777606]. A post-hoc analysis found no excess prostate cancer with selenium plus lycopene [PMID:28899491].
+*** Conditions
+- Pregnancy: see Contraindications [PMID:19527386].
+- Fat malabsorption or very-low-fat diets: absorption depends on dietary fat [PMID:34897461]. This is inferred; no condition-specific trials were found.
+- Prostate cancer or raised PSA: lycopene does not reliably lower PSA [PMID:35031434], and early PSA falls may be transient and non-specific [PMID:17571945].
+*** Lab-test interference
+- PSA: a real but inconsistent decrease is possible in BPH or high-baseline-PSA patients [PMID:18156403] [PMID:33355018]. Early falls may be transient [PMID:17571945].
+- Skin carotenoid scores (Veggie Meter, Vegecheck) rise with intake [PMID:38797482] [PMID:35938228].
+- Serum carotenoids track lipids, so adjust for cholesterol on lipid-lowering therapy [PMID:20678906].
+- ALT: rose in rats at high doses; null in human carotenoid MA [PMID:42005766] [PMID:41437050].
+
 ** Genotype notes
-- No cited pharmacogenomic/nutrigenomic source was identified for a supplement-specific genotype effect; no genotype claim made.
+- Bioavailability: 28 SNPs in 16 genes explained 72% of the variance in postprandial chylomicron lycopene (CV 70%) [PMID:25772008]. Each single variant explains only a few percent; ELOVL2 is shared across tomato carotenoids [PMID:30277929].
+- BCO1: rs12934922 and rs6564851 predicted plasma lycopene response to tomato-soy juice in men with prostate cancer [PMID:30801647]. BCO1 variants separate strong from weak responders [PMID:23517913]. BCO1 rs7500996 and CD36 rs1527479 predicted skin carotenoids [PMID:38797482]. No BCO2- or SCARB1-specific lycopene outcome data were found.
+- Adipose lycopene: 17 SNPs in 11 genes (incl. ABCA1, CD36, ISX, SOD2) explained 55% of variability [PMID:41848742].
+- APOE e4: carriers with higher plasma lycopene had slower cognitive decline (observational) [PMID:40876538].
+- None of this is validated for dosing decisions.
+
 ** Latest research
-- 2025-11: 2025 umbrella review reports possible BP effects in tomato-derived intervention evidence, contrasting with the null pooled BP result in the 2023 GRADE review; composition and intervention heterogeneity remain substantial [PMID:41369612] [PMID:37496241].
+- [2026-10] RCT (n=22): lycopene in tomato juice changed 5 plasma miRNAs compared with lycopene-depleted juice [PMID:42765324].
+- [2026-08] SR/MA (4 studies, n=182): FMD +1.36%, fragile in sensitivity analysis [PMID:42588128].
+- [2026-07] POMOSANO RCT (n=79, MASLD): tomatoes reduced CAP steatosis [PMID:42588099].
+- [2026-07] RCT (n=98, MASLD): carotenoid-rich tomato sauce reduced liver fat [PMID:42397564].
+- [2026-06] SR/MA: tomato products reduced waist circumference by 1.15 cm, with no lycopene dose response [PMID:42300210].
+- [2026-05] OSF umbrella review: lycopene improves mouth opening; certainty low or very low [PMID:42216734].
+- [2026-04] EFSA lycopene exposure assessment [PMID:41972196].
+- [2026-04] Adipose lycopene genetics: 17 SNPs explained 55% of variance [PMID:41848742].
+- [2026-03] Circulating lycopene vs carotid IMT, MA (n=9131): OR 0.70 [PMID:41978094].
+- [2026-01] Umbrella review (9 SRs): tomato-derived lycopene lowers BP (GRADE high) [PMID:41369612].
+- [2025-12] Carotenoid liver-enzyme GRADE MA: null [PMID:41437050].
+- [2025-11] PREDIMED cohort: highest lycopene quartile had prostate cancer HR 0.46 [PMID:41214650].
+- [2025-11] MIND trial: lycopene associated with slower decline in APOE e4 carriers [PMID:40876538].
+- [2025-09] RCT (n=75): lycopene-rich juice raised FMD [PMID:40936452].
+- [2025-07] Male reproduction MA: sperm concentration SMD 0.33 [PMID:40806357].
+- [2025-07] Photoaging MA: lycopene showed no significant benefit [PMID:40761858].
+- [2025-06] Metabolic MA: lowest serum lycopene associated with MAFLD, OR 1.39 [PMID:40566597].
+- [2025-05] Mental-health SR: no effect [PMID:40507061].
+- [2025-04] COMP study: Serenoa/selenium/lycopene vs dutasteride, similar LUTS effects [PMID:40777606].
+- [2025-02] Cancer MA (121 cohorts): blood lycopene RR 0.89 for overall cancer [PMID:40013157].
+
 ** Open questions
-- Which formulations, populations, and durations produce clinically meaningful outcomes rather than biomarker-only changes?
-- Are there long-term benefits or harms beyond the relatively short human trials available?
+- Is lycopene itself causal, or a marker of tomato and diet quality? Standardized tomato extract, but not synthetic lycopene, lowered BP [PMID:33676812]; lycopene-free tomato matrices also showed effects [PMID:42300210]; MR is null [PMID:34796734].
+- Are isolated-lycopene trials large and long enough for hard outcomes? Prostate cancer incidence RCT data are small [PMID:22633187].
+- Is the preterm-birth signal real [PMID:19527386]? Can BCO1 genotype guide dosing [PMID:30801647]?
+
 ** Sources
-- [PMID:37496241] [PMID:41369612] [URL:https://www.wcrf.org/wp-content/uploads/2024/10/prostate-cancer-slr.pdf]
+1. Boileau TW et al. Bioavailability of all-trans and cis-isomers of lycopene. Exp Biol Med (Maywood). 2002. PMID:12424334 DOI:10.1177/153537020222701012
+2. Sundl I et al. Effects of orlistat therapy on plasma concentrations of oxygenated and hydrocarbon carotenoids. Lipids. 2006. PMID:17707976 DOI:10.1007/s11745-006-5078-6
+3. Arballo J et al. Lycopene: A Critical Review of Digestion, Absorption, Metabolism, and Excretion. Antioxidants (Basel). 2021. PMID:33668703 DOI:10.3390/antiox10030342
+4. Mellert W et al. Thirteen-week oral toxicity study of synthetic lycopene products in rats. Food Chem Toxicol. 2002. PMID:12176084 DOI:10.1016/s0278-6915(02)00113-8
+5. Bunker CH et al. A randomized trial of lycopene supplementation in Tobago men with high prostate cancer risk. Nutr Cancer. 2007. PMID:17571945 DOI:10.1080/01635580701274046
+6. Williams EA et al. A randomized placebo-controlled trial to investigate the effect of lactolycopene on semen quality in healthy males. Eur J Nutr. 2020. PMID:31591650 DOI:10.1007/s00394-019-02091-5
+7. Moran NE et al. Compartmental and noncompartmental modeling of ¹³C-lycopene absorption, isomerization, and distribution kinetics in healthy adults. Am J Clin Nutr. 2015. PMID:26561629 DOI:10.3945/ajcn.114.103143
+8. Ross AB et al. Lycopene bioavailability and metabolism in humans: an accelerator mass spectrometry study. Am J Clin Nutr. 2011. PMID:21543537 DOI:10.3945/ajcn.110.008375
+9. Cooperstone JL et al. Enhanced bioavailability of lycopene when consumed as cis-isomers from tangerine compared to red tomato juice, a randomized, cross-over clinical trial. Mol Nutr Food Res. 2015. PMID:25620547 DOI:10.1002/mnfr.201400658
+10. Unlu NZ et al. Lycopene from heat-induced cis-isomer-rich tomato sauce is more bioavailable than from all-trans-rich tomato sauce in human subjects. Br J Nutr. 2007. PMID:17391568 DOI:10.1017/S0007114507685201
+11. Zumaraga MP et al. Genetic determinants of lycopene concentration in subcutaneous adipose tissue: insights into interindividual variability in adult males. Food Funct. 2026. PMID:41848742 DOI:10.1039/d5fo05171a
+12. Cohn W et al. Comparative multiple dose plasma kinetics of lycopene administered in tomato juice, tomato soup or lycopene tablets. Eur J Nutr. 2004. PMID:15309451 DOI:10.1007/s00394-004-0476-0
+13. Unlu NZ et al. Carotenoid absorption from salad and salsa by humans is enhanced by the addition of avocado or avocado oil. J Nutr. 2005. PMID:15735074 DOI:10.1093/jn/135.3.431
+14. Fielding JM et al. Increases in plasma lycopene concentration after consumption of tomatoes cooked with olive oil. Asia Pac J Clin Nutr. 2005. PMID:15927929
+15. Yao Y et al. Effects of dietary fats on the bioaccessibility and bioavailability of carotenoids: a systematic review and meta-analysis of in vitro studies and randomized controlled trials. Nutr Rev. 2022. PMID:34897461 DOI:10.1093/nutrit/nuab098
+16. Inoue T et al. Effect of Lycopene Intake on the Fasting Blood Glucose Level: A Systematic Review with Meta-Analysis. Nutrients. 2022. PMID:36615780 DOI:10.3390/nu15010122
+17. Zamani M et al. The Effects of Lycopene and Tomato Consumption on Cardiovascular Risk Factors in Adults: A Grade Assessment Systematic Review and Meta-analysis. Curr Pharm Des. 2023. PMID:37496241 DOI:10.2174/1381612829666230726112510
+18. Applegate CC et al. Can Lycopene Impact the Androgen Axis in Prostate Cancer?: A Systematic Review of Cell Culture and Animal Studies. Nutrients. 2019. PMID:30875962 DOI:10.3390/nu11030633
+19. Gajendragadkar PR et al. Effects of oral lycopene supplementation on vascular function in patients with cardiovascular disease and healthy volunteers: a randomised controlled trial. PLoS One. 2014. PMID:24911964 DOI:10.1371/journal.pone.0099070
+20. Yoshida K et al. Improvement of vascular endothelial function by intake of lycopene-rich tomato juice in healthy adults: a randomized, placebo-controlled, double-blind, parallel-group comparative study. Food Funct. 2025. PMID:40936452 DOI:10.1039/d5fo01397f
+21. Tanaka A et al. Carotenoderma due to lycopenemia: A case report and evaluation of lycopene deposition in the skin. J Dermatol. 2022. PMID:35938228 DOI:10.1111/1346-8138.16537
+22. Zhang X et al. The effect of tomato and lycopene on clinical characteristics and molecular markers of UV-induced skin deterioration: A systematic review and meta-analysis of intervention trials. Crit Rev Food Sci Nutr. 2024. PMID:36606553 DOI:10.1080/10408398.2022.2164557
+23. Yamamoto M et al. The intake of tomato juice and lycopene modulates expression of human plasma microRNAs: a randomized, double-blind, parallel-group study. Food Funct. 2026. PMID:42765324 DOI:10.1039/d6fo02604d
+24. Cheng HM et al. Tomato and lycopene supplementation and cardiovascular risk factors: A systematic review and meta-analysis. Atherosclerosis. 2017. PMID:28129549 DOI:10.1016/j.atherosclerosis.2017.01.009
+25. Li X et al. Lycopene supplement and blood pressure: an updated meta-analysis of intervention trials. Nutrients. 2013. PMID:24051501 DOI:10.3390/nu5093696
+26. Wan S et al. Antioxidant Lipid Supplement on Cardiovascular Risk Factors: A Systematic Review and Meta-Analysis. Nutrients. 2024. PMID:39064656 DOI:10.3390/nu16142213
+27. Nam YE et al. Role of lycopene from tomato on cardiovascular risk: an umbrella review of systematic reviews and meta-analyses of intervention studies. Food Funct. 2026. PMID:41369612 DOI:10.1039/d5fo04213e
+28. Rattanavipanon W et al. Effect of tomato, lycopene and related products on blood pressure: A systematic review and network meta-analysis. Phytomedicine. 2021. PMID:33676812 DOI:10.1016/j.phymed.2021.153512
+29. Ried K et al. Protective effect of lycopene on serum cholesterol and blood pressure: Meta-analyses of intervention trials. Maturitas. 2011. PMID:21163596 DOI:10.1016/j.maturitas.2010.11.018
+30. Tierney AC et al. Effect of Dietary and Supplemental Lycopene on Cardiovascular Risk Factors: A Systematic Review and Meta-Analysis. Adv Nutr. 2020. PMID:32652029 DOI:10.1093/advances/nmaa069
+31. Yoshida K et al. Effect of Intake of Lycopene-Containing Products on Vascular Endothelial Function in Healthy Adults: A Systematic Review with Meta-Analysis. Nutrients. 2026. PMID:42588128 DOI:10.3390/nu18152505
+32. Kim JY et al. Effects of lycopene supplementation on oxidative stress and markers of endothelial function in healthy men. Atherosclerosis. 2011. PMID:21194693 DOI:10.1016/j.atherosclerosis.2010.11.036
+33. Stangl V et al. Lack of effects of tomato products on endothelial function in human subjects: results of a randomised, placebo-controlled cross-over study. Br J Nutr. 2011. PMID:20735877 DOI:10.1017/S0007114510003284
+34. Hajizadeh-Sharafabad F et al. Carotenoids supplementation and inflammation: a systematic review and meta-analysis of randomized clinical trials. Crit Rev Food Sci Nutr. 2022. PMID:33998846 DOI:10.1080/10408398.2021.1925870
+35. Heydari SS et al. Effects of carotenoid supplementation on liver enzymes in adults: a GRADE-assessed systematic review and dose-response meta-analysis of randomized controlled trials. BMC Complement Med Ther. 2025. PMID:41437050 DOI:10.1186/s12906-025-05201-5
+36. Mare R et al. A carotenoid-rich functional tomato sauce (OsteoCol®) reduces liver fat content in adults with metabolic dysfunction-associated steatotic liver disease: a randomized clinical trial. Eur J Nutr. 2026. PMID:42397564 DOI:10.1007/s00394-026-04049-w
+37. Tatoli R et al. Effect of Tomato Consumption on Liver Steatosis in MASLD: A Randomized Controlled Trial (POMOSANO Study). Nutrients. 2026. PMID:42588099 DOI:10.3390/nu18152476
+38. Rowles JL 3rd et al. Increased dietary and circulating lycopene are associated with reduced prostate cancer risk: a systematic review and meta-analysis. Prostate Cancer Prostatic Dis. 2017. PMID:28440323 DOI:10.1038/pcan.2017.25
+39. Balali A et al. Dietary intake of tomato and lycopene, blood levels of lycopene, and risk of total and specific cancers in adults: a systematic review and dose-response meta-analysis of prospective cohort studies. Front Nutr. 2025. PMID:40013157 DOI:10.3389/fnut.2025.1516048
+40. Ilic D et al. Lycopene for the prevention and treatment of benign prostatic hyperplasia and prostate cancer: a systematic review. Maturitas. 2012. PMID:22633187 DOI:10.1016/j.maturitas.2012.04.014
+41. López-Solís R et al. Lycopene intake and prostate cancer risk in men at high cardiovascular risk: a prospective cohort study. BMC Med. 2025. PMID:41214650 DOI:10.1186/s12916-025-04440-0
+42. Sharifi-Zahabi E et al. The effect of lycopene supplement from different sources on prostate specific antigen (PSA): A systematic review and meta-analysis of randomized controlled trials. Complement Ther Med. 2022. PMID:35031434 DOI:10.1016/j.ctim.2022.102801
+43. Sadeghian M et al. Lycopene Does Not Affect Prostate-Specific Antigen in Men with Non-Metastatic Prostate Cancer: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. Nutr Cancer. 2021. PMID:33355018 DOI:10.1080/01635581.2020.1862254
+44. Schwarz S et al. Lycopene inhibits disease progression in patients with benign prostate hyperplasia. J Nutr. 2008. PMID:18156403 DOI:10.1093/jn/138.1.49
+45. Sadeghi A et al. FruHis significantly increases the anti-benign prostatic hyperplasia effect of lycopene: A double-blinded randomized controlled clinical trial. Front Nutr. 2022. PMID:36407517 DOI:10.3389/fnut.2022.1011836
+46. Viña I et al. Association of Lycopene and Male Reproductive Health: Systematic Review and Meta-Analysis. Int J Mol Sci. 2025. PMID:40806357 DOI:10.3390/ijms26157224
+47. Nouri M et al. The effects of lycopene supplement on the spermatogram and seminal oxidative stress in infertile men: A randomized, double-blind, placebo-controlled clinical trial. Phytother Res. 2019. PMID:31468596 DOI:10.1002/ptr.6493
+48. Yang Q et al. Effectiveness of dietary supplements for skin photoaging in healthy adults: a systematic review and meta-analysis of randomized controlled trials. Front Med (Lausanne). 2025. PMID:40761858 DOI:10.3389/fmed.2025.1582946
+49. Stahl W et al. Dietary tomato paste protects against ultraviolet light-induced erythema in humans. J Nutr. 2001. PMID:11340098 DOI:10.1093/jn/131.5.1449
+50. Cheng HM et al. Lycopene and tomato and risk of cardiovascular diseases: A systematic review and meta-analysis of epidemiological evidence. Crit Rev Food Sci Nutr. 2019. PMID:28799780 DOI:10.1080/10408398.2017.1362630
+51. Martens LG et al. Diet-Derived Antioxidants Do Not Decrease Risk of Ischemic Stroke: A Mendelian Randomization Study in 1 Million People. J Am Heart Assoc. 2021. PMID:34796734 DOI:10.1161/JAHA.121.022567
+52. Luo J et al. Diet-Derived Circulating Antioxidants and Risk of Coronary Heart Disease: A Mendelian Randomization Study. J Am Coll Cardiol. 2021. PMID:33413940 DOI:10.1016/j.jacc.2020.10.048
+53. Guo J et al. Efficacy of Lycopene in the Treatment of Oral Submucous Fibrosis: A Meta-analysis of Randomized Controlled Trials. J Evid Based Dent Pract. 2020. PMID:33303091 DOI:10.1016/j.jebdp.2020.101471
+54. Gopinath D et al. Efficacy of Pharmacological Therapies for the Management of Oral Submucous Fibrosis: An Umbrella Review of Meta-Analyses. Oral Dis. 2026. PMID:42216734 DOI:10.1111/odi.70348
+55. Głąbska D et al. Influence of Lycopene Intake on Mental Health: A Systematic Review of Randomized Controlled Trials (RCTs). Nutrients. 2025. PMID:40507061 DOI:10.3390/nu17111793
+56. Kucuk O et al. Phase II randomized clinical trial of lycopene supplementation before radical prostatectomy. Cancer Epidemiol Biomarkers Prev. 2001. PMID:11489752
+57. Rashidi Maybodi F et al. The effect of systemic lycopene supplementation on non-surgical periodontal therapy outcomes: A clinical trial. BDJ Open. 2025. PMID:40670371 DOI:10.1038/s41405-025-00352-6
+58. Olmedilla B et al. A European multicentre, placebo-controlled supplementation study with alpha-tocopherol, carotene-rich palm oil, lutein or lycopene: analysis of serum responses. Clin Sci (Lond). 2002. PMID:11914107
+59. Micozzi MS et al. Carotenodermia in men with elevated carotenoid intake from foods and beta-carotene supplements. Am J Clin Nutr. 1988. PMID:3421202 DOI:10.1093/ajcn/48.4.1061
+60. Banerjee S et al. Trial of lycopene to prevent pre-eclampsia in healthy primigravidas: results show some adverse effects. J Obstet Gynaecol Res. 2009. PMID:19527386 DOI:10.1111/j.1447-0756.2008.00983.x
+61. Sharma JB et al. Effect of lycopene on pre-eclampsia and intra-uterine growth retardation in primigravidas. Int J Gynaecol Obstet. 2003. PMID:12767566 DOI:10.1016/s0020-7292(03)00040-7
+62. Tenório MB et al. Oral antioxidant therapy for prevention and treatment of preeclampsia: Meta-analysis of randomized controlled trials. Nutr Metab Cardiovasc Dis. 2018. PMID:30111493 DOI:10.1016/j.numecd.2018.06.002
+63. EFSA Panel on Food Additives and Nutrient Sources added to Food (ANS). Statement on the divergence between the risk assessment of lycopene by EFSA and the Joint FAO/WHO Expert Committee on Food Additives (JECFA). EFSA J. 2010. PMID:42005766 DOI:10.2903/j.efsa.2010.1676
+64. European Food Safety Authority (EFSA) et al. Dietary exposure to lycopene from background diet, novel foods and food additive use in the European population. EFSA J. 2026. PMID:41972196 DOI:10.2903/j.efsa.2026.9994
+65. Li N et al. Tomato and lycopene and multiple health outcomes: Umbrella review. Food Chem. 2021. PMID:33131949 DOI:10.1016/j.foodchem.2020.128396
+66. Zhi J et al. The effect of orlistat, an inhibitor of dietary fat absorption, on the pharmacokinetics of beta-carotene in healthy volunteers. J Clin Pharmacol. 1996. PMID:8852391 DOI:10.1002/j.1552-4604.1996.tb04180.x
+67. Elinder LS et al. Probucol treatment decreases serum concentrations of diet-derived antioxidants. Arterioscler Thromb Vasc Biol. 1995. PMID:7627696 DOI:10.1161/01.atv.15.8.1057
+68. Rydén M et al. Effects of simvastatin on carotenoid status in plasma. Nutr Metab Cardiovasc Dis. 2012. PMID:20678906 DOI:10.1016/j.numecd.2010.04.009
+69. Shin MJ et al. Effects of simvastatin on plasma antioxidant status and vitamins in hypercholesterolemic patients. Int J Cardiol. 2007. PMID:17005272 DOI:10.1016/j.ijcard.2006.03.089
+70. During A et al. Carotenoid transport is decreased and expression of the lipid transporters SR-BI, NPC1L1, and ABCA1 is downregulated in Caco-2 cells treated with ezetimibe. J Nutr. 2005. PMID:16177187 DOI:10.1093/jn/135.10.2305
+71. O'Kennedy N et al. A randomised controlled trial comparing a dietary antiplatelet, the water-soluble tomato extract Fruitflow, with 75 mg aspirin in healthy subjects. Eur J Clin Nutr. 2017. PMID:27876806 DOI:10.1038/ejcn.2016.222
+72. O'Kennedy N et al. Effects of tomato extract on platelet function: a double-blinded crossover study in healthy humans. Am J Clin Nutr. 2006. PMID:16960170 DOI:10.1093/ajcn/84.3.561
+73. Tyssandier V et al. Vegetable-borne lutein, lycopene, and beta-carotene compete for incorporation into chylomicrons, with no adverse effect on the medium-term (3-wk) plasma status of carotenoids in humans. Am J Clin Nutr. 2002. PMID:11864859 DOI:10.1093/ajcn/75.3.526
+74. van den Berg H. Carotenoid interactions. Nutr Rev. 1999. PMID:10047699 DOI:10.1111/j.1753-4887.1999.tb01769.x
+75. Amundsen AL et al. Long-term compliance and changes in plasma lipids, plant sterols and carotenoids in children and parents with FH consuming plant sterol ester-enriched spread. Eur J Clin Nutr. 2004. PMID:15199384 DOI:10.1038/sj.ejcn.1602015
+76. Tulley RT et al. Daily intake of multivitamins during long-term intake of olestra in men prevents declines in serum vitamins A and E but not carotenoids. J Nutr. 2005. PMID:15930452 DOI:10.1093/jn/135.6.1456
+77. Neuhouser ML et al. Olestra is associated with slight reductions in serum carotenoids but does not markedly influence serum fat-soluble vitamin concentrations. Am J Clin Nutr. 2006. PMID:16522910 DOI:10.1093/ajcn.83.3.624
+78. Wang S et al. Combination of Lycopene and Curcumin Synergistically Alleviates Testosterone-Propionate-Induced Benign Prostatic Hyperplasia in Sprague Dawley Rats via Modulating Inflammation and Proliferation. Molecules. 2023. PMID:37446563 DOI:10.3390/molecules28134900
+79. Morgia G et al. Comparison of Serenoa repens, lycopene, and selenium versus dutasteride for the treatment of LUTS/BPH: an Italian multicenter case-control prospective study (COMP study). Front Urol. 2025. PMID:40777606 DOI:10.3389/fruro.2025.1565240
+80. Morgia G et al. Association between selenium and lycopene supplementation and incidence of prostate cancer: Results from the post-hoc analysis of the procomb trial. Phytomedicine. 2017. PMID:28899491 DOI:10.1016/j.phymed.2017.06.008
+81. Norman AC et al. Association of Candidate Single-Nucleotide Polymorphism Genotypes With Plasma and Skin Carotenoid Concentrations in Adults Provided a Lycopene-Rich Juice. J Nutr. 2024. PMID:38797482 DOI:10.1016/j.tjnut.2024.05.022
+82. Borel P et al. Lycopene bioavailability is associated with a combination of genetic variants. Free Radic Biol Med. 2015. PMID:25772008 DOI:10.1016/j.freeradbiomed.2015.02.033
+83. Desmarchelier C et al. Genetic factors involved in the bioavailability of tomato carotenoids. Curr Opin Clin Nutr Metab Care. 2018. PMID:30277929 DOI:10.1097/MCO.0000000000000515
+84. Moran NE et al. Single Nucleotide Polymorphisms in β-Carotene Oxygenase 1 are Associated with Plasma Lycopene Responses to a Tomato-Soy Juice Intervention in Men with Prostate Cancer. J Nutr. 2019. PMID:30801647 DOI:10.1093/jn/nxy304
+85. Wang TT et al. Strong and weak plasma response to dietary carotenoids identified by cluster analysis and linked to beta-carotene 15,15'-monooxygenase 1 single nucleotide polymorphisms. J Nutr Biochem. 2013. PMID:23517913 DOI:10.1016/j.jnutbio.2013.01.001
+86. Liu X et al. Apolipoprotein E ε4-dependent associations between carotenoids and cognitive decline: Findings from the MIND (Mediterranean-DASH Intervention for Neurodegenerative delay) randomized controlled trial. Am J Clin Nutr. 2025. PMID:40876538 DOI:10.1016/j.ajcnut.2025.08.012
+87. Sani L et al. Impact of tomatoes and tomato-derived products on obesity and cardiometabolic health: a systematic review and meta-analysis. Food Funct. 2026. PMID:42300210 DOI:10.1039/d6fo00495d
+88. Cavero-Redondo I et al. Circulating Lycopene and β-Carotene Levels Are Inversely Associated with Carotid Intima-Media Thickness: A Systematic Review and Meta-Analysis. Nutrients. 2026. PMID:41978094 DOI:10.3390/nu18071043
+89. Viña I et al. Association Between Lycopene and Metabolic Disease Risk and Mortality: Systematic Review and Meta-Analysis. Life (Basel). 2025. PMID:40566597 DOI:10.3390/life15060944
+90. National Cancer Institute. Prostate Cancer, Nutrition, and Dietary Supplements (PDQ) - Health Professional Version, Lycopene section. cancer.gov. accessed 2026. URL:https://www.cancer.gov/about-cancer/treatment/cam/hp/prostate-supplements-pdq

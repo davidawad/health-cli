@@ -3,28 +3,283 @@
   "supplement": "Spermidine",
   "slug": "spermidine",
   "aliases": [
-    "Spermidine",
-    "wheat germ extract"
+    "spermidine trihydrochloride",
+    "spermidine-rich wheat germ extract",
+    "spermidineLIFE",
+    "polyamine supplement",
+    "rice germ spermidine (Miricell)"
   ],
   "category": "longevity",
   "rx_status": "otc",
-  "evidence_certainty_overall": "very-low",
+  "evidence_certainty_overall": "low",
   "edges": [
     {
-      "with": "N-Acetyl-L-Cysteine (NAC)",
-      "with_kind": "supplement",
+      "with": "eflornithine (DFMO)",
+      "with_kind": "drug",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "DFMO irreversibly inhibits ODC to deplete polyamines (neuroblastoma maintenance, adenoma chemoprevention); exogenous spermidine directly opposes the therapeutic goal. High dietary polyamine intake abolished DFMO+sulindac adenoma benefit (RR 1.51 top quartile vs 0.19 lower quartiles).",
+      "evidence": "Secondary analysis of phase III RCT plus mechanism reviews; no direct supplement-drug study; low certainty",
+      "citations": [
+        "PMID:23340449",
+        "PMID:18841250",
+        "PMID:38749882",
+        "PMID:39612452"
+      ]
+    },
+    {
+      "with": "active cancer",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Polyamines are required for tumour growth; tumour-derived spermidine suppresses CD8+ T-cell function and exogenous spermidine accelerated glioblastoma in mice; polyamine depletion is an anticancer strategy. Large cohorts show no increased prostate or colorectal cancer with dietary intake.",
+      "evidence": "Preclinical and mechanistic reviews; observational human data reassuring but not for supplements in existing cancer; very low certainty",
+      "citations": [
+        "PMID:30181570",
+        "PMID:35477776",
+        "PMID:39561012",
+        "PMID:37276392",
+        "PMID:12653644",
+        "PMID:42591195"
+      ]
+    },
+    {
+      "with": "history of colorectal adenoma",
+      "with_kind": "condition",
       "kind": "caution",
       "severity": "minor",
-      "mechanism": "No clinically established interaction; concurrent autophagy/redox mechanistic claims are preclinical only.",
-      "evidence": "Human evidence for spermidine remains limited and no interaction studies identified.",
+      "mechanism": "Above-median dietary polyamine intake associated with higher adenoma recurrence (OR 1.39), but WHI cohort found no increase in colorectal cancer.",
+      "evidence": "Pooled control arms of 2 RCTs and a large cohort; conflicting; very low certainty",
       "citations": [
-        "PMID:41098596"
+        "PMID:22648715",
+        "PMID:26135350"
+      ]
+    },
+    {
+      "with": "chronic kidney disease",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Renal failure raises plasma putrescine and spermine oxidase activity, producing acrolein (a putative uremic toxin, ~5-fold higher protein-conjugated acrolein); no supplement safety data in CKD.",
+      "evidence": "Clinical biochemistry studies and reviews; theoretical for supplementation; very low certainty",
+      "citations": [
+        "PMID:16554974",
+        "PMID:27758122",
+        "PMID:33439737"
+      ]
+    },
+    {
+      "with": "wheat allergy / coeliac disease",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Spermidine-rich wheat germ extracts (e.g. spermidineLIFE) contain gluten; synthetic spermidine trihydrochloride or rice germ forms avoid wheat.",
+      "evidence": "Product labelling and novel-food listing; no clinical reaction reports found",
+      "citations": [
+        "URL:https://www.vitalabo.com/longevity-labs/spermidine-life",
+        "URL:https://eur-lex.europa.eu/eli/reg_impl/2020/443/oj",
+        "PMID:39405978"
+      ]
+    },
+    {
+      "with": "immune checkpoint inhibitors",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Spermidine enhanced anti-PD-L1 efficacy in aged mice, but tumour-derived spermidine acts as a T-cell checkpoint and polyamine synthesis blockade improved anti-PD-1 responses; direction in humans unknown.",
+      "evidence": "Conflicting preclinical data only; very low certainty",
+      "citations": [
+        "PMID:36387057",
+        "PMID:37723019",
+        "PMID:37276392"
+      ]
+    },
+    {
+      "with": "antihypertensives",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Dietary spermidine correlated with lower BP in humans and lowered BP in salt-sensitive rats; possible small additive effect.",
+      "evidence": "Animal data and observational human association; no interaction study; very low certainty",
+      "citations": [
+        "PMID:27841876",
+        "PMID:28118075"
+      ]
+    },
+    {
+      "with": "Rapamycin",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Rapamycin-induced autophagy and longevity require an endogenous spermidine surge with eIF5A hypusination/TFEB; shared autophagy axis.",
+      "evidence": "Preclinical (yeast, worms, flies, mice); no human combination data",
+      "citations": [
+        "PMID:39212197",
+        "PMID:39117797"
+      ]
+    },
+    {
+      "with": "Trans-resveratrol",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Spermidine (acetyltransferase inhibition, SIRT1-independent) and resveratrol (SIRT1 activation) converge on the acetylproteome; synergistic autophagy at subthreshold doses.",
+      "evidence": "In vitro and model-organism data only",
+      "citations": [
+        "PMID:21339330",
+        "PMID:20157579"
+      ]
+    },
+    {
+      "with": "Curcumin",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Curcumin and spermidine both inhibit EP300 acetyltransferase activity and induce autophagy; potentially additive.",
+      "evidence": "In vitro data only",
+      "citations": [
+        "PMID:25526088"
+      ]
+    },
+    {
+      "with": "Turmeric",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Curcumin (the turmeric constituent) shares EP300 inhibition with spermidine; potentially additive autophagy induction.",
+      "evidence": "In vitro data only; extrapolated from curcumin",
+      "citations": [
+        "PMID:25526088"
+      ]
+    },
+    {
+      "with": "Urolithin A",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Urolithin A drives PINK1/Parkin mitophagy while spermidine drives broader autophagy; proposed complementary use.",
+      "evidence": "Narrative reviews; no co-administration trials",
+      "citations": [
+        "PMID:41404767",
+        "PMID:42588134"
+      ]
+    },
+    {
+      "with": "Fisetin",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Senolytic fisetin and autophagy-inducing spermidine target distinct ageing hallmarks; proposed combined functional food use.",
+      "evidence": "Narrative review; limited direct evidence for combined use",
+      "citations": [
+        "PMID:42588134"
+      ]
+    },
+    {
+      "with": "Berberine",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Berberine (AMPK/metabolic) and spermidine (autophagy) target complementary pathways.",
+      "evidence": "Narrative review; limited direct evidence for combined use",
+      "citations": [
+        "PMID:42588134"
+      ]
+    },
+    {
+      "with": "nicotinamide",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Spermidine has been combined with nicotinamide, PEA and OEA in fasting-mimetic products; combination lowered LDL and fasting glucose, but effects cannot be attributed to spermidine. No data for NMN or nicotinamide riboside.",
+      "evidence": "Small RCT (n=42) and pilot studies of combination products; very low certainty",
+      "citations": [
+        "PMID:41720867",
+        "PMID:39549554",
+        "PMID:36678330",
+        "PMID:38181790"
+      ]
+    },
+    {
+      "with": "plasma polyamine assays",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Oral spermidine (15 mg/d) raised plasma spermine without changing spermidine; supplementation may confound research biomarkers based on circulating polyamines (MCI/AD, stroke).",
+      "evidence": "Crossover RCT and biomarker studies",
+      "citations": [
+        "PMID:37111071",
+        "PMID:39405978",
+        "PMID:36321615",
+        "PMID:35487023"
+      ]
+    },
+    {
+      "with": "ODC1 +316 G>A",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "ODC1 GG carriers with above-median polyamine intake had higher adenoma odds (OR 1.59); genotype modified eflornithine/sulindac response.",
+      "evidence": "Secondary analyses of RCT cohorts; very low certainty",
+      "citations": [
+        "PMID:22648715",
+        "PMID:20798393"
+      ]
+    },
+    {
+      "with": "polyamine-rich foods",
+      "with_kind": "food",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Wheat germ, legumes, nuts, cheese, vegetables and fermented foods contribute dietary spermidine (median ~11.5 mg/d in older CAD patients), comparable to or exceeding supplement doses.",
+      "evidence": "Cohort and cross-sectional dietary data",
+      "citations": [
+        "PMID:36249217",
+        "PMID:42000692",
+        "PMID:32634331"
       ]
     }
   ],
   "citations": [
-    "PMID:2792725",
-    "URL:https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2792725",
-    "PMID:41098596"
+    "PMID:23340449",
+    "PMID:18841250",
+    "PMID:38749882",
+    "PMID:39612452",
+    "PMID:30181570",
+    "PMID:35477776",
+    "PMID:39561012",
+    "PMID:37276392",
+    "PMID:12653644",
+    "PMID:42591195",
+    "PMID:22648715",
+    "PMID:26135350",
+    "PMID:16554974",
+    "PMID:27758122",
+    "PMID:33439737",
+    "URL:https://www.vitalabo.com/longevity-labs/spermidine-life",
+    "URL:https://eur-lex.europa.eu/eli/reg_impl/2020/443/oj",
+    "PMID:39405978",
+    "PMID:36387057",
+    "PMID:37723019",
+    "PMID:27841876",
+    "PMID:28118075",
+    "PMID:39212197",
+    "PMID:39117797",
+    "PMID:21339330",
+    "PMID:20157579",
+    "PMID:25526088",
+    "PMID:41404767",
+    "PMID:42588134",
+    "PMID:41720867",
+    "PMID:39549554",
+    "PMID:36678330",
+    "PMID:38181790",
+    "PMID:37111071",
+    "PMID:36321615",
+    "PMID:35487023",
+    "PMID:20798393",
+    "PMID:36249217",
+    "PMID:42000692",
+    "PMID:32634331"
   ]
 }

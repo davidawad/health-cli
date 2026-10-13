@@ -3,40 +3,459 @@
   "supplement": "Lithium",
   "slug": "lithium",
   "aliases": [
-    "Lithium",
-    "lithium orotate (supplement form)",
-    "lithium carbonate (prescription)"
+    "lithium orotate",
+    "low-dose lithium",
+    "microdose lithium",
+    "trace lithium",
+    "lithium in drinking water",
+    "lithium carbonate (Rx)",
+    "lithium citrate (Rx)",
+    "Li"
   ],
   "category": "mineral",
-  "rx_status": "rx",
-  "evidence_certainty_overall": "very-low",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "low",
   "edges": [
     {
       "with": "NSAIDs",
       "with_kind": "drug-class",
-      "kind": "monitor",
+      "kind": "avoid",
       "severity": "major",
-      "mechanism": "NSAIDs can reduce renal lithium clearance and increase serum lithium/toxicity risk.",
-      "evidence": "Prescription lithium labeling warns of interaction; applies to therapeutic lithium exposure.",
+      "mechanism": "NSAIDs reduce renal blood flow and lithium clearance, raising serum lithium; COX-2 inhibitor cases with rises up to 99% (celecoxib) and 448% (rofecoxib).",
+      "evidence": "FDA label Table 4; FAERS case series and literature review; Ontario case-control found no independent NSAID association with toxicity admissions. Documented at therapeutic doses; untested for supplemental doses.",
       "citations": [
-        "URL:https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=lithium%20carbonate"
+        "PMID:14658947",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b839ff4b-f62d-41ab-a823-550a756d58ec",
+        "PMID:15086664"
       ]
     },
     {
-      "with": "Metformin ER",
-      "with_kind": "drug",
+      "with": "ACE inhibitors",
+      "with_kind": "drug-class",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Reduced renal lithium clearance (-25.5%) with steady-state lithium +36%; elderly most susceptible.",
+      "evidence": "Retrospective study (n=20); population case-control: toxicity admission RR 7.6 within a month of starting; label warning.",
+      "citations": [
+        "PMID:8834421",
+        "PMID:15086664",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b839ff4b-f62d-41ab-a823-550a756d58ec"
+      ]
+    },
+    {
+      "with": "ARBs (angiotensin receptor blockers)",
+      "with_kind": "drug-class",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Renin-angiotensin antagonists increase steady-state serum lithium.",
+      "evidence": "FDA label class warning; review of 30 intoxication reports implicating RAS inhibitors.",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b839ff4b-f62d-41ab-a823-550a756d58ec",
+        "PMID:26630207"
+      ]
+    },
+    {
+      "with": "Thiazide diuretics",
+      "with_kind": "drug-class",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Diuretic-induced sodium loss increases proximal lithium reabsorption; 25-40% rise in lithium after initiation.",
+      "evidence": "Pharmacokinetic review and label; Ontario case-control did not find independent association with admissions.",
+      "citations": [
+        "PMID:8521679",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b839ff4b-f62d-41ab-a823-550a756d58ec",
+        "PMID:15086664"
+      ]
+    },
+    {
+      "with": "Loop diuretics",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "major",
+      "mechanism": "Volume contraction after furosemide reduces lithium clearance.",
+      "evidence": "Population case-control: toxicity admission RR 5.5 within a month of starting; human physiology study.",
+      "citations": [
+        "PMID:15086664",
+        "PMID:3690979"
+      ]
+    },
+    {
+      "with": "SSRIs/SNRIs and other serotonergic drugs",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Additive serotonergic effect; lithium can precipitate serotonin syndrome.",
+      "evidence": "FDA label warning; case report with venlafaxine (Naranjo probable).",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b839ff4b-f62d-41ab-a823-550a756d58ec",
+        "PMID:16882112"
+      ]
+    },
+    {
+      "with": "Theophylline / methylxanthines",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Increase renal lithium clearance (~30%), lowering serum lithium and risking loss of efficacy.",
+      "evidence": "Human pharmacokinetic study; label lists xanthine preparations as lowering lithium.",
+      "citations": [
+        "PMID:6741601",
+        "PMID:8521679",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b839ff4b-f62d-41ab-a823-550a756d58ec"
+      ]
+    },
+    {
+      "with": "Caffeine",
+      "with_kind": "food",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Caffeine increases lithium clearance; abrupt caffeine withdrawal raised lithium and worsened tremor.",
+      "evidence": "Two case reports; consistent with methylxanthine pharmacokinetics.",
+      "citations": [
+        "PMID:3338980",
+        "PMID:8521679"
+      ]
+    },
+    {
+      "with": "Low sodium intake / dehydration",
+      "with_kind": "food",
+      "kind": "caution",
+      "severity": "major",
+      "mechanism": "Low salt intake and volume depletion reduce lithium clearance; add-on 1 g/d NaCl reduced serum lithium fluctuation (26.7% vs 63.3%).",
+      "evidence": "Human physiology study; RCT (n=60); label warning on dehydration and hyponatremia.",
+      "citations": [
+        "PMID:3690979",
+        "PMID:36409058",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b839ff4b-f62d-41ab-a823-550a756d58ec"
+      ]
+    },
+    {
+      "with": "Antipsychotics",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Reports of neurotoxicity ranging from extrapyramidal symptoms to neuroleptic malignant syndrome and encephalopathy.",
+      "evidence": "FDA label (case reports).",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b839ff4b-f62d-41ab-a823-550a756d58ec"
+      ]
+    },
+    {
+      "with": "SGLT2 inhibitors",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "May decrease serum lithium concentrations.",
+      "evidence": "FDA label.",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b839ff4b-f62d-41ab-a823-550a756d58ec"
+      ]
+    },
+    {
+      "with": "Iodine (potassium iodide)",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "moderate",
+      "mechanism": "Iodide and lithium both inhibit thyroid hormone release; combined use can produce hypothyroidism (or Jod-Basedow hyperthyroidism).",
+      "evidence": "Label warning; study of 10 lithium-treated patients given KI 250 mg qid: TSH +8.9 uU/mL, 2 hypothyroid, 1 hyperthyroid. Pharmacological iodide doses; relevance to nutritional iodine unknown.",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b839ff4b-f62d-41ab-a823-550a756d58ec",
+        "PMID:576345"
+      ]
+    },
+    {
+      "with": "Aspirin",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Conflicting reports: no effect or decreased lithium in some reports, increases in others.",
+      "evidence": "Literature review within FAERS/NSAID analysis.",
+      "citations": [
+        "PMID:14658947"
+      ]
+    },
+    {
+      "with": "Magnesium",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Oral magnesium sulfate did not alter lithium carbonate absorption despite purgative effect.",
+      "evidence": "Single small human study (n=10); essentially no interaction found.",
+      "citations": [
+        "PMID:1242885",
+        "DOI:10.1007/BF00353312"
+      ]
+    },
+    {
+      "with": "Vitamin D-3",
+      "with_kind": "supplement",
       "kind": "caution",
       "severity": "minor",
-      "mechanism": "No specific interaction established; renal impairment/dehydration can independently alter lithium safety and requires clinical monitoring.",
-      "evidence": "Lithium label advises monitoring renal function and hydration; no direct trial of this pair identified.",
+      "mechanism": "Lithium raises serum calcium and PTH and causes hyperparathyroidism; calcium-raising supplements could add to or mask lithium-associated hypercalcemia.",
+      "evidence": "Inferred from MA data on lithium; no direct combination study.",
       "citations": [
-        "URL:https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=lithium%20carbonate"
+        "PMID:22265699",
+        "PMID:39192574"
+      ]
+    },
+    {
+      "with": "Chronic kidney disease / renal impairment",
+      "with_kind": "condition",
+      "kind": "contraindicated",
+      "severity": "major",
+      "mechanism": "Renal elimination; impaired clearance raises toxicity risk; lithium itself associated with CKD3+ (HR 1.90; dose-dependent).",
+      "evidence": "Label: avoid at CrCl<30 mL/min; nationwide cohorts.",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b839ff4b-f62d-41ab-a823-550a756d58ec",
+        "PMID:39572104",
+        "PMID:39932712"
+      ]
+    },
+    {
+      "with": "Pregnancy",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "First-trimester exposure increases cardiac malformations including Ebstein anomaly (aRR 1.65; >900 mg/d RR 3.22) and any malformation (OR 1.81).",
+      "evidence": "Cohort of 1.3M pregnancies; MAs; label. Data are for therapeutic doses.",
+      "citations": [
+        "PMID:28591541",
+        "PMID:31623458",
+        "PMID:29929874",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b839ff4b-f62d-41ab-a823-550a756d58ec"
+      ]
+    },
+    {
+      "with": "Breastfeeding",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Infant plasma lithium 30-40% of maternal; toxicity signs reported in breastfed infants.",
+      "evidence": "FDA label.",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b839ff4b-f62d-41ab-a823-550a756d58ec"
+      ]
+    },
+    {
+      "with": "Thyroid disease (hypothyroidism)",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Lithium inhibits thyroid hormone synthesis/release; hypothyroidism OR 5.78; occasional hyperthyroidism.",
+      "evidence": "SR/MA, cohort, SR of hyperthyroidism cases.",
+      "citations": [
+        "PMID:22265699",
+        "PMID:39932712",
+        "PMID:30841715"
+      ]
+    },
+    {
+      "with": "Hyperparathyroidism / hypercalcemia",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Lithium raises calcium and PTH; lithium-associated HPT ~4-5%, often multiglandular.",
+      "evidence": "SR/MAs.",
+      "citations": [
+        "PMID:39192574",
+        "PMID:42606582",
+        "PMID:22265699"
+      ]
+    },
+    {
+      "with": "Brugada syndrome",
+      "with_kind": "condition",
+      "kind": "contraindicated",
+      "severity": "major",
+      "mechanism": "Lithium may unmask Brugada syndrome with risk of sudden death; bradycardia also reported.",
+      "evidence": "FDA label postmarketing reports; SR of 135 bradycardia cases.",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b839ff4b-f62d-41ab-a823-550a756d58ec",
+        "PMID:42425479"
+      ]
+    },
+    {
+      "with": "Older age",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Reduced renal clearance; toxicity signs at 0.82-1.00 mmol/L; drug interactions (diuretics, ACE inhibitors, NSAIDs) more hazardous.",
+      "evidence": "ISBD task force SR of 14 observational studies; population case-control.",
+      "citations": [
+        "PMID:42460615",
+        "PMID:15086664"
+      ]
+    },
+    {
+      "with": "Lithium heparin blood collection tubes",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "moderate",
+      "mechanism": "Lithium heparin anticoagulant contaminates samples, giving spurious serum lithium (up to 4.19 mmol/L) and spuriously high enzymatic creatinine when tubes are underfilled.",
+      "evidence": "Case reports and laboratory experiment.",
+      "citations": [
+        "PMID:19057375",
+        "PMID:34463152"
+      ]
+    },
+    {
+      "with": "TSH / white cell count",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "True physiological effects: TSH rises and neutrophilic leukocytosis occurs during lithium therapy; interpret thyroid and CBC results accordingly.",
+      "evidence": "SR/MA; RCT in MCI; cross-sectional study.",
+      "citations": [
+        "PMID:22265699",
+        "PMID:25093483",
+        "PMID:11105780"
       ]
     }
   ],
   "citations": [
-    "URL:https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=lithium%20carbonate",
+    "DOI:10.1001/jamanetworkopen.2024.58608",
+    "DOI:10.1001/jamaneurol.2026.0072",
+    "DOI:10.1001/jamapediatrics.2023.0346",
+    "DOI:10.1001/jamapsychiatry.2017.2362",
+    "DOI:10.1001/jamapsychiatry.2026.1296",
+    "DOI:10.1002/gps.5890",
+    "DOI:10.1007/BF00353312",
+    "DOI:10.1007/BF03160910",
+    "DOI:10.1007/s00394-011-0171-x",
+    "DOI:10.1007/s00423-026-04200-5",
+    "DOI:10.1007/s11357-024-01142-y",
+    "DOI:10.1007/s12011-026-05325-w",
+    "DOI:10.1007/s40263-024-01131-x",
+    "DOI:10.1016/S0140-6736(11)61516-X",
+    "DOI:10.1016/S0140-6736(16)00143-4",
+    "DOI:10.1016/S2215-0366(18)30180-9",
+    "DOI:10.1016/S2215-0366(24)00324-9",
+    "DOI:10.1016/j.arr.2024.102203",
+    "DOI:10.1016/j.envpol.2026.127766",
+    "DOI:10.1016/j.euroneuro.2016.03.020",
+    "DOI:10.1016/j.jad.2019.12.027",
+    "DOI:10.1016/j.jad.2024.05.128",
+    "DOI:10.1016/j.jad.2025.119487",
+    "DOI:10.1016/j.jad.2025.119542",
+    "DOI:10.1016/j.jad.2025.120721",
+    "DOI:10.1016/j.jagp.2025.10.001",
+    "DOI:10.1016/j.jagp.2026.06.014",
+    "DOI:10.1016/j.jpsychires.2023.06.012",
+    "DOI:10.1016/j.neubiorev.2021.07.011",
+    "DOI:10.1016/j.pnpbp.2026.111831",
+    "DOI:10.1016/j.psychres.2026.117300",
+    "DOI:10.1016/j.yrtph.2021.104973",
+    "DOI:10.1038/s41386-018-0289-0",
+    "DOI:10.1038/s41586-025-09335-x",
+    "DOI:10.1042/cs0730645",
+    "DOI:10.1056/NEJMoa1612222",
+    "DOI:10.1080/07315724.2002.10719188",
+    "DOI:10.1080/09540261.2025.2572365",
+    "DOI:10.1080/15622975.2024.2393373",
+    "DOI:10.1097/00004714-199602000-00011",
+    "DOI:10.1097/FTD.0b013e3181898978",
+    "DOI:10.1097/HJH.0000000000000758",
+    "DOI:10.1097/JCP.0000000000001863",
+    "DOI:10.1111/bdi.12983",
+    "DOI:10.1111/bdi.13276",
+    "DOI:10.1111/bdi.70151",
+    "DOI:10.1111/j.1365-2710.2006.00745.x",
+    "DOI:10.1111/j.1532-5415.2004.52221.x",
+    "DOI:10.1111/j.1600-0447.1984.tb02527.x",
+    "DOI:10.1136/bmj.f3646",
+    "DOI:10.1139/apnm-2017-0653",
+    "DOI:10.1176/appi.ajp.2019.19030228",
+    "DOI:10.1177/00045632211040673",
+    "DOI:10.1177/0004867419833171",
+    "DOI:10.1177/0004867420963740",
+    "DOI:10.1177/0269881119882858",
+    "DOI:10.1177/13872877261488808",
+    "DOI:10.1186/s40345-024-00348-5",
+    "DOI:10.1192/bjp.2019.76",
+    "DOI:10.1192/bjp.2020.128",
+    "DOI:10.1192/bjp.2026.10699",
+    "DOI:10.1192/bjp.bp.110.080044",
+    "DOI:10.1515/reveh-2023-0025",
+    "DOI:10.1530/acta.0.0840290",
+    "DOI:10.2165/00003088-199529030-00004",
+    "DOI:10.2174/1567205011310010014",
+    "DOI:10.3109/08923970009016431",
+    "DOI:10.3233/JAD-150437",
+    "DOI:10.3390/ph17111486",
+    "DOI:10.4088/JCP.13m08741",
+    "DOI:10.4088/jcp.v64n1108",
+    "PMID:11105780",
+    "PMID:11838882",
+    "PMID:1242885",
+    "PMID:14658947",
+    "PMID:15086664",
+    "PMID:16882112",
+    "PMID:18072162",
+    "PMID:19057375",
+    "PMID:21301855",
+    "PMID:21525519",
+    "PMID:22265699",
+    "PMID:22746245",
+    "PMID:23814104",
+    "PMID:25093483",
+    "PMID:26402004",
+    "PMID:26630207",
+    "PMID:26806518",
+    "PMID:27084304",
+    "PMID:28591541",
+    "PMID:28832877",
+    "PMID:29206474",
+    "PMID:29929874",
+    "PMID:30559463",
+    "PMID:30841715",
+    "PMID:30947755",
+    "PMID:31623458",
+    "PMID:31670617",
+    "PMID:32056756",
+    "PMID:32716281",
+    "PMID:32780508",
+    "PMID:33045847",
+    "PMID:3338980",
+    "PMID:34146638",
+    "PMID:34265322",
+    "PMID:34463152",
+    "PMID:36409058",
+    "PMID:36747488",
+    "PMID:3690979",
+    "PMID:37010840",
+    "PMID:37261955",
+    "PMID:37356352",
     "PMID:38253184",
-    "URL:https://jamanetwork.com/journals/jamaneurology/fullarticle/2845746"
+    "PMID:38539016",
+    "PMID:38743015",
+    "PMID:38810780",
+    "PMID:39192574",
+    "PMID:39212809",
+    "PMID:39528870",
+    "PMID:39572104",
+    "PMID:39598397",
+    "PMID:39932712",
+    "PMID:40441661",
+    "PMID:40449743",
+    "PMID:40770094",
+    "PMID:41177743",
+    "PMID:41236362",
+    "PMID:41260370",
+    "PMID:41643982",
+    "PMID:41770546",
+    "PMID:42268602",
+    "PMID:42312809",
+    "PMID:42372694",
+    "PMID:42425479",
+    "PMID:42460615",
+    "PMID:42521537",
+    "PMID:42606582",
+    "PMID:42693365",
+    "PMID:42803710",
+    "PMID:576345",
+    "PMID:6741601",
+    "PMID:8521679",
+    "PMID:8834421",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b839ff4b-f62d-41ab-a823-550a756d58ec"
   ]
 }

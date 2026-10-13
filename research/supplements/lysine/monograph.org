@@ -3,35 +3,210 @@
 :ID: supp-lysine
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: L-lysine | lysine hydrochloride
+:ALIASES: L-lysine | L-lysine hydrochloride | L-lysine monohydrochloride | lysine HCl | Lys
 :CATEGORY: amino-acid
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
+
 ** Identity & forms
-- Lysine is an essential amino acid obtained from diet; supplements generally provide L-lysine or its hydrochloride salt [PMID:30855987].
+- L-lysine is an essential (indispensable) amino acid; mammals cannot synthesize it. Its main role is protein synthesis, and liver catabolism dominates. First-pass metabolism of dietary lysine is about 30-42% [PMID:17513440].
+- Requirements: about 30 mg/kg/d in adults and 64 mg/kg/d in 0.5-year infants. Western diets supply 40-180 mg/kg/d [PMID:17513440]. An IAAO study in adults >60 y estimated 32.2 mg/kg/d for men. For women the estimate was 32.9 mg/kg/d at 60-69 y and 46.2 mg/kg/d at >70 y [PMID:38735574].
+- Lysine is the first limiting amino acid in wheat- and cereal-based diets [PMID:15214256] [PMID:15159538].
+- Supplements are mostly L-lysine monohydrochloride (LMH), sold over the counter mainly to suppress recurrent herpes simplex [PMID:9013429].
+- Commercial lysine is made by microbial fermentation (Corynebacterium glutamicum), with over 1 million t/yr produced. Supplement absorption is reported as comparable to dietary protein sources [PMID:40626529].
+- Other forms in the literature: lysine-fortified wheat flour (3 g lysine/kg) [PMID:15214257]; combined lysine + arginine products (anxiety trials) [PMID:17510493]; and IV lysine/arginine solutions for kidney protection during radionuclide therapy [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=72d1a024-00b7-418a-b36e-b2cb48f2ab55].
+- Recent comprehensive reviews cover metabolism, post-translational modifications (collagen hydroxylation, elastin desmosine), carnitine and homoarginine synthesis, and supplement use [PMID:41009362] [PMID:40626529].
+
 ** Mechanisms
-- Protein synthesis and competition with arginine for viral replication have been proposed to explain HSV effects; mechanistic rationale is not clinical proof [PMID:30855987].
+- Arginine-lysine antagonism (HSV rationale): in cell culture, arginine deficiency suppressed HSV replication, and lysine antagonized arginine's growth-promoting effect [PMID:6262023] [PMID:640102].
+  - In healthy men, rising oral arginine doses linearly lowered whole-body lysine oxidation and plasma lysine. This is the first human evidence of the antagonism [PMID:32187681].
+  - Lysine competes with arginine for cellular transport [PMID:17513444].
+  - A systematic review notes lysine has no direct antiviral activity. It is thought to act by lowering arginine, and that does not hold in cats [PMID:26573523].
+- Calcium handling: lysine 400 mg blunted the calciuric response to an oral calcium load in healthy women, and 800 mg/d raised fractional 47Ca absorption in osteoporotic patients (valine and tryptophan did not) [PMID:1486246]. In rats, lysine stimulated GLP-1 secretion via the calcium-sensing receptor (CaSR) [PMID:40899781].
+- Glucose and hormones:
+  - Oral lysine raises glucagon and modestly raises insulin, and lowers the glucose response to co-ingested glucose [PMID:19553295] [PMID:28592515].
+  - In β-cells, lysine potentiates glucose-stimulated insulin secretion through AASS-dependent catabolism and GABA (in vitro and islet data) [PMID:41167553].
+  - Ingested lysine is catabolized to 2-aminoadipic acid (2-AAA) and also raises insulin, C-peptide, glucagon and GLP-1 [PMID:41721626].
+- Kidney: lysine shares an apical proximal-tubule uptake mechanism with gentamicin: 0.5 mmol/L lysine cut gentamicin uptake 38.9% in vitro [PMID:8429116]. High-dose lysine (IV) inhibits tubular uptake of radiolabelled peptides and albumin [PMID:12483404] [PMID:35835746].
+- Stress axis: in rats, lysine deficiency raised stress-induced anxiety and changed amygdala serotonin release [PMID:12468617]. Lysine + arginine reduced restraint-stress anxiety and corticosterone [PMID:12722988].
+- Nitric oxide: lysine interferes with NO production, which was the rationale for a schizophrenia pilot trial [PMID:21501494].
+- Collagen: specific collagen lysines are hydroxylated to hydroxylysine, glycosylated and oxidatively deaminated to form covalent cross-links [PMID:22708567]. Lysyl hydroxylase 2-derived hydroxyallysine cross-links rise in fibrosis [PMID:31324706]. Ascorbate is a cofactor for collagen lysyl hydroxylases [PMID:41980618] [PMID:6265920].
+
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | Certainty | Citations |
-|---------+--------------------+-----------+-------------+-----------+-----------|
-| Principal studied outcome | Systematic review/RCT or official product label | Herpes labialis prevention: evidence insufficient. Review found inconsistent small RCTs; 3 g/day reduced recurrence in one trial, while another trial was null [PMID:30855987]. | See outcome summary above; no extrapolation to unstudied endpoints | very-low | [PMID:30855987] |
-| Hard clinical outcomes / prevention | Human outcome evidence sparse or absent in sources reviewed | Not established | No reliable effect estimate | very low | [PMID:30855987] |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Recurrent HSV (cold sores) prophylaxis | Small RCTs (n=21-65) plus narrative/systematic reviews; no meta-analysis | Mixed: benefit at >=3 g/d; null at <=1.2 g/d | 3 g/d x 6 mo: 2.4 fewer outbreaks vs placebo (n=52); 1.2 g/d and 1 g/d: no effect on recurrence rate | low | [PMID:3115841] [PMID:6419679] [PMID:6153847] [PMID:30881246] |
+| HSV lesion healing/severity | Same RCTs; survey; open-label combination product | Possible benefit at 3 g/d only | Healing time and severity reduced (p<0.05) in 1 RCT; 1 g/d had no effect on healing | very low | [PMID:3115841] [PMID:6153847] [PMID:6423612] [PMID:15989381] |
+| Feline herpesvirus (veterinary) | Systematic review | No benefit; possible harm | Several trials found more infection/severity with lysine | moderate (cats) | [PMID:26573523] |
+| Trait/state anxiety (lysine + arginine) | RCTs (n=108; n=29); fortification RCT in Syria | Benefit | Reduced trait and state anxiety; salivary cortisol reduced in men; no pooled estimate | low | [PMID:17510493] [PMID:16117182] [PMID:15159538] |
+| Calcium absorption / bone | Small human mechanistic study; animal data | Increased Ca absorption, less calciuria | Qualitative (47Ca absorption up; calciuric response blunted) | very low | [PMID:1486246] [PMID:24652795] |
+| Postprandial glucose | Acute crossover studies (n=7-16) | Lower glucose response in young adults; null in older overweight adults | -44% glucose AUC with 25 g glucose; -9.1% glucose at 60 min after mixed drink; no change in insulin sensitivity in older adults | low | [PMID:19553295] [PMID:28592515] [PMID:25324894] |
+| Lipids (hypertriglyceridemia) | 12-wk open-label RCT (n=85), 1 g/d | No effect | No major lipid change with lysine | low | [PMID:22818869] |
+| Child growth / nutrition in cereal-based diets | Fortification RCTs (China, Pakistan, Syria); 2025 review | Benefit in lysine-deficient diets | Greater height/weight gain in children; better prealbumin, transferrin, immune markers | low | [PMID:15214257] [PMID:15214256] [PMID:18947029] [PMID:38740261] |
+| Blood pressure in hypertension | 1 RCT (Ghana, n=50 hypertensive); animal and pilot human data | Possible reduction | SBP 146.1 -> 129.0 mmHg in lysine group vs ~unchanged control (112 d) | very low | [PMID:32153847] [PMID:35835746] [PMID:38639736] |
+| Schizophrenia (adjunct) | Single-blind crossover pilot (n=10), 6 g/d | Uncertain | PANSS positive symptoms decreased, but placebo also improved | very low | [PMID:21501494] |
+| Lysinuric protein intolerance | Cohort/case series | Normalizes plasma lysine at low doses | 27 patients, 12 mo, no hyperammonemia | low | [PMID:17224331] [PMID:12870174] |
+
 ** Dosing in trials
-- HSV studies used roughly 1–3 g/day; no validated treatment regimen or established optimal duration [PMID:30855987].
+- HSV: 3 g/d (1 g three times daily) for 6 months gave benefit [PMID:3115841]. 1.2 g/d (400 mg three times daily) [PMID:6419679] and 1 g/d [PMID:6153847] failed. Reviews conclude <1 g/d is ineffective without a low-arginine diet, and >3 g/d may help subjectively [PMID:30881246].
+- Anxiety: lysine 2.64 g/d + arginine 2.64 g/d for 1 week [PMID:17510493]. Lysine 3 g + arginine 3 g/d for 10 days [PMID:16117182].
+- Fortification: 3 g lysine/kg wheat flour for 3 months [PMID:15214257].
+- Calcium absorption: 400 mg acutely, or 800 mg/d short term [PMID:1486246].
+- Glycemia (acute): 1 mmol/kg lean body mass [PMID:19553295], 5 or 10 g [PMID:28592515], and 2 or 5 g [PMID:25324894].
+- Schizophrenia: 6 g/d for 4 weeks [PMID:21501494]. Hypertriglyceridemia: 1 g/d for 12 weeks [PMID:22818869].
+- LPI: individualized small mealtime doses. 0.05 mmol/kg three times daily was tolerated, while 0.55-1.1 mmol/kg caused profuse diarrhea [PMID:12870174] [PMID:17224331].
+- Upper levels: provisional NOAEL of 6.0 g/d for supplemental lysine in healthy adults, based on GI symptoms [PMID:30661148] [PMID:33000161] [PMID:33000163]. An older review suggested an upper limit of 300-400 mg/kg/d [PMID:17513440]. Trial doses ranged from 16.8 mg/d to 17.5 g/d, given for 1-1095 days [PMID:30661148].
+
 ** Safety & adverse effects
-- Short-term studies commonly report few effects; high doses can cause GI symptoms. Long-term safety data and renal effects are insufficiently characterized [PMID:30855987].
+- Two systematic reviews of 71 studies (3357 subjects) found mainly subjective GI events (nausea, stomachache, diarrhea). The pooled risk ratio for GI symptoms was 1.02 (95% CI 0.96-1.07; p=0.49) [PMID:30661148] [PMID:33000161].
+- Children: lysine supplements are generally considered safe, with side effects limited to GI symptoms. Excess intake can cause amino-acid imbalance [PMID:38740261].
+- Kidney: one case report describes Fanconi syndrome and tubulointerstitial nephritis after oral lysine, progressing to chronic renal failure [PMID:8840955]. In rats, high-dose IV lysine reduced GFR and caused tubular necrosis and lysosomal inclusions [PMID:6425441].
+- Lipids/gallbladder (animal and theoretical):
+  - Lysine + methionine-enriched diets caused hypercholesterolemia in rabbits [PMID:15539285].
+  - Raising the lysine/arginine ratio raised serum cholesterol in almond-fed rabbits [PMID:3155291]. Another study found the ratio is not the main determinant [PMID:6411098].
+  - In rats on a low-protein (7% casein) diet, >=1.5% dietary lysine raised LDL-C and lowered albumin; arginine normalized many endpoints [PMID:30488372].
+  - A review advises cautioning people with cardiovascular or gallbladder disease about the theoretical risk [PMID:30881246].
+- Minerals: 1.5% dietary lysine did not change copper or iron bioavailability in rats [PMID:26968817].
+- IV lysine/arginine (radionuclide therapy) is not the same as oral supplements. 75 g IV lysine caused potassium levels of 6.3-6.8 mmol/L in 3 of 6 patients [PMID:12483404]. Amino-acid co-infusion caused metabolic acidosis with hyperkalemia [PMID:29488080]. A 2026 post-authorisation study (n=41) found mean K+ +0.60 mmol/L at 4 h and treatment-related hyperkalemia in 12.2% [PMID:41978231].
+- Lactation: LactMed says high-dose supplementation during breastfeeding has not been studied. It judges supplements probably low risk, but an alternative may be preferred for newborn or preterm infants [PMID:40587650].
+- Cats: supplementation in cats may worsen feline herpesvirus disease. Cats cannot synthesize arginine, and arginine deficiency causes hyperammonemia [PMID:26573523].
+
 ** Contraindications
-- Caution with significant kidney disease; avoid assuming supplements replace antiviral treatment.
+- Glutaric aciduria type 1: treatment is a low-lysine diet, so supplementing lysine runs directly against therapy [PMID:36221165] [PMID:33000154].
+- Pyridoxine-dependent epilepsy (ALDH7A1/antiquitin deficiency): managed with lysine-restriction diet ± arginine. Supplements would oppose this [PMID:40680317] [PMID:26026794].
+- Familial hyperlysinemia (AASS defects) [PMID:38991296].
+- Pre-existing kidney disease: caution, based on a human case of Fanconi syndrome/TIN and animal nephrotoxicity [PMID:8840955] [PMID:6425441].
+- Lysinuric protein intolerance: use only under specialist direction at low doses, because high doses cause diarrhea and IV loads occasionally raised ammonia [PMID:12870174] [PMID:10831173].
+
 ** Interactions
-- No established clinically proven drug interaction; high-dose amino acid supplementation may affect amino acid balance.
-- Structured high-priority interactions are represented in interactions.json; absence of an edge is not proof of no interaction.
+*** Drugs
+- Aminoglycosides (gentamicin, tobramycin): in rats, lysine and aminoglycosides were each nephrotoxic, and toxicity was additive when combined [PMID:6425441]. Lysine did not prevent gentamicin nephrotoxicity in another rat study [PMID:6798129]. In vitro, lysine competes with gentamicin for tubular uptake [PMID:8429116]. No human data.
+- Lutetium Lu 177 dotatate (and other radioligands): the label requires IV L-lysine HCl + L-arginine HCl (18-25 g each) to lower kidney radiation dose [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=72d1a024-00b7-418a-b36e-b2cb48f2ab55]. Watch potassium and acid-base status [PMID:41978231] [PMID:29488080]. Oral lysine reduced renal peptide uptake in rats [PMID:16330570], but oral supplements are not a substitute.
+- Antidiabetic agents: lysine lowers postprandial glucose acutely [PMID:19553295] [PMID:28592515]. Any additive effect is likely minor and unstudied.
+- Antihypertensives: possible additive BP reduction based on one small RCT [PMID:32153847].
+- Antivirals: no interaction data. Reviews place lysine as an alternative symptomatic option; it is not a replacement for nucleoside antivirals [PMID:37376614].
+*** Other supplements
+- L-arginine: has opposing effects (mutual transport competition) [PMID:32187681] [PMID:17513444]. It undermines the HSV rationale [PMID:6262023]. Yet it is combined deliberately in anxiety products [PMID:17510493], and in rats it reversed adverse effects of excess lysine [PMID:30488372].
+- Calcium: lysine raises intestinal calcium absorption and lowers urinary calcium losses [PMID:1486246]. In rats, lysine + calcium strongly increased GLP-1 [PMID:40899781].
+- Zinc: an open-label lysine/zinc/herbal topical product for cold sores [PMID:15989381]. Zinc and lysine are both listed as promising HSV remedies [PMID:37376614].
+- Vitamin C: cofactor for lysyl hydroxylase in collagen hydroxylysine formation [PMID:41980618] [PMID:6265920].
+- Collagen: hydroxylysine-derived cross-links are central to collagen structure [PMID:22708567] [PMID:41009362]. No trial combines lysine with collagen peptides.
+- Vitamin D-3: a narrative review proposes combining lysine, calcium and vitamin D for muscle/bone in cereal-based diets. This is unproven [PMID:33290094].
+- Iron/copper: no change in bioavailability (rat) [PMID:26968817].
+- Vitamin B6/carnitine: lysine 1 g/d ± B6 had no lipid effect [PMID:22818869].
+*** Conditions
+- HSV recurrence: see the evidence table [PMID:30881246].
+- Cereal-dominated, lysine-poor diets: benefits are clearest here [PMID:15214256] [PMID:38740261].
+- Low-protein diets: adverse lysine effects in rats were confined mainly to low-protein diets [PMID:30488372].
+- Salt-sensitive hypertension/CKD: lysine protected the kidney in rats. In at-risk patients it inhibited tubular albumin uptake [PMID:35835746] [PMID:38639736].
+- Pregnancy: no specific supplement safety data were found. For lactation, see LactMed [PMID:40587650].
+*** Lab-test interference
+- No assay artifact was found. Supplementation causes real changes: plasma lysine rises (about 3-fold after an oral load) [PMID:19553295] [PMID:21501494], plasma and urine 2-AAA rise [PMID:41721626], glucagon rises [PMID:28592515], and arginine/lysine plasma ratios shift [PMID:32187681]. These can confound plasma amino acid profiles and 2-AAA biomarker studies.
+- IV lysine/arginine raises serum potassium and lowers bicarbonate/pH [PMID:29488080] [PMID:41978231].
+
 ** Genotype notes
-- No cited pharmacogenomic/nutrigenomic source was identified for a supplement-specific genotype effect; no genotype claim made.
+- Inborn errors (Mendelian, not common pharmacogenomic variants) change lysine tolerance: SLC7A7 (LPI) [PMID:31213652] [PMID:15050971], GCDH (glutaric aciduria type 1) [PMID:36221165], ALDH7A1 (pyridoxine-dependent epilepsy) [PMID:40680317] and AASS (hyperlysinemia) [PMID:38991296].
+- AASS, ALDH7A1 and DHTKD1 expression is lower in type 2 diabetic islets (in vitro relevance only) [PMID:41167553].
+- No common-variant nutrigenomic source was identified.
+
 ** Latest research
-- 2019-03: No major new qualifying human intervention publication identified in the last 24 months in searched sources; herpes trial evidence remains sparse [PMID:30855987].
+- [2026-10] Rat study: severe (60%) dietary lysine deficiency impaired hippocampal neurogenesis, altered anxiety-like and cognitive behavior, and shifted gut microbiota [PMID:42848007].
+- [2026-04] LysaKare (2.5% lysine-arginine IV) post-authorisation safety study (n=41): K+ +0.60 mmol/L at 4 h; 12.2% treatment-related hyperkalemia; no serious AEs [PMID:41978231].
+- [2026-03] 13C-lysine challenge in healthy adults (n=16, 5 g): converted to 2-AAA, which peaks around 2 h. Insulin, C-peptide, glucagon and GLP-1 rose [PMID:41721626].
+- [2026-01] AASS-dependent lysine catabolism supports insulin secretion in human islets; AASS pathway genes are lower in T2D islets [PMID:41167553].
+- [2025-12] CKD cross-sectional study: urinary lysine higher than controls; links to megalin and tubular injury [PMID:41441627].
+- [2025-11] Mouse study: a lysine-restricted diet reduced obesity-related anxiety-like behavior via gut microbiota (Oscillibacter, tryptophol) [PMID:41316428]. A companion study found a lysine-restricted diet ameliorated obesity, and blood lysine was higher in children with obesity [PMID:41224764].
+- [2025-10] Rat study: oral lysine strongly stimulated GLP-1 via CaSR. Lysine + calcium lowered glycemia in an OGTT [PMID:40899781].
+- [2025-09] Review of lysine sources, metabolism and supplement use. It flags osteoporosis and kidney resorption as priority research areas [PMID:41009362].
+- [2025-08] Pyridoxine-dependent epilepsy cohort (n=17): a lysine-restricted diet lowered plasma lysine and urine α-AASA; no added seizure benefit [PMID:40680317].
+- [2025-04] Review of lysine for child/adolescent growth: improves anthropometry in cereal-based diets; GI symptoms only; caution about amino-acid imbalance [PMID:38740261].
+- No new human HSV-lysine RCTs were identified after 2018 in PubMed searches.
+
 ** Open questions
-- Which formulations, populations, and durations produce clinically meaningful outcomes rather than biomarker-only changes?
-- Are there long-term benefits or harms beyond the relatively short human trials available?
+- Does lysine prevent HSV recurrence at >=3 g/d? This needs an adequately powered, preregistered RCT with diet (arginine) control; dietary lysine and arginine intake vary widely [PMID:3117869] [PMID:30881246].
+- Long-term (>1 year) renal and lipid safety at 3-6 g/d in humans, given one human nephritis case and animal cholesterol data.
+- Is lysine's calcium-absorption effect clinically meaningful for bone density? No fracture or BMD trials were found.
+- Can lysine-arginine anxiety effects be reproduced independently of the manufacturer (Ajinomoto-affiliated trials)?
+- Whether higher circulating 2-AAA from lysine intake carries cardiometabolic risk [PMID:41721626] [PMID:37582714].
+- Kidney-protective potential in salt-sensitive hypertension and CKD, which so far rests on animal and pilot human data [PMID:38639736].
+
 ** Sources
-- [PMID:30855987]
+1. Mailoo VJ, Rampes S. Lysine for Herpes Simplex Prophylaxis: A Review of the Evidence. Integr Med (Encinitas). 2017. PMID:30881246
+2. Griffith RS et al. Success of L-lysine therapy in frequently recurrent herpes simplex infection. Dermatologica. 1987. PMID:3115841
+3. DiGiovanna JJ, Blank H. Failure of lysine in frequently recurrent herpes simplex infection. Arch Dermatol. 1984. PMID:6419679
+4. Milman N et al. Lysine prophylaxis in recurrent herpes simplex labialis: double-blind crossover. Acta Derm Venereol. 1980. PMID:6153847
+5. Walsh DE et al. Subjective response to lysine in the therapy of herpes simplex. J Antimicrob Chemother. 1983. PMID:6423612 DOI:10.1093/jac/12.5.489
+6. Griffith RS et al. A multicentered study of lysine therapy in Herpes simplex infection. Dermatologica. 1978. PMID:640102 DOI:10.1159/000250926
+7. Singh BB et al. Safety and effectiveness of an L-lysine, zinc, and herbal-based product on facial and circumoral herpes. Altern Med Rev. 2005. PMID:15989381
+8. Chang JY et al. A Narrative Review of Alternative Symptomatic Treatments for Herpes Simplex Virus. Viruses. 2023. PMID:37376614 DOI:10.3390/v15061314
+9. Griffith RS et al. Relation of arginine-lysine antagonism to herpes simplex growth in tissue culture. Chemotherapy. 1981. PMID:6262023 DOI:10.1159/000237979
+10. Bol S, Bunnik EM. Lysine supplementation is not effective for feline herpesvirus 1 in cats: a systematic review. BMC Vet Res. 2015. PMID:26573523 DOI:10.1186/s12917-015-0594-3
+11. Algert SJ et al. Dietary intake of lysine and arginine in patients with herpes simplex. J Am Diet Assoc. 1987. PMID:3117869
+12. Smriga M et al. Oral L-lysine and L-arginine reduces anxiety and basal cortisol in healthy humans. Biomed Res. 2007. PMID:17510493 DOI:10.2220/biomedres.28.85
+13. Jezova D et al. L-lysine/L-arginine modifies neuroendocrine activation during psychosocial stress. Nutr Neurosci. 2005. PMID:16117182 DOI:10.1080/10284150500162937
+14. Smriga M et al. Lysine fortification reduces anxiety and lessens stress in Northwest Syria. PNAS. 2004. PMID:15159538 DOI:10.1073/pnas.0402550101
+15. Smriga M, Torii K. L-lysine and L-arginine reduce stress-induced anxiety in an elevated plus maze. Nutr Neurosci. 2003. PMID:12722988 DOI:10.1080/1028415031000079685
+16. Smriga M et al. Dietary L-lysine deficiency increases stress-induced anxiety in rats. J Nutr. 2002. PMID:12468617 DOI:10.1093/jn/132.12.3744
+17. Wass C et al. L-lysine as adjunctive treatment in schizophrenia: pilot crossover. BMC Med. 2011. PMID:21501494 DOI:10.1186/1741-7015-9-40
+18. Ghosh S et al. Lysine-fortified wheat flour, morbidity and immunology in rural Syria. Food Nutr Bull. 2008. PMID:18947029 DOI:10.1177/156482650802900302
+19. Zhao W et al. Lysine-fortified wheat flour in northern China. Food Nutr Bull. 2004. PMID:15214257 DOI:10.1177/156482650402500203
+20. Hussain T et al. Lysine fortification of wheat flour in Pakistan. Food Nutr Bull. 2004. PMID:15214256 DOI:10.1177/156482650402500202
+21. Civitelli R et al. Dietary L-lysine and calcium metabolism in humans. Nutrition. 1992. PMID:1486246
+22. Shimomura A et al. Dietary L-lysine prevents arterial calcification in uremic rats. J Am Soc Nephrol. 2014. PMID:24652795 DOI:10.1681/ASN.2013090967
+23. Aggarwal R, Bains K. Protein, lysine and vitamin D: muscle and bone health. Crit Rev Food Sci Nutr. 2022. PMID:33290094 DOI:10.1080/10408398.2020.1855101
+24. Kalogeropoulou D et al. Lysine ingestion attenuates the glucose response to ingested glucose. Am J Clin Nutr. 2009. PMID:19553295 DOI:10.3945/ajcn.2008.27381
+25. Ullrich SS et al. Intragastric lysine lowers glucose and insulin responses to a mixed-nutrient drink. J Nutr. 2017. PMID:28592515 DOI:10.3945/jn.117.252213
+26. Kim IY et al. Acute lysine supplementation does not improve insulin sensitivity in older overweight individuals. Nutr Metab (Lond). 2014. PMID:25324894 DOI:10.1186/1743-7075-11-49
+27. Dean ED et al. Response of 2-AAA to short-term lysine ingestion in healthy individuals. Endocrinol Diabetes Metab. 2026. PMID:41721626 DOI:10.1002/edm2.70168
+28. Irie A, Hira T. Oral L-lysine promotes GLP-1 secretion and lowers glycemia in rats. Biosci Biotechnol Biochem. 2025. PMID:40899781 DOI:10.1093/bbb/zbaf124
+29. Munoz F et al. Lysine potentiates insulin secretion via AASS-dependent catabolism and GABA. Metabolism. 2026. PMID:41167553 DOI:10.1016/j.metabol.2025.156423
+30. Liu Y et al. Dietary methionine, threonine, lysine, arginine, histidine and T2D risk in China. BMC Public Health. 2023. PMID:37582714 DOI:10.1186/s12889-023-16468-z
+31. Hayamizu K et al. Comprehensive safety assessment of L-lysine supplementation: systematic review. J Nutr. 2020. PMID:33000161 DOI:10.1093/jn/nxaa218
+32. Hayamizu K et al. Safety assessment of L-lysine oral intake: a systematic review. Amino Acids. 2019. PMID:30661148 DOI:10.1007/s00726-019-02697-3
+33. Cynober L et al. Proposals for upper limits of safe intake for methionine, histidine, and lysine. J Nutr. 2020. PMID:33000163 DOI:10.1093/jn/nxaa231
+34. Flodin NW. The metabolic roles, pharmacology, and toxicology of lysine. J Am Coll Nutr. 1997. PMID:9013429 DOI:10.1080/07315724.1997.10718644
+35. Lo JC et al. Fanconi's syndrome and tubulointerstitial nephritis with L-lysine ingestion. Am J Kidney Dis. 1996. PMID:8840955 DOI:10.1016/s0272-6386(96)90476-x
+36. Malis CD et al. Nephrotoxicity of lysine and of aminoglycoside in rats given lysine. J Lab Clin Med. 1984. PMID:6425441
+37. Kaunitz JD et al. Inhibition of gentamicin uptake into proximal tubule cells by L-lysine. J Clin Pharmacol. 1993. PMID:8429116 DOI:10.1002/j.1552-4604.1993.tb03905.x
+38. Gilbert DN et al. Failure of lysine to prevent experimental gentamicin nephrotoxicity. J Infect Dis. 1982. PMID:6798129 DOI:10.1093/infdis/145.1.129
+39. Bertinato J et al. L-lysine supplementation does not affect copper or iron bioavailability in rats. J Trace Elem Med Biol. 2016. PMID:26968817 DOI:10.1016/j.jtemb.2016.02.005
+40. Xiao CW et al. Dietary L-lysine affects body weight and blood parameters in rats. Mol Biol Rep. 2019. PMID:30488372 DOI:10.1007/s11033-018-4492-1
+41. Tanner LM et al. Long-term oral lysine supplementation in lysinuric protein intolerance. Metabolism. 2007. PMID:17224331 DOI:10.1016/j.metabol.2006.09.011
+42. Lukkarinen M et al. Oral supplementation corrects plasma lysine in LPI. Metabolism. 2003. PMID:12870174 DOI:10.1016/s0026-0495(03)00089-1
+43. Lukkarinen M et al. Effect of lysine infusion on urea cycle in LPI. Metabolism. 2000. PMID:10831173 DOI:10.1016/s0026-0495(00)80038-4
+44. Noguchi A, Takahashi T. Overview of symptoms and treatment for LPI. J Hum Genet. 2019. PMID:31213652 DOI:10.1038/s10038-019-0620-6
+45. Palacin M et al. Lysinuric protein intolerance: mechanisms of pathophysiology. Mol Genet Metab. 2004. PMID:15050971 DOI:10.1016/j.ymgme.2003.11.015
+46. Giroux I et al. Dietary lysine, methionine, and arginine in hypercholesterolemia in rabbits. J Nutr Biochem. 1999. PMID:15539285 DOI:10.1016/s0955-2863(98)00091-6
+47. Gibney MJ. Dietary lysine to arginine ratio and cholesterol kinetics in rabbits. Atherosclerosis. 1983. PMID:6411098 DOI:10.1016/0021-9150(83)90057-6
+48. Sanchez A et al. Cholesterolemic effects of the lysine/arginine ratio in rabbits. Arch Latinoam Nutr. 1988. PMID:3155291
+49. Hlais S et al. Lysine, vitamin B6 and carnitine on lipids in hypertriglyceridemia: RCT. Clin Ther. 2012. PMID:22818869 DOI:10.1016/j.clinthera.2012.06.019
+50. Dissanayake LV et al. Lysine and salt-sensitive hypertension. Curr Opin Nephrol Hypertens. 2024. PMID:38639736 DOI:10.1097/MNH.0000000000000994
+51. Vuvor F et al. Lysine supplementation in hypertensive adults in Ghana. BMC Nutr. 2017. PMID:32153847 DOI:10.1186/s40795-017-0187-6
+52. Rinschen MM et al. Accelerated lysine metabolism conveys kidney protection in salt-sensitive hypertension. Nat Commun. 2022. PMID:35835746 DOI:10.1038/s41467-022-31670-0
+53. Holecek M. Lysine: Sources, Metabolism, Physiological Importance, and Use as a Supplement. Int J Mol Sci. 2025. PMID:41009362 DOI:10.3390/ijms26188791
+54. Hashim M et al. Comprehensive Review of L-Lysine. Curr Protein Pept Sci. 2026. PMID:40626529 DOI:10.2174/0113892037381647250526073248
+55. Gunarathne R et al. L-lysine supplementation for childhood and adolescent growth. J Adv Res. 2025. PMID:38740261 DOI:10.1016/j.jare.2024.05.014
+56. Rafii M et al. Dietary lysine requirements of older adults. J Nutr. 2024. PMID:38735574 DOI:10.1016/j.tjnut.2024.04.034
+57. Tome D, Bos C. Lysine requirement through the human life cycle. J Nutr. 2007. PMID:17513440 DOI:10.1093/jn/137.6.1642S
+58. Hofland J et al. LysaKare infusion and serum potassium: post-authorisation safety study. J Neuroendocrinol. 2026. PMID:41978231 DOI:10.1111/jne.70172
+59. Pfob CH et al. Hyperkalemia with amino acid infusion in endoradiotherapy. EJNMMI Res. 2018. PMID:29488080 DOI:10.1186/s13550-018-0370-z
+60. Rolleman EJ et al. Inhibition of renal uptake of radiolabelled octreotide by lysine and arginine. Eur J Nucl Med Mol Imaging. 2003. PMID:12483404 DOI:10.1007/s00259-002-0982-3
+61. Verwijnen SM et al. Oral versus IV lysine: renal uptake of [111In-DTPA]octreotide. J Nucl Med. 2005. PMID:16330570
+62. LUTATHERA (lutetium Lu 177 dotatate) prescribing information. DailyMed/FDA. URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=72d1a024-00b7-418a-b36e-b2cb48f2ab55
+63. Footitt EJ et al. Lysine reduction therapies in pyridoxine-dependent epilepsy: cohort. Mol Genet Metab. 2025. PMID:40680317 DOI:10.1016/j.ymgme.2025.109170
+64. Coughlin CR et al. Triple therapy in pyridoxine-dependent epilepsy. Mol Genet Metab. 2015. PMID:26026794 DOI:10.1016/j.ymgme.2015.05.011
+65. Boy N et al. Recommendations for glutaric aciduria type 1: third revision. J Inherit Metab Dis. 2023. PMID:36221165 DOI:10.1002/jimd.12566
+66. Bouchereau J, Schiff M. Inherited disorders of lysine metabolism: a review. J Nutr. 2020. PMID:33000154 DOI:10.1093/jn/nxaa112
+67. Marinella G et al. Hyperlysinemia: review and update. Seizure. 2024. PMID:38991296 DOI:10.1016/j.seizure.2024.06.020
+68. Schmidt Z et al. Enteral arginine supplementation and lysine metabolism in humans. J Inherit Metab Dis. 2020. PMID:32187681 DOI:10.1002/jimd.12233
+69. Luiking YC, Deutz NE. Biomarkers of arginine and lysine excess. J Nutr. 2007. PMID:17513444 DOI:10.1093/jn/137.6.1662S
+70. Yamauchi M, Sricholpech M. Lysine post-translational modifications of collagen. Essays Biochem. 2012. PMID:22708567 DOI:10.1042/bse0520113
+71. Piersma B, Bank RA. Collagen cross-linking mediated by lysyl hydroxylase 2. Essays Biochem. 2019. PMID:31324706 DOI:10.1042/EBC20180051
+72. Ricol M et al. Hypoxia and ascorbic acid driving collagen biosynthesis. Matrix Biol. 2026. PMID:41980618 DOI:10.1016/j.matbio.2026.102007
+73. Murad S et al. Regulation of collagen synthesis by ascorbic acid. PNAS. 1981. PMID:6265920 DOI:10.1073/pnas.78.5.2879
+74. Drugs and Lactation Database (LactMed). Lysine. NICHD. 2025 update. PMID:40587650
+75. Kapetanaki S et al. TMAO, megalin, lysine and tubular damage in CKD. Toxins (Basel). 2025. PMID:41441627 DOI:10.3390/toxins17120592
+76. Zhao F et al. A lysine-restricted diet ameliorates obesity via Parabacteroides goldsteinii. Nat Commun. 2025. PMID:41224764 DOI:10.1038/s41467-025-64892-z
+77. Zhao F et al. Lysine restriction attenuates obesity-related anxiety-like behaviors. Microbiome. 2025. PMID:41316428 DOI:10.1186/s40168-025-02217-4
+78. Jaafar L et al. Dietary lysine deficiency impairs hippocampal functions and neurogenesis in rats. Nutr Neurosci. 2026. PMID:42848007 DOI:10.1080/1028415X.2026.2742265

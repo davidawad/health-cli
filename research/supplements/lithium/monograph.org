@@ -3,35 +3,209 @@
 :ID: supp-lithium
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: Lithium | lithium orotate (supplement form) | lithium carbonate (prescription)
+:ALIASES: lithium orotate | low-dose lithium | microdose lithium | trace lithium | lithium in drinking water | lithium carbonate (Rx) | lithium citrate (Rx) | Li
 :CATEGORY: mineral
-:RX_STATUS: rx
+:RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
+
 ** Identity & forms
-- Lithium is a monovalent alkali metal; prescription lithium carbonate is an established mood stabilizer, while OTC low-dose forms have no approved disease-treatment indication [URL:https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=lithium%20carbonate].
+- Lithium (Li+) is an alkali-metal cation. Two very different dose domains need to be kept apart: background/trace intake (micrograms per day or per litre of water) and therapeutic lithium (serum mmol/L) [PMID:42693365].
+- Prescription form: lithium carbonate is an Rx mood stabilizer for bipolar I disorder. It carries a boxed warning that toxicity can occur at doses close to therapeutic concentrations. The therapeutic range is 0.8-1.2 mEq/L and toxicity starts at >=1.5 mEq/L. Elimination is renal, with a half-life of about 18-36 h [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b839ff4b-f62d-41ab-a823-550a756d58ec].
+- Supplement form: lithium orotate (OTC) has been sold for decades as a supplemental lithium source. Lithium-equivalent therapeutic doses are 5.5-67 times higher than typical supplemental orotate doses [PMID:34146638]. Elemental content: 3.83 mg Li per 100 mg orotate vs 18.8 mg Li per 100 mg carbonate [PMID:18072162]. 5 mg/day lithium from orotate gives 2-7% of the lithium in a typical therapeutic carbonate dose [PMID:38810780].
+- Diet and water: grains and vegetables are the main food sources, and drinking water can contribute substantially [PMID:11838882]. A meta-analysis of 76 papers found a pooled water lithium of 5.4 ug/L, with groundwater 14.5 times higher than surface water (40.4 vs 2.8 ug/L) and very large differences between countries [PMID:37261955].
+- Essentiality is disputed: Schrauzer (2002) argued lithium is essential and proposed a provisional RDA of 1000 ug/day for a 70 kg adult, based mainly on animal deprivation studies [PMID:11838882]. A 2026 review concludes lithium is not recognized as essential. It finds no defined deficiency syndrome and no validated status biomarker; at most lithium is a candidate "beneficial trace element" [PMID:42693365].
+
 ** Mechanisms
-- At therapeutic exposure lithium modulates intracellular signaling including GSK-3; neuroprotective hypotheses remain under study [PMID:38253184].
+- GSK-3beta inhibition is the leading proposed mechanism for effects on amyloid and tau. Trace lithium is also proposed to raise BDNF and lower IL-6/IL-8 (qualitative review) [PMID:39598397].
+- Aron et al. 2025 (Nature) [PMID:40770094]: In human tissue, lithium was the only metal measured that was significantly reduced in the brain in MCI. Amyloid deposits bound lithium, further lowering its availability in AD. In mice, a diet that cut cortical lithium by about 50% increased amyloid and phospho-tau, caused microglial activation, synapse/axon/myelin loss and faster cognitive decline, partly via GSK3beta. Lithium orotate, a salt that binds less to amyloid, prevented pathology and memory loss in AD-model and aged wild-type mice.
+- Other proposed pathways: Bcl-2 induction, BDNF signalling, mitochondrial stabilization and reduced oxidative stress. In humans, lithium raised N-acetylaspartate and preserved grey matter in imaging studies (narrative review) [PMID:42268602].
+- Amyloid/tau evidence: a systematic review found inconsistent effects on amyloid and tau, with mostly preclinical support [PMID:41260370].
+- Orotate vs carbonate pharmacology is contested: Mouse data suggest orotate is more potent and less toxic. Orotate at 1.5 mg/kg nearly fully blocked amphetamine hyperlocomotion, while carbonate at 15-20 mg/kg only partly blocked it. Carbonate, but not orotate, caused polydipsia and raised creatinine and TSH [PMID:37356352]. A 2026 critique argues orotate dissociates in the stomach and is absorbed as Li+. It notes no stable orotate complex has been shown in body fluids and that pharmacokinetics are comparable after oral dosing [PMID:42312809].
+- Brain uptake at low dose: 7Li-MRI detected brain lithium after 5 mg/day orotate in 9 healthy men [PMID:38810780].
+- Telomeres: in bipolar cohorts, telomere length correlated with lithium treatment duration (>2 years: R=0.17, p=0.037) [PMID:27084304]. Chronic users had longer telomeres (n=384, p=0.03) [PMID:30559463]. UK Biobank (n=591 users): duration of use showed no association with telomere length, frailty, metabolomic age or mortality [PMID:38539016].
+- Kidney: lithium enters collecting-duct cells through ENaC and causes vasopressin insensitivity, which leads to polyuria and nephrogenic DI [PMID:40449743].
+- Thyroid: lithium concentrates in the thyroid and inhibits hormone synthesis and release [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b839ff4b-f62d-41ab-a823-550a756d58ec].
+
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | Certainty | Citations |
-|---------+--------------------+-----------+-------------+-----------+-----------|
-| Principal studied outcome | Systematic review/RCT or official product label | Bipolar disorder: effective prescription treatment (outside supplement evidence). MCI: 2026 pilot RCT (n=80), no coprimary endpoint met significance; verbal memory slope difference 0.69 points/year (95% CI 0.01–1.37; exploratory) [URL:https://jamanetwork.com/journals/jamaneurology/fullarticle/2845746]. | See outcome summary above; no extrapolation to unstudied endpoints | very-low | [URL:https://jamanetwork.com/journals/jamaneurology/fullarticle/2845746] [URL:https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=lithium%20carbonate] [PMID:38253184] |
-| Hard clinical outcomes / prevention | Human outcome evidence sparse or absent in sources reviewed | Not established | No reliable effect estimate | very low | [URL:https://jamanetwork.com/journals/jamaneurology/fullarticle/2845746] [URL:https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=lithium%20carbonate] [PMID:38253184] |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Suicide mortality (population, trace lithium in water) | SR/MA of ecological studies (13-15 studies) | Inverse association | OR 0.42 (0.27-0.67); pooled beta -0.27 (-0.47 to -0.08), I2=83%; r -0.19 with publication bias | very low | [PMID:32056756] [PMID:32716281] [PMID:33045847] [PMID:32780508] |
+| Suicide (therapeutic lithium, mood disorders) | MA of RCTs | Benefit | Suicide OR 0.13 (0.03-0.66) vs placebo (48 RCTs); 2025 update: attempts OR 0.73 (0.41-1.31), suicide OR 0.61 (0.25-1.48), both NS | moderate | [PMID:23814104] [PMID:40441661] |
+| Dementia incidence (water lithium) | Nationwide case-control, ecological, cohort; SR | Mixed, mostly inverse | Denmark IRR 0.83 at >15 ug/L vs 2-5 ug/L, non-linear; US PR 0.965; Scotland null or harmful in women at <2.1 ug/L | very low | [PMID:28832877] [PMID:41643982] [PMID:36747488] [PMID:39212809] |
+| Dementia risk (lithium users) | SR/MA of observational studies | Inconsistent | Cohorts HR 0.63 (0.52-0.78); another MA OR 0.94 (0.77-1.24), NS | very low | [PMID:42803710] [PMID:38743015] [PMID:42372694] |
+| Cognition in MCI/AD | MA of RCTs; 2-yr pilot RCT (n=80) | Possible small benefit, inconsistent | SMD -0.41 (-0.81 to -0.02), 3 RCTs; 6 RCTs: MMSE MD -1.61 (NS), ADAS-Cog MD -1.82; LATTICE: no coprimary met, CVLT +0.69 pts/yr (0.01-1.37) | low | [PMID:26402004] [PMID:41177743] [PMID:41770546] [PMID:42521537] [PMID:38253184] |
+| All-cause mortality (water lithium) | Ecological (Japan 18 municipalities; Texas 232 counties) | Inverse association | beta -0.661; r -0.18 | very low | [PMID:21301855] [PMID:29206474] |
+| Telomere length / biological ageing | Cross-sectional cohorts | Inconsistent | Bipolar R=0.17; UK Biobank null | very low | [PMID:27084304] [PMID:30559463] [PMID:38539016] |
+| Hypothyroidism (therapeutic) | SR/MA; cohort | Harm | OR 5.78 (2.00-16.67); TSH +4.00 iU/mL; aHR 2.00 (1.72-2.33) | moderate | [PMID:22265699] [PMID:39932712] |
+| Hyperparathyroidism / hypercalcemia (therapeutic) | SR/MA | Harm | Ca +0.09 mmol/L, PTH +7.32 pg/mL; prevalence ~3-4% vs 0.5% | moderate | [PMID:22265699] [PMID:39192574] [PMID:42606582] |
+| Urinary concentrating ability / CKD (therapeutic) | SR/MA; nationwide cohorts | Harm, dose-dependent | Concentrating -158 mOsm/kg; CKD3+ HR 1.90; no excess risk at 0.30-0.59 mmol/L | moderate | [PMID:22265699] [PMID:39572104] [PMID:39932712] |
+| Weight (therapeutic) | SR/MA | Small or none | +0.46 kg (NS) in 9 studies; OR 1.89 for weight gain vs placebo in 2012 MA | low | [PMID:34265322] [PMID:22265699] |
+| Congenital malformations (1st-trimester therapeutic) | Large cohort; MAs | Harm, dose-dependent | Cardiac aRR 1.65 (1.02-2.68); >900 mg/d RR 3.22; any anomaly OR 1.81 | moderate | [PMID:28591541] [PMID:31623458] [PMID:29929874] [PMID:39528870] |
+| Autism in offspring (prenatal water lithium) | Nationwide case-control | Harm signal | OR 1.23 per IQR; top quartile OR 1.46 | very low | [PMID:37010840] |
+
 ** Dosing in trials
-- MCI pilot used daily low-dose lithium carbonate, individualized titration, 2 years; investigational doses should not be generalized to OTC lithium salts [URL:https://jamanetwork.com/journals/jamaneurology/fullarticle/2845746].
+- Microdose: 300 ug/day lithium for 15 months in AD patients (small trial; MMSE stable vs decline in controls) [PMID:22746245].
+- Supplement-level: lithium orotate providing 5 mg/day lithium for up to 28 days (7Li-MRI study) [PMID:38810780].
+- Subtherapeutic carbonate in amnestic MCI: Target serum 0.25-0.5 mmol/L for 12 months (n=45) [PMID:21525519]. Same target for 2 years double-blind plus 2 years single-blind (n=61) [PMID:30947755].
+- LATTICE (2026): daily low-dose lithium carbonate vs placebo for 2 years in adults >=60 with MCI [PMID:41770546].
+- FTD agitation pilot: up to 600 mg/day carbonate, median serum 0.42 mmol/L [PMID:41236362].
+- Low-dose cohort definition: all serum levels <=0.40 mmol/L in a real-world comparison with valproate [PMID:42372694].
+- Proposed future dose: low-dose orotate trials targeting about 0.3 mM have been proposed but not done [PMID:42268602].
+- Therapeutic (Rx) dosing: serum 0.8-1.2 mEq/L, with levels checked 12 h post-dose [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b839ff4b-f62d-41ab-a823-550a756d58ec]. Lower targets apply in older adults: levels of 0.82-1.00 mmol/L were linked to more side effects [PMID:42460615].
+- Water exposure ranges in ecological studies: Denmark: median about 12 ug/L [PMID:28832877]. Japan: >=30 ug/L was associated with lower suicide SMRs [PMID:32780508].
+
 ** Safety & adverse effects
-- Narrow therapeutic index at prescription doses; tremor, GI symptoms, renal and thyroid effects, toxicity with dehydration/renal impairment [URL:https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=lithium%20carbonate].
+- Low-dose and orotate data: Orotate was not genotoxic. A 28-day rat study found a NOAEL of 400 mg/kg/day, and the authors cite no postmarket safety signal [PMID:34146638]. Overdose case: an 18-year-old took 18 tablets of an internet orotate product (120 mg each) and had serum Li 0.40 mEq/L with nausea and tremor. The authors note chronic toxicity is a theoretical concern [PMID:18072162].
+- Low-dose carbonate in older adults: 4-year MCI trial: no eGFR change, but higher TSH, neutrophils and weight. There were more adverse events, more diabetes (P=.037) and more arrhythmia (P=.028) [PMID:25093483]. LATTICE: serious AEs 29% vs 23% (none definitely related). Diarrhea 29% vs 15%, tiredness 29% vs 15%, tremor 24% vs 15% [PMID:41770546]. Pooled RCTs in AD: no excess serious AEs, but drug-related AEs were more frequent [PMID:41177743].
+- Therapeutic-dose toxicity profile [PMID:22265699]: Urinary concentrating ability falls by about 15% of normal maximum. Clinical hypothyroidism OR 5.78. Renal replacement therapy in 0.5%. No significant excess of congenital malformations, alopecia or skin disorders in that analysis.
+- Kidney: CKD3+ in 10.4% of lithium users vs 3.0% of controls (HR 1.90). Risk rises with mean level 0.60-0.79 (HR 2.93) and 0.80-0.99 mmol/L (HR 4.31) [PMID:39572104]. Lithium serum cut-offs of about 0.50-0.59 mEq/L were linked to thyroid dysfunction and CKD3+ [PMID:39932712]. Polyuria responds to amiloride, but evidence is low-quality (25 patients) [PMID:40449743].
+- Thyroid: Hypothyroidism is common. Hyperthyroidism is uncommon but reported [PMID:30841715]. 41% stopped thyroid replacement after lithium was discontinued [PMID:31670617].
+- Parathyroid: lithium-associated hyperparathyroidism is often multiglandular [PMID:39192574] [PMID:42606582].
+- Cardiac: in 135 bradycardia cases, 32% occurred at therapeutic levels and 5 died; it recurred in 52% on re-challenge [PMID:42425479]. The label warns of Brugada syndrome unmasking [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b839ff4b-f62d-41ab-a823-550a756d58ec].
+- Other label warnings: serotonin syndrome, hyponatremia, and toxicity made worse by dehydration from sweating, diarrhea or fever [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b839ff4b-f62d-41ab-a823-550a756d58ec].
+- Pregnancy [PMID:28591541] [PMID:31623458]: Cardiac malformations: 2.41% exposed vs 1.15% unexposed. Right ventricular outflow tract defects (including Ebstein anomaly): aRR 2.66. First-trimester spontaneous abortion OR 3.77. Neonatal readmission: aOR 1.62 [PMID:29929874].
+
 ** Contraindications
-- Renal disease, dehydration/sodium depletion, pregnancy considerations; prescription label monitoring is required.
+- Severe renal impairment (CrCl <30 mL/min): avoid. Use lower doses and slow titration at CrCl 30-89 mL/min [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b839ff4b-f62d-41ab-a823-550a756d58ec].
+- Brugada syndrome or suspected Brugada syndrome: generally avoid [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b839ff4b-f62d-41ab-a823-550a756d58ec].
+- Pregnancy (especially the first trimester) and breastfeeding: Fetal and neonatal harm are possible [PMID:28591541] [PMID:31623458]. Breastfeeding is not recommended during maternal therapy; infant plasma levels reach 30-40% of maternal [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b839ff4b-f62d-41ab-a823-550a756d58ec].
+- Dehydration, sodium depletion and significant cardiovascular disease raise toxicity risk. Self-directed OTC lithium is inappropriate in people already taking prescription lithium, because it adds to the same serum Li+ [PMID:42312809] [PMID:18072162].
+
 ** Interactions
-- NSAIDs, thiazide diuretics, ACE inhibitors/ARBs can raise lithium; monitor lithium, kidney and thyroid function [URL:https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=lithium%20carbonate].
-- Structured high-priority interactions are represented in interactions.json; absence of an edge is not proof of no interaction.
+Most interaction data come from therapeutic lithium. Their size at 1-5 mg/day supplemental doses is unstudied, but the mechanisms (reduced renal Li+ clearance) are the same.
+*** Drugs
+- NSAIDs, including COX-2 inhibitors: they cut renal blood flow and raise serum lithium. Case reports describe rises of up to 99% with celecoxib and 448% with rofecoxib [PMID:14658947] [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b839ff4b-f62d-41ab-a823-550a756d58ec]. In an Ontario case-control study NSAIDs were not independently associated with toxicity admissions [PMID:15086664].
+- ACE inhibitors: levels rose 36% and clearance fell 25.5% after starting an ACE inhibitor [PMID:8834421]. Risk of admission for toxicity was RR 7.6 in the first month in the elderly [PMID:15086664].
+- ARBs: the label groups ARBs with ACE inhibitors as renin-angiotensin antagonists that raise steady-state lithium [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b839ff4b-f62d-41ab-a823-550a756d58ec]. In 30 intoxication reports, RAS inhibitors and some diuretics predicted toxicity [PMID:26630207].
+- Thiazide diuretics raise lithium by 25-40% after starting [PMID:8521679].
+- Loop diuretics: RR 5.5 for admission with toxicity within a month in the elderly [PMID:15086664]. Furosemide lowers lithium clearance during volume contraction [PMID:3690979].
+- SSRIs, SNRIs and other serotonergic drugs: risk of serotonin syndrome [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b839ff4b-f62d-41ab-a823-550a756d58ec]. A probable case was reported with venlafaxine [PMID:16882112].
+- Theophylline and other methylxanthines raise lithium clearance by about 30%, which lowers levels [PMID:6741601] [PMID:8521679].
+- Antipsychotics (neurotoxicity) and SGLT2 inhibitors (lower lithium) also have label warnings [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b839ff4b-f62d-41ab-a823-550a756d58ec].
+- Older adults: diuretics, ACE inhibitors and NSAIDs call for closer monitoring [PMID:42460615].
+*** Other supplements
+- Iodine (potassium iodide): iodide preparations can cause hypothyroidism together with lithium (label). In 10 lithium-treated patients, KI raised TSH by 8.9 uU/mL; 2 became hypothyroid and 1 developed Jod-Basedow hyperthyroidism [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b839ff4b-f62d-41ab-a823-550a756d58ec] [PMID:576345].
+- Aspirin: reports conflict. Some show no effect or lower lithium, while others show increases [PMID:14658947].
+- Magnesium: oral magnesium sulfate did not change lithium carbonate absorption in 10 volunteers [DOI:10.1007/BF00353312].
+- Vitamin D-3 and calcium: lithium raises calcium and PTH [PMID:22265699] [PMID:39192574]. Adding calcium-raising supplements is untested but could mask or worsen hypercalcemia. This is an inference only.
+- Caffeine (food): cutting coffee raised lithium levels and worsened tremor in 2 cases [PMID:3338980].
+*** Conditions
+- Kidney disease, dehydration and low sodium intake: a low-salt diet reduces lithium clearance [PMID:3690979]. An add-on 1 g/day NaCl reduced fluctuation in lithium levels (26.7% vs 63.3%; RCT, n=60) [PMID:36409058].
+- Thyroid disease, hyperparathyroidism, Brugada syndrome, pregnancy, older age: see Safety and Contraindications.
+- Pre-existing bipolar disorder on Rx lithium: OTC orotate adds to the total lithium load [PMID:42312809].
+*** Lab-test interference
+- Lithium heparin collection tubes cause spurious lithium levels. Neonatal samples read as high as 4.19 mmol/L, and levels above 3 mmol/L are possible in underfilled tubes [PMID:19057375]. Underfilled lithium-heparin tubes also falsely raise creatinine on the Abbott enzymatic assay (+40.6%) [PMID:34463152].
+- True physiological lab changes (not assay artifacts): TSH rises [PMID:22265699]. Neutrophilic leukocytosis: neutrophilia in 18% of patients [PMID:11105780] [PMID:25093483]. Calcium and PTH rise [PMID:39192574].
+- Pseudo-hypercalcemia from volume depletion in nephrogenic DI should be excluded [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b839ff4b-f62d-41ab-a823-550a756d58ec].
+
 ** Genotype notes
-- No cited pharmacogenomic/nutrigenomic source was identified for a supplement-specific genotype effect; no genotype claim made.
+- Response to therapeutic lithium in bipolar disorder: a ConLiGen GWAS (n=2563) found a chromosome 21 locus (lncRNA genes AL157359.3/4). Carriers of the alternate alleles relapsed more often (HR 3.8) [PMID:26806518].
+- Telomere length: polygenic scores explained more of the variance in chronic lithium users (8.9%) [PMID:30559463].
+- No pharmacogenomic data exist for low-dose or supplemental lithium.
+
 ** Latest research
-- 2026 MCI pilot: none of six coprimary endpoints statistically significant; modest, exploratory memory difference and balanced serious adverse events [URL:https://jamanetwork.com/journals/jamaneurology/fullarticle/2845746].
+- [2026-09] JAD SR/MA (23 studies): cohort HR 0.63 for dementia with lithium exposure; 3 RCTs SMD -0.41 [PMID:42803710].
+- [2026-09] JAMA Psychiatry narrative review proposes an MCI trial of low-dose lithium orotate (~0.3 mM) [PMID:42268602].
+- [2026-09] Narrative review: no human lithium-deficiency syndrome or validated biomarker exists [PMID:42693365].
+- [2026-08] ISBD task force: levels of 0.82-1.00 mmol/L linked to side effects in older adults; 1.20-1.25 mmol/L overtly toxic [PMID:42460615].
+- [2026-08] Lithium-associated HPT SR (125 studies): hypercalcemia 7.2%, HPT 4.8%, multiglandular in 25-83% [PMID:42606582].
+- [2026-07] SR of 135 bradycardia cases: 32% occurred at therapeutic levels [PMID:42425479].
+- [2026-06] Bayesian reanalysis of LATTICE: 96.5% probability of benefit for verbal delayed recall; overall inconclusive [PMID:42521537].
+- [2026-06] Low-dose lithium vs valproate (TriNetX, n=853 per arm): dementia HR 0.38. The authors flag bias and call it hypothesis-generating [PMID:42372694].
+- [2026-06] Critique: lithium orotate is probably absorbed as Li+; superiority claims are unproven [PMID:42312809].
+- [2026-04] LATTICE pilot RCT (n=80, 2 years): no coprimary outcome met; CVLT slope +0.69/yr [PMID:41770546].
+- [2026-02] US county study (UCMR 5): higher water lithium linked to lower dementia prevalence (PR 0.965) and incidence (IRR 0.958) [PMID:41643982].
+- [2025-11] SR: lithium effects on amyloid and tau are inconsistent and mostly preclinical [PMID:41260370].
+- [2025-11] Low-dose lithium in FTD agitation: feasible and tolerated; no efficacy signal (n=16) [PMID:41236362].
+- [2025-10] AD RCT MA (6 RCTs, n=394): no consistent cognitive benefit; no excess serious AEs [PMID:41177743].
+- [2025-08] Aron et al., Nature: brain lithium is low in MCI; lithium orotate replacement prevented AD pathology in mice [PMID:40770094].
+- [2025-05] Amiloride (ENaC inhibitor) for lithium polyuria: likely helpful, but low-quality evidence [PMID:40449743].
+- [2025-05] Suicide RCT MA update: nonsignificant reductions in attempts (OR 0.73) and suicide (OR 0.61) [PMID:40441661].
+- [2025-02] Hong Kong cohort: hypothyroidism aHR 2.00, CKD3+ aHR 1.35 with lithium [PMID:39932712].
+- [2024-12] Iceland cohort: CKD3+ HR 1.90; no excess at 0.30-0.59 mmol/L [PMID:39572104].
+- [2024-11] Network MA in pregnancy: congenital malformations OR 1.61 for lithium [PMID:39528870].
+- [2024-11] Qualitative review of trace lithium for suicide and dementia prevention [PMID:39598397].
+- [2024-10] HPT/hypercalcemia MA: pooled prevalence of lithium-associated hypercalcemia 3.17-4.23% [PMID:39192574].
+
 ** Open questions
-- Which formulations, populations, and durations produce clinically meaningful outcomes rather than biomarker-only changes?
-- Are there long-term benefits or harms beyond the relatively short human trials available?
+- Whether trace or supplemental lithium causes any of the ecological associations. These studies are prone to ecological fallacy and confounding, and some (Scotland, autism) point the other way [PMID:36747488] [PMID:37010840].
+- Whether lithium orotate differs from carbonate in humans. Mouse data and chemical arguments conflict [PMID:37356352] [PMID:42312809].
+- What dose is needed for neuroprotection in MCI. The ~0.3 mM target or microgram doses have not been tested in an adequately powered RCT [PMID:41770546] [PMID:42268602].
+- Long-term renal, thyroid and parathyroid safety of 1-5 mg/day OTC lithium. Data at serum <0.3 mmol/L are sparse.
+- Whether lithium status can be measured. No validated biomarker exists [PMID:42693365].
+
 ** Sources
-- [URL:https://jamanetwork.com/journals/jamaneurology/fullarticle/2845746] [URL:https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=lithium%20carbonate] [PMID:38253184]
+1. Barjasteh-Askari F et al. Suicide mortality and lithium in drinking water: SR and MA. J Affect Disord. 2020. PMID:32056756 DOI:10.1016/j.jad.2019.12.027
+2. Memon A et al. Naturally occurring lithium in drinking water and suicide rates: SR and MA of ecological studies. Br J Psychiatry. 2020. PMID:32716281 DOI:10.1192/bjp.2020.128
+3. Eyre-Watt B et al. Lithium in drinking water and neuropsychiatric outcomes: SR and MA. Aust N Z J Psychiatry. 2021. PMID:33045847 DOI:10.1177/0004867420963740
+4. Kugimiya T et al. Lithium in drinking water and suicide prevention: largest nationwide study from Japan. Bipolar Disord. 2021. PMID:32780508 DOI:10.1111/bdi.12983
+5. Kessing LV et al. Association of lithium in drinking water with the incidence of dementia. JAMA Psychiatry. 2017. PMID:28832877 DOI:10.1001/jamapsychiatry.2017.2362
+6. Fraiha-Pegado J et al. Trace lithium levels in drinking water and risk of dementia: SR. Int J Bipolar Disord. 2024. PMID:39212809 DOI:10.1186/s40345-024-00348-5
+7. Duthie AC et al. Low-level lithium in drinking water and subsequent risk of dementia: cohort study. Int J Geriatr Psychiatry. 2023. PMID:36747488 DOI:10.1002/gps.5890
+8. Hwang SH et al. Low-dose drinking water lithium and dementia: nationwide US ecological study. Environ Pollut. 2026. PMID:41643982 DOI:10.1016/j.envpol.2026.127766
+9. Zarse K et al. Low-dose lithium uptake promotes longevity in humans and metazoans. Eur J Nutr. 2011. PMID:21301855 DOI:10.1007/s00394-011-0171-x
+10. Fajardo VA et al. Trace lithium in Texas tap water and all-cause mortality. Appl Physiol Nutr Metab. 2018. PMID:29206474 DOI:10.1139/apnm-2017-0653
+11. Terao T et al. Trace lithium for suicide prevention and dementia prevention: qualitative review. Pharmaceuticals. 2024. PMID:39598397 DOI:10.3390/ph17111486
+12. Mahmudiono T et al. Concentration of lithium in water resources: SR, MA and health risk assessment. Rev Environ Health. 2024. PMID:37261955 DOI:10.1515/reveh-2023-0025
+13. Schrauzer GN. Lithium: occurrence, dietary intakes, nutritional essentiality. J Am Coll Nutr. 2002. PMID:11838882 DOI:10.1080/07315724.2002.10719188
+14. R A C et al. Manifestations of lithium deficiency in the human body: narrative review. Biol Trace Elem Res. 2026. PMID:42693365 DOI:10.1007/s12011-026-05325-w
+15. Liew Z et al. Maternal lithium in drinking water and autism spectrum disorder in offspring, Denmark. JAMA Pediatr. 2023. PMID:37010840 DOI:10.1001/jamapediatrics.2023.0346
+16. Gildengers AG et al. Low-dose lithium for MCI: pilot RCT (LATTICE). JAMA Neurol. 2026. PMID:41770546 DOI:10.1001/jamaneurol.2026.0072
+17. da Silva AMP et al. Bayesian reanalysis of the LATTICE trial. Am J Geriatr Psychiatry. 2026. PMID:42521537 DOI:10.1016/j.jagp.2026.06.014
+18. Forlenza OV et al. Disease-modifying properties of long-term lithium for amnestic MCI: RCT. Br J Psychiatry. 2011. PMID:21525519 DOI:10.1192/bjp.bp.110.080044
+19. Forlenza OV et al. Long-term lithium in older adults with amnestic MCI: RCT. Br J Psychiatry. 2019. PMID:30947755 DOI:10.1192/bjp.2019.76
+20. Nunes MA et al. Microdose lithium treatment stabilized cognitive impairment in AD. Curr Alzheimer Res. 2013. PMID:22746245 DOI:10.2174/1567205011310010014
+21. Matsunaga S et al. Lithium as a treatment for AD: SR and MA. J Alzheimers Dis. 2015. PMID:26402004 DOI:10.3233/JAD-150437
+22. Pereira da Silva AM et al. Lithium for behavioral and cognitive symptoms in AD dementia: frequentist and Bayesian MA. Am J Geriatr Psychiatry. 2026. PMID:41177743 DOI:10.1016/j.jagp.2025.10.001
+23. Campedelli L et al. Lithium exposure and risk of dementia and AD: SR and MA. J Alzheimers Dis. 2026. PMID:42803710 DOI:10.1177/13872877261488808
+24. Huang Q et al. Lithium exposure and risk of major neurocognitive disorders: SR and MA. J Clin Psychopharmacol. 2024. PMID:38743015 DOI:10.1097/JCP.0000000000001863
+25. Terao I et al. Donanemab, lecanemab, aducanumab and lithium in MCI/AD: network MA. Ageing Res Rev. 2024. PMID:38253184 DOI:10.1016/j.arr.2024.102203
+26. Aron L et al. Lithium deficiency and the onset of Alzheimer's disease. Nature. 2025. PMID:40770094 DOI:10.1038/s41586-025-09335-x
+27. Moore GJ et al. The 25-year evolution of lithium as a disease-modifying agent in dementia. JAMA Psychiatry. 2026. PMID:42268602 DOI:10.1001/jamapsychiatry.2026.1296
+28. Xiao K et al. Effects of lithium on beta-amyloid deposition and tau phosphorylation: SR. J Affect Disord. 2026. PMID:41260370 DOI:10.1016/j.jad.2025.120721
+29. Zide BS et al. Low-dose lithium for agitation in frontotemporal dementia: feasibility. Int Rev Psychiatry. 2025. PMID:41236362 DOI:10.1080/09540261.2025.2572365
+30. da Silva AMP et al. Low-dose lithium vs valproate and incident dementia: propensity-matched cohort. Psychiatry Res. 2026. PMID:42372694 DOI:10.1016/j.psychres.2026.117300
+31. Aprahamian I et al. Long-term low-dose lithium does not impair renal function in the elderly: 2-year RCT. J Clin Psychiatry. 2014. PMID:25093483 DOI:10.4088/JCP.13m08741
+32. Murbach TS et al. A toxicological evaluation of lithium orotate. Regul Toxicol Pharmacol. 2021. PMID:34146638 DOI:10.1016/j.yrtph.2021.104973
+33. Hajek T et al. Lithium orotate: distinct compound or simply Li+ after administration? Br J Psychiatry. 2026. PMID:42312809 DOI:10.1192/bjp.2026.10699
+34. Pauze DK et al. Lithium toxicity from an Internet dietary supplement. J Med Toxicol. 2007. PMID:18072162 DOI:10.1007/BF03160910
+35. Neal MA et al. Human brain 7Li-MRI following low-dose lithium supplementation. J Affect Disord. 2024. PMID:38810780 DOI:10.1016/j.jad.2024.05.128
+36. Pacholko AG et al. Pharmacokinetics of lithium orotate vs carbonate in a mouse model of mania. J Psychiatr Res. 2023. PMID:37356352 DOI:10.1016/j.jpsychires.2023.06.012
+37. Mutz J et al. Duration of lithium use and biological ageing (UK Biobank). Geroscience. 2024. PMID:38539016 DOI:10.1007/s11357-024-01142-y
+38. Squassina A et al. Leukocyte telomere length correlates with duration of lithium treatment. Eur Neuropsychopharmacol. 2016. PMID:27084304 DOI:10.1016/j.euroneuro.2016.03.020
+39. Coutts F et al. The polygenic nature of telomere length and anti-ageing properties of lithium. Neuropsychopharmacology. 2019. PMID:30559463 DOI:10.1038/s41386-018-0289-0
+40. McKnight RF et al. Lithium toxicity profile: SR and MA. Lancet. 2012. PMID:22265699 DOI:10.1016/S0140-6736(11)61516-X
+41. Chan JKN et al. Lithium for bipolar disorder and risk of thyroid dysfunction and CKD. JAMA Netw Open. 2025. PMID:39932712 DOI:10.1001/jamanetworkopen.2024.58608
+42. Gislason G et al. Risk of CKD in individuals on lithium in Iceland: nationwide cohort. Lancet Psychiatry. 2024. PMID:39572104 DOI:10.1016/S2215-0366(24)00324-9
+43. Vandermeulen L et al. Lithium-associated hypercalcemia and hyperparathyroidism: SR and MA. World J Biol Psychiatry. 2024. PMID:39192574 DOI:10.1080/15622975.2024.2393373
+44. Shahraki RA et al. Lithium-associated hyperparathyroidism: SR of prevalence and surgical outcomes. Langenbecks Arch Surg. 2026. PMID:42606582 DOI:10.1007/s00423-026-04200-5
+45. Fairbrother F et al. Lithium can cause hyperthyroidism as well as hypothyroidism: SR. Aust N Z J Psychiatry. 2019. PMID:30841715 DOI:10.1177/0004867419833171
+46. Lieber I et al. Lithium-associated hypothyroidism and reversibility after discontinuation (LiSIE). J Psychopharmacol. 2020. PMID:31670617 DOI:10.1177/0269881119882858
+47. Gomes-da-Costa S et al. Lithium therapy and weight change in bipolar disorder: SR and MA. Neurosci Biobehav Rev. 2022. PMID:34265322 DOI:10.1016/j.neubiorev.2021.07.011
+48. Huh S et al. Lithium-associated bradycardia: SR of 121 case reports. Prog Neuropsychopharmacol Biol Psychiatry. 2026. PMID:42425479 DOI:10.1016/j.pnpbp.2026.111831
+49. Nunes PV et al. Safe and effective lithium therapeutic range for older adults: ISBD task force SR. Bipolar Disord. 2026. PMID:42460615 DOI:10.1111/bdi.70151
+50. Patorno E et al. Lithium use in pregnancy and the risk of cardiac malformations. N Engl J Med. 2017. PMID:28591541 DOI:10.1056/NEJMoa1612222
+51. Munk-Olsen T et al. Maternal and infant outcomes with lithium in pregnancy: MA of six cohorts. Lancet Psychiatry. 2018. PMID:29929874 DOI:10.1016/S2215-0366(18)30180-9
+52. Fornaro M et al. Lithium exposure during pregnancy and postpartum: SR and MA. Am J Psychiatry. 2020. PMID:31623458 DOI:10.1176/appi.ajp.2019.19030228
+53. Wang E et al. Antipsychotics and mood stabilizers in pregnancy: network MA of congenital malformations. CNS Drugs. 2025. PMID:39528870 DOI:10.1007/s40263-024-01131-x
+54. Phelan KM et al. Lithium interaction with COX-2 inhibitors and other NSAIDs. J Clin Psychiatry. 2003. PMID:14658947 DOI:10.4088/jcp.v64n1108
+55. Finley PR et al. Clinical relevance of drug interactions with lithium. Clin Pharmacokinet. 1995. PMID:8521679 DOI:10.2165/00003088-199529030-00004
+56. Juurlink DN et al. Drug-induced lithium toxicity in the elderly: population-based study. J Am Geriatr Soc. 2004. PMID:15086664 DOI:10.1111/j.1532-5415.2004.52221.x
+57. Finley PR et al. Lithium and ACE inhibitors: evaluation of a potential interaction. J Clin Psychopharmacol. 1996. PMID:8834421 DOI:10.1097/00004714-199602000-00011
+58. Bisogni V et al. Antihypertensive therapy in patients on chronic lithium treatment. J Hypertens. 2016. PMID:26630207 DOI:10.1097/HJH.0000000000000758
+59. Perry PJ et al. Theophylline precipitated alterations of lithium clearance. Acta Psychiatr Scand. 1984. PMID:6741601 DOI:10.1111/j.1600-0447.1984.tb02527.x
+60. Jefferson JW. Lithium tremor and caffeine intake: two cases. J Clin Psychiatry. 1988. PMID:3338980
+61. George S et al. Add-on sodium chloride to stabilize serum lithium in bipolar disorder: RCT. Bipolar Disord. 2023. PMID:36409058 DOI:10.1111/bdi.13276
+62. Atherton JC et al. Lithium clearance in man: dietary salt, ECF volume, amiloride and frusemide. Clin Sci. 1987. PMID:3690979 DOI:10.1042/cs0730645
+63. Spaulding SW et al. Effect of increased iodide intake on thyroid function in subjects on chronic lithium. Acta Endocrinol. 1977. PMID:576345 DOI:10.1530/acta.0.0840290
+64. Sorensen PN et al. Magnesium sulfate and absorption of acetylsalicylic acid and lithium carbonate. Arch Toxicol. 1975. PMID:1242885 DOI:10.1007/BF00353312
+65. Adan-Manes J et al. Lithium and venlafaxine interaction: a case of serotonin syndrome. J Clin Pharm Ther. 2006. PMID:16882112 DOI:10.1111/j.1365-2710.2006.00745.x
+66. Strawbridge R et al. ENaC inhibitors for lithium-related polyuria: SR. J Affect Disord. 2025. PMID:40449743 DOI:10.1016/j.jad.2025.119542
+67. Cipriani A et al. Lithium in the prevention of suicide in mood disorders: updated SR and MA. BMJ. 2013. PMID:23814104 DOI:10.1136/bmj.f3646
+68. Wang JX et al. Lithium for suicidal ideation, behavior and suicide: updated MA of RCTs. J Affect Disord. 2025. PMID:40441661 DOI:10.1016/j.jad.2025.119487
+69. Tanaka T et al. A pitfall of measuring lithium levels in neonates. Ther Drug Monit. 2008. PMID:19057375 DOI:10.1097/FTD.0b013e3181898978
+70. Squires M et al. Lithium heparin interference in the Abbott enzymatic creatinine assay. Ann Clin Biochem. 2021. PMID:34463152 DOI:10.1177/00045632211040673
+71. Capodicasa E et al. Neutrophil count and leukocyte elastase during chronic lithium therapy. Immunopharmacol Immunotoxicol. 2000. PMID:11105780 DOI:10.3109/08923970009016431
+72. Hou L et al. Genetic variants associated with response to lithium in bipolar disorder: GWAS (ConLiGen). Lancet. 2016. PMID:26806518 DOI:10.1016/S0140-6736(16)00143-4
+73. Lithium carbonate tablets/capsules, US prescribing information (Hikma), DailyMed, revised Nov 2025. URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b839ff4b-f62d-41ab-a823-550a756d58ec

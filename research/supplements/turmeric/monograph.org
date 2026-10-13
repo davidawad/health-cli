@@ -3,35 +3,209 @@
 :ID: supp-turmeric
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: Curcuma longa | turmeric | curcumin | curcuminoids
+:ALIASES: Curcuma longa | turmeric root | turmeric rhizome powder | turmeric extract | Curcuma longa extract | haldi
 :CATEGORY: botanical
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
+
 ** Identity & forms
-- Turmeric rhizome extracts contain curcuminoids, including curcumin; formulations differ markedly in bioavailability [PMID:33511486].
+- Curcuma longa L. (ginger family). The rhizome is used as a spice, dye and traditional medicine. Its yellow color and most proposed health effects come from curcuminoids, mainly curcumin [URL:https://www.nccih.nih.gov/health/turmeric] [PMID:31643876].
+- Scope: whole rhizome powder and Curcuma longa extracts. Purified or enhanced curcumin has its own "Curcumin" monograph. Most RCTs test curcuminoid extracts rather than culinary powder, so the form is stated wherever the source gives it.
+- Main forms: Rhizome powder. A 6 g dose used in a human study contained only 2% curcumin [PMID:28370178]. Standardized extracts, and curcuminoids plus piperine. In humans, 20 mg piperine raised the bioavailability of 2 g curcumin by 2000% [PMID:9619120]. Enhanced formulations: phospholipid (Meriva), nano-curcumin and water-dispersible forms. Theracurmin's AUC was 27-fold that of curcumin powder [PMID:25308211].
+- Product content varies: curcumin ranged from 0.03 to 37.6 g/100 g across 30 capsule products [PMID:39614547]. Products often add piperine [URL:https://www.nccih.nih.gov/health/turmeric].
+- Regulatory status: Curcumin (E 100) has an EU food-additive ADI of 3 mg/kg bw/day [PMID:42087949]. EFSA rejected a joint-function health claim [PMID:32625480]. Turmeric is GRAS as a US food ingredient [PMID:30000906].
+
 ** Mechanisms
-- Curcuminoids have anti-inflammatory and antioxidant actions in experimental systems; clinical effect depends on formulation [PMID:33511486].
+- Anti-inflammatory and antioxidant: pooled RCTs show lower CRP, TNF-alpha, IL-6 and MDA, and higher TAC and SOD [PMID:36804260]. Hepatic NF-kB inhibition predicted NASH resolution in the Meriva trial (AUC 0.90) [PMID:38809154].
+- Iron handling: Curcumin binds ferric iron in the gut and caused iron deficiency in mice [PMID:30899609]. 6 g turmeric lowered serum hepcidin by up to 19% in healthy men [PMID:28370178]. 0.5 g with a meal did not inhibit iron absorption in a stable-isotope study [PMID:17116705].
+- Platelets and coagulation: Preclinical antiplatelet, anticoagulant and fibrinolytic activity [PMID:29052850] [PMID:25839871]. In rats, curcumin raised warfarin and clopidogrel AUC but did not change PT or platelet aggregation [PMID:23807811].
+- Enzymes and transporters: In vitro, curcumin inhibits CYP1A2, 3A4, 2D6, 2C9 (IC50 4.3 uM) and 2B6 [PMID:17433521]. It inhibits intestinal BCRP in humans and monkeys [PMID:22300367] [PMID:29358184]. Its effects on P-gp substrates are variable [PMID:22725663] [PMID:17468862]. Piperine inhibits glucuronidation and CYP3A4 [PMID:9619120] [PMID:27776366].
+- Cholekinetic: 20, 40 and 80 mg curcumin reduced gallbladder volume by 34%, 51% and 72% at 2 h [PMID:12495265].
+
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | Certainty | Citations |
-|---------+--------------------+-----------+-------------+-----------+-----------|
-| Principal studied outcome | Systematic review/RCT or official product label | Knee osteoarthritis: meta-analysis of 16 RCTs (n=1810) found pain SMD −0.82 and function SMD −0.75 vs placebo, high heterogeneity; similar effect to NSAIDs in short studies [PMID:33511486]. | See outcome summary above; no extrapolation to unstudied endpoints | low | [PMID:33511486] [URL:https://www.nccih.nih.gov/health/turmeric] |
-| Hard clinical outcomes / prevention | Human outcome evidence sparse or absent in sources reviewed | Not established | No reliable effect estimate | very low | [PMID:33511486] [URL:https://www.nccih.nih.gov/health/turmeric] |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Knee OA pain/function (turmeric extracts) | SR/MA 16 RCTs (n=1810); NMA 17 RCTs by product | Benefit vs placebo; similar to NSAIDs | Pain SMD -0.82 (CI -1.17 to -0.47), function SMD -0.75, I2 86-90%; WOMAC pain MD -3.17 conventional, -2.47 enhanced | low | [PMID:33511486] [PMID:40731001] [PMID:34017975] [PMID:38036015] |
+| OA inflammatory markers | MA 21 RCTs (n=1705) | CRP/TNF down | CRP SMD -0.91; TNF-alpha SMD -0.92; IL-1beta, IL-6, ESR NS | low | [PMID:40615851] |
+| Hand OA | RCT of C. longa + Boswellia (n=162) | Small benefit | VAS -8.5 mm vs placebo | low | [PMID:40554037] |
+| NAFLD/MASLD liver enzymes | Umbrella MA (11 MAs, 99 RCTs); MA 15 RCTs | AST down; ALT inconsistent | AST ES -1.07, ALT ES -0.63; ALT NS in meta-regression MA | low | [PMID:37918958] [PMID:38965866] |
+| NASH histology | 1 RCT, Meriva 2 g/d x 72 wk (n=52) | Benefit | NASH resolution 62% vs 12% (RR 5.33) | low | [PMID:38809154] |
+| FBG / HbA1c (T2D, prediabetes) | Dose-response MA 34 RCTs; umbrella MA with C. longa form subgroups | Decrease | FBG -10.15 mg/dL, HbA1c -0.32%; all C. longa forms FBG -8.1 mg/dL | moderate | [PMID:42005325] [PMID:37471428] [PMID:39478418] |
+| Lipids | Umbrella + updated MA (72 RCTs); diabetes MA (27 RCTs, GRADE low) | TG/LDL down, HDL up | TG -13.15, LDL -5.84, HDL +2.4 mg/dL; I2 94-98% | low | [PMID:40044446] [PMID:41656101] [PMID:41057035] |
+| LDL-C (turmeric capsule vs statin) | Single-blind RCT, 28 days | No effect | No LDL-C reduction vs placebo | low | [PMID:36351465] |
+| CRP / cytokines | MA 66 RCTs; diabetes MA 28 RCTs | Decrease | CRP -0.58 mg/L; TNF -3.48 pg/mL; IL-6 -1.31 pg/mL | moderate | [PMID:36804260] [PMID:41240262] |
+| Body weight | MA 60 RCTs (n=3691) | Small decrease | Weight -0.82 kg; BMI -0.30; WC -1.31 cm | low | [PMID:36882287] |
+| Blood pressure | MA 35 RCTs; dose-response MA 17 RCTs; diabetes MA 15 RCTs | Inconsistent, small | SBP -2.02 mmHg; null in another MA; SBP -2.69 in diabetes | low | [PMID:38220376] [PMID:37567790] [PMID:41388744] |
+| Depression | SR/MA 10 RCTs (n=594); NMA; WFSBP/CANMAT guideline | Small benefit | SMD -0.32 (CI -0.50 to -0.13); guideline "provisionally recommended" | low | [PMID:33418373] [PMID:40314175] [PMID:35311615] |
+| Functional dyspepsia (C. longa capsules) | Cochrane review; RCT vs omeprazole (n=132) | Benefit vs placebo; similar to omeprazole | Global symptoms MD -3.33 | moderate | [PMID:37323050] [PMID:34652861] |
+| Ulcerative colitis (adjunct) | MA 8 RCTs (n=482) | Benefit | Clinical remission RR 2.33 (CI 1.25-4.34), I2 80% | low | [PMID:39612780] |
+| Exercise muscle damage | MA 10 RCTs | Benefit | Soreness WMD -0.56; CK -65.98 IU/L | low | [PMID:35574627] |
+| Cognition (aging) | MA 10 human RCTs (n=531) | No global effect | SMD 0.14 (CI -0.78 to 1.07); more AEs | low | [PMID:40579315] |
+
 ** Dosing in trials
-- Trials used varied extracts and enhanced-bioavailability formulations, commonly hundreds to ~1500 mg/day for up to 16 weeks; not interchangeable [PMID:33511486].
+- Knee OA: Extracts were given for up to 16 weeks [PMID:33511486]. <1000 and >=1000 mg/d curcuminoids gave similar relief [PMID:34537344]. More than 12 weeks is suggested [PMID:34017975]. Theracurmin 180 mg/d curcumin was used for 8 weeks [PMID:25308211].
+- Arthritis overall: 120-1500 mg/d for 4-36 weeks [PMID:35935936].
+- Glycemia and MASLD: >=1 g/d was more effective [PMID:42005325]. 1500 mg/d curcumin was used for 12 months [PMID:40573083] [PMID:41096556].
+- NASH: Meriva 2 g/d for 72 weeks [PMID:38809154]. Nano-curcumin 80 mg/d for 16 weeks improved enzymes but not fibrosis [PMID:41168313].
+- Dyspepsia: C. longa capsules for 4 weeks [PMID:34652861]. Culinary exposure is about 0.5 g per meal [PMID:17116705].
+- Safety benchmarks: Curcumin was safe at 6 g/day for 4-7 weeks [PMID:29480523]. Conventional turmeric is likely safe for 2-3 months at recommended amounts [URL:https://www.nccih.nih.gov/health/turmeric].
+
 ** Safety & adverse effects
-- GI symptoms; rare clinically important liver injury reported with supplements, especially enhanced absorption products [URL:https://www.nccih.nih.gov/health/turmeric].
+- GI effects are common: nausea, diarrhea, reflux [URL:https://www.nccih.nih.gov/health/turmeric] [PMID:30000906]. Yellow stool occurred in 11% in one RCT [PMID:40759997]. OA trial AE rates were similar to placebo and lower than NSAIDs [PMID:33511486] [PMID:38036015].
+- Hepatotoxicity (idiosyncratic, rare, increasing): US DILIN: 10 cases, 9 hepatocellular, latency 1-4 months; 5 hospitalized, 1 death. Three of 7 tested products contained piperine [PMID:36252717]. Italy (Tuscany phytovigilance): 7 cholestatic hepatitis cases, all with high-bioavailability, high-dose products [PMID:32656820]. Recent turmeric + black pepper cases [PMID:39995754] [PMID:41255460], including recurrent autoimmune-like hepatitis on rechallenge [PMID:42160492]. LiverTox: several dozen clinically apparent cases [PMID:31643876]. Turmeric was the most-used of 6 potentially hepatotoxic botanicals in NHANES [PMID:39102266]. It is listed among newer HDS hepatotoxins [PMID:42092331].
+- Lead (lead chromate adulteration of loose spice): South Asia: 14% of 356 samples had detectable lead, some >1000 ug/g [PMID:39053552]. Eastern India: 30% of 503 samples exceeded 10 ug/g; maximum 6416 ug/g [PMID:42091913]. Bangladesh: adulteration in 7 of 9 producing districts [PMID:31550596]. US: pediatric lead poisoning from home-prepared spices [PMID:36660959]. Capsule products tested had low lead (<=0.619 mg/kg) [PMID:39614547].
+- Oxalate and kidney stones: 91% of turmeric oxalate is water-soluble, and supplemental doses raised urinary oxalate [PMID:18469248]. 8.6 mg oxalate per OTC supplement dose [PMID:41460700]. Oxalate nephropathy case with chronic use [PMID:38427579].
+- Iron deficiency anemia: one case on 6 x 538 mg/d extract, resolved after stopping [PMID:30899609].
+- Pregnancy and lactation: Supplements may be unsafe in pregnancy [URL:https://www.nccih.nih.gov/health/turmeric]. Human data are lacking [PMID:29480523]. There are no milk-excretion data. Curcumin suppresses milk production in vitro [PMID:30000906].
+- Toxicology review (2026): low acute toxicity, but hepatic and genomic risks at high or prolonged doses [PMID:42488578].
+
 ** Contraindications
-- Biliary obstruction/gallstones warrant caution; avoid high-bioavailability products with prior supplement-related liver injury.
+- Prior turmeric or curcumin liver injury: do not rechallenge, as reinjury was more severe [PMID:42160492] [PMID:36252717].
+- Active liver disease or raised transaminases: avoid enhanced or piperine-containing products [PMID:32656820] [URL:https://www.nccih.nih.gov/health/turmeric].
+- Biliary obstruction or gallstones: precaution based on mechanism, because curcumin contracts the gallbladder [PMID:12495265].
+- Calcium-oxalate stones or hyperoxaluria [PMID:18469248] [PMID:38427579].
+- Pregnancy at supplemental doses [URL:https://www.nccih.nih.gov/health/turmeric].
+- Iron-deficiency anemia [PMID:30899609].
+
 ** Interactions
-- Possible bleeding interaction with anticoagulants/antiplatelets is biologically plausible but clinical evidence limited; piperine changes drug metabolism.
-- Structured high-priority interactions are represented in interactions.json; absence of an edge is not proof of no interaction.
+*** Drugs
+- Anticoagulants and antiplatelets: INR rose with fluindione plus turmeric [PMID:25230280]. Bleeding risk is reported with anticoagulants [PMID:36304597] [PMID:30000906]. In rats there was a PK change but no PD change [PMID:23807811].
+- Tacrolimus: Case of nephrotoxicity with a trough of 29.9 ng/mL after high-dose dietary turmeric [PMID:28104136]. A review lists turmeric as a CYP3A4 inhibitor [PMID:36297591]. A 10 g/day challenge in another patient did not change levels [PMID:37586787].
+- Sulfasalazine and other BCRP substrates: curcumin raised sulfasalazine AUC 3.2-fold in humans [PMID:22300367]. In monkeys it raised rosuvastatin exposure [PMID:29358184].
+- Talinolol (P-gp): AUC fell with 300 mg/d curcumin [PMID:17468862] but rose 67-81% with 1000 mg/d [PMID:22725663].
+- Tamoxifen: endoxifen AUC fell 7.7% with curcumin and 12.4% with curcumin plus piperine [PMID:30909366]. Curcuma longa-cancer drug PK interactions are documented clinically [PMID:36707434].
+- Glucose-lowering drugs: additive lowering with glyburide, without hypoglycemia [PMID:25044423]. Metformin plus nano-curcumin beat either alone in PCOS [PMID:39461199].
+- CYP3A4 drugs with piperine products: piperine raised carbamazepine Cmax by 68.7% [PMID:27776366], and also raised propranolol and theophylline exposure [PMID:1815977].
+- Other hepatotoxic drugs: most published turmeric-DILI cases involved co-medication [PMID:32656820].
+*** Other supplements
+- Curcumin: stacking raises total curcuminoid exposure. DILI clusters with high-dose, high-bioavailability products [PMID:32656820] [PMID:36252717].
+- Black pepper/piperine: raised curcumin bioavailability by 2000% in humans [PMID:9619120]. It is often co-implicated in DILI [PMID:36252717] [PMID:42160492].
+- Heme Iron (Proferrin) and other iron: one deficiency case while on iron supplements [PMID:30899609]. Meal-level turmeric did not reduce iron absorption [PMID:17116705]. Separate the doses as a precaution.
+- Garlic, Ginger Root, Yeast Rice + Garlic: possible additive bleeding risk. Garlic is linked to surgical bleeding, and ginger and turmeric are antiplatelet in vitro [PMID:36304597] [PMID:25839871]. Ginger and turmeric are both listed as tacrolimus interactants [PMID:36297591].
+- Ashwagandha and red yeast rice: stacking hepatotoxic botanicals adds liver-injury exposure [PMID:39102266] [PMID:42504634].
+- EPA/DHA/DPA: in the SPORT trial neither fish oil nor turmeric lowered LDL-C [PMID:36351465]. No interaction data were found.
+*** Conditions
+- See Contraindications. In diabetes treated with insulin or sulfonylureas, monitor glucose [PMID:42005325] [PMID:25044423].
+- Planned surgery: stop nonessential supplements 2 weeks before [PMID:36304597].
+*** Lab-test interference
+- No assay interference was identified. True changes can occur in glucose/HbA1c [PMID:42005325], lipids [PMID:40044446], CRP [PMID:36804260], AST [PMID:37918958], hepcidin [PMID:28370178], INR on VKAs [PMID:25230280] and blood lead with adulterated spice [PMID:39053552].
+
 ** Genotype notes
-- No cited pharmacogenomic/nutrigenomic source was identified for a supplement-specific genotype effect; no genotype claim made.
+- HLA-B*35:01: 7 of 10 DILIN turmeric-DILI cases carried the allele (allele frequency 0.450 vs 0.056-0.069 in controls) [PMID:36252717]. A 2024 Spanish case was also a carrier [PMID:39297606]. The same allele is a risk factor for green tea extract liver injury [PMID:42092331].
+- ABCB1 C3435T: curcumin's effect on talinolol exposure was largest in TT subjects [PMID:22725663].
+- CYP2D6: the fall in endoxifen was greater in extensive metabolizers [PMID:30909366].
+
 ** Latest research
-- 2021-02: Recent clinical evidence remains formulation-dependent; opened systematic review included short-term heterogeneous OA trials and found no disease-modifying imaging/biochemical signal [PMID:33511486].
+- [2026-07] Toxicology review: hepatic and genomic risks at high or prolonged doses [PMID:42488578].
+- [2026-05] Recurrent turmeric-piperine autoimmune-like hepatitis on rechallenge [PMID:42160492].
+- [2026-05] Eastern India: 30% of 503 turmeric samples exceeded the lead limit [PMID:42091913].
+- [2026-04] Glycemia dose-response MA (34 RCTs): FBG -10.15 mg/dL, HbA1c -0.32% [PMID:42005325].
+- [2026-02] Lipid MA in prediabetes/T2D (27 RCTs): modest improvements, GRADE low [PMID:41656101].
+- [2026-01] BP MA in prediabetes/T2D (15 RCTs): SBP -2.69 mmHg; DBP NS [PMID:41388744].
+- [2025-11] Inflammation MA in diabetes (28 RCTs): CRP SMD -0.50; low certainty [PMID:41240262].
+- [2025-11] DILI case with a turmeric-black pepper supplement [PMID:41255460].
+- [2025-10] Curcuminoid + piperine lipid MA (16 RCTs): TG -18.64, TC -6.58 [PMID:41057035].
+- [2025-10] Nano-curcumin NAFLD-fibrosis RCT: enzymes improved, fibrosis did not [PMID:41168313].
+- [2025-09] 12-month RCT in obese T2D (n=227, 1500 mg/d): lower liver fat and HbA1c [PMID:41096556].
+- [2025-07] Turmeric-product NMA for knee OA: all forms reduce WOMAC pain; low certainty [PMID:40731001].
+- [2025-06] C. longa + Boswellia hand-OA RCT (n=162): VAS -8.5 mm [PMID:40554037].
+- [2025-06] Cognitive aging MA: no global effect [PMID:40579315].
+- [2025-02] Meriva NASH RCT: histologic resolution 62% vs 12% [PMID:38809154].
+- [2024-11] Spanish HLA-B*35:01 turmeric DILI case [PMID:39297606].
+- [2024-10] MA of 103 RCTs: high credibility for FBS, CRP, HDL and weight [PMID:39478418].
+
 ** Open questions
-- Which formulations, populations, and durations produce clinically meaningful outcomes rather than biomarker-only changes?
-- Are there long-term benefits or harms beyond the relatively short human trials available?
+- Does whole rhizome powder act like standardized or enhanced extracts? The efficacy of crude powder in diabetes "remains unexplored" [PMID:41319069].
+- What is the true incidence of turmeric DILI, and how much do piperine and enhanced bioavailability contribute? Is HLA-B*35:01 screening useful [PMID:36252717]?
+- Heterogeneity is very high (I2 often >85%). Independent, preregistered, longer trials are needed [PMID:33511486] [PMID:40044446].
+- Are the in vitro CYP and transporter findings clinically relevant beyond sulfasalazine, talinolol and tamoxifen?
+- How much lead do people actually get from imported loose turmeric [PMID:39053552]?
+
 ** Sources
-- [PMID:33511486] [URL:https://www.nccih.nih.gov/health/turmeric]
+1. LiverTox: Clinical and Research Information on Drug-Induced Liver Injury. Turmeric. LiverTox: Clinical and Research Information on Drug-Induced Liver Injury. 2012. PMID:31643876
+2. Lainé F et al. Curcuma decreases serum hepcidin levels in healthy volunteers: a placebo-controlled, randomized, double-blind, cross-over study. Fundam Clin Pharmacol. 2017. PMID:28370178 DOI:10.1111/fcp.12288
+3. Shoba G et al. Influence of piperine on the pharmacokinetics of curcumin in animals and human volunteers. Planta Med. 1998. PMID:9619120 DOI:10.1055/s-2006-957450
+4. Nakagawa Y et al. Short-term effects of highly-bioavailable curcumin for treating knee osteoarthritis: a randomized, double-blind, placebo-controlled prospective study. J Orthop Sci. 2014. PMID:25308211 DOI:10.1007/s00776-014-0633-0
+5. Andrekowisk Fioravanti MI et al. Turmeric products: Evaluation of curcumin and trace elements. Food Res Int. 2024. PMID:39614547 DOI:10.1016/j.foodres.2024.115028
+6. European Food Safety Authority. Refined exposure assessment for curcumin (E 100). EFSA J. 2014. PMID:42087949 DOI:10.2903/j.efsa.2014.3876
+7. EFSA Panel on Dietetic Products, Nutrition and Allergies (NDA) et al. Curcumin and normal functioning of joints: evaluation of a health claim pursuant to Article 13(5) of Regulation (EC) No 1924/2006. EFSA J. 2017. PMID:32625480 DOI:10.2903/j.efsa.2017.4774
+8. Drugs and Lactation Database (LactMed®). Turmeric. Drugs and Lactation Database (LactMed®). 2006. PMID:30000906
+9. Dehzad MJ et al. Antioxidant and anti-inflammatory effects of curcumin/turmeric supplementation in adults: A GRADE-assessed systematic review and dose-response meta-analysis of randomized controlled trials. Cytokine. 2023. PMID:36804260 DOI:10.1016/j.cyto.2023.156144
+10. Musso G et al. Effect of phospholipid curcumin Meriva on liver histology and kidney disease in nonalcoholic steatohepatitis: A randomized, double-blind, placebo-controlled trial. Hepatology. 2025. PMID:38809154 DOI:10.1097/HEP.0000000000000937
+11. Smith TJ et al. Iron Deficiency Anemia Due to High-dose Turmeric. Cureus. 2019. PMID:30899609 DOI:10.7759/cureus.3858
+12. Tuntipopipat S et al. Chili, but not turmeric, inhibits iron absorption in young women from an iron-fortified composite meal. J Nutr. 2006. PMID:17116705 DOI:10.1093/jn/136.12.2970
+13. Keihanian F et al. Curcumin, hemostasis, thrombosis, and coagulation. J Cell Physiol. 2018. PMID:29052850 DOI:10.1002/jcp.26249
+14. McEwen BJ. The influence of herbal medicine on platelet function and coagulation: a narrative review. Semin Thromb Hemost. 2015. PMID:25839871 DOI:10.1055/s-0035-1549089
+15. Liu AC et al. Curcumin alters the pharmacokinetics of warfarin and clopidogrel in Wistar rats but has no effect on anticoagulation or antiplatelet aggregation. Planta Med. 2013. PMID:23807811 DOI:10.1055/s-0032-1328652
+16. Appiah-Opong R et al. Inhibition of human recombinant cytochrome P450s by curcumin and curcumin decomposition products. Toxicology. 2007. PMID:17433521 DOI:10.1016/j.tox.2007.03.007
+17. Kusuhara H et al. Pharmacokinetic interaction study of sulphasalazine in healthy subjects and the impact of curcumin as an in vivo inhibitor of BCRP. Br J Pharmacol. 2012. PMID:22300367 DOI:10.1111/j.1476-5381.2012.01887.x
+18. Karibe T et al. Curcumin as an In Vivo Selective Intestinal Breast Cancer Resistance Protein Inhibitor in Cynomolgus Monkeys. Drug Metab Dispos. 2018. PMID:29358184 DOI:10.1124/dmd.117.078931
+19. He X et al. Effects of curcumin on the pharmacokinetics of talinolol in human with ABCB1 polymorphism. Xenobiotica. 2012. PMID:22725663 DOI:10.3109/00498254.2012.697590
+20. Juan H et al. Unexpected effect of concomitantly administered curcumin on the pharmacokinetics of talinolol in healthy Chinese volunteers. Eur J Clin Pharmacol. 2007. PMID:17468862 DOI:10.1007/s00228-007-0298-0
+21. Bedada SK et al. Effect of Piperine on the Metabolism and Pharmacokinetics of Carbamazepine in Healthy Volunteers. Drug Res (Stuttg). 2017. PMID:27776366 DOI:10.1055/s-0042-118173
+22. Rasyid A et al. Effect of different curcumin dosages on human gall bladder. Asia Pac J Clin Nutr. 2002. PMID:12495265 DOI:10.1046/j.1440-6047.2002.00296.x
+23. Wang Z et al. Efficacy and Safety of Turmeric Extracts for the Treatment of Knee Osteoarthritis: a Systematic Review and Meta-analysis of Randomised Controlled Trials. Curr Rheumatol Rep. 2021. PMID:33511486 DOI:10.1007/s11926-020-00975-8
+24. Wai HS et al. Effect of turmeric products on knee osteoarthritis: a systematic review and network meta-analysis. BMC Complement Med Ther. 2025. PMID:40731001 DOI:10.1186/s12906-025-05045-z
+25. Zeng L et al. The efficacy and safety of Curcuma longa extract and curcumin supplements on osteoarthritis: a systematic review and meta-analysis. Biosci Rep. 2021. PMID:34017975 DOI:10.1042/BSR20210817
+26. Zhao J et al. Efficacy and safety of curcumin therapy for knee osteoarthritis: A Bayesian network meta-analysis. J Ethnopharmacol. 2024. PMID:38036015 DOI:10.1016/j.jep.2023.117493
+27. Hsueh HC et al. Effects of curcumin on serum inflammatory biomarkers in patients with knee osteoarthritis: a systematic review and meta-analysis of randomized controlled trials. BMC Complement Med Ther. 2025. PMID:40615851 DOI:10.1186/s12906-025-04951-6
+28. Henrotin Y et al. Effect of a combination of C. longa and B. serrata extracts on hand osteoarthritis. Results of a double-blind, randomized, placebo-controlled, multicenter trial. Osteoarthritis Cartilage. 2025. PMID:40554037 DOI:10.1016/j.joca.2025.06.005
+29. Molani-Gol R et al. Effects of curcumin/turmeric supplementation on the liver enzymes, lipid profiles, glycemic index, and anthropometric indices in non-alcoholic fatty liver patients: An umbrella meta-analysis. Phytother Res. 2024. PMID:37918958 DOI:10.1002/ptr.8051
+30. Aragón-Vela J et al. Does curcumin improve liver enzymes levels in nonalcoholic fatty liver disease? A systematic review, meta-analysis, and meta-regression. Phytother Res. 2024. PMID:38965866 DOI:10.1002/ptr.8274
+31. Bahari H et al. Curcumin/Turmeric Supplementation on Glycemic Control in Adults With Prediabetes and Type 2 Diabetes: A Systematic Review and Dose-Response Meta-Analysis. Food Sci Nutr. 2026. PMID:42005325 DOI:10.1002/fsn3.71748
+32. Pathomwichaiwat T et al. Effects of turmeric (Curcuma longa) supplementation on glucose metabolism in diabetes mellitus and metabolic syndrome: An umbrella review and updated meta-analysis. PLoS One. 2023. PMID:37471428 DOI:10.1371/journal.pone.0288997
+33. Jafari A et al. Curcumin on Human Health: A Comprehensive Systematic Review and Meta-Analysis of 103 Randomized Controlled Trials. Phytother Res. 2024. PMID:39478418 DOI:10.1002/ptr.8340
+34. Unhapipatpong C et al. An Umbrella Review of Systematic Reviews and Meta-analyses of Randomized Controlled Trials Investigating the Effect of Curcumin Supplementation on Lipid Profiles. Nutr Rev. 2025. PMID:40044446 DOI:10.1093/nutrit/nuaf012
+35. Bahari H et al. Effects of Curcumin/Turmeric Supplementation on Lipid Profile in Subjects With Prediabetes and Diabetes: A Systematic Review and Meta-Analysis. Lipids. 2026. PMID:41656101 DOI:10.1002/lipd.70037
+36. Karimi M et al. Effects of Curcuminoids Plus Piperine Co-Supplementation on Serum Lipid Profile in Adults: A Systematic Review and Meta-Analysis of RCTs. Lipids. 2026. PMID:41057035 DOI:10.1002/lipd.70004
+37. Laffin LJ et al. Comparative Effects of Low-Dose Rosuvastatin, Placebo, and Dietary Supplements on Lipids and Inflammatory Biomarkers. J Am Coll Cardiol. 2023. PMID:36351465 DOI:10.1016/j.jacc.2022.10.013
+38. Bahari H et al. Efficacy of curcumin/turmeric on inflammation and oxidative stress in prediabetes and type 2 diabetes: a systematic review and dose-response meta-analysis. Inflammopharmacology. 2025. PMID:41240262 DOI:10.1007/s10787-025-02038-9
+39. Dehzad MJ et al. Effects of curcumin/turmeric supplementation on obesity indices and adipokines in adults: A grade-assessed systematic review and dose-response meta-analysis of randomized controlled trials. Phytother Res. 2023. PMID:36882287 DOI:10.1002/ptr.7800
+40. Dehzad MJ et al. Curcumin/turmeric supplementation could improve blood pressure and endothelial function: A grade-assessed systematic review and dose-response meta-analysis of randomized controlled trials. Clin Nutr ESPEN. 2024. PMID:38220376 DOI:10.1016/j.clnesp.2023.12.009
+41. Karimi A et al. Effects of curcumin on blood pressure: A systematic review and dose-response meta-analysis. Nutr Metab Cardiovasc Dis. 2023. PMID:37567790 DOI:10.1016/j.numecd.2023.07.003
+42. Bahari H et al. Antihypertensive Effects of Curcumin/Turmeric Supplementation in Prediabetes and Diabetes: A Systematic Review and Meta-Analysis of Randomised Controlled Trials. Endocrinol Diabetes Metab. 2026. PMID:41388744 DOI:10.1002/edm2.70145
+43. Wang Z et al. The efficacy and acceptability of curcumin for the treatment of depression or depressive symptoms: A systematic review and meta-analysis. J Affect Disord. 2021. PMID:33418373 DOI:10.1016/j.jad.2020.12.158
+44. Cheng YC et al. Comparative efficacy and tolerability of nutraceuticals for depressive disorder: A systematic review and network meta-analysis. Psychol Med. 2025. PMID:40314175 DOI:10.1017/S0033291725000996
+45. Sarris J et al. Clinician guidelines for the treatment of psychiatric disorders with nutraceuticals and phytoceuticals: The World Federation of Societies of Biological Psychiatry (WFSBP) and Canadian Network for Mood and Anxiety Treatments (CANMAT) Taskforce. World J Biol Psychiatry. 2022. PMID:35311615 DOI:10.1080/15622975.2021.2013041
+46. Báez G et al. Non-Chinese herbal medicines for functional dyspepsia. Cochrane Database Syst Rev. 2023. PMID:37323050 DOI:10.1002/14651858.CD013323.pub2
+47. Yongwatana K et al. Curcuma longa Linn versus omeprazole in treatment of functional dyspepsia: A randomized, double-blind, placebo-controlled trial. J Gastroenterol Hepatol. 2022. PMID:34652861 DOI:10.1111/jgh.15705
+48. Peng Z et al. Safety and efficacy of curcumin in the treatment of ulcerative colitis: An updated systematic review and meta-analysis of randomized controlled trials. Explore (NY). 2025. PMID:39612780 DOI:10.1016/j.explore.2024.103083
+49. Beba M et al. The effect of curcumin supplementation on delayed-onset muscle soreness, inflammation, muscle strength, and joint flexibility: A systematic review and dose-response meta-analysis of randomized controlled trials. Phytother Res. 2022. PMID:35574627 DOI:10.1002/ptr.7477
+50. Yu L et al. Targeting cognitive aging with curcumin supplementation: A systematic review and meta-analysis. J Prev Alzheimers Dis. 2025. PMID:40579315 DOI:10.1016/j.tjpad.2025.100248
+51. Hsiao AF et al. The efficacy of high- and low-dose curcumin in knee osteoarthritis: A systematic review and meta-analysis. Complement Ther Med. 2021. PMID:34537344 DOI:10.1016/j.ctim.2021.102775
+52. Zeng L et al. Efficacy and Safety of Curcumin and Curcuma longa Extract in the Treatment of Arthritis: A Systematic Review and Meta-Analysis of Randomized Controlled Trial. Front Immunol. 2022. PMID:35935936 DOI:10.3389/fimmu.2022.891822
+53. Yaikwawong M et al. Curcumin for Inflammation Control in Individuals with Type 2 Diabetes Mellitus and Metabolic Dysfunction-Associated Steatotic Liver Disease: A Randomized Controlled Trial. Nutrients. 2025. PMID:40573083 DOI:10.3390/nu17121972
+54. Yaikwawong M et al. Curcumin Attenuates Liver Steatosis via Antioxidant and Anti-Inflammatory Pathways in Obese Patients with Type 2 Diabetes Mellitus: A Randomized Controlled Trial. Int J Mol Sci. 2025. PMID:41096556 DOI:10.3390/ijms26199286
+55. Gerami H et al. Effect of nano-curcumin supplementation on liver fibrosis in patients with NAFLD-associated fibrosis: a double-blind randomized controlled trial. Sci Rep. 2025. PMID:41168313 DOI:10.1038/s41598-025-21862-1
+56. Soleimani V et al. Turmeric (Curcuma longa) and its major constituent (curcumin) as nontoxic and safe substances: Review. Phytother Res. 2018. PMID:29480523 DOI:10.1002/ptr.6054
+57. El-Rakabawy OM et al. Curcumin supplementation improves the clinical outcomes of patients with diabetes and atherosclerotic cardiovascular risk. Sci Rep. 2025. PMID:40759997 DOI:10.1038/s41598-025-09783-5
+58. Halegoua-DeMarzio D et al. Liver Injury Associated with Turmeric-A Growing Problem: Ten Cases from the Drug-Induced Liver Injury Network [DILIN]. Am J Med. 2023. PMID:36252717 DOI:10.1016/j.amjmed.2022.09.026
+59. Lombardi N et al. Acute liver injury following turmeric use in Tuscany: An analysis of the Italian Phytovigilance database and systematic review of case reports. Br J Clin Pharmacol. 2021. PMID:32656820 DOI:10.1111/bcp.14460
+60. Shrestha A et al. Drug-Induced Liver Injury Associated with Turmeric and Piperine: A Case and Review. Case Rep Gastroenterol. 2025. PMID:39995754 DOI:10.1159/000543679
+61. Pugnale S et al. Drug-Induced Liver Injury Associated With Turmeric and Black Pepper Based Dietary Supplements Consumption: A Case Report. Clin Case Rep. 2025. PMID:41255460 DOI:10.1002/ccr3.71489
+62. Patel AA et al. Recurrent Drug-Induced Autoimmune-like Hepatitis due to Turmeric Supplementation. J Investig Med High Impact Case Rep. 2026. PMID:42160492 DOI:10.1177/23247096261452814
+63. Likhitsup A et al. Estimated Exposure to 6 Potentially Hepatotoxic Botanicals in US Adults. JAMA Netw Open. 2024. PMID:39102266 DOI:10.1001/jamanetworkopen.2024.25822
+64. Björnsson ES et al. An update on drug-induced liver injury-What's new?. J Intern Med. 2026. PMID:42092331 DOI:10.1111/joim.70111
+65. Forsyth JE et al. Evidence of turmeric adulteration with lead chromate across South Asia. Sci Total Environ. 2024. PMID:39053552 DOI:10.1016/j.scitotenv.2024.175003
+66. Forsyth JE et al. Systemic drivers of toxic food adulteration: lead chromate in turmeric across eastern India. NPJ Sci Food. 2026. PMID:42091913 DOI:10.1038/s41538-026-00867-8
+67. Forsyth JE et al. Turmeric means "yellow" in Bengali: Lead chromate pigments added to turmeric threaten public health across Bangladesh. Environ Res. 2019. PMID:31550596 DOI:10.1016/j.envres.2019.108722
+68. Tan SW et al. Lead Poisoning From Home-Prepared Indian Spices in 3 Families. Clin Pediatr (Phila). 2023. PMID:36660959 DOI:10.1177/00099228221150158
+69. Tang M et al. Effect of cinnamon and turmeric on urinary oxalate excretion, plasma lipids, and plasma glucose in healthy subjects. Am J Clin Nutr. 2008. PMID:18469248 DOI:10.1093/ajcn/87.5.1262
+70. Thaker KN et al. Evaluation of the Online Information Landscape and Oxalate Content of Purportedly Antilithogenic Ingredients. J Endourol. 2026. PMID:41460700 DOI:10.1177/08927790251409797
+71. Washington O et al. Oxalate nephropathy and chronic turmeric supplementation: a case report. J Bras Nefrol. 2024. PMID:38427579 DOI:10.1590/2175-8239-JBN-2023-0079en
+72. Jalali J et al. Evaluating the Toxicity and Safety of Turmeric (Curcuma longa L.) and Its Components: A Narrative Review. J Toxicol. 2026. PMID:42488578 DOI:10.1155/jt/2715031
+73. Daveluy A et al. Probable interaction between an oral vitamin K antagonist and turmeric (Curcuma longa). Therapie. 2014. PMID:25230280 DOI:10.2515/therapie/2014062
+74. Hatfield J et al. Dietary supplements and bleeding. Proc (Bayl Univ Med Cent). 2022. PMID:36304597 DOI:10.1080/08998280.2022.2121575
+75. Nayeri A et al. Acute Calcineurin Inhibitor Nephrotoxicity Secondary to Turmeric Intake: A Case Report. Transplant Proc. 2017. PMID:28104136 DOI:10.1016/j.transproceed.2016.11.029
+76. Miedziaszczyk M et al. Controversial Interactions of Tacrolimus with Dietary Supplements, Herbs and Food. Pharmaceutics. 2022. PMID:36297591 DOI:10.3390/pharmaceutics14102154
+77. Boissiere C et al. Spice-drug interactions: a case report on the use of turmeric, curry and ginger in a renal transplant patient on tacrolimus. Eur J Hosp Pharm. 2023. PMID:37586787 DOI:10.1136/ejhpharm-2023-003871
+78. Hussaarts KGAM et al. Impact of Curcumin (with or without Piperine) on the Pharmacokinetics of Tamoxifen. Cancers (Basel). 2019. PMID:30909366 DOI:10.3390/cancers11030403
+79. Chan WJ et al. Interactions between natural products and cancer treatments: underlying mechanisms and clinical importance. Cancer Chemother Pharmacol. 2023. PMID:36707434 DOI:10.1007/s00280-023-04504-z
+80. Neerati P et al. Evaluation of the effect of curcumin capsules on glyburide therapy in patients with type-2 diabetes mellitus. Phytother Res. 2014. PMID:25044423 DOI:10.1002/ptr.5201
+81. Feghhi F et al. Effects of metformin and curcumin in women with polycystic ovary syndrome: A factorial clinical trial. Phytomedicine. 2024. PMID:39461199 DOI:10.1016/j.phymed.2024.156160
+82. Bano G et al. Effect of piperine on bioavailability and pharmacokinetics of propranolol and theophylline in healthy volunteers. Eur J Clin Pharmacol. 1991. PMID:1815977 DOI:10.1007/BF00314996
+83. Björnsson ES. Common Causes of Drug-Induced Liver Injury in 2025. Turk J Gastroenterol. 2026. PMID:42504634 DOI:10.5152/tjg.2026.26361
+84. Garaizabal Azkue ÍJ et al. Turmeric associated liver injury (DILI) with susceptible HLA. Rev Esp Enferm Dig. 2024. PMID:39297606 DOI:10.17235/reed.2024.10763/2024
+85. Amgain K et al. Antidiabetic and Metabolic Effects of Turmeric (Curcuma Longa) in Patients with Type 2 Diabetes Mellitus or Hyperglycemia - A Systematic Meta-Review and Meta-Analysis. J Nepal Health Res Counc. 2025. PMID:41319069 DOI:10.33314/jnhrc.v23i02.4708
+86. NCCIH. Turmeric (fact sheet). National Center for Complementary and Integrative Health. Accessed 2026-10-13. URL:https://www.nccih.nih.gov/health/turmeric

@@ -3,9 +3,13 @@
   "supplement": "K1",
   "slug": "k1",
   "aliases": [
-    "Phylloquinone",
-    "vitamin K1",
-    "phytonadione"
+    "Vitamin K1",
+    "phylloquinone",
+    "phytonadione",
+    "phytomenadione",
+    "Mephyton",
+    "AquaMephyton",
+    "vitamin K"
   ],
   "category": "vitamin",
   "rx_status": "otc",
@@ -14,12 +18,126 @@
     {
       "with": "warfarin",
       "with_kind": "drug",
-      "kind": "avoid",
+      "kind": "caution",
       "severity": "major",
-      "mechanism": "Vitamin K antagonizes vitamin K antagonist effect, potentially lowering anticoagulation.",
-      "evidence": "Official NIH ODS warning; established pharmacology.",
+      "mechanism": "Phylloquinone bypasses VKOR inhibition and restores carboxylation of factors II, VII, IX, X; antagonizes warfarin and large doses induce temporary resistance.",
+      "evidence": "FDA label; RCTs of 100-200 ug/d low-dose K showed small TTR gain (+3.5%) and fewer INR excursions but no clinical-outcome benefit; uncontrolled starts/stops shift INR.",
       "citations": [
-        "URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/"
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6c992275-b040-42d0-9eff-570dce4272fe",
+        "PMID:23744743",
+        "PMID:27346552",
+        "PMID:24832594",
+        "PMID:17323135",
+        "PMID:26962786"
+      ]
+    },
+    {
+      "with": "vitamin K antagonists (acenocoumarol, phenprocoumon)",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "major",
+      "mechanism": "Same VKOR-antagonism reversal as warfarin; 1 mg oral K1 over-reversed acenocoumarol INR.",
+      "evidence": "RCTs: phenprocoumon + 100 ug/d K improved stability (RR maximal stability 1.8); acenocoumarol reversal RCT showed over-correction (RR 1.83).",
+      "citations": [
+        "PMID:17666020",
+        "PMID:12152676",
+        "PMID:15257939"
+      ]
+    },
+    {
+      "with": "direct oral anticoagulants",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "DOACs inhibit factor Xa/IIa directly, independent of the vitamin K cycle; no vitamin K-mediated interaction expected and K1 does not reverse DOACs.",
+      "evidence": "Mechanistic reviews; DOACs also falsely elevate PT/INR, so INR is not a valid marker on DOACs.",
+      "citations": [
+        "PMID:24861793",
+        "PMID:23023509",
+        "PMID:28476405"
+      ]
+    },
+    {
+      "with": "heparin",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Phytonadione does not counteract heparin's anticoagulant action.",
+      "evidence": "FDA label statement.",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6c992275-b040-42d0-9eff-570dce4272fe"
+      ]
+    },
+    {
+      "with": "cephalosporins (N-methylthiotetrazole side chain, cefazolin)",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "NMTT/methyl-thiadiazole side chains inhibit hepatic vitamin K epoxide reductase; hypoprothrombinemia in patients with low vitamin K status (e.g. TPN), reversible with K1.",
+      "evidence": "Clinical pharmacology study and reviews; label indication for antibacterial-induced hypoprothrombinemia.",
+      "citations": [
+        "PMID:3350995",
+        "PMID:3306622",
+        "PMID:2276882",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6c992275-b040-42d0-9eff-570dce4272fe"
+      ]
+    },
+    {
+      "with": "orlistat",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Lipase inhibition reduces fat-soluble vitamin absorption, including vitamin K; may alter warfarin response.",
+      "evidence": "Small open-label study (non-significant fall in vitamin K) and a case report of raised INR on warfarin.",
+      "citations": [
+        "PMID:12126214",
+        "PMID:12659605"
+      ]
+    },
+    {
+      "with": "bile acid sequestrants",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Cholestyramine binds bile acids, reducing absorption of fat-soluble vitamins; vitamin K-deficiency coagulopathy reported.",
+      "evidence": "Case reports, including deficiency refractory to concurrent oral vitamin K.",
+      "citations": [
+        "PMID:12688565",
+        "PMID:40878026"
+      ]
+    },
+    {
+      "with": "mineral oil",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Theoretical reduction of fat-soluble vitamin absorption with prolonged use.",
+      "evidence": "Case-level evidence only; literature support described as weak.",
+      "citations": [
+        "PMID:17041175"
+      ]
+    },
+    {
+      "with": "Aspirin",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "High-dose salicylates can cause hypoprothrombinemia by interfering with vitamin K metabolism; phytonadione is labeled for this.",
+      "evidence": "FDA label indication; no supplement-specific trials.",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6c992275-b040-42d0-9eff-570dce4272fe"
+      ]
+    },
+    {
+      "with": "Vitamin E",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "High-dose alpha-tocopherol antagonizes vitamin K-dependent carboxylation, raising PIVKA-II.",
+      "evidence": "Two 12-wk RCT cohorts (1000 IU/d) showed PIVKA-II increases; IOM describes E-K antagonism as established.",
+      "citations": [
+        "PMID:15213041",
+        "URL:https://nap.nationalacademies.org/read/10026/chapter/7"
       ]
     },
     {
@@ -27,15 +145,242 @@
       "with_kind": "supplement",
       "kind": "monitor",
       "severity": "moderate",
-      "mechanism": "Both are vitamin K forms; combined intake changes total vitamin K exposure relevant to VKA therapy.",
-      "evidence": "NIH ODS emphasizes consistent total vitamin K intake.",
+      "mechanism": "Additive vitamin K activity; MK-7 has long half-life and accumulates 7-8 fold, so combined intake changes VKA response.",
+      "evidence": "Human PK/PD comparison study; >=50 ug/d MK-7 may interfere with oral anticoagulants.",
       "citations": [
-        "URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/"
+        "PMID:17158229"
+      ]
+    },
+    {
+      "with": "K2-MK4",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Phylloquinone is converted to tissue MK-4 (via menadione/UBIAD1); both are catabolized by CYP4F2; additive vitamin K load.",
+      "evidence": "Mechanistic review, human lactation supplementation study, in vitro enzymology.",
+      "citations": [
+        "PMID:24489112",
+        "PMID:12064330",
+        "PMID:24138531"
+      ]
+    },
+    {
+      "with": "Vitamin D-3",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Vitamin D/calcium plus K1 may add modestly to bone mineral effects via osteocalcin carboxylation.",
+      "evidence": "RCTs: benefit only in combined arms (ultradistal radius; femoral neck +1.7%); network MA ranks D+K highest for P1NP/OC.",
+      "citations": [
+        "PMID:17243866",
+        "PMID:14506950",
+        "PMID:40949733"
+      ]
+    },
+    {
+      "with": "fat malabsorption (cholestasis, celiac, IBD, cystic fibrosis)",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Bile-dependent absorption; deficiency and hypoprothrombinemia risk; oral K1 needs bile salts if bile deficient.",
+      "evidence": "FDA label indications; RCT in Crohn's disease corrected %ucOC with 1 mg/d.",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6c992275-b040-42d0-9eff-570dce4272fe",
+        "PMID:25181575",
+        "URL:https://nap.nationalacademies.org/read/10026/chapter/7"
+      ]
+    },
+    {
+      "with": "chronic kidney disease / hemodialysis",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Low vitamin K intake/status and high dp-ucMGP; K1 corrects markers but calcification/outcome benefit unproven.",
+      "evidence": "Small RCTs and MAs: K1 lowers dp-ucMGP more than K2; no mortality effect; mild serum calcium rise.",
+      "citations": [
+        "PMID:22648294",
+        "PMID:38046003",
+        "PMID:37216675",
+        "PMID:42851346"
+      ]
+    },
+    {
+      "with": "hypersensitivity to phytonadione or castor-oil/polysorbate solubilizer",
+      "with_kind": "condition",
+      "kind": "contraindicated",
+      "severity": "major",
+      "mechanism": "Non-IgE anaphylactoid reactions to parenteral (esp. IV/IM) phytonadione, linked to solubilizers; fatal cases.",
+      "evidence": "FDA boxed warning; incidence ~3/10,000 IV doses.",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e8808230-2c44-44c6-8cab-8f29b6b34051",
+        "PMID:12392385",
+        "PMID:28301903",
+        "PMID:24594861"
+      ]
+    },
+    {
+      "with": "neonates (benzyl alcohol-preserved injection)",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Benzyl alcohol preservative can cause fatal gasping syndrome in neonates and infants; use preservative-free phytonadione.",
+      "evidence": "FDA label warning.",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e8808230-2c44-44c6-8cab-8f29b6b34051"
+      ]
+    },
+    {
+      "with": "PIVKA-II",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "K1 intake lowers undercarboxylated prothrombin (PIVKA-II); VKAs and high-dose vitamin E raise it; PIVKA-II also used as an HCC marker.",
+      "evidence": "Lab-medicine review; RCT of vitamin E.",
+      "citations": [
+        "PMID:31862867",
+        "PMID:15213041"
+      ]
+    },
+    {
+      "with": "INR / prothrombin time",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "moderate",
+      "mechanism": "K1 lowers INR in VKA-treated patients; PT/INR is insensitive as a vitamin K status marker.",
+      "evidence": "Label and RCTs of INR reversal; lab-medicine review.",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6c992275-b040-42d0-9eff-570dce4272fe",
+        "PMID:31862867",
+        "PMID:12186515"
+      ]
+    },
+    {
+      "with": "undercarboxylated osteocalcin / dp-ucMGP",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Supplementation suppresses %ucOC and dp-ucMGP, which are status markers, not outcomes.",
+      "evidence": "RCTs: %ucOC lower with 500 ug/d; dp-ucMGP -86% with 10 mg thrice weekly.",
+      "citations": [
+        "PMID:18252784",
+        "PMID:35641194",
+        "PMID:39604863"
+      ]
+    },
+    {
+      "with": "CYP4F2 rs2108622 (V433M)",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Reduced CYP4F2 K1 omega-hydroxylase activity raises hepatic K1; carriers need higher coumarin doses.",
+      "evidence": "In vitro human liver data; MA of 30 studies: +8.3% coumarin dose in T carriers.",
+      "citations": [
+        "PMID:19297519",
+        "PMID:23132553",
+        "PMID:27462768"
+      ]
+    },
+    {
+      "with": "VKORC1 -1639G>A",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Lower VKOR expression increases warfarin sensitivity regardless of vitamin K level; risk alleles modestly associated with low BMD.",
+      "evidence": "Gene-nutrient modeling study; MA of 6 studies (OR 1.16).",
+      "citations": [
+        "PMID:27462768",
+        "PMID:41597466"
       ]
     }
   ],
   "citations": [
-    "URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/",
-    "DOI:10.1302/2046-3758.1312.BJR-2024-0123.R1"
+    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6c992275-b040-42d0-9eff-570dce4272fe",
+    "PMID:23744743",
+    "PMID:27346552",
+    "PMID:24832594",
+    "PMID:17323135",
+    "PMID:26962786",
+    "PMID:17666020",
+    "PMID:12152676",
+    "PMID:15257939",
+    "PMID:24861793",
+    "PMID:23023509",
+    "PMID:28476405",
+    "PMID:3350995",
+    "PMID:3306622",
+    "PMID:2276882",
+    "PMID:12126214",
+    "PMID:12659605",
+    "PMID:12688565",
+    "PMID:40878026",
+    "PMID:17041175",
+    "PMID:15213041",
+    "URL:https://nap.nationalacademies.org/read/10026/chapter/7",
+    "PMID:17158229",
+    "PMID:24489112",
+    "PMID:12064330",
+    "PMID:24138531",
+    "PMID:17243866",
+    "PMID:14506950",
+    "PMID:40949733",
+    "PMID:25181575",
+    "PMID:22648294",
+    "PMID:38046003",
+    "PMID:37216675",
+    "PMID:42851346",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e8808230-2c44-44c6-8cab-8f29b6b34051",
+    "PMID:12392385",
+    "PMID:28301903",
+    "PMID:24594861",
+    "PMID:31862867",
+    "PMID:12186515",
+    "PMID:18252784",
+    "PMID:35641194",
+    "PMID:39604863",
+    "PMID:19297519",
+    "PMID:23132553",
+    "PMID:27462768",
+    "PMID:41597466",
+    "PMID:10356087",
+    "PMID:29749440",
+    "PMID:35748323",
+    "PMID:18922041",
+    "PMID:31076817",
+    "PMID:19818211",
+    "PMID:28445289",
+    "PMID:40947710",
+    "PMID:19386744",
+    "PMID:23719555",
+    "PMID:39680321",
+    "PMID:34637494",
+    "PMID:30514729",
+    "PMID:37252246",
+    "PMID:36704782",
+    "PMID:32359159",
+    "PMID:18697901",
+    "PMID:20881072",
+    "PMID:25782427",
+    "PMID:29523009",
+    "PMID:41599883",
+    "PMID:11034038",
+    "PMID:10597763",
+    "PMID:27109090",
+    "PMID:42440325",
+    "PMID:18625626",
+    "PMID:35667331",
+    "PMID:37338608",
+    "PMID:41425110",
+    "PMID:23953594",
+    "PMID:28771671",
+    "PMID:35190810",
+    "PMID:28407450",
+    "PMID:9801181",
+    "PMID:25828628",
+    "PMID:30618350",
+    "PMID:42485745",
+    "PMID:42268593",
+    "PMID:40258481",
+    "PMID:39657786",
+    "PMID:38125342"
   ]
 }

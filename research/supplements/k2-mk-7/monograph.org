@@ -3,35 +3,211 @@
 :ID: supp-k2-mk-7
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: Menaquinone-7 | MK-7 | vitamin K2
+:ALIASES: Menaquinone-7 | MK-7 | vitamin K2 (MK-7) | menaquinone 7 | MenaQ7 | natto-derived vitamin K2 | all-trans MK-7
 :CATEGORY: vitamin
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
+
 ** Identity & forms
-- MK-7 is a long-chain menaquinone form of vitamin K found in fermented foods and supplements [URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/].
+- Menaquinone-7 is a long-chain vitamin K2 (2-methyl-1,4-naphthoquinone with a 7-isoprenyl side chain). Long-chain menaquinones (MK-n) are bacterial products, while MK-4 is made in tissues from menadione/phylloquinone [URL:https://nap.nationalacademies.org/read/10026/chapter/7] [PMID:18841274].
+- Sources: natto (Bacillus subtilis-fermented soybean) is the richest natural source. Supplements are natto-fermentation-derived or synthetic [PMID:41393956] [PMID:21781006] [PMID:38443482]. Only trans MK-7 is fully active; cis MK-7 showed only slight carboxylative activity in vitro [PMID:35583412].
+- MK-7 vs K1 (phylloquinone): both peak about 4 h after intake, but MK-7 has a very long half-life, giving stable serum levels and 7- to 8-fold accumulation with daily use. It carboxylated osteocalcin more completely than K1 [PMID:17158229]. A 1 mg single-dose PK study confirmed Tmax about 6 h and a very long half-life, with no circadian rhythm [PMID:37132123].
+- MK-7 vs MK-4: 420 ug MK-7 was detectable in serum for up to 48 h, while MK-4 at the same dose was undetectable. 60 ug/day MK-7 for 7 days raised serum MK-7, but MK-4 did not raise MK-4 [PMID:23140417]. K1 and MK-4 are covered in separate monographs.
+- Matrix affects delivery: MK-7 in a yogurt also containing vitamins D3/C, magnesium and n-3 PUFA raised plasma MK-7 more than capsules [PMID:26908424]. Co-ingestion with non-fat fermented milk increased MK-7 AUC [PMID:41765411].
+- Long-chain MKs travel mainly in LDL, and K1 in triglyceride-rich lipoproteins [PMID:18841274]. In dialysis patients, little MK-7 was incorporated into lipoproteins, and uremic HDL carried MK-7 poorly [PMID:34774554].
+- Reference intakes (US IOM 2001, all vitamin K forms): AI 120 ug/day for men and 90 ug/day for women. No UL was set because no adverse effects were reported at higher intakes [URL:https://nap.nationalacademies.org/read/10026/chapter/7]. Some authors argue K2 needs its own intake recommendation (opinion) [PMID:32575901].
+
 ** Mechanisms
-- Vitamin K is a cofactor for gamma-carboxylation of osteocalcin and matrix Gla protein, implicated in bone and vascular biology [URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/].
+- Cofactor for gamma-glutamyl carboxylase (GGCX). It activates vitamin K-dependent proteins: hepatic clotting factors II, VII, IX and X, osteocalcin (bone) and matrix Gla protein (MGP, a vascular calcification inhibitor) [PMID:18841274] [PMID:35583412]. Warfarin blocks VKORC1 recycling of vitamin K [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cdbbc317-35d3-42ba-94f0-c83891358529].
+- Extrahepatic status markers: dp-ucMGP (inactive MGP) and ucOC/ucOC:cOC ratio. MK-7 at about 90-360 ug/day lowers both, while coagulation-factor carboxylation is already near-complete in healthy people [PMID:22289649] [PMID:26875489] [PMID:23062766].
+- Under vitamin K antagonist (VKA) blockade, vitamin K can bypass inhibition in the liver but not in bone or the vessel wall. MK-7 is more effective than K1 at carboxylating both liver and bone Gla proteins [PMID:18841274].
+- In observational data, elevated dp-ucMGP was associated with all-cause mortality (HR 1.84, 1.48-2.28) and CVD mortality (HR 1.96). Dietary menaquinone intake was associated with lower CHD risk (HR 0.70, 0.53-0.93; 2 studies). These associations are not causal [PMID:31119401].
+- Proposed anti-inflammatory, OPG/RANKL and insulin-sensitivity pathways come mainly from preclinical and narrative reviews [PMID:35774605] [PMID:42654291]. In an RCT, MK-7 lowered ucOC by 70% but did not change HOMA-IR [PMID:33664429].
+
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | Certainty | Citations |
-|---------+--------------------+-----------+-------------+-----------+-----------|
-| Principal studied outcome | Systematic review/RCT or official product label | Bone: a 3-year postmenopausal trial reported improved vertebral strength markers, but evidence across K forms is inconsistent. Cardiovascular calcification: no established clinical benefit. | See outcome summary above; no extrapolation to unstudied endpoints | moderate | [URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/] [DOI:10.1302/2046-3758.1312.BJR-2024-0053.R1] |
-| Hard clinical outcomes / prevention | Human outcome evidence sparse or absent in sources reviewed | Not established | No reliable effect estimate | very low | [URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/] [DOI:10.1302/2046-3758.1312.BJR-2024-0053.R1] |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Vitamin K status (dp-ucMGP, ucOC, PIVKA-II) | Many RCTs; MAs | Improves (dose-dependent) | dp-ucMGP -44.7% vs control (MA); -50% at 180 ug/d x3 y; -17/-33/-46% at 360/720/1080 ug thrice weekly | high | [PMID:30514729] [PMID:25694037] [PMID:24285428] [PMID:37252246] |
+| Coronary artery calcification (CAD, non-dialysis) | VitaK-CAC RCT (n=180, 360 ug/d, 2 y) | Possible slowing | CAC median 135->184 AU vs 145->214 AU placebo; P=.02 | low | [PMID:42268593] [PMID:26516910] |
+| Vascular calcification (all vitamin K forms, mixed populations) | MA 14 RCTs (n=1533); JAHA SR of 49 RCTs | Small/inconsistent | CAC MD -17.37 AU (-34.18 to -0.56); SR: vitamin K trials consistently showed no attenuation | low | [PMID:37252246] [PMID:38014685] [PMID:30514729] |
+| Aortic valve calcification | AVADEC RCT (n=365 men; 720 ug MK-7 + 25 ug D3, 2 y) | Null | AVC difference 17 AU (-86 to 53), P=0.64; no effect on CAC | moderate | [PMID:35465686] [PMID:30139903] |
+| Calcification in dialysis/CKD | RenaKvit; Trevasc-HDK; Valkyrie; MAs | Null | Trevasc-HDK CAC RMD 0.85 (0.55-1.31); dialysis MA calcification scores -0.14 (NS); no mortality effect | moderate | [PMID:34476095] [PMID:37705910] [PMID:31704740] [PMID:38046003] [PMID:36704782] |
+| Calcification in type 2 diabetes | RCT 360 ug/d x 6 mo (n=68) | Null (PET signal toward increase) | 18F-NaF TBR +0.25 (-0.02 to 0.51); CT mass NS; T50 unchanged | low | [PMID:31387121] [PMID:33068157] [PMID:37852868] |
+| Arterial stiffness (healthy postmenopausal women) | RCT 180 ug/d x 3 y (n=244); 1-y RCT post hoc | Benefit | cfPWV and stiffness index beta fell; stiffness +9.4% vs +49.1% placebo in post-menopausal women | low | [PMID:25694037] [PMID:40077685] |
+| Arterial stiffness (CKD, dialysis, older vascular patients) | K4Kidneys (n=159); HD RCT (n=96); older vascular RCT | Null overall | No PWV change; benefit only in diabetic HD subgroup (-10.0% vs +3.8%) | moderate | [PMID:32817311] [PMID:37299386] [PMID:26892582] |
+| Arterial stiffness (kidney transplant) | RCT 360 ug/d x 12 wk (n=40); single-arm KING | Possible benefit | PWV -0.06 vs +0.27 m/s (P=.010); T50 unchanged | low | [PMID:36695702] [PMID:28756183] |
+| Lumbar spine BMD (postmenopausal) | MAs of mixed K2 RCTs (MK-4 and MK-7) | Small benefit | Lumbar BMD WMD +2.17% (1.59-2.76) in 9 RCTs; overall LS benefit P=0.006 in 10 RCTs | low | [PMID:35711002] [PMID:36033779] [PMID:39657786] |
+| BMD, MK-7-specific RCTs | 3-y RCTs at 180 and 375 ug/d | Inconsistent | 180 ug: less LS/femoral neck loss; 375 ug (+Ca/D): no difference at any site | low | [PMID:23525894] [PMID:33030563] [PMID:27625301] [PMID:32060566] |
+| Fractures | MA (all vitamin K); MA of K2 | Uncertain | Clinical fracture OR 0.72 (0.55-0.95), 0.76 (0.58-1.01) in low-RoB trials; K2 RR 0.96 (NS) | very low | [PMID:31076817] [PMID:36033779] [PMID:40947710] |
+| Bone turnover markers | MA 9 RCTs (n=2570) | Improves carboxylation | ucOC WMD -1.54; OC +1.86; CTX -0.09 | moderate | [PMID:41268154] [PMID:39657786] [PMID:40949733] |
+| Glycemia (FPG/HbA1c/HOMA-IR) | MK-7 MA (6 RCTs); vitamin K MAs | Small benefit, heterogeneous | HbA1c SMD -0.32 (I2 86.8%); HOMA-IR WMD -0.24 | low | [PMID:40054729] [PMID:41599883] [PMID:38282652] [PMID:33159574] |
+| Nocturnal leg cramps (age >=65) | 1 RCT 180 ug/d x 8 wk (n=199); retracted and replaced | Benefit | Weekly cramps 0.96 vs 3.63; difference -2.67 (-2.86 to -2.49) | low | [PMID:39466236] [PMID:40314950] |
+| Dialysis-related muscle cramps | Crossover pilot RCT (n=39 analysed) | Benefit | Lower frequency, duration and severity (all P<0.05) | very low | [PMID:35203045] [PMID:39155056] |
+| CVD events/mortality | Cochrane (1 trial); trials underpowered | No evidence | None estimable | very low | [PMID:26389791] [PMID:42851346] [PMID:38046003] |
+| Long COVID symptoms (with D3) | Open-label RCT (n=151) | Possible benefit | LC Index >=12 proportion -7.1% vs +7.2% (P=0.01) | very low | [PMID:39861434] |
+
 ** Dosing in trials
-- Trials commonly used 180 mcg/day MK-7 for 3 years; no optimal dose established [URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/].
+- Status/biomarker trials: 10-360 ug/day in healthy adults [PMID:22289649]. At least 100 ug/day improved osteocalcin carboxylation in Japanese adults [PMID:26875489]. 45 ug/day was used in children [PMID:19450370].
+- Bone: 180 ug/day for 3 y [PMID:23525894], 375 ug/day for 1-3 y with calcium 800 mg and D3 38 ug [PMID:27625301] [PMID:33030563], and 90 ug/day for 1 y [PMID:32060566].
+- Vascular: 180 ug/day (healthy women) [PMID:25694037] [PMID:40077685]; 360 ug/day (CAD, diabetes, dialysis, transplant) [PMID:42268593] [PMID:31387121] [PMID:34476095] [PMID:36695702]; 400 ug/day (CKD 3b-4) [PMID:32817311]; 720 ug/day + 25 ug D3 (AVADEC) [PMID:35465686].
+- Dialysis intermittent dosing: 360-1080 ug thrice weekly (dose-finding) [PMID:24285428]; 360 ug thrice weekly (Trevasc-HDK) [PMID:37705910]; 2000 ug thrice weekly with rivaroxaban (Valkyrie) [PMID:31704740].
+- Glycemia: 360 ug/day for 12 wk [PMID:33159574]. Cramps: 180 ug/day [PMID:39466236]; 360 ug/day in HD [PMID:35203045]. Highest short-term dose: 999 ug/day for up to 14 days in COVID-19 [PMID:38930004].
+- Take with food or a fat-containing matrix (fat-soluble; matrix effects above) [PMID:26908424] [URL:https://nap.nationalacademies.org/read/10026/chapter/7].
+
 ** Safety & adverse effects
-- No established UL; main clinically important risk is antagonism of warfarin/VKAs.
+- No UL exists for vitamin K [URL:https://nap.nationalacademies.org/read/10026/chapter/7]. Toxicology: rat 90-day NOAEL 4500 mg/kg/day (the highest dose tested; fermented MK-7) and no genotoxicity [PMID:38443482]. Synthetic MK-7 NOAEL 10 mg/kg/day (highest tested) [PMID:21781006]. No toxicity at 2000 mg/kg acute or 90-day doses in Wistar rats [PMID:28911451].
+- Coagulation in people not on anticoagulants: 90 ug/day for 30 days did not change PT, APTT or factor II/VII/IX/X activity [PMID:34115006]. 10-360 ug/day did not change thrombin generation [PMID:22289649]. In dialysis, 360 ug/day for 1 y showed no coagulation activation and no excess vascular events [PMID:38128853].
+- Trials report adverse events similar to placebo: vascular MA RR 0.92 [PMID:37252246]; K2 bone MA RR 1.03 [PMID:36033779]. One long-term K2 osteoporosis MA (largely MK-4) found more adverse reactions (RR 1.33, 1.11-1.59) but none serious [PMID:35711002]. Menatetrenone (MK-4) at pharmacologic doses had RR 1.47 for AEs [PMID:30734066]. That is a separate compound.
+- GI intolerance: dropouts in an HD dose-finding study were mainly from GI effects related to the tablets' unpleasant smell [PMID:24285428]. One GI complaint occurred in the HD cramp trial [PMID:35203045].
+- Possible site-specific bone signal in dialysis: 360 ug/day for 2 y accelerated 1/3 distal radius BMD loss (-0.023 g/cm2) while preventing lumbar spine loss [PMID:36460034].
+- PET signal: in T2D, 18F-NaF uptake tended to increase with MK-7 (P=0.06) with no CT change. The meaning is unclear [PMID:31387121].
+
 ** Contraindications
-- Warfarin/VKA; maintain consistent K intake and INR monitoring.
+- Vitamin K antagonists (warfarin, acenocoumarol, phenprocoumon): avoid unless supervised with INR monitoring. As little as 10-20 ug/day MK-7 caused clinically relevant INR lowering in 40-60% of acenocoumarol-treated volunteers. 45 ug/day lowered INR by about 40% [PMID:23530987]. Doses of 50 ug/day or more may interfere in a clinically relevant way [PMID:17158229]. The warfarin label lists increased vitamin K intake as a cause of decreased INR response [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cdbbc317-35d3-42ba-94f0-c83891358529].
+- Trials commonly excluded VKA users and coagulation disorders (e.g., AVADEC) [PMID:30139903].
+- No other absolute contraindication was found in retrieved sources.
+
 ** Interactions
-- No specific genotype evidence located.
-- Structured high-priority interactions are represented in interactions.json; absence of an edge is not proof of no interaction.
+*** Drugs
+- Warfarin/VKAs: antagonism, with MK-7 more potent and longer-acting than K1 (see Contraindications) [PMID:23530987] [PMID:17158229] [PMID:15825811]. Low-MK-7 natto (46 ug MK-7/day) did not change PT-INR in 10 warfarin patients [PMID:34406879].
+- DOACs (rivaroxaban): no vitamin K dependence. In Valkyrie, rivaroxaban plus 2000 ug MK-7 thrice weekly was used in HD patients. Bleeding did not differ significantly between arms, except for fewer major bleeds with rivaroxaban than with VKA [PMID:31704740].
+- Antibiotics: bleeding in antibiotic-treated patients has been attributed to suppressed gut menaquinone synthesis, with confounding [URL:https://nap.nationalacademies.org/read/10026/chapter/7]. The warfarin label flags antibiotics for INR monitoring [URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cdbbc317-35d3-42ba-94f0-c83891358529].
+- Glucose-lowering drugs: small HbA1c/FPG reductions in T2D [PMID:33159574] [PMID:40054729]. Additive effect is minor and not studied as an interaction.
+- Teriparatide (rhPTH 1-34): combination with vitamin K2 (form not specified) improved BMD more than K2 alone [PMID:39197463].
+*** Other supplements
+- Vitamin D-3: frequently co-formulated. A K+D MA found total BMD SMD 0.316 and lower ucOC [PMID:32219282]. AVADEC (K2+D3) was null for valve calcification [PMID:35465686]. Baseline K status did not modify D3 effects [PMID:42453673].
+- K1 and K2-MK4: all forms add to total vitamin K exposure relevant to VKA therapy [PMID:18841274] [PMID:15825811]. In dialysis, K1 lowered dp-ucMGP more than K2 (SMD -1.64 vs -0.56) [PMID:38046003].
+- Vitamin E: 1000 IU/day raised PIVKA-II (poorer hepatic K status) [PMID:15213041]. The IOM notes established vitamin E antagonism of vitamin K action [URL:https://nap.nationalacademies.org/read/10026/chapter/7].
+- Calcium: adding Ca 500 mg + D3 10 ug to 90 ug K2 gave no extra BMD effect [PMID:32060566].
+- EPA/DHA: a multi-nutrient yogurt matrix (including n-3 PUFA) increased MK-7 uptake versus capsules. This is not isolated to fish oil [PMID:26908424].
+*** Conditions
+- CKD/dialysis: functional deficiency is common (dp-ucMGP 4.5-fold higher) [PMID:22169620]. Supplementation improves status but not calcification, stiffness or mortality [PMID:34476095] [PMID:37705910] [PMID:32817311] [PMID:38046003]. Dialysis MA reported a modest calcium rise (0.18) [PMID:38046003].
+- Kidney transplant: prevented PWV progression in a 12-week RCT [PMID:36695702].
+- Fat malabsorption: vitamin K is poorly absorbed in lipid malabsorption syndromes [URL:https://nap.nationalacademies.org/read/10026/chapter/7].
+- Hepatocellular carcinoma surveillance: see Lab-test interference. HCC outcome MA (mostly menatetrenone) is not MK-7 evidence [PMID:41388930].
+*** Lab-test interference
+- PIVKA-II/DCP (HCC tumor marker): vitamin K administration lowers PIVKA-II positivity (28.5% vs 54.5%), and PIVKA-II "should be measured without vitamin K administration" [PMID:1705389] [PMID:1309308]. MK-7 lowers PIVKA-II in T2D, dialysis and COVID-19 [PMID:35365594] [PMID:38128853] [PMID:38930004].
+- INR on VKAs falls with MK-7. This is a true pharmacodynamic effect [PMID:23530987].
+- dp-ucMGP and ucOC fall with supplementation. Interpret them as intake markers, not outcomes [PMID:25694037] [PMID:33030563].
+
 ** Genotype notes
-- No cited pharmacogenomic/nutrigenomic source was identified for a supplement-specific genotype effect; no genotype claim made.
+- VKORC1 rs8050894: in a 40-person T2D RCT, CC carriers had higher ucOC after K2 or K2+D3 than other genotypes, and CG carriers had glycemic responses [PMID:42257367].
+- GGCX polymorphism modified ucOC response to menatetrenone (MK-4, 45 mg/day) in women aged 65 and over. Extrapolation to MK-7 is unverified [PMID:21344298].
+
 ** Latest research
-- 2024-12-11: 2024 pooled RCT review assessed BMD and bone markers, but mixed forms and heterogeneous results limit MK-7-specific conclusions [DOI:10.1302/2046-3758.1312.BJR-2024-0053.R1].
+- [2026-08] VitaK-CAC (JAMA Cardiol): 360 ug/day for 2 y slowed CAC progression in symptomatic CAD (P=.02), especially in noncalcified plaques that calcified. No significant AEs [PMID:42268593].
+- [2026-08] Narrative review of the "heart-brain-bone" axis (omega-3, D3, MK-7) explicitly frames it as a conceptual, unvalidated framework [PMID:42654291].
+- [2026-08] CKJ review: K1 and K2 improve status, but MK-7 has not produced reproducible CT calcification benefits. Neither form reduces MACE or mortality [PMID:42851346].
+- [2026-06] Post hoc analysis of a D3 RCT (n=200): baseline K1/MK-4/MK-7 status did not modify D3 effects on bone or CV markers [PMID:42453673].
+- [2026-06] VKORC1 rs8050894 genotype and ucOC response to K2+/-D3 in T2D (n=40) [PMID:42257367].
+- [2026-04] TAKEOVER RCT (n=71, 240 ug/day x 12 wk): no effect on strength, soreness or inflammation after muscle-damaging exercise. Age-interaction signals were exploratory [PMID:41843412].
+- [2026-04] RCT of MK-producing probiotics (n=20): dp-ucMGP -59.89 pmol/L over 12 wk; serum MK-7 up [PMID:42000184].
+- [2026-01] Glycemia MA (8 RCTs, all K forms): FBG SMD -0.22; HbA1c -1.00%; HOMA-IR -0.63; no insulin effect [PMID:41599883].
+- [2025-11] AVADEC substudy: 720 ug K2 + D3 lowered dp-ucMGP but had no effect on epicardial/pericoronary fat inflammation or systemic markers [PMID:41100911].
+- [2025-11] Bone turnover MA (9 RCTs, n=2570): ucOC -1.54, OC +1.86, CTX -0.09 [PMID:41268154].
+- [2025-11] Natto MA (6 observational/quasi-experimental studies, n=2327): higher serum MK-7, lower ucOC, modestly higher BMD; low or very low certainty for bone [PMID:41393956].
+- [2025-07] JAMA Intern Med retraction-and-replacement notice for the nocturnal leg cramp RCT [PMID:40314950].
+- [2025-03] MK-7 MA (6 RCTs): HbA1c SMD -0.32 and HOMA-IR -0.56 with high heterogeneity [PMID:40054729].
+- [2025-02] Post hoc 1-y RCT (n=165): 180 ug/day attenuated stiffness in post-menopausal women [PMID:40077685].
+- [2025-01] Long COVID open-label RCT (K2 240 ug + D3 2000 IU, n=151): improved LC Index and symptom count [PMID:39861434].
+- [2024-12] Nocturnal leg cramp RCT (n=199): weekly cramps reduced by 2.67 vs placebo [PMID:39466236]. Bone/BMD MA in middle-aged and older adults: LS BMD up (P=0.035), driven by K2 [PMID:39657786].
+
 ** Open questions
-- Which formulations, populations, and durations produce clinically meaningful outcomes rather than biomarker-only changes?
-- Are there long-term benefits or harms beyond the relatively short human trials available?
+- Does the VitaK-CAC CAC signal replicate and translate into fewer events, given null AVADEC, dialysis and diabetes trials? [PMID:42268593] [PMID:35465686] [PMID:42851346]
+- MK-7-specific fracture trials are absent. Bone MAs pool MK-4 (45 mg) with microgram-dose MK-7 [PMID:36033779] [PMID:31076817].
+- Why do K1 and K2 differ in dialysis (K1 lowers dp-ucMGP more), and does impaired lipoprotein transport of MK-7 in uremia explain it? [PMID:38046003] [PMID:34774554]
+- Is the cramp effect robust after the retraction/replacement, and does it extend to neuropathic or dialysis cramps in larger trials? [PMID:40314950] [PMID:35203045]
+- What is the safe MK-7 dose, if any, for stably anticoagulated VKA patients? [PMID:23530987] [PMID:34406879]
+
 ** Sources
-- [URL:https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/] [DOI:10.1302/2046-3758.1312.BJR-2024-0053.R1]
+1. Shearer MJ et al. Metabolism and cell biology of vitamin K. Thromb Haemost. 2008. PMID:18841274
+2. Wen Z et al. Habitual natto intake elevates serum MK-7 levels, enhances osteocalcin carboxylation, and supports bone... Front Nutr. 2025. PMID:41393956 DOI:10.3389/fnut.2025.1713726
+3. Pucaj K et al. Safety and toxicological evaluation of a synthetic vitamin K2, menaquinone-7. Toxicol Mech Methods. 2011. PMID:21781006 DOI:10.3109/15376516.2011.568983
+4. Hwang SB et al. Safety evaluation of vitamin K2 (menaquinone-7) via toxicological tests. Sci Rep. 2024. PMID:38443482 DOI:10.1038/s41598-024-56151-w
+5. Cirilli I et al. Carboxylative efficacy of trans and cis MK7 and comparison with other vitamin K isomers. Biofactors. 2022. PMID:35583412 DOI:10.1002/biof.1844
+6. Schurgers LJ et al. Vitamin K-containing dietary supplements: comparison of synthetic vitamin K1 and natto-derived menaquinone-7. Blood. 2007. PMID:17158229 DOI:10.1182/blood-2006-08-040709
+7. Du F et al. The study of bioavailability and endogenous circadian rhythm of menaquinone-7, a form of vitamin K(2,) in... Br J Nutr. 2023. PMID:37132123 DOI:10.1017/S0007114523001034
+8. Sato T et al. Comparison of menaquinone-4 and menaquinone-7 bioavailability in healthy women. Nutr J. 2012. PMID:23140417 DOI:10.1186/1475-2891-11-93
+9. Knapen MH et al. Steady-state vitamin K2 (menaquinone-7) plasma concentrations after intake of dairy products and soft gel... Eur J Clin Nutr. 2016. PMID:26908424 DOI:10.1038/ejcn.2016.3
+10. Morifuji M et al. Non-Fat Fermented Milk Enhanced the Bioavailability of Fat-Soluble Vitamins in Humans: A Crossover Study. J Nutr Sci Vitaminol (Tokyo). 2026. PMID:41765411 DOI:10.3177/jnsv.72.53
+11. Kaesler N et al. Altered vitamin K biodistribution and metabolism in experimental and human chronic kidney disease. Kidney Int. 2022. PMID:34774554 DOI:10.1016/j.kint.2021.10.029
+12. Akbulut AC et al. Vitamin K2 Needs an RDI Separate from Vitamin K1. Nutrients. 2020. PMID:32575901 DOI:10.3390/nu12061852
+13. Theuwissen E et al. Low-dose menaquinone-7 supplementation improved extra-hepatic vitamin K status, but had no effect on... Br J Nutr. 2012. PMID:22289649 DOI:10.1017/S0007114511007185
+14. Inaba N et al. Low-Dose Daily Intake of Vitamin K(2) (Menaquinone-7) Improves Osteocalcin γ-Carboxylation: A... J Nutr Sci Vitaminol (Tokyo). 2015. PMID:26875489 DOI:10.3177/jnsv.61.471
+15. Dalmeijer GW et al. The effect of menaquinone-7 supplementation on circulating species of matrix Gla protein. Atherosclerosis. 2012. PMID:23062766 DOI:10.1016/j.atherosclerosis.2012.09.019
+16. Chen HG et al. Association of vitamin K with cardiovascular events and all-cause mortality: a systematic review and... Eur J Nutr. 2019. PMID:31119401 DOI:10.1007/s00394-019-01998-3
+17. Jadhav N et al. Molecular Pathways and Roles for Vitamin K2-7 as a Health-Beneficial Nutraceutical: Challenges and... Front Pharmacol. 2022. PMID:35774605 DOI:10.3389/fphar.2022.896920
+18. Fang SC et al. Beyond Bone Health: Exploring the "Heart-Brain-Bone" Axis Modulated by Lipid-Soluble Nutrients (Omega-3... Nutrients. 2026. PMID:42654291 DOI:10.3390/nu18162711
+19. Rønn SH et al. Vitamin K2 (menaquinone-7) increases plasma adiponectin but does not affect insulin sensitivity in... Eur J Clin Nutr. 2021. PMID:33664429 DOI:10.1038/s41430-021-00884-8
+20. Lees JS et al. Vitamin K status, supplementation and vascular disease: a systematic review and meta-analysis. Heart. 2019. PMID:30514729 DOI:10.1136/heartjnl-2018-313955
+21. Knapen MH et al. Menaquinone-7 supplementation improves arterial stiffness in healthy postmenopausal women. A double-blind... Thromb Haemost. 2015. PMID:25694037 DOI:10.1160/TH14-08-0675
+22. Caluwé R et al. Vitamin K2 supplementation in haemodialysis patients: a randomized dose-finding study. Nephrol Dial Transplant. 2014. PMID:24285428 DOI:10.1093/ndt/gft464
+23. Li T et al. Vitamin K supplementation and vascular calcification: a systematic review and meta-analysis of randomized... Front Nutr. 2023. PMID:37252246 DOI:10.3389/fnut.2023.1115069
+24. Vossen LM et al. Two Years of Menaquinone-7 Supplementation and Coronary Artery Calcification: A Randomized Clinical Trial. JAMA Cardiol. 2026. PMID:42268593 DOI:10.1001/jamacardio.2026.1279
+25. Vossen LM et al. Menaquinone-7 Supplementation to Reduce Vascular Calcification in Patients with Coronary Artery Disease... Nutrients. 2015. PMID:26516910 DOI:10.3390/nu7115443
+26. Murali S et al. Interventions to Attenuate Cardiovascular Calcification Progression: A Systematic Review of Randomized... J Am Heart Assoc. 2023. PMID:38014685 DOI:10.1161/JAHA.123.031676
+27. Diederichsen ACP et al. Vitamin K2 and D in Patients With Aortic Valve Calcification: A Randomized Double-Blinded Clinical Trial. Circulation. 2022. PMID:35465686 DOI:10.1161/CIRCULATIONAHA.121.057008
+28. Lindholt JS et al. Effects of menaquinone-7 supplementation in patients with aortic valve calcification: study protocol for a... BMJ Open. 2018. PMID:30139903 DOI:10.1136/bmjopen-2018-022019
+29. Levy-Schousboe K et al. Vitamin K supplementation and arterial calcification in dialysis: results of the double-blind, randomized... Clin Kidney J. 2021. PMID:34476095 DOI:10.1093/ckj/sfab017
+30. Haroon S et al. Randomized Controlled Clinical Trial of the Effect of Treatment with Vitamin K2 on Vascular Calcification... Kidney Int Rep. 2023. PMID:37705910 DOI:10.1016/j.ekir.2023.06.011
+31. De Vriese AS et al. Multicenter Randomized Controlled Trial of Vitamin K Antagonist Replacement by Rivaroxaban with or without... J Am Soc Nephrol. 2020. PMID:31704740 DOI:10.1681/ASN.2019060579
+32. Andrian T et al. Vitamin K supplementation impact in dialysis patients: a systematic review and meta-analysis of randomized... Clin Kidney J. 2023. PMID:38046003 DOI:10.1093/ckj/sfad255
+33. Geng C et al. Effects of vitamin K supplementation on vascular calcification in chronic kidney disease: A systematic... Front Nutr. 2022. PMID:36704782 DOI:10.3389/fnut.2022.1001826
+34. Zwakenberg SR et al. The effect of menaquinone-7 supplementation on vascular calcification in patients with diabetes: a... Am J Clin Nutr. 2019. PMID:31387121 DOI:10.1093/ajcn/nqz147
+35. Bartstra JW et al. Six months vitamin K treatment does not affect systemic arterial calcification or bone mineral density in... Eur J Nutr. 2021. PMID:33068157 DOI:10.1007/s00394-020-02412-z
+36. Meer R et al. The effect of six-month oral vitamin K supplementation on calcification propensity time in individuals... Atherosclerosis. 2024. PMID:37852868 DOI:10.1016/j.atherosclerosis.2023.117307
+37. de Vries F et al. Effects of One-Year Menaquinone-7 Supplementation on Vascular Stiffness and Blood Pressure in... Nutrients. 2025. PMID:40077685 DOI:10.3390/nu17050815
+38. Witham MD et al. Vitamin K Supplementation to Improve Vascular Stiffness in CKD: The K4Kidneys Randomized Controlled Trial. J Am Soc Nephrol. 2020. PMID:32817311 DOI:10.1681/ASN.2020020225
+39. Naiyarakseree N et al. Effect of Menaquinone-7 Supplementation on Arterial Stiffness in Chronic Hemodialysis Patients: A... Nutrients. 2023. PMID:37299386 DOI:10.3390/nu15112422
+40. Fulton RL et al. Effect of Vitamin K on Vascular Health and Physical Function in Older People with Vascular Disease--A... J Nutr Health Aging. 2016. PMID:26892582 DOI:10.1007/s12603-015-0619-4
+41. Eelderink C et al. Effect of vitamin K supplementation on serum calcification propensity and arterial stiffness in vitamin... Am J Transplant. 2023. PMID:36695702 DOI:10.1016/j.ajt.2022.12.015
+42. Mansour AG et al. Vitamin K2 supplementation and arterial stiffness among renal transplant recipients-a single-arm... J Am Soc Hypertens. 2017. PMID:28756183 DOI:10.1016/j.jash.2017.07.001
+43. Zhou M et al. Efficacy and safety of vitamin K2 for postmenopausal women with osteoporosis at a long-term follow-up... J Bone Miner Metab. 2022. PMID:35711002 DOI:10.1007/s00774-022-01342-6
+44. Ma ML et al. Efficacy of vitamin K2 in the prevention and treatment of postmenopausal osteoporosis: A systematic review... Front Public Health. 2022. PMID:36033779 DOI:10.3389/fpubh.2022.979649
+45. Xie C et al. Effects of vitamin K supplementation on bone mineral density at different sites and bone metabolism in the... Bone Joint Res. 2024. PMID:39657786 DOI:10.1302/2046-3758.1312.BJR-2024-0053.R1
+46. Knapen MH et al. Three-year low-dose menaquinone-7 supplementation helps decrease bone loss in healthy postmenopausal women. Osteoporos Int. 2013. PMID:23525894 DOI:10.1007/s00198-013-2325-6
+47. Rønn SH et al. The effect of vitamin MK-7 on bone mineral density and microarchitecture in postmenopausal women with... Osteoporos Int. 2021. PMID:33030563 DOI:10.1007/s00198-020-05638-z
+48. Rønn SH et al. Vitamin K2 (menaquinone-7) prevents age-related deterioration of trabecular bone microarchitecture at the... Eur J Endocrinol. 2016. PMID:27625301 DOI:10.1530/EJE-16-0498
+49. Zhang Y et al. Effect of Low-Dose Vitamin K2 Supplementation on Bone Mineral Density in Middle-Aged and Elderly Chinese... Calcif Tissue Int. 2020. PMID:32060566 DOI:10.1007/s00223-020-00669-4
+50. Mott A et al. Effect of vitamin K on bone mineral density and fractures in adults: an updated systematic review and... Osteoporos Int. 2019. PMID:31076817 DOI:10.1007/s00198-019-04949-0
+51. Haghighat MML et al. Dietary Vitamin K Intake and Fracture Risk: A Systematic Review and Dose-Response Meta-Analysis on the... Curr Rheumatol Rev. 2026. PMID:40947710 DOI:10.2174/0115733971393704250828112958
+52. Zhang Z et al. The effect of vitamin K2 supplementation on bone turnover biochemical markers in postmenopausal... Front Endocrinol (Lausanne). 2025. PMID:41268154 DOI:10.3389/fendo.2025.1703116
+53. Wei Y et al. Effects of dietary supplements on bone turnover markers in women after menopause: a network meta-analysis. PeerJ. 2025. PMID:40949733 DOI:10.7717/peerj.19882
+54. Nikpayam O et al. Effect of Menaquinone-7 (MK-7) Supplementation on Anthropometric Measurements, Glycemic Indices, and Lipid... Prostaglandins Other Lipid Mediat. 2025. PMID:40054729 DOI:10.1016/j.prostaglandins.2025.106970
+55. Ahmed SR et al. The Differential Effects of Vitamin K Across Glycaemic Outcomes in Prediabetes and Type 2 Diabetes Mellitus. Nutrients. 2026. PMID:41599883 DOI:10.3390/nu18020269
+56. Zhao QY et al. The effect of vitamin K supplementation on cardiovascular risk factors: a systematic review and meta-analysis. J Nutr Sci. 2024. PMID:38282652 DOI:10.1017/jns.2023.106
+57. Rahimi Sakak F et al. Glycemic control improvement in individuals with type 2 diabetes with vitamin K(2) supplementation: a... Eur J Nutr. 2021. PMID:33159574 DOI:10.1007/s00394-020-02419-6
+58. Tan J et al. Vitamin K2 in Managing Nocturnal Leg Cramps: A Randomized Clinical Trial. JAMA Intern Med. 2024. PMID:39466236 DOI:10.1001/jamainternmed.2024.5726
+59. Tan J et al. Notice of Retraction and Replacement. Tan and Zhu. Vitamin K2 in Managing Nocturnal Leg Cramps: A... JAMA Intern Med. 2025. PMID:40314950 DOI:10.1001/jamainternmed.2025.2160
+60. Xu D et al. Vitamin K2 as a potential therapeutic candidate for the prevention of muscle cramps in hemodialysis... Nutrition. 2022. PMID:35203045 DOI:10.1016/j.nut.2022.111608
+61. Mantilla-Manosalva N et al. Pharmacological Treatment for Dialysis-Related Muscle Cramps: A Systematic Review. Semin Dial. 2024. PMID:39155056 DOI:10.1111/sdi.13223
+62. Hartley L et al. Vitamin K for the primary prevention of cardiovascular disease. Cochrane Database Syst Rev. 2015. PMID:26389791 DOI:10.1002/14651858.CD011148.pub2
+63. Brandenburg V et al. Vitamin K and vascular calcification: from biological plausibility to clinical realism. Clin Kidney J. 2026. PMID:42851346 DOI:10.1093/ckj/sfag249
+64. Atieh O et al. Vitamins K2 and D3 Improve Long COVID, Fungal Translocation, and Inflammation: Randomized Controlled Trial. Nutrients. 2025. PMID:39861434 DOI:10.3390/nu17020304
+65. van Summeren MJ et al. The effect of menaquinone-7 (vitamin K2) supplementation on osteocalcin carboxylation in healthy... Br J Nutr. 2009. PMID:19450370 DOI:10.1017/S0007114509382100
+66. Visser MPJ et al. Vitamin K2 Supplementation in Hospitalised COVID-19 Patients: A Randomised Controlled Trial. J Clin Med. 2024. PMID:38930004 DOI:10.3390/jcm13123476
+67. Ravishankar B et al. Safety assessment of menaquinone-7 for use in human nutrition. J Food Drug Anal. 2015. PMID:28911451 DOI:10.1016/j.jfda.2014.03.001
+68. Ren R et al. Vitamin K2 (Menaquinone-7) supplementation does not affect vitamin K-dependent coagulation factors... Medicine (Baltimore). 2021. PMID:34115006 DOI:10.1097/MD.0000000000026221
+69. Bladbjerg EM et al. No Detectable Coagulation Activation After Vitamin K (MK-7) Supplementation in Patients on Dialysis With... J Ren Nutr. 2024. PMID:38128853 DOI:10.1053/j.jrn.2023.11.007
+70. Su S et al. The efficacy and safety of menatetrenone in the management of osteoporosis: a systematic review and... Osteoporos Int. 2019. PMID:30734066 DOI:10.1007/s00198-019-04853-7
+71. Levy-Schousboe K et al. Vitamin K supplementation and bone mineral density in dialysis: results of the double-blind, randomized... Nephrol Dial Transplant. 2023. PMID:36460034 DOI:10.1093/ndt/gfac315
+72. Theuwissen E et al. Effect of low-dose supplements of menaquinone-7 (vitamin K2 ) on the stability of oral anticoagulant... J Thromb Haemost. 2013. PMID:23530987 DOI:10.1111/jth.12203
+73. Johnson MA. Influence of vitamin K on anticoagulant therapy depends on vitamin K status and the source and chemical... Nutr Rev. 2005. PMID:15825811 DOI:10.1111/j.1753-4887.2005.tb00126.x
+74. Nakajima T et al. First Clinical Trial of a Newly Developed, Low Menaquinone-7, Fermented Soybean Natto in... J Med Food. 2021. PMID:34406879 DOI:10.1089/jmf.2021.0036
+75. Zhang Z et al. Efficacy of Recombinant Human Parathyroid Hormone 1-34 and Vitamin K2 Combination Therapy in... Horm Metab Res. 2025. PMID:39197463 DOI:10.1055/a-2371-1642
+76. Kuang X et al. The combination effect of vitamin K and vitamin D on human bone quality: a meta-analysis of randomized... Food Funct. 2020. PMID:32219282 DOI:10.1039/c9fo03063h
+77. Theiler-Schwetz V et al. Vitamin K status has no influence on the effect of vitamin D supplementation on bone turnover and... Front Nutr. 2026. PMID:42453673 DOI:10.3389/fnut.2026.1857443
+78. Booth SL et al. Effect of vitamin E supplementation on vitamin K status in adults with normal coagulation status. Am J Clin Nutr. 2004. PMID:15213041 DOI:10.1093/ajcn/80.1.143
+79. Westenfeld R et al. Effect of vitamin K2 supplementation on functional vitamin K deficiency in hemodialysis patients: a... Am J Kidney Dis. 2012. PMID:22169620 DOI:10.1053/j.ajkd.2011.10.041
+80. de Moraes FCA et al. Vitamin K2 Supplementation and Clinical Outcomes in Hepatocellular Carcinoma Patients: A Meta-Analysis... Nutr Cancer. 2026. PMID:41388930 DOI:10.1080/01635581.2025.2600102
+81. Sakon M et al. The effects of vitamin K on the generation of des-gamma-carboxy prothrombin (PIVKA-II) in patients with... Am J Gastroenterol. 1991. PMID:1705389
+82. Furukawa M et al. Changes of plasma des-gamma-carboxy prothrombin levels in patients with hepatocellular carcinoma in... Cancer. 1992. PMID:1309308 DOI:10.1002/1097-0142(19920101)69:1<31::aid-cncr2820690108>3.0.co;2-6
+83. Karamzad N et al. The effect of menaquinone-7 supplementation on dp-ucMGP, PIVKAII, inflammatory markers, and body... Nutr Diabetes. 2022. PMID:35365594 DOI:10.1038/s41387-022-00192-5
+84. Salinas-Varela Y et al. Association between the VKORC1 rs8050894 CC genotype and undercarboxylated osteocalcin levels following... J Investig Med. 2026. PMID:42257367 DOI:10.1177/10815589261460882
+85. Songpatanasilp T et al. Effect of GGCX gene polymorphism on the responses of serum undercarboxylated osteocalcin and bone turnover... J Bone Miner Metab. 2011. PMID:21344298 DOI:10.1007/s00774-011-0263-y
+86. Lithgow H et al. The Effects of Vitamin K2 on Recovery from Muscle-Damaging Resistance Exercise in Young and Older Adults... Med Sci Sports Exerc. 2026. PMID:41843412 DOI:10.1249/MSS.0000000000003901
+87. Muilwijk M et al. A double-blind randomised controlled trial assessing the effect of menaquinone producing probiotics on... Benef Microbes. 2026. PMID:42000184 DOI:10.1163/18762891-bja00117
+88. Hasific S et al. Effects of vitamin K2 and D3 supplementation on epicardial adipose tissue and systemic inflammation: A... Atherosclerosis. 2025. PMID:41100911 DOI:10.1016/j.atherosclerosis.2025.120540
+89. Institute of Medicine. Dietary Reference Intakes: Vitamin K chapter. National Academies Press. 2001. URL:https://nap.nationalacademies.org/read/10026/chapter/7
+90. Warfarin sodium tablets, US prescribing information (DailyMed). URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cdbbc317-35d3-42ba-94f0-c83891358529

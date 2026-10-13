@@ -14,6 +14,7 @@
 //! totals) are formulas; the store only holds inputs.
 
 pub mod labs;
+pub mod regimens;
 pub mod sheets;
 
 use std::path::Path;
@@ -60,6 +61,7 @@ pub struct Data {
     pub intake: Vec<Record>,
     pub labs: Option<labs::Labs>,
     pub kits: Option<Vec<labs::Kit>>,
+    pub regimens: Option<regimens::Regimens>,
     /// Date stamped in the workbook's "generated" note.
     pub generated_on: Option<NaiveDate>,
 }
@@ -89,6 +91,7 @@ impl Data {
             intake: store::all(db, "intake_log")?,
             labs: None,
             kits: None,
+            regimens: None,
             generated_on: Some(chrono::Utc::now().date_naive()),
         })
     }

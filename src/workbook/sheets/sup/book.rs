@@ -79,7 +79,16 @@ impl SheetModule for Book {
         let (d, f) = (cx.d, cx.f);
         super::register_params(cx)?;
         head(ws, cx, "Position book: every supplement, its cost and its standing", "SUP-01", "KAU Ch24 (quant Q44)")?;
-        ws.write_string_with_format(3, 0, "Inputs come from Data_Supp; every column right of the inputs is a formula. start_date / stop_date are not tracked yet (GATE-DATES).", &f.note)?;
+        let dates = match &d.regimens {
+            Some(r) => format!("taking, start_date and stop_date follow `biomarker regimen ls -p {}` where it has a regimen (Data_Supp.taking_source).", r.person),
+            None => "start_date / stop_date come from biomarker regimens, not available (GATE-DATES).".to_string(),
+        };
+        ws.write_string_with_format(
+            3,
+            0,
+            format!("Inputs come from Data_Supp; every column right of the inputs is a formula. {dates}"),
+            &f.note,
+        )?;
         let rows = n(d);
         table(ws, "tblSupBook", HEAD, 0, HEADERS, rows)?;
         let nev = EVIDENCE.nrows(d);

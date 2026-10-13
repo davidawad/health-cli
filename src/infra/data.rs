@@ -259,10 +259,16 @@ fn supp(d: &Data) -> Vec<Vec<V>> {
     d.supplements
         .iter()
         .map(|r| {
+            // biomarker's regimens own taking and the dates; the store is the fallback.
+            let name = r.s("name").unwrap_or_default();
+            let (bm, reg) = (d.regimen_taking(&name), d.regimen(&name));
+            let day = |v: Option<&String>| {
+                v.and_then(|t| NaiveDate::parse_from_str(t.get(..10).unwrap_or(t), "%Y-%m-%d").ok()).map_or(V::E, V::D)
+            };
             vec![
                 id(r, "id"),
                 s(r, "name"),
-                yn(r, "taking"),
+                bm.map_or_else(|| yn(r, "taking"), |t| V::S(if t { "YES" } else { "NO" }.into())),
                 s(r, "frequency"),
                 s(r, "time_of_day"),
                 s(r, "kind"),
@@ -280,8 +286,9 @@ fn supp(d: &Data) -> Vec<Vec<V>> {
                     .and_then(|v| v.as_array())
                     .map_or(V::E, |a| V::S(a.iter().filter_map(|v| v.as_str()).collect::<Vec<_>>().join(", "))),
                 s(r, "research_url"),
-                V::E, // start_date (GATE-DATES: not tracked yet)
-                V::E, // stop_date
+                day(reg.and_then(|g| g.started_on.as_ref())), // start_date: biomarker regimens only
+                day(reg.and_then(|g| g.stopped_on.as_ref())),
+                V::S(if bm.is_some() { "biomarker" } else { "store" }.into()),
             ]
         })
         .collect()
@@ -572,7 +579,8 @@ def!(
         "sources",
         "research_url",
         "start_date",
-        "stop_date"
+        "stop_date",
+        "taking_source"
     ],
     supp,
     false

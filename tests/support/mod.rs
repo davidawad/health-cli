@@ -492,6 +492,72 @@ impl Env {
         }
     }
 
+    /// Like [`write_stubs`](Self::write_stubs), but `biomarker` also answers the
+    /// biomarker >= 0.7.1 regimen commands with synthetic data: `regimen ls`,
+    /// `regimen add` (id 99) and `interaction grid`. Every call is appended to
+    /// `bin/calls.log`; a call with `-o`/`--output` fails (exit 9).
+    #[cfg(unix)]
+    pub fn write_regimen_stubs(&self) {
+        use std::os::unix::fs::PermissionsExt;
+        self.write_stubs();
+        let dir = self.path("bin");
+        for f in ["regimens.json", "grid.json"] {
+            std::fs::write(dir.join(f), stub_json(f)).unwrap();
+        }
+        let p = |f: &str| dir.join(f).display().to_string();
+        let body = format!(
+            r#"#!/bin/sh
+echo "$*" >> '{log}'
+for a in "$@"; do case "$a" in -o|--output|--output=*) echo "no -o please" >&2; exit 9 ;; esac; done
+case "$1" in
+  query) cat '{q}' ;;
+  marker) cat '{m}' ;;
+  profile) [ "$BIOMARKER_RANGE_SET" = blueprint ] || exit 2; cat '{pr}' ;;
+  regimen) case "$2" in
+      ls) cat '{rg}' ;;
+      add) echo '{{"schema":"biomarker/v1","kind":"regimen","data":{{"id":99}}}}' ;;
+      *) exit 2 ;;
+    esac ;;
+  interaction) [ "$2" = grid ] || exit 2; cat '{gr}' ;;
+  *) echo "unexpected: $*" >&2; exit 2 ;;
+esac
+"#,
+            log = p("calls.log"),
+            q = p("query.json"),
+            m = p("markers.json"),
+            pr = p("profile.json"),
+            rg = p("regimens.json"),
+            gr = p("grid.json"),
+        );
+        let b = dir.join("biomarker");
+        std::fs::write(&b, body).unwrap();
+        std::fs::set_permissions(&b, std::fs::Permissions::from_mode(0o755)).unwrap();
+    }
+
+    /// Calls the regimen-capable `biomarker` stub received, one argument list per line.
+    pub fn biomarker_calls(&self) -> Vec<String> {
+        std::fs::read_to_string(self.path("bin/calls.log")).unwrap_or_default().lines().map(str::to_string).collect()
+    }
+
+    /// A synthetic `research/supplements` tree naming four of the fixture supplements
+    /// (`Epsilon Oil` has no research slug).
+    pub fn write_research(&self) -> PathBuf {
+        let root = self.path("research");
+        for (slug, name, alias) in [
+            ("alphazyme", "Alphazyme", "AZ"),
+            ("betazine", "Betazine", "BTZ"),
+            ("gammavit", "Gammavit", "GV"),
+            ("deltamin", "Deltamin", "DM"),
+        ] {
+            let dir = root.join(slug);
+            std::fs::create_dir_all(&dir).unwrap();
+            let doc = serde_json::json!({"schema": "supplement-interactions/1", "slug": slug, "supplement": name,
+                                         "aliases": [alias], "edges": []});
+            std::fs::write(dir.join("interactions.json"), doc.to_string()).unwrap();
+        }
+        root
+    }
+
     pub fn workbook(&self) -> PathBuf {
         let p = self.path("Health Dashboard.xlsx");
         if !p.exists() {
@@ -582,6 +648,34 @@ fn stub_json(file: &str) -> String {
                 {"marker": "hdl-c", "unit": "mg/dL", "kind": "optimal", "low": 60.0, "high": null, "source": "person"},
             ]})
         }
+        // Alphazyme taken (as in the store), Betazine stopped, Deltamin stopped although
+        // the store says YES, and Omegatin known only to biomarker.
+        "regimens.json" => json!({"schema": "biomarker/v1", "kind": "regimens", "data": [
+            {"id": 1, "person": "synth", "intervention": "alphazyme", "intervention_name": "Alphazyme", "dose": 500.0,
+             "unit": "mg", "frequency": "daily", "time_slot": "morning", "started_on": "2024-01-02", "stopped_on": null,
+             "note": null, "status": "taking", "as_of": "2025-01-01", "days": 365},
+            {"id": 2, "person": "synth", "intervention": "betazine", "intervention_name": "Betazine", "dose": null,
+             "unit": null, "frequency": null, "time_slot": null, "started_on": "2023-01-01", "stopped_on": "2023-06-01",
+             "note": null, "status": "stopped", "as_of": "2025-01-01", "days": 151},
+            {"id": 3, "person": "synth", "intervention": "deltamin", "intervention_name": "Deltamin", "dose": 2.0,
+             "unit": "g", "frequency": "3/wk", "time_slot": null, "started_on": "2022-03-04", "stopped_on": "2024-02-03",
+             "note": null, "status": "stopped", "as_of": "2025-01-01", "days": 701},
+            {"id": 4, "person": "synth", "intervention": "omegatin", "intervention_name": "Omegatin", "dose": 1.0,
+             "unit": "cap", "frequency": "daily", "time_slot": null, "started_on": "2024-06-01", "stopped_on": null,
+             "note": null, "status": "taking", "as_of": "2025-01-01", "days": 214},
+        ]}),
+        "grid.json" => json!({"schema": "biomarker/v1", "kind": "interaction_grid", "data": {
+            "person": "synth", "as_of": "2025-01-01",
+            "rows": ["alphazyme", "omegatin"], "columns": ["alphazyme", "omegatin", "synthfarin"],
+            "cells": [
+                {"row": "alphazyme", "column": "omegatin", "kind": "contraindicated", "severity": "major",
+                 "edges": [{"id": 1, "kind": "contraindicated", "severity": "major"}]},
+                {"row": "alphazyme", "column": "synthfarin", "kind": "caution", "severity": "moderate",
+                 "edges": [{"id": 2, "kind": "caution", "severity": "moderate", "via": "drug-class:anticoagulant"}]},
+            ],
+            "other": [{"intervention": "omegatin", "target_kind": "lab-test", "target": "tsh",
+                       "kind": "lab-interference", "severity": "minor", "id": 3}],
+        }}),
         "kits.json" => json!({"schema": "genome/v1", "kind": "kits", "data": [
             {"id": "k1", "name": "synthetic-kit", "source_format": "23andme", "assay": "array", "build": "GRCh37", "records": 1000}]}),
         _ => json!({"schema": "genome/v1", "kind": "summary", "data": [

@@ -4,7 +4,7 @@
 //! Half-lives are blue inputs: supplement half-lives are not in the library (GG ch88
 //! table lost in conversion; EXT), so SUP-14 ships as NEEDS-SOURCE. The 4-half-life
 //! rule and the 7-14 day induction window are cited Params. `Sup_Cycle` needs
-//! `tblSupp.start_date` (GATE-DATES: placeholder).
+//! `tblSupp.start_date` (biomarker regimens; GATE-DATES placeholder without them).
 
 use rust_xlsxwriter::{Chart, ChartType, Worksheet};
 
@@ -192,7 +192,7 @@ impl SheetModule for Cycle {
             "SUP-15",
             "KAT ch80:247; SR-papers Bacopa",
         )?;
-        theme::awaiting(ws, 3, "tblSupp.start_date / stop_date (GATE-DATES)", f)?;
+        super::dates_banner(ws, cx, 3, "tblSupp.start_date / stop_date (GATE-DATES: biomarker regimens)")?;
         ws.write_string_with_format(HEAD - 1, OC, "Onset / studied windows (tblSupOnset)", &f.section)?;
         let rr = write_rules(ws, cx, CYCLE_TITLE, "tblSupOnset", HEAD, OC, ONSET)?;
         let (kw, val, unit) = (&rr[1], &rr[2], &rr[3]);

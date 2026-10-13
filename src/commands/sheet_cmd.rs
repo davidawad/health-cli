@@ -9,7 +9,7 @@ use crate::context::Ctx;
 use crate::error::{AppError, Result};
 use crate::output::{to_record, Report};
 use crate::paths::expand_tilde;
-use crate::workbook::{self, labs, sheets, Data};
+use crate::workbook::{self, labs, regimens, sheets, Data};
 
 /// Where the workbook goes: `--out`, else the `sheet_out` setting.
 fn target(ctx: &Ctx, a: &SheetArgs) -> PathBuf {
@@ -49,6 +49,18 @@ pub fn run(ctx: &Ctx, a: SheetArgs) -> Result<()> {
             Ok(l) => data.labs = Some(l),
             Err(e) => ctx.warn(&format!("warning: no lab sheets ({})", e.message)),
         }
+        match regimens::fetch(ctx.resolved.get("biomarker_cmd"), person) {
+            Ok(r) => {
+                if r.grid.is_none() {
+                    ctx.warn("warning: no interaction grid from biomarker (`interaction grid` failed)");
+                }
+                data.regimens = Some(r);
+            }
+            Err(e) => ctx.warn(&format!(
+                "warning: supplement taking status from the store, not biomarker regimens (needs biomarker >= 0.7.1: {})",
+                e.message
+            )),
+        }
     }
     let genome = ctx.resolved.get("genome_cmd");
     if !a.no_genetics && !genome.is_empty() {
@@ -77,6 +89,7 @@ pub fn run(ctx: &Ctx, a: SheetArgs) -> Result<()> {
             "sheets": titles,
             "labs": data.labs.is_some(),
             "genetics": data.kits.is_some(),
+            "regimens": data.regimens.is_some(),
         })),
     ))
 }

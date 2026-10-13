@@ -29,5 +29,14 @@ Record fields are the table columns of [`data-model.md`](data-model.md);
 (`taking`, `frequency`, `time_of_day`, `amount`, `amount_text`, `unit`) and
 adds `sources` (comma-joined), `evidence` (count) and `research_url`.
 
+`export regimens` reports `kind: regimen_plan` with meta `person`, `dry_run`,
+`research_slugs`, `add`, `needs_start`, `skip` (and `applied` with `--apply`).
+Each row: `position`, `supplement`, `slug`, `taking` (bool or null), `dose`,
+`unit`, `amount_text`, `frequency`, `time_slot`, `started_on`, `stopped_on`,
+`action` (`add` | `needs-start` | `skip`), `reason`, `argv` (the biomarker
+arguments; empty unless `add`) and, with `--apply`, `result` (`added` |
+`exists`) and `regimen_id`. Apart from `generated_at` the plan is a pure
+function of the store, the research index and the flags.
+
 Exit codes: 0 ok, 1 general, 2 usage, 3 not found, 4 invalid data,
 5 database, 6 io, 7 config, 8 key.

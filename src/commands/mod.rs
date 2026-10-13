@@ -2,6 +2,7 @@
 
 pub mod config_cmd;
 pub mod db_cmd;
+pub mod export_cmd;
 pub mod import_cmd;
 pub mod key_cmd;
 pub mod list;
@@ -22,6 +23,7 @@ pub fn dispatch(ctx: &Ctx, cmd: Command) -> Result<Status> {
         Command::List(a) => list::run(ctx, a).map(|()| 0),
         Command::Stats => list::stats(ctx).map(|()| 0),
         Command::Sheet(a) => sheet_cmd::run(ctx, a).map(|()| 0),
+        Command::Export(c) => export_cmd::run(ctx, c).map(|()| 0),
         Command::Db(c) => db_cmd::run(ctx, c).map(|()| 0),
         Command::Config(c) => config_cmd::run(ctx, c).map(|()| 0),
         Command::Audit(c) => security::audit(ctx, c).map(|()| 0),

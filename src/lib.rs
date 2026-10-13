@@ -25,6 +25,7 @@ pub mod output;
 pub mod paths;
 pub mod perms;
 pub mod prompt;
+pub mod regimens;
 pub mod seal_output;
 pub mod sheet;
 pub mod sshkey;

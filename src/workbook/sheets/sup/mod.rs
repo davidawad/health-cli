@@ -24,6 +24,7 @@ pub mod mech;
 pub mod overlap;
 pub mod papers;
 pub mod pk;
+pub mod regimen;
 pub mod stock;
 pub mod trial;
 pub mod value;
@@ -55,6 +56,7 @@ pub fn modules() -> Vec<Box<dyn SheetModule>> {
         Box::new(overlap::Dri),
         Box::new(audit::Audit),
         Box::new(interact::Interact),
+        Box::new(regimen::Regimen),
         Box::new(labdrug::LabDrug),
         Box::new(pk::Pk),
         Box::new(pk::Cycle),
@@ -115,6 +117,26 @@ pub fn head(ws: &mut Worksheet, cx: &Cx, title: &str, ids: &str, source: &str) -
     ws.write_string_with_format(0, 0, format!("{title}  ({ids})"), &cx.f.title)?;
     ws.write_string_with_format(1, 0, format!("Ideas {ids}. Sources: {source}"), &cx.f.note)?;
     theme::disclaimer(ws, 2, cx.f)?;
+    Ok(())
+}
+
+/// Row `row` of a view that reads `tblSupp.start_date` / `stop_date`: where they come
+/// from (biomarker regimens), or the GATE-DATES placeholder when biomarker gave none.
+pub fn dates_banner(ws: &mut Worksheet, cx: &Cx, row: u32, needed: &str) -> Result<()> {
+    match &cx.d.regimens {
+        Some(r) => ws
+            .write_string_with_format(
+                row,
+                0,
+                format!(
+                    "start_date / stop_date from `biomarker regimen ls -p {}`; supplements without a regimen stay blank.",
+                    r.person
+                ),
+                &cx.f.note,
+            )
+            .map(|_| ())?,
+        None => theme::awaiting(ws, row, needed, cx.f)?,
+    }
     Ok(())
 }
 
@@ -353,6 +375,6 @@ mod tests {
             assert!(m.title().starts_with("Sup_") || m.title().starts_with("Ref_"), "{}", m.title());
             assert!(m.id().starts_with("sup-") || m.id().starts_with("ref-"), "{}", m.id());
         }
-        assert_eq!(modules().iter().filter(|m| m.title().starts_with("Sup_")).count(), 21);
+        assert_eq!(modules().iter().filter(|m| m.title().starts_with("Sup_")).count(), 22);
     }
 }

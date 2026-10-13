@@ -115,8 +115,10 @@ Facts to rely on:
   `critical_*`, `weight`, `cvi`, `cva` are blank until someone fills them from a source.
 * Lab tables and `Calc_*` exist only when `biomarker` answered; without it they are absent, so guard views with
   `SheetModule::available` (`d.labs.is_some()`).
-* `tblSupp.start_date` / `stop_date` exist but are empty (the store does not track them yet): GATE-DATES views degrade to
-  placeholders with `theme::awaiting`.
+* `tblSupp.taking`, `start_date` and `stop_date` follow `biomarker regimen ls` (biomarker >= 0.7.1) where it has a
+  regimen for the supplement (`taking_source` = `biomarker`), else the store's `taking` with empty dates
+  (`taking_source` = `store`). GATE-DATES views use `sup::dates_banner`, a placeholder when `d.regimens` is `None`;
+  the contraindication grid is `d.regimens.grid`.
 
 **Reading a table.** In Rust, get ranges from the table definition so a moved column cannot break you:
 

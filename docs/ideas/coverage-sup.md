@@ -31,6 +31,7 @@ UNVERIFIED with `pending: <reference>`); **BN+PH** part works now, part waits on
 | SUP-20 | BN | BN | `Sup_Forest` | entry table (measure, effect, CI), null value by measure, custom x error bars scatter (forest plot), "absence of signal is not safety" reading | entry |
 | SUP-21 | BN | BN | `Sup_Bubble` | certainty vs $/month, bubble size column (hallmark count else pills/day), "expensive and uncertain" quadrant; scatter chart (rust_xlsxwriter 0.99 has no bubble type) | - |
 | SUP-22 | BN | BN | `Sup_TrialDose` | daily dose vs trial dose (`tblSupTrialDose`: SJW 900 mg, vitamin D 4,000 IU, ashwagandha 120 mg) + override column, ratio, "no trial at this dose" (`Sup_Trial_Tol`) | - |
+| SUP-23 | BN (new) | BN+PH | `Sup_Regimen` | taking vs not per supplement (biomarker `regimen ls` status next to the store's, agree/DIFFERS, start/stop, days, dose), biomarker regimens with no store row, contraindication grid from `biomarker interaction grid -p <person> --catalog` (kind per cell, coloured) and edges outside the grid | biomarker-cli >= 0.7.1 (else store taking and a grid placeholder); start dates (hx-ft3.12) |
 
 Rule tables owned here (shared schema `id, rule, value, unit, source, source_state, note`):
 `Ref_Interact` (22 rows, UNVERIFIED, KAT ch80 / ch46 / DIP ch37 citations), `Ref_GRADE` (14 rows,

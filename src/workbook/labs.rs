@@ -109,7 +109,7 @@ pub struct Kit {
     pub by_chrom: Vec<(String, i64)>,
 }
 
-fn data_of(json: &str, schema_prefix: &str) -> Result<Vec<Value>> {
+pub(crate) fn data_of(json: &str, schema_prefix: &str) -> Result<Vec<Value>> {
     let v: Value = serde_json::from_str(json)
         .map_err(|e| AppError::invalid(format!("{schema_prefix} output is not JSON: {e}")))?;
     let schema = v["schema"].as_str().unwrap_or_default();
@@ -119,7 +119,7 @@ fn data_of(json: &str, schema_prefix: &str) -> Result<Vec<Value>> {
     Ok(v["data"].as_array().cloned().unwrap_or_default())
 }
 
-fn text(v: &Value, k: &str) -> Option<String> {
+pub(crate) fn text(v: &Value, k: &str) -> Option<String> {
     v[k].as_str().map(str::to_string)
 }
 
@@ -213,7 +213,7 @@ pub fn parse_kits(kits_json: &str, summary_json: &str) -> Result<Vec<Kit>> {
 
 /// Run `cmd args...` and return stdout. Personal data flows through the pipe
 /// only; stderr is shown on failure.
-fn run(cmd: &str, args: &[&str]) -> Result<String> {
+pub(crate) fn run(cmd: &str, args: &[&str]) -> Result<String> {
     run_env(cmd, args, &[])
 }
 

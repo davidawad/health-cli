@@ -26,6 +26,7 @@ const SUP_SHEETS: &[&str] = &[
     "Sup_DRI",
     "Sup_Audit",
     "Sup_Interact",
+    "Sup_Regimen",
     "Sup_LabDrug",
     "Sup_PK",
     "Sup_Cycle",
@@ -43,7 +44,7 @@ const SUP_SHEETS: &[&str] = &[
 
 /// Views over empty inputs (PLACEHOLDER) and views with UNVERIFIED constants (NEEDS-SOURCE).
 const PLACEHOLDERS: &[&str] =
-    &["Sup_Unit", "Sup_Churn", "Sup_Mech", "Sup_DropOne", "Sup_Value", "Sup_Overlap", "Sup_Cycle"];
+    &["Sup_Unit", "Sup_Churn", "Sup_Mech", "Sup_DropOne", "Sup_Value", "Sup_Overlap", "Sup_Cycle", "Sup_Regimen"];
 const UNVERIFIED: &[&str] = &["Sup_DRI", "Sup_Interact", "Sup_LabDrug", "Sup_PK"];
 
 fn generate(e: &Env) -> PathBuf {

@@ -98,6 +98,9 @@ pub enum Command {
     Stats,
     /// Generate the Health Dashboard workbook (xlsx) from the store
     Sheet(SheetArgs),
+    /// Hand store data over to a sibling tool (supplement regimens to `biomarker`)
+    #[command(subcommand)]
+    Export(ExportCmd),
     /// Database maintenance: init, backup, rekey, check...
     #[command(subcommand)]
     Db(DbCmd),
@@ -187,6 +190,29 @@ pub struct SheetArgs {
     /// List the registered sheets and exit
     #[arg(long)]
     pub list: bool,
+}
+
+#[derive(Debug, Subcommand)]
+pub enum ExportCmd {
+    /// Plan (or with --apply, run) `biomarker regimen add` for every supplement of the store
+    Regimens(ExportRegimensArgs),
+}
+
+#[derive(Debug, Args)]
+pub struct ExportRegimensArgs {
+    /// biomarker person the regimens belong to (default: the biomarker_person setting)
+    #[arg(short = 'p', long, value_name = "PERSON")]
+    pub person: Option<String>,
+    /// Start date for taken supplements that have none recorded
+    #[arg(long, value_name = "YYYY-MM-DD")]
+    pub start: Option<String>,
+    /// Research directory of `<slug>/interactions.json` to match names against
+    /// (default: the research index compiled into health)
+    #[arg(long, value_name = "DIR")]
+    pub research: Option<PathBuf>,
+    /// Run the plan with the biomarker_cmd executable (default: print it only)
+    #[arg(long)]
+    pub apply: bool,
 }
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq, ValueEnum)]

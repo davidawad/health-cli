@@ -83,6 +83,8 @@ health list <entity> [--category X]    facts supplements doses sources evidence 
                                        vaccine-doses physicals providers sizes resources notes
 health stats
 health sheet --out FILE                generate the workbook
+health export regimens [-p P] [--start DATE] [--research DIR] [--apply]
+                                       supplements -> biomarker regimens (dry run by default)
 health db path|init|info|check|backup|rekey|migrate|vacuum|encrypt
 health key status|add-ssh|add-passphrase|add-file|remove
 health audit log
@@ -97,12 +99,35 @@ output is the `health/v1` envelope ([`docs/json-schema.md`](docs/json-schema.md)
 Exit codes: 0 ok, 1 error, 2 usage, 3 not found, 4 invalid data, 5 database,
 6 io, 7 config, 8 key.
 
+## Supplement regimens live in biomarker-cli
+
+biomarker-cli (>= 0.7.1) owns per-person supplement regimens (taking, dose,
+frequency, time slot, start and stop days) and the interaction grid, next to the
+labs; the 87 `research/supplements/<slug>` documents are its interventions.
+`health export regimens` turns the store's supplement rows into the
+`biomarker regimen add SLUG -p PERSON ...` commands that carry them over:
+
+* Names are matched to research slugs by name, slug or alias (case and punctuation
+  ignored); the research index is compiled in, `--research DIR` reads another tree.
+* Taken rows become `regimen add` with `--dose`/`--unit` (a text amount such as
+  "1/2 pill" goes into `--note`), `--frequency`, `--slot` and `--start`. The store
+  has no start dates yet, so taken rows report `needs-start` until `--start DATE`
+  is given. Rows not taken, with an unknown status or with no slug are `skip`.
+* The default is a dry run: the deterministic plan (`kind: regimen_plan`, one row
+  per supplement with its `action`, `reason` and `argv`) on stdout. `--apply` runs
+  it with `biomarker_cmd`, refuses while any row needs a start date, and skips
+  regimens biomarker already has (same intervention and start day), so a re-run is
+  safe. Neither side writes files: `-o` is refused and never passed to biomarker.
+
 ## The generated workbook
 
 `health sheet [--out FILE]` rebuilds every sheet of the original workbook from the
 store, plus the lab sheets from `biomarker query -p <person> --units us --format json`
 and the Genetics sheet from `genome kits|summary --format json` (both optional: a
-missing tool only drops its sheets, with a warning). The default output is
+missing tool only drops its sheets, with a warning). Supplement taking status and
+start/stop days come from `biomarker regimen ls -p <person>` and the `Sup_Regimen`
+view adds taking-vs-not and `biomarker interaction grid -p <person> --catalog`; with
+an older biomarker the store's `taking` column is used and the grid is a placeholder. The default output is
 `~/desk/Personal/Medical/Health Dashboard (generated).xlsx` (setting `sheet_out`),
 never the original; an existing file is only replaced when its name contains
 `(generated)` (or with `--force`). The file is plaintext by nature, written mode 0600.

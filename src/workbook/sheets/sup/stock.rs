@@ -3,7 +3,7 @@
 //! Unit economics per supplement ($/dose, $/mg actually taken) are built now from
 //! `tblSupp`; the cheapest-source-per-ingredient block reads `tblSuppIngredients`,
 //! which is empty until ingredient amounts are recorded (GATE-FIELDS: placeholder).
-//! The churn ledger needs `tblSupp.start_date` / `stop_date` (GATE-DATES: placeholder).
+//! The churn ledger needs `tblSupp.start_date` / `stop_date` (biomarker regimens; GATE-DATES placeholder without them).
 
 use rust_xlsxwriter::{Chart, ChartType, Worksheet};
 
@@ -176,11 +176,11 @@ impl SheetModule for Churn {
     fn build(&self, ws: &mut Worksheet, cx: &Cx) -> Result<()> {
         let (d, f) = (cx.d, cx.f);
         head(ws, cx, "Churn ledger: cost of starts and stops", "SUP-05", "PAL Ch11 (quant Q56)")?;
-        theme::awaiting(
+        super::dates_banner(
             ws,
+            cx,
             3,
-            "tblSupp.start_date / stop_date (GATE-DATES); stock left at a stop = Sup_Stock_wk weeks",
-            f,
+            "tblSupp.start_date / stop_date (GATE-DATES: biomarker regimens); stock left at a stop = Sup_Stock_wk weeks",
         )?;
         let rows = super::n(d);
         table(ws, "tblSupChurn", HEAD, 0, CHURN_HEADERS, rows)?;

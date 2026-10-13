@@ -50,7 +50,7 @@ Dependency: Wave 0 infra -> Wave 1 (W1-W7 in parallel, each reads only Data_/Cal
 | --- | --- | --- | --- | --- |
 | W1 | Lab tear sheets, stats and experiments | src/lab/ | Lane A (stats): Lab_Tear, Lab_Trend, Lab_Grid, Lab_Z, Lab_Rank, Lab_EWMA, Lab_Rate, Lab_Score, Lab_Gap, Lab_Range, Lab_Drawdown, Lab_Momentum, Lab_RCV, Lab_RTM, Lab_Delta, Lab_Complete, Lab_WalkFwd, Lab_VaR, Lab_Corr, Lab_PCA, Lab_WtAdj, Lab_Season, Lab_Guard. Lane B (experiments): Lab_Event, Lab_Regime, Lab_Confound, Lab_Dose, Lab_N1, Lab_Prereg, Lab_Journal, Lab_Hygiene, Lab_Brier, Lab_Quantile, Lab_Ledger, Lab_Bayes | LAB-01..35 |
 | W2 | Clinical derived indices and flags | src/clinical/ | Cln_Lipids (CLN-01..07), Cln_RiskChecklist, Cln_Glycemia, Cln_Insulin, Cln_AnionGap, Cln_Renal, Cln_Liver, Cln_Iron, Cln_Thyroid, Cln_Uric, Cln_Derived, Cln_MetSyn, Cln_Systems, Cln_NutStatus, Cln_Loops, Cln_FH | CLN-01..25 |
-| W3 | Supplement portfolio, cost, interactions, evidence | src/supplement/ | Sup_Book, Sup_Cost, Sup_Unit, Sup_Churn, Sup_Mech, Sup_DropOne, Sup_Value, Sup_Overlap, Sup_DRI, Sup_Audit, Sup_Interact, Sup_LabDrug, Sup_PK, Sup_Cycle, Sup_Grade, Sup_Papers, Sup_Calc, Sup_Balance, Sup_Forest, Sup_Bubble, Sup_TrialDose, plus rule tables Ref_Interact, Ref_GRADE, Ref_UL | SUP-01..22 |
+| W3 | Supplement portfolio, cost, interactions, evidence | src/supplement/ | Sup_Book, Sup_Cost, Sup_Unit, Sup_Churn, Sup_Mech, Sup_DropOne, Sup_Value, Sup_Overlap, Sup_DRI, Sup_Audit, Sup_Interact, Sup_Regimen, Sup_LabDrug, Sup_PK, Sup_Cycle, Sup_Grade, Sup_Papers, Sup_Calc, Sup_Balance, Sup_Forest, Sup_Bubble, Sup_TrialDose, plus rule tables Ref_Interact, Ref_GRADE, Ref_UL | SUP-01..23 |
 | W4 | Aging clocks, longevity frameworks and fitness | src/age/ | Age_Pheno, Age_Vendor, Age_PhenoWhatIf, Age_Claims, Age_Epi, Age_Hallmarks, Age_SENS, Age_Protocols, Age_Horsemen, Age_DEXA, Age_Decathlon, Age_VO2, Age_Zone2, Age_Z2Tools, Age_Strength, Age_Volume, Age_Sauna, Age_Decade | AGE-01..18 |
 | W5 | Body, nutrition, sleep and wearable signals | src/body/ | Lane A (weight/nutrition): Bod_Weight, Bod_Rate, Bod_Dist, Bod_Signal, Bod_Bands, Bod_Kalman, Bod_Slope, Bod_Cusum, Bod_Patterns, Bod_Revert, Bod_Osc, Bod_Fan, Bod_Glide, Bod_Regime, Bod_Sens, Bod_BMI, Bod_Protein, Bod_TDEE, Bod_LeadLag, Bod_Macro, Bod_Dozen, Bod_Yield, Bod_Glycemic, Bod_Window, Bod_Alcohol. Lane B (sleep/wearable): Bod_Wearable, Bod_Sleep, Bod_Arch, Bod_Caffeine, Bod_SleepHyg | BOD-01..30 |
 | W6 | Genetics cross-cuts | src/gen/ | Gen_CrossCut, Gen_QC, Gen_Exposure, Gen_Scorecard, Gen_APOE, Gen_Lipid, Gen_MTHFR, Gen_PGx, Gen_Caffeine, Gen_Cards, Gen_Todo, Ref_Allele | GEN-01..11 |
@@ -159,6 +159,7 @@ Columns: ID | aliases | summary | inputs | build notes | effort | status | tags 
 | SUP-20 | C7.9 | Effect size + CI forest plot per supplement outcome with "absence of signal is not safety" note | entry | bar chart with custom error bars | M | BN | | CIP bottom line |
 | SUP-21 | C7.13, L-G7 | Cost vs certainty bubble (x certainty/rung, y $/month, bubble pill count or hallmark count): "expensive and uncertain" quadrant | SUP-02, SUP-16 | bubble chart | M | BN | TOP | combines C6.4 + C7.1 |
 | SUP-22 | C7.14 | Dose-in-trial vs dose-taken comparator ("no trial at this dose") | tblSupp, entry trial doses | ratio | M | BN | | KAT ch80:247; SR-papers |
+| SUP-23 | hx-ft3.12 | Taking vs not (biomarker regimens vs store) and the per-person contraindication grid | biomarker `regimen ls`, `interaction grid --catalog` | static from biomarker JSON, store fallback | M | BN | | biomarker-cli docs/interventions.md |
 
 ### W4 Aging clocks, longevity frameworks, fitness (AGE)
 
@@ -283,7 +284,7 @@ Per status (163 master ideas): BN 106, PH 37, NS 20. 25 rows carry GATE-DATES or
 Per workstream (total: BN / PH / NS):
 - W1 Lab tear sheets, stats, experiments: 35 (34 / 0 / 1)
 - W2 Clinical derived indices and flags: 25 (10 / 8 / 7)
-- W3 Supplement portfolio, cost, interactions, evidence: 22 (16 / 3 / 3)
+- W3 Supplement portfolio, cost, interactions, evidence: 23 (17 / 3 / 3)
 - W4 Aging clocks, longevity, fitness: 18 (8 / 9 / 1)
 - W5 Body, nutrition, sleep, wearables: 30 (18 / 12 / 0)
 - W6 Genetics cross-cuts: 11 (2 / 4 / 5)

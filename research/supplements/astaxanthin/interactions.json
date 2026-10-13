@@ -1,0 +1,203 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Astaxanthin",
+  "slug": "astaxanthin",
+  "aliases": [
+    "astaxanthin",
+    "ASX",
+    "AX",
+    "ATX",
+    "Haematococcus pluvialis extract",
+    "Haematococcus astaxanthin",
+    "natural astaxanthin"
+  ],
+  "category": "other",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "low",
+  "edges": [
+    {
+      "with": "warfarin",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Possible potentiation of anticoagulation; in rats astaxanthin lowered vitamin K and vitamin K-dependent factors (II, VII, IX, X) and prolonged PT/aPTT",
+      "evidence": "One human case report (INR 1.4 -> 10.38 with ecchymosis, causality probable) plus animal data; no controlled human study",
+      "citations": [
+        "PMID:31073352",
+        "PMID:32725659"
+      ]
+    },
+    {
+      "with": "anticoagulants",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Theoretical additive anticoagulant effect: suppression of hepatic coagulation-factor transcription and of vitamin K-dependent factors (animal)",
+      "evidence": "Animal/in vitro mechanistic data plus one warfarin case report",
+      "citations": [
+        "PMID:41702374",
+        "PMID:32725659",
+        "PMID:31073352"
+      ]
+    },
+    {
+      "with": "antiplatelet agents",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Astaxanthin inhibited platelet aggregation, adhesion and integrin activation via ROS-PI3K/Akt/mTOR and MAPK/ERK; additive effect theoretical",
+      "evidence": "Animal and human-platelet in vitro data only; no excess bleeding in animal models",
+      "citations": [
+        "PMID:41702374"
+      ]
+    },
+    {
+      "with": "antihypertensives",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Possible additive blood-pressure lowering",
+      "evidence": "Single small RCTs showed lower SBP; meta-analysis showed no significant BP effect; theoretical",
+      "citations": [
+        "PMID:29384321",
+        "PMID:36727984",
+        "PMID:32755613"
+      ]
+    },
+    {
+      "with": "antidiabetic agents",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Possible small additive glucose lowering",
+      "evidence": "MA of carotenoid RCTs: astaxanthin/fucoxanthin FBG -4.36 mg/dL in T2D (very low certainty); fructosamine reduced in one RCT",
+      "citations": [
+        "PMID:39327454",
+        "PMID:29384321"
+      ]
+    },
+    {
+      "with": "orlistat",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Orlistat reduces absorption of beta-carotene and fat-soluble vitamins; astaxanthin is lipophilic and its absorption is fat-dependent, so reduced absorption is expected",
+      "evidence": "Extrapolation from FDA label (beta-carotene) and human PK showing fat dependence; not directly studied",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6240792b-9224-2d10-e053-2a91aa0a2c3e",
+        "PMID:12885395"
+      ]
+    },
+    {
+      "with": "dietary fat",
+      "with_kind": "food",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Lipid co-ingestion/formulation increases oral bioavailability of the lipophilic carotenoid",
+      "evidence": "Human PK: lipid-based formulations 1.7-3.7x bioavailability; micellar form higher, faster Cmax",
+      "citations": [
+        "PMID:12885395",
+        "PMID:38748358"
+      ]
+    },
+    {
+      "with": "Fish Oil (Omega-3)",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Both lower triglycerides and raise HDL-C; possible additive lipid effects",
+      "evidence": "Indirect: separate pooled estimates in one MA of antioxidant lipid supplements; combination not tested",
+      "citations": [
+        "PMID:39064656"
+      ]
+    },
+    {
+      "with": "bleeding disorders",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Possible antiplatelet/anticoagulant effects",
+      "evidence": "Animal data plus one human bleeding case on warfarin",
+      "citations": [
+        "PMID:32725659",
+        "PMID:41702374",
+        "PMID:31073352"
+      ]
+    },
+    {
+      "with": "children under 14",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Supplement (8 mg/day) plus background diet exceeds EFSA ADI of 0.2 mg/kg bw (by 28% at 10-<14 y, up to 524% in infants)",
+      "evidence": "EFSA NDA Panel opinion (regulatory exposure assessment)",
+      "citations": [
+        "PMID:32874213"
+      ]
+    },
+    {
+      "with": "INR / prothrombin time",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "True pharmacodynamic change (not assay artifact) when combined with warfarin; PT/aPTT prolonged in rats",
+      "evidence": "Case report and animal data",
+      "citations": [
+        "PMID:31073352",
+        "PMID:32725659"
+      ]
+    },
+    {
+      "with": "liver function tests",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Small true ALT increase reported (not assay interference)",
+      "evidence": "MA of 5 RCTs: ALT +1.92 U/L; carotenoid MA (2025) found no significant overall change",
+      "citations": [
+        "PMID:38407143",
+        "PMID:41437050"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:12804020",
+    "PMID:12885395",
+    "PMID:19892350",
+    "PMID:24402174",
+    "PMID:26675778",
+    "PMID:29384321",
+    "PMID:31073352",
+    "PMID:31788888",
+    "PMID:32725659",
+    "PMID:32755613",
+    "PMID:32874213",
+    "PMID:33549728",
+    "PMID:33998846",
+    "PMID:34424829",
+    "PMID:34578794",
+    "PMID:35091276",
+    "PMID:35631193",
+    "PMID:36727984",
+    "PMID:36777084",
+    "PMID:37874168",
+    "PMID:38041783",
+    "PMID:38243785",
+    "PMID:38407143",
+    "PMID:38748358",
+    "PMID:39064656",
+    "PMID:39327454",
+    "PMID:39804624",
+    "PMID:40014233",
+    "PMID:40569081",
+    "PMID:40761858",
+    "PMID:41162864",
+    "PMID:41437050",
+    "PMID:41596351",
+    "PMID:41702374",
+    "PMID:41843349",
+    "PMID:42197030",
+    "PMID:42303733",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6240792b-9224-2d10-e053-2a91aa0a2c3e"
+  ]
+}

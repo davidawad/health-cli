@@ -1,0 +1,226 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Calcium Alpha-Ketoglutarate (Ca-AKG)",
+  "slug": "calcium-alpha-ketoglutarate-ca-akg",
+  "aliases": [
+    "Ca-AKG",
+    "CaAKG",
+    "AKG-Ca",
+    "calcium alpha-ketoglutarate",
+    "calcium 2-oxoglutarate",
+    "alpha-ketoglutarate",
+    "AKG",
+    "2-oxoglutarate",
+    "Rejuvant (AKG-based formulation)"
+  ],
+  "category": "longevity",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "very-low",
+  "edges": [
+    {
+      "with": "levothyroxine",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "The calcium in Ca-AKG (about 22% by mass) may bind levothyroxine in the gut and reduce absorption. The label advises separating calcium carbonate and other phosphate binders from levothyroxine by at least 4 hours.",
+      "evidence": "FDA label statement for calcium-containing binders; inferred from calcium content, no Ca-AKG-specific study.",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=008de8fd-150f-4022-8ccb-c8bfa94875c7",
+        "URL:https://pubchem.ncbi.nlm.nih.gov/compound/3018235"
+      ]
+    },
+    {
+      "with": "fluoroquinolones",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Calcium (a multivalent cation) chelates fluoroquinolones and lowers their absorption. Take ciprofloxacin at least 2 h before or 6 h after calcium-containing products.",
+      "evidence": "FDA ciprofloxacin label; class effect inferred for Ca-AKG from calcium content.",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0c355077-7361-41d0-9e82-eb31beaf5daa",
+        "URL:https://pubchem.ncbi.nlm.nih.gov/compound/3018235"
+      ]
+    },
+    {
+      "with": "tetracyclines",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Calcium chelates tetracyclines and impairs their absorption.",
+      "evidence": "FDA doxycycline/tetracycline label; inferred from calcium content.",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00b2aa98-dea2-90c3-e063-6294a90a35d6",
+        "URL:https://pubchem.ncbi.nlm.nih.gov/compound/3018235"
+      ]
+    },
+    {
+      "with": "bisphosphonates",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Calcium supplements interfere with absorption of oral bisphosphonates such as alendronate, so doses should be separated.",
+      "evidence": "FDA alendronate label; inferred from calcium content.",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=09765234-01bc-40f7-b9bb-c167056f3909",
+        "URL:https://pubchem.ncbi.nlm.nih.gov/compound/3018235"
+      ]
+    },
+    {
+      "with": "thiazide diuretics",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Thiazides reduce urinary calcium excretion and may raise serum calcium. Supplemental calcium adds to the risk of hypercalcemia and calcium-alkali syndrome.",
+      "evidence": "FDA hydrochlorothiazide label plus review of calcium-alkali syndrome; no Ca-AKG-specific data.",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00f67e1a-6999-4295-9c9f-fcb1ce9711b8",
+        "PMID:33732556"
+      ]
+    },
+    {
+      "with": "Vitamin D-3",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Vitamin D increases calcium absorption. Long-term vitamin D raised hypercalcemia (RR 1.54) and hypercalciuria (RR 1.64), and calcium plus D3 raised kidney stones in WHI. Ca-AKG adds to the calcium load.",
+      "evidence": "Meta-analysis of RCTs plus a large RCT (WHI) for calcium/vitamin D; no Ca-AKG-specific data.",
+      "citations": [
+        "PMID:27604776",
+        "PMID:16481635"
+      ]
+    },
+    {
+      "with": "Calcium",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Doses add up. Ca-AKG supplies about 0.22 g elemental calcium per gram, and 1 g/day supplemental calcium increased kidney stones in WHI. A contested meta-analysis linked calcium supplements to myocardial infarction (HR 1.31).",
+      "evidence": "Large RCT and patient-level meta-analysis for calcium supplements; calcium share calculated from the formula.",
+      "citations": [
+        "PMID:16481635",
+        "PMID:20671013",
+        "URL:https://pubchem.ncbi.nlm.nih.gov/compound/3018235"
+      ]
+    },
+    {
+      "with": "Ornithine alpha-ketoglutarate",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Overlapping AKG content when combined with other AKG salts (OKG, AAKG). No interaction studies; total AKG dose rises.",
+      "evidence": "Small RCTs of other AKG salts at 10-20 g/day reported good tolerance; combinations not studied.",
+      "citations": [
+        "PMID:10890617",
+        "PMID:16928472"
+      ]
+    },
+    {
+      "with": "hypercalcemia",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Added calcium load can worsen hypercalcemia. Calcium-alkali syndrome (hypercalcemia, metabolic alkalosis, renal impairment) follows high calcium intake.",
+      "evidence": "Review of calcium-alkali syndrome; drug label noting hypercalcemia may signal hidden hyperparathyroidism. Inferred for Ca-AKG.",
+      "citations": [
+        "PMID:33732556",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00f67e1a-6999-4295-9c9f-fcb1ce9711b8"
+      ]
+    },
+    {
+      "with": "kidney stones",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Supplemental calcium, especially with vitamin D, increased incident kidney stones.",
+      "evidence": "Large RCT (WHI, n=36,282); inferred for Ca-AKG from calcium content.",
+      "citations": [
+        "PMID:16481635"
+      ]
+    },
+    {
+      "with": "chronic kidney disease",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "In CKD, calcium-salt supplements raise serum calcium and change calcium-phosphate balance. In dialysis, AKG has been given with calcium carbonate as a phosphate-binding regimen. Use belongs within renal care.",
+      "evidence": "Meta-analysis of calcium keto-acid salts (not Ca-AKG) showing higher serum calcium; uncontrolled dialysis study of AKG.",
+      "citations": [
+        "PMID:39340710",
+        "PMID:8893139"
+      ]
+    },
+    {
+      "with": "atherosclerotic cardiovascular disease",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "In hyperlipidemic mice, AKG worsened plaque inflammation through OXGR1, while another mouse model showed protection after MI. Calcium supplements without vitamin D were linked to MI in a contested meta-analysis.",
+      "evidence": "Conflicting animal data; human signal only for calcium supplements. Very low certainty.",
+      "citations": [
+        "PMID:41931905",
+        "PMID:40817969",
+        "PMID:20671013"
+      ]
+    },
+    {
+      "with": "serum calcium",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Calcium salts can raise measured serum calcium; ketoanalogue calcium salts raised serum calcium in CKD trials. This is a true physiological change, not an assay artifact.",
+      "evidence": "Meta-analysis of a related calcium-salt product; no Ca-AKG lab data.",
+      "citations": [
+        "PMID:39340710"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:10890617",
+    "PMID:16481635",
+    "PMID:16928472",
+    "PMID:17896582",
+    "PMID:18802218",
+    "PMID:19621198",
+    "PMID:1969067",
+    "PMID:20671013",
+    "PMID:21118827",
+    "PMID:24828042",
+    "PMID:27604776",
+    "PMID:29494239",
+    "PMID:31691468",
+    "PMID:32877690",
+    "PMID:33154378",
+    "PMID:33450127",
+    "PMID:33732556",
+    "PMID:34847066",
+    "PMID:34952764",
+    "PMID:36934991",
+    "PMID:37217632",
+    "PMID:38345088",
+    "PMID:39340710",
+    "PMID:39599754",
+    "PMID:40383231",
+    "PMID:40817969",
+    "PMID:40819772",
+    "PMID:41228408",
+    "PMID:41297544",
+    "PMID:41587302",
+    "PMID:41931905",
+    "PMID:42166733",
+    "PMID:42789532",
+    "PMID:8893139",
+    "PMID:9527195",
+    "URL:https://clinicaltrials.gov/study/NCT04723888",
+    "URL:https://clinicaltrials.gov/study/NCT05706389",
+    "URL:https://clinicaltrials.gov/study/NCT07031128",
+    "URL:https://clinicaltrials.gov/study/NCT07114536",
+    "URL:https://clinicaltrials.gov/study/NCT07269704",
+    "URL:https://clinicaltrials.gov/study/NCT07861867",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=008de8fd-150f-4022-8ccb-c8bfa94875c7",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00b2aa98-dea2-90c3-e063-6294a90a35d6",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00f67e1a-6999-4295-9c9f-fcb1ce9711b8",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=09765234-01bc-40f7-b9bb-c167056f3909",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0c355077-7361-41d0-9e82-eb31beaf5daa",
+    "URL:https://pubchem.ncbi.nlm.nih.gov/compound/3018235"
+  ]
+}

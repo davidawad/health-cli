@@ -1,0 +1,234 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Cocoa Flavanols",
+  "slug": "cocoa-flavanols",
+  "aliases": [
+    "cocoa flavanols",
+    "cocoa extract",
+    "cocoa flavan-3-ols",
+    "(-)-epicatechin",
+    "procyanidins",
+    "CocoaVia",
+    "Theobroma cacao extract",
+    "flavanol-rich cocoa"
+  ],
+  "category": "botanical",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "moderate",
+  "edges": [
+    {
+      "with": "monoamine oxidase inhibitors",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Cocoa contains caffeine and theobromine (methylxanthines); MAOI labeling warns that excessive chocolate/caffeine may cause hypertensive reactions.",
+      "evidence": "FDA phenelzine label dietary warning; no trial data for standardized low-caffeine extracts.",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=40483372-448f-4284-976c-8462ef256661",
+        "PMID:35294962"
+      ]
+    },
+    {
+      "with": "phenelzine",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Label warns excessive caffeine and chocolate may cause hypertensive reactions with phenelzine.",
+      "evidence": "FDA label (DailyMed).",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=40483372-448f-4284-976c-8462ef256661"
+      ]
+    },
+    {
+      "with": "stimulants",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Additive methylxanthine load (COSMOS extract ~50 mg theobromine + ~15 mg caffeine/d; cocoa foods more variable).",
+      "evidence": "Composition data from COSMOS and LactMed; acute RCT of cocoa flavanols plus 215 mg caffeine showed no cognitive interaction; no adverse-event interaction data.",
+      "citations": [
+        "PMID:35294962",
+        "PMID:30372004",
+        "PMID:39607519"
+      ]
+    },
+    {
+      "with": "anticoagulants",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Theoretical additive antiplatelet effect of cocoa flavanols/dark chocolate.",
+      "evidence": "Platelet-function changes in some small RCTs and an MA; 12-wk RCT up to 2000 mg/d showed no platelet change; no clinical bleeding reports found. Theoretical.",
+      "citations": [
+        "PMID:32126803",
+        "PMID:12944249",
+        "PMID:26537937"
+      ]
+    },
+    {
+      "with": "antiplatelet agents",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Theoretical additive inhibition of platelet aggregation.",
+      "evidence": "Acute dark chocolate inhibited collagen-induced aggregation (n=30 RCT); MA of RCTs reports platelet-function effects; not confirmed with chronic high-dose extract.",
+      "citations": [
+        "PMID:12944249",
+        "PMID:32126803",
+        "PMID:26537937"
+      ]
+    },
+    {
+      "with": "antihypertensives",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Small additive BP lowering via NO-mediated vasodilation, larger in hypertensive individuals.",
+      "evidence": "Cochrane and 2025 MA of RCTs (moderate certainty), effect ~2-6 mmHg SBP; no interaction case reports.",
+      "citations": [
+        "PMID:28439881",
+        "PMID:40126033"
+      ]
+    },
+    {
+      "with": "antidiabetic agents",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Flavanols may improve insulin sensitivity (HOMA-IR) -- theoretical additive glucose lowering.",
+      "evidence": "MA of 19 RCTs (biomarkers); COSMOS showed no effect on T2D incidence; hypoglycemia not reported.",
+      "citations": [
+        "PMID:27683874",
+        "PMID:37816167"
+      ]
+    },
+    {
+      "with": "Fish Oil (Omega-3)",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "No cognitive synergy; combination associated with relative decline in executive function and small glucose rise in one RCT.",
+      "evidence": "Single 12-month RCT (CANN, n=259) in older adults with memory complaints.",
+      "citations": [
+        "PMID:37315924"
+      ]
+    },
+    {
+      "with": "caffeine sensitivity",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Methylxanthine content (theobromine, caffeine).",
+      "evidence": "COSMOS excluded extreme caffeine sensitivity; composition data.",
+      "citations": [
+        "PMID:35294962",
+        "PMID:30372004"
+      ]
+    },
+    {
+      "with": "pregnancy",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Cocoa food products may carry lead and cadmium (higher in high-%-cocoa products and some cocoa powders); developmental toxicity concern.",
+      "evidence": "FDA retail survey and Consumer Reports testing of foods; no data for standardized extract capsules.",
+      "citations": [
+        "PMID:29310543",
+        "URL:https://www.consumerreports.org/media-room/press-releases/2023/10/consumer-reports-urges-hersheys-to-get-heavy-metals-out-of-chocolate-products"
+      ]
+    },
+    {
+      "with": "young children",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Lead/cadmium in cocoa foods; neurodevelopmental risk.",
+      "evidence": "FDA retail survey; Consumer Reports testing.",
+      "citations": [
+        "PMID:29310543",
+        "URL:https://www.consumerreports.org/media-room/press-releases/2023/10/consumer-reports-urges-hersheys-to-get-heavy-metals-out-of-chocolate-products"
+      ]
+    },
+    {
+      "with": "migraine",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Chocolate is a self-reported trigger for some people; standardized extract associated with fewer self-reported migraines in COSMOS.",
+      "evidence": "Observational MA of trigger prevalence (13.9%, very heterogeneous) vs RCT secondary data (HR 0.85).",
+      "citations": [
+        "PMID:42662243",
+        "PMID:35294962"
+      ]
+    },
+    {
+      "with": "lactation",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Methylxanthines pass into breast milk; extreme intakes may affect infant.",
+      "evidence": "LactMed review.",
+      "citations": [
+        "PMID:30372004"
+      ]
+    },
+    {
+      "with": "hypertension",
+      "with_kind": "condition",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Greater BP reduction when baseline BP is elevated.",
+      "evidence": "Cochrane subgroup (-4 mmHg SBP) and 2025 MA (-5.9 mmHg office SBP); moderate certainty; COSMOS null for incident hypertension overall.",
+      "citations": [
+        "PMID:28439881",
+        "PMID:40126033",
+        "PMID:40832703"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:16418281",
+    "PMID:35294962",
+    "PMID:35288332",
+    "PMID:28439881",
+    "PMID:40614481",
+    "DOI:10.2903/j.efsa.2012.2809",
+    "PMID:25546356",
+    "PMID:40966617",
+    "PMID:38925412",
+    "PMID:32126803",
+    "PMID:12944249",
+    "PMID:26537937",
+    "PMID:30372004",
+    "PMID:40126033",
+    "PMID:38931273",
+    "PMID:40832703",
+    "PMID:31524216",
+    "PMID:40972869",
+    "PMID:40217225",
+    "PMID:41849087",
+    "PMID:40568979",
+    "PMID:36102337",
+    "PMID:38070683",
+    "PMID:37035889",
+    "PMID:37252983",
+    "PMID:22892813",
+    "PMID:39607519",
+    "PMID:40493074",
+    "PMID:27683874",
+    "PMID:37816167",
+    "PMID:41803341",
+    "PMID:42775737",
+    "PMID:40146119",
+    "PMID:41651011",
+    "PMID:39964350",
+    "PMID:32078436",
+    "URL:https://clinicaltrials.gov/study/NCT06808230",
+    "URL:https://clinicaltrials.gov/study/NCT04794530",
+    "PMID:29310543",
+    "URL:https://www.consumerreports.org/media-room/press-releases/2023/10/consumer-reports-urges-hersheys-to-get-heavy-metals-out-of-chocolate-products",
+    "PMID:42662243",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=40483372-448f-4284-976c-8462ef256661",
+    "PMID:37315924"
+  ]
+}

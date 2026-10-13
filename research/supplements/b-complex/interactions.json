@@ -1,0 +1,280 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "B Complex",
+  "slug": "b-complex",
+  "aliases": [
+    "B-complex",
+    "vitamin B complex",
+    "B vitamins",
+    "B-50",
+    "B-100",
+    "multi-B",
+    "stress B formula",
+    "methylated B complex"
+  ],
+  "category": "vitamin",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "moderate",
+  "edges": [
+    {
+      "with": "levodopa",
+      "with_kind": "drug",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Pyridoxine (B6) 10-25 mg accelerates peripheral aromatic amino acid decarboxylation of levodopa, reversing its effect; carbidopa blocks this, so relevant mainly to levodopa without a decarboxylase inhibitor.",
+      "evidence": "FDA carbidopa/levodopa label (clinical pharmacology statement).",
+      "citations": [
+        "URL:https://api.fda.gov/drug/label.json?search=set_id:%22015bc056-ee86-4006-ae7c-689b95e566f4%22"
+      ]
+    },
+    {
+      "with": "methotrexate",
+      "with_kind": "drug",
+      "kind": "synergy",
+      "severity": "moderate",
+      "mechanism": "Folic/folinic acid replenishes folate depleted by low-dose methotrexate, reducing GI and hepatic toxicity.",
+      "evidence": "Systematic review of 6 RCTs (n=624) in RA: GI AEs RR 0.74, transaminase elevation RR 0.23, MTX withdrawal RR 0.39; moderate GRADE.",
+      "citations": [
+        "PMID:24737913"
+      ]
+    },
+    {
+      "with": "phenytoin",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Phenytoin lowers serum folate; folic acid supplementation in folate-deficient patients can lower phenytoin concentrations with possible seizure breakthrough.",
+      "evidence": "Narrative review of human studies and case reports; phenytoin label lists folic acid as decreasing phenytoin levels.",
+      "citations": [
+        "PMID:8520091",
+        "URL:https://api.fda.gov/drug/label.json?search=set_id:%22035a8d4e-2063-4240-83cb-d7eebcabe301%22"
+      ]
+    },
+    {
+      "with": "metformin",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Metformin reduces vitamin B12 absorption; B complex B12 content may partly offset but B12 status should be monitored.",
+      "evidence": "Meta-analysis of 31 studies: B12 deficiency RR 2.09 (1.49-2.93), serum B12 MD -63.7 pmol/L, dose/duration dependent.",
+      "citations": [
+        "PMID:30615306"
+      ]
+    },
+    {
+      "with": "proton pump inhibitors",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Gastric acid suppression may impair food-bound B12 absorption.",
+      "evidence": "Meta-analysis of 25 observational studies: OR 1.42 (1.16-1.73) for B12 deficiency, heterogeneous.",
+      "citations": [
+        "PMID:37060552"
+      ]
+    },
+    {
+      "with": "pernicious anemia",
+      "with_kind": "condition",
+      "kind": "contraindicated",
+      "severity": "major",
+      "mechanism": "Folic acid can correct the megaloblastic anemia of B12 deficiency while neurologic damage progresses (masking), and may exacerbate B12 deficiency.",
+      "evidence": "Folic acid product label contraindication; 2024 review of mostly correlative/clinical-observation evidence.",
+      "citations": [
+        "URL:https://api.fda.gov/drug/label.json?search=set_id:%22025fee85-53a8-4161-a806-44fd95d0ca74%22",
+        "PMID:38987872"
+      ]
+    },
+    {
+      "with": "Vitamin B12",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "High folic acid intake with low B12 status associated with worse cognition and higher homocysteine/MMA; B12 status should be assured when using folic-acid-containing complexes.",
+      "evidence": "Narrative review of correlative and uncontrolled clinical data.",
+      "citations": [
+        "PMID:38987872"
+      ]
+    },
+    {
+      "with": "peripheral neuropathy",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "High-dose vitamin B6 (pyridoxine) causes dose- and duration-dependent sensory axonal neuropathy; many B complexes contain 50-100 mg B6.",
+      "evidence": "EFSA 2023 UL 12 mg/day based on 50 mg/day reference point; systematic review of case data; Dutch pharmacovigilance shows cases even at lower doses.",
+      "citations": [
+        "PMID:37207271",
+        "PMID:37447150",
+        "PMID:39888171"
+      ]
+    },
+    {
+      "with": "TSH immunoassay",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "major",
+      "mechanism": "Biotin in B complexes saturates streptavidin in biotin-streptavidin sandwich assays, giving falsely low TSH; competitive free T4/T3 assays read falsely high, mimicking hyperthyroidism/Graves disease.",
+      "evidence": "Reviews of assay design and FDA-reported cases; 2026 ETA guideline lists biotin as an interferent.",
+      "citations": [
+        "PMID:35953126",
+        "PMID:31473202",
+        "PMID:42466561"
+      ]
+    },
+    {
+      "with": "cardiac troponin immunoassay",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "major",
+      "mechanism": "Biotin causes falsely low troponin in biotin-streptavidin assays, risking missed myocardial infarction.",
+      "evidence": "Spiking study: hs-cTnT negative bias 24% at 50 ug/L to 97-98% at 500-1000 ug/L biotin; reviews.",
+      "citations": [
+        "PMID:30429682",
+        "PMID:31473202",
+        "PMID:41278416"
+      ]
+    },
+    {
+      "with": "hormone immunoassays (reproductive, immunosuppressant drug levels)",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "moderate",
+      "mechanism": "Biotin interference affects any biotin-streptavidin immunoassay, including reproductive hormones and immunosuppressive drug assays.",
+      "evidence": "Clinical chemistry best-practice review; 92 FDA reports since 2016.",
+      "citations": [
+        "PMID:31473202"
+      ]
+    },
+    {
+      "with": "urine color (visual urinalysis)",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Riboflavin is excreted in urine, producing bright yellow coloration; benign.",
+      "evidence": "RCT: oral riboflavin 400 mg significantly intensified urine yellow color.",
+      "citations": [
+        "PMID:30633139"
+      ]
+    },
+    {
+      "with": "Niacin",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Pharmacologic nicotinic acid (especially sustained-release) causes flushing and dose-related hepatotoxicity; adding stand-alone niacin to a B complex raises total dose.",
+      "evidence": "LiverTox monograph; formulation review.",
+      "citations": [
+        "PMID:31643504",
+        "PMID:12240702"
+      ]
+    },
+    {
+      "with": "chronic liver disease",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "High-dose nicotinic acid can cause aminotransferase elevations and acute liver injury.",
+      "evidence": "LiverTox monograph (case-based, well established).",
+      "citations": [
+        "PMID:31643504"
+      ]
+    },
+    {
+      "with": "Fish Oil (Omega-3)",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "In VITACOG, B-vitamin slowing of cognitive decline in MCI occurred only with higher baseline omega-3 (DHA) status.",
+      "evidence": "Post hoc analysis of one RCT (n=266).",
+      "citations": [
+        "PMID:26757190"
+      ]
+    },
+    {
+      "with": "Biotin",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Additional stand-alone biotin on top of a B complex increases serum biotin and immunoassay interference risk.",
+      "evidence": "Reviews of biotin interference.",
+      "citations": [
+        "PMID:35953126",
+        "PMID:31473202"
+      ]
+    },
+    {
+      "with": "MTHFR C677T TT genotype",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "TT carriers show greater homocysteine at low folate and need higher serum folate (~15 ng/mL) to normalize homocysteine with folic acid.",
+      "evidence": "Post hoc analysis of CSPPT RCT (n=16,413).",
+      "citations": [
+        "PMID:29371246",
+        "PMID:25771069"
+      ]
+    },
+    {
+      "with": "chronic kidney disease",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Dialysis patients have high homocysteine; thiamine + folic acid improved cognition in one RCT.",
+      "evidence": "Single multicenter RCT (n=215).",
+      "citations": [
+        "PMID:42059045"
+      ]
+    }
+  ],
+  "citations": [
+    "URL:https://api.fda.gov/drug/label.json?search=set_id:%22015bc056-ee86-4006-ae7c-689b95e566f4%22",
+    "PMID:24737913",
+    "PMID:8520091",
+    "URL:https://api.fda.gov/drug/label.json?search=set_id:%22035a8d4e-2063-4240-83cb-d7eebcabe301%22",
+    "PMID:30615306",
+    "PMID:37060552",
+    "URL:https://api.fda.gov/drug/label.json?search=set_id:%22025fee85-53a8-4161-a806-44fd95d0ca74%22",
+    "PMID:38987872",
+    "PMID:37207271",
+    "PMID:37447150",
+    "PMID:39888171",
+    "PMID:35953126",
+    "PMID:31473202",
+    "PMID:42466561",
+    "PMID:30429682",
+    "PMID:41278416",
+    "PMID:30633139",
+    "PMID:31643504",
+    "PMID:12240702",
+    "PMID:26757190",
+    "PMID:29371246",
+    "PMID:25771069",
+    "PMID:42059045",
+    "PMID:26828517",
+    "PMID:24494987",
+    "PMID:31527485",
+    "PMID:16531613",
+    "PMID:20838622",
+    "PMID:40684250",
+    "PMID:35851507",
+    "PMID:42569537",
+    "PMID:41615824",
+    "PMID:28816346",
+    "PMID:38432716",
+    "PMID:39155933",
+    "PMID:20688574",
+    "PMID:40966571",
+    "PMID:34432056",
+    "PMID:39064642",
+    "PMID:21905094",
+    "PMID:40314175",
+    "PMID:20976769",
+    "PMID:41123035",
+    "PMID:19228852",
+    "PMID:42503003",
+    "PMID:39747809",
+    "PMID:38374343",
+    "PMID:39952338",
+    "PMID:40945966"
+  ]
+}

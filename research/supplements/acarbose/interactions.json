@@ -1,0 +1,336 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Acarbose",
+  "slug": "acarbose",
+  "aliases": [
+    "Precose",
+    "Glucobay",
+    "BAY g 5421",
+    "alpha-glucosidase inhibitor",
+    "AGI"
+  ],
+  "category": "rx",
+  "rx_status": "rx",
+  "evidence_certainty_overall": "high",
+  "edges": [
+    {
+      "with": "insulin",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "major",
+      "mechanism": "Additive glucose lowering; acarbose blocks sucrose hydrolysis so hypoglycemia must be treated with oral glucose (dextrose), not sucrose",
+      "evidence": "FDA label; rare hypoglycemic shock reports",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=067c0adc-7322-489d-9baa-1d061b37be36"
+      ]
+    },
+    {
+      "with": "sulfonylureas",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "major",
+      "mechanism": "Additive glucose lowering raises hypoglycemia risk; treat hypoglycemia with glucose, not sucrose",
+      "evidence": "FDA label; Cochrane SR comparing with SU",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=067c0adc-7322-489d-9baa-1d061b37be36",
+        "PMID:15846673"
+      ]
+    },
+    {
+      "with": "sucrose (table sugar) for hypoglycemia rescue",
+      "with_kind": "food",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Acarbose inhibits sucrose hydrolysis, so sucrose corrects hypoglycemia unreliably; use dextrose/glucose",
+      "evidence": "FDA label statement",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=067c0adc-7322-489d-9baa-1d061b37be36"
+      ]
+    },
+    {
+      "with": "digoxin",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Acarbose may reduce digoxin absorption (label Cmax -26%); dose adjustment may be needed",
+      "evidence": "FDA label; small healthy-volunteer PK studies with conflicting results",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=067c0adc-7322-489d-9baa-1d061b37be36",
+        "PMID:9702852",
+        "PMID:12389338"
+      ]
+    },
+    {
+      "with": "digestive enzyme preparations (amylase, pancreatin)",
+      "with_kind": "drug-class",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Carbohydrate-splitting enzymes counteract alpha-amylase/glucosidase inhibition",
+      "evidence": "FDA label (do not co-administer)",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=067c0adc-7322-489d-9baa-1d061b37be36"
+      ]
+    },
+    {
+      "with": "activated charcoal / intestinal adsorbents",
+      "with_kind": "drug-class",
+      "kind": "avoid",
+      "severity": "minor",
+      "mechanism": "Adsorption may reduce acarbose effect",
+      "evidence": "FDA label (do not co-administer)",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=067c0adc-7322-489d-9baa-1d061b37be36"
+      ]
+    },
+    {
+      "with": "metformin",
+      "with_kind": "drug",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Additive glucose lowering by different mechanisms; metformin Cmax down about 20%, AUC unchanged",
+      "evidence": "FDA label; MARCH RCT (non-inferior as monotherapy); CGM RCT of combination",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=067c0adc-7322-489d-9baa-1d061b37be36",
+        "PMID:24622668",
+        "PMID:40178116"
+      ]
+    },
+    {
+      "with": "corticosteroids",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Hyperglycemic drugs may cause loss of glycemic control",
+      "evidence": "FDA label class statement",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=067c0adc-7322-489d-9baa-1d061b37be36"
+      ]
+    },
+    {
+      "with": "thiazide diuretics",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Hyperglycemic drugs may cause loss of glycemic control; hypoglycemia possible when withdrawn in insulin/SU users",
+      "evidence": "FDA label class statement",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=067c0adc-7322-489d-9baa-1d061b37be36"
+      ]
+    },
+    {
+      "with": "Niacin",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Nicotinic acid can raise glucose and cause loss of glycemic control",
+      "evidence": "FDA label class statement",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=067c0adc-7322-489d-9baa-1d061b37be36"
+      ]
+    },
+    {
+      "with": "orlistat",
+      "with_kind": "drug",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Complementary inhibition of carbohydrate and fat digestion; greater weight loss",
+      "evidence": "Phase 2 RCT n=240 (EMP16)",
+      "citations": [
+        "PMID:40769876"
+      ]
+    },
+    {
+      "with": "rapamycin",
+      "with_kind": "drug",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Combination extended male mouse lifespan more than rapamycin alone",
+      "evidence": "ANIMAL only (NIA ITP mice); no human data",
+      "citations": [
+        "PMID:36179270"
+      ]
+    },
+    {
+      "with": "inflammatory bowel disease",
+      "with_kind": "condition",
+      "kind": "contraindicated",
+      "severity": "major",
+      "mechanism": "Increased colonic undigested carbohydrate and gas can worsen bowel disease",
+      "evidence": "FDA label contraindication",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=067c0adc-7322-489d-9baa-1d061b37be36"
+      ]
+    },
+    {
+      "with": "intestinal obstruction (or predisposition) / colonic ulceration",
+      "with_kind": "condition",
+      "kind": "contraindicated",
+      "severity": "major",
+      "mechanism": "Gas formation may precipitate obstruction; ileus and pneumatosis cystoides intestinalis reported",
+      "evidence": "FDA label contraindication; postmarketing and case reports",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=067c0adc-7322-489d-9baa-1d061b37be36",
+        "PMID:41000298"
+      ]
+    },
+    {
+      "with": "cirrhosis",
+      "with_kind": "condition",
+      "kind": "contraindicated",
+      "severity": "major",
+      "mechanism": "Hepatotoxicity risk; contraindicated",
+      "evidence": "FDA label contraindication; LiverTox; case reports",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=067c0adc-7322-489d-9baa-1d061b37be36",
+        "PMID:31643509",
+        "PMID:16317107"
+      ]
+    },
+    {
+      "with": "diabetic ketoacidosis",
+      "with_kind": "condition",
+      "kind": "contraindicated",
+      "severity": "major",
+      "mechanism": "Not appropriate therapy; contraindicated",
+      "evidence": "FDA label contraindication",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=067c0adc-7322-489d-9baa-1d061b37be36"
+      ]
+    },
+    {
+      "with": "chronic kidney disease",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Plasma acarbose about 5x Cmax and 6x AUC at CrCl <25; not recommended if serum creatinine >2.0 mg/dL",
+      "evidence": "FDA label PK data",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=067c0adc-7322-489d-9baa-1d061b37be36"
+      ]
+    },
+    {
+      "with": "chronic malabsorption / maldigestion disorders",
+      "with_kind": "condition",
+      "kind": "contraindicated",
+      "severity": "major",
+      "mechanism": "Worsened by impaired carbohydrate digestion and gas",
+      "evidence": "FDA label contraindication",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=067c0adc-7322-489d-9baa-1d061b37be36"
+      ]
+    },
+    {
+      "with": "pregnancy",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "No adequate human studies; insulin preferred",
+      "evidence": "FDA label (Category B)",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=067c0adc-7322-489d-9baa-1d061b37be36"
+      ]
+    },
+    {
+      "with": "lactation",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Unknown excretion in human milk; label says not to administer",
+      "evidence": "FDA label",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=067c0adc-7322-489d-9baa-1d061b37be36"
+      ]
+    },
+    {
+      "with": "low body weight (<=60 kg)",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Transaminase elevations more frequent; max 50 mg TID",
+      "evidence": "FDA label postmarketing data",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=067c0adc-7322-489d-9baa-1d061b37be36"
+      ]
+    },
+    {
+      "with": "liver function tests",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Dose-related ALT/AST elevations, rare fulminant hepatitis; check every 3 months in year 1",
+      "evidence": "FDA label; LiverTox; case reports",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=067c0adc-7322-489d-9baa-1d061b37be36",
+        "PMID:31643509",
+        "PMID:16317107",
+        "PMID:9517669"
+      ]
+    },
+    {
+      "with": "1,5-anhydroglucitol (1,5-AG) assay",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "moderate",
+      "mechanism": "1,5-AG unreliable for glycemic monitoring during acarbose therapy",
+      "evidence": "FDA label",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=067c0adc-7322-489d-9baa-1d061b37be36"
+      ]
+    },
+    {
+      "with": "sucrase-isomaltase SI 43G>T",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Variant in drug target linked to 50-68% smaller glucose pharmacodynamic response",
+      "evidence": "Single small human PD study (n=66)",
+      "citations": [
+        "PMID:39805337"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:12086760",
+    "PMID:12389338",
+    "PMID:12876091",
+    "PMID:15846673",
+    "PMID:16317107",
+    "PMID:24245565",
+    "PMID:24622668",
+    "PMID:28917545",
+    "PMID:30113697",
+    "PMID:30592787",
+    "PMID:30688027",
+    "PMID:31195972",
+    "PMID:31643509",
+    "PMID:32582019",
+    "PMID:32641379",
+    "PMID:33006707",
+    "PMID:33421022",
+    "PMID:33658478",
+    "PMID:34095252",
+    "PMID:34893404",
+    "PMID:36179270",
+    "PMID:37990256",
+    "PMID:38170330",
+    "PMID:38966557",
+    "PMID:39271570",
+    "PMID:39290170",
+    "PMID:39805337",
+    "PMID:40178116",
+    "PMID:40319921",
+    "PMID:40395816",
+    "PMID:40719030",
+    "PMID:40769876",
+    "PMID:41000298",
+    "PMID:41542057",
+    "PMID:41810556",
+    "PMID:42094534",
+    "PMID:42120908",
+    "PMID:9517669",
+    "PMID:9702852",
+    "URL:https://clinicaltrials.gov/study/NCT02865499",
+    "URL:https://clinicaltrials.gov/study/NCT02953093",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=067c0adc-7322-489d-9baa-1d061b37be36"
+  ]
+}

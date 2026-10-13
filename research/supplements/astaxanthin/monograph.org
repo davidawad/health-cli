@@ -1,0 +1,165 @@
+* Astaxanthin
+:PROPERTIES:
+:ID: supp-astaxanthin
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: astaxanthin | ASX | AX | ATX | Haematococcus pluvialis extract | Haematococcus astaxanthin | natural astaxanthin | 3,3'-dihydroxy-beta,beta-carotene-4,4'-dione
+:CATEGORY: other
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Xanthophyll carotenoid (3,3'-dihydroxy-beta,beta'-carotene-4,4'-dione) found in the microalgae /Haematococcus pluvialis/ and /Chlorella zofingiensis/, in /Chlorococcum/, and in the yeast /Phaffia rhodozyma/. /H. pluvialis/ accumulates up to 3.8% of its dry weight as astaxanthin [PMID:24402174].
+- /H. pluvialis/ is the non-genetically-modified organism with the greatest capacity to accumulate astaxanthin and is the main source of "natural" astaxanthin. It accumulates the compound when it moves from its green motile stage to its red haematocyst stage [PMID:34424829].
+- Astaxanthin also occurs in marine seafood [PMID:12885395]. Fish and crustaceans are the background dietary source considered by EFSA [PMID:32874213].
+- Synthetic astaxanthin is chemically different from natural (algal) astaxanthin. Safety data for one should not be assumed for the other [PMID:31788888].
+- Commercial dosage forms include tablets, capsules, syrups, oils, softgels, creams, biomass and granulated powders [PMID:24402174].
+- Astaxanthin is highly lipophilic, and its oral bioavailability is low. In healthy men, lipid-based formulations raised bioavailability 1.7-3.7-fold over a reference supplement, and the elimination half-life was about 16 h (15.9 +/- 5.3 h) [PMID:12885395]. In a crossover study of an 8 mg dose, a micellar formulation reached a higher Cmax faster than native astaxanthin (7.21 vs 3.86 ug/mL; Tmax 3.67 vs 8.5 h) [PMID:38748358].
+
+** Mechanisms
+- Antioxidant: a review of in vitro data reports oxygen radical absorbance capacity (ORAC) 100-500 times higher than alpha-tocopherol. These are mechanistic laboratory measurements and do not show clinical benefit [PMID:33549728].
+- Nrf2 activator. The NIA Interventions Testing Program (ITP) chose to test it for this reason [PMID:38041783].
+- Anti-inflammatory: human meta-analyses show modest reductions in CRP and IL-6 in some subgroups (see the evidence table) [PMID:35091276] [PMID:33998846].
+- Adiponectin: in RCTs, astaxanthin raised serum adiponectin, and the rise correlated with HDL-C changes [PMID:19892350] [PMID:29384321].
+- Antithrombotic (animal and in vitro): in rats and mice, and in human platelets and liver cells in vitro, astaxanthin reduced platelet activation through ROS-PI3K/Akt/mTOR and MAPK/ERK pathways. It also reduced hepatic transcription of coagulation factors through ROS-responsive HNF4-alpha [PMID:41702374]. In rats given 10 mg/kg/day for 10 days, it lowered vitamin K levels and vitamin K-dependent factors (II, VII, IX, X) and prolonged PT and aPTT [PMID:32725659].
+
+** Evidence summary by outcome
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Oxidative stress (MDA) | SR/MA, 12 RCTs, n=380 | Benefit | MDA SMD -0.95 (95% CI -1.67 to -0.23); in T2DM SMD -0.64; SOD up and isoprostanes down in overweight (few trials) | low | [PMID:35091276] [PMID:41162864] |
+| Inflammation (CRP, IL-6) | SR/MA of RCTs | Small benefit, inconsistent | Carotenoid MA: astaxanthin CRP WMD -0.30 mg/L (-0.51 to -0.09). Ma 2022: IL-6 -0.70 pg/mL in T2DM; CRP and TNF-alpha not significant. Xia 2020: CRP fell only with >=12 wk or >12 mg/day | low | [PMID:33998846] [PMID:35091276] [PMID:32755613] |
+| Lipids | SR/MAs of RCTs | Small benefit (HDL-C up; TG, TC and LDL-C down in some analyses) | Wan 2024: LDL-C -0.11 mmol/L, HDL-C +0.13, TC -0.22, TG -0.46. Xia 2020: HDL-C +1.47 mg/dL; TC, LDL-C and TG not significant. Leung 2022 (MetS risk, 7 RCTs): LDL-C reduced, TC marginal | low | [PMID:39064656] [PMID:32755613] [PMID:35631193] [PMID:19892350] |
+| Glycemia (FBG, HbA1c, insulin) | SR/MA of carotenoid RCTs; astaxanthin MA | Possible small benefit in T2D; null overall in an earlier MA | Astaxanthin + fucoxanthin in T2D: FBG -4.36 mg/dL (very low certainty). Wan 2024: fasting insulin -2.66 pmol/L. Xia 2020: FBS and HbA1c not significant | very low | [PMID:39327454] [PMID:39064656] [PMID:32755613] [PMID:29384321] |
+| Blood pressure | SR/MA of RCTs | No clear effect | Xia 2020: SBP and DBP not significant. Leung 2022: marginal SBP reduction. Single RCTs: SBP lower in T2DM (8 mg) and in trained men (about 7%) | low | [PMID:32755613] [PMID:35631193] [PMID:29384321] [PMID:36727984] |
+| Skin ageing (moisture, elasticity, wrinkles) | SR/MA (9 RCTs oral); newer broader MA | Mixed | Zhou 2021: moisture SMD 0.53, elasticity SMD 0.77, wrinkle depth not significant (SMD -0.26). Yang 2025: insufficient evidence for carotenoids or astaxanthin in photoaging | low | [PMID:34578794] [PMID:40761858] [PMID:39804624] |
+| Eye strain / visual fatigue | Small RCTs (industry-funded) | Benefit | Children (4 mg, 84 days, n=64): CVS-Q 20% between-group difference; visual fatigue score 27% lower. Adults (9 mg, 6 wk, n=60): protected post-VDT visual acuity only at age >=40 | low | [PMID:40014233] [PMID:36777084] |
+| Exercise recovery / performance | SR/MA, 24 RCTs (2026); MA 11 RCTs (2024) | Recovery markers benefit; performance null | Liu 2026: CK SMD -0.45, LDH SMD -0.93; MDA, IL-6, VO2max, time-trial and power not significant. Liu 2024: performance with training SMD 0.62; fat oxidation SMD 2.56 | low | [PMID:42197030] [PMID:38243785] [PMID:36727984] |
+| Fatigue / cognition | MA of 11 RCTs | Trend or marginal | Cognitive accuracy SMD 0.12 (-0.02 to 0.26); reaction time not significant; only 2 studies on subjective fatigue | very low | [PMID:38243785] |
+| Liver enzymes | MA of astaxanthin RCTs (5 trials, n=196); carotenoid MA | Small ALT rise in astaxanthin MA; no effect on other enzymes | ALT WMD +1.92 U/L (0.16 to 3.68); AST, GGT and ALP not significant. Carotenoids overall: ALT -2.25 IU/L (not significant) | low | [PMID:38407143] [PMID:41437050] |
+| Arterial stiffness in renal transplant recipients | RCT, 12 mg/day for 1 y, n=61 | Null | No difference in PWV, F2-isoprostanes or pentraxin-3 | moderate | [PMID:26675778] |
+| Heart failure (inflammation, oxidative markers) | RCT, 20 mg/day for 8 wk, n=80 | Benefit on biomarkers | TNF-alpha and MCP-1 reduced; TAC and SOD up; MDA and uric acid down; hs-CRP and most lipids unchanged | low | [PMID:42303733] [PMID:41162864] |
+| Rheumatoid arthritis | RCT, 20 mg/day for 8 wk, n=60 | Benefit | DAS-28, HAQ and ESR reduced (persisted after adjustment); CRP and pain not significant after adjustment; IL-6 unchanged | very low | [PMID:40569081] |
+| Lifespan (ANIMAL, UM-HET3 mice) | ITP multi-site studies | Inconsistent | Harrison 2024: median male lifespan +12% (p=0.003), no effect in females. Korstanje 2026: different dose and later start gave no benefit; pooled data showed reduced female lifespan that was not seen after excluding an outlier control site | not applicable to humans (animal) | [PMID:38041783] [PMID:41843349] |
+
+** Dosing in trials
+- Typical trial doses are 4-20 mg/day for 4 weeks to 12 months.
+  - Lipid trial: 6, 12 or 18 mg/day for 12 weeks [PMID:19892350].
+  - Type 2 diabetes: 8 mg/day for 8 weeks [PMID:29384321].
+  - PCOS: 12 mg/day (2 x 6 mg) [PMID:37874168].
+  - Renal transplant recipients: 12 mg/day for 1 year [PMID:26675778].
+  - Heart failure and rheumatoid arthritis: 20 mg/day [PMID:42303733] [PMID:40569081].
+  - Children aged 10-14: 4 mg/day for 84 days [PMID:40014233].
+- In the liver-enzyme meta-analysis, trials used 6-12 mg/day for 4-48 weeks [PMID:38407143].
+- Subgroup analyses suggested larger aerobic-performance effects at >=20 mg/day and with >12 weeks of use [PMID:38243785]. CRP reduction was seen only at >12 mg/day or with >=12 weeks of use [PMID:32755613].
+- A single 40 mg dose was used in a pharmacokinetic study [PMID:12885395].
+- Absorption improves when astaxanthin is taken with fat or lipid formulations [PMID:12885395].
+- Regulatory limits:
+  - EFSA assessed 8 mg/day from food supplements [PMID:32874213].
+  - Approved or recommended doses in different countries range from 2 to 24 mg/day [PMID:31788888].
+
+** Safety & adverse effects
+- A safety review covered 87 human studies of natural astaxanthin, 35 of them at >=12 mg/day. None found safety concerns [PMID:31788888].
+- In an 8-week RCT of 6 mg/day from /H. pluvialis/ extract, there were no clinically relevant differences in a comprehensive metabolic panel, blood count or blood pressure [PMID:12804020].
+- EFSA:
+  - The current ADI is 0.2 mg/kg bw/day, set by the FEEDAP Panel in 2019. It replaced the 2014 ADI of 0.034 mg/kg bw.
+  - With background diet plus 8 mg/day from supplements, intake is safe for adults.
+  - Adolescents aged 14 to <18 reach the ADI.
+  - The ADI is exceeded by 28% in children aged 10 to <14 and by up to 524% in infants aged 4-6 months [PMID:32874213].
+- Brendler and Williamson argue that an EFSA ADI based on a rat study of synthetic astaxanthin should not be applied to natural astaxanthin [PMID:31788888].
+- Liver enzymes: one meta-analysis found a small ALT rise (+1.92 U/L), of uncertain clinical significance [PMID:38407143]. A 2025 GRADE-assessed meta-analysis of carotenoids found no significant overall ALT change [PMID:41437050].
+- Bleeding:
+  - A case report described INR rising from 1.4 to 10.38, with ecchymosis, one day after astaxanthin was added to warfarin. Causality was rated probable [PMID:31073352].
+  - In animals, astaxanthin lowered vitamin K-dependent clotting factors and prolonged PT and aPTT [PMID:32725659].
+  - In animal thrombosis models, it inhibited platelets and coagulation but did not cause excessive bleeding [PMID:41702374].
+- A 2025 meta-analysis found that all oral supplements studied for photoaging (typically for <=24 weeks) were safe [PMID:40761858]. In the pediatric eye-strain RCT, safety variables did not differ from placebo [PMID:40014233].
+
+** Contraindications
+- There are no established absolute contraindications in the cited sources.
+- Caution applies with bleeding disorders and with anticoagulant therapy, based on a single case report and animal coagulation data [PMID:31073352] [PMID:32725659].
+- Children and infants: EFSA found that 8 mg/day plus background diet exceeds the ADI in children under 14 [PMID:32874213].
+- No pregnancy- or lactation-specific safety source was identified in this review.
+
+** Interactions
+*** Drugs
+- Warfarin and other anticoagulants (caution): one probable case of a large INR rise with bleeding [PMID:31073352]. Animal data show inhibition of vitamin K-dependent factors [PMID:32725659] and of coagulation and platelets [PMID:41702374]. The interaction is supported mainly by mechanism and animal data, plus one human case.
+- Antiplatelet agents (theoretical): in animal models astaxanthin inhibited platelet aggregation about as much as aspirin, so additive effects are possible [PMID:41702374].
+- Antihypertensives (theoretical, minor): some RCTs found lower SBP [PMID:29384321] [PMID:36727984], but a meta-analysis found no significant effect on blood pressure [PMID:32755613].
+- Antidiabetic agents (theoretical, minor): small FBG reductions in people with T2D (very low certainty) [PMID:39327454]. Fructosamine fell in one RCT [PMID:29384321].
+- Orlistat (fat-absorption inhibitor): orlistat reduces absorption of beta-carotene and fat-soluble vitamins (FDA label) [URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6240792b-9224-2d10-e053-2a91aa0a2c3e]. Astaxanthin absorption depends on fat [PMID:12885395]. That orlistat lowers astaxanthin absorption is an extrapolation and has not been measured.
+*** Other supplements
+- Fish Oil (Omega-3): in a meta-analysis of antioxidant lipid supplements, both n-3 fatty acids and astaxanthin lowered TG and raised HDL-C [PMID:39064656]. Lipid effects may add up. This is indirect evidence; the combination has not been tested.
+- No cited data were found on other antioxidant stacks (e.g. Vitamin C, CoQ10).
+*** Conditions
+- Bleeding disorders and anticoagulated states: caution [PMID:31073352] [PMID:32725659].
+- Children under 14: intake from supplements plus diet may exceed the EFSA ADI [PMID:32874213].
+*** Lab-test interference
+- No assay interference was found. ALT may rise slightly as a true biological effect rather than an assay artifact (+1.92 U/L in one meta-analysis) [PMID:38407143]. INR should be monitored when astaxanthin is combined with warfarin [PMID:31073352].
+
+** Genotype notes
+No cited pharmacogenomic or nutrigenomic source found.
+
+** Latest research
+- [2026-06] RCT in heart failure (20 mg/day for 8 wk, n=80): TNF-alpha and MCP-1 fell vs placebo; VLDL fell; no change in hs-CRP, other lipids or anthropometrics [PMID:42303733].
+- [2026-05] SR/MA of 24 RCTs: astaxanthin lowered creatine kinase (SMD -0.45) and LDH (SMD -0.93, high heterogeneity). It had no effect on VO2max, time-trial performance, power, MDA or IL-6 [PMID:42197030].
+- [2026-03] ANIMAL (ITP): a second test of astaxanthin at a different dose and later start age did not extend lifespan in UM-HET3 mice. A signal of reduced female lifespan disappeared after excluding an outlier control site [PMID:41843349].
+- [2026-02] ANIMAL and in vitro: astaxanthin inhibited both platelet activation and coagulation-factor transcription and matched aspirin in thrombosis models, without excess bleeding [PMID:41702374].
+- [2026-01] SR of 15 human studies (2020-2025): consistent reductions in inflammatory cytokines and oxidative-stress indices (qualitative synthesis, no pooled estimates) [PMID:41596351].
+- [2025-12] GRADE-assessed dose-response MA of carotenoid RCTs (15 studies, n=757): no significant overall effect on liver enzymes [PMID:41437050].
+- [2025-10] RCT in heart failure (20 mg/day for 8 wk): TAC and SOD rose; MDA and uric acid fell vs placebo [PMID:41162864].
+- [2025-07] MA of 40 photoaging RCTs: insufficient evidence for astaxanthin or carotenoids; oral supplements were safe for <=24 weeks [PMID:40761858].
+- [2025-07] RCT in rheumatoid arthritis (20 mg/day for 8 wk, n=60): DAS-28, HAQ and ESR improved [PMID:40569081].
+- [2025-02] Industry-funded RCT in children (4 mg/day for 84 days, n=64): digital eye strain (CVS-Q) and visual fatigue improved [PMID:40014233].
+- [2025-01] SR of 47 studies on oral photoprotection: carotenoid-based supplements are among those with the strongest evidence, but studies are small and short [PMID:39804624].
+- [2024-09] MA of carotenoid RCTs on glycemia: astaxanthin and fucoxanthin lowered FBG by 4.36 mg/dL in T2D; certainty very low [PMID:39327454].
+- [2024-07] MA of antioxidant lipid supplements: astaxanthin improved LDL-C, HDL-C, TC, TG and fasting insulin [PMID:39064656].
+- [2024-05] PK crossover: a micellar formulation nearly doubled Cmax and shortened Tmax [PMID:38748358].
+- [2024-02] MA of 5 RCTs: small ALT increase (+1.92 U/L); no effect on AST, GGT or ALP [PMID:38407143].
+- [2024-01] MA of 11 RCTs: astaxanthin with training improved physical performance (SMD 0.62); effect on cognition was marginal [PMID:38243785].
+
+** Open questions
+- Is there any effect on hard outcomes (cardiovascular events, diabetes incidence)? The evidence base is surrogate biomarkers from small, short trials, many from a few centers or industry-funded [PMID:40014233] [PMID:36777084].
+- How significant is the warfarin interaction clinically? It rests on one human case report plus animal data, and no human pharmacodynamic study exists [PMID:31073352] [PMID:32725659].
+- Does the ITP male-lifespan signal replicate? It did not at other doses or start ages [PMID:38041783] [PMID:41843349].
+- Should natural and synthetic astaxanthin have separate ADIs? [PMID:31788888] [PMID:32874213]
+- What is the meaning of the small ALT rise? [PMID:38407143]
+
+** Sources
+1. Ambati RR et al. Astaxanthin: sources, extraction, stability, biological activities and its commercial applications--a review. Mar Drugs. 2014. PMID:24402174 DOI:10.3390/md12010128
+2. Mota GCP et al. Astaxanthin from Haematococcus pluvialis: processes, applications, and market. Prep Biochem Biotechnol. 2022. PMID:34424829 DOI:10.1080/10826068.2021.1966802
+3. Mercke Odeberg J et al. Oral bioavailability of the antioxidant astaxanthin in humans is enhanced by incorporation of lipid based formulations. Eur J Pharm Sci. 2003. PMID:12885395 DOI:10.1016/s0928-0987(03)00135-0
+4. Khayyal MT et al. Comparative Pharmacokinetic Study of Standard Astaxanthin and its Micellar Formulation in Healthy Male Volunteers. Eur J Drug Metab Pharmacokinet. 2024. PMID:38748358 DOI:10.1007/s13318-024-00898-0
+5. Donoso A et al. Therapeutic uses of natural astaxanthin: An evidence-based review focused on human clinical trials. Pharmacol Res. 2021. PMID:33549728 DOI:10.1016/j.phrs.2021.105479
+6. Ma B et al. Astaxanthin supplementation mildly reduced oxidative stress and inflammation biomarkers: a systematic review and meta-analysis of randomized controlled trials. Nutr Res. 2022. PMID:35091276 DOI:10.1016/j.nutres.2021.09.005
+7. Malcangi G et al. The Role of Astaxanthin as an Antioxidant and Anti-Inflammatory Agent in Human Health: A Systematic Review. Int J Mol Sci. 2026. PMID:41596351 DOI:10.3390/ijms27020700
+8. Hajizadeh-Sharafabad F et al. Carotenoids supplementation and inflammation: a systematic review and meta-analysis of randomized clinical trials. Crit Rev Food Sci Nutr. 2022. PMID:33998846 DOI:10.1080/10408398.2021.1925870
+9. Xia W et al. The effects of astaxanthin supplementation on obesity, blood pressure, CRP, glycemic biomarkers, and lipid profile: A meta-analysis of randomized controlled trials. Pharmacol Res. 2020. PMID:32755613 DOI:10.1016/j.phrs.2020.105113
+10. Leung LY et al. Astaxanthin Influence on Health Outcomes of Adults at Risk of Metabolic Syndrome: A Systematic Review and Meta-Analysis. Nutrients. 2022. PMID:35631193 DOI:10.3390/nu14102050
+11. Wan S et al. Antioxidant Lipid Supplement on Cardiovascular Risk Factors: A Systematic Review and Meta-Analysis. Nutrients. 2024. PMID:39064656 DOI:10.3390/nu16142213
+12. Yoshida H et al. Administration of natural astaxanthin increases serum HDL-cholesterol and adiponectin in subjects with mild hyperlipidemia. Atherosclerosis. 2010. PMID:19892350 DOI:10.1016/j.atherosclerosis.2009.10.012
+13. Shokri-Mashhadi N et al. Effects of carotenoid supplementation on glycemic control: a systematic review and meta-analysis of randomized clinical trials. Eur J Clin Nutr. 2025. PMID:39327454 DOI:10.1038/s41430-024-01511-y
+14. Mashhadi NS et al. Astaxanthin improves glucose metabolism and reduces blood pressure in patients with type 2 diabetes mellitus. Asia Pac J Clin Nutr. 2018. PMID:29384321 DOI:10.6133/apjcn.052017.11
+15. Jabarpour M et al. Astaxanthin supplementation impact on insulin resistance, lipid profile, blood pressure, and oxidative stress in polycystic ovary syndrome patients: A triple-blind randomized clinical trial. Phytother Res. 2024. PMID:37874168 DOI:10.1002/ptr.8037
+16. Arefpour H et al. The effects of astaxanthin supplementation on liver enzyme levels. Int J Vitam Nutr Res. 2024. PMID:38407143 DOI:10.1024/0300-9831/a000804
+17. Heydari SS et al. Effects of carotenoid supplementation on liver enzymes in adults: a GRADE-assessed systematic review and dose-response meta-analysis of randomized controlled trials. BMC Complement Med Ther. 2025. PMID:41437050 DOI:10.1186/s12906-025-05201-5
+18. Zhou X et al. Systematic Review and Meta-Analysis on the Effects of Astaxanthin on Human Skin Ageing. Nutrients. 2021. PMID:34578794 DOI:10.3390/nu13092917
+19. Yang Q et al. Effectiveness of dietary supplements for skin photoaging in healthy adults: a systematic review and meta-analysis of randomized controlled trials. Front Med (Lausanne). 2025. PMID:40761858 DOI:10.3389/fmed.2025.1582946
+20. Natarelli N et al. Oral Supplements and Photoprotection: A Systematic Review. J Med Food. 2025. PMID:39804624 DOI:10.1089/jmf.2024.0023
+21. Hecht KA et al. Astaxanthin (AstaReal) Improved Acute and Chronic Digital Eye Strain in Children: A Randomized Double-Blind Placebo-Controlled Trial. Adv Ther. 2025. PMID:40014233 DOI:10.1007/s12325-025-03125-7
+22. Sekikawa T et al. Effects of diet containing astaxanthin on visual function in healthy individuals: a randomized, double-blind, placebo-controlled, parallel study. J Clin Biochem Nutr. 2023. PMID:36777084 DOI:10.3164/jcbn.22-65
+23. Liu S et al. The Effects of Astaxanthin Supplementation on Exercise Recovery Biomarkers and Exercise Performance: A Systematic Review and Meta-Analysis. Nutrients. 2026. PMID:42197030 DOI:10.3390/nu18101570
+24. Liu C et al. Effects of Astaxanthin Supplementation on Fatigue, Motor Function and Cognition: A Meta-Analysis of Randomized Controlled Trials. Biol Res Nurs. 2024. PMID:38243785 DOI:10.1177/10998004241227561
+25. Waldman HS et al. Astaxanthin Supplementation Does Not Affect Markers of Muscle Damage or Inflammation After an Exercise-Induced Muscle Damage Protocol in Resistance-Trained Males. J Strength Cond Res. 2023. PMID:36727984 DOI:10.1519/JSC.0000000000004408
+26. Coombes JS et al. Astaxanthin has no effect on arterial stiffness, oxidative stress, or inflammation in renal transplant recipients: a randomized controlled trial (the XANTHIN trial). Am J Clin Nutr. 2016. PMID:26675778 DOI:10.3945/ajcn.115.115477
+27. Ghotboddin Mohammadi S et al. The effect of astaxanthin supplementation on inflammatory markers, lipid profile, and anthropometric indices in patients with heart failure: a randomized controlled trial. Sci Rep. 2026. PMID:42303733 DOI:10.1038/s41598-026-58512-z
+28. Mohammadi SG et al. Impact of astaxanthin on oxidative markers, uric acid, and clinical symptoms in heart failure: a randomized clinical trial. BMC Cardiovasc Disord. 2025. PMID:41162864 DOI:10.1186/s12872-025-05260-z
+29. Grigorian A et al. Astaxanthin supplement improves clinical outcomes, quality of life, and inflammatory factors in patients with rheumatoid arthritis: a randomized clinical trial. Food Funct. 2025. PMID:40569081 DOI:10.1039/d5fo00949a
+30. Harrison DE et al. Astaxanthin and meclizine extend lifespan in UM-HET3 male mice; fisetin, SG1002, dimethyl fumarate, mycophenolic acid, and 4-phenylbutyrate do not significantly affect lifespan in either sex. Geroscience. 2024. PMID:38041783 DOI:10.1007/s11357-023-01011-0
+31. Korstanje R et al. Astaxanthin, meclizine, mitoglitazone, pioglitazone, alpha-ketoglutarate, mifepristone, methotrexate, and atorvastatin-telmisartan do not increase lifespan in UM-HET3 mice. Geroscience. 2026. PMID:41843349 DOI:10.1007/s11357-026-02201-2
+32. Brendler T et al. Astaxanthin: How much is too much? A safety review. Phytother Res. 2019. PMID:31788888 DOI:10.1002/ptr.6514
+33. Spiller GA et al. Safety of an astaxanthin-rich Haematococcus pluvialis algal extract: a randomized clinical trial. J Med Food. 2003. PMID:12804020 DOI:10.1089/109662003765184741
+34. EFSA NDA Panel (Turck D et al.). Safety of astaxanthin for its use as a novel food in food supplements. EFSA J. 2020. PMID:32874213 DOI:10.2903/j.efsa.2020.5993
+35. Santiyanon N et al. Interaction between warfarin and astaxanthin: A case report. J Cardiol Cases. 2019. PMID:31073352 DOI:10.1016/j.jccase.2019.01.002
+36. Satti HH et al. Subacute administration of Astaxanthin inhibits vitamin K-dependent clotting factors in rats. J Food Biochem. 2020. PMID:32725659 DOI:10.1111/jfbc.13407
+37. Zhang L et al. Astaxanthin suppresses thrombosis by inhibiting both platelet activation and blood coagulation. Br J Pharmacol. 2026. PMID:41702374 DOI:10.1111/bph.70363
+38. U.S. FDA / DailyMed. XENICAL (orlistat) prescribing information. URL:https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6240792b-9224-2d10-e053-2a91aa0a2c3e

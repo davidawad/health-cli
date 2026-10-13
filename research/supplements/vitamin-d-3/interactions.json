@@ -1,0 +1,359 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Vitamin D-3",
+  "slug": "vitamin-d-3",
+  "aliases": [
+    "Vitamin D3",
+    "cholecalciferol",
+    "colecalciferol",
+    "vitamin D",
+    "D3"
+  ],
+  "category": "vitamin",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "moderate",
+  "edges": [
+    {
+      "with": "thiazide diuretics",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Thiazides reduce urinary calcium excretion; additive with vitamin D-driven calcium absorption, risk of hypercalcemia (labelled for ergocalciferol in hypoparathyroidism and for calcitriol).",
+      "evidence": "FDA labels (calcitriol, ergocalciferol) plus narrative review of drug-related hypercalcemia; no RCT with OTC D3.",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=261398eb-80b8-4c3d-9d2b-3a8004347a75",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0d230fd8-2ea7-4dd6-a506-5f7804e539fc",
+        "PMID:34774245"
+      ]
+    },
+    {
+      "with": "digoxin",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Vitamin D-induced hypercalcemia may precipitate cardiac arrhythmias in patients on digitalis.",
+      "evidence": "FDA calcitriol label precaution; extrapolated to native vitamin D (only relevant if hypercalcemia occurs).",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=261398eb-80b8-4c3d-9d2b-3a8004347a75"
+      ]
+    },
+    {
+      "with": "orlistat",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Fat malabsorption reduces absorption of fat-soluble vitamins including vitamin D.",
+      "evidence": "Small clinical study in adolescents: 25(OH)D fell after 1 month of orlistat despite a multivitamin.",
+      "citations": [
+        "PMID:12126214"
+      ]
+    },
+    {
+      "with": "bile acid sequestrants",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Cholestyramine binds fat-soluble vitamins in the gut, reducing absorption.",
+      "evidence": "FDA calcitriol label statement; no modern RCT data.",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=261398eb-80b8-4c3d-9d2b-3a8004347a75"
+      ]
+    },
+    {
+      "with": "mineral oil",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Mineral oil interferes with absorption of fat-soluble vitamins.",
+      "evidence": "FDA ergocalciferol label statement.",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0d230fd8-2ea7-4dd6-a506-5f7804e539fc"
+      ]
+    },
+    {
+      "with": "enzyme-inducing anticonvulsants",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Phenytoin, phenobarbital and carbamazepine accelerate vitamin D catabolism, lowering 25(OH)D; may increase requirement.",
+      "evidence": "Meta-analysis of 12 studies (carbamazepine about 4 ng/mL lower 25(OH)D) plus FDA calcitriol label (phenytoin/phenobarbital).",
+      "citations": [
+        "PMID:34847425",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=261398eb-80b8-4c3d-9d2b-3a8004347a75"
+      ]
+    },
+    {
+      "with": "corticosteroids",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Functional antagonism: corticosteroids inhibit intestinal calcium absorption that vitamin D promotes.",
+      "evidence": "FDA calcitriol label; glucocorticoids are used therapeutically for vitamin D intoxication (review).",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=261398eb-80b8-4c3d-9d2b-3a8004347a75",
+        "PMID:39337491"
+      ]
+    },
+    {
+      "with": "calcitriol and active vitamin D analogues",
+      "with_kind": "drug-class",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Additive vitamin D activity; label advises withholding pharmacological doses of vitamin D during calcitriol therapy to avoid hypercalcemia.",
+      "evidence": "FDA calcitriol label.",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=261398eb-80b8-4c3d-9d2b-3a8004347a75"
+      ]
+    },
+    {
+      "with": "Calcium",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Combined calcium plus vitamin D increases calcium load; kidney stones increased in WHI; modest additive effect on fracture/stress-fracture outcomes.",
+      "evidence": "WHI RCT (kidney stones HR 1.17); 2026 SR/MA (combined RR 0.91 for fracture, little clinically meaningful benefit); Navy recruit RCT (20% fewer stress fractures); trial in older women showed frequent hypercalciuria.",
+      "citations": [
+        "PMID:16481635",
+        "PMID:42161415",
+        "PMID:18433305",
+        "PMID:24937025",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=261398eb-80b8-4c3d-9d2b-3a8004347a75"
+      ]
+    },
+    {
+      "with": "Magnesium",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Magnesium is a cofactor in vitamin D metabolism; supplementation modulated 25(OH)D depending on baseline status.",
+      "evidence": "Two small RCTs (one showing bidirectional effect by baseline 25(OH)D, one showing greater 25(OH)D rise with combination).",
+      "citations": [
+        "PMID:30541089",
+        "PMID:35576873"
+      ]
+    },
+    {
+      "with": "Vitamin K2",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Hypothesized: vitamin K-dependent carboxylation of matrix Gla protein/osteocalcin directs calcium to bone rather than arteries.",
+      "evidence": "Mechanistic/narrative review only; combined MK-7 + D3 did not slow aortic valve or coronary calcification in AVADEC.",
+      "citations": [
+        "PMID:42654291"
+      ]
+    },
+    {
+      "with": "Boron",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Boron is claimed to influence vitamin D utilization and bone metabolism.",
+      "evidence": "Very weak: narrative review claim only; no human RCT of the interaction found.",
+      "citations": [
+        "PMID:26770156"
+      ]
+    },
+    {
+      "with": "Fish Oil (Omega-3)",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Independent mechanisms; factorial trials suggested additive effects on autoimmune disease incidence and DNAm PhenoAge.",
+      "evidence": "Factorial RCT secondary/post hoc results (VITAL, DO-HEALTH); no adverse interaction.",
+      "citations": [
+        "PMID:35082139",
+        "PMID:39900648"
+      ]
+    },
+    {
+      "with": "hypercalcemia",
+      "with_kind": "condition",
+      "kind": "contraindicated",
+      "severity": "major",
+      "mechanism": "Vitamin D increases intestinal calcium absorption and bone resorption, worsening hypercalcemia.",
+      "evidence": "FDA ergocalciferol and calcitriol label contraindication.",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0d230fd8-2ea7-4dd6-a506-5f7804e539fc",
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=261398eb-80b8-4c3d-9d2b-3a8004347a75"
+      ]
+    },
+    {
+      "with": "sarcoidosis/granulomatous disease",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Extrarenal 1-alpha-hydroxylase in granulomas converts 25(OH)D to calcitriol, causing hypercalcemia.",
+      "evidence": "Case report and review; exclusion criterion in major RCTs.",
+      "citations": [
+        "PMID:36221396",
+        "PMID:39337491",
+        "PMID:37380191"
+      ]
+    },
+    {
+      "with": "primary hyperparathyroidism",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "PTH-driven hypercalcemia; vitamin D may raise calcium, though in deficient patients it lowered PTH without hypercalcemia.",
+      "evidence": "Meta-analysis of 11 studies (388 patients) found no hypercalcemia/hypercalciuria with repletion; trials excluded these patients.",
+      "citations": [
+        "PMID:33453021",
+        "PMID:37380191"
+      ]
+    },
+    {
+      "with": "kidney stones",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Increased calcium absorption and urinary calcium, especially when combined with calcium supplements.",
+      "evidence": "WHI RCT (calcium plus D HR 1.17 for stones); prediabetes IPD MA RR 1.17 (0.69-1.99) not significant.",
+      "citations": [
+        "PMID:16481635",
+        "PMID:36745886"
+      ]
+    },
+    {
+      "with": "chronic kidney disease",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Renal 1-alpha-hydroxylation is needed to activate vitamin D; hypercalcemia can raise creatinine; magnesium antacids risk hypermagnesemia in dialysis patients on calcitriol.",
+      "evidence": "FDA calcitriol label precautions.",
+      "citations": [
+        "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=261398eb-80b8-4c3d-9d2b-3a8004347a75"
+      ]
+    },
+    {
+      "with": "25-hydroxyvitamin D immunoassay",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "moderate",
+      "mechanism": "Many immunoassays under-recover 25(OH)D2 (and may cross-react with 3-epi-25(OH)D3), so D2 users can appear falsely low; assays are not well standardized.",
+      "evidence": "Method comparison studies vs HPLC/LC-MS/MS; 2024 consensus on lack of standardization.",
+      "citations": [
+        "PMID:16390606",
+        "PMID:24887958",
+        "PMID:38676447"
+      ]
+    },
+    {
+      "with": "GC (vitamin D binding protein) variants",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "GC rs2282679/rs4588/rs4752 variants alter 25(OH)D response to supplementation.",
+      "evidence": "Two RCT-based genetic association analyses (antenatal, prediabetes).",
+      "citations": [
+        "PMID:28575224",
+        "PMID:40114038"
+      ]
+    },
+    {
+      "with": "CYP2R1 variants",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "CYP2R1 rs10741657/rs12794714 alter 25-hydroxylation and 25(OH)D response.",
+      "evidence": "Two RCT-based genetic association analyses.",
+      "citations": [
+        "PMID:28575224",
+        "PMID:40114038"
+      ]
+    },
+    {
+      "with": "CYP24A1 variants",
+      "with_kind": "genotype",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Reduced vitamin D catabolism may predispose to vitamin D toxicity and hypercalcemia.",
+      "evidence": "Narrative review.",
+      "citations": [
+        "PMID:39337491"
+      ]
+    },
+    {
+      "with": "high-dose intermittent bolus dosing",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Large intermittent doses (annual 500,000 IU) were associated with more falls and fractures; daily dosing preferred.",
+      "evidence": "RCT (falls IRR 1.15, fractures IRR 1.26); MA of bolus dosing; Endocrine Society SR/guideline.",
+      "citations": [
+        "PMID:20460620",
+        "PMID:37120684",
+        "PMID:38828942",
+        "PMID:38828931"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:30415629",
+    "PMID:35026158",
+    "PMID:33170239",
+    "PMID:31173679",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0d230fd8-2ea7-4dd6-a506-5f7804e539fc",
+    "PMID:22552031",
+    "PMID:37865222",
+    "PMID:30658603",
+    "PMID:38676447",
+    "URL:https://www.nationalacademies.org/read/13050/chapter/2",
+    "PMID:28575224",
+    "PMID:39337491",
+    "PMID:34774245",
+    "PMID:36221396",
+    "PMID:41707752",
+    "PMID:42161415",
+    "PMID:35939577",
+    "PMID:37011645",
+    "PMID:37120684",
+    "PMID:38828942",
+    "PMID:38997531",
+    "PMID:18433305",
+    "PMID:31268835",
+    "PMID:38613445",
+    "PMID:40096917",
+    "PMID:37004841",
+    "PMID:31405892",
+    "PMID:37380191",
+    "PMID:38199870",
+    "PMID:35082139",
+    "PMID:38272846",
+    "PMID:39993397",
+    "PMID:33798465",
+    "PMID:39808630",
+    "PMID:36745886",
+    "PMID:39552387",
+    "PMID:37852593",
+    "PMID:34853363",
+    "PMID:36874594",
+    "PMID:38296029",
+    "PMID:41001202",
+    "PMID:40409468",
+    "PMID:37702332",
+    "PMID:39900648",
+    "PMID:39565152",
+    "PMID:40063041",
+    "PMID:20460620",
+    "PMID:38828931",
+    "PMID:32491799",
+    "PMID:34337905",
+    "PMID:16481635",
+    "PMID:24937025",
+    "PMID:33453021",
+    "URL:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=261398eb-80b8-4c3d-9d2b-3a8004347a75",
+    "PMID:12126214",
+    "PMID:34847425",
+    "PMID:30541089",
+    "PMID:35576873",
+    "PMID:42654291",
+    "PMID:26770156",
+    "PMID:16390606",
+    "PMID:24887958",
+    "PMID:40114038",
+    "PMID:40324208",
+    "PMID:40492704"
+  ]
+}

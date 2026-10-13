@@ -1,0 +1,46 @@
+* Dexedrine
+:PROPERTIES:
+:ID: supp-dexedrine
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: Dextroamphetamine sulfate | dextroamphetamine
+:CATEGORY: rx
+:RX_STATUS: controlled
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Dexedrine is dextroamphetamine sulfate, an oral immediate-release tablet or extended-release Spansule prescription CNS stimulant, Schedule II in the United States [DailyMed].
+
+** Mechanisms
+- Amphetamine increases synaptic norepinephrine and dopamine through transporter and vesicular mechanisms; FDA labeling describes sympathomimetic CNS stimulation [DailyMed].
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---------+--------------------+-----------+-------------+-----------------------+-----------|
+| ADHD symptoms | regulatory label based on clinical trials | improvement in indicated populations | label supports pediatric ADHD; exact effect varies by trial | moderate | DailyMed |
+| Narcolepsy symptoms | regulatory label | symptom control | approved indication; no pooled effect size in label | moderate | DailyMed |
+
+** Dosing in trials
+- FDA label gives individualized titration; pediatric ADHD starts 5 mg once or twice daily, with weekly 5 mg increments, rarely exceeding 40 mg/day; dosing differs by indication and formulation [DailyMed].
+
+** Safety & adverse effects
+- Label warns of abuse, misuse, addiction, serious cardiac disease risk, increased blood pressure/heart rate, psychiatric reactions, growth suppression, and peripheral vasculopathy [DailyMed].
+
+** Contraindications
+- Contraindicated with hypersensitivity to amphetamine and during MAOI treatment or within 14 days after stopping MAOI because of hypertensive-crisis risk; label also lists advanced arteriosclerosis, symptomatic cardiovascular disease, moderate/severe hypertension, hyperthyroidism, glaucoma, agitated state, and history of drug abuse [DailyMed].
+
+** Interactions
+- Drugs, supplements, conditions, and relevant laboratory interference are summarized in the structured interaction object. MAOIs contraindicated; serotonergic drugs and CYP2D6 inhibitors increase serotonin-syndrome/exposure risk; alkalinizing agents may raise levels, acidifying agents may lower levels; antihypertensives may be opposed [DailyMed]. No genotype-specific claim is made because no directly relevant pharmacogenomic source was identified.
+
+** Genotype notes
+- No directly relevant, clinically validated pharmacogenomic/nutrigenomic source was identified in the sources reviewed.
+
+** Latest research
+- 2025 label version on DailyMed reiterates boxed warnings, contraindications, and interaction precautions; label updates are regulatory rather than new efficacy trials [DailyMed].
+
+** Open questions
+- Long-term comparative benefit-risk, individualized dosing, and durable outcomes remain under study; these statements are within FDA label scope [DailyMed].
+
+** Sources
+- https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78

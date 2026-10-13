@@ -1,0 +1,49 @@
+* Caffeine
+:PROPERTIES:
+:ID: supp-caffeine
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: 1,3,7-trimethylxanthine | caffeine anhydrous
+:CATEGORY: other
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Caffeine is a methylxanthine naturally present in coffee, tea, cocoa and guarana; supplement forms include anhydrous powder/tablets and beverages [https://www.efsa.europa.eu/en/topics/topic/caffeine].
+
+** Mechanisms
+- At ordinary dietary doses caffeine primarily antagonizes adenosine receptors; higher exposure increases CNS stimulation and catecholaminergic effects [https://www.efsa.europa.eu/en/topics/topic/caffeine].
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---------+--------------------+-----------+-------------+-----------------------+-----------|
+| Alertness / sleep | regulatory evidence assessment | increased alertness; sleep disruption possible | 100 mg near bedtime may affect sleep in some adults | moderate | https://www.efsa.europa.eu/en/topics/topic/caffeine |
+| Exercise performance | systematic reviews of RCTs | small benefit, task-dependent | varies by dose, task, tolerance | moderate | PMID:39339818 |
+| Preterm infant apnea | systematic review/meta-analysis | clinical benefit in indicated neonatal care | effect depends on dose and neonatal protocol | moderate | PMID:38553606 |
+
+** Dosing in trials
+- EFSA concludes single doses up to 200 mg and total intake up to 400 mg/day do not raise safety concerns for healthy adults; pregnancy limit assessed at 200 mg/day. These are safety thresholds, not efficacy prescriptions [https://www.efsa.europa.eu/en/topics/topic/caffeine].
+
+** Safety & adverse effects
+- Excess exposure may cause insomnia, anxiety, tremor, palpitations, gastrointestinal symptoms, and dependence/withdrawal; FDA notes rapid consumption of highly concentrated caffeine can be dangerous [https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much].
+
+** Contraindications
+- Avoid concentrated/uncertain-dose products. Individual susceptibility, pregnancy, arrhythmia, anxiety and sleep disorders alter risk; EFSA thresholds apply to healthy populations [https://www.efsa.europa.eu/en/topics/topic/caffeine].
+
+** Interactions
+- Drugs, supplements, conditions, and relevant laboratory interference are summarized in the structured interaction object. Caffeine can add to other stimulants. CYP1A2 inhibitors (e.g. fluvoxamine) may slow caffeine clearance; smoking induces metabolism (review-level pharmacology). Alcohol co-use does not reverse impairment; EFSA cautions caffeine does not reliably mask intoxication [https://www.efsa.europa.eu/en/topics/topic/caffeine]. No genotype-specific claim is made because no directly relevant pharmacogenomic source was identified.
+
+** Genotype notes
+- No directly relevant, clinically validated pharmacogenomic/nutrigenomic source was identified in the sources reviewed.
+
+** Latest research
+- 2024: systematic review assessed caffeine/placebo effects in sports performance, reflecting active research on expectancy and ergogenic outcomes [PMID:39339818].
+
+** Open questions
+- Dose-response by genotype, sleep timing, habitual exposure, pregnancy, and combinations with energy-drink ingredients require better trials [https://www.efsa.europa.eu/en/topics/topic/caffeine].
+
+** Sources
+- https://www.efsa.europa.eu/en/topics/topic/caffeine
+- PMID:39339818
+- PMID:38553606

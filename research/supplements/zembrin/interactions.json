@@ -1,0 +1,42 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Zembrin",
+  "slug": "zembrin",
+  "aliases": [
+    "Sceletium tortuosum extract",
+    "kanna",
+    "channa"
+  ],
+  "category": "botanical",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "very-low",
+  "edges": [
+    {
+      "with": "serotonergic drugs",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Mesembrine alkaloids have serotonin-reuptake-inhibiting activity; serotonin toxicity risk is theoretical and not quantified in clinical combination trials.",
+      "evidence": "Mesembrine alkaloids have serotonin-reuptake-inhibiting activity; serotonin toxicity risk is theoretical and not quantified in clinical combination trials.",
+      "citations": [
+        "PMID:34333104"
+      ]
+    },
+    {
+      "with": "monoamine oxidase inhibitors",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Possible serotonergic overlap; combination safety has not been studied.",
+      "evidence": "Possible serotonergic overlap; combination safety has not been studied.",
+      "citations": [
+        "PMID:34333104"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:23441963",
+    "PMID:25389443",
+    "PMID:34333104"
+  ]
+}

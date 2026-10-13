@@ -1,0 +1,41 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Tongkat Ali",
+  "slug": "tongkat-ali",
+  "aliases": [
+    "Eurycoma longifolia",
+    "Malaysian ginseng",
+    "pasak bumi"
+  ],
+  "category": "botanical",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "low",
+  "edges": [
+    {
+      "with": "testosterone",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Tongkat ali may increase serum testosterone in small trials; additive effect with androgen therapy is unstudied.",
+      "evidence": "Tongkat ali may increase serum testosterone in small trials; additive effect with androgen therapy is unstudied.",
+      "citations": [
+        "PMID:36013514"
+      ]
+    },
+    {
+      "with": "hormone-sensitive conditions",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Possible androgen-related activity creates theoretical concern; direct evidence is insufficient.",
+      "evidence": "Possible androgen-related activity creates theoretical concern; direct evidence is insufficient.",
+      "citations": [
+        "PMID:36013514"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:36013514",
+    "PMID:39387709"
+  ]
+}

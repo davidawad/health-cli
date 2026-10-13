@@ -1,0 +1,48 @@
+* Tongkat Ali
+:PROPERTIES:
+:ID: supp-tongkat-ali
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: Eurycoma longifolia | Malaysian ginseng | pasak bumi
+:CATEGORY: botanical
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Tongkat ali is root of Eurycoma longifolia Jack, sold as powders and water extracts standardized variably to eurycomanone; products are standardized variably [PMID:36013514].
+
+** Mechanisms
+- Quassinoids including eurycomanone are proposed to affect steroidogenesis and stress pathways; mechanism and human exposure-response remain uncertain [PMID:36013514].
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---------+--------------------+-----------+-------------+-----------------------+-----------|
+| Total testosterone in men | meta-analysis of 5 RCTs | increase signal | SMD 1.352 (95% CI 0.565–2.138); small heterogeneous evidence base | low | PMID:36013514 |
+| Stress / wellbeing | small clinical trials | possible improvement | heterogeneous measures; no robust pooled estimate | very low | PMID:36013514 |
+| Safety | small trials/reviews | inadequately characterized | insufficient long-term exposure data | very low | PMID:36013514 |
+
+** Dosing in trials
+- Trials have used standardized extracts at roughly 100–600 mg/day, often for several weeks; formulation and standardization vary and there is no established optimal regimen [PMID:36013514].
+
+** Safety & adverse effects
+- Short-term trials report few serious events but are underpowered for uncommon harms. long-term safety is not characterized in the small trial literature [PMID:36013514].
+
+** Contraindications
+- Pregnancy/lactation and hormone-sensitive disease safety are not established. data in pregnancy/lactation and hormone-sensitive conditions are inadequate [PMID:36013514].
+
+** Interactions
+- Drugs, supplements, conditions, and relevant laboratory interference are summarized in the structured interaction object. Potential additive androgen effects with testosterone therapy are plausible; no robust interaction trials. Monitor concern around glucose/BP changes remains uncertain [PMID:36013514]. No genotype-specific claim is made because no directly relevant pharmacogenomic source was identified.
+
+** Genotype notes
+- No directly relevant, clinically validated pharmacogenomic/nutrigenomic source was identified in the sources reviewed.
+
+** Latest research
+- No qualifying large, definitive human trial published in the last 24 months was identified in the searched literature; 2022 meta-analysis remains the main RCT synthesis [PMID:36013514].
+
+** Open questions
+- Independent trials must standardize extracts, measure clinically meaningful symptoms and hormone changes, and monitor hepatic/reproductive safety [PMID:36013514].
+
+** Sources
+- PMID:36013514
+- PMID:39387709

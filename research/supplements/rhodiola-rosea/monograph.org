@@ -1,0 +1,49 @@
+* Rhodiola Rosea
+:PROPERTIES:
+:ID: supp-rhodiola-rosea
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: Rhodiola rosea | roseroot | golden root | arctic root
+:CATEGORY: botanical
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Rhodiola rosea L. root/rhizome extracts are standardized variably to rosavins and salidroside; extract composition differs across products [PMID:37495266].
+
+** Mechanisms
+- Proposed adaptogenic effects include modulation of stress-response and monoaminergic pathways, mainly based on preclinical and mechanistic data [PMID:22643043].
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---------+--------------------+-----------+-------------+-----------------------+-----------|
+| Physical fatigue/performance | systematic review of 13 RCTs, n=263 | mixed, some positive outcomes | 11 studies reported some favorable measures; heterogeneity prevents pooled effect | low | PMID:37495266 |
+| Mental/physical fatigue | systematic review | inconsistent | 11 small trials, high risk of bias/reporting flaws | very low | PMID:22643043 |
+| Post-COVID fatigue/cognition | 2024 narrative review | hypothesis only | no robust Rhodiola-specific estimate | very low | PMID:38347175 |
+
+** Dosing in trials
+- Trials used acute and chronic extract dosing, with formulations and doses varying substantially; review did not identify a reliable dose-response [PMID:37495266].
+
+** Safety & adverse effects
+- Trials are small and short; adverse-event and product-quality reporting are incomplete. Long-term safety is uncertain [PMID:22643043].
+
+** Contraindications
+- Insufficient evidence in pregnancy/lactation, bipolar disorder, or significant medical illness; do not interpret absence of reported harm in small trials as established safety [PMID:22643043].
+
+** Interactions
+- Drugs, supplements, conditions, and relevant laboratory interference are summarized in the structured interaction object. Potential serotonergic/activating interactions with antidepressants are mechanistically plausible but clinical evidence is limited; mention as uncertainty [PMID:22643043]. No genotype-specific claim is made because no directly relevant pharmacogenomic source was identified.
+
+** Genotype notes
+- No directly relevant, clinically validated pharmacogenomic/nutrigenomic source was identified in the sources reviewed.
+
+** Latest research
+- 2024 review discussed Rhodiola among multi-target agents proposed for post-COVID cognitive impairment/fatigue, but did not supply definitive Rhodiola-specific clinical efficacy evidence [PMID:38347175].
+
+** Open questions
+- Standardized preparations, larger independent RCTs, and clinically meaningful fatigue outcomes are needed [PMID:37495266].
+
+** Sources
+- PMID:37495266
+- PMID:22643043
+- PMID:38347175

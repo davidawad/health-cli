@@ -1,0 +1,49 @@
+* Zembrin
+:PROPERTIES:
+:ID: supp-zembrin
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: Sceletium tortuosum extract | kanna | channa
+:CATEGORY: botanical
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Zembrin is a proprietary standardized extract of Sceletium tortuosum (kanna), a South African succulent; trial extract used a 2:1 plant ratio [PMID:23441963].
+
+** Mechanisms
+- Mesembrine alkaloids are reported to inhibit serotonin reuptake and PDE4 in preclinical work; clinical relevance and product-specific exposure are uncertain [PMID:34333104].
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---------+--------------------+-----------+-------------+-----------------------+-----------|
+| Safety/tolerability in healthy adults | 3-month RCT, n=37 | no major signal detected | 8 or 25 mg/day; no significant lab/ECG differences | very low | PMID:23441963 |
+| Cognitive tests | 3-week crossover RCT, n=21 | exploratory signal | 25 mg/day; small sample and multiple measures | very low | PMID:25389443 |
+| Anxiety/mood | few small trials/review | uncertain | insufficient replicated clinical effect estimate | very low | PMID:34333104 |
+
+** Dosing in trials
+- Human trials used standardized Zembrin 8 or 25 mg once daily for three months, and 25 mg/day for three weeks in crossover study; these do not establish general dose or long-term safety [PMID:23441963; PMID:25389443].
+
+** Safety & adverse effects
+- Small trial reported tolerability without significant ECG or laboratory changes; n=37 is inadequate to detect rare events. Serotonergic pharmacology creates an unquantified interaction concern [PMID:23441963; PMID:34333104].
+
+** Contraindications
+- Avoid inferring safety in pregnancy, lactation, psychiatric illness, or with serotonergic medicines from small healthy-volunteer trials; these populations were not adequately evaluated [PMID:23441963].
+
+** Interactions
+- Drugs, supplements, conditions, and relevant laboratory interference are summarized in the structured interaction object. Potential serotonergic interaction with SSRIs, SNRIs, MAOIs, tramadol, or other serotonergic agents is mechanistic, not clinically quantified [PMID:34333104]. No genotype-specific claim is made because no directly relevant pharmacogenomic source was identified.
+
+** Genotype notes
+- No directly relevant, clinically validated pharmacogenomic/nutrigenomic source was identified in the sources reviewed.
+
+** Latest research
+- No high-quality human efficacy trial published in the last 24 months was identified in the searched literature; the principal placebo-controlled safety trial remains small and older [PMID:23441963].
+
+** Open questions
+- Independent, adequately powered trials and pharmacokinetic/interactions studies are needed; current human evidence is sparse [PMID:23441963; PMID:34333104].
+
+** Sources
+- PMID:23441963
+- PMID:25389443
+- PMID:34333104

@@ -1,0 +1,48 @@
+* Cerebrolysin
+:PROPERTIES:
+:ID: supp-cerebrolysin
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: Cerebrolysin peptide mixture | porcine brain-derived peptides
+:CATEGORY: peptide
+:RX_STATUS: research-chemical
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Cerebrolysin is a parenteral mixture of low-molecular-weight peptides and amino acids derived from porcine brain proteins; regulatory status differs by country and it is not FDA-approved in the United States [Cochrane CD007026].
+
+** Mechanisms
+- Proposed neurotrophic and neuroprotective actions are largely mechanistic/preclinical; these have not translated into established patient-important benefit in stroke trials [Cochrane CD007026].
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---------+--------------------+-----------+-------------+-----------------------+-----------|
+| Acute ischemic stroke mortality | Cochrane review of RCTs | no difference | RR 0.96 (95% CI 0.65–1.41), 6 trials, 1689 participants | moderate | Cochrane CD007026 |
+| Serious adverse events | Cochrane review | possible increased nonfatal SAEs | RR total SAE 1.16; nonfatal SAE RR 2.39 (95% CI 1.10–5.23) | moderate | Cochrane CD007026 |
+| Functional outcome | Cochrane review | not established | key poor functional outcome was not reported in included trials | low | Cochrane CD007026 |
+
+** Dosing in trials
+- Stroke trials used intravenous regimens including 30 mL daily for 10 days (cumulative 300 mL); this was associated with a more prominent increase in nonfatal SAEs in subgroup analysis [Cochrane CD007026].
+
+** Safety & adverse effects
+- Cochrane found little/no difference in overall adverse events but a possible increase in nonfatal serious events; product injection risks and peptide-mixture variability apply [Cochrane CD007026].
+
+** Contraindications
+- Product labeling and regulatory status differ by jurisdiction; the opened Cochrane synthesis does not establish a comprehensive contraindication list [https://www.cochrane.org/evidence/CD007026_cerebrolysin-acute-ischaemic-stroke].
+
+** Interactions
+- Drugs, supplements, conditions, and relevant laboratory interference are summarized in the structured interaction object. No reliable supplement interaction studies established. Avoid asserting synergy; concomitant investigational therapies can confound stroke outcomes [Cochrane CD007026]. No genotype-specific claim is made because no directly relevant pharmacogenomic source was identified.
+
+** Genotype notes
+- No directly relevant, clinically validated pharmacogenomic/nutrigenomic source was identified in the sources reviewed.
+
+** Latest research
+- 2023 Cochrane review remains the key current synthesis for acute ischemic stroke: no mortality benefit and possible increased nonfatal serious adverse events [Cochrane CD007026].
+
+** Open questions
+- Trials should report functional independence, quality of life, and systematic adverse events; Cochrane noted important patient-centered outcomes absent [Cochrane CD007026].
+
+** Sources
+- https://www.cochrane.org/evidence/CD007026_cerebrolysin-acute-ischaemic-stroke
+- https://www.cochrane.org/evidence/CD007026_cerebrolysin-acute-ischaemic-stroke

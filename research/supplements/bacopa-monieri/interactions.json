@@ -1,0 +1,54 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Bacopa Monieri",
+  "slug": "bacopa-monieri",
+  "aliases": [
+    "Bacopa Monieri",
+    "Bacopa monnieri",
+    "Brahmi",
+    "water hyssop"
+  ],
+  "category": "botanical",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "low",
+  "edges": [
+    {
+      "with": "cholinesterase inhibitors",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Potential additive cholinergic activity may alter heart rate or GI effects; clinical interaction data are limited.",
+      "evidence": "Mechanistic/clinical safety review, low certainty.",
+      "citations": [
+        "PMID:38671841"
+      ]
+    },
+    {
+      "with": "thyroid disease",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Animal and limited human reports suggest possible thyroid hormone modulation; clinical relevance uncertain.",
+      "evidence": "Review of limited evidence.",
+      "citations": [
+        "PMID:38671841"
+      ]
+    },
+    {
+      "with": "bradycardia",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Potential cholinergic activity may add to slow heart rate; clinical evidence limited.",
+      "evidence": "Safety precaution based on pharmacology.",
+      "citations": [
+        "PMID:38671841"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:38538390",
+    "PMID:38671841",
+    "PMID:41678913"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Trimethylglycine (TMG)",
+  "slug": "trimethylglycine-tmg",
+  "aliases": [
+    "trimethylglycine",
+    "TMG",
+    "betaine",
+    "anhydrous betaine"
+  ],
+  "category": "other",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "low",
+  "edges": [
+    {
+      "with": "Vitamin B12",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "B12-dependent methionine synthase and betaine-dependent BHMT are alternate remethylation pathways; a combined regimen trial lowered homocysteine but cannot isolate betaine contribution.",
+      "evidence": "Mechanistic complementarity and combined RCT.",
+      "citations": [
+        "PMID:36717385",
+        "PMID:3610948"
+      ]
+    },
+    {
+      "with": "Quatrefolic (5-MTHF)",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Folate-dependent remethylation is complementary to BHMT; combined B vitamin/betaine trial is not a direct TMG-plus-5-MTHF comparison.",
+      "evidence": "Pathway mechanism; indirect clinical evidence.",
+      "citations": [
+        "PMID:36717385",
+        "PMID:3610948"
+      ]
+    },
+    {
+      "with": "hypercholesterolemia",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Betaine RCT meta-analysis reports increased total/LDL cholesterol, potentially adverse in dyslipidemia.",
+      "evidence": "Controlled trial meta-analysis.",
+      "citations": [
+        "PMID:3610948"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:3610948",
+    "PMID:36717385",
+    "PMID:38876040"
+  ]
+}

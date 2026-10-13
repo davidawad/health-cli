@@ -1,0 +1,55 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Selenium",
+  "slug": "selenium",
+  "aliases": [
+    "selenium",
+    "Se",
+    "selenomethionine",
+    "selenium yeast",
+    "sodium selenite"
+  ],
+  "category": "mineral",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "moderate",
+  "edges": [
+    {
+      "with": "Warfarin",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Possible changes in anticoagulant response have been reported; evidence is inconsistent.",
+      "evidence": "Official NIH ODS interaction review.",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/"
+      ]
+    },
+    {
+      "with": "Vitamin E",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Large prevention trials combined selenium and vitamin E; SELECT found no cancer prevention and signals of harm for some endpoints.",
+      "evidence": "RCT evidence does not support assuming beneficial synergy.",
+      "citations": [
+        "PMID:20068209"
+      ]
+    },
+    {
+      "with": "Thyroid disease",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Selenium is incorporated in thyroid hormone deiodinases; RCT antibody changes do not establish clinical benefit.",
+      "evidence": "NIH ODS review of thyroid trials.",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:20068209",
+    "PMID:24401833",
+    "URL:https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/"
+  ]
+}

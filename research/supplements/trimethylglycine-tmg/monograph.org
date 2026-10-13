@@ -1,0 +1,50 @@
+* Trimethylglycine (TMG)
+:PROPERTIES:
+:ID: supp-trimethylglycine-tmg
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: trimethylglycine | TMG | betaine | anhydrous betaine
+:CATEGORY: other
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Trimethylglycine (betaine) is a dietary methyl donor found in foods such as beets and grains; it is distinct from betaine hydrochloride, a gastric acidifier. Supplemental research generally uses anhydrous betaine. [PMID:3610948]
+
+** Mechanisms
+- Betaine-homocysteine methyltransferase transfers a methyl group from betaine to homocysteine, regenerating methionine, predominantly in liver and kidney. [PMID:3610948]
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---|---|---|---|---|---|
+| Plasma homocysteine | Meta-analysis of randomized trials | decrease | Pooled reduction in healthy adults; dose dependent | moderate | PMID:3610948 |
+| Lipids | Meta-analysis of RCTs | increase in LDL/total cholesterol | Several mg/dL increase in total cholesterol; potential offset to homocysteine change | low | PMID:3610948 |
+| Homocysteine in active adults | Randomized crossover trial | decrease | 17.04 to 15.44 µmol/L; TMAO change nonsignificant | low | PMID:38876040 |
+| Clinical cardiovascular events | No outcome RCT evidence established | unknown | No demonstrated patient-important outcome benefit | very low | PMID:3610948 |
+
+** Dosing in trials
+- Trials commonly gave 1.5–6 g/day; one recent crossover study tested betaine in healthy active males (dose per report). A 12-week Chinese trial combined 1 g/day betaine with B vitamins; this does not isolate TMG. [PMID:36717385, PMID:38876040]
+
+** Safety & adverse effects
+- Can increase total/LDL cholesterol; nausea, diarrhea and fishy body odor are reported with high doses. TMAO may rise in some participants, with uncertain clinical meaning. [PMID:3610948, PMID:38876040]
+
+** Contraindications
+- Use caution in pre-existing hypercholesterolemia and renal/hepatic disorders because outcomes and handling in these groups are not established. Do not confuse TMG with betaine HCl. [PMID:3610948]
+
+** Interactions
+- Folate, B12 and B6 participate in parallel homocysteine pathways; combination trials cannot attribute changes to betaine alone. Check lipids if using sustained gram doses; no validated assay interference established. [PMID:36717385, PMID:38876040]
+
+** Genotype notes
+- A 2024 randomized crossover study reported betaine concentrations increased more among MTHFR C677T T-allele carriers than CC participants; this biomarker subgroup finding does not establish genotype-guided clinical benefit. [PMID:38876040]
+
+** Latest research (last 24 months)
+- 2024 randomized crossover: betaine lowered homocysteine in healthy active men, while TMAO rose nonsignificantly; betaine response differed by MTHFR C677T allele. [PMID:38876040]
+
+** Open questions
+- Do homocysteine changes translate to clinical benefit? Clarify long-term lipid and TMAO effects and which baseline phenotypes benefit.
+
+** Sources
+- Olthof MR et al. Betaine supplementation decreases plasma homocysteine in healthy adult participants: a meta-analysis. J Nutr. 2005. [https://pubmed.ncbi.nlm.nih.gov/16177261/]
+- Betaine supplementation modulates betaine concentration by MTHFR genotype... randomized crossover. 2024. [https://pubmed.ncbi.nlm.nih.gov/38876040/]
+- Effects of low-dose B vitamins plus betaine in Chinese adults: randomized trial. [https://pubmed.ncbi.nlm.nih.gov/36717385/]

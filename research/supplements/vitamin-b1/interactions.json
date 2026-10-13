@@ -1,0 +1,43 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Vitamin B1",
+  "slug": "vitamin-b1",
+  "aliases": [
+    "Vitamin B1",
+    "thiamin",
+    "thiamine",
+    "thiamine hydrochloride",
+    "benfotiamine"
+  ],
+  "category": "vitamin",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "moderate",
+  "edges": [
+    {
+      "with": "alcohol use disorder",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Alcohol misuse and malnutrition are associated with thiamin deficiency; replacement is a clinical deficiency strategy.",
+      "evidence": "NIH ODS thiamin deficiency risk review.",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/"
+      ]
+    },
+    {
+      "with": "loop diuretics",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Long-term loop diuretic exposure may increase urinary thiamin loss.",
+      "evidence": "NIH ODS review.",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:39307094",
+    "URL:https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Vitamin B6",
+  "slug": "vitamin-b6",
+  "aliases": [
+    "Vitamin B6",
+    "pyridoxine",
+    "pyridoxal-5-phosphate",
+    "PLP",
+    "pyridoxamine"
+  ],
+  "category": "vitamin",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "high",
+  "edges": [
+    {
+      "with": "levodopa",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Pyridoxine can reduce levodopa effect when levodopa is given without carbidopa.",
+      "evidence": "Established pharmacologic interaction in NIH ODS summary.",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/"
+      ]
+    },
+    {
+      "with": "isoniazid",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Isoniazid can interfere with B6 metabolism and cause deficiency/neuropathy; prescribed pyridoxine may be used for risk reduction.",
+      "evidence": "Drug-nutrient interaction recognized in official reference.",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/"
+      ]
+    },
+    {
+      "with": "peripheral neuropathy",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "major",
+      "mechanism": "Excess chronic B6 itself can cause sensory neuropathy; EFSA UL is 12 mg/day in adults.",
+      "evidence": "Systematic regulatory evidence assessment.",
+      "citations": [
+        "PMID:37207271"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:37207271",
+    "PMID:37447150",
+    "URL:https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/"
+  ]
+}

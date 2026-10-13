@@ -1,0 +1,47 @@
+* Green Tea Extract
+:PROPERTIES:
+:ID: supp-green-tea-extract
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: green tea extract | GTE | Camellia sinensis extract | EGCG | epigallocatechin gallate
+:CATEGORY: botanical
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Concentrated extracts of Camellia sinensis leaves contain catechins, especially epigallocatechin gallate (EGCG); caffeine content and catechin composition vary by product and processing. [PMID:32140423]
+
+** Mechanisms
+- Catechins have antioxidant and signaling effects in experimental systems; human mechanism and effective dose for clinical outcomes are not settled. [PMID:32140423]
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---|---|---|---|---|---|
+| Weight loss | Systematic reviews of RCTs | small/inconsistent | Average effect small and not reliably clinically important | low | PMID:28927846 |
+| Liver injury | Case series, pharmacovigilance, RCT safety review | harm in susceptible users | Idiosyncratic hepatocellular injury; fasting/high EGCG exposure increases concern | moderate | PMID:32140423 |
+| Cancer/cardiovascular prevention | Clinical trials and reviews | unproven | No established outcome benefit | low | PMID:32140423 |
+
+** Dosing in trials
+- Human trials vary widely by extract and catechin dose. EFSA noted transaminase elevations at supplemental EGCG doses ≥800 mg/day; no universally established safe supplemental dose. [PMID:28927846, PMID:32140423]
+
+** Safety & adverse effects
+- Rare acute hepatitis and liver failure have been associated with concentrated extracts. Fasting increases EGCG exposure; take with food in safety studies. Nausea and caffeine-related effects may occur. [PMID:32140423, URL:https://www.ncbi.nlm.nih.gov/books/NBK547925/]
+
+** Contraindications
+- Avoid or use particular caution with active liver disease, prior supplement-associated liver injury, pregnancy, and concentrated high-EGCG products. Stop and assess if jaundice, dark urine, pruritus or abdominal symptoms occur. [PMID:32140423]
+
+** Interactions
+- May reduce nadolol exposure via intestinal transporter effects; can affect iron absorption. Caffeine-containing extracts may add stimulant effects. Liver injury risk may compound with hepatotoxic drugs, though direct interactions are not well quantified. [PMID:32140423]
+
+** Latest research (last 24 months)
+- USP systematic review documents variable extract composition and a credible association with idiosyncratic liver injury; EFSA review links ≥800 mg/day supplemental EGCG to raised liver enzymes. [PMID:32140423]
+
+** Open questions
+- Identify product characteristics and genetic/clinical susceptibility associated with liver injury; establish a safe dose threshold and meaningful clinical efficacy.
+
+** Sources
+- Oketch-Rabah HA et al. USP comprehensive review of the hepatotoxicity of green tea extracts. Toxicol Rep. 2020. [https://pubmed.ncbi.nlm.nih.gov/32140423/]
+ - EFSA. Scientific opinion on the safety of green tea catechins. EFSA J. 2018. [https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2018.5239]
+- LiverTox: Green Tea. NCBI Bookshelf. [https://www.ncbi.nlm.nih.gov/books/NBK547925/]
+- Jurgens TM et al. Green tea for weight loss and weight maintenance in overweight or obese adults. Cochrane. [https://pubmed.ncbi.nlm.nih.gov/25014173/]

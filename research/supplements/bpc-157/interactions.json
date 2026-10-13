@@ -1,0 +1,41 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "BPC-157",
+  "slug": "bpc-157",
+  "aliases": [
+    "BPC-157",
+    "body protection compound 157",
+    "pentadecapeptide"
+  ],
+  "category": "peptide",
+  "rx_status": "research-chemical",
+  "evidence_certainty_overall": "very-low",
+  "edges": [
+    {
+      "with": "anticoagulants",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "major",
+      "mechanism": "FDA nonclinical review noted coagulation-related signals; no human interaction characterization exists.",
+      "evidence": "Potential pharmacodynamic risk inferred from preclinical regulatory review.",
+      "citations": [
+        "URL:https://www.fda.gov/media/193773/download"
+      ]
+    },
+    {
+      "with": "liver disease",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Animal repeat-dose studies had liver-associated signals; human hepatic safety is unknown.",
+      "evidence": "FDA nonclinical summary; extrapolation is precautionary.",
+      "citations": [
+        "URL:https://www.fda.gov/media/193773/download"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:38613439",
+    "URL:https://www.fda.gov/media/193773/download"
+  ]
+}

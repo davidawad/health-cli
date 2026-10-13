@@ -1,0 +1,43 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Citicholine",
+  "slug": "citicholine",
+  "aliases": [
+    "Citicholine",
+    "citicoline",
+    "cytidine diphosphate-choline",
+    "CDP-choline"
+  ],
+  "category": "nootropic",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "low",
+  "edges": [
+    {
+      "with": "levodopa",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Citicoline may increase dopaminergic effects of levodopa; monitor clinical response.",
+      "evidence": "Pharmacologic interaction described in clinical reviews.",
+      "citations": [
+        "PMID:36678257"
+      ]
+    },
+    {
+      "with": "bipolar disorder",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Potential activating effects and insomnia warrant caution; direct interaction evidence is limited.",
+      "evidence": "Precaution based on adverse effect profile.",
+      "citations": [
+        "PMID:36678257"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:27234918",
+    "PMID:36678257",
+    "PMID:39575393"
+  ]
+}

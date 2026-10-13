@@ -1,0 +1,56 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Vitamin B12",
+  "slug": "vitamin-b12",
+  "aliases": [
+    "Vitamin B12",
+    "cobalamin",
+    "cyanocobalamin",
+    "methylcobalamin",
+    "hydroxocobalamin",
+    "adenosylcobalamin"
+  ],
+  "category": "vitamin",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "high",
+  "edges": [
+    {
+      "with": "metformin",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Long-term metformin use is associated with reduced B12 status; periodic assessment may be considered in at-risk users.",
+      "evidence": "NIH ODS interaction summary.",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/"
+      ]
+    },
+    {
+      "with": "proton pump inhibitors",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Acid suppression can impair release of food-bound B12 with prolonged use.",
+      "evidence": "NIH ODS interaction summary.",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/"
+      ]
+    },
+    {
+      "with": "nitrous oxide",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "major",
+      "mechanism": "Nitrous oxide can inactivate cobalamin and precipitate neurologic problems, especially with low B12 status.",
+      "evidence": "NIH ODS clinical interaction summary.",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:40966571",
+    "PMID:42227307",
+    "URL:https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/"
+  ]
+}

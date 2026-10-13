@@ -1,0 +1,48 @@
+* Vitamin B12
+:PROPERTIES:
+:ID: supp-vitamin-b12
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: Vitamin B12 | cobalamin | cyanocobalamin | methylcobalamin | hydroxocobalamin | adenosylcobalamin
+:CATEGORY: vitamin
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Cobalamin forms include cyanocobalamin, methylcobalamin, adenosylcobalamin and hydroxocobalamin. Supplements and fortified foods are important sources for people with low animal-food intake or impaired absorption. [URL:https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/]
+
+** Mechanisms
+- B12 is a cofactor for methionine synthase and methylmalonyl-CoA mutase, supporting DNA synthesis, red-cell formation and neurologic function. [URL:https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/]
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---|---|---|---|---|---|
+| Confirmed deficiency | Clinical replacement evidence | benefit | Prevents/treats megaloblastic anemia and neurologic manifestations | high | URL:https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/ |
+| Cognition in nondeficient older adults | Systematic review/meta-analysis | very small benefit or null | 2025 meta-analysis reports a very small pooled benefit across B vitamins; not B12-specific proof | moderate | PMID:40966571 |
+| Neuropathy in deficiency | Systematic review and RCT evidence | benefit | Replacement benefits clinically evident deficiency; oral and IM can both work in studied contexts | moderate | PMID:12143585 |
+| Cognitive enhancement without deficiency | RCT meta-analysis | null/uncertain | No consistent benefit established in nondeficient adults | moderate | PMID:33809274 |
+
+** Dosing in trials
+- RDA is 2.4 µg/day in adults. Deficiency treatment regimens commonly use high oral doses (e.g. 1,000–2,000 µg/day) or intramuscular therapy depending on cause/severity. [URL:https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/]
+
+** Safety & adverse effects
+- No UL established; generally low toxicity. Rare acneiform eruptions and hypersensitivity are reported. Check methylmalonic acid when serum B12 borderline and interpretation is needed. [URL:https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/]
+
+** Contraindications
+- Caution in cobalt allergy; cyanocobalamin-specific considerations may apply in rare cyanide metabolism disorders. Treat suspected neurologic deficiency promptly. [URL:https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/]
+
+** Interactions
+- Metformin and proton-pump inhibitors/H2 blockers can impair B12 status with long-term use; nitrous oxide can inactivate B12. Chloramphenicol may blunt hematologic response. [URL:https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/]
+
+** Latest research (last 24 months)
+- 2025 meta-analysis of older-adult RCTs found a very small high-certainty pooled effect of B vitamins B6/B9/B12 on global cognition; it does not establish isolated B12 benefit. [PMID:40966571]
+
+** Open questions
+- Define screening and treatment strategies for subclinical deficiency and separate benefits of repletion from supplementation in replete people.
+
+** Sources
+- NIH ODS. Vitamin B12: Health Professional Fact Sheet. [https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/]
+- Efficacy of B Vitamin Supplementation on Global Cognitive Function in Older Adults: systematic review/meta-analysis. 2025. [https://pubmed.ncbi.nlm.nih.gov/40966571/]
+- Vitamin B12 supplementation for growth, development, and cognition in children. Cochrane review. 2026. [https://pubmed.ncbi.nlm.nih.gov/42227307/]
+- Vitamin B12 supplementation and cognitive function, depressive symptoms, fatigue: systematic review/meta-analysis. [https://pubmed.ncbi.nlm.nih.gov/33809274/]

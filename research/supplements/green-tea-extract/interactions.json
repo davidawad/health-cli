@@ -1,0 +1,57 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Green Tea Extract",
+  "slug": "green-tea-extract",
+  "aliases": [
+    "green tea extract",
+    "GTE",
+    "Camellia sinensis extract",
+    "EGCG",
+    "epigallocatechin gallate"
+  ],
+  "category": "botanical",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "low",
+  "edges": [
+    {
+      "with": "nadolol",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Green tea can reduce nadolol plasma exposure, likely via intestinal uptake transport inhibition.",
+      "evidence": "Human pharmacokinetic evidence summarized in review.",
+      "citations": [
+        "PMID:32140423"
+      ]
+    },
+    {
+      "with": "iron",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Tea polyphenols reduce nonheme iron absorption when consumed together.",
+      "evidence": "Human nutrition studies summarized in NIH sources.",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/"
+      ]
+    },
+    {
+      "with": "liver disease",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "major",
+      "mechanism": "Concentrated green tea extract is associated with rare hepatocellular injury; underlying liver disease increases consequence.",
+      "evidence": "Systematic toxicology review and LiverTox.",
+      "citations": [
+        "PMID:32140423",
+        "URL:https://www.ncbi.nlm.nih.gov/books/NBK547925/"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:28927846",
+    "PMID:32140423",
+    "URL:https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+    "URL:https://www.ncbi.nlm.nih.gov/books/NBK547925/"
+  ]
+}

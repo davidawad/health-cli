@@ -1,0 +1,35 @@
+* Hyaluronic Acid
+:PROPERTIES:
+:ID: supp-hyaluronic-acid
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: HA | Hyaluronan | Sodium hyaluronate
+:CATEGORY: other
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+** Identity & forms
+- Glycosaminoglycan present in extracellular matrix; oral supplements, topical products, and prescription intra-articular formulations are distinct interventions. [PMID:40911749] [PMID:38009035]
+** Mechanisms
+- Binds water and contributes to extracellular matrix viscosity and tissue hydration; oral absorption/metabolism is not equivalent to local injection. [PMID:40911749] [PMID:38009035]
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---------+--------------------+-----------+-------------+-----------------------+-----------|
+| Skin hydration/elasticity; osteoarthritis symptoms | 2025 meta-analysis of 7 small RCTs found improvements in skin hydration, elasticity and wrinkle depth; heterogeneity and small evidence base limit certainty | Possible / uncertain | 2025 meta-analysis of 7 small RCTs found improvements in skin hydration, elasticity and wrinkle depth; heterogeneity and small evidence base limit certainty. Injectable knee OA evidence does not establish oral efficacy. | low | [PMID:40911749] [PMID:38009035] |
+** Dosing in trials
+- Oral skin trials commonly use roughly 120-240 mg/day for 4-12 weeks; products and molecular weights differ. [PMID:40911749] [PMID:38009035]
+** Safety & adverse effects
+- Oral trials report few short-term adverse events; long-term safety and source-related allergy risks poorly studied. Injection has separate local risks. [PMID:40911749] [PMID:38009035]
+** Contraindications
+- Caution with allergy to source material or product excipients; pregnancy/lactation evidence insufficient. [PMID:40911749] [PMID:38009035]
+** Interactions
+- No established oral drug interactions. Do not conflate supplement with intra-articular injection; no lab-test interference established. [PMID:40911749] [PMID:38009035]
+** Genotype notes
+- No genotype evidence identified.
+** Latest research
+- 2026-10-13 search cutoff: 2025 meta-analysis of oral HA skin RCTs reported positive pooled outcomes but called for larger robust trials [PMID:40911749]. [PMID:40911749] [PMID:38009035]
+** Open questions
+- Bioavailability, optimal molecular weight/dose, and clinical relevance of cosmetic-scale changes remain uncertain. [PMID:40911749] [PMID:38009035]
+** Sources
+- Amin et al. Oral hyaluronic acid supplement efficacy in skin hydration, elasticity, and wrinkle depth. J Drugs Dermatol. 2025;24:910-919. DOI:10.36849/jdd.8542.
+- Gao et al. Oral hyaluronic acid to improve skin conditions: randomized double-blind clinical test. Skin Res Technol. 2023;29:e13531. DOI:10.1111/srt.13531.

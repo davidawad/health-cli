@@ -1,0 +1,36 @@
+* Zeaxanthin + Lutein
+:PROPERTIES:
+:ID: supp-zeaxanthin-lutein
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: Lutein | Zeaxanthin | Macular xanthophylls
+:CATEGORY: other
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+** Identity & forms
+- Dietary carotenoid pigments concentrated in macula; commonly combined at 10 mg lutein/2 mg zeaxanthin in AREDS2. [PMID:23644932] [PMID:24310343] [PMID:10498493]
+** Mechanisms
+- Macular pigment absorbs short-wavelength light and has antioxidant activity; mechanistic plausibility does not establish benefit for people without AMD. [PMID:23644932] [PMID:24310343] [PMID:10498493]
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---------+--------------------+-----------+-------------+-----------------------+-----------|
+| Progression to late AMD in people at elevated risk | AREDS2 tested replacement of beta-carotene in an antioxidant/zinc formula; Cochrane review finds little or uncertain effect from isolated L/Z | Established benefit | AREDS2 tested replacement of beta-carotene in an antioxidant/zinc formula; Cochrane review finds little or uncertain effect from isolated L/Z. Evidence supports use only as part of studied AREDS2 formulation/population. | moderate | [PMID:23644932] [PMID:24310343] [PMID:10498493] |
+** Dosing in trials
+- AREDS2 used lutein 10 mg + zeaxanthin 2 mg daily with background AREDS formulation; take with food containing fat for absorption. [PMID:23644932] [PMID:24310343] [PMID:10498493]
+** Safety & adverse effects
+- Generally tolerated in trials; rare skin yellowing at high intake; long-term data beyond trial durations limited. [PMID:23644932] [PMID:24310343] [PMID:10498493]
+** Contraindications
+- No established absolute contraindication; smokers/former smokers should avoid beta-carotene-containing alternatives (not L/Z itself). [PMID:23644932] [PMID:24310343] [PMID:10498493]
+** Interactions
+- No established clinically important drug interactions. High-dose carotenoids can compete with other carotenoids for absorption (uncertain clinical importance). [PMID:23644932] [PMID:24310343] [PMID:10498493]
+** Genotype notes
+- No validated genotype-based selection; AREDS2 genotype subgroup claims are not sufficient for routine nutrigenomic recommendations.
+** Latest research
+- 2026-10-13 search cutoff: 2023 Cochrane update on antioxidant supplements for AMD progression included L/Z evidence and judged isolated effects uncertain [PMID:10498493]. [PMID:23644932] [PMID:24310343] [PMID:10498493]
+** Open questions
+- Whether L/Z alone prevents AMD or adds benefit beyond a complete AREDS2 regimen is unresolved. [PMID:23644932] [PMID:24310343] [PMID:10498493]
+** Sources
+- AREDS2 Research Group. Lutein + zeaxanthin and omega-3 fatty acids for AMD: the AREDS2 randomized clinical trial. JAMA. 2013;309:2005-2015. DOI:10.1001/jama.2013.4997.
+- Chew et al. Secondary analyses of lutein/zeaxanthin on AMD progression: AREDS2 report No. 3. JAMA Ophthalmol. 2014. PMID:24310343.
+- Evans & Lawrenson. Antioxidant vitamin and mineral supplements for slowing progression of age-related macular degeneration. Cochrane Database Syst Rev. PMID:10498493.

@@ -1,0 +1,18 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Nicotinamide Riboside",
+  "slug": "nicotinamide-riboside",
+  "aliases": [
+    "NR",
+    "Nicotinamide riboside",
+    "Niagen"
+  ],
+  "category": "longevity",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "low",
+  "edges": [],
+  "citations": [
+    "PMID:37971292",
+    "PMID:38016950"
+  ]
+}

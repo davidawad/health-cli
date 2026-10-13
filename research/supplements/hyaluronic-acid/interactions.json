@@ -1,0 +1,18 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Hyaluronic Acid",
+  "slug": "hyaluronic-acid",
+  "aliases": [
+    "HA",
+    "Hyaluronan",
+    "Sodium hyaluronate"
+  ],
+  "category": "other",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "low",
+  "edges": [],
+  "citations": [
+    "PMID:40911749",
+    "PMID:38009035"
+  ]
+}

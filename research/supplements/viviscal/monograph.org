@@ -1,0 +1,35 @@
+* Viviscal
+:PROPERTIES:
+:ID: supp-viviscal
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: Viviscal | AminoMar
+:CATEGORY: other
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+** Identity & forms
+- Marine protein complex supplement marketed for hair thinning; formulas vary by country and product version. [PMID:26903744] [PMID:27506633]
+** Mechanisms
+- Nutrients may support normal follicle cycling; no validated mechanism establishes benefit independent of correcting dietary insufficiency. [PMID:26903744] [PMID:27506633]
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---------+--------------------+-----------+-------------+-----------------------+-----------|
+| Subclinical hair thinning | Two small manufacturer-associated placebo-controlled trials reported improved hair counts/density over 90-180 days; independent replication and comparative efficacy are lacking | Possible / uncertain | Two small manufacturer-associated placebo-controlled trials reported improved hair counts/density over 90-180 days; independent replication and comparative efficacy are lacking. | low | [PMID:26903744] [PMID:27506633] |
+** Dosing in trials
+- Twice daily in the cited trials, for 3-6 months; trial formulation is not necessarily current retail formulation. [PMID:26903744] [PMID:27506633]
+** Safety & adverse effects
+- GI symptoms and allergy are possible; marine/fish/shellfish components create allergy concern. [PMID:26903744] [PMID:27506633]
+** Contraindications
+- Avoid with fish or shellfish allergy; pregnancy/lactation safety is not established. [PMID:26903744] [PMID:27506633]
+** Interactions
+- Potential duplicated nutrients with multivitamins; no well-established drug interactions. Marine ingredient sourcing/formula matters. [PMID:26903744] [PMID:27506633]
+** Genotype notes
+- No qualifying nutrigenomic evidence located.
+** Latest research
+- 2026-10-13 search cutoff: No robust independent human RCT or systematic review published in the last 24 months was identified in this search. [PMID:26903744] [PMID:27506633]
+** Open questions
+- Product composition, active component, and durability after discontinuation remain uncertain. [PMID:26903744] [PMID:27506633]
+** Sources
+- Park et al. A Marine Protein-based Dietary Supplement for Subclinical Hair Thinning/Loss: Results of a Multisite, Double-blind, Placebo-controlled Clinical Trial. J Clin Aesthet Dermatol. 2016. PMID:26903744.
+- Farris et al. A 6-month randomized placebo-controlled trial of a marine complex supplement for hair growth in men. J Clin Aesthet Dermatol. 2016. PMID:27506633.

@@ -1,0 +1,36 @@
+* NMN
+:PROPERTIES:
+:ID: supp-nmn
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: Nicotinamide mononucleotide
+:CATEGORY: longevity
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+** Identity & forms
+- Nicotinamide mononucleotide, an NAD+ precursor sold as a dietary supplement in some jurisdictions; regulatory status differs. [PMID:39116016] [PMID:40275690] [PMID:39221308]
+** Mechanisms
+- Converted to NAD+ through salvage metabolism; NAD change does not imply improved healthspan. [PMID:39116016] [PMID:40275690] [PMID:39221308]
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---------+--------------------+-----------+-------------+-----------------------+-----------|
+| NAD metabolites, glucose/lipid markers, physical performance | RCT meta-analyses show NMN raises NAD biomarkers, but effects on glucose/lipids and physical function are inconsistent or null; trials are small and short | Possible / uncertain | RCT meta-analyses show NMN raises NAD biomarkers, but effects on glucose/lipids and physical function are inconsistent or null; trials are small and short. | low | [PMID:39116016] [PMID:40275690] [PMID:39221308] |
+** Dosing in trials
+- Human RCTs generally use 250-1200 mg/day for 4-12 weeks; no established therapeutic dose. [PMID:39116016] [PMID:40275690] [PMID:39221308]
+** Safety & adverse effects
+- Short trials generally report tolerability, but sample sizes/duration cannot establish chronic safety. [PMID:39116016] [PMID:40275690] [PMID:39221308]
+** Contraindications
+- No established medical contraindications; insufficient pregnancy, lactation, cancer-survivor and long-term safety data. [PMID:39116016] [PMID:40275690] [PMID:39221308]
+** Interactions
+- Drug interactions are not adequately characterized; theoretical overlap with glucose-lowering/cancer therapies. [PMID:39116016] [PMID:40275690] [PMID:39221308]
+** Genotype notes
+- No validated genotype-guided selection evidence identified.
+** Latest research
+- 2026-10-13 search cutoff: 2025 meta-analysis found no significant improvement in several skeletal muscle function outcomes with NMN/NR [PMID:40275690]. [PMID:39116016] [PMID:40275690] [PMID:39221308]
+** Open questions
+- Whether biomarker elevation leads to durable clinical benefit or alters disease risk is unknown. [PMID:39116016] [PMID:40275690] [PMID:39221308]
+** Sources
+- Efficacy of oral NMN supplementation on glucose and lipid metabolism in adults: systematic review and meta-analysis. Crit Rev Food Sci Nutr. 2024. DOI:10.1080/10408398.2024.2387324.
+- The effect of nicotinamide mononucleotide and riboside on skeletal muscle mass and function: systematic review and meta-analysis. 2025. PMID:40275690.
+- Systematic review of randomized controlled trials of NMN and physical performance. PMID:39221308.

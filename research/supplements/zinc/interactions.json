@@ -1,0 +1,68 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Zinc",
+  "slug": "zinc",
+  "aliases": [
+    "Zinc",
+    "Zinc gluconate",
+    "Zinc sulfate",
+    "Zinc acetate"
+  ],
+  "category": "mineral",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "moderate",
+  "edges": [
+    {
+      "with": "quinolone antibiotics",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Chelation in gut reduces absorption of zinc and antibiotic.",
+      "evidence": "NIH ODS advises dose separation.",
+      "citations": [
+        "URL:https://ods.nih.gov/factsheets/Zinc-HealthProfessional/"
+      ]
+    },
+    {
+      "with": "tetracycline antibiotics",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Chelation in gut reduces absorption of zinc and antibiotic.",
+      "evidence": "NIH ODS advises dose separation.",
+      "citations": [
+        "URL:https://ods.nih.gov/factsheets/Zinc-HealthProfessional/"
+      ]
+    },
+    {
+      "with": "penicillamine",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Zinc reduces penicillamine absorption.",
+      "evidence": "NIH ODS interaction summary.",
+      "citations": [
+        "URL:https://ods.nih.gov/factsheets/Zinc-HealthProfessional/"
+      ]
+    },
+    {
+      "with": "Copper",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "High zinc intake induces intestinal metallothionein and reduces copper absorption.",
+      "evidence": "Established nutritional interaction.",
+      "citations": [
+        "URL:https://ods.nih.gov/factsheets/Zinc-HealthProfessional/"
+      ]
+    }
+  ],
+  "citations": [
+    "URL:https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/",
+    "PMID:23644932",
+    "URL:https://ods.nih.gov/factsheets/Zinc-HealthProfessional/",
+    "URL:https://ods.nih.gov/factsheets/Zinc-HealthProfessional/",
+    "URL:https://ods.nih.gov/factsheets/Zinc-HealthProfessional/",
+    "URL:https://ods.nih.gov/factsheets/Zinc-HealthProfessional/"
+  ]
+}

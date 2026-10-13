@@ -1,0 +1,17 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "NMN",
+  "slug": "nmn",
+  "aliases": [
+    "Nicotinamide mononucleotide"
+  ],
+  "category": "longevity",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "low",
+  "edges": [],
+  "citations": [
+    "PMID:39116016",
+    "PMID:40275690",
+    "PMID:39221308"
+  ]
+}

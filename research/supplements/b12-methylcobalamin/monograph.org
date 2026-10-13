@@ -1,0 +1,35 @@
+* B12 methylcobalamin
+:PROPERTIES:
+:ID: supp-b12-methylcobalamin
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: Vitamin B12 | Cobalamin | Methylcobalamin
+:CATEGORY: vitamin
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+** Identity & forms
+- Methylcobalamin is one supplemental form of vitamin B12; other forms include cyanocobalamin, hydroxocobalamin and adenosylcobalamin. [URL:https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/] [PMID:28223907]
+** Mechanisms
+- B12 cofactor for methionine synthase and methylmalonyl-CoA mutase; deficiency causes megaloblastic anemia and neurologic injury. [URL:https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/] [PMID:28223907]
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---------+--------------------+-----------+-------------+-----------------------+-----------|
+| Correction of B12 deficiency; cognition in replete adults | B12 replacement treats deficiency; oral high-dose therapy can normalize status in many patients | Established benefit | B12 replacement treats deficiency; oral high-dose therapy can normalize status in many patients. No consistent cognitive benefit in B12-replete people. A comparative forms review found all forms converted to intracellular active forms. | moderate | [URL:https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/] [PMID:28223907] |
+** Dosing in trials
+- Oral treatment trials often use 1000-2000 mcg/day; route/dose depend on cause, severity and absorption. No evidence methylcobalamin is generally superior. [URL:https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/] [PMID:28223907]
+** Safety & adverse effects
+- Usually well tolerated; injection reactions uncommon. High-dose chronic use is not known to cause toxicity, but unnecessary supplementation has no proven benefit. [URL:https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/] [PMID:28223907]
+** Contraindications
+- Hypersensitivity to cobalt/cobalamin; evaluate optic neuropathy/leber hereditary optic neuropathy risk with high-dose B12. Do not treat folate alone when B12 deficiency possible. [URL:https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/] [PMID:28223907]
+** Interactions
+- Metformin and proton-pump inhibitors can contribute to low B12 status; chloramphenicol may blunt hematologic response. Nitrous oxide inactivates B12. MMA interpretation affected by renal impairment. [URL:https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/] [PMID:28223907]
+** Genotype notes
+- A review of B12 forms/genetic variants found no evidence that common SNPs establish a need for methylcobalamin over other forms [PMID:28223907].
+** Latest research
+- 2026-10-13 search cutoff: NIH ODS fact sheet covers deficiency risk, biomarkers and medication interactions [URL:https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/]. [URL:https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/] [PMID:28223907]
+** Open questions
+- Best biomarkers in borderline status and comparative clinical outcomes among oral forms need further trials. [URL:https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/] [PMID:28223907]
+** Sources
+- NIH ODS. Vitamin B12: Health Professional Fact Sheet. https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/
+- Obeid et al. Comparative bioavailability and utilization of particular forms of B12 supplements. PMID:28223907.

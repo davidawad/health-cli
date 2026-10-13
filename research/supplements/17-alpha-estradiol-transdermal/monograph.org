@@ -1,0 +1,34 @@
+* 17α-E2 (transdermal)
+:PROPERTIES:
+:ID: supp-17-alpha-estradiol-transdermal
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: 17α-estradiol | Alfatradiol | 17-alpha-estradiol
+:CATEGORY: hormone
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+** Identity & forms
+- 17α-estradiol (alfatradiol) is a stereoisomer distinct from 17β-estradiol; topical scalp solutions are marketed in some countries. “Transdermal” preparations and compounded systemic products are not interchangeable. [PMID:22879713]
+** Mechanisms
+- Proposed local effects include inhibition of 5α-reductase and altered androgen metabolism; receptor potency and systemic estrogenic action differ from 17β-estradiol. [PMID:22879713]
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---------+--------------------+-----------+-------------+-----------------------+-----------|
+| Female pattern hair loss | One 8-month open-label, uncontrolled study (53 women) reported hair count/diameter increases; absence of control and small sample create very-low certainty | Possible / uncertain | One 8-month open-label, uncontrolled study (53 women) reported hair count/diameter increases; absence of control and small sample create very-low certainty. Evidence does not establish systemic transdermal use for aging or longevity. | very-low | [PMID:22879713] |
+** Dosing in trials
+- Study used topical scalp 0.025% solution once daily for 8 months [PMID:22879713]. [PMID:22879713]
+** Safety & adverse effects
+- Local itching/irritation; systemic exposure and reproductive/endocrine safety depend on formulation/site/dose and are inadequately characterized. [PMID:22879713]
+** Contraindications
+- Avoid use in pregnancy; systemic estrogen-sensitive conditions require clinician evaluation. No established safety for compounded systemic/transdermal use. [PMID:22879713]
+** Interactions
+- No controlled interaction studies; potential additive hormonal effects with other estrogenic/antiandrogenic drugs are theoretical. [PMID:22879713]
+** Genotype notes
+- No genotype evidence identified.
+** Latest research
+- 2026-10-13 search cutoff: No high-quality recent controlled trial identified in the last 24 months. [PMID:22879713]
+** Open questions
+- Systemic absorption, efficacy by sex, and whether topical findings translate to transdermal systemic delivery are unknown. [PMID:22879713]
+** Sources
+- Kim et al. Efficacy and safety of topical 17α-estradiol solution on female pattern hair loss: phase IV study. PMID:22879713.

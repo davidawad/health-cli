@@ -1,0 +1,55 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "B12 methylcobalamin",
+  "slug": "b12-methylcobalamin",
+  "aliases": [
+    "Vitamin B12",
+    "Cobalamin",
+    "Methylcobalamin"
+  ],
+  "category": "vitamin",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "moderate",
+  "edges": [
+    {
+      "with": "metformin",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Long-term metformin can reduce B12 status.",
+      "evidence": "NIH ODS fact sheet describes lower B12 status with metformin.",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/"
+      ]
+    },
+    {
+      "with": "proton pump inhibitors",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Reduced gastric acid may impair food-bound B12 release.",
+      "evidence": "NIH ODS fact sheet identifies chronic acid suppression as a risk.",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/"
+      ]
+    },
+    {
+      "with": "nitrous oxide",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Oxidizes and functionally inactivates cobalamin.",
+      "evidence": "NIH ODS fact sheet discusses nitrous oxide-associated deficiency.",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/"
+      ]
+    }
+  ],
+  "citations": [
+    "URL:https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
+    "PMID:28223907",
+    "URL:https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
+    "URL:https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
+    "URL:https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/"
+  ]
+}

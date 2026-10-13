@@ -1,0 +1,34 @@
+* L-Tyrosine
+:PROPERTIES:
+:ID: supp-l-tyrosine
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: Tyrosine | L-Tyrosine
+:CATEGORY: amino-acid
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+** Identity & forms
+- Conditionally essential aromatic amino acid found in foods and supplement powders/capsules. [PMID:26126245]
+** Mechanisms
+- Precursor to dopamine, norepinephrine, epinephrine, and thyroid hormones; conversion depends on enzyme activity and substrate availability. [PMID:26126245]
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---------+--------------------+-----------+-------------+-----------------------+-----------|
+| Cognitive performance under acute stress | Rapid evidence assessment included 10 RCTs and 4 controlled studies; evidence was insufficient for confident recommendations, with heterogeneous small experiments | Possible / uncertain | Rapid evidence assessment included 10 RCTs and 4 controlled studies; evidence was insufficient for confident recommendations, with heterogeneous small experiments. | low | [PMID:26126245] |
+** Dosing in trials
+- Acute studies commonly used 100-150 mg/kg or fixed gram doses before cold, sleep deprivation, or cognitive stress; no chronic dose established. [PMID:26126245]
+** Safety & adverse effects
+- Possible nausea, headache, restlessness; safety data for prolonged high-dose use limited. [PMID:26126245]
+** Contraindications
+- Avoid unsupervised use with hyperthyroidism or thyroid hormone treatment; phenylketonuria management is specialist-led. [PMID:26126245]
+** Interactions
+- Potential additive effects with levodopa and thyroid hormone; monoamine oxidase inhibitor interaction concerns lack robust supplement trial data. Separate from levodopa per drug-specific advice. [PMID:26126245]
+** Genotype notes
+- No genotype-based supplementation evidence located.
+** Latest research
+- 2026-10-13 search cutoff: No compelling new large human efficacy trial identified in the last 24 months; 2015 evidence assessment remains a key synthesis [PMID:26126245]. [PMID:26126245]
+** Open questions
+- Which stress contexts, if any, produce reproducible benefit remains unclear. [PMID:26126245]
+** Sources
+- Banderet et al. Tyrosine for mitigating stress and enhancing performance in healthy adults: rapid evidence assessment. PMID:26126245.

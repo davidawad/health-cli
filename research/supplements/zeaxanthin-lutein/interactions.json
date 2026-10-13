@@ -1,0 +1,19 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Zeaxanthin + Lutein",
+  "slug": "zeaxanthin-lutein",
+  "aliases": [
+    "Lutein",
+    "Zeaxanthin",
+    "Macular xanthophylls"
+  ],
+  "category": "other",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "moderate",
+  "edges": [],
+  "citations": [
+    "PMID:23644932",
+    "PMID:24310343",
+    "PMID:10498493"
+  ]
+}

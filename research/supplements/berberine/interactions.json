@@ -4,63 +4,328 @@
   "slug": "berberine",
   "aliases": [
     "berberine hydrochloride",
-    "Berberis alkaloid"
+    "berberine chloride",
+    "BBR",
+    "Berberis alkaloid",
+    "Coptis chinensis alkaloid",
+    "Huanglian",
+    "goldenseal alkaloid",
+    "dihydroberberine",
+    "berberine ursodeoxycholate (HTD1801)"
   ],
   "category": "botanical",
   "rx_status": "otc",
-  "evidence_certainty_overall": "low",
+  "evidence_certainty_overall": "moderate",
   "edges": [
     {
+      "with": "cyclosporine",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "major",
+      "mechanism": "Berberine inhibits CYP3A4 (and intestinal P-gp), raising cyclosporine exposure: trough +29.3% vs controls, AUC +34.5%, Cmin +88.3%, CL/F -40.4% in renal-transplant recipients.",
+      "evidence": "Human RCT (n=104) plus PK substudy (n=6); rat P-gp data; DDI review names it the clinical anchor interaction",
+      "citations": [
+        "PMID:16133554",
+        "PMID:19370549",
+        "PMID:42653808"
+      ]
+    },
+    {
+      "with": "Rapamycin",
       "with_kind": "supplement",
       "kind": "caution",
       "severity": "moderate",
-      "mechanism": "Potential additive glucose lowering; no direct combination safety trial found.",
-      "evidence": "Limited or mechanistic evidence; no direct clinically decisive interaction trial identified.",
+      "mechanism": "Sirolimus is a narrow-therapeutic-index CYP3A4/P-gp substrate; berberine inhibits CYP3A4 in humans (midazolam AUC +40%) and P-gp in rats, so sirolimus levels may rise.",
+      "evidence": "Inferred from human CYP3A4 probe study and cyclosporine data; no direct sirolimus study; low certainty",
       "citations": [
-        "PMID:40269802",
-        "PMID:39478418"
-      ],
-      "with": "Curcumin"
+        "PMID:21870106",
+        "PMID:16133554",
+        "PMID:19370549",
+        "PMID:42653808"
+      ]
     },
     {
-      "with_kind": "supplement",
+      "with": "tacrolimus",
+      "with_kind": "drug",
       "kind": "caution",
-      "severity": "minor",
-      "mechanism": "No established direct interaction; gastrointestinal intolerance may overlap.",
-      "evidence": "Limited or mechanistic evidence; no direct clinically decisive interaction trial identified.",
+      "severity": "moderate",
+      "mechanism": "CYP3A4/P-gp substrate with narrow therapeutic index; berberine CYP3A4 inhibition expected to raise levels.",
+      "evidence": "Inferred from human CYP3A4 and cyclosporine data; review flags immunosuppressants as high-risk victims; no direct study",
       "citations": [
-        "PMID:40269802",
-        "URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
-      ],
-      "with": "Magnesium"
+        "PMID:21870106",
+        "PMID:16133554",
+        "PMID:42653808"
+      ]
     },
     {
+      "with": "CYP3A4 substrates",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Berberine 300 mg three times daily for 2 wk raised midazolam AUC 40%, Cmax 38%, and cut oral clearance 27%; goldenseal raised midazolam AUC GMR 1.43.",
+      "evidence": "Human randomized crossover PK study; goldenseal cocktail study",
+      "citations": [
+        "PMID:21870106",
+        "PMID:33174626",
+        "PMID:39141022"
+      ]
+    },
+    {
+      "with": "CYP2D6 substrates",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Quasi-irreversible CYP2D6 inhibition: urinary dextromethorphan/dextrorphan ratio rose 9-fold; nebivolol clearance reduced in microsomes.",
+      "evidence": "Human PK study plus human liver microsome kinetics",
+      "citations": [
+        "PMID:21870106",
+        "PMID:32987920",
+        "PMID:39141022"
+      ]
+    },
+    {
+      "with": "CYP2C9 substrates",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "CYP2C9 inhibition: losartan/E-3174 ratio doubled after 2 wk berberine 900 mg/d.",
+      "evidence": "Human randomized crossover PK study",
+      "citations": [
+        "PMID:21870106"
+      ]
+    },
+    {
+      "with": "P-glycoprotein substrates (e.g. digoxin)",
       "with_kind": "drug-class",
       "kind": "monitor",
-      "severity": "minor",
-      "mechanism": "Potential additive glucose-lowering effect; trials include combination regimens but interaction safety remains uncertain.",
-      "evidence": "Human trial/review evidence or official fact sheet; clinical context and dose matter.",
+      "severity": "moderate",
+      "mechanism": "Intestinal P-gp inhibition increased oral digoxin AUC 23-70% and cyclosporine AUC 62-96% in rats.",
+      "evidence": "Animal PK; human data only for cyclosporine",
       "citations": [
-        "PMID:39640489"
-      ],
-      "with": "glucose-lowering drugs"
+        "PMID:19370549",
+        "PMID:42653808"
+      ]
     },
     {
-      "with_kind": "condition",
-      "kind": "avoid",
+      "with": "Metformin ER",
+      "with_kind": "supplement",
+      "kind": "monitor",
       "severity": "moderate",
-      "mechanism": "Avoid because neonatal bilirubin displacement and safety concerns are noted in clinical reviews.",
-      "evidence": "Human trial/review evidence or official fact sheet; clinical context and dose matter.",
+      "mechanism": "Additive glucose lowering (berberine with hypoglycemics: HbA1c MD -0.69%); goldenseal (berberine-rich) lowered metformin AUC 23% in healthy adults but not meaningfully in T2D (GMR 0.93).",
+      "evidence": "MA of RCTs; human PK studies with goldenseal (not purified berberine); hypoglycemia not significantly increased in MA",
       "citations": [
-        "PMID:40269802"
-      ],
-      "with": "pregnancy"
+        "PMID:39640489",
+        "PMID:33174626",
+        "PMID:39943692",
+        "PMID:36467075"
+      ]
+    },
+    {
+      "with": "Acarbose",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Additive glucose lowering with oral hypoglycemics; shared alpha-glucosidase target suggested only computationally (weaker binding than acarbose).",
+      "evidence": "MA of combination RCTs; in-silico docking; no direct combination study",
+      "citations": [
+        "PMID:39640489",
+        "PMID:42213651",
+        "PMID:36467075"
+      ]
+    },
+    {
+      "with": "glucose-lowering drugs (insulin, sulfonylureas)",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Pharmacodynamic additivity; reviews list hypoglycemia as an interaction axis although MA found no significant hypoglycemia increase (RR 0.48, CI 0.21-1.08).",
+      "evidence": "MAs of RCTs; narrative DDI review",
+      "citations": [
+        "PMID:36467075",
+        "PMID:39640489",
+        "PMID:42653808"
+      ]
+    },
+    {
+      "with": "statins",
+      "with_kind": "drug-class",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Complementary LDLR mRNA stabilization mechanism; berberine+simvastatin lowered TG and TC more than simvastatin alone; no PK interaction with simvastatin in healthy subjects.",
+      "evidence": "MA of 11 RCTs; open-label randomized PK study (n=60); mechanistic study",
+      "citations": [
+        "PMID:31094214",
+        "PMID:30587933",
+        "PMID:15531889"
+      ]
+    },
+    {
+      "with": "Yeast Rice + Garlic",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Additive LDL lowering: berberine+red yeast rice combinations lowered LDL ~19-27 mg/dL; garlic also lowers LDL. Theoretical rise in monacolin K (CYP3A4 substrate) exposure via berberine CYP3A4 inhibition.",
+      "evidence": "MAs of combination RCTs and nutraceutical NMA; CYP3A4 point is inferred, not studied",
+      "citations": [
+        "PMID:37183391",
+        "PMID:33669333",
+        "PMID:19699071",
+        "PMID:35988871",
+        "PMID:21870106"
+      ]
+    },
+    {
+      "with": "Garlic",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Both lower LDL-C vs placebo in a network meta-analysis; additive lipid lowering plausible.",
+      "evidence": "Indirect NMA evidence; no combination trial",
+      "citations": [
+        "PMID:35988871"
+      ]
+    },
+    {
+      "with": "QT-prolonging drugs",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Case of QT prolongation and torsades de pointes with cardiac arrest attributed to berberine; QT prolongation listed as a pharmacodynamic interaction axis.",
+      "evidence": "Single case report plus narrative review; very low certainty",
+      "citations": [
+        "PMID:42488242",
+        "PMID:42653808"
+      ]
+    },
+    {
+      "with": "pregnancy",
+      "with_kind": "condition",
+      "kind": "contraindicated",
+      "severity": "major",
+      "mechanism": "Berberine displaces bilirubin from albumin (~10x phenylbutazone) and raised unbound bilirubin in rats; kernicterus risk for the fetus/newborn; NCCIH advises against goldenseal in pregnancy.",
+      "evidence": "In vitro/animal data and official guidance; no human pregnancy safety data",
+      "citations": [
+        "PMID:8513024",
+        "URL:https://www.nccih.nih.gov/health/goldenseal"
+      ]
+    },
+    {
+      "with": "breastfeeding",
+      "with_kind": "condition",
+      "kind": "contraindicated",
+      "severity": "major",
+      "mechanism": "Bilirubin displacement risk to the nursing neonate; milk transfer unknown; LactMed and NCCIH recommend avoidance.",
+      "evidence": "Official guidance (LactMed, NCCIH) based on mechanistic data",
+      "citations": [
+        "PMID:30000926",
+        "PMID:8513024",
+        "URL:https://www.nccih.nih.gov/health/goldenseal"
+      ]
+    },
+    {
+      "with": "neonatal jaundice",
+      "with_kind": "condition",
+      "kind": "contraindicated",
+      "severity": "major",
+      "mechanism": "Displaces bilirubin from albumin, increasing unbound bilirubin and kernicterus risk in jaundiced newborns.",
+      "evidence": "In vitro and rat data; reported kernicterus concern with huanglian in jaundiced infants",
+      "citations": [
+        "PMID:8513024",
+        "PMID:30000926"
+      ]
+    },
+    {
+      "with": "organ transplant (immunosuppressant therapy)",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "major",
+      "mechanism": "Raises calcineurin-inhibitor exposure through CYP3A4/P-gp inhibition; requires drug-level monitoring.",
+      "evidence": "Human RCT in renal-transplant recipients",
+      "citations": [
+        "PMID:16133554",
+        "PMID:42653808"
+      ]
+    },
+    {
+      "with": "serum bilirubin",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Physiological (not analytical) effect: displacement from albumin raises unbound and total bilirubin in rats.",
+      "evidence": "Animal and in vitro data",
+      "citations": [
+        "PMID:8513024"
+      ]
+    },
+    {
+      "with": "immunosuppressant drug levels (cyclosporine trough)",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Trough cyclosporine rises with berberine co-administration; true pharmacokinetic effect, not assay interference.",
+      "evidence": "Human RCT",
+      "citations": [
+        "PMID:16133554"
+      ]
     }
   ],
   "citations": [
-    "PMID:40269802",
+    "PMID:42653808",
+    "PMID:8513024",
     "PMID:39640489",
-    "PMID:39478418",
-    "URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
+    "PMID:36941490",
+    "PMID:36221815",
+    "PMID:24593257",
+    "PMID:21787170",
+    "PMID:35010998",
+    "PMID:40278369",
+    "PMID:40029660",
+    "PMID:33174626",
+    "PMID:16873688",
+    "PMID:36467075",
+    "PMID:33024120",
+    "PMID:42356246",
+    "PMID:15531889",
+    "PMID:37183391",
+    "PMID:42213651",
+    "PMID:42470424",
+    "PMID:41882153",
+    "PMID:21870106",
+    "PMID:32987920",
+    "PMID:19370549",
+    "PMID:39141022",
+    "PMID:18397984",
+    "PMID:37598753",
+    "PMID:18442638",
+    "PMID:40740996",
+    "PMID:41310257",
+    "PMID:32379652",
+    "PMID:41543854",
+    "PMID:38429794",
+    "PMID:40949129",
+    "PMID:39236662",
+    "PMID:32811221",
+    "PMID:31926918",
+    "PMID:40795846",
+    "PMID:34509605",
+    "PMID:32116685",
+    "PMID:42433212",
+    "PMID:40269802",
+    "PMID:36999891",
+    "PMID:41305635",
+    "PMID:19699071",
+    "PMID:39998703",
+    "PMID:42738972",
+    "PMID:42488242",
+    "PMID:29808929",
+    "PMID:30000926",
+    "PMID:16133554",
+    "PMID:39943692",
+    "PMID:30587933",
+    "PMID:31094214",
+    "PMID:33669333",
+    "PMID:35988871",
+    "PMID:40439602",
+    "URL:https://www.nccih.nih.gov/health/goldenseal"
   ]
 }

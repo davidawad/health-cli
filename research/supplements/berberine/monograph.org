@@ -3,50 +3,218 @@
 :ID: supp-berberine
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: berberine hydrochloride | Berberis alkaloid
+:ALIASES: berberine hydrochloride | berberine chloride | BBR | Berberis alkaloid | Coptis chinensis alkaloid | Huanglian | goldenseal alkaloid | dihydroberberine | berberine ursodeoxycholate (HTD1801)
 :CATEGORY: botanical
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Berberine is represented by these commonly studied or marketed forms: berberine hydrochloride, Berberis alkaloid. Clinical products and formulations can differ in composition and bioavailability; this limits cross-trial comparisons [PMID:40269802, PMID:39640489].
+- Berberine is an isoquinoline alkaloid found in Berberis spp. (barberry), Coptis chinensis (huanglian) and Hydrastis canadensis (goldenseal) [PMID:42653808] [PMID:8513024]. It is sold as a metabolic-health supplement, sometimes marketed as "nature's Ozempic" [PMID:42653808].
+- Most trials use purified berberine hydrochloride or chloride at 0.9-1.5 g/d [PMID:39640489] [PMID:36941490].
+- Oral bioavailability is very low: under 1% [PMID:36221815], and 0.68% in rats, with low ng/mL plasma levels in humans [PMID:42653808]. The main circulating metabolite in humans is berberrubine, which is more lipophilic and better absorbed than berberine itself [PMID:24593257].
+- Elimination: fecal excretion (11-23%) exceeds urinary and biliary excretion of the parent compound [PMID:36221815]. CYP2D6 is the main human CYP forming its unconjugated metabolites, followed by CYP1A2, 3A4, 2E1 and 2C19 [PMID:21787170].
+- Enhanced-absorption forms:
+  - Dihydroberberine: 100 mg gave a higher plasma berberine Cmax than 500 mg berberine (3.76 vs 0.4 ng/mL) in a 5-person crossover pilot [PMID:35010998].
+  - Micellar berberine (LipoMicel): 1000 mg/d for 30 days showed no safety-marker changes (n=19) [PMID:40278369].
+  - Berberine ursodeoxycholate (HTD1801): an investigational salt studied as a drug in phase 2 trials [PMID:40029660].
+- Goldenseal products contain berberine plus other alkaloids, so goldenseal interaction data are only partly transferable to purified berberine [PMID:33174626] [URL:https://www.nccih.nih.gov/health/goldenseal].
 
 ** Mechanisms
-- Proposed mechanisms are outcome- and formulation-dependent; mechanistic plausibility does not establish clinical efficacy. Human evidence is summarized below [PMID:40269802, PMID:39640489].
+- AMPK activation: in cells and rodents, berberine activated AMPK, increased GLUT4 translocation and lowered lipogenic gene expression [PMID:16873688].
+- Glucose-dependent insulinotropic effect: berberine is proposed to inhibit beta-cell voltage-gated K+ channels and lower glucose mainly under hyperglycemic conditions [PMID:36467075].
+- Gut microbiome: in the PREMOTE RCT, the glucose-lowering effect was linked to inhibited deoxycholic acid biotransformation by Ruminococcus bromii [PMID:33024120]. A 2026 systematic review of 7 RCTs found consistent shifts in microbiota composition, not all of them favorable (e.g. depletion of butyrate producers) [PMID:42356246].
+- LDL receptor upregulation: berberine stabilizes LDLR mRNA through an ERK-dependent, SREBP-independent mechanism that differs from statins [PMID:15531889]. It is also described as a natural PCSK9 inhibitor [PMID:37183391].
+- Alpha-glucosidase: computational docking showed weaker binding than acarbose (exploratory only) [PMID:42213651].
+- Sex hormones: lowered total testosterone in women (-0.42 SD) and raised it in men (+0.43 SD) in paired RCTs [PMID:42470424]. A proteomic and sex-hormone "berberine signature" was associated with lower ischemic heart disease and diabetes risk in Mendelian randomization [PMID:41882153].
+- Drug-metabolism liability:
+  - In humans, 300 mg three times daily for 2 weeks inhibited CYP3A4, CYP2D6 and CYP2C9 [PMID:21870106].
+  - CYP2D6 inhibition is quasi-irreversible, through a metabolite-intermediate complex [PMID:32987920].
+  - Berberine inhibits intestinal P-gp in rats [PMID:19370549].
+  - Reviews add OCT1/2 and MATE1 effects, possible CYP3A4 induction, and pharmacodynamic axes: hypoglycemia, hypotension and QT prolongation [PMID:42653808] [PMID:39141022].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---|---|---|---|---|---|
-| Glycemic and lipid surrogate markers may improve, particularly in type 2 diabetes/metabolic syndrome | Systematic review/meta-analysis or human trial synthesis | Mixed/possible benefit; no established clinical disease prevention | See evidence summary below; pooled estimates vary by outcome and population | low | PMID:40269802, PMID:39640489 |
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| HbA1c / fasting glucose in T2D | SR/MA of RCTs (37 RCTs, n=3048; 50 RCTs, n=4150); large RCT (PREMOTE, n=409) | Benefit | FPG WMD -0.82 mmol/L (CI -0.95 to -0.70); HbA1c -0.63% (CI -0.72 to -0.53); PREMOTE HbA1c -0.99% vs -0.59% placebo | moderate | [PMID:36467075] [PMID:39640489] [PMID:33024120] [PMID:18397984] |
+| Glycemic traits vs placebo (mixed populations) | SR/MA of placebo-controlled RCTs (20 RCTs, n=1761) | Benefit | FPG -0.52 mmol/L (CI -0.72 to -0.33); HbA1c -4.48 mmol/mol; HOMA-IR -0.85; larger in women, diabetes and Asians | moderate | [PMID:37598753] |
+| Glycemia vs metformin | Small RCT (n=36) | Similar to metformin 1.5 g/d | HbA1c 9.5% to 7.5% over 3 months | low | [PMID:18442638] |
+| LDL-C / TC / TG | SR/MA of placebo RCTs (18 RCTs, n=1788); MA of 41 RCTs (n=4838) | Benefit | LDL-C -0.46 mmol/L (CI -0.62 to -0.30); TG -0.34 mmol/L; apoB -0.25 g/L; HDL +0.06 mmol/L (women only) | moderate | [PMID:36941490] [PMID:37183391] [PMID:42470424] |
+| Lp(a), apoB | Paired RCTs (100 women, 84 men; 500 mg twice daily, 12 wk) | Benefit, larger in women | apoB -1.18 SD (CI -1.53 to -0.82); Lp(a) -0.71 SD (CI -1.12 to -0.31) | low | [PMID:42470424] |
+| Metabolic syndrome components | SR/MA of placebo RCTs | Benefit for TG, FPG, WC; none for HDL or BP | TG -0.37 mmol/L; WC -3.27 cm (CI -4.82 to -1.72); SBP/DBP not significant | moderate | [PMID:40740996] |
+| Body weight / BMI | SR/MA (23 studies; 10-study dose-response MA) | Small benefit | Weight -0.88 kg (CI -1.36 to -0.39); BMI -0.48 kg/m2; WHR not significant. Earlier MA: weight not significant | low | [PMID:41310257] [PMID:32379652] |
+| Visceral fat / liver fat (MASLD, no diabetes) | Multicenter RCT (n=337, 1 g/d, 6 months) | No effect | VAT +1.4% (97.5% CI -2.4 to 5.2); liver fat +0.9% (NS); LDL-C -7.72 mg/dL | moderate | [PMID:41543854] |
+| NAFLD liver enzymes | SR/MA (10 RCTs, n=811) | Benefit on surrogates | ALT SMD -0.72 (CI -1.01 to -0.44); AST SMD -0.79; HOMA-IR SMD -1.56 | low | [PMID:38429794] [PMID:40949129] |
+| PCOS (fertility, as adjuvant) | SR/MA (10 RCTs, n=713), mostly Chinese adjuvant trials | Benefit | Ovulation RR 1.41 (CI 1.26-1.60); clinical pregnancy RR 1.96 (CI 1.59-2.41); total testosterone SMD -0.70 | low | [PMID:39236662] [PMID:32811221] |
+| Colorectal adenoma recurrence after polypectomy | Multicenter double-blind RCT (n=1108); 6-y follow-up; MA of 3 RCTs | Benefit | Recurrence 36% vs 47%, RR 0.77 (CI 0.66-0.91); 34.7% vs 52.1% at 6 y | moderate | [PMID:31926918] [PMID:40795846] [PMID:34509605] |
+| H. pylori eradication (added to triple therapy) | SR/MA (13 RCTs, China) | Benefit | Eradication RR 1.22 (CI 1.16-1.27) | low | [PMID:32116685] |
+| Metabolic syndrome in schizophrenia (adjunct) | SR/MA (3 RCTs, n=233) | Benefit | Weight SMD -0.56; FPG MD -0.30; HbA1c NS | very low | [PMID:42433212] |
+| Hard outcomes (CV events, mortality, diabetes complications) | None | Unknown | No outcome trials | very low | [PMID:40269802] |
 
-- Overview of 54 systematic reviews assessed berberine across multiple conditions; methodological quality and certainty varied, with many reviews low/critically low quality [PMID:40269802]. Diabetes meta-analysis found improvements in glycemic markers, but substantial heterogeneity and variable co-interventions limit inference [PMID:39640489].
-- Glycemic and lipid surrogate markers may improve, particularly in type 2 diabetes/metabolic syndrome; evidence does not establish prevention of complications or equivalence to standard medicines [PMID:40269802, PMID:39640489].
+- Overall evidence quality: an overview of 54 SRs rated only 1 as high quality by AMSTAR-2 (45 critically low or very low). Of the GRADE-rated outcomes, 8 were high, 22 moderate and 110 low [PMID:40269802]. An earlier umbrella review called for better-quality RCTs [PMID:36999891]. Most trials were done in China, and many are short (1-3 months) [PMID:39640489] [PMID:36941490].
 
 ** Dosing in trials
-- Trials frequently use 0.9–1.5 g/day divided into 2–3 doses for 8–24 weeks, often berberine hydrochloride; formulations vary [PMID:39640489].
+- Glucose/lipids: 0.9-1.5 g/d in 2-3 divided doses for 1-3 months is typical [PMID:39640489] [PMID:36941490]. Examples:
+  - 0.5 g three times daily vs metformin [PMID:18442638].
+  - 1.0 g/d vs placebo in T2D with dyslipidemia [PMID:18397984].
+  - 500 mg twice daily for 12 weeks in the sex-specific lipid RCTs [PMID:42470424].
+- MASLD/obesity: 1 g/d for 6 months [PMID:41543854]; 1500 mg/d for 12 weeks in MAFLD [PMID:41305635].
+- Colorectal adenoma prevention: 0.3 g twice daily for 2 years [PMID:31926918].
+- Combinations used in trials: berberine 500 mg + red yeast rice 200 mg + policosanol 10 mg [PMID:19699071]; berberine 1200 mg + cinnamon 600 mg [PMID:39998703]; berberine 1000 mg + white mulberry + chromium [PMID:42738972].
+- HTD1801 (berberine ursodeoxycholate): 500 or 1000 mg twice daily lowered HbA1c by 0.4% and 0.7% vs placebo [PMID:40029660].
+- Short-term safety only: the longest randomized exposure is 2 years (adenoma trial) [PMID:31926918].
 
 ** Safety & adverse effects
-- GI effects (constipation, diarrhea, nausea, abdominal discomfort) are common; short trials provide limited long-term safety evidence [PMID:40269802].
+- Gastrointestinal: the most common AEs are constipation, diarrhea, nausea and abdominal discomfort.
+  - GI AEs occurred in 2-23% on berberine vs 2-15% on placebo across 12 RCTs; no serious AEs [PMID:36941490].
+  - Transient GI AEs affected 34.5% in an open diabetes study [PMID:18442638].
+  - In PREMOTE, berberine caused more GI side effects than placebo [PMID:33024120].
+  - In the adenoma trial, constipation was most common (1% vs <0.5%), with no serious AEs [PMID:31926918]. A meta-analysis of 3 adenoma RCTs found more AEs with berberine (RR 2.91, CI 1.24-6.85), mainly constipation that resolved after stopping [PMID:34509605].
+- Placebo-controlled metabolic MAs found no significant difference in overall AEs vs placebo [PMID:40740996]. Hypoglycemia was not significantly increased, alone or with oral hypoglycemics (RR 0.48, CI 0.21-1.08) [PMID:36467075].
+- Liver/kidney: no hepatic or renal damage in early diabetes trials [PMID:18442638]. Liver enzymes fell in NAFLD MAs [PMID:38429794]. Safety markers did not change with a micellar form over 30 days [PMID:40278369]. The 6-month MASLD RCT showed similar AE rates to placebo [PMID:41543854].
+- QT prolongation / torsades de pointes: a 2026 case report described a 36-year-old woman with prolonged QT and cardiac arrest from TdP after months of online-purchased berberine. The ECG normalized after stopping [PMID:42488242]. Reviews list QT prolongation as a pharmacodynamic interaction axis [PMID:42653808].
+- Skin: a case of symmetrical drug-related intertriginous and flexural exanthema (SDRIFE) attributed to berberine [PMID:29808929].
+- Neonatal kernicterus risk:
+  - On a molar basis, berberine displaced bilirubin from albumin about 10-fold more potently than phenylbutazone in vitro.
+  - In rats it raised unbound and total bilirubin.
+  - The author advised avoiding it in jaundiced neonates and pregnant women [PMID:8513024].
+- Product quality: unstandardized products and national limits that differ more than 10-fold across Europe add exposure uncertainty [PMID:42653808].
 
 ** Contraindications
-- Avoid in pregnancy, breastfeeding and neonates because of bilirubin displacement/kernicterus concern; use particular caution in hepatic disease [PMID:40269802].
+- Pregnancy: berberine displaces bilirubin [PMID:8513024]. NCCIH advises that pregnant or breastfeeding women should not use goldenseal and that its berberine constituent can harm newborns [URL:https://www.nccih.nih.gov/health/goldenseal].
+- Breastfeeding: there are no milk-transfer data. LactMed notes bilirubin-displacement concern and that most sources recommend avoiding neonatal exposure [PMID:30000926].
+- Neonates and infants, especially if jaundiced: kernicterus risk [PMID:8513024] [PMID:30000926].
+- Transplant recipients on cyclosporine, tacrolimus or sirolimus without level monitoring: berberine raised cyclosporine levels [PMID:16133554]. See Interactions.
+- Long QT or QT-prolonging therapy: case of TdP [PMID:42488242] (single report; caution rather than absolute).
 
 ** Interactions
-- May add to glucose-lowering therapy; human PK evidence indicates effects on CYP enzymes and P-glycoprotein, so interactions with narrow-therapeutic-index drugs are plausible [PMID:40269802].
-- No genotype-specific clinical claim is made because no qualifying pharmacogenomic source was identified for this research set.
+*** Drugs
+- CYP3A4 substrates: berberine 300 mg three times daily for 2 weeks raised midazolam AUC 40% and Cmax 38%, and cut oral clearance 27% [PMID:21870106].
+  - Goldenseal (berberine-standardized) raised midazolam AUC GMR 1.43 (90% CI 1.35-1.53) [PMID:33174626].
+  - Relevant to narrow-therapeutic-index CYP3A4 substrates (cyclosporine, tacrolimus, sirolimus) [PMID:42653808].
+- Cyclosporine: RCT in 104 renal-transplant recipients given 0.2 g three times daily for 3 months. Trough was 29.3% higher than in controls [PMID:16133554].
+  - PK substudy (n=6): AUC +34.5%, Cmin +88.3%, CL/F -40.4% [PMID:16133554].
+  - In rats, berberine raised oral cyclosporine AUC by 62-96% through intestinal P-gp inhibition [PMID:19370549].
+- Sirolimus (rapamycin) and tacrolimus: no direct human study was found. Berberine inhibits CYP3A4 and P-gp [PMID:21870106] [PMID:19370549], and reviews flag immunosuppressants as high-risk victim drugs [PMID:42653808].
+- CYP2D6 substrates (e.g. dextromethorphan, nebivolol): the urinary dextromethorphan/dextrorphan ratio rose 9-fold [PMID:21870106]. Inhibition is quasi-irreversible, and berberine reduced nebivolol clearance in microsomes [PMID:32987920].
+- CYP2C9 substrates (e.g. losartan): the losartan/E-3174 ratio doubled [PMID:21870106]. No changes were seen for CYP2C19 (omeprazole) or CYP1A2 (caffeine) [PMID:21870106].
+- P-gp substrates (e.g. digoxin): oral digoxin AUC rose 23-70% in rats [PMID:19370549]. There are no human berberine-digoxin data.
+- Metformin:
+  - Goldenseal lowered metformin AUC (GMR 0.77, CI 0.71-0.83) in healthy volunteers [PMID:33174626].
+  - In T2D patients on therapeutic doses there was no clinically meaningful interaction (GMR 0.93, 90% CI 0.86-1.01); HbA1c fell slightly [PMID:39943692].
+  - Pharmacodynamically, adding berberine to hypoglycemic drugs lowered HbA1c further (MD -0.69%) [PMID:39640489].
+- Glucose-lowering drugs (sulfonylureas, insulin, acarbose):
+  - Additive glucose lowering is expected [PMID:39640489].
+  - Hypoglycemia was not significantly increased in MAs (RR 0.48, CI 0.21-1.08) [PMID:36467075], but reviews list hypoglycemia as a pharmacodynamic axis [PMID:42653808].
+  - For acarbose, the shared alpha-glucosidase target is only computational [PMID:42213651].
+- Statins:
+  - No clinically relevant PK interaction with simvastatin or fenofibrate in 60 healthy subjects [PMID:30587933].
+  - Berberine plus simvastatin lowered TG (MD -0.33 mmol/L) and TC (MD -0.36 mmol/L) more than simvastatin alone, with fewer transaminase rises and muscle aches but more constipation [PMID:31094214].
+  - The mechanism (LDLR mRNA stabilization) is complementary to statins [PMID:15531889].
+- QT-prolonging drugs: possible additive risk [PMID:42488242] [PMID:42653808].
+- Antihypertensives: hypotension is listed as a pharmacodynamic axis [PMID:42653808], but MAs showed no significant BP effect [PMID:40740996]. Minor.
+*** Other supplements
+- Red yeast rice (incl. corpus product Yeast Rice + Garlic):
+  - Berberine-RYR combinations lowered TC by 19.6 mg/dL and LDL by 18.8 mg/dL [PMID:37183391].
+  - Armolipid Plus (berberine + RYR + policosanol) MA, 12 RCTs: LDL -26.67 mg/dL, well tolerated [PMID:33669333]. An RCT gave LDL -1.06 mmol/L with no AEs [PMID:19699071].
+  - Monacolin K (lovastatin) exposure could theoretically rise through berberine's CYP3A4 inhibition [PMID:21870106]. This is not studied.
+- Garlic: both garlic and berberine lowered LDL-C vs placebo in a network MA of 131 trials [PMID:35988871]. No combination trial exists, so additive effects are inferred.
+- Goldenseal: contains berberine, so stacking adds berberine exposure and CYP3A/2D6 inhibition [PMID:33174626].
+- Probiotics: PREMOTE found no added HbA1c benefit from probiotics plus berberine over berberine alone (-1.04% vs -0.99%) [PMID:33024120].
+- Cinnamon; white mulberry + chromium: combination RCTs improved glycemia or body composition [PMID:39998703] [PMID:42738972]. Additive glucose lowering is possible.
+- Other glucose-lowering supplements (curcumin, resveratrol, silymarin): a network MA ranked these alongside berberine for T2D cardiometabolic factors [PMID:40439602]. Combined effects are untested.
+*** Conditions
+- Pregnancy, breastfeeding and neonatal jaundice: see Contraindications [PMID:8513024] [PMID:30000926]. T2D on medication: monitor glucose [PMID:39640489]. Organ transplant: monitor immunosuppressant levels [PMID:16133554]. Long QT syndrome [PMID:42488242].
+*** Lab-test interference
+- No analytical assay interference was found. Expect physiological changes: higher unbound/total bilirubin (rats) [PMID:8513024]; lower glucose, HbA1c, lipids, apoB and Lp(a) [PMID:36467075] [PMID:42470424]; testosterone down in women and up in men [PMID:42470424]; lower ALT/AST in NAFLD [PMID:38429794]; higher troughs of cyclosporine and other CYP3A4/P-gp drugs [PMID:16133554].
 
 ** Genotype notes
-- No cited pharmacogenomic or nutrigenomic source identified for a clinically useful genotype-specific note.
+- CYP2D6 is the main human CYP metabolizing berberine, and the authors advise considering CYP2D6 pharmacogenetics [PMID:21787170]. Berberine itself inhibits CYP2D6 [PMID:21870106]. No clinical genotype-stratified outcome data were found.
 
 ** Latest research
-- 2024–2026: 2025 overview of 54 systematic reviews found substantial methodological limitations and uneven evidence quality [PMID:40269802].
+- [2026-10] Paired RCTs (100 women, 84 men; 500 mg twice daily): apoB -1.18 SD, Lp(a) -0.71 SD; larger effects in women; testosterone fell in women and rose in men [PMID:42470424].
+- [2026-08] Narrative DDI review: four mechanistic axes, with cyclosporine as the human clinical anchor. Proposes a 3-tier risk stratification [PMID:42653808].
+- [2026-08] Berberine + white mulberry + chromium RCT (n=93): BMI -1.24 kg/m2; Matsuda index ratio 1.28. No single-agent arms [PMID:42738972].
+- [2026-06] Case report: torsades de pointes and cardiac arrest attributed to berberine; resolved after stopping [PMID:42488242].
+- [2026-06] SR/MA of adjunctive berberine in schizophrenia with metabolic syndrome (3 RCTs): weight SMD -0.56 [PMID:42433212].
+- [2026-06] SR of 7 RCTs on gut microbiota: consistent compositional shifts, not uniformly favorable [PMID:42356246].
+- [2026-05] T2D MA of probiotics, synbiotics and berberine: FPG -0.71 mmol/L, HbA1c -0.19%; modest [PMID:42213651].
+- [2026-03] RCT-derived proteomic "berberine signature" associated with lower IHD (OR 0.85) and diabetes (OR 0.88) in MR [PMID:41882153].
+- [2026-01] JAMA Netw Open RCT in MASLD/obesity (n=337, 1 g/d, 6 months): no reduction in VAT or liver fat; LDL-C and apoB fell [PMID:41543854].
+- [2025-11] Obesity MA (23 studies): weight -0.88 kg, BMI -0.48 kg/m2 [PMID:41310257].
+- [2025-11] MAFLD RCT (n=70, 1500 mg/d): VEGF rose; no arterial-stiffness change; well tolerated [PMID:41305635].
+- [2025-08] 6-year follow-up of the adenoma RCT: recurrence 34.7% vs 52.1% [PMID:40795846].
+- [2025-07] Metabolic syndrome MA of placebo-controlled RCTs: TG, FPG and WC improved; BP and HDL unchanged; AEs not different from placebo [PMID:40740996].
+- [2025-04] Overview of 54 SRs: mostly very low methodological quality [PMID:40269802].
+- [2025-03] Phase 2 RCT of HTD1801 (berberine ursodeoxycholate): HbA1c -0.7% at 1000 mg twice daily [PMID:40029660].
+- [2025-02] Goldenseal-metformin PK interaction in T2D is dose-dependent and not clinically meaningful overall [PMID:39943692].
+- [2025-02] Berberine + cinnamon RCT in T2D: FBS, HbA1c and LDL-C lower vs placebo [PMID:39998703].
+- [2024-11] T2D MA (50 RCTs, n=4150): berberine alone and with hypoglycemics improved FPG, HbA1c and lipids [PMID:39640489].
 
 ** Open questions
-- Larger, preregistered, adequately powered human trials with standardized, chemically characterized products and longer follow-up are needed to establish clinically important benefits and characterize uncommon harms.
+- No hard-outcome trials (cardiovascular events, diabetes complications, mortality). The overall evidence base is dominated by short, Chinese, low-quality trials [PMID:40269802].
+- Discordance between surrogate and imaging outcomes: liver enzymes fall in MAs, but liver fat did not change in a large RCT [PMID:38429794] [PMID:41543854].
+- Clinical significance of CYP3A4/2D6/2C9 inhibition for sirolimus, tacrolimus and other narrow-therapeutic-index substrates. Only cyclosporine has human clinical data [PMID:16133554] [PMID:42653808].
+- QT risk: frequency and dose dependence beyond a single case [PMID:42488242].
+- Whether enhanced-bioavailability forms change efficacy, interaction potential or safety [PMID:35010998] [PMID:40278369].
+- Generalizability of the adenoma-prevention result outside China, and of sex-specific lipid responses [PMID:31926918] [PMID:42470424].
+- Actual transfer into breast milk and fetal exposure [PMID:30000926].
 
 ** Sources
-1. PMID:40269802
-2. PMID:39640489
-- Berberine and health outcomes: an overview of systematic reviews. BMC Complement Med Ther. 2025. DOI:10.1186/s12906-025-04872-4.
-- Effects of berberine alone or in combination on type 2 diabetes mellitus: systematic review and meta-analysis. PMID:39640489.
+1. Xie W et al. Glucose-lowering effect of berberine on type 2 diabetes: A systematic review and meta-analysis. Front Pharmacol. 2022. PMID:36467075 DOI:10.3389/fphar.2022.1015045
+2. Zhao JV et al. Overall and Sex-Specific Effect of Berberine on Glycemic and Insulin-Related Traits: SR and MA of RCTs. J Nutr. 2023. PMID:37598753 DOI:10.1016/j.tjnut.2023.08.016
+3. Liu D et al. Efficacy and safety of berberine on the components of metabolic syndrome: SR and MA of randomized placebo-controlled trials. Front Pharmacol. 2025. PMID:40740996 DOI:10.3389/fphar.2025.1572197
+4. Wang J et al. Effects of administering berberine alone or in combination on type 2 diabetes mellitus: SR and MA. Front Pharmacol. 2024. PMID:39640489 DOI:10.3389/fphar.2024.1455534
+5. Blais JE et al. Overall and Sex-Specific Effect of Berberine for the Treatment of Dyslipidemia in Adults: SR and MA of Randomized Placebo-Controlled Trials. Drugs. 2023. PMID:36941490 DOI:10.1007/s40265-023-01841-4
+6. Zhang LS et al. Efficacy and Safety of Berberine Alone or Combined with Statins for the Treatment of Hyperlipidemia: SR and MA of RCTs. Am J Chin Med. 2019. PMID:31094214 DOI:10.1142/S0192415X19500393
+7. Zhao JV et al. Sex-Specific Lipid, Apolipoprotein B, and Lipoprotein(a) Responses to Berberine Based on 2 Randomized Placebo-Controlled Trials. JACC Asia. 2026. PMID:42470424 DOI:10.1016/j.jacasi.2026.06.011
+8. Elahi Vahed I et al. The effect of berberine on obesity indices: a systematic review and meta-analysis. Int J Obes (Lond). 2026. PMID:41310257 DOI:10.1038/s41366-025-01943-x
+9. Xiong P et al. The effect of berberine supplementation on obesity indices: A dose-response meta-analysis and SR of RCTs. Complement Ther Clin Pract. 2020. PMID:32379652 DOI:10.1016/j.ctcp.2020.101113
+10. Lei L et al. Berberine and Adiposity in Diabetes-Free Individuals With Obesity and MASLD: A Randomized Clinical Trial. JAMA Netw Open. 2026. PMID:41543854 DOI:10.1001/jamanetworkopen.2025.54152
+11. Nie Q et al. The clinical efficacy and safety of berberine in the treatment of non-alcoholic fatty liver disease: a meta-analysis and systematic review. J Transl Med. 2024. PMID:38429794 DOI:10.1186/s12967-024-05011-2
+12. Zhu W et al. Biochemical changes associated with NAFLD in response to berberine treatment: SR and MA of clinical and preclinical research. Front Pharmacol. 2025. PMID:40949129 DOI:10.3389/fphar.2025.1460643
+13. Ha S, Song X. Berberine as adjuvant therapy for treating reduced fertility potential in women with PCOS: A meta-analysis of RCTs. Explore (NY). 2024. PMID:39236662 DOI:10.1016/j.explore.2024.103040
+14. Mirzaee F et al. The effect and safety of Berberine on polycystic ovary syndrome: a systematic review. J Obstet Gynaecol. 2021. PMID:32811221 DOI:10.1080/01443615.2020.1787964
+15. Chen YX et al. Berberine versus placebo for the prevention of recurrence of colorectal adenoma: a multicentre, double-blinded, randomised controlled study. Lancet Gastroenterol Hepatol. 2020. PMID:31926918 DOI:10.1016/S2468-1253(19)30409-1
+16. Tan YJ et al. Berberine for preventing colorectal adenoma recurrence and neoplasm occurrence: 6-Year follow-up of a randomized clinical trial. Cell Rep Med. 2025. PMID:40795846 DOI:10.1016/j.xcrm.2025.102293
+17. Fang S et al. Efficacy and safety of berberine in preventing recurrence of colorectal adenomas: SR and MA. J Ethnopharmacol. 2022. PMID:34509605 DOI:10.1016/j.jep.2021.114617
+18. Shi L et al. Berberine and health outcomes: an overview of systematic reviews. BMC Complement Med Ther. 2025. PMID:40269802 DOI:10.1186/s12906-025-04872-4
+19. Li Z et al. Berberine and health outcomes: An umbrella review. Phytother Res. 2023. PMID:36999891 DOI:10.1002/ptr.7806
+20. Guo Y et al. Repeated administration of berberine inhibits cytochromes P450 in humans. Eur J Clin Pharmacol. 2012. PMID:21870106 DOI:10.1007/s00228-011-1108-2
+21. Wu X et al. Effects of berberine on the blood concentration of cyclosporin A in renal transplanted recipients: clinical and pharmacokinetic study. Eur J Clin Pharmacol. 2005. PMID:16133554 DOI:10.1007/s00228-005-0952-3
+22. Qiu W et al. Effect of berberine on the pharmacokinetics of substrates of CYP3A and P-gp. Phytother Res. 2009. PMID:19370549 DOI:10.1002/ptr.2808
+23. Kim HG et al. Quasi-Irreversible Inhibition of CYP2D6 by Berberine. Pharmaceutics. 2020. PMID:32987920 DOI:10.3390/pharmaceutics12100916
+24. Dumitru CN et al. Berberine-Drug Interactions: Mechanisms, Clinical Relevance and Risk Stratification - A Narrative Review. Pharmaceuticals (Basel). 2026. PMID:42653808 DOI:10.3390/ph19081313
+25. Bathaei P et al. Effects of Berberis vulgaris, and its active constituent berberine on cytochrome P450: a review. Naunyn Schmiedebergs Arch Pharmacol. 2025. PMID:39141022 DOI:10.1007/s00210-024-03326-x
+26. Khoshandam A et al. Pharmacokinetic of berberine, the main constituent of Berberis vulgaris L.: A comprehensive review. Phytother Res. 2022. PMID:36221815 DOI:10.1002/ptr.7589
+27. Guo Y et al. CYP2D plays a major role in berberine metabolism in liver of mice and humans. Xenobiotica. 2011. PMID:21787170 DOI:10.3109/00498254.2011.597456
+28. Nguyen JT et al. The Pharmacokinetic Interaction Between Metformin and the Natural Product Goldenseal Is Metformin Dose-Dependent: A Three-Arm Crossover Study in Adults With T2D. Clin Transl Sci. 2025. PMID:39943692 DOI:10.1111/cts.70120
+29. Nguyen JT et al. Assessing Transporter-Mediated Natural Product-Drug Interactions Via In vitro-In Vivo Extrapolation: Clinical Evaluation With a Probe Cocktail. Clin Pharmacol Ther. 2021. PMID:33174626 DOI:10.1002/cpt.2107
+30. Li G et al. Pharmacokinetic interactions and tolerability of berberine chloride with simvastatin and fenofibrate: an open-label, randomized, parallel study in healthy Chinese subjects. Drug Des Devel Ther. 2019. PMID:30587933 DOI:10.2147/DDDT.S185487
+31. Chan E. Displacement of bilirubin from albumin by berberine. Biol Neonate. 1993. PMID:8513024 DOI:10.1159/000243932
+32. Drugs and Lactation Database (LactMed). Goldenseal. NICHD. 2006- (updated 2025). PMID:30000926
+33. NCCIH. Goldenseal. National Center for Complementary and Integrative Health. Accessed 2026-10-13. URL:https://www.nccih.nih.gov/health/goldenseal
+34. Williams JM et al. Natural Is Not Always Safe: A Case of Torsades De Pointes Induced by Berberine Supplementation. Cureus. 2026. PMID:42488242 DOI:10.7759/cureus.111276
+35. Labadie JG et al. First case of symmetrical drug-related intertriginous and flexural exanthema (SDRIFE) due to Berberine. Int J Dermatol. 2018. PMID:29808929 DOI:10.1111/ijd.14059
+36. Cicero AFG et al. Efficacy and Safety of Armolipid Plus: An Updated PRISMA Compliant SR and MA of RCTs. Nutrients. 2021. PMID:33669333 DOI:10.3390/nu13020638
+37. Affuso F et al. Effects of a nutraceutical combination (berberine, red yeast rice and policosanols) on lipid levels and endothelial function: randomized, double-blind, placebo-controlled study. Nutr Metab Cardiovasc Dis. 2010. PMID:19699071 DOI:10.1016/j.numecd.2009.05.017
+38. Hernandez AV et al. Impact of Berberine or Berberine Combination Products on Lipoprotein, Triglyceride and Biological Safety Marker Concentrations in Patients with Hyperlipidemia: SR and MA. J Diet Suppl. 2024. PMID:37183391 DOI:10.1080/19390211.2023.2212762
+39. Osadnik T et al. A network meta-analysis on the comparative effect of nutraceuticals on lipid profile in adults. Pharmacol Res. 2022. PMID:35988871 DOI:10.1016/j.phrs.2022.106402
+40. Kong W et al. Berberine is a novel cholesterol-lowering drug working through a unique mechanism distinct from statins. Nat Med. 2004. PMID:15531889 DOI:10.1038/nm1135
+41. Lee YS et al. Berberine, a natural plant product, activates AMP-activated protein kinase with beneficial metabolic effects in diabetic and insulin-resistant states. Diabetes. 2006. PMID:16873688 DOI:10.2337/db06-0006
+42. Yin J et al. Efficacy of berberine in patients with type 2 diabetes mellitus. Metabolism. 2008. PMID:18442638 DOI:10.1016/j.metabol.2008.01.013
+43. Zhang Y et al. Treatment of type 2 diabetes and dyslipidemia with the natural plant alkaloid berberine. J Clin Endocrinol Metab. 2008. PMID:18397984 DOI:10.1210/jc.2007-2404
+44. Zhang Y et al. Gut microbiome-related effects of berberine and probiotics on type 2 diabetes (the PREMOTE study). Nat Commun. 2020. PMID:33024120 DOI:10.1038/s41467-020-18414-8
+45. Hu Q et al. The Efficacy of Berberine-Containing Quadruple Therapy on Helicobacter Pylori Eradication in China: SR and MA of RCTs. Front Pharmacol. 2020. PMID:32116685 DOI:10.3389/fphar.2019.01694
+46. Moon JM et al. Absorption Kinetics of Berberine and Dihydroberberine and Their Impact on Glycemia: A Randomized, Controlled, Crossover Pilot Trial. Nutrients. 2021. PMID:35010998 DOI:10.3390/nu14010124
+47. Spinozzi S et al. Berberine and its metabolites: relationship between physicochemical properties and plasma levels after administration to human subjects. J Nat Prod. 2014. PMID:24593257 DOI:10.1021/np400607k
+48. Ibi A et al. A 30-Day Randomized Crossover Human Study on the Safety and Tolerability of a New Micellar Berberine Formulation with Improved Bioavailability. Metabolites. 2025. PMID:40278369 DOI:10.3390/metabo15040240
+49. Ji L et al. Berberine Ursodeoxycholate for the Treatment of Type 2 Diabetes: A Randomized Clinical Trial. JAMA Netw Open. 2025. PMID:40029660 DOI:10.1001/jamanetworkopen.2024.62185
+50. Mansour A et al. The efficacy and safety of berberine in combination with cinnamon supplementation in patients with type 2 diabetes: a randomized clinical trial. Eur J Nutr. 2025. PMID:39998703 DOI:10.1007/s00394-025-03618-9
+51. Xenos K et al. Effects of Berberine, White Mulberry Leaf Extract and Chromium Picolinate on Body Composition and Insulin Resistance in Adults with Obesity: A Randomized Controlled Trial. Nutrients. 2026. PMID:42738972 DOI:10.3390/nu18172801
+52. Xie K et al. Adjunctive berberine for schizophrenia with metabolic syndrome: a systematic review and meta-analysis. Front Psychiatry. 2026. PMID:42433212 DOI:10.3389/fpsyt.2026.1846995
+53. Candrea AR et al. The Integrative Role of Berberine in Gut Microbiota Modulation and Cardiometabolic Outcomes: A Systematic Review of Randomised Clinical Trials. Nutrients. 2026. PMID:42356246 DOI:10.3390/nu18121858
+54. Shadin M et al. Probiotics, synbiotics and berberine in Type 2 diabetes mellitus: SR, MA, and molecular dynamics simulation study. PLoS One. 2026. PMID:42213651 DOI:10.1371/journal.pone.0348907
+55. Zhao JV et al. Berberine signature and cardiometabolic diseases using randomized controlled trial, cohort study and Mendelian randomization. NPJ Cardiovasc Health. 2026. PMID:41882153 DOI:10.1038/s44325-026-00113-w
+56. Miao R et al. Clinical Efficacy of Curcumin, Resveratrol, Silymarin, and Berberine on Cardio-Metabolic Risk Factors Among Patients With T2DM: SR and Bayesian Network MA. Phytother Res. 2025. PMID:40439602 DOI:10.1002/ptr.8431
+57. Koperska A et al. The Influence of Berberine on Vascular Function Parameters, Among Them VEGF, in Individuals with MAFLD: A Double-Blind, Randomized, Placebo-Controlled Trial. Nutrients. 2025. PMID:41305635 DOI:10.3390/nu17223585

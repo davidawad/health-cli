@@ -3,52 +3,217 @@
 :ID: supp-l-theanine
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: theanine | gamma-glutamylethylamide
-:CATEGORY: nootropic
+:ALIASES: theanine | N-ethyl-L-glutamine | gamma-glutamylethylamide | Suntheanine | AlphaWave | green tea amino acid
+:CATEGORY: amino-acid
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- L-Theanine is represented by these commonly studied or marketed forms: theanine, gamma-glutamylethylamide. Clinical products and formulations can differ in composition and bioavailability; this limits cross-trial comparisons [PMID:41227106, PMID:39633316, PMID:42410082].
+- Non-proteinogenic amino acid (N-ethyl-L-glutamine, gamma-glutamylethylamide) found in the tea plant Camellia sinensis and some mushrooms [PMID:42761839] [PMID:17182482] [PMID:26192072].
+- Dietary exposure from tea is low: about 20 mg per cup of black tea [PMID:18296328]. Supplement doses (100-900 mg) are far higher.
+- Commercial forms used in trials:
+  - Suntheanine (Taiyo Kagaku). Used in the pediatric ADHD sleep RCT [PMID:22214254] and in the 13-week rat toxicology study [PMID:16759779].
+  - AlphaWave L-theanine, 200 mg single dose and 400 mg/d for 28 days [PMID:34562208] [PMID:38758503].
+  - Tea-extracted, chemically synthesized and E. coli-fermented L-theanine. Each has its own US GRAS notice [URL:https://www.hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=GRASNotices&type=basic&search=theanine].
+- Usually sold alone or combined with caffeine (energy drinks/shots, "nootropic" stacks) [PMID:36862943], or in sleep blends with GABA, magnesium, glycine or melatonin-related ingredients [PMID:41636292] [PMID:42742055] [PMID:36094342].
+- Many sleep and stress trials tested multi-ingredient products, not pure theanine. This makes it hard to attribute effects to theanine [PMID:40056718].
 
 ** Mechanisms
-- Proposed mechanisms are outcome- and formulation-dependent; mechanistic plausibility does not establish clinical efficacy. Human evidence is summarized below [PMID:41227106, PMID:39633316, PMID:42410082].
+- Glutamatergic: in animal neurochemistry, theanine has micromolar affinity for AMPA, kainate and NMDA receptors and may antagonize group I metabotropic glutamate receptors. It raises brain serotonin, dopamine and GABA [PMID:17182482]. It also inhibits glutamate transporters, which is shown in tumor cells [PMID:14643924]. Reviews describe it as a glutamate reuptake inhibitor and a low-affinity glutamate receptor antagonist [PMID:35111479].
+- In schizophrenia, 8 weeks of theanine (250 mg/d) did not change brain Glx on 1H-MRS, but the change correlated with baseline Glx. The authors called this "stabilising" [PMID:25896423].
+- EEG alpha activity:
+  - 50 mg raised resting alpha activity versus placebo [PMID:18296328].
+  - 200 mg AlphaWave raised frontal alpha power 3 h after dosing during a stress challenge [PMID:34562208].
+  - Theanine alone (100 mg) did not change alpha activity during a sustained-attention task [PMID:22326943]. Alpha effects therefore depend on the task and dose.
+- Autonomic/stress physiology: theanine reduced heart rate and salivary IgA responses to an arithmetic stressor, which HRV analysis attributed to lower sympathetic activation [PMID:16930802]. It lowered salivary alpha-amylase during a stressful practicum [PMID:24051231].
+- Sensorimotor gating: 200 and 400 mg, but not 600 mg, increased prepulse inhibition in healthy adults (inverted-U dose response) [PMID:24372613].
+- Blood pressure: high intraperitoneal doses (1500-2000 mg/kg) lowered BP in spontaneously hypertensive rats, not normotensive rats, and reduced brain 5-hydroxyindoles [PMID:7539642]. Cardiovascular mechanisms (Nrf2, NF-kB, eNOS, AMPK) are reviewed but are mostly preclinical [PMID:41796839].
+- Metabolism: theanine is hydrolyzed to ethylamine and glutamic acid, so its effects may come partly from these metabolites [PMID:23096008].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---|---|---|---|---|---|
-| Possible small short-term improvements in selected attention tasks | Systematic review/meta-analysis or human trial synthesis | Mixed/possible benefit; no established clinical disease prevention | See evidence summary below; pooled estimates vary by outcome and population | low | PMID:41227106, PMID:39633316, PMID:42410082 |
-
-- 2025 meta-analysis of five RCTs (148 healthy adults) found a small improvement in selected visual processing/reaction-time outcomes, but not all cognitive tests [PMID:41227106]. A systematic review in mental disorders found limited heterogeneous adjunctive RCT evidence [PMID:39633316].
-- Possible small short-term improvements in selected attention tasks; subjective stress/sleep findings remain preliminary and are not consistent across outcomes [PMID:41227106, PMID:39633316].
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Attention / reaction time (acute, theanine alone) | SR/MA of 31 RCTs (n=1168); SR/MA of 5 RCTs; tea MA | Small benefit | Choice RT SMD 0.51 (95% CI 0.25-0.77) after 200 mg; choice RT SMD -0.35 (CI -0.61 to -0.10) in h1; recognition RT MD -15.20 ms (CI -28.99 to -1.41); simple RT and Stroop NS | low | [PMID:42410082] [PMID:40314930] [PMID:41227106] |
+| Cognition with caffeine | MAs (11 RCTs; 50 RCTs/15 pooled); multiple crossover RCTs | Benefit, mainly attention switching/alertness, often driven by caffeine | Attention-switching accuracy SMD 0.33 (CI 0.13-0.54) and digit vigilance accuracy SMD 0.20 (CI 0.02-0.38) at h2; choice RT SMD -0.48 (CI -1.01 to 0.05) | low | [PMID:24946991] [PMID:40314930] [PMID:18006208] [PMID:18681988] [PMID:21040626] [PMID:22326943] |
+| Acute stress (healthy) | SR/MA of 31 RCTs; lab-stress RCTs | Small benefit | SMD 0.31, mostly from high risk-of-bias studies | low | [PMID:42410082] [PMID:16930802] [PMID:34562208] |
+| Repeated-dose stress / perceived stress | Small RCTs (n=20-30); SR of 9 RCTs | Inconsistent | 200 mg/d for 4 wk lowered SDS/STAI-T/PSQI vs placebo; 400 mg/d for 28 d reduced PSS by the same amount as placebo (-17.98% vs -17.88%) | very low | [PMID:31623400] [PMID:38758503] [PMID:31758301] [PMID:24051231] |
+| Anxiety (clinical/subthreshold) | SR/MA; network MA; RCT in GAD | No consistent effect | MA: non-significant except one psychotic-anxiety study (SMD 0.54); NMA HAM-A MD -0.49 (95% CrI -6.54 to 5.57); adjunct in GAD no better than placebo (p=0.73) | low | [PMID:42410082] [PMID:35378276] [PMID:30580081] [PMID:15378679] |
+| Depressive symptoms | MA (single dose in healthy people); adjunct RCT with sertraline (n=60); open-label (n=20) | Possible benefit | Single-dose SMD 0.69 (CI 0.13-1.25) after excluding an outlier; adjunct greater HDRS reduction (time x treatment p=0.014) | very low | [PMID:42410082] [PMID:37084960] [PMID:27396868] |
+| Sleep quality | SR/MA of 18 RCTs (n=897); SR of 13 trials | Small benefit | Overall sleep quality SMD 0.43 (CI 0.04-0.83); sleep onset latency SMD 0.15 (CI 0.01-0.29); daytime dysfunction SMD 0.33 (CI 0.16-0.49); little effect on total sleep time | low | [PMID:40056718] [PMID:41176609] [PMID:42761839] |
+| Insomnia in cancer patients | RCT (n=120) vs melatonin 3 mg vs placebo | Benefit vs placebo, worse than melatonin | Day-14 Athens Insomnia Scale 9.55 (theanine) vs 5.00 (melatonin) vs 13.05 (placebo) | very low | [PMID:38846134] |
+| Fatigue | SR/MA | No effect | Not significant | low | [PMID:42410082] |
+| ADHD | RCT on sleep in boys (n=98); small crossover RCTs of theanine+caffeine (n=5; n=21); SR | Possible benefit for sleep efficiency and attention | Higher actigraphic sleep percentage/efficiency at 400 mg/d; theanine+caffeine reduced false alarms like methylphenidate (P=0.038) | very low | [PMID:22214254] [PMID:32753637] [PMID:42096377] [PMID:40362791] |
+| Schizophrenia (adjunct to antipsychotics) | 3 RCTs (n=40-80) plus open-label; SR of 11 RCTs | Benefit | Cohen d 0.09-0.39 for PANSS positive/activation/anxiety; with risperidone, greater reduction in PANSS negative/general/total | low | [PMID:21208586] [PMID:37697164] [PMID:26218236] [PMID:25896423] [PMID:39633316] |
+| Blood pressure | Small crossover RCTs (n=14-48) | Blunts stress- and caffeine-induced BP rises; no resting BP trial | Qualitative only (p-values, no pooled effect) | very low | [PMID:23107346] [PMID:17891480] [PMID:16930802] |
+| Physical performance (with caffeine) | Small crossover RCTs (n=12-20) | Conflicting | Wrestlers benefited from the combination; competitive athletes showed no synergy, and theanine alone reduced maximal leg/back strength | very low | [PMID:40977612] [PMID:41668720] [PMID:42176572] |
 
 ** Dosing in trials
-- Trials often use 100–400 mg/day; acute cognition trials use around 200 mg before testing; tea-derived doses are lower [PMID:41227106].
+- Acute cognition: 200 mg taken 30-60 min before testing [PMID:42410082]. The effect appeared at 50 mg on EEG [PMID:18296328]. 200-400 mg, but not 600 mg, increased PPI [PMID:24372613].
+- Caffeine combinations (theanine + caffeine): 97 + 40 mg [PMID:21040626]; 100 + 50 mg [PMID:18681988]; 250 + 150 mg [PMID:18006208]; 200 + 160 mg in sleep-deprived adults [PMID:40789769]; 3 mg/kg each in athletes [PMID:40977612]; 2.5 + 2.0 mg/kg in children with ADHD [PMID:32753637].
+- Stress/anxiety: 200-400 mg/d [PMID:31758301] [PMID:31412272]. Chronic regimens include 200 mg/d for 4 wk [PMID:31623400] and 400 mg/d for 28 d [PMID:38758503].
+- Sleep: 200-450 mg/d. Trials used 50-900 mg/d [PMID:41176609]. 200 mg about 2 h before bed for insomnia in cancer patients [PMID:38846134].
+- Psychiatric adjunct:
+  - Schizophrenia: 400 mg/d for 8 wk [PMID:21208586] [PMID:37697164], or 250 mg/d [PMID:25896423].
+  - MDD: 200 mg/d with sertraline [PMID:37084960].
+  - GAD: 450-900 mg/d [PMID:30580081].
+- Pediatric ADHD: 400 mg/d (2 x 100 mg chewables twice daily) for 6 wk in boys aged 8-12 [PMID:22214254].
+- PK: 100 mg from capsules or green tea gives similar kinetics. Plasma Cmax is about 24-26 umol/L at 0.8 h, and AUC rises with dose from 50 to 200 mg [PMID:23096008]. Half-life is about 1 h (LactMed) [PMID:40460226]. In mice, oral bioavailability is about 70% and serum levels peak at 15 min [PMID:38583116]. Theanine crosses the blood-brain barrier [PMID:39854799]. In rats, piperine-containing formulations increased absorption by raising intestinal blood flow [PMID:34115818].
 
 ** Safety & adverse effects
-- Short-term studies suggest reasonable tolerability; adverse-event and long-term data remain limited [PMID:41227106].
+- Tolerability in trials:
+  - The 31-RCT MA found no serious adverse events and compared dropouts between theanine and placebo [PMID:42410082].
+  - 400 mg/d for 28 d produced no clinically relevant lab or vital-sign changes [PMID:38758503].
+  - 400 mg/d for 8 wk in schizophrenia and 400 mg/d in boys with ADHD were well tolerated [PMID:21208586] [PMID:22214254].
+- Reported effects in single studies:
+  - 250 mg increased "headache" ratings and reduced serial-subtraction accuracy [PMID:18006208].
+  - 200 mg slowed overall reaction time on a visual probe task [PMID:17891480].
+  - 200 mg alone reduced maximal isometric leg/back strength in athletes [PMID:41668720].
+- Toxicology: a 13-week OECD-408/GLP rat study found a NOAEL of 4000 mg/kg bw/day, the highest dose tested. Renal tubular adenomas in high-dose females were judged not treatment-related [PMID:16759779]. Reviews describe a favorable toxicology profile but limited human long-term data [PMID:26192072] [PMID:39854799].
+- Regulatory: FDA issued "no questions" letters for L-theanine GRAS notices GRN 209 (2007), GRN 338 (tea-extracted, 2010), GRN 501 (chemically synthesized, 2014) and GRN 1311 (E. coli-produced, Sep 2026). GRN 1344 is pending [URL:https://www.hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=GRASNotices&type=basic&search=theanine].
+- Critical view: a 2025 review urges caution with pharmacologic doses because claims outpace rigorous human trials [PMID:39854799].
+- Green tea extracts (not pure theanine) have caused dose-dependent hepatotoxicity linked to catechin/EGCG content [PMID:29580974]. A theanine review flags the need to separate the two [PMID:31412272].
 
 ** Contraindications
-- Insufficient evidence in pregnancy, lactation and children [PMID:41227106].
+- No absolute contraindications have been established.
+- Breastfeeding: there are no data. LactMed advises it is probably best to avoid supplemental theanine while nursing a newborn or preterm infant. Tea-level intake is likely acceptable [PMID:40460226].
+- Pregnancy and children: data are limited to small pediatric trials [PMID:22214254] [PMID:35215501]. There are no human pregnancy safety data. Only one mouse gestational-obesity study was found [PMID:41016812].
 
 ** Interactions
-- Possible additive sedation or blood-pressure lowering is theoretical; robust clinical interaction studies are lacking [PMID:41227106].
-- No genotype-specific clinical claim is made because no qualifying pharmacogenomic source was identified for this research set.
+*** Drugs
+- CNS depressants/hypnotics:
+  - In mice, theanine lowered the hypnotic ED50 of pentobarbital and enhanced its anticonvulsant effect [PMID:26330182]. In rats it acted additively or synergistically with midazolam on anxiety and motor activity [PMID:20108732].
+  - In humans, 200 mg had no acute anxiolytic effect in an anticipatory-anxiety model, and neither did alprazolam 1 mg [PMID:15378679].
+  - Additive sedation is possible but has not been shown in humans.
+- Antihypertensives: theanine blunted stress-induced BP rises in high responders [PMID:23107346] and lowered BP in hypertensive rats at very high doses [PMID:7539642]. Any additive effect is theoretical and likely minor.
+- Stimulants (caffeine, methylphenidate):
+  - Theanine antagonized the caffeine-induced BP rise (250 mg caffeine + 200 mg theanine) [PMID:17891480].
+  - It reduced caffeine-associated anxiety and tachycardia in wrestlers [PMID:40977612].
+  - In boys with ADHD, the RCT stratified randomization by stimulant use and reported no significant AEs [PMID:22214254]. Theanine+caffeine was compared with, not combined with, methylphenidate [PMID:42096377].
+- Antipsychotics (risperidone and others): used as an add-on in RCTs with no increase in side effects or extrapyramidal symptoms [PMID:21208586] [PMID:37697164].
+- Antidepressants (sertraline): adjunct 200 mg/d gave better HDRS response, with side effects comparable to placebo [PMID:37084960]. Adjunct use with stable antidepressants in GAD caused no safety signal [PMID:30580081].
+- Chemotherapy (animal data only):
+  - In tumor-bearing mice, theanine increased doxorubicin and idarubicin concentrations in tumors and their antitumor effect, without raising concentrations in normal tissue. It reduced myelosuppression, possibly via inhibition of glutamate transporters and the GS-X pump [PMID:14643924] [PMID:10960760].
+  - In mice it reduced cisplatin nephrotoxicity [PMID:39607236].
+  - Anticancer effects are in vitro/in vivo only [PMID:33891786]. No human interaction data exist.
+*** Other supplements
+- Caffeine: the best-characterized combination, with additive or synergistic effects on attention and alertness. Theanine blunts caffeine's BP rise and jitteriness [PMID:24946991] [PMID:40314930] [PMID:18006208] [PMID:17891480].
+- Melatonin: in a head-to-head RCT, melatonin 3 mg was better than theanine 200 mg for insomnia, and both beat placebo [PMID:38846134]. No combination study was found. Theanine is described as relaxing without sedation [PMID:41176609].
+- Glycine: a 5-ingredient sleep blend (tryptophan, glycine, magnesium, tart cherry, theanine) shortened sleep latency by 24 min and increased sleep efficiency [PMID:36094342]. In mice, theanine increased a serum peak overlapping glycine [PMID:38583116] and is reported to induce glycine release [PMID:26330182].
+- GABA: synergistic sleep effects in rodents [PMID:30707852]. A single-arm human study (GABA 700 mg + theanine 200 mg) improved PSQI (MD -3.15, 95% CI -4.01 to -2.31) [PMID:41636292].
+- Magnesium: a theanine+GABA+magnesium+SAMe supplement improved menopausal sleep disturbance (PROMIS SD -11.1, CI -13.6 to -8.6) [PMID:42742055]. An evening MgT+theanine+apigenin blend showed minimal effects over 2 weeks [PMID:42829807].
+- Green Tea Extract: supplies theanine plus catechins. Hepatotoxicity relates to EGCG dose, not theanine [PMID:29580974].
+- Piperine-containing formulations increased theanine absorption in rats [PMID:34115818].
+*** Conditions
+- Hypotension or BP-lowering therapy: see Antihypertensives. The effect in humans is small and stress-dependent [PMID:23107346].
+- Breastfeeding: see Contraindications [PMID:40460226].
+- Schizophrenia, MDD, GAD and ADHD: theanine was studied only as an adjunct to standard treatment [PMID:39633316].
+*** Lab-test interference
+- No clinical assay interference has been reported. In mice, theanine produced a chromatographic peak overlapping glycine in PITC-derivatized amino-acid analysis [PMID:38583116]. Plasma amino-acid profiles could theoretically be affected. Theanine is metabolized to glutamate and ethylamine, which rise transiently in plasma [PMID:23096008].
 
 ** Genotype notes
-- No cited pharmacogenomic or nutrigenomic source identified for a clinically useful genotype-specific note.
+No cited pharmacogenomic or nutrigenomic source found.
 
 ** Latest research
-- 2024–2026: 2026 systematic review/meta-analysis pooled 31 RCTs (1,168 participants), reinforcing that outcomes vary across cognitive and affective domains [PMID:42410082].
+- [2026-10] Multi-compound RCT (n=103): evening MgT+theanine+apigenin had minimal effects. Benefits were seen with morning ashwagandha+rhodiola [PMID:42829807].
+- [2026-09] Menopause sleep RCT (n=128) of a theanine-containing multi-ingredient supplement: PROMIS SD -11.1 (CI -13.6 to -8.6) [PMID:42742055].
+- [2026-09] US FDA "no questions" letter for GRN 1311 (E. coli-produced L-theanine) [URL:https://www.hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=GRASNotices&type=basic&search=theanine].
+- [2026-09] Mini-review: 100-400 mg gives small cognitive gains; 200-450 mg/d supports sleep quality [PMID:42761839].
+- [2026-07] MA of 31 RCTs (n=1168): choice RT SMD 0.51; acute stress SMD 0.31 (high risk of bias); no fatigue effect [PMID:42410082].
+- [2026-07] Esports crossover: caffeine+theanine improved auditory RT versus caffeine alone [PMID:42176572].
+- [2026-05] Adolescents with ADHD (n=21): theanine+caffeine reduced false alarms, comparable to methylphenidate [PMID:42096377].
+- [2026-03] BMJ review lists L-theanine among emerging natural anxiety treatments [PMID:41839508].
+- [2026-03] Cardiovascular review: BP, lipid and cardioprotective effects are mostly preclinical [PMID:41796839].
+- [2026-02] Walnut peptide+theanine improved PSQI in an 8-week human trial [PMID:41531275].
+- [2026-01] Athletes RCT: no caffeine+theanine synergy; theanine alone reduced maximal strength [PMID:41668720].
+- [2026-01] Single-arm GABA+theanine study: PSQI MD -3.15 [PMID:41636292].
+- [2025-11] Sleep SR (13 trials): 200-450 mg/d improves subjective and objective sleep [PMID:41176609].
+- [2025-10] Cognition MA (5 RCTs): recognition RT MD -15.20 ms; Stroop and simple RT NS [PMID:41227106].
+- [2025-10] Tea/theanine/caffeine MA (50 RCTs): theanine+caffeine improves attention switching; theanine alone improves choice RT [PMID:40314930].
+- [2025-09] Elite wrestlers crossover: caffeine+theanine reduced caffeine-induced anxiety and tachycardia [PMID:40977612].
+- [2025-08] Sleep-deprived adults: 200 mg theanine + 160 mg caffeine improved selective attention and P3b [PMID:40789769].
+- [2025-05] LactMed update: avoid supplemental theanine when nursing newborns or preterm infants [PMID:40460226].
+- [2025-04] ADHD supplement SR: theanine improves sleep efficiency; combination with caffeine may improve attention [PMID:40362791].
+- [2025-02] Sleep MA (18 RCTs): sleep quality SMD 0.43 [PMID:40056718].
+- [2025-01] Critical review: "science does not yet match the hype" [PMID:39854799].
 
 ** Open questions
-- Larger, preregistered, adequately powered human trials with standardized, chemically characterized products and longer follow-up are needed to establish clinically important benefits and characterize uncommon harms.
+- Whether sleep and stress benefits hold for pure theanine. Most sleep RCTs used blends [PMID:40056718].
+- Dose-response. PPI data suggest an inverted U [PMID:24372613], and optimal doses for each outcome are undefined.
+- Long-term (>8-12 week) human safety, and safety in pregnancy, lactation and children.
+- Human relevance of animal findings: potentiation of barbiturates and benzodiazepines, and modulation of anthracycline chemotherapy.
+- Whether the caffeine "synergy" exceeds caffeine's own effect. Moderator analysis suggests caffeine dose dominates [PMID:24946991], and some trials found no synergy [PMID:22326943] [PMID:41668720].
+- Replication of schizophrenia, MDD and ADHD adjunct findings in larger, independent, preregistered trials.
+- Industry funding is common (tea and supplement makers) [PMID:40314930] [PMID:42410082].
 
 ** Sources
-1. PMID:41227106
-2. PMID:39633316
-3. PMID:42410082
-- Mátyus et al. Effect of L-theanine on cognitive performance: systematic review and meta-analysis of randomized placebo-controlled trials. PubMed PMID:41227106.
-- Systematic review of L-theanine supplementation in mental disorders. PMID:39633316 (2024).
-- Cognitive and affective effects of L-theanine: systematic review and meta-analysis of 31 randomized trials. Mol Psychiatry. 2026. DOI:10.1038/s41380-026-03727-9.
+1. Gerolymos C et al. Cognitive and affective effects of L-Theanine: a systematic review and meta-analysis of 31 randomized trials. Mol Psychiatry. 2026. PMID:42410082 DOI:10.1038/s41380-026-03727-9
+2. Matyus RO et al. Promising, but Not Completely Conclusive-The Effect of l-Theanine on Cognitive Performance Based on the SR and MA of Randomized Placebo-Controlled Clinical Trials. J Clin Med. 2025. PMID:41227106 DOI:10.3390/jcm14217710
+3. Bulman A et al. The effects of L-theanine consumption on sleep outcomes: A systematic review and meta-analysis. Sleep Med Rev. 2025. PMID:40056718 DOI:10.1016/j.smrv.2025.102076
+4. Cotter J et al. Examining the effect of L-theanine on sleep: a systematic review of dietary supplementation trials. Nutr Neurosci. 2026. PMID:41176609 DOI:10.1080/1028415X.2025.2556925
+5. Payne ER et al. Effects of Tea (Camellia sinensis) or its Bioactive Compounds l-Theanine or l-Theanine plus Caffeine on Cognition, Sleep, and Mood in Healthy Participants: SR and MA of RCTs. Nutr Rev. 2025. PMID:40314930 DOI:10.1093/nutrit/nuaf054
+6. Moshfeghinia R et al. The effects of L-theanine supplementation on the outcomes of patients with mental disorders: a systematic review. BMC Psychiatry. 2024. PMID:39633316 DOI:10.1186/s12888-024-06285-y
+7. Williams JL et al. The Effects of Green Tea Amino Acid L-Theanine Consumption on the Ability to Manage Stress and Anxiety Levels: a Systematic Review. Plant Foods Hum Nutr. 2020. PMID:31758301 DOI:10.1007/s11130-019-00771-5
+8. Camfield DA et al. Acute effects of tea constituents L-theanine, caffeine, and epigallocatechin gallate on cognitive function and mood: a systematic review and meta-analysis. Nutr Rev. 2014. PMID:24946991 DOI:10.1111/nure.12120
+9. Zhang W et al. Medicinal herbs for the treatment of anxiety: A systematic review and network meta-analysis. Pharmacol Res. 2022. PMID:35378276 DOI:10.1016/j.phrs.2022.106204
+10. Cotter J, Kilpatrick HE. Effects of L-theanine on cognition, mood and sleep: evidence from human trials. Front Nutr. 2026. PMID:42761839 DOI:10.3389/fnut.2026.1922819
+11. Dashwood R, Visioli F. l-theanine: From tea leaf to trending supplement - does the science match the hype for brain health and relaxation? Nutr Res. 2025. PMID:39854799 DOI:10.1016/j.nutres.2024.12.008
+12. Ritsner MS et al. L-theanine relieves positive, activation, and anxiety symptoms in patients with schizophrenia and schizoaffective disorder: an 8-week RCT. J Clin Psychiatry. 2011. PMID:21208586 DOI:10.4088/JCP.09m05324gre
+13. Shamabadi A et al. L-Theanine adjunct to risperidone in the treatment of chronic schizophrenia inpatients: an RCT. Psychopharmacology (Berl). 2023. PMID:37697164 DOI:10.1007/s00213-023-06458-9
+14. Kardashev A et al. Add-On Pregnenolone with L-Theanine to Antipsychotic Therapy Relieves Negative and Anxiety Symptoms of Schizophrenia: an 8-Week RCT. Clin Schizophr Relat Psychoses. 2018. PMID:26218236
+15. Ota M et al. Effect of L-theanine on glutamatergic function in patients with schizophrenia. Acta Neuropsychiatr. 2015. PMID:25896423 DOI:10.1017/neu.2015.22
+16. Kahathuduwa CN et al. Effects of L-theanine-caffeine combination on sustained attention and inhibitory control among children with ADHD: a proof-of-concept neuroimaging RCT. Sci Rep. 2020. PMID:32753637 DOI:10.1038/s41598-020-70037-7
+17. Nawarathna GS et al. Effects of L-theanine-caffeine combination on selective attention among adolescents with ADHD: a double-blind, placebo-controlled, crossover study. Nutr Neurosci. 2026. PMID:42096377 DOI:10.1080/1028415X.2026.2659148
+18. Lyon MR et al. The effects of L-theanine (Suntheanine) on objective sleep quality in boys with ADHD: a randomized, double-blind, placebo-controlled clinical trial. Altern Med Rev. 2011. PMID:22214254
+19. Al Shahab S et al. Efficiency of Different Supplements in Alleviating Symptoms of ADHD with or Without the Use of Stimulants: A Systematic Review. Nutrients. 2025. PMID:40362791 DOI:10.3390/nu17091482
+20. Scheid L et al. Kinetics of L-theanine uptake and metabolism in healthy participants are comparable after ingestion of L-theanine via capsules and green tea. J Nutr. 2012. PMID:23096008 DOI:10.3945/jn.112.166371
+21. Turkozu D, Sanlier N. L-theanine, unique amino acid of tea, and its metabolism, health effects, and safety. Crit Rev Food Sci Nutr. 2017. PMID:26192072 DOI:10.1080/10408398.2015.1016141
+22. Yoto A et al. Effects of L-theanine or caffeine intake on changes in blood pressure under physical and psychological stresses. J Physiol Anthropol. 2012. PMID:23107346 DOI:10.1186/1880-6805-31-28
+23. Rogers PJ et al. Time for tea: mood, blood pressure and cognitive performance effects of caffeine and theanine administered alone and together. Psychopharmacology (Berl). 2008. PMID:17891480 DOI:10.1007/s00213-007-0938-1
+24. Giesbrecht T et al. The combination of L-theanine and caffeine improves cognitive performance and increases subjective alertness. Nutr Neurosci. 2010. PMID:21040626 DOI:10.1179/147683010X12611460764840
+25. Owen GN et al. The combined effects of L-theanine and caffeine on cognitive performance and mood. Nutr Neurosci. 2008. PMID:18681988 DOI:10.1179/147683008X301513
+26. Haskell CF et al. The effects of L-theanine, caffeine and their combination on cognition and mood. Biol Psychol. 2008. PMID:18006208 DOI:10.1016/j.biopsycho.2007.09.008
+27. Foxe JJ et al. Assessing the effects of caffeine and theanine on the maintenance of vigilance during a sustained attention task. Neuropharmacology. 2012. PMID:22326943 DOI:10.1016/j.neuropharm.2012.01.020
+28. Hidese S et al. Effects of L-Theanine Administration on Stress-Related Symptoms and Cognitive Functions in Healthy Adults: An RCT. Nutrients. 2019. PMID:31623400 DOI:10.3390/nu11102362
+29. Moulin M et al. Safety and Efficacy of AlphaWave L-Theanine Supplementation for 28 Days in Healthy Adults with Moderate Stress: an RCT. Neurol Ther. 2024. PMID:38758503 DOI:10.1007/s40120-024-00624-7
+30. Evans M et al. A Randomized, Triple-Blind, Placebo-Controlled, Crossover Study to Investigate the Efficacy of a Single Dose of AlphaWave L-Theanine on Stress in a Healthy Adult Population. Neurol Ther. 2021. PMID:34562208 DOI:10.1007/s40120-021-00284-x
+31. Kimura K et al. L-Theanine reduces psychological and physiological stress responses. Biol Psychol. 2007. PMID:16930802 DOI:10.1016/j.biopsycho.2006.06.006
+32. Unno K et al. Anti-stress effect of theanine on students during pharmacy practice. Pharmacol Biochem Behav. 2013. PMID:24051231 DOI:10.1016/j.pbb.2013.09.004
+33. Sarris J et al. L-theanine in the adjunctive treatment of generalized anxiety disorder: A double-blind, randomised, placebo-controlled trial. J Psychiatr Res. 2019. PMID:30580081 DOI:10.1016/j.jpsychires.2018.12.014
+34. Shamabadi A et al. l-theanine adjunct to sertraline for major depressive disorder: An RCT. J Affect Disord. 2023. PMID:37084960 DOI:10.1016/j.jad.2023.04.029
+35. Hidese S et al. Effects of chronic l-theanine administration in patients with major depressive disorder: an open-label study. Acta Neuropsychiatr. 2017. PMID:27396868 DOI:10.1017/neu.2016.33
+36. Lu K et al. The acute effects of L-theanine in comparison with alprazolam on anticipatory anxiety in humans. Hum Psychopharmacol. 2004. PMID:15378679 DOI:10.1002/hup.611
+37. Kurdi MS et al. Comparison Between Efficacy of Oral Melatonin and Oral L-theanine in Improving Sleep in Cancer Patients Suffering From Insomnia: an RCT. Indian J Palliat Care. 2024. PMID:38846134 DOI:10.25259/IJPC_89_2023
+38. Ota M et al. Effect of L-theanine on sensorimotor gating in healthy human subjects. Psychiatry Clin Neurosci. 2014. PMID:24372613 DOI:10.1111/pcn.12134
+39. Nobre AC et al. L-theanine, a natural constituent in tea, and its effect on mental state. Asia Pac J Clin Nutr. 2008. PMID:18296328
+40. Nathan PJ et al. The neuropharmacology of L-theanine (N-ethyl-L-glutamine): a possible neuroprotective and cognitive enhancing agent. J Herb Pharmacother. 2006. PMID:17182482
+41. Anas Sohail A et al. The Cognitive-Enhancing Outcomes of Caffeine and L-theanine: A Systematic Review. Cureus. 2021. PMID:35111479 DOI:10.7759/cureus.20828
+42. Lopes Sakamoto F et al. Psychotropic effects of (L)-theanine and its clinical properties: From the management of anxiety and stress to a potential use in schizophrenia. Pharmacol Res. 2019. PMID:31412272 DOI:10.1016/j.phrs.2019.104395
+43. Yokogoshi H et al. Reduction effect of theanine on blood pressure and brain 5-hydroxyindoles in spontaneously hypertensive rats. Biosci Biotechnol Biochem. 1995. PMID:7539642 DOI:10.1271/bbb.59.615
+44. Garcia-Nino WR et al. Pharmacological effects and molecular targets of L-theanine in cardiovascular diseases and comorbidities. Eur J Pharmacol. 2026. PMID:41796839 DOI:10.1016/j.ejphar.2026.178715
+45. Borzelleca JF et al. A 13-week dietary toxicity and toxicokinetic study with l-theanine in rats. Food Chem Toxicol. 2006. PMID:16759779 DOI:10.1016/j.fct.2006.03.014
+46. Drugs and Lactation Database (LactMed). Theanine. NICHD. 2025. PMID:40460226
+47. Yamaura S et al. Pharmacokinetics of L-theanine and the effect on amino acid composition in mice administered with L-theanine. Amino Acids. 2024. PMID:38583116 DOI:10.1007/s00726-024-03389-3
+48. Sato Y et al. An imaging approach for determining the mechanism of enhancement of intestinal absorption of an L-theanine supplement. PLoS One. 2021. PMID:34115818 DOI:10.1371/journal.pone.0253066
+49. Hu J et al. The safety of green tea and green tea extract consumption in adults - Results of a systematic review. Regul Toxicol Pharmacol. 2018. PMID:29580974 DOI:10.1016/j.yrtph.2018.03.019
+50. Yu XC et al. Theanine enhanced both the toxicity of strychnine and anticonvulsion of pentobarbital sodium. Drug Chem Toxicol. 2016. PMID:26330182 DOI:10.3109/01480545.2015.1080264
+51. Heese T et al. Anxiolytic effects of L-theanine - a component of green tea - when combined with midazolam, in the male Sprague-Dawley rat. AANA J. 2009. PMID:20108732
+52. Kim S et al. GABA and l-theanine mixture decreases sleep latency and improves NREM sleep. Pharm Biol. 2019. PMID:30707852 DOI:10.1080/13880209.2018.1557698
+53. Konno H et al. Effects of combined GABA and L-theanine supplementation on sleep quality: an exploratory study. Eur Rev Med Pharmacol Sci. 2026. PMID:41636292 DOI:10.26355/eurrev_202601_37647
+54. Langan-Evans C et al. Nutritional Modulation of Sleep Latency, Duration, and Efficiency: A Randomized, Repeated-Measures, Double-Blind Deception Study. Med Sci Sports Exerc. 2023. PMID:36094342 DOI:10.1249/MSS.0000000000003040
+55. Carbonneau S et al. Nonsedating neurotransmitter-modulating supplement for nonvasomotor sleep disturbance in menopause. Menopause. 2026. PMID:42742055 DOI:10.1097/GME.0000000000002880
+56. Mastrofini GF et al. Modulating stress and sleep through a multi-compound dietary supplement: an RCT. J Int Soc Sports Nutr. 2026. PMID:42829807 DOI:10.1080/15502783.2026.2740227
+57. Sugiyama T, Sadzuka Y. Theanine and glutamate transporter inhibitors enhance the antitumor efficacy of chemotherapeutic agents. Biochim Biophys Acta. 2003. PMID:14643924 DOI:10.1016/s0304-419x(03)00031-3
+58. Sadzuka Y et al. Improvement of idarubicin induced antitumor activity and bone marrow suppression by theanine, a component of tea. Cancer Lett. 2000. PMID:10960760 DOI:10.1016/s0304-3835(00)00491-2
+59. Altinkaynak Y et al. The protective powers of L-theanine against drug-induced kidney damage. Clin Nephrol. 2025. PMID:39607236 DOI:10.5414/CN111549
+60. Shojaei-Zarghani S et al. Theanine and cancer: A systematic review of the literature. Phytother Res. 2021. PMID:33891786 DOI:10.1002/ptr.7110
+61. Nawarathna GS et al. High-dose L-theanine-caffeine combination improves neurobehavioural and neurophysiological measures of selective attention in acutely sleep-deprived young adults. Br J Nutr. 2025. PMID:40789769 DOI:10.1017/S0007114525104169
+62. Razazan R et al. Performance-enhancing effects of caffeine and L-Theanine among Iranian elite wrestlers. J Int Soc Sports Nutr. 2025. PMID:40977612 DOI:10.1080/15502783.2025.2564238
+63. Tuncer SY et al. Acute effects of combined and isolated caffeine and theanine supplementation on physical and cognitive performance in competitive athletes: an RCT. Front Nutr. 2026. PMID:41668720 DOI:10.3389/fnut.2025.1751673
+64. Arslan S et al. Synergistic effects of caffeine, l-theanine, and diaphragmatic breathing on esports performance: a randomized controlled crossover trial. Nutr Res. 2026. PMID:42176572 DOI:10.1016/j.nutres.2026.04.007
+65. Jagim AR et al. International society of sports nutrition position stand: energy drinks and energy shots. J Int Soc Sports Nutr. 2023. PMID:36862943 DOI:10.1080/15502783.2023.2171314
+66. Zbozinek TD et al. New and emerging treatments for anxiety disorders. BMJ. 2026. PMID:41839508 DOI:10.1136/bmj-2024-083441
+67. Gong J et al. Walnut peptide and theanine combination ameliorates sleep disorders: a multi-species study including a human trial. Food Funct. 2026. PMID:41531275 DOI:10.1039/d5fo03867g
+68. Rizzo R et al. Use of Nutritional Supplements Based on L-Theanine and Vitamin B6 in Children with Tourette Syndrome, with Anxiety Disorders: A Pilot Study. Nutrients. 2022. PMID:35215501 DOI:10.3390/nu14040852
+69. Huang L et al. L-Theanine Ameliorates Metabolic Dysregulation and Adverse Fetal Outcomes in a Mice Model of Gestational Obesity. J Microbiol Biotechnol. 2025. PMID:41016812 DOI:10.4014/jmb.2504.04017
+70. US FDA. GRAS Notices inventory: L-theanine (GRN 209, 338, 501, 1311, 1344). Accessed 2026-10-13. URL:https://www.hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=GRASNotices&type=basic&search=theanine

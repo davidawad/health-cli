@@ -4,14 +4,274 @@
   "slug": "urolithin-a",
   "aliases": [
     "UA",
-    "mitophagy-associated gut microbial metabolite"
+    "UroA",
+    "Uro-A",
+    "3,8-dihydroxy-6H-dibenzo[b,d]pyran-6-one",
+    "Mitopure",
+    "ellagitannin-derived postbiotic"
   ],
   "category": "longevity",
   "rx_status": "otc",
   "evidence_certainty_overall": "low",
-  "edges": [],
+  "edges": [
+    {
+      "with": "Aspirin",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "UA inhibits arachidonic-acid-triggered platelet aggregation (IC50 3.7 uM, thromboxane A2 pathway) and potentiated the antiplatelet effect of acetylsalicylic acid in human whole blood; possible additive antiplatelet effect.",
+      "evidence": "In vitro human whole-blood aggregometry (n=17 donors); glucuronide inactive; no in vivo data; low/very low certainty",
+      "citations": [
+        "PMID:42812264"
+      ]
+    },
+    {
+      "with": "antiplatelet and anticoagulant drugs",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Antiplatelet activity of UA aglycone across multiple agonists (collagen, ADP, PAF, TRAP); theoretical additive bleeding risk.",
+      "evidence": "In vitro only; clinical relevance unconfirmed",
+      "citations": [
+        "PMID:42812264"
+      ]
+    },
+    {
+      "with": "warfarin",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Pomegranate juice (ellagitannin precursor source of UA) was associated with INR change on starting/stopping; proposed CYP inhibition by pomegranate constituents. Not shown for purified UA.",
+      "evidence": "Single case report (DIPS possible) plus reviews; applies to pomegranate juice, not UA supplements",
+      "citations": [
+        "PMID:19637955",
+        "PMID:36903363"
+      ]
+    },
+    {
+      "with": "CYP3A4/CYP2C9 substrates",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Pomegranate constituents inhibit CYP3A4/CYP2C9 in vitro and in animals; human relevance not established; no data for purified UA.",
+      "evidence": "Reviews of in vitro, animal and limited clinical studies of pomegranate juice",
+      "citations": [
+        "PMID:36903363",
+        "PMID:23673492"
+      ]
+    },
+    {
+      "with": "AhR ligands / CYP1A1 substrates",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "UA is a direct AhR ligand (antagonist in human reporter cells, attenuating TCDD-induced CYP1A1; agonist-like in gut epithelium) and induced CYP1A1/UGT1A10 in Caco-2 cells.",
+      "evidence": "In vitro and rodent data; in vivo CYP1A1 induction not seen with oral dosing in rats",
+      "citations": [
+        "PMID:30501068",
+        "PMID:19469472",
+        "PMID:42336837"
+      ]
+    },
+    {
+      "with": "bortezomib",
+      "with_kind": "drug",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "UA cytotoxic to myeloma cells and synergistic with bortezomib, including bortezomib-resistant cells.",
+      "evidence": "In vitro and xenograft data plus retrospective cohort of 45 patients; preclinical",
+      "citations": [
+        "PMID:40022244"
+      ]
+    },
+    {
+      "with": "5-fluorouracil",
+      "with_kind": "drug",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "UA chemosensitized 5-FU-resistant colon cancer cells by downregulating MDR1, BCRP, MRP2 and MRP7 efflux transporters via FOXO3-FOXM1.",
+      "evidence": "Cell and mouse xenograft/AOM-DSS models; preclinical",
+      "citations": [
+        "PMID:35910798"
+      ]
+    },
+    {
+      "with": "bicalutamide",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Additive antiproliferative effect with bicalutamide in LNCaP cells but attenuated pro-apoptotic activity; authors advise caution in complementary prostate cancer therapy.",
+      "evidence": "In vitro only",
+      "citations": [
+        "PMID:30097116"
+      ]
+    },
+    {
+      "with": "cyclosporine",
+      "with_kind": "drug",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Combination UA + cyclosporine A reduced anti-dsDNA IgG, immune complex deposition and renal inflammation more than either alone.",
+      "evidence": "Murine lupus nephritis model; preclinical",
+      "citations": [
+        "PMID:42130005"
+      ]
+    },
+    {
+      "with": "Spermidine",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Complementary mechanisms: UA induces PINK1/Parkin mitophagy, spermidine induces broader autophagy via AMPK/SIRT1.",
+      "evidence": "Narrative review; no combination trial",
+      "citations": [
+        "PMID:41404767"
+      ]
+    },
+    {
+      "with": "NMN",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "NAD+ supplementation and UA both stimulate mitophagy and reversed memory impairment in AD models; UA and NMN are co-prescribed by gerotype in a precision geromedicine protocol.",
+      "evidence": "Animal data and a feasibility protocol without outcomes; no combination efficacy data",
+      "citations": [
+        "PMID:30742114",
+        "PMID:42393428"
+      ]
+    },
+    {
+      "with": "pomegranate / ellagitannin-rich foods (walnuts, berries)",
+      "with_kind": "food",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Dietary ellagitannins/ellagic acid are converted to UA by gut bacteria in producers (metabotype A/B); direct UA gives >6-fold higher plasma exposure than pomegranate juice.",
+      "evidence": "Human intervention trials; conversion is metabotype-dependent",
+      "citations": [
+        "PMID:24976365",
+        "PMID:34117375",
+        "PMID:16988113"
+      ]
+    },
+    {
+      "with": "synbiotic probiotics + pomegranate extract",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "24-strain synbiotic with 400 mg pomegranate extract increased urinary UA 49-fold and converted 100% of participants into UA producers (vs 44.4% placebo).",
+      "evidence": "RCT n=32, 91 days; increases endogenous production rather than combining with UA supplements",
+      "citations": [
+        "PMID:40944126"
+      ]
+    },
+    {
+      "with": "fructooligosaccharides (FOS)",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "FOS plus ellagic acid synergistically increased gut UA biosynthesis (Bifidobacterium pseudolongum to Enterococcus faecalis cross-feeding) and muscle endurance.",
+      "evidence": "Animal study",
+      "citations": [
+        "PMID:41506451"
+      ]
+    },
+    {
+      "with": "urolithin metabotype 0 (non-producer)",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Non-producers (5-25%) make no UA from dietary ellagitannins; direct supplementation bypasses microbiome variability.",
+      "evidence": "Pooled intervention trials and RCT of UA vs pomegranate juice",
+      "citations": [
+        "PMID:24976365",
+        "PMID:34117375",
+        "PMID:41866331"
+      ]
+    },
+    {
+      "with": "nephrolithiasis (kidney stones)",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "UA (poorly soluble) identified as a component (5-80%) of calcium oxalate/phosphate urinary stones in 8 patients with high dietary walnut/berry intake; none took UA supplements.",
+      "evidence": "Case series (lab-based), 2026; risk with supplements unstudied",
+      "citations": [
+        "PMID:42058113"
+      ]
+    },
+    {
+      "with": "hormone-sensitive breast cancer",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "UA binds ERalpha/ERbeta (IC50 0.4/0.75 uM) with weak estrogenic and antiestrogenic activity and SERM-like behaviour.",
+      "evidence": "In vitro and animal data; no clinical harm reported",
+      "citations": [
+        "PMID:16506809",
+        "PMID:37345359"
+      ]
+    }
+  ],
   "citations": [
+    "PMID:16506809",
+    "PMID:16988113",
+    "PMID:19469472",
+    "PMID:19637955",
+    "PMID:23673492",
+    "PMID:24976365",
+    "PMID:26439723",
+    "PMID:27400265",
+    "PMID:27879044",
+    "PMID:28757461",
+    "PMID:30097116",
+    "PMID:30471188",
+    "PMID:30501068",
+    "PMID:30626868",
+    "PMID:30742114",
+    "PMID:32398726",
+    "PMID:32694802",
+    "PMID:34030963",
+    "PMID:34117375",
+    "PMID:35050355",
+    "PMID:35118817",
+    "PMID:35584623",
+    "PMID:35778837",
+    "PMID:35910798",
+    "PMID:36159798",
+    "PMID:36840624",
+    "PMID:36903363",
+    "PMID:37242251",
+    "PMID:37345359",
+    "PMID:37803793",
+    "PMID:37925671",
+    "PMID:38000358",
+    "PMID:38280852",
+    "PMID:38415449",
+    "PMID:38753870",
     "PMID:39002645",
-    "PMID:35584623"
+    "PMID:39487653",
+    "PMID:39856097",
+    "PMID:40022244",
+    "PMID:40034121",
+    "PMID:40839339",
+    "PMID:40944126",
+    "PMID:41174221",
+    "PMID:41245402",
+    "PMID:41404767",
+    "PMID:41506451",
+    "PMID:41642121",
+    "PMID:41786716",
+    "PMID:41866331",
+    "PMID:42058113",
+    "PMID:42130005",
+    "PMID:42336837",
+    "PMID:42371155",
+    "PMID:42393428",
+    "PMID:42468665",
+    "PMID:42559151",
+    "PMID:42812264",
+    "PMID:42841852",
+    "PMID:42853569",
+    "URL:https://www.cfsanappsexternal.fda.gov/scripts/fdcc/index.cfm?set=GRASNotices&id=791"
   ]
 }

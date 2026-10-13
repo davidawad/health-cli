@@ -3,68 +3,390 @@
   "supplement": "Curcumin",
   "slug": "curcumin",
   "aliases": [
-    "turmeric",
-    "Curcuma longa",
-    "curcuminoids"
+    "curcuminoids",
+    "diferuloylmethane",
+    "turmeric extract",
+    "Curcuma longa extract",
+    "curcumin with piperine",
+    "BioPerine-curcumin",
+    "micellar curcumin",
+    "phytosomal curcumin",
+    "Meriva",
+    "nanocurcumin",
+    "Theracurmin"
   ],
   "category": "botanical",
   "rx_status": "otc",
   "evidence_certainty_overall": "low",
   "edges": [
     {
-      "with_kind": "supplement",
-      "kind": "synergy",
-      "severity": "minor",
-      "mechanism": "Combination evidence is not clinically established; overlapping glucose-lowering and metabolism effects are plausible, but no direct human interaction trial was identified.",
-      "evidence": "Limited or mechanistic evidence; no direct clinically decisive interaction trial identified.",
+      "with": "tacrolimus",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "major",
+      "mechanism": "Proposed CYP3A/P-gp inhibition raising tacrolimus exposure; case of trough 29.9 ng/mL with acute calcineurin-inhibitor nephrotoxicity after high-dose turmeric; Saudi FDA rated turmeric-tacrolimus a probable interaction. A structured 10 g/d turmeric challenge in another transplant recipient showed no level change.",
+      "evidence": "Case reports plus regulator signal assessment; conflicting; low certainty",
       "citations": [
-        "PMID:40269802",
-        "PMID:39478418"
-      ],
-      "with": "Berberine"
+        "PMID:28104136",
+        "PMID:37857794",
+        "PMID:37586787"
+      ]
     },
     {
-      "with_kind": "supplement",
+      "with": "sulfasalazine",
+      "with_kind": "drug",
       "kind": "caution",
-      "severity": "minor",
-      "mechanism": "Both are polyphenols with possible platelet and drug-metabolism effects; additive clinical effect is unproven.",
-      "evidence": "Limited or mechanistic evidence; no direct clinically decisive interaction trial identified.",
+      "severity": "moderate",
+      "mechanism": "Curcumin is a potent intestinal BCRP/ABCG2 inhibitor (Ki 0.70 uM); 2 g curcumin increased sulfasalazine AUC 3.2-fold at therapeutic dose.",
+      "evidence": "Human PK study (n=8)",
       "citations": [
-        "PMID:39288907",
-        "PMID:38255828"
-      ],
-      "with": "Trans-resveratrol"
+        "PMID:22300367"
+      ]
     },
     {
+      "with": "BCRP substrates",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Intestinal BCRP inhibition demonstrated in humans with sulfasalazine; other BCRP substrates may be affected (inferred).",
+      "evidence": "Human PK study with probe substrate; extrapolation",
+      "citations": [
+        "PMID:22300367"
+      ]
+    },
+    {
+      "with": "talinolol",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "P-gp substrate; curcumin 300 mg/d x6 d lowered talinolol AUC ~33%, whereas 1000 mg/d x14 d raised AUC 80.8% (largest in ABCB1 3435TT).",
+      "evidence": "Two small human PK studies with opposite results",
+      "citations": [
+        "PMID:17468862",
+        "PMID:22725663"
+      ]
+    },
+    {
+      "with": "P-glycoprotein substrates",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Bidirectional, dose/duration-dependent changes in exposure of the P-gp probe talinolol; modified by ABCB1 genotype.",
+      "evidence": "Human PK studies; low certainty",
+      "citations": [
+        "PMID:17468862",
+        "PMID:22725663",
+        "PMID:28734960"
+      ]
+    },
+    {
+      "with": "CYP3A4/CYP2C9 substrates",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "In vitro inhibition of CYP2C9 (IC50 4.3 uM) and CYP3A4 (16.3 uM), but 4 g curcuminoids + 24 mg piperine did not alter midazolam, flurbiprofen or paracetamol PK in volunteers.",
+      "evidence": "In vitro positive; short-term human probe study negative",
+      "citations": [
+        "PMID:17433521",
+        "PMID:22725836"
+      ]
+    },
+    {
+      "with": "Rapamycin",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Rapamycin is a CYP3A4/P-gp substrate; curcumin inhibits CYP3A4 in vitro and alters P-gp substrate exposure in humans, and a related CYP3A/P-gp substrate (tacrolimus) has case-level interaction reports. No sirolimus-specific study.",
+      "evidence": "Mechanistic extrapolation; very low certainty",
+      "citations": [
+        "PMID:17433521",
+        "PMID:22725663",
+        "PMID:28104136"
+      ]
+    },
+    {
+      "with": "anticoagulants",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Turmeric is associated with bleeding risk in patients on anticoagulants; in rats curcumin raised warfarin AUC ~1.6x without PT change.",
+      "evidence": "Narrative review of case/observational data plus animal PK; low certainty",
+      "citations": [
+        "PMID:36304597",
+        "PMID:23807811"
+      ]
+    },
+    {
+      "with": "antiplatelet drugs",
       "with_kind": "drug-class",
       "kind": "caution",
       "severity": "minor",
-      "mechanism": "Possible platelet and pharmacodynamic effects; evidence for herbal products with anticoagulants remains low quality.",
-      "evidence": "Human trial/review evidence or official fact sheet; clinical context and dose matter.",
+      "mechanism": "Proposed antiplatelet activity; in rats curcumin raised clopidogrel active-metabolite AUC ~1.6x without change in platelet aggregation.",
+      "evidence": "Animal PK/PD and review; very low certainty",
       "citations": [
-        "PMID:39288907"
-      ],
-      "with": "oral anticoagulants"
+        "PMID:23807811",
+        "PMID:36304597"
+      ]
     },
     {
+      "with": "Aspirin",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Additive bleeding tendency is plausible when turmeric/curcumin is combined with antithrombotic drugs; review links turmeric with bleeding in anticoagulated patients. No aspirin-specific study.",
+      "evidence": "Review-level evidence; very low certainty",
+      "citations": [
+        "PMID:36304597"
+      ]
+    },
+    {
+      "with": "antidiabetic drugs",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Curcumin lowers FBG ~4.6-5.9 mg/dL; with glyburide glucose fell further without hypoglycemia.",
+      "evidence": "MAs of RCTs plus small open-label study",
+      "citations": [
+        "PMID:37748368",
+        "PMID:41393198",
+        "PMID:25044423"
+      ]
+    },
+    {
+      "with": "Metformin ER",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Possible additive modest FBG lowering (curcumin FBG -4.6 mg/dL in MA); no metformin-specific interaction study.",
+      "evidence": "Inferred from MA; very low certainty",
+      "citations": [
+        "PMID:37748368",
+        "PMID:41393198"
+      ]
+    },
+    {
+      "with": "Berberine",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Both lower fasting glucose; additive effect plausible but no combination trial.",
+      "evidence": "Inferred from curcumin MA only",
+      "citations": [
+        "PMID:37748368"
+      ]
+    },
+    {
+      "with": "phenytoin",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Piperine (in many curcumin products) 20 mg raised phenytoin AUC and Cmax at steady state in epilepsy patients; relevant to narrow-therapeutic-index drugs.",
+      "evidence": "Human PK study of piperine",
+      "citations": [
+        "PMID:16767797"
+      ]
+    },
+    {
+      "with": "Heme Iron (Proferrin)",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Curcumin lowers hepcidin and may bind/limit iron absorption; case of iron-deficiency anemia on turmeric extract despite iron supplement, resolving after stopping; mouse data show depleted iron stores.",
+      "evidence": "Case report, human hepcidin crossover, animal study",
+      "citations": [
+        "PMID:30899609",
+        "PMID:28370178",
+        "PMID:24634837"
+      ]
+    },
+    {
+      "with": "Green Tea Extract",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Both are leading causes of herbal hepatotoxicity and share HLA-B*35:01 as a risk allele; stacking adds DILI exposure.",
+      "evidence": "Case series and reviews",
+      "citations": [
+        "PMID:42092331",
+        "PMID:36252717",
+        "PMID:39102266"
+      ]
+    },
+    {
+      "with": "Ashwagandha",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Both among the most-used potentially hepatotoxic botanicals; additive idiosyncratic DILI exposure.",
+      "evidence": "Population survey and DILI reviews",
+      "citations": [
+        "PMID:39102266",
+        "PMID:42092331"
+      ]
+    },
+    {
+      "with": "Turmeric",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Duplicate curcuminoid (and often piperine) exposure; turmeric products underlie the reported DILI cases.",
+      "evidence": "LiverTox and DILIN series",
+      "citations": [
+        "PMID:31643876",
+        "PMID:36252717"
+      ]
+    },
+    {
+      "with": "NAC, Ginger, Curcumin",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Duplicate curcumin exposure when combined with a curcumin-containing combination product; cumulative dose relevant to dose-dependent hepatotoxicity concerns.",
+      "evidence": "Inferred; Italian cases linked to high-dose high-bioavailability products",
+      "citations": [
+        "PMID:31643876",
+        "PMID:32656820"
+      ]
+    },
+    {
+      "with": "chronic liver disease",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Idiosyncratic, often hepatocellular DILI with HLA-B*35:01 linkage, rare acute liver failure/death; USP advises consulting a clinician with a history of liver problems; rechallenge caused more severe injury.",
+      "evidence": "DILIN, Italian and pathology case series; USP review",
+      "citations": [
+        "PMID:36252717",
+        "PMID:32656820",
+        "PMID:39381846",
+        "PMID:42364655",
+        "PMID:42160492"
+      ]
+    },
+    {
+      "with": "gallstones / biliary obstruction",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Curcumin contracts the gallbladder dose-dependently (29% at 20 mg to 72% at 80 mg within 2 h).",
+      "evidence": "Small human ultrasound RCTs; clinical outcomes not studied",
+      "citations": [
+        "PMID:10102956",
+        "PMID:12495265"
+      ]
+    },
+    {
+      "with": "iron-deficiency anemia",
       "with_kind": "condition",
       "kind": "caution",
       "severity": "minor",
-      "mechanism": "Concentrated turmeric products may aggravate biliary symptoms; evidence is from safety references.",
-      "evidence": "Human trial/review evidence or official fact sheet; clinical context and dose matter.",
+      "mechanism": "Hepcidin lowering and iron binding; case of iron-deficiency anemia resolving after stopping turmeric.",
+      "evidence": "Case report plus mechanistic human/animal data",
       "citations": [
-        "URL:https://www.ncbi.nlm.nih.gov/books/NBK548561/"
-      ],
-      "with": "biliary obstruction"
+        "PMID:30899609",
+        "PMID:28370178"
+      ]
+    },
+    {
+      "with": "calcium oxalate kidney stones",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Supplemental turmeric (highly soluble oxalate) raised urinary oxalate; applies to turmeric powder rather than purified curcumin.",
+      "evidence": "Small crossover study (n=11)",
+      "citations": [
+        "PMID:18469248"
+      ]
+    },
+    {
+      "with": "HLA-B*35:01",
+      "with_kind": "genotype",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Allele frequency 0.45 in turmeric-DILI cases vs ~0.06 in controls; carriers may be at higher risk; testing not validated.",
+      "evidence": "DILIN case series and case report",
+      "citations": [
+        "PMID:36252717",
+        "PMID:39297606"
+      ]
+    },
+    {
+      "with": "serum hepcidin / ferritin",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Physiological (not analytical) changes: hepcidin fell 17-19% and ferritin rose ~7% after 6 g curcuma; marked hyperferritinemia reported in turmeric DILI.",
+      "evidence": "Human crossover study and case report",
+      "citations": [
+        "PMID:28370178",
+        "PMID:40880678"
+      ]
     }
   ],
   "citations": [
-    "PMID:39478418",
-    "PMID:40538540",
+    "PMID:10102956",
+    "PMID:12495265",
+    "PMID:16767797",
+    "PMID:17433521",
+    "PMID:17468862",
+    "PMID:18469248",
+    "PMID:22300367",
+    "PMID:22725663",
+    "PMID:22725836",
+    "PMID:23807811",
+    "PMID:24634837",
+    "PMID:25044423",
+    "PMID:28074653",
+    "PMID:28104136",
+    "PMID:28370178",
+    "PMID:28734960",
+    "PMID:30899609",
+    "PMID:31643876",
+    "PMID:32656820",
+    "PMID:33418373",
+    "PMID:34665507",
+    "PMID:35935936",
+    "PMID:36101515",
+    "PMID:36252717",
+    "PMID:36304597",
+    "PMID:36804260",
+    "PMID:37230418",
+    "PMID:37586787",
+    "PMID:37748368",
+    "PMID:37857794",
+    "PMID:38213188",
+    "PMID:38399379",
+    "PMID:38576215",
+    "PMID:38965866",
+    "PMID:39102266",
+    "PMID:39297606",
+    "PMID:39381846",
     "PMID:39425780",
-    "PMID:40269802",
-    "PMID:39288907",
-    "PMID:38255828",
+    "PMID:39478418",
+    "PMID:40044446",
+    "PMID:40196017",
+    "PMID:40308636",
+    "PMID:40314175",
+    "PMID:40538540",
+    "PMID:40579315",
+    "PMID:40615851",
+    "PMID:40880678",
+    "PMID:41255460",
+    "PMID:41372521",
+    "PMID:41388744",
+    "PMID:41393198",
+    "PMID:41601662",
+    "PMID:42092331",
+    "PMID:42160492",
+    "PMID:42331134",
+    "PMID:42364655",
+    "PMID:42472817",
+    "PMID:42680855",
+    "PMID:42745984",
+    "PMID:42797011",
+    "PMID:42859601",
+    "PMID:9619120",
+    "URL:https://www.nccih.nih.gov/health/turmeric",
     "URL:https://www.ncbi.nlm.nih.gov/books/NBK548561/"
   ]
 }

@@ -3,50 +3,212 @@
 :ID: supp-quercetin
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: quercetin dihydrate | isoquercetin | rutin (related glycoside)
+:ALIASES: quercetin aglycone | quercetin dihydrate | Quercetin Phytosome | isoquercetin | isoquercitrin | quercetin-3-O-glucoside | enzymatically modified isoquercitrin | EMIQ | quercetin glycosides | 3,3',4',5,7-pentahydroxyflavone
 :CATEGORY: botanical
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Quercetin is represented by these commonly studied or marketed forms: quercetin dihydrate, isoquercetin, rutin (related glycoside). Clinical products and formulations can differ in composition and bioavailability; this limits cross-trial comparisons [PMID:42827146, PMID:41227106].
+- Quercetin (3,3',4',5,7-pentahydroxyflavone) is a dietary flavonol found in onions, apples, tea and berries [PMID:26785820] [PMID:9816216]. Supplements mostly contain the free aglycone, often at doses up to 1000 mg/d, which is far above usual dietary intake [PMID:29127724].
+- Oral bioavailability of the aglycone is poor, and absorbed quercetin circulates mainly as methyl, glucuronide and sulfate conjugates [PMID:31557798] [PMID:28135601].
+- A 2025 SR/MA of 31 human bioavailability studies ranked the forms [PMID:40037045]:
+  - Quercetin-3-O-oligoglucosides were about 2x more bioavailable than quercetin-3-O-glucoside (isoquercetin), about 10x more than rutin (quercetin-3-O-rutinoside) and about 20x more than the aglycone.
+  - Relative to the aglycone, a quercetin-3-O-glucoside-gamma-cyclodextrin complex gave 10.8x exposure, a fenugreek galactomannan/lecithin self-emulsifying form 62x, and a lecithin phytosome 20.1x. Taking it with dietary fat or fibre roughly doubled exposure.
+- Quercetin Phytosome (food-grade lecithin): in a 12-subject crossover PK study, plasma levels were up to 20x higher than with unformulated quercetin, with no notable side effects [PMID:30328058]. A 200 mg/d phytosome dose was used in an allergy RCT [PMID:35776034] [PMID:40362785].
+- Isoquercetin (isoquercitrin, quercetin-3-O-glucoside): used at 500-1000 mg/d in antithrombotic phase II trials [PMID:30652973] [PMID:38157227]. A 150-300 mg quercetin-4'-O-glucoside dose gave plasma peaks of 4.7-9.7 uM at 30 min [PMID:15613018].
+- EMIQ (enzymatically modified isoquercitrin; alpha-oligoglucosyl isoquercitrin) is made enzymatically from rutin, has much higher bioavailability, and is used as a food additive and supplement ingredient [PMID:36499113]. One EMIQ preparation contained 1-12 glucose units [PMID:38185856].
+- Results from one form or dose cannot be assumed to apply to another, because systemic exposure differs widely between forms [PMID:40037045] [PMID:42827146].
 
 ** Mechanisms
-- Proposed mechanisms are outcome- and formulation-dependent; mechanistic plausibility does not establish clinical efficacy. Human evidence is summarized below [PMID:42827146, PMID:41227106].
+- Senolytic activity: in transcriptomic and siRNA work, quercetin killed senescent human endothelial cells and mouse BM-MSCs, while dasatinib killed senescent preadipocytes. The two together (D+Q) cleared senescent cells in aged, irradiated and progeroid mice [PMID:25754370].
+- Xanthine oxidoreductase (XOR) inhibition: quercetin, quercetin-3'-sulfate and the microbial metabolite 3,4-dihydroxyphenylacetic acid inhibit XOR. This is the proposed mechanism for lower plasma uric acid in humans [PMID:33091574] [PMID:26785820]. In vivo, quercetin 500 mg/d raised a caffeine-derived XO activity index by 15% [PMID:19215233].
+- Antiplatelet and antithrombotic effects:
+  - Oral quercetin-4'-O-glucoside inhibited collagen-induced platelet aggregation and GPVI signalling (Syk, PLCgamma2) in humans [PMID:15613018].
+  - The methylated metabolites isorhamnetin and tamarixetin have similar potency in vitro [PMID:31367693].
+  - Isoquercetin inhibits extracellular protein disulfide isomerase (PDI) [PMID:30652973].
+- Vascular effects: BP reductions in RCT meta-analyses [PMID:27405810] [PMID:31940027]. In a CABG RCT, endothelium-dependent relaxation improved in men, with reversal of vascular senescence transcriptomic signatures [PMID:40375481]. The BP fall in stage 1 hypertension occurred without changes in systemic oxidative-stress markers [PMID:17951477].
+- Drug-metabolism and transporter modulation [PMID:42827146]:
+  - CYP1A2 inhibition [PMID:19215233] [PMID:25025048].
+  - CYP2C9 inhibition (diclofenac) [PMID:29168292].
+  - CYP3A induction after repeated dosing [PMID:21680781] [PMID:25988261].
+  - Variable P-gp effects: inhibition with fexofenadine [PMID:19221726], induction with talinolol [PMID:23422925].
+  - OATP1B1/1B3 inhibition [PMID:22114872] [PMID:22394605].
+- Thyroid: in vitro and in rats, quercetin lowers iodide uptake and NIS, TSH-receptor, TPO and thyroglobulin expression. It also inhibits type 1 5'-deiodinase [PMID:24447974] [PMID:39456456].
+- Iron chelation: quercetin binds iron and lowers duodenal ferroportin in rats and Caco-2 cells [PMID:25058155].
+- Antibacterial: binds the ATP pocket of E. coli gyrase B and inhibits supercoiling [PMID:12804597]. It competes only weakly with norfloxacin at the gyrase-DNA complex [PMID:8718602].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---|---|---|---|---|---|
-| Human trials have evaluated inflammatory, cardiometabolic, allergy and exercise endpoints, but clinical effects remain inconsistent and formulation/bioavailability vary | Systematic review/meta-analysis or human trial synthesis | Mixed/possible benefit; no established clinical disease prevention | See evidence summary below; pooled estimates vary by outcome and population | low | PMID:42827146, PMID:41227106 |
-
-- A 2026 systematic review of pharmacokinetic interactions found clinically relevant human data fragmented and interaction risks uncertain, with much evidence preclinical [PMID:42827146].
-- Human trials have evaluated inflammatory, cardiometabolic, allergy and exercise endpoints, but clinical effects remain inconsistent and formulation/bioavailability vary; certainty low to very low [PMID:42827146].
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Systolic BP | Umbrella review (5 MAs, 18 RCTs + 5 RCTs, GRADE); MAs of 7-17 RCTs | Small decrease | Umbrella WMD -1.9 mmHg (CI -3.2 to -0.6, I2 88%); 17 RCTs WMD -3.09 (CI -4.59 to -1.59); >=500 mg/d -4.45 (CI -7.70 to -1.21) | low | [PMID:37654199] [PMID:31940027] [PMID:27405810] [PMID:35948195] |
+| Diastolic BP | Same MAs | Inconsistent | Umbrella: no effect; 17 RCTs WMD -2.86 (CI -5.09 to -0.63); (pre)hypertensive subgroup MD -3.14 (CI -4.44 to -1.84) | low | [PMID:37654199] [PMID:31940027] [PMID:35948195] |
+| BP in stage 1 hypertension | Crossover RCT (n=41), 730 mg/d x 28 d | Decrease in stage 1 hypertension only | -7/-5 mmHg; no change in prehypertension | low | [PMID:17951477] |
+| Lipids (TC, LDL-C, HDL-C, TG) | MA of 5 RCTs (n=442); MA of 17 RCTs; umbrella | No clinically relevant effect | LDL-C +1.43 mg/dL (CI -0.92 to 3.78); TC +3.13 (CI -0.01 to 6.27); TG -24.5 mg/dL only in >=500 mg/d, >=4 wk subgroup | moderate | [PMID:25897620] [PMID:31940027] [PMID:37654199] |
+| Fasting glucose / HbA1c | MA of 9 RCTs (MetS); umbrella | No overall effect | FPG reduced only in >=8 wk (WMD -0.94) and >=500 mg/d subgroups; umbrella null for FBG and HOMA-IR | low | [PMID:30848564] [PMID:37654199] |
+| Fasting insulin | Umbrella review | Small decrease | WMD -1.07 (CI -1.9 to -0.1, I2 75%) | low | [PMID:37654199] |
+| HbA1c in T2DM | Open-label RCT (n=100), 500 mg/d, add-on | Decrease | -4.0% vs +0.1% relative change (p=0.011) | very low | [PMID:38930033] |
+| MASLD liver enzymes/lipids | SR/MA (7 RCTs, n=540) | Improvement | Lower ALT, AST, GGT, CRP, TC, LDL, TG; GRADE very low to moderate | low | [PMID:41404533] |
+| Plasma uric acid | Crossover RCT (n=22 men, 500 mg/d x 4 wk) | Decrease | -26.5 umol/L (CI -7.6 to -45.5) | low | [PMID:26785820] |
+| Endurance performance / VO2max | 2 MAs (11 studies n=254; 7 studies n=288) | Trivial benefit | ES 0.15 (CI 0.02-0.27), about 2%; performance +0.74% (CI 0.10-1.39); VO2max +1.94% (CI 0.30-3.59) | moderate | [PMID:21606866] [PMID:22805526] [PMID:39417670] |
+| Recovery from muscle damage | SR/MA (13 studies, n=249), mostly 1000 mg/d | Benefit | Soreness SMD -1.33; CK SMD -1.15; IL-6 unchanged | low | [PMID:37398956] |
+| Strength with resistance training (older adults) | RCT (n=26), quercetin glycosides 200 mg/d | Benefit | MVF +15.1% vs +5.3% | very low | [PMID:40063125] |
+| Upper respiratory infection | Community RCT (n=1002), 500 or 1000 mg/d x 12 wk | No overall effect | Null overall; fewer sick days only in a fit >=40 y subgroup | moderate | [PMID:20478383] |
+| Allergic rhinoconjunctivitis symptoms | RCT (n=66), phytosome 200 mg/d | Possible benefit | JRQLQ symptom scores improved | very low | [PMID:35776034] [PMID:40362785] |
+| Thrombosis biomarkers (isoquercetin) | Phase II cancer cohorts (n=57); RCT in sickle cell (n=46) | Decrease in markers | D-dimer -21.9% at 1000 mg; sP-selectin unchanged vs placebo in SCD | low | [PMID:30652973] [PMID:38157227] |
+| Senescent cell burden (D+Q) | Open-label phase 1 (n=9) | Decrease | Fewer p16/p21+ adipose cells; lower circulating SASP | very low | [PMID:31542391] |
+| Physical function in IPF (D+Q) | Open-label pilot (n=14); RCT pilot (n=12) | Improved open-label; no clear difference vs placebo | 6MWD and gait speed improved open-label | very low | [PMID:30616998] [PMID:36857968] |
+| Bone turnover in postmenopausal women (D+Q) | Phase 2 RCT (n=60) | Primary endpoint null | CTx -4.1% vs -7.7% (p=0.61); P1NP +16% at 2-4 wk only | low | [PMID:38956196] |
+| Fibrotic MASH (D+Q) | Phase 2 RCT (n=31) | Benefit | Fibrosis improvement 47% vs 7%; MASH resolution 53% vs 7% | low | [PMID:42823536] |
+| Acute mountain sickness | RCT (n=110 men), 500 mg/d bar | Benefit | AMS 2% vs 25% | low | [PMID:42435069] |
 
 ** Dosing in trials
-- Human supplementation studies commonly use roughly 500–1,000 mg/day for several weeks; no dose-response or optimal formulation is established [PMID:42827146].
+- BP and cardiometabolic: 500-1000 mg/d aglycone for 4-12 weeks. BP effects were seen at >=500 mg/d [PMID:27405810], and 730 mg/d was used in stage 1 hypertension [PMID:17951477]. A review proposes 500 mg aglycone as the BP and anti-inflammatory dose [PMID:31557798].
+- Uric acid: 500 mg/d for 4 weeks [PMID:26785820].
+- Exercise: median 1000 mg/d [PMID:21606866] [PMID:37398956]. Quercetin glycosides at 200 mg/d were used in older adults [PMID:40063125].
+- Phytosome: 200 mg/d [PMID:35776034]. Isoquercetin: 500-1000 mg/d for 56 days [PMID:30652973].
+- Senolytic (D+Q), intermittent "hit-and-run" dosing with dasatinib 100 mg (a prescription kinase inhibitor):
+  - 1000 mg/d quercetin for 3 days [PMID:31542391].
+  - 1250 mg/d, 3 days/week for 3 weeks [PMID:30616998] [PMID:36857968].
+  - 1000 mg/d, 3 days/week, in 7-week cycles [PMID:42823536].
+- IV (investigational only): a phase I bolus trial escalated 60-1700 mg/m2. Dose-limiting nephrotoxicity occurred at 1700 mg/m2, and 1400 mg/m2 was recommended [PMID:9816216].
 
 ** Safety & adverse effects
-- Short-term studies commonly report mild GI symptoms or headache; long-term high-dose safety is inadequately characterized [PMID:42827146].
+- Oral supplements: adverse effects in human studies are rare and mild. Adequate safety data for long-term (>12 weeks) use of >=1000 mg/d are lacking [PMID:29127724].
+- Possible risk groups identified from animal data: quercetin may worsen nephrotoxicity in an already damaged kidney and may promote estrogen-dependent tumors [PMID:29127724].
+- Renal toxicity at IV doses: in the phase I bolus trial, nephrotoxicity was dose-limiting at 1700 mg/m2. At 945 mg/m2, 3 of 14 patients had clinically significant renal toxicity. Weekly dosing caused a 19% (+/- 8%) GFR fall within 24 h but no cumulative impairment [PMID:9816216].
+- Thyroid: quercetin acts as a thyroid disruptor in vitro and in rats (lower radioiodine uptake after 14 days). Reviewers advise caution with high doses [PMID:24447974] [PMID:39456456]. No human thyroid-function data were found.
+- Bleeding/haemostasis: isoquercetin lowered coagulation markers without major haemorrhage in cancer patients [PMID:30652973] and caused no off-target bleeding in sickle cell disease [PMID:38157227].
+- Sex-specific signal: in a CABG RCT, quercetin had a pro-inflammatory effect on circulating proteins in women but benefits in men [PMID:40375481].
+- D+Q regimens (adverse events partly reflect dasatinib): the IPF RCT had more non-serious AEs (65 vs 22), with sleep disturbance and anxiety in 4/6 vs 0/6 [PMID:36857968]. The MASH RCT had AEs in 82% vs 43%, all self-limiting [PMID:42823536]. The open-label IPF study saw respiratory, skin and GI events [PMID:30616998], and the bone RCT had no serious AEs [PMID:38956196]. A 2026 SR rates senolytics as investigational, with long-term safety uncharacterized [PMID:42834340].
 
 ** Contraindications
-- Avoid assuming food exposure and concentrated supplements are equivalent; limited safety evidence in pregnancy, lactation, and significant renal/hepatic disease [PMID:42827146].
+- Pre-existing kidney disease, or concurrent nephrotoxic exposure: there is an animal signal for potentiated nephrotoxicity [PMID:29127724], and IV doses were nephrotoxic [PMID:9816216].
+- Estrogen-dependent cancer: a theoretical tumor-promotion signal from animal studies [PMID:29127724].
+- Narrow-therapeutic-index drugs that are P-gp, CYP3A, CYP2C9 or OATP substrates (cyclosporine, digoxin, warfarin): see Interactions [PMID:21466223] [PMID:14697403] [PMID:36311308].
+- Pregnancy and lactation: no safety data found in the retrieved sources. Long-term high-dose safety is not established [PMID:29127724].
+- D+Q is not self-administered supplement use. Dasatinib is a prescription drug, and D+Q trials are investigational [PMID:42834340].
 
 ** Interactions
-- In vitro enzyme/transporter modulation raises possible interaction with CYP3A4/CYP2C9 substrates and transporters, but clinical relevance is uncertain [PMID:42827146]. No validated lab-test interference identified in reviewed clinical sources.
-- No genotype-specific clinical claim is made because no qualifying pharmacogenomic source was identified for this research set.
+*** Drugs
+- Cyclosporine: in rats, quercetin cut cyclosporine (Neoral) Cmax by 67.8% and AUC by 43.3% via P-gp/CYP3A4 activation. The authors advise transplant patients to avoid it because of rejection risk [PMID:21466223].
+- Digoxin: in pigs, quercetin raised digoxin Cmax by 413% and AUC by 170%, and 2 of 3 pigs at 50 mg/kg died [PMID:14697403]. No human data were found, but P-gp inhibition is shown in humans [PMID:19221726].
+- Fexofenadine (P-gp probe): quercetin 500 mg three times daily for 7 days raised AUC 55% and Cmax 68% in healthy volunteers [PMID:19221726].
+- Talinolol (P-gp probe): the effect ran in the opposite direction. Short-term quercetin lowered talinolol AUC by 24-61% in 5 of 10 subjects, though the mean change was not significant [PMID:24472704]. 500 mg/d for 13 days lowered talinolol AUC significantly, most in ABCB1 3435 TT carriers [PMID:23422925].
+- Pravastatin and OATP1B1 substrates: quercetin 500 mg/d for 14 days raised pravastatin AUC 24% (CI 15-32%) and Cmax 31% [PMID:22114872]. Quercetin inhibits OATP1B1/1B3 in vitro (Ki about 8 uM) [PMID:22394605].
+- CYP2C9 substrates: 500 mg twice daily for 10 days raised diclofenac Cmax and AUC (GMR outside 0.80-1.25) and lowered 4-OH-diclofenac [PMID:29168292].
+- CYP3A substrates (midazolam): 500 mg/d for 13 days lowered oral midazolam AUC (CYP3A induction), more in CYP3A5*1 carriers [PMID:21680781]. 1500 mg/d for 1 week gave AUC GMR 0.82 (90% CI 0.61-1.10) [PMID:25988261].
+- Warfarin: a 2022 case report is titled "Enhanced Anticoagulant Effect of Warfarin When Co-administered With Quercetin" (no abstract available) [PMID:36311308]. Quercetin metabolites strongly displace warfarin from albumin in vitro but only weakly inhibit CYP2C9 [PMID:28135601]. Added antiplatelet activity is plausible [PMID:15613018]. Monitor INR.
+- Antiplatelets and anticoagulants: quercetin inhibits platelet aggregation in humans [PMID:15613018]. Its metabolites potentiated aspirin's antiplatelet effect more than additively in vitro [PMID:31367693]. Isoquercetin lowers D-dimer and thrombin generation [PMID:30652973].
+- Fluoroquinolones: quercetin binds DNA gyrase [PMID:12804597], but it competes for the quinolone binding site much more weakly than ciprofloxacin or levofloxacin [PMID:8718602]. In E. coli, high-dose quercetin partly reduced ciprofloxacin's bacteriostatic and bactericidal effect [PMID:33025172]. This is in vitro only, and clinical relevance is unknown.
+- Antihypertensives: an additive BP fall is possible (SBP about -2 to -4 mmHg) [PMID:27405810] [PMID:37654199].
+- Antidiabetics: a small insulin decrease and subgroup FPG reductions [PMID:37654199] [PMID:30848564]. Quercetin did not inhibit OCT1 (the metformin uptake transporter) in vitro [PMID:22394605].
+- Dasatinib: combined deliberately as a senolytic (D+Q). AEs rise compared with placebo [PMID:36857968] [PMID:42823536].
+- Overall: clinically demonstrated PK interactions are limited to a few substrates (CYP2C9, CYP2E1, P-gp), and most predicted interactions have not been confirmed in humans [PMID:42827146].
+*** Other supplements
+- Caffeine: quercetin 500 mg/d for 13 days reduced CYP1A2 activity by 10.4% (CI 1.1-29.8%) and changed paraxanthine kinetics [PMID:19215233]. A separate study confirmed significant inhibition of caffeine metabolism [PMID:25025048].
+- Green tea extract (EGCG): quercetin inhibits COMT/MRP1 and raised tissue EGCG 2-3x in mice [PMID:22438067]. No human data were found.
+- Aspirin: more-than-additive antiplatelet effect with quercetin metabolites in vitro [PMID:31367693].
+- Iron (non-heme): quercetin chelates iron and lowers ferroportin, inhibiting iron absorption in rats [PMID:25058155].
+*** Conditions
+- Kidney disease and estrogen-dependent cancer: see Contraindications [PMID:29127724] [PMID:9816216].
+- Hypothyroidism or borderline thyroid function: anti-thyroid effects are shown in vitro and in rats [PMID:24447974] [PMID:39456456].
+- Hyperuricaemia: plasma urate may fall [PMID:26785820].
+- Bleeding disorders or upcoming surgery: antiplatelet and anti-PDI activity [PMID:15613018] [PMID:30652973].
+*** Lab-test interference
+- Quercetin inhibits horseradish peroxidase (HRP) at nM concentrations and abolished the signal in Amplex-type HRP assays in vitro [PMID:40518027]. HRP-coupled assays may therefore be affected. This is shown in research assays only; no clinical-analyzer interference has been reported.
+- Real physiological changes, not assay artifacts: lower plasma uric acid [PMID:26785820], and lower D-dimer/thrombin-generation markers with isoquercetin [PMID:30652973].
 
 ** Genotype notes
-- No cited pharmacogenomic or nutrigenomic source identified for a clinically useful genotype-specific note.
+- ABCB1 (MDR1) C3435T: quercetin's lowering of talinolol AUC was most marked in 3435 TT carriers [PMID:23422925].
+- CYP3A5: CYP3A induction (lower midazolam AUC) was more prominent in CYP3A5*1/*1 and *1/*3 carriers [PMID:21680781].
+- CYP1A2*1C/*1F: inhibition of caffeine metabolism by quercetin did not differ by genotype [PMID:25025048].
 
 ** Latest research
-- 2024–2026: 2026 systematic review focused on CYP enzymes, phase II metabolism, transporters and clinical interactions; it concludes more human PK work is needed [PMID:42827146].
+- [2026-10] Phase 2 RCT of D+Q in fibrotic MASH (n=31): fibrosis improvement 47% vs 7%; more AEs (82% vs 43%), all self-limiting [PMID:42823536].
+- [2026-10] Systematic review of quercetin and xenobiotic metabolism: clinically shown interactions mainly involve CYP2C9, CYP2E1 and P-gp substrates [PMID:42827146].
+- [2026-10] SR of human senolytic trials (6 studies): D+Q shows preliminary biomarker and functional effects. It should be considered investigational [PMID:42834340].
+- [2026-07] RCT (n=110): 500 mg/d quercetin bar cut acute mountain sickness from 25% to 2% and lowered BP at altitude [PMID:42435069].
+- [2026-04] RCT (n=50): 4 weeks of quercetin glycoside before an mRNA COVID booster did not change immunogenicity or reactogenicity [PMID:41759822].
+- [2025-12] MASLD SR/MA (7 RCTs, n=540): lower ALT/AST/GGT and better lipids; GRADE very low to moderate [PMID:41404533].
+- [2025-08] CABG RCT (n=97): improved endothelial function and lower post-operative AF (4% vs 18%) in men; pro-inflammatory signal in women [PMID:40375481].
+- [2025-08] Quercetin is a potent HRP inhibitor, which interferes with HRP-based assays [PMID:40518027].
+- [2025-06] Bioavailability SR/MA (31 studies): oligoglucosides about 20x the aglycone; phytosome 20.1x [PMID:40037045].
+- [2025-04] Narrative review of the lecithin formulation for allergy: only 2 monotherapy clinical trials exist [PMID:40362785].
+- [2025-03] RCT in older adults (n=26): quercetin glycosides plus resistance training gave larger strength gains [PMID:40063125].
+- [2024-12] RCT in trained cyclists (n=48): 1000 mg/d quercetin, with or without citrulline, did not improve 20-km time trial [PMID:39417670].
+- [2024-10] Review: quercetin acts as a thyroid disruptor in experimental models; caution advised with high doses [PMID:39456456].
 
 ** Open questions
-- Larger, preregistered, adequately powered human trials with standardized, chemically characterized products and longer follow-up are needed to establish clinically important benefits and characterize uncommon harms.
+- Whether the small SBP reduction (about 2-3 mmHg) is clinically meaningful, and whether it is larger in hypertension [PMID:37654199] [PMID:17951477].
+- Whether high-bioavailability forms (phytosome, EMIQ, oligoglucosides) change efficacy or interaction risk. Most efficacy trials used the aglycone [PMID:40037045].
+- Long-term (>12 weeks) safety of >=1000 mg/d, including kidney and thyroid effects in humans [PMID:29127724] [PMID:39456456].
+- How much of D+Q's effect and adverse events comes from quercetin rather than dasatinib, and whether quercetin alone is senolytic in humans [PMID:25754370] [PMID:42834340].
+- Clinical significance of the conflicting P-gp findings (inhibition with fexofenadine, induction with talinolol) [PMID:19221726] [PMID:23422925].
+- Human data on the warfarin and digoxin interactions beyond case reports and animal studies [PMID:36311308] [PMID:14697403].
+- Sex differences in response [PMID:40375481].
 
 ** Sources
-1. PMID:42827146
-2. PMID:41227106
-- Quercetin as a modulator of xenobiotic metabolism: systematic review. PubMed PMID:42827146 (2026).
-- Mátyus et al. Effect of L-theanine on cognitive performance: systematic review and meta-analysis of randomized placebo-controlled trials. PubMed PMID:41227106.
+1. Serban MC et al. Effects of Quercetin on Blood Pressure: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. J Am Heart Assoc. 2016. PMID:27405810 DOI:10.1161/JAHA.115.002713
+2. Huang H et al. Effect of quercetin supplementation on plasma lipid profiles, blood pressure, and glucose levels: a systematic review and meta-analysis. Nutr Rev. 2020. PMID:31940027 DOI:10.1093/nutrit/nuz071
+3. Popiolek-Kalisz J et al. The Effects of Quercetin Supplementation on Blood Pressure - Meta-Analysis. Curr Probl Cardiol. 2022. PMID:35948195 DOI:10.1016/j.cpcardiol.2022.101350
+4. Arabi SM et al. The effects of Quercetin supplementation on cardiometabolic outcomes: An umbrella review of meta-analyses of RCTs. Phytother Res. 2023. PMID:37654199 DOI:10.1002/ptr.7971
+5. Sahebkar A. Effects of quercetin supplementation on lipid profile: A systematic review and meta-analysis of RCTs. Crit Rev Food Sci Nutr. 2017. PMID:25897620 DOI:10.1080/10408398.2014.948609
+6. Ostadmohammadi V et al. Effects of quercetin supplementation on glycemic control among patients with metabolic syndrome and related disorders: SR and MA of RCTs. Phytother Res. 2019. PMID:30848564 DOI:10.1002/ptr.6334
+7. Kressler J et al. Quercetin and endurance exercise capacity: a systematic review and meta-analysis. Med Sci Sports Exerc. 2011. PMID:21606866 DOI:10.1249/MSS.0b013e31822495a7
+8. Pelletier DM et al. Effects of quercetin supplementation on endurance performance and maximal oxygen consumption: a meta-analysis. Int J Sport Nutr Exerc Metab. 2013. PMID:22805526 DOI:10.1123/ijsnem.23.1.73
+9. Rojano-Ortega D et al. Quercetin supplementation promotes recovery after exercise-induced muscle damage: SR and MA of RCTs. Biol Sport. 2023. PMID:37398956 DOI:10.5114/biolsport.2023.121320
+10. Jin D et al. Effects of Quercetin on Metabolic Dysfunction-Associated Steatotic Liver Disease: A Systematic Review and Meta-Analysis. Food Sci Nutr. 2025. PMID:41404533 DOI:10.1002/fsn3.71358
+11. Edwards RL et al. Quercetin reduces blood pressure in hypertensive subjects. J Nutr. 2007. PMID:17951477 DOI:10.1093/jn/137.11.2405
+12. Mantadaki AE et al. Benefits of Quercetin on Glycated Hemoglobin, Blood Pressure, PiKo-6 Readings, Night-Time Sleep, Anxiety, and Quality of Life in Patients with T2DM: An RCT. J Clin Med. 2024. PMID:38930033 DOI:10.3390/jcm13123504
+13. Shi Y et al. Quercetin lowers plasma uric acid in pre-hyperuricaemic males: a randomised, double-blinded, placebo-controlled, cross-over trial. Br J Nutr. 2016. PMID:26785820 DOI:10.1017/S0007114515005310
+14. Tumova S et al. Effects of quercetin and metabolites on uric acid biosynthesis and consequences for gene expression in the endothelium. Free Radic Biol Med. 2021. PMID:33091574 DOI:10.1016/j.freeradbiomed.2020.10.017
+15. Heinz SA et al. Quercetin supplementation and upper respiratory tract infection: A randomized community clinical trial. Pharmacol Res. 2010. PMID:20478383 DOI:10.1016/j.phrs.2010.05.001
+16. Yamada S et al. Effects of repeated oral intake of a quercetin-containing supplement on allergic reaction: a randomized, placebo-controlled, double-blind parallel-group study. Eur Rev Med Pharmacol Sci. 2022. PMID:35776034 DOI:10.26355/eurrev_202206_29072
+17. Naso M et al. Quercetin and Its Lecithin-Based Formulation: Potential Applications for Allergic Diseases Based on a Narrative Review. Nutrients. 2025. PMID:40362785 DOI:10.3390/nu17091476
+18. Liu L et al. Improving quercetin bioavailability: A systematic review and meta-analysis of human intervention studies. Food Chem. 2025. PMID:40037045 DOI:10.1016/j.foodchem.2025.143630
+19. Riva A et al. Improved Oral Absorption of Quercetin from Quercetin Phytosome, a New Delivery System Based on Food Grade Lecithin. Eur J Drug Metab Pharmacokinet. 2019. PMID:30328058 DOI:10.1007/s13318-018-0517-3
+20. Owczarek-Januszkiewicz A et al. Enzymatically Modified Isoquercitrin: Production, Metabolism, Bioavailability, Toxicity, Pharmacology, and Related Molecular Mechanisms. Int J Mol Sci. 2022. PMID:36499113 DOI:10.3390/ijms232314784
+21. Dabeek WM et al. Dietary Quercetin and Kaempferol: Bioavailability and Potential Cardiovascular-Related Bioactivity in Humans. Nutrients. 2019. PMID:31557798 DOI:10.3390/nu11102288
+22. Bai XD et al. Enzymatically modified isoquercitrin and its protective effects against photoaging: In-vitro and clinical studies. Photochem Photobiol. 2024. PMID:38185856 DOI:10.1111/php.13891
+23. Zhu Y et al. The Achilles' heel of senescent cells: from transcriptome to senolytic drugs. Aging Cell. 2015. PMID:25754370 DOI:10.1111/acel.12344
+24. Hickson LJ et al. Senolytics decrease senescent cells in humans: Preliminary report from a clinical trial of Dasatinib plus Quercetin in individuals with diabetic kidney disease. EBioMedicine. 2019. PMID:31542391 DOI:10.1016/j.ebiom.2019.08.069
+25. Justice JN et al. Senolytics in idiopathic pulmonary fibrosis: Results from a first-in-human, open-label, pilot study. EBioMedicine. 2019. PMID:30616998 DOI:10.1016/j.ebiom.2018.12.052
+26. Nambiar A et al. Senolytics dasatinib and quercetin in idiopathic pulmonary fibrosis: results of a phase I, single-blind, randomized, placebo-controlled pilot trial. EBioMedicine. 2023. PMID:36857968 DOI:10.1016/j.ebiom.2023.104481
+27. Farr JN et al. Effects of intermittent senolytic therapy on bone metabolism in postmenopausal women: a phase 2 randomized controlled trial. Nat Med. 2024. PMID:38956196 DOI:10.1038/s41591-024-03096-2
+28. Koning M et al. Senolytics dasatinib and quercetin in metabolic dysfunction-associated steatohepatitis: a proof-of-principle randomized, controlled trial. Nat Metab. 2026. PMID:42823536 DOI:10.1038/s42255-026-01643-4
+29. Trivedi H et al. Therapeutic reversal of cellular senescence: A systematic review of senolytics, senomorphics and anti-ageing therapies in human clinical trials. Br J Clin Pharmacol. 2026. PMID:42834340 DOI:10.1002/bcp.70871
+30. Andres S et al. Safety Aspects of the Use of Quercetin as a Dietary Supplement. Mol Nutr Food Res. 2018. PMID:29127724 DOI:10.1002/mnfr.201700447
+31. Ferry DR et al. Phase I clinical trial of the flavonoid quercetin: pharmacokinetics and evidence for in vivo tyrosine kinase inhibition. Clin Cancer Res. 1996. PMID:9816216
+32. Giuliani C et al. Quercetin and Thyroid. Antioxidants (Basel). 2024. PMID:39456456 DOI:10.3390/antiox13101202
+33. Giuliani C et al. The flavonoid quercetin inhibits thyroid-restricted genes expression and thyroid function. Food Chem Toxicol. 2014. PMID:24447974 DOI:10.1016/j.fct.2014.01.016
+34. Zwicker JI et al. Targeting protein disulfide isomerase with the flavonoid isoquercetin to improve hypercoagulability in advanced cancer. JCI Insight. 2019. PMID:30652973 DOI:10.1172/jci.insight.125851
+35. Lizarralde-Iragorri MA et al. Isoquercetin for thromboinflammation in sickle cell disease: a randomized double-blind placebo-controlled trial. Blood Adv. 2024. PMID:38157227 DOI:10.1182/bloodadvances.2023011542
+36. Sulaiman SH et al. Quercetin as a modulator of xenobiotic metabolism: integrating CYP450 regulation, phase II conjugation pathways, and transporter-mediated drug interactions. Eur J Clin Pharmacol. 2026. PMID:42827146 DOI:10.1007/s00228-026-04194-5
+37. Yu CP et al. Quercetin and rutin reduced the bioavailability of cyclosporine from Neoral through activating P-glycoprotein and CYP 3A4. J Agric Food Chem. 2011. PMID:21466223 DOI:10.1021/jf104786t
+38. Kim KA et al. Short-term effect of quercetin on the pharmacokinetics of fexofenadine, a substrate of P-glycoprotein, in healthy volunteers. Eur J Clin Pharmacol. 2009. PMID:19221726 DOI:10.1007/s00228-009-0627-6
+39. Nguyen MA et al. Effect of single-dose and short-term administration of quercetin on the pharmacokinetics of talinolol in humans. Eur J Pharm Sci. 2014. PMID:24472704 DOI:10.1016/j.ejps.2014.01.003
+40. Wang SY et al. Effect of quercetin on P-glycoprotein transport ability in Chinese healthy subjects. Eur J Clin Nutr. 2013. PMID:23422925 DOI:10.1038/ejcn.2013.5
+41. Wu LX et al. Inhibition of the organic anion-transporting polypeptide 1B1 by quercetin: an in vitro and in vivo assessment. Br J Clin Pharmacol. 2012. PMID:22114872 DOI:10.1111/j.1365-2125.2011.04150.x
+42. Mandery K et al. Inhibition of hepatic uptake transporters by flavonoids. Eur J Pharm Sci. 2012. PMID:22394605 DOI:10.1016/j.ejps.2012.02.014
+43. Bedada SK et al. Evaluation of the effect of quercetin treatment on CYP2C9 enzyme activity of diclofenac in healthy human volunteers. Phytother Res. 2018. PMID:29168292 DOI:10.1002/ptr.5978
+44. Xiao J et al. Quercetin significantly inhibits the metabolism of caffeine, a substrate of CYP1A2, unrelated to CYP1A2*1C and *1F gene polymorphisms. Biomed Res Int. 2014. PMID:25025048 DOI:10.1155/2014/405071
+45. Chen Y et al. Simultaneous action of the flavonoid quercetin on CYP1A2, CYP2A6, N-acetyltransferase and xanthine oxidase activity in healthy volunteers. Clin Exp Pharmacol Physiol. 2009. PMID:19215233 DOI:10.1111/j.1440-1681.2009.05158.x
+46. Nguyen MA et al. The Influence of Single-Dose and Short-Term Administration of Quercetin on the Pharmacokinetics of Midazolam in Humans. J Pharm Sci. 2015. PMID:25988261 DOI:10.1002/jps.24500
+47. Duan KM et al. Effect of quercetin on CYP3A activity in Chinese healthy participants. J Clin Pharmacol. 2012. PMID:21680781 DOI:10.1177/0091270011406278
+48. Patel R et al. Enhanced Anticoagulant Effect of Warfarin When Co-administered With Quercetin. J Pharm Technol. 2022. PMID:36311308 DOI:10.1177/87551225221125667
+49. Poor M et al. Interaction of quercetin and its metabolites with warfarin: Displacement of warfarin from serum albumin and inhibition of CYP2C9 enzyme. Biomed Pharmacother. 2017. PMID:28135601 DOI:10.1016/j.biopha.2017.01.092
+50. Wang YH et al. Lethal quercetin-digoxin interaction in pigs. Life Sci. 2004. PMID:14697403 DOI:10.1016/j.lfs.2003.06.044
+51. Lesjak M et al. Quercetin inhibits intestinal iron absorption and ferroportin transporter expression in vivo and in vitro. PLoS One. 2014. PMID:25058155 DOI:10.1371/journal.pone.0102900
+52. Hubbard GP et al. Ingestion of quercetin inhibits platelet aggregation and essential components of the collagen-stimulated platelet activation pathway in humans. J Thromb Haemost. 2004. PMID:15613018 DOI:10.1111/j.1538-7836.2004.01067.x
+53. Stainer AR et al. The Metabolites of the Dietary Flavonoid Quercetin Possess Potent Antithrombotic Activity, and Interact with Aspirin to Enhance Antiplatelet Effects. TH Open. 2019. PMID:31367693 DOI:10.1055/s-0039-1694028
+54. Plaper A et al. Characterization of quercetin binding site on DNA gyrase. Biochem Biophys Res Commun. 2003. PMID:12804597 DOI:10.1016/s0006-291x(03)01006-4
+55. Hilliard JJ et al. A comparison of active site binding of 4-quinolones and novel flavone gyrase inhibitors to DNA gyrase. Adv Exp Med Biol. 1995. PMID:8718602 DOI:10.1007/978-1-4757-9203-4_5
+56. Oktyabrsky ON et al. Effect of resveratrol and quercetin on the susceptibility of Escherichia coli to antibiotics. World J Microbiol Biotechnol. 2020. PMID:33025172 DOI:10.1007/s11274-020-02934-y
+57. Wang P et al. Quercetin increased bioavailability and decreased methylation of green tea polyphenols in vitro and in vivo. Food Funct. 2012. PMID:22438067 DOI:10.1039/c2fo10254d
+58. Faerman B et al. The polyphenols phloretin and quercetin are potent horseradish peroxidase (HRP) inhibitors. Biochim Biophys Acta Gen Subj. 2025. PMID:40518027 DOI:10.1016/j.bbagen.2025.130833
+59. Sagi SSK et al. Quercetin prophylaxis in prevention of acute mountain sickness (AMS): a randomized, double blind, placebo controlled phase-II clinical trial. Eur J Nutr. 2026. PMID:42435069 DOI:10.1007/s00394-026-04059-8
+60. Takahama S et al. Immune Preconditioning with Oral Quercetin Supplement and COVID-19 mRNA Vaccine Responses: A Randomized, Double-Blind, Placebo-Controlled Trial. J Nutr. 2026. PMID:41759822 DOI:10.1016/j.tjnut.2026.101431
+61. Mury P et al. Quercetin Reduces Vascular Senescence and Inflammation in Symptomatic Male but Not Female Coronary Artery Disease Patients. Aging Cell. 2025. PMID:40375481 DOI:10.1111/acel.70108
+62. Nishikawa T et al. Quercetin ingestion alters motor unit behavior and enhances improvement in muscle strength following resistance training in older adults: an RCT. Eur J Nutr. 2025. PMID:40063125 DOI:10.1007/s00394-025-03634-9
+63. Kurtz JA et al. The effect of quercetin and citrulline on cycling time trial performance. J Int Soc Sports Nutr. 2024. PMID:39417670 DOI:10.1080/15502783.2024.2416909

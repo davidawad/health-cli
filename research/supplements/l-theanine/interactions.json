@@ -4,29 +4,289 @@
   "slug": "l-theanine",
   "aliases": [
     "theanine",
-    "gamma-glutamylethylamide"
+    "N-ethyl-L-glutamine",
+    "gamma-glutamylethylamide",
+    "Suntheanine",
+    "AlphaWave",
+    "green tea amino acid"
   ],
-  "category": "nootropic",
+  "category": "amino-acid",
   "rx_status": "otc",
   "evidence_certainty_overall": "low",
   "edges": [
     {
+      "with": "Caffeine",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Combined theanine+caffeine improves attention switching, vigilance and alertness more than placebo (caffeine dose dominates); theanine blunts caffeine-induced BP rise, jitteriness/anxiety and tachycardia.",
+      "evidence": "MAs of RCTs (Camfield 2014; Payne 2025) plus crossover RCTs; some trials show no added benefit over either alone; low certainty",
+      "citations": [
+        "PMID:24946991",
+        "PMID:40314930",
+        "PMID:18006208",
+        "PMID:17891480",
+        "PMID:40977612",
+        "PMID:22326943"
+      ]
+    },
+    {
+      "with": "Melatonin",
       "with_kind": "supplement",
       "kind": "caution",
       "severity": "minor",
-      "mechanism": "Possible additive relaxation/sedation is untested clinically.",
-      "evidence": "Limited or mechanistic evidence; no direct clinically decisive interaction trial identified.",
+      "mechanism": "Both used as sleep aids; possible additive sleep-promoting effect. Head-to-head RCT: melatonin 3 mg superior to theanine 200 mg, both better than placebo. No combination study.",
+      "evidence": "Single RCT (n=120) head-to-head; combination untested; very low certainty",
       "citations": [
-        "PMID:41227106",
-        "URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
-      ],
-      "with": "Magnesium"
+        "PMID:38846134",
+        "PMID:40056718"
+      ]
+    },
+    {
+      "with": "Glycine",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Glycine and theanine are both sleep-promoting amino acids; a blend containing both shortened sleep latency and raised sleep efficiency; theanine reported to induce glycine release and to raise a glycine-overlapping serum peak in mice.",
+      "evidence": "Multi-ingredient crossover RCT (n=16) cannot isolate components; animal data; very low certainty",
+      "citations": [
+        "PMID:36094342",
+        "PMID:38583116",
+        "PMID:26330182"
+      ]
+    },
+    {
+      "with": "Green Tea Extract",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Green tea extracts contain theanine plus catechins; extract hepatotoxicity is dose-dependent and tied to EGCG/catechin bolus dosing, not to theanine. Stacking adds catechin exposure and duplicates theanine.",
+      "evidence": "Systematic review of toxicology and 159 human studies (safe EGCG level 338 mg/d as bolus); narrative review flags hepatotoxicity of GTE",
+      "citations": [
+        "PMID:29580974",
+        "PMID:31412272"
+      ]
+    },
+    {
+      "with": "Magnesium",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Commonly co-formulated for sleep. A theanine+GABA+magnesium+SAMe product improved menopausal sleep disturbance, but an evening MgT+theanine+apigenin blend had minimal effects.",
+      "evidence": "Two multi-ingredient RCTs with conflicting results; components not isolated; very low certainty",
+      "citations": [
+        "PMID:42742055",
+        "PMID:42829807"
+      ]
+    },
+    {
+      "with": "GABA",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "GABA/theanine mixture synergistically decreased sleep latency and increased sleep duration in rodents; GABA 700 mg + theanine 200 mg improved PSQI in a single-arm human study.",
+      "evidence": "Animal data plus uncontrolled human study (n=19); very low certainty",
+      "citations": [
+        "PMID:30707852",
+        "PMID:41636292"
+      ]
+    },
+    {
+      "with": "piperine (black pepper extract)",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Piperine-containing formulation increased theanine plasma concentrations in rats by increasing intestinal blood flow.",
+      "evidence": "Rat PK study only",
+      "citations": [
+        "PMID:34115818"
+      ]
+    },
+    {
+      "with": "sedatives/CNS depressants (barbiturates, benzodiazepines)",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Theanine lowered the hypnotic ED50 of pentobarbital and enhanced its anticonvulsant action in mice, and acted additively/synergistically with midazolam in rats; in humans 200 mg showed no acute anxiolytic effect comparable to alprazolam.",
+      "evidence": "Animal studies; one human comparison study; additive sedation not demonstrated in humans",
+      "citations": [
+        "PMID:26330182",
+        "PMID:20108732",
+        "PMID:15378679"
+      ]
+    },
+    {
+      "with": "antihypertensives",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Theanine attenuates stress- and caffeine-induced BP rises in humans and lowers BP in hypertensive rats at very high doses; additive BP lowering theoretically possible.",
+      "evidence": "Small crossover RCTs and rat study; no interaction study; very low certainty",
+      "citations": [
+        "PMID:23107346",
+        "PMID:17891480",
+        "PMID:7539642"
+      ]
+    },
+    {
+      "with": "antipsychotics",
+      "with_kind": "drug-class",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Adjunctive 250-400 mg/d theanine with antipsychotics (incl. risperidone) reduced positive, negative, activation and anxiety symptoms without increasing side effects or extrapyramidal symptoms.",
+      "evidence": "3 small RCTs plus open-label study and SR; low certainty",
+      "citations": [
+        "PMID:21208586",
+        "PMID:37697164",
+        "PMID:25896423",
+        "PMID:39633316"
+      ]
+    },
+    {
+      "with": "SSRIs/antidepressants",
+      "with_kind": "drug-class",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Adjunctive 200 mg/d theanine with sertraline improved HDRS response/remission with comparable side effects; adjunct to stable antidepressants in GAD showed no anxiolytic benefit but no safety signal.",
+      "evidence": "Two RCTs (n=60, n=46); low certainty",
+      "citations": [
+        "PMID:37084960",
+        "PMID:30580081"
+      ]
+    },
+    {
+      "with": "stimulants (methylphenidate, ADHD stimulants)",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Theanine with caffeine improved attention in ADHD comparably to methylphenidate (compared, not combined); boys on stimulants took 400 mg/d theanine without significant AEs.",
+      "evidence": "Small RCTs in ADHD; no formal combination study",
+      "citations": [
+        "PMID:22214254",
+        "PMID:42096377",
+        "PMID:32753637"
+      ]
+    },
+    {
+      "with": "anthracycline and platinum chemotherapy (doxorubicin, idarubicin, cisplatin)",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "In tumor-bearing mice theanine increased tumor doxorubicin/idarubicin concentrations (glutamate-transporter/GS-X pump inhibition) and antitumor effect while reducing myelosuppression; reduced cisplatin nephrotoxicity in mice. Human relevance unknown.",
+      "evidence": "Animal and in vitro data only; no human data",
+      "citations": [
+        "PMID:14643924",
+        "PMID:10960760",
+        "PMID:39607236",
+        "PMID:33891786"
+      ]
+    },
+    {
+      "with": "breastfeeding",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "No lactation data; LactMed advises avoiding supplemental theanine when nursing a newborn or preterm infant (half-life ~1 h; tea-level intake likely acceptable).",
+      "evidence": "Expert database guidance; no human data",
+      "citations": [
+        "PMID:40460226"
+      ]
+    },
+    {
+      "with": "pregnancy",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "No human pregnancy safety data; only animal (mouse gestational obesity) and rat toxicology studies.",
+      "evidence": "Absence of human data; animal studies only",
+      "citations": [
+        "PMID:41016812",
+        "PMID:16759779"
+      ]
+    },
+    {
+      "with": "plasma amino acid chromatography (glycine)",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "In mice theanine produced a peak overlapping glycine in PITC-derivatized amino-acid analysis; theanine is hydrolyzed to glutamate and ethylamine, which rise transiently in plasma.",
+      "evidence": "Mouse analytical observation and human PK study; clinical relevance unknown",
+      "citations": [
+        "PMID:38583116",
+        "PMID:23096008"
+      ]
     }
   ],
   "citations": [
-    "PMID:41227106",
+    "PMID:10960760",
+    "PMID:14643924",
+    "PMID:15378679",
+    "PMID:16759779",
+    "PMID:16930802",
+    "PMID:17182482",
+    "PMID:17891480",
+    "PMID:18006208",
+    "PMID:18296328",
+    "PMID:18681988",
+    "PMID:20108732",
+    "PMID:21040626",
+    "PMID:21208586",
+    "PMID:22214254",
+    "PMID:22326943",
+    "PMID:23096008",
+    "PMID:23107346",
+    "PMID:24051231",
+    "PMID:24372613",
+    "PMID:24946991",
+    "PMID:25896423",
+    "PMID:26192072",
+    "PMID:26218236",
+    "PMID:26330182",
+    "PMID:27396868",
+    "PMID:29580974",
+    "PMID:30580081",
+    "PMID:30707852",
+    "PMID:31412272",
+    "PMID:31623400",
+    "PMID:31758301",
+    "PMID:32753637",
+    "PMID:33891786",
+    "PMID:34115818",
+    "PMID:34562208",
+    "PMID:35111479",
+    "PMID:35215501",
+    "PMID:35378276",
+    "PMID:36094342",
+    "PMID:36862943",
+    "PMID:37084960",
+    "PMID:37697164",
+    "PMID:38583116",
+    "PMID:38758503",
+    "PMID:38846134",
+    "PMID:39607236",
     "PMID:39633316",
+    "PMID:39854799",
+    "PMID:40056718",
+    "PMID:40314930",
+    "PMID:40362791",
+    "PMID:40460226",
+    "PMID:40789769",
+    "PMID:40977612",
+    "PMID:41016812",
+    "PMID:41176609",
+    "PMID:41227106",
+    "PMID:41531275",
+    "PMID:41636292",
+    "PMID:41668720",
+    "PMID:41796839",
+    "PMID:41839508",
+    "PMID:42096377",
+    "PMID:42176572",
     "PMID:42410082",
-    "URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
+    "PMID:42742055",
+    "PMID:42761839",
+    "PMID:42829807",
+    "PMID:7539642",
+    "URL:https://www.hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=GRASNotices&type=basic&search=theanine"
   ]
 }

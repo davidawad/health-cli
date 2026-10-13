@@ -3,52 +3,204 @@
 :ID: supp-magnesium
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: magnesium citrate | chloride | oxide | glycinate | lactate | sulfate
+:ALIASES: Mg | magnesium oxide | magnesium citrate | magnesium glycinate | magnesium bisglycinate | magnesium diglycinate | magnesium L-threonate | Magtein | magnesium chloride | magnesium aspartate | magnesium lactate | magnesium sulfate | magnesium hydroxide
 :CATEGORY: mineral
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Magnesium is represented by these commonly studied or marketed forms: magnesium citrate, chloride, oxide, glycinate, lactate, sulfate. Clinical products and formulations can differ in composition and bioavailability; this limits cross-trial comparisons [URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/, PMID:39519450, PMID:41245414].
+- Essential mineral. An adult body holds about 25 g, 50-60% in bone and most of the rest in soft tissue. Less than 1% is in serum, which is kept between about 0.75 and 0.95 mmol/L. Hypomagnesemia is serum Mg <0.75 mmol/L [URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/].
+- Reference intakes (US FNB, via NIH ODS fact sheet updated 2026-01-06): adult RDA 400-420 mg/day for men and 310-320 mg/day for women. The Tolerable Upper Intake Level (UL) for adults is 350 mg/day of *supplemental* magnesium (supplements and medications only, not food) [URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/].
+- Labels declare elemental magnesium, not the weight of the whole salt. About 30-40% of dietary magnesium is absorbed [URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/].
+- Absorption: paracellular in the small intestine (claudin-2/-12) and transcellular in the colon via TRPM6/7 and CNNM4. The kidney fine-tunes balance in the distal convoluted tubule [PMID:38871680].
+- Forms and bioavailability:
+  - General rule: soluble forms are absorbed better. Small studies show aspartate, citrate, lactate and chloride are more bioavailable than oxide and sulfate [URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/].
+  - Citrate vs oxide: in a 60-day double-blind RCT (n=46, 300 mg/day elemental), citrate and amino-acid chelate raised 24-h urinary Mg more than oxide. Citrate gave the highest serum Mg, and oxide did not differ from placebo [PMID:14596323]. In Mg-saturated men, a single 400 mg dose of citrate raised urinary and plasma Mg while oxide did not [PMID:32162607].
+  - Oxide: high elemental content but poorly soluble. Serum exposure was not dose-proportional between 750 and 2000 mg single doses [PMID:42091979].
+  - Glycinate (bisglycinate/diglycinate): in ileal-resection patients, 26Mg absorption was similar to oxide overall (23.5% vs 22.8%). It was higher (23.5% vs 11.8%) in the 4 patients who absorbed oxide worst, and it was better tolerated [PMID:7815675]. In a 2024 acute crossover study (n=40), plasma Mg rose after oxide and citrate but not significantly after bisglycinate within 6 h [PMID:39770988].
+  - L-threonate (Magtein, MMFS-01): in neurons, threonate raised intraneuronal Mg and synapse density, and other Mg anions did not (preclinical) [PMID:27178134]. Human data are limited to small RCTs on cognition and sleep (see Evidence).
+  - Chloride: used in several trials (depression, exercise, prediabetes) [PMID:28654669] [PMID:40077784] [PMID:41641401].
+- Laxatives/antacids: magnesium hydroxide (e.g. 500 mg elemental Mg per tablespoon of milk of magnesia) is a common hidden source [URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/].
 
 ** Mechanisms
-- Proposed mechanisms are outcome- and formulation-dependent; mechanistic plausibility does not establish clinical efficacy. Human evidence is summarized below [URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/, PMID:39519450, PMID:41245414].
+- Cofactor in more than 600 enzymatic reactions, mostly as Mg-ATP. Needed for energy metabolism, muscle contraction and neurotransmission [PMID:38871680].
+- The free ion gates the NMDA receptor and opposes calcium in vascular smooth muscle. These actions are the proposed basis for effects on BP, arrhythmia, cramps, migraine and sleep (narrative review) [PMID:42647115].
+- Vitamin D: enzymes that make and break down vitamin D metabolites are Mg-dependent. In an RCT, the effect of Mg on 25(OH)D depended on baseline 25(OH)D [PMID:30541089].
+- Glucose metabolism: deficiency is linked to insulin resistance. In diabetes, renal insulin resistance reduces Mg reabsorption [PMID:41641401] [PMID:40613016].
+- Inflammation: a meta-analysis in metabolic syndrome shows lower CRP [PMID:41245414].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---|---|---|---|---|---|
-| Deficiency correction is established | Systematic review/meta-analysis or human trial synthesis | Mixed/possible benefit; no established clinical disease prevention | See evidence summary below; pooled estimates vary by outcome and population | moderate | URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/, PMID:39519450, PMID:41245414 |
-
-- NIH ODS identifies magnesium as essential nutrient with variable bioavailability by salt; 2025 meta-analysis found modest systolic BP lowering in normotensive adults at ≤360 mg/day and longer duration [PMID:39519450]. 2025 meta-analysis found CRP reduction in metabolic syndrome but not consistent effects on other inflammatory markers [PMID:41245414].
-- Deficiency correction is established; for BP and metabolic markers, effects are small and context-dependent; cognitive RCT evidence is insufficient [PMID:39519450, PMID:41245414, PMID:39009081].
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Blood pressure (all adults) | MA of 38 RCTs (n=2709); earlier MA of 34 double-blind RCTs; umbrella MA | Small decrease | SBP -2.81 mmHg (95% CI -4.32 to -1.29), DBP -2.05 (-3.23 to -0.88); 2016: SBP -2.00 (0.43-3.58), DBP -1.78 (0.73-2.82) | moderate | [PMID:41000008] [PMID:27402922] |
+| BP in treated hypertension / hypomagnesemia | Subgroups of 2025 MA | Larger decrease | SBP -7.68 (treated hypertension), -5.97 (hypomagnesemia); not significant in normotensives; high heterogeneity, no dose-response | low | [PMID:41000008] [PMID:39519450] |
+| HbA1c / FBG in T2D | Dose-response MA (18 RCTs); 12-month RCT (n=247) | Small benefit | HbA1c -0.73% at 500 mg/d (CI -1.25 to -0.22); RCT HbA1c -0.30% vs -0.05% (p=0.145) | low | [PMID:35045911] [PMID:42534812] |
+| Cardiometabolic profile (pooled) | 2026 dose-response MA (78 RCTs) | Small benefit | FBG -3.60 mg/dL (-6.13 to -1.06); HbA1c -0.15% (-0.26 to -0.03); HOMA-IR -0.48; LDL -3.21 mg/dL; weight -0.70 kg | moderate | [PMID:42588058] |
+| Insulin resistance (diabetes/prediabetes) | MA (15 RCTs, n=1085) | No significant effect | HOMA-IR MD -0.74 (-1.58 to 0.09); insulin -1.73 (-3.73 to 0.27) | low | [PMID:42426860] |
+| Prediabetes | MA (5 RCTs, n=384) | Mixed | FPG -4.13 mg/dL (NS); 2-h OGTT -0.99 mmol/L; HOMA-IR -1.10 | low | [PMID:41641401] |
+| Lipids | Dose-response MA (20-25 RCTs) | HDL up only | HDL +1.21 mg/dL (0.58-1.85); TC, TG, LDL NS; I2 >99% | low | [PMID:39905454] |
+| CRP / inflammation | MA (8 RCTs, metabolic syndrome) | Decrease | CRP SMD -0.327 (-0.602 to -0.053) | low | [PMID:41245414] |
+| Sleep / insomnia | SR of 12 RCTs (2026); MA of 3 RCTs in older adults; RCTs of bisglycinate and threonate | Inconsistent, small | Sleep onset latency -17.36 min (CI -27.27 to -7.44) in older adults; bisglycinate ISI d=0.2; certainty low to very low | low | [PMID:42661485] [PMID:33865376] [PMID:40918053] [PMID:39252819] [PMID:41601871] |
+| Migraine prophylaxis | Dose-response MA (22 trials); earlier MA | Benefit, uncertain | Attacks MD -2.51, monthly migraine days -1.66; 2019 MA: severity NS (RoM -0.17, -0.36 to 0.02) | low | [PMID:39404918] [PMID:30764890] [URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/] |
+| Depressive symptoms | MA (7 RCTs, n=325); open-label RCT; adjunct-to-fluoxetine RCT | Benefit | SMD -0.919 (-1.443 to -0.396); PHQ-9 -6.0 (-7.9 to -4.2) | low | [PMID:38213402] [PMID:28654669] [PMID:41916937] |
+| Idiopathic / nocturnal leg cramps (older adults) | Cochrane SR (11 RCTs); RCTs | No benefit | Cramps/week MD -0.18 (-0.84 to 0.49); >=25% reduction RR 1.04 (0.84-1.29); 2026 RCT MD -0.20 (-1.49 to 1.09) | moderate | [PMID:32956536] [PMID:28241153] [PMID:41680812] |
+| Pregnancy leg cramps | MA (4 RCTs, n=332) | No benefit | Frequency WMD -0.47 (-1.14 to 0.20) | low | [PMID:34247796] [PMID:32956536] |
+| Postoperative AF after cardiac surgery (mostly IV) | MA (24 RCTs, n=3373); 2026 RCT | Benefit in MA; null RCT | MA RR 0.55 (0.41-0.74); low-RoB RR 0.70 (0.58-0.84); RCT RR 1.29 (0.92-1.80), stopped for futility | low | [PMID:40708765] [PMID:42206948] |
+| ICU tachyarrhythmia (repleting borderline-low Mg) | Regression-discontinuity study (171,727 admissions) | No effect | Risk difference 0.1% (-4.2 to 6.9) | moderate | [PMID:41359319] |
+| Vascular calcification / arterial stiffness | RCTs in CKD (n=148) and T2D (n=74) | No benefit | CAC unchanged; T50 and cfPWV unchanged after adjustment | moderate | [PMID:36749131] [PMID:41903889] |
+| Cognition (threonate) | 2 small RCTs | Possible benefit | MMFS-01 composite d=0.91 (n=44); NIH Toolbox composite p=0.043 (n=100) | very low | [PMID:26519439] [PMID:41601871] |
+| Exercise performance (replete exercisers) | Crossover RCT (n=15) | Slight harm | VO2max 44.4 to 41.3 mL/kg/min | very low | [PMID:40077784] |
+| Liver enzymes | MA (7 trials) | Decrease | ALT -4.76 U/L (-9.48 to -0.04); AST -6.28 U/L | very low | [PMID:42580984] |
 
 ** Dosing in trials
-- Supplement trials often use about 250–400 mg/day elemental magnesium for 12–16 weeks; salts differ in absorption and GI tolerance [PMID:41245414, URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/].
+- BP: median 365-368 mg/day elemental for about 3 months. 300 mg/day for 1 month was enough to raise serum Mg and lower BP [PMID:27402922] [PMID:41000008]. In normotensives, <=360 mg/day and >3 months gave the largest SBP drop [PMID:39519450].
+- T2D: 300-600 mg/day elemental. Example: magnesium oxide 500 mg (302 mg elemental) for 12 months [PMID:42534812]. HbA1c effect modeled at 500 mg/day [PMID:35045911].
+- Sleep: bisglycinate 250 mg/day elemental for 4 weeks [PMID:40918053]. Magnesium L-threonate 1-2 g/day of salt [PMID:39252819] [PMID:41601871].
+- Migraine: up to 600 mg/day. 300 mg twice daily has been suggested. These doses exceed the UL and should be used only under clinician supervision [URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/].
+- Depression: 248 mg/day elemental as chloride for 6 weeks [PMID:28654669]. 250 mg/day added to fluoxetine [PMID:41916937].
+- Most RCTs in the 2026 cardiometabolic MA used >=300 mg/day for >=12 weeks. Data at >=500 mg/day or >=25 weeks are sparse [PMID:42588058].
+- Many trial doses sit at or above the 350 mg/day supplemental UL [URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/].
 
 ** Safety & adverse effects
-- Diarrhea and abdominal cramping are common dose-limiting effects; hypermagnesemia risk rises with impaired renal clearance [URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/].
+- GI effects are the main dose-limiting problem: diarrhea, nausea and cramping from the osmotic effect of unabsorbed salt. Carbonate, chloride, gluconate and oxide are most often reported to cause diarrhea [URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/]. In the Cochrane cramp review, minor (mostly GI) AEs were more common with magnesium (RR 1.51, 0.98-2.33), affecting 11-37% of users [PMID:32956536].
+- Hypermagnesemia:
+  - Toxicity usually appears above serum 1.74-2.61 mmol/L: hypotension, nausea, flushing, urinary retention, ileus, lethargy, then weakness, breathing difficulty, arrhythmia and cardiac arrest. It is mostly linked to very large laxative/antacid doses (>5000 mg/day). Risk rises with impaired kidney function [URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/].
+  - In 320 inpatients prescribed MgO, 23% developed hypermagnesemia. Independent risk factors were eGFR <=55.4 (OR 3.1), BUN >=22.4 (OR 3.5), dose >=1650 mg/day and use >=36 days [PMID:30805197].
+  - Case series: 4 older adults with renal dysfunction and constipation had symptomatic hypermagnesemia on MgO, and 1 died [PMID:30136128]. A fatal case with normal kidney function suggests retained laxative in a constipated bowel can act as an absorption reservoir [PMID:29661354].
+- CKD trial: in MAGiCAL-CKD (eGFR 15-45, magnesium hydroxide 15 mmol twice daily for 12 months), GI AEs occurred in 35 vs 9 patients. There were 5 deaths and 6 CV events on magnesium vs 2 and 0 on placebo [PMID:36749131].
+- Exercise: short-term MgCl2 600 mg/day lowered VO2max and sprint power in replete exercisers (small crossover) [PMID:40077784].
 
 ** Contraindications
-- Severe renal impairment increases toxicity risk; distinguish elemental magnesium from compound mass [URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/].
+- Severe renal impairment or kidney failure: excess cannot be cleared. Avoid unsupervised supplementation [URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/] [PMID:30805197] [PMID:30136128].
+- Chronic constipation, ileus or bowel dysmotility combined with Mg laxatives or high doses: risk of toxic accumulation [PMID:29661354] [PMID:30136128].
+- Doses above the 350 mg/day supplemental UL without medical supervision [URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/].
 
 ** Interactions
-- Chelates tetracycline/quinolone antibiotics and oral bisphosphonates, reducing absorption; separate dosing. Diuretics and proton-pump inhibitors can alter magnesium status [URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/].
-- No genotype-specific clinical claim is made because no qualifying pharmacogenomic source was identified for this research set.
+*** Drugs
+- Tetracyclines (doxycycline, demeclocycline): magnesium forms insoluble complexes. Take the antibiotic >=2 h before or 4-6 h after magnesium [URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/]. An aluminum-magnesium antacid cut doxycycline AUC from 38.6 to 6.0 mg.h/L, giving subtherapeutic levels [PMID:2610502].
+- Fluoroquinolones (ciprofloxacin, levofloxacin): same timing advice [URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/]. Maalox given 5-10 min, 2 h and 4 h before ciprofloxacin left 15%, 23% and 70% relative bioavailability. Giving it 6 h before or 2 h after had no effect [PMID:2598571].
+- Oral bisphosphonates (alendronate): magnesium reduces absorption. Separate by >=2 h [URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/].
+- Levothyroxine: in a crossover PK trial, magnesium aspartate cut T4 AUC by 12% (GMR 0.88, 0.81-0.95). Citrate cut it by 7% (GMR 0.93, 0.86-1.01, NS). The authors advise separating doses [PMID:41221788].
+- Gabapentin: 1 g MgO lowered gabapentin Cmax by 33%, AUC by 43% and bioavailability by 32% [PMID:22240839].
+- Proton pump inhibitors: long-term use (typically >1 year) can cause hypomagnesemia. In FDA-reviewed cases, supplements failed to correct it in 25%, and the PPI had to be stopped. FDA advises checking serum Mg before and during long-term PPI use [URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/]. Meta-analyses: adjusted OR 1.71 (1.33-2.19), higher with high-dose PPIs (OR 2.13) [PMID:31689852]. A case report describes PPI hypomagnesemia with delirium, hypocalcemia and hypokalemia that resolved after stopping the PPI and repleting [PMID:39465769].
+- Diuretics:
+  - Loop and thiazide diuretics increase urinary Mg loss, while potassium-sparing diuretics (amiloride, spironolactone) reduce it [URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/].
+  - In the Rotterdam Study (n=9820), thiazides were linked to hypomagnesemia (OR 2.74-3.14), but loop diuretics and thiazide plus potassium-sparing combinations were not [PMID:30095199].
+- Calcineurin inhibitors: listed among common drug causes of hypomagnesemia [PMID:38871680].
+- SGLT2 inhibitors raise serum Mg and have been proposed as a treatment for hypomagnesemia [PMID:38871680] [PMID:40565121].
+- Antihypertensives: the larger BP drop seen in treated hypertensive patients (SBP -7.68 mmHg) suggests an additive effect [PMID:41000008].
+- Metformin: linked to hypomagnesemia, possibly through GI loss and TRPM6 suppression (case and narrative review) [PMID:40613016]. Magnesium itself slightly lowers FBG and HbA1c [PMID:42588058].
+- SSRIs: in a small non-blinded RCT, magnesium added to fluoxetine gave a larger HDRS drop (-6.35 vs -2.80) [PMID:41916937].
+*** Other supplements
+- Zinc: very high supplemental zinc (142 mg/day) reduced Mg absorption and balance in metabolic-ward studies [PMID:7836627] [URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/].
+- Calcium: in adolescent girls, raising calcium intake from 800 to 1800 mg/day did not significantly change Mg absorption, kinetics or balance (n=5) [PMID:9277559].
+- Vitamin D3: Mg supplementation changed 25(OH)D3 depending on baseline 25(OH)D (raised near 30 ng/mL, lowered at 30-50 ng/mL) [PMID:30541089]. Mg glycinate plus D3 raised 25(OH)D more than D3 alone in overweight/obese adults (+6.3 ng/mL) [PMID:35576873].
+- Heme Iron (Proferrin): no human study of magnesium with heme iron polypeptide was found.
+- Mg-containing laxatives and antacids add to the supplement dose and are the main source of toxic exposure [URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/] [PMID:29661354].
+*** Conditions
+- CKD/renal impairment, older age with constipation: see Contraindications [PMID:30805197] [PMID:30136128].
+- Type 2 diabetes, alcohol use disorder and older age raise the risk of depletion through urinary loss, poor intake or reduced absorption [URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/].
+- Ileal resection: absorption is impaired, and glycinate may be better tolerated [PMID:7815675].
+- Kidney transplant recipients have lower circulating Mg, partly from immunosuppressants [PMID:40565121].
+*** Lab-test interference
+- Serum Mg is a poor marker of status. It holds less than 1% of body Mg, is defended by kidney and bone, and correlates poorly with tissue levels. A normal value does not exclude depletion. Alternatives (erythrocyte, ionized, urinary Mg, loading test) each have limits, and no single test is satisfactory [URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/] [PMID:42336500] [PMID:42647115].
+- The reference change value for serum Mg is about 12%, similar to or larger than the change with oral repletion. Serum endpoints in trials are therefore underpowered [PMID:42647115]. In a 6-month T2D trial, citrate raised 24-h urinary Mg but not serum Mg [PMID:41903889].
+- Hemolysis falsely raises measured magnesium, roughly in proportion to the amount of lysate [PMID:16519604].
+- Magnesium is not part of routine electrolyte panels, so deficiency (for example from PPIs) is easily missed [URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/] [PMID:39465769].
 
 ** Genotype notes
-- No cited pharmacogenomic or nutrigenomic source identified for a clinically useful genotype-specific note.
+- TRPM7: in a precision-based RCT randomized by TRPM7 genotype, Mg supplementation increased vitamin-D-synthesizing gut bacteria (C. maltaromaticum, F. prausnitzii) only in people without the TRPM7 missense variant. With the variant, C. maltaromaticum decreased (not significant after FDR correction) [PMID:40946805].
+- No clinically actionable genotype-guided dosing exists.
 
 ** Latest research
-- 2024–2026: 2025 RCT meta-analysis in metabolic syndrome found lower CRP after prolonged supplementation, while other inflammatory markers were not consistently changed [PMID:41245414].
+- [2026-08] Sleep SR (12 RCTs): inconsistent findings, low to very low certainty; not supported as routine insomnia treatment [PMID:42661485].
+- [2026-08] Narrative review: serum Mg fails as a trial endpoint (RCV about 12%) [PMID:42647115].
+- [2026-07] Cardiometabolic dose-response MA (78 RCTs): SBP -2.50, DBP -1.58 mmHg, FBG -3.60 mg/dL, HbA1c -0.15%, HDL +1.45 mg/dL; modest effects [PMID:42588058].
+- [2026-07] Insulin-resistance MA (15 RCTs): no significant HOMA-IR effect [PMID:42426860].
+- [2026-07] 12-month RCT of MgO in T2D (n=247): HbA1c -0.30% vs -0.05% (NS); more patients reached HbA1c <7% (14% vs 6%) [PMID:42534812].
+- [2026-07] Liver-enzyme MA (7 trials): ALT -4.76 and AST -6.28 U/L [PMID:42580984].
+- [2026-06] Clinical-chemistry review: no single biomarker reflects whole-body Mg [PMID:42336500].
+- [2026-05] RCT of IV MgSO4 in cardiac surgery (n=265): no POAF reduction (RR 1.29); stopped for futility [PMID:42206948].
+- [2026-05] MgO single-dose PK: non-dose-proportional exposure from 750 to 2000 mg [PMID:42091979].
+- [2026-03] RCT of Mg citrate 350 mg/d in T2D with arterial calcification: no effect on calcification propensity or PWV [PMID:41903889].
+- [2026-03] Mg 250 mg/d added to fluoxetine improved HDRS (small, non-blinded) [PMID:41916937].
+- [2026-02] Regression-discontinuity study of 171,727 ICU admissions: repleting borderline-low Mg did not prevent tachyarrhythmia [PMID:41359319].
+- [2026-02] Three-arm leg-cramp RCT: compression stockings worked, magnesium did not [PMID:41680812].
+- [2026-01] Magtein RCT (n=100): better NIH cognition composite and subjective sleep impairment; no change in objective sleep [PMID:41601871].
+- [2025-11] ThyroMag crossover trial: Mg aspartate lowers levothyroxine AUC by 12% [PMID:41221788].
+- [2025-09] BP MA (38 RCTs): SBP -2.81 mmHg; larger effects in treated hypertension and hypomagnesemia [PMID:41000008].
+- [2025-09] TRPM7-stratified RCT: microbiome effects of Mg depend on genotype [PMID:40946805].
+- [2025-08] Bisglycinate 250 mg/d RCT (n=155): small ISI improvement (d=0.2) [PMID:40918053].
+- [2025-03] MgCl2 600 mg/d lowered VO2max in replete exercisers [PMID:40077784].
+- [2024-10] Supplement migraine MA: Mg reduced attacks (MD -2.51) and migraine days (MD -1.66) [PMID:39404918].
 
 ** Open questions
-- Larger, preregistered, adequately powered human trials with standardized, chemically characterized products and longer follow-up are needed to establish clinically important benefits and characterize uncommon harms.
+- Whether benefits are confined to people who start out depleted. Status markers to select them are poor, and many subgroup signals are post hoc [PMID:41000008] [PMID:42647115].
+- How different salts compare on clinical outcomes, not just short-term absorption markers. Glycinate and threonate claims rest on small or industry-linked studies.
+- Migraine: pooled benefits rest on small trials, and an earlier MA found no significant effect on severity [PMID:30764890]. Optimal dose relative to the UL is unclear.
+- The excess deaths and CV events in MAGiCAL-CKD were small in number but unexplained. The safety of chronic supplementation in moderate CKD needs clarification [PMID:36749131].
+- Depression trials are small, often open-label, and highly heterogeneous.
+- The size and timing of chelation interactions with modern supplement doses (as opposed to antacid doses).
 
 ** Sources
-1. URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/
-2. PMID:39519450
-3. PMID:41245414
-- NIH Office of Dietary Supplements. Magnesium Fact Sheet for Health Professionals.
-- Magnesium and potassium supplementation for systolic blood pressure reduction: systematic review and subgroup meta-analysis. PMID:39519450.
-- Long-term magnesium and inflammatory markers in metabolic syndrome: systematic review/meta-analysis. Front Nutr. 2025. PMID:41245414.
+1. NIH Office of Dietary Supplements. Magnesium: Fact Sheet for Health Professionals. Updated 2026-01-06. URL:https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/
+2. Argeros Z et al. Magnesium Supplementation and Blood Pressure: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. Hypertension. 2025. PMID:41000008 DOI:10.1161/HYPERTENSIONAHA.125.25129
+3. Zhang X et al. Effects of Magnesium Supplementation on Blood Pressure: A Meta-Analysis of Randomized Double-Blind Placebo-Controlled Trials. Hypertension. 2016. PMID:27402922 DOI:10.1161/HYPERTENSIONAHA.116.07664
+4. Behers BJ et al. Magnesium and Potassium Supplementation for Systolic Blood Pressure Reduction in the General Normotensive Population: SR and Subgroup MA. Nutrients. 2024. PMID:39519450 DOI:10.3390/nu16213617
+5. Asbaghi O et al. The effects of oral magnesium supplementation on glycaemic control in patients with type 2 diabetes: SR and dose-response MA. Br J Nutr. 2022. PMID:35045911 DOI:10.1017/S0007114521005201
+6. Amiri A et al. Oral magnesium supplements and insulin resistance in individuals with diabetes and pre-diabetes: an updated SR and MA of RCTs. BMC Nutr. 2026. PMID:42426860 DOI:10.1186/s40795-026-01424-y
+7. Basit A et al. Impact of oral magnesium supplementation on glycemic and cardiometabolic outcomes in prediabetic adults: SR and MA. J Diabetes Metab Disord. 2026. PMID:41641401 DOI:10.1007/s40200-025-01853-9
+8. Al-Maqbali JS et al. The effect of oral magnesium supplementation on glycemic control and metabolic parameters in type 2 diabetes mellitus: a double-blind RCT. Front Endocrinol (Lausanne). 2026. PMID:42534812 DOI:10.3389/fendo.2026.1883483
+9. Mohammadi S et al. Comprehensive Effects of Magnesium Supplementation on Cardiometabolic Risk Factors: SR and Dose-Response MA. Nutrients. 2026. PMID:42588058 DOI:10.3390/nu18152435
+10. Hariri M et al. The effect of magnesium supplementation on serum concentration of lipid profile: updated SR and dose-response MA. Nutr J. 2025. PMID:39905454 DOI:10.1186/s12937-025-01085-w
+11. Wang W et al. The effect of long-term magnesium intake on inflammatory markers in patients with metabolic syndrome: SR and MA of RCTs. Front Nutr. 2025. PMID:41245414 DOI:10.3389/fnut.2025.1692937
+12. Mah J, Pitre T. Oral magnesium supplementation for insomnia in older adults: SR and MA. BMC Complement Med Ther. 2021. PMID:33865376 DOI:10.1186/s12906-021-03297-z
+13. Lopresti AL et al. Magnesium Supplementation for Sleep in Adults: A Systematic Review of RCTs. J Diet Suppl. 2026. PMID:42661485 DOI:10.1080/19390211.2026.2719670
+14. Schuster J et al. Magnesium Bisglycinate Supplementation in Healthy Adults Reporting Poor Sleep: A Randomized, Placebo-Controlled Trial. Nat Sci Sleep. 2025. PMID:40918053 DOI:10.2147/NSS.S524348
+15. Hausenblas HA et al. Magnesium-L-threonate improves sleep quality and daytime functioning in adults with self-reported sleep problems: an RCT. Sleep Med X. 2024. PMID:39252819 DOI:10.1016/j.sleepx.2024.100121
+16. Lopresti AL, Smith SJ. The effects of magnesium L-threonate (Magtein) on cognitive performance and sleep quality in adults: an RCT. Front Nutr. 2025. PMID:41601871 DOI:10.3389/fnut.2025.1729164
+17. Liu G et al. Efficacy and Safety of MMFS-01, a Synapse Density Enhancer, for Treating Cognitive Impairment in Older Adults: an RCT. J Alzheimers Dis. 2016. PMID:26519439 DOI:10.3233/JAD-150538
+18. Sun Q et al. Regulation of structural and functional synapse density by L-threonate through modulation of intraneuronal magnesium concentration. Neuropharmacology. 2016. PMID:27178134 DOI:10.1016/j.neuropharm.2016.05.006
+19. Talandashti MK et al. Effects of selected dietary supplements on migraine prophylaxis: SR and dose-response MA of RCTs. Neurol Sci. 2025. PMID:39404918 DOI:10.1007/s10072-024-07794-0
+20. Okoli GN et al. Vitamins and Minerals for Migraine Prophylaxis: A Systematic Review and Meta-analysis. Can J Neurol Sci. 2019. PMID:30764890 DOI:10.1017/cjn.2018.394
+21. Moabedi M et al. Magnesium supplementation beneficially affects depression in adults with depressive disorder: SR and MA of RCTs. Front Psychiatry. 2023. PMID:38213402 DOI:10.3389/fpsyt.2023.1333261
+22. Tarleton EK et al. Role of magnesium supplementation in the treatment of depression: A randomized clinical trial. PLoS One. 2017. PMID:28654669 DOI:10.1371/journal.pone.0180067
+23. Walyddaini AS et al. Magnesium supplementation as an adjunct to fluoxetine therapy for depression. East Asian Arch Psychiatry. 2026. PMID:41916937 DOI:10.12809/eaap25122
+24. Garrison SR et al. Magnesium for skeletal muscle cramps. Cochrane Database Syst Rev. 2020. PMID:32956536 DOI:10.1002/14651858.CD009402.pub3
+25. Roguin Maor N et al. Effect of Magnesium Oxide Supplementation on Nocturnal Leg Cramps: A Randomized Clinical Trial. JAMA Intern Med. 2017. PMID:28241153 DOI:10.1001/jamainternmed.2016.9261
+26. Kuusipalo A et al. Secondary prevention of leg cramps using compression stockings or magnesium supplements: a three-arm RCT. Trials. 2026. PMID:41680812 DOI:10.1186/s13063-025-09370-z
+27. Liu J et al. Effect of oral magnesium supplementation for relieving leg cramps during pregnancy: MA of RCTs. Taiwan J Obstet Gynecol. 2021. PMID:34247796 DOI:10.1016/j.tjog.2021.05.006
+28. Ghazizadeh S et al. Magnesium for Prevention of New-onset Postoperative Atrial Fibrillation Following Cardiac Surgery: SR and MA of RCTs. Heart Int. 2025. PMID:40708765 DOI:10.17925/HI.2025.19.1.6
+29. Meerman M et al. Magnesium Sulfate to Prevent Perioperative Atrial Fibrillation in Cardiac Surgery: A Randomized Clinical Trial. Crit Care Med. 2026. PMID:42206948 DOI:10.1097/CCM.0000000000007162
+30. Goulden R et al. Magnesium Supplementation and Tachyarrhythmias: A Nonrandomized Clinical Trial. JAMA Intern Med. 2026. PMID:41359319 DOI:10.1001/jamainternmed.2025.6572
+31. Bressendorff I et al. The Effect of Magnesium Supplementation on Vascular Calcification in CKD: An RCT (MAGiCAL-CKD). J Am Soc Nephrol. 2023. PMID:36749131 DOI:10.1681/ASN.0000000000000092
+32. Meer R et al. Magnesium supplementation did not reduce serum calciprotein crystallization and arterial stiffness in individuals with type 2 diabetes: an RCT. Am J Clin Nutr. 2026. PMID:41903889 DOI:10.1016/j.ajcnut.2026.101299
+33. Leyva-Velazquez AP et al. Effect of magnesium supplementation on liver enzymes: SR and MA of clinical trials. Nutr Metab Cardiovasc Dis. 2026. PMID:42580984 DOI:10.1016/j.numecd.2026.104931
+34. Bomar MC et al. Short-Term Magnesium Supplementation Has Modest Detrimental Effects on Cycle Ergometer Exercise Performance and Skeletal Muscle Mitochondria: A Randomized Crossover Trial. Nutrients. 2025. PMID:40077784 DOI:10.3390/nu17050915
+35. Walker AF et al. Mg citrate found more bioavailable than other Mg preparations in a randomised, double-blind study. Magnes Res. 2003. PMID:14596323
+36. Werner T et al. Assessment of bioavailability of Mg from Mg citrate and Mg oxide by measuring urinary excretion in Mg-saturated subjects. Magnes Res. 2019. PMID:32162607 DOI:10.1684/mrh.2019.0457
+37. Pajuelo D et al. Comparative Clinical Study on Magnesium Absorption and Side Effects After Oral Intake of Microencapsulated Magnesium Versus Other Magnesium Sources. Nutrients. 2024. PMID:39770988 DOI:10.3390/nu16244367
+38. Swetha RK et al. Randomized, open-label study of the short-term pharmacokinetics of oral magnesium oxide in healthy volunteers. Sci Rep. 2026. PMID:42091979 DOI:10.1038/s41598-026-50427-z
+39. Schuette SA et al. Bioavailability of magnesium diglycinate vs magnesium oxide in patients with ileal resection. JPEN J Parenter Enteral Nutr. 1994. PMID:7815675 DOI:10.1177/0148607194018005430
+40. Kröse JL, de Baaij JHF. Magnesium biology. Nephrol Dial Transplant. 2024. PMID:38871680 DOI:10.1093/ndt/gfae134
+41. Wakai E et al. Risk factors for the development of hypermagnesemia in patients prescribed magnesium oxide: a retrospective cohort study. J Pharm Health Care Sci. 2019. PMID:30805197 DOI:10.1186/s40780-019-0133-7
+42. Yamaguchi H et al. Severe hypermagnesemia induced by magnesium oxide ingestion: a case series. CEN Case Rep. 2019. PMID:30136128 DOI:10.1007/s13730-018-0359-5
+43. Bokhari SR et al. Fatal Hypermagnesemia Due to Laxative Use. Am J Med Sci. 2018. PMID:29661354 DOI:10.1016/j.amjms.2017.08.013
+44. Srinutta T et al. Proton pump inhibitors and hypomagnesemia: A meta-analysis of observational studies. Medicine (Baltimore). 2019. PMID:31689852 DOI:10.1097/MD.0000000000017788
+45. Zhao W et al. Proton pump inhibitor-induced hypomagnesemia, a rare cause of reversible delirium: case report with literature review. Medicine (Baltimore). 2024. PMID:39465769 DOI:10.1097/MD.0000000000039729
+46. Kieboom BCT et al. Thiazide but not loop diuretics is associated with hypomagnesaemia in the general population. Pharmacoepidemiol Drug Saf. 2018. PMID:30095199 DOI:10.1002/pds.4636
+47. Nix DE et al. Effects of aluminum and magnesium antacids and ranitidine on the absorption of ciprofloxacin. Clin Pharmacol Ther. 1989. PMID:2598571 DOI:10.1038/clpt.1989.207
+48. Deppermann KM et al. Influence of ranitidine, pirenzepine, and aluminum magnesium hydroxide on the bioavailability of various antibiotics, including doxycycline. Antimicrob Agents Chemother. 1989. PMID:2610502 DOI:10.1128/AAC.33.11.1901
+49. Attinger MC et al. Drug-Drug Interactions of Levothyroxine/Magnesium-Citrate and Levothyroxine/Magnesium-Aspartate in Healthy Subjects - The ThyroMag Trial. Clin Transl Sci. 2025. PMID:41221788 DOI:10.1111/cts.70409
+50. Yagi T et al. Impact of concomitant antacid administration on gabapentin plasma exposure and oral bioavailability in healthy adult subjects. Drug Metab Pharmacokinet. 2012. PMID:22240839 DOI:10.2133/dmpk.dmpk-11-rg-108
+51. Xu EJ et al. Hypomagnesemia With Metformin Use in Diabetes Mellitus: A Case and Narrative Review. Kidney Med. 2025. PMID:40613016 DOI:10.1016/j.xkme.2025.101030
+52. Diaz-Tocados JM et al. Magnesium Balance in Chronic Kidney Disease: Mineral Metabolism, Immunosuppressive Therapies and SGLT2 Inhibitors. Int J Mol Sci. 2025. PMID:40565121 DOI:10.3390/ijms26125657
+53. Spencer H et al. Inhibitory effects of zinc on magnesium balance and magnesium absorption in man. J Am Coll Nutr. 1994. PMID:7836627 DOI:10.1080/07315724.1994.10718438
+54. Sojka J et al. Magnesium kinetics in adolescent girls determined using stable isotopes: effects of high and low calcium intake. Am J Physiol. 1997. PMID:9277559 DOI:10.1152/ajpregu.1997.273.2.R710
+55. Dai Q et al. Magnesium status and supplementation influence vitamin D status and metabolism: results from a randomized trial. Am J Clin Nutr. 2018. PMID:30541089 DOI:10.1093/ajcn/nqy274
+56. Cheung MM et al. The effect of combined magnesium and vitamin D supplementation on vitamin D status, systemic inflammation, and blood pressure: an RCT. Nutrition. 2022. PMID:35576873 DOI:10.1016/j.nut.2022.111674
+57. Sun E et al. Magnesium treatment increases gut microbiome synthesizing vitamin D and inhibiting colorectal cancer: results from a precision-based RCT. Am J Clin Nutr. 2025. PMID:40946805 DOI:10.1016/j.ajcnut.2025.09.011
+58. Chandarana J, Butani K. Why Serum Magnesium Fails: A Narrative Review of Magnesium Biochemistry, Compartmental Exchange, and Endpoint Selection for Supplementation Trials. J Am Nutr Assoc. 2026. PMID:42647115 DOI:10.1080/27697061.2026.2719468
+59. Rondon LJ, Marin R. Biomarkers for assessing magnesium status. Adv Clin Chem. 2026. PMID:42336500 DOI:10.1016/bs.acc.2026.03.006
+60. Lippi G et al. Influence of hemolysis on routine clinical chemistry testing. Clin Chem Lab Med. 2006. PMID:16519604 DOI:10.1515/CCLM.2006.054

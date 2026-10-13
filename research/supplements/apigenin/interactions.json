@@ -4,27 +4,350 @@
   "slug": "apigenin",
   "aliases": [
     "4',5,7-trihydroxyflavone",
-    "parsley/chamomile flavone"
+    "5,7,4'-trihydroxyflavone",
+    "apigenin-7-O-glucoside",
+    "apiin",
+    "chamomile flavone",
+    "Matricaria chamomilla extract (apigenin-standardized)"
   ],
   "category": "botanical",
   "rx_status": "otc",
   "evidence_certainty_overall": "very-low",
   "edges": [
     {
+      "with": "warfarin",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Chamomile may potentiate warfarin (proposed coumarin-like constituents and CYP inhibition); case of multiple internal hemorrhages with chamomile tea/lotion during warfarin therapy. Chamomile alone did not change PT/INR in volunteers not on warfarin.",
+      "evidence": "Case report plus systematic reviews rating chamomile as major-severity/bleeding-risk herb; volunteer RCT negative for chamomile alone; very low certainty",
+      "citations": [
+        "PMID:16636327",
+        "PMID:32478963",
+        "PMID:24790635",
+        "PMID:37730613"
+      ]
+    },
+    {
+      "with": "INR",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "INR may rise when chamomile is added to warfarin; chamomile alone does not prolong PT/INR/aPTT.",
+      "evidence": "Case report and crossover RCT in healthy volunteers (n=12)",
+      "citations": [
+        "PMID:16636327",
+        "PMID:37730613"
+      ]
+    },
+    {
+      "with": "CYP2C9 substrates (e.g. losartan, diclofenac)",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Apigenin competitively inhibits CYP2C9 (IC50 ~4-10 uM in human liver microsomes/recombinant enzyme) and shows mixed-type inhibition; dietary plasma levels are sub-micromolar.",
+      "evidence": "In vitro only; no human PK study",
+      "citations": [
+        "PMID:27287328",
+        "PMID:19883715",
+        "PMID:16407641"
+      ]
+    },
+    {
+      "with": "CYP3A4 substrates",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Apigenin reversibly inhibits CYP3A4 in vitro; crude chamomile extract inhibits CYP3A4 in vitro; chamomile extract induced hepatic Cyp3a in mice, so net direction in humans is uncertain.",
+      "evidence": "In vitro and rodent data only",
+      "citations": [
+        "PMID:30301254",
+        "PMID:34069400",
+        "PMID:19883715",
+        "PMID:10969720",
+        "PMID:41091411"
+      ]
+    },
+    {
+      "with": "Rapamycin",
       "with_kind": "supplement",
       "kind": "caution",
       "severity": "moderate",
-      "mechanism": "Both show preclinical CYP3A4/transporter modulation; human combination effects unknown.",
-      "evidence": "Limited or mechanistic evidence; no direct clinically decisive interaction trial identified.",
+      "mechanism": "Sirolimus is a narrow-therapeutic-index CYP3A4/P-gp substrate; apigenin inhibits CYP3A4 in vitro and increased exposure to CYP3A/P-gp/BCRP substrates (dasatinib, paclitaxel) in rats. Extrapolated, not studied with rapamycin.",
+      "evidence": "Mechanistic extrapolation from in vitro and rat PK studies; no human data",
       "citations": [
-        "PMID:38629096",
-        "PMID:42827146"
-      ],
-      "with": "Quercetin"
+        "PMID:30301254",
+        "PMID:36838589",
+        "PMID:24871039"
+      ]
+    },
+    {
+      "with": "dasatinib",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Apigenin pretreatment (40 mg/kg) markedly increased dasatinib Cmax/AUC and half-life in rats via modulation of CYP3A2, P-gp and BCRP.",
+      "evidence": "Rat PK study",
+      "citations": [
+        "PMID:36838589"
+      ]
+    },
+    {
+      "with": "paclitaxel",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Apigenin increased oral paclitaxel AUC and Cmax dose-dependently in rats via P-gp inhibition. A human chamomile oral-solution RCT during paclitaxel reported no AEs (PK not measured).",
+      "evidence": "Rat PK study; human RCT without PK",
+      "citations": [
+        "PMID:24871039",
+        "PMID:41538720"
+      ]
+    },
+    {
+      "with": "venlafaxine",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Apigenin (250 mg/kg) increased venlafaxine AUC by 40.9% in rats and inhibited its metabolism in human liver microsomes (IC50 58 uM).",
+      "evidence": "Rat PK and in vitro; dose far above human intake",
+      "citations": [
+        "PMID:26202346"
+      ]
+    },
+    {
+      "with": "benzodiazepines and CNS depressants",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Apigenin binds the benzodiazepine site and enhanced diazepam's positive modulation of GABA-A receptors in vitro; drowsiness is a common chamomile AE; NCCIH lists sedatives as a theoretical interaction.",
+      "evidence": "In vitro/animal plus AE review; no clinical interaction study",
+      "citations": [
+        "PMID:15451406",
+        "PMID:7617761",
+        "PMID:40374153",
+        "URL:https://www.nccih.nih.gov/health/chamomile"
+      ]
+    },
+    {
+      "with": "Melatonin",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Melatonin 6-hydroxylation is mainly CYP1A2; apigenin and chamomile oil constituents inhibit CYP1A2 in vitro, so melatonin levels and sedation could rise.",
+      "evidence": "Mechanistic only",
+      "citations": [
+        "PMID:11317475",
+        "PMID:20806393",
+        "PMID:16137701"
+      ]
+    },
+    {
+      "with": "Aspirin",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Apigenin antagonizes TxA2 receptors and potentiated aspirin's inhibition of arachidonic-acid-induced aggregation ex vivo; dietary apigenin 84 mg/d had no in vivo platelet effect.",
+      "evidence": "Ex vivo/in vitro; human dietary crossover negative",
+      "citations": [
+        "PMID:18410117",
+        "PMID:9459373"
+      ]
+    },
+    {
+      "with": "antidiabetic drugs",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Chamomile tea (3 g three times daily, 8 wk) lowered HbA1c, insulin and HOMA-IR in T2DM; additive glucose lowering possible.",
+      "evidence": "Single-blind RCT (n=64); very low certainty",
+      "citations": [
+        "PMID:26437613"
+      ]
+    },
+    {
+      "with": "oral contraceptives",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "NCCIH cites preliminary studies that chamomile may decrease the effect of birth control pills; mechanism unclear (possible estrogen-like activity).",
+      "evidence": "Agency fact sheet citing preliminary data",
+      "citations": [
+        "URL:https://www.nccih.nih.gov/health/chamomile"
+      ]
+    },
+    {
+      "with": "estrogen-sensitive cancers (breast, uterine)",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Apigenin is a partial ER agonist in mice and an aromatase inhibitor in vitro; no in vivo aromatase or uterotrophic effect at 50 mg/kg in rats. NCCIH cautions chamomile might worsen estrogen-sensitive conditions.",
+      "evidence": "Preclinical plus agency caution; no human data",
+      "citations": [
+        "PMID:34048736",
+        "PMID:6474163",
+        "PMID:15319488",
+        "PMID:11595503",
+        "URL:https://www.nccih.nih.gov/health/chamomile"
+      ]
+    },
+    {
+      "with": "Genistein",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Apigenin acts as a mixed progesterone-receptor agonist and blocked genistein-stimulated uterine epithelial proliferation in mice.",
+      "evidence": "Single animal/in vitro study",
+      "citations": [
+        "PMID:29736565"
+      ]
+    },
+    {
+      "with": "Nicotinamide Riboside",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Apigenin inhibits the NADase CD38; apigenin and NR each raised brain NAD+ and suppressed neuroinflammation in mice. Combination untested in humans.",
+      "evidence": "Mechanistic/preclinical only",
+      "citations": [
+        "PMID:23172919",
+        "PMID:33871064"
+      ]
+    },
+    {
+      "with": "NMN",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "CD38 is the main enzyme degrading NMN in vivo and drives age-related NAD+ decline; apigenin inhibits CD38 and raised NAD+ in obese mice. Combination untested in humans.",
+      "evidence": "Mechanistic/preclinical only",
+      "citations": [
+        "PMID:27304511",
+        "PMID:23172919"
+      ]
+    },
+    {
+      "with": "Quercetin",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Both quercetin and apigenin inhibit CD38 and raise cellular NAD+; additive effect is hypothetical.",
+      "evidence": "In vitro/mouse only",
+      "citations": [
+        "PMID:23172919"
+      ]
+    },
+    {
+      "with": "Magnesium",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Apigenin + magnesium prolonged sleep more than either alone in mice; a 2-week human RCT of apigenin 50 mg + magnesium L-threonate + L-theanine showed no benefit over placebo.",
+      "evidence": "Mouse study; null human RCT of the stack",
+      "citations": [
+        "PMID:41701207",
+        "PMID:42829807"
+      ]
+    },
+    {
+      "with": "non-heme iron (supplements or iron-rich meals)",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Chamomile tea taken with a meal reduced non-heme iron absorption by 47% (polyphenol binding).",
+      "evidence": "Human isotope absorption study",
+      "citations": [
+        "PMID:10999016"
+      ]
+    },
+    {
+      "with": "Asteraceae/ragweed or mugwort/birch pollen allergy",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "moderate",
+      "mechanism": "Type I hypersensitivity including anaphylaxis to chamomile; cross-reactivity with mugwort, birch pollen (Bet v 1 homologue) and celery.",
+      "evidence": "Case series, SR of AEs (3 anaphylaxis case reports), NCCIH",
+      "citations": [
+        "PMID:10998021",
+        "PMID:40374153",
+        "URL:https://www.nccih.nih.gov/health/chamomile"
+      ]
+    },
+    {
+      "with": "pregnancy and lactation",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Insufficient safety data for chamomile/apigenin supplements in pregnancy and lactation.",
+      "evidence": "Systematic reviews; evidence too weak for recommendations",
+      "citations": [
+        "PMID:40314057",
+        "PMID:40374153",
+        "URL:https://www.nccih.nih.gov/health/chamomile"
+      ]
     }
   ],
   "citations": [
-    "PMID:38629096",
-    "PMID:42827146"
+    "PMID:10615220",
+    "PMID:10969720",
+    "PMID:10998021",
+    "PMID:10999016",
+    "PMID:11317475",
+    "PMID:11595503",
+    "PMID:12586201",
+    "PMID:15319488",
+    "PMID:15451406",
+    "PMID:16137701",
+    "PMID:16407641",
+    "PMID:16636327",
+    "PMID:18410117",
+    "PMID:19593179",
+    "PMID:19883715",
+    "PMID:20806393",
+    "PMID:21939549",
+    "PMID:23172919",
+    "PMID:24790635",
+    "PMID:24871039",
+    "PMID:26202346",
+    "PMID:26437613",
+    "PMID:27287328",
+    "PMID:27304511",
+    "PMID:27766890",
+    "PMID:27912871",
+    "PMID:27912875",
+    "PMID:29154054",
+    "PMID:29168225",
+    "PMID:29736565",
+    "PMID:30301254",
+    "PMID:31006899",
+    "PMID:32357534",
+    "PMID:32478963",
+    "PMID:32507768",
+    "PMID:33871064",
+    "PMID:34048736",
+    "PMID:34069400",
+    "PMID:35378276",
+    "PMID:35452808",
+    "PMID:36838589",
+    "PMID:37730613",
+    "PMID:38476603",
+    "PMID:39106912",
+    "PMID:39836709",
+    "PMID:40314057",
+    "PMID:40374153",
+    "PMID:40665590",
+    "PMID:41091411",
+    "PMID:41394268",
+    "PMID:41538720",
+    "PMID:41701207",
+    "PMID:41761999",
+    "PMID:41767834",
+    "PMID:42488186",
+    "PMID:42829807",
+    "PMID:42832459",
+    "PMID:6474163",
+    "PMID:7617761",
+    "PMID:9459373",
+    "URL:https://www.nccih.nih.gov/health/chamomile"
   ]
 }

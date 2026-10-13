@@ -3,39 +3,265 @@
   "supplement": "Beta Alanine",
   "slug": "beta-alanine",
   "aliases": [
-    "\u03b2-alanine",
-    "3-aminopropanoic acid"
+    "β-alanine",
+    "beta-alanine",
+    "3-aminopropanoic acid",
+    "3-aminopropionic acid",
+    "CarnoSyn",
+    "SR CarnoSyn",
+    "sustained-release beta-alanine"
   ],
   "category": "amino-acid",
   "rx_status": "otc",
   "evidence_certainty_overall": "moderate",
   "edges": [
     {
+      "with": "Taurine",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Beta-alanine is a substrate analogue at the taurine transporter (TauT) and competes with taurine uptake. High-dose animal feeding (3-5% in drinking water) depletes plasma/brain/retinal taurine. Human muscle taurine is unchanged at 3.2-6.4 g/d for up to 24 weeks. Whether co-supplementing taurine reduces carnosine loading is untested.",
+      "evidence": "Cryo-EM structural study; animal depletion studies; human biopsy RCTs and Bayesian MA showing no muscle taurine change; low certainty for any clinical effect",
+      "citations": [
+        "PMID:40789850",
+        "PMID:8838582",
+        "PMID:31473259",
+        "PMID:30552505",
+        "PMID:16868650",
+        "PMID:30980076"
+      ]
+    },
+    {
+      "with": "Creatine",
       "with_kind": "supplement",
       "kind": "synergy",
       "severity": "minor",
-      "mechanism": "Co-supplementation has been studied; systematic review reports equivocal performance/body-composition effects.",
-      "evidence": "Limited or mechanistic evidence; no direct clinically decisive interaction trial identified.",
+      "mechanism": "Complementary mechanisms: phosphocreatine resynthesis (creatine) and intramuscular H+ buffering via carnosine (beta-alanine). Combination may enhance anaerobic power and repeated bouts, but a network MA found no synergy beyond creatine alone.",
+      "evidence": "SR of 7 RCTs (n=263) favourable; network MA of 52 RCTs no synergy; small RCT in women no additive benefit; low certainty",
       "citations": [
-        "PMID:40647180"
-      ],
-      "with": "Creatine"
+        "PMID:40647180",
+        "PMID:42384726",
+        "PMID:25505854"
+      ]
     },
     {
+      "with": "Sodium bicarbonate",
+      "with_kind": "supplement",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Intracellular (carnosine) plus extracellular (bicarbonate) buffering. Combination SMD 0.32 (95% CI 0.07-0.57) vs neither alone significant; 2017 MA ES 0.43 (CI 0.22-0.64) for combination vs placebo.",
+      "evidence": "Two MAs and a systematic review; 2026 RCT in female athletes attributed gains to bicarbonate; moderate-low certainty",
+      "citations": [
+        "PMID:38952910",
+        "PMID:27797728",
+        "PMID:34882489",
+        "PMID:41838453"
+      ]
+    },
+    {
+      "with": "Caffeine",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Common pre-workout co-ingredient. 200 mg caffeine with 3 g beta-alanine acutely raised resting intraocular pressure (caffeine effect; beta-alanine alone did not). No acute additive performance benefit in superset resistance training.",
+      "evidence": "Two crossover RCTs (n=20-21); relevant mainly to glaucoma; low certainty",
+      "citations": [
+        "PMID:39732141",
+        "PMID:39438314"
+      ]
+    },
+    {
+      "with": "L-histidine",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Carnosine synthesis consumes histidine: beta-alanine 6 g/d lowered plasma (-30.6%) and muscle (-31.6%) histidine; 12 g/d SR lowered plasma histidine. Histidine co-supplementation prevents the fall but does not add carnosine. Pooled human data show no significant muscle histidine change.",
+      "evidence": "Two RCTs with biopsies; Bayesian MA; low certainty for clinical relevance",
+      "citations": [
+        "PMID:28106620",
+        "PMID:28910200",
+        "PMID:30980076"
+      ]
+    },
+    {
+      "with": "meals (carbohydrate/protein)",
+      "with_kind": "food",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Taking pure beta-alanine with meals increased soleus carnosine loading (+64% vs +41% between meals), probably through insulin-stimulated uptake.",
+      "evidence": "Controlled human study (n=34) with 1H-MRS; low certainty",
+      "citations": [
+        "PMID:23439427"
+      ]
+    },
+    {
+      "with": "glucose-lowering drugs",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Carnosine/beta-alanine supplementation lowered fasting glucose (SMD -0.53) and HbA1c (SMD -0.36) in prediabetes/T2DM, so an additive effect is possible. Most data are from carnosine.",
+      "evidence": "MA of 8 RCTs (n=377) and Bayesian MA; no direct interaction study; low certainty",
+      "citations": [
+        "PMID:40999397",
+        "PMID:34333586"
+      ]
+    },
+    {
+      "with": "paresthesia",
       "with_kind": "condition",
       "kind": "monitor",
       "severity": "minor",
-      "mechanism": "Transient tingling is dose-related, particularly after large bolus dosing.",
-      "evidence": "Human trial/review evidence or official fact sheet; clinical context and dose matter.",
+      "mechanism": "Dose-dependent, transient tingling via MrgprD-expressing sensory neurons (histamine-independent). OR 8.9 vs placebo. Attenuated by <=1.6 g single doses or sustained-release formulations.",
+      "evidence": "Risk-assessment MA (101 human studies), kinetic RCT, mechanistic study, ISSN position stand; high certainty for occurrence",
       "citations": [
-        "PMID:39724872"
-      ],
-      "with": "paresthesia"
+        "PMID:30980076",
+        "PMID:22139410",
+        "PMID:23077038",
+        "PMID:26175657",
+        "PMID:28910200"
+      ]
+    },
+    {
+      "with": "low taurine status",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Animal models show beta-alanine-induced taurine depletion causing cerebellar damage (worse in taurine-deprived cats) and retinal nerve fiber layer thinning. No human equivalent shown.",
+      "evidence": "Animal studies only; very low certainty",
+      "citations": [
+        "PMID:8838582",
+        "PMID:31473259"
+      ]
+    },
+    {
+      "with": "pregnancy and lactation",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "No human safety data; reviews note research gaps in pregnancy, nursing and childhood.",
+      "evidence": "Narrative review; absence of data",
+      "citations": [
+        "PMID:35043647"
+      ]
+    },
+    {
+      "with": "exertional rhabdomyolysis",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "minor",
+      "mechanism": "Case of severe rhabdomyolysis (CK >120,000 U/L) after prolonged resistance training while using a multi-supplement stack (creatine, beta-alanine, citrulline malate, beta-ecdysterone). Ergogenic stacks may enable larger training loads. Causality is not attributable to beta-alanine.",
+      "evidence": "Single case report; very low certainty",
+      "citations": [
+        "PMID:41952948"
+      ]
+    },
+    {
+      "with": "type 2 diabetes / prediabetes",
+      "with_kind": "condition",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Possible improvement in FBG, HbA1c and HOMA-beta with carnosine/beta-alanine; glucose monitoring is reasonable if combined with therapy.",
+      "evidence": "MA of 8 RCTs; low certainty",
+      "citations": [
+        "PMID:40999397"
+      ]
+    },
+    {
+      "with": "alanine aminotransferase (ALT)",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Small true rise in circulating ALT (ES 0.274), with means within reference ranges. 24 weeks at 6.4 g/d showed no change in AST/ALT/ALP/creatinine/CK.",
+      "evidence": "Bayesian MA and 24-week RCT; moderate certainty",
+      "citations": [
+        "PMID:30980076",
+        "PMID:30552505"
+      ]
+    },
+    {
+      "with": "plasma histidine",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Plasma histidine falls with beta-alanine loading (consumed for carnosine synthesis).",
+      "evidence": "RCTs; low certainty",
+      "citations": [
+        "PMID:28106620",
+        "PMID:28910200"
+      ]
+    },
+    {
+      "with": "plasma taurine",
+      "with_kind": "lab-test",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Acute oral beta-alanine raised plasma taurine in humans, without increased urinary loss.",
+      "evidence": "Human PK study; low certainty",
+      "citations": [
+        "PMID:16554972"
+      ]
     }
   ],
   "citations": [
-    "PMID:39724872",
+    "PMID:8838582",
+    "PMID:16554972",
+    "PMID:16868650",
+    "PMID:18992136",
+    "PMID:21847611",
+    "PMID:22139410",
+    "PMID:22143432",
+    "PMID:22270875",
+    "PMID:23077038",
+    "PMID:23439427",
+    "PMID:24389513",
+    "PMID:24716994",
+    "PMID:25505854",
+    "PMID:25636080",
+    "PMID:25875297",
+    "PMID:26175657",
+    "PMID:27797728",
+    "PMID:28106620",
+    "PMID:28910200",
+    "PMID:29336621",
+    "PMID:30552505",
+    "PMID:30980076",
+    "PMID:31473259",
+    "PMID:32824885",
+    "PMID:32922303",
+    "PMID:34024507",
+    "PMID:34098531",
+    "PMID:34333586",
+    "PMID:34882489",
+    "PMID:35043647",
+    "PMID:35813845",
+    "PMID:35977911",
+    "PMID:36839281",
+    "PMID:37766731",
+    "PMID:38013229",
+    "PMID:38545720",
     "PMID:38952910",
-    "PMID:40647180"
+    "PMID:38971131",
+    "PMID:39032921",
+    "PMID:39438314",
+    "PMID:39724872",
+    "PMID:39732141",
+    "PMID:39800667",
+    "PMID:39832765",
+    "PMID:40528157",
+    "PMID:40647180",
+    "PMID:40657651",
+    "PMID:40789850",
+    "PMID:40981477",
+    "PMID:40995761",
+    "PMID:40999397",
+    "PMID:41838453",
+    "PMID:41952948",
+    "PMID:41971372",
+    "PMID:42127019",
+    "PMID:42218755",
+    "PMID:42347476",
+    "PMID:42370349",
+    "PMID:42384726",
+    "PMID:42413109"
   ]
 }

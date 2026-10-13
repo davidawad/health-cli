@@ -3,50 +3,205 @@
 :ID: supp-glycine
 :KIND: supplement-monograph
 :SCHEMA: supplement-monograph/1
-:ALIASES: aminoacetic acid
+:ALIASES: aminoacetic acid | L-glycine | glycine powder | GlyNAC (glycine + N-acetylcysteine) | glycine sublingual tablets
 :CATEGORY: amino-acid
 :RX_STATUS: otc
 :RESEARCHED_AT: 2026-10-13
 :END:
 
 ** Identity & forms
-- Glycine is represented by these commonly studied or marketed forms: aminoacetic acid. Clinical products and formulations can differ in composition and bioavailability; this limits cross-trial comparisons [PMID:37851316, PMID:39640489].
+- Glycine is the smallest proteinogenic amino acid. It is classed as non-essential but has been proposed as conditionally essential, because endogenous synthesis may not meet demand [PMID:31208147].
+- It is a precursor for glutathione, porphyrins, purines, creatine, sarcosine and bile salts [PMID:29559876].
+- Supplement forms used in human studies:
+  - Free glycine powder or capsules: 3 g at bedtime for sleep [PMID:22529837]; 5 g/d in type 2 diabetes [PMID:18852529]; 15 g/d in metabolic syndrome [PMID:24144057]; up to 0.8 g/kg/d in schizophrenia trials [PMID:9892253].
+  - Sublingual glycine at 0.5-2 g/d, used in a Russian acute-stroke trial [PMID:10629347].
+  - GlyNAC: glycine combined with N-acetylcysteine (NAC, a cysteine donor) to supply both glutathione precursors [PMID:34587244] [PMID:35821844].
+  - Collagen and collagen peptides are rich in glycine. Glycine- and collagen-containing supplements generally raise circulating glycine, with some evidence of dose dependence [PMID:42687500].
+  - Glycine is also used as a 1.5% urological irrigating solution, a non-oral use with distinct risks (see Safety) [PMID:16317031].
+- Plasma kinetics: high oral doses raise serum glycine about 8-fold [PMID:11806864]. 0.12 g/kg for 5 days raised serum glycine by 125% [PMID:41189445]. Enteral 0.4 g/kg/d raised plasma and muscle glycine dose-dependently in critically ill patients [PMID:41109034].
 
 ** Mechanisms
-- Proposed mechanisms are outcome- and formulation-dependent; mechanistic plausibility does not establish clinical efficacy. Human evidence is summarized below [PMID:37851316, PMID:39640489].
+- NMDA receptor co-agonism: NMDA receptors need a co-agonist (glycine or D-serine) to activate. D-serine is the preferred co-agonist at some synapses, and glycine at others [PMID:26088787]. High-dose oral glycine crosses the blood-brain barrier [PMID:11806864]. This is the rationale for adjunctive use in schizophrenia, alongside D-serine, sarcosine and D-cycloserine [PMID:9892253] [PMID:30738126].
+- Inhibitory neurotransmission: glycine is an agonist at glycine-gated chloride channels (glycine receptors) [PMID:29559876] [PMID:22293292].
+- Sleep:
+  - In rats, oral glycine lowered core temperature by causing peripheral vasodilation. This effect ran through NMDA receptors in the suprachiasmatic nucleus (SCN) and was abolished by SCN ablation [PMID:25533534] [PMID:22293292].
+  - Glycine did not change plasma melatonin or clock-gene expression, but it did raise SCN vasopressin and VIP [PMID:22529837].
+- Glutathione (GSH) synthesis:
+  - Tissue glycine sits below the glutathione synthetase Km. Higher urinary 5-oxoproline on low-protein diets suggests glycine can limit GSH synthesis [PMID:29559876].
+  - Older adults had lower red-cell glycine, cysteine and GSH and slower GSH synthesis. Cysteine plus glycine restored these [PMID:21795440].
+- Glucose metabolism:
+  - Oral glycine raised glucagon and slightly raised insulin. Taken with glucose, it cut the glucose area response by >50%, possibly through a gut hormone [PMID:12450897].
+  - Circulating glycine is consistently low in type 2 diabetes and obesity. Glycine receptors on islets and NMDA co-agonism in the brain are proposed links [PMID:28323968] [PMID:31208147].
+- Anti-inflammatory: glycine is proposed to act by modulating NF-kB in immune and other cells. The evidence is mostly preclinical [PMID:37510995]. In type 2 diabetes it lowered TNF-receptor I [PMID:18852529].
 
 ** Evidence summary by outcome
-| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
-|---|---|---|---|---|---|
-| Small studies suggest subjective sleep improvements with bedtime glycine | Systematic review/meta-analysis or human trial synthesis | Mixed/possible benefit; no established clinical disease prevention | See evidence summary below; pooled estimates vary by outcome and population | low | PMID:37851316, PMID:39640489 |
-
-- Systematic review included 50 human studies (42 RCTs); evidence across outcomes was limited by small samples, short duration and high risk of bias [PMID:37851316].
-- Small studies suggest subjective sleep improvements with bedtime glycine; evidence for prevention or treatment of disease is insufficient [PMID:37851316].
+| Outcome | Best evidence | Direction | Effect size | Certainty | Citations |
+|---------+---------------+-----------+-------------+-----------+-----------|
+| Subjective sleep quality / next-day fatigue | SR of 52 human studies; scoping review (3 glycine sleep trials); small RCT in sleep restriction | Benefit | All 3 sleep trials positive on >=1 outcome; 3 g lowered fatigue VAS and improved psychomotor vigilance; no pooled estimate | low | [PMID:37851316] [PMID:42687500] [PMID:22529837] |
+| Glutathione status in older adults (GlyNAC) | RCT (n=24 older adults, 16 wk); RCT (n=114, 2 wk, 3 doses); pilot trials | Benefit in GSH-deficient people; null primary endpoint in healthy older adults | Kumar: GSH deficiency corrected vs alanine placebo. Lizzo: GSH-F:GSSG 12.65 vs 12.49 placebo (p=0.739); post hoc gain only in high-oxidative-stress/low-GSH subset | low | [PMID:35975308] [PMID:35821844] [PMID:21795440] [PMID:33783984] |
+| Physical function, strength, cognition in aging (GlyNAC) | Single-centre RCT (n=24) and open-label pilots | Benefit reported | Improvements in gait speed, grip strength and 6-min walk; benefits faded 12 wk after stopping | very low | [PMID:35975308] [PMID:33783984] [PMID:42232577] |
+| Insulin resistance / glycemia | RCT 5 g/d x 3 mo (n=74, T2D); GlyNAC 14-day pilot (n=10); acute crossover | Benefit | HbA1c significantly lower than placebo (magnitude not given in abstract); GlyNAC IR -22%, FFA -25%; glucose AUC with glucose load reduced >50% | low | [PMID:18852529] [PMID:35052658] [PMID:12450897] |
+| Schizophrenia negative symptoms (add-on to non-clozapine antipsychotics) | Cochrane review; MA of 29 trials; 2026 TRS MA; CONSIST RCT (n=157) | Benefit in small crossover trials; null in largest RCT | Glycine/D-serine negative symptoms SMD -0.66 (CI -1.0 to -0.3); glycine total SMD -1.12 with non-clozapine drugs; glycine-site agonists in TRS negative g -1.18 (CI -1.49 to -0.87, GRADE low); CONSIST: no difference vs placebo | low | [PMID:16625590] [PMID:21936588] [PMID:41044402] [PMID:17898352] |
+| Schizophrenia (add-on to clozapine) | 2 RCTs (30 and 60 g/d); MA | No benefit / possible harm | Positive symptoms worsened, SMD +0.56; clozapine-alone arm had 35% positive-symptom reduction not seen with glycine | low | [PMID:9892314] [PMID:10784481] [PMID:21936588] |
+| Social cognition in schizophrenia | Network MA (60 RCTs) | No proven effect | Glycine uptake inhibitors SMD 0.46 (95% CrI -0.52 to 1.44) for emotion perception | low | [PMID:41684115] |
+| Coronary heart disease (genetic) | MR (GWAS n=80,003); MR (n=230,947); MR of BCAA/glycine ratio | Mixed | Wittemans: genetically higher glycine linked to lower CHD, partly through BP. Biswas: no significant MR effect on CAD despite observational HR 0.70 (CI 0.65-0.77). Dziedzic: glycine -0.08 log OR/SD (CI -0.11 to -0.05) | low | [PMID:30837465] [PMID:39796632] [PMID:38587181] |
+| Type 2 diabetes risk (genetic) | MR studies | Weak / possible reverse causation | Wittemans: weak glycine-to-T2D effect and strong insulin-resistance-to-lower-glycine effect. Biswas and UK Biobank MR: modest protective signal | low | [PMID:30837465] [PMID:39796632] [PMID:41531546] |
+| Alzheimer's, Parkinson's, ALS (genetic) | MR (3 GWAS) | No association | Glycine and AD OR 1.145 (95% CI 0.939-1.396); null for PD and ALS | low | [PMID:36158554] |
+| Blood pressure / hypertension | RCT 15 g/d in MetS (n=60); MA of dietary intake; MR | Possible benefit | SBP fell in glycine-treated men only; dietary glycine OR 0.75 (CI 0.64-0.89) for hypertension; MR modest SBP reduction | very low | [PMID:24144057] [PMID:41327095] [PMID:39796632] |
+| Oxidative stress (MetS) | RCT 15 g/d x 3 mo (n=60) | Benefit | TBARS -25% vs placebo | very low | [PMID:24144057] |
+| Acute ischemic stroke | RCT sublingual 0.5-2 g/d x 5 d (n=200) | Possible benefit | 30-day mortality 5.9% (1 g) vs 14% placebo (trend); better stroke scales (p<0.01) | very low | [PMID:10629347] |
+| Obsessive-compulsive disorder | RCT up to 60 g/d (n=24, 14 evaluable) | Inconclusive | Y-BOCS -0.82/week vs placebo (p=0.053) | very low | [PMID:19046587] |
+| Alcohol use disorder | Human lab RCT (n=48); pilot RCT in dual diagnosis (n=20) | No benefit | No change in craving or alcohol self-administration | low | [PMID:41189445] [PMID:30633660] |
+| Muscle mass in illness | RCT in ICU (n=29); crossover vs BCAA in hemodialysis (n=27) | Inconclusive | ICU: quadriceps thickness +0.11 cm (CI -0.10 to 0.31), no change in myofiber diameter. HD: FFMI higher with glycine than BCAA (coeff -0.27 for BCAA vs glycine) | very low | [PMID:41109034] [PMID:34519439] |
+| Serum uric acid (with tryptophan) | Crossover RCT, 3 g glycine + 0.2 g tryptophan | Decrease | 7.1 to 6.7 mg/dL; triglycerides 119 to 86 mg/dL | very low | [PMID:30845731] |
 
 ** Dosing in trials
-- Sleep studies commonly used 3 g orally about 1 hour before bed; other clinical studies used varying multi-gram doses and schedules [PMID:37851316].
+- Sleep: 3 g orally before bedtime [PMID:22529837] [PMID:42687500].
+- Metabolic: 5 g/d (divided three times daily) for 3 months in type 2 diabetes [PMID:18852529]. 15 g/d for 3 months in metabolic syndrome [PMID:24144057].
+- GlyNAC:
+  - Lizzo trial: 2.4, 4.8 or 7.2 g/d total (glycine:NAC 1:1) for 2 weeks [PMID:35821844].
+  - Sekhar/Kumar trials: 16-24 weeks in older adults and 12 weeks in people with HIV [PMID:35975308] [PMID:33783984] [PMID:33007928]. The weight-based doses are not stated in these abstracts.
+- Schizophrenia:
+  - 0.8 g/kg/d added to antipsychotics in 6-week crossover trials [PMID:9892253] [PMID:14732596].
+  - 30 g/d and 60 g/d added to clozapine [PMID:9892314] [PMID:10784481].
+- OCD: titrated to 60 g/d [PMID:19046587].
+- Stroke: 0.5-2 g/d sublingually for 5 days. 1-2 g/d gave the favourable trends [PMID:10629347].
+- Other: alcohol use disorder 0.12 g/kg/d for 5 days [PMID:41189445]. ICU enteral 0.2-0.4 g/kg/d, median about 16-30 g/d [PMID:41109034]. Hemodialysis 2 x 7 g/d for 4 months [PMID:34519439].
+- Trial length: diseased populations were studied for up to 4 months and healthy populations for up to 14 days [PMID:37851316].
 
 ** Safety & adverse effects
-- Reported tolerability was generally acceptable in small short studies; long-term safety at supplemental doses is not established [PMID:37851316].
+- Generally well tolerated:
+  - 0.8 g/kg/d was well tolerated in schizophrenia trials, with laboratory values monitored [PMID:9892253] [PMID:14732596].
+  - GlyNAC was safe and well tolerated over 2-24 weeks [PMID:35821844] [PMID:35975308] [PMID:33783984].
+  - 14 g/d for 4 months in hemodialysis did not change blood chemistry [PMID:34519439].
+- Gastrointestinal effects and palatability: at 60 g/d in OCD, complaints about taste and/or nausea caused high non-adherence (only 14 of 24 participants were evaluable) [PMID:19046587].
+- Sedation: slight sedation in 4.5% of stroke patients on sublingual glycine [PMID:10629347].
+- Very high doses: a sports-nutrition review warns that doses above 500 mg/kg might cause cytotoxicity or acute glutamate toxicity. This is a theoretical, mainly preclinical concern [PMID:39453231].
+- Psychiatric: in clozapine-treated patients, added glycine gave no benefit and was linked to worse positive symptoms in pooled data [PMID:9892314] [PMID:21936588].
+- Glycine irrigating solution (not oral use): absorption during transurethral or endoscopic surgery causes TUR syndrome, through irrigant-solute toxicity, dilutional hyponatremia and brain edema. Experts advise avoiding glycine irrigation [PMID:16317031].
+- Long-term (>4 months) safety of supplemental doses is not established [PMID:37851316].
 
 ** Contraindications
-- No established contraindication identified in the systematic review; evidence is insufficient for pregnancy/lactation or severe organ disease [PMID:37851316].
+- Nonketotic hyperglycinemia (glycine encephalopathy, GLDC/AMT mutations): glycine builds up in the brain, and treatment aims to lower glycine to limit NMDA overstimulation. Supplementation runs counter to this [PMID:38949693] [PMID:27362913].
+- Schizophrenia treated with clozapine: avoid adding high-dose glycine. RCTs and meta-analysis show no benefit and possible worsening of positive symptoms [PMID:9892314] [PMID:10784481] [PMID:21936588].
+- Pregnancy, lactation and children: no trials were identified. Available reviews cover adults only [PMID:37851316].
 
 ** Interactions
-- Potential additive effects with sedatives are theoretical; no established clinically quantified interaction found in the human systematic review [PMID:37851316].
-- No genotype-specific clinical claim is made because no qualifying pharmacogenomic source was identified for this research set.
+*** Drugs
+- Clozapine: lack of benefit and possible worsening of positive symptoms with 30-60 g/d glycine [PMID:9892314] [PMID:10784481] [PMID:21936588]. Trial authors suggest olanzapine/risperidone and clozapine affect NMDA receptor neurotransmission differently [PMID:14732596].
+- Other antipsychotics (typical, olanzapine, risperidone): additive benefit on negative and total symptoms in small trials [PMID:14732596] [PMID:21936588]. Serum antipsychotic levels did not change with high-dose glycine, so no PK interaction was seen [PMID:11806864].
+- Antidiabetic drugs: glycine lowered HbA1c in type 2 diabetes [PMID:18852529], lowered insulin resistance as GlyNAC [PMID:35052658] and blunted post-glucose glycemia [PMID:12450897]. Additive glucose lowering is possible but has not been quantified. No hypoglycemia reports were found.
+- Sedatives and hypnotics: glycine has sleep-promoting and hypothermic effects [PMID:25533534], and mild sedation was reported in a stroke RCT [PMID:10629347]. Additive effects are possible; no interaction study exists.
+- Antihypertensives: modest SBP reduction in men with MetS [PMID:24144057]. Genetically higher glycine was linked to lower SBP [PMID:39796632]. Clinically small.
+*** Other supplements
+- N-Acetyl-L-Cysteine (NAC): the GlyNAC combination supplies both glutathione precursors.
+  - Reported benefits: corrected GSH deficiency in older adults, uncontrolled diabetes and HIV [PMID:21795440] [PMID:20929994] [PMID:24081740] [PMID:35975308].
+  - Rodent data: the combination extended lifespan by 24% in mice [PMID:35268089].
+  - Caveat: in a larger RCT of healthy older adults the primary GSH endpoint was null [PMID:35821844].
+- Trimethylglycine (TMG, betaine): a methyl derivative of glycine, metabolized to dimethylglycine and sarcosine [PMID:24760587]. 3 g/d betaine raised plasma dimethylglycine and sarcosine [PMID:40944155]. Betaine remethylates homocysteine [PMID:16197300]. The pathways overlap; no combined trial was found.
+- Collagen: glycine-rich. Collagen supplements raise circulating glycine, and glycine is a candidate mediator of reported collagen sleep effects. Mediation has not been tested [PMID:42687500].
+- Melatonin: combining sleep aids may add sedation. Glycine did not alter plasma melatonin [PMID:22529837], and mild sedation was reported with glycine [PMID:10629347]. No combination study was found.
+- Tryptophan (not in corpus): 3 g glycine + 0.2 g tryptophan lowered serum uric acid and triglycerides [PMID:30845731].
+- Leucine (not in corpus): co-ingestion with glycine reduced the glucose response by 66%, a less-than-additive effect [PMID:25120925].
+*** Conditions
+- Nonketotic hyperglycinemia: contraindicated [PMID:38949693].
+- Schizophrenia on clozapine: avoid [PMID:21936588].
+- Type 2 diabetes: possible glycemic benefit; monitor glucose if on glucose-lowering drugs [PMID:18852529].
+- Chronic kidney disease on hemodialysis: 14 g/d was tolerated without change in blood chemistry [PMID:34519439].
+- Alcohol use disorder: glycine did not reduce craving or intake [PMID:41189445].
+*** Lab-test interference
+- Plasma/serum amino acids: supplementation raises serum glycine (about 8-fold at high dose) and serine [PMID:11806864] [PMID:9892253]. This matters when metabolomic glycine is read as a risk biomarker, e.g. for CHD, T2D, pancreatic cancer or lacunar stroke [PMID:39796632] [PMID:41421942] [PMID:42721413].
+- Glucagon rises after oral glycine and insulin rises slightly [PMID:12450897]. HbA1c may fall [PMID:18852529]. These are real physiological changes, not assay artifacts.
+- Uric acid and triglycerides fell with glycine + tryptophan [PMID:30845731].
+- No direct assay interference was found.
 
 ** Genotype notes
-- No cited pharmacogenomic or nutrigenomic source identified for a clinically useful genotype-specific note.
+- GLDC and AMT: biallelic mutations cause classic nonketotic hyperglycinemia (about 1:76,000), in which glycine accumulates. 80% of patients carry GLDC mutations [PMID:27362913]. Glycine supplementation is contraindicated on mechanistic grounds [PMID:38949693].
+- Serine-glycine-one-carbon (SGOC) enzyme variants (e.g. PHGDH haploinsufficiency) in macular telangiectasia: in carriers, circulating serine falls further. In mice, dietary serine/glycine restriction accelerated retinal defects, which serine supplementation reversed [PMID:39191258]. This is preclinical with human genetic association only.
+- Glycine GWAS: 27 loci in 80,003 people [PMID:30837465] and 61 loci in 230,947 people [PMID:39796632] determine circulating glycine. They are used as MR instruments, not as guides to supplementation.
 
 ** Latest research
-- 2024–2026: 2024 systematic review concludes evidence for broad physiological or preventive effects remains limited and calls for larger, longer trials [PMID:37851316].
+- [2026-09] Lacunar stroke MR: genetically higher glycine was inversely associated with isolated lacunar infarcts (OR 0.704, 95% CI 0.585-0.848) [PMID:42721413].
+- [2026-09] Scoping review (22 trials): glycine and collagen supplements raise circulating glycine; all 3 glycine sleep trials positive; collagen-sleep mediation untested [PMID:42687500].
+- [2026-05] Review of GlyNAC with or without exercise for sarcopenia/frailty: proof-of-concept only; NAC effects depend on context [PMID:42232577].
+- [2026-04] UK Biobank MR: genetically higher glycine was associated with lower BMD in women (beta -0.022, 95% CI -0.037 to -0.007) [PMID:41971710].
+- [2026-02] Social-cognition NMA (60 RCTs): no agent effective; glycine uptake inhibitors had a non-significant SMD of 0.46 [PMID:41684115].
+- [2026-01] UK Biobank (n=205,208) with MR: glycine inversely associated with T2D; MR suggests a protective factor [PMID:41531546].
+- [2025-12] UK Biobank cohort: high plasma glycine associated with lower pancreatic cancer risk (HR 0.786, 95% CI 0.657-0.940) [PMID:41421942].
+- [2025-12] MA of dietary amino acids: higher glycine intake associated with lower hypertension risk (OR 0.75, 95% CI 0.64-0.89) [PMID:41327095].
+- [2025-11] Human lab RCT in AUD (n=48, 0.12 g/kg x 5 d): serum glycine +125%; no effect on craving or drinking [PMID:41189445].
+- [2025-10] ICU RCT (n=29): enteral glycine dose-dependently raised plasma and muscle glycine; no effect on myofiber size; shorter stays [PMID:41109034].
+- [2025-10] TRS MA: glycine-site agonist augmentation improved negative symptoms (g -1.18, GRADE low), but no non-clozapine strategy is recommended [PMID:41044402].
+- [2025-08] Betaine 3 g/d RCT: raised plasma dimethylglycine and sarcosine, showing glycine-pathway flux from TMG [PMID:40944155].
+- [2025-01] UK Biobank and MR: observational glycine-CAD link (HR 0.70) not supported by MR; glycine feeding did not reduce atherosclerosis in ApoE-/- mice [PMID:39796632].
+- [2024-10] SGOC metabolism study: genetic and dietary serine/glycine deficits impair retinal and peripheral nerve function in mice, reversible with serine [PMID:39191258].
 
 ** Open questions
-- Larger, preregistered, adequately powered human trials with standardized, chemically characterized products and longer follow-up are needed to establish clinically important benefits and characterize uncommon harms.
+- Sleep: only 3 small glycine sleep trials exist, with high risk of bias. Independent, preregistered polysomnography trials are needed [PMID:37851316] [PMID:42687500].
+- GlyNAC: positive results come mainly from one group's small trials. A larger RCT by a different group was null on its primary endpoint. Replication with hard functional endpoints is needed [PMID:35975308] [PMID:35821844].
+- Is low glycine a cause or a consequence of insulin resistance? MR suggests insulin resistance lowers glycine [PMID:30837465].
+- Why do MR signals for CHD differ across instruments and cohorts [PMID:30837465] [PMID:39796632]?
+- Safety of chronic multi-gram dosing beyond 4 months, and in pregnancy, children and kidney disease.
+- Mechanism of the clozapine-glycine interaction, and whether low-dose (3-5 g) glycine matters in clozapine-treated patients.
 
 ** Sources
-1. PMID:37851316
-2. PMID:39640489
-- The effect of glycine administration on physiological systems in human adults: systematic review. Nutr Rev. 2024. PMID:37851316.
-- Effects of berberine alone or in combination on type 2 diabetes mellitus: systematic review and meta-analysis. PMID:39640489.
+1. Soh J et al. The effect of glycine administration on the characteristics of physiological systems in human adults: A systematic review. Geroscience. 2024. PMID:37851316 DOI:10.1007/s11357-023-00970-8
+2. Fan Z et al. Glycine Bioavailability and Sleep-Related Outcomes Following Oral Glycine and Collagen Supplementation-A Scoping Review. J Diet Suppl. 2026. PMID:42687500 DOI:10.1080/19390211.2026.2726197
+3. Bannai M et al. The effects of glycine on subjective daytime performance in partially sleep-restricted healthy volunteers. Front Neurol. 2012. PMID:22529837 DOI:10.3389/fneur.2012.00061
+4. Bannai M et al. New therapeutic strategy for amino acid medicine: glycine improves the quality of sleep. J Pharmacol Sci. 2012. PMID:22293292 DOI:10.1254/jphs.11r04fm
+5. Kawai N et al. The sleep-promoting and hypothermic effects of glycine are mediated by NMDA receptors in the suprachiasmatic nucleus. Neuropsychopharmacology. 2015. PMID:25533534 DOI:10.1038/npp.2014.326
+6. Kumar P et al. Supplementing Glycine and N-Acetylcysteine (GlyNAC) in Older Adults Improves Glutathione Deficiency, Oxidative Stress, Mitochondrial Dysfunction, Inflammation, Physical Function, and Aging Hallmarks: A Randomized Clinical Trial. J Gerontol A Biol Sci Med Sci. 2023. PMID:35975308 DOI:10.1093/gerona/glac135
+7. Kumar P et al. Glycine and N-acetylcysteine (GlyNAC) supplementation in older adults improves glutathione deficiency, oxidative stress, mitochondrial dysfunction, inflammation, insulin resistance, endothelial dysfunction, genotoxicity, muscle strength, and cognition: Results of a pilot clinical trial. Clin Transl Med. 2021. PMID:33783984 DOI:10.1002/ctm2.372
+8. Sekhar RV. GlyNAC Supplementation Improves Glutathione Deficiency, Oxidative Stress, Mitochondrial Dysfunction, Inflammation, Aging Hallmarks, Metabolic Defects, Muscle Strength, Cognitive Decline, and Body Composition: Implications for Healthy Aging. J Nutr. 2021. PMID:34587244 DOI:10.1093/jn/nxab309
+9. Lizzo G et al. A Randomized Controlled Clinical Trial in Healthy Older Adults to Determine Efficacy of Glycine and N-Acetylcysteine Supplementation on Glutathione Redox Status and Oxidative Damage. Front Aging. 2022. PMID:35821844 DOI:10.3389/fragi.2022.852569
+10. Sekhar RV. GlyNAC (Glycine and N-Acetylcysteine) Supplementation Improves Impaired Mitochondrial Fuel Oxidation and Lowers Insulin Resistance in Patients with Type 2 Diabetes: Results of a Pilot Study. Antioxidants (Basel). 2022. PMID:35052658 DOI:10.3390/antiox11010154
+11. Sekhar RV et al. Deficient synthesis of glutathione underlies oxidative stress in aging and can be corrected by dietary cysteine and glycine supplementation. Am J Clin Nutr. 2011. PMID:21795440 DOI:10.3945/ajcn.110.003483
+12. Sekhar RV et al. Glutathione synthesis is diminished in patients with uncontrolled diabetes and restored by dietary supplementation with cysteine and glycine. Diabetes Care. 2011. PMID:20929994 DOI:10.2337/dc10-1006
+13. Nguyen D et al. Effect of increasing glutathione with cysteine and glycine supplementation on mitochondrial fuel oxidation, insulin sensitivity, and body composition in older HIV-infected patients. J Clin Endocrinol Metab. 2014. PMID:24081740 DOI:10.1210/jc.2013-2376
+14. Kumar P et al. Supplementing Glycine and N-acetylcysteine (GlyNAC) in Aging HIV Patients Improves Oxidative Stress, Mitochondrial Dysfunction, Inflammation, Endothelial Dysfunction, Insulin Resistance, Genotoxicity, Strength, and Cognition: Results of an Open-Label Clinical Trial. Biomedicines. 2020. PMID:33007928 DOI:10.3390/biomedicines8100390
+15. Kumar P et al. GlyNAC (Glycine and N-Acetylcysteine) Supplementation in Mice Increases Length of Life by Correcting Glutathione Deficiency, Oxidative Stress, Mitochondrial Dysfunction, Abnormalities in Mitophagy and Nutrient Sensing, and Genomic Damage. Nutrients. 2022. PMID:35268089 DOI:10.3390/nu14051114
+16. Wang X et al. Glycine and N-acetylcysteine supplementation, with or without exercise, in brain health and functional aging: implications for sarcopenia and frailty in older adults. Front Nutr. 2026. PMID:42232577 DOI:10.3389/fnut.2026.1775264
+17. McCarty MF et al. Dietary Glycine Is Rate-Limiting for Glutathione Synthesis and May Have Broad Potential for Health Protection. Ochsner J. 2018. PMID:29559876
+18. Heresco-Levy U et al. Efficacy of high-dose glycine in the treatment of enduring negative symptoms of schizophrenia. Arch Gen Psychiatry. 1999. PMID:9892253 DOI:10.1001/archpsyc.56.1.29
+19. Javitt DC et al. Adjunctive high-dose glycine in the treatment of schizophrenia. Int J Neuropsychopharmacol. 2001. PMID:11806864 DOI:10.1017/S1461145701002590
+20. Heresco-Levy U et al. High-dose glycine added to olanzapine and risperidone for the treatment of schizophrenia. Biol Psychiatry. 2004. PMID:14732596 DOI:10.1016/s0006-3223(03)00707-8
+21. Buchanan RW et al. The Cognitive and Negative Symptoms in Schizophrenia Trial (CONSIST): the efficacy of glutamatergic agents for negative symptoms and cognitive impairments. Am J Psychiatry. 2007. PMID:17898352 DOI:10.1176/appi.ajp.2007.06081358
+22. Potkin SG et al. Effect of clozapine and adjunctive high-dose glycine in treatment-resistant schizophrenia. Am J Psychiatry. 1999. PMID:9892314 DOI:10.1176/ajp.156.1.145
+23. Evins AE et al. Placebo-controlled trial of glycine added to clozapine in schizophrenia. Am J Psychiatry. 2000. PMID:10784481 DOI:10.1176/appi.ajp.157.5.826
+24. Singh SP et al. Meta-analysis of the efficacy of adjunctive NMDA receptor modulators in chronic schizophrenia. CNS Drugs. 2011. PMID:21936588 DOI:10.2165/11586650-000000000-00000
+25. Tuominen HJ et al. Glutamatergic drugs for schizophrenia. Cochrane Database Syst Rev. 2006. PMID:16625590 DOI:10.1002/14651858.CD003730.pub2
+26. Carr R et al. Non-Clozapine interventions in treatment-resistant schizophrenia: a systematic review and meta-analysis. Mol Psychiatry. 2026. PMID:41044402 DOI:10.1038/s41380-025-03255-y
+27. Yamada Y et al. Pharmacological interventions for social cognitive impairments in schizophrenia: A systematic review and network meta-analysis of randomized controlled trials. Eur Psychiatry. 2026. PMID:41684115 DOI:10.1192/j.eurpsy.2026.10159
+28. Serrita J et al. A Pilot Randomized, Placebo-Controlled Trial of Glycine for Treatment of Schizophrenia and Alcohol Dependence. J Dual Diagn. 2019. PMID:30633660 DOI:10.1080/15504263.2018.1549764
+29. Peyrovian B et al. The glycine site of NMDA receptors: A target for cognitive enhancement in psychiatric disorders. Prog Neuropsychopharmacol Biol Psychiatry. 2019. PMID:30738126 DOI:10.1016/j.pnpbp.2019.02.001
+30. Mothet JP et al. Time and space profiling of NMDA receptor co-agonist functions. J Neurochem. 2015. PMID:26088787 DOI:10.1111/jnc.13204
+31. Cruz M et al. Glycine treatment decreases proinflammatory cytokines and increases interferon-gamma in patients with type 2 diabetes. J Endocrinol Invest. 2008. PMID:18852529 DOI:10.1007/BF03346417
+32. Gannon MC et al. The metabolic response to ingested glycine. Am J Clin Nutr. 2002. PMID:12450897 DOI:10.1093/ajcn/76.6.1302
+33. Diaz-Flores M et al. Oral supplementation with glycine reduces oxidative stress in patients with metabolic syndrome, improving their systolic blood pressure. Can J Physiol Pharmacol. 2013. PMID:24144057 DOI:10.1139/cjpp-2012-0341
+34. Yan-Do R et al. Impaired "Glycine"-mia in Type 2 Diabetes and Potential Mechanisms Contributing to Glucose Homeostasis. Endocrinology. 2017. PMID:28323968 DOI:10.1210/en.2017-00148
+35. Alves A et al. Glycine Metabolism and Its Alterations in Obesity and Metabolic Diseases. Nutrients. 2019. PMID:31208147 DOI:10.3390/nu11061356
+36. Iverson JF et al. Interaction of ingested leucine with glycine on insulin and glucose concentrations. J Amino Acids. 2014. PMID:25120925 DOI:10.1155/2014/521941
+37. Wittemans LBL et al. Assessing the causal association of glycine with risk of cardio-metabolic diseases. Nat Commun. 2019. PMID:30837465 DOI:10.1038/s41467-019-08936-1
+38. Biswas S et al. Exploring the Role of Glycine Metabolism in Coronary Artery Disease: Insights from Human Genetics and Mouse Models. Nutrients. 2025. PMID:39796632 DOI:10.3390/nu17010198
+39. Dziedzic M et al. Interplay Between Plasma Glycine and Branched-Chain Amino Acids Contributes to the Development of Hypertension and Coronary Heart Disease. Hypertension. 2024. PMID:38587181 DOI:10.1161/HYPERTENSIONAHA.123.22649
+40. Yang J et al. The Association Between Amino Acids and the Onset and Progression of Type 2 Diabetes Mellitus: A Comprehensive Analysis Based on UK Biobank Database. J Diabetes Res. 2026. PMID:41531546 DOI:10.1155/jdr/8033429
+41. Chen S et al. Associations of Dietary and Circulating Choline and Glycine With Bone Mineral Density: UK Biobank Analyses With Mendelian Randomization. Int J Endocrinol. 2026. PMID:41971710 DOI:10.1155/ije/2237464
+42. Li R et al. Genetically predicted circulating levels of glycine, glutamate, and serotonin in relation to the risks of three major neurodegenerative diseases: A Mendelian randomization analysis. Front Aging Neurosci. 2022. PMID:36158554 DOI:10.3389/fnagi.2022.938408
+43. Xiang S et al. Elevated circulating glycine levels are associated with reduced pancreatic cancer risk: A prospective cohort study based on the UK biobank. Pancreatology. 2026. PMID:41421942 DOI:10.1016/j.pan.2025.12.015
+44. Ng WH et al. Metabolic Markers of MRI-Confirmed Lacunar Stroke: Observational and Mendelian Randomization Analyses. Neurology. 2026. PMID:42721413 DOI:10.1212/WNL.0000000000218409
+45. Izadi N et al. Dietary amino acid intake and the risk of hypertension: a systematic review and meta-analysis. BMC Public Health. 2025. PMID:41327095 DOI:10.1186/s12889-025-25411-3
+46. Olsson Y et al. Evaluation of glycine treatment for reducing alcohol craving and self-administration in individuals with alcohol use disorder: A human laboratory trial. Alcohol Clin Exp Res (Hoboken). 2025. PMID:41189445 DOI:10.1111/acer.70187
+47. Ali Abdelhamid Y et al. The effect of enteral glycine on plasma glycine and muscle structure, size, and function in the critically ill: A randomized controlled trial. Clin Nutr. 2025. PMID:41109034 DOI:10.1016/j.clnu.2025.10.001
+48. Genton L et al. Glycine increases fat-free mass in malnourished haemodialysis patients: a randomized double-blind crossover trial. J Cachexia Sarcopenia Muscle. 2021. PMID:34519439 DOI:10.1002/jcsm.12780
+49. Oshima S et al. Serum Uric Acid-Lowering Effects of Combined Glycine and Tryptophan Treatments in Subjects with Mild Hyperuricemia: A Randomized, Double-Blind, Placebo-Controlled, Crossover Study. Nutrients. 2019. PMID:30845731 DOI:10.3390/nu11030564
+50. Ramos-Jimenez A et al. An Update of the Promise of Glycine Supplementation for Enhancing Physical Performance and Recovery. Sports (Basel). 2024. PMID:39453231 DOI:10.3390/sports12100265
+51. Aguayo-Ceron KA et al. Glycine: The Smallest Anti-Inflammatory Micronutrient. Int J Mol Sci. 2023. PMID:37510995 DOI:10.3390/ijms241411236
+52. Gusev EI et al. Neuroprotective effects of glycine for therapy of acute ischaemic stroke. Cerebrovasc Dis. 2000. PMID:10629347 DOI:10.1159/000016025
+53. Greenberg WM et al. Adjunctive glycine in the treatment of obsessive-compulsive disorder in adults. J Psychiatr Res. 2009. PMID:19046587 DOI:10.1016/j.jpsychires.2008.10.007
+54. Ueland PM et al. Betaine: a key modulator of one-carbon metabolism and homocysteine status. Clin Chem Lab Med. 2005. PMID:16197300 DOI:10.1515/CCLM.2005.187
+55. Cholewa JM et al. Effects of betaine on performance and body composition: a review of recent findings and potential mechanisms. Amino Acids. 2014. PMID:24760587 DOI:10.1007/s00726-014-1748-5
+56. Nieman DC et al. Betaine Supplementation Improves 60 km Cycling Time Trial Performance and One-Carbon Metabolism in Cyclists During Recovery. Nutrients. 2025. PMID:40944155 DOI:10.3390/nu17172765
+57. Hahn RG. Fluid absorption in endoscopic surgery. Br J Anaesth. 2006. PMID:16317031 DOI:10.1093/bja/aei279
+58. Coughlin CR 2nd et al. The genetic basis of classic nonketotic hyperglycinemia due to mutations in GLDC and AMT. Genet Med. 2017. PMID:27362913 DOI:10.1038/gim.2016.74
+59. Leipnitz G et al. The Role of Excitotoxicity, Oxidative Stress and Bioenergetics Disruption in the Neuropathology of Nonketotic Hyperglycinemia. Neurotox Res. 2024. PMID:38949693 DOI:10.1007/s12640-024-00711-5
+60. Lim EW et al. Serine and glycine physiology reversibly modulate retinal and peripheral nerve function. Cell Metab. 2024. PMID:39191258 DOI:10.1016/j.cmet.2024.07.021

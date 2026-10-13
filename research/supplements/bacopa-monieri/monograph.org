@@ -1,0 +1,46 @@
+* Bacopa Monieri
+:PROPERTIES:
+:ID: supp-bacopa-monieri
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: Bacopa Monieri | Bacopa monnieri | Brahmi | water hyssop
+:CATEGORY: botanical
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Bacopa monnieri (often written Bacopa monnieri, common name Brahmi) is an aquatic herb. Trials use extracts standardized to bacosides, but extraction and standardization differ. [PMID:38671841]
+
+** Mechanisms
+- Bacosides have antioxidant, cholinergic and synaptic signaling effects in preclinical models; human cognitive mechanism is not established. [PMID:38671841]
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---|---|---|---|---|---|
+| Memory / cognition in healthy adults | Small RCTs and meta-analyses | possible delayed recall benefit | Older trials suggest modest memory effects; outcome heterogeneity and extract differences limit estimates | low | PMID:38671841 |
+| Mild cognitive impairment | Triple-blind placebo RCT | mixed | 62 participants, 160 mg extract for 2 months: no clear overall cognitive or sleep benefit; some subdomains changed | low | PMID:38538390 |
+| Working memory | 2026 network meta-analysis | possible benefit at higher doses | High-dose category ranked favorably, but indirect comparisons and unusually large effects require replication | very low | PMID:41678913 |
+
+** Dosing in trials
+- Trials typically used standardized extracts around  של 300–600 mg/day for 8–12 weeks; some MCI study used 160 mg/day. Extract bacoside standardization varies, so mass is not directly comparable. [PMID:38538390, PMID:41678913]
+
+** Safety & adverse effects
+- GI effects (nausea, cramping, diarrhea), fatigue and increased bowel movements are common; may cause bradycardia or thyroid effects based on limited evidence. [PMID:38671841]
+
+** Contraindications
+- Caution with bradycardia, thyroid disease, GI disorders, pregnancy/lactation and cholinergic therapy; clinical interaction data are sparse. [PMID:38671841]
+
+** Interactions
+- Potential additive cholinergic effects with cholinesterase inhibitors and anticholinergic medicines; possible thyroid hormone effects and CYP enzyme modulation are mostly mechanistic/preclinical. No established assay interference. [PMID:38671841]
+
+** Latest research (last 24 months)
+- 2024 RCT in mild cognitive impairment found no consistent total cognition or sleep benefit after 2 months, with selected attention/verbal fluency signals. 2026 network meta-analysis suggests cognitive effects but relies on indirect, heterogeneous comparisons. [PMID:38538390, PMID:41678913]
+
+** Open questions
+- Replicate effects with preregistered trials using chemically characterized extracts, clinically meaningful outcomes and adequate follow-up.
+
+** Sources
+- Delfan M et al. Bacopa monnieri in mild cognitive impairment: randomized placebo-controlled trial. Explore. 2024. [https://pubmed.ncbi.nlm.nih.gov/38538390/]
+- Neto LJV et al. Investigating neuroprotective and cognitive-enhancing effects of Bacopa monnieri: systematic review. Antioxidants. 2024. [https://pubmed.ncbi.nlm.nih.gov/38671841/]
+- Bacopa monnieri and Ginkgo cognitive effects: network meta-analysis. Phytomedicine. 2026. [https://pubmed.ncbi.nlm.nih.gov/41678913/]

@@ -1,0 +1,45 @@
+* BPC-157
+:PROPERTIES:
+:ID: supp-bpc-157
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: BPC-157 | body protection compound 157 | pentadecapeptide
+:CATEGORY: peptide
+:RX_STATUS: research-chemical
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Synthetic 15-amino-acid peptide described as a gastric-derived sequence; marketed in unapproved products. Human formulation, purity and route standardization are unresolved. [URL:https://www.fda.gov/media/193773/download]
+
+** Mechanisms
+- Preclinical reports propose angiogenic, nitric-oxide and cytoprotective signaling effects; these are predominantly animal/cell findings and do not establish human benefit. [PMID:38613439]
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---|---|---|---|---|---|
+| Musculoskeletal healing | Preclinical review; sparse uncontrolled human reports | unknown | No reliable controlled human effect estimate | very low | PMID:38613439 |
+| Inflammatory bowel disease | Small exploratory human study reports | uncertain | Insufficient controlled published evidence | very low | URL:https://www.fda.gov/media/193773/download |
+| Safety | Small human exposures and FDA review | unknown | Safety monitoring limited; short animal studies signal possible coagulation/liver effects | very low | URL:https://www.fda.gov/media/193773/download |
+
+** Dosing in trials
+- Exploratory human research reported rectal enema, intra-articular, intravesical and IV routes; FDA briefing lists heterogeneous doses and very small cohorts. No established safe/effective dose. [URL:https://www.fda.gov/media/193773/download]
+
+** Safety & adverse effects
+- FDA review notes limited toxicology; repeat-dose animal studies raised coagulation and liver signals, longer duration studies unavailable. Adverse event reports exist but attribution uncertain. Product quality and immunogenicity risks are inadequately characterized. [URL:https://www.fda.gov/media/193773/download]
+
+** Contraindications
+- No approved indication or established safety. Avoid treating research chemical use as equivalent to licensed medicine; special uncertainty applies to pregnancy, lactation, liver/coagulation disorders and injectable use. [URL:https://www.fda.gov/media/193773/download]
+
+** Interactions
+- Potential coagulation and liver effects create theoretical risk with anticoagulants, antiplatelets and hepatotoxic drugs; direct interaction studies are absent. No validated lab-test interference established. [URL:https://www.fda.gov/media/193773/download]
+
+** Latest research (last 24 months)
+- 2026 FDA Pharmacy Compounding Advisory Committee briefing described small heterogeneous human exposures and limited safety data; identified potential coagulation/liver signals in 28-day animal studies. [URL:https://www.fda.gov/media/193773/download]
+
+** Open questions
+- Determine molecular identity, formulation quality, pharmacokinetics, immunogenicity, dose-ranging, controlled efficacy, and long-term toxicity before therapeutic conclusions.
+
+** Sources
+- FDA. July 23–24, 2026 Pharmacy Compounding Advisory Committee meeting, BPC-157 briefing. [https://www.fda.gov/media/193773/download]
+- Pavlovic R et al. Emerging Use of BPC-157 in Orthopaedic Sports Medicine: A Systematic Review. 2025. [https://pubmed.ncbi.nlm.nih.gov/38613439/]

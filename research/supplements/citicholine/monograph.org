@@ -1,0 +1,46 @@
+* Citicholine
+:PROPERTIES:
+:ID: supp-citicholine
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: Citicholine | citicoline | cytidine diphosphate-choline | CDP-choline
+:CATEGORY: nootropic
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Citicoline (CDP-choline) is an intermediate in phosphatidylcholine synthesis and is marketed as a nutritional supplement; in some countries it has been used as a medicine. [PMID:27234918]
+
+** Mechanisms
+- Oral citicoline is metabolized to choline and cytidine/uridine, precursors for phospholipid and acetylcholine synthesis; mechanistic plausibility does not prove clinical efficacy. [PMID:36678257]
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---|---|---|---|---|---|
+| Acute ischemic stroke | Meta-analysis of placebo-controlled RCTs | no clear benefit | Large ICTUS trial and pooled evidence did not demonstrate meaningful recovery benefit | moderate | PMID:27234918 |
+| Dementia / cognitive impairment | Systematic review/meta-analysis | possible benefit; uncertain | Seven small heterogeneous studies; effect estimates limited | low | PMID:36678257 |
+| Healthy cognitive enhancement | Small RCTs | uncertain | No robust, consistent evidence for durable clinically meaningful benefit | very low | PMID:36678257 |
+
+** Dosing in trials
+- Studies commonly used 500–2,000 mg/day orally or parenterally; acute stroke trials used IV/oral schedules over weeks. Indication and route vary. [PMID:27234918, PMID:36678257]
+
+** Safety & adverse effects
+- Generally tolerated in trials; possible headache, GI upset, insomnia/restlessness. Long-term safety data for high doses remain limited. [PMID:36678257]
+
+** Contraindications
+- Hypersensitivity is a contraindication; caution with bipolar activation/insomnia and pregnancy due to inadequate trial evidence. [PMID:36678257]
+
+** Interactions
+- May potentiate levodopa effects through increased dopamine synthesis/release; monitor if combined. No established lab-test interference. [PMID:36678257]
+
+** Latest research (last 24 months)
+- 2024 network meta-analysis of acute ischemic stroke neuroprotectants included citicoline but pooled mixed designs and does not overcome prior large null placebo-controlled RCT evidence. [PMID:39575393, PMID:27234918]
+
+** Open questions
+- Clarify whether any defined cognitive impairment phenotype benefits and whether outcomes persist beyond treatment.
+
+** Sources
+- Dávalos A et al. Citicoline for acute ischemic stroke: systematic review and meta-analysis of randomized double-blind placebo-controlled trials. 2016. [https://pubmed.ncbi.nlm.nih.gov/27234918/]
+- Is Citicoline Effective in Preventing and Slowing Down Dementia? Systematic review/meta-analysis. 2023. [https://pubmed.ncbi.nlm.nih.gov/36678257/]
+- Efficacy analysis of neuroprotective drugs in acute ischemic stroke: network meta-analysis. 2024. [https://pubmed.ncbi.nlm.nih.gov/39575393/]

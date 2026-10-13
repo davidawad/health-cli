@@ -1,0 +1,45 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Vitamin B2",
+  "slug": "vitamin-b2",
+  "aliases": [
+    "Vitamin B2",
+    "riboflavin",
+    "riboflavin-5-phosphate",
+    "FMN",
+    "FAD"
+  ],
+  "category": "vitamin",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "moderate",
+  "edges": [
+    {
+      "with": "migraine",
+      "with_kind": "condition",
+      "kind": "synergy",
+      "severity": "minor",
+      "mechanism": "Multiple RCTs/meta-analyses suggest riboflavin can reduce migraine frequency/duration.",
+      "evidence": "Systematic reviews of clinical trials.",
+      "citations": [
+        "PMID:33779525",
+        "PMID:41769676"
+      ]
+    },
+    {
+      "with": "urine fluorescence assays",
+      "with_kind": "lab-test",
+      "kind": "lab-interference",
+      "severity": "minor",
+      "mechanism": "Riboflavin is fluorescent and may interfere with some laboratory measurements based on fluorescence.",
+      "evidence": "NIH ODS fact sheet.",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:33779525",
+    "PMID:41769676",
+    "URL:https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/"
+  ]
+}

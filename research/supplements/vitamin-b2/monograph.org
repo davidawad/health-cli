@@ -1,0 +1,46 @@
+* Vitamin B2
+:PROPERTIES:
+:ID: supp-vitamin-b2
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: Vitamin B2 | riboflavin | riboflavin-5-phosphate | FMN | FAD
+:CATEGORY: vitamin
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Riboflavin (vitamin B2) is water soluble; active coenzyme forms are flavin mononucleotide (FMN) and flavin adenine dinucleotide (FAD). [URL:https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/]
+
+** Mechanisms
+- FMN and FAD are cofactors for redox enzymes, energy metabolism and conversion of other B vitamins. [URL:https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/]
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---|---|---|---|---|---|
+| Migraine frequency/duration | Systematic review and dose-response meta-analysis of 12 trials | decrease | WMD frequency −1.39 and duration −1.36; high heterogeneity | moderate | PMID:41769676 |
+| Migraine prevention | Meta-analysis of RCTs | benefit | 400 mg/day for about 3 months improved pooled migraine measures | moderate | PMID:33779525 |
+| Cardiovascular disease prevention | No outcome evidence | unknown | Insufficient evidence | very low | URL:https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/ |
+
+** Dosing in trials
+- Dietary RDA is 1.1 mg/day for women and 1.3 mg/day for men; migraine trials commonly used 400 mg/day for 3 months. [URL:https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/, PMID:33779525]
+
+** Safety & adverse effects
+- High oral doses can cause bright yellow urine; no UL established and toxicity is considered low because absorption is limited. [URL:https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/]
+
+** Contraindications
+- Known hypersensitivity is the only routine contraindication; pregnancy/lactation requirements differ from high-dose migraine trial use. [URL:https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/]
+
+** Interactions
+- Phenobarbital and probenecid may alter riboflavin status; chlorpromazine and tricyclic agents may interfere with conversion/handling. Supplementation can affect some urine fluorescence-based lab methods; confirm assay specifics. [URL:https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/]
+
+** Latest research (last 24 months)
+- 2025-search dose-response meta-analysis (published 2026) pooled 12 trials and found reductions in migraine frequency and duration, but heterogeneity was high. [PMID:41769676]
+
+** Open questions
+- Larger low-bias trials should establish dose, responder characteristics, and whether benefit generalizes beyond migraine.
+
+** Sources
+- NIH ODS. Riboflavin: Health Professional Fact Sheet. [https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/]
+- Chen YS et al. Effect of Vitamin B2 supplementation on migraine prophylaxis: systematic review and meta-analysis. Nutr Neurosci. 2022. [https://pubmed.ncbi.nlm.nih.gov/33779525/]
+- Riboflavin dose-response meta-analysis of migraine trials. 2026. [https://pubmed.ncbi.nlm.nih.gov/41769676/]

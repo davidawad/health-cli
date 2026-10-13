@@ -1,0 +1,47 @@
+* Selenium
+:PROPERTIES:
+:ID: supp-selenium
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: selenium | Se | selenomethionine | selenium yeast | sodium selenite
+:CATEGORY: mineral
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Essential trace element incorporated as selenocysteine in selenoproteins. Common supplemental forms are selenomethionine, selenium-enriched yeast, sodium selenite and sodium selenate; absorption and retention differ by form. [URL:https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/]
+
+** Mechanisms
+- Selenoproteins include glutathione peroxidases, thioredoxin reductases and iodothyronine deiodinases, supporting redox reactions and thyroid hormone metabolism. [URL:https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/]
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---|---|---|---|---|---|
+| Cardiovascular events | Cochrane review of RCTs | null | RR 1.03 (95% CI 0.95–1.11) all CVD events | moderate | URL:https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/ |
+| Cancer prevention | Cochrane review / large RCTs | null; possible harm at high baseline status | No prevention demonstrated; SELECT 200 µg/day did not lower prostate cancer | moderate | PMID:24401833 |
+| Thyroid autoimmunity | Meta-analysis of RCTs | TPO antibodies may fall; clinical benefit uncertain | Antibody reduction; no reliable effect on symptoms or hypothyroidism | low | URL:https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/ |
+| Cognitive decline | RCTs / systematic review | null | No improvement in cognitive scores in 11 trials | low | URL:https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/ |
+
+** Dosing in trials
+- Trials used approximately 100–800 µg/day for weeks to years; SELECT used 200 µg/day selenomethionine. Dietary RDA is 55 µg/day; U.S. adult UL is 400 µg/day. [URL:https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/]
+
+** Safety & adverse effects
+- Excess causes selenosis: hair/nail brittleness or loss, garlic breath, metallic taste, rash, nausea, fatigue and neurologic effects. Chronic high intake can cause toxicity; total diet and multiple products matter. [URL:https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/]
+
+** Contraindications
+- Avoid supplementation in known selenium excess/selenosis. Pregnancy and lactation require attention to total intake; deficiency correction and research dosing are distinct contexts. UL is not a target. [URL:https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/]
+
+** Interactions
+- Warfarin: inconsistent reports of altered anticoagulant response; monitor INR when intake changes. Other antioxidant supplements: randomized trials do not establish additive clinical benefit. Thyroid disease: physiologic relevance does not establish treatment efficacy. [URL:https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/]
+
+** Latest research (last 24 months)
+- 2025 NIH ODS fact sheet refresh reiterates lack of support for cardiovascular prevention in selenium-replete adults and summarizes thyroid antibody research. [URL:https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/]
+
+** Open questions
+- Identify baseline selenium status and whether any subgroup has patient-important benefit; establish dose-response safety at chronic low supplemental doses.
+
+** Sources
+- NIH ODS. Selenium: Health Professional Fact Sheet. [https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/]
+- Lippman SM et al. Effect of selenium and vitamin E on risk of prostate cancer and other cancers. JAMA. 2009. [https://pubmed.ncbi.nlm.nih.gov/20068209/]
+- Rees K et al. Selenium supplementation for the prevention of cardiovascular disease. Cochrane Database Syst Rev. [https://www.cochrane.org/evidence/CD009671_selenium-supplements-prevention-cardiovascular-disease]

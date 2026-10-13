@@ -1,0 +1,66 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Quatrefolic (5-MTHF)",
+  "slug": "quatrefolic-5-mthf",
+  "aliases": [
+    "Quatrefolic",
+    "5-MTHF",
+    "L-methylfolate",
+    "levomefolate",
+    "calcium L-5-methyltetrahydrofolate"
+  ],
+  "category": "vitamin",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "moderate",
+  "edges": [
+    {
+      "with": "methotrexate",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "major",
+      "mechanism": "Folate may antagonize methotrexate in cancer treatment; folate is also prescribed alongside low-dose methotrexate in some inflammatory diseases, so regimen context matters.",
+      "evidence": "Official NIH ODS and label/guideline information.",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
+      ]
+    },
+    {
+      "with": "Vitamin B12",
+      "with_kind": "supplement",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "High folate can mask hematologic manifestations of B12 deficiency while neurologic damage progresses.",
+      "evidence": "NIH ODS safety information.",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
+      ]
+    },
+    {
+      "with": "phenytoin",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "moderate",
+      "mechanism": "Folate supplementation may reduce serum phenytoin concentrations; anticonvulsants can also lower folate.",
+      "evidence": "NIH ODS interaction summary.",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
+      ]
+    },
+    {
+      "with": "MTHFR C677T",
+      "with_kind": "genotype",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Variant reduces folate availability in some settings; evidence supporting specific 5-MTHF supplementation benefit is inconclusive.",
+      "evidence": "NIH ODS genetics summary.",
+      "citations": [
+        "URL:https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:2409100",
+    "PMID:25914100",
+    "URL:https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
+  ]
+}

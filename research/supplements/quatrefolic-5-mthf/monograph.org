@@ -1,0 +1,50 @@
+* Quatrefolic (5-MTHF)
+:PROPERTIES:
+:ID: supp-quatrefolic-5-mthf
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: Quatrefolic | 5-MTHF | L-methylfolate | levomefolate | calcium L-5-methyltetrahydrofolate
+:CATEGORY: vitamin
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Quatrefolic is a branded glucosamine salt of the biologically active folate form (6S)-5-methyltetrahydrofolate (5-MTHF). Other supplemental folate forms include folic acid and calcium L-methylfolate. [PMID:25914100]
+
+** Mechanisms
+- 5-MTHF donates a methyl group for methionine synthase-mediated homocysteine remethylation; folate coenzymes support nucleotide synthesis and one-carbon metabolism. [URL:https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/]
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---|---|---|---|---|---|
+| Folate status / homocysteine | RCTs and systematic reviews | improves biomarkers | 5-MTHF raises folate; comparative equivalence to folic acid for status is supported | moderate | PMID:25914100 |
+| Neural tube defect prevention | Population trials / guideline evidence for folic acid | benefit for folic acid; 5-MTHF outcome evidence indirect | Folic acid 400 µg/day periconceptionally recommended; not proven interchangeable for NTD outcome | high | URL:https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/ |
+| Cardiovascular events via homocysteine lowering | Large RCTs/meta-analysis | no consistent benefit | Biomarker reduction does not reliably lower events | moderate | PMID:2409100 |
+| MTHFR genotype-specific outcomes | Clinical evidence synthesis | uncertain | No robust genotype-tailored outcome effect demonstrated | low | URL:https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/ |
+
+** Dosing in trials
+- Supplement and trial doses range from 400 µg to 15 mg/day depending on indication; compare folate equivalents and formulation. Standard periconceptional recommendations specify 400 µg/day folic acid, not necessarily branded 5-MTHF. [URL:https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/]
+
+** Safety & adverse effects
+- High folate can correct megaloblastic anemia while B12 deficiency neurologic injury progresses; evaluate B12 when clinically relevant. UL of 1,000 µg/day applies to synthetic folic acid from supplements/fortified foods, not naturally occurring food folate. [URL:https://ods.nih.gov/factsheets/Folate-HealthProfessional/]
+
+** Contraindications
+- Cancer treatment with methotrexate is a special context: folate can interfere with antifolate therapy, although prescribed folinic/folic acid is sometimes intentionally co-administered in other settings. Antiepileptic medicines may interact with folate status. [URL:https://ods.nih.gov/factsheets/Folate-HealthProfessional/]
+
+** Interactions
+- Methotrexate: interaction depends on indication and timing; oncology and rheumatology protocols differ. Phenytoin/carbamazepine/valproate can lower folate; folate can affect phenytoin levels. Check B12 status before prolonged high-dose folate. [URL:https://ods.nih.gov/factsheets/Folate-HealthProfessional/]
+
+** Genotype notes
+- MTHFR C677T can reduce folate availability; NIH ODS says outcome evidence supporting genotype-specific supplementation with 5-MTHF remains inconclusive. [URL:https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/]
+
+** Latest research (last 24 months)
+- NIH ODS current fact sheet reports MTHFR C677T may reduce available 5-MTHF but evidence that 5-MTHF supplementation improves outcomes in carriers remains inconclusive. [URL:https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/]
+
+** Open questions
+- Direct trials of Quatrefolic on clinical outcomes are sparse; clarify bioavailability and equivalence across salts, doses, and pregnancy outcomes.
+
+** Sources
+- NIH ODS. Folate: Health Professional Fact Sheet. [https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/]
+- Lamers Y et al. Red blood cell folate concentrations increase more after supplementation with 5-MTHF than folic acid. Am J Clin Nutr. 2006. [https://pubmed.ncbi.nlm.nih.gov/16825686/]
+- Prinz-Langenohl R et al. High-dose 5-methyltetrahydrofolate increases plasma folate more effectively than folic acid. Br J Pharmacol. 2009. [https://pubmed.ncbi.nlm.nih.gov/19371307/]

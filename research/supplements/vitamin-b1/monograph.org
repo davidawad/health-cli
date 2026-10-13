@@ -1,0 +1,46 @@
+* Vitamin B1
+:PROPERTIES:
+:ID: supp-vitamin-b1
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: Vitamin B1 | thiamin | thiamine | thiamine hydrochloride | benfotiamine
+:CATEGORY: vitamin
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Thiamin (vitamin B1) is water soluble; common supplements include thiamin hydrochloride, thiamin mononitrate, and lipid-soluble benfotiamine. [URL:https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/]
+
+** Mechanisms
+- Thiamin diphosphate is a cofactor for pyruvate dehydrogenase, alpha-ketoglutarate dehydrogenase, branched-chain ketoacid dehydrogenase and transketolase, linking carbohydrate metabolism and energy production. [URL:https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/]
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---|---|---|---|---|---|
+| Thiamin deficiency / beriberi | Clinical treatment evidence | benefit | Replacement treats deficiency; untreated deficiency can cause neurologic/cardiac disease | high | URL:https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/ |
+| Critical illness mortality | Systematic review of RCTs | uncertain | Meta-analysis does not establish consistent mortality benefit | low | PMID:39307094 |
+| Diabetic neuropathy (benfotiamine) | Short RCTs | possible symptom benefit | Short-term symptom scores improved in some trials; long-term outcomes unclear | low | PMID:17383958 |
+
+** Dosing in trials
+- RDA is 1.1 mg/day women and 1.2 mg/day men; trials in critical illness use IV regimens, while benfotiamine neuropathy studies often use 300–600 mg/day. Dose depends strongly on deficiency/clinical indication. [URL:https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/]
+
+** Safety & adverse effects
+- No established tolerable upper intake level due to low toxicity; rare allergic reactions reported with parenteral administration. [URL:https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/]
+
+** Contraindications
+- No common oral contraindication identified; parenteral thiamin requires clinical administration because hypersensitivity can occur. [URL:https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/]
+
+** Interactions
+- Loop diuretics and chronic alcohol use can contribute to thiamin depletion; thiamin status can be affected by severe malnutrition. No common direct drug interaction or lab assay interference established. [URL:https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/]
+
+** Latest research (last 24 months)
+- 2024 systematic review/meta-analysis of IV thiamine RCTs in critically ill patients reflects continued uncertainty on patient-important outcomes. [PMID:39307094]
+
+** Open questions
+- Define which critical-illness subgroups benefit and whether oral benfotiamine changes long-term neuropathy outcomes.
+
+** Sources
+- NIH ODS. Thiamin: Health Professional Fact Sheet. [https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/]
+- Karimi E et al. Effect of intravenous thiamine administration on critically ill patients: systematic review and meta-analysis. 2024. [https://pubmed.ncbi.nlm.nih.gov/39307094/]
+- Stracke H et al. Benfotiamine in diabetic polyneuropathy (BENDIP). Exp Clin Endocrinol Diabetes. 2008. [https://pubmed.ncbi.nlm.nih.gov/17383958/]

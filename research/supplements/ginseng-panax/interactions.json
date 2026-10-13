@@ -1,0 +1,32 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Ginseng (Panax)",
+  "slug": "ginseng-panax",
+  "aliases": [
+    "Panax ginseng",
+    "Asian ginseng",
+    "Korean ginseng",
+    "red ginseng"
+  ],
+  "category": "botanical",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "low",
+  "edges": [
+    {
+      "with": "antidiabetic agents",
+      "with_kind": "drug-class",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Trials report small glucose-related biomarker changes; additive effect is possible but clinical interaction data are limited.",
+      "evidence": "Trials report small glucose-related biomarker changes; additive effect is possible but clinical interaction data are limited.",
+      "citations": [
+        "PMID:39387709"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:38888561",
+    "PMID:39387709",
+    "PMID:40774237"
+  ]
+}

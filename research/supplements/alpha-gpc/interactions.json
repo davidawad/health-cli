@@ -1,0 +1,41 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Alpha-GPC",
+  "slug": "alpha-gpc",
+  "aliases": [
+    "Alpha-glycerylphosphorylcholine",
+    "choline alphoscerate",
+    "\u03b1-GPC"
+  ],
+  "category": "nootropic",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "low",
+  "edges": [
+    {
+      "with": "cholinesterase inhibitors",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Choline precursor may overlap pharmacologically with cholinergic therapy; direct interaction trials are lacking.",
+      "evidence": "Choline precursor may overlap pharmacologically with cholinergic therapy; direct interaction trials are lacking.",
+      "citations": [
+        "PMID:39683633"
+      ]
+    },
+    {
+      "with": "anticholinergic drugs",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Opposing cholinergic pharmacology could affect intended effects; no direct \u03b1-GPC interaction trial identified.",
+      "evidence": "Opposing cholinergic pharmacology could affect intended effects; no direct \u03b1-GPC interaction trial identified.",
+      "citations": [
+        "PMID:39683633"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:39300341",
+    "PMID:39683633"
+  ]
+}

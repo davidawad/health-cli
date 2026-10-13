@@ -1,0 +1,43 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Rhodiola Rosea",
+  "slug": "rhodiola-rosea",
+  "aliases": [
+    "Rhodiola rosea",
+    "roseroot",
+    "golden root",
+    "arctic root"
+  ],
+  "category": "botanical",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "low",
+  "edges": [
+    {
+      "with": "antidepressants",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Potential serotonergic or activating overlap is proposed; controlled interaction evidence is lacking.",
+      "evidence": "Potential serotonergic or activating overlap is proposed; controlled interaction evidence is lacking.",
+      "citations": [
+        "PMID:22643043"
+      ]
+    },
+    {
+      "with": "Dexedrine",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Potential additive stimulation is plausible from putative activating effects; direct interaction studies are lacking.",
+      "evidence": "Potential additive stimulation is plausible from putative activating effects; direct interaction studies are lacking.",
+      "citations": [
+        "PMID:22643043"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:22643043",
+    "PMID:37495266",
+    "PMID:38347175"
+  ]
+}

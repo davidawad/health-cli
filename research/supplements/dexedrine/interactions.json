@@ -1,0 +1,62 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Dexedrine",
+  "slug": "dexedrine",
+  "aliases": [
+    "Dextroamphetamine sulfate",
+    "dextroamphetamine"
+  ],
+  "category": "rx",
+  "rx_status": "controlled",
+  "evidence_certainty_overall": "high",
+  "edges": [
+    {
+      "with": "monoamine oxidase inhibitors",
+      "with_kind": "drug-class",
+      "kind": "contraindicated",
+      "severity": "major",
+      "mechanism": "Concomitant use or use within 14 days risks hypertensive crisis.",
+      "evidence": "Concomitant use or use within 14 days risks hypertensive crisis.",
+      "citations": [
+        "DailyMed"
+      ]
+    },
+    {
+      "with": "serotonergic drugs",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Label warns of serotonin syndrome; consider lower starting dose and monitor if combination clinically warranted.",
+      "evidence": "Label warns of serotonin syndrome; consider lower starting dose and monitor if combination clinically warranted.",
+      "citations": [
+        "DailyMed"
+      ]
+    },
+    {
+      "with": "CYP2D6 inhibitors",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "May increase dextroamphetamine exposure and serotonin-syndrome risk.",
+      "evidence": "May increase dextroamphetamine exposure and serotonin-syndrome risk.",
+      "citations": [
+        "DailyMed"
+      ]
+    },
+    {
+      "with": "Caffeine",
+      "with_kind": "supplement",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Additive sympathomimetic stimulation is plausible; combination-specific trials are limited.",
+      "evidence": "Additive sympathomimetic stimulation is plausible; combination-specific trials are limited.",
+      "citations": [
+        "DailyMed"
+      ]
+    }
+  ],
+  "citations": [
+    "DailyMed",
+    "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc717b9b-22ea-4c60-a1d4-ee38a40bce78"
+  ]
+}

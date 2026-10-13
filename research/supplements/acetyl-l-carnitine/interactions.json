@@ -1,0 +1,44 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Acetyl-L-Carnitine",
+  "slug": "acetyl-l-carnitine",
+  "aliases": [
+    "Acetylcarnitine",
+    "ALCAR",
+    "ALC"
+  ],
+  "category": "amino-acid",
+  "rx_status": "otc",
+  "evidence_certainty_overall": "low",
+  "edges": [
+    {
+      "with": "warfarin",
+      "with_kind": "drug",
+      "kind": "monitor",
+      "severity": "minor",
+      "mechanism": "Possible INR increase is reported in interaction references; direct clinical evidence is limited and should be treated as uncertain.",
+      "evidence": "Possible INR increase is reported in interaction references; direct clinical evidence is limited and should be treated as uncertain.",
+      "citations": [
+        "https://www.blackmoresinstitute.org/-/media/bklbi/pdf/cmig_11th_edition.pdf"
+      ]
+    },
+    {
+      "with": "seizure disorders",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Seizure-threshold concern is reported in secondary safety references; robust controlled evidence is lacking.",
+      "evidence": "Seizure-threshold concern is reported in secondary safety references; robust controlled evidence is lacking.",
+      "citations": [
+        "https://ods.od.nih.gov/factsheets/Carnitine-Consumer/"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:29076953",
+    "PMID:30061399",
+    "https://ods.od.nih.gov/factsheets/Carnitine-Consumer/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC13242760/",
+    "https://www.blackmoresinstitute.org/-/media/bklbi/pdf/cmig_11th_edition.pdf"
+  ]
+}

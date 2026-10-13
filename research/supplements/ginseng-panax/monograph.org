@@ -1,0 +1,49 @@
+* Ginseng (Panax)
+:PROPERTIES:
+:ID: supp-ginseng-panax
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: Panax ginseng | Asian ginseng | Korean ginseng | red ginseng
+:CATEGORY: botanical
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Panax ginseng C.A.Mey. root is sold as white/dried root, steamed red ginseng, powders, teas, and standardized ginsenoside extracts; products are not interchangeable [PMID:39387709].
+
+** Mechanisms
+- Ginsenosides are proposed to influence inflammatory, vascular, metabolic, and neurotransmitter signaling; proposed pathways do not establish clinical benefit [PMID:39387709].
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---------+--------------------+-----------+-------------+-----------------------+-----------|
+| Cardiovascular biomarkers | 45-RCT meta-analysis | small improvements | SBP −2.57 mmHg; LDL-C −2.81 mg/dL; substantial heterogeneity | low | PMID:39387709 |
+| Cognition in impairment | RCT meta-analysis | possible improvement | pooled cognitive scales; magnitude depends on instrument | low | PMID:40774237 |
+| Exercise muscle damage | systematic review of 13 RCTs | inconsistent | 11 studies reported some positive outcomes, two no effect | very low | PMID:38888561 |
+
+** Dosing in trials
+- Trial products and doses vary substantially; clinical trials commonly use standardized root extracts or red-ginseng preparations over weeks. The cardiovascular meta-analysis pooled heterogeneous formulations and schedules; it does not define a single effective dose [PMID:39387709].
+
+** Safety & adverse effects
+- Short clinical trials have not established long-term safety; gastrointestinal symptoms, insomnia, headache, and blood-pressure/glucose changes are reported in clinical safety literature. Product variability limits extrapolation [PMID:39387709].
+
+** Contraindications
+- No robust condition-specific contraindication trials were identified. Pregnancy/lactation and hormone-sensitive conditions have insufficient standardized-product safety evidence; frame as uncertainty rather than demonstrated harm [PMID:39387709].
+
+** Interactions
+- Drugs, supplements, conditions, and relevant laboratory interference are summarized in the structured interaction object. Potential additive glucose lowering or blood-pressure effects are plausible from biomarker RCT meta-analysis; clinical interaction magnitude remains uncertain [PMID:39387709]. No genotype-specific claim is made because no directly relevant pharmacogenomic source was identified.
+
+** Genotype notes
+- No directly relevant, clinically validated pharmacogenomic/nutrigenomic source was identified in the sources reviewed.
+
+** Latest research
+- 2025: systematic review/meta-analysis of randomized trials in cognitively impaired populations reported cognitive-scale outcomes; study populations and preparations vary [PMID:40774237].
+
+** Open questions
+- Which ginsenoside profile, preparation, dose, and patient subgroup drive reproducible clinical effects? Long-term outcome trials are lacking [PMID:39387709].
+
+** Sources
+- PMID:39387709
+- PMID:40774237
+- PMID:38888561

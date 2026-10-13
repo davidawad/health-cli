@@ -1,0 +1,52 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "LSD",
+  "slug": "lsd",
+  "aliases": [
+    "Lysergic acid diethylamide",
+    "lysergide"
+  ],
+  "category": "other",
+  "rx_status": "controlled",
+  "evidence_certainty_overall": "low",
+  "edges": [
+    {
+      "with": "Dexedrine",
+      "with_kind": "drug",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Both can increase arousal and cardiovascular stimulation; interaction safety has not been established in controlled trials.",
+      "evidence": "Both can increase arousal and cardiovascular stimulation; interaction safety has not been established in controlled trials.",
+      "citations": [
+        "PMID:39230883"
+      ]
+    },
+    {
+      "with": "serotonergic drugs",
+      "with_kind": "drug-class",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Serotonergic coadministration may alter subjective and physiologic effects; direct interaction evidence is limited.",
+      "evidence": "Serotonergic coadministration may alter subjective and physiologic effects; direct interaction evidence is limited.",
+      "citations": [
+        "PMID:39230883"
+      ]
+    },
+    {
+      "with": "psychotic disorders",
+      "with_kind": "condition",
+      "kind": "avoid",
+      "severity": "major",
+      "mechanism": "Vulnerable neuropsychiatric participants account for the serious adverse events described in clinical psychedelic studies; trials typically exclude such populations.",
+      "evidence": "Vulnerable neuropsychiatric participants account for the serious adverse events described in clinical psychedelic studies; trials typically exclude such populations.",
+      "citations": [
+        "PMID:39230883"
+      ]
+    }
+  ],
+  "citations": [
+    "PMID:38574699",
+    "PMID:39168500",
+    "PMID:39230883"
+  ]
+}

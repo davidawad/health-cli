@@ -1,0 +1,29 @@
+{
+  "schema": "supplement-interactions/1",
+  "supplement": "Cerebrolysin",
+  "slug": "cerebrolysin",
+  "aliases": [
+    "Cerebrolysin peptide mixture",
+    "porcine brain-derived peptides"
+  ],
+  "category": "peptide",
+  "rx_status": "research-chemical",
+  "evidence_certainty_overall": "moderate",
+  "edges": [
+    {
+      "with": "acute ischemic stroke",
+      "with_kind": "condition",
+      "kind": "caution",
+      "severity": "moderate",
+      "mechanism": "Evidence does not show mortality benefit and suggests potential increase in nonfatal serious adverse events.",
+      "evidence": "Evidence does not show mortality benefit and suggests potential increase in nonfatal serious adverse events.",
+      "citations": [
+        "Cochrane CD007026"
+      ]
+    }
+  ],
+  "citations": [
+    "Cochrane CD007026",
+    "https://www.cochrane.org/evidence/CD007026_cerebrolysin-acute-ischaemic-stroke"
+  ]
+}

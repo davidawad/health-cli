@@ -1,0 +1,47 @@
+* Alpha-GPC
+:PROPERTIES:
+:ID: supp-alpha-gpc
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: Alpha-glycerylphosphorylcholine | choline alphoscerate | α-GPC
+:CATEGORY: nootropic
+:RX_STATUS: otc
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Choline alphoscerate is a choline-containing phospholipid that provides choline and glycerophosphate; supplement formulations include capsules and soft gels [PMID:39300341].
+
+** Mechanisms
+- Choline is a precursor for acetylcholine and phosphatidylcholine; biochemical plausibility does not prove cognitive benefit in healthy people [PMID:39683633].
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---------+--------------------+-----------+-------------+-----------------------+-----------|
+| Amnestic mild cognitive impairment | single 12-week double-blind RCT (n=100) | benefit signal | ADAS-Cog change −2.34 points vs placebo | low | PMID:39300341 |
+| Acute cognition in healthy trained men | crossover RCT (n=20) | uncertain | 315/630 mg tested; exploratory small sample | very low | PMID:39683633 |
+
+** Dosing in trials
+- MCI trial: 600 mg orally once daily for 12 weeks. Acute crossover trial: 315 or 630 mg single dose. These are study regimens, not established general-use dosing [PMID:39300341; PMID:39683633].
+
+** Safety & adverse effects
+- In the 100-person 12-week trial, adverse-event incidence did not differ significantly from placebo and no serious events occurred; samples and follow-up are too small to establish long-term safety [PMID:39300341].
+
+** Contraindications
+- No well-defined contraindication profile is established from the small trials; pregnancy, lactation, and long-term use are poorly studied [PMID:39300341].
+
+** Interactions
+- Drugs, supplements, conditions, and relevant laboratory interference are summarized in the structured interaction object. Potential pharmacodynamic overlap with cholinergic drugs is plausible because α-GPC supplies choline; formal interaction studies were not identified [PMID:39683633]. No genotype-specific claim is made because no directly relevant pharmacogenomic source was identified.
+
+** Genotype notes
+- No directly relevant, clinically validated pharmacogenomic/nutrigenomic source was identified in the sources reviewed.
+
+** Latest research
+- 2024: placebo-controlled MCI trial (n=100) used 600 mg/day for 12 weeks; ADAS-Cog declined 2.34 points more than placebo, with no serious adverse events [PMID:39300341]. 2024: acute crossover trial in 20 trained men tested 315 and 630 mg; small sample limits inference [PMID:39683633].
+
+** Open questions
+- Larger independent trials should establish whether effects generalize beyond MCI, the clinical importance of scale changes, and long-term safety [PMID:39300341].
+
+** Sources
+- PMID:39300341
+- PMID:39683633

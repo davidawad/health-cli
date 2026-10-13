@@ -1,0 +1,49 @@
+* LSD
+:PROPERTIES:
+:ID: supp-lsd
+:KIND: supplement-monograph
+:SCHEMA: supplement-monograph/1
+:ALIASES: Lysergic acid diethylamide | lysergide
+:CATEGORY: other
+:RX_STATUS: controlled
+:RESEARCHED_AT: 2026-10-13
+:END:
+
+** Identity & forms
+- Lysergic acid diethylamide is a potent serotonergic psychedelic and Schedule I controlled substance in the United States; research administration uses measured pharmaceutical doses in supervised settings [PMID:39230883].
+
+** Mechanisms
+- LSD is a serotonin 5-HT2A receptor agonist with additional serotonergic receptor activity; mechanistic claims do not establish treatment efficacy [PMID:38574699].
+
+** Evidence summary by outcome
+| Outcome | Best evidence type | Direction | Effect size | GRADE-style certainty | Citations |
+|---------+--------------------+-----------+-------------+-----------------------+-----------|
+| Mental disorder symptoms | 2024 systematic review/meta-analysis | possible benefit in supervised research | LSD Hedges g −0.65 (95% CI −1.03 to −0.27); only six studies in cited review | low | PMID:38574699 |
+| Adverse events in trials | systematic review/meta-analysis | acute psychological/physical AEs; rare serious events | SAEs ~4% in participants with preexisting neuropsychiatric disorders across psychedelics | low | PMID:39230883 |
+| Microdosing for depression | ongoing trial protocols | unknown | no definitive outcome established in cited sources | very low | PMID:39168500 |
+
+** Dosing in trials
+- Clinical studies used widely varying measured oral doses in monitored sessions; no unsupervised dose can be inferred. Contemporary reviews stress setting and safety-monitoring limitations [PMID:39230883].
+
+** Safety & adverse effects
+- Acute anxiety, nausea, headache, perceptual changes, and cardiovascular effects occur; review found SAEs including worsening depression, suicidality, psychosis, and convulsions in vulnerable participants. AE capture in studies was incomplete [PMID:39230883].
+
+** Contraindications
+- Clinical trials generally exclude individuals with psychotic disorders, bipolar mania risk, unstable cardiovascular disease, or interacting medications; exact exclusions vary. Legal status is controlled and varies by jurisdiction [PMID:39230883].
+
+** Interactions
+- Drugs, supplements, conditions, and relevant laboratory interference are summarized in the structured interaction object. Lithium co-use has been associated with seizure reports in case literature; serotonergic medicines and stimulants can alter effects, but controlled interaction data are sparse. Research-only setting matters [PMID:39230883]. No genotype-specific claim is made because no directly relevant pharmacogenomic source was identified.
+
+** Genotype notes
+- No directly relevant, clinically validated pharmacogenomic/nutrigenomic source was identified in the sources reviewed.
+
+** Latest research
+- 2024 systematic review/meta-analysis included psychedelic studies searched through Feb 2024; LSD had fewer trials than psilocybin, with pooled symptom estimate Hedges g −0.65 across indications [PMID:38574699]. 2024 adverse-event review found SAE reports in about 4% of participants with preexisting neuropsychiatric disorders across classic psychedelics and highlighted poor AE reporting [PMID:39230883].
+
+** Open questions
+- Larger replicated trials, long-term follow-up, standardized adverse-event capture, and direct LSD-specific interaction studies are needed [PMID:39230883; PMID:38574699].
+
+** Sources
+- PMID:39230883
+- PMID:38574699
+- PMID:39168500

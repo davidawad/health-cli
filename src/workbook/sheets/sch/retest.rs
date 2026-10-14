@@ -90,7 +90,8 @@ impl SheetModule for Retest {
             }),
             Col::f("rank", |r, _| {
                 let u = rng(TITLE, 20, r0, r1);
-                format!("=IF(U{r}=\"\",\"\",COUNTIF({u},\">\"&U{r})+COUNTIF($U${first}:U{r},U{r}))")
+                // Numeric compare (see `visit::flag_helper`): `">"&U` text drops digits.
+                format!("=IF(U{r}=\"\",\"\",SUMPRODUCT(ISNUMBER({u})*({u}>U{r}))+COUNTIF($U${first}:U{r},U{r}))")
             }),
         ];
         section(ws, cx, SR - 1, 0, "Per marker (row-aligned with Calc_Marker)")?;

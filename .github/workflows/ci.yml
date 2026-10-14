@@ -35,6 +35,12 @@ jobs:
       - uses: Swatinem/rust-cache@v2
         with:
           key: stable
+      # The recalculation tests need headless LibreOffice; with it required they fail,
+      # not skip, if it is missing (hx-rx3.26).
+      - name: Install headless LibreOffice Calc
+        run: maintenance/scripts/install-soffice.sh
       - run: cargo fmt --check
       - run: cargo clippy --all-targets --locked -- -D warnings
       - run: cargo test --locked --no-fail-fast
+        env:
+          HEALTH_REQUIRE_RECALC: "1"

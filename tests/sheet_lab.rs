@@ -13,6 +13,7 @@ use std::path::{Path, PathBuf};
 use std::process::Command;
 
 use calamine::{open_workbook, Data, Reader, Xlsx};
+use support::soffice::soffice;
 use support::Env;
 
 const LAB_SHEETS: &[&str] = &["Lab_Tear", "Lab_Stats", "Lab_Change", "Lab_Quilt", "Lab_Exp", "Lab_Ranges", "Lab_Long"];
@@ -212,13 +213,6 @@ fn no_lab_sheets_without_labs() {
     assert!(res.status.success(), "{}", String::from_utf8_lossy(&res.stderr));
     let wb = open(&out);
     assert!(!wb.sheet_names().iter().any(|n| n.starts_with("Lab_")), "{:?}", wb.sheet_names());
-}
-
-fn soffice() -> Option<String> {
-    ["soffice", "/Applications/LibreOffice.app/Contents/MacOS/soffice", "/opt/homebrew/bin/soffice"]
-        .iter()
-        .find(|c| Command::new(c).arg("--version").output().is_ok_and(|o| o.status.success()))
-        .map(|c| (*c).to_string())
 }
 
 /// Recalculate `src` in headless LibreOffice; returns the recalculated copy.

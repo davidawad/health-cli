@@ -78,7 +78,11 @@ pub fn flag_helper(
         }),
         Col::f("rank", |r, _| {
             let v = l(11);
-            format!("=IF({v}{r}=\"\",\"\",COUNTIF({score_rng},\">\"&{v}{r})+COUNTIF(${v}${first}:{v}{r},{v}{r}))")
+            // Compare numbers, not `">"&score` text: 15 digits round the score down, so a
+            // non-integer score would count as greater than itself and skip a rank.
+            format!(
+                "=IF({v}{r}=\"\",\"\",SUMPRODUCT(ISNUMBER({score_rng})*({score_rng}>{v}{r}))+COUNTIF(${v}${first}:{v}{r},{v}{r}))"
+            )
         }),
         Col::f("unmeasured_k", |r, _| {
             let v = l(10);

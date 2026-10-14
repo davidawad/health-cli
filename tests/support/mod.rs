@@ -14,6 +14,8 @@ use tempfile::TempDir;
 
 use rust_xlsxwriter::{ExcelDateTime, Format, Formula, Workbook, Worksheet};
 
+pub mod soffice;
+
 fn s(ws: &mut Worksheet, r: u32, c: u16, v: &str) {
     ws.write_string(r, c, v).unwrap();
 }

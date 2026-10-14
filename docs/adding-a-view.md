@@ -79,7 +79,9 @@ Nothing here is edited by a view's author.
   dynamic arrays. `write_formula` adds `_xlfn.` prefixes to XLOOKUP/LET/etc. itself.
 * **Tests.** `workbook::build_with(&[...fake modules], ...)` builds a workbook from a custom
   module list (see `workbook::tests`). `tests/recalc.rs` recalculates the generated workbook in
-  headless LibreOffice and fails on any formula error; run it after adding formulas. The one exception is
+  headless LibreOffice and fails on any formula error; run it after adding formulas (no LibreOffice?
+  `maintenance/scripts/install-soffice.sh`; a recalculation test must find it through
+  `tests/support/soffice.rs` so `HEALTH_REQUIRE_RECALC=1` turns its skip into a failure). The one exception is
   `#N/A` from an explicit `NA()` (a chart-only column whose gaps must not plot as 0; see `bod::plot_col`).
 
 ## The shared data layer: read it, do not rebuild it

@@ -11,6 +11,7 @@ use std::path::{Path, PathBuf};
 use std::process::Command;
 
 use calamine::{open_workbook, Data, Reader, Xlsx};
+use support::soffice::soffice;
 use support::Env;
 
 /// Every AGE sheet in tab order (AGE-01..18).
@@ -327,13 +328,6 @@ fn only_builds_a_single_age_sheet() {
     let names = open(&out).sheet_names();
     assert!(names.contains(&"Age_VO2".to_string()) && !names.contains(&"Age_Pheno".to_string()));
     assert!(part(&parts(&out), "xl/workbook.xml").contains("definedName name=\"Age_VO2_RHR_k\""));
-}
-
-fn soffice() -> Option<String> {
-    ["soffice", "/Applications/LibreOffice.app/Contents/MacOS/soffice", "/opt/homebrew/bin/soffice"]
-        .iter()
-        .find(|c| Command::new(c).arg("--version").output().is_ok_and(|o| o.status.success()))
-        .map(|c| (*c).to_string())
 }
 
 /// Recalculate in headless LibreOffice and fail on any formula error in an `Age_*` sheet.

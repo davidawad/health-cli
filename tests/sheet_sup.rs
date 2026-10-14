@@ -12,6 +12,7 @@ use std::path::{Path, PathBuf};
 use std::process::Command;
 
 use calamine::{open_workbook, Data, Range, Reader, Xlsx};
+use support::soffice::soffice;
 use support::Env;
 
 const SUP_SHEETS: &[&str] = &[
@@ -213,13 +214,6 @@ fn charts_validation_and_conditional_formats_are_present() {
 }
 
 // ------------------------------------------------------------ recalculation
-
-fn soffice() -> Option<String> {
-    ["soffice", "/Applications/LibreOffice.app/Contents/MacOS/soffice", "/opt/homebrew/bin/soffice"]
-        .iter()
-        .find(|c| Command::new(c).arg("--version").output().is_ok_and(|o| o.status.success()))
-        .map(|c| (*c).to_string())
-}
 
 fn recalc(soffice: &str, dir: &Path, input: &Path) -> Xlsx<std::io::BufReader<std::fs::File>> {
     let profile = dir.join("lo-profile");

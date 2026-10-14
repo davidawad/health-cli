@@ -8,6 +8,11 @@ use calamine::{open_workbook, Data, Reader, Xlsx};
 use rust_xlsxwriter::{Formula, Workbook};
 
 use super::pheno::{phenoage_of_xb, xb_of, CRP, C_SI, C_W, INPUTS, INPUT_HR, TITLE};
+use lo::soffice;
+
+/// The integration tests' `soffice` lookup (fails instead of skipping under `HEALTH_REQUIRE_RECALC=1`).
+#[path = "../../../../tests/support/soffice.rs"]
+mod lo;
 
 /// Synthetic panel in the units of [`INPUTS`] (albumin g/dL ... WBC 10^3/uL; CRP mg/L), age 40.
 const PANEL: [f64; 9] = [4.5, 0.9, 88.0, 0.5, 30.0, 90.0, 12.5, 60.0, 5.6];
@@ -24,13 +29,6 @@ fn rust_phenoage() -> f64 {
     let g = 0.0076927_f64;
     let m = 1.0 - (-(xb.exp()) * ((120.0 * g).exp() - 1.0) / g).exp();
     141.50225 + (-0.00553 * (1.0 - m).ln()).ln() / 0.090165
-}
-
-fn soffice() -> Option<String> {
-    ["soffice", "/Applications/LibreOffice.app/Contents/MacOS/soffice", "/opt/homebrew/bin/soffice"]
-        .iter()
-        .find(|c| Command::new(c).arg("--version").output().is_ok_and(|o| o.status.success()))
-        .map(|c| (*c).to_string())
 }
 
 #[test]

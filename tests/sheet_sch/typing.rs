@@ -8,6 +8,7 @@ use std::process::Command;
 use calamine::open_workbook;
 
 use super::Book;
+pub use crate::support::soffice::soffice;
 
 /// A value typed into a blue cell.
 pub enum Typed {
@@ -55,13 +56,6 @@ pub fn a1(row: u32, col: u32) -> String {
         c = (c - 1) / 26;
     }
     format!("{s}{}", row + 1)
-}
-
-pub fn soffice() -> Option<String> {
-    ["soffice", "/Applications/LibreOffice.app/Contents/MacOS/soffice", "/opt/homebrew/bin/soffice"]
-        .iter()
-        .find(|c| Command::new(c).arg("--version").output().is_ok_and(|o| o.status.success()))
-        .map(|c| (*c).to_string())
 }
 
 pub fn recalc(soffice: &str, dir: &Path, input: &Path) -> Book {

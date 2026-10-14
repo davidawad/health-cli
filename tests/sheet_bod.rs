@@ -15,6 +15,7 @@ mod lane_b;
 mod lane_c;
 #[path = "sheet_bod/lane_d.rs"]
 mod lane_d;
+mod support;
 
 use std::path::Path;
 

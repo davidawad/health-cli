@@ -7,6 +7,7 @@ use std::io::{Read, Write};
 use std::path::{Path, PathBuf};
 use std::process::Command;
 
+pub use crate::support::soffice::soffice;
 use calamine::{open_workbook, Data as Cell, Range, Reader, Xlsx};
 use chrono::NaiveDate;
 use health_cli::workbook::labs::{Labs, MarkerInfo, Measurement};
@@ -195,13 +196,6 @@ pub fn skip(reason: &str) {
         let mut f = std::fs::OpenOptions::new().create(true).append(true).open(p).unwrap();
         writeln!(f, "sheet_cln: {reason}").unwrap();
     }
-}
-
-pub fn soffice() -> Option<String> {
-    ["soffice", "/Applications/LibreOffice.app/Contents/MacOS/soffice", "/opt/homebrew/bin/soffice"]
-        .iter()
-        .find(|c| Command::new(c).arg("--version").output().is_ok_and(|o| o.status.success()))
-        .map(|c| (*c).to_string())
 }
 
 /// Recalculate in headless LibreOffice (private profile, always recalc on load).

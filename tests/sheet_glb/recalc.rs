@@ -9,14 +9,8 @@ use std::process::Command;
 use calamine::{Data, Reader};
 
 use super::{generate, open, right_of, row_of, sheet_part, skip, t, Book, GLB_SHEETS};
+use crate::support::soffice::soffice;
 use crate::support::Env;
-
-fn soffice() -> Option<String> {
-    ["soffice", "/Applications/LibreOffice.app/Contents/MacOS/soffice", "/opt/homebrew/bin/soffice"]
-        .iter()
-        .find(|c| Command::new(c).arg("--version").output().is_ok_and(|o| o.status.success()))
-        .map(|c| (*c).to_string())
-}
 
 /// Copy `src` to `dst` with numbers typed into blank cells (`B7`) of the worksheet part `xml`.
 fn type_into(src: &Path, dst: &Path, xml: &str, edits: &[(String, f64)]) {

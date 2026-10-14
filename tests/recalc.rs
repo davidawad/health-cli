@@ -1,7 +1,8 @@
 //! Recalculate the generated workbook in headless LibreOffice and fail on any
 //! formula error (#NAME?, #REF!, #VALUE!, ...): the build-time Checks run that
 //! catches Excel-incompatible formulas. Also checks the `Calc_*` numbers.
-//! Skipped when `soffice` is not installed.
+//! Skipped (and logged to `$TEST_SKIP_LOG`) when `soffice` is not installed,
+//! unless `HEALTH_REQUIRE_RECALC=1` makes that a failure.
 
 #![cfg(unix)]
 
@@ -11,13 +12,17 @@ use std::path::Path;
 use std::process::Command;
 
 use calamine::{open_workbook, Data, Range, Reader, Xlsx};
+use support::soffice::soffice;
 use support::Env;
 
-fn soffice() -> Option<String> {
-    ["soffice", "/Applications/LibreOffice.app/Contents/MacOS/soffice", "/opt/homebrew/bin/soffice"]
-        .iter()
-        .find(|c| Command::new(c).arg("--version").output().is_ok_and(|o| o.status.success()))
-        .map(|c| (*c).to_string())
+/// Record a skipped test where the runner asked for it (TEST_SKIP_LOG), and say so on stderr.
+fn skip(test: &str) {
+    eprintln!("SKIP {test}: soffice not installed");
+    if let Some(p) = std::env::var_os("TEST_SKIP_LOG") {
+        use std::io::Write;
+        let mut f = std::fs::OpenOptions::new().create(true).append(true).open(p).unwrap();
+        writeln!(f, "{test}: soffice not installed").unwrap();
+    }
 }
 
 /// Convert `input` with a private profile that always recalculates OOXML on load.
@@ -61,8 +66,7 @@ fn row_of(r: &Range<Data>, key: &str) -> u32 {
 #[test]
 fn no_formula_errors_after_a_full_recalculation() {
     let Some(soffice) = soffice() else {
-        eprintln!("soffice not found: skipping");
-        return;
+        return skip("recalc::no_formula_errors_after_a_full_recalculation");
     };
     let e = Env::new();
     e.write_stubs();
@@ -144,8 +148,7 @@ fn no_formula_errors_after_a_full_recalculation() {
 #[test]
 fn structured_references_work_in_formulas() {
     let Some(soffice) = soffice() else {
-        eprintln!("soffice not found: skipping");
-        return;
+        return skip("recalc::structured_references_work_in_formulas");
     };
     let dir = tempfile::TempDir::new().unwrap();
     let path = dir.path().join("probe.xlsx");

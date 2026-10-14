@@ -8,6 +8,14 @@ test-gate:
     cargo clippy --all-targets -- -D warnings
     cargo test
 
+# test-gate with the LibreOffice recalculation tests required: installs headless
+# LibreOffice Calc (no root needed) and fails, rather than skips, without it.
+test-gate-recalc:
+    maintenance/scripts/install-soffice.sh
+    cargo fmt --check
+    cargo clippy --all-targets -- -D warnings
+    HEALTH_REQUIRE_RECALC=1 cargo test
+
 # Coverage report (slow, instrumented build); not part of test-gate.
 coverage:
     cargo llvm-cov --html

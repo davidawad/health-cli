@@ -19,6 +19,7 @@ use std::process::Command;
 
 use calamine::{open_workbook, Data, Reader, Xlsx};
 use lint::{code, name_refs, sheet_refs};
+use support::soffice::soffice;
 use support::Env;
 
 /// Every GEN sheet in tab order (GEN-01..11, then the rule tables).
@@ -372,13 +373,6 @@ fn only_brings_the_hub_and_rule_tables_along() {
         assert!(names.contains(&s.to_string()), "{s} brought along");
     }
     assert!(!names.contains(&"Gen_PGx".to_string()));
-}
-
-fn soffice() -> Option<String> {
-    ["soffice", "/Applications/LibreOffice.app/Contents/MacOS/soffice", "/opt/homebrew/bin/soffice"]
-        .iter()
-        .find(|c| Command::new(c).arg("--version").output().is_ok_and(|o| o.status.success()))
-        .map(|c| (*c).to_string())
 }
 
 /// Recalculate in headless LibreOffice: no formula errors in a GEN sheet, and the

@@ -166,8 +166,16 @@ Same design as biomarker-cli: [`docs/security.md`](docs/security.md).
 ## Development
 
 ```console
-$ just test-gate     # cargo fmt --check, clippy -D warnings, cargo test
+$ just test-gate          # cargo fmt --check, clippy -D warnings, cargo test
+$ just test-gate-recalc   # the same, with the LibreOffice recalculation tests required
 ```
+
+The tests that recalculate the generated workbook (formula errors, computed
+values) need headless LibreOffice (`soffice`). Without it they skip and log to
+`$TEST_SKIP_LOG`; with `HEALTH_REQUIRE_RECALC=1` (CI, box gates) they fail
+instead. `maintenance/scripts/install-soffice.sh` installs LibreOffice Calc,
+without root if need be (into `~/.local/opt/libreoffice`, where the tests look);
+`$SOFFICE` points the tests at any other `soffice`.
 
 Tests use a **synthetic** workbook generated in `tests/support/mod.rs`. Never
 commit a real workbook or real personal data; `*.xlsx` is git-ignored.

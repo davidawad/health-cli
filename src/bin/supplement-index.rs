@@ -1,6 +1,10 @@
 use serde::Serialize;
 use serde_json::Value;
-use std::{collections::BTreeSet, fs, path::PathBuf};
+use std::{
+    collections::{BTreeMap, BTreeSet},
+    fs,
+    path::PathBuf,
+};
 
 #[derive(Serialize)]
 struct Row {
@@ -16,20 +20,6 @@ struct Row {
 
 fn norm(s: &str) -> String {
     s.chars().filter(|c| c.is_alphanumeric()).flat_map(char::to_lowercase).collect()
-}
-
-fn edit_distance(a: &str, b: &str) -> usize {
-    let mut row = (0..=b.chars().count()).collect::<Vec<_>>();
-    for (i, ca) in a.chars().enumerate() {
-        let mut prev = row[0];
-        row[0] = i + 1;
-        for (j, cb) in b.chars().enumerate() {
-            let old = row[j + 1];
-            row[j + 1] = (row[j + 1] + 1).min(row[j] + 1).min(prev + usize::from(ca != cb));
-            prev = old;
-        }
-    }
-    *row.last().unwrap()
 }
 
 fn main() {
@@ -88,35 +78,101 @@ fn main() {
     }
     let encoded = serde_json::to_string_pretty(&rows).unwrap() + "\n";
     fs::write(root.join("index.json"), encoded).unwrap();
-    let canon = names
-        .iter()
-        .flat_map(|(n, a)| std::iter::once(n).chain(a))
-        .map(|s| (norm(s), names.iter().find(|(n, a)| n == s || a.iter().any(|x| x == s)).unwrap().0.clone()))
-        .collect::<Vec<_>>();
-    let mut report = String::from("# Supplement name joins\n\nEdges whose supplement name does not match a canonical name or alias after case and punctuation normalization.\n\n");
-    let mut misses = Vec::new();
-    for (slug, obj) in &objects {
-        for edge in obj["edges"].as_array().unwrap() {
+    let report = name_join_report(&names, &objects);
+    fs::write(root.join("NAME-JOIN.md"), report).unwrap();
+}
+
+/// Spellings with counts, citing supplement slugs, edge count.
+type Group = (BTreeMap<String, usize>, BTreeSet<String>, usize);
+
+/// Supplement edges whose target matches no canonical name or alias, grouped by normalised name.
+fn name_join_report(names: &[(String, Vec<String>)], objects: &[(String, Value)]) -> String {
+    let canon = names.iter().flat_map(|(n, a)| std::iter::once(n).chain(a)).map(|s| norm(s)).collect::<BTreeSet<_>>();
+    // normalised name -> (spellings with counts, citing supplement slugs, edge count)
+    let mut groups: BTreeMap<String, Group> = BTreeMap::new();
+    for (slug, obj) in objects {
+        for edge in obj["edges"].as_array().into_iter().flatten() {
             if edge["with_kind"] != "supplement" {
                 continue;
             }
-            let with = edge["with"].as_str().unwrap_or("");
+            let with = edge["with"].as_str().unwrap_or("").trim();
             let key = norm(with);
-            if canon.iter().any(|(c, _)| *c == key) {
+            if key.is_empty() || canon.contains(&key) {
                 continue;
             }
-            let (suggestion, _) =
-                canon.iter().map(|(c, n)| (n, edit_distance(&key, c))).min_by_key(|(_, d)| *d).unwrap();
-            misses.push((slug, with.to_owned(), suggestion.clone()));
+            let group = groups.entry(key).or_default();
+            *group.0.entry(with.to_owned()).or_default() += 1;
+            group.1.insert(slug.clone());
+            group.2 += 1;
         }
     }
-    if misses.is_empty() {
+    let mut report = String::from(
+        "# Supplement name joins\n\nOff-list supplement edge targets: names that match no canonical supplement name or alias after case and punctuation normalization, grouped by normalized name.\n\n",
+    );
+    if groups.is_empty() {
         report.push_str("No unmatched supplement edges.\n");
-    } else {
-        report.push_str("| Source supplement | Edge name | Suggested canonical match |\n|---|---|---|\n");
-        for (slug, with, suggestion) in misses {
-            report.push_str(&format!("| {slug} | {with} | {suggestion} |\n"));
-        }
+        return report;
     }
-    fs::write(root.join("NAME-JOIN.md"), report).unwrap();
+    let mut groups = groups.into_values().collect::<Vec<_>>();
+    let label = |spellings: &BTreeMap<String, usize>| {
+        // most frequent spelling, ties broken alphabetically
+        spellings.iter().max_by(|a, b| a.1.cmp(b.1).then(b.0.cmp(a.0))).unwrap().0.clone()
+    };
+    groups.sort_by_cached_key(|g| (std::cmp::Reverse(g.2), label(&g.0).to_lowercase()));
+    report.push_str("| Edge target | Edges | Citing supplements | Spellings |\n|---|---|---|---|\n");
+    for (spellings, slugs, count) in &groups {
+        let cells = |items: Vec<&String>| items.into_iter().map(String::as_str).collect::<Vec<_>>().join(", ");
+        report.push_str(&format!(
+            "| {} | {count} | {} | {} |\n",
+            label(spellings),
+            cells(slugs.iter().collect()),
+            cells(spellings.keys().collect()),
+        ));
+    }
+    report
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use serde_json::json;
+
+    fn obj(edges: &[(&str, &str)]) -> Value {
+        json!({"edges": edges.iter().map(|(w, k)| json!({"with": w, "with_kind": k})).collect::<Vec<_>>()})
+    }
+
+    #[test]
+    fn groups_off_list_targets_and_skips_aliases() {
+        let names = vec![
+            ("Rhodiola Rosea".to_owned(), vec!["Rhodiola".to_owned()]),
+            ("EPA/DHA/DPA".to_owned(), vec![]),
+            ("Aspirin".to_owned(), vec![]),
+        ];
+        let objects = vec![
+            (
+                "ashwagandha".to_owned(),
+                obj(&[("Rhodiola", "supplement"), ("Kava", "supplement"), ("Valerian", "supplement")]),
+            ),
+            (
+                "b-complex".to_owned(),
+                obj(&[("kava", "supplement"), ("epa dha dpa", "supplement"), ("Warfarin", "drug")]),
+            ),
+            ("ginger-root".to_owned(), obj(&[("Kava", "supplement")])),
+        ];
+        let report = name_join_report(&names, &objects);
+        assert!(report.contains("| Kava | 3 | ashwagandha, b-complex, ginger-root | Kava, kava |\n"), "{report}");
+        assert!(report.contains("| Valerian | 1 | ashwagandha | Valerian |\n"), "{report}");
+        assert!(report.find("| Kava").unwrap() < report.find("| Valerian").unwrap());
+        assert!(!report.contains("Rhodiola"));
+        assert!(!report.contains("Warfarin"));
+        assert!(!report.contains("Aspirin"));
+        assert!(!report.to_lowercase().contains("suggest"));
+    }
+
+    #[test]
+    fn reports_clean_when_all_match() {
+        let names = vec![("Magnesium".to_owned(), vec!["Mg".to_owned()])];
+        let objects = vec![("zinc".to_owned(), obj(&[("MG", "supplement")]))];
+        assert!(name_join_report(&names, &objects).ends_with("No unmatched supplement edges.\n"));
+    }
 }

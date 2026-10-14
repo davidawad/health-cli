@@ -29,6 +29,10 @@ $ health list supplements  # also: products nutrition routine workout vaccines .
 $ health sheet --out ~/desk/Personal/Medical/Health\ Dashboard\ \(generated\).xlsx
 ```
 
+Prebuilt macOS binaries come from the `Release` workflow on a version tag;
+on carbon install those rather than building (see
+[`docs/release.md`](docs/release.md)).
+
 The first command that opens the database creates it, encrypted with your
 `~/.ssh/id_ed25519` (the same key biomarker and genome use). Where it lives:
 `~/.local/share/health-cli/health.db` (`health db path`), config in

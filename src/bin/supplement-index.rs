@@ -82,11 +82,14 @@ fn main() {
     fs::write(root.join("NAME-JOIN.md"), report).unwrap();
 }
 
+/// Spellings with counts, citing supplement slugs, edge count.
+type Group = (BTreeMap<String, usize>, BTreeSet<String>, usize);
+
 /// Supplement edges whose target matches no canonical name or alias, grouped by normalised name.
 fn name_join_report(names: &[(String, Vec<String>)], objects: &[(String, Value)]) -> String {
     let canon = names.iter().flat_map(|(n, a)| std::iter::once(n).chain(a)).map(|s| norm(s)).collect::<BTreeSet<_>>();
     // normalised name -> (spellings with counts, citing supplement slugs, edge count)
-    let mut groups: BTreeMap<String, (BTreeMap<String, usize>, BTreeSet<String>, usize)> = BTreeMap::new();
+    let mut groups: BTreeMap<String, Group> = BTreeMap::new();
     for (slug, obj) in objects {
         for edge in obj["edges"].as_array().into_iter().flatten() {
             if edge["with_kind"] != "supplement" {
